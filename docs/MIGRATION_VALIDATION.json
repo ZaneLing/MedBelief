@@ -16,7 +16,7 @@
     "matches_original_raw_text_prompt_hash_tokens_and_parameters": true
   },
   "temporary_model_link_removed": true,
-  "test_runtime": "Original validated local Mac interpreters; copied project path. Fresh-computer installation is documented, not claimed already run on a second computer.",
+  "test_runtime": "Full phase105 validation used original local Mac interpreters with copied project path. Prototype replay also passed in a freshly installed MLX environment on this Mac. A second physical Mac has not yet been tested.",
   "model_weights_and_environments_excluded_from_git": true,
   "source_workspace_unchanged": true,
   "api_cost_usd": 0,
@@ -33,5 +33,12 @@
     }
   },
   "new_migration_tools_syntax_and_cli_help_checked": true,
-  "new_document_relative_links_exist": true
+  "new_document_relative_links_exist": true,
+  "fresh_mlx_environment": {
+    "install_succeeded": true,
+    "replay_matches_original": true,
+    "elapsed_replay_seconds": 9.64,
+    "lockfile": "MedicalBeliefMechanisms/requirements-mlx-lock.txt",
+    "host": "same Apple Silicon Mac, newly created virtual environment"
+  }
 }
