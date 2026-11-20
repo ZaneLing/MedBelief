@@ -10,7 +10,8 @@ from github_auth import environment
 ROOT=Path(__file__).resolve().parents[1]
 
 def main():
- ap=argparse.ArgumentParser();ap.add_argument('--finalize',action='store_true');a=ap.parse_args();m=json.loads((ROOT/'artifacts/manifest.json').read_text());env=environment();repo=m['repo'];tag=m['release_tag'];start=time.time()
+ ap=argparse.ArgumentParser();ap.add_argument('--finalize',action='store_true');ap.add_argument('--workers',type=int,choices=range(1,9),default=4);a=ap.parse_args();m=json.loads((ROOT/'artifacts/manifest.json').read_text());env=environment();repo=m['repo'];tag=m['release_tag'];start=time.time()
+ transport=[p for archive in m['assets'] for p in archive.get('parts',[archive])]
  def gh(args,**kw):return subprocess.run(['gh',*args],env=env,text=True,capture_output=True,**kw)
  def api(path,method=None,fields=None):
   args=['api',path]
@@ -30,7 +31,7 @@ def main():
  def inventory():return {x['name']:x for x in api('repos/'+repo+'/releases/'+str(release['id'])+'/assets?per_page=100')}
  def matches(remote,local):return remote.get('state')=='uploaded' and remote['size']==local['bytes'] and remote.get('digest')=='sha256:'+local['sha256']
  existing=inventory();pending=[]
- for z in m['assets']:
+ for z in transport:
   if z['name'] in existing:
    assert matches(existing[z['name']],z),('Existing remote asset differs',z['name'])
   else:pending.append(z)
@@ -45,9 +46,9 @@ def main():
     else:raise RuntimeError('Remote checksum mismatch: '+z['name'])
    if attempt==2:raise RuntimeError('Upload failed for '+z['name']+': '+p.stderr[-1000:])
    time.sleep(5)
- with ThreadPoolExecutor(max_workers=2) as pool:
+ with ThreadPoolExecutor(max_workers=a.workers) as pool:
   for f in as_completed([pool.submit(upload,z) for z in sorted(pending,key=lambda x:(x['group']!='current-v010',x['bytes']))]):f.result()
- remote=inventory();assert all(x['name'] in remote and matches(remote[x['name']],x) for x in m['assets'])
+ remote=inventory();assert all(x['name'] in remote and matches(remote[x['name']],x) for x in transport)
  # Upload the scientific manifest and checksums as convenient release companions.
  for f in [ROOT/'artifacts/manifest.json',ROOT/'artifacts/SHA256SUMS']:
   h=hashlib.sha256(f.read_bytes()).hexdigest();old=remote.get(f.name)
@@ -62,6 +63,6 @@ def main():
   p=gh(['release','edit',tag,'--repo',repo,'--draft=false','--latest']);p.check_returncode()
  release=api('repos/'+repo+'/releases/'+str(release['id']))
  if a.finalize:assert not release['draft'] and release.get('published_at'),'Release was not published'
- report=dict(complete=True,repository=repo,private=info['private'],release_url='https://github.com/'+repo+'/releases/tag/'+tag,draft=release['draft'],published_at=release.get('published_at'),assets=len(m['assets']),companion_assets=2,bytes=sum(x['bytes'] for x in m['assets']),all_remote_sha256_verified=True,companions_sha256_verified=True,api_inference_cost_usd=0)
+ report=dict(complete=True,repository=repo,private=info['private'],release_url='https://github.com/'+repo+'/releases/tag/'+tag,draft=release['draft'],published_at=release.get('published_at'),logical_archives=len(m['assets']),remote_data_assets=len(transport),companion_assets=2,bytes=sum(x['bytes'] for x in m['assets']),all_remote_sha256_verified=True,companions_sha256_verified=True,api_inference_cost_usd=0)
  (ROOT/'docs/UPLOAD_VALIDATION.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report),flush=True)
 if __name__=='__main__':main()

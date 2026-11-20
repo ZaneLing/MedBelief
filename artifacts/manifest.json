@@ -240220,63 +240220,297 @@
       "group": "acl-evidence-v008-v009",
       "bytes": 804968583,
       "sha256": "b2d9249f4fde6b9a73ad84a193a33ff8631ac513e0b34a6a7f3e1310a9c0498f",
-      "files": 1247
+      "files": 1247,
+      "parts": [
+        {
+          "name": "acl-evidence-v008-v009-002.tar.gz.part01",
+          "bytes": 201326592,
+          "sha256": "9a65ac6b870ad858c7c70296553d16e27d3eaba240cdbd6ca46983a6d72ea263",
+          "group": "acl-evidence-v008-v009"
+        },
+        {
+          "name": "acl-evidence-v008-v009-002.tar.gz.part02",
+          "bytes": 201326592,
+          "sha256": "fad15522695bcbd525f289e550eddbb200071362b0bad31c4f81614c3d6b6a2a",
+          "group": "acl-evidence-v008-v009"
+        },
+        {
+          "name": "acl-evidence-v008-v009-002.tar.gz.part03",
+          "bytes": 201326592,
+          "sha256": "936f88251b1fc58651f960d507dd4b92877dd23be4badf20275196e97f396375",
+          "group": "acl-evidence-v008-v009"
+        },
+        {
+          "name": "acl-evidence-v008-v009-002.tar.gz.part04",
+          "bytes": 200988807,
+          "sha256": "5bcbeafa0596980a6c036314d32c337f35772629d7857e233b84b30fc899b4b1",
+          "group": "acl-evidence-v008-v009"
+        }
+      ]
     },
     {
       "name": "acl-evidence-v008-v009-003.tar.gz",
       "group": "acl-evidence-v008-v009",
       "bytes": 804788717,
       "sha256": "d7d08c605adc88cae23c81603b44e6a7239947663dc3f279b205811048b5f13b",
-      "files": 808
+      "files": 808,
+      "parts": [
+        {
+          "name": "acl-evidence-v008-v009-003.tar.gz.part01",
+          "bytes": 201326592,
+          "sha256": "cc1739f7ccfc86687eb552b3ce27babace9b14b5d0c5b3e58600ba3bbc8e597a",
+          "group": "acl-evidence-v008-v009"
+        },
+        {
+          "name": "acl-evidence-v008-v009-003.tar.gz.part02",
+          "bytes": 201326592,
+          "sha256": "185688fcce2f71d246ead8f3ffefd1086fefb471f971f82915d8f8be1a7195ac",
+          "group": "acl-evidence-v008-v009"
+        },
+        {
+          "name": "acl-evidence-v008-v009-003.tar.gz.part03",
+          "bytes": 201326592,
+          "sha256": "d78323ee1cdad78834fbf0b3ea3b595faf188a406fa7c047225805819b79b287",
+          "group": "acl-evidence-v008-v009"
+        },
+        {
+          "name": "acl-evidence-v008-v009-003.tar.gz.part04",
+          "bytes": 200808941,
+          "sha256": "7580775b0c378d79aceb2183d8b71296f6349ded4f6380399680374dd43c3a98",
+          "group": "acl-evidence-v008-v009"
+        }
+      ]
     },
     {
       "name": "acl-evidence-v008-v009-004.tar.gz",
       "group": "acl-evidence-v008-v009",
       "bytes": 804199498,
       "sha256": "2870ea2da1ec316262d790bbe755e29bfb2167d4122925c4457f98efe372194c",
-      "files": 695
+      "files": 695,
+      "parts": [
+        {
+          "name": "acl-evidence-v008-v009-004.tar.gz.part01",
+          "bytes": 201326592,
+          "sha256": "dc5ebe0e64ce9eb2c910e7cbbfbb3413b290920fbbb5e8f158be449a13c8396d",
+          "group": "acl-evidence-v008-v009"
+        },
+        {
+          "name": "acl-evidence-v008-v009-004.tar.gz.part02",
+          "bytes": 201326592,
+          "sha256": "c8a7f26ac95c1ff3907562cae4314e0c64b048fd63f956ce66024776f22d9d80",
+          "group": "acl-evidence-v008-v009"
+        },
+        {
+          "name": "acl-evidence-v008-v009-004.tar.gz.part03",
+          "bytes": 201326592,
+          "sha256": "8e240441bd21546ba97ad9c516509effaefbd3b1f2318a333b7efdd485ad536b",
+          "group": "acl-evidence-v008-v009"
+        },
+        {
+          "name": "acl-evidence-v008-v009-004.tar.gz.part04",
+          "bytes": 200219722,
+          "sha256": "4fc0a951e7a95f9eded9cd6363db2b7f37a34466a7f41edf8372ba4b414f300b",
+          "group": "acl-evidence-v008-v009"
+        }
+      ]
     },
     {
       "name": "acl-evidence-v008-v009-005.tar.gz",
       "group": "acl-evidence-v008-v009",
       "bytes": 805006203,
       "sha256": "9cb84440427412b7cf3608c2375921531fd99c7403a550ba9d50a9a0d516bd22",
-      "files": 662
+      "files": 662,
+      "parts": [
+        {
+          "name": "acl-evidence-v008-v009-005.tar.gz.part01",
+          "bytes": 201326592,
+          "sha256": "e662c19f1e5f838a36748b0a884e88e186ab024e5e90d1453a8a704655b10879",
+          "group": "acl-evidence-v008-v009"
+        },
+        {
+          "name": "acl-evidence-v008-v009-005.tar.gz.part02",
+          "bytes": 201326592,
+          "sha256": "be352cca64d7255285bc07da3e22cbdd2675208f38194731412babb72e9e5173",
+          "group": "acl-evidence-v008-v009"
+        },
+        {
+          "name": "acl-evidence-v008-v009-005.tar.gz.part03",
+          "bytes": 201326592,
+          "sha256": "313b7bade2c9c52927de72c86cc162dc7e15ad6650ab75c0036cdf096b4e1e36",
+          "group": "acl-evidence-v008-v009"
+        },
+        {
+          "name": "acl-evidence-v008-v009-005.tar.gz.part04",
+          "bytes": 201026427,
+          "sha256": "824bf97cdf7dd0465e946e7a6a58b4082d7bfa549fd2c0e5c13cf8d88c017dc9",
+          "group": "acl-evidence-v008-v009"
+        }
+      ]
     },
     {
       "name": "acl-evidence-v008-v009-006.tar.gz",
       "group": "acl-evidence-v008-v009",
       "bytes": 804146561,
       "sha256": "d59b15f06e013129136debb425133de07caf25bd923004094cdda99efc58a447",
-      "files": 649
+      "files": 649,
+      "parts": [
+        {
+          "name": "acl-evidence-v008-v009-006.tar.gz.part01",
+          "bytes": 201326592,
+          "sha256": "cbc5bc583b24f0dff10618456973b002b895bc0e328700c8fd3990db65d3e58f",
+          "group": "acl-evidence-v008-v009"
+        },
+        {
+          "name": "acl-evidence-v008-v009-006.tar.gz.part02",
+          "bytes": 201326592,
+          "sha256": "003a0919302003a62afb557db5b2a413b9414105da84401a4ec70886fc52a06d",
+          "group": "acl-evidence-v008-v009"
+        },
+        {
+          "name": "acl-evidence-v008-v009-006.tar.gz.part03",
+          "bytes": 201326592,
+          "sha256": "594754a83dd137754abb9236b3b715f4a94f5fa28de1d62e565043ee1662558a",
+          "group": "acl-evidence-v008-v009"
+        },
+        {
+          "name": "acl-evidence-v008-v009-006.tar.gz.part04",
+          "bytes": 200166785,
+          "sha256": "9e475abb795dc66b9c402adbac4230ed7e1a874c948b7c059f5c10e472f473e8",
+          "group": "acl-evidence-v008-v009"
+        }
+      ]
     },
     {
       "name": "acl-evidence-v008-v009-007.tar.gz",
       "group": "acl-evidence-v008-v009",
       "bytes": 805154995,
       "sha256": "232b1d8c3f13af76a0973691e177d12dc7fcca0cd92ead8ec8464e0079c20daa",
-      "files": 677
+      "files": 677,
+      "parts": [
+        {
+          "name": "acl-evidence-v008-v009-007.tar.gz.part01",
+          "bytes": 201326592,
+          "sha256": "178d5c12eb78fcab8f129d40ed6e3320ab2a4180c172398398109a664294a84e",
+          "group": "acl-evidence-v008-v009"
+        },
+        {
+          "name": "acl-evidence-v008-v009-007.tar.gz.part02",
+          "bytes": 201326592,
+          "sha256": "9b83a3e7880df52478b9a15fd4431efba33e841986fdf1e7d457926e98b9ec80",
+          "group": "acl-evidence-v008-v009"
+        },
+        {
+          "name": "acl-evidence-v008-v009-007.tar.gz.part03",
+          "bytes": 201326592,
+          "sha256": "a52e50821543d4dc16d3d5bc4fd2fffef945b0e03bae0810f1711d11ca99b032",
+          "group": "acl-evidence-v008-v009"
+        },
+        {
+          "name": "acl-evidence-v008-v009-007.tar.gz.part04",
+          "bytes": 201175219,
+          "sha256": "b7b566ace18252263c29966ef5c067a16c0789be6abecf2663675bfb30a4ed01",
+          "group": "acl-evidence-v008-v009"
+        }
+      ]
     },
     {
       "name": "acl-evidence-v008-v009-008.tar.gz",
       "group": "acl-evidence-v008-v009",
       "bytes": 804429492,
       "sha256": "23087d1c8aad306536c7c08959ba1430dc37ac0c9687c34d2da0fca0d870b2f4",
-      "files": 651
+      "files": 651,
+      "parts": [
+        {
+          "name": "acl-evidence-v008-v009-008.tar.gz.part01",
+          "bytes": 201326592,
+          "sha256": "cfcdd4f8e18bb50fe23d25a943d8b1603b7ec33e68fc472c2ae8c092bc05ac9c",
+          "group": "acl-evidence-v008-v009"
+        },
+        {
+          "name": "acl-evidence-v008-v009-008.tar.gz.part02",
+          "bytes": 201326592,
+          "sha256": "af726717ed30e35a0995c5b13c0fb8f3dc698e6344c885c8f29874b913c86fc7",
+          "group": "acl-evidence-v008-v009"
+        },
+        {
+          "name": "acl-evidence-v008-v009-008.tar.gz.part03",
+          "bytes": 201326592,
+          "sha256": "95bdc8b0700224258f340c4977c1e57f0bd2f408eb19eb82c97822c45e5313e8",
+          "group": "acl-evidence-v008-v009"
+        },
+        {
+          "name": "acl-evidence-v008-v009-008.tar.gz.part04",
+          "bytes": 200449716,
+          "sha256": "cd88a5f1b15f86a8c86858b45cb498239d90b3c10e6b4a5be4e237bddbe2e036",
+          "group": "acl-evidence-v008-v009"
+        }
+      ]
     },
     {
       "name": "acl-evidence-v008-v009-009.tar.gz",
       "group": "acl-evidence-v008-v009",
       "bytes": 804736614,
       "sha256": "373ee3518b226c165a9fb20ffd269f242c5aec8443199eeffeb45e489cc31e82",
-      "files": 667
+      "files": 667,
+      "parts": [
+        {
+          "name": "acl-evidence-v008-v009-009.tar.gz.part01",
+          "bytes": 201326592,
+          "sha256": "d57f2e34609b1d3ac81e5187b4fe2202342e7fa0ab5bc13dc6291d109fead98b",
+          "group": "acl-evidence-v008-v009"
+        },
+        {
+          "name": "acl-evidence-v008-v009-009.tar.gz.part02",
+          "bytes": 201326592,
+          "sha256": "77c68d6bb60468e9acd786fc7c8df1b34eb9d19b343a5187e678d0d001312905",
+          "group": "acl-evidence-v008-v009"
+        },
+        {
+          "name": "acl-evidence-v008-v009-009.tar.gz.part03",
+          "bytes": 201326592,
+          "sha256": "920f297b57f72ae7ddf84c14faa3e406a308d623ce4649b7a3c9e62cd643ef14",
+          "group": "acl-evidence-v008-v009"
+        },
+        {
+          "name": "acl-evidence-v008-v009-009.tar.gz.part04",
+          "bytes": 200756838,
+          "sha256": "931bb5e7cbb3c474761a731f950322a59e90a2e4489fad388ae10d1c5120d204",
+          "group": "acl-evidence-v008-v009"
+        }
+      ]
     },
     {
       "name": "acl-evidence-v008-v009-010.tar.gz",
       "group": "acl-evidence-v008-v009",
       "bytes": 802961778,
       "sha256": "8ceb8eacc283fef754b24dee8658208a32d00f3fa59aaa8ffd5fe2600329bd2c",
-      "files": 2306
+      "files": 2306,
+      "parts": [
+        {
+          "name": "acl-evidence-v008-v009-010.tar.gz.part01",
+          "bytes": 201326592,
+          "sha256": "6320d17aca9c7eca9b666da39234e2cf17d861b31fea07c2d5f3039e2b74ce96",
+          "group": "acl-evidence-v008-v009"
+        },
+        {
+          "name": "acl-evidence-v008-v009-010.tar.gz.part02",
+          "bytes": 201326592,
+          "sha256": "50de5e68649fb2a7d72e11315abede2c774a472e30f67924f5888ca511100247",
+          "group": "acl-evidence-v008-v009"
+        },
+        {
+          "name": "acl-evidence-v008-v009-010.tar.gz.part03",
+          "bytes": 201326592,
+          "sha256": "385240be3295423c0fd762fb1ceace52005b49adb21fcee057f15b911877540e",
+          "group": "acl-evidence-v008-v009"
+        },
+        {
+          "name": "acl-evidence-v008-v009-010.tar.gz.part04",
+          "bytes": 198982002,
+          "sha256": "62e751609385b91ccbdda7c02099fcd8d5cfffd3eb8e149f4adca5b56a00a413",
+          "group": "acl-evidence-v008-v009"
+        }
+      ]
     },
     {
       "name": "acl-evidence-v008-v009-011.tar.gz",
@@ -240300,5 +240534,6 @@
     "separate_clinicalbelief_models_runs": 27510116,
     "machine_specific_runtime_and_tools": 120111294
   },
-  "api_cost_usd": 0
+  "api_cost_usd": 0,
+  "transport_note": "Large historical archives not already uploaded are stored in ordered 192 MiB parts; restore_artifacts.py verifies parts, reassembles, and verifies the original archive SHA-256. Scientific file bytes are unchanged."
 }

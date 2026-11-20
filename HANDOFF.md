@@ -58,7 +58,11 @@ python3 tools/check_snapshot.py --profile current
 
 `current`约209MB，足够继续v0.10和重跑阶段102—106的统计。需要复核v0.8/v0.9的内部通路时用 `--profile acl`；需要全部已打包来源文件和历史分析数组时用 `--profile all`。每个文件均按原快照SHA-256检查；恢复工具不会覆盖内容不同的已有实验文件。
 
+部分历史大包在Release上分片存放，工具会自动下载、核验并合并；成功下载的分片可在重试时复用。继续最新阶段不需要先下载全部9.46GB历史包。
+
 [所有数据包](artifacts/manifest.json) · [包含及未包含的内容](docs/SNAPSHOT_SCOPE.md)。
+
+如果浏览器能访问GitHub，但命令行下载很慢或超时，先检查终端是否沿用本机已有的网络代理。macOS的系统代理不一定自动传给`git`/`gh`；只在需要时为当前终端设置与系统相同的`HTTPS_PROXY`，不要把代理凭据写入仓库。
 
 ## 5. 下载固定版本模型
 
