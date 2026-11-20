@@ -1,0 +1,178 @@
+{
+  "cases": 24,
+  "views": {
+    "append": {
+      "updates": 184,
+      "switches": 77,
+      "switches24": 59,
+      "same_first_switches": 25,
+      "native24_switch_rate": {
+        "mean": 0.3562665343915344,
+        "low": 0.2568452380952381,
+        "high": 0.458093998015873,
+        "cases": 24
+      },
+      "first_80pct_switches": 41,
+      "tail_80pct_switches": 25,
+      "probe21_switch_rate": {
+        "mean": 0.25458754208754203,
+        "low": 0.15070661976911978,
+        "high": 0.3678745791245791,
+        "cases": 24
+      },
+      "probe21_stable_when_native24_switches": {
+        "mean": 0.5816666666666667,
+        "low": 0.3883333333333333,
+        "high": 0.7716666666666667,
+        "cases": 20
+      },
+      "probe21_stable_gold_when_native24_switches": {
+        "mean": 0.52,
+        "low": 0.319875,
+        "high": 0.725,
+        "cases": 20
+      },
+      "probe21_stable_when_native_switches": {
+        "mean": 0.5634575569358178,
+        "low": 0.41153209109730854,
+        "high": 0.710879917184265,
+        "cases": 23
+      },
+      "probe21_stable_gold_when_native_switches": {
+        "mean": 0.49927536231884057,
+        "low": 0.32608695652173914,
+        "high": 0.6688586956521738,
+        "cases": 23
+      },
+      "probe21_opposes_native24_switch": {
+        "mean": 0.2041666666666667,
+        "low": 0.101625,
+        "high": 0.31585416666666655,
+        "cases": 20
+      },
+      "probe28_switch_rate": {
+        "mean": 0.24447901635401634,
+        "low": 0.13466119528619527,
+        "high": 0.36508969907407407,
+        "cases": 24
+      },
+      "probe28_stable_when_native24_switches": {
+        "mean": 0.5816666666666667,
+        "low": 0.4166666666666667,
+        "high": 0.7583749999999998,
+        "cases": 20
+      },
+      "probe28_stable_gold_when_native24_switches": {
+        "mean": 0.4833333333333333,
+        "low": 0.29166666666666663,
+        "high": 0.6916666666666667,
+        "cases": 20
+      },
+      "probe28_stable_when_native_switches": {
+        "mean": 0.5496894409937888,
+        "low": 0.3859057971014493,
+        "high": 0.722481884057971,
+        "cases": 23
+      },
+      "probe28_stable_gold_when_native_switches": {
+        "mean": 0.4275362318840579,
+        "low": 0.25362318840579706,
+        "high": 0.6232246376811592,
+        "cases": 23
+      },
+      "probe28_opposes_native24_switch": {
+        "mean": 0.1875,
+        "low": 0.07997916666666666,
+        "high": 0.30502083333333324,
+        "cases": 20
+      }
+    },
+    "panel": {
+      "updates": 184,
+      "switches": 23,
+      "switches24": 16,
+      "same_first_switches": 12,
+      "native24_switch_rate": {
+        "mean": 0.10021494708994709,
+        "low": 0.050213293650793654,
+        "high": 0.15625248015873014,
+        "cases": 24
+      },
+      "first_80pct_switches": 6,
+      "tail_80pct_switches": 13,
+      "probe21_switch_rate": {
+        "mean": 0.22100468975468976,
+        "low": 0.16399147727272725,
+        "high": 0.28249800835738337,
+        "cases": 24
+      },
+      "probe21_stable_when_native24_switches": {
+        "mean": 0.5454545454545454,
+        "low": 0.2727272727272727,
+        "high": 0.7738636363636301,
+        "cases": 11
+      },
+      "probe21_stable_gold_when_native24_switches": {
+        "mean": 0.36363636363636365,
+        "low": 0.13636363636363635,
+        "high": 0.6363636363636364,
+        "cases": 11
+      },
+      "probe21_stable_when_native_switches": {
+        "mean": 0.4404761904761904,
+        "low": 0.21428571428571427,
+        "high": 0.6666666666666667,
+        "cases": 14
+      },
+      "probe21_stable_gold_when_native_switches": {
+        "mean": 0.3452380952380953,
+        "low": 0.13095238095238096,
+        "high": 0.5714285714285714,
+        "cases": 14
+      },
+      "probe21_opposes_native24_switch": {
+        "mean": 0.4090909090909091,
+        "low": 0.18181818181818182,
+        "high": 0.6363636363636364,
+        "cases": 11
+      },
+      "probe28_switch_rate": {
+        "mean": 0.15107774170274169,
+        "low": 0.10402819113756614,
+        "high": 0.20328271554834057,
+        "cases": 24
+      },
+      "probe28_stable_when_native24_switches": {
+        "mean": 0.5454545454545454,
+        "low": 0.2727272727272727,
+        "high": 0.8181818181818182,
+        "cases": 11
+      },
+      "probe28_stable_gold_when_native24_switches": {
+        "mean": 0.4090909090909091,
+        "low": 0.13636363636363635,
+        "high": 0.6818181818181818,
+        "cases": 11
+      },
+      "probe28_stable_when_native_switches": {
+        "mean": 0.5238095238095238,
+        "low": 0.2973214285714285,
+        "high": 0.75,
+        "cases": 14
+      },
+      "probe28_stable_gold_when_native_switches": {
+        "mean": 0.34523809523809523,
+        "low": 0.13095238095238096,
+        "high": 0.5714285714285714,
+        "cases": 14
+      },
+      "probe28_opposes_native24_switch": {
+        "mean": 0.36363636363636365,
+        "low": 0.09090909090909091,
+        "high": 0.6363636363636364,
+        "cases": 11
+      }
+    }
+  },
+  "description": "Eventwise score changes are descriptive. Block score decomposition is an identity of an external normalized readout, not causal attribution."
+}

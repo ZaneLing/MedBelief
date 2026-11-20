@@ -1,0 +1,81 @@
+[
+  {
+    "name": "full_diagonal",
+    "adapter_file": "runs/structural_v2/adapters/full_diagonal/best.safetensors",
+    "adapter_kind": "diagonal",
+    "adapter_rank": 0
+  },
+  {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  {
+    "name": "full_adapter64",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter64/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 64
+  },
+  {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  {
+    "name": "exit20_constrained",
+    "exit_layer": 20,
+    "constrained": true
+  },
+  {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  }
+]

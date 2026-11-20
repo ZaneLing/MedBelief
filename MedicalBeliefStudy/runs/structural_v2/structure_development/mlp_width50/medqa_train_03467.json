@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_03467",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "mlp_width50",
+    "mlp_keep": 0.5
+  },
+  "parameter_stats": {
+    "parameters": 1192092672,
+    "weight_bytes": 2384185344,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Autism spectrum disorder\"}",
+      "generated_disease": "Autism spectrum disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "766a15c79feebd98949618416fa5e3fac6c3908939a5db6a9709acf0b3398e45"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Autism spectrum disorder\"}\n</think>\n\n{\"diagnosis\":\"Autism spectrum disorder\"}\n",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 16,
+      "prompt_sha256": "f08a45092dd288c77a03c9414b72e851ce81fa1dcbc762e11e4253bed508f474"
+    }
+  ]
+}

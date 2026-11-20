@@ -1,0 +1,49 @@
+{
+  "case_id": "medmcqa_train_95cf9e4b-e7f8-4afa-8c2d-2e30fdc8f074",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Renal tubular acidosis\"}",
+      "generated_disease": "Renal tubular acidosis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "6c0c8faa143d767ed5ab4c56556bb73cd0e491bff6857c8a8755157369966857"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Diabetes insipidus\"}",
+      "generated_disease": "Diabetes insipidus",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "b30cdf492764482425f0853ca605e0a3c9cf766bd8ce00f9f480836f50b6cc67"
+    }
+  ]
+}

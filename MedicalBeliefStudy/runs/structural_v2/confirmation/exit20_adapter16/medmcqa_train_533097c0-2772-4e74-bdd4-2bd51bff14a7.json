@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_533097c0-2772-4e74-bdd4-2bd51bff14a7",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "V splatting syndrome\"}",
+      "generated_disease": "V splatting syndrome",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "94c782bcffa1daf083e4692fb3e94cf110ba7a90897ff2421ac2fd1e46443f08"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pervicular body-induced acute hypercephension\"}",
+      "generated_disease": "Pervicular body-induced acute hypercephension",
+      "stop": "eos",
+      "tokens": 11,
+      "prompt_sha256": "be1367da7458b2ec4741a4c96dfc489c281cb5577c679f12dac296970df341d2"
+    }
+  ]
+}

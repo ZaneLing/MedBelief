@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_dev_00596",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "mlp_width50",
+    "mlp_keep": 0.5
+  },
+  "parameter_stats": {
+    "parameters": 1192092672,
+    "weight_bytes": 2384185344,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Endometriosis\"}\n</think>\n\n{\"diagnosis\":\"Endometriosis\"}\n",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 16,
+      "prompt_sha256": "d20ba03ac229db687a43a6ca67151b2d3532a617735fe90b4b20037cc34ecc4c"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Endometriosis\"}\n</think>\n\n{\"diagnosis\":\"Endometriosis\"}\n",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 16,
+      "prompt_sha256": "fe39a09622c6b3af8833c6515629fe63a437dd7b4b53a29b03820828347711c3"
+    }
+  ]
+}

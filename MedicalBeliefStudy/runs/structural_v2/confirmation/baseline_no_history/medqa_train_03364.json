@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_03364",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Laryngeal carcinoma\"}",
+      "generated_disease": "Laryngeal carcinoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "cd2f4233e214f839359a0e638cc4c60a6319ccccf88ae700d74bcdd2cdb3c843"
+    }
+  ]
+}

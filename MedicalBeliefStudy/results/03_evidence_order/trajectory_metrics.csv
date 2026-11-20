@@ -1,0 +1,433 @@
+case_id,cohort,disease,order,rotation,first_correct,stable_correct,first_correct_fraction,stable_correct_fraction,final_correct,regressions,recoveries,switches,tied_rounds,final_entropy
+ddx_train_0927024,replication,Pneumonia,base,0,3,3,0.1875,0.1875,True,0,1,3,0,0.022107064559994713
+ddx_train_0927024,replication,Pneumonia,base,3,3,,0.1875,,False,1,1,9,1,0.3296489453208294
+ddx_train_0927024,replication,Pneumonia,reverse,0,,,,,False,0,0,3,0,0.002823323624109237
+ddx_train_0927024,replication,Pneumonia,reverse,3,,,,,False,0,0,5,0,0.0025091452424616627
+ddx_train_0927024,replication,Pneumonia,shuffle,0,,,,,False,0,0,2,0,0.00928262116355765
+ddx_train_0927024,replication,Pneumonia,shuffle,3,,,,,False,0,0,7,0,0.007860350474903058
+ddx_train_0867636,replication,Pneumonia,base,0,15,,0.8333333333333334,,False,1,1,5,1,0.3793878821722606
+ddx_train_0867636,replication,Pneumonia,base,3,0,,0.0,,False,3,2,6,0,0.05301069670144252
+ddx_train_0867636,replication,Pneumonia,reverse,0,15,,0.8333333333333334,,False,1,1,2,0,0.2793675715729021
+ddx_train_0867636,replication,Pneumonia,reverse,3,0,6,0.0,0.3333333333333333,True,2,2,4,0,0.00020505654244053456
+ddx_train_0867636,replication,Pneumonia,shuffle,0,5,,0.2777777777777778,,False,1,1,2,0,0.024163558118966564
+ddx_train_0867636,replication,Pneumonia,shuffle,3,0,,0.0,,False,4,3,7,0,0.23085021292121669
+ddx_train_0884380,replication,Pneumonia,base,0,,,,,False,0,0,0,0,0.001065652082474175
+ddx_train_0884380,replication,Pneumonia,base,3,,,,,False,0,0,1,0,0.0368982358580671
+ddx_train_0884380,replication,Pneumonia,reverse,0,,,,,False,0,0,1,0,3.0513498142933554e-05
+ddx_train_0884380,replication,Pneumonia,reverse,3,,,,,False,0,0,1,0,0.00010564685902220783
+ddx_train_0884380,replication,Pneumonia,shuffle,0,,,,,False,0,0,1,0,0.0627445368740248
+ddx_train_0884380,replication,Pneumonia,shuffle,3,,,,,False,0,0,2,0,0.0003752255728449591
+ddx_train_0918008,replication,Pneumonia,base,0,0,,0.0,,False,2,1,4,1,0.507111019814374
+ddx_train_0918008,replication,Pneumonia,base,3,0,,0.0,,False,3,2,6,0,0.023426359019685275
+ddx_train_0918008,replication,Pneumonia,reverse,0,0,,0.0,,False,1,0,1,0,0.3822904405452989
+ddx_train_0918008,replication,Pneumonia,reverse,3,0,,0.0,,False,1,0,1,0,0.0002363402509409596
+ddx_train_0918008,replication,Pneumonia,shuffle,0,0,,0.0,,False,2,1,7,0,0.6798369676615609
+ddx_train_0918008,replication,Pneumonia,shuffle,3,0,,0.0,,False,2,1,3,0,0.00039447146023286037
+ddx_train_0906808,replication,Pneumonia,base,0,2,,0.1,,False,3,3,9,1,0.1202361868765205
+ddx_train_0906808,replication,Pneumonia,base,3,9,,0.45,,False,4,4,12,0,0.4941228729165694
+ddx_train_0906808,replication,Pneumonia,reverse,0,7,,0.35,,False,1,1,3,0,0.01740069645012539
+ddx_train_0906808,replication,Pneumonia,reverse,3,10,,0.5,,False,2,2,9,0,0.3323477306199632
+ddx_train_0906808,replication,Pneumonia,shuffle,0,4,,0.2,,False,2,2,5,0,0.02411400323664959
+ddx_train_0906808,replication,Pneumonia,shuffle,3,4,,0.2,,False,2,2,6,0,0.6773188832870992
+ddx_train_0891856,replication,Pneumonia,base,0,0,,0.0,,False,2,1,4,0,0.5042444751659908
+ddx_train_0891856,replication,Pneumonia,base,3,17,,0.8947368421052632,,False,1,1,3,0,0.5628602672115539
+ddx_train_0891856,replication,Pneumonia,reverse,0,0,19,0.0,1.0,True,3,3,10,0,0.5733806669044655
+ddx_train_0891856,replication,Pneumonia,reverse,3,15,,0.7894736842105263,,False,2,2,6,0,0.011000729245508318
+ddx_train_0891856,replication,Pneumonia,shuffle,0,0,,0.0,,False,3,2,6,0,0.6766516561260958
+ddx_train_0891856,replication,Pneumonia,shuffle,3,11,,0.5789473684210527,,False,1,1,3,0,0.2670579254354728
+ddx_train_0911596,replication,Pneumonia,base,0,,,,,False,0,0,2,0,0.0016260877278076104
+ddx_train_0911596,replication,Pneumonia,base,3,,,,,False,0,0,1,0,0.0035120202848511342
+ddx_train_0911596,replication,Pneumonia,reverse,0,3,,0.15789473684210525,,False,3,3,7,1,0.6410230115977679
+ddx_train_0911596,replication,Pneumonia,reverse,3,,,,,False,0,0,4,0,0.6192681888753144
+ddx_train_0911596,replication,Pneumonia,shuffle,0,3,,0.15789473684210525,,False,4,4,9,0,0.10603006031366063
+ddx_train_0911596,replication,Pneumonia,shuffle,3,11,,0.5789473684210527,,False,1,1,7,0,0.18086885562449936
+ddx_train_0850864,replication,Pneumonia,base,0,,,,,False,0,0,1,0,0.22054949866795384
+ddx_train_0850864,replication,Pneumonia,base,3,,,,,False,0,0,7,0,0.14592028658719852
+ddx_train_0850864,replication,Pneumonia,reverse,0,7,14,0.4375,0.875,True,3,4,11,0,0.03185307196132636
+ddx_train_0850864,replication,Pneumonia,reverse,3,,,,,False,0,0,6,0,0.013293069658631572
+ddx_train_0850864,replication,Pneumonia,shuffle,0,3,5,0.1875,0.3125,True,1,2,4,0,0.010475624361961337
+ddx_train_0850864,replication,Pneumonia,shuffle,3,5,,0.3125,,False,2,2,8,0,0.38621882432640864
+ddx_train_0943264,replication,Pneumonia,base,0,0,,0.0,,False,1,0,1,0,0.0016883051231267624
+ddx_train_0943264,replication,Pneumonia,base,3,0,,0.0,,False,2,1,3,0,0.25633009641156834
+ddx_train_0943264,replication,Pneumonia,reverse,0,0,,0.0,,False,4,3,7,0,0.5213496858477195
+ddx_train_0943264,replication,Pneumonia,reverse,3,0,,0.0,,False,2,1,3,0,0.2801922419698809
+ddx_train_0943264,replication,Pneumonia,shuffle,0,0,,0.0,,False,2,1,6,0,0.026203382219816312
+ddx_train_0943264,replication,Pneumonia,shuffle,3,0,,0.0,,False,3,2,6,0,0.0027222190827245535
+ddx_train_0890904,replication,Pneumonia,base,0,10,,0.5263157894736842,,False,2,2,8,0,0.20164581712129942
+ddx_train_0890904,replication,Pneumonia,base,3,,,,,False,0,0,1,0,0.004147013389936272
+ddx_train_0890904,replication,Pneumonia,reverse,0,1,,0.05263157894736842,,False,1,1,8,0,0.1437586719367432
+ddx_train_0890904,replication,Pneumonia,reverse,3,,,,,False,0,0,6,0,0.03217560963512715
+ddx_train_0890904,replication,Pneumonia,shuffle,0,4,,0.21052631578947367,,False,1,1,7,0,0.7203796075722484
+ddx_train_0890904,replication,Pneumonia,shuffle,3,,,,,False,0,0,3,0,0.004846104107861621
+ddx_train_0880348,replication,Bronchitis,base,0,,,,,False,0,0,2,0,0.2322495958785396
+ddx_train_0880348,replication,Bronchitis,base,3,2,,0.3333333333333333,,False,1,1,2,0,0.07498333868600308
+ddx_train_0880348,replication,Bronchitis,reverse,0,,,,,False,0,0,2,0,0.05933328662149507
+ddx_train_0880348,replication,Bronchitis,reverse,3,,,,,False,0,0,0,0,0.0013693811788551091
+ddx_train_0880348,replication,Bronchitis,shuffle,0,,,,,False,0,0,2,0,0.49732336039999037
+ddx_train_0880348,replication,Bronchitis,shuffle,3,,,,,False,0,0,0,0,0.047115782926850945
+ddx_train_0874608,replication,Bronchitis,base,0,,,,,False,0,0,1,0,0.2919376259299731
+ddx_train_0874608,replication,Bronchitis,base,3,,,,,False,0,0,0,0,0.0051437445721362945
+ddx_train_0874608,replication,Bronchitis,reverse,0,,,,,False,0,0,1,0,0.489933744991406
+ddx_train_0874608,replication,Bronchitis,reverse,3,,,,,False,0,0,0,0,0.054785768775563334
+ddx_train_0874608,replication,Bronchitis,shuffle,0,,,,,False,0,0,2,0,0.4556395815095761
+ddx_train_0874608,replication,Bronchitis,shuffle,3,1,,0.14285714285714285,,False,1,1,2,0,0.09544826700962834
+ddx_train_0909776,replication,Bronchitis,base,0,,,,,False,0,0,0,0,0.00017171299949203156
+ddx_train_0909776,replication,Bronchitis,base,3,,,,,False,0,0,1,0,3.4565553884409135e-05
+ddx_train_0909776,replication,Bronchitis,reverse,0,,,,,False,0,0,0,0,0.3884117634619158
+ddx_train_0909776,replication,Bronchitis,reverse,3,,,,,False,0,0,4,0,0.0016184761934898123
+ddx_train_0909776,replication,Bronchitis,shuffle,0,,,,,False,0,0,0,0,5.177509139404652e-05
+ddx_train_0909776,replication,Bronchitis,shuffle,3,,,,,False,0,0,1,0,0.0022653504329596193
+ddx_train_0873376,replication,Bronchitis,base,0,,,,,False,0,0,2,0,0.38520434753782157
+ddx_train_0873376,replication,Bronchitis,base,3,,,,,False,0,0,1,0,0.4897083557787768
+ddx_train_0873376,replication,Bronchitis,reverse,0,,,,,False,0,0,2,0,0.38582047596117863
+ddx_train_0873376,replication,Bronchitis,reverse,3,,,,,False,0,0,3,0,0.2625051876057534
+ddx_train_0873376,replication,Bronchitis,shuffle,0,,,,,False,0,0,1,0,0.3655244551671745
+ddx_train_0873376,replication,Bronchitis,shuffle,3,,,,,False,0,0,1,0,0.1766422173849045
+ddx_train_0877688,replication,Bronchitis,base,0,,,,,False,0,0,3,0,0.3037257420338117
+ddx_train_0877688,replication,Bronchitis,base,3,,,,,False,0,0,3,0,0.2285744781568162
+ddx_train_0877688,replication,Bronchitis,reverse,0,,,,,False,0,0,4,0,0.1567851951985441
+ddx_train_0877688,replication,Bronchitis,reverse,3,,,,,False,0,0,3,0,0.00853709574416843
+ddx_train_0877688,replication,Bronchitis,shuffle,0,,,,,False,0,0,3,0,0.36370002321548583
+ddx_train_0877688,replication,Bronchitis,shuffle,3,,,,,False,0,0,1,0,0.004595851487130824
+ddx_train_0884408,replication,Bronchitis,base,0,,,,,False,0,0,3,0,0.5101811053618025
+ddx_train_0884408,replication,Bronchitis,base,3,,,,,False,0,0,0,0,0.00014795996193926807
+ddx_train_0884408,replication,Bronchitis,reverse,0,,,,,False,0,0,1,0,0.04199465734201884
+ddx_train_0884408,replication,Bronchitis,reverse,3,,,,,False,0,0,0,0,8.568633361017238e-05
+ddx_train_0884408,replication,Bronchitis,shuffle,0,2,,0.2857142857142857,,False,1,1,5,0,0.44756637977984676
+ddx_train_0884408,replication,Bronchitis,shuffle,3,,,,,False,0,0,0,0,0.023095029514003378
+ddx_train_0897400,replication,Bronchitis,base,0,,,,,False,0,0,7,0,0.48646430867664475
+ddx_train_0897400,replication,Bronchitis,base,3,0,,0.0,,False,1,0,3,0,0.27151805904524323
+ddx_train_0897400,replication,Bronchitis,reverse,0,,,,,False,0,0,2,0,0.02169004590492038
+ddx_train_0897400,replication,Bronchitis,reverse,3,0,,0.0,,False,1,0,1,0,0.013167689263211229
+ddx_train_0897400,replication,Bronchitis,shuffle,0,,,,,False,0,0,5,0,0.4492864110000153
+ddx_train_0897400,replication,Bronchitis,shuffle,3,0,,0.0,,False,1,0,1,0,0.003215306316408802
+ddx_train_0865368,replication,Bronchitis,base,0,,,,,False,0,0,0,0,0.0005173687227463264
+ddx_train_0865368,replication,Bronchitis,base,3,,,,,False,0,0,0,0,0.024015105778250997
+ddx_train_0865368,replication,Bronchitis,reverse,0,,,,,False,0,0,2,0,0.22763537118258992
+ddx_train_0865368,replication,Bronchitis,reverse,3,,,,,False,0,0,0,0,0.09625635438368818
+ddx_train_0865368,replication,Bronchitis,shuffle,0,3,,0.375,,False,1,1,4,0,0.42844679997756996
+ddx_train_0865368,replication,Bronchitis,shuffle,3,,,,,False,0,0,1,0,0.37160945805178563
+ddx_train_0891660,replication,Bronchitis,base,0,,,,,False,0,0,0,0,0.11526801228130294
+ddx_train_0891660,replication,Bronchitis,base,3,,,,,False,0,0,0,0,7.144668236955106e-05
+ddx_train_0891660,replication,Bronchitis,reverse,0,,,,,False,0,0,0,0,0.045433297946973164
+ddx_train_0891660,replication,Bronchitis,reverse,3,,,,,False,0,0,0,0,5.803076519930119e-05
+ddx_train_0891660,replication,Bronchitis,shuffle,0,,,,,False,0,0,0,0,0.051853484904212946
+ddx_train_0891660,replication,Bronchitis,shuffle,3,,,,,False,0,0,0,0,6.351452386099026e-05
+ddx_train_0870940,replication,Bronchitis,base,0,,,,,False,0,0,0,0,0.0003107185442999209
+ddx_train_0870940,replication,Bronchitis,base,3,,,,,False,0,0,0,0,2.973947531058356e-06
+ddx_train_0870940,replication,Bronchitis,reverse,0,,,,,False,0,0,0,0,1.6726492692441694e-05
+ddx_train_0870940,replication,Bronchitis,reverse,3,,,,,False,0,0,0,0,2.4478938597076564e-06
+ddx_train_0870940,replication,Bronchitis,shuffle,0,,,,,False,0,0,0,0,1.3571918095472877e-05
+ddx_train_0870940,replication,Bronchitis,shuffle,3,,,,,False,0,0,0,0,1.029219377931279e-06
+ddx_train_0921200,replication,Bronchospasm / acute asthma exacerbation,base,0,0,0,0.0,0.0,True,0,0,0,0,0.0004973089321671957
+ddx_train_0921200,replication,Bronchospasm / acute asthma exacerbation,base,3,0,0,0.0,0.0,True,0,0,0,0,1.2631322763189451e-05
+ddx_train_0921200,replication,Bronchospasm / acute asthma exacerbation,reverse,0,0,0,0.0,0.0,True,0,0,0,0,0.0024100530214865436
+ddx_train_0921200,replication,Bronchospasm / acute asthma exacerbation,reverse,3,0,0,0.0,0.0,True,0,0,0,0,4.713990891157837e-05
+ddx_train_0921200,replication,Bronchospasm / acute asthma exacerbation,shuffle,0,0,0,0.0,0.0,True,0,0,0,0,0.0002867469060039489
+ddx_train_0921200,replication,Bronchospasm / acute asthma exacerbation,shuffle,3,0,0,0.0,0.0,True,0,0,0,0,2.8021875056845816e-05
+ddx_train_0868476,replication,Bronchospasm / acute asthma exacerbation,base,0,0,0,0.0,0.0,True,0,0,0,0,5.581387554950928e-05
+ddx_train_0868476,replication,Bronchospasm / acute asthma exacerbation,base,3,2,2,0.2,0.2,True,0,1,1,0,0.0057224029349573465
+ddx_train_0868476,replication,Bronchospasm / acute asthma exacerbation,reverse,0,0,0,0.0,0.0,True,0,0,0,0,5.893982279235567e-05
+ddx_train_0868476,replication,Bronchospasm / acute asthma exacerbation,reverse,3,9,9,0.9,0.9,True,0,1,2,0,0.006878393565475579
+ddx_train_0868476,replication,Bronchospasm / acute asthma exacerbation,shuffle,0,0,0,0.0,0.0,True,0,0,0,0,4.5438348685392525e-05
+ddx_train_0868476,replication,Bronchospasm / acute asthma exacerbation,shuffle,3,9,9,0.9,0.9,True,0,1,2,0,0.0031845272406678857
+ddx_train_0887600,replication,Bronchospasm / acute asthma exacerbation,base,0,0,0,0.0,0.0,True,0,0,0,0,1.2823020111199134e-06
+ddx_train_0887600,replication,Bronchospasm / acute asthma exacerbation,base,3,0,0,0.0,0.0,True,0,0,0,0,1.5214608768677403e-06
+ddx_train_0887600,replication,Bronchospasm / acute asthma exacerbation,reverse,0,0,0,0.0,0.0,True,0,0,0,0,2.3800369148450928e-06
+ddx_train_0887600,replication,Bronchospasm / acute asthma exacerbation,reverse,3,0,2,0.0,0.2,True,1,1,2,0,2.2856457643287735e-06
+ddx_train_0887600,replication,Bronchospasm / acute asthma exacerbation,shuffle,0,0,0,0.0,0.0,True,0,0,0,0,4.5327004269850167e-07
+ddx_train_0887600,replication,Bronchospasm / acute asthma exacerbation,shuffle,3,0,2,0.0,0.2,True,1,1,2,0,4.823183528559509e-07
+ddx_train_0870856,replication,Bronchospasm / acute asthma exacerbation,base,0,0,0,0.0,0.0,True,0,0,0,0,0.00022802150714890907
+ddx_train_0870856,replication,Bronchospasm / acute asthma exacerbation,base,3,0,0,0.0,0.0,True,0,0,0,0,4.3425028430265925e-05
+ddx_train_0870856,replication,Bronchospasm / acute asthma exacerbation,reverse,0,0,0,0.0,0.0,True,0,0,0,0,0.003382038325583421
+ddx_train_0870856,replication,Bronchospasm / acute asthma exacerbation,reverse,3,0,0,0.0,0.0,True,0,0,0,0,0.00014670288881752738
+ddx_train_0870856,replication,Bronchospasm / acute asthma exacerbation,shuffle,0,0,0,0.0,0.0,True,0,0,0,0,0.00013831527539137815
+ddx_train_0870856,replication,Bronchospasm / acute asthma exacerbation,shuffle,3,0,0,0.0,0.0,True,0,0,0,0,1.6464371609611393e-05
+ddx_train_0880320,replication,Bronchospasm / acute asthma exacerbation,base,0,0,0,0.0,0.0,True,0,0,0,0,1.8616984683186257e-06
+ddx_train_0880320,replication,Bronchospasm / acute asthma exacerbation,base,3,0,0,0.0,0.0,True,0,0,0,0,3.0386133986801045e-06
+ddx_train_0880320,replication,Bronchospasm / acute asthma exacerbation,reverse,0,0,0,0.0,0.0,True,0,0,0,0,4.746731399249069e-06
+ddx_train_0880320,replication,Bronchospasm / acute asthma exacerbation,reverse,3,0,0,0.0,0.0,True,0,0,0,0,6.656026152601413e-06
+ddx_train_0880320,replication,Bronchospasm / acute asthma exacerbation,shuffle,0,0,0,0.0,0.0,True,0,0,0,0,1.966651536555716e-06
+ddx_train_0880320,replication,Bronchospasm / acute asthma exacerbation,shuffle,3,0,0,0.0,0.0,True,0,0,0,0,7.520387998377208e-06
+ddx_train_0917280,replication,Bronchospasm / acute asthma exacerbation,base,0,0,0,0.0,0.0,True,0,0,0,0,7.34671510508183e-07
+ddx_train_0917280,replication,Bronchospasm / acute asthma exacerbation,base,3,0,0,0.0,0.0,True,0,0,0,0,1.8238001264736077e-06
+ddx_train_0917280,replication,Bronchospasm / acute asthma exacerbation,reverse,0,0,0,0.0,0.0,True,0,0,0,0,5.808465476617157e-07
+ddx_train_0917280,replication,Bronchospasm / acute asthma exacerbation,reverse,3,0,0,0.0,0.0,True,0,0,0,0,2.4374910387402977e-06
+ddx_train_0917280,replication,Bronchospasm / acute asthma exacerbation,shuffle,0,0,0,0.0,0.0,True,0,0,0,0,4.809106513651383e-07
+ddx_train_0917280,replication,Bronchospasm / acute asthma exacerbation,shuffle,3,0,0,0.0,0.0,True,0,0,0,0,3.7523713584678217e-06
+ddx_train_0943040,replication,Bronchospasm / acute asthma exacerbation,base,0,0,0,0.0,0.0,True,0,0,0,0,3.0149697893138464e-06
+ddx_train_0943040,replication,Bronchospasm / acute asthma exacerbation,base,3,0,2,0.0,0.18181818181818182,True,1,1,2,0,7.910057429166744e-06
+ddx_train_0943040,replication,Bronchospasm / acute asthma exacerbation,reverse,0,0,0,0.0,0.0,True,0,0,0,0,3.7867539927781106e-06
+ddx_train_0943040,replication,Bronchospasm / acute asthma exacerbation,reverse,3,0,2,0.0,0.18181818181818182,True,1,1,2,0,1.594341226520733e-05
+ddx_train_0943040,replication,Bronchospasm / acute asthma exacerbation,shuffle,0,0,0,0.0,0.0,True,0,0,0,0,2.808275474751879e-05
+ddx_train_0943040,replication,Bronchospasm / acute asthma exacerbation,shuffle,3,0,5,0.0,0.45454545454545453,True,2,2,4,0,6.665011787687384e-05
+ddx_train_0890204,replication,Bronchospasm / acute asthma exacerbation,base,0,0,0,0.0,0.0,True,0,0,0,0,1.8313287097022644e-05
+ddx_train_0890204,replication,Bronchospasm / acute asthma exacerbation,base,3,0,0,0.0,0.0,True,0,0,0,0,0.00017293034478355152
+ddx_train_0890204,replication,Bronchospasm / acute asthma exacerbation,reverse,0,0,0,0.0,0.0,True,0,0,0,0,1.982431164748872e-05
+ddx_train_0890204,replication,Bronchospasm / acute asthma exacerbation,reverse,3,0,0,0.0,0.0,True,0,0,0,0,0.0006184480197411358
+ddx_train_0890204,replication,Bronchospasm / acute asthma exacerbation,shuffle,0,0,0,0.0,0.0,True,0,0,0,0,5.281093462046041e-06
+ddx_train_0890204,replication,Bronchospasm / acute asthma exacerbation,shuffle,3,0,0,0.0,0.0,True,0,0,0,0,2.2141764000903215e-05
+ddx_train_0872788,replication,Bronchospasm / acute asthma exacerbation,base,0,0,0,0.0,0.0,True,0,0,0,0,9.711569176869152e-06
+ddx_train_0872788,replication,Bronchospasm / acute asthma exacerbation,base,3,0,0,0.0,0.0,True,0,0,0,0,3.826181604826499e-05
+ddx_train_0872788,replication,Bronchospasm / acute asthma exacerbation,reverse,0,0,0,0.0,0.0,True,0,0,0,0,4.949813670568674e-06
+ddx_train_0872788,replication,Bronchospasm / acute asthma exacerbation,reverse,3,0,0,0.0,0.0,True,0,0,0,0,1.7299490192911258e-05
+ddx_train_0872788,replication,Bronchospasm / acute asthma exacerbation,shuffle,0,0,0,0.0,0.0,True,0,0,0,0,6.877092576610604e-06
+ddx_train_0872788,replication,Bronchospasm / acute asthma exacerbation,shuffle,3,0,0,0.0,0.0,True,0,0,0,0,7.110694887279943e-06
+ddx_train_0950488,replication,Bronchospasm / acute asthma exacerbation,base,0,0,0,0.0,0.0,True,0,0,0,0,5.971899559683698e-07
+ddx_train_0950488,replication,Bronchospasm / acute asthma exacerbation,base,3,0,0,0.0,0.0,True,0,0,0,0,4.976169354381799e-07
+ddx_train_0950488,replication,Bronchospasm / acute asthma exacerbation,reverse,0,0,0,0.0,0.0,True,0,0,0,0,5.579264261619091e-07
+ddx_train_0950488,replication,Bronchospasm / acute asthma exacerbation,reverse,3,0,0,0.0,0.0,True,0,0,0,0,5.232743773824617e-07
+ddx_train_0950488,replication,Bronchospasm / acute asthma exacerbation,shuffle,0,0,0,0.0,0.0,True,0,0,0,0,1.241691481674566e-06
+ddx_train_0950488,replication,Bronchospasm / acute asthma exacerbation,shuffle,3,0,0,0.0,0.0,True,0,0,0,0,1.1019166478973526e-06
+ddx_train_0852992,replication,Pulmonary embolism,base,0,3,3,0.3333333333333333,0.3333333333333333,True,0,1,1,0,0.00011511274952508615
+ddx_train_0852992,replication,Pulmonary embolism,base,3,1,1,0.1111111111111111,0.1111111111111111,True,0,1,1,0,1.2758402115757247e-05
+ddx_train_0852992,replication,Pulmonary embolism,reverse,0,2,7,0.2222222222222222,0.7777777777777778,True,2,3,5,0,0.03310764060610938
+ddx_train_0852992,replication,Pulmonary embolism,reverse,3,1,1,0.1111111111111111,0.1111111111111111,True,0,1,1,0,0.00044776155155950366
+ddx_train_0852992,replication,Pulmonary embolism,shuffle,0,3,3,0.3333333333333333,0.3333333333333333,True,0,1,3,0,7.69400584725677e-05
+ddx_train_0852992,replication,Pulmonary embolism,shuffle,3,1,1,0.1111111111111111,0.1111111111111111,True,0,1,1,0,5.3471824828579554e-06
+ddx_train_0912324,replication,Pulmonary embolism,base,0,2,4,0.25,0.5,True,1,2,4,0,0.0031099490531445225
+ddx_train_0912324,replication,Pulmonary embolism,base,3,8,8,1.0,1.0,True,0,1,1,1,0.3144644040342951
+ddx_train_0912324,replication,Pulmonary embolism,reverse,0,1,1,0.125,0.125,True,0,1,1,0,1.619399590638585e-05
+ddx_train_0912324,replication,Pulmonary embolism,reverse,3,5,5,0.625,0.625,True,0,1,1,0,0.07099217885574272
+ddx_train_0912324,replication,Pulmonary embolism,shuffle,0,2,2,0.25,0.25,True,0,1,1,0,6.214438921331462e-05
+ddx_train_0912324,replication,Pulmonary embolism,shuffle,3,6,6,0.75,0.75,True,0,1,1,0,0.08550231806477848
+ddx_train_0879284,replication,Pulmonary embolism,base,0,1,1,0.1111111111111111,0.1111111111111111,True,0,1,1,0,3.308830220286302e-05
+ddx_train_0879284,replication,Pulmonary embolism,base,3,1,,0.1111111111111111,,False,2,2,4,0,0.3531058407676276
+ddx_train_0879284,replication,Pulmonary embolism,reverse,0,7,7,0.7777777777777778,0.7777777777777778,True,0,1,2,0,0.005369591776693799
+ddx_train_0879284,replication,Pulmonary embolism,reverse,3,,,,,False,0,0,5,0,0.38484125444762984
+ddx_train_0879284,replication,Pulmonary embolism,shuffle,0,2,2,0.2222222222222222,0.2222222222222222,True,0,1,1,0,0.00012290906350542803
+ddx_train_0879284,replication,Pulmonary embolism,shuffle,3,3,,0.3333333333333333,,False,2,2,5,0,0.1954737050649664
+ddx_train_0897204,replication,Pulmonary embolism,base,0,2,2,0.25,0.25,True,0,1,2,0,0.00012385950727286784
+ddx_train_0897204,replication,Pulmonary embolism,base,3,3,3,0.375,0.375,True,0,1,1,0,0.00607870366470641
+ddx_train_0897204,replication,Pulmonary embolism,reverse,0,1,1,0.125,0.125,True,0,1,1,0,3.3525651149057884e-06
+ddx_train_0897204,replication,Pulmonary embolism,reverse,3,1,1,0.125,0.125,True,0,1,1,0,1.7074555404660894e-05
+ddx_train_0897204,replication,Pulmonary embolism,shuffle,0,2,2,0.25,0.25,True,0,1,2,0,2.7004616814375535e-06
+ddx_train_0897204,replication,Pulmonary embolism,shuffle,3,2,2,0.25,0.25,True,0,1,1,0,1.9166772706744295e-05
+ddx_train_0941584,replication,Pulmonary embolism,base,0,2,2,0.2,0.2,True,0,1,1,0,8.471689474160804e-05
+ddx_train_0941584,replication,Pulmonary embolism,base,3,3,3,0.3,0.3,True,0,1,2,0,0.002439443316190331
+ddx_train_0941584,replication,Pulmonary embolism,reverse,0,1,1,0.1,0.1,True,0,1,1,0,0.00037393624541529714
+ddx_train_0941584,replication,Pulmonary embolism,reverse,3,5,5,0.5,0.5,True,0,1,2,0,0.009020496866827831
+ddx_train_0941584,replication,Pulmonary embolism,shuffle,0,3,3,0.3,0.3,True,0,1,3,0,2.5897971386250984e-05
+ddx_train_0941584,replication,Pulmonary embolism,shuffle,3,3,3,0.3,0.3,True,0,1,2,0,0.003869766169093531
+ddx_train_0900088,replication,Pulmonary embolism,base,0,1,1,0.2,0.2,True,0,1,1,0,1.1713693376766052e-06
+ddx_train_0900088,replication,Pulmonary embolism,base,3,1,1,0.2,0.2,True,0,1,1,0,1.6240561872108506e-05
+ddx_train_0900088,replication,Pulmonary embolism,reverse,0,1,1,0.2,0.2,True,0,1,1,0,1.4119778213355148e-05
+ddx_train_0900088,replication,Pulmonary embolism,reverse,3,3,3,0.6,0.6,True,0,1,2,0,0.0001548451607327828
+ddx_train_0900088,replication,Pulmonary embolism,shuffle,0,1,1,0.2,0.2,True,0,1,1,0,1.6507733025260789e-06
+ddx_train_0900088,replication,Pulmonary embolism,shuffle,3,1,1,0.2,0.2,True,0,1,1,0,7.585385647535013e-06
+ddx_train_0949676,replication,Pulmonary embolism,base,0,1,1,0.14285714285714285,0.14285714285714285,True,0,1,1,0,4.262394382843222e-05
+ddx_train_0949676,replication,Pulmonary embolism,base,3,1,1,0.14285714285714285,0.14285714285714285,True,0,1,1,0,0.0011864604884760167
+ddx_train_0949676,replication,Pulmonary embolism,reverse,0,1,4,0.14285714285714285,0.5714285714285714,True,1,2,3,0,0.0027661210416277887
+ddx_train_0949676,replication,Pulmonary embolism,reverse,3,,,,,False,0,0,1,1,0.2606934008801443
+ddx_train_0949676,replication,Pulmonary embolism,shuffle,0,1,5,0.14285714285714285,0.7142857142857143,True,1,2,3,0,0.018102752981369565
+ddx_train_0949676,replication,Pulmonary embolism,shuffle,3,,,,,False,0,0,0,0,0.09414093354634699
+ddx_train_0845208,replication,Pulmonary embolism,base,0,,,,,False,0,0,0,0,0.03710132665689982
+ddx_train_0845208,replication,Pulmonary embolism,base,3,0,0,0.0,0.0,True,0,0,0,0,0.002646171290455913
+ddx_train_0845208,replication,Pulmonary embolism,reverse,0,,,,,False,0,0,0,0,0.0291075625633884
+ddx_train_0845208,replication,Pulmonary embolism,reverse,3,0,0,0.0,0.0,True,0,0,0,0,0.05355451567274475
+ddx_train_0845208,replication,Pulmonary embolism,shuffle,0,,,,,False,0,0,0,0,0.007201197385478409
+ddx_train_0845208,replication,Pulmonary embolism,shuffle,3,0,0,0.0,0.0,True,0,0,0,0,0.017138983608201607
+ddx_train_0870604,replication,Pulmonary embolism,base,0,0,0,0.0,0.0,True,0,0,0,0,1.71207007427416e-05
+ddx_train_0870604,replication,Pulmonary embolism,base,3,2,2,0.2222222222222222,0.2222222222222222,True,0,1,2,0,8.457913261352546e-05
+ddx_train_0870604,replication,Pulmonary embolism,reverse,0,0,4,0.0,0.4444444444444444,True,2,2,4,0,1.4946771608775122e-05
+ddx_train_0870604,replication,Pulmonary embolism,reverse,3,4,4,0.4444444444444444,0.4444444444444444,True,0,1,2,0,5.80121059835919e-05
+ddx_train_0870604,replication,Pulmonary embolism,shuffle,0,0,0,0.0,0.0,True,0,0,0,0,7.786045511487141e-06
+ddx_train_0870604,replication,Pulmonary embolism,shuffle,3,3,3,0.3333333333333333,0.3333333333333333,True,0,1,1,0,3.987040177601191e-05
+ddx_train_0874916,replication,Pulmonary embolism,base,0,6,,0.6666666666666666,,False,1,1,3,0,0.34273671234183184
+ddx_train_0874916,replication,Pulmonary embolism,base,3,1,1,0.1111111111111111,0.1111111111111111,True,0,1,1,0,0.00014848203182776709
+ddx_train_0874916,replication,Pulmonary embolism,reverse,0,,,,,False,0,0,1,0,0.009500339511288447
+ddx_train_0874916,replication,Pulmonary embolism,reverse,3,,,,,False,0,0,0,0,0.04029095754828279
+ddx_train_0874916,replication,Pulmonary embolism,shuffle,0,9,9,1.0,1.0,True,0,1,2,0,0.22925236728863171
+ddx_train_0874916,replication,Pulmonary embolism,shuffle,3,6,6,0.6666666666666666,0.6666666666666666,True,0,1,1,0,0.0002471205961840517
+ddx_train_0840224,replication,Spontaneous pneumothorax,base,0,2,2,0.3333333333333333,0.3333333333333333,True,0,1,1,0,0.0681705758069526
+ddx_train_0840224,replication,Spontaneous pneumothorax,base,3,2,5,0.3333333333333333,0.8333333333333334,True,1,2,3,0,0.06050565946083536
+ddx_train_0840224,replication,Spontaneous pneumothorax,reverse,0,2,2,0.3333333333333333,0.3333333333333333,True,0,1,1,0,7.721665123042023e-05
+ddx_train_0840224,replication,Spontaneous pneumothorax,reverse,3,2,2,0.3333333333333333,0.3333333333333333,True,0,1,1,0,0.0022535345302027725
+ddx_train_0840224,replication,Spontaneous pneumothorax,shuffle,0,4,4,0.6666666666666666,0.6666666666666666,True,0,1,1,0,0.0005641203354555276
+ddx_train_0840224,replication,Spontaneous pneumothorax,shuffle,3,4,4,0.6666666666666666,0.6666666666666666,True,0,1,1,0,0.0005159132254467578
+ddx_train_0871444,replication,Spontaneous pneumothorax,base,0,,,,,False,0,0,1,0,0.28546488572213247
+ddx_train_0871444,replication,Spontaneous pneumothorax,base,3,6,6,1.0,1.0,True,0,1,2,0,0.3817320473343165
+ddx_train_0871444,replication,Spontaneous pneumothorax,reverse,0,1,3,0.16666666666666666,0.5,True,1,2,3,0,0.008276387936037414
+ddx_train_0871444,replication,Spontaneous pneumothorax,reverse,3,1,1,0.16666666666666666,0.16666666666666666,True,0,1,1,0,5.239462973374217e-05
+ddx_train_0871444,replication,Spontaneous pneumothorax,shuffle,0,2,,0.3333333333333333,,False,2,2,4,0,0.06452466422646644
+ddx_train_0871444,replication,Spontaneous pneumothorax,shuffle,3,3,,0.5,,False,1,1,2,0,0.5317131359984765
+ddx_train_0946036,replication,Spontaneous pneumothorax,base,0,6,6,0.75,0.75,True,0,1,1,0,0.00019235806609779548
+ddx_train_0946036,replication,Spontaneous pneumothorax,base,3,0,6,0.0,0.75,True,1,1,2,0,0.0701133981351372
+ddx_train_0946036,replication,Spontaneous pneumothorax,reverse,0,3,6,0.375,0.75,True,1,2,3,0,0.16062729963331976
+ddx_train_0946036,replication,Spontaneous pneumothorax,reverse,3,0,,0.0,,False,2,1,3,0,0.32110307444686914
+ddx_train_0946036,replication,Spontaneous pneumothorax,shuffle,0,2,2,0.25,0.25,True,0,1,1,0,3.132596166670558e-05
+ddx_train_0946036,replication,Spontaneous pneumothorax,shuffle,3,0,5,0.0,0.625,True,2,2,4,0,0.00041775384411968006
+ddx_train_0841512,replication,Spontaneous pneumothorax,base,0,3,3,0.42857142857142855,0.42857142857142855,True,0,1,1,0,0.0011679069040853819
+ddx_train_0841512,replication,Spontaneous pneumothorax,base,3,3,3,0.42857142857142855,0.42857142857142855,True,0,1,1,0,0.012281790322710042
+ddx_train_0841512,replication,Spontaneous pneumothorax,reverse,0,4,,0.5714285714285714,,False,1,1,2,0,0.025693668843900935
+ddx_train_0841512,replication,Spontaneous pneumothorax,reverse,3,4,,0.5714285714285714,,False,1,1,4,0,0.09529750161625829
+ddx_train_0841512,replication,Spontaneous pneumothorax,shuffle,0,5,,0.7142857142857143,,False,1,1,3,0,0.2462294941595227
+ddx_train_0841512,replication,Spontaneous pneumothorax,shuffle,3,6,6,0.8571428571428571,0.8571428571428571,True,0,1,1,0,0.09003313373854112
+ddx_train_0922572,replication,Spontaneous pneumothorax,base,0,0,,0.0,,False,1,0,1,0,0.1849586829910338
+ddx_train_0922572,replication,Spontaneous pneumothorax,base,3,,,,,False,0,0,0,0,0.016599323344104563
+ddx_train_0922572,replication,Spontaneous pneumothorax,reverse,0,0,2,0.0,0.3333333333333333,True,1,1,2,0,0.17259615418739732
+ddx_train_0922572,replication,Spontaneous pneumothorax,reverse,3,2,5,0.3333333333333333,0.8333333333333334,True,1,2,3,0,0.0055448104154611905
+ddx_train_0922572,replication,Spontaneous pneumothorax,shuffle,0,0,4,0.0,0.6666666666666666,True,1,1,2,0,0.0003794463171783437
+ddx_train_0922572,replication,Spontaneous pneumothorax,shuffle,3,5,,0.8333333333333334,,False,1,1,2,0,0.17543174302051256
+ddx_train_0949396,replication,Spontaneous pneumothorax,base,0,1,1,0.14285714285714285,0.14285714285714285,True,0,1,1,0,9.401023852382855e-07
+ddx_train_0949396,replication,Spontaneous pneumothorax,base,3,1,1,0.14285714285714285,0.14285714285714285,True,0,1,1,0,1.2423808293910729e-05
+ddx_train_0949396,replication,Spontaneous pneumothorax,reverse,0,1,1,0.14285714285714285,0.14285714285714285,True,0,1,1,0,0.04530777276255651
+ddx_train_0949396,replication,Spontaneous pneumothorax,reverse,3,1,,0.14285714285714285,,False,1,1,2,0,0.07581469619496302
+ddx_train_0949396,replication,Spontaneous pneumothorax,shuffle,0,1,1,0.14285714285714285,0.14285714285714285,True,0,1,1,0,1.257637687227629e-06
+ddx_train_0949396,replication,Spontaneous pneumothorax,shuffle,3,1,1,0.14285714285714285,0.14285714285714285,True,0,1,1,0,0.00014223907744611398
+ddx_train_0947268,replication,Spontaneous pneumothorax,base,0,4,,0.5714285714285714,,False,1,1,3,0,0.334477942007949
+ddx_train_0947268,replication,Spontaneous pneumothorax,base,3,3,3,0.42857142857142855,0.42857142857142855,True,0,1,1,0,0.06150290065566111
+ddx_train_0947268,replication,Spontaneous pneumothorax,reverse,0,5,,0.7142857142857143,,False,1,1,2,0,0.03404057655101351
+ddx_train_0947268,replication,Spontaneous pneumothorax,reverse,3,6,6,0.8571428571428571,0.8571428571428571,True,0,1,1,0,0.2873883493223875
+ddx_train_0947268,replication,Spontaneous pneumothorax,shuffle,0,3,,0.42857142857142855,,False,1,1,2,0,0.22474244255611023
+ddx_train_0947268,replication,Spontaneous pneumothorax,shuffle,3,3,3,0.42857142857142855,0.42857142857142855,True,0,1,1,0,0.0019865172134421343
+ddx_train_0896784,replication,Spontaneous pneumothorax,base,0,5,5,0.625,0.625,True,0,1,1,0,0.309535115361714
+ddx_train_0896784,replication,Spontaneous pneumothorax,base,3,0,,0.0,,False,2,1,3,0,0.2841169440133063
+ddx_train_0896784,replication,Spontaneous pneumothorax,reverse,0,2,2,0.25,0.25,True,0,1,1,0,0.003030019605802001
+ddx_train_0896784,replication,Spontaneous pneumothorax,reverse,3,0,2,0.0,0.25,True,1,1,2,0,0.0033239997708866147
+ddx_train_0896784,replication,Spontaneous pneumothorax,shuffle,0,6,6,0.75,0.75,True,0,1,1,0,3.4296310527930353e-05
+ddx_train_0896784,replication,Spontaneous pneumothorax,shuffle,3,0,6,0.0,0.75,True,1,1,2,0,0.0025771225404055847
+ddx_train_0880124,replication,Spontaneous pneumothorax,base,0,6,6,1.0,1.0,True,0,1,3,0,0.006263838437075462
+ddx_train_0880124,replication,Spontaneous pneumothorax,base,3,6,6,1.0,1.0,True,0,1,1,0,0.35933537177918506
+ddx_train_0880124,replication,Spontaneous pneumothorax,reverse,0,1,1,0.16666666666666666,0.16666666666666666,True,0,1,1,0,0.013071663078309224
+ddx_train_0880124,replication,Spontaneous pneumothorax,reverse,3,1,,0.16666666666666666,,False,2,2,4,0,0.19295410756402048
+ddx_train_0880124,replication,Spontaneous pneumothorax,shuffle,0,4,4,0.6666666666666666,0.6666666666666666,True,0,1,1,0,0.0015088309020901323
+ddx_train_0880124,replication,Spontaneous pneumothorax,shuffle,3,6,6,1.0,1.0,True,0,1,1,0,0.006745157024165609
+ddx_train_0859964,replication,Spontaneous pneumothorax,base,0,0,2,0.0,0.4,True,1,1,2,0,0.0027028596028026
+ddx_train_0859964,replication,Spontaneous pneumothorax,base,3,2,,0.4,,False,1,1,2,0,0.010507736541443716
+ddx_train_0859964,replication,Spontaneous pneumothorax,reverse,0,0,0,0.0,0.0,True,0,0,0,0,5.52910596145058e-07
+ddx_train_0859964,replication,Spontaneous pneumothorax,reverse,3,1,1,0.2,0.2,True,0,1,1,0,4.1066676806844404e-05
+ddx_train_0859964,replication,Spontaneous pneumothorax,shuffle,0,0,4,0.0,0.8,True,1,1,3,0,7.807364739595551e-05
+ddx_train_0859964,replication,Spontaneous pneumothorax,shuffle,3,4,4,0.8,0.8,True,0,1,1,0,0.08151928133853663
+ddx_train_0840448,replication,Acute pulmonary edema,base,0,0,0,0.0,0.0,True,0,0,0,0,1.5671822408139307e-05
+ddx_train_0840448,replication,Acute pulmonary edema,base,3,5,5,0.5555555555555556,0.5555555555555556,True,0,1,3,0,0.006470812188902249
+ddx_train_0840448,replication,Acute pulmonary edema,reverse,0,0,4,0.0,0.4444444444444444,True,1,1,2,0,0.0001237418960226024
+ddx_train_0840448,replication,Acute pulmonary edema,reverse,3,6,,0.6666666666666666,,False,1,1,2,0,0.47320116639329995
+ddx_train_0840448,replication,Acute pulmonary edema,shuffle,0,0,2,0.0,0.2222222222222222,True,1,1,2,0,0.00011884444409536158
+ddx_train_0840448,replication,Acute pulmonary edema,shuffle,3,,,,,False,0,0,0,0,0.003920515279731086
+ddx_train_0913108,replication,Acute pulmonary edema,base,0,5,5,0.5,0.5,True,0,1,5,0,0.014731413211881705
+ddx_train_0913108,replication,Acute pulmonary edema,base,3,5,5,0.5,0.5,True,0,1,2,0,0.011193349600276898
+ddx_train_0913108,replication,Acute pulmonary edema,reverse,0,6,6,0.6,0.6,True,0,1,1,0,0.2041520602867943
+ddx_train_0913108,replication,Acute pulmonary edema,reverse,3,1,6,0.1,0.6,True,1,2,3,0,0.1362617836558881
+ddx_train_0913108,replication,Acute pulmonary edema,shuffle,0,4,6,0.4,0.6,True,1,2,3,0,3.289233666703004e-05
+ddx_train_0913108,replication,Acute pulmonary edema,shuffle,3,5,5,0.5,0.5,True,0,1,4,0,3.7461838838742594e-06
+ddx_train_0877800,replication,Acute pulmonary edema,base,0,3,3,0.3,0.3,True,0,1,2,0,0.00039606479410381526
+ddx_train_0877800,replication,Acute pulmonary edema,base,3,2,2,0.2,0.2,True,0,1,1,0,0.0072908749634592335
+ddx_train_0877800,replication,Acute pulmonary edema,reverse,0,9,9,0.9,0.9,True,0,1,1,0,0.6009530891509681
+ddx_train_0877800,replication,Acute pulmonary edema,reverse,3,9,9,0.9,0.9,True,0,1,4,0,0.03863212477428087
+ddx_train_0877800,replication,Acute pulmonary edema,shuffle,0,1,8,0.1,0.8,True,1,2,3,0,0.00047067929397152133
+ddx_train_0877800,replication,Acute pulmonary edema,shuffle,3,1,1,0.1,0.1,True,0,1,1,0,4.3137884707987456e-05
+ddx_train_0858984,replication,Acute pulmonary edema,base,0,6,,0.5454545454545454,,False,3,3,8,0,0.40315711527889714
+ddx_train_0858984,replication,Acute pulmonary edema,base,3,3,3,0.2727272727272727,0.2727272727272727,True,0,1,2,0,0.0002776318954694519
+ddx_train_0858984,replication,Acute pulmonary edema,reverse,0,8,,0.7272727272727273,,False,1,1,4,0,0.42227050932605725
+ddx_train_0858984,replication,Acute pulmonary edema,reverse,3,9,9,0.8181818181818182,0.8181818181818182,True,0,1,2,0,0.1223505401076037
+ddx_train_0858984,replication,Acute pulmonary edema,shuffle,0,,,,,False,0,0,4,0,0.3903406554906966
+ddx_train_0858984,replication,Acute pulmonary edema,shuffle,3,5,9,0.45454545454545453,0.8181818181818182,True,1,2,4,0,0.0079812760780773
+ddx_train_0899192,replication,Acute pulmonary edema,base,0,3,,0.3333333333333333,,False,1,1,2,0,0.09108189872918912
+ddx_train_0899192,replication,Acute pulmonary edema,base,3,1,3,0.1111111111111111,0.3333333333333333,True,1,2,3,0,0.0042075737906396874
+ddx_train_0899192,replication,Acute pulmonary edema,reverse,0,7,,0.7777777777777778,,False,1,1,2,0,0.4197639053873283
+ddx_train_0899192,replication,Acute pulmonary edema,reverse,3,7,7,0.7777777777777778,0.7777777777777778,True,0,1,1,0,0.013635596993864227
+ddx_train_0899192,replication,Acute pulmonary edema,shuffle,0,,,,,False,0,0,2,0,0.4713740562877848
+ddx_train_0899192,replication,Acute pulmonary edema,shuffle,3,7,7,0.7777777777777778,0.7777777777777778,True,0,1,1,0,0.019798023831803454
+ddx_train_0852656,replication,Acute pulmonary edema,base,0,4,9,0.4,0.9,True,1,2,4,0,0.008170479709864328
+ddx_train_0852656,replication,Acute pulmonary edema,base,3,2,2,0.2,0.2,True,0,1,1,0,2.1052200641158135e-05
+ddx_train_0852656,replication,Acute pulmonary edema,reverse,0,9,9,0.9,0.9,True,0,1,5,0,0.3720535037116103
+ddx_train_0852656,replication,Acute pulmonary edema,reverse,3,2,7,0.2,0.7,True,1,2,3,0,0.0002727105595167956
+ddx_train_0852656,replication,Acute pulmonary edema,shuffle,0,4,,0.4,,False,3,3,7,0,0.3897778257939203
+ddx_train_0852656,replication,Acute pulmonary edema,shuffle,3,4,4,0.4,0.4,True,0,1,1,0,6.772171484295683e-05
+ddx_train_0928060,replication,Acute pulmonary edema,base,0,4,10,0.4,1.0,True,1,2,4,0,0.39228659782747605
+ddx_train_0928060,replication,Acute pulmonary edema,base,3,9,,0.9,,False,1,1,3,0,0.19008307959300186
+ddx_train_0928060,replication,Acute pulmonary edema,reverse,0,4,,0.4,,False,2,2,6,0,0.5612974353887717
+ddx_train_0928060,replication,Acute pulmonary edema,reverse,3,4,4,0.4,0.4,True,0,1,2,0,0.010157823004329155
+ddx_train_0928060,replication,Acute pulmonary edema,shuffle,0,,,,,False,0,0,1,0,0.4695078898536313
+ddx_train_0928060,replication,Acute pulmonary edema,shuffle,3,2,,0.2,,False,1,1,2,0,0.22455877144355
+ddx_train_0918512,replication,Acute pulmonary edema,base,0,6,6,0.5,0.5,True,0,1,3,0,0.00013732358875215967
+ddx_train_0918512,replication,Acute pulmonary edema,base,3,11,,0.9166666666666666,,False,1,1,2,0,0.2640841006922691
+ddx_train_0918512,replication,Acute pulmonary edema,reverse,0,4,4,0.3333333333333333,0.3333333333333333,True,0,1,3,0,0.00024210001787527686
+ddx_train_0918512,replication,Acute pulmonary edema,reverse,3,4,4,0.3333333333333333,0.3333333333333333,True,0,1,1,0,1.843453026944245e-05
+ddx_train_0918512,replication,Acute pulmonary edema,shuffle,0,4,4,0.3333333333333333,0.3333333333333333,True,0,1,1,0,3.7889818369559815e-06
+ddx_train_0918512,replication,Acute pulmonary edema,shuffle,3,4,7,0.3333333333333333,0.5833333333333334,True,1,2,3,0,0.002048555755026257
+ddx_train_0932988,replication,Acute pulmonary edema,base,0,5,5,0.5,0.5,True,0,1,3,0,0.02285119982246084
+ddx_train_0932988,replication,Acute pulmonary edema,base,3,8,10,0.8,1.0,True,1,2,6,0,0.22459434760259936
+ddx_train_0932988,replication,Acute pulmonary edema,reverse,0,5,5,0.5,0.5,True,0,1,1,0,0.004208989472554403
+ddx_train_0932988,replication,Acute pulmonary edema,reverse,3,6,8,0.6,0.8,True,1,2,6,0,0.047932400458408866
+ddx_train_0932988,replication,Acute pulmonary edema,shuffle,0,5,5,0.5,0.5,True,0,1,1,0,0.01034362124919676
+ddx_train_0932988,replication,Acute pulmonary edema,shuffle,3,6,8,0.6,0.8,True,0,1,2,1,0.047196585807587454
+ddx_train_0931700,replication,Acute pulmonary edema,base,0,2,2,0.2,0.2,True,0,1,1,0,0.0008172759704945933
+ddx_train_0931700,replication,Acute pulmonary edema,base,3,2,6,0.2,0.6,True,1,2,3,0,0.0005919960717191055
+ddx_train_0931700,replication,Acute pulmonary edema,reverse,0,6,6,0.6,0.6,True,0,1,1,0,0.2837869445513932
+ddx_train_0931700,replication,Acute pulmonary edema,reverse,3,4,4,0.4,0.4,True,0,1,1,0,0.00023172711500537896
+ddx_train_0931700,replication,Acute pulmonary edema,shuffle,0,1,3,0.1,0.3,True,1,2,3,0,3.6610519809410146e-05
+ddx_train_0931700,replication,Acute pulmonary edema,shuffle,3,2,2,0.2,0.2,True,0,1,1,0,2.909558514582207e-05
+ddx_train_0857360,pilot,Pneumonia,base,0,,,,,False,0,0,3,0,0.0290307067529027
+ddx_train_0857360,pilot,Pneumonia,base,3,,,,,False,0,0,1,0,0.07217329606180008
+ddx_train_0857360,pilot,Pneumonia,reverse,0,,,,,False,0,0,3,0,0.1699304089644274
+ddx_train_0857360,pilot,Pneumonia,reverse,3,,,,,False,0,0,4,0,0.3606263505176738
+ddx_train_0857360,pilot,Pneumonia,shuffle,0,,,,,False,0,0,3,0,1.5027210188566857e-05
+ddx_train_0857360,pilot,Pneumonia,shuffle,3,,,,,False,0,0,6,0,0.1801035368852571
+ddx_train_0902216,pilot,Pneumonia,base,0,2,,0.125,,False,1,1,3,0,0.00016204461036989893
+ddx_train_0902216,pilot,Pneumonia,base,3,1,,0.0625,,False,1,1,2,0,0.0003540118906398088
+ddx_train_0902216,pilot,Pneumonia,reverse,0,1,1,0.0625,0.0625,True,0,1,1,0,0.04921515178138244
+ddx_train_0902216,pilot,Pneumonia,reverse,3,1,,0.0625,,False,2,2,7,0,0.6042766891426424
+ddx_train_0902216,pilot,Pneumonia,shuffle,0,8,,0.5,,False,1,2,6,1,0.569400804943144
+ddx_train_0902216,pilot,Pneumonia,shuffle,3,1,,0.0625,,False,1,1,3,0,0.2593635990720638
+ddx_train_0925484,pilot,Bronchitis,base,0,1,,0.125,,False,1,1,4,0,0.6032640557040672
+ddx_train_0925484,pilot,Bronchitis,base,3,,,,,False,0,0,2,0,0.3714055177606991
+ddx_train_0925484,pilot,Bronchitis,reverse,0,1,,0.125,,False,2,2,6,0,0.5461873557631353
+ddx_train_0925484,pilot,Bronchitis,reverse,3,,,,,False,0,0,2,0,0.010693596734083745
+ddx_train_0925484,pilot,Bronchitis,shuffle,0,,,,,False,0,0,4,0,0.39731811244130266
+ddx_train_0925484,pilot,Bronchitis,shuffle,3,,,,,False,0,0,0,0,0.014736984080741063
+ddx_train_0915712,pilot,Bronchitis,base,0,,,,,False,0,0,0,0,0.0010156672849026462
+ddx_train_0915712,pilot,Bronchitis,base,3,,,,,False,0,0,0,0,0.0005755000407118191
+ddx_train_0915712,pilot,Bronchitis,reverse,0,,,,,False,0,0,0,0,4.27700055755767e-05
+ddx_train_0915712,pilot,Bronchitis,reverse,3,,,,,False,0,0,0,0,1.3288864096528793e-05
+ddx_train_0915712,pilot,Bronchitis,shuffle,0,,,,,False,0,0,0,0,0.0001985468125238757
+ddx_train_0915712,pilot,Bronchitis,shuffle,3,,,,,False,0,0,0,0,3.63565722396512e-05
+ddx_train_0875644,pilot,Bronchospasm / acute asthma exacerbation,base,0,0,0,0.0,0.0,True,0,0,0,0,1.2096219825667381e-05
+ddx_train_0875644,pilot,Bronchospasm / acute asthma exacerbation,base,3,0,0,0.0,0.0,True,0,0,0,0,0.00013974133882778796
+ddx_train_0875644,pilot,Bronchospasm / acute asthma exacerbation,reverse,0,0,0,0.0,0.0,True,0,0,0,0,4.907572413319627e-06
+ddx_train_0875644,pilot,Bronchospasm / acute asthma exacerbation,reverse,3,0,0,0.0,0.0,True,0,0,0,0,4.735096699320304e-05
+ddx_train_0875644,pilot,Bronchospasm / acute asthma exacerbation,shuffle,0,0,0,0.0,0.0,True,0,0,0,0,4.988536380251403e-06
+ddx_train_0875644,pilot,Bronchospasm / acute asthma exacerbation,shuffle,3,0,0,0.0,0.0,True,0,0,0,0,9.493862271878955e-06
+ddx_train_0858284,pilot,Bronchospasm / acute asthma exacerbation,base,0,0,0,0.0,0.0,True,0,0,0,0,1.4117963414658979e-05
+ddx_train_0858284,pilot,Bronchospasm / acute asthma exacerbation,base,3,1,1,0.125,0.125,True,0,1,1,0,5.7569690851880135e-05
+ddx_train_0858284,pilot,Bronchospasm / acute asthma exacerbation,reverse,0,0,0,0.0,0.0,True,0,0,0,0,2.3668749674163135e-05
+ddx_train_0858284,pilot,Bronchospasm / acute asthma exacerbation,reverse,3,5,5,0.625,0.625,True,0,1,3,0,6.7865517705306e-05
+ddx_train_0858284,pilot,Bronchospasm / acute asthma exacerbation,shuffle,0,0,0,0.0,0.0,True,0,0,0,0,2.1623831808258577e-05
+ddx_train_0858284,pilot,Bronchospasm / acute asthma exacerbation,shuffle,3,1,3,0.125,0.375,True,1,2,3,0,0.0011471943950905577
+ddx_train_0940128,pilot,Pulmonary embolism,base,0,1,1,0.125,0.125,True,0,1,1,0,4.054220994379942e-05
+ddx_train_0940128,pilot,Pulmonary embolism,base,3,6,8,0.75,1.0,True,1,2,3,0,0.18140284362784825
+ddx_train_0940128,pilot,Pulmonary embolism,reverse,0,7,7,0.875,0.875,True,0,1,1,0,0.0005261358878513439
+ddx_train_0940128,pilot,Pulmonary embolism,reverse,3,,,,,False,0,0,0,0,0.4019957704529011
+ddx_train_0940128,pilot,Pulmonary embolism,shuffle,0,6,6,0.75,0.75,True,0,1,1,0,0.0019856225260423263
+ddx_train_0940128,pilot,Pulmonary embolism,shuffle,3,,,,,False,0,0,0,0,0.021403280673807236
+ddx_train_0851760,pilot,Pulmonary embolism,base,0,3,3,0.375,0.375,True,0,1,1,0,7.09688652355289e-06
+ddx_train_0851760,pilot,Pulmonary embolism,base,3,3,3,0.375,0.375,True,0,1,1,0,5.07768961672217e-05
+ddx_train_0851760,pilot,Pulmonary embolism,reverse,0,3,6,0.375,0.75,True,1,2,3,0,0.0018055403662146864
+ddx_train_0851760,pilot,Pulmonary embolism,reverse,3,2,6,0.25,0.75,True,1,2,3,0,0.0022613616792441535
+ddx_train_0851760,pilot,Pulmonary embolism,shuffle,0,1,3,0.125,0.375,True,1,2,3,0,0.004470072480474321
+ddx_train_0851760,pilot,Pulmonary embolism,shuffle,3,1,3,0.125,0.375,True,1,2,3,0,0.00904670573062377
+ddx_train_0868644,pilot,Spontaneous pneumothorax,base,0,8,8,1.0,1.0,True,0,1,3,0,0.5819020019680979
+ddx_train_0868644,pilot,Spontaneous pneumothorax,base,3,,,,,False,0,0,0,0,0.34500692986975706
+ddx_train_0868644,pilot,Spontaneous pneumothorax,reverse,0,1,3,0.125,0.375,True,1,2,3,0,0.018825127021532734
+ddx_train_0868644,pilot,Spontaneous pneumothorax,reverse,3,1,,0.125,,False,2,2,4,0,0.3882633759014622
+ddx_train_0868644,pilot,Spontaneous pneumothorax,shuffle,0,1,1,0.125,0.125,True,0,1,1,0,3.8219806203154433e-07
+ddx_train_0868644,pilot,Spontaneous pneumothorax,shuffle,3,1,3,0.125,0.375,True,1,2,3,0,2.2113704346773902e-05
+ddx_train_0937832,pilot,Spontaneous pneumothorax,base,0,2,6,0.25,0.75,True,1,2,3,0,0.002438979892927092
+ddx_train_0937832,pilot,Spontaneous pneumothorax,base,3,2,6,0.25,0.75,True,1,2,4,0,0.04062470419292324
+ddx_train_0937832,pilot,Spontaneous pneumothorax,reverse,0,2,7,0.25,0.875,True,1,2,3,0,0.4201398301391455
+ddx_train_0937832,pilot,Spontaneous pneumothorax,reverse,3,2,2,0.25,0.25,True,0,1,1,0,0.29205526237344837
+ddx_train_0937832,pilot,Spontaneous pneumothorax,shuffle,0,7,7,0.875,0.875,True,0,1,1,0,0.0017126126155459147
+ddx_train_0937832,pilot,Spontaneous pneumothorax,shuffle,3,7,7,0.875,0.875,True,0,1,5,0,0.00022193043340735277
+ddx_train_0874944,pilot,Acute pulmonary edema,base,0,7,10,0.7,1.0,True,1,2,4,0,0.04854582444168181
+ddx_train_0874944,pilot,Acute pulmonary edema,base,3,2,4,0.2,0.4,True,1,2,3,0,0.02768664290699517
+ddx_train_0874944,pilot,Acute pulmonary edema,reverse,0,8,10,0.8,1.0,True,1,2,6,0,0.02275901616582706
+ddx_train_0874944,pilot,Acute pulmonary edema,reverse,3,,,,,False,0,0,3,0,0.0012763249443355112
+ddx_train_0874944,pilot,Acute pulmonary edema,shuffle,0,10,10,1.0,1.0,True,0,1,2,0,0.1478511165869438
+ddx_train_0874944,pilot,Acute pulmonary edema,shuffle,3,9,9,0.9,0.9,True,0,1,2,0,0.03876589315947664
+ddx_train_0857920,pilot,Acute pulmonary edema,base,0,,,,,False,0,0,1,0,0.005779999728865632
+ddx_train_0857920,pilot,Acute pulmonary edema,base,3,,,,,False,0,0,1,0,0.2352452505772124
+ddx_train_0857920,pilot,Acute pulmonary edema,reverse,0,2,11,0.18181818181818182,1.0,True,1,2,3,0,0.5146843656457052
+ddx_train_0857920,pilot,Acute pulmonary edema,reverse,3,2,10,0.18181818181818182,0.9090909090909091,True,1,2,4,0,0.06314132505616799
+ddx_train_0857920,pilot,Acute pulmonary edema,shuffle,0,6,6,0.5454545454545454,0.5454545454545454,True,0,1,1,0,0.03938415758604294
+ddx_train_0857920,pilot,Acute pulmonary edema,shuffle,3,2,2,0.18181818181818182,0.18181818181818182,True,0,1,1,0,2.8558118776529485e-05

@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_03561",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit24",
+    "exit_layer": 24
+  },
+  "parameter_stats": {
+    "parameters": 1519230976,
+    "weight_bytes": 3038461952,
+    "layers": 24
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "L infection",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 2,
+      "prompt_sha256": "0b38b4da26d96fa2469496dfebd9d922e573d92fa8747a3c59bfb27fc697a249"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "guitaroid\"}",
+      "generated_disease": "guitaroid",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "79a9f618b69fd7d4457d37799661b002533cfc804d5d69c784bd19b11702ff1d"
+    }
+  ]
+}

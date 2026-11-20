@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_07544",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Bystomom",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "5c1434d8d557482870a28e22f2a61140fcd11cba065b8b51153837f1755074e1"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocitis\"}",
+      "generated_disease": "Cystocitis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "2445cb7f9c7c20e8176d1bbb25a716f88f5e48906ee3bac5385dcd3d0168a36f"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_07633",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Infectious mononucleosis\",\"probability_of_diagnosis\":0.14,\"likelihood_risk_factor_present\":\"Yes\",\"likelihood_evidence\":\"CBC within normal limits, elevated ESR, and negative HIV panel consistent with HIV-negative status\"}",
+      "generated_disease": "Infectious mononucleosis",
+      "stop": "eos",
+      "tokens": 49,
+      "prompt_sha256": "ddafc28b2973c64a15170013da432817b643e6cabe0700c232efbcab1c111651"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "E. coli-induced diarrhea with possible enteric fever or other infectious etiology\",\"likely diagnosis\":\"E. coli O157:H7 food poisoning or traveler's diarrhea due to contaminated food or water\",\"likelihood_ratios\":[0.15,\"highly likely\",\"likely\",\"given the presence of diarrhea and no evidence",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "9648bf4c36bf2d8479e861fba1629ac176b4355da639b4bad41876de113d1518"
+    }
+  ]
+}

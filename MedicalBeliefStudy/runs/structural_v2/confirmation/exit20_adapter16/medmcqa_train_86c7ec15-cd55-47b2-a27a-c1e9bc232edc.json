@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_86c7ec15-cd55-47b2-a27a-c1e9bc232edc",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Myopic dystopia syndrome\"}",
+      "generated_disease": "Myopic dystopia syndrome",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "32a2c6c6fcc2c433ee0e5869ffa4f98987e7cfac576be12586fdaa498f7c4707"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "MPPHS\"}",
+      "generated_disease": "MPPHS",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "56bcdfc300a9b5d96e78a4d9c645b65d316552acd78784d04a0ec79611d625f6"
+    }
+  ]
+}

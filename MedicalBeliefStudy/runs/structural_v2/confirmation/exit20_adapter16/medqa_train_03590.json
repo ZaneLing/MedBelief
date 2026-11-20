@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_03590",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pervicular stress disorder or other non-linear stress-related disease\"}",
+      "generated_disease": "Pervicular stress disorder or other non-linear stress-related disease",
+      "stop": "eos",
+      "tokens": 14,
+      "prompt_sha256": "800b898e1bc5431d633f14ce5aa8b5d12333a42101111325ecc650c924bddaae"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pervicular stress disorder\"}",
+      "generated_disease": "Pervicular stress disorder",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "81760c57f10ae8cb5c6c881a953fe3dc86bffc48d286b93dd6acb983a75fd00e"
+    }
+  ]
+}

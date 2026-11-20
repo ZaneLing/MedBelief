@@ -1,0 +1,52 @@
+{
+  "case_id": "medmcqa_train_b8bb40ac-c7fc-4032-8a4f-cffd76a06e1c",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Kartagener's syndrome\"}",
+      "generated_disease": "Kartagener's syndrome",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "49358f9a294fb5bdd33dcd601a52792f366da2ca191b3f1a5929b42d0e834795"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Kartagener's syndrome\"}",
+      "generated_disease": "Kartagener's syndrome",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "d8fce6124dc4801a454b8a4b3e3533878fa07f3b7696eb837d0ed8913863438f"
+    }
+  ]
+}

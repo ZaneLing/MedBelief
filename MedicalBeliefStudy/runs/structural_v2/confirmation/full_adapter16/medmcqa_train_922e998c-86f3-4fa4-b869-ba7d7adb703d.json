@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_922e998c-86f3-4fa4-b869-ba7d7adb703d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Salmon patch\"}",
+      "generated_disease": "Salmon patch",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "5fb0480e54ad341a5cae972959fc92657465c49b4c571a6c5270194cb8681827"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Capillary hemangioma\"}",
+      "generated_disease": "Capillary hemangioma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "06337c0038c7644bd7a721e8f90087d72ee22c4c1add4a48bce1787d687d5049"
+    }
+  ]
+}

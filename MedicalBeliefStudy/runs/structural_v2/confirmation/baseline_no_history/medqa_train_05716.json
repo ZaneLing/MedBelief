@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_05716",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Dissociative amnesia with dissociative fugue\"}",
+      "generated_disease": "Dissociative amnesia with dissociative fugue",
+      "stop": "eos",
+      "tokens": 12,
+      "prompt_sha256": "0fabb086b15f1add147b943c0eba3b4c13b002428b9cc08761de6603cb922015"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_3743f9b6-55d8-4570-9ae8-a6a6eff9ed5d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Mneystosysticentericenterickeplenserventotemphserventemphsysdigemphsellservemphsellservemphsellservemphsellservemphsellservservemmservemmservemmservemms",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "fa86918aed94e522c2bbc02751323c3b723888370064f9e8cfc665a56200ff62"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Mnectionystosartholaxenysturacovemphilenserventetemphinaliaresparacovememphinalenemphinalenemphinalenemphinalenemphinalenemphinalenemphinalenemphinalenemph",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "29ab80769eda7fe6d829b2817718367b2faf76123e2c64977a94c4af39216689"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_dev_01126",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Patent ductus arteriosus\"}",
+      "generated_disease": "Patent ductus arteriosus",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "94c2acb4ee5a66bc8d66d2d3b615f5cc6826ba016e5d755f795e74d1074ad706"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Patent ductus arteriosus\"}",
+      "generated_disease": "Patent ductus arteriosus",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "872e3d5fd7d7a04680db208e73040a20836ec2f9979ca12ae812b36c616024db"
+    }
+  ]
+}

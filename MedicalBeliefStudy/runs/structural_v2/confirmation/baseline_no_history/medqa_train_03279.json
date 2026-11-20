@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_03279",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Alzheimer disease\"}",
+      "generated_disease": "Alzheimer disease",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "f8eef1172683374399bec689d61b8b51ddfad139d5836dc37e018bc74eb40f51"
+    }
+  ]
+}

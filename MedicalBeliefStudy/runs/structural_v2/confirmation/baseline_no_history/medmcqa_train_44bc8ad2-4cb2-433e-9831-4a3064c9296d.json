@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_44bc8ad2-4cb2-433e-9831-4a3064c9296d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Tuberculosis\"}",
+      "generated_disease": "Tuberculosis",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "098a8ad00926b3249b43356b1777a312e87271122e835f1cbe19837a02a00d79"
+    }
+  ]
+}

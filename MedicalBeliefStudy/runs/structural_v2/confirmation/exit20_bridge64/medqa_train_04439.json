@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_04439",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Hysmococitic\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "cb3c522504593e9c27939b203106a24bc0f5b38c9a49f2d712f5e349db8ff607"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocitis\"}",
+      "generated_disease": "Cystocitis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "9853ef701a5212bab486d125c05e8bef22811ed7f14e1c9f62e13e5bf528b705"
+    }
+  ]
+}

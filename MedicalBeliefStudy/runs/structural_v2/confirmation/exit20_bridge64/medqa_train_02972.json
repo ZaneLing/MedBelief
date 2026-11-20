@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_02972",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Acute malignant disorder\"}",
+      "generated_disease": "Acute malignant disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "505549ccba344ac20117648a1271a6d9a7173937d500bb3ac079a166c04bcb36"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Acute chronic lympholyaloma\"}",
+      "generated_disease": "Acute chronic lympholyaloma",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "0ea9f60f11ea3fb303a9ebd0c1840588b8ab33832a56b161a41ec272b03874ab"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_74338c6a-19e7-4422-84f4-76dbf674be02",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformy substractive disorder\"}",
+      "generated_disease": "Chronic veniformy substractive disorder",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "afe2f43382495fb00422479844c0d7c198452b726d873982a0d2620740504eb9"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chilisburg syndrome orphans\"}",
+      "generated_disease": "Chilisburg syndrome orphans",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "048f7389bfb3f8511f949715803219332ce8227957909cb8419a14af5a04efcf"
+    }
+  ]
+}

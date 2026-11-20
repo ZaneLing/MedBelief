@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_06145",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Normal pressure hydrocephalus\"}",
+      "generated_disease": "Normal pressure hydrocephalus",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "b92024369b8eca251c01b5fde46d624a82803fd083b65401abd12a0c6422d74f"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Huntington's disease\"}",
+      "generated_disease": "Huntington's disease",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "e25a0182884ccbddfada8cab2a39be71521ae98489271b075c91b3e70ccf2b91"
+    }
+  ]
+}

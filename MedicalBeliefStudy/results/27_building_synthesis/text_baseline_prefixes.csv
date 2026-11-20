@@ -1,0 +1,2557 @@
+case_id,round,baseline,gold,prediction,hit
+ddx_test_0000299,0,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0000299,1,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0000299,2,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0000299,3,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0000299,4,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0000299,5,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0000299,6,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0000299,7,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0000299,8,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,0,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,1,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,2,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,3,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,4,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,5,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,6,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,7,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,0,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,1,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,2,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,3,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,4,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,5,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,6,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,7,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0016704,0,full,Acute otitis media,Bronchitis,False
+ddx_test_0016704,1,full,Acute otitis media,URTI,False
+ddx_test_0016704,2,full,Acute otitis media,Acute otitis media,True
+ddx_test_0016704,3,full,Acute otitis media,Acute otitis media,True
+ddx_test_0016704,4,full,Acute otitis media,Acute otitis media,True
+ddx_test_0016704,5,full,Acute otitis media,Acute otitis media,True
+ddx_test_0063960,0,full,Acute otitis media,Acute otitis media,True
+ddx_test_0063960,1,full,Acute otitis media,Acute otitis media,True
+ddx_test_0063960,2,full,Acute otitis media,Acute otitis media,True
+ddx_test_0063960,3,full,Acute otitis media,Acute otitis media,True
+ddx_test_0063960,4,full,Acute otitis media,Acute otitis media,True
+ddx_test_0128733,0,full,Acute otitis media,Viral pharyngitis,False
+ddx_test_0128733,1,full,Acute otitis media,Acute otitis media,True
+ddx_test_0128733,2,full,Acute otitis media,Acute otitis media,True
+ddx_test_0128733,3,full,Acute otitis media,Acute otitis media,True
+ddx_test_0128733,4,full,Acute otitis media,Acute otitis media,True
+ddx_test_0127183,0,full,Acute pulmonary edema,Pericarditis,False
+ddx_test_0127183,1,full,Acute pulmonary edema,Pericarditis,False
+ddx_test_0127183,2,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0127183,3,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0127183,4,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0127183,5,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0127183,6,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0127183,7,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0127183,8,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0127183,9,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0127183,10,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0127183,11,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,0,full,Acute pulmonary edema,Spontaneous pneumothorax,False
+ddx_test_0081225,1,full,Acute pulmonary edema,Spontaneous pneumothorax,False
+ddx_test_0081225,2,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,3,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,4,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,5,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,6,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,7,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,8,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,9,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,10,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,11,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,0,full,Acute pulmonary edema,Pulmonary embolism,False
+ddx_test_0046757,1,full,Acute pulmonary edema,Pulmonary embolism,False
+ddx_test_0046757,2,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,3,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,4,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,5,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,6,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,7,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,8,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,9,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,10,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,11,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0110051,0,full,Anemia,Anemia,True
+ddx_test_0110051,1,full,Anemia,Anemia,True
+ddx_test_0110051,2,full,Anemia,Anemia,True
+ddx_test_0110051,3,full,Anemia,Anemia,True
+ddx_test_0110051,4,full,Anemia,Anemia,True
+ddx_test_0110051,5,full,Anemia,Anemia,True
+ddx_test_0110051,6,full,Anemia,Anemia,True
+ddx_test_0110051,7,full,Anemia,Anemia,True
+ddx_test_0110051,8,full,Anemia,Anemia,True
+ddx_test_0110051,9,full,Anemia,Anemia,True
+ddx_test_0110051,10,full,Anemia,Anemia,True
+ddx_test_0110051,11,full,Anemia,Anemia,True
+ddx_test_0118340,0,full,Anemia,Anemia,True
+ddx_test_0118340,1,full,Anemia,Anemia,True
+ddx_test_0118340,2,full,Anemia,Anemia,True
+ddx_test_0118340,3,full,Anemia,Anemia,True
+ddx_test_0118340,4,full,Anemia,Anemia,True
+ddx_test_0118340,5,full,Anemia,Anemia,True
+ddx_test_0118340,6,full,Anemia,Anemia,True
+ddx_test_0118340,7,full,Anemia,Anemia,True
+ddx_test_0118340,8,full,Anemia,Anemia,True
+ddx_test_0118340,9,full,Anemia,Anemia,True
+ddx_test_0118340,10,full,Anemia,Anemia,True
+ddx_test_0118340,11,full,Anemia,Anemia,True
+ddx_test_0118340,12,full,Anemia,Anemia,True
+ddx_test_0127686,0,full,Anemia,Anemia,True
+ddx_test_0127686,1,full,Anemia,Anemia,True
+ddx_test_0127686,2,full,Anemia,Anemia,True
+ddx_test_0127686,3,full,Anemia,Anemia,True
+ddx_test_0127686,4,full,Anemia,Anemia,True
+ddx_test_0127686,5,full,Anemia,Anemia,True
+ddx_test_0127686,6,full,Anemia,Anemia,True
+ddx_test_0127686,7,full,Anemia,Anemia,True
+ddx_test_0127686,8,full,Anemia,Anemia,True
+ddx_test_0127686,9,full,Anemia,Anemia,True
+ddx_test_0127686,10,full,Anemia,Anemia,True
+ddx_test_0003154,0,full,Atrial fibrillation,Spontaneous pneumothorax,False
+ddx_test_0003154,1,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0003154,2,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0003154,3,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0003154,4,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0003154,5,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0003154,6,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0003154,7,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0003154,8,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,0,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,1,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,2,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,3,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,4,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,5,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,6,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,7,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,8,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,9,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,10,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,11,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,12,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,0,full,Atrial fibrillation,Anemia,False
+ddx_test_0055936,1,full,Atrial fibrillation,Stable angina,False
+ddx_test_0055936,2,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,3,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,4,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,5,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,6,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,7,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,8,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,9,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0039512,0,full,Boerhaave,Boerhaave,True
+ddx_test_0039512,1,full,Boerhaave,Boerhaave,True
+ddx_test_0039512,2,full,Boerhaave,Boerhaave,True
+ddx_test_0039512,3,full,Boerhaave,Boerhaave,True
+ddx_test_0039512,4,full,Boerhaave,Boerhaave,True
+ddx_test_0039512,5,full,Boerhaave,Boerhaave,True
+ddx_test_0095278,0,full,Boerhaave,Boerhaave,True
+ddx_test_0095278,1,full,Boerhaave,Boerhaave,True
+ddx_test_0095278,2,full,Boerhaave,Boerhaave,True
+ddx_test_0095278,3,full,Boerhaave,Boerhaave,True
+ddx_test_0095278,4,full,Boerhaave,Boerhaave,True
+ddx_test_0054085,0,full,Boerhaave,Boerhaave,True
+ddx_test_0054085,1,full,Boerhaave,Boerhaave,True
+ddx_test_0054085,2,full,Boerhaave,Boerhaave,True
+ddx_test_0054085,3,full,Boerhaave,Boerhaave,True
+ddx_test_0054085,4,full,Boerhaave,Boerhaave,True
+ddx_test_0054085,5,full,Boerhaave,Boerhaave,True
+ddx_test_0101459,0,full,Bronchitis,Bronchitis,True
+ddx_test_0101459,1,full,Bronchitis,Bronchitis,True
+ddx_test_0101459,2,full,Bronchitis,Bronchitis,True
+ddx_test_0101459,3,full,Bronchitis,Bronchitis,True
+ddx_test_0101459,4,full,Bronchitis,Bronchitis,True
+ddx_test_0101459,5,full,Bronchitis,Bronchitis,True
+ddx_test_0101459,6,full,Bronchitis,Bronchitis,True
+ddx_test_0101459,7,full,Bronchitis,Bronchitis,True
+ddx_test_0103125,0,full,Bronchitis,Bronchitis,True
+ddx_test_0103125,1,full,Bronchitis,Bronchitis,True
+ddx_test_0103125,2,full,Bronchitis,Bronchitis,True
+ddx_test_0103125,3,full,Bronchitis,Bronchitis,True
+ddx_test_0103125,4,full,Bronchitis,Bronchitis,True
+ddx_test_0103125,5,full,Bronchitis,Bronchitis,True
+ddx_test_0103125,6,full,Bronchitis,Bronchitis,True
+ddx_test_0103125,7,full,Bronchitis,Bronchitis,True
+ddx_test_0103125,8,full,Bronchitis,Bronchitis,True
+ddx_test_0022562,0,full,Bronchitis,Bronchitis,True
+ddx_test_0022562,1,full,Bronchitis,Bronchitis,True
+ddx_test_0022562,2,full,Bronchitis,Bronchitis,True
+ddx_test_0022562,3,full,Bronchitis,Bronchitis,True
+ddx_test_0022562,4,full,Bronchitis,Bronchitis,True
+ddx_test_0022562,5,full,Bronchitis,Bronchitis,True
+ddx_test_0022562,6,full,Bronchitis,Bronchitis,True
+ddx_test_0022562,7,full,Bronchitis,Bronchitis,True
+ddx_test_0022562,8,full,Bronchitis,Bronchitis,True
+ddx_test_0040118,0,full,Bronchospasm / acute asthma exacerbation,Bronchitis,False
+ddx_test_0040118,1,full,Bronchospasm / acute asthma exacerbation,Bronchitis,False
+ddx_test_0040118,2,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0040118,3,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0040118,4,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0040118,5,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0040118,6,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0040118,7,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,0,full,Bronchospasm / acute asthma exacerbation,Bronchitis,False
+ddx_test_0023830,1,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,2,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,3,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,4,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,5,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,6,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,7,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,8,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,0,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,1,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,2,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,3,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,4,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,5,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,6,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,7,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,8,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,9,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0036753,0,full,Cluster headache,Cluster headache,True
+ddx_test_0036753,1,full,Cluster headache,Cluster headache,True
+ddx_test_0036753,2,full,Cluster headache,Cluster headache,True
+ddx_test_0036753,3,full,Cluster headache,Cluster headache,True
+ddx_test_0036753,4,full,Cluster headache,Cluster headache,True
+ddx_test_0036753,5,full,Cluster headache,Cluster headache,True
+ddx_test_0086648,0,full,Cluster headache,Cluster headache,True
+ddx_test_0086648,1,full,Cluster headache,Cluster headache,True
+ddx_test_0086648,2,full,Cluster headache,Cluster headache,True
+ddx_test_0086648,3,full,Cluster headache,Cluster headache,True
+ddx_test_0086648,4,full,Cluster headache,Cluster headache,True
+ddx_test_0086648,5,full,Cluster headache,Cluster headache,True
+ddx_test_0086648,6,full,Cluster headache,Cluster headache,True
+ddx_test_0082478,0,full,Cluster headache,Cluster headache,True
+ddx_test_0082478,1,full,Cluster headache,Cluster headache,True
+ddx_test_0082478,2,full,Cluster headache,Cluster headache,True
+ddx_test_0082478,3,full,Cluster headache,Cluster headache,True
+ddx_test_0082478,4,full,Cluster headache,Cluster headache,True
+ddx_test_0082478,5,full,Cluster headache,Cluster headache,True
+ddx_test_0042655,0,full,GERD,Anemia,False
+ddx_test_0042655,1,full,GERD,GERD,True
+ddx_test_0042655,2,full,GERD,GERD,True
+ddx_test_0042655,3,full,GERD,GERD,True
+ddx_test_0042655,4,full,GERD,GERD,True
+ddx_test_0042655,5,full,GERD,GERD,True
+ddx_test_0042655,6,full,GERD,GERD,True
+ddx_test_0042655,7,full,GERD,GERD,True
+ddx_test_0042655,8,full,GERD,GERD,True
+ddx_test_0099480,0,full,GERD,Anemia,False
+ddx_test_0099480,1,full,GERD,Anemia,False
+ddx_test_0099480,2,full,GERD,Anemia,False
+ddx_test_0099480,3,full,GERD,Pericarditis,False
+ddx_test_0099480,4,full,GERD,Bronchospasm / acute asthma exacerbation,False
+ddx_test_0099480,5,full,GERD,GERD,True
+ddx_test_0099480,6,full,GERD,GERD,True
+ddx_test_0099480,7,full,GERD,GERD,True
+ddx_test_0099480,8,full,GERD,GERD,True
+ddx_test_0031727,0,full,GERD,GERD,True
+ddx_test_0031727,1,full,GERD,GERD,True
+ddx_test_0031727,2,full,GERD,GERD,True
+ddx_test_0031727,3,full,GERD,Pericarditis,False
+ddx_test_0031727,4,full,GERD,Pericarditis,False
+ddx_test_0031727,5,full,GERD,Pericarditis,False
+ddx_test_0070101,0,full,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0070101,1,full,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0070101,2,full,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0070101,3,full,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0070101,4,full,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0070101,5,full,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0070101,6,full,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0005381,0,full,Guillain-Barré syndrome,Bronchospasm / acute asthma exacerbation,False
+ddx_test_0005381,1,full,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0005381,2,full,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0005381,3,full,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0005381,4,full,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0005381,5,full,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0074388,0,full,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0074388,1,full,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0074388,2,full,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0074388,3,full,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0074388,4,full,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0123927,0,full,HIV (initial infection),Bronchitis,False
+ddx_test_0123927,1,full,HIV (initial infection),Guillain-Barré syndrome,False
+ddx_test_0123927,2,full,HIV (initial infection),URTI,False
+ddx_test_0123927,3,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0123927,4,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0123927,5,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0123927,6,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0123927,7,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0123927,8,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0123927,9,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0123927,10,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0008416,0,full,HIV (initial infection),Pancreatic neoplasm,False
+ddx_test_0008416,1,full,HIV (initial infection),Pancreatic neoplasm,False
+ddx_test_0008416,2,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0008416,3,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0008416,4,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0008416,5,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0008416,6,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0008416,7,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0008416,8,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0008416,9,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0134121,0,full,HIV (initial infection),Anemia,False
+ddx_test_0134121,1,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0134121,2,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0134121,3,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0134121,4,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0134121,5,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0134121,6,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0134121,7,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0102786,0,full,Inguinal hernia,Inguinal hernia,True
+ddx_test_0102786,1,full,Inguinal hernia,Inguinal hernia,True
+ddx_test_0102786,2,full,Inguinal hernia,Inguinal hernia,True
+ddx_test_0102786,3,full,Inguinal hernia,Inguinal hernia,True
+ddx_test_0102786,4,full,Inguinal hernia,Inguinal hernia,True
+ddx_test_0051746,0,full,Inguinal hernia,Inguinal hernia,True
+ddx_test_0051746,1,full,Inguinal hernia,Inguinal hernia,True
+ddx_test_0051746,2,full,Inguinal hernia,Inguinal hernia,True
+ddx_test_0051746,3,full,Inguinal hernia,Inguinal hernia,True
+ddx_test_0051746,4,full,Inguinal hernia,Inguinal hernia,True
+ddx_test_0051746,5,full,Inguinal hernia,Inguinal hernia,True
+ddx_test_0051746,6,full,Inguinal hernia,Inguinal hernia,True
+ddx_test_0125852,0,full,Inguinal hernia,Inguinal hernia,True
+ddx_test_0125852,1,full,Inguinal hernia,Inguinal hernia,True
+ddx_test_0125852,2,full,Inguinal hernia,Inguinal hernia,True
+ddx_test_0125852,3,full,Inguinal hernia,Inguinal hernia,True
+ddx_test_0125852,4,full,Inguinal hernia,Inguinal hernia,True
+ddx_test_0125852,5,full,Inguinal hernia,Inguinal hernia,True
+ddx_test_0011169,0,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0011169,1,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0011169,2,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0011169,3,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0011169,4,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0011169,5,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0011169,6,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,0,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,1,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,2,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,3,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,4,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,5,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,6,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,7,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,0,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,1,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,2,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,3,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,4,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,5,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,6,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,7,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0057776,0,full,Pancreatic neoplasm,Bronchitis,False
+ddx_test_0057776,1,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0057776,2,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0057776,3,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0057776,4,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0057776,5,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0057776,6,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0057776,7,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,0,full,Pancreatic neoplasm,Anemia,False
+ddx_test_0114059,1,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,2,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,3,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,4,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,5,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,6,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,7,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,8,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,9,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,10,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,11,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0075635,0,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0075635,1,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0075635,2,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0075635,3,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0075635,4,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0075635,5,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0075635,6,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0075635,7,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0075635,8,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0046674,0,full,Pericarditis,Pericarditis,True
+ddx_test_0046674,1,full,Pericarditis,Pericarditis,True
+ddx_test_0046674,2,full,Pericarditis,Pericarditis,True
+ddx_test_0046674,3,full,Pericarditis,Pericarditis,True
+ddx_test_0046674,4,full,Pericarditis,Pericarditis,True
+ddx_test_0046674,5,full,Pericarditis,Pericarditis,True
+ddx_test_0046860,0,full,Pericarditis,Bronchospasm / acute asthma exacerbation,False
+ddx_test_0046860,1,full,Pericarditis,Pericarditis,True
+ddx_test_0046860,2,full,Pericarditis,Pericarditis,True
+ddx_test_0046860,3,full,Pericarditis,Pericarditis,True
+ddx_test_0046860,4,full,Pericarditis,Pericarditis,True
+ddx_test_0046860,5,full,Pericarditis,Pericarditis,True
+ddx_test_0077574,0,full,Pericarditis,Pericarditis,True
+ddx_test_0077574,1,full,Pericarditis,Pericarditis,True
+ddx_test_0077574,2,full,Pericarditis,Pericarditis,True
+ddx_test_0077574,3,full,Pericarditis,Pericarditis,True
+ddx_test_0077574,4,full,Pericarditis,Pericarditis,True
+ddx_test_0082088,0,full,Pneumonia,Acute pulmonary edema,False
+ddx_test_0082088,1,full,Pneumonia,Acute pulmonary edema,False
+ddx_test_0082088,2,full,Pneumonia,Acute pulmonary edema,False
+ddx_test_0082088,3,full,Pneumonia,Acute pulmonary edema,False
+ddx_test_0082088,4,full,Pneumonia,Acute pulmonary edema,False
+ddx_test_0082088,5,full,Pneumonia,Pneumonia,True
+ddx_test_0082088,6,full,Pneumonia,Pneumonia,True
+ddx_test_0082088,7,full,Pneumonia,Pneumonia,True
+ddx_test_0082088,8,full,Pneumonia,Pneumonia,True
+ddx_test_0082088,9,full,Pneumonia,Pneumonia,True
+ddx_test_0082088,10,full,Pneumonia,Pneumonia,True
+ddx_test_0082088,11,full,Pneumonia,Pneumonia,True
+ddx_test_0082088,12,full,Pneumonia,Pneumonia,True
+ddx_test_0082088,13,full,Pneumonia,Pneumonia,True
+ddx_test_0082088,14,full,Pneumonia,Pneumonia,True
+ddx_test_0082088,15,full,Pneumonia,Pneumonia,True
+ddx_test_0012516,0,full,Pneumonia,URTI,False
+ddx_test_0012516,1,full,Pneumonia,Atrial fibrillation,False
+ddx_test_0012516,2,full,Pneumonia,Anemia,False
+ddx_test_0012516,3,full,Pneumonia,Pneumonia,True
+ddx_test_0012516,4,full,Pneumonia,Pneumonia,True
+ddx_test_0012516,5,full,Pneumonia,Pneumonia,True
+ddx_test_0012516,6,full,Pneumonia,Pneumonia,True
+ddx_test_0012516,7,full,Pneumonia,Pneumonia,True
+ddx_test_0012516,8,full,Pneumonia,Pneumonia,True
+ddx_test_0012516,9,full,Pneumonia,Pneumonia,True
+ddx_test_0012516,10,full,Pneumonia,Pneumonia,True
+ddx_test_0012516,11,full,Pneumonia,Pneumonia,True
+ddx_test_0012516,12,full,Pneumonia,Pneumonia,True
+ddx_test_0012516,13,full,Pneumonia,Pneumonia,True
+ddx_test_0012516,14,full,Pneumonia,Pneumonia,True
+ddx_test_0012516,15,full,Pneumonia,Pneumonia,True
+ddx_test_0084913,0,full,Pneumonia,URTI,False
+ddx_test_0084913,1,full,Pneumonia,Possible NSTEMI / STEMI,False
+ddx_test_0084913,2,full,Pneumonia,Possible NSTEMI / STEMI,False
+ddx_test_0084913,3,full,Pneumonia,Possible NSTEMI / STEMI,False
+ddx_test_0084913,4,full,Pneumonia,Possible NSTEMI / STEMI,False
+ddx_test_0084913,5,full,Pneumonia,Pneumonia,True
+ddx_test_0084913,6,full,Pneumonia,Pneumonia,True
+ddx_test_0084913,7,full,Pneumonia,Pneumonia,True
+ddx_test_0084913,8,full,Pneumonia,Pneumonia,True
+ddx_test_0084913,9,full,Pneumonia,Pneumonia,True
+ddx_test_0084913,10,full,Pneumonia,Pneumonia,True
+ddx_test_0084913,11,full,Pneumonia,Pneumonia,True
+ddx_test_0084913,12,full,Pneumonia,Pneumonia,True
+ddx_test_0084913,13,full,Pneumonia,Pneumonia,True
+ddx_test_0084913,14,full,Pneumonia,Pneumonia,True
+ddx_test_0084913,15,full,Pneumonia,Pneumonia,True
+ddx_test_0081104,0,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,1,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,2,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,3,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,4,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,5,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,6,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,7,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,8,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,9,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,10,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,11,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,12,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,13,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,14,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,0,full,Possible NSTEMI / STEMI,Anemia,False
+ddx_test_0053572,1,full,Possible NSTEMI / STEMI,Anemia,False
+ddx_test_0053572,2,full,Possible NSTEMI / STEMI,Stable angina,False
+ddx_test_0053572,3,full,Possible NSTEMI / STEMI,Stable angina,False
+ddx_test_0053572,4,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,5,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,6,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,7,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,8,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,9,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,10,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,11,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,12,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,0,full,Possible NSTEMI / STEMI,Bronchospasm / acute asthma exacerbation,False
+ddx_test_0054422,1,full,Possible NSTEMI / STEMI,Bronchospasm / acute asthma exacerbation,False
+ddx_test_0054422,2,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,3,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,4,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,5,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,6,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,7,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,8,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,9,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,10,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,11,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0013493,0,full,Pulmonary embolism,Bronchospasm / acute asthma exacerbation,False
+ddx_test_0013493,1,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0013493,2,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0013493,3,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0013493,4,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0013493,5,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0013493,6,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0013493,7,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,0,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,1,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,2,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,3,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,4,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,5,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,6,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,7,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,8,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,9,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,10,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,0,full,Pulmonary embolism,Bronchospasm / acute asthma exacerbation,False
+ddx_test_0014935,1,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,2,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,3,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,4,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,5,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,6,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,7,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,8,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,9,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0059125,0,full,SLE,Bronchospasm / acute asthma exacerbation,False
+ddx_test_0059125,1,full,SLE,Bronchospasm / acute asthma exacerbation,False
+ddx_test_0059125,2,full,SLE,Bronchospasm / acute asthma exacerbation,False
+ddx_test_0059125,3,full,SLE,SLE,True
+ddx_test_0059125,4,full,SLE,SLE,True
+ddx_test_0059125,5,full,SLE,SLE,True
+ddx_test_0059125,6,full,SLE,SLE,True
+ddx_test_0059125,7,full,SLE,SLE,True
+ddx_test_0064244,0,full,SLE,Bronchospasm / acute asthma exacerbation,False
+ddx_test_0064244,1,full,SLE,Bronchospasm / acute asthma exacerbation,False
+ddx_test_0064244,2,full,SLE,Bronchospasm / acute asthma exacerbation,False
+ddx_test_0064244,3,full,SLE,SLE,True
+ddx_test_0064244,4,full,SLE,SLE,True
+ddx_test_0064244,5,full,SLE,SLE,True
+ddx_test_0064244,6,full,SLE,SLE,True
+ddx_test_0064244,7,full,SLE,SLE,True
+ddx_test_0027091,0,full,SLE,SLE,True
+ddx_test_0027091,1,full,SLE,SLE,True
+ddx_test_0027091,2,full,SLE,SLE,True
+ddx_test_0027091,3,full,SLE,SLE,True
+ddx_test_0027091,4,full,SLE,SLE,True
+ddx_test_0027091,5,full,SLE,SLE,True
+ddx_test_0027091,6,full,SLE,SLE,True
+ddx_test_0027091,7,full,SLE,SLE,True
+ddx_test_0132217,0,full,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0132217,1,full,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0132217,2,full,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0132217,3,full,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0132217,4,full,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0132217,5,full,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0091997,0,full,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0091997,1,full,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0091997,2,full,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0091997,3,full,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0091997,4,full,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0091997,5,full,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0091997,6,full,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0091997,7,full,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0106969,0,full,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0106969,1,full,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0106969,2,full,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0106969,3,full,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0106969,4,full,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0106969,5,full,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0106969,6,full,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0048251,0,full,Stable angina,Pericarditis,False
+ddx_test_0048251,1,full,Stable angina,Stable angina,True
+ddx_test_0048251,2,full,Stable angina,Stable angina,True
+ddx_test_0048251,3,full,Stable angina,Stable angina,True
+ddx_test_0048251,4,full,Stable angina,Stable angina,True
+ddx_test_0048251,5,full,Stable angina,Stable angina,True
+ddx_test_0048251,6,full,Stable angina,Stable angina,True
+ddx_test_0019361,0,full,Stable angina,Possible NSTEMI / STEMI,False
+ddx_test_0019361,1,full,Stable angina,Stable angina,True
+ddx_test_0019361,2,full,Stable angina,Stable angina,True
+ddx_test_0019361,3,full,Stable angina,Stable angina,True
+ddx_test_0019361,4,full,Stable angina,Stable angina,True
+ddx_test_0019361,5,full,Stable angina,Stable angina,True
+ddx_test_0019361,6,full,Stable angina,Stable angina,True
+ddx_test_0019361,7,full,Stable angina,Stable angina,True
+ddx_test_0019361,8,full,Stable angina,Stable angina,True
+ddx_test_0019361,9,full,Stable angina,Stable angina,True
+ddx_test_0019361,10,full,Stable angina,Stable angina,True
+ddx_test_0050521,0,full,Stable angina,Bronchospasm / acute asthma exacerbation,False
+ddx_test_0050521,1,full,Stable angina,Stable angina,True
+ddx_test_0050521,2,full,Stable angina,Stable angina,True
+ddx_test_0050521,3,full,Stable angina,Stable angina,True
+ddx_test_0050521,4,full,Stable angina,Stable angina,True
+ddx_test_0050521,5,full,Stable angina,Stable angina,True
+ddx_test_0050521,6,full,Stable angina,Stable angina,True
+ddx_test_0050521,7,full,Stable angina,Stable angina,True
+ddx_test_0050521,8,full,Stable angina,Stable angina,True
+ddx_test_0050521,9,full,Stable angina,Stable angina,True
+ddx_test_0050521,10,full,Stable angina,Stable angina,True
+ddx_test_0050521,11,full,Stable angina,Stable angina,True
+ddx_test_0050521,12,full,Stable angina,Stable angina,True
+ddx_test_0069681,0,full,URTI,Possible NSTEMI / STEMI,False
+ddx_test_0069681,1,full,URTI,URTI,True
+ddx_test_0069681,2,full,URTI,URTI,True
+ddx_test_0069681,3,full,URTI,URTI,True
+ddx_test_0069681,4,full,URTI,URTI,True
+ddx_test_0069681,5,full,URTI,URTI,True
+ddx_test_0069681,6,full,URTI,Bronchitis,False
+ddx_test_0069681,7,full,URTI,URTI,True
+ddx_test_0069681,8,full,URTI,Bronchitis,False
+ddx_test_0069681,9,full,URTI,URTI,True
+ddx_test_0077896,0,full,URTI,URTI,True
+ddx_test_0077896,1,full,URTI,URTI,True
+ddx_test_0077896,2,full,URTI,URTI,True
+ddx_test_0077896,3,full,URTI,URTI,True
+ddx_test_0077896,4,full,URTI,URTI,True
+ddx_test_0077896,5,full,URTI,Viral pharyngitis,False
+ddx_test_0077896,6,full,URTI,URTI,True
+ddx_test_0077896,7,full,URTI,URTI,True
+ddx_test_0077896,8,full,URTI,URTI,True
+ddx_test_0077896,9,full,URTI,URTI,True
+ddx_test_0077896,10,full,URTI,URTI,True
+ddx_test_0077896,11,full,URTI,URTI,True
+ddx_test_0036817,0,full,URTI,URTI,True
+ddx_test_0036817,1,full,URTI,URTI,True
+ddx_test_0036817,2,full,URTI,URTI,True
+ddx_test_0036817,3,full,URTI,URTI,True
+ddx_test_0036817,4,full,URTI,URTI,True
+ddx_test_0036817,5,full,URTI,URTI,True
+ddx_test_0036817,6,full,URTI,URTI,True
+ddx_test_0036817,7,full,URTI,URTI,True
+ddx_test_0036817,8,full,URTI,URTI,True
+ddx_test_0098383,0,full,Viral pharyngitis,Bronchitis,False
+ddx_test_0098383,1,full,Viral pharyngitis,URTI,False
+ddx_test_0098383,2,full,Viral pharyngitis,URTI,False
+ddx_test_0098383,3,full,Viral pharyngitis,URTI,False
+ddx_test_0098383,4,full,Viral pharyngitis,URTI,False
+ddx_test_0098383,5,full,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0098383,6,full,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0098383,7,full,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0098383,8,full,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0118573,0,full,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0118573,1,full,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0118573,2,full,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0118573,3,full,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0118573,4,full,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0118573,5,full,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0105824,0,full,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0105824,1,full,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0105824,2,full,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0105824,3,full,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0105824,4,full,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0105824,5,full,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0105824,6,full,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0105824,7,full,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0000299,0,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0000299,1,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0000299,2,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0000299,3,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0000299,4,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0000299,5,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0000299,6,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0000299,7,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0000299,8,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,0,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,1,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,2,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,3,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,4,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,5,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,6,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,7,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,0,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,1,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,2,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,3,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,4,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,5,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,6,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,7,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0016704,0,questions,Acute otitis media,Bronchitis,False
+ddx_test_0016704,1,questions,Acute otitis media,URTI,False
+ddx_test_0016704,2,questions,Acute otitis media,Acute otitis media,True
+ddx_test_0016704,3,questions,Acute otitis media,Acute otitis media,True
+ddx_test_0016704,4,questions,Acute otitis media,Acute otitis media,True
+ddx_test_0016704,5,questions,Acute otitis media,Acute otitis media,True
+ddx_test_0063960,0,questions,Acute otitis media,Pericarditis,False
+ddx_test_0063960,1,questions,Acute otitis media,Acute otitis media,True
+ddx_test_0063960,2,questions,Acute otitis media,Acute otitis media,True
+ddx_test_0063960,3,questions,Acute otitis media,Acute otitis media,True
+ddx_test_0063960,4,questions,Acute otitis media,Acute otitis media,True
+ddx_test_0128733,0,questions,Acute otitis media,Viral pharyngitis,False
+ddx_test_0128733,1,questions,Acute otitis media,Viral pharyngitis,False
+ddx_test_0128733,2,questions,Acute otitis media,Acute otitis media,True
+ddx_test_0128733,3,questions,Acute otitis media,Acute otitis media,True
+ddx_test_0128733,4,questions,Acute otitis media,Acute otitis media,True
+ddx_test_0127183,0,questions,Acute pulmonary edema,Pericarditis,False
+ddx_test_0127183,1,questions,Acute pulmonary edema,Pericarditis,False
+ddx_test_0127183,2,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0127183,3,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0127183,4,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0127183,5,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0127183,6,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0127183,7,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0127183,8,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0127183,9,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0127183,10,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0127183,11,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,0,questions,Acute pulmonary edema,Spontaneous pneumothorax,False
+ddx_test_0081225,1,questions,Acute pulmonary edema,Spontaneous pneumothorax,False
+ddx_test_0081225,2,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,3,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,4,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,5,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,6,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,7,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,8,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,9,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,10,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,11,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,0,questions,Acute pulmonary edema,Pericarditis,False
+ddx_test_0046757,1,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,2,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,3,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,4,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,5,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,6,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,7,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,8,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,9,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,10,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,11,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0110051,0,questions,Anemia,Anemia,True
+ddx_test_0110051,1,questions,Anemia,Anemia,True
+ddx_test_0110051,2,questions,Anemia,Anemia,True
+ddx_test_0110051,3,questions,Anemia,Anemia,True
+ddx_test_0110051,4,questions,Anemia,Anemia,True
+ddx_test_0110051,5,questions,Anemia,Anemia,True
+ddx_test_0110051,6,questions,Anemia,Anemia,True
+ddx_test_0110051,7,questions,Anemia,Anemia,True
+ddx_test_0110051,8,questions,Anemia,Anemia,True
+ddx_test_0110051,9,questions,Anemia,Anemia,True
+ddx_test_0110051,10,questions,Anemia,Anemia,True
+ddx_test_0110051,11,questions,Anemia,Anemia,True
+ddx_test_0118340,0,questions,Anemia,Pericarditis,False
+ddx_test_0118340,1,questions,Anemia,Anemia,True
+ddx_test_0118340,2,questions,Anemia,Anemia,True
+ddx_test_0118340,3,questions,Anemia,Anemia,True
+ddx_test_0118340,4,questions,Anemia,Anemia,True
+ddx_test_0118340,5,questions,Anemia,Anemia,True
+ddx_test_0118340,6,questions,Anemia,Anemia,True
+ddx_test_0118340,7,questions,Anemia,Anemia,True
+ddx_test_0118340,8,questions,Anemia,Anemia,True
+ddx_test_0118340,9,questions,Anemia,Anemia,True
+ddx_test_0118340,10,questions,Anemia,Anemia,True
+ddx_test_0118340,11,questions,Anemia,Anemia,True
+ddx_test_0118340,12,questions,Anemia,Anemia,True
+ddx_test_0127686,0,questions,Anemia,Anemia,True
+ddx_test_0127686,1,questions,Anemia,Anemia,True
+ddx_test_0127686,2,questions,Anemia,Anemia,True
+ddx_test_0127686,3,questions,Anemia,Anemia,True
+ddx_test_0127686,4,questions,Anemia,Anemia,True
+ddx_test_0127686,5,questions,Anemia,Anemia,True
+ddx_test_0127686,6,questions,Anemia,Anemia,True
+ddx_test_0127686,7,questions,Anemia,Anemia,True
+ddx_test_0127686,8,questions,Anemia,Anemia,True
+ddx_test_0127686,9,questions,Anemia,Anemia,True
+ddx_test_0127686,10,questions,Anemia,Anemia,True
+ddx_test_0003154,0,questions,Atrial fibrillation,Spontaneous pneumothorax,False
+ddx_test_0003154,1,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0003154,2,questions,Atrial fibrillation,Stable angina,False
+ddx_test_0003154,3,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0003154,4,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0003154,5,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0003154,6,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0003154,7,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0003154,8,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,0,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,1,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,2,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,3,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,4,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,5,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,6,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,7,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,8,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,9,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,10,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,11,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,12,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,0,questions,Atrial fibrillation,Anemia,False
+ddx_test_0055936,1,questions,Atrial fibrillation,Stable angina,False
+ddx_test_0055936,2,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,3,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,4,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,5,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,6,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,7,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,8,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,9,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0039512,0,questions,Boerhaave,Pericarditis,False
+ddx_test_0039512,1,questions,Boerhaave,Boerhaave,True
+ddx_test_0039512,2,questions,Boerhaave,Boerhaave,True
+ddx_test_0039512,3,questions,Boerhaave,Boerhaave,True
+ddx_test_0039512,4,questions,Boerhaave,Boerhaave,True
+ddx_test_0039512,5,questions,Boerhaave,Boerhaave,True
+ddx_test_0095278,0,questions,Boerhaave,Boerhaave,True
+ddx_test_0095278,1,questions,Boerhaave,Boerhaave,True
+ddx_test_0095278,2,questions,Boerhaave,Boerhaave,True
+ddx_test_0095278,3,questions,Boerhaave,Boerhaave,True
+ddx_test_0095278,4,questions,Boerhaave,Boerhaave,True
+ddx_test_0054085,0,questions,Boerhaave,Boerhaave,True
+ddx_test_0054085,1,questions,Boerhaave,Boerhaave,True
+ddx_test_0054085,2,questions,Boerhaave,Boerhaave,True
+ddx_test_0054085,3,questions,Boerhaave,Boerhaave,True
+ddx_test_0054085,4,questions,Boerhaave,Boerhaave,True
+ddx_test_0054085,5,questions,Boerhaave,Boerhaave,True
+ddx_test_0101459,0,questions,Bronchitis,Bronchitis,True
+ddx_test_0101459,1,questions,Bronchitis,Bronchitis,True
+ddx_test_0101459,2,questions,Bronchitis,Bronchitis,True
+ddx_test_0101459,3,questions,Bronchitis,Bronchitis,True
+ddx_test_0101459,4,questions,Bronchitis,Bronchitis,True
+ddx_test_0101459,5,questions,Bronchitis,Bronchitis,True
+ddx_test_0101459,6,questions,Bronchitis,Bronchitis,True
+ddx_test_0101459,7,questions,Bronchitis,Bronchitis,True
+ddx_test_0103125,0,questions,Bronchitis,Bronchitis,True
+ddx_test_0103125,1,questions,Bronchitis,Bronchitis,True
+ddx_test_0103125,2,questions,Bronchitis,Bronchitis,True
+ddx_test_0103125,3,questions,Bronchitis,Bronchitis,True
+ddx_test_0103125,4,questions,Bronchitis,Bronchitis,True
+ddx_test_0103125,5,questions,Bronchitis,Bronchitis,True
+ddx_test_0103125,6,questions,Bronchitis,Bronchitis,True
+ddx_test_0103125,7,questions,Bronchitis,Bronchitis,True
+ddx_test_0103125,8,questions,Bronchitis,Bronchitis,True
+ddx_test_0022562,0,questions,Bronchitis,Bronchitis,True
+ddx_test_0022562,1,questions,Bronchitis,Bronchitis,True
+ddx_test_0022562,2,questions,Bronchitis,Bronchitis,True
+ddx_test_0022562,3,questions,Bronchitis,Bronchitis,True
+ddx_test_0022562,4,questions,Bronchitis,Bronchitis,True
+ddx_test_0022562,5,questions,Bronchitis,Bronchitis,True
+ddx_test_0022562,6,questions,Bronchitis,Bronchitis,True
+ddx_test_0022562,7,questions,Bronchitis,Bronchitis,True
+ddx_test_0022562,8,questions,Bronchitis,Bronchitis,True
+ddx_test_0040118,0,questions,Bronchospasm / acute asthma exacerbation,Bronchitis,False
+ddx_test_0040118,1,questions,Bronchospasm / acute asthma exacerbation,Bronchitis,False
+ddx_test_0040118,2,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0040118,3,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0040118,4,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0040118,5,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0040118,6,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0040118,7,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,0,questions,Bronchospasm / acute asthma exacerbation,Bronchitis,False
+ddx_test_0023830,1,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,2,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,3,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,4,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,5,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,6,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,7,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,8,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,0,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,1,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,2,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,3,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,4,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,5,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,6,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,7,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,8,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,9,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0036753,0,questions,Cluster headache,Pericarditis,False
+ddx_test_0036753,1,questions,Cluster headache,Cluster headache,True
+ddx_test_0036753,2,questions,Cluster headache,Cluster headache,True
+ddx_test_0036753,3,questions,Cluster headache,Cluster headache,True
+ddx_test_0036753,4,questions,Cluster headache,Cluster headache,True
+ddx_test_0036753,5,questions,Cluster headache,Cluster headache,True
+ddx_test_0086648,0,questions,Cluster headache,Pericarditis,False
+ddx_test_0086648,1,questions,Cluster headache,Cluster headache,True
+ddx_test_0086648,2,questions,Cluster headache,Cluster headache,True
+ddx_test_0086648,3,questions,Cluster headache,Cluster headache,True
+ddx_test_0086648,4,questions,Cluster headache,Cluster headache,True
+ddx_test_0086648,5,questions,Cluster headache,Cluster headache,True
+ddx_test_0086648,6,questions,Cluster headache,Cluster headache,True
+ddx_test_0082478,0,questions,Cluster headache,Pericarditis,False
+ddx_test_0082478,1,questions,Cluster headache,Cluster headache,True
+ddx_test_0082478,2,questions,Cluster headache,Cluster headache,True
+ddx_test_0082478,3,questions,Cluster headache,Cluster headache,True
+ddx_test_0082478,4,questions,Cluster headache,Cluster headache,True
+ddx_test_0082478,5,questions,Cluster headache,Cluster headache,True
+ddx_test_0042655,0,questions,GERD,Anemia,False
+ddx_test_0042655,1,questions,GERD,Anemia,False
+ddx_test_0042655,2,questions,GERD,Anemia,False
+ddx_test_0042655,3,questions,GERD,Anemia,False
+ddx_test_0042655,4,questions,GERD,Anemia,False
+ddx_test_0042655,5,questions,GERD,GERD,True
+ddx_test_0042655,6,questions,GERD,GERD,True
+ddx_test_0042655,7,questions,GERD,GERD,True
+ddx_test_0042655,8,questions,GERD,GERD,True
+ddx_test_0099480,0,questions,GERD,Anemia,False
+ddx_test_0099480,1,questions,GERD,Anemia,False
+ddx_test_0099480,2,questions,GERD,Anemia,False
+ddx_test_0099480,3,questions,GERD,Pericarditis,False
+ddx_test_0099480,4,questions,GERD,Pericarditis,False
+ddx_test_0099480,5,questions,GERD,GERD,True
+ddx_test_0099480,6,questions,GERD,GERD,True
+ddx_test_0099480,7,questions,GERD,GERD,True
+ddx_test_0099480,8,questions,GERD,GERD,True
+ddx_test_0031727,0,questions,GERD,Pericarditis,False
+ddx_test_0031727,1,questions,GERD,Pericarditis,False
+ddx_test_0031727,2,questions,GERD,Bronchitis,False
+ddx_test_0031727,3,questions,GERD,Pericarditis,False
+ddx_test_0031727,4,questions,GERD,Pericarditis,False
+ddx_test_0031727,5,questions,GERD,Pericarditis,False
+ddx_test_0070101,0,questions,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0070101,1,questions,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0070101,2,questions,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0070101,3,questions,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0070101,4,questions,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0070101,5,questions,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0070101,6,questions,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0005381,0,questions,Guillain-Barré syndrome,Bronchospasm / acute asthma exacerbation,False
+ddx_test_0005381,1,questions,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0005381,2,questions,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0005381,3,questions,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0005381,4,questions,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0005381,5,questions,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0074388,0,questions,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0074388,1,questions,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0074388,2,questions,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0074388,3,questions,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0074388,4,questions,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0123927,0,questions,HIV (initial infection),Bronchitis,False
+ddx_test_0123927,1,questions,HIV (initial infection),HIV (initial infection),True
+ddx_test_0123927,2,questions,HIV (initial infection),URTI,False
+ddx_test_0123927,3,questions,HIV (initial infection),HIV (initial infection),True
+ddx_test_0123927,4,questions,HIV (initial infection),HIV (initial infection),True
+ddx_test_0123927,5,questions,HIV (initial infection),HIV (initial infection),True
+ddx_test_0123927,6,questions,HIV (initial infection),HIV (initial infection),True
+ddx_test_0123927,7,questions,HIV (initial infection),HIV (initial infection),True
+ddx_test_0123927,8,questions,HIV (initial infection),HIV (initial infection),True
+ddx_test_0123927,9,questions,HIV (initial infection),HIV (initial infection),True
+ddx_test_0123927,10,questions,HIV (initial infection),HIV (initial infection),True
+ddx_test_0008416,0,questions,HIV (initial infection),Pancreatic neoplasm,False
+ddx_test_0008416,1,questions,HIV (initial infection),Pancreatic neoplasm,False
+ddx_test_0008416,2,questions,HIV (initial infection),Pancreatic neoplasm,False
+ddx_test_0008416,3,questions,HIV (initial infection),Pancreatic neoplasm,False
+ddx_test_0008416,4,questions,HIV (initial infection),Pancreatic neoplasm,False
+ddx_test_0008416,5,questions,HIV (initial infection),HIV (initial infection),True
+ddx_test_0008416,6,questions,HIV (initial infection),HIV (initial infection),True
+ddx_test_0008416,7,questions,HIV (initial infection),HIV (initial infection),True
+ddx_test_0008416,8,questions,HIV (initial infection),HIV (initial infection),True
+ddx_test_0008416,9,questions,HIV (initial infection),HIV (initial infection),True
+ddx_test_0134121,0,questions,HIV (initial infection),Anemia,False
+ddx_test_0134121,1,questions,HIV (initial infection),HIV (initial infection),True
+ddx_test_0134121,2,questions,HIV (initial infection),HIV (initial infection),True
+ddx_test_0134121,3,questions,HIV (initial infection),HIV (initial infection),True
+ddx_test_0134121,4,questions,HIV (initial infection),HIV (initial infection),True
+ddx_test_0134121,5,questions,HIV (initial infection),HIV (initial infection),True
+ddx_test_0134121,6,questions,HIV (initial infection),HIV (initial infection),True
+ddx_test_0134121,7,questions,HIV (initial infection),HIV (initial infection),True
+ddx_test_0102786,0,questions,Inguinal hernia,Pericarditis,False
+ddx_test_0102786,1,questions,Inguinal hernia,Pericarditis,False
+ddx_test_0102786,2,questions,Inguinal hernia,SLE,False
+ddx_test_0102786,3,questions,Inguinal hernia,Inguinal hernia,True
+ddx_test_0102786,4,questions,Inguinal hernia,Inguinal hernia,True
+ddx_test_0051746,0,questions,Inguinal hernia,Inguinal hernia,True
+ddx_test_0051746,1,questions,Inguinal hernia,Inguinal hernia,True
+ddx_test_0051746,2,questions,Inguinal hernia,Inguinal hernia,True
+ddx_test_0051746,3,questions,Inguinal hernia,Inguinal hernia,True
+ddx_test_0051746,4,questions,Inguinal hernia,Inguinal hernia,True
+ddx_test_0051746,5,questions,Inguinal hernia,Inguinal hernia,True
+ddx_test_0051746,6,questions,Inguinal hernia,Inguinal hernia,True
+ddx_test_0125852,0,questions,Inguinal hernia,Inguinal hernia,True
+ddx_test_0125852,1,questions,Inguinal hernia,Inguinal hernia,True
+ddx_test_0125852,2,questions,Inguinal hernia,Inguinal hernia,True
+ddx_test_0125852,3,questions,Inguinal hernia,Inguinal hernia,True
+ddx_test_0125852,4,questions,Inguinal hernia,Inguinal hernia,True
+ddx_test_0125852,5,questions,Inguinal hernia,Inguinal hernia,True
+ddx_test_0011169,0,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0011169,1,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0011169,2,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0011169,3,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0011169,4,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0011169,5,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0011169,6,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,0,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,1,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,2,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,3,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,4,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,5,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,6,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,7,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,0,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,1,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,2,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,3,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,4,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,5,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,6,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,7,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0057776,0,questions,Pancreatic neoplasm,Bronchitis,False
+ddx_test_0057776,1,questions,Pancreatic neoplasm,Bronchitis,False
+ddx_test_0057776,2,questions,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0057776,3,questions,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0057776,4,questions,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0057776,5,questions,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0057776,6,questions,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0057776,7,questions,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,0,questions,Pancreatic neoplasm,Anemia,False
+ddx_test_0114059,1,questions,Pancreatic neoplasm,SLE,False
+ddx_test_0114059,2,questions,Pancreatic neoplasm,SLE,False
+ddx_test_0114059,3,questions,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,4,questions,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,5,questions,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,6,questions,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,7,questions,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,8,questions,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,9,questions,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,10,questions,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,11,questions,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0075635,0,questions,Pancreatic neoplasm,Pericarditis,False
+ddx_test_0075635,1,questions,Pancreatic neoplasm,SLE,False
+ddx_test_0075635,2,questions,Pancreatic neoplasm,SLE,False
+ddx_test_0075635,3,questions,Pancreatic neoplasm,SLE,False
+ddx_test_0075635,4,questions,Pancreatic neoplasm,SLE,False
+ddx_test_0075635,5,questions,Pancreatic neoplasm,SLE,False
+ddx_test_0075635,6,questions,Pancreatic neoplasm,SLE,False
+ddx_test_0075635,7,questions,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0075635,8,questions,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0046674,0,questions,Pericarditis,Pericarditis,True
+ddx_test_0046674,1,questions,Pericarditis,Pericarditis,True
+ddx_test_0046674,2,questions,Pericarditis,Pericarditis,True
+ddx_test_0046674,3,questions,Pericarditis,Pericarditis,True
+ddx_test_0046674,4,questions,Pericarditis,Pericarditis,True
+ddx_test_0046674,5,questions,Pericarditis,Pericarditis,True
+ddx_test_0046860,0,questions,Pericarditis,Bronchospasm / acute asthma exacerbation,False
+ddx_test_0046860,1,questions,Pericarditis,Pericarditis,True
+ddx_test_0046860,2,questions,Pericarditis,Pericarditis,True
+ddx_test_0046860,3,questions,Pericarditis,Pericarditis,True
+ddx_test_0046860,4,questions,Pericarditis,Pericarditis,True
+ddx_test_0046860,5,questions,Pericarditis,Pericarditis,True
+ddx_test_0077574,0,questions,Pericarditis,Pericarditis,True
+ddx_test_0077574,1,questions,Pericarditis,Pericarditis,True
+ddx_test_0077574,2,questions,Pericarditis,Pericarditis,True
+ddx_test_0077574,3,questions,Pericarditis,Pericarditis,True
+ddx_test_0077574,4,questions,Pericarditis,Pericarditis,True
+ddx_test_0082088,0,questions,Pneumonia,Acute pulmonary edema,False
+ddx_test_0082088,1,questions,Pneumonia,Acute pulmonary edema,False
+ddx_test_0082088,2,questions,Pneumonia,Acute pulmonary edema,False
+ddx_test_0082088,3,questions,Pneumonia,Acute pulmonary edema,False
+ddx_test_0082088,4,questions,Pneumonia,Pneumonia,True
+ddx_test_0082088,5,questions,Pneumonia,Pneumonia,True
+ddx_test_0082088,6,questions,Pneumonia,Pneumonia,True
+ddx_test_0082088,7,questions,Pneumonia,Pneumonia,True
+ddx_test_0082088,8,questions,Pneumonia,Pneumonia,True
+ddx_test_0082088,9,questions,Pneumonia,Pneumonia,True
+ddx_test_0082088,10,questions,Pneumonia,Pneumonia,True
+ddx_test_0082088,11,questions,Pneumonia,Pneumonia,True
+ddx_test_0082088,12,questions,Pneumonia,Pneumonia,True
+ddx_test_0082088,13,questions,Pneumonia,Pneumonia,True
+ddx_test_0082088,14,questions,Pneumonia,Pneumonia,True
+ddx_test_0082088,15,questions,Pneumonia,Pneumonia,True
+ddx_test_0012516,0,questions,Pneumonia,URTI,False
+ddx_test_0012516,1,questions,Pneumonia,Atrial fibrillation,False
+ddx_test_0012516,2,questions,Pneumonia,Anemia,False
+ddx_test_0012516,3,questions,Pneumonia,Pneumonia,True
+ddx_test_0012516,4,questions,Pneumonia,Pneumonia,True
+ddx_test_0012516,5,questions,Pneumonia,Pneumonia,True
+ddx_test_0012516,6,questions,Pneumonia,Pneumonia,True
+ddx_test_0012516,7,questions,Pneumonia,Pneumonia,True
+ddx_test_0012516,8,questions,Pneumonia,Pneumonia,True
+ddx_test_0012516,9,questions,Pneumonia,Pneumonia,True
+ddx_test_0012516,10,questions,Pneumonia,Pneumonia,True
+ddx_test_0012516,11,questions,Pneumonia,Pneumonia,True
+ddx_test_0012516,12,questions,Pneumonia,Pneumonia,True
+ddx_test_0012516,13,questions,Pneumonia,Pneumonia,True
+ddx_test_0012516,14,questions,Pneumonia,Pneumonia,True
+ddx_test_0012516,15,questions,Pneumonia,Pneumonia,True
+ddx_test_0084913,0,questions,Pneumonia,Cluster headache,False
+ddx_test_0084913,1,questions,Pneumonia,Possible NSTEMI / STEMI,False
+ddx_test_0084913,2,questions,Pneumonia,Possible NSTEMI / STEMI,False
+ddx_test_0084913,3,questions,Pneumonia,Possible NSTEMI / STEMI,False
+ddx_test_0084913,4,questions,Pneumonia,Pneumonia,True
+ddx_test_0084913,5,questions,Pneumonia,Pneumonia,True
+ddx_test_0084913,6,questions,Pneumonia,Pneumonia,True
+ddx_test_0084913,7,questions,Pneumonia,Pneumonia,True
+ddx_test_0084913,8,questions,Pneumonia,Pneumonia,True
+ddx_test_0084913,9,questions,Pneumonia,Pneumonia,True
+ddx_test_0084913,10,questions,Pneumonia,Pneumonia,True
+ddx_test_0084913,11,questions,Pneumonia,Pneumonia,True
+ddx_test_0084913,12,questions,Pneumonia,Pneumonia,True
+ddx_test_0084913,13,questions,Pneumonia,Pneumonia,True
+ddx_test_0084913,14,questions,Pneumonia,Pneumonia,True
+ddx_test_0084913,15,questions,Pneumonia,Pneumonia,True
+ddx_test_0081104,0,questions,Possible NSTEMI / STEMI,Pericarditis,False
+ddx_test_0081104,1,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,2,questions,Possible NSTEMI / STEMI,Stable angina,False
+ddx_test_0081104,3,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,4,questions,Possible NSTEMI / STEMI,Stable angina,False
+ddx_test_0081104,5,questions,Possible NSTEMI / STEMI,Stable angina,False
+ddx_test_0081104,6,questions,Possible NSTEMI / STEMI,Stable angina,False
+ddx_test_0081104,7,questions,Possible NSTEMI / STEMI,Stable angina,False
+ddx_test_0081104,8,questions,Possible NSTEMI / STEMI,Stable angina,False
+ddx_test_0081104,9,questions,Possible NSTEMI / STEMI,Stable angina,False
+ddx_test_0081104,10,questions,Possible NSTEMI / STEMI,Stable angina,False
+ddx_test_0081104,11,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,12,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,13,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,14,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,0,questions,Possible NSTEMI / STEMI,Anemia,False
+ddx_test_0053572,1,questions,Possible NSTEMI / STEMI,Anemia,False
+ddx_test_0053572,2,questions,Possible NSTEMI / STEMI,Stable angina,False
+ddx_test_0053572,3,questions,Possible NSTEMI / STEMI,Stable angina,False
+ddx_test_0053572,4,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,5,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,6,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,7,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,8,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,9,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,10,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,11,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,12,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,0,questions,Possible NSTEMI / STEMI,Bronchospasm / acute asthma exacerbation,False
+ddx_test_0054422,1,questions,Possible NSTEMI / STEMI,Bronchospasm / acute asthma exacerbation,False
+ddx_test_0054422,2,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,3,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,4,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,5,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,6,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,7,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,8,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,9,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,10,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,11,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0013493,0,questions,Pulmonary embolism,Bronchospasm / acute asthma exacerbation,False
+ddx_test_0013493,1,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0013493,2,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0013493,3,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0013493,4,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0013493,5,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0013493,6,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0013493,7,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,0,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,1,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,2,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,3,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,4,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,5,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,6,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,7,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,8,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,9,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,10,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,0,questions,Pulmonary embolism,Bronchospasm / acute asthma exacerbation,False
+ddx_test_0014935,1,questions,Pulmonary embolism,Pericarditis,False
+ddx_test_0014935,2,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,3,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,4,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,5,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,6,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,7,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,8,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,9,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0059125,0,questions,SLE,Bronchospasm / acute asthma exacerbation,False
+ddx_test_0059125,1,questions,SLE,Pericarditis,False
+ddx_test_0059125,2,questions,SLE,Bronchospasm / acute asthma exacerbation,False
+ddx_test_0059125,3,questions,SLE,SLE,True
+ddx_test_0059125,4,questions,SLE,SLE,True
+ddx_test_0059125,5,questions,SLE,SLE,True
+ddx_test_0059125,6,questions,SLE,SLE,True
+ddx_test_0059125,7,questions,SLE,SLE,True
+ddx_test_0064244,0,questions,SLE,Bronchospasm / acute asthma exacerbation,False
+ddx_test_0064244,1,questions,SLE,Bronchospasm / acute asthma exacerbation,False
+ddx_test_0064244,2,questions,SLE,Bronchospasm / acute asthma exacerbation,False
+ddx_test_0064244,3,questions,SLE,SLE,True
+ddx_test_0064244,4,questions,SLE,SLE,True
+ddx_test_0064244,5,questions,SLE,SLE,True
+ddx_test_0064244,6,questions,SLE,SLE,True
+ddx_test_0064244,7,questions,SLE,SLE,True
+ddx_test_0027091,0,questions,SLE,SLE,True
+ddx_test_0027091,1,questions,SLE,SLE,True
+ddx_test_0027091,2,questions,SLE,SLE,True
+ddx_test_0027091,3,questions,SLE,SLE,True
+ddx_test_0027091,4,questions,SLE,SLE,True
+ddx_test_0027091,5,questions,SLE,SLE,True
+ddx_test_0027091,6,questions,SLE,SLE,True
+ddx_test_0027091,7,questions,SLE,SLE,True
+ddx_test_0132217,0,questions,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0132217,1,questions,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0132217,2,questions,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0132217,3,questions,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0132217,4,questions,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0132217,5,questions,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0091997,0,questions,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0091997,1,questions,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0091997,2,questions,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0091997,3,questions,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0091997,4,questions,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0091997,5,questions,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0091997,6,questions,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0091997,7,questions,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0106969,0,questions,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0106969,1,questions,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0106969,2,questions,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0106969,3,questions,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0106969,4,questions,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0106969,5,questions,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0106969,6,questions,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0048251,0,questions,Stable angina,Pericarditis,False
+ddx_test_0048251,1,questions,Stable angina,Cluster headache,False
+ddx_test_0048251,2,questions,Stable angina,Cluster headache,False
+ddx_test_0048251,3,questions,Stable angina,Cluster headache,False
+ddx_test_0048251,4,questions,Stable angina,Stable angina,True
+ddx_test_0048251,5,questions,Stable angina,Stable angina,True
+ddx_test_0048251,6,questions,Stable angina,Stable angina,True
+ddx_test_0019361,0,questions,Stable angina,Pericarditis,False
+ddx_test_0019361,1,questions,Stable angina,Stable angina,True
+ddx_test_0019361,2,questions,Stable angina,Stable angina,True
+ddx_test_0019361,3,questions,Stable angina,Stable angina,True
+ddx_test_0019361,4,questions,Stable angina,Stable angina,True
+ddx_test_0019361,5,questions,Stable angina,Stable angina,True
+ddx_test_0019361,6,questions,Stable angina,Stable angina,True
+ddx_test_0019361,7,questions,Stable angina,Stable angina,True
+ddx_test_0019361,8,questions,Stable angina,Stable angina,True
+ddx_test_0019361,9,questions,Stable angina,Stable angina,True
+ddx_test_0019361,10,questions,Stable angina,Stable angina,True
+ddx_test_0050521,0,questions,Stable angina,Bronchospasm / acute asthma exacerbation,False
+ddx_test_0050521,1,questions,Stable angina,Stable angina,True
+ddx_test_0050521,2,questions,Stable angina,Stable angina,True
+ddx_test_0050521,3,questions,Stable angina,Stable angina,True
+ddx_test_0050521,4,questions,Stable angina,Stable angina,True
+ddx_test_0050521,5,questions,Stable angina,Stable angina,True
+ddx_test_0050521,6,questions,Stable angina,Stable angina,True
+ddx_test_0050521,7,questions,Stable angina,Stable angina,True
+ddx_test_0050521,8,questions,Stable angina,Stable angina,True
+ddx_test_0050521,9,questions,Stable angina,Stable angina,True
+ddx_test_0050521,10,questions,Stable angina,Stable angina,True
+ddx_test_0050521,11,questions,Stable angina,Stable angina,True
+ddx_test_0050521,12,questions,Stable angina,Stable angina,True
+ddx_test_0069681,0,questions,URTI,Possible NSTEMI / STEMI,False
+ddx_test_0069681,1,questions,URTI,URTI,True
+ddx_test_0069681,2,questions,URTI,URTI,True
+ddx_test_0069681,3,questions,URTI,URTI,True
+ddx_test_0069681,4,questions,URTI,Viral pharyngitis,False
+ddx_test_0069681,5,questions,URTI,Bronchitis,False
+ddx_test_0069681,6,questions,URTI,Bronchitis,False
+ddx_test_0069681,7,questions,URTI,Bronchitis,False
+ddx_test_0069681,8,questions,URTI,Bronchitis,False
+ddx_test_0069681,9,questions,URTI,URTI,True
+ddx_test_0077896,0,questions,URTI,URTI,True
+ddx_test_0077896,1,questions,URTI,URTI,True
+ddx_test_0077896,2,questions,URTI,Viral pharyngitis,False
+ddx_test_0077896,3,questions,URTI,URTI,True
+ddx_test_0077896,4,questions,URTI,URTI,True
+ddx_test_0077896,5,questions,URTI,Viral pharyngitis,False
+ddx_test_0077896,6,questions,URTI,Viral pharyngitis,False
+ddx_test_0077896,7,questions,URTI,Viral pharyngitis,False
+ddx_test_0077896,8,questions,URTI,Viral pharyngitis,False
+ddx_test_0077896,9,questions,URTI,Viral pharyngitis,False
+ddx_test_0077896,10,questions,URTI,Viral pharyngitis,False
+ddx_test_0077896,11,questions,URTI,Viral pharyngitis,False
+ddx_test_0036817,0,questions,URTI,Pericarditis,False
+ddx_test_0036817,1,questions,URTI,Cluster headache,False
+ddx_test_0036817,2,questions,URTI,URTI,True
+ddx_test_0036817,3,questions,URTI,URTI,True
+ddx_test_0036817,4,questions,URTI,Viral pharyngitis,False
+ddx_test_0036817,5,questions,URTI,URTI,True
+ddx_test_0036817,6,questions,URTI,URTI,True
+ddx_test_0036817,7,questions,URTI,URTI,True
+ddx_test_0036817,8,questions,URTI,URTI,True
+ddx_test_0098383,0,questions,Viral pharyngitis,Bronchitis,False
+ddx_test_0098383,1,questions,Viral pharyngitis,URTI,False
+ddx_test_0098383,2,questions,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0098383,3,questions,Viral pharyngitis,URTI,False
+ddx_test_0098383,4,questions,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0098383,5,questions,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0098383,6,questions,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0098383,7,questions,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0098383,8,questions,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0118573,0,questions,Viral pharyngitis,Pericarditis,False
+ddx_test_0118573,1,questions,Viral pharyngitis,Pericarditis,False
+ddx_test_0118573,2,questions,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0118573,3,questions,Viral pharyngitis,Cluster headache,False
+ddx_test_0118573,4,questions,Viral pharyngitis,Cluster headache,False
+ddx_test_0118573,5,questions,Viral pharyngitis,URTI,False
+ddx_test_0105824,0,questions,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0105824,1,questions,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0105824,2,questions,Viral pharyngitis,Bronchitis,False
+ddx_test_0105824,3,questions,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0105824,4,questions,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0105824,5,questions,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0105824,6,questions,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0105824,7,questions,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0000299,0,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0000299,1,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0000299,2,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0000299,3,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0000299,4,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0000299,5,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0000299,6,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0000299,7,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0000299,8,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,0,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,1,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,2,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,3,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,4,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,5,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,6,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,7,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,0,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,1,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,2,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,3,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,4,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,5,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,6,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,7,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0016704,0,structured_values,Acute otitis media,Guillain-Barré syndrome,False
+ddx_test_0016704,1,structured_values,Acute otitis media,Guillain-Barré syndrome,False
+ddx_test_0016704,2,structured_values,Acute otitis media,Acute otitis media,True
+ddx_test_0016704,3,structured_values,Acute otitis media,Acute otitis media,True
+ddx_test_0016704,4,structured_values,Acute otitis media,Acute otitis media,True
+ddx_test_0016704,5,structured_values,Acute otitis media,Acute otitis media,True
+ddx_test_0063960,0,structured_values,Acute otitis media,Acute otitis media,True
+ddx_test_0063960,1,structured_values,Acute otitis media,Acute otitis media,True
+ddx_test_0063960,2,structured_values,Acute otitis media,Acute otitis media,True
+ddx_test_0063960,3,structured_values,Acute otitis media,Acute otitis media,True
+ddx_test_0063960,4,structured_values,Acute otitis media,Acute otitis media,True
+ddx_test_0128733,0,structured_values,Acute otitis media,Guillain-Barré syndrome,False
+ddx_test_0128733,1,structured_values,Acute otitis media,Acute otitis media,True
+ddx_test_0128733,2,structured_values,Acute otitis media,Acute otitis media,True
+ddx_test_0128733,3,structured_values,Acute otitis media,Acute otitis media,True
+ddx_test_0128733,4,structured_values,Acute otitis media,Acute otitis media,True
+ddx_test_0127183,0,structured_values,Acute pulmonary edema,Guillain-Barré syndrome,False
+ddx_test_0127183,1,structured_values,Acute pulmonary edema,Stable angina,False
+ddx_test_0127183,2,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0127183,3,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0127183,4,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0127183,5,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0127183,6,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0127183,7,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0127183,8,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0127183,9,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0127183,10,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0127183,11,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,0,structured_values,Acute pulmonary edema,Atrial fibrillation,False
+ddx_test_0081225,1,structured_values,Acute pulmonary edema,Atrial fibrillation,False
+ddx_test_0081225,2,structured_values,Acute pulmonary edema,Atrial fibrillation,False
+ddx_test_0081225,3,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,4,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,5,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,6,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,7,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,8,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,9,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,10,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,11,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,0,structured_values,Acute pulmonary edema,Stable angina,False
+ddx_test_0046757,1,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,2,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,3,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,4,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,5,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,6,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,7,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,8,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,9,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,10,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,11,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0110051,0,structured_values,Anemia,Guillain-Barré syndrome,False
+ddx_test_0110051,1,structured_values,Anemia,Guillain-Barré syndrome,False
+ddx_test_0110051,2,structured_values,Anemia,Anemia,True
+ddx_test_0110051,3,structured_values,Anemia,Anemia,True
+ddx_test_0110051,4,structured_values,Anemia,Anemia,True
+ddx_test_0110051,5,structured_values,Anemia,Anemia,True
+ddx_test_0110051,6,structured_values,Anemia,Anemia,True
+ddx_test_0110051,7,structured_values,Anemia,Anemia,True
+ddx_test_0110051,8,structured_values,Anemia,Anemia,True
+ddx_test_0110051,9,structured_values,Anemia,Anemia,True
+ddx_test_0110051,10,structured_values,Anemia,Anemia,True
+ddx_test_0110051,11,structured_values,Anemia,Anemia,True
+ddx_test_0118340,0,structured_values,Anemia,Anemia,True
+ddx_test_0118340,1,structured_values,Anemia,Anemia,True
+ddx_test_0118340,2,structured_values,Anemia,Anemia,True
+ddx_test_0118340,3,structured_values,Anemia,Anemia,True
+ddx_test_0118340,4,structured_values,Anemia,Anemia,True
+ddx_test_0118340,5,structured_values,Anemia,Anemia,True
+ddx_test_0118340,6,structured_values,Anemia,Anemia,True
+ddx_test_0118340,7,structured_values,Anemia,Anemia,True
+ddx_test_0118340,8,structured_values,Anemia,Anemia,True
+ddx_test_0118340,9,structured_values,Anemia,Anemia,True
+ddx_test_0118340,10,structured_values,Anemia,Anemia,True
+ddx_test_0118340,11,structured_values,Anemia,Anemia,True
+ddx_test_0118340,12,structured_values,Anemia,Anemia,True
+ddx_test_0127686,0,structured_values,Anemia,Atrial fibrillation,False
+ddx_test_0127686,1,structured_values,Anemia,Anemia,True
+ddx_test_0127686,2,structured_values,Anemia,Anemia,True
+ddx_test_0127686,3,structured_values,Anemia,Anemia,True
+ddx_test_0127686,4,structured_values,Anemia,Anemia,True
+ddx_test_0127686,5,structured_values,Anemia,Anemia,True
+ddx_test_0127686,6,structured_values,Anemia,Anemia,True
+ddx_test_0127686,7,structured_values,Anemia,Anemia,True
+ddx_test_0127686,8,structured_values,Anemia,Anemia,True
+ddx_test_0127686,9,structured_values,Anemia,Anemia,True
+ddx_test_0127686,10,structured_values,Anemia,Anemia,True
+ddx_test_0003154,0,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0003154,1,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0003154,2,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0003154,3,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0003154,4,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0003154,5,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0003154,6,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0003154,7,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0003154,8,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,0,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,1,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,2,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,3,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,4,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,5,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,6,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,7,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,8,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,9,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,10,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,11,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,12,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,0,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,1,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,2,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,3,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,4,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,5,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,6,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,7,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,8,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,9,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0039512,0,structured_values,Boerhaave,Boerhaave,True
+ddx_test_0039512,1,structured_values,Boerhaave,Boerhaave,True
+ddx_test_0039512,2,structured_values,Boerhaave,Boerhaave,True
+ddx_test_0039512,3,structured_values,Boerhaave,Boerhaave,True
+ddx_test_0039512,4,structured_values,Boerhaave,Boerhaave,True
+ddx_test_0039512,5,structured_values,Boerhaave,Boerhaave,True
+ddx_test_0095278,0,structured_values,Boerhaave,Guillain-Barré syndrome,False
+ddx_test_0095278,1,structured_values,Boerhaave,Guillain-Barré syndrome,False
+ddx_test_0095278,2,structured_values,Boerhaave,Boerhaave,True
+ddx_test_0095278,3,structured_values,Boerhaave,Boerhaave,True
+ddx_test_0095278,4,structured_values,Boerhaave,Boerhaave,True
+ddx_test_0054085,0,structured_values,Boerhaave,Guillain-Barré syndrome,False
+ddx_test_0054085,1,structured_values,Boerhaave,Guillain-Barré syndrome,False
+ddx_test_0054085,2,structured_values,Boerhaave,Guillain-Barré syndrome,False
+ddx_test_0054085,3,structured_values,Boerhaave,Boerhaave,True
+ddx_test_0054085,4,structured_values,Boerhaave,Boerhaave,True
+ddx_test_0054085,5,structured_values,Boerhaave,Boerhaave,True
+ddx_test_0101459,0,structured_values,Bronchitis,Guillain-Barré syndrome,False
+ddx_test_0101459,1,structured_values,Bronchitis,Bronchitis,True
+ddx_test_0101459,2,structured_values,Bronchitis,Bronchitis,True
+ddx_test_0101459,3,structured_values,Bronchitis,Bronchitis,True
+ddx_test_0101459,4,structured_values,Bronchitis,Bronchitis,True
+ddx_test_0101459,5,structured_values,Bronchitis,Bronchitis,True
+ddx_test_0101459,6,structured_values,Bronchitis,Bronchitis,True
+ddx_test_0101459,7,structured_values,Bronchitis,Bronchitis,True
+ddx_test_0103125,0,structured_values,Bronchitis,Guillain-Barré syndrome,False
+ddx_test_0103125,1,structured_values,Bronchitis,Guillain-Barré syndrome,False
+ddx_test_0103125,2,structured_values,Bronchitis,Bronchitis,True
+ddx_test_0103125,3,structured_values,Bronchitis,Bronchitis,True
+ddx_test_0103125,4,structured_values,Bronchitis,Bronchitis,True
+ddx_test_0103125,5,structured_values,Bronchitis,Bronchitis,True
+ddx_test_0103125,6,structured_values,Bronchitis,Bronchitis,True
+ddx_test_0103125,7,structured_values,Bronchitis,Bronchitis,True
+ddx_test_0103125,8,structured_values,Bronchitis,Bronchitis,True
+ddx_test_0022562,0,structured_values,Bronchitis,Guillain-Barré syndrome,False
+ddx_test_0022562,1,structured_values,Bronchitis,Guillain-Barré syndrome,False
+ddx_test_0022562,2,structured_values,Bronchitis,Acute otitis media,False
+ddx_test_0022562,3,structured_values,Bronchitis,Bronchitis,True
+ddx_test_0022562,4,structured_values,Bronchitis,Bronchitis,True
+ddx_test_0022562,5,structured_values,Bronchitis,Bronchitis,True
+ddx_test_0022562,6,structured_values,Bronchitis,Acute otitis media,False
+ddx_test_0022562,7,structured_values,Bronchitis,Bronchitis,True
+ddx_test_0022562,8,structured_values,Bronchitis,Bronchitis,True
+ddx_test_0040118,0,structured_values,Bronchospasm / acute asthma exacerbation,Guillain-Barré syndrome,False
+ddx_test_0040118,1,structured_values,Bronchospasm / acute asthma exacerbation,Guillain-Barré syndrome,False
+ddx_test_0040118,2,structured_values,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0040118,3,structured_values,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0040118,4,structured_values,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0040118,5,structured_values,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0040118,6,structured_values,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0040118,7,structured_values,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,0,structured_values,Bronchospasm / acute asthma exacerbation,Guillain-Barré syndrome,False
+ddx_test_0023830,1,structured_values,Bronchospasm / acute asthma exacerbation,Guillain-Barré syndrome,False
+ddx_test_0023830,2,structured_values,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,3,structured_values,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,4,structured_values,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,5,structured_values,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,6,structured_values,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,7,structured_values,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,8,structured_values,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,0,structured_values,Bronchospasm / acute asthma exacerbation,Guillain-Barré syndrome,False
+ddx_test_0026536,1,structured_values,Bronchospasm / acute asthma exacerbation,Guillain-Barré syndrome,False
+ddx_test_0026536,2,structured_values,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,3,structured_values,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,4,structured_values,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,5,structured_values,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,6,structured_values,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,7,structured_values,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,8,structured_values,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,9,structured_values,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0036753,0,structured_values,Cluster headache,Cluster headache,True
+ddx_test_0036753,1,structured_values,Cluster headache,Cluster headache,True
+ddx_test_0036753,2,structured_values,Cluster headache,Cluster headache,True
+ddx_test_0036753,3,structured_values,Cluster headache,Cluster headache,True
+ddx_test_0036753,4,structured_values,Cluster headache,Cluster headache,True
+ddx_test_0036753,5,structured_values,Cluster headache,Cluster headache,True
+ddx_test_0086648,0,structured_values,Cluster headache,Cluster headache,True
+ddx_test_0086648,1,structured_values,Cluster headache,Cluster headache,True
+ddx_test_0086648,2,structured_values,Cluster headache,Cluster headache,True
+ddx_test_0086648,3,structured_values,Cluster headache,Cluster headache,True
+ddx_test_0086648,4,structured_values,Cluster headache,Cluster headache,True
+ddx_test_0086648,5,structured_values,Cluster headache,Cluster headache,True
+ddx_test_0086648,6,structured_values,Cluster headache,Cluster headache,True
+ddx_test_0082478,0,structured_values,Cluster headache,Cluster headache,True
+ddx_test_0082478,1,structured_values,Cluster headache,Cluster headache,True
+ddx_test_0082478,2,structured_values,Cluster headache,Cluster headache,True
+ddx_test_0082478,3,structured_values,Cluster headache,Cluster headache,True
+ddx_test_0082478,4,structured_values,Cluster headache,Cluster headache,True
+ddx_test_0082478,5,structured_values,Cluster headache,Cluster headache,True
+ddx_test_0042655,0,structured_values,GERD,Guillain-Barré syndrome,False
+ddx_test_0042655,1,structured_values,GERD,GERD,True
+ddx_test_0042655,2,structured_values,GERD,GERD,True
+ddx_test_0042655,3,structured_values,GERD,GERD,True
+ddx_test_0042655,4,structured_values,GERD,GERD,True
+ddx_test_0042655,5,structured_values,GERD,GERD,True
+ddx_test_0042655,6,structured_values,GERD,GERD,True
+ddx_test_0042655,7,structured_values,GERD,GERD,True
+ddx_test_0042655,8,structured_values,GERD,GERD,True
+ddx_test_0099480,0,structured_values,GERD,Guillain-Barré syndrome,False
+ddx_test_0099480,1,structured_values,GERD,Guillain-Barré syndrome,False
+ddx_test_0099480,2,structured_values,GERD,Guillain-Barré syndrome,False
+ddx_test_0099480,3,structured_values,GERD,Guillain-Barré syndrome,False
+ddx_test_0099480,4,structured_values,GERD,Bronchospasm / acute asthma exacerbation,False
+ddx_test_0099480,5,structured_values,GERD,GERD,True
+ddx_test_0099480,6,structured_values,GERD,GERD,True
+ddx_test_0099480,7,structured_values,GERD,GERD,True
+ddx_test_0099480,8,structured_values,GERD,GERD,True
+ddx_test_0031727,0,structured_values,GERD,GERD,True
+ddx_test_0031727,1,structured_values,GERD,GERD,True
+ddx_test_0031727,2,structured_values,GERD,GERD,True
+ddx_test_0031727,3,structured_values,GERD,GERD,True
+ddx_test_0031727,4,structured_values,GERD,GERD,True
+ddx_test_0031727,5,structured_values,GERD,GERD,True
+ddx_test_0070101,0,structured_values,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0070101,1,structured_values,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0070101,2,structured_values,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0070101,3,structured_values,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0070101,4,structured_values,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0070101,5,structured_values,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0070101,6,structured_values,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0005381,0,structured_values,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0005381,1,structured_values,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0005381,2,structured_values,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0005381,3,structured_values,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0005381,4,structured_values,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0005381,5,structured_values,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0074388,0,structured_values,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0074388,1,structured_values,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0074388,2,structured_values,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0074388,3,structured_values,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0074388,4,structured_values,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0123927,0,structured_values,HIV (initial infection),Guillain-Barré syndrome,False
+ddx_test_0123927,1,structured_values,HIV (initial infection),Guillain-Barré syndrome,False
+ddx_test_0123927,2,structured_values,HIV (initial infection),Guillain-Barré syndrome,False
+ddx_test_0123927,3,structured_values,HIV (initial infection),Guillain-Barré syndrome,False
+ddx_test_0123927,4,structured_values,HIV (initial infection),Guillain-Barré syndrome,False
+ddx_test_0123927,5,structured_values,HIV (initial infection),Guillain-Barré syndrome,False
+ddx_test_0123927,6,structured_values,HIV (initial infection),HIV (initial infection),True
+ddx_test_0123927,7,structured_values,HIV (initial infection),HIV (initial infection),True
+ddx_test_0123927,8,structured_values,HIV (initial infection),HIV (initial infection),True
+ddx_test_0123927,9,structured_values,HIV (initial infection),HIV (initial infection),True
+ddx_test_0123927,10,structured_values,HIV (initial infection),HIV (initial infection),True
+ddx_test_0008416,0,structured_values,HIV (initial infection),Guillain-Barré syndrome,False
+ddx_test_0008416,1,structured_values,HIV (initial infection),Guillain-Barré syndrome,False
+ddx_test_0008416,2,structured_values,HIV (initial infection),HIV (initial infection),True
+ddx_test_0008416,3,structured_values,HIV (initial infection),HIV (initial infection),True
+ddx_test_0008416,4,structured_values,HIV (initial infection),HIV (initial infection),True
+ddx_test_0008416,5,structured_values,HIV (initial infection),HIV (initial infection),True
+ddx_test_0008416,6,structured_values,HIV (initial infection),HIV (initial infection),True
+ddx_test_0008416,7,structured_values,HIV (initial infection),HIV (initial infection),True
+ddx_test_0008416,8,structured_values,HIV (initial infection),HIV (initial infection),True
+ddx_test_0008416,9,structured_values,HIV (initial infection),HIV (initial infection),True
+ddx_test_0134121,0,structured_values,HIV (initial infection),Guillain-Barré syndrome,False
+ddx_test_0134121,1,structured_values,HIV (initial infection),Guillain-Barré syndrome,False
+ddx_test_0134121,2,structured_values,HIV (initial infection),Guillain-Barré syndrome,False
+ddx_test_0134121,3,structured_values,HIV (initial infection),HIV (initial infection),True
+ddx_test_0134121,4,structured_values,HIV (initial infection),HIV (initial infection),True
+ddx_test_0134121,5,structured_values,HIV (initial infection),HIV (initial infection),True
+ddx_test_0134121,6,structured_values,HIV (initial infection),HIV (initial infection),True
+ddx_test_0134121,7,structured_values,HIV (initial infection),HIV (initial infection),True
+ddx_test_0102786,0,structured_values,Inguinal hernia,Inguinal hernia,True
+ddx_test_0102786,1,structured_values,Inguinal hernia,Inguinal hernia,True
+ddx_test_0102786,2,structured_values,Inguinal hernia,Inguinal hernia,True
+ddx_test_0102786,3,structured_values,Inguinal hernia,Inguinal hernia,True
+ddx_test_0102786,4,structured_values,Inguinal hernia,Inguinal hernia,True
+ddx_test_0051746,0,structured_values,Inguinal hernia,Guillain-Barré syndrome,False
+ddx_test_0051746,1,structured_values,Inguinal hernia,Guillain-Barré syndrome,False
+ddx_test_0051746,2,structured_values,Inguinal hernia,Guillain-Barré syndrome,False
+ddx_test_0051746,3,structured_values,Inguinal hernia,Inguinal hernia,True
+ddx_test_0051746,4,structured_values,Inguinal hernia,Inguinal hernia,True
+ddx_test_0051746,5,structured_values,Inguinal hernia,Inguinal hernia,True
+ddx_test_0051746,6,structured_values,Inguinal hernia,Inguinal hernia,True
+ddx_test_0125852,0,structured_values,Inguinal hernia,Guillain-Barré syndrome,False
+ddx_test_0125852,1,structured_values,Inguinal hernia,Atrial fibrillation,False
+ddx_test_0125852,2,structured_values,Inguinal hernia,Inguinal hernia,True
+ddx_test_0125852,3,structured_values,Inguinal hernia,Inguinal hernia,True
+ddx_test_0125852,4,structured_values,Inguinal hernia,Inguinal hernia,True
+ddx_test_0125852,5,structured_values,Inguinal hernia,Inguinal hernia,True
+ddx_test_0011169,0,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0011169,1,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0011169,2,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0011169,3,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0011169,4,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0011169,5,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0011169,6,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,0,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,1,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,2,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,3,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,4,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,5,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,6,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,7,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,0,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,1,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,2,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,3,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,4,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,5,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,6,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,7,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0057776,0,structured_values,Pancreatic neoplasm,Guillain-Barré syndrome,False
+ddx_test_0057776,1,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0057776,2,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0057776,3,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0057776,4,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0057776,5,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0057776,6,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0057776,7,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,0,structured_values,Pancreatic neoplasm,Guillain-Barré syndrome,False
+ddx_test_0114059,1,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,2,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,3,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,4,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,5,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,6,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,7,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,8,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,9,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,10,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,11,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0075635,0,structured_values,Pancreatic neoplasm,Anemia,False
+ddx_test_0075635,1,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0075635,2,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0075635,3,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0075635,4,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0075635,5,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0075635,6,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0075635,7,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0075635,8,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0046674,0,structured_values,Pericarditis,Pericarditis,True
+ddx_test_0046674,1,structured_values,Pericarditis,Pericarditis,True
+ddx_test_0046674,2,structured_values,Pericarditis,Pericarditis,True
+ddx_test_0046674,3,structured_values,Pericarditis,Pericarditis,True
+ddx_test_0046674,4,structured_values,Pericarditis,Pericarditis,True
+ddx_test_0046674,5,structured_values,Pericarditis,Pericarditis,True
+ddx_test_0046860,0,structured_values,Pericarditis,Guillain-Barré syndrome,False
+ddx_test_0046860,1,structured_values,Pericarditis,Pericarditis,True
+ddx_test_0046860,2,structured_values,Pericarditis,Pericarditis,True
+ddx_test_0046860,3,structured_values,Pericarditis,Pericarditis,True
+ddx_test_0046860,4,structured_values,Pericarditis,Pericarditis,True
+ddx_test_0046860,5,structured_values,Pericarditis,Pericarditis,True
+ddx_test_0077574,0,structured_values,Pericarditis,Pericarditis,True
+ddx_test_0077574,1,structured_values,Pericarditis,Pericarditis,True
+ddx_test_0077574,2,structured_values,Pericarditis,Pericarditis,True
+ddx_test_0077574,3,structured_values,Pericarditis,Pericarditis,True
+ddx_test_0077574,4,structured_values,Pericarditis,Pericarditis,True
+ddx_test_0082088,0,structured_values,Pneumonia,Guillain-Barré syndrome,False
+ddx_test_0082088,1,structured_values,Pneumonia,Guillain-Barré syndrome,False
+ddx_test_0082088,2,structured_values,Pneumonia,Guillain-Barré syndrome,False
+ddx_test_0082088,3,structured_values,Pneumonia,Guillain-Barré syndrome,False
+ddx_test_0082088,4,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0082088,5,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0082088,6,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0082088,7,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0082088,8,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0082088,9,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0082088,10,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0082088,11,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0082088,12,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0082088,13,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0082088,14,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0082088,15,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0012516,0,structured_values,Pneumonia,Guillain-Barré syndrome,False
+ddx_test_0012516,1,structured_values,Pneumonia,Guillain-Barré syndrome,False
+ddx_test_0012516,2,structured_values,Pneumonia,Atrial fibrillation,False
+ddx_test_0012516,3,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0012516,4,structured_values,Pneumonia,Atrial fibrillation,False
+ddx_test_0012516,5,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0012516,6,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0012516,7,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0012516,8,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0012516,9,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0012516,10,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0012516,11,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0012516,12,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0012516,13,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0012516,14,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0012516,15,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0084913,0,structured_values,Pneumonia,Guillain-Barré syndrome,False
+ddx_test_0084913,1,structured_values,Pneumonia,Guillain-Barré syndrome,False
+ddx_test_0084913,2,structured_values,Pneumonia,Atrial fibrillation,False
+ddx_test_0084913,3,structured_values,Pneumonia,Atrial fibrillation,False
+ddx_test_0084913,4,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0084913,5,structured_values,Pneumonia,Atrial fibrillation,False
+ddx_test_0084913,6,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0084913,7,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0084913,8,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0084913,9,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0084913,10,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0084913,11,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0084913,12,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0084913,13,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0084913,14,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0084913,15,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0081104,0,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,1,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,2,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,3,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,4,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,5,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,6,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,7,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,8,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,9,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,10,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,11,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,12,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,13,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,14,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,0,structured_values,Possible NSTEMI / STEMI,Guillain-Barré syndrome,False
+ddx_test_0053572,1,structured_values,Possible NSTEMI / STEMI,Atrial fibrillation,False
+ddx_test_0053572,2,structured_values,Possible NSTEMI / STEMI,Atrial fibrillation,False
+ddx_test_0053572,3,structured_values,Possible NSTEMI / STEMI,Atrial fibrillation,False
+ddx_test_0053572,4,structured_values,Possible NSTEMI / STEMI,Atrial fibrillation,False
+ddx_test_0053572,5,structured_values,Possible NSTEMI / STEMI,Atrial fibrillation,False
+ddx_test_0053572,6,structured_values,Possible NSTEMI / STEMI,Atrial fibrillation,False
+ddx_test_0053572,7,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,8,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,9,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,10,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,11,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,12,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,0,structured_values,Possible NSTEMI / STEMI,Guillain-Barré syndrome,False
+ddx_test_0054422,1,structured_values,Possible NSTEMI / STEMI,Guillain-Barré syndrome,False
+ddx_test_0054422,2,structured_values,Possible NSTEMI / STEMI,Guillain-Barré syndrome,False
+ddx_test_0054422,3,structured_values,Possible NSTEMI / STEMI,Atrial fibrillation,False
+ddx_test_0054422,4,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,5,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,6,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,7,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,8,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,9,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,10,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,11,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0013493,0,structured_values,Pulmonary embolism,Guillain-Barré syndrome,False
+ddx_test_0013493,1,structured_values,Pulmonary embolism,Guillain-Barré syndrome,False
+ddx_test_0013493,2,structured_values,Pulmonary embolism,Guillain-Barré syndrome,False
+ddx_test_0013493,3,structured_values,Pulmonary embolism,Atrial fibrillation,False
+ddx_test_0013493,4,structured_values,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0013493,5,structured_values,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0013493,6,structured_values,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0013493,7,structured_values,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,0,structured_values,Pulmonary embolism,Guillain-Barré syndrome,False
+ddx_test_0086293,1,structured_values,Pulmonary embolism,Guillain-Barré syndrome,False
+ddx_test_0086293,2,structured_values,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,3,structured_values,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,4,structured_values,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,5,structured_values,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,6,structured_values,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,7,structured_values,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,8,structured_values,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,9,structured_values,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,10,structured_values,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,0,structured_values,Pulmonary embolism,Guillain-Barré syndrome,False
+ddx_test_0014935,1,structured_values,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,2,structured_values,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,3,structured_values,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,4,structured_values,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,5,structured_values,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,6,structured_values,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,7,structured_values,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,8,structured_values,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,9,structured_values,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0059125,0,structured_values,SLE,Guillain-Barré syndrome,False
+ddx_test_0059125,1,structured_values,SLE,Guillain-Barré syndrome,False
+ddx_test_0059125,2,structured_values,SLE,Guillain-Barré syndrome,False
+ddx_test_0059125,3,structured_values,SLE,SLE,True
+ddx_test_0059125,4,structured_values,SLE,SLE,True
+ddx_test_0059125,5,structured_values,SLE,SLE,True
+ddx_test_0059125,6,structured_values,SLE,SLE,True
+ddx_test_0059125,7,structured_values,SLE,SLE,True
+ddx_test_0064244,0,structured_values,SLE,Guillain-Barré syndrome,False
+ddx_test_0064244,1,structured_values,SLE,Guillain-Barré syndrome,False
+ddx_test_0064244,2,structured_values,SLE,Guillain-Barré syndrome,False
+ddx_test_0064244,3,structured_values,SLE,Guillain-Barré syndrome,False
+ddx_test_0064244,4,structured_values,SLE,Guillain-Barré syndrome,False
+ddx_test_0064244,5,structured_values,SLE,SLE,True
+ddx_test_0064244,6,structured_values,SLE,SLE,True
+ddx_test_0064244,7,structured_values,SLE,SLE,True
+ddx_test_0027091,0,structured_values,SLE,SLE,True
+ddx_test_0027091,1,structured_values,SLE,SLE,True
+ddx_test_0027091,2,structured_values,SLE,SLE,True
+ddx_test_0027091,3,structured_values,SLE,SLE,True
+ddx_test_0027091,4,structured_values,SLE,SLE,True
+ddx_test_0027091,5,structured_values,SLE,SLE,True
+ddx_test_0027091,6,structured_values,SLE,SLE,True
+ddx_test_0027091,7,structured_values,SLE,SLE,True
+ddx_test_0132217,0,structured_values,Spontaneous pneumothorax,Atrial fibrillation,False
+ddx_test_0132217,1,structured_values,Spontaneous pneumothorax,Atrial fibrillation,False
+ddx_test_0132217,2,structured_values,Spontaneous pneumothorax,Atrial fibrillation,False
+ddx_test_0132217,3,structured_values,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0132217,4,structured_values,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0132217,5,structured_values,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0091997,0,structured_values,Spontaneous pneumothorax,Atrial fibrillation,False
+ddx_test_0091997,1,structured_values,Spontaneous pneumothorax,Guillain-Barré syndrome,False
+ddx_test_0091997,2,structured_values,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0091997,3,structured_values,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0091997,4,structured_values,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0091997,5,structured_values,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0091997,6,structured_values,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0091997,7,structured_values,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0106969,0,structured_values,Spontaneous pneumothorax,Atrial fibrillation,False
+ddx_test_0106969,1,structured_values,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0106969,2,structured_values,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0106969,3,structured_values,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0106969,4,structured_values,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0106969,5,structured_values,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0106969,6,structured_values,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0048251,0,structured_values,Stable angina,Possible NSTEMI / STEMI,False
+ddx_test_0048251,1,structured_values,Stable angina,Stable angina,True
+ddx_test_0048251,2,structured_values,Stable angina,Stable angina,True
+ddx_test_0048251,3,structured_values,Stable angina,Stable angina,True
+ddx_test_0048251,4,structured_values,Stable angina,Stable angina,True
+ddx_test_0048251,5,structured_values,Stable angina,Stable angina,True
+ddx_test_0048251,6,structured_values,Stable angina,Stable angina,True
+ddx_test_0019361,0,structured_values,Stable angina,Stable angina,True
+ddx_test_0019361,1,structured_values,Stable angina,Stable angina,True
+ddx_test_0019361,2,structured_values,Stable angina,Stable angina,True
+ddx_test_0019361,3,structured_values,Stable angina,Stable angina,True
+ddx_test_0019361,4,structured_values,Stable angina,Stable angina,True
+ddx_test_0019361,5,structured_values,Stable angina,Stable angina,True
+ddx_test_0019361,6,structured_values,Stable angina,Stable angina,True
+ddx_test_0019361,7,structured_values,Stable angina,Stable angina,True
+ddx_test_0019361,8,structured_values,Stable angina,Stable angina,True
+ddx_test_0019361,9,structured_values,Stable angina,Stable angina,True
+ddx_test_0019361,10,structured_values,Stable angina,Stable angina,True
+ddx_test_0050521,0,structured_values,Stable angina,Guillain-Barré syndrome,False
+ddx_test_0050521,1,structured_values,Stable angina,Guillain-Barré syndrome,False
+ddx_test_0050521,2,structured_values,Stable angina,Guillain-Barré syndrome,False
+ddx_test_0050521,3,structured_values,Stable angina,Stable angina,True
+ddx_test_0050521,4,structured_values,Stable angina,Stable angina,True
+ddx_test_0050521,5,structured_values,Stable angina,Stable angina,True
+ddx_test_0050521,6,structured_values,Stable angina,Stable angina,True
+ddx_test_0050521,7,structured_values,Stable angina,Stable angina,True
+ddx_test_0050521,8,structured_values,Stable angina,Stable angina,True
+ddx_test_0050521,9,structured_values,Stable angina,Stable angina,True
+ddx_test_0050521,10,structured_values,Stable angina,Stable angina,True
+ddx_test_0050521,11,structured_values,Stable angina,Stable angina,True
+ddx_test_0050521,12,structured_values,Stable angina,Stable angina,True
+ddx_test_0069681,0,structured_values,URTI,Guillain-Barré syndrome,False
+ddx_test_0069681,1,structured_values,URTI,Guillain-Barré syndrome,False
+ddx_test_0069681,2,structured_values,URTI,Guillain-Barré syndrome,False
+ddx_test_0069681,3,structured_values,URTI,URTI,True
+ddx_test_0069681,4,structured_values,URTI,URTI,True
+ddx_test_0069681,5,structured_values,URTI,URTI,True
+ddx_test_0069681,6,structured_values,URTI,URTI,True
+ddx_test_0069681,7,structured_values,URTI,URTI,True
+ddx_test_0069681,8,structured_values,URTI,URTI,True
+ddx_test_0069681,9,structured_values,URTI,URTI,True
+ddx_test_0077896,0,structured_values,URTI,Guillain-Barré syndrome,False
+ddx_test_0077896,1,structured_values,URTI,Atrial fibrillation,False
+ddx_test_0077896,2,structured_values,URTI,Atrial fibrillation,False
+ddx_test_0077896,3,structured_values,URTI,Atrial fibrillation,False
+ddx_test_0077896,4,structured_values,URTI,Atrial fibrillation,False
+ddx_test_0077896,5,structured_values,URTI,Viral pharyngitis,False
+ddx_test_0077896,6,structured_values,URTI,URTI,True
+ddx_test_0077896,7,structured_values,URTI,URTI,True
+ddx_test_0077896,8,structured_values,URTI,URTI,True
+ddx_test_0077896,9,structured_values,URTI,URTI,True
+ddx_test_0077896,10,structured_values,URTI,URTI,True
+ddx_test_0077896,11,structured_values,URTI,URTI,True
+ddx_test_0036817,0,structured_values,URTI,URTI,True
+ddx_test_0036817,1,structured_values,URTI,URTI,True
+ddx_test_0036817,2,structured_values,URTI,URTI,True
+ddx_test_0036817,3,structured_values,URTI,URTI,True
+ddx_test_0036817,4,structured_values,URTI,URTI,True
+ddx_test_0036817,5,structured_values,URTI,URTI,True
+ddx_test_0036817,6,structured_values,URTI,URTI,True
+ddx_test_0036817,7,structured_values,URTI,URTI,True
+ddx_test_0036817,8,structured_values,URTI,URTI,True
+ddx_test_0098383,0,structured_values,Viral pharyngitis,Guillain-Barré syndrome,False
+ddx_test_0098383,1,structured_values,Viral pharyngitis,Guillain-Barré syndrome,False
+ddx_test_0098383,2,structured_values,Viral pharyngitis,Atrial fibrillation,False
+ddx_test_0098383,3,structured_values,Viral pharyngitis,Atrial fibrillation,False
+ddx_test_0098383,4,structured_values,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0098383,5,structured_values,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0098383,6,structured_values,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0098383,7,structured_values,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0098383,8,structured_values,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0118573,0,structured_values,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0118573,1,structured_values,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0118573,2,structured_values,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0118573,3,structured_values,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0118573,4,structured_values,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0118573,5,structured_values,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0105824,0,structured_values,Viral pharyngitis,Guillain-Barré syndrome,False
+ddx_test_0105824,1,structured_values,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0105824,2,structured_values,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0105824,3,structured_values,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0105824,4,structured_values,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0105824,5,structured_values,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0105824,6,structured_values,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0105824,7,structured_values,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0000299,0,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0000299,1,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0000299,2,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0000299,3,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0000299,4,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0000299,5,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0000299,6,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0000299,7,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0000299,8,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,0,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,1,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,2,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,3,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,4,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,5,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,6,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,7,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,0,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,1,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,2,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,3,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,4,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,5,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,6,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,7,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0016704,0,presence,Acute otitis media,Guillain-Barré syndrome,False
+ddx_test_0016704,1,presence,Acute otitis media,Guillain-Barré syndrome,False
+ddx_test_0016704,2,presence,Acute otitis media,Acute otitis media,True
+ddx_test_0016704,3,presence,Acute otitis media,Acute otitis media,True
+ddx_test_0016704,4,presence,Acute otitis media,Acute otitis media,True
+ddx_test_0016704,5,presence,Acute otitis media,Acute otitis media,True
+ddx_test_0063960,0,presence,Acute otitis media,Pericarditis,False
+ddx_test_0063960,1,presence,Acute otitis media,Acute otitis media,True
+ddx_test_0063960,2,presence,Acute otitis media,Acute otitis media,True
+ddx_test_0063960,3,presence,Acute otitis media,Acute otitis media,True
+ddx_test_0063960,4,presence,Acute otitis media,Acute otitis media,True
+ddx_test_0128733,0,presence,Acute otitis media,Guillain-Barré syndrome,False
+ddx_test_0128733,1,presence,Acute otitis media,Viral pharyngitis,False
+ddx_test_0128733,2,presence,Acute otitis media,Acute otitis media,True
+ddx_test_0128733,3,presence,Acute otitis media,Acute otitis media,True
+ddx_test_0128733,4,presence,Acute otitis media,Acute otitis media,True
+ddx_test_0127183,0,presence,Acute pulmonary edema,Pericarditis,False
+ddx_test_0127183,1,presence,Acute pulmonary edema,Pericarditis,False
+ddx_test_0127183,2,presence,Acute pulmonary edema,Pericarditis,False
+ddx_test_0127183,3,presence,Acute pulmonary edema,Pericarditis,False
+ddx_test_0127183,4,presence,Acute pulmonary edema,Pericarditis,False
+ddx_test_0127183,5,presence,Acute pulmonary edema,Pericarditis,False
+ddx_test_0127183,6,presence,Acute pulmonary edema,Pericarditis,False
+ddx_test_0127183,7,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0127183,8,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0127183,9,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0127183,10,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0127183,11,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,0,presence,Acute pulmonary edema,Atrial fibrillation,False
+ddx_test_0081225,1,presence,Acute pulmonary edema,Atrial fibrillation,False
+ddx_test_0081225,2,presence,Acute pulmonary edema,Guillain-Barré syndrome,False
+ddx_test_0081225,3,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,4,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,5,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,6,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,7,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,8,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,9,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,10,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,11,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,0,presence,Acute pulmonary edema,Pericarditis,False
+ddx_test_0046757,1,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,2,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,3,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,4,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,5,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,6,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,7,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,8,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,9,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,10,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,11,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0110051,0,presence,Anemia,Guillain-Barré syndrome,False
+ddx_test_0110051,1,presence,Anemia,Guillain-Barré syndrome,False
+ddx_test_0110051,2,presence,Anemia,Atrial fibrillation,False
+ddx_test_0110051,3,presence,Anemia,Anemia,True
+ddx_test_0110051,4,presence,Anemia,Anemia,True
+ddx_test_0110051,5,presence,Anemia,Anemia,True
+ddx_test_0110051,6,presence,Anemia,Anemia,True
+ddx_test_0110051,7,presence,Anemia,Anemia,True
+ddx_test_0110051,8,presence,Anemia,Anemia,True
+ddx_test_0110051,9,presence,Anemia,Anemia,True
+ddx_test_0110051,10,presence,Anemia,Anemia,True
+ddx_test_0110051,11,presence,Anemia,Anemia,True
+ddx_test_0118340,0,presence,Anemia,Pericarditis,False
+ddx_test_0118340,1,presence,Anemia,Anemia,True
+ddx_test_0118340,2,presence,Anemia,Anemia,True
+ddx_test_0118340,3,presence,Anemia,Anemia,True
+ddx_test_0118340,4,presence,Anemia,Anemia,True
+ddx_test_0118340,5,presence,Anemia,Anemia,True
+ddx_test_0118340,6,presence,Anemia,Anemia,True
+ddx_test_0118340,7,presence,Anemia,Anemia,True
+ddx_test_0118340,8,presence,Anemia,Anemia,True
+ddx_test_0118340,9,presence,Anemia,Anemia,True
+ddx_test_0118340,10,presence,Anemia,Anemia,True
+ddx_test_0118340,11,presence,Anemia,Anemia,True
+ddx_test_0118340,12,presence,Anemia,Anemia,True
+ddx_test_0127686,0,presence,Anemia,Atrial fibrillation,False
+ddx_test_0127686,1,presence,Anemia,Atrial fibrillation,False
+ddx_test_0127686,2,presence,Anemia,Atrial fibrillation,False
+ddx_test_0127686,3,presence,Anemia,Anemia,True
+ddx_test_0127686,4,presence,Anemia,Anemia,True
+ddx_test_0127686,5,presence,Anemia,Anemia,True
+ddx_test_0127686,6,presence,Anemia,Anemia,True
+ddx_test_0127686,7,presence,Anemia,Anemia,True
+ddx_test_0127686,8,presence,Anemia,Anemia,True
+ddx_test_0127686,9,presence,Anemia,Anemia,True
+ddx_test_0127686,10,presence,Anemia,Anemia,True
+ddx_test_0003154,0,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0003154,1,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0003154,2,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0003154,3,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0003154,4,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0003154,5,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0003154,6,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0003154,7,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0003154,8,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,0,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,1,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,2,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,3,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,4,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,5,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,6,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,7,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,8,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,9,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,10,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,11,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,12,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,0,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,1,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,2,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,3,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,4,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,5,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,6,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,7,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,8,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,9,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0039512,0,presence,Boerhaave,Pericarditis,False
+ddx_test_0039512,1,presence,Boerhaave,Boerhaave,True
+ddx_test_0039512,2,presence,Boerhaave,Boerhaave,True
+ddx_test_0039512,3,presence,Boerhaave,Boerhaave,True
+ddx_test_0039512,4,presence,Boerhaave,Boerhaave,True
+ddx_test_0039512,5,presence,Boerhaave,Boerhaave,True
+ddx_test_0095278,0,presence,Boerhaave,Guillain-Barré syndrome,False
+ddx_test_0095278,1,presence,Boerhaave,Guillain-Barré syndrome,False
+ddx_test_0095278,2,presence,Boerhaave,Boerhaave,True
+ddx_test_0095278,3,presence,Boerhaave,Boerhaave,True
+ddx_test_0095278,4,presence,Boerhaave,Boerhaave,True
+ddx_test_0054085,0,presence,Boerhaave,Guillain-Barré syndrome,False
+ddx_test_0054085,1,presence,Boerhaave,Boerhaave,True
+ddx_test_0054085,2,presence,Boerhaave,Boerhaave,True
+ddx_test_0054085,3,presence,Boerhaave,Boerhaave,True
+ddx_test_0054085,4,presence,Boerhaave,Boerhaave,True
+ddx_test_0054085,5,presence,Boerhaave,Boerhaave,True
+ddx_test_0101459,0,presence,Bronchitis,Atrial fibrillation,False
+ddx_test_0101459,1,presence,Bronchitis,Bronchitis,True
+ddx_test_0101459,2,presence,Bronchitis,Bronchitis,True
+ddx_test_0101459,3,presence,Bronchitis,Bronchitis,True
+ddx_test_0101459,4,presence,Bronchitis,Bronchitis,True
+ddx_test_0101459,5,presence,Bronchitis,Bronchitis,True
+ddx_test_0101459,6,presence,Bronchitis,Bronchitis,True
+ddx_test_0101459,7,presence,Bronchitis,Bronchitis,True
+ddx_test_0103125,0,presence,Bronchitis,Guillain-Barré syndrome,False
+ddx_test_0103125,1,presence,Bronchitis,Guillain-Barré syndrome,False
+ddx_test_0103125,2,presence,Bronchitis,Bronchitis,True
+ddx_test_0103125,3,presence,Bronchitis,Bronchitis,True
+ddx_test_0103125,4,presence,Bronchitis,Bronchitis,True
+ddx_test_0103125,5,presence,Bronchitis,Bronchitis,True
+ddx_test_0103125,6,presence,Bronchitis,Bronchitis,True
+ddx_test_0103125,7,presence,Bronchitis,Bronchitis,True
+ddx_test_0103125,8,presence,Bronchitis,Bronchitis,True
+ddx_test_0022562,0,presence,Bronchitis,Guillain-Barré syndrome,False
+ddx_test_0022562,1,presence,Bronchitis,Guillain-Barré syndrome,False
+ddx_test_0022562,2,presence,Bronchitis,Viral pharyngitis,False
+ddx_test_0022562,3,presence,Bronchitis,Acute otitis media,False
+ddx_test_0022562,4,presence,Bronchitis,Bronchitis,True
+ddx_test_0022562,5,presence,Bronchitis,Bronchitis,True
+ddx_test_0022562,6,presence,Bronchitis,Acute otitis media,False
+ddx_test_0022562,7,presence,Bronchitis,Acute otitis media,False
+ddx_test_0022562,8,presence,Bronchitis,Acute otitis media,False
+ddx_test_0040118,0,presence,Bronchospasm / acute asthma exacerbation,Guillain-Barré syndrome,False
+ddx_test_0040118,1,presence,Bronchospasm / acute asthma exacerbation,Guillain-Barré syndrome,False
+ddx_test_0040118,2,presence,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0040118,3,presence,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0040118,4,presence,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0040118,5,presence,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0040118,6,presence,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0040118,7,presence,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,0,presence,Bronchospasm / acute asthma exacerbation,Guillain-Barré syndrome,False
+ddx_test_0023830,1,presence,Bronchospasm / acute asthma exacerbation,Guillain-Barré syndrome,False
+ddx_test_0023830,2,presence,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,3,presence,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,4,presence,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,5,presence,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,6,presence,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,7,presence,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,8,presence,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,0,presence,Bronchospasm / acute asthma exacerbation,Guillain-Barré syndrome,False
+ddx_test_0026536,1,presence,Bronchospasm / acute asthma exacerbation,Guillain-Barré syndrome,False
+ddx_test_0026536,2,presence,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,3,presence,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,4,presence,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,5,presence,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,6,presence,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,7,presence,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,8,presence,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,9,presence,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0036753,0,presence,Cluster headache,Pericarditis,False
+ddx_test_0036753,1,presence,Cluster headache,Cluster headache,True
+ddx_test_0036753,2,presence,Cluster headache,Cluster headache,True
+ddx_test_0036753,3,presence,Cluster headache,Cluster headache,True
+ddx_test_0036753,4,presence,Cluster headache,Cluster headache,True
+ddx_test_0036753,5,presence,Cluster headache,Cluster headache,True
+ddx_test_0086648,0,presence,Cluster headache,Pericarditis,False
+ddx_test_0086648,1,presence,Cluster headache,Cluster headache,True
+ddx_test_0086648,2,presence,Cluster headache,Cluster headache,True
+ddx_test_0086648,3,presence,Cluster headache,Cluster headache,True
+ddx_test_0086648,4,presence,Cluster headache,Cluster headache,True
+ddx_test_0086648,5,presence,Cluster headache,Cluster headache,True
+ddx_test_0086648,6,presence,Cluster headache,Cluster headache,True
+ddx_test_0082478,0,presence,Cluster headache,Pericarditis,False
+ddx_test_0082478,1,presence,Cluster headache,Cluster headache,True
+ddx_test_0082478,2,presence,Cluster headache,Cluster headache,True
+ddx_test_0082478,3,presence,Cluster headache,Cluster headache,True
+ddx_test_0082478,4,presence,Cluster headache,Cluster headache,True
+ddx_test_0082478,5,presence,Cluster headache,Cluster headache,True
+ddx_test_0042655,0,presence,GERD,Guillain-Barré syndrome,False
+ddx_test_0042655,1,presence,GERD,Pericarditis,False
+ddx_test_0042655,2,presence,GERD,Pericarditis,False
+ddx_test_0042655,3,presence,GERD,Pericarditis,False
+ddx_test_0042655,4,presence,GERD,GERD,True
+ddx_test_0042655,5,presence,GERD,GERD,True
+ddx_test_0042655,6,presence,GERD,GERD,True
+ddx_test_0042655,7,presence,GERD,GERD,True
+ddx_test_0042655,8,presence,GERD,GERD,True
+ddx_test_0099480,0,presence,GERD,Guillain-Barré syndrome,False
+ddx_test_0099480,1,presence,GERD,Guillain-Barré syndrome,False
+ddx_test_0099480,2,presence,GERD,Guillain-Barré syndrome,False
+ddx_test_0099480,3,presence,GERD,GERD,True
+ddx_test_0099480,4,presence,GERD,GERD,True
+ddx_test_0099480,5,presence,GERD,GERD,True
+ddx_test_0099480,6,presence,GERD,GERD,True
+ddx_test_0099480,7,presence,GERD,GERD,True
+ddx_test_0099480,8,presence,GERD,GERD,True
+ddx_test_0031727,0,presence,GERD,Pericarditis,False
+ddx_test_0031727,1,presence,GERD,Pericarditis,False
+ddx_test_0031727,2,presence,GERD,Viral pharyngitis,False
+ddx_test_0031727,3,presence,GERD,Pericarditis,False
+ddx_test_0031727,4,presence,GERD,Pericarditis,False
+ddx_test_0031727,5,presence,GERD,Pericarditis,False
+ddx_test_0070101,0,presence,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0070101,1,presence,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0070101,2,presence,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0070101,3,presence,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0070101,4,presence,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0070101,5,presence,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0070101,6,presence,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0005381,0,presence,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0005381,1,presence,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0005381,2,presence,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0005381,3,presence,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0005381,4,presence,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0005381,5,presence,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0074388,0,presence,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0074388,1,presence,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0074388,2,presence,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0074388,3,presence,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0074388,4,presence,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0123927,0,presence,HIV (initial infection),Guillain-Barré syndrome,False
+ddx_test_0123927,1,presence,HIV (initial infection),Guillain-Barré syndrome,False
+ddx_test_0123927,2,presence,HIV (initial infection),Guillain-Barré syndrome,False
+ddx_test_0123927,3,presence,HIV (initial infection),Guillain-Barré syndrome,False
+ddx_test_0123927,4,presence,HIV (initial infection),HIV (initial infection),True
+ddx_test_0123927,5,presence,HIV (initial infection),HIV (initial infection),True
+ddx_test_0123927,6,presence,HIV (initial infection),HIV (initial infection),True
+ddx_test_0123927,7,presence,HIV (initial infection),HIV (initial infection),True
+ddx_test_0123927,8,presence,HIV (initial infection),HIV (initial infection),True
+ddx_test_0123927,9,presence,HIV (initial infection),HIV (initial infection),True
+ddx_test_0123927,10,presence,HIV (initial infection),HIV (initial infection),True
+ddx_test_0008416,0,presence,HIV (initial infection),Guillain-Barré syndrome,False
+ddx_test_0008416,1,presence,HIV (initial infection),Guillain-Barré syndrome,False
+ddx_test_0008416,2,presence,HIV (initial infection),Pancreatic neoplasm,False
+ddx_test_0008416,3,presence,HIV (initial infection),Pancreatic neoplasm,False
+ddx_test_0008416,4,presence,HIV (initial infection),Pancreatic neoplasm,False
+ddx_test_0008416,5,presence,HIV (initial infection),Pancreatic neoplasm,False
+ddx_test_0008416,6,presence,HIV (initial infection),HIV (initial infection),True
+ddx_test_0008416,7,presence,HIV (initial infection),Pancreatic neoplasm,False
+ddx_test_0008416,8,presence,HIV (initial infection),HIV (initial infection),True
+ddx_test_0008416,9,presence,HIV (initial infection),HIV (initial infection),True
+ddx_test_0134121,0,presence,HIV (initial infection),Guillain-Barré syndrome,False
+ddx_test_0134121,1,presence,HIV (initial infection),HIV (initial infection),True
+ddx_test_0134121,2,presence,HIV (initial infection),HIV (initial infection),True
+ddx_test_0134121,3,presence,HIV (initial infection),HIV (initial infection),True
+ddx_test_0134121,4,presence,HIV (initial infection),HIV (initial infection),True
+ddx_test_0134121,5,presence,HIV (initial infection),HIV (initial infection),True
+ddx_test_0134121,6,presence,HIV (initial infection),HIV (initial infection),True
+ddx_test_0134121,7,presence,HIV (initial infection),HIV (initial infection),True
+ddx_test_0102786,0,presence,Inguinal hernia,Pericarditis,False
+ddx_test_0102786,1,presence,Inguinal hernia,Pericarditis,False
+ddx_test_0102786,2,presence,Inguinal hernia,Inguinal hernia,True
+ddx_test_0102786,3,presence,Inguinal hernia,Inguinal hernia,True
+ddx_test_0102786,4,presence,Inguinal hernia,Inguinal hernia,True
+ddx_test_0051746,0,presence,Inguinal hernia,Guillain-Barré syndrome,False
+ddx_test_0051746,1,presence,Inguinal hernia,Guillain-Barré syndrome,False
+ddx_test_0051746,2,presence,Inguinal hernia,Inguinal hernia,True
+ddx_test_0051746,3,presence,Inguinal hernia,Inguinal hernia,True
+ddx_test_0051746,4,presence,Inguinal hernia,Inguinal hernia,True
+ddx_test_0051746,5,presence,Inguinal hernia,Inguinal hernia,True
+ddx_test_0051746,6,presence,Inguinal hernia,Inguinal hernia,True
+ddx_test_0125852,0,presence,Inguinal hernia,Guillain-Barré syndrome,False
+ddx_test_0125852,1,presence,Inguinal hernia,Atrial fibrillation,False
+ddx_test_0125852,2,presence,Inguinal hernia,Inguinal hernia,True
+ddx_test_0125852,3,presence,Inguinal hernia,Inguinal hernia,True
+ddx_test_0125852,4,presence,Inguinal hernia,Inguinal hernia,True
+ddx_test_0125852,5,presence,Inguinal hernia,Inguinal hernia,True
+ddx_test_0011169,0,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0011169,1,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0011169,2,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0011169,3,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0011169,4,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0011169,5,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0011169,6,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,0,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,1,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,2,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,3,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,4,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,5,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,6,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,7,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,0,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,1,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,2,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,3,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,4,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,5,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,6,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,7,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0057776,0,presence,Pancreatic neoplasm,Guillain-Barré syndrome,False
+ddx_test_0057776,1,presence,Pancreatic neoplasm,Viral pharyngitis,False
+ddx_test_0057776,2,presence,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0057776,3,presence,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0057776,4,presence,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0057776,5,presence,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0057776,6,presence,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0057776,7,presence,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,0,presence,Pancreatic neoplasm,Guillain-Barré syndrome,False
+ddx_test_0114059,1,presence,Pancreatic neoplasm,SLE,False
+ddx_test_0114059,2,presence,Pancreatic neoplasm,SLE,False
+ddx_test_0114059,3,presence,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,4,presence,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,5,presence,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,6,presence,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,7,presence,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,8,presence,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,9,presence,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,10,presence,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,11,presence,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0075635,0,presence,Pancreatic neoplasm,Pericarditis,False
+ddx_test_0075635,1,presence,Pancreatic neoplasm,Inguinal hernia,False
+ddx_test_0075635,2,presence,Pancreatic neoplasm,Inguinal hernia,False
+ddx_test_0075635,3,presence,Pancreatic neoplasm,SLE,False
+ddx_test_0075635,4,presence,Pancreatic neoplasm,SLE,False
+ddx_test_0075635,5,presence,Pancreatic neoplasm,SLE,False
+ddx_test_0075635,6,presence,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0075635,7,presence,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0075635,8,presence,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0046674,0,presence,Pericarditis,Pericarditis,True
+ddx_test_0046674,1,presence,Pericarditis,Pericarditis,True
+ddx_test_0046674,2,presence,Pericarditis,Pericarditis,True
+ddx_test_0046674,3,presence,Pericarditis,Pericarditis,True
+ddx_test_0046674,4,presence,Pericarditis,Pericarditis,True
+ddx_test_0046674,5,presence,Pericarditis,Pericarditis,True
+ddx_test_0046860,0,presence,Pericarditis,Guillain-Barré syndrome,False
+ddx_test_0046860,1,presence,Pericarditis,Pericarditis,True
+ddx_test_0046860,2,presence,Pericarditis,Pericarditis,True
+ddx_test_0046860,3,presence,Pericarditis,Pericarditis,True
+ddx_test_0046860,4,presence,Pericarditis,Pericarditis,True
+ddx_test_0046860,5,presence,Pericarditis,Pericarditis,True
+ddx_test_0077574,0,presence,Pericarditis,Pericarditis,True
+ddx_test_0077574,1,presence,Pericarditis,Pericarditis,True
+ddx_test_0077574,2,presence,Pericarditis,Pericarditis,True
+ddx_test_0077574,3,presence,Pericarditis,Pericarditis,True
+ddx_test_0077574,4,presence,Pericarditis,Pericarditis,True
+ddx_test_0082088,0,presence,Pneumonia,Guillain-Barré syndrome,False
+ddx_test_0082088,1,presence,Pneumonia,Guillain-Barré syndrome,False
+ddx_test_0082088,2,presence,Pneumonia,Atrial fibrillation,False
+ddx_test_0082088,3,presence,Pneumonia,Atrial fibrillation,False
+ddx_test_0082088,4,presence,Pneumonia,Pneumonia,True
+ddx_test_0082088,5,presence,Pneumonia,Pneumonia,True
+ddx_test_0082088,6,presence,Pneumonia,Pneumonia,True
+ddx_test_0082088,7,presence,Pneumonia,Pneumonia,True
+ddx_test_0082088,8,presence,Pneumonia,Pneumonia,True
+ddx_test_0082088,9,presence,Pneumonia,Pneumonia,True
+ddx_test_0082088,10,presence,Pneumonia,Pneumonia,True
+ddx_test_0082088,11,presence,Pneumonia,Pneumonia,True
+ddx_test_0082088,12,presence,Pneumonia,Pneumonia,True
+ddx_test_0082088,13,presence,Pneumonia,Pneumonia,True
+ddx_test_0082088,14,presence,Pneumonia,Pneumonia,True
+ddx_test_0082088,15,presence,Pneumonia,Pneumonia,True
+ddx_test_0012516,0,presence,Pneumonia,Atrial fibrillation,False
+ddx_test_0012516,1,presence,Pneumonia,Guillain-Barré syndrome,False
+ddx_test_0012516,2,presence,Pneumonia,Atrial fibrillation,False
+ddx_test_0012516,3,presence,Pneumonia,Pneumonia,True
+ddx_test_0012516,4,presence,Pneumonia,Pneumonia,True
+ddx_test_0012516,5,presence,Pneumonia,Pneumonia,True
+ddx_test_0012516,6,presence,Pneumonia,Pneumonia,True
+ddx_test_0012516,7,presence,Pneumonia,Pneumonia,True
+ddx_test_0012516,8,presence,Pneumonia,Pneumonia,True
+ddx_test_0012516,9,presence,Pneumonia,Pneumonia,True
+ddx_test_0012516,10,presence,Pneumonia,Pneumonia,True
+ddx_test_0012516,11,presence,Pneumonia,Pneumonia,True
+ddx_test_0012516,12,presence,Pneumonia,Pneumonia,True
+ddx_test_0012516,13,presence,Pneumonia,Pneumonia,True
+ddx_test_0012516,14,presence,Pneumonia,Pneumonia,True
+ddx_test_0012516,15,presence,Pneumonia,Pneumonia,True
+ddx_test_0084913,0,presence,Pneumonia,Guillain-Barré syndrome,False
+ddx_test_0084913,1,presence,Pneumonia,Possible NSTEMI / STEMI,False
+ddx_test_0084913,2,presence,Pneumonia,Atrial fibrillation,False
+ddx_test_0084913,3,presence,Pneumonia,Possible NSTEMI / STEMI,False
+ddx_test_0084913,4,presence,Pneumonia,Atrial fibrillation,False
+ddx_test_0084913,5,presence,Pneumonia,Atrial fibrillation,False
+ddx_test_0084913,6,presence,Pneumonia,Pneumonia,True
+ddx_test_0084913,7,presence,Pneumonia,Pericarditis,False
+ddx_test_0084913,8,presence,Pneumonia,Pneumonia,True
+ddx_test_0084913,9,presence,Pneumonia,Pneumonia,True
+ddx_test_0084913,10,presence,Pneumonia,Pneumonia,True
+ddx_test_0084913,11,presence,Pneumonia,Pneumonia,True
+ddx_test_0084913,12,presence,Pneumonia,Pneumonia,True
+ddx_test_0084913,13,presence,Pneumonia,Pneumonia,True
+ddx_test_0084913,14,presence,Pneumonia,Pneumonia,True
+ddx_test_0084913,15,presence,Pneumonia,Pneumonia,True
+ddx_test_0081104,0,presence,Possible NSTEMI / STEMI,Pericarditis,False
+ddx_test_0081104,1,presence,Possible NSTEMI / STEMI,Pericarditis,False
+ddx_test_0081104,2,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,3,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,4,presence,Possible NSTEMI / STEMI,Stable angina,False
+ddx_test_0081104,5,presence,Possible NSTEMI / STEMI,Stable angina,False
+ddx_test_0081104,6,presence,Possible NSTEMI / STEMI,Stable angina,False
+ddx_test_0081104,7,presence,Possible NSTEMI / STEMI,Stable angina,False
+ddx_test_0081104,8,presence,Possible NSTEMI / STEMI,Stable angina,False
+ddx_test_0081104,9,presence,Possible NSTEMI / STEMI,Stable angina,False
+ddx_test_0081104,10,presence,Possible NSTEMI / STEMI,Stable angina,False
+ddx_test_0081104,11,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,12,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,13,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0081104,14,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,0,presence,Possible NSTEMI / STEMI,Guillain-Barré syndrome,False
+ddx_test_0053572,1,presence,Possible NSTEMI / STEMI,Atrial fibrillation,False
+ddx_test_0053572,2,presence,Possible NSTEMI / STEMI,Stable angina,False
+ddx_test_0053572,3,presence,Possible NSTEMI / STEMI,Stable angina,False
+ddx_test_0053572,4,presence,Possible NSTEMI / STEMI,Atrial fibrillation,False
+ddx_test_0053572,5,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,6,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,7,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,8,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,9,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,10,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,11,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,12,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,0,presence,Possible NSTEMI / STEMI,Guillain-Barré syndrome,False
+ddx_test_0054422,1,presence,Possible NSTEMI / STEMI,Guillain-Barré syndrome,False
+ddx_test_0054422,2,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,3,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,4,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,5,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,6,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,7,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,8,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,9,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,10,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,11,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0013493,0,presence,Pulmonary embolism,Guillain-Barré syndrome,False
+ddx_test_0013493,1,presence,Pulmonary embolism,Atrial fibrillation,False
+ddx_test_0013493,2,presence,Pulmonary embolism,Atrial fibrillation,False
+ddx_test_0013493,3,presence,Pulmonary embolism,Atrial fibrillation,False
+ddx_test_0013493,4,presence,Pulmonary embolism,Pericarditis,False
+ddx_test_0013493,5,presence,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0013493,6,presence,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0013493,7,presence,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,0,presence,Pulmonary embolism,Guillain-Barré syndrome,False
+ddx_test_0086293,1,presence,Pulmonary embolism,Guillain-Barré syndrome,False
+ddx_test_0086293,2,presence,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,3,presence,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,4,presence,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,5,presence,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,6,presence,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,7,presence,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,8,presence,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,9,presence,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,10,presence,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,0,presence,Pulmonary embolism,Guillain-Barré syndrome,False
+ddx_test_0014935,1,presence,Pulmonary embolism,Pericarditis,False
+ddx_test_0014935,2,presence,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,3,presence,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,4,presence,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,5,presence,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,6,presence,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,7,presence,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,8,presence,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,9,presence,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0059125,0,presence,SLE,Guillain-Barré syndrome,False
+ddx_test_0059125,1,presence,SLE,Guillain-Barré syndrome,False
+ddx_test_0059125,2,presence,SLE,Guillain-Barré syndrome,False
+ddx_test_0059125,3,presence,SLE,SLE,True
+ddx_test_0059125,4,presence,SLE,SLE,True
+ddx_test_0059125,5,presence,SLE,SLE,True
+ddx_test_0059125,6,presence,SLE,SLE,True
+ddx_test_0059125,7,presence,SLE,SLE,True
+ddx_test_0064244,0,presence,SLE,Guillain-Barré syndrome,False
+ddx_test_0064244,1,presence,SLE,Guillain-Barré syndrome,False
+ddx_test_0064244,2,presence,SLE,Guillain-Barré syndrome,False
+ddx_test_0064244,3,presence,SLE,Guillain-Barré syndrome,False
+ddx_test_0064244,4,presence,SLE,SLE,True
+ddx_test_0064244,5,presence,SLE,SLE,True
+ddx_test_0064244,6,presence,SLE,SLE,True
+ddx_test_0064244,7,presence,SLE,SLE,True
+ddx_test_0027091,0,presence,SLE,SLE,True
+ddx_test_0027091,1,presence,SLE,SLE,True
+ddx_test_0027091,2,presence,SLE,SLE,True
+ddx_test_0027091,3,presence,SLE,SLE,True
+ddx_test_0027091,4,presence,SLE,SLE,True
+ddx_test_0027091,5,presence,SLE,SLE,True
+ddx_test_0027091,6,presence,SLE,SLE,True
+ddx_test_0027091,7,presence,SLE,SLE,True
+ddx_test_0132217,0,presence,Spontaneous pneumothorax,Atrial fibrillation,False
+ddx_test_0132217,1,presence,Spontaneous pneumothorax,Atrial fibrillation,False
+ddx_test_0132217,2,presence,Spontaneous pneumothorax,Atrial fibrillation,False
+ddx_test_0132217,3,presence,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0132217,4,presence,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0132217,5,presence,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0091997,0,presence,Spontaneous pneumothorax,Atrial fibrillation,False
+ddx_test_0091997,1,presence,Spontaneous pneumothorax,Atrial fibrillation,False
+ddx_test_0091997,2,presence,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0091997,3,presence,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0091997,4,presence,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0091997,5,presence,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0091997,6,presence,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0091997,7,presence,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0106969,0,presence,Spontaneous pneumothorax,Atrial fibrillation,False
+ddx_test_0106969,1,presence,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0106969,2,presence,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0106969,3,presence,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0106969,4,presence,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0106969,5,presence,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0106969,6,presence,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0048251,0,presence,Stable angina,Pericarditis,False
+ddx_test_0048251,1,presence,Stable angina,Boerhaave,False
+ddx_test_0048251,2,presence,Stable angina,Boerhaave,False
+ddx_test_0048251,3,presence,Stable angina,Boerhaave,False
+ddx_test_0048251,4,presence,Stable angina,Stable angina,True
+ddx_test_0048251,5,presence,Stable angina,Stable angina,True
+ddx_test_0048251,6,presence,Stable angina,Stable angina,True
+ddx_test_0019361,0,presence,Stable angina,Pericarditis,False
+ddx_test_0019361,1,presence,Stable angina,Stable angina,True
+ddx_test_0019361,2,presence,Stable angina,Stable angina,True
+ddx_test_0019361,3,presence,Stable angina,Stable angina,True
+ddx_test_0019361,4,presence,Stable angina,Stable angina,True
+ddx_test_0019361,5,presence,Stable angina,Stable angina,True
+ddx_test_0019361,6,presence,Stable angina,Stable angina,True
+ddx_test_0019361,7,presence,Stable angina,Stable angina,True
+ddx_test_0019361,8,presence,Stable angina,Stable angina,True
+ddx_test_0019361,9,presence,Stable angina,Stable angina,True
+ddx_test_0019361,10,presence,Stable angina,Stable angina,True
+ddx_test_0050521,0,presence,Stable angina,Guillain-Barré syndrome,False
+ddx_test_0050521,1,presence,Stable angina,Stable angina,True
+ddx_test_0050521,2,presence,Stable angina,Stable angina,True
+ddx_test_0050521,3,presence,Stable angina,Stable angina,True
+ddx_test_0050521,4,presence,Stable angina,Stable angina,True
+ddx_test_0050521,5,presence,Stable angina,Stable angina,True
+ddx_test_0050521,6,presence,Stable angina,Stable angina,True
+ddx_test_0050521,7,presence,Stable angina,Stable angina,True
+ddx_test_0050521,8,presence,Stable angina,Stable angina,True
+ddx_test_0050521,9,presence,Stable angina,Stable angina,True
+ddx_test_0050521,10,presence,Stable angina,Stable angina,True
+ddx_test_0050521,11,presence,Stable angina,Stable angina,True
+ddx_test_0050521,12,presence,Stable angina,Stable angina,True
+ddx_test_0069681,0,presence,URTI,Guillain-Barré syndrome,False
+ddx_test_0069681,1,presence,URTI,Guillain-Barré syndrome,False
+ddx_test_0069681,2,presence,URTI,Guillain-Barré syndrome,False
+ddx_test_0069681,3,presence,URTI,Possible NSTEMI / STEMI,False
+ddx_test_0069681,4,presence,URTI,Possible NSTEMI / STEMI,False
+ddx_test_0069681,5,presence,URTI,Bronchitis,False
+ddx_test_0069681,6,presence,URTI,Bronchitis,False
+ddx_test_0069681,7,presence,URTI,Bronchitis,False
+ddx_test_0069681,8,presence,URTI,Bronchitis,False
+ddx_test_0069681,9,presence,URTI,URTI,True
+ddx_test_0077896,0,presence,URTI,Atrial fibrillation,False
+ddx_test_0077896,1,presence,URTI,URTI,True
+ddx_test_0077896,2,presence,URTI,Viral pharyngitis,False
+ddx_test_0077896,3,presence,URTI,Viral pharyngitis,False
+ddx_test_0077896,4,presence,URTI,Viral pharyngitis,False
+ddx_test_0077896,5,presence,URTI,Viral pharyngitis,False
+ddx_test_0077896,6,presence,URTI,Viral pharyngitis,False
+ddx_test_0077896,7,presence,URTI,Viral pharyngitis,False
+ddx_test_0077896,8,presence,URTI,Viral pharyngitis,False
+ddx_test_0077896,9,presence,URTI,Viral pharyngitis,False
+ddx_test_0077896,10,presence,URTI,Viral pharyngitis,False
+ddx_test_0077896,11,presence,URTI,URTI,True
+ddx_test_0036817,0,presence,URTI,Pericarditis,False
+ddx_test_0036817,1,presence,URTI,Cluster headache,False
+ddx_test_0036817,2,presence,URTI,Cluster headache,False
+ddx_test_0036817,3,presence,URTI,Cluster headache,False
+ddx_test_0036817,4,presence,URTI,Viral pharyngitis,False
+ddx_test_0036817,5,presence,URTI,Viral pharyngitis,False
+ddx_test_0036817,6,presence,URTI,URTI,True
+ddx_test_0036817,7,presence,URTI,URTI,True
+ddx_test_0036817,8,presence,URTI,URTI,True
+ddx_test_0098383,0,presence,Viral pharyngitis,Guillain-Barré syndrome,False
+ddx_test_0098383,1,presence,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0098383,2,presence,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0098383,3,presence,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0098383,4,presence,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0098383,5,presence,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0098383,6,presence,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0098383,7,presence,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0098383,8,presence,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0118573,0,presence,Viral pharyngitis,Pericarditis,False
+ddx_test_0118573,1,presence,Viral pharyngitis,Pericarditis,False
+ddx_test_0118573,2,presence,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0118573,3,presence,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0118573,4,presence,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0118573,5,presence,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0105824,0,presence,Viral pharyngitis,Guillain-Barré syndrome,False
+ddx_test_0105824,1,presence,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0105824,2,presence,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0105824,3,presence,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0105824,4,presence,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0105824,5,presence,Viral pharyngitis,Acute otitis media,False
+ddx_test_0105824,6,presence,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0105824,7,presence,Viral pharyngitis,Viral pharyngitis,True

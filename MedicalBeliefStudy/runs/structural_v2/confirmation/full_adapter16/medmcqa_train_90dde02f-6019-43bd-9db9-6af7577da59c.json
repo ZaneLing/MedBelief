@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_90dde02f-6019-43bd-9db9-6af7577da59c",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Pancreatic carcinoma\"}",
+      "generated_disease": "Pancreatic carcinoma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "2168e5b999e7dec0d1b5056441614afd30e92b8619b1e775630ef4bd3cf03fa9"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Addison's disease\"}",
+      "generated_disease": "Addison's disease",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "16f24c76ab09cd29e43c7464ab02e1169300cd7c50c0586d15ca4be4c33a0124"
+    }
+  ]
+}

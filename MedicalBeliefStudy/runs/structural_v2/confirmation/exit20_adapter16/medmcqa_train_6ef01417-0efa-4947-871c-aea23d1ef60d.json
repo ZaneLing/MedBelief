@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_6ef01417-0efa-4947-871c-aea23d1ef60d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Aural disorder\"} (Note: This is an example placeholder. actual answer should be either \"Essavarathos disease or other relevant pathogen if applicable\"} However, if considering actual relevant pathogen in context of \"Is an large-scale global problem in global health as well as global culture\"} Note: This is an",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "277eb1889ce9c1fe9f65c618eb7f88c6d1d290c71cbb27d49666fa18c1f27bf7"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Aural neuro disorder\"}",
+      "generated_disease": "Aural neuro disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "ae00517a04941bcfb1cad1e44266aa2e8fe9e44192ab8ca171936b9ec7ec40ef"
+    }
+  ]
+}

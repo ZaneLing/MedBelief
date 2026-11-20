@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_04193",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Legg-Calve-Perthes disease\"}",
+      "generated_disease": "Legg-Calve-Perthes disease",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "9897900df4b7573f0135617d31893e38ce927179867474e8372ad9aaf31ddd94"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Viral-induced synovitis\"}",
+      "generated_disease": "Viral-induced synovitis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "fba608ca71acd3fa88055ed15c0fe15b81dde0324b9bcd2f0673d18c88c3997e"
+    }
+  ]
+}

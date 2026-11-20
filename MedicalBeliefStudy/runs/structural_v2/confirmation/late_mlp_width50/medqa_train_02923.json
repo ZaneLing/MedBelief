@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_train_02923",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Colon cancer\"}",
+      "generated_disease": "Colon cancer",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "a4fabc8b61a47f08013ab60fe37b78f5f25a1c9c315308b46f492d00b2c09640"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Inflammatory bowel syndrome\"}",
+      "generated_disease": "Inflammatory bowel syndrome",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "396a323c4d91559d6e62eaabdec9564ccdaa16a30084376feea145b08b6cfa62"
+    }
+  ]
+}

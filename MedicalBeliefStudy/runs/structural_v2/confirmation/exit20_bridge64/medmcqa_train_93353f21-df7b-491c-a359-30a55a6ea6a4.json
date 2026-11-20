@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_93353f21-df7b-491c-a359-30a55a6ea6a4",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cystic \"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "141acc376770d15d13903feef529274bb04b588af9f880443a3bbcd359fd3f9f"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystic \"",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "5f8b44cf4bf6e16e6d8a57ea51ad2e802b1c5299390f6b4682a16ffcf6bcdf25"
+    }
+  ]
+}

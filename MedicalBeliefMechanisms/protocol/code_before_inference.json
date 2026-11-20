@@ -1,0 +1,46 @@
+{
+  "frozen_at_utc": "2026-11-17T11:36:36.338709+00:00",
+  "phase1_predictions_started": false,
+  "files": [
+    {
+      "file": "protocol/model_snapshot.json",
+      "sha256": "6d879c8ef454be12b11100bfdf2cbc6e4623c54c4e8e76bf089566b99a3edd4b"
+    },
+    {
+      "file": "protocol/phase1.json",
+      "sha256": "b258c7783a518f780535f9fc04cf25b96db21e9ea8c344cce3293c0ee853c46a"
+    },
+    {
+      "file": "protocol/runtime.json",
+      "sha256": "849283f4b18833382acefb13387453e8086d570d6c40e50e6a21d50242d10104"
+    },
+    {
+      "file": "data/phase1_cases.jsonl",
+      "sha256": "3c2ce3ffe3fe6aeeb9ad49d38506c26bfb9a619b5aa72ab414f1d0ee12e420b9"
+    },
+    {
+      "file": "src/analyze_phase1.py",
+      "sha256": "62dd19b908b933f7d41497bb4ecebe21c40c8b9be12fe5f256394c74fdcc5e8b"
+    },
+    {
+      "file": "src/cases.py",
+      "sha256": "379a8f15703a38dc283f72c33953ede392f43d90230c00aeb590204b52506024"
+    },
+    {
+      "file": "src/download_model.py",
+      "sha256": "3a344d5ca7408167c688702ff90d961506887d18b34352f5a70e86b5e872e081"
+    },
+    {
+      "file": "src/resume_weights.py",
+      "sha256": "6671bbe6837a6c7ab65957c6523360dfc4de4aa78da663d7e712680fd7b65fde"
+    },
+    {
+      "file": "src/run_phase1.py",
+      "sha256": "39c0987e922efd766c3c682ff3b921acbc2e7477419b7c09faf8a303c4909db0"
+    },
+    {
+      "file": "tests/test_cases.py",
+      "sha256": "3685538b05449c0299741f1e8784b0ddd488bb035938200d7d48776a0069ce59"
+    }
+  ]
+}

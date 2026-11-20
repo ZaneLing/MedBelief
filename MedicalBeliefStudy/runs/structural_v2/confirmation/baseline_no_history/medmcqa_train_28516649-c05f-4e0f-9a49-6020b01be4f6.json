@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_28516649-c05f-4e0f-9a49-6020b01be4f6",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Alveolar hypoventilation\"}",
+      "generated_disease": "Alveolar hypoventilation",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "97110ff0c60c151323ffb78e3f23274397caf7002be574763345eb62e92f726b"
+    }
+  ]
+}

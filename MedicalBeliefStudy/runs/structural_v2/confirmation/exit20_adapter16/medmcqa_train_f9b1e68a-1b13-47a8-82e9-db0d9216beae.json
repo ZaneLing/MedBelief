@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_f9b1e68a-1b13-47a8-82e9-db0d9216beae",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxemplentiaultententurisease\"} (Note: This is an error error. actual correct answer is \"Essavaroneirotharivansuricus\"} (Again an error. actual correct answer is \"Trilaxoemplabarthovemphurac",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "3aabcbcf5f5a18d670d6920510d49ec27bad99305148856b748ad4a5e8cd31b2"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pysocotaric disorder\"} (Note: This is an error correction and/or an error in the original system. actual correct answer is \"tentecular disease or other similar phausia or other non-linear pathogenetic disorder or other non-linear pathogenetic or other non-linear...\"} However,",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "a06f47223e25ef6462ac5b7aaab748f674456f4575c155681b6cd9395028e12d"
+    }
+  ]
+}

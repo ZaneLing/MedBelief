@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_06772",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Amyotrophic lateral sclerosis\"}",
+      "generated_disease": "Amyotrophic lateral sclerosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "38de3ec5b09b5d29db7d45a8dbd303e32b59f361e4cf0725fee738bab8c2ea55"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Spinal muscular atrophy\"}",
+      "generated_disease": "Spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "a4ec7371bdd630a86036218de738a424e5121af51d017b33786bf4a5c3f33ec1"
+    }
+  ]
+}

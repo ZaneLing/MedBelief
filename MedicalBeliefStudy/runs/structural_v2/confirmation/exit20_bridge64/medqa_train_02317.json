@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_02317",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Bystomomom",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "70c730d8d3f2788011187eab3c5c80812c6e03aa720a1f72f18dce480bfc9abd"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Bystomomom",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "ad05f9e930e508684e8fcf52107ec5999abc39ca5861901e5a7893677ffe8c80"
+    }
+  ]
+}

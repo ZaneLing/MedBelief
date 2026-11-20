@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_6ef01417-0efa-4947-871c-aea23d1ef60d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Conduct disorder\"}",
+      "generated_disease": "Conduct disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "277eb1889ce9c1fe9f65c618eb7f88c6d1d290c71cbb27d49666fa18c1f27bf7"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Conduct disorder\"}",
+      "generated_disease": "Conduct disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "ae00517a04941bcfb1cad1e44266aa2e8fe9e44192ab8ca171936b9ec7ec40ef"
+    }
+  ]
+}

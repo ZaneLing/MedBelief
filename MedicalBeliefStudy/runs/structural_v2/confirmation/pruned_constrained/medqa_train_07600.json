@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_07600",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Brief psychotic disorder\"}",
+      "generated_disease": "Brief psychotic disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "b5174202c3ccd1305ff194ed0c0635f26246309f3ad6a5149e7d90ac1125c156"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Brief psychotic disorder\"}",
+      "generated_disease": "Brief psychotic disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "480849406d624bca10ec9d6f9e455f0e899d5206a6d056705ca2b3f922514ac4"
+    }
+  ]
+}

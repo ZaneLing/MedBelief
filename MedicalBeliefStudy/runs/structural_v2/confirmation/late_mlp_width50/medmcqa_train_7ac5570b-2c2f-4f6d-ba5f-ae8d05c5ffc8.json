@@ -1,0 +1,49 @@
+{
+  "case_id": "medmcqa_train_7ac5570b-2c2f-4f6d-ba5f-ae8d05c5ffc8",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Turner syndrome\"}",
+      "generated_disease": "Turner syndrome",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "173a9c42eb2342ca8651b07e179c6e094f526c121a5e6be927d07f87c7a65445"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Klinefelter's syndrome\"}",
+      "generated_disease": "Klinefelter's syndrome",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "ca4e39f8b1ffba77613885bceff851730688fdf0b1db3655d75d9aafb64246f2"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_673357fb-4a08-4e56-b846-b67c0cb8ec3b",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": false,
+      "text": "Wilson's disease\"}",
+      "generated_disease": "Wilson's disease",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "c3ac8f6633bc188684ec462342080fdd8b2293483e0ec34961e73e6dd8a297c2"
+    }
+  ]
+}

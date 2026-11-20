@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_dev_01138",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformynephical disease\"} (Note: This is an example of an non-tralonic and/or non-linear response. actual real-world response would be based solely based adinalystenentual factors and/or other relevant factors. actual actual real-world actual real-world actual real-world actual phil",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "fd7705f04b106735f0660533c645e177b929e5935818e88ed7876bd965321683"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "CГsmonary disease\"} (Note: correct correct is \"Pelisarararigatarienemmeasparacotemphilenserventetemenservememememememememememememememmeplacovosaragintemememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "d681ffd6f61ff801ae7afcbf1abf10e0776e14b898960cf0966c8bd7c10d29af"
+    }
+  ]
+}

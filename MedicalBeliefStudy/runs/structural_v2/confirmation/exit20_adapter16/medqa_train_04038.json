@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_04038",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Bulonia\"} (Note: This is an example of an non-tralonic and/or non-linear response. actual real-world response would be based solely based adinalystenenterventiaetetensenserventetemphilensesparacovemensesparacovemem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "8dba42cb871373ce88bef5862ac14c4f43a183b7b0f4146da9134ac6c7772490"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Bulonicity\"} (Note: This is an error correction and/or an error in the original system. actual correct answer is \"Essential thromaticity or other relevant phisigroupings\"} However, based purely androgenic chilensia and/or other relevant phisigroupings\"} However,",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "cc12566a8134c5a603a1c37b0267ec379010456c43416412173223434da08be0"
+    }
+  ]
+}

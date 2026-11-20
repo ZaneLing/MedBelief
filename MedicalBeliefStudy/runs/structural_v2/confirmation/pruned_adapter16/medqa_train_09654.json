@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_09654",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Subacromial bursitis\"}",
+      "generated_disease": "Subacromial bursitis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "5eb0cae593497049a55d9a458022005fa80c1280c7a572ed5e120b4f502bfacf"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Rotator cuff tear\"}",
+      "generated_disease": "Rotator cuff tear",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "71b137af0922cdb702fb85ef25efef842dda377024b2c40893456d0937408595"
+    }
+  ]
+}

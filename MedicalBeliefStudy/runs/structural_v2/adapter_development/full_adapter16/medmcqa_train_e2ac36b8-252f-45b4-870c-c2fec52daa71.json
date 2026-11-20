@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_e2ac36b8-252f-45b4-870c-c2fec52daa71",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Progressive supranuclear palsy\"}",
+      "generated_disease": "Progressive supranuclear palsy",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "39c96378f4251c7790076173265d36643a44d909ed4fa028636102f9d83e0bcd"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Progressive supranuclear palsy\"}",
+      "generated_disease": "Progressive supranuclear palsy",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "cdd2cf1e5722edb777c391a0b238e02454aa52702ed384fa1d6c82f38783c85d"
+    }
+  ]
+}

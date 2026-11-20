@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_05089",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "mlp_width50",
+    "mlp_keep": 0.5
+  },
+  "parameter_stats": {
+    "parameters": 1192092672,
+    "weight_bytes": 2384185344,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Familial adenomatous polyposis\"}\n</think>\n\n{\"diagnosis\":\"Familial adenomatous polyposis\"}\n</think>\n\n{\"diagnosis\":\"Familial adenomatous polyposis\"}\n",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 42,
+      "prompt_sha256": "6e8a561743873b57068cdd864e336098511f5533fc022c5f0eba056e872e742b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Familial adenomatous polyposis\"}\n</think>\n\n{\"diagnosis\":\"Familial adenomatous polyposis\"}\n</think>\n\n{\"diagnosis\":\"Familial adenomatous polyposis\"}\n",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 42,
+      "prompt_sha256": "91379964e62a0b47089de4b4b8573730015757cb0e068eaea0cbfcfe7ee2d132"
+    }
+  ]
+}

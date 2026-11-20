@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_dev_00896",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Hystomococosis\"}",
+      "generated_disease": "Hystomococosis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "84bd4a8f3b6009ac013825515b3dc8d7ec76939a6fb445bcbd90767585ebcfe3"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Hysticolarous syndrome\"}",
+      "generated_disease": "Hysticolarous syndrome",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "fd08fef100b8735a8a5420c8fee44712d9f30a8bf46ad89a82f34024650d0c37"
+    }
+  ]
+}

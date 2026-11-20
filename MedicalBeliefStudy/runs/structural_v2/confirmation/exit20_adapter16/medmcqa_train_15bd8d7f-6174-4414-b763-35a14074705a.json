@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_15bd8d7f-6174-4414-b763-35a14074705a",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Ehememaronic disorder of courseenia orphanseserventia orphansesentia or emphinalia or emphinalenousy anemia or bylservicrivalmservemtrabentososentecetemphinalenecualservenem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "54767c73648fb777d1c3c7c12a2f6926d853ee45548327f03b93ba185d9afe51"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Ehememaroniciaytaxiaoticiaurocephaliformesphilaxiaoticusycosomovementserventososentecotemphilenservetemphilensesparacovemenservemenservemensigroupingservemensig",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "66c1cec9c9de4c1fb73e8ed01a4f67e0842ba2fba7b32fbcb67052d2a153c9d2"
+    }
+  ]
+}

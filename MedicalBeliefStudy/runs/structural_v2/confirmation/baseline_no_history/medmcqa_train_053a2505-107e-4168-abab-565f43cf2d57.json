@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_053a2505-107e-4168-abab-565f43cf2d57",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Diffuse Herpes simplex infection\"}",
+      "generated_disease": "Diffuse Herpes simplex infection",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "5f3389076aa323d572a615bc548a74c0df029b20f7415213f02c09f01bdb9d2c"
+    }
+  ]
+}

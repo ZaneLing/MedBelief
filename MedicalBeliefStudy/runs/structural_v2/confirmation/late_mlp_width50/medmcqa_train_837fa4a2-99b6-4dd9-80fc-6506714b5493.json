@@ -1,0 +1,49 @@
+{
+  "case_id": "medmcqa_train_837fa4a2-99b6-4dd9-80fc-6506714b5493",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Dermatomyositis\"}",
+      "generated_disease": "Dermatomyositis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "e29fb5663cb3b8691d8f552680826cb968a72f24998c90909b191f24c409ff87"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Systemic sclerosis\"}",
+      "generated_disease": "Systemic sclerosis",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "8b01eb1f55cd14bdc3f1b9a8a5e00ad40765a042c00226227b8a04716ac30313"
+    }
+  ]
+}

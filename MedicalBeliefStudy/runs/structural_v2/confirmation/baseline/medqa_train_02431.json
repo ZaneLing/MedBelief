@@ -1,0 +1,34 @@
+{
+  "case_id": "medqa_train_02431",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Non-Hodgkin’s lymphoma\"}",
+      "generated_disease": "Non-Hodgkin’s lymphoma",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "a1045a770540f74a8f8aff707878812ff3db4a01f95e08d7f9c625e9f1d39d94"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Non-Hodgkin’s lymphoma\"}",
+      "generated_disease": "Non-Hodgkin’s lymphoma",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "8e64f1dd324e46c90da9973fc389aa2ff3b697e99a99dc4f1ca7229538a21bdb"
+    }
+  ]
+}

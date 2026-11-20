@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_02129",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformynephritis\"}",
+      "generated_disease": "Chronic veniformynephritis",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "1eb97805aad7f09c44fc130a72c0860ea3987afc098dbe5acd73cc1d4c86b654"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformynephical disorder orients truminalia disorder orphans tracentaloidia disorder orphans trigoloidia disorder orlando triyaxia disorder bytaxophomosphyphenal disorder bemphilisphilaxiliary disorder bemph",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "4931a98820732df5f8336414a86f3b8091cb33e4e881bbc90f90d296ced51bd5"
+    }
+  ]
+}

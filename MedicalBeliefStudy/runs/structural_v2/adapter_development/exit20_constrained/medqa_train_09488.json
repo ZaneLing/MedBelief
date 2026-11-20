@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_09488",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_constrained",
+    "exit_layer": 20,
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Hypersensitivity pneumonitis\"}",
+      "generated_disease": "Hypersensitivity pneumonitis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "bfb43d741a3d4833e6c0c80dc2549b881cb35d3b11cd1d558f2ae17b49cc4d11"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Hypersensitivity pneumonitis\"}",
+      "generated_disease": "Hypersensitivity pneumonitis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "c849f8322f2a23ba08f02bc567f7181333449bcec39d4466494b48ef864a564e"
+    }
+  ]
+}

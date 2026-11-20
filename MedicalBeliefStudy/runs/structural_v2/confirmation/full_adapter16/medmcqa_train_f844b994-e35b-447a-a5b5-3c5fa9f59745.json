@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_f844b994-e35b-447a-a5b5-3c5fa9f59745",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Hyponatremia\"}",
+      "generated_disease": "Hyponatremia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "0ef5b9f7c4d7636573b80d7383ab7af7624c25554ccecfc7b0f72fb660fcac1e"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Hypernatremia\"}",
+      "generated_disease": "Hypernatremia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "55e400e49f3b2fad416059853a8cc6294d6d039f1d4521ea958bf62ba76912aa"
+    }
+  ]
+}

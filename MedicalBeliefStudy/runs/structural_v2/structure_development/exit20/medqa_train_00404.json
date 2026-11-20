@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_00404",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Drynessinsectoidus综合征或phansomaticity综合征等非特定术语但实际可能误称导致无法准确准确识别实际实际情况下无法准确准确鉴别诊断但根据现有信息最likely的是选项选项选项选项NoneNoneNone",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 50,
+      "prompt_sha256": "4d910fafabab01abb6ea947746acf509d3cc4cec7cd5d16f03d7e21efc30f13a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Dastagramian综合征或phansystic综合征或phanseriority综合征等所述的特定特定ity综合征等所述的特定ityeary-old-age-age-age-age-age-numbericalmente-deterected-forbiddenness-of-theoreticalservicewithalternservservservsuttermostly",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "477b099f8e2de6bb03f05179576530da450e8754a3f36e5e18711239f56a7dd9"
+    }
+  ]
+}

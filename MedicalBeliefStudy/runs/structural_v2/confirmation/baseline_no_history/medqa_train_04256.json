@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_04256",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Granulomatosis with polyangiitis\"}",
+      "generated_disease": "Granulomatosis with polyangiitis",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "c29c71021fcf945e96ef9ed26f692c3c6074afeeb637e4fe793890edb791d4ff"
+    }
+  ]
+}

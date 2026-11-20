@@ -1,0 +1,323 @@
+{
+  "cases": 24,
+  "conditions": {
+    "public_order": {
+      "correct": {
+        "mean": 0.125,
+        "low": 0.0,
+        "high": 0.25,
+        "cases": 24
+      },
+      "native24_correct": {
+        "mean": 0.16666666666666666,
+        "low": 0.041666666666666664,
+        "high": 0.3333333333333333,
+        "cases": 24
+      },
+      "gold_support": {
+        "mean": 0.1391129190220355,
+        "low": 0.01515925634540298,
+        "high": 0.29036779333157364,
+        "cases": 24
+      },
+      "probe21_correct": {
+        "mean": 0.9583333333333334,
+        "low": 0.875,
+        "high": 1.0,
+        "cases": 24
+      },
+      "probe28_correct": {
+        "mean": 0.9583333333333334,
+        "low": 0.875,
+        "high": 1.0,
+        "cases": 24
+      },
+      "known_attention": {
+        "mean": 0.028765393321135535,
+        "low": 0.024090514467741568,
+        "high": 0.03354191566822943,
+        "cases": 24
+      },
+      "known_attention_per_token": {
+        "mean": 0.00010757375109195666,
+        "low": 9.12589108048657e-05,
+        "high": 0.0001263517917332996,
+        "cases": 24
+      },
+      "unknown_attention": {
+        "mean": 0.07447259677071827,
+        "low": 0.0704585721645221,
+        "high": 0.07850332352914613,
+        "cases": 24
+      },
+      "prediction_counts": {
+        "Acute COPD exacerbation / infection": 17,
+        "Spontaneous pneumothorax": 1,
+        "Anemia": 2,
+        "Acute pulmonary edema": 4
+      },
+      "mean_tokens": 4251.041666666667
+    },
+    "known_first": {
+      "correct": {
+        "mean": 0.2916666666666667,
+        "low": 0.125,
+        "high": 0.4583333333333333,
+        "cases": 24
+      },
+      "native24_correct": {
+        "mean": 0.375,
+        "low": 0.20833333333333334,
+        "high": 0.5833333333333334,
+        "cases": 24
+      },
+      "gold_support": {
+        "mean": 0.2916417074717004,
+        "low": 0.12668130299712674,
+        "high": 0.46901825190127683,
+        "cases": 24
+      },
+      "probe21_correct": {
+        "mean": 0.3333333333333333,
+        "low": 0.16666666666666666,
+        "high": 0.5416666666666666,
+        "cases": 24
+      },
+      "probe28_correct": {
+        "mean": 0.5833333333333334,
+        "low": 0.375,
+        "high": 0.7916666666666666,
+        "cases": 24
+      },
+      "known_attention": {
+        "mean": 0.020549909513646197,
+        "low": 0.016136533400198754,
+        "high": 0.025513044863922207,
+        "cases": 24
+      },
+      "known_attention_per_token": {
+        "mean": 7.874735112503556e-05,
+        "low": 6.0343219313703064e-05,
+        "high": 9.988171758955183e-05,
+        "cases": 24
+      },
+      "unknown_attention": {
+        "mean": 0.04886099554710199,
+        "low": 0.046515492977150075,
+        "high": 0.05164940240684288,
+        "cases": 24
+      },
+      "prediction_counts": {
+        "Acute COPD exacerbation / infection": 17,
+        "Spontaneous pneumothorax": 1,
+        "Pericarditis": 2,
+        "Anemia": 2,
+        "Cluster headache": 1,
+        "Acute otitis media": 1
+      },
+      "mean_tokens": 4251.041666666667
+    },
+    "known_last": {
+      "correct": {
+        "mean": 0.08333333333333333,
+        "low": 0.0,
+        "high": 0.20833333333333334,
+        "cases": 24
+      },
+      "native24_correct": {
+        "mean": 0.2916666666666667,
+        "low": 0.125,
+        "high": 0.5,
+        "cases": 24
+      },
+      "gold_support": {
+        "mean": 0.07312000120858157,
+        "low": 0.004366790197799955,
+        "high": 0.17187221778086184,
+        "cases": 24
+      },
+      "probe21_correct": {
+        "mean": 0.2916666666666667,
+        "low": 0.125,
+        "high": 0.5,
+        "cases": 24
+      },
+      "probe28_correct": {
+        "mean": 0.75,
+        "low": 0.5416666666666666,
+        "high": 0.9166666666666666,
+        "cases": 24
+      },
+      "known_attention": {
+        "mean": 0.03994047748371724,
+        "low": 0.035291174182961925,
+        "high": 0.044322601652505504,
+        "cases": 24
+      },
+      "known_attention_per_token": {
+        "mean": 0.00016116780775794892,
+        "low": 0.00013357232246411237,
+        "high": 0.00018666760259759745,
+        "cases": 24
+      },
+      "unknown_attention": {
+        "mean": 0.043917984594244786,
+        "low": 0.040568077193765366,
+        "high": 0.04774922677647039,
+        "cases": 24
+      },
+      "prediction_counts": {
+        "Acute COPD exacerbation / infection": 22,
+        "Spontaneous pneumothorax": 1,
+        "Anemia": 1
+      },
+      "mean_tokens": 4251.041666666667
+    },
+    "compact": {
+      "correct": {
+        "mean": 0.5,
+        "low": 0.2916666666666667,
+        "high": 0.7083333333333334,
+        "cases": 24
+      },
+      "native24_correct": {
+        "mean": 0.5416666666666666,
+        "low": 0.3333333333333333,
+        "high": 0.75,
+        "cases": 24
+      },
+      "gold_support": {
+        "mean": 0.4863158016893075,
+        "low": 0.30001655279756095,
+        "high": 0.6795676152714205,
+        "cases": 24
+      },
+      "probe21_correct": {
+        "mean": 0.25,
+        "low": 0.08333333333333333,
+        "high": 0.4166666666666667,
+        "cases": 24
+      },
+      "probe28_correct": {
+        "mean": 0.4583333333333333,
+        "low": 0.25,
+        "high": 0.6666666666666666,
+        "cases": 24
+      },
+      "known_attention": {
+        "mean": 0.04834825546334957,
+        "low": 0.04276536597230059,
+        "high": 0.05487355296731732,
+        "cases": 24
+      },
+      "known_attention_per_token": {
+        "mean": 0.0001847825384797527,
+        "low": 0.000163617094895775,
+        "high": 0.000206071169384726,
+        "cases": 24
+      },
+      "unknown_attention": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "cases": 24
+      },
+      "prediction_counts": {
+        "Acute pulmonary edema": 3,
+        "Acute COPD exacerbation / infection": 4,
+        "Boerhaave": 1,
+        "Spontaneous pneumothorax": 1,
+        "Pericarditis": 2,
+        "Acute rhinosinusitis": 2,
+        "Anemia": 2,
+        "Pulmonary embolism": 1,
+        "Cluster headache": 1,
+        "GERD": 2,
+        "Acute otitis media": 1,
+        "Pancreatic neoplasm": 1,
+        "Bronchiolitis": 2,
+        "Localized edema": 1
+      },
+      "mean_tokens": 760.7083333333334
+    }
+  },
+  "exploratory_followup": true,
+  "api_cost_usd": 0,
+  "paired": {
+    "last_minus_first_accuracy": {
+      "mean": -0.20833333333333334,
+      "low": -0.375,
+      "high": -0.08333333333333333,
+      "cases": 24
+    },
+    "last_minus_first_gold_support": {
+      "mean": -0.21852170626311876,
+      "low": -0.3809482351436654,
+      "high": -0.08345136881957073,
+      "cases": 24
+    },
+    "last_minus_first_known_attention": {
+      "mean": 0.01939056797007105,
+      "low": 0.014460403089430076,
+      "high": 0.0239535982027743,
+      "cases": 24
+    },
+    "last_first_same_tokens": {
+      "mean": 1.0,
+      "low": 0.8575264022774743,
+      "high": 1.0,
+      "cases": 24,
+      "method": "exact_binomial_boundary"
+    },
+    "compact_minus_public_accuracy": {
+      "mean": 0.375,
+      "low": 0.16666666666666666,
+      "high": 0.5833333333333334,
+      "cases": 24
+    }
+  },
+  "last_minus_first_accuracy_p": 0.06339683015849208,
+  "last_minus_first_support_p": 0.006999650017499125,
+  "candidate_prompt_control": {
+    "public_24": {
+      "prompt24_accuracy": {
+        "mean": 0.25,
+        "low": 0.08333333333333333,
+        "high": 0.4166666666666667,
+        "cases": 24
+      },
+      "rerank49_to24_accuracy": {
+        "mean": 0.16666666666666666,
+        "low": 0.041666666666666664,
+        "high": 0.3333333333333333,
+        "cases": 24
+      },
+      "paired_accuracy_gain": {
+        "mean": 0.08333333333333333,
+        "low": -0.08333333333333333,
+        "high": 0.25,
+        "cases": 24
+      }
+    },
+    "append_24": {
+      "prompt24_accuracy": {
+        "mean": 0.625,
+        "low": 0.4166666666666667,
+        "high": 0.7916666666666666,
+        "cases": 24
+      },
+      "rerank49_to24_accuracy": {
+        "mean": 0.5,
+        "low": 0.3333333333333333,
+        "high": 0.7083333333333334,
+        "cases": 24
+      },
+      "paired_accuracy_gain": {
+        "mean": 0.125,
+        "low": -0.08333333333333333,
+        "high": 0.3333333333333333,
+        "cases": 24
+      }
+    }
+  }
+}

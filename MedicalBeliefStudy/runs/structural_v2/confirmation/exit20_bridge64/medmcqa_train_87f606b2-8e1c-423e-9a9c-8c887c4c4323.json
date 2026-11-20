@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_87f606b2-8e1c-423e-9a9c-8c887c4c4323",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pystomocococococ",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "bc5ca9febd04ff10a51daf763aab3bb74c56eb8259085246ffbd6c648c21ec0f"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pystomocococococ",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "304aca4e938cb0d4eaa596d952df1e3d22082d2a851092f78ba78098edab1866"
+    }
+  ]
+}

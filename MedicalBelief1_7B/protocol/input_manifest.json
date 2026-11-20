@@ -1,0 +1,22 @@
+[
+  {
+    "source": "MedicalBeliefTrajectories/MEASUREMENT_DESIGN.md",
+    "copy": "protocol/MEASUREMENT_DESIGN.original.md",
+    "sha256": "2e7a704b241feb8eb1cc696d196a2c908b9f31b4dc744f9a4829adf54f61a60b"
+  },
+  {
+    "source": "MedicalBeliefTrajectories/data/pilot_cases.private.jsonl",
+    "copy": "data/pilot_cases.private.jsonl",
+    "sha256": "3da47ef5310dc3bc187d113f2654ad797d9a1bcaef70232355a0ea004cf8b01e"
+  },
+  {
+    "source": "MedicalBeliefTrajectories/data/pilot_prefixes.public.jsonl",
+    "copy": "data/pilot_prefixes.public.jsonl",
+    "sha256": "7993066f3ae8dba1493dcf34b2109a1b6667660f9066e928c938b4f94c21f2ff"
+  },
+  {
+    "source": "MedicalBeliefTrajectories/protocol/design_inventory.json",
+    "copy": "protocol/design_inventory.json",
+    "sha256": "1abf3390a9591ae289d4f7bd8f362e0be903a506a208e3f9271f2ac3a1310f88"
+  }
+]

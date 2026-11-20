@@ -1,0 +1,34 @@
+{
+  "case_id": "medmcqa_train_8e499cc8-3e71-4323-bbd5-93ed309c58dc",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Alcohol withdrawal\"}",
+      "generated_disease": "Alcohol withdrawal",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "9e8dcbd27a3968ba1df3e667ad39cf8678031567d9b17b194bd6d4112c25d7e0"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Malingering\"}",
+      "generated_disease": "Malingering",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "84673bf30710853bed9ae377521c8e9a215f6a292147766270b6bb7b1b3d4fa2"
+    }
+  ]
+}

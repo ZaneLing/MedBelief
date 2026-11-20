@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_05390",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Plasma cell disease (multiple myelomasthenia\"),\"type\":\"candidate\"],\"explanation\":\"Plasma cell myeloproliferative disorder with monoclonal proteinuria, hypercalcemia, and lytic bone lesions are classic features of multiple myeloma. The presence of monoclonal proteinuria and",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "4ac50b61d0995c53b081fe82f8b9ddef5df1627afa410c1bedf4c689db8b159b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Plasma cell disease\",\"plasma_proteinuria\":null,\"plasma_cells_present\":false,\"plasma_cell_disease\":true,\"proteinuria_present\":true,\"proteinuria\":true,\"proteinuria\":true,\"proteinuria\":true,\"proteinuria\":true,\"proteinuria\":true,\"proteinuria\":true,\"",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "e4d1e229a5192b1264e7958df7ba3b9b13d03890e4a7984f67e0a6fdc0d73d7e"
+    }
+  ]
+}

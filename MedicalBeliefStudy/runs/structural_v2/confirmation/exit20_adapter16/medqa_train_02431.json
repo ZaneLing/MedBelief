@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_02431",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic disease disease disease disease anguroic disease disease bytaxophserventososentecemphilisdemphodemphodemphiricenteric disease autinemphilaxenemphodemphilaxenemphiricchiemtricenter",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "a1045a770540f74a8f8aff707878812ff3db4a01f95e08d7f9c625e9f1d39d94"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Scholar's disease or hypercephension or other advanced disease or other advanced disease or other complex complex complex\"} Note: This is an error error and should be an actual valid postwar-era-era or other relevant philacustic disease. Actual real-world actual real-world actual real-life actual real-life actual real",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "8e64f1dd324e46c90da9973fc389aa2ff3b697e99a99dc4f1ca7229538a21bdb"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_70cdb234-7d88-4abe-ad6c-0ee35eb34489",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Myelofibrosis\"}",
+      "generated_disease": "Myelofibrosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "0ce2a7ba6df8e33fafd73628bcdd0f74925795a835498291f5230bc90820b9ae"
+    }
+  ]
+}

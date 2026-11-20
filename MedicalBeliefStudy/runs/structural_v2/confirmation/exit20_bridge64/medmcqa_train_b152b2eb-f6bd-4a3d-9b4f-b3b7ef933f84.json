@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_b152b2eb-f6bd-4a3d-9b4f-b3b7ef933f84",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pystom\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "a31a9047b79024781a318b87f0aaa7c6302cdc0e22d21de43ed6cd49791bf6eb"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocitis\"}",
+      "generated_disease": "Cystocitis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "85bdc5155afead43d33bc579060b842fe081f336913e7d40df8663d5ef204650"
+    }
+  ]
+}

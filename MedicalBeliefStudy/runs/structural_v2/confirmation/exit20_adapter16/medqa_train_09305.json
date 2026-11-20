@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_09305",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Lysin hydrophobicity-induced hydrocephgia\"}",
+      "generated_disease": "Lysin hydrophobicity-induced hydrocephgia",
+      "stop": "eos",
+      "tokens": 12,
+      "prompt_sha256": "19d9600815c6fe7dc87ab335e9344e04a58eee7b016012738d33386a500596c8"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Lustralia's Ferventness\"} (Note: This is an error correction and/or an error in the original systematics. actual correct answer is \"Hypercephension or other relevant phausia butchers. However, based purely in terms of current data and without further information inductiveweise etetens",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "7c4e48e7407760c840eb72260b7d0103b339ecbe893d12392e7d848a00e7bfbd"
+    }
+  ]
+}

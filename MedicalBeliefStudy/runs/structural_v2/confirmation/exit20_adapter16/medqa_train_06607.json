@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_06607",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chizophrenium\"} (Note: This is an error correction and/or an error in the original system. actual correct answer is \"Corticus orphans orphans etrogos orphans etetaros etc.\"} (Note: actual correct answer is \"Chagenicemia orphans etwells etet",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "4f80fd03cc0717964f383d1e29624e2025674471d681da1d0c2c11d14a61b168"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chizophrenium\"} (Note: This is an error correction and/or an error in the original systematics. actual correct answer is \"C hepatitis or other relevant phausia but since no actual data is available and only relevant pathogen is mentioned in terms of \"Schellsberg's disease or other relevant pathogen but",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "34fa2eea492551a627db390fa4d19e1e423a9fd7614972c29a36c0040dd95d21"
+    }
+  ]
+}

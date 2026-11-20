@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_6dd7cc2c-1704-4e8f-aa1b-fb30c061f8c9",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Osteogenesis imperfecta\"}",
+      "generated_disease": "Osteogenesis imperfecta",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "e2a690563f1ea03d539bcfbb9ec5e81408be3633daa91ec0c2f61c3d62e463a5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Osteopetrosis\"}",
+      "generated_disease": "Osteopetrosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "9f13dd7de7b742995aa42f8a2bf7387beae1f2cdca2131941e5f8ddb45044737"
+    }
+  ]
+}

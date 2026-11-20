@@ -1,0 +1,2072 @@
+[
+  {
+    "pid": "test-1",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-2",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-3",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": false
+  },
+  {
+    "pid": "test-4",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": false
+  },
+  {
+    "pid": "test-5",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-6",
+    "gold": "小儿消化不良",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-7",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-8",
+    "gold": "小儿消化不良",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-9",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-10",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-11",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-12",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-13",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-14",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-15",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-16",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-17",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-18",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-19",
+    "gold": "小儿腹泻",
+    "prediction": "小儿消化不良",
+    "novel_facts": false
+  },
+  {
+    "pid": "test-20",
+    "gold": "小儿消化不良",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-21",
+    "gold": "小儿消化不良",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-22",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-23",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-24",
+    "gold": "小儿腹泻",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-25",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-26",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-27",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-28",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": false
+  },
+  {
+    "pid": "test-29",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-30",
+    "gold": "小儿消化不良",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-31",
+    "gold": "小儿支气管炎",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-32",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": false
+  },
+  {
+    "pid": "test-33",
+    "gold": "小儿支气管炎",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-34",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-35",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": false
+  },
+  {
+    "pid": "test-36",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-37",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-38",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": false
+  },
+  {
+    "pid": "test-39",
+    "gold": "小儿消化不良",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-40",
+    "gold": "小儿消化不良",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-41",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-42",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-43",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-44",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-45",
+    "gold": "小儿消化不良",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-46",
+    "gold": "小儿消化不良",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-47",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-48",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-49",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-50",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": false
+  },
+  {
+    "pid": "test-51",
+    "gold": "小儿消化不良",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-52",
+    "gold": "小儿支气管炎",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-53",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-54",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-55",
+    "gold": "小儿腹泻",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-56",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-57",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-58",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-59",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-60",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-61",
+    "gold": "小儿消化不良",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-62",
+    "gold": "小儿消化不良",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-63",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-64",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": false
+  },
+  {
+    "pid": "test-65",
+    "gold": "小儿腹泻",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-66",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-67",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-68",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-69",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-70",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-71",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": false
+  },
+  {
+    "pid": "test-72",
+    "gold": "小儿消化不良",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-73",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-74",
+    "gold": "小儿消化不良",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-75",
+    "gold": "小儿消化不良",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-76",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-77",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-78",
+    "gold": "小儿消化不良",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-79",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-80",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-81",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-82",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-83",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-84",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-85",
+    "gold": "小儿消化不良",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-86",
+    "gold": "小儿支气管炎",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-87",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-88",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": false
+  },
+  {
+    "pid": "test-89",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-90",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-91",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-92",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-93",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-94",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-95",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-96",
+    "gold": "小儿腹泻",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-97",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-98",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-99",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-100",
+    "gold": "小儿消化不良",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-101",
+    "gold": "小儿消化不良",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-102",
+    "gold": "小儿消化不良",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-103",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-104",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-105",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-106",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-107",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-108",
+    "gold": "小儿腹泻",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-109",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-110",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-111",
+    "gold": "小儿支气管炎",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-112",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-113",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-114",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-115",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-116",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-117",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-118",
+    "gold": "小儿消化不良",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-119",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-120",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-121",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-122",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-123",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-124",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-125",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-126",
+    "gold": "小儿腹泻",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-127",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-128",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-129",
+    "gold": "小儿消化不良",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-130",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-131",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-132",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-133",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-134",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": false
+  },
+  {
+    "pid": "test-135",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-136",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-137",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-138",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-139",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-140",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-141",
+    "gold": "小儿消化不良",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-142",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-143",
+    "gold": "小儿消化不良",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-144",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-145",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-146",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-147",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-148",
+    "gold": "小儿支气管炎",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-149",
+    "gold": "小儿消化不良",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-150",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-151",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-152",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-153",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-154",
+    "gold": "小儿腹泻",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-155",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-156",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-157",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-158",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-159",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-160",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-161",
+    "gold": "小儿消化不良",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-162",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-163",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-164",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-165",
+    "gold": "小儿支气管炎",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-166",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-167",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-168",
+    "gold": "小儿消化不良",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-169",
+    "gold": "小儿消化不良",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-170",
+    "gold": "小儿消化不良",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-171",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-172",
+    "gold": "小儿消化不良",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-173",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-174",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-175",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-176",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-177",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-178",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-179",
+    "gold": "小儿消化不良",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-180",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-181",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-182",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-183",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-184",
+    "gold": "小儿消化不良",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-185",
+    "gold": "小儿消化不良",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-186",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-187",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-188",
+    "gold": "小儿消化不良",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-189",
+    "gold": "小儿消化不良",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-190",
+    "gold": "小儿消化不良",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-191",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-192",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-193",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-194",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-195",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-196",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-197",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-198",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-199",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-200",
+    "gold": "小儿消化不良",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-201",
+    "gold": "小儿消化不良",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-202",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-203",
+    "gold": "小儿消化不良",
+    "prediction": "小儿腹泻",
+    "novel_facts": false
+  },
+  {
+    "pid": "test-204",
+    "gold": "小儿支气管炎",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-205",
+    "gold": "小儿腹泻",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-206",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-207",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-208",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-209",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-210",
+    "gold": "小儿消化不良",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-211",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-212",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-213",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-214",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-215",
+    "gold": "小儿腹泻",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-216",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-217",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": false
+  },
+  {
+    "pid": "test-218",
+    "gold": "小儿消化不良",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-219",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-220",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-221",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-222",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-223",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-224",
+    "gold": "小儿支气管炎",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-225",
+    "gold": "小儿腹泻",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-226",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-227",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-228",
+    "gold": "小儿消化不良",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-229",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-230",
+    "gold": "小儿支气管炎",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-231",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-232",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-233",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-234",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-235",
+    "gold": "小儿腹泻",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-236",
+    "gold": "小儿消化不良",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-237",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-238",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-239",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-240",
+    "gold": "小儿支气管炎",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-241",
+    "gold": "小儿腹泻",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-242",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-243",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-244",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-245",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-246",
+    "gold": "小儿支气管炎",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-247",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-248",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-249",
+    "gold": "小儿支气管炎",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-250",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-251",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-252",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-253",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-254",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-255",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-256",
+    "gold": "小儿腹泻",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-257",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-258",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-259",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-260",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-261",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-262",
+    "gold": "小儿消化不良",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-263",
+    "gold": "小儿消化不良",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-264",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-265",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-266",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-267",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-268",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-269",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-270",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-271",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-272",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-273",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-274",
+    "gold": "小儿消化不良",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-275",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-276",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-277",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-278",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-279",
+    "gold": "小儿消化不良",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-280",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-281",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-282",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-283",
+    "gold": "小儿消化不良",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-284",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-285",
+    "gold": "小儿消化不良",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-286",
+    "gold": "小儿支气管炎",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-287",
+    "gold": "小儿消化不良",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-288",
+    "gold": "小儿消化不良",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-289",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-290",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-291",
+    "gold": "小儿腹泻",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-292",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-293",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-294",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-295",
+    "gold": "小儿消化不良",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-296",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-297",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-298",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-299",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-300",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-301",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-302",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": false
+  },
+  {
+    "pid": "test-303",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-304",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-305",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-306",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-307",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-308",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-309",
+    "gold": "小儿支气管炎",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-310",
+    "gold": "小儿消化不良",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-311",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-312",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-313",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-314",
+    "gold": "小儿消化不良",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-315",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-316",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-317",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-318",
+    "gold": "小儿腹泻",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-319",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-320",
+    "gold": "小儿消化不良",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-321",
+    "gold": "小儿消化不良",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-322",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": false
+  },
+  {
+    "pid": "test-323",
+    "gold": "小儿支气管炎",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-324",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-325",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-326",
+    "gold": "小儿消化不良",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-327",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-328",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-329",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-330",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-331",
+    "gold": "小儿消化不良",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-332",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-333",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-334",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-335",
+    "gold": "小儿支气管炎",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-336",
+    "gold": "小儿消化不良",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-337",
+    "gold": "小儿消化不良",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-338",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-339",
+    "gold": "小儿消化不良",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-340",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿支气管炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-341",
+    "gold": "小儿支气管炎",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-342",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-343",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-344",
+    "gold": "小儿腹泻",
+    "prediction": "小儿消化不良",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-345",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  }
+]

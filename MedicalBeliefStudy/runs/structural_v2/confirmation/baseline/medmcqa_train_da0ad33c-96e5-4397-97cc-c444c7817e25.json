@@ -1,0 +1,34 @@
+{
+  "case_id": "medmcqa_train_da0ad33c-96e5-4397-97cc-c444c7817e25",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Primary hypothyroidism\"}",
+      "generated_disease": "Primary hypothyroidism",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "6c5764f537780c4e2dd8bb09a8f0d4d78dde2709a194805f3bc2156ff0c37e29"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "TSH-secreting pituitary tumor\"}",
+      "generated_disease": "TSH-secreting pituitary tumor",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "ba7caa164e371367fb15b8669d969b425f19dce08a979ab9ad197efabe64c2e1"
+    }
+  ]
+}

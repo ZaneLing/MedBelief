@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_validation_4032c899-2223-435f-a007-c513fd59a065",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Hemolytic jaundice\"}",
+      "generated_disease": "Hemolytic jaundice",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "60518d5892fd7e7a7621e082a7aef5caa7eeacda3d7fa7fa3b06e534e0a36127"
+    }
+  ]
+}

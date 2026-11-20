@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_8e499cc8-3e71-4323-bbd5-93ed309c58dc",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Alcohol withdrawal\"}",
+      "generated_disease": "Alcohol withdrawal",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "45c001b3ff61e53c733cf5b33e326d6447df2acf8a4a0f4219a26ab1f30af5f7"
+    }
+  ]
+}

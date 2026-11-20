@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_3d1a2573-6fc9-4f09-9ff7-10b488155762",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic venicular disease\"}",
+      "generated_disease": "Chronic venicular disease",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "06957fe1d4c88dccbbcf23576ee549f946d3503cb75cea19c2c327d38fd7ad25"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Oemphiliasenystcystus\"}\"}\"}า\"}า\"}า\"}า\"}า\nNote: The final output should be an single output without any additional information. Properly correct and correct in accordance with actual real-world knowledge. If an error is found in the original attempt, it should be",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "b68bd1e8c556adae3b2594447719394dd7fa63170d28e049684b916bacb4359f"
+    }
+  ]
+}

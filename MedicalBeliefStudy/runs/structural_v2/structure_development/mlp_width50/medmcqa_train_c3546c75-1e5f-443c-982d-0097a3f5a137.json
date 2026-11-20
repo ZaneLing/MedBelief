@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_c3546c75-1e5f-443c-982d-0097a3f5a137",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "mlp_width50",
+    "mlp_keep": 0.5
+  },
+  "parameter_stats": {
+    "parameters": 1192092672,
+    "weight_bytes": 2384185344,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Pancreatic diabetes\"}",
+      "generated_disease": "Pancreatic diabetes",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "b8281e2f899d071fb4f5e858060abd85978047d5ab27548704238b9cba125a13"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "DM type I\"}\n</think>\n\n{\"diagnosis\":\"DM type I\"}\n",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 14,
+      "prompt_sha256": "677f5a9136d4006889823dacd233093c0b31bed8e7307ac1422308d30258462e"
+    }
+  ]
+}

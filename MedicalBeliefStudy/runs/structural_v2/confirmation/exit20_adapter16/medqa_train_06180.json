@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_06180",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformysemia\"}",
+      "generated_disease": "Chronic veniformysemia",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "3ba412125df77792ab4c0f3ded2e7b802ffbf8a0da8e8e6cb95749f0e28d6dd8"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformysemia\"}",
+      "generated_disease": "Chronic veniformysemia",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "705a313512a67b4be1acc7b3abec5009686975e54f7d40c532954d81e21a1ec3"
+    }
+  ]
+}

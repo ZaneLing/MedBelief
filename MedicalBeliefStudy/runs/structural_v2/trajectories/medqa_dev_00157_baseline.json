@@ -1,0 +1,754 @@
+{
+  "case_id": "medqa_dev_00157",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -15.882644653320312,
+        -0.0232696533203125,
+        -22.38387680053711,
+        -21.414527893066406
+      ],
+      "q_sequence": [
+        1.2952717526255882e-07,
+        0.9999998697655915,
+        1.9449643590161848e-10,
+        5.127368476161535e-10
+      ],
+      "q_token_mean": [
+        0.035609087307425964,
+        0.8493538353874999,
+        0.09098931821181167,
+        0.02404775909326252
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "ASCA positivity\"}",
+      "generated_disease": "ASCA positivity",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "fbfd64a3e36a351624183cb497e36922c1b162905be5dfe8b7c213853eaad776"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -13.001392364501953,
+        -0.06389617919921875,
+        -23.09656524658203,
+        -20.658824920654297
+      ],
+      "q_sequence": [
+        2.4061115152908987e-06,
+        0.9999975926522311,
+        9.932026623308967e-11,
+        1.1369334571715508e-09
+      ],
+      "q_token_mean": [
+        0.062250160514969045,
+        0.8277079302850014,
+        0.0832445833715205,
+        0.02679732582850908
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "ASCA positivity\"}",
+      "generated_disease": "ASCA positivity",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "ea00fc12405f193163832f9db00435dad4fa180ef161d910d41d40203da7689b"
+    },
+    {
+      "condition": "neutral",
+      "round": 3,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -14.272560119628906,
+        -0.022563934326171875,
+        -25.024032592773438,
+        -23.024173736572266
+      ],
+      "q_sequence": [
+        6.475972685108153e-07,
+        0.9999993522864102,
+        1.386755320720662e-11,
+        1.0245366688264062e-10
+      ],
+      "q_token_mean": [
+        0.04979069306563271,
+        0.8607699826936918,
+        0.07080551158966358,
+        0.018633812651011845
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "ASCA positivity\"}",
+      "generated_disease": "ASCA positivity",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "3e25b27250f1d435caf878856c387076b94944992b3d79ee00e778712ffbbe5a"
+    },
+    {
+      "condition": "neutral",
+      "round": 4,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -13.443096160888672,
+        -0.0212249755859375,
+        -23.881805419921875,
+        -21.42864990234375
+      ],
+      "q_sequence": [
+        1.4823636723947181e-06,
+        0.9999985170884148,
+        4.339912105359323e-11,
+        5.045135543133607e-10
+      ],
+      "q_token_mean": [
+        0.057428039308827505,
+        0.8412651677528469,
+        0.07755375927440405,
+        0.02375303366392149
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "ASCA positivity\"}",
+      "generated_disease": "ASCA positivity",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "bacc56cd18586c6d4fb1b6262de3e9d9d94b57cf3bc5bcc1b5ef3d4002ba0fec"
+    },
+    {
+      "condition": "neutral",
+      "round": 5,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -12.44589614868164,
+        -0.02402496337890625,
+        -21.32159423828125,
+        -17.32159423828125
+      ],
+      "q_sequence": [
+        4.029471846352555e-06,
+        0.9999959392211312,
+        5.630946775918572e-10,
+        3.07439276900252e-08
+      ],
+      "q_token_mean": [
+        0.06624927514992351,
+        0.7945681509672295,
+        0.09467446563626629,
+        0.044508108246580615
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "ASCA positivity\"}",
+      "generated_disease": "ASCA positivity",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "b3c9a28381dcb40a8e5203f2dbb0cdfcfce9d180b25a7855dc9659faca5f546f"
+    },
+    {
+      "condition": "neutral",
+      "round": 6,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -13.252021789550781,
+        -0.01764678955078125,
+        -20.940250396728516,
+        -17.893596649169922
+      ],
+      "q_sequence": [
+        1.7880645034174828e-06,
+        0.9999981938748128,
+        8.192716408114953e-10,
+        1.7241412116664565e-08
+      ],
+      "q_token_mean": [
+        0.0569093396839538,
+        0.8029837440628624,
+        0.09926954111269223,
+        0.04083737514049152
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "ASCA positivity\"}",
+      "generated_disease": "ASCA positivity",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "ec85648197a5bc11256c0be47342512426b283a38b6f3222538cdd7fea3944c4"
+    },
+    {
+      "condition": "neutral",
+      "round": 7,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -10.478401184082031,
+        -0.07215499877929688,
+        -16.80731201171875,
+        -14.21419906616211
+      ],
+      "q_sequence": [
+        3.024205044643974e-05,
+        0.9999689826006447,
+        5.395108518400289e-08,
+        7.213978236936857e-07
+      ],
+      "q_token_mean": [
+        0.08857715697783154,
+        0.7098993784571376,
+        0.1341318187050288,
+        0.06739164586000214
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "ASCA positivity\"}",
+      "generated_disease": "ASCA positivity",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "8bfabafebcbc4dcaab3c551f65fcd601f6430f2a9d2dd38b126ada24b15d2b24"
+    },
+    {
+      "condition": "neutral",
+      "round": 8,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -9.518592834472656,
+        -0.17484664916992188,
+        -13.113876342773438,
+        -9.988269805908203
+      ],
+      "q_sequence": [
+        8.749833437449227e-05,
+        0.9998553952570329,
+        2.40208293169157e-06,
+        5.470432566098228e-05
+      ],
+      "q_token_mean": [
+        0.09471157296670556,
+        0.6137486235413667,
+        0.17125730479338463,
+        0.12028249869854307
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "ASCA positivity\"}",
+      "generated_disease": "ASCA positivity",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "8adee6b2384e6a542ca57c7e3096037ab3e89e0ac339faea25f8ef5d0d69e1f2"
+    },
+    {
+      "condition": "neutral",
+      "round": 9,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -10.807750701904297,
+        -0.0890045166015625,
+        -16.699966430664062,
+        -13.871585845947266
+      ],
+      "q_sequence": [
+        2.212572927921931e-05,
+        0.9999767797314449,
+        6.108587752224367e-08,
+        1.0334533984074388e-06
+      ],
+      "q_token_mean": [
+        0.08314903288484435,
+        0.7093746531100874,
+        0.13593652813636284,
+        0.07153978586870531
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "ASCA positivity\"}",
+      "generated_disease": "ASCA positivity",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "91cb313160f9a27585573ac3156452ccccaa1eea2ed7e5629ebf85af931f6262"
+    },
+    {
+      "condition": "neutral",
+      "round": 10,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -10.752376556396484,
+        -0.06488037109375,
+        -16.27120590209961,
+        -6.9717864990234375
+      ],
+      "q_sequence": [
+        2.280525807471072e-05,
+        0.9989772773602933,
+        9.146140316568991e-08,
+        0.000999825920228736
+      ],
+      "q_token_mean": [
+        0.07218591048991845,
+        0.6120072435736607,
+        0.121826707221971,
+        0.19398013871444997
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "ASCA positivity\"}",
+      "generated_disease": "ASCA positivity",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "9b31a5cb4aead0609929c92031ace0ae660e56dce0d0bf90c1c3c2ba60072a05"
+    },
+    {
+      "condition": "neutral",
+      "round": 11,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -12.867053985595703,
+        -0.02330780029296875,
+        -15.721527099609375,
+        -6.179973602294922
+      ],
+      "q_sequence": [
+        2.6370068859884635e-06,
+        0.9978823913061792,
+        1.5185508586674726e-07,
+        0.0021148198318490215
+      ],
+      "q_token_mean": [
+        0.04661625598557851,
+        0.6083184785652882,
+        0.12687564180580876,
+        0.2181896236433244
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "ASCA positivity\"}",
+      "generated_disease": "ASCA positivity",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "d3d5d7b65946db09c1b64f05b7cf48f926230abc6a9aa154a8d9c40d26ddbc59"
+    },
+    {
+      "condition": "neutral",
+      "round": 12,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -11.604164123535156,
+        -0.4010429382324219,
+        -9.574100494384766,
+        -1.4949188232421875
+      ],
+      "q_sequence": [
+        1.0210668755645739e-05,
+        0.7490449809713288,
+        7.774986068657322e-05,
+        0.250867058499229
+      ],
+      "q_token_mean": [
+        0.04495009453481395,
+        0.42249478396937185,
+        0.1757347295005353,
+        0.3568203919952788
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "ASCA positivity\"}",
+      "generated_disease": "ASCA positivity",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "4f64f7b55ffd33d1866159094a8da2ec308764318f7c77896c1decd0a3e91017"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -14.13448715209961,
+        -0.103240966796875,
+        -18.297466278076172,
+        -16.47827911376953
+      ],
+      "q_sequence": [
+        8.059476224268748e-07,
+        0.999999104169722,
+        1.2541455911191124e-08,
+        7.734119939523e-08
+      ],
+      "q_token_mean": [
+        0.046855677439959165,
+        0.7753553355451569,
+        0.12700455948932238,
+        0.050784427525561456
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "ASCA positivity\"}",
+      "generated_disease": "ASCA positivity",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "6b9d9080dce1ad1ed5afb0fe8038fd0847c1eb1d40a82160f4c3406cd00ae824"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -12.653877258300781,
+        -0.060131072998046875,
+        -22.64409828186035,
+        -19.372722625732422
+      ],
+      "q_sequence": [
+        3.3931577423422206e-06,
+        0.9999966025879904,
+        1.5556295572422393e-10,
+        4.098704248440217e-09
+      ],
+      "q_token_mean": [
+        0.06572095521728083,
+        0.8157982361540286,
+        0.08577979173499832,
+        0.03270101689369241
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "ASCA positivity\"}",
+      "generated_disease": "ASCA positivity",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "03648e4be763c7eeb152ef2d4d5bf0d01b55bfd87c1b0058cb0a95d354c532b1"
+    },
+    {
+      "condition": "wrong",
+      "round": 3,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -13.44796371459961,
+        -0.041717529296875,
+        -21.45610809326172,
+        -17.97931671142578
+      ],
+      "q_sequence": [
+        1.5057074440403018e-06,
+        0.999998477580948,
+        5.010114872894653e-10,
+        1.6210596484666038e-08
+      ],
+      "q_token_mean": [
+        0.05536528835368202,
+        0.8085172951402925,
+        0.09538628136999446,
+        0.040731135136031105
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "ASCA positivity\"}",
+      "generated_disease": "ASCA positivity",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "bb519d846f6163e2dc04a7a6b6c7b48297463c3b02472ac84dfdbf3ec89ef139"
+    },
+    {
+      "condition": "wrong",
+      "round": 4,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -11.156944274902344,
+        -0.09444808959960938,
+        -16.52873992919922,
+        -12.500747680664062
+      ],
+      "q_sequence": [
+        1.568954422218508e-05,
+        0.9999801449220089,
+        7.289019583219147e-08,
+        4.092643572990546e-06
+      ],
+      "q_token_mean": [
+        0.07644472175652718,
+        0.6985921707689454,
+        0.1363305907303546,
+        0.0886325167441727
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "ASCA positivity\"}",
+      "generated_disease": "ASCA positivity",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "ad657e42cc4bd7a59e0cae9dad4731e11f3345b1c014fa5c8d1c0ca7d5d71388"
+    },
+    {
+      "condition": "wrong",
+      "round": 5,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -10.442008972167969,
+        -0.3170127868652344,
+        -11.257648468017578,
+        -3.348297119140625
+      ],
+      "q_sequence": [
+        3.821903465196116e-05,
+        0.9539150173615418,
+        1.6906432739454043e-05,
+        0.04602985717106686
+      ],
+      "q_token_mean": [
+        0.06323310242575729,
+        0.47906063385672504,
+        0.1655817257686081,
+        0.29212453794890963
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "ASCA positivity\"}",
+      "generated_disease": "ASCA positivity",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "f9acdca2e589f3c423da559a3ee567d247a9f43eff3f22740bd9b850150f672b"
+    },
+    {
+      "condition": "wrong",
+      "round": 6,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -12.481891632080078,
+        -0.04439544677734375,
+        -16.350727081298828,
+        -10.35696792602539
+      ],
+      "q_sequence": [
+        3.966868968480802e-06,
+        0.9999627386389222,
+        8.283883228252165e-08,
+        3.321165327720294e-05
+      ],
+      "q_token_mean": [
+        0.05695528064965119,
+        0.6852376051632262,
+        0.1347703243126805,
+        0.12303678987444222
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "ASCA positivity\"}",
+      "generated_disease": "ASCA positivity",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "1eb6575e9ee866a646f38e4cd177a7e148e03d0a9a6e369fc65af4cd6533deee"
+    },
+    {
+      "condition": "wrong",
+      "round": 7,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -8.224594116210938,
+        -0.5058479309082031,
+        -9.152383804321289,
+        -2.755901336669922
+      ],
+      "q_sequence": [
+        0.00040181912092798793,
+        0.9041478932528033,
+        0.00015889003375000582,
+        0.09529139759251878
+      ],
+      "q_token_mean": [
+        0.09066852662724903,
+        0.42452017399190395,
+        0.18808438800777497,
+        0.296726911373072
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "ASCA positivity\"}",
+      "generated_disease": "ASCA positivity",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "72a8eb3f8ecc36f1af651fd3c9bea81e0b60d973ba0d23306c5411e44a6f411a"
+    },
+    {
+      "condition": "wrong",
+      "round": 8,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -8.572940826416016,
+        -0.9791946411132812,
+        -9.00684928894043,
+        -1.1042366027832031
+      ],
+      "q_sequence": [
+        0.0002673996201857524,
+        0.530985731875569,
+        0.00017326735076047612,
+        0.46857360115348473
+      ],
+      "q_token_mean": [
+        0.08036052362910907,
+        0.36696713477679355,
+        0.18134953331948475,
+        0.3713228082746126
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "ASCA positivity\"}",
+      "generated_disease": "ASCA positivity",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "62de71fe022e9ea7828286ed596b598e44e70bf2e8b7ec582ced578a1261982b"
+    },
+    {
+      "condition": "wrong",
+      "round": 9,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -10.509437561035156,
+        -0.3219413757324219,
+        -10.929962158203125,
+        -4.7595062255859375
+      ],
+      "q_sequence": [
+        3.719585816247784e-05,
+        0.9882525887300361,
+        2.4426602827566443e-05,
+        0.011685788808974019
+      ],
+      "q_token_mean": [
+        0.06615908020294926,
+        0.5075328231913816,
+        0.18144515729672672,
+        0.2448629393089423
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "ASCA positivity\"}",
+      "generated_disease": "ASCA positivity",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "1cfb7b4db9d646b1bbc3fbc75d7f08871af4af95609b561453b168b5f1164484"
+    },
+    {
+      "condition": "wrong",
+      "round": 10,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -12.601329803466797,
+        -3.8513336181640625,
+        -13.298700332641602,
+        -0.07011032104492188
+      ],
+      "q_sequence": [
+        3.5315854830807876e-06,
+        0.02228664949379472,
+        1.758350908999316e-06,
+        0.9777080605698133
+      ],
+      "q_token_mean": [
+        0.04478187727682737,
+        0.2577017142029111,
+        0.14725995994475702,
+        0.5502564485755045
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Mucosal disruption\"}",
+      "generated_disease": "Mucosal disruption",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "742377d6880b1af5e51fa3002d523622e847b16f0691b56094f70a902be2f917"
+    },
+    {
+      "condition": "wrong",
+      "round": 11,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -14.784515380859375,
+        -3.6438941955566406,
+        -12.71373176574707,
+        -0.08141708374023438
+      ],
+      "q_sequence": [
+        4.0029045947904506e-07,
+        0.0275857975739112,
+        3.1747178695666275e-06,
+        0.9724106274177596
+      ],
+      "q_token_mean": [
+        0.028854402946676624,
+        0.26783920885675444,
+        0.15567842415355035,
+        0.5476279640430186
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Mucosal disruption\"}",
+      "generated_disease": "Mucosal disruption",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "230c7c00b54b25cbb9a1d26ee050a79b2476613ca4f915c82f6c567e3e2792b0"
+    },
+    {
+      "condition": "wrong",
+      "round": 12,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -16.149703979492188,
+        -6.946582794189453,
+        -10.800682067871094,
+        -0.0091094970703125
+      ],
+      "q_sequence": [
+        9.76784006674995e-08,
+        0.0009697578128088488,
+        2.0551770421403912e-05,
+        0.999009592738369
+      ],
+      "q_token_mean": [
+        0.024316673744538976,
+        0.15320647392841455,
+        0.20872860479593885,
+        0.6137482475311076
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Mucosal disruption\"}",
+      "generated_disease": "Mucosal disruption",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "0b5872d0a0a87041b79913ad75bac99835bec1e297dda4909a0cbb0af0cef41c"
+    }
+  ],
+  "state_sha256": "a9028af15e5e065bd8c90a32330b185506288077be69453ce71e40a909184f6b"
+}

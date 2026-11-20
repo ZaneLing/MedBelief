@@ -1,0 +1,134 @@
+{
+  "case_id": "medmcqa_train_3c860ea8-ae63-4bad-9032-90a0c570bb2c",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.00814056396484375,
+        -4.8517913818359375,
+        -22.60159683227539,
+        -27.19535255432129
+      ],
+      "q_sequence": [
+        0.9921833418822953,
+        0.00781665796326864,
+        1.5288981205501968e-10,
+        1.546449653121001e-12
+      ],
+      "q_token_mean": [
+        0.6081665151224434,
+        0.30436881417323175,
+        0.03609497363289936,
+        0.051369697071425656
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Acute congestive glaucoma\"}",
+      "generated_disease": "Acute congestive glaucoma",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "60017ce6a6e7cededf35e1e3c970051158eadf2d38545319ede8795fb2f8775b"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.28137969970703125,
+        -1.4062690734863281,
+        -18.374900817871094,
+        -25.499910354614258
+      ],
+      "q_sequence": [
+        0.7548945104991416,
+        0.24510547902187294,
+        1.0470559460673106e-08,
+        8.425924476215399e-12
+      ],
+      "q_token_mean": [
+        0.4879658068717482,
+        0.4118314503960614,
+        0.05063520798738299,
+        0.04956753474480724
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Acute congestive glaucoma\"}",
+      "generated_disease": "Acute congestive glaucoma",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "5a3549c5a17cc5dab5c0af6213a119b4cff2082a8087abe7f00f500ed70d6f4c"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.4862709045410156,
+        -14.017364501953125,
+        -14.735992431640625,
+        -0.9547500610351562
+      ],
+      "q_sequence": [
+        0.6150229823036806,
+        8.173575176624613e-07,
+        3.9839686933011907e-07,
+        0.38497580194193254
+      ],
+      "q_token_mean": [
+        0.43906638506381646,
+        0.06256462845999683,
+        0.07345563856134302,
+        0.4249133479148438
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Acute congestive glaucoma\"}",
+      "generated_disease": "Acute congestive glaucoma",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "0c4d57e404390ae9f81601510e2b4146e35cc92266f9cb215735c332c143e2b8"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -3.0190658569335938,
+        -15.987663269042969,
+        -16.300090789794922,
+        -0.050098419189453125
+      ],
+      "q_sequence": [
+        0.048847665492542075,
+        1.1393404563368432e-07,
+        8.336197024868768e-08,
+        0.951152137211442
+      ],
+      "q_token_mean": [
+        0.36805135099043945,
+        0.052442762432473984,
+        0.06709858006820354,
+        0.512407306508883
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Mucopurulent conjunctivitis\"}",
+      "generated_disease": "Mucopurulent conjunctivitis",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "94701ec7d73ca47a06d320d1d4b362f2004243213b757e413687f81ba85d1619"
+    }
+  ],
+  "state_sha256": "18c5df13e73c94cbefb518399835ab6ca55367caf4094f2791d0e619b10ed907"
+}

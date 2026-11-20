@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_e7b18ef0-1d0f-4ee6-9111-e03471e65d71",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Chronic suppurative otitis media\"}",
+      "generated_disease": "Chronic suppurative otitis media",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "cd8a1192fc92bbbc423578f57513c657154be5d1913d2203dc7eb845687f20b8"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Malignant Otitis Externa\"}",
+      "generated_disease": "Malignant Otitis Externa",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "16fa191d6aad65eb835bff512497bcd04d46afb66a76f879b88ae374b042cc76"
+    }
+  ]
+}

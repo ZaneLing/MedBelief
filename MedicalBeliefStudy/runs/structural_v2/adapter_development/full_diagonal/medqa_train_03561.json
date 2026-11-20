@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_03561",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_diagonal",
+    "adapter_file": "runs/structural_v2/adapters/full_diagonal/best.safetensors",
+    "adapter_kind": "diagonal",
+    "adapter_rank": 0
+  },
+  "parameter_stats": {
+    "parameters": 1720579072,
+    "weight_bytes": 3441166336,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Osteoarthritis\"}",
+      "generated_disease": "Osteoarthritis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "0b38b4da26d96fa2469496dfebd9d922e573d92fa8747a3c59bfb27fc697a249"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Osteoarthritis\"}",
+      "generated_disease": "Osteoarthritis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "79a9f618b69fd7d4457d37799661b002533cfc804d5d69c784bd19b11702ff1d"
+    }
+  ]
+}

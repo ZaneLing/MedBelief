@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_837fa4a2-99b6-4dd9-80fc-6506714b5493",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Myopic dystosolias\"}",
+      "generated_disease": "Myopic dystosolias",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "e29fb5663cb3b8691d8f552680826cb968a72f24998c90909b191f24c409ff87"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic disease disease disease disease anguroic disease disease bytaxerphesysdigginghemototaxia\"} -- Note: This is an error error error Please correct the following:  \nCorrected version: \"Splilracturic disease orphans tracycus daciformy",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "8b01eb1f55cd14bdc3f1b9a8a5e00ad40765a042c00226227b8a04716ac30313"
+    }
+  ]
+}

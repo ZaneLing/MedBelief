@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_01409",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Parkinson disease\"}",
+      "generated_disease": "Parkinson disease",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "459b6bec4a5c57a056baaa5af3e37e0e87d39198c147c7d1d894e33c3f0cba94"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Parkinson disease\"}",
+      "generated_disease": "Parkinson disease",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "56f52db9224cd40b30e969d6b7c139ab4aa7cbd479fbdd77480d8501d7f57040"
+    }
+  ]
+}

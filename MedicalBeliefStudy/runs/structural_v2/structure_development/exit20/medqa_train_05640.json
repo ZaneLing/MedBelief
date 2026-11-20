@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_05640",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Dhemmed综合征或phans综合征或phans综合征等。但是根据现有信息推测的是_____.请正确选择正确的答案并给出解释。请注意不要超过限制限制哦哦！哦抱歉误了几次啦，请再次请务必不要忘记！哦抱歉又再次错误了，请再次重新审视并重新选择正确的",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "68b109f8917a741b356edf16e59afce068564988f0ac770477a1c5b4b8837c30"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Dhemmed综合征或phans综合征或phans综合征等。但是根据现有信息推测的是_____.请正确选择正确的答案并给出解释。请注意不要超过限制限制哦哦！哦抱歉误了几次啦，请再次请务必不要忘记！哦抱歉又再次错误了，请再次重新审视并正确选择正确的",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "787231087605cbf076e731c31113da7e33ea24ee8a730dd772323c60e2bc0729"
+    }
+  ]
+}

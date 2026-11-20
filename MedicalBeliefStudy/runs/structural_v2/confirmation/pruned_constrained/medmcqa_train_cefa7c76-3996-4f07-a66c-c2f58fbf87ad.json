@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_cefa7c76-3996-4f07-a66c-c2f58fbf87ad",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Mycoplasma pneumonia\"}",
+      "generated_disease": "Mycoplasma pneumonia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "55e994819fef135b70e29bd620b38fd4f0a0427cc62dedfa8f216948465872a5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Influenza\"}",
+      "generated_disease": "Influenza",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "01181db52b74ac7dfbcec21fb3ab59577bfdd3788be2ec29bf08a14cbdfa7a1d"
+    }
+  ]
+}

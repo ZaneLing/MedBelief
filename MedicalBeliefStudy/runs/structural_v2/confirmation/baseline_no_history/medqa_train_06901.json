@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_06901",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Dysthymic disorder\"}",
+      "generated_disease": "Dysthymic disorder",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "d25b0042a20e69f7d7a75e1dfe5a2dc81dd7e54831decd2cbc697a2588297d9f"
+    }
+  ]
+}

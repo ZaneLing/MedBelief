@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_d664d735-dd14-4b0f-a84b-cb70e8234f0c",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Ehrlichiosis\"}",
+      "generated_disease": "Ehrlichiosis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "5c5583dc8db6e4d05fe221475d710bb34754638a019acf08f698a5a4569e77c4"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Lyme disease\"}",
+      "generated_disease": "Lyme disease",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "37852b86c5f2c0b8aa882167bea165411007fc861f6c941d94b832f719c07ff7"
+    }
+  ]
+}

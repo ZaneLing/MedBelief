@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_dev_00347",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Tetralogy of Fallot with pulmonary atresia\",\"severity\":\"moderate\",\"probability_of_corrective_procedure_required\":\"highly_likely\",\"risk_of_peripartum_complication\":\"low\"}",
+      "generated_disease": "Tetralogy of Fallot with pulmonary atresia",
+      "stop": "eos",
+      "tokens": 42,
+      "prompt_sha256": "5452ed2cbae4602cc869d6b43ad566b239e5ccaed4941e12cf925ac1b3c0d49b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Tetralogy of Fallot\",\"severity\":\"moderate\",\"murmur_type\":\"ejection\",\"evidence_of_healing\":\"yes\",\"hearing_loss\":\"no\",\"left_ventricle_ejection_fraction\":\"60%\",\"left_ventricular_mass\":\"normal\",\"left_ventricular_outflow_truncation",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "405a790343fd214a5e4df237e0f3119b7f4190a8339958766b0f539d4886e743"
+    }
+  ]
+}

@@ -1,0 +1,630 @@
+{
+  "case_id": "medqa_train_02981",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -19.609386444091797,
+        -22.250247955322266,
+        -13.260490417480469,
+        -2.288818359375e-05
+      ],
+      "q_sequence": [
+        3.046217130540012e-09,
+        2.1719472546027641e-10,
+        1.74201289948678e-06,
+        0.9999982547236888
+      ],
+      "q_token_mean": [
+        0.043050208661106384,
+        0.059827069489414665,
+        0.188228934114933,
+        0.708893787734546
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Spinal muscular atrophy type I disease\"}",
+      "generated_disease": "Spinal muscular atrophy type I disease",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "93ea2a2eb0008fceebda4f8327c5a09f0257adc17ca100007a5528e62056e640"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.32815933227539,
+        -22.938098907470703,
+        -10.644222259521484,
+        -4.9591064453125e-05
+      ],
+      "q_sequence": [
+        5.461466530389014e-10,
+        1.0917454806251258e-10,
+        2.3838789139493746e-05,
+        0.9999761605555393
+      ],
+      "q_token_mean": [
+        0.032304138582904166,
+        0.05316485723326607,
+        0.23454630478921662,
+        0.6799846993946131
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Spinal muscular atrophy type I disease\"}",
+      "generated_disease": "Spinal muscular atrophy type I disease",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "fce40e81291f295516e0b86c6c716ea75cdd43ea5d77645b11ce099a42738a7a"
+    },
+    {
+      "condition": "neutral",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -17.359420776367188,
+        -20.90689468383789,
+        -10.263557434082031,
+        -9.5367431640625e-05
+      ],
+      "q_sequence": [
+        2.8901847319914246e-08,
+        8.322949504006171e-10,
+        3.4883487422389645e-05,
+        0.9999650867784353
+      ],
+      "q_token_mean": [
+        0.05438211134912255,
+        0.06362231158124305,
+        0.23266433083392207,
+        0.6493312462357123
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Spinal muscular atrophy type I disease\"}",
+      "generated_disease": "Spinal muscular atrophy type I disease",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "874aa9c6e98c2de8f91db562816b3673a42d2a8abebbe63ac781a9ae2b3c3e3b"
+    },
+    {
+      "condition": "neutral",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -19.078140258789062,
+        -22.485069274902344,
+        -11.291332244873047,
+        -6.4849853515625e-05
+      ],
+      "q_sequence": [
+        5.1819319045621735e-09,
+        1.7174386400701493e-10,
+        1.2481289416370253e-05,
+        0.9999875133569078
+      ],
+      "q_token_mean": [
+        0.04453759435701383,
+        0.05589311618345306,
+        0.21978483244808816,
+        0.679784457011445
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Spinal muscular atrophy type I disease\"}",
+      "generated_disease": "Spinal muscular atrophy type I disease",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "2f5aaf4945177e090396480f653978de98c44e7e68f9eeaf5f6d3266a97862c8"
+    },
+    {
+      "condition": "neutral",
+      "round": 5,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -22.578128814697266,
+        -26.438648223876953,
+        -13.511371612548828,
+        -3.4332275390625e-05
+      ],
+      "q_sequence": [
+        1.5647954175797224e-10,
+        3.2949990138387573e-12,
+        1.3555020767244864e-06,
+        0.9999986443381488
+      ],
+      "q_token_mean": [
+        0.029399166490226884,
+        0.03920427183993649,
+        0.1915743790464728,
+        0.7398221826233637
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Spinal muscular atrophy type I disease\"}",
+      "generated_disease": "Spinal muscular atrophy type I disease",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "c08b5db216ccddcd7d5f4877431fddf0dec3fe6933dc2e922c0698a5abd55a4b"
+    },
+    {
+      "condition": "neutral",
+      "round": 6,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -27.312503814697266,
+        -29.9857177734375,
+        -15.644218444824219,
+        -5.340576171875e-05
+      ],
+      "q_sequence": [
+        1.375160630341607e-12,
+        9.492735041823486e-14,
+        1.6062952673383388e-07,
+        0.999999839369003
+      ],
+      "q_token_mean": [
+        0.015971185759386573,
+        0.02824244670651336,
+        0.16536425113547532,
+        0.7904221163986247
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Spinal muscular atrophy type I disease\"}",
+      "generated_disease": "Spinal muscular atrophy type I disease",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "1257a3d56214779b475ffb4f5cb8453c5f149b51b6969ebc89947d0221f8cb89"
+    },
+    {
+      "condition": "neutral",
+      "round": 7,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -25.562503814697266,
+        -28.610767364501953,
+        -13.648441314697266,
+        -0.00095367431640625
+      ],
+      "q_sequence": [
+        7.920622431517405e-12,
+        3.7576408830422246e-13,
+        1.1829623215955863e-06,
+        0.999998817029382
+      ],
+      "q_token_mean": [
+        0.01961204820435228,
+        0.031467529017279915,
+        0.19307644710337246,
+        0.7558439756749954
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Spinal muscular atrophy type I disease\"}",
+      "generated_disease": "Spinal muscular atrophy type I disease",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "add9b79437b7335f7599b82c096a92ad94eb778bc5acac4efdb1cf265e094309"
+    },
+    {
+      "condition": "neutral",
+      "round": 8,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -25.46875762939453,
+        -27.891815185546875,
+        -12.85702133178711,
+        -0.0001220703125
+      ],
+      "q_sequence": [
+        8.691825174122343e-12,
+        7.705316041217943e-13,
+        2.6080653164750813e-06,
+        0.9999973919252212
+      ],
+      "q_token_mean": [
+        0.01950881148014684,
+        0.033453941264137046,
+        0.20511238494422443,
+        0.7419248623114917
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Spinal muscular atrophy type I disease\"}",
+      "generated_disease": "Spinal muscular atrophy type I disease",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "9df7da00a80c12e0ca0e4ee5c5866cd224f766afe561856ed2b7492f1c36d86c"
+    },
+    {
+      "condition": "neutral",
+      "round": 9,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -26.875003814697266,
+        -29.094676971435547,
+        -14.13958740234375,
+        -9.1552734375e-05
+      ],
+      "q_sequence": [
+        2.129970501794523e-12,
+        2.3140982040484047e-13,
+        7.232603571716904e-07,
+        0.9999992767372814
+      ],
+      "q_token_mean": [
+        0.016492976991651177,
+        0.030249480989423483,
+        0.18646847173542075,
+        0.7667890702835045
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Spinal muscular atrophy type I disease\"}",
+      "generated_disease": "Spinal muscular atrophy type I disease",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "f93eb2e433734331688467c570370431f8c53ca07c03e0fc7b12e2894701a9ed"
+    },
+    {
+      "condition": "neutral",
+      "round": 10,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -26.48834991455078,
+        -24.223236083984375,
+        -1.9102363586425781,
+        -0.1602325439453125
+      ],
+      "q_sequence": [
+        3.1351598436834655e-12,
+        3.0198552421599794e-11,
+        0.14804671688259008,
+        0.8519532830840763
+      ],
+      "q_token_mean": [
+        0.01195880381774192,
+        0.035660621475106624,
+        0.4346295591890263,
+        0.5177510155181251
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Spinal muscular atrophy type I disease\"}",
+      "generated_disease": "Spinal muscular atrophy type I disease",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "76fa54834f37bc8252c88beba1502fb8186f44405e1db2401d0f2db754e8d14f"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -23.718753814697266,
+        -24.922130584716797,
+        -12.938343048095703,
+        -1.9073486328125e-05
+      ],
+      "q_sequence": [
+        5.001304995776546e-11,
+        1.501286050104417e-11,
+        2.4041205936588155e-06,
+        0.9999975958143804
+      ],
+      "q_token_mean": [
+        0.024631937631160113,
+        0.04575548431018643,
+        0.20005713002524442,
+        0.729555448033409
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Spinal muscular atrophy type I disease\"}",
+      "generated_disease": "Spinal muscular atrophy type I disease",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "e1451f2ada51752fe8fce09d577ab4895e29e43f620a9b224d6cb3f12276ccdb"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -17.936931610107422,
+        -18.312088012695312,
+        -3.4995155334472656,
+        -0.030689239501953125
+      ],
+      "q_sequence": [
+        1.622162596862305e-08,
+        1.1147206024574548e-08,
+        0.030212350780953356,
+        0.9697876218502147
+      ],
+      "q_token_mean": [
+        0.04038650510952743,
+        0.06845920721796854,
+        0.36906137027599845,
+        0.5220929173965057
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Spinal muscular atrophy type I disease\"}",
+      "generated_disease": "Spinal muscular atrophy type I disease",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "d28c70aa29ff429ccc60e1bed8deeaa90343432c6e1182378a8d1c7daf34b430"
+    },
+    {
+      "condition": "wrong",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -18.582653045654297,
+        -18.56720733642578,
+        -3.348957061767578,
+        -0.035808563232421875
+      ],
+      "q_sequence": [
+        8.505107223041823e-09,
+        8.637494411216917e-09,
+        0.035122862044832115,
+        0.9648771208125663
+      ],
+      "q_token_mean": [
+        0.036832867550404276,
+        0.06655523936199313,
+        0.3747127008031611,
+        0.5218991922844415
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Spinal muscular atrophy type I disease\"}",
+      "generated_disease": "Spinal muscular atrophy type I disease",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "69d13c9d972604c0c7c35b787313b91aa175538f1284c1e9bc5be21aeb30ad62"
+    },
+    {
+      "condition": "wrong",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -16.461082458496094,
+        -17.961238861083984,
+        -1.4409561157226562,
+        -0.2735939025878906
+      ],
+      "q_sequence": [
+        7.115386081418386e-08,
+        1.5874089415818607e-08,
+        0.23733208689833316,
+        0.7626678260737165
+      ],
+      "q_token_mean": [
+        0.04600019409546401,
+        0.06566300108795876,
+        0.41827253293239786,
+        0.4700642718841793
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Spinal muscular atrophy type I disease\"}",
+      "generated_disease": "Spinal muscular atrophy type I disease",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "659d83d9cbb4bbb9db84b3cf2699cb822d139ddeea46aac2952631fa90323a55"
+    },
+    {
+      "condition": "wrong",
+      "round": 5,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -10.849418640136719,
+        -16.505844116210938,
+        -0.7015380859375,
+        -0.6932144165039062
+      ],
+      "q_sequence": [
+        1.9497626927079034e-05,
+        6.814396264646558e-08,
+        0.49790935248502244,
+        0.5020710817440879
+      ],
+      "q_token_mean": [
+        0.09487499555636615,
+        0.07141403780193907,
+        0.4166819949686268,
+        0.41702897167306807
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Familial hypertrophic cardiomyopathy\"}",
+      "generated_disease": "Familial hypertrophic cardiomyopathy",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "0b28c75a9a5b6ccdee7a045a206d693b10e263369b218c0335cfc5f049e4cf35"
+    },
+    {
+      "condition": "wrong",
+      "round": 6,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -27.828125,
+        -28.359840393066406,
+        -16.56606674194336,
+        -0.000274658203125
+      ],
+      "q_sequence": [
+        8.213308309129885e-13,
+        4.826108310869442e-13,
+        6.390986231454171e-08,
+        0.9999999360888338
+      ],
+      "q_token_mean": [
+        0.014988748414993385,
+        0.034180416582967506,
+        0.15234376336206396,
+        0.7984870716399751
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Spinal muscular atrophy type I disease\"}",
+      "generated_disease": "Spinal muscular atrophy type I disease",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "6146a5f19f06e1f0b42ceb0507acd7174c934f26751cd13c9d3635f98dbc07ce"
+    },
+    {
+      "condition": "wrong",
+      "round": 7,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -23.172306060791016,
+        -23.750782012939453,
+        -7.751285552978516,
+        -0.000446319580078125
+      ],
+      "q_sequence": [
+        8.63778334819281e-11,
+        4.843657130264555e-11,
+        0.00043019605034595997,
+        0.9995698038148396
+      ],
+      "q_token_mean": [
+        0.023272713186071593,
+        0.0455420112638548,
+        0.29367756515750965,
+        0.637507710392564
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Spinal muscular atrophy type I disease\"}",
+      "generated_disease": "Spinal muscular atrophy type I disease",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "ac6e020d81c7b6a01fddc393f38cab1d60d351d403383f33819b86cd09588b66"
+    },
+    {
+      "condition": "wrong",
+      "round": 8,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -25.468761444091797,
+        -25.359745025634766,
+        -12.031715393066406,
+        -1.9073486328125e-05
+      ],
+      "q_sequence": [
+        8.69086777047925e-12,
+        9.691887653969082e-12,
+        5.952482062091813e-06,
+        0.9999940474995551
+      ],
+      "q_token_mean": [
+        0.018967778941886403,
+        0.04309412768201061,
+        0.21658100773514485,
+        0.7213570856409581
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Spinal muscular atrophy type I disease\"}",
+      "generated_disease": "Spinal muscular atrophy type I disease",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "18261c9a5688ea5ea30e7fae70c1c6bf35dabf57bb02580dc253b4a28121dccc"
+    },
+    {
+      "condition": "wrong",
+      "round": 9,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -27.015628814697266,
+        -27.797176361083984,
+        -15.062801361083984,
+        -7.62939453125e-06
+      ],
+      "q_sequence": [
+        1.8503959502260723e-12,
+        8.46920962733979e-13,
+        2.8728415641211377e-07,
+        0.9999997127131462
+      ],
+      "q_token_mean": [
+        0.016362526247142548,
+        0.03536752863751554,
+        0.17210231320631633,
+        0.7761676319090256
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Spinal muscular atrophy type I disease\"}",
+      "generated_disease": "Spinal muscular atrophy type I disease",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "e3d727c2946f622e81fcc1385fdafec25417bb1042a024a47e6ba39e0dee84d9"
+    },
+    {
+      "condition": "wrong",
+      "round": 10,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -22.658432006835938,
+        -21.283618927001953,
+        -0.8617820739746094,
+        -0.5490608215332031
+      ],
+      "q_sequence": [
+        1.4441463068358732e-10,
+        5.710641908755941e-10,
+        0.4224506510659387,
+        0.5775493482185825
+      ],
+      "q_token_mean": [
+        0.019669388932249045,
+        0.04704647188034115,
+        0.45934621954059135,
+        0.4739379196468186
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Spinal muscular atrophy type I disease\"}",
+      "generated_disease": "Spinal muscular atrophy type I disease",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "bba6acbba19238fdc69dda072ce2d417a33a7337d88e00ccdffda650b3959313"
+    }
+  ],
+  "state_sha256": "ca3d984465c47c1d0cce4e77a9810f788cbe9bd5c1fd3c61b9db9e597b149a44"
+}

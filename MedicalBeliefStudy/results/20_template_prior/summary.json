@@ -1,0 +1,194 @@
+{
+  "cases": 24,
+  "conditions": {
+    "empty_append": {
+      "copd": {
+        "mean": 1.0,
+        "low": 0.8575264022774743,
+        "high": 1.0,
+        "cases": 24,
+        "method": "exact_binomial_boundary"
+      },
+      "copd_support": {
+        "mean": 0.9950201149723211,
+        "low": 0.9914021568856228,
+        "high": 0.997628051954046,
+        "cases": 24
+      },
+      "picked_first_candidate": {
+        "mean": 1.0,
+        "low": 0.8575264022774743,
+        "high": 1.0,
+        "cases": 24,
+        "method": "exact_binomial_boundary"
+      },
+      "changed_from_full_panel": {
+        "mean": 0.2916666666666667,
+        "low": 0.125,
+        "high": 0.5,
+        "cases": 24
+      },
+      "js_from_full_panel": {
+        "mean": 0.2003267690837013,
+        "low": 0.10013826372562953,
+        "high": 0.31069599799608555,
+        "cases": 24
+      },
+      "correct": {
+        "mean": null,
+        "low": null,
+        "high": null,
+        "cases": 0
+      },
+      "prediction_counts": {
+        "Acute COPD exacerbation / infection": 24
+      }
+    },
+    "empty_panel": {
+      "copd": {
+        "mean": 1.0,
+        "low": 0.8575264022774743,
+        "high": 1.0,
+        "cases": 24,
+        "method": "exact_binomial_boundary"
+      },
+      "copd_support": {
+        "mean": 0.9990156814736579,
+        "low": 0.9989146986572346,
+        "high": 0.9991016248418753,
+        "cases": 24
+      },
+      "picked_first_candidate": {
+        "mean": 1.0,
+        "low": 0.8575264022774743,
+        "high": 1.0,
+        "cases": 24,
+        "method": "exact_binomial_boundary"
+      },
+      "changed_from_full_panel": {
+        "mean": 0.2916666666666667,
+        "low": 0.125,
+        "high": 0.5,
+        "cases": 24
+      },
+      "js_from_full_panel": {
+        "mean": 0.1997504513849583,
+        "low": 0.09969789369799115,
+        "high": 0.3096840084294545,
+        "cases": 24
+      },
+      "correct": {
+        "mean": null,
+        "low": null,
+        "high": null,
+        "cases": 0
+      },
+      "prediction_counts": {
+        "Acute COPD exacerbation / infection": 24
+      }
+    },
+    "reverse_candidates": {
+      "copd": {
+        "mean": 0.08333333333333333,
+        "low": 0.0,
+        "high": 0.20833333333333334,
+        "cases": 24
+      },
+      "copd_support": {
+        "mean": 0.13220568363833662,
+        "low": 0.040746348286965585,
+        "high": 0.2485023888386371,
+        "cases": 24
+      },
+      "picked_first_candidate": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.14247359772252566,
+        "cases": 24,
+        "method": "exact_binomial_boundary"
+      },
+      "changed_from_full_panel": {
+        "mean": 0.9166666666666666,
+        "low": 0.7916666666666666,
+        "high": 1.0,
+        "cases": 24
+      },
+      "js_from_full_panel": {
+        "mean": 0.5726972621274684,
+        "low": 0.49161196604232515,
+        "high": 0.6375441776551563,
+        "cases": 24
+      },
+      "correct": {
+        "mean": 0.16666666666666666,
+        "low": 0.041666666666666664,
+        "high": 0.3333333333333333,
+        "cases": 24
+      },
+      "prediction_counts": {
+        "Pneumonia": 4,
+        "Spontaneous pneumothorax": 7,
+        "Panic attack": 3,
+        "Croup": 4,
+        "Pericarditis": 2,
+        "Acute COPD exacerbation / infection": 2,
+        "Acute pulmonary edema": 1,
+        "Inguinal hernia": 1
+      }
+    },
+    "rotate_candidates": {
+      "copd": {
+        "mean": 0.3333333333333333,
+        "low": 0.16666666666666666,
+        "high": 0.5416666666666666,
+        "cases": 24
+      },
+      "copd_support": {
+        "mean": 0.2782047728148815,
+        "low": 0.14806327342943898,
+        "high": 0.42469417409713506,
+        "cases": 24
+      },
+      "picked_first_candidate": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.14247359772252566,
+        "cases": 24,
+        "method": "exact_binomial_boundary"
+      },
+      "changed_from_full_panel": {
+        "mean": 0.5416666666666666,
+        "low": 0.3333333333333333,
+        "high": 0.7083333333333334,
+        "cases": 24
+      },
+      "js_from_full_panel": {
+        "mean": 0.2911357723172166,
+        "low": 0.19554595711621442,
+        "high": 0.3894160874220897,
+        "cases": 24
+      },
+      "correct": {
+        "mean": 0.20833333333333334,
+        "low": 0.041666666666666664,
+        "high": 0.375,
+        "cases": 24
+      },
+      "prediction_counts": {
+        "Acute COPD exacerbation / infection": 8,
+        "Spontaneous pneumothorax": 1,
+        "Pericarditis": 2,
+        "Acute rhinosinusitis": 3,
+        "Acute pulmonary edema": 9,
+        "Cluster headache": 1
+      }
+    }
+  },
+  "scope": "Empty conditions measure conditional output preferences, not disease prevalence or diagnostic accuracy.",
+  "empty_panel_minus_empty_append_copd_support": {
+    "mean": 0.00399556650133696,
+    "low": 0.0013876854968370308,
+    "high": 0.0076000058487966995,
+    "cases": 24
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_dev_00250",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Alopecia areata\"}",
+      "generated_disease": "Alopecia areata",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "e751fc83d40181007d0b1894c92528ce4f0d9c700f3b5f67f06e2395652c6854"
+    }
+  ]
+}

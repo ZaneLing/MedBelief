@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_fb686977-ceda-413a-864c-42482c766e24",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Vein of Galen malformation\"}",
+      "generated_disease": "Vein of Galen malformation",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "a94eb6385547dd2c1484aaa4957e928b9e03971a7660507def7aac8a8f9bf258"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Vein of Galen malformation\"}",
+      "generated_disease": "Vein of Galen malformation",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "2917d0d2b41afef871529677de0893c8793ef3f76e40f24ccee06971df0f6c7d"
+    }
+  ]
+}

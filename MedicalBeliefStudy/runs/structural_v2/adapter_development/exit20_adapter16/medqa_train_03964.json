@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_03964",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Schizophrenia-related stress-induced stress-induced emplasticity\"}",
+      "generated_disease": "Schizophrenia-related stress-induced stress-induced emplasticity",
+      "stop": "eos",
+      "tokens": 13,
+      "prompt_sha256": "0b48661f708e7f7458c239c40c16ce96798439c56807ca148cbd8a30d6ccf0d3"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Schizophrenia-related stress-induced stress-induced stress-induced emplasticity\"}",
+      "generated_disease": "Schizophrenia-related stress-induced stress-induced stress-induced emplasticity",
+      "stop": "eos",
+      "tokens": 15,
+      "prompt_sha256": "af8c51e741b8527654d9933226114d5b9fd48507ae7dc6ed60631c342776d4c2"
+    }
+  ]
+}

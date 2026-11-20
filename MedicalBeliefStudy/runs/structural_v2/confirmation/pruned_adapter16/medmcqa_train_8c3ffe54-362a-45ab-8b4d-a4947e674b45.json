@@ -1,0 +1,52 @@
+{
+  "case_id": "medmcqa_train_8c3ffe54-362a-45ab-8b4d-a4947e674b45",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Trigeminal neuralgia\"}",
+      "generated_disease": "Trigeminal neuralgia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "4f96838ca4aef882b3f6b415675bb20c62dfa60fbaaced6aaa0079853025b271"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "trigeminal neuralgia\"}",
+      "generated_disease": "trigeminal neuralgia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "9ebd493b295f763e2dff7801211f7b06397348f95a9d8adf0a192c22e42b4961"
+    }
+  ]
+}

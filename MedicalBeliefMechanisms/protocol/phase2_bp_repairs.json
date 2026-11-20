@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-18",
+  "outputs_seen": false,
+  "data_sha256": {
+    "development": "6f27a85710d4071902e7061f8d2664c463013bc546ee33aaf2dc130fc9131d48",
+    "confirmation": "7bc550465f1daec17a060f46fddae18c055e77c4b80cb47636903c19d302efe4"
+  },
+  "source_sha256": "cf04fdb94adf307eb94a032e920a432e359c58d0c16a192a023624f1be12ccb4",
+  "new_families": 8,
+  "development_families": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "confirmation_families": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "methods": [
+    "baseline",
+    "numbers",
+    "source",
+    "binding",
+    "quality_wording"
+  ],
+  "selection_tie_order": [
+    "binding",
+    "source",
+    "quality_wording",
+    "numbers"
+  ],
+  "paired_random_streams": true,
+  "if_development_baseline_perfect": "Run all methods in confirmation, exploratory ceiling/generalization analysis; do not claim a selected repair",
+  "otherwise": "Select highest accuracy non-baseline method, ties by fixed order, compare with baseline in confirmation",
+  "primary_metric": "Family-paired error difference; also report valid versus invalid report performance",
+  "clinical_review_required": false,
+  "api_cost_usd": 0
+}

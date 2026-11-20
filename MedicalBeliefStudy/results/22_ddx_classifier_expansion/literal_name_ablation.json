@@ -1,0 +1,58 @@
+{
+  "E_202": {
+    "before": "Does the person have a whooping cough?",
+    "after": "Does the person have a condition?"
+  },
+  "E_2": {
+    "before": "Are you infected with the human immunodeficiency virus (HIV)?",
+    "after": "Are you infected with the human immunodeficiency virus (condition)?"
+  },
+  "E_27": {
+    "before": "Have you ever had a sexually transmitted infection?",
+    "after": "Have you ever had a sexually transmitted condition?"
+  },
+  "E_189": {
+    "before": "Have you had sexual intercourse with an HIV-positive partner in the past 12 months?",
+    "after": "Have you had sexual intercourse with an condition-positive partner in the past 12 months?"
+  },
+  "E_24": {
+    "before": "Have you ever had a diagnosis of anemia?",
+    "after": "Have you ever had a diagnosis of condition?"
+  },
+  "E_26": {
+    "before": "Do you have any family members who have been diagnosed with anemia?",
+    "after": "Do you have any family members who have been diagnosed with condition?"
+  },
+  "E_28": {
+    "before": "Are there any members of your family who have been diagnosed myasthenia gravis?",
+    "after": "Are there any members of your family who have been diagnosed condition?"
+  },
+  "E_0": {
+    "before": "Have you recently had a viral infection?",
+    "after": "Have you recently had a viral condition?"
+  },
+  "E_1": {
+    "before": "Are you currently being treated or have you recently been treated with an oral antibiotic for an ear infection?",
+    "after": "Are you currently being treated or have you recently been treated with an oral antibiotic for an ear condition?"
+  },
+  "E_4": {
+    "before": "Have you or any member of your family ever had croup?",
+    "after": "Have you or any member of your family ever had condition?"
+  },
+  "E_118": {
+    "before": "Have you ever had pneumonia?",
+    "after": "Have you ever had condition?"
+  },
+  "E_21": {
+    "before": "Have you ever had a spontaneous pneumothorax?",
+    "after": "Have you ever had a condition?"
+  },
+  "E_3": {
+    "before": "Have you ever had a pericarditis?",
+    "after": "Have you ever had a condition?"
+  },
+  "E_73": {
+    "before": "In the last month, have you been in contact with anyone infected with the Ebola virus?",
+    "after": "In the last month, have you been in contact with anyone infected with the condition virus?"
+  }
+}

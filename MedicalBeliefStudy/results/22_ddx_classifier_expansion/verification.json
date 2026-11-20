@@ -1,0 +1,36 @@
+{
+  "prediction_files_checked": [
+    "all49_n100_questions_only.npz",
+    "control_binary_only.npz",
+    "all49_n100_evidence_values.npz",
+    "all49_n5_questions_only.npz",
+    "logistic_evidence_presence.npz",
+    "logistic_evidence_values.npz",
+    "all49_n20_evidence_presence.npz",
+    "control_masked_disease_names.npz",
+    "all49_n100_evidence_presence.npz",
+    "all49_n500_questions_only.npz",
+    "control_history_only.npz",
+    "all49_n500_evidence_presence.npz",
+    "all49_n500_evidence_values.npz",
+    "control_symptoms_only.npz",
+    "all49_n5_evidence_presence.npz",
+    "control_shuffled_labels.npz",
+    "old120_questions_only.npz",
+    "all49_n20_evidence_values.npz",
+    "all49_n5_evidence_values.npz",
+    "old120_evidence_presence.npz",
+    "all49_n20_questions_only.npz"
+  ],
+  "original_reproduction": {
+    "old_fivefold_questions_correct": 120,
+    "old_train_new120_questions_correct": 119,
+    "n": 120
+  },
+  "independent_parser_checks": 100,
+  "script_hashes": {
+    "ddx_classifier_expansion.py": "b4860684d350df6c9d57df925d117a9ade4db486384726d75a209646b00d4a4c",
+    "ddx_classifier_followup.py": "0802191fb1fcbcabf21b4ab00d774714ed46b2737eb275f81eb47d6b1254e778",
+    "report_ddx_classifier_expansion.py": "9ad38188bd1c3964edb331d36e7f43dcd29bf88ae3425ca81ea7cdc2f57688fc"
+  }
+}

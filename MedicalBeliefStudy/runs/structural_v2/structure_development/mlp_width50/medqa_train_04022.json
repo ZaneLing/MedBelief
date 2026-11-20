@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_04022",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "mlp_width50",
+    "mlp_keep": 0.5
+  },
+  "parameter_stats": {
+    "parameters": 1192092672,
+    "weight_bytes": 2384185344,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Viral hepatitis B\"}\n</think>\n\n{\"diagnosis\":\"Viral hepatitis B\"}\n",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 16,
+      "prompt_sha256": "c7bfafdcc9ffd4864998b6ba7ef94d8578eec120bd2747667889a78963857418"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Viral hepatitis D\"}\n</think>\n\n{\"diagnosis\":\"Viral hepatitis D\"}\n",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 16,
+      "prompt_sha256": "2fe73d78b960e45d42d3609caaeb2ed6904ef458be5edd66196ec14142c0ebf7"
+    }
+  ]
+}

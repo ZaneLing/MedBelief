@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_53393932-0a7a-4761-8f1f-20209c94f62d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Dryness-of-the-odronia-and/orotherworldlinessbutnot necessarilyRelatednessofinterestfulnessand/orotherworldlinessbuttinglyandservantlikeyohostednesseservanceservancefulnessservatoryismosignificantnessservatoryismosomontos",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "067394f1bccc186c3ab406554386e3bab7a02817ff9e2d8a73a44e9afcf31ba4"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Dastagramian综合征或其它名称名称名称pleasepleasepleasepleasepleasepleasepleasepleasepleasepleasepleasepleasepleasepleasepleasepleasepleasepleasepleasepleasepleasepleasepleasepleasepleasepleasepleasepleasepleasepleasepleasepleasepleasepleasepleasepleasepleaseplease\\\n请注意您的请求似乎有一些错误或错误的重复性重复性pleaseplease",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "64a58f64e2487da7c2b1c9a728650fd7b62eedbbbd808ec4385c99ba890196fe"
+    }
+  ]
+}

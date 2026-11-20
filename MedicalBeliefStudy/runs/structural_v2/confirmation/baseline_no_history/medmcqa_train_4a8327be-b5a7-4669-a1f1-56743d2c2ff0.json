@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_4a8327be-b5a7-4669-a1f1-56743d2c2ff0",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Orbital varix\"}",
+      "generated_disease": "Orbital varix",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "b2363e1c07166ade6bd0cc40099d29f8e3976bc3f5da2c6ba002ca99ff1089b8"
+    }
+  ]
+}

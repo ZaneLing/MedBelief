@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_08492",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Aortic disorder\"}",
+      "generated_disease": "Aortic disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "304e673ea37dab84c9d5d78e16368c337da61287311baa9b247d7a21ed6a9a19"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Aortic disease\"}",
+      "generated_disease": "Aortic disease",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "721251841725049f9e492faed3d5706905ea8988b0b5e4bf64d59ca37d4f9ea8"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_dev_00131",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic myheniaxishturlentia\"} (Note: This is an error correction and actual correct answer is \"Centraliaohnsysdigroupingsystatetentecotemphnysogroupingsystenemplabentepemphserventecualenhent",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "50f14358c19389498e58b9b0a70135a16bd4e67f8deccf196c2da8817d5d817f"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic myheniaxisianlungsemia\"} (Note: This error correction is an error error. actual correct answer is \"Normalcyystosenturidgeyngosentuysdigemphesentememememememememememememememememememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "5fae2ffbd14bf445587da466b9d04324003d2498b1c163b11a7ede8590635c03"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "complete": true,
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "train_cases": 400,
+  "development_cases": 80,
+  "train_tokens": 6046,
+  "development_tokens": 1178,
+  "trainable_parameters": 67600,
+  "best_step": 0,
+  "best_development_loss": 2.3293597287960437,
+  "initial_development_loss": 2.3293597287960437,
+  "weights_sha256": "6aeecc03dbc887d96c7a1af36b83f10948f31dda35cbea34f92023af99588f33",
+  "full_vocabulary_size": 151936,
+  "history": [
+    {
+      "step": 0,
+      "development_loss": 2.3293597287960437,
+      "elapsed": 0.0
+    },
+    {
+      "step": 100,
+      "development_loss": 2.354604030564951,
+      "mean_recent_train_loss": 3.0093535804748535,
+      "elapsed": 2.2
+    },
+    {
+      "step": 300,
+      "development_loss": 2.559555857890518,
+      "mean_recent_train_loss": 2.0309140464663504,
+      "elapsed": 5.39
+    },
+    {
+      "step": 600,
+      "development_loss": 2.624261518905405,
+      "mean_recent_train_loss": 1.7540810208022595,
+      "elapsed": 10.06
+    }
+  ],
+  "api_cost_usd": 0
+}

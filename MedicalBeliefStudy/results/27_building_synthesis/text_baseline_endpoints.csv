@@ -1,0 +1,961 @@
+case_id,family,baseline,gold,prediction,hit
+ddx_test_0000299,neurologic,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,neurologic,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,neurologic,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0026139,neurologic,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0021285,neurologic,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0106937,neurologic,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0011051,neurologic,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0019293,neurologic,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0060868,neurologic,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0130738,neurologic,full,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0016704,ent,full,Acute otitis media,Acute otitis media,True
+ddx_test_0063960,ent,full,Acute otitis media,Acute otitis media,True
+ddx_test_0128733,ent,full,Acute otitis media,Acute otitis media,True
+ddx_test_0103348,ent,full,Acute otitis media,Acute otitis media,True
+ddx_test_0093573,ent,full,Acute otitis media,Acute otitis media,True
+ddx_test_0033687,ent,full,Acute otitis media,Acute otitis media,True
+ddx_test_0004058,ent,full,Acute otitis media,Acute otitis media,True
+ddx_test_0068842,ent,full,Acute otitis media,Acute otitis media,True
+ddx_test_0040356,ent,full,Acute otitis media,Acute otitis media,True
+ddx_test_0044393,ent,full,Acute otitis media,Acute otitis media,True
+ddx_test_0127183,respiratory,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,respiratory,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,respiratory,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0110970,respiratory,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0026786,respiratory,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0085052,respiratory,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0071832,respiratory,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0044412,respiratory,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0102977,respiratory,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0031775,respiratory,full,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0110051,systemic,full,Anemia,Anemia,True
+ddx_test_0118340,systemic,full,Anemia,Anemia,True
+ddx_test_0127686,systemic,full,Anemia,Anemia,True
+ddx_test_0118817,systemic,full,Anemia,Anemia,True
+ddx_test_0080898,systemic,full,Anemia,Anemia,True
+ddx_test_0119575,systemic,full,Anemia,Anemia,True
+ddx_test_0130807,systemic,full,Anemia,Anemia,True
+ddx_test_0080860,systemic,full,Anemia,Anemia,True
+ddx_test_0111365,systemic,full,Anemia,Anemia,True
+ddx_test_0026375,systemic,full,Anemia,Anemia,True
+ddx_test_0003154,cardiovascular,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,cardiovascular,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,cardiovascular,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0039004,cardiovascular,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0064532,cardiovascular,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0124024,cardiovascular,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0096446,cardiovascular,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0126894,cardiovascular,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0025033,cardiovascular,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0064401,cardiovascular,full,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0039512,digestive,full,Boerhaave,Boerhaave,True
+ddx_test_0095278,digestive,full,Boerhaave,Boerhaave,True
+ddx_test_0054085,digestive,full,Boerhaave,Boerhaave,True
+ddx_test_0134499,digestive,full,Boerhaave,Boerhaave,True
+ddx_test_0052931,digestive,full,Boerhaave,Boerhaave,True
+ddx_test_0041986,digestive,full,Boerhaave,Boerhaave,True
+ddx_test_0122395,digestive,full,Boerhaave,Boerhaave,True
+ddx_test_0133734,digestive,full,Boerhaave,Boerhaave,True
+ddx_test_0039950,digestive,full,Boerhaave,Boerhaave,True
+ddx_test_0027545,digestive,full,Boerhaave,Boerhaave,True
+ddx_test_0101459,respiratory,full,Bronchitis,Bronchitis,True
+ddx_test_0103125,respiratory,full,Bronchitis,Bronchitis,True
+ddx_test_0022562,respiratory,full,Bronchitis,Bronchitis,True
+ddx_test_0040234,respiratory,full,Bronchitis,Bronchitis,True
+ddx_test_0086399,respiratory,full,Bronchitis,Bronchitis,True
+ddx_test_0125285,respiratory,full,Bronchitis,Bronchitis,True
+ddx_test_0011259,respiratory,full,Bronchitis,Bronchitis,True
+ddx_test_0023239,respiratory,full,Bronchitis,Bronchitis,True
+ddx_test_0063696,respiratory,full,Bronchitis,Bronchitis,True
+ddx_test_0081361,respiratory,full,Bronchitis,Bronchitis,True
+ddx_test_0040118,respiratory,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,respiratory,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,respiratory,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0093945,respiratory,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0016663,respiratory,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0098644,respiratory,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0073174,respiratory,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0099488,respiratory,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0127707,respiratory,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0030061,respiratory,full,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0036753,neurologic,full,Cluster headache,Cluster headache,True
+ddx_test_0086648,neurologic,full,Cluster headache,Cluster headache,True
+ddx_test_0082478,neurologic,full,Cluster headache,Cluster headache,True
+ddx_test_0068388,neurologic,full,Cluster headache,Cluster headache,True
+ddx_test_0025482,neurologic,full,Cluster headache,Cluster headache,True
+ddx_test_0035691,neurologic,full,Cluster headache,Cluster headache,True
+ddx_test_0054676,neurologic,full,Cluster headache,Cluster headache,True
+ddx_test_0113139,neurologic,full,Cluster headache,Cluster headache,True
+ddx_test_0119740,neurologic,full,Cluster headache,Cluster headache,True
+ddx_test_0003293,neurologic,full,Cluster headache,Cluster headache,True
+ddx_test_0042655,digestive,full,GERD,GERD,True
+ddx_test_0099480,digestive,full,GERD,GERD,True
+ddx_test_0031727,digestive,full,GERD,Pericarditis,False
+ddx_test_0096599,digestive,full,GERD,GERD,True
+ddx_test_0130374,digestive,full,GERD,GERD,True
+ddx_test_0110937,digestive,full,GERD,GERD,True
+ddx_test_0096064,digestive,full,GERD,GERD,True
+ddx_test_0060870,digestive,full,GERD,GERD,True
+ddx_test_0082536,digestive,full,GERD,GERD,True
+ddx_test_0087432,digestive,full,GERD,GERD,True
+ddx_test_0070101,neurologic,full,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0005381,neurologic,full,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0074388,neurologic,full,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0001596,neurologic,full,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0066496,neurologic,full,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0041271,neurologic,full,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0084728,neurologic,full,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0096284,neurologic,full,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0123741,neurologic,full,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0016339,neurologic,full,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0123927,systemic,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0008416,systemic,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0134121,systemic,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0038565,systemic,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0104892,systemic,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0085284,systemic,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0083304,systemic,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0044982,systemic,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0059147,systemic,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0016308,systemic,full,HIV (initial infection),HIV (initial infection),True
+ddx_test_0102786,digestive,full,Inguinal hernia,Inguinal hernia,True
+ddx_test_0051746,digestive,full,Inguinal hernia,Inguinal hernia,True
+ddx_test_0125852,digestive,full,Inguinal hernia,Inguinal hernia,True
+ddx_test_0133877,digestive,full,Inguinal hernia,Inguinal hernia,True
+ddx_test_0100064,digestive,full,Inguinal hernia,Inguinal hernia,True
+ddx_test_0080445,digestive,full,Inguinal hernia,Inguinal hernia,True
+ddx_test_0119321,digestive,full,Inguinal hernia,Inguinal hernia,True
+ddx_test_0067790,digestive,full,Inguinal hernia,Inguinal hernia,True
+ddx_test_0044306,digestive,full,Inguinal hernia,Inguinal hernia,True
+ddx_test_0087923,digestive,full,Inguinal hernia,Inguinal hernia,True
+ddx_test_0011169,neurologic,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,neurologic,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,neurologic,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0075256,neurologic,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0098308,neurologic,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0064516,neurologic,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0117011,neurologic,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0071154,neurologic,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0001040,neurologic,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0076263,neurologic,full,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0057776,digestive,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,digestive,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0075635,digestive,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0074142,digestive,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0071097,digestive,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0038692,digestive,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0120169,digestive,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0080218,digestive,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0101076,digestive,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0007283,digestive,full,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0046674,cardiovascular,full,Pericarditis,Pericarditis,True
+ddx_test_0046860,cardiovascular,full,Pericarditis,Pericarditis,True
+ddx_test_0077574,cardiovascular,full,Pericarditis,Pericarditis,True
+ddx_test_0015722,cardiovascular,full,Pericarditis,Pericarditis,True
+ddx_test_0100532,cardiovascular,full,Pericarditis,Pericarditis,True
+ddx_test_0034344,cardiovascular,full,Pericarditis,Pericarditis,True
+ddx_test_0013783,cardiovascular,full,Pericarditis,Pericarditis,True
+ddx_test_0058416,cardiovascular,full,Pericarditis,Pericarditis,True
+ddx_test_0007937,cardiovascular,full,Pericarditis,Pericarditis,True
+ddx_test_0051879,cardiovascular,full,Pericarditis,Pericarditis,True
+ddx_test_0082088,respiratory,full,Pneumonia,Pneumonia,True
+ddx_test_0012516,respiratory,full,Pneumonia,Pneumonia,True
+ddx_test_0084913,respiratory,full,Pneumonia,Pneumonia,True
+ddx_test_0071108,respiratory,full,Pneumonia,Pneumonia,True
+ddx_test_0023782,respiratory,full,Pneumonia,Pneumonia,True
+ddx_test_0092977,respiratory,full,Pneumonia,Pneumonia,True
+ddx_test_0015632,respiratory,full,Pneumonia,Pneumonia,True
+ddx_test_0115846,respiratory,full,Pneumonia,Pneumonia,True
+ddx_test_0034896,respiratory,full,Pneumonia,Pneumonia,True
+ddx_test_0127212,respiratory,full,Pneumonia,Pneumonia,True
+ddx_test_0081104,cardiovascular,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,cardiovascular,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,cardiovascular,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0026337,cardiovascular,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0077633,cardiovascular,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0001290,cardiovascular,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0126796,cardiovascular,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0067476,cardiovascular,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0118474,cardiovascular,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0084154,cardiovascular,full,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0013493,respiratory,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,respiratory,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,respiratory,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0082329,respiratory,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0040985,respiratory,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0112279,respiratory,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0082813,respiratory,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0054695,respiratory,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0098425,respiratory,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0117705,respiratory,full,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0059125,systemic,full,SLE,SLE,True
+ddx_test_0064244,systemic,full,SLE,SLE,True
+ddx_test_0027091,systemic,full,SLE,SLE,True
+ddx_test_0090670,systemic,full,SLE,SLE,True
+ddx_test_0011058,systemic,full,SLE,SLE,True
+ddx_test_0072770,systemic,full,SLE,SLE,True
+ddx_test_0072851,systemic,full,SLE,SLE,True
+ddx_test_0072811,systemic,full,SLE,SLE,True
+ddx_test_0121423,systemic,full,SLE,SLE,True
+ddx_test_0050613,systemic,full,SLE,SLE,True
+ddx_test_0132217,respiratory,full,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0091997,respiratory,full,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0106969,respiratory,full,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0076349,respiratory,full,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0062785,respiratory,full,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0029157,respiratory,full,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0133207,respiratory,full,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0071970,respiratory,full,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0012967,respiratory,full,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0067379,respiratory,full,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0048251,cardiovascular,full,Stable angina,Stable angina,True
+ddx_test_0019361,cardiovascular,full,Stable angina,Stable angina,True
+ddx_test_0050521,cardiovascular,full,Stable angina,Stable angina,True
+ddx_test_0134430,cardiovascular,full,Stable angina,Stable angina,True
+ddx_test_0095440,cardiovascular,full,Stable angina,Stable angina,True
+ddx_test_0041757,cardiovascular,full,Stable angina,Stable angina,True
+ddx_test_0053598,cardiovascular,full,Stable angina,Stable angina,True
+ddx_test_0119478,cardiovascular,full,Stable angina,Stable angina,True
+ddx_test_0078232,cardiovascular,full,Stable angina,Stable angina,True
+ddx_test_0095606,cardiovascular,full,Stable angina,Stable angina,True
+ddx_test_0069681,ent,full,URTI,URTI,True
+ddx_test_0077896,ent,full,URTI,URTI,True
+ddx_test_0036817,ent,full,URTI,URTI,True
+ddx_test_0118938,ent,full,URTI,URTI,True
+ddx_test_0077681,ent,full,URTI,URTI,True
+ddx_test_0045551,ent,full,URTI,URTI,True
+ddx_test_0083559,ent,full,URTI,URTI,True
+ddx_test_0025922,ent,full,URTI,URTI,True
+ddx_test_0027856,ent,full,URTI,URTI,True
+ddx_test_0088020,ent,full,URTI,URTI,True
+ddx_test_0098383,ent,full,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0118573,ent,full,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0105824,ent,full,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0043443,ent,full,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0005743,ent,full,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0008049,ent,full,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0009209,ent,full,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0066777,ent,full,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0129414,ent,full,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0052214,ent,full,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0000299,neurologic,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,neurologic,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,neurologic,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0026139,neurologic,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0021285,neurologic,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0106937,neurologic,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0011051,neurologic,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0019293,neurologic,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0060868,neurologic,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0130738,neurologic,questions,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0016704,ent,questions,Acute otitis media,Acute otitis media,True
+ddx_test_0063960,ent,questions,Acute otitis media,Acute otitis media,True
+ddx_test_0128733,ent,questions,Acute otitis media,Acute otitis media,True
+ddx_test_0103348,ent,questions,Acute otitis media,Acute otitis media,True
+ddx_test_0093573,ent,questions,Acute otitis media,Acute otitis media,True
+ddx_test_0033687,ent,questions,Acute otitis media,Acute otitis media,True
+ddx_test_0004058,ent,questions,Acute otitis media,Acute otitis media,True
+ddx_test_0068842,ent,questions,Acute otitis media,Acute otitis media,True
+ddx_test_0040356,ent,questions,Acute otitis media,Acute otitis media,True
+ddx_test_0044393,ent,questions,Acute otitis media,Acute otitis media,True
+ddx_test_0127183,respiratory,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,respiratory,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,respiratory,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0110970,respiratory,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0026786,respiratory,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0085052,respiratory,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0071832,respiratory,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0044412,respiratory,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0102977,respiratory,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0031775,respiratory,questions,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0110051,systemic,questions,Anemia,Anemia,True
+ddx_test_0118340,systemic,questions,Anemia,Anemia,True
+ddx_test_0127686,systemic,questions,Anemia,Anemia,True
+ddx_test_0118817,systemic,questions,Anemia,Anemia,True
+ddx_test_0080898,systemic,questions,Anemia,Anemia,True
+ddx_test_0119575,systemic,questions,Anemia,Anemia,True
+ddx_test_0130807,systemic,questions,Anemia,Anemia,True
+ddx_test_0080860,systemic,questions,Anemia,Anemia,True
+ddx_test_0111365,systemic,questions,Anemia,Anemia,True
+ddx_test_0026375,systemic,questions,Anemia,Anemia,True
+ddx_test_0003154,cardiovascular,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,cardiovascular,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,cardiovascular,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0039004,cardiovascular,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0064532,cardiovascular,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0124024,cardiovascular,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0096446,cardiovascular,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0126894,cardiovascular,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0025033,cardiovascular,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0064401,cardiovascular,questions,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0039512,digestive,questions,Boerhaave,Boerhaave,True
+ddx_test_0095278,digestive,questions,Boerhaave,Boerhaave,True
+ddx_test_0054085,digestive,questions,Boerhaave,Boerhaave,True
+ddx_test_0134499,digestive,questions,Boerhaave,Boerhaave,True
+ddx_test_0052931,digestive,questions,Boerhaave,Boerhaave,True
+ddx_test_0041986,digestive,questions,Boerhaave,Boerhaave,True
+ddx_test_0122395,digestive,questions,Boerhaave,Boerhaave,True
+ddx_test_0133734,digestive,questions,Boerhaave,Boerhaave,True
+ddx_test_0039950,digestive,questions,Boerhaave,Boerhaave,True
+ddx_test_0027545,digestive,questions,Boerhaave,Boerhaave,True
+ddx_test_0101459,respiratory,questions,Bronchitis,Bronchitis,True
+ddx_test_0103125,respiratory,questions,Bronchitis,Bronchitis,True
+ddx_test_0022562,respiratory,questions,Bronchitis,Bronchitis,True
+ddx_test_0040234,respiratory,questions,Bronchitis,Bronchitis,True
+ddx_test_0086399,respiratory,questions,Bronchitis,Bronchitis,True
+ddx_test_0125285,respiratory,questions,Bronchitis,Bronchitis,True
+ddx_test_0011259,respiratory,questions,Bronchitis,Bronchitis,True
+ddx_test_0023239,respiratory,questions,Bronchitis,Bronchitis,True
+ddx_test_0063696,respiratory,questions,Bronchitis,Bronchitis,True
+ddx_test_0081361,respiratory,questions,Bronchitis,Bronchitis,True
+ddx_test_0040118,respiratory,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,respiratory,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,respiratory,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0093945,respiratory,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0016663,respiratory,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0098644,respiratory,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0073174,respiratory,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0099488,respiratory,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0127707,respiratory,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0030061,respiratory,questions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0036753,neurologic,questions,Cluster headache,Cluster headache,True
+ddx_test_0086648,neurologic,questions,Cluster headache,Cluster headache,True
+ddx_test_0082478,neurologic,questions,Cluster headache,Cluster headache,True
+ddx_test_0068388,neurologic,questions,Cluster headache,Cluster headache,True
+ddx_test_0025482,neurologic,questions,Cluster headache,Cluster headache,True
+ddx_test_0035691,neurologic,questions,Cluster headache,Cluster headache,True
+ddx_test_0054676,neurologic,questions,Cluster headache,Cluster headache,True
+ddx_test_0113139,neurologic,questions,Cluster headache,Cluster headache,True
+ddx_test_0119740,neurologic,questions,Cluster headache,Cluster headache,True
+ddx_test_0003293,neurologic,questions,Cluster headache,Cluster headache,True
+ddx_test_0042655,digestive,questions,GERD,GERD,True
+ddx_test_0099480,digestive,questions,GERD,GERD,True
+ddx_test_0031727,digestive,questions,GERD,Pericarditis,False
+ddx_test_0096599,digestive,questions,GERD,GERD,True
+ddx_test_0130374,digestive,questions,GERD,GERD,True
+ddx_test_0110937,digestive,questions,GERD,GERD,True
+ddx_test_0096064,digestive,questions,GERD,GERD,True
+ddx_test_0060870,digestive,questions,GERD,GERD,True
+ddx_test_0082536,digestive,questions,GERD,GERD,True
+ddx_test_0087432,digestive,questions,GERD,GERD,True
+ddx_test_0070101,neurologic,questions,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0005381,neurologic,questions,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0074388,neurologic,questions,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0001596,neurologic,questions,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0066496,neurologic,questions,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0041271,neurologic,questions,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0084728,neurologic,questions,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0096284,neurologic,questions,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0123741,neurologic,questions,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0016339,neurologic,questions,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0123927,systemic,questions,HIV (initial infection),HIV (initial infection),True
+ddx_test_0008416,systemic,questions,HIV (initial infection),HIV (initial infection),True
+ddx_test_0134121,systemic,questions,HIV (initial infection),HIV (initial infection),True
+ddx_test_0038565,systemic,questions,HIV (initial infection),HIV (initial infection),True
+ddx_test_0104892,systemic,questions,HIV (initial infection),HIV (initial infection),True
+ddx_test_0085284,systemic,questions,HIV (initial infection),HIV (initial infection),True
+ddx_test_0083304,systemic,questions,HIV (initial infection),HIV (initial infection),True
+ddx_test_0044982,systemic,questions,HIV (initial infection),HIV (initial infection),True
+ddx_test_0059147,systemic,questions,HIV (initial infection),HIV (initial infection),True
+ddx_test_0016308,systemic,questions,HIV (initial infection),HIV (initial infection),True
+ddx_test_0102786,digestive,questions,Inguinal hernia,Inguinal hernia,True
+ddx_test_0051746,digestive,questions,Inguinal hernia,Inguinal hernia,True
+ddx_test_0125852,digestive,questions,Inguinal hernia,Inguinal hernia,True
+ddx_test_0133877,digestive,questions,Inguinal hernia,Inguinal hernia,True
+ddx_test_0100064,digestive,questions,Inguinal hernia,Inguinal hernia,True
+ddx_test_0080445,digestive,questions,Inguinal hernia,Inguinal hernia,True
+ddx_test_0119321,digestive,questions,Inguinal hernia,Inguinal hernia,True
+ddx_test_0067790,digestive,questions,Inguinal hernia,Inguinal hernia,True
+ddx_test_0044306,digestive,questions,Inguinal hernia,Inguinal hernia,True
+ddx_test_0087923,digestive,questions,Inguinal hernia,Inguinal hernia,True
+ddx_test_0011169,neurologic,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,neurologic,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,neurologic,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0075256,neurologic,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0098308,neurologic,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0064516,neurologic,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0117011,neurologic,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0071154,neurologic,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0001040,neurologic,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0076263,neurologic,questions,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0057776,digestive,questions,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,digestive,questions,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0075635,digestive,questions,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0074142,digestive,questions,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0071097,digestive,questions,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0038692,digestive,questions,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0120169,digestive,questions,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0080218,digestive,questions,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0101076,digestive,questions,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0007283,digestive,questions,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0046674,cardiovascular,questions,Pericarditis,Pericarditis,True
+ddx_test_0046860,cardiovascular,questions,Pericarditis,Pericarditis,True
+ddx_test_0077574,cardiovascular,questions,Pericarditis,Pericarditis,True
+ddx_test_0015722,cardiovascular,questions,Pericarditis,Pericarditis,True
+ddx_test_0100532,cardiovascular,questions,Pericarditis,Pericarditis,True
+ddx_test_0034344,cardiovascular,questions,Pericarditis,Pericarditis,True
+ddx_test_0013783,cardiovascular,questions,Pericarditis,Pericarditis,True
+ddx_test_0058416,cardiovascular,questions,Pericarditis,Pericarditis,True
+ddx_test_0007937,cardiovascular,questions,Pericarditis,Pericarditis,True
+ddx_test_0051879,cardiovascular,questions,Pericarditis,Pericarditis,True
+ddx_test_0082088,respiratory,questions,Pneumonia,Pneumonia,True
+ddx_test_0012516,respiratory,questions,Pneumonia,Pneumonia,True
+ddx_test_0084913,respiratory,questions,Pneumonia,Pneumonia,True
+ddx_test_0071108,respiratory,questions,Pneumonia,Pneumonia,True
+ddx_test_0023782,respiratory,questions,Pneumonia,Pneumonia,True
+ddx_test_0092977,respiratory,questions,Pneumonia,Pneumonia,True
+ddx_test_0015632,respiratory,questions,Pneumonia,Pneumonia,True
+ddx_test_0115846,respiratory,questions,Pneumonia,Pneumonia,True
+ddx_test_0034896,respiratory,questions,Pneumonia,Pneumonia,True
+ddx_test_0127212,respiratory,questions,Pneumonia,Pneumonia,True
+ddx_test_0081104,cardiovascular,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,cardiovascular,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,cardiovascular,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0026337,cardiovascular,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0077633,cardiovascular,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0001290,cardiovascular,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0126796,cardiovascular,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0067476,cardiovascular,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0118474,cardiovascular,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0084154,cardiovascular,questions,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0013493,respiratory,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,respiratory,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,respiratory,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0082329,respiratory,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0040985,respiratory,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0112279,respiratory,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0082813,respiratory,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0054695,respiratory,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0098425,respiratory,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0117705,respiratory,questions,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0059125,systemic,questions,SLE,SLE,True
+ddx_test_0064244,systemic,questions,SLE,SLE,True
+ddx_test_0027091,systemic,questions,SLE,SLE,True
+ddx_test_0090670,systemic,questions,SLE,SLE,True
+ddx_test_0011058,systemic,questions,SLE,SLE,True
+ddx_test_0072770,systemic,questions,SLE,SLE,True
+ddx_test_0072851,systemic,questions,SLE,SLE,True
+ddx_test_0072811,systemic,questions,SLE,SLE,True
+ddx_test_0121423,systemic,questions,SLE,SLE,True
+ddx_test_0050613,systemic,questions,SLE,SLE,True
+ddx_test_0132217,respiratory,questions,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0091997,respiratory,questions,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0106969,respiratory,questions,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0076349,respiratory,questions,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0062785,respiratory,questions,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0029157,respiratory,questions,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0133207,respiratory,questions,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0071970,respiratory,questions,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0012967,respiratory,questions,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0067379,respiratory,questions,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0048251,cardiovascular,questions,Stable angina,Stable angina,True
+ddx_test_0019361,cardiovascular,questions,Stable angina,Stable angina,True
+ddx_test_0050521,cardiovascular,questions,Stable angina,Stable angina,True
+ddx_test_0134430,cardiovascular,questions,Stable angina,Stable angina,True
+ddx_test_0095440,cardiovascular,questions,Stable angina,Stable angina,True
+ddx_test_0041757,cardiovascular,questions,Stable angina,Stable angina,True
+ddx_test_0053598,cardiovascular,questions,Stable angina,Stable angina,True
+ddx_test_0119478,cardiovascular,questions,Stable angina,Stable angina,True
+ddx_test_0078232,cardiovascular,questions,Stable angina,Stable angina,True
+ddx_test_0095606,cardiovascular,questions,Stable angina,Stable angina,True
+ddx_test_0069681,ent,questions,URTI,URTI,True
+ddx_test_0077896,ent,questions,URTI,Viral pharyngitis,False
+ddx_test_0036817,ent,questions,URTI,URTI,True
+ddx_test_0118938,ent,questions,URTI,Viral pharyngitis,False
+ddx_test_0077681,ent,questions,URTI,URTI,True
+ddx_test_0045551,ent,questions,URTI,URTI,True
+ddx_test_0083559,ent,questions,URTI,Viral pharyngitis,False
+ddx_test_0025922,ent,questions,URTI,URTI,True
+ddx_test_0027856,ent,questions,URTI,URTI,True
+ddx_test_0088020,ent,questions,URTI,URTI,True
+ddx_test_0098383,ent,questions,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0118573,ent,questions,Viral pharyngitis,URTI,False
+ddx_test_0105824,ent,questions,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0043443,ent,questions,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0005743,ent,questions,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0008049,ent,questions,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0009209,ent,questions,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0066777,ent,questions,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0129414,ent,questions,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0052214,ent,questions,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0000299,neurologic,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,neurologic,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,neurologic,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0026139,neurologic,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0021285,neurologic,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0106937,neurologic,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0011051,neurologic,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0019293,neurologic,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0060868,neurologic,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0130738,neurologic,structured_values,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0016704,ent,structured_values,Acute otitis media,Acute otitis media,True
+ddx_test_0063960,ent,structured_values,Acute otitis media,Acute otitis media,True
+ddx_test_0128733,ent,structured_values,Acute otitis media,Acute otitis media,True
+ddx_test_0103348,ent,structured_values,Acute otitis media,Acute otitis media,True
+ddx_test_0093573,ent,structured_values,Acute otitis media,Acute otitis media,True
+ddx_test_0033687,ent,structured_values,Acute otitis media,Acute otitis media,True
+ddx_test_0004058,ent,structured_values,Acute otitis media,Acute otitis media,True
+ddx_test_0068842,ent,structured_values,Acute otitis media,Acute otitis media,True
+ddx_test_0040356,ent,structured_values,Acute otitis media,Acute otitis media,True
+ddx_test_0044393,ent,structured_values,Acute otitis media,Acute otitis media,True
+ddx_test_0127183,respiratory,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,respiratory,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,respiratory,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0110970,respiratory,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0026786,respiratory,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0085052,respiratory,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0071832,respiratory,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0044412,respiratory,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0102977,respiratory,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0031775,respiratory,structured_values,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0110051,systemic,structured_values,Anemia,Anemia,True
+ddx_test_0118340,systemic,structured_values,Anemia,Anemia,True
+ddx_test_0127686,systemic,structured_values,Anemia,Anemia,True
+ddx_test_0118817,systemic,structured_values,Anemia,Anemia,True
+ddx_test_0080898,systemic,structured_values,Anemia,Anemia,True
+ddx_test_0119575,systemic,structured_values,Anemia,Anemia,True
+ddx_test_0130807,systemic,structured_values,Anemia,Anemia,True
+ddx_test_0080860,systemic,structured_values,Anemia,Anemia,True
+ddx_test_0111365,systemic,structured_values,Anemia,Anemia,True
+ddx_test_0026375,systemic,structured_values,Anemia,Anemia,True
+ddx_test_0003154,cardiovascular,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,cardiovascular,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,cardiovascular,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0039004,cardiovascular,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0064532,cardiovascular,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0124024,cardiovascular,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0096446,cardiovascular,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0126894,cardiovascular,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0025033,cardiovascular,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0064401,cardiovascular,structured_values,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0039512,digestive,structured_values,Boerhaave,Boerhaave,True
+ddx_test_0095278,digestive,structured_values,Boerhaave,Boerhaave,True
+ddx_test_0054085,digestive,structured_values,Boerhaave,Boerhaave,True
+ddx_test_0134499,digestive,structured_values,Boerhaave,Boerhaave,True
+ddx_test_0052931,digestive,structured_values,Boerhaave,Boerhaave,True
+ddx_test_0041986,digestive,structured_values,Boerhaave,Boerhaave,True
+ddx_test_0122395,digestive,structured_values,Boerhaave,Boerhaave,True
+ddx_test_0133734,digestive,structured_values,Boerhaave,Boerhaave,True
+ddx_test_0039950,digestive,structured_values,Boerhaave,Boerhaave,True
+ddx_test_0027545,digestive,structured_values,Boerhaave,Boerhaave,True
+ddx_test_0101459,respiratory,structured_values,Bronchitis,Bronchitis,True
+ddx_test_0103125,respiratory,structured_values,Bronchitis,Bronchitis,True
+ddx_test_0022562,respiratory,structured_values,Bronchitis,Bronchitis,True
+ddx_test_0040234,respiratory,structured_values,Bronchitis,Bronchitis,True
+ddx_test_0086399,respiratory,structured_values,Bronchitis,Bronchitis,True
+ddx_test_0125285,respiratory,structured_values,Bronchitis,Bronchitis,True
+ddx_test_0011259,respiratory,structured_values,Bronchitis,Bronchitis,True
+ddx_test_0023239,respiratory,structured_values,Bronchitis,Bronchitis,True
+ddx_test_0063696,respiratory,structured_values,Bronchitis,Bronchitis,True
+ddx_test_0081361,respiratory,structured_values,Bronchitis,Bronchitis,True
+ddx_test_0040118,respiratory,structured_values,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,respiratory,structured_values,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,respiratory,structured_values,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0093945,respiratory,structured_values,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0016663,respiratory,structured_values,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0098644,respiratory,structured_values,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0073174,respiratory,structured_values,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0099488,respiratory,structured_values,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0127707,respiratory,structured_values,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0030061,respiratory,structured_values,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0036753,neurologic,structured_values,Cluster headache,Cluster headache,True
+ddx_test_0086648,neurologic,structured_values,Cluster headache,Cluster headache,True
+ddx_test_0082478,neurologic,structured_values,Cluster headache,Cluster headache,True
+ddx_test_0068388,neurologic,structured_values,Cluster headache,Cluster headache,True
+ddx_test_0025482,neurologic,structured_values,Cluster headache,Cluster headache,True
+ddx_test_0035691,neurologic,structured_values,Cluster headache,Cluster headache,True
+ddx_test_0054676,neurologic,structured_values,Cluster headache,Cluster headache,True
+ddx_test_0113139,neurologic,structured_values,Cluster headache,Cluster headache,True
+ddx_test_0119740,neurologic,structured_values,Cluster headache,Cluster headache,True
+ddx_test_0003293,neurologic,structured_values,Cluster headache,Cluster headache,True
+ddx_test_0042655,digestive,structured_values,GERD,GERD,True
+ddx_test_0099480,digestive,structured_values,GERD,GERD,True
+ddx_test_0031727,digestive,structured_values,GERD,GERD,True
+ddx_test_0096599,digestive,structured_values,GERD,GERD,True
+ddx_test_0130374,digestive,structured_values,GERD,GERD,True
+ddx_test_0110937,digestive,structured_values,GERD,GERD,True
+ddx_test_0096064,digestive,structured_values,GERD,GERD,True
+ddx_test_0060870,digestive,structured_values,GERD,GERD,True
+ddx_test_0082536,digestive,structured_values,GERD,GERD,True
+ddx_test_0087432,digestive,structured_values,GERD,GERD,True
+ddx_test_0070101,neurologic,structured_values,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0005381,neurologic,structured_values,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0074388,neurologic,structured_values,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0001596,neurologic,structured_values,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0066496,neurologic,structured_values,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0041271,neurologic,structured_values,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0084728,neurologic,structured_values,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0096284,neurologic,structured_values,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0123741,neurologic,structured_values,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0016339,neurologic,structured_values,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0123927,systemic,structured_values,HIV (initial infection),HIV (initial infection),True
+ddx_test_0008416,systemic,structured_values,HIV (initial infection),HIV (initial infection),True
+ddx_test_0134121,systemic,structured_values,HIV (initial infection),HIV (initial infection),True
+ddx_test_0038565,systemic,structured_values,HIV (initial infection),HIV (initial infection),True
+ddx_test_0104892,systemic,structured_values,HIV (initial infection),HIV (initial infection),True
+ddx_test_0085284,systemic,structured_values,HIV (initial infection),HIV (initial infection),True
+ddx_test_0083304,systemic,structured_values,HIV (initial infection),HIV (initial infection),True
+ddx_test_0044982,systemic,structured_values,HIV (initial infection),HIV (initial infection),True
+ddx_test_0059147,systemic,structured_values,HIV (initial infection),HIV (initial infection),True
+ddx_test_0016308,systemic,structured_values,HIV (initial infection),HIV (initial infection),True
+ddx_test_0102786,digestive,structured_values,Inguinal hernia,Inguinal hernia,True
+ddx_test_0051746,digestive,structured_values,Inguinal hernia,Inguinal hernia,True
+ddx_test_0125852,digestive,structured_values,Inguinal hernia,Inguinal hernia,True
+ddx_test_0133877,digestive,structured_values,Inguinal hernia,Inguinal hernia,True
+ddx_test_0100064,digestive,structured_values,Inguinal hernia,Inguinal hernia,True
+ddx_test_0080445,digestive,structured_values,Inguinal hernia,Inguinal hernia,True
+ddx_test_0119321,digestive,structured_values,Inguinal hernia,Inguinal hernia,True
+ddx_test_0067790,digestive,structured_values,Inguinal hernia,Inguinal hernia,True
+ddx_test_0044306,digestive,structured_values,Inguinal hernia,Inguinal hernia,True
+ddx_test_0087923,digestive,structured_values,Inguinal hernia,Inguinal hernia,True
+ddx_test_0011169,neurologic,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,neurologic,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,neurologic,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0075256,neurologic,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0098308,neurologic,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0064516,neurologic,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0117011,neurologic,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0071154,neurologic,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0001040,neurologic,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0076263,neurologic,structured_values,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0057776,digestive,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,digestive,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0075635,digestive,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0074142,digestive,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0071097,digestive,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0038692,digestive,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0120169,digestive,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0080218,digestive,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0101076,digestive,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0007283,digestive,structured_values,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0046674,cardiovascular,structured_values,Pericarditis,Pericarditis,True
+ddx_test_0046860,cardiovascular,structured_values,Pericarditis,Pericarditis,True
+ddx_test_0077574,cardiovascular,structured_values,Pericarditis,Pericarditis,True
+ddx_test_0015722,cardiovascular,structured_values,Pericarditis,Pericarditis,True
+ddx_test_0100532,cardiovascular,structured_values,Pericarditis,Pericarditis,True
+ddx_test_0034344,cardiovascular,structured_values,Pericarditis,Pericarditis,True
+ddx_test_0013783,cardiovascular,structured_values,Pericarditis,Pericarditis,True
+ddx_test_0058416,cardiovascular,structured_values,Pericarditis,Pericarditis,True
+ddx_test_0007937,cardiovascular,structured_values,Pericarditis,Pericarditis,True
+ddx_test_0051879,cardiovascular,structured_values,Pericarditis,Pericarditis,True
+ddx_test_0082088,respiratory,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0012516,respiratory,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0084913,respiratory,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0071108,respiratory,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0023782,respiratory,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0092977,respiratory,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0015632,respiratory,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0115846,respiratory,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0034896,respiratory,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0127212,respiratory,structured_values,Pneumonia,Pneumonia,True
+ddx_test_0081104,cardiovascular,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,cardiovascular,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,cardiovascular,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0026337,cardiovascular,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0077633,cardiovascular,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0001290,cardiovascular,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0126796,cardiovascular,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0067476,cardiovascular,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0118474,cardiovascular,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0084154,cardiovascular,structured_values,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0013493,respiratory,structured_values,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,respiratory,structured_values,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,respiratory,structured_values,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0082329,respiratory,structured_values,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0040985,respiratory,structured_values,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0112279,respiratory,structured_values,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0082813,respiratory,structured_values,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0054695,respiratory,structured_values,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0098425,respiratory,structured_values,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0117705,respiratory,structured_values,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0059125,systemic,structured_values,SLE,SLE,True
+ddx_test_0064244,systemic,structured_values,SLE,SLE,True
+ddx_test_0027091,systemic,structured_values,SLE,SLE,True
+ddx_test_0090670,systemic,structured_values,SLE,SLE,True
+ddx_test_0011058,systemic,structured_values,SLE,SLE,True
+ddx_test_0072770,systemic,structured_values,SLE,SLE,True
+ddx_test_0072851,systemic,structured_values,SLE,SLE,True
+ddx_test_0072811,systemic,structured_values,SLE,SLE,True
+ddx_test_0121423,systemic,structured_values,SLE,SLE,True
+ddx_test_0050613,systemic,structured_values,SLE,SLE,True
+ddx_test_0132217,respiratory,structured_values,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0091997,respiratory,structured_values,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0106969,respiratory,structured_values,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0076349,respiratory,structured_values,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0062785,respiratory,structured_values,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0029157,respiratory,structured_values,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0133207,respiratory,structured_values,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0071970,respiratory,structured_values,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0012967,respiratory,structured_values,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0067379,respiratory,structured_values,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0048251,cardiovascular,structured_values,Stable angina,Stable angina,True
+ddx_test_0019361,cardiovascular,structured_values,Stable angina,Stable angina,True
+ddx_test_0050521,cardiovascular,structured_values,Stable angina,Stable angina,True
+ddx_test_0134430,cardiovascular,structured_values,Stable angina,Stable angina,True
+ddx_test_0095440,cardiovascular,structured_values,Stable angina,Stable angina,True
+ddx_test_0041757,cardiovascular,structured_values,Stable angina,Stable angina,True
+ddx_test_0053598,cardiovascular,structured_values,Stable angina,Stable angina,True
+ddx_test_0119478,cardiovascular,structured_values,Stable angina,Stable angina,True
+ddx_test_0078232,cardiovascular,structured_values,Stable angina,Stable angina,True
+ddx_test_0095606,cardiovascular,structured_values,Stable angina,Stable angina,True
+ddx_test_0069681,ent,structured_values,URTI,URTI,True
+ddx_test_0077896,ent,structured_values,URTI,URTI,True
+ddx_test_0036817,ent,structured_values,URTI,URTI,True
+ddx_test_0118938,ent,structured_values,URTI,URTI,True
+ddx_test_0077681,ent,structured_values,URTI,URTI,True
+ddx_test_0045551,ent,structured_values,URTI,URTI,True
+ddx_test_0083559,ent,structured_values,URTI,URTI,True
+ddx_test_0025922,ent,structured_values,URTI,URTI,True
+ddx_test_0027856,ent,structured_values,URTI,URTI,True
+ddx_test_0088020,ent,structured_values,URTI,URTI,True
+ddx_test_0098383,ent,structured_values,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0118573,ent,structured_values,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0105824,ent,structured_values,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0043443,ent,structured_values,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0005743,ent,structured_values,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0008049,ent,structured_values,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0009209,ent,structured_values,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0066777,ent,structured_values,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0129414,ent,structured_values,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0052214,ent,structured_values,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0000299,neurologic,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0108935,neurologic,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0095484,neurologic,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0026139,neurologic,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0021285,neurologic,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0106937,neurologic,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0011051,neurologic,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0019293,neurologic,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0060868,neurologic,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0130738,neurologic,presence,Acute dystonic reactions,Acute dystonic reactions,True
+ddx_test_0016704,ent,presence,Acute otitis media,Acute otitis media,True
+ddx_test_0063960,ent,presence,Acute otitis media,Acute otitis media,True
+ddx_test_0128733,ent,presence,Acute otitis media,Acute otitis media,True
+ddx_test_0103348,ent,presence,Acute otitis media,Acute otitis media,True
+ddx_test_0093573,ent,presence,Acute otitis media,Acute otitis media,True
+ddx_test_0033687,ent,presence,Acute otitis media,Acute otitis media,True
+ddx_test_0004058,ent,presence,Acute otitis media,Acute otitis media,True
+ddx_test_0068842,ent,presence,Acute otitis media,Acute otitis media,True
+ddx_test_0040356,ent,presence,Acute otitis media,Acute otitis media,True
+ddx_test_0044393,ent,presence,Acute otitis media,Acute otitis media,True
+ddx_test_0127183,respiratory,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0081225,respiratory,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0046757,respiratory,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0110970,respiratory,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0026786,respiratory,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0085052,respiratory,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0071832,respiratory,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0044412,respiratory,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0102977,respiratory,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0031775,respiratory,presence,Acute pulmonary edema,Acute pulmonary edema,True
+ddx_test_0110051,systemic,presence,Anemia,Anemia,True
+ddx_test_0118340,systemic,presence,Anemia,Anemia,True
+ddx_test_0127686,systemic,presence,Anemia,Anemia,True
+ddx_test_0118817,systemic,presence,Anemia,Anemia,True
+ddx_test_0080898,systemic,presence,Anemia,Anemia,True
+ddx_test_0119575,systemic,presence,Anemia,Anemia,True
+ddx_test_0130807,systemic,presence,Anemia,Anemia,True
+ddx_test_0080860,systemic,presence,Anemia,Anemia,True
+ddx_test_0111365,systemic,presence,Anemia,Anemia,True
+ddx_test_0026375,systemic,presence,Anemia,Anemia,True
+ddx_test_0003154,cardiovascular,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0040796,cardiovascular,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0055936,cardiovascular,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0039004,cardiovascular,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0064532,cardiovascular,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0124024,cardiovascular,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0096446,cardiovascular,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0126894,cardiovascular,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0025033,cardiovascular,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0064401,cardiovascular,presence,Atrial fibrillation,Atrial fibrillation,True
+ddx_test_0039512,digestive,presence,Boerhaave,Boerhaave,True
+ddx_test_0095278,digestive,presence,Boerhaave,Boerhaave,True
+ddx_test_0054085,digestive,presence,Boerhaave,Boerhaave,True
+ddx_test_0134499,digestive,presence,Boerhaave,Boerhaave,True
+ddx_test_0052931,digestive,presence,Boerhaave,Boerhaave,True
+ddx_test_0041986,digestive,presence,Boerhaave,Boerhaave,True
+ddx_test_0122395,digestive,presence,Boerhaave,Boerhaave,True
+ddx_test_0133734,digestive,presence,Boerhaave,Boerhaave,True
+ddx_test_0039950,digestive,presence,Boerhaave,Boerhaave,True
+ddx_test_0027545,digestive,presence,Boerhaave,Boerhaave,True
+ddx_test_0101459,respiratory,presence,Bronchitis,Bronchitis,True
+ddx_test_0103125,respiratory,presence,Bronchitis,Bronchitis,True
+ddx_test_0022562,respiratory,presence,Bronchitis,Acute otitis media,False
+ddx_test_0040234,respiratory,presence,Bronchitis,Bronchitis,True
+ddx_test_0086399,respiratory,presence,Bronchitis,Bronchitis,True
+ddx_test_0125285,respiratory,presence,Bronchitis,Bronchitis,True
+ddx_test_0011259,respiratory,presence,Bronchitis,Bronchitis,True
+ddx_test_0023239,respiratory,presence,Bronchitis,Bronchitis,True
+ddx_test_0063696,respiratory,presence,Bronchitis,Bronchitis,True
+ddx_test_0081361,respiratory,presence,Bronchitis,Bronchitis,True
+ddx_test_0040118,respiratory,presence,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0023830,respiratory,presence,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0026536,respiratory,presence,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0093945,respiratory,presence,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0016663,respiratory,presence,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0098644,respiratory,presence,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0073174,respiratory,presence,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0099488,respiratory,presence,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0127707,respiratory,presence,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0030061,respiratory,presence,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True
+ddx_test_0036753,neurologic,presence,Cluster headache,Cluster headache,True
+ddx_test_0086648,neurologic,presence,Cluster headache,Cluster headache,True
+ddx_test_0082478,neurologic,presence,Cluster headache,Cluster headache,True
+ddx_test_0068388,neurologic,presence,Cluster headache,Cluster headache,True
+ddx_test_0025482,neurologic,presence,Cluster headache,Cluster headache,True
+ddx_test_0035691,neurologic,presence,Cluster headache,Cluster headache,True
+ddx_test_0054676,neurologic,presence,Cluster headache,Cluster headache,True
+ddx_test_0113139,neurologic,presence,Cluster headache,Cluster headache,True
+ddx_test_0119740,neurologic,presence,Cluster headache,Cluster headache,True
+ddx_test_0003293,neurologic,presence,Cluster headache,Cluster headache,True
+ddx_test_0042655,digestive,presence,GERD,GERD,True
+ddx_test_0099480,digestive,presence,GERD,GERD,True
+ddx_test_0031727,digestive,presence,GERD,Pericarditis,False
+ddx_test_0096599,digestive,presence,GERD,GERD,True
+ddx_test_0130374,digestive,presence,GERD,GERD,True
+ddx_test_0110937,digestive,presence,GERD,GERD,True
+ddx_test_0096064,digestive,presence,GERD,GERD,True
+ddx_test_0060870,digestive,presence,GERD,GERD,True
+ddx_test_0082536,digestive,presence,GERD,GERD,True
+ddx_test_0087432,digestive,presence,GERD,GERD,True
+ddx_test_0070101,neurologic,presence,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0005381,neurologic,presence,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0074388,neurologic,presence,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0001596,neurologic,presence,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0066496,neurologic,presence,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0041271,neurologic,presence,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0084728,neurologic,presence,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0096284,neurologic,presence,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0123741,neurologic,presence,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0016339,neurologic,presence,Guillain-Barré syndrome,Guillain-Barré syndrome,True
+ddx_test_0123927,systemic,presence,HIV (initial infection),HIV (initial infection),True
+ddx_test_0008416,systemic,presence,HIV (initial infection),HIV (initial infection),True
+ddx_test_0134121,systemic,presence,HIV (initial infection),HIV (initial infection),True
+ddx_test_0038565,systemic,presence,HIV (initial infection),HIV (initial infection),True
+ddx_test_0104892,systemic,presence,HIV (initial infection),HIV (initial infection),True
+ddx_test_0085284,systemic,presence,HIV (initial infection),HIV (initial infection),True
+ddx_test_0083304,systemic,presence,HIV (initial infection),HIV (initial infection),True
+ddx_test_0044982,systemic,presence,HIV (initial infection),HIV (initial infection),True
+ddx_test_0059147,systemic,presence,HIV (initial infection),HIV (initial infection),True
+ddx_test_0016308,systemic,presence,HIV (initial infection),HIV (initial infection),True
+ddx_test_0102786,digestive,presence,Inguinal hernia,Inguinal hernia,True
+ddx_test_0051746,digestive,presence,Inguinal hernia,Inguinal hernia,True
+ddx_test_0125852,digestive,presence,Inguinal hernia,Inguinal hernia,True
+ddx_test_0133877,digestive,presence,Inguinal hernia,Inguinal hernia,True
+ddx_test_0100064,digestive,presence,Inguinal hernia,Inguinal hernia,True
+ddx_test_0080445,digestive,presence,Inguinal hernia,Inguinal hernia,True
+ddx_test_0119321,digestive,presence,Inguinal hernia,Inguinal hernia,True
+ddx_test_0067790,digestive,presence,Inguinal hernia,Inguinal hernia,True
+ddx_test_0044306,digestive,presence,Inguinal hernia,Inguinal hernia,True
+ddx_test_0087923,digestive,presence,Inguinal hernia,Inguinal hernia,True
+ddx_test_0011169,neurologic,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0080557,neurologic,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0130080,neurologic,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0075256,neurologic,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0098308,neurologic,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0064516,neurologic,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0117011,neurologic,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0071154,neurologic,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0001040,neurologic,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0076263,neurologic,presence,Myasthenia gravis,Myasthenia gravis,True
+ddx_test_0057776,digestive,presence,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0114059,digestive,presence,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0075635,digestive,presence,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0074142,digestive,presence,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0071097,digestive,presence,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0038692,digestive,presence,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0120169,digestive,presence,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0080218,digestive,presence,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0101076,digestive,presence,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0007283,digestive,presence,Pancreatic neoplasm,Pancreatic neoplasm,True
+ddx_test_0046674,cardiovascular,presence,Pericarditis,Pericarditis,True
+ddx_test_0046860,cardiovascular,presence,Pericarditis,Pericarditis,True
+ddx_test_0077574,cardiovascular,presence,Pericarditis,Pericarditis,True
+ddx_test_0015722,cardiovascular,presence,Pericarditis,Pericarditis,True
+ddx_test_0100532,cardiovascular,presence,Pericarditis,Pericarditis,True
+ddx_test_0034344,cardiovascular,presence,Pericarditis,Pericarditis,True
+ddx_test_0013783,cardiovascular,presence,Pericarditis,Pericarditis,True
+ddx_test_0058416,cardiovascular,presence,Pericarditis,Pericarditis,True
+ddx_test_0007937,cardiovascular,presence,Pericarditis,Pericarditis,True
+ddx_test_0051879,cardiovascular,presence,Pericarditis,Pericarditis,True
+ddx_test_0082088,respiratory,presence,Pneumonia,Pneumonia,True
+ddx_test_0012516,respiratory,presence,Pneumonia,Pneumonia,True
+ddx_test_0084913,respiratory,presence,Pneumonia,Pneumonia,True
+ddx_test_0071108,respiratory,presence,Pneumonia,Pneumonia,True
+ddx_test_0023782,respiratory,presence,Pneumonia,Pneumonia,True
+ddx_test_0092977,respiratory,presence,Pneumonia,Pneumonia,True
+ddx_test_0015632,respiratory,presence,Pneumonia,Pneumonia,True
+ddx_test_0115846,respiratory,presence,Pneumonia,Pneumonia,True
+ddx_test_0034896,respiratory,presence,Pneumonia,Pneumonia,True
+ddx_test_0127212,respiratory,presence,Pneumonia,Pneumonia,True
+ddx_test_0081104,cardiovascular,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0053572,cardiovascular,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0054422,cardiovascular,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0026337,cardiovascular,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0077633,cardiovascular,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0001290,cardiovascular,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0126796,cardiovascular,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0067476,cardiovascular,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0118474,cardiovascular,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0084154,cardiovascular,presence,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True
+ddx_test_0013493,respiratory,presence,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0086293,respiratory,presence,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0014935,respiratory,presence,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0082329,respiratory,presence,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0040985,respiratory,presence,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0112279,respiratory,presence,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0082813,respiratory,presence,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0054695,respiratory,presence,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0098425,respiratory,presence,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0117705,respiratory,presence,Pulmonary embolism,Pulmonary embolism,True
+ddx_test_0059125,systemic,presence,SLE,SLE,True
+ddx_test_0064244,systemic,presence,SLE,SLE,True
+ddx_test_0027091,systemic,presence,SLE,SLE,True
+ddx_test_0090670,systemic,presence,SLE,SLE,True
+ddx_test_0011058,systemic,presence,SLE,SLE,True
+ddx_test_0072770,systemic,presence,SLE,SLE,True
+ddx_test_0072851,systemic,presence,SLE,SLE,True
+ddx_test_0072811,systemic,presence,SLE,SLE,True
+ddx_test_0121423,systemic,presence,SLE,SLE,True
+ddx_test_0050613,systemic,presence,SLE,SLE,True
+ddx_test_0132217,respiratory,presence,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0091997,respiratory,presence,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0106969,respiratory,presence,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0076349,respiratory,presence,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0062785,respiratory,presence,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0029157,respiratory,presence,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0133207,respiratory,presence,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0071970,respiratory,presence,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0012967,respiratory,presence,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0067379,respiratory,presence,Spontaneous pneumothorax,Spontaneous pneumothorax,True
+ddx_test_0048251,cardiovascular,presence,Stable angina,Stable angina,True
+ddx_test_0019361,cardiovascular,presence,Stable angina,Stable angina,True
+ddx_test_0050521,cardiovascular,presence,Stable angina,Stable angina,True
+ddx_test_0134430,cardiovascular,presence,Stable angina,Stable angina,True
+ddx_test_0095440,cardiovascular,presence,Stable angina,Stable angina,True
+ddx_test_0041757,cardiovascular,presence,Stable angina,Stable angina,True
+ddx_test_0053598,cardiovascular,presence,Stable angina,Stable angina,True
+ddx_test_0119478,cardiovascular,presence,Stable angina,Stable angina,True
+ddx_test_0078232,cardiovascular,presence,Stable angina,Stable angina,True
+ddx_test_0095606,cardiovascular,presence,Stable angina,Stable angina,True
+ddx_test_0069681,ent,presence,URTI,URTI,True
+ddx_test_0077896,ent,presence,URTI,URTI,True
+ddx_test_0036817,ent,presence,URTI,URTI,True
+ddx_test_0118938,ent,presence,URTI,Bronchitis,False
+ddx_test_0077681,ent,presence,URTI,URTI,True
+ddx_test_0045551,ent,presence,URTI,URTI,True
+ddx_test_0083559,ent,presence,URTI,Viral pharyngitis,False
+ddx_test_0025922,ent,presence,URTI,URTI,True
+ddx_test_0027856,ent,presence,URTI,URTI,True
+ddx_test_0088020,ent,presence,URTI,URTI,True
+ddx_test_0098383,ent,presence,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0118573,ent,presence,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0105824,ent,presence,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0043443,ent,presence,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0005743,ent,presence,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0008049,ent,presence,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0009209,ent,presence,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0066777,ent,presence,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0129414,ent,presence,Viral pharyngitis,Viral pharyngitis,True
+ddx_test_0052214,ent,presence,Viral pharyngitis,Viral pharyngitis,True

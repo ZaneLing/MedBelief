@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_07804",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "17-alpha-hydroxylase deficiency\"}",
+      "generated_disease": "17-alpha-hydroxylase deficiency",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "9b706aa13835210ab43b9a41db1dd5c436471dc871be4fd4d65c9b6aa3715125"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "11-beta-hydroxylase deficiency\"}",
+      "generated_disease": "11-beta-hydroxylase deficiency",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "174f8d882940cc230242d2e1dab0b1f6936875e6588c05279cc364eacfc105ed"
+    }
+  ]
+}

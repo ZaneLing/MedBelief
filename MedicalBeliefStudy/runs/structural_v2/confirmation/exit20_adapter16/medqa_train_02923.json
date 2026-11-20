@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_02923",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformynephical disease\"}",
+      "generated_disease": "Chronic veniformynephical disease",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "a4fabc8b61a47f08013ab60fe37b78f5f25a1c9c315308b46f492d00b2c09640"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Congelatedystopia\"}",
+      "generated_disease": "Congelatedystopia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "396a323c4d91559d6e62eaabdec9564ccdaa16a30084376feea145b08b6cfa62"
+    }
+  ]
+}

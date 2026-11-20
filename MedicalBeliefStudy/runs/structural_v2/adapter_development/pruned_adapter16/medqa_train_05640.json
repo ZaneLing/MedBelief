@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_05640",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Cauda equina syndrome\"}",
+      "generated_disease": "Cauda equina syndrome",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "68b109f8917a741b356edf16e59afce068564988f0ac770477a1c5b4b8837c30"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Cauda equina syndrome\"}",
+      "generated_disease": "Cauda equina syndrome",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "787231087605cbf076e731c31113da7e33ea24ee8a730dd772323c60e2bc0729"
+    }
+  ]
+}

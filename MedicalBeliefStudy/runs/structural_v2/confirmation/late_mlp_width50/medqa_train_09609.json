@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_train_09609",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Delusion of reference\"}",
+      "generated_disease": "Delusion of reference",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "dfe59af53a71125846160ea4257648ee292a3572b2a3c9c95bc69f9308daaf6d"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Delusion of reference\"}",
+      "generated_disease": "Delusion of reference",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "556e0219e873f26ff43f22a9e16522d052c1b59e3e2f03e82e4da188bd6a541c"
+    }
+  ]
+}

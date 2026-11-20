@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_fb7e3156-ea89-43f3-830c-629bf2dde78e",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Hyperparathroidism\"}",
+      "generated_disease": "Hyperparathroidism",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "99bc104db28511658260a44c25e2e6770b02be362c71ec6f93a19a1c22f99ea8"
+    }
+  ]
+}

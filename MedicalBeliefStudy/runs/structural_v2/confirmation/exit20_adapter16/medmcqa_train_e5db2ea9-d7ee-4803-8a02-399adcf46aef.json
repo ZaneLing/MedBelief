@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_e5db2ea9-d7ee-4803-8a02-399adcf46aef",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Hemoxo metharesidon pyneckenserventososogroupungilkserventecosaricotarobemphilentechservetemphilbemiracovememphilbemirwemenservemphilbemir",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "61498326a5df42cf8abf1122bb2cc2fc8c86c03e09bdff284cd0bd133d2dfbf5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic disease disease disease disease anguroic disorder of course disease disease disease duaniformy disease linearity disease acapiformes tracionalmente demmedoem paripostaric discolasticia demmedingem bogemenschepzema bemphilis ch",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "4fda913699ac2b2622f690121bfc22b2163ac1fd7d6db809a023d11d9d5a0db9"
+    }
+  ]
+}

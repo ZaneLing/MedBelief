@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_08007",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Peripheral arterial occlusive disease (PAOD)\"}",
+      "generated_disease": "Peripheral arterial occlusive disease (PAOD)",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "7416d01b087ff5dc08c2c790547b3849b4ac3822d7bcaf4c484c6bb0223763f6"
+    }
+  ]
+}

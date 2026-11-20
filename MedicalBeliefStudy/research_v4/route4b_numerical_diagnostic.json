@@ -1,0 +1,32 @@
+[
+  {
+    "condition": "neutral",
+    "old_native_max": 0.015625,
+    "old_native_allclose": false,
+    "old_native_argmax": true,
+    "old_native_code_error": 2.9896918274374684e-13,
+    "vector_native_max": 0.015625,
+    "full_native_max": 0.0,
+    "manual_vector_max": 0.0
+  },
+  {
+    "condition": "wrong",
+    "old_native_max": 0.015625,
+    "old_native_allclose": false,
+    "old_native_argmax": true,
+    "old_native_code_error": 0.0,
+    "vector_native_max": 0.015625,
+    "full_native_max": 0.0,
+    "manual_vector_max": 0.0
+  },
+  {
+    "condition": "mention",
+    "old_native_max": 0.015625,
+    "old_native_allclose": false,
+    "old_native_argmax": true,
+    "old_native_code_error": 0.0,
+    "vector_native_max": 0.015625,
+    "full_native_max": 0.0,
+    "manual_vector_max": 0.0
+  }
+]

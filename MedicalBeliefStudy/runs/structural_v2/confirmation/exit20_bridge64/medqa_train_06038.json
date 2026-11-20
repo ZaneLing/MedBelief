@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_06038",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cystoid sclerosis\"}",
+      "generated_disease": "Cystoid sclerosis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "fc2b63f3d22b15d4956b5082fcfd3de1172fb9f9730c08fbc831e4ebefac734b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystoid sclerosis\"}",
+      "generated_disease": "Cystoid sclerosis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "cfddd32fa60bd8afeea2234d0d911b5902c6dc886de2ef54f11df714c953d180"
+    }
+  ]
+}

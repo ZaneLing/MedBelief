@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_e4c8da76-780b-4dc9-9495-4f3b378c30d9",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Fat embolism infarction of the testes in a patient with undescended testes\"]",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 21,
+      "prompt_sha256": "ce80cff71a8213aa4fa02f0ba516f174bb29a6846610fc78ca27935edc02ab77"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Fat embolism disease process\"}",
+      "generated_disease": "Fat embolism disease process",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "b3bd70e8b001f8e1d0563980731d490b109c07c2253ba774cddf98ab336336c7"
+    }
+  ]
+}

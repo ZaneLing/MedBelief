@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_04681",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Anxiety\"}",
+      "generated_disease": "Anxiety",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "b800bdb63f82ffdc54e550eefadfb71f4b462093c1d07af885d1bf2d8279d4e3"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Anxiety\"}",
+      "generated_disease": "Anxiety",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "4dc94bcdb6938bed12d44e71af5557921817c9ec7ce7406d038f739e5615e90c"
+    }
+  ]
+}

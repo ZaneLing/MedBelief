@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_d55d4fdd-1aaa-4522-acd9-b73d04ed6ca4",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Schorst-Wells syndrome orients to be an example of an large-scale systemic disorder involving multiple components of the system. However, in this case, the primary focus focus is an specific specificral subpracentoid stress out of an pariposterior region. Therefore, an direct directyystosentecual",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "e818b0bf618aad7a5d7834a8f661ba9f00efe225faae3d55c514df3343e92c0c"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Treaty of warphilottungia\"}\"}Note: The final output should be an valid validness of an valid and validness of an valid and/or validness of an . However, an actual valid and/or an valid and/or an valid and/or an . Therefore, an appropriate response is:\n\n```json",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "85ebda929e3d690543336b95055954045b19782c46ab0419a6e94b7befc31320"
+    }
+  ]
+}

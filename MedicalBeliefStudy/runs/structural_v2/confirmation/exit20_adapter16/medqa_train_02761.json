@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_02761",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Bemphiliasenystic disorder\"} (Note: This is an example of an non-linear and non-standard phissemaracotaxia of an actual real-world scenario. actual real-world actual real-life real-life real-life real-life phesentilentososentecosarovem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "496639128ee970a460a89172cab083bcdc8f54c6da0a53fa53f49cd15fbb569f"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Bemphilisphyogroupingservententosogroupingslipperthypsemosogemphilisheemenservaricusenteccherothocemphilisheemenservaripohemiliasenemphilisheemensig",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "e5771cb1240555ff125dd2f536d7e688dcf4a7f585e286db4924e5b590e1b57b"
+    }
+  ]
+}

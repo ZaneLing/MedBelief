@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/lingziyang/Desktop/Seq/MedicalBeliefStudy/src/phase49_history_routes.py", line 64, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/lingziyang/Desktop/Seq/MedicalBeliefStudy/src/phase49_history_routes.py", line 50, in main
+    native=model(mx.array([e['ids']]))[0,-1].astype(mx.float32);mx.eval(native);check=dict(allclose=bool(np.allclose(np.array(native),np.array(z),atol=1e-3,rtol=1e-3)),same_argmax=int(mx.argmax(native).item())==int(mx.argmax(z).item()));assert check['allclose'] and check['same_argmax']
+                                                                                                                                                                                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

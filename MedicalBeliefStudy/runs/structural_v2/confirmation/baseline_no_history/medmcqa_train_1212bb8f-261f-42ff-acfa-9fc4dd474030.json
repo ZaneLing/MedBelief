@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_1212bb8f-261f-42ff-acfa-9fc4dd474030",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Hiatus hernia\"}",
+      "generated_disease": "Hiatus hernia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "36eb272b6d5fab0aa25939e409de28b969380e3ad5f248ae5708edf249a991cc"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "case_id": "medmcqa_train_f1497481-84e7-4d22-a89d-e197c7b6fc6e",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Dermatitis herpetiformis\"}",
+      "generated_disease": "Dermatitis herpetiformis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "afac4a617eb0e0c9df0baefffafc7c61b85063873555035b1b92dedba7936fd9"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Dermatitis herpetiformis\"}",
+      "generated_disease": "Dermatitis herpetiformis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "832dd95b840ad83205e2e9e7e1021fbd1770e79b237a7055acaf2874fd1d5013"
+    }
+  ]
+}

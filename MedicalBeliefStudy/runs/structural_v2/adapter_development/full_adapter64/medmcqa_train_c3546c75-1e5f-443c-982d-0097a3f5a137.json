@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_c3546c75-1e5f-443c-982d-0097a3f5a137",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter64",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter64/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 64
+  },
+  "parameter_stats": {
+    "parameters": 1720839232,
+    "weight_bytes": 3442206976,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "DM type II\"}",
+      "generated_disease": "DM type II",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "b8281e2f899d071fb4f5e858060abd85978047d5ab27548704238b9cba125a13"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "MODY\"}",
+      "generated_disease": "MODY",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "677f5a9136d4006889823dacd233093c0b31bed8e7307ac1422308d30258462e"
+    }
+  ]
+}

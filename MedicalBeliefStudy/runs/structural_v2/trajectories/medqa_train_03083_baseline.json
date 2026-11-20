@@ -1,0 +1,630 @@
+{
+  "case_id": "medqa_train_03083",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": false,
+      "listed": false,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.9668426513671875,
+        -14.59222412109375,
+        -3.623199462890625,
+        -2.1230392456054688
+      ],
+      "q_sequence": [
+        0.7220813578471167,
+        8.732893155553508e-07,
+        0.05069265381949313,
+        0.2272251150440745
+      ],
+      "q_token_mean": [
+        0.36934470419154636,
+        0.05273330864982513,
+        0.25271208106459253,
+        0.325209906094036
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Undetermined\"}",
+      "generated_disease": "Undetermined",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "6f11f6f1610fe31470decd6ead42d753d53913ebf8573b75f0db13d1ba68cb4c"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -5.037927627563477,
+        -22.554668426513672,
+        -9.662975311279297,
+        -0.00664520263671875
+      ],
+      "q_sequence": [
+        0.006487647944057933,
+        1.6020032938323495e-10,
+        6.359962969842831e-05,
+        0.9934487522660433
+      ],
+      "q_token_mean": [
+        0.2739360177256099,
+        0.022432325571667293,
+        0.14148213709398103,
+        0.5621495196087418
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Juvenile dermatomyositis\"}",
+      "generated_disease": "Juvenile dermatomyositis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "fb6ea58a6fa6345e096b76a9fe40c2e7a74f945bb9566709e1e9dc27599da199"
+    },
+    {
+      "condition": "neutral",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -3.500955581665039,
+        -20.158172607421875,
+        -6.626087188720703,
+        -0.03220367431640625
+      ],
+      "q_sequence": [
+        0.030174478755316876,
+        1.7599581405422326e-09,
+        0.0013255996004523972,
+        0.9684999198842725
+      ],
+      "q_token_mean": [
+        0.29631326324304835,
+        0.027434868688215684,
+        0.18961009726631592,
+        0.48664177080241994
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Juvenile dermatomyositis\"}",
+      "generated_disease": "Juvenile dermatomyositis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "730f9ac523ff5a5afaa1bc25cf3a9ae799e26d99f707958424bdac6e70bac22d"
+    },
+    {
+      "condition": "neutral",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.15640830993652344,
+        -20.188518524169922,
+        -7.281517028808594,
+        -1.9376640319824219
+      ],
+      "q_sequence": [
+        0.8552628683611807,
+        1.7071225157495786e-09,
+        0.000688183439909499,
+        0.14404894649178723
+      ],
+      "q_token_mean": [
+        0.4502150794024717,
+        0.025738692184741344,
+        0.16269100854490243,
+        0.36135521986788455
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Spinal muscular atrophy\"}",
+      "generated_disease": "Spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ac65c233d100047dca9d0c1932865bb75a8b5b5804a53cf85fb0405b9a80b18f"
+    },
+    {
+      "condition": "neutral",
+      "round": 5,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -1.5441646575927734,
+        -18.185752868652344,
+        -4.044261932373047,
+        -0.2629127502441406
+      ],
+      "q_sequence": [
+        0.2135281950251134,
+        1.2650430318423727e-08,
+        0.01752575669774773,
+        0.7689460356267086
+      ],
+      "q_token_mean": [
+        0.33344827375894887,
+        0.03094210902184511,
+        0.23330135771342447,
+        0.4023082595057814
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Juvenile dermatomyositis\"}",
+      "generated_disease": "Juvenile dermatomyositis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "2918f18633b64193620475911256f38e9455781ff7d01e2d9f1cff825b687454"
+    },
+    {
+      "condition": "neutral",
+      "round": 6,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.16912460327148438,
+        -16.04705810546875,
+        -1.8879661560058594,
+        -5.481601715087891
+      ],
+      "q_sequence": [
+        0.8444494305220361,
+        1.073679702760155e-07,
+        0.15138757961543328,
+        0.004162882494560283
+      ],
+      "q_token_mean": [
+        0.4163058938671909,
+        0.04308367250910368,
+        0.32566574021742334,
+        0.214944693406282
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Spinal muscular atrophy\"}",
+      "generated_disease": "Spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ca47ee22a77d9895ec27fdaf28778c86357efc0c79423ad7dc99849ba12f5a12"
+    },
+    {
+      "condition": "neutral",
+      "round": 7,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.01558685302734375,
+        -17.723037719726562,
+        -4.171955108642578,
+        -10.85934829711914
+      ],
+      "q_sequence": [
+        0.9845582959069514,
+        2.0090615215121908e-08,
+        0.015422459474794648,
+        1.922452763879331e-05
+      ],
+      "q_token_mean": [
+        0.5291484132181682,
+        0.042166796928075644,
+        0.292218571016923,
+        0.13646621883683316
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Spinal muscular atrophy\"}",
+      "generated_disease": "Spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "3f038d4afc8b3cfaab8a24735c9e1bddc8a30ad3b679cbd29f986c68cf0efeda"
+    },
+    {
+      "condition": "neutral",
+      "round": 8,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.00811767578125,
+        -18.32410430908203,
+        -4.820743560791016,
+        -14.476909637451172
+      ],
+      "q_sequence": [
+        0.9919384922056254,
+        1.1014196440415472e-08,
+        0.008060980639325876,
+        5.161408523134937e-07
+      ],
+      "q_token_mean": [
+        0.5747843557454142,
+        0.041989744837177705,
+        0.2890145270319481,
+        0.09421137238545997
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Spinal muscular atrophy\"}",
+      "generated_disease": "Spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "cc6369e4b28368330d75342388ec0a5cb5350f4649505f31478607b852b2a6e8"
+    },
+    {
+      "condition": "neutral",
+      "round": 9,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.00162506103515625,
+        -18.160301208496094,
+        -6.439247131347656,
+        -13.564140319824219
+      ],
+      "q_sequence": [
+        0.998401052514471,
+        1.2974546314573716e-08,
+        0.0015976486930080482,
+        1.2858179746882651e-06
+      ],
+      "q_token_mean": [
+        0.6035313982620379,
+        0.04509184788030852,
+        0.2406004732199883,
+        0.1107762806376654
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Spinal muscular atrophy\"}",
+      "generated_disease": "Spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "7cc72137861157dd5446a83b13ef6205b680e0cee81e3d9737d80077f6e05c1f"
+    },
+    {
+      "condition": "neutral",
+      "round": 10,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.004791259765625,
+        -18.400272369384766,
+        -5.348644256591797,
+        -13.348567962646484
+      ],
+      "q_sequence": [
+        0.9952436897859382,
+        1.0206421386199364e-08,
+        0.004754704860157783,
+        1.5951474827418165e-06
+      ],
+      "q_token_mean": [
+        0.5790558987750647,
+        0.04182411737174977,
+        0.2698837863974935,
+        0.10923619745569194
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Spinal muscular atrophy\"}",
+      "generated_disease": "Spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "256242bc1dc6d66c1c91257fb0dd89411d8545e681f333161ce81cef47ea4d8d"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.0007476806640625,
+        -22.09532928466797,
+        -7.250831604003906,
+        -14.281986236572266
+      ],
+      "q_sequence": [
+        0.9992897620735377,
+        2.535925947590347e-10,
+        0.0007096104406800128,
+        6.272321898195234e-07
+      ],
+      "q_token_mean": [
+        0.63884623966777,
+        0.027202122364168132,
+        0.22677028033081892,
+        0.10718135763724297
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Spinal muscular atrophy\"}",
+      "generated_disease": "Spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "51a9690a0bb1647858e686fa36e16e86b05f63d6a7816ff50729079532afacea"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -1.52587890625e-05,
+        -27.657581329345703,
+        -12.812629699707031,
+        -13.187545776367188
+      ],
+      "q_sequence": [
+        0.9999954000327744,
+        9.737997863752182e-13,
+        2.7261531613254297e-06,
+        1.8738130901752867e-06
+      ],
+      "q_token_mean": [
+        0.7288963866969463,
+        0.014019521117885066,
+        0.11688120763070808,
+        0.14020288455446034
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Spinal muscular atrophy\"}",
+      "generated_disease": "Spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "2f60662fc219f8d6d70b38e9615d65d73c5264bd8d6664724f1f51cd8dfe7b4b"
+    },
+    {
+      "condition": "wrong",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.001373291015625,
+        -24.409740447998047,
+        -6.626537322998047,
+        -10.157638549804688
+      ],
+      "q_sequence": [
+        0.9986364668963037,
+        2.5060414644118943e-11,
+        0.001324754002139542,
+        3.8779076496314284e-05
+      ],
+      "q_token_mean": [
+        0.5883458544475999,
+        0.018000605009413414,
+        0.22834621367328922,
+        0.16530732686969749
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Spinal muscular atrophy\"}",
+      "generated_disease": "Spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "4ab14a5d8d50027fb1fd5ecdd95966e7043cc9e1ac9fa42289d8308d8f5fb4d7"
+    },
+    {
+      "condition": "wrong",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.03691864013671875,
+        -22.335193634033203,
+        -3.3183326721191406,
+        -11.474430084228516
+      ],
+      "q_sequence": [
+        0.9637756532396845,
+        1.995070124267099e-10,
+        0.036213953873893354,
+        1.0392686915121843e-05
+      ],
+      "q_token_mean": [
+        0.5244747503978803,
+        0.021691694168809967,
+        0.3282002213883932,
+        0.12563333404491644
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Spinal muscular atrophy\"}",
+      "generated_disease": "Spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "59f42c20c9882902b600dfc051db56cfaecca804e8f02c10a0f9c4702c427fea"
+    },
+    {
+      "condition": "wrong",
+      "round": 5,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.06998443603515625,
+        -21.821388244628906,
+        -2.6951332092285156,
+        -10.257503509521484
+      ],
+      "q_sequence": [
+        0.9324299544502472,
+        3.335044008358622e-10,
+        0.06753495121405034,
+        3.509400219802323e-05
+      ],
+      "q_token_mean": [
+        0.4969656520847605,
+        0.022224105030322867,
+        0.34155190541841296,
+        0.1392583374665037
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Spinal muscular atrophy\"}",
+      "generated_disease": "Spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "5c0574ed9b710523bc7babe56c171f6031393d43a2cadac56c7279fc4a155114"
+    },
+    {
+      "condition": "wrong",
+      "round": 6,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -7.719215393066406,
+        -21.572097778320312,
+        -0.0005950927734375,
+        -16.31298828125
+      ],
+      "q_sequence": [
+        0.00044427591529417584,
+        4.279789332436921e-10,
+        0.9995556413520289,
+        8.230469809645304e-08
+      ],
+      "q_token_mean": [
+        0.2201468423090608,
+        0.030426428547248523,
+        0.6631192456043166,
+        0.08630748353937401
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Myotonic dystrophy\"}",
+      "generated_disease": "Myotonic dystrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "7ae555defbe04d4461cd66493655b7cd00fd929c6928133bceb4522774811ca9"
+    },
+    {
+      "condition": "wrong",
+      "round": 7,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -8.531471252441406,
+        -20.93537139892578,
+        -0.000335693359375,
+        -18.92245101928711
+      ],
+      "q_sequence": [
+        0.0001971919816997098,
+        8.089913235306637e-10,
+        0.9998028011538918,
+        6.055417299071321e-09
+      ],
+      "q_token_mean": [
+        0.2053120280379268,
+        0.03490203631756482,
+        0.694550282946183,
+        0.06523565269832532
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Myotonic dystrophy\"}",
+      "generated_disease": "Myotonic dystrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "0226b7cd076d3ba6aa0b333e31060a959ed67b99aa4c3aafe5292758dd4fd0c4"
+    },
+    {
+      "condition": "wrong",
+      "round": 8,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.0789031982421875,
+        -18.129398345947266,
+        -2.579010009765625,
+        -17.751319885253906
+      ],
+      "q_sequence": [
+        0.9241492771086817,
+        1.3381712340997286e-08,
+        0.07585068997929839,
+        1.953030740402211e-08
+      ],
+      "q_token_mean": [
+        0.5303637683908217,
+        0.04024239180859664,
+        0.3710753013588934,
+        0.05831853844168836
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Spinal muscular atrophy\"}",
+      "generated_disease": "Spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "cfcb5343562acbbba5b664b0c371c926e08d412fbd5f64bf90de0a310aa741cc"
+    },
+    {
+      "condition": "wrong",
+      "round": 9,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.16024398803710938,
+        -17.384010314941406,
+        -1.91033935546875,
+        -16.723085403442383
+      ],
+      "q_sequence": [
+        0.8519647596345385,
+        2.8199081178838794e-08,
+        0.14803515755652832,
+        5.460985203099414e-08
+      ],
+      "q_token_mean": [
+        0.5023405026504588,
+        0.04289435083894988,
+        0.39121784687617184,
+        0.06354729963441956
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Spinal muscular atrophy\"}",
+      "generated_disease": "Spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "5cf8757f6a876cfb33dc33b8d040fe71047f42ef209ad66ca85171680a85ed8b"
+    },
+    {
+      "condition": "wrong",
+      "round": 10,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -1.9102439880371094,
+        -17.859169006347656,
+        -0.16034317016601562,
+        -17.051734924316406
+      ],
+      "q_sequence": [
+        0.1480596998160801,
+        1.7535039026407477e-08,
+        0.8519402433327381,
+        3.9316142738793874e-08
+      ],
+      "q_token_mean": [
+        0.39333717829520765,
+        0.040295884587127295,
+        0.5050477782494673,
+        0.06131915886819776
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Myotonic dystrophy\"}",
+      "generated_disease": "Myotonic dystrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "7941ed457db5adf9bdfa25ceece46914976bd664b730503894cf113f8aa5e378"
+    }
+  ],
+  "state_sha256": "afbb392c84eaaabaea90482d91fc33e48ab7855e57a0de7801256e462241643d"
+}

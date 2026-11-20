@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_734346a9-37b8-4e9d-b3b7-2dc4ba9b7c9d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxiauteuricentericotaxia\"} (Note: This is an error correction and/or an error in the original systematics. actual correct answer is typically either \"Essavaricotaxia or \"Acapiformia or \"Trabegatifemia etc. However, based",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "cbe861daf23d2a5a194f6299bfb5bcab6960660f85f17e90c9f339a282385f07"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic longening of the body's ability to absorb anabolic proteins in an large-scale systemic process involving multiple components of the system. In an typical normal normal normal...............Trilaxan is an aortic blood pressure reduction and an paracyclic region of the body's natural acumen in an",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "843dfc28420c9025577b349c2f4e17aba828c93513666233bc7430c4ee4137be"
+    }
+  ]
+}

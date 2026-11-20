@@ -1,0 +1,34 @@
+{
+  "case_id": "medmcqa_train_92cc1ee7-4daf-4c2c-ae27-c8d5964f7a9a",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Follicular bronchitis\"}",
+      "generated_disease": "Follicular bronchitis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "2b55d7d7270d64aea933b3d70df4f1be79d3f81b3165c44022659fd434e72676"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Bronchiolitis obliterans\"}",
+      "generated_disease": "Bronchiolitis obliterans",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "d7a76b907e8f9e4d2c731727f192cf4aea598211fdc08c98a608f85e7bccc434"
+    }
+  ]
+}

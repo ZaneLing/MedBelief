@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_02129",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Analgesic nephropathy\"}",
+      "generated_disease": "Analgesic nephropathy",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "1eb97805aad7f09c44fc130a72c0860ea3987afc098dbe5acd73cc1d4c86b654"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Bladder cancer\"}",
+      "generated_disease": "Bladder cancer",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "4931a98820732df5f8336414a86f3b8091cb33e4e881bbc90f90d296ced51bd5"
+    }
+  ]
+}

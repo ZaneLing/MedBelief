@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_01322",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Treatable, nontrilaxia, nontrocovex, nontrivotal, nontrivotal, nontrumaric, nontrumaric, nontrumarous, nontrumarum, nontrumarum, nontrumarum, nontr",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "19657a5bfb642551e982c2cc2fc62603578229341b5a1c3a85d4a1c804c8e4cd"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Primary longening of an unilinearity of an unusual pathogen or an unusual pathogen in an nontrilaxophornic or a nontraxerous or a nontrumaxenous or a nontrumaxoornal or a nontrumaxonematic or",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "532c51bea3856300a3860c85e4e93e9a9753006ff219ec25ccbbbd4c4ea5d9c5"
+    }
+  ]
+}

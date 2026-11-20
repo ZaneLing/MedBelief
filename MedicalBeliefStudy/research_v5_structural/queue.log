@@ -1,0 +1,16 @@
+Starting phase71_structural_localization.py 
+Completed phase71_structural_localization.py
+Starting phase72_structural_training_data.py 
+Completed phase72_structural_training_data.py
+Starting phase73_structural_fit.py 
+Completed phase73_structural_fit.py
+Starting phase74_structural_evaluate.py --split tune
+Completed phase74_structural_evaluate.py
+Starting phase75_structural_select.py 
+Completed phase75_structural_select.py
+Starting phase74_structural_evaluate.py --split test
+Completed phase74_structural_evaluate.py
+Starting phase76_structural_generation.py 
+Completed phase76_structural_generation.py
+Starting phase78_structural_timing.py 
+Completed phase78_structural_timing.py

@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-18",
+  "source_sha256": "a759eaa15a42ddc8f2dab39997799bd8ed2b5f163b8064a597000129d16a57c5",
+  "data_sha256": "888d8f4d97b374c73ee96faf026c396944d2aa0accb14b509d556817afb1f628",
+  "outputs_seen": false,
+  "records": 64,
+  "families": 8,
+  "motivation": "In 2A/2B, relevant-report unusability is confounded with the correct answer being insufficient. Add a usable backup report so R1 eligibility varies while the correct medical answer is held fixed.",
+  "design": "2 domains x 4 new numerical families x 2 numerical directions x 2 R1 eligibility states x 2 backup availability states. Backup and R1 numeric directions agree. This is an explicit-rule measurement control, not a naturalistic clinical test.",
+  "readout": "Train R1 usability readout on all 2A primary families. Fix C=1 and scaling on 2A. All 36 layers. Text control parameters inherited from 2A training-family CV. Evaluate no-backup and backup strata separately; no tuning on 2C.",
+  "interpretation": "Generalization to R1 status independent of final answer would strengthen the measurement; failure cannot prove the model lacks the status concept. No causal intervention and no medical-belief claim from this control alone.",
+  "sampling": {
+    "seed": 20261118,
+    "max_tokens": 2048,
+    "batch_size": 16,
+    "paired_random_streams": true
+  },
+  "api_cost_usd": 0,
+  "clinical_review_required": false,
+  "readout_source_sha256": "85fc8f478224b47c656ef735c9f4b84e64bb3da3b9900585ac502a7421935f6e",
+  "secondary_control": "Repeat with only 2A current-only histories as training data; C remains 1. No phase2C parameter tuning."
+}

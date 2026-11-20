@@ -1,0 +1,97 @@
+{
+  "dataset": "ddxplus-en (figshare schema, HF csv mirror aai530-group6/ddxplus)",
+  "license": "CC-BY-4.0",
+  "schema_hash": "183fc3b4cb5e4ff5",
+  "total_atoms": 972,
+  "n_questions": 209,
+  "n_diseases": 49,
+  "disease_order": [
+    "Acute COPD exacerbation / infection",
+    "Acute dystonic reactions",
+    "Acute laryngitis",
+    "Acute otitis media",
+    "Acute pulmonary edema",
+    "Acute rhinosinusitis",
+    "Allergic sinusitis",
+    "Anaphylaxis",
+    "Anemia",
+    "Atrial fibrillation",
+    "Boerhaave",
+    "Bronchiectasis",
+    "Bronchiolitis",
+    "Bronchitis",
+    "Bronchospasm / acute asthma exacerbation",
+    "Chagas",
+    "Chronic rhinosinusitis",
+    "Cluster headache",
+    "Croup",
+    "Ebola",
+    "Epiglottitis",
+    "GERD",
+    "Guillain-Barr\u00e9 syndrome",
+    "HIV (initial infection)",
+    "Influenza",
+    "Inguinal hernia",
+    "Larygospasm",
+    "Localized edema",
+    "Myasthenia gravis",
+    "Myocarditis",
+    "PSVT",
+    "Pancreatic neoplasm",
+    "Panic attack",
+    "Pericarditis",
+    "Pneumonia",
+    "Possible NSTEMI / STEMI",
+    "Pulmonary embolism",
+    "Pulmonary neoplasm",
+    "SLE",
+    "Sarcoidosis",
+    "Scombroid food poisoning",
+    "Spontaneous pneumothorax",
+    "Spontaneous rib fracture",
+    "Stable angina",
+    "Tuberculosis",
+    "URTI",
+    "Unstable angina",
+    "Viral pharyngitis",
+    "Whooping cough"
+  ],
+  "created": "2026-10-13T11:41:00",
+  "raw_sha256": {
+    "release_evidences.json": "281c78b044ae60514e28ecc9052d08a8225dd3e2db3f00f8788b99c47b05e0c0",
+    "release_conditions.json": "61e16706a2ab78efb997bab8a865c83b46151b10b0377b63530745f1e18e71a8",
+    "train.csv": "93933e9a9a7a00d618a931deda7767485af299fe4635bf189a7c63b510e8b172",
+    "validate.csv": "b84733533bff01daa1d47d27a0cd4d684bb54a0fc20d80aaee1250ff8ff989ed",
+    "test.csv": "f7ac3eae934c85780fc9b109a6cac5771540619a02690bee6fc0ab402baec186"
+  },
+  "splits": {
+    "fit": {
+      "source": "train",
+      "n": 30000,
+      "path": "data/processed/fit.npz"
+    },
+    "discovery": {
+      "source": "train",
+      "n": 4000,
+      "path": "data/processed/discovery.npz"
+    },
+    "registration": {
+      "source": "train",
+      "n": 2629,
+      "path": "data/processed/registration.npz"
+    },
+    "validate": {
+      "source": "validate",
+      "n": 6000,
+      "path": "data/processed/validate.npz"
+    },
+    "test": {
+      "source": "test",
+      "n": 3000,
+      "path": "data/processed/test.npz",
+      "blind": true
+    }
+  },
+  "n_train_rows_seen": 1025602,
+  "elapsed_sec": 8.6
+}

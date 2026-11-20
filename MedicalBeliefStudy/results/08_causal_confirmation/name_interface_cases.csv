@@ -1,0 +1,34 @@
+case_id,gold,code_top,name_top,length_mean_top,free_text,free_stop,free_exact_canonical_match,code_correct,name_correct,token_mean_correct,code_name_agreement,name_length_agreement,free_exact_label_match
+ddx_validate_0000493,Pulmonary embolism,Boerhaave,Pulmonary embolism,Spontaneous pneumothorax, **Acute myocardial infarction (AMI)**.,eos,,False,True,False,False,False,False
+ddx_validate_0006948,URTI,Myasthenia gravis,Cluster headache,Myasthenia gravis, **Muscle pain with sore throat**.,eos,,False,False,False,False,False,False
+ddx_validate_0021109,Guillain-Barré syndrome,Cluster headache,Guillain-Barré syndrome,Guillain-Barré syndrome, **Multiple sclerosis (MS)**.,eos,,False,True,True,False,True,False
+ddx_validate_0021192,Atrial fibrillation,Pericarditis,Unstable angina,Unstable angina, **Atrial Fibrillation with Heart Failure**.,eos,,False,False,False,False,True,False
+ddx_validate_0024213,Acute otitis media,Acute otitis media,Acute otitis media,Acute otitis media, **Acute otitis media**.,eos,Acute otitis media,True,True,True,True,True,True
+ddx_validate_0025292,Spontaneous pneumothorax,Acute otitis media,Pulmonary embolism,Spontaneous pneumothorax, **Pneumothorax**.,eos,,False,False,True,False,False,False
+ddx_validate_0027808,GERD,Boerhaave,Spontaneous pneumothorax,Spontaneous pneumothorax, **Gastroesophageal Reflux Disease (GERD)**.,eos,,False,False,False,False,True,False
+ddx_validate_0029473,Cluster headache,Scombroid food poisoning,Cluster headache,Cluster headache, **Cluster headache**.,eos,Cluster headache,False,True,True,False,True,True
+ddx_validate_0030584,SLE,Anaphylaxis,Sarcoidosis,Sarcoidosis, **Erythema multiforme**.,eos,,False,False,False,False,True,False
+ddx_validate_0036829,Myasthenia gravis,Localized edema,Myasthenia gravis,Myasthenia gravis, **Multiple sclerosis (MS)**.,eos,,False,True,True,False,True,False
+ddx_validate_0038557,Bronchitis,Acute COPD exacerbation / infection,Pneumonia,Pneumonia, **Acute Bronchitis**.,eos,,False,False,False,False,True,False
+ddx_validate_0049731,GERD,Tuberculosis,Pulmonary embolism,Spontaneous pneumothorax, Gastroesophageal Reflux Disease (GERD) with upper abdominal pain and associated symptoms.,eos,,False,False,False,False,False,False
+ddx_validate_0054038,Viral pharyngitis,Acute laryngitis,Epiglottitis,Viral pharyngitis, Tonsillitis.,eos,,False,False,True,False,False,False
+ddx_validate_0070577,GERD,Boerhaave,Pulmonary embolism,Spontaneous pneumothorax," **Gastroesophageal Reflux Disease (GERD)**
+
+**Explanation**: The patient has multiple features consistent with GERD:
+- **Burning sensation starting in the stomach and going up into the throat** (E_213).
+- **Epigastric pain** (E_215",max_tokens,,False,False,False,False,False,False
+ddx_validate_0077267,Guillain-Barré syndrome,Acute laryngitis,Guillain-Barré syndrome,Guillain-Barré syndrome, **Multiple sclerosis (MS)**.,eos,,False,True,True,False,True,False
+ddx_validate_0081578,Bronchitis,Bronchospasm / acute asthma exacerbation,Pneumonia,Pneumonia, **Pneumonia**.,eos,Pneumonia,False,False,False,False,True,False
+ddx_validate_0082663,Anemia,Boerhaave,Pulmonary embolism,Spontaneous pneumothorax, **Deep vein thrombosis (DVT)**.,eos,,False,False,False,False,False,False
+ddx_validate_0083651,HIV (initial infection),Cluster headache,Sarcoidosis,Spontaneous pneumothorax," **Lymphadenopathy with systemic symptoms** (based on fever, fatigue, swollen lymph nodes, and generalized muscle pain).",eos,,False,False,False,False,False,False
+ddx_validate_0086034,Acute dystonic reactions,Cluster headache,Myasthenia gravis,Myasthenia gravis, **Essential Tremor**.,eos,,False,False,False,False,True,False
+ddx_validate_0088111,Anemia,Acute pulmonary edema,Pulmonary embolism,Spontaneous pneumothorax," **Pregnancy-related syndrome with systemic symptoms**.
+
+**Explanation**: The patient presents with multiple systemic symptoms consistent with pregnancy, including:
+
+- **Pain** (back of head, temple) and **dizziness** (lightheadedness, feeling like about to faint).
+- **Fatigue** (so",max_tokens,,False,False,False,False,False,False
+ddx_validate_0090190,Viral pharyngitis,Acute otitis media,Viral pharyngitis,Viral pharyngitis, Pharyngitis.,eos,,False,True,True,False,True,False
+ddx_validate_0100269,Acute otitis media,Larygospasm,Acute otitis media,Acute otitis media, Otitis externa (external otitis) with acute ear infection.,eos,,False,True,True,False,True,False
+ddx_validate_0103610,GERD,Tuberculosis,Sarcoidosis,Spontaneous pneumothorax, Gastroesophageal Reflux Disease (GERD) with chronic symptoms.,eos,,False,False,False,False,False,False
+ddx_validate_0114238,Acute otitis media,Pericarditis,Acute rhinosinusitis,Acute rhinosinusitis, Acute appendicitis.,eos,,False,False,False,False,True,False

@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_07728",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Tneacturacotaxophesparicotarum\"} (Note: This is an example placeholder for example purposes. actual real-world phissemarneys would be anarcicotaxophodemilaxenemotetaxophilous or other relevant phis",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "102e1ac22c2d4fad117664527b883b240fb37e3261c03af50710b16b00143135"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Tneacturacotarobaracobemphilis\"} (Note: This is an error error in the original text. actual correct answer is typically a specific specific phisocotemphilis or other specific anrobaxenemphilaxenemphirum etc. However",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "a6eac3af39af78b00492d0ff432b97d74c4369f70b658cb7878defbc0b32d287"
+    }
+  ]
+}

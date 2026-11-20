@@ -1,0 +1,40 @@
+{
+  "case_id": "medmcqa_train_e20b8e6c-221c-4b87-9876-378740bb8cea",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "drop_tail4_keep28",
+    "drop_blocks": [
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1519230976,
+    "weight_bytes": 3038461952,
+    "layers": 24
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "津皮瘤же\"} ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "1128d30ea8b35c6024c65290a95bbf22b65cb1a9759cadb218c028668f9e920b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Dysgerminoma」「,...\n\n⚠️ 注意可能會發生誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤誤",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "1c8d9205bfd7a5cdfb7c776a73ab52551447a1d6c682175ec71f54d417447553"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "dxy": {
+    "threshold": 0.8361966468112226,
+    "total": 104,
+    "ungated_correct": 83,
+    "ungated_accuracy": 0.7980769230769231,
+    "accepted": 60,
+    "accepted_correct": 58,
+    "selective_accuracy": 0.9666666666666667,
+    "abstained": 44,
+    "abstained_argmax_correct": 25,
+    "abstained_argmax_accuracy": 0.5681818181818182,
+    "coverage": 0.5769230769230769
+  },
+  "mz4": {
+    "threshold": 0.9345164228107661,
+    "total": 345,
+    "ungated_correct": 256,
+    "ungated_accuracy": 0.7420289855072464,
+    "accepted": 68,
+    "accepted_correct": 63,
+    "selective_accuracy": 0.9264705882352942,
+    "abstained": 277,
+    "abstained_argmax_correct": 193,
+    "abstained_argmax_accuracy": 0.6967509025270758,
+    "coverage": 0.19710144927536233
+  },
+  "mz10": {
+    "threshold": 0.9607167589748332,
+    "total": 811,
+    "ungated_correct": 523,
+    "ungated_accuracy": 0.6448828606658447,
+    "accepted": 108,
+    "accepted_correct": 102,
+    "selective_accuracy": 0.9444444444444444,
+    "abstained": 703,
+    "abstained_argmax_correct": 421,
+    "abstained_argmax_accuracy": 0.5988620199146515,
+    "coverage": 0.13316892725030827
+  }
+}

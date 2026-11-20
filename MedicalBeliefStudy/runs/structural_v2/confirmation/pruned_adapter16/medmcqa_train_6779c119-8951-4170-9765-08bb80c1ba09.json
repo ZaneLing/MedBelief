@@ -1,0 +1,52 @@
+{
+  "case_id": "medmcqa_train_6779c119-8951-4170-9765-08bb80c1ba09",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Ectopic pregnancy\"}",
+      "generated_disease": "Ectopic pregnancy",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "17ed7dbfe6476da8fdda82ba43ee4ef7c65ae01f24d0f410033f5921fdc94bbc"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Ectopic pregnancy\"}",
+      "generated_disease": "Ectopic pregnancy",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "e6b75ea1c216e70e4f238b19cbc9261f632bdd99fb1b21fe802428bbefefd1e1"
+    }
+  ]
+}

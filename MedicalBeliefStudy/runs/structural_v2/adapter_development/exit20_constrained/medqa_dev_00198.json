@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_dev_00198",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_constrained",
+    "exit_layer": 20,
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Glioblastoma multiforme\"}",
+      "generated_disease": "Glioblastoma multiforme",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "4ba082811a030b551063e92bcad0f298a27039e56c7c1df2ae04cae7bd6f3db4"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Glioblastoma multiforme\"}",
+      "generated_disease": "Glioblastoma multiforme",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "e5e48df5378909fcfc0cb9afefa8d2595ce4971bc0715701116e21f6b6eea2c5"
+    }
+  ]
+}

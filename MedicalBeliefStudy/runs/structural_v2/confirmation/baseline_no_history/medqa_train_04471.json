@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_04471",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Primary biliary cholangitis\"}",
+      "generated_disease": "Primary biliary cholangitis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "625bef76104f815abda81f690ca8bb78502963dd91c4ba63e1a5fae27828017d"
+    }
+  ]
+}

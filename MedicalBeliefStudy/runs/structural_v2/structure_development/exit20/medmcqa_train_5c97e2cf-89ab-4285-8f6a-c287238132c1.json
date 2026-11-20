@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_5c97e2cf-89ab-4285-8f6a-c287238132c1",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "100%/%$0000000000000000000000000000000000000000000000000000000000",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "233688b098d480a1901cd7979c029e55fea945bb208fe1c09315f5b3522fb845"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Drybowagefordianityecknowledancelessnessesystematicityservantshipfulnesseservantshipfulnessservinalmentefoematicityeleconiousnessservinalmenteasyingirlservinalmenteasyingewingservinalmenteasyingewings",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "080905ba8c1d3b52906ac11fe602533cdcd6684b0f2a1310b0a82b61ad49ea83"
+    }
+  ]
+}

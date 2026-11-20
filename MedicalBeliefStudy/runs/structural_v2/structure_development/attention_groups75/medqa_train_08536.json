@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_08536",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Congenital rubella syndrome\",\"probability\":\"high\",\"rationale\":\"Congenital rubella exposure is a known teratogen and can cause a spectrum of ocular, cardiac, and central nervous system abnormalities. Rubella infection in utero is a leading cause of congenital cataract, glaucoma,",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "87fed6a4ce29d89f91d91130c75be0b257ae33500706d1330cc5faa27f24d76e"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Toxoplasma gondii encephalopathy\",\"probability\":\"high\"}",
+      "generated_disease": "Toxoplasma gondii encephalopathy",
+      "stop": "eos",
+      "tokens": 17,
+      "prompt_sha256": "56c4d5bcb393f76320c3b744e8d98e22fa33497382e9d31420dd4f65829cbdbb"
+    }
+  ]
+}

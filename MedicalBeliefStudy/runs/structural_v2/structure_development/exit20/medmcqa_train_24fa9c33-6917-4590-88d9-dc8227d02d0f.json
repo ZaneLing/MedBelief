@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_24fa9c33-6917-4590-88d9-dc8227d02d0f",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Dhemmed综合征或phansomal综合征或phanserial综合征等非特定但特定特定nessesensefulnesssualsupportfulservsolutionfulnesssualsontosomosphereousnessesampleandsesultservsontreebockservsontreebocksom",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "8620c579e313f2345ad6640b07f44e34998359604b5ac5516fa64124792f5bd8"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Dhemmed综合征或phans综合征或phans综合征等效代偿机制不存在且无法检测到任何THINGnesssualsystematicallyexceptingradiousnessespacefulnesssualspherefulnesssingservancefulnesssutterancealmenteasyingodnessespressoptionedness",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "d22e7bc771ec5bb4bb2ae54773973446ce2117fefb227f4d405f382c48833ac0"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "case_id": "medmcqa_train_0593c2e0-741a-4350-a5ab-1a610056af6a",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Ganzmann thrombasthenia\"}",
+      "generated_disease": "Ganzmann thrombasthenia",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "bbc7fbbc3e84cc441f43018644f5413d8f474dd3085b2837ec6d303df4219c4f"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Ganzmann thrombasthenia\"}",
+      "generated_disease": "Ganzmann thrombasthenia",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "1dc37ae7ee44ed2a5b70ac5dec844c957fe78417e4df2959280626b9397f9913"
+    }
+  ]
+}

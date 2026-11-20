@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_321414b5-69ae-4151-a6b2-dff1143934af",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic longening of the body and/or individual individual's body, including an increased tendency to stress out and/or stress out in general, and/or an increased stress out in individual individual's own personal life or other external factors such a stress out in other person's life or other external factors such a stress out in other",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "3734879c333cdaa328a8a0960899813bd358e95873c5d560856d764da238dc78"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniform disease of the liver\"}",
+      "generated_disease": "Chronic veniform disease of the liver",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "48e5ff33db05aa03632b8c4d1396674d3a26cdb2736119ed3a0fbc10ce25f2b0"
+    }
+  ]
+}

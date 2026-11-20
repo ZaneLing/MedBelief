@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_f833ae92-b62d-42a6-afa2-85c52960cd4d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Interstinal tuberculosis\"}",
+      "generated_disease": "Interstinal tuberculosis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "5554f249b42c4db3a5903cc6f0938acd4ca4a2d8592f3b3b1355b2a5a6986742"
+    }
+  ]
+}

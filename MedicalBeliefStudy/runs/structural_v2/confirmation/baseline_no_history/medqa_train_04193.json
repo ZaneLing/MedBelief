@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_04193",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Legg-Calve-Perthes disease\"}",
+      "generated_disease": "Legg-Calve-Perthes disease",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "417226d1fd56c5bc2f5df261136d5b2c20f346f1729ee2cf7633459ed8d5fdab"
+    }
+  ]
+}

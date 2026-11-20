@@ -1,0 +1,14 @@
+{
+  "source_sha256": "15fca4429109c11924794b8f8602de59f22988e6e66e9f8bb8fe73fcf91a8a4d",
+  "input_sha256": "76d2ae53f4c5c6f4c404d7fd7b97c67b13039d41936ada3c3552c2096d624fd6",
+  "data_manifest_sha256": "db2b74e34c93263995da47eda41f4115f4c643bfe8fdc17b0b439a5fb3991c83",
+  "model_hashes": {
+    "model-00001-of-00002.safetensors": "169ad53ec313c3a34b06c0809216e4fc072cce444a5d4ff2b59690d064130ed5",
+    "model-00002-of-00002.safetensors": "912becff8d60672aa8628ef08c05898d9adf17c2ad4ae3caf99b065622fdeff9",
+    "config.json": "1ddb5b89ebc90dcb417a45c213d818577e65976454d29385c8f6140771d95197",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+  },
+  "jobs": 954,
+  "api_cost_usd": 0
+}

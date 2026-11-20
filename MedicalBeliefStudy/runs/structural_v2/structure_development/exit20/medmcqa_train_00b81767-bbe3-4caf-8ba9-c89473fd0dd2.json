@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_00b81767-bbe3-4caf-8ba9-c89473fd0dd2",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Dryness syndrome",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "f4097af8008897edacd7858bb01d704a3231e2fbc20093f9261bce0d44dc3cb6"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Dryness syndrome orients;然而无法确定确切名称但根据现有数据推测可能是某种特定类型的变性疾病或特定病症但根据现有数据无法确切确定其确切名称但根据现有数据推测可能是某种特定类型的非传统意义上的特定特定用途的名称但实际实际实际pleasepleasepleasepleasepleasepleaseplease",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "052f916bc554d130136acd6093d512759401f103fd01f2a383170aed2b0e6392"
+    }
+  ]
+}

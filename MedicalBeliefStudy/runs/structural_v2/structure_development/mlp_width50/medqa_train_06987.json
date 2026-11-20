@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_06987",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "mlp_width50",
+    "mlp_keep": 0.5
+  },
+  "parameter_stats": {
+    "parameters": 1192092672,
+    "weight_bytes": 2384185344,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Acute limb ischemia\"}",
+      "generated_disease": "Acute limb ischemia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "5370e6a2ead867ef3d2381f4ac7ed34e27ce09b622bcd419b74d25ec6a6f823a"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Acute limb ischemia\"}",
+      "generated_disease": "Acute limb ischemia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ead38292ec0ce3930211eede5dfaad8ad35d655e3ca5936a587faf28720b99bf"
+    }
+  ]
+}

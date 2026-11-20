@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_05231",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemosa's disease\"}",
+      "generated_disease": "Pemosa's disease",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "bed7108b352b49c44a3bf9c3820e62bfac43ea38942e93746b5a7f3e7094606b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemmythonicia disorder\"} (Note: This is an error correction and/or an error in the original system's response. actual correct answer is \"Schellsberg's disease orphans orphans (non-standard name for certain types of disease. actual correct answer is \"Schellsinger's disease orphans or",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "ed5178c56d0e93c4cbb4d0a5e098fe04d3976c38004846f12451166209571b52"
+    }
+  ]
+}

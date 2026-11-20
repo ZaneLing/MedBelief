@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_06203",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Endometrial carcinoma\"}",
+      "generated_disease": "Endometrial carcinoma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "5e75adea18a9c0fe06d123ef24b5ce1ea5bea75c04ef651d512db5011bb71a20"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Uterine leiomyoma\"}",
+      "generated_disease": "Uterine leiomyoma",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "f09c7c7d0400a461f3133c8146437353a72f3471584e1ab18d58e582bf4b6b9c"
+    }
+  ]
+}

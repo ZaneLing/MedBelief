@@ -1,0 +1,73 @@
+case_id,condition,gold,base_top,changed_top,switched,correct_before,matches_source_after,delta_gold,js,removed_groups,removed_count,same_prompt
+ddx_test_0000299,repeat_middle,Acute dystonic reactions,Acute dystonic reactions,Acute COPD exacerbation / infection,True,True,False,-0.3281829215255734,0.14030564893595665,,0,False
+ddx_test_0000299,remove_middle,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,False,True,True,0.5309491736420044,0.20249262454532607,,0,False
+ddx_test_0000299,omit_named_history,Acute dystonic reactions,Acute dystonic reactions,Bronchiolitis,True,True,False,-0.3940375408962667,0.4007702789005697,E_147,1,False
+ddx_test_0016704,repeat_middle,Acute otitis media,Acute rhinosinusitis,Acute rhinosinusitis,False,False,False,8.54875584923441e-05,4.828648092205182e-05,,0,False
+ddx_test_0016704,remove_middle,Acute otitis media,Acute rhinosinusitis,Acute rhinosinusitis,False,False,False,-1.7076721401514985e-06,0.008279528267184278,,0,False
+ddx_test_0016704,omit_named_history,Acute otitis media,Acute rhinosinusitis,Acute rhinosinusitis,False,False,False,0.0,0.0,,0,True
+ddx_test_0127183,repeat_middle,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,False,True,True,2.5735077633259884e-05,3.448569748673665e-06,,0,False
+ddx_test_0127183,remove_middle,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,False,True,True,3.891929877208877e-05,1.2869710135362447e-05,,0,False
+ddx_test_0127183,omit_named_history,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,False,True,True,3.240330485543286e-05,6.579976243127769e-06,E_105,1,False
+ddx_test_0110051,repeat_middle,Anemia,Anemia,Anemia,False,True,True,-0.0009157824652785695,0.00021776690802528307,,0,False
+ddx_test_0110051,remove_middle,Anemia,Anemia,Anemia,False,True,True,-0.0011960818992480249,0.00029521170710147685,,0,False
+ddx_test_0110051,omit_named_history,Anemia,Anemia,Anemia,False,True,True,-0.016665814733634376,0.0055234445880768136,E_26;E_24,2,False
+ddx_test_0003154,repeat_middle,Atrial fibrillation,Acute pulmonary edema,Acute pulmonary edema,False,False,False,4.300886556274773e-05,0.004881578068878374,,0,False
+ddx_test_0003154,remove_middle,Atrial fibrillation,Acute pulmonary edema,Acute pulmonary edema,False,False,False,-1.4932231356482737e-05,0.024378639987958348,,0,False
+ddx_test_0003154,omit_named_history,Atrial fibrillation,Acute pulmonary edema,Pulmonary embolism,True,False,False,0.05631350210026476,0.4552419607760214,E_31,1,False
+ddx_test_0039512,repeat_middle,Boerhaave,Boerhaave,Boerhaave,False,True,True,7.010607764312837e-07,1.835450939448613e-07,,0,False
+ddx_test_0039512,remove_middle,Boerhaave,Boerhaave,Boerhaave,False,True,True,-4.767134941008333e-05,1.530014875240518e-05,,0,False
+ddx_test_0039512,omit_named_history,Boerhaave,Boerhaave,Boerhaave,False,True,True,0.0,0.0,,0,True
+ddx_test_0101459,repeat_middle,Bronchitis,GERD,GERD,False,False,False,3.7242107958014466e-06,0.0003696901474937589,,0,False
+ddx_test_0101459,remove_middle,Bronchitis,GERD,GERD,False,False,False,-7.546698784269214e-08,6.415691531483866e-06,,0,False
+ddx_test_0101459,omit_named_history,Bronchitis,GERD,GERD,False,False,False,0.0,0.0,,0,True
+ddx_test_0040118,repeat_middle,Bronchospasm / acute asthma exacerbation,Bronchiolitis,Bronchiolitis,False,False,False,-0.07686178732848692,0.10371744483980717,,0,False
+ddx_test_0040118,remove_middle,Bronchospasm / acute asthma exacerbation,Bronchiolitis,Acute rhinosinusitis,True,False,False,-0.256558118399288,0.6811831266973452,,0,False
+ddx_test_0040118,omit_named_history,Bronchospasm / acute asthma exacerbation,Bronchiolitis,Acute rhinosinusitis,True,False,False,-0.2565581002242112,0.6785283748662909,E_46;E_124;E_119;E_85,4,False
+ddx_test_0036753,repeat_middle,Cluster headache,Cluster headache,Cluster headache,False,True,True,-8.274381502193506e-08,1.2721702589267397e-08,,0,False
+ddx_test_0036753,remove_middle,Cluster headache,Cluster headache,Cluster headache,False,True,True,6.679590225378007e-08,1.129009041140629e-08,,0,False
+ddx_test_0036753,omit_named_history,Cluster headache,Cluster headache,Cluster headache,False,True,True,-0.06258159334541491,0.02219403716071103,E_25,1,False
+ddx_test_0042655,repeat_middle,GERD,Boerhaave,GERD,True,False,True,0.9999313206741999,0.692759961871514,,0,False
+ddx_test_0042655,remove_middle,GERD,Boerhaave,GERD,True,False,True,0.4984654722982702,0.6925192744862739,,0,False
+ddx_test_0042655,omit_named_history,GERD,Boerhaave,GERD,True,False,True,0.9933342168880585,0.6929129137229726,E_98;E_124,2,False
+ddx_test_0070101,repeat_middle,Guillain-Barré syndrome,Bronchiolitis,Bronchiolitis,False,False,False,-0.0028353658418958884,0.006116831569319497,,0,False
+ddx_test_0070101,remove_middle,Guillain-Barré syndrome,Bronchiolitis,Bronchiolitis,False,False,False,-0.00463934011446218,0.019551281559416857,,0,False
+ddx_test_0070101,omit_named_history,Guillain-Barré syndrome,Bronchiolitis,Bronchiolitis,False,False,False,0.0,0.0,,0,True
+ddx_test_0123927,repeat_middle,HIV (initial infection),HIV (initial infection),HIV (initial infection),False,True,True,-0.3081345520880183,0.17771671904080125,,0,False
+ddx_test_0123927,remove_middle,HIV (initial infection),HIV (initial infection),HIV (initial infection),False,True,True,-0.187862450604123,0.03200056612313573,,0,False
+ddx_test_0123927,omit_named_history,HIV (initial infection),HIV (initial infection),Acute rhinosinusitis,True,True,False,-0.9159827267132316,0.5439910614716701,E_189,1,False
+ddx_test_0102786,repeat_middle,Inguinal hernia,Acute rhinosinusitis,Localized edema,True,False,False,3.212612365682505e-05,0.3587238818868531,,0,False
+ddx_test_0102786,remove_middle,Inguinal hernia,Acute rhinosinusitis,Acute rhinosinusitis,False,False,False,-2.5141151865615442e-05,0.09161861373087517,,0,False
+ddx_test_0102786,omit_named_history,Inguinal hernia,Acute rhinosinusitis,Acute rhinosinusitis,False,False,False,0.0,0.0,,0,True
+ddx_test_0011169,repeat_middle,Myasthenia gravis,Guillain-Barré syndrome,Guillain-Barré syndrome,False,False,False,0.004789316917493087,0.001200903898818347,,0,False
+ddx_test_0011169,remove_middle,Myasthenia gravis,Guillain-Barré syndrome,Guillain-Barré syndrome,False,False,False,0.018677971296036475,0.0060369010138063076,,0,False
+ddx_test_0011169,omit_named_history,Myasthenia gravis,Guillain-Barré syndrome,Guillain-Barré syndrome,False,False,False,0.0,0.0,,0,True
+ddx_test_0057776,repeat_middle,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,False,True,True,-0.5518172669046985,0.24510522574210575,,0,False
+ddx_test_0057776,remove_middle,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,False,True,True,-0.17228062368020358,0.06373913248402863,,0,False
+ddx_test_0057776,omit_named_history,Pancreatic neoplasm,Pancreatic neoplasm,Acute rhinosinusitis,True,True,False,-0.9999853995709607,0.6930810995306355,E_223,1,False
+ddx_test_0046674,repeat_middle,Pericarditis,Boerhaave,Boerhaave,False,False,False,-3.1213649841977724e-07,0.0038557301905580315,,0,False
+ddx_test_0046674,remove_middle,Pericarditis,Boerhaave,Boerhaave,False,False,False,5.477543864079858e-06,0.0052295309969599855,,0,False
+ddx_test_0046674,omit_named_history,Pericarditis,Boerhaave,Boerhaave,False,False,False,-3.052084524631813e-07,0.0006162312833337114,E_3,1,False
+ddx_test_0082088,repeat_middle,Pneumonia,Pneumonia,Pneumonia,False,True,True,0.3763248353745996,0.1233628784476077,,0,False
+ddx_test_0082088,remove_middle,Pneumonia,Pneumonia,Acute pulmonary edema,True,True,False,-0.519729410036955,0.17730207298909656,,0,False
+ddx_test_0082088,omit_named_history,Pneumonia,Pneumonia,Acute pulmonary edema,True,True,False,-0.5679538497025375,0.22633331432685178,E_117;E_124,2,False
+ddx_test_0081104,repeat_middle,Possible NSTEMI / STEMI,Acute pulmonary edema,Acute pulmonary edema,False,False,False,-0.001124975903094282,0.026006407773380407,,0,False
+ddx_test_0081104,remove_middle,Possible NSTEMI / STEMI,Acute pulmonary edema,Acute pulmonary edema,False,False,False,-0.0036183897726540164,0.06448371046481581,,0,False
+ddx_test_0081104,omit_named_history,Possible NSTEMI / STEMI,Acute pulmonary edema,Acute pulmonary edema,False,False,False,-0.004372798277114831,0.08694031388528697,E_105;E_68;E_2,3,False
+ddx_test_0013493,repeat_middle,Pulmonary embolism,Acute pulmonary edema,Boerhaave,True,False,False,-0.13941021252517424,0.6860861876076144,,0,False
+ddx_test_0013493,remove_middle,Pulmonary embolism,Acute pulmonary edema,Pulmonary embolism,True,False,True,0.30278841007151297,0.11395553498242504,,0,False
+ddx_test_0013493,omit_named_history,Pulmonary embolism,Acute pulmonary edema,Acute pulmonary edema,False,False,False,0.3191368148009613,0.0742462789309975,E_34,1,False
+ddx_test_0059125,repeat_middle,SLE,Pericarditis,Pericarditis,False,False,False,1.4407954449431627e-12,1.3569691740605021e-11,,0,False
+ddx_test_0059125,remove_middle,SLE,Pericarditis,Pericarditis,False,False,False,-2.27832429690561e-13,1.0457417543719718e-11,,0,False
+ddx_test_0059125,omit_named_history,SLE,Pericarditis,Bronchiolitis,True,False,False,4.68137163564122e-06,0.6931153357714068,E_3,1,False
+ddx_test_0132217,repeat_middle,Spontaneous pneumothorax,Spontaneous pneumothorax,Boerhaave,True,True,False,-0.9950126308536458,0.6905359282697354,,0,False
+ddx_test_0132217,remove_middle,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,False,True,True,0.002949632140031744,0.00047323809330500685,,0,False
+ddx_test_0132217,omit_named_history,Spontaneous pneumothorax,Spontaneous pneumothorax,Boerhaave,True,True,False,-0.9956181434492744,0.6931361603057503,E_165,1,False
+ddx_test_0048251,repeat_middle,Stable angina,Acute pulmonary edema,Acute pulmonary edema,False,False,False,-3.800348247596595e-06,0.02916818577692349,,0,False
+ddx_test_0048251,remove_middle,Stable angina,Acute pulmonary edema,Acute pulmonary edema,False,False,False,-6.715335787066232e-06,0.07285445385260975,,0,False
+ddx_test_0048251,omit_named_history,Stable angina,Acute pulmonary edema,Acute laryngitis,True,False,False,-9.762481948826529e-06,0.22382200008964748,E_68,1,False
+ddx_test_0069681,repeat_middle,URTI,Acute rhinosinusitis,Acute rhinosinusitis,False,False,False,-1.3726672860407332e-09,0.004009933839175842,,0,False
+ddx_test_0069681,remove_middle,URTI,Acute rhinosinusitis,Acute rhinosinusitis,False,False,False,-5.321490271925107e-09,0.021764929411047386,,0,False
+ddx_test_0069681,omit_named_history,URTI,Acute rhinosinusitis,Acute rhinosinusitis,False,False,False,0.0,0.0,,0,True
+ddx_test_0098383,repeat_middle,Viral pharyngitis,Acute rhinosinusitis,Acute rhinosinusitis,False,False,False,-0.0009470955345317379,0.15877042555530266,,0,False
+ddx_test_0098383,remove_middle,Viral pharyngitis,Acute rhinosinusitis,Acute rhinosinusitis,False,False,False,0.04938085456292126,0.016070804735270738,,0,False
+ddx_test_0098383,omit_named_history,Viral pharyngitis,Acute rhinosinusitis,Acute rhinosinusitis,False,False,False,0.0,0.0,,0,True

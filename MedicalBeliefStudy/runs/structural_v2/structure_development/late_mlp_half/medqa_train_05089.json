@@ -1,0 +1,41 @@
+{
+  "case_id": "medqa_train_05089",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_half",
+    "mlp_scale": 0.5,
+    "scale_layers": [
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Lynch syndrome\"}",
+      "generated_disease": "Lynch syndrome",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "6e8a561743873b57068cdd864e336098511f5533fc022c5f0eba056e872e742b"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Lynch syndrome\"}",
+      "generated_disease": "Lynch syndrome",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "91379964e62a0b47089de4b4b8573730015757cb0e068eaea0cbfcfe7ee2d132"
+    }
+  ]
+}

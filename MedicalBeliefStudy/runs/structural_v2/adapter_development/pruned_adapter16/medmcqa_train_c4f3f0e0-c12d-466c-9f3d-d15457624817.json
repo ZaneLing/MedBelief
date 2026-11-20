@@ -1,0 +1,52 @@
+{
+  "case_id": "medmcqa_train_c4f3f0e0-c12d-466c-9f3d-d15457624817",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Sarcoidosis\"}",
+      "generated_disease": "Sarcoidosis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "a37152278f508799fa36af9bf1b4e4f4b203f52ec14a80b68f3e5ff460e4809c"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Byssinosis\"}",
+      "generated_disease": "Byssinosis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "f1f5247cdf77a967703dda175b5658460a222f4833def9f481336b2e29c32d4d"
+    }
+  ]
+}

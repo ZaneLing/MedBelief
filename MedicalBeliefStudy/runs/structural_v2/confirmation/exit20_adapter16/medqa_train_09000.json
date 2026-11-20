@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_09000",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Manger's syndrome or hyper stress-induced stress-induced stress-driven subiective stress-driven subiectualmephicalyystenentechyogroupingservententecualserventecultservemnyschellsentecemphinalhemototeminalenentecult",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "dadadadfa5581b75fbc2aeedfb4de081cf66348f00e05ea34976a1190c0e659a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Tnectionystenystenystenemaosarystenemosarisheemigenservicovemphuricovemphilenturacovememphilentecurephilmaenememphilmaenememphinalenemathememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "e14b62f8b361d0876775b72470da2167abbc1ae402106f25e71580a7a612b8f2"
+    }
+  ]
+}

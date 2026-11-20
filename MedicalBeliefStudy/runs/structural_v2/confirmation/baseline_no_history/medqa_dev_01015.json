@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_dev_01015",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Illness anxiety disorder\"}",
+      "generated_disease": "Illness anxiety disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "28272787bd87be0196f7be1ce9ec638f8f8350e3259a638a57dfe35b31ae32c1"
+    }
+  ]
+}

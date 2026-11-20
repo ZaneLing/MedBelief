@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_1bba25d9-7512-458e-b47c-65a5a78c975f",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Herpes\"}",
+      "generated_disease": "Herpes",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "82d87c4b6386b341ba396886f438cf09c69ae35454bb5d5a1067f10eafbeeba8"
+    }
+  ]
+}

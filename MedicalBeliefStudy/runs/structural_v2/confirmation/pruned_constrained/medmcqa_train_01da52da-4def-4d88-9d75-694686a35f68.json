@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_01da52da-4def-4d88-9d75-694686a35f68",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Chronic intestinal ischemia (intestinal angina)\"}",
+      "generated_disease": "Chronic intestinal ischemia (intestinal angina)",
+      "stop": "eos",
+      "tokens": 11,
+      "prompt_sha256": "8a412725d5dffc08f86546086fa9bdeb31b36adec8d02147cd89fa4aa8ec85bd"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Peptic ulcer\"}",
+      "generated_disease": "Peptic ulcer",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "64584492e215aec3f97e7897462f4220a5edf524fb78b321655b81c71d188e1e"
+    }
+  ]
+}

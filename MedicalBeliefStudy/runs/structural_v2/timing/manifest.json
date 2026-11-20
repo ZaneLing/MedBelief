@@ -1,0 +1,18 @@
+{
+  "cases": [
+    "medqa_train_08607",
+    "medqa_train_01997",
+    "medqa_train_04305",
+    "medmcqa_train_316ba48f-b732-42a5-969b-fb1218d2d5ed",
+    "medmcqa_train_36916fd3-d205-45c8-831b-1790d5d2d2de",
+    "medmcqa_train_8124d2c0-a390-45dc-a6e8-4451a7eb1841"
+  ],
+  "repetitions": 2,
+  "conditions": [
+    "neutral",
+    "wrong"
+  ],
+  "selection_sha256": "6692a3c2524fb1aaf384f434d17cac65859f764c580626d1b06c4c2ba4f48610",
+  "fixed_decode": "12 predetermined candidate0 suffix/EOS tokens, same for every model; no sampling and no candidate-trie bookkeeping in this kernel-only measurement.",
+  "actual_answer": "End-to-end pretokenized autoregressive answer includes trie bookkeeping when used. Different output lengths reported."
+}

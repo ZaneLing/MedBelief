@@ -1,0 +1,52 @@
+{
+  "case_id": "medmcqa_train_aaac3081-98dd-4d9d-a67a-5e5565e6c0db",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "NCPF\"}",
+      "generated_disease": "NCPF",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "eb4e43ed7632f576df2c3ce693cea92996aee0736f22d7a78c38aa20ff803b82"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Malaria with DIC\"}",
+      "generated_disease": "Malaria with DIC",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "1a0cae9b1ee77abfdaa431a171c049bd5505c7a3882f05a1e346ab2d993b6831"
+    }
+  ]
+}

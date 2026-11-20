@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_train_07982",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Respiratory distress syndrome\"}",
+      "generated_disease": "Respiratory distress syndrome",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "80a28d483b51cbe9ef5887fb4a60c6f9d71b31c68d2423ee83880b1c6bc3e2b6"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Tracheoesophageal fistula\"}",
+      "generated_disease": "Tracheoesophageal fistula",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "a89a18a26aacde10d59fcd3c5eafad098dd830018586b364d5f94e3b10ccdcb4"
+    }
+  ]
+}

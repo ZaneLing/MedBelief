@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_dev_00157",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "ASCA positivity\"}",
+      "generated_disease": "ASCA positivity",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "4f64f7b55ffd33d1866159094a8da2ec308764318f7c77896c1decd0a3e91017"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Mucosal disruption\"}",
+      "generated_disease": "Mucosal disruption",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "0b5872d0a0a87041b79913ad75bac99835bec1e297dda4909a0cbb0af0cef41c"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_06823",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic progressive disease of the liver and/or other major organs in an large-scale systemic disease such a disease that requires an large-scale multicolr color color color color linearity and/or other advanced technology to be fully fully acumen of its own selfändigness\"} --Note: This is an example of an non-tr",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "5a85eaba269e80ff70d694541566872a4c9c223a4754021ab1ea0792e1ab1d4f"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Schorst syndrome or hypercephension or other advanced disease of course unknown\"} -- Note: This is an example of an non-carcaliform non-linear pathogenetic system which is not valid for an actual real-world scenario. actual real-world scenario would be either aorticitis or other non-linear pathogenic system which",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "409f45ce68f78acfe8827742876350eba246da1671165cf96847947bd3c2340e"
+    }
+  ]
+}

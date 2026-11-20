@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_07702",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniform disease\"}",
+      "generated_disease": "Chronic veniform disease",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ae2c609933aad31ec834d27d71de50c90e8283cda794dbdefc8a3653335a6389"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cryphiliasenysturicentericenterickeplensenserventososentotemphenservemneseyservememphesphilenservemememphesphilseminaliacosaripovememememphesphilseminal",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "baa835e09102e52137f19ec93901a45949dddc82bcafa7789eb5d4c2e066e544"
+    }
+  ]
+}

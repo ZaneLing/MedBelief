@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_ed1b287c-8e02-4bda-8c38-76de16ddba7a",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Candidiasis\"}",
+      "generated_disease": "Candidiasis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "6f1c0856712451851e9257f685559fa9193a8d26fc9d28e0775937a403cb47a2"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Candidiasis\"}",
+      "generated_disease": "Candidiasis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "9090268cd5f12ddada0324b4a33f9fa794e6acfcf511f8ea830517db8e94f0c4"
+    }
+  ]
+}

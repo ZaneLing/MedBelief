@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_02720",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Waterhouse-Friderichsen syndrome\"}",
+      "generated_disease": "Waterhouse-Friderichsen syndrome",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "d6d65ca2b955c316ba5e41a59d45ea4c4efc20feda77e77e18b85334bb85eb80"
+    }
+  ]
+}

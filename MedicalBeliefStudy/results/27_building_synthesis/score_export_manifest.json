@@ -1,0 +1,16 @@
+{
+  "1.7b": {
+    "native_rows": 31311,
+    "internal_rows": 429408,
+    "patients": 72
+  },
+  "4b": {
+    "native_rows": 10192,
+    "internal_rows": 179712,
+    "patients": 24
+  },
+  "external_medqa": {
+    "native_rows": 2772,
+    "patients": 87
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_009efd48-b1f9-4a39-9dfa-fba8f1bc07e4",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Cryptococcosis\"}",
+      "generated_disease": "Cryptococcosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "3ae32c1337ce5affe41627c8868c77a17e2593a58d13df2dbedeea65ec2acbc4"
+    }
+  ]
+}

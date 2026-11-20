@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_cd7f3e5f-df8b-400a-a044-d0f9a517e2cc",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Herpes simplex encephalitis\"}",
+      "generated_disease": "Herpes simplex encephalitis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "846082efcfb9309ae215f031e8f2bd9240e9f29f53530c23303fe779b8aa41ce"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Carcinomatous meningitis\"}",
+      "generated_disease": "Carcinomatous meningitis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "46193508f803878efd72b6bfa5299f6da4189baacf6a4ead94b73526ea989ddb"
+    }
+  ]
+}

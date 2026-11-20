@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_aaeee79d-6e01-4f3c-8b48-2ba959dcfc2b",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pustus\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "1425f0fb1159d1208bf907a62347307e825bc881bac6d668c9d82ddf58ead28a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocal\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "2024a7f61f43bf8197fd719198b2821866a941cbf11dfd329fd781ffca0f922e"
+    }
+  ]
+}

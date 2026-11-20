@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_06911",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Schizophrenic depression\"}",
+      "generated_disease": "Schizophrenic depression",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "ccf68c26c41a3684f34465d1fe5f5e6b50371983917bce6b326d3b2e8207b9ac"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Schorst's disease or hyperplentia of the body body line or other non-linear pathycogroupings\"} Note: This is an example of an non-linear or non-linear pathogenetic structure which is not valid and therefore should be avoided. Properly correct and/or complete the correct real-life relevant pathyc",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "0fe36a0b187aa101b648aa635d4c089b7f8454a45f9cd40a14ddcf3eafdde03d"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_42e20784-2445-4664-8738-7fd05a75f442",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoximoteiaonaric disorder\"} (Note: This is an error correction and/or an error in the original list of options. actual correct answer is either \"Cytaxoogaroneksuals orphans orphans orphans (nontronic wentecosarovem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "bf3437423d62a5ca92c5c5c88be89039fb219a8f534ec33d77a51ed94b8d9e78"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cryinopathic disease\"}",
+      "generated_disease": "Cryinopathic disease",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "e49dd12b4260afba0bdf0afcad6b1efb779b82cfbe87de1bf2118773d61a6b70"
+    }
+  ]
+}

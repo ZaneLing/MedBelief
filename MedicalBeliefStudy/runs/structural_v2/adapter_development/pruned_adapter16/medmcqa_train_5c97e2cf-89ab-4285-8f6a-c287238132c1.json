@@ -1,0 +1,52 @@
+{
+  "case_id": "medmcqa_train_5c97e2cf-89ab-4285-8f6a-c287238132c1",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Charcot's joint\"}",
+      "generated_disease": "Charcot's joint",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "233688b098d480a1901cd7979c029e55fea945bb208fe1c09315f5b3522fb845"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Charcot's joint\"}",
+      "generated_disease": "Charcot's joint",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "080905ba8c1d3b52906ac11fe602533cdcd6684b0f2a1310b0a82b61ad49ea83"
+    }
+  ]
+}

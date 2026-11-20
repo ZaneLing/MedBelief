@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_02610",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit24",
+    "exit_layer": 24
+  },
+  "parameter_stats": {
+    "parameters": 1519230976,
+    "weight_bytes": 3038461952,
+    "layers": 24
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Fib breast cancer\"}",
+      "generated_disease": "Fib breast cancer",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "5083335ad2ccaf2264f179e2721548d125208df3a5a65790d5a18fc66237a9df"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "F breast milk lact lact breast milk lact",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "3543e22d0b709a31eff6ddd9ed93a1b579da76c2a06f5ce833b0d1acdeec291d"
+    }
+  ]
+}

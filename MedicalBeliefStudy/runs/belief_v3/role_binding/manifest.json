@@ -1,0 +1,14 @@
+{
+  "cases": 72,
+  "observations": 216,
+  "conditions": [
+    "correct",
+    "neutral",
+    "swapped"
+  ],
+  "legend": " Each evidence group may carry a source category. HISTORY means a prior condition or background risk. CURRENT means a symptom or finding in the current presentation. UNSPECIFIED leaves the category unlabelled. Select the diagnosis explaining the current presentation, considering the role of each fact.",
+  "source_sha256": "d76aeb42c87543f9b98a0b063be5932e195f49250574516997804463e2eea682",
+  "protocol_sha256": "4e54f14a98eb5d8075981cd45914d77e49b55f8b3271951355d5e977831f9fb4",
+  "input_sha256": "e1cddabfcead790d1337af4325b0c23b5e41326971d23782c8dac816385d9b2f",
+  "api_cost_usd": 0
+}

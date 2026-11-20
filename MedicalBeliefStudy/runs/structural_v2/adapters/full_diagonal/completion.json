@@ -1,0 +1,45 @@
+{
+  "complete": true,
+  "configuration": {
+    "name": "full_diagonal",
+    "adapter_file": "runs/structural_v2/adapters/full_diagonal/best.safetensors",
+    "adapter_kind": "diagonal",
+    "adapter_rank": 0
+  },
+  "train_cases": 400,
+  "development_cases": 80,
+  "train_tokens": 6046,
+  "development_tokens": 1178,
+  "trainable_parameters": 4096,
+  "best_step": 600,
+  "best_development_loss": 1.6487836187210632,
+  "initial_development_loss": 2.178073257153147,
+  "weights_sha256": "4f80b5978e11ea992f60fa2c1f6ccedd35ca765dbaeadb4f0701fb80a3a203eb",
+  "full_vocabulary_size": 151936,
+  "history": [
+    {
+      "step": 0,
+      "development_loss": 2.178073257153147,
+      "elapsed": 0.0
+    },
+    {
+      "step": 100,
+      "development_loss": 1.8438370486008353,
+      "mean_recent_train_loss": 3.0853857035189867,
+      "elapsed": 2.68
+    },
+    {
+      "step": 300,
+      "development_loss": 1.7563645894850197,
+      "mean_recent_train_loss": 2.2674605512619017,
+      "elapsed": 6.11
+    },
+    {
+      "step": 600,
+      "development_loss": 1.6487836187210632,
+      "mean_recent_train_loss": 1.8908218728005886,
+      "elapsed": 10.77
+    }
+  ],
+  "api_cost_usd": 0
+}

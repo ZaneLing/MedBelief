@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_d6bb3a72-622f-47fa-a7d8-dd439dae5b27",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "left-hand injury caused by an external pressure pressure pressure line or an stress pressure pressure line or an stress line or an stress line or an stress line or an stress line or an stress line or an stress line or an stress line or an stress line or an stress line or an stress line or an stress line or an stress",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "c2b9f6f305726b113a0e100742cfb381b9dd1f7109ce7718aca258bffa666726"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "left-sided damage of the nervous pathycodesystemalmeparicenteroidenysticuscomplexeservententotentosentepentoidenemenservicovemphasinalenemenservinalenemohemensigroupingservinalenemohemansigroupings",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "f878c47927746b8b8e05c79f4c8ae2fbe7e21d090e3a2b21e0e60cd2bc430b6b"
+    }
+  ]
+}

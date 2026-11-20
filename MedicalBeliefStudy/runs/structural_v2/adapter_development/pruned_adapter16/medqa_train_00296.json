@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_00296",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Disc herniation\"}",
+      "generated_disease": "Disc herniation",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "8238d3f48773abfaf44c2a5f32d16eb31bdbf151058f3103b22bbe9b17308c77"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Disc herniation\"}",
+      "generated_disease": "Disc herniation",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "2584cf186aab94af1960622dd77da19af9d84fd83a168e18415df1d538a88336"
+    }
+  ]
+}

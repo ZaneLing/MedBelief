@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_dev_00896",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Eplystechyriauteuric disorder orphansystic disorder orphanseservententososentepemphilentechservetemphiliasenepalmservemphiliasenemphiliasenemphirumanservemphinalenemph",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "84bd4a8f3b6009ac013825515b3dc8d7ec76939a6fb445bcbd90767585ebcfe3"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Eplystechyriauteurystic disorder orphansystic disorder orphanseservententososentepemphilenturacovemphilenservicovemphilenservetemphiliasenataechservatemphilenservdemem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "fd08fef100b8735a8a5420c8fee44712d9f30a8bf46ad89a82f34024650d0c37"
+    }
+  ]
+}

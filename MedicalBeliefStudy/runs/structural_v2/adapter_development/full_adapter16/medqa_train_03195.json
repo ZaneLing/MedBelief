@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_03195",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Vascular dementia\"}",
+      "generated_disease": "Vascular dementia",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "3048d2a1952026db61caa148fbcd64ffd70394131396cf0cb094f42b5e6110dc"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Creutzfeldt-Jakob disease\"}",
+      "generated_disease": "Creutzfeldt-Jakob disease",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "19010d9b626234509d2ecd71967bbbb6c060ec140511fb3e058687486b7dadc1"
+    }
+  ]
+}

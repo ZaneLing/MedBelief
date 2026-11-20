@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_02317",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Conversion disorder\"}",
+      "generated_disease": "Conversion disorder",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "c120722a74cae7372538afad8aeb13205ab449d6c107eb380590c32c567aeb69"
+    }
+  ]
+}

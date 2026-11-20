@@ -1,0 +1,49 @@
+{
+  "case_id": "medmcqa_train_1212bb8f-261f-42ff-acfa-9fc4dd474030",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Achalasia cardia\"}",
+      "generated_disease": "Achalasia cardia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "6ae3a3552310c37178ea21888b331e59a64729a297f8d4203e3e9a67846a1178"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Achalasia cardia\"}",
+      "generated_disease": "Achalasia cardia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "01bac9665ffd6afe0c1d8f3b20de562fa81b08e984e8b4ddcb419e4b20bd9757"
+    }
+  ]
+}

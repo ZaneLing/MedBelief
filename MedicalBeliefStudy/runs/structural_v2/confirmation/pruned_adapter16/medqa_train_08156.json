@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_08156",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Bicuspid aortic valve\"}",
+      "generated_disease": "Bicuspid aortic valve",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "9cae6fcf5b82188dddcdbef31b59f79cb80a4ad4cb369fc705579800f1e77bbe"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Bicuspid aortic valve\"}",
+      "generated_disease": "Bicuspid aortic valve",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "205308125fac8ef003e629bd375f63044b6ec158d6ec50132734c383d2bb01ad"
+    }
+  ]
+}

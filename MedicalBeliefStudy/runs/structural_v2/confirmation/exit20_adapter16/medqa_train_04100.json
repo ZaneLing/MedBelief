@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_04100",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Acute devenactionary dystxiaoticiautaneousritis\"} (Note: This is an error error. actual correct answer is \"Essential hypertension or other systemic disease butchersdemensionsysticityechservententecotaracovemenserventecemphespar",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "ae3366f2504b59dc50eee320cb5aa52c3fb2778361c24517a163aebf07ccb708"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pneumatic bronodyecesseservententososenturisparagocumphilenserventecotemphenservemtrabautemphilenservemphirateminalenemphesphilenservemtrabautemmservarnez",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "db73f971e63155af402ff0e237570940a5a641c2beb237a94e3db0b6ce81c9ab"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_09984",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chilaxoctaneousia\"}",
+      "generated_disease": "Chilaxoctaneousia",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "87c54a70736f6c78026c52de3edcd225a5863b1f0f5e2de723d9009e0adac83d"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chilaxoogarisphilousia\"} (Note: This is an error correction and/or an error in the original list of options. actual correct answer is \"Eplabarysticity or other relevant phausia butchers are not available\"} However, if considering the actual available options listed",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "dccddecf7b14a31da96cee91051042242fff0ebd46b1002278fb28c894e5e5ed"
+    }
+  ]
+}

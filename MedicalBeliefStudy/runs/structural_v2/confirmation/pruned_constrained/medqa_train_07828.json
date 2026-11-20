@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_07828",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Plummer-Vinson syndrome\"}",
+      "generated_disease": "Plummer-Vinson syndrome",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "8202a781b9ef324d67c9bf6fe627341184932c8e472c57f5ba0b35f378c08d10"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Zenker diverticulum\"}",
+      "generated_disease": "Zenker diverticulum",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "dfd113da5021d108cbe0d3265eceb951e6fe975345402dadc9b051d4e576c1d3"
+    }
+  ]
+}

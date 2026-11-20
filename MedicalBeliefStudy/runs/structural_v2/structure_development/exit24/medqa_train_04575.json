@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_04575",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit24",
+    "exit_layer": 24
+  },
+  "parameter_stats": {
+    "parameters": 1519230976,
+    "weight_bytes": 3038461952,
+    "layers": 24
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Vascular endothelial endothelial endothelial endothelial endothelial endothelial endothelial endothelial endothelial endothelial endothelial endothelial endothelial endothelial endothelial endothelial endothelial endothelial endothelial endothelial endothelial endothelial endothelial endothelial endothelial endothelial endothelial endothelial endothelial endothelial endothelial",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "e7c74bec02de46991b85b6de89bcc0b563f0a4c9e3cf69180723d12d46a7e70b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Von Willebrand disease\"}",
+      "generated_disease": "Von Willebrand disease",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "af92cb70c2c6b1e9190906de927492ad33c9450c1f3658f3a5bc4c393510b5fe"
+    }
+  ]
+}

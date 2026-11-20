@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_dev_00294",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Rheumatoid arthritis\"}",
+      "generated_disease": "Rheumatoid arthritis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "c4f5cb0f5240cf5540cc47a4d83af1c3f3ed4dbdb784946b2e513987b635bd71"
+    }
+  ]
+}

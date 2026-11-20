@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-18",
+  "role": "Exploratory phase 2 pilot, not full 60-family phase 2 confirmation",
+  "families": 12,
+  "initial_rows": 24,
+  "current_rows_planned": 360,
+  "initial_sha256": "483d179e5243bbbc008cdaaf8aa4daff28e6d1f293d9b939923d1c3fc8b82434",
+  "current_shells_sha256": "5404f1b84940ebcf3c427d153fa6a84aad61619b207bf75c880902fa641d4eee",
+  "generator_sha256": "d5a96eeed47e31f787bb750ec2dd8087e32385aa83952ccf58cf755433e33fd0",
+  "outputs_seen": false,
+  "required_calibration": "All three frozen phase1B gates pass in every domain for the selected model/configuration",
+  "history_conditions": [
+    "current_only",
+    "old_facts",
+    "own_judgment_summary"
+  ],
+  "source_conditions": [
+    "both_valid",
+    "relevant_withdrawn",
+    "irrelevant_withdrawn"
+  ],
+  "sampling": {
+    "seed": 20261118,
+    "max_tokens": 2048,
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20
+  },
+  "probe_split": {
+    "train_family_indices": [
+      0,
+      1
+    ],
+    "test_family_indices": [
+      2,
+      3
+    ]
+  },
+  "probe_tasks": [
+    "current_report_numerical_direction",
+    "current_report_usable",
+    "old_report_numerical_direction"
+  ],
+  "probe_model": "L2 logistic regression, C=1, per-layer train-only scaling; no layer selection on test",
+  "probe_controls": [
+    "word 1-2 gram TFIDF, fit on training data only",
+    "within-family shuffled training labels"
+  ],
+  "primary_comparison": "own_judgment_summary versus old_facts, paired by family, old sign, current sign, source; family cluster bootstrap",
+  "secondary": "Withdraw relevant versus irrelevant report, conditional on history and current evidence",
+  "invalid_initial_rule": "If initial output is censored or unparseable, omit its own-summary branch and report missingness; never substitute a desired judgment",
+  "interpretation": "History is replayed context; old conclusion is a standardized summary of the actual generated judgment, not verbatim reasoning or persistent memory",
+  "clinical_review_required": false,
+  "paid_api_cost_usd": 0
+}

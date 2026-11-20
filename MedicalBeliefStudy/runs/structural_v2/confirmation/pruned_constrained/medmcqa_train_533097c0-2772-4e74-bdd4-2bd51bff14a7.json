@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_533097c0-2772-4e74-bdd4-2bd51bff14a7",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Foreign body aspiration\"}",
+      "generated_disease": "Foreign body aspiration",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "94c782bcffa1daf083e4692fb3e94cf110ba7a90897ff2421ac2fd1e46443f08"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Foreign body aspiration\"}",
+      "generated_disease": "Foreign body aspiration",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "be1367da7458b2ec4741a4c96dfc489c281cb5577c679f12dac296970df341d2"
+    }
+  ]
+}

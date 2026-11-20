@@ -1,0 +1,34 @@
+{
+  "case_id": "medqa_dev_00944",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Escherichia-induced hemolytic uremic syndrome\"}",
+      "generated_disease": "Escherichia-induced hemolytic uremic syndrome",
+      "stop": "eos",
+      "tokens": 12,
+      "prompt_sha256": "68df3f55f41d8a6b29918b8d53da2bd913a7a91563d175544739b825b11c2d0f"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Genetic form of hemolytic uremic syndrome\"}",
+      "generated_disease": "Genetic form of hemolytic uremic syndrome",
+      "stop": "eos",
+      "tokens": 11,
+      "prompt_sha256": "cb3ec92933604d5a20613a87f66abc2efe659fbd3dc29f595d1393deb9c499a2"
+    }
+  ]
+}

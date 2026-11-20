@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_cff87108-acda-4a48-94dd-d1c9ddf0d7cb",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Iocotaxoyserventiaulkserventetemphenservemtrungememememememppabememememhemememppemhememhemhemhemhemhemhemhemhemhemhemhem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "94ae76797a41e923ae7fb1a05f2c1665db31a1b818cad5f3ab3327a960f783e4"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Insectoidia\"}",
+      "generated_disease": "Insectoidia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "a89919b001de85f9f056b5b2c9746f4a8d39d804af4053140aee7d1cb1590e0d"
+    }
+  ]
+}

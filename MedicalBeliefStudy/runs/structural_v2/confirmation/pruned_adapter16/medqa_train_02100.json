@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_02100",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Anterior cruciate ligament tear\"}",
+      "generated_disease": "Anterior cruciate ligament tear",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "9c26d2c7a75751ad4d8618d1ed03eb8f60f5d48b7d96da2ad351dd7cb3477a8e"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Iliotibial band syndrome\"}",
+      "generated_disease": "Iliotibial band syndrome",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "f0ce3e09d99c51e897498f70f3bc4cc2cdeb212ee824a41de97d72dffd623397"
+    }
+  ]
+}

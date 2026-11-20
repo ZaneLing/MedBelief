@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_06637",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Tyeonghaiynezogaragiaotemphilensesparagothossemensesparipovemememememememememememememppervememememppabememememppabemememppabememempp",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "c24e1fc17f85312ba9338c9a6fe3279e37874d2552660b7b649be1998dbf0e25"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxiaotarocovemphilissemerventososentotemphinalenemphesphilissememphesphilisseminalenemphesphilenemauroicovemphilenservicovemphelentepoem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "3bfe50442898a3e52728a623142262edd935c0ace63d5ffc8b271952d4168caa"
+    }
+  ]
+}

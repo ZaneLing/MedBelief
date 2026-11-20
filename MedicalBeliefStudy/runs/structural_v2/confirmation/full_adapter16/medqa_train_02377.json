@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_02377",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Oppositional defiant disorder\"}",
+      "generated_disease": "Oppositional defiant disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "60c88775daf167e409e8d828befca66de8a4ff650f873e8f995e7953bc25a791"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Oppositional defiant disorder\"}",
+      "generated_disease": "Oppositional defiant disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "b515757254f4ddba4721ee0cb8b8849b08c1cf52b09443435b09ef57e177960e"
+    }
+  ]
+}

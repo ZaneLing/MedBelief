@@ -1,0 +1,34 @@
+{
+  "case_id": "medmcqa_train_321414b5-69ae-4151-a6b2-dff1143934af",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Rheumatic fever\"}",
+      "generated_disease": "Rheumatic fever",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "3734879c333cdaa328a8a0960899813bd358e95873c5d560856d764da238dc78"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Septic arthritis\"}",
+      "generated_disease": "Septic arthritis",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "48e5ff33db05aa03632b8c4d1396674d3a26cdb2736119ed3a0fbc10ce25f2b0"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_dev_00432",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Polar\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "a38afd1b9846e4697f56a4d400cf92dbbed49065c308ed4b96e9f3a3ec77015c"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystoid\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "ef93c1be95f97bae10a46b927974d8d9080f3d803eb5fb4a1f571379fb9266af"
+    }
+  ]
+}

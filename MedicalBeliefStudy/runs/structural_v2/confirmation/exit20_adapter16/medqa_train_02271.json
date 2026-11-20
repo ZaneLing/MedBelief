@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_02271",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Schott's disease or hypercephical disorder or other similar disease orphans orphans etetarosogroupings\"} -- Note: This is an error correction and/or an error in the original list of options. actual correct answer is typically \"Schellsberg's disease orphans orphans etc.\"} However,",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "63d8f91a97eb196fe2b4dabfd18d61ed21ef3aa5879c8bdd6eb916678f74e090"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Schorst syndrome orphans orphans etetepoemphilentososentepemphilentecetepemphileneticityeasefulserviceraenemicaresparicovemphilenservicemaemtrapabemphilissemenschells",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "a6f67b9baf6a87915b0d6627d13ed0a4cc7c34df78dca11f0d9aaa62d465335f"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "medmcqa_train_fba4477b-e045-47e8-a48b-d0856f57ccc9",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Familial type III hyperlipoproteinemia\"}",
+      "generated_disease": "Familial type III hyperlipoproteinemia",
+      "stop": "eos",
+      "tokens": 11,
+      "prompt_sha256": "a9fead490b55c821de85701d4a2ca12ef8aae2e487d4d9d9aa60e6ef501fa480"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Familial type III hyperlipoproteinemia\"}",
+      "generated_disease": "Familial type III hyperlipoproteinemia",
+      "stop": "eos",
+      "tokens": 11,
+      "prompt_sha256": "c5745cf05439ce94f084d21456eb538fe2622efe3557b5faac70de44b57d0edd"
+    }
+  ]
+}

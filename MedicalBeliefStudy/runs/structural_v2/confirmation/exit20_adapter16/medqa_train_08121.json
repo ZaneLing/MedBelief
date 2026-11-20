@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_08121",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxoylephinoventotaric disorder\"}",
+      "generated_disease": "Pemphoxoylephinoventotaric disorder",
+      "stop": "eos",
+      "tokens": 15,
+      "prompt_sha256": "3dfdcf34ddb6068b251b5366d8881c9ab5b7436c8f78f650476cc75c3c441329"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxanemia-induced stress-induced stress-induced emplasticity-induced stress-induced emphornousness-induced emphinaliacotoidentation-induced emphinalenarymsicity消化器疾病\"} -- Note: This is an error error. actual real actual real actual phausententos",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "14f2b16e6b561ce53dd5421fc5da2c89f2a0b00e3e64cc995e926e1b252e5f26"
+    }
+  ]
+}

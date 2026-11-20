@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_03323",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Ectopic pregnancy\",\"probability_of_diagnosis\":0.9999999999999999999999999999999999999999999999999999",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "1a82b389bb1506953f2fb8f29c7e681bd04b2ae6b2cfa3edaaf8a233e21b0be9"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Ectopic pregnancy\",\"probability_of_diagnosis\":0.98,\"likelihood_risk_factors_present\":[\"age\",\"parity\",\"contraceptive_method\",\"ovulatory_status\",\"implantation_site\"],\"implantation_site\":\"uterine\",\"implantation_site\":\"endometrium\"),\"implantation_site\":\"myometrium",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "31ceb455a0e9d3272121316dfecbdcd2a4e941d1a82f1cccfa22891b8b614dfb"
+    }
+  ]
+}

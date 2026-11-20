@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_c72b2c92-0395-4bb0-873f-4c16793edb86",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chilisburg's disease orphans orphans trunks went into biteable herventotososphilous acrocephicaly acyclically acrocephylscalescaleschellserverserventurusidservemtracovemphilousenochservatem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "3d339f74b91452a2ef82cf06dbf8f244ce1ae9bf3e4eb63e7752903372ee806a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chilisysticenteringystosartholensigroupbetahydrophansycosomovemnysigroupbetahydrojemphilensigroupbetahydrojemensiliassemensigroupbetahydrojemmaanegroupbetahydrojemmaanegroup",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "2581c738d5ebe20ee7edd62e5a8ab7a640f10d22ea466a510d51a412b9806892"
+    }
+  ]
+}

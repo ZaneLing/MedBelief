@@ -1,0 +1,23 @@
+Preparing fixed official-split expansion...
+Prepared 24261 training and 134529 test cases, 49 diseases.
+Inventory audit: {"unique_question_inventories": 43921, "conflicting_inventory_count": 340, "cases_in_conflicting_inventories": 4153, "empirical_inventory_oracle_correct": 133775, "empirical_inventory_oracle_accuracy": 0.9943952605014532, "unique_fact_sets": 117807, "conflicting_fact_sets": 0, "empirical_fact_oracle_accuracy": 1.0, "note": "Finite test-set upper bound for a deterministic function of this inventory; oracle uses test labels and is NOT a fitted-model score."}
+old120_questions_only: 80623/83024 = 97.1081%; macro recall=98.2715%; 9.9s
+old120_evidence_presence: 80879/83024 = 97.4164%; macro recall=98.6313%; 1.7s
+all49_n5_evidence_presence: 129139/134529 = 95.9934%; macro recall=95.9191%; 2.8s
+all49_n5_evidence_values: 131233/134529 = 97.5500%; macro recall=97.2393%; 3.1s
+all49_n5_questions_only: 130051/134529 = 96.6713%; macro recall=96.9596%; 16.0s
+all49_n20_evidence_presence: 131064/134529 = 97.4243%; macro recall=96.9240%; 2.9s
+all49_n20_evidence_values: 131722/134529 = 97.9135%; macro recall=97.3219%; 3.2s
+all49_n20_questions_only: 131836/134529 = 97.9982%; macro recall=97.9602%; 15.9s
+all49_n100_evidence_presence: 131599/134529 = 97.8220%; macro recall=97.6650%; 3.1s
+all49_n100_evidence_values: 132511/134529 = 98.5000%; macro recall=98.2390%; 3.9s
+all49_n100_questions_only: 132272/134529 = 98.3223%; macro recall=98.2490%; 18.5s
+all49_n500_evidence_presence: 131583/134529 = 97.8101%; macro recall=97.6594%; 4.8s
+all49_n500_evidence_values: 132580/134529 = 98.5512%; macro recall=98.3303%; 7.9s
+all49_n500_questions_only: 132143/134529 = 98.2264%; macro recall=98.2302%; 34.8s
+control_symptoms_only: 121571/134529 = 90.3679%; macro recall=89.9593%; 3.8s
+control_history_only: 112766/134529 = 83.8228%; macro recall=83.7896%; 2.9s
+control_binary_only: 131595/134529 = 97.8191%; macro recall=97.5609%; 3.9s
+control_shuffled_labels: 2915/134529 = 2.1668%; macro recall=2.2455%; 4.3s
+control_masked_disease_names: 132144/134529 = 98.2271%; macro recall=98.1910%; 35.2s
+Completed: /Users/lingziyang/Desktop/Seq/MedicalBeliefStudy/results/22_ddx_classifier_expansion/summary.json seconds= 213.21998800011352

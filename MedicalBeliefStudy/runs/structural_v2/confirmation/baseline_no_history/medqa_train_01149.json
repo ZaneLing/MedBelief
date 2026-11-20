@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_01149",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Multiple sclerosis\"}",
+      "generated_disease": "Multiple sclerosis",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "178cfb49c0ccf5d5e22c85d827df062d30bc38226d52cc116e69793e3bef6d66"
+    }
+  ]
+}

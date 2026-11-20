@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_6bbd1d57-07a5-4886-98f9-82187dd82f82",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cystoid myopathy\"}",
+      "generated_disease": "Cystoid myopathy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "4f52261d3245bf03b2845d2607f404501fb1b99dadf25c7705c14f5c15bb37d5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystoid myopathy\"}",
+      "generated_disease": "Cystoid myopathy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "53b2fe7cd8fa3893ddb395d48251aa92c7fdfeaf0c820a3e86ae5e406906ea7a"
+    }
+  ]
+}

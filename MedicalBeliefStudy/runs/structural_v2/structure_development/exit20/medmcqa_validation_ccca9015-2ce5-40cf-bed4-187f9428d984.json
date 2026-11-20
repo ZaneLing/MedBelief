@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_validation_ccca9015-2ce5-40cf-bed4-187f9428d984",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "none",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 1,
+      "prompt_sha256": "c25b71235f05a0b686f34a06aa89bc03dbf8bfea83f2d369eadfc86e580a983e"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "none",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 1,
+      "prompt_sha256": "c71ff6f4f334acf4fa961f6797d100869da9cf15411656bb04b8ee9af392e08e"
+    }
+  ]
+}

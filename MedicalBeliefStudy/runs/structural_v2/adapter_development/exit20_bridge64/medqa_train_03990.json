@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_03990",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cystoid\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "6110b63dd830878f58910a16a9acf899f377602b81e1d4c9650d6b68aac22798"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Corticitis\"}",
+      "generated_disease": "Corticitis",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "f3bad5dc2e07bfa78d99f871abafffcbba38e952911b715c1857373541726a4a"
+    }
+  ]
+}

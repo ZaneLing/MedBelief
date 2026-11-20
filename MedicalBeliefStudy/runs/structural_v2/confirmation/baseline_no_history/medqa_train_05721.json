@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_05721",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Cerebral palsy\"}",
+      "generated_disease": "Cerebral palsy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "8ba340b1a1862095fa2880bfda311c26787e6c51141222ad1325b160f4b955dd"
+    }
+  ]
+}

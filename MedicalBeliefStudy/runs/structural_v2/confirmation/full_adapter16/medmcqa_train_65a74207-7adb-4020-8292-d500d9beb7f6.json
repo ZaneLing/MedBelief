@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_65a74207-7adb-4020-8292-d500d9beb7f6",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Testosterone secreting tumor\"}",
+      "generated_disease": "Testosterone secreting tumor",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "36444a51d87ec3d2d6c5f55c36eb8cb03bde7188e804a456b230dc8d33b8413a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Testosterone secreting tumor\"}",
+      "generated_disease": "Testosterone secreting tumor",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ed3564a0e6464f3e06268d6d7d345225d69310c792a91cc27860c2811d3ffc5e"
+    }
+  ]
+}

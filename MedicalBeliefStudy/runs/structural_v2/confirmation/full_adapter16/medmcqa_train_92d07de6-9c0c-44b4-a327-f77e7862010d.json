@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_92d07de6-9c0c-44b4-a327-f77e7862010d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Empty sella syndrome\"}",
+      "generated_disease": "Empty sella syndrome",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "ac7cb223c5dca491c96a3ac235ed12457213977f6f44e065e33765d69b87d605"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chromophobe\"}",
+      "generated_disease": "Chromophobe",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "5237853b441c57ac62ec85af3b88c0d25372a5567e367229b574fdcb7f6a7c87"
+    }
+  ]
+}

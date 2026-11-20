@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_03832",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Chronic bronchitis\"}",
+      "generated_disease": "Chronic bronchitis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "25a59b0a004857f4d90bc522b5741cc5ec6d17ac2f471efb460d773f3788b59e"
+    }
+  ]
+}

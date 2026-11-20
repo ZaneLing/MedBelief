@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_cd7f3e5f-df8b-400a-a044-d0f9a517e2cc",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniform disease\"}",
+      "generated_disease": "Chronic veniform disease",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "846082efcfb9309ae215f031e8f2bd9240e9f29f53530c23303fe779b8aa41ce"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Schizophrenia-related stress out stress out\"}\"}Note: This is an example of an non-linear and non-linear adictent. actual real-life scenario would be an actual real-life disease such aorticitis or other major disease. Please consult professional medical professionals for accurate medical advice",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 56,
+      "prompt_sha256": "46193508f803878efd72b6bfa5299f6da4189baacf6a4ead94b73526ea989ddb"
+    }
+  ]
+}

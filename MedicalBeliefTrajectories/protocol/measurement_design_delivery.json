@@ -1,0 +1,69 @@
+{
+  "status": "Design and data preparation verified; no model inference",
+  "cases": 12,
+  "observation_prefixes": 131,
+  "new_evidence_groups": 119,
+  "all_explicit_source_groups_revealed_at_final_prefix": true,
+  "prefix_and_gold_separation_checks_passed": true,
+  "direct_token_serializations_verified": 786,
+  "local_links_checked": 17,
+  "llm_inference_performed": false,
+  "api_cost_usd": 0,
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "297c68117dd0d1cb7d66c909b8aba8f4af9c0901786d7b9a67c5f2cf08b8e8af",
+      "bytes": 2689
+    },
+    {
+      "path": "EXPERIMENT_PLAN.md",
+      "sha256": "f7ead41dc3383dbb09f4ed5cfcf6cc77ec914bd640680ab7243d4dfb5c61230c",
+      "bytes": 12241
+    },
+    {
+      "path": "MEASUREMENT_DESIGN.md",
+      "sha256": "2e7a704b241feb8eb1cc696d196a2c908b9f31b4dc744f9a4829adf54f61a60b",
+      "bytes": 28562
+    },
+    {
+      "path": "data/pilot_cases.private.jsonl",
+      "sha256": "3da47ef5310dc3bc187d113f2654ad797d9a1bcaef70232355a0ea004cf8b01e",
+      "bytes": 52768
+    },
+    {
+      "path": "data/pilot_prefixes.public.jsonl",
+      "sha256": "7993066f3ae8dba1493dcf34b2109a1b6667660f9066e928c938b4f94c21f2ff",
+      "bytes": 333367
+    },
+    {
+      "path": "data/example_prompt_direct.txt",
+      "sha256": "d742130b5f94652588414ddba66842ea00460e296d12a0a81405113f6b6294e7",
+      "bytes": 946
+    },
+    {
+      "path": "protocol/design_inventory.json",
+      "sha256": "1abf3390a9591ae289d4f7bd8f362e0be903a506a208e3f9271f2ac3a1310f88",
+      "bytes": 7550
+    },
+    {
+      "path": "protocol/token_boundary_audit.json",
+      "sha256": "8efa7b88eeca7567cab82c6aa3186460edffa25dc948b58e8f26615fe7cc5f8d",
+      "bytes": 62898
+    },
+    {
+      "path": "protocol/model_interface_audit.json",
+      "sha256": "0187156b900cad1f1552d375febbb6128945f716a5dba3cd1846cd503cdab8fa",
+      "bytes": 977
+    },
+    {
+      "path": "src/prepare_measurement_design.py",
+      "sha256": "5f20550d1c20becf930907a2ed93c8810c9ee56ef28687b0c8574aea7d9ea1d1",
+      "bytes": 7802
+    },
+    {
+      "path": "src/audit_measurement_tokens.py",
+      "sha256": "5d20fd929970abe7ece8aa92e449436b66639561f6954dbb61dac3c3577a995e",
+      "bytes": 4331
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_09000",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Migraine headache\"}",
+      "generated_disease": "Migraine headache",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "dadadadfa5581b75fbc2aeedfb4de081cf66348f00e05ea34976a1190c0e659a"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Migraine headache\"}",
+      "generated_disease": "Migraine headache",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "e14b62f8b361d0876775b72470da2167abbc1ae402106f25e71580a7a612b8f2"
+    }
+  ]
+}

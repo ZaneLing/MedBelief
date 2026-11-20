@@ -1,0 +1,10 @@
+{
+  "patients": 48,
+  "conditions_per_patient": 10,
+  "source_sha256": "69643e11c885d51c64b44b757c2d4fa9019a0fdc74c424ab40f3c89b6ea372ae",
+  "core_sha256": "2e0e1b51f1a0f543e38b5b17825e54dc30c0d3aaa76d3aff9073caf6c8a95bbe",
+  "cases_sha256": "f77bacaed2f3217de0916d647c3cf06c8160e7240f0f841794644035028ddd23",
+  "model": "4b",
+  "status": "post_observation_counterbalance",
+  "api_cost_usd": 0
+}

@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_08053",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Sarcoidosis\"}",
+      "generated_disease": "Sarcoidosis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "ae36fd270e1a6174f529018db8265587024a0505027b9dfb8a8f4371e4fc8658"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Sarcoidosis\"}",
+      "generated_disease": "Sarcoidosis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "22981b3e278efc7a5ba4eaedab4f637659df1006094e25202d61e126722ccbe2"
+    }
+  ]
+}

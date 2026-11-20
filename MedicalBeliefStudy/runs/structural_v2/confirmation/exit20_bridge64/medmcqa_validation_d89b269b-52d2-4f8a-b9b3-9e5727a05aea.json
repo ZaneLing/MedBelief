@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_validation_d89b269b-52d2-4f8a-b9b3-9e5727a05aea",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Polar disorder\"}",
+      "generated_disease": "Polar disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "5feea5312b3b5d3d169f67281f4b0889c3e59f41a9209c0832b3328d2c43bc02"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocococosis\"}",
+      "generated_disease": "Cystocococosis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "72a005a278ad872b19e1a78bb097adeb2c8291cee1845a5fbc089d24b45c99a0"
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "patients": 48,
+  "replication": true,
+  "conditions": 576,
+  "layers": {
+    "14": {
+      "patients": 48,
+      "target_minus_random": {
+        "mean": -0.007724399549356627,
+        "low": -0.021115110495895904,
+        "high": 0.004051358092546605,
+        "cases": 48
+      },
+      "p_unadjusted": 0.25463726813659315,
+      "projection_fraction": {
+        "mean": 0.1283087139233495,
+        "low": 0.10031053129575447,
+        "high": 0.15616897126653928,
+        "cases": 48
+      },
+      "conditions": {
+        "self": {
+          "attenuation": {
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0,
+            "cases": 48
+          },
+          "raw_effect": {
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0,
+            "cases": 48
+          },
+          "top_changes": 0,
+          "correct_after": 11,
+          "top24_changes": 0,
+          "correct24_after": 13
+        },
+        "remove_target": {
+          "attenuation": {
+            "mean": -0.009464020301942858,
+            "low": -0.029314000219881103,
+            "high": 0.007476760721663634,
+            "cases": 48
+          },
+          "raw_effect": {
+            "mean": 0.005552549233262057,
+            "low": -0.011435395821088297,
+            "high": 0.024726191481707172,
+            "cases": 48
+          },
+          "top_changes": 0,
+          "correct_after": 11,
+          "top24_changes": 0,
+          "correct24_after": 13
+        },
+        "random_matched": {
+          "attenuation": {
+            "mean": -0.0017396207525862313,
+            "low": -0.01502269364166762,
+            "high": 0.009732165888004348,
+            "cases": 48
+          },
+          "raw_effect": {
+            "mean": 0.007596553440510394,
+            "low": -0.0038617609247026505,
+            "high": 0.020584081546924815,
+            "cases": 48
+          },
+          "top_changes": 0,
+          "correct_after": 11,
+          "top24_changes": 0,
+          "correct24_after": 13
+        },
+        "replace_old": {
+          "attenuation": {
+            "mean": 0.017374143069672627,
+            "low": -0.042996423517191996,
+            "high": 0.07493698530633816,
+            "cases": 48
+          },
+          "raw_effect": {
+            "mean": 0.002347638449035442,
+            "low": -0.05945452773227119,
+            "high": 0.06142636544892642,
+            "cases": 48
+          },
+          "top_changes": 0,
+          "correct_after": 11,
+          "top24_changes": 0,
+          "correct24_after": 13
+        }
+      },
+      "p_holm": 0.25463726813659315,
+      "probe_attenuation": {
+        "mean": 0.00906154999147143,
+        "low": 0.006577825607859127,
+        "high": 0.011660338008736984,
+        "cases": 48
+      },
+      "probe_update_reversed_count": 48
+    },
+    "21": {
+      "patients": 48,
+      "target_minus_random": {
+        "mean": 0.2617520884789797,
+        "low": 0.13912651476444096,
+        "high": 0.396574875018657,
+        "cases": 48
+      },
+      "p_unadjusted": 9.99950002499875e-05,
+      "projection_fraction": {
+        "mean": 0.17795603251721667,
+        "low": 0.14545417445890058,
+        "high": 0.21346460892442937,
+        "cases": 48
+      },
+      "conditions": {
+        "self": {
+          "attenuation": {
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0,
+            "cases": 48
+          },
+          "raw_effect": {
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0,
+            "cases": 48
+          },
+          "top_changes": 0,
+          "correct_after": 11,
+          "top24_changes": 0,
+          "correct24_after": 13
+        },
+        "remove_target": {
+          "attenuation": {
+            "mean": 0.2566434547642043,
+            "low": 0.13628909285543347,
+            "high": 0.38978008042681567,
+            "cases": 48
+          },
+          "raw_effect": {
+            "mean": 0.08514734768293956,
+            "low": -0.04675605046187671,
+            "high": 0.229793752161312,
+            "cases": 48
+          },
+          "top_changes": 1,
+          "correct_after": 12,
+          "top24_changes": 1,
+          "correct24_after": 14
+        },
+        "random_matched": {
+          "attenuation": {
+            "mean": -0.005108633714775361,
+            "low": -0.04165161705954773,
+            "high": 0.03186992647280393,
+            "cases": 48
+          },
+          "raw_effect": {
+            "mean": 0.01732576479917114,
+            "low": -0.018787210810535488,
+            "high": 0.05397311241674734,
+            "cases": 48
+          },
+          "top_changes": 0,
+          "correct_after": 11,
+          "top24_changes": 0,
+          "correct24_after": 13
+        },
+        "replace_old": {
+          "attenuation": {
+            "mean": 2.497979818186052,
+            "low": 1.6984963302446223,
+            "high": 3.445759569486233,
+            "cases": 48
+          },
+          "raw_effect": {
+            "mean": 0.20564042765734522,
+            "low": -0.9322058195157052,
+            "high": 1.3201527140019615,
+            "cases": 48
+          },
+          "top_changes": 8,
+          "correct_after": 12,
+          "top24_changes": 9,
+          "correct24_after": 14
+        }
+      },
+      "p_holm": 0.000199990000499975,
+      "probe_attenuation": {
+        "mean": 0.07831228707571007,
+        "low": 0.05678076874537148,
+        "high": 0.10188276230332985,
+        "cases": 48
+      },
+      "probe_update_reversed_count": 48
+    },
+    "28": {
+      "patients": 48,
+      "target_minus_random": {
+        "mean": 0.45279949461672686,
+        "low": 0.2545492002280073,
+        "high": 0.7024739179724522,
+        "cases": 48
+      },
+      "p_unadjusted": 4.999750012499375e-05,
+      "projection_fraction": {
+        "mean": 0.1551920849959608,
+        "low": 0.12815959707109745,
+        "high": 0.1823554085312939,
+        "cases": 48
+      },
+      "conditions": {
+        "self": {
+          "attenuation": {
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0,
+            "cases": 48
+          },
+          "raw_effect": {
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0,
+            "cases": 48
+          },
+          "top_changes": 0,
+          "correct_after": 11,
+          "top24_changes": 0,
+          "correct24_after": 13
+        },
+        "remove_target": {
+          "attenuation": {
+            "mean": 0.42838539132849957,
+            "low": 0.2506511557791328,
+            "high": 0.6458738459575575,
+            "cases": 48
+          },
+          "raw_effect": {
+            "mean": -0.0638021017857066,
+            "low": -0.29627273733211723,
+            "high": 0.14427902459345598,
+            "cases": 48
+          },
+          "top_changes": 1,
+          "correct_after": 12,
+          "top24_changes": 1,
+          "correct24_after": 14
+        },
+        "random_matched": {
+          "attenuation": {
+            "mean": -0.024414103288227313,
+            "low": -0.09800635869885804,
+            "high": 0.04231760635902345,
+            "cases": 48
+          },
+          "raw_effect": {
+            "mean": 0.08756512315748921,
+            "low": 0.027327411824732195,
+            "high": 0.15592441464888604,
+            "cases": 48
+          },
+          "top_changes": 1,
+          "correct_after": 12,
+          "top24_changes": 1,
+          "correct24_after": 14
+        },
+        "replace_old": {
+          "attenuation": {
+            "mean": 3.098958375166094,
+            "low": 2.1168945558090324,
+            "high": 4.189168236019689,
+            "cases": 48
+          },
+          "raw_effect": {
+            "mean": 0.1289063195039759,
+            "low": -1.2113117306100956,
+            "high": 1.4539061917483258,
+            "cases": 48
+          },
+          "top_changes": 8,
+          "correct_after": 12,
+          "top24_changes": 9,
+          "correct24_after": 14
+        }
+      },
+      "p_holm": 0.00014999250037498125,
+      "probe_attenuation": {
+        "mean": 0.10984186791540783,
+        "low": 0.08001419214419322,
+        "high": 0.14221024581664835,
+        "cases": 48
+      },
+      "probe_update_reversed_count": 45
+    }
+  },
+  "sham_max_logp_error": 0.0,
+  "last_layer_same_first_token_patients": 1,
+  "last_layer_same_first_token_max_margin_effect": 0.0,
+  "api_cost_usd": 0
+}

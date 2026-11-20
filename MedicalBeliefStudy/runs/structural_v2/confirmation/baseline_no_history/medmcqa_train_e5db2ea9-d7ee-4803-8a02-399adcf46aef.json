@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_e5db2ea9-d7ee-4803-8a02-399adcf46aef",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Xeroderma pigmentosum\"}",
+      "generated_disease": "Xeroderma pigmentosum",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "8a819235696b845bc9ce92ab719898900469905efbccc60fcd218d5cb1b134c9"
+    }
+  ]
+}

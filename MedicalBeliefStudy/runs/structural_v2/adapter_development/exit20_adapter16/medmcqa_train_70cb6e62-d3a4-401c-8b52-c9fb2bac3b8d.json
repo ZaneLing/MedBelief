@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_70cb6e62-d3a4-401c-8b52-c9fb2bac3b8d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Ehememaragonia paripoxes\"} (Note: This is an example placeholder for example purposes. actual real-world data would be used instead. actual actual real actual real actual\"} (Note: actual actual real actual real actual is an error and should be replaced by actual actual real actual real actual real",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "4f63f95fc542cc978cfc63f13d6d1b96e71572a2b9becf19d803019b07709fb0"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Oemphiliasenystcogroupbisease\"}\"}\"}\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\nNote: The final output should be an valid and valid phausia of an valid neconrctualservententuys",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "fc56edb8d944422144346d13e5ccddcc8a6b6e287124da697a18e563266435e9"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_05128",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Eplystechsystnystroctivserventechservenemplarsigroupingservetemphilenservesparipohemotolentechservesparlinezepidemphservlinepsephesparwycossephes",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "6853aa8705c1116ff7bd7f9b1d3e3824ffb59e80d5caa423bd8bff5846cee637"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Eplystechsystnystroctivserventuriserventetemphsycdigemphsellserviglasipohemotigonalsephesparicovemphsellservigmaidservemphilensesparlinezemaosarov",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "85013399fe72c7c2e99e93692a1d33166c60f3653277bd4c984e481f8faf92d9"
+    }
+  ]
+}

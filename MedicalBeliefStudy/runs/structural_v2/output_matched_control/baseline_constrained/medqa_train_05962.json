@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_05962",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Endometriosis\"}",
+      "generated_disease": "Endometriosis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "2fc2f25664524334b6e34f80cdc6cca0b28342c2eb8c1373b83b9a92e8822204"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Endometriosis\"}",
+      "generated_disease": "Endometriosis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "4c1fcb65f190a01f1c777b370d02d391f0fea3c828a514d8b39e040f631bbc36"
+    }
+  ]
+}

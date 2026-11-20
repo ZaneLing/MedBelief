@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_03655",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic venigotosis\"}",
+      "generated_disease": "Chronic venigotosis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "a0a003f4d6c1d884eb4cf7873a418ddaf26f08d14f6e29874fc97911af36c142"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformynephical disorder\"}",
+      "generated_disease": "Chronic veniformynephical disorder",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "e69950068e13a63471875eaa9065f51b220735a452b787e0760d0c9d403f063d"
+    }
+  ]
+}

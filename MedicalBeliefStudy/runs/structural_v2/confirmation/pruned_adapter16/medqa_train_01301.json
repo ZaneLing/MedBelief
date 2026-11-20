@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_01301",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Neuroleptic malignant syndrome\"}",
+      "generated_disease": "Neuroleptic malignant syndrome",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "27f3018c76443a5fb5726cabb96c067b73f367bc85ab867eb8a53af06be53463"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Neuroleptic malignant syndrome\"}",
+      "generated_disease": "Neuroleptic malignant syndrome",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "772bd0671ffb8a340317453ed6afd635047ebdc83aa1d6764e64f9a7abcda2b9"
+    }
+  ]
+}

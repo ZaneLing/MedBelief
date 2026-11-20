@@ -1,0 +1,34 @@
+{
+  "case_id": "medqa_train_01321",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Leprosy\"}",
+      "generated_disease": "Leprosy",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "76589fb79113ec38232bde531e798319095b2a4f517ab74c81ad48c46b9632a2"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Leprosy\"}",
+      "generated_disease": "Leprosy",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "bc0a965bf08fe02eb99f70ce17ac83180e0300ebb71a9b545f99f1665a53bf51"
+    }
+  ]
+}

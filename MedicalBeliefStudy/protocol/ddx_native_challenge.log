@@ -1,0 +1,4 @@
+native challenge test 685 groups 340 question upper 0.49635036496350365 {'all49_n500_questions_only': 0.4905109489051095, 'all49_n500_evidence_presence': 0.48613138686131385, 'all49_n500_evidence_values': 0.6788321167883211, 'logistic_evidence_presence': 0.4948905109489051, 'logistic_evidence_values': 0.7781021897810219}
+native challenge validate 688 groups 340 question upper 0.4941860465116279 {'all49_n500_questions_only': 0.49127906976744184, 'all49_n500_evidence_presence': 0.4883720930232558, 'all49_n500_evidence_values': 0.6511627906976745, 'logistic_evidence_presence': 0.4898255813953488, 'logistic_evidence_values': 0.7558139534883721}
+without degree-one features test 0.985936117863063
+without degree-one features validate 0.9848770838366755

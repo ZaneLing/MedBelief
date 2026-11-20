@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_e4c8da76-780b-4dc9-9495-4f3b378c30d9",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "mlp_width75",
+    "mlp_keep": 0.75
+  },
+  "parameter_stats": {
+    "parameters": 1456333824,
+    "weight_bytes": 2912667648,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Hemorrhage\"}",
+      "generated_disease": "Hemorrhage",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "ce80cff71a8213aa4fa02f0ba516f174bb29a6846610fc78ca27935edc02ab77"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Hemorrhage\"}",
+      "generated_disease": "Hemorrhage",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "b3bd70e8b001f8e1d0563980731d490b109c07c2253ba774cddf98ab336336c7"
+    }
+  ]
+}

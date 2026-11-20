@@ -1,0 +1,29 @@
+case_id,condition,candidate,reference,source_answer,raw_name,raw_text,source_name_already_at_start,repaired_name,normalized_prior_correct
+medmcqa_train_e675b134-430c-4e38-8e06-89dec30f728e,neutral,pruned_constrained,late_mlp_width50,Idiopathic (immune) thrombocytopenic purpura (ITP),,"Idiopathic (immune) thrombocytopenic purpura (ITP"")""}",0,Idiopathic (immune) thrombocytopenic purpura (ITP),1
+medqa_train_02066,neutral,pruned_constrained,late_mlp_width50,Inferior wall myocardial infarction ,Inferior wall myocardial infarction,"Inferior wall myocardial infarction""}",0,Inferior wall myocardial infarction ,1
+medqa_train_03631,neutral,pruned_constrained,late_mlp_width50,Discoid lupus erythematosus (DLE),,"Discoid lupus erythematosus (DLE"")""}",0,Discoid lupus erythematosus (DLE),1
+medmcqa_train_c555e8f8-3cd9-4625-bba3-4897bbc0021b,neutral,pruned_constrained,late_mlp_width50,Congenital adrenal hyperplasia(CAH),,"Congenital adrenal hyperplasia(CAH"")",0,Congenital adrenal hyperplasia(CAH),1
+medmcqa_train_8d747f94-fa97-4ab8-9f19-e0087c503392,neutral,pruned_constrained,late_mlp_width50,Glycogen storage diseases,G glycogen storage diseases,"G glycogen storage diseases""}",0,Glycogen storage diseases,0
+medmcqa_train_93353f21-df7b-491c-a359-30a55a6ea6a4,neutral,pruned_constrained,late_mlp_width50,A thyroglossal duct cyst,Thyroglossal duct cyst,"Thyroglossal duct cyst""}",0,A thyroglossal duct cyst,1
+medmcqa_train_8e68b9dc-53d8-4c22-b6e0-b8a6a5d9adae,neutral,pruned_constrained,late_mlp_width50,a functional pituitary tumor,functional pituitary tumor,"functional pituitary tumor""}",0,a functional pituitary tumor,1
+medmcqa_train_61ed1226-15b2-4f01-97e8-ce055ba04384,neutral,pruned_constrained,late_mlp_width50,Pemphigus vulgaris.,Pemphigus vulgaris,"Pemphigus vulgaris""}",0,Pemphigus vulgaris.,1
+medqa_train_07093,neutral,pruned_constrained,late_mlp_width50,Primary hyperaldosteronism (Conn’s syndrome),,"Primary hyperaldosteronism (Conn’s syndrome"")""}",0,Primary hyperaldosteronism (Conn’s syndrome),1
+medmcqa_train_b4036396-7310-4f28-bf56-4acdf8e6b64a,neutral,pruned_constrained,late_mlp_width50,Inevitable aboion,Incomplete aboion,"Incomplete aboion""}",0,Inevitable aboion,0
+medmcqa_train_33d23960-2b26-44d6-897a-3cd6d3f3d1e4,neutral,pruned_constrained,late_mlp_width50,Asthma,Asthia,"Asthia""}",0,Asthma,0
+medmcqa_train_053a2505-107e-4168-abab-565f43cf2d57,neutral,pruned_constrained,late_mlp_width50,Neonatal Alveolar Proteinosis,Ne Neonatal Alveolar Proteinosis,"Ne Neonatal Alveolar Proteinosis""}",0,Neonatal Alveolar Proteinosis,0
+medmcqa_train_0593c2e0-741a-4350-a5ab-1a610056af6a,neutral,pruned_constrained,late_mlp_width50,Glanzmann thrombasthenia,Ganzmann thrombasthenia,"Ganzmann thrombasthenia""}",0,Glanzmann thrombasthenia,0
+medmcqa_train_d93522e3-8ae1-451e-a688-daec2e5dfe08,neutral,pruned_constrained,late_mlp_width50,McArdle disease (glycogen storage disease),,"McArdle disease (glycogen storage disease"")""}",0,McArdle disease (glycogen storage disease),1
+medqa_train_06667,neutral,pruned_constrained,late_mlp_width50,Autosomal dominant polycystic kidney disease (ADPKD),,"Autosomal dominant polycystic kidney disease (ADPKD"")",0,Autosomal dominant polycystic kidney disease (ADPKD),1
+medmcqa_train_01da52da-4def-4d88-9d75-694686a35f68,neutral,pruned_constrained,late_mlp_width50,Chronic intestinal ischemia (intestinal angina),Chronic intestinal ischemia,"Chronic intestinal ischemia""}",0,Chronic intestinal ischemia (intestinal angina),0
+medmcqa_train_e675b134-430c-4e38-8e06-89dec30f728e,wrong,pruned_constrained,late_mlp_width50,Idiopathic (immune) thrombocytopenic purpura (ITP),,"Idiopathic (immune) thrombocytopenic purpura (ITP"")""}",0,Idiopathic (immune) thrombocytopenic purpura (ITP),1
+medqa_train_03631,wrong,pruned_constrained,late_mlp_width50,Discoid lupus erythematosus (DLE),,"Discoid lupus erythematosus (DLE"")""}",0,Discoid lupus erythematosus (DLE),1
+medmcqa_train_c555e8f8-3cd9-4625-bba3-4897bbc0021b,wrong,pruned_constrained,late_mlp_width50,Congenital adrenal hyperplasia(CAH),,"Congenital adrenal hyperplasia(CAH"")",0,Congenital adrenal hyperplasia(CAH),1
+medmcqa_train_8d747f94-fa97-4ab8-9f19-e0087c503392,wrong,pruned_constrained,late_mlp_width50,Glycogen storage diseases,G glycogen storage diseases,"G glycogen storage diseases""}",0,Glycogen storage diseases,0
+medmcqa_train_93353f21-df7b-491c-a359-30a55a6ea6a4,wrong,pruned_constrained,late_mlp_width50,A thyroglossal duct cyst,Thyroglossal duct cyst,"Thyroglossal duct cyst""}",0,A thyroglossal duct cyst,1
+medmcqa_train_b4036396-7310-4f28-bf56-4acdf8e6b64a,wrong,pruned_constrained,late_mlp_width50,Inevitable aboion,Incomplete aboion,"Incomplete aboion""}",0,Inevitable aboion,0
+medmcqa_train_2a0e0ad5-e7a9-441e-beec-63e0e51e28a9,wrong,pruned_constrained,late_mlp_width50,Phenylketonuria,phenylketonuria,"phenylketonuria""}",0,Phenylketonuria,1
+medmcqa_train_33d23960-2b26-44d6-897a-3cd6d3f3d1e4,wrong,pruned_constrained,late_mlp_width50,Asthma,Asthasia,"Asthasia""}",0,Asthma,0
+medmcqa_train_0593c2e0-741a-4350-a5ab-1a610056af6a,wrong,pruned_constrained,late_mlp_width50,Glanzmann thrombasthenia,Ganzmann thrombasthenia,"Ganzmann thrombasthenia""}",0,Glanzmann thrombasthenia,0
+medmcqa_train_d93522e3-8ae1-451e-a688-daec2e5dfe08,wrong,pruned_constrained,late_mlp_width50,McArdle disease (glycogen storage disease),,"McArdle disease (glycogen storage disease"")""}",0,McArdle disease (glycogen storage disease),1
+medmcqa_train_8c3ffe54-362a-45ab-8b4d-a4947e674b45,wrong,pruned_constrained,late_mlp_width50,Trigeminal neuralgia,trigeminal neuralgia,"trigeminal neuralgia""}",0,Trigeminal neuralgia,1
+medqa_train_06667,wrong,pruned_constrained,late_mlp_width50,Autosomal dominant polycystic kidney disease (ADPKD),,"Autosomal dominant polycystic kidney disease (ADPKD"")",0,Autosomal dominant polycystic kidney disease (ADPKD),1

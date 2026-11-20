@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_00168",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chutziformesphilaxenemphotonicity\"} (Note: This is an error error. actual correct answer is \"Essentialmetapharcicity\"} (Note: This also incorrect. actual correct answer is \"Subdivservicovemansuricity\"} (This is an",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "798c425d5b6deb5ac795447e05a03cd9fcc3624233ea607311c912e00719b6e5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chutziformesphilaxenemphotonicity\"} (Note: This is an error error. actual correct answer is \"Essentialmetapharcicity\"} (Note: This also incorrect. actual correct answer is \"Trabegonovemanservicovemensionalism\"} (",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "5343bc030d57496ce9bd974761ee6f0215cee0f6c38548de132f1d7f5e3f11e3"
+    }
+  ]
+}

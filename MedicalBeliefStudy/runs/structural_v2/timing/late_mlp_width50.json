@@ -1,0 +1,608 @@
+{
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "baseline_parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "trials": [
+    {
+      "case_id": "medqa_train_08607",
+      "condition": "neutral",
+      "repetition": 0,
+      "baseline": {
+        "prefill_seconds": 0.15056879073381424,
+        "fixed12_decode_seconds": 0.2708239578641951,
+        "actual_answer_seconds": 0.2653009593486786,
+        "actual_tokens": 5,
+        "actual_stop": "eos"
+      },
+      "variant": {
+        "prefill_seconds": 0.13051675027236342,
+        "fixed12_decode_seconds": 0.24337950022891164,
+        "actual_answer_seconds": 0.2320133331231773,
+        "actual_tokens": 5,
+        "actual_stop": "eos"
+      },
+      "ratios": {
+        "prefill_seconds": 0.8668247226817397,
+        "fixed12_decode_seconds": 0.8986631099710701,
+        "actual_answer_seconds": 0.8745288132118958
+      }
+    },
+    {
+      "case_id": "medqa_train_08607",
+      "condition": "neutral",
+      "repetition": 1,
+      "baseline": {
+        "prefill_seconds": 0.1696321670897305,
+        "fixed12_decode_seconds": 0.26975374994799495,
+        "actual_answer_seconds": 0.26914108311757445,
+        "actual_tokens": 5,
+        "actual_stop": "eos"
+      },
+      "variant": {
+        "prefill_seconds": 0.12951462483033538,
+        "fixed12_decode_seconds": 0.23255016701295972,
+        "actual_answer_seconds": 0.23227074975147843,
+        "actual_tokens": 5,
+        "actual_stop": "eos"
+      },
+      "ratios": {
+        "prefill_seconds": 0.7635027427423355,
+        "fixed12_decode_seconds": 0.862083166805994,
+        "actual_answer_seconds": 0.8630074125473101
+      }
+    },
+    {
+      "case_id": "medqa_train_08607",
+      "condition": "wrong",
+      "repetition": 0,
+      "baseline": {
+        "prefill_seconds": 0.1832760418765247,
+        "fixed12_decode_seconds": 0.2712152497842908,
+        "actual_answer_seconds": 0.29956229217350483,
+        "actual_tokens": 5,
+        "actual_stop": "eos"
+      },
+      "variant": {
+        "prefill_seconds": 0.17293266579508781,
+        "fixed12_decode_seconds": 0.23901445791125298,
+        "actual_answer_seconds": 0.25565499998629093,
+        "actual_tokens": 5,
+        "actual_stop": "eos"
+      },
+      "ratios": {
+        "prefill_seconds": 0.9435639488089483,
+        "fixed12_decode_seconds": 0.8812721928481215,
+        "actual_answer_seconds": 0.8534285077449499
+      }
+    },
+    {
+      "case_id": "medqa_train_08607",
+      "condition": "wrong",
+      "repetition": 1,
+      "baseline": {
+        "prefill_seconds": 0.19691866682842374,
+        "fixed12_decode_seconds": 0.2740378752350807,
+        "actual_answer_seconds": 0.29470675019547343,
+        "actual_tokens": 5,
+        "actual_stop": "eos"
+      },
+      "variant": {
+        "prefill_seconds": 0.1569582922384143,
+        "fixed12_decode_seconds": 0.2331043342128396,
+        "actual_answer_seconds": 0.25691287498921156,
+        "actual_tokens": 5,
+        "actual_stop": "eos"
+      },
+      "ratios": {
+        "prefill_seconds": 0.7970716782029246,
+        "fixed12_decode_seconds": 0.8506281623037448,
+        "actual_answer_seconds": 0.8717576873241148
+      }
+    },
+    {
+      "case_id": "medqa_train_01997",
+      "condition": "neutral",
+      "repetition": 0,
+      "baseline": {
+        "prefill_seconds": 0.1856955410912633,
+        "fixed12_decode_seconds": 0.318636208306998,
+        "actual_answer_seconds": 0.3320663748309016,
+        "actual_tokens": 6,
+        "actual_stop": "eos"
+      },
+      "variant": {
+        "prefill_seconds": 0.15849258285015821,
+        "fixed12_decode_seconds": 0.23798270896077156,
+        "actual_answer_seconds": 0.2898434167727828,
+        "actual_tokens": 6,
+        "actual_stop": "eos"
+      },
+      "ratios": {
+        "prefill_seconds": 0.8535077467060143,
+        "fixed12_decode_seconds": 0.746879051270536,
+        "actual_answer_seconds": 0.8728478362808639
+      }
+    },
+    {
+      "case_id": "medqa_train_01997",
+      "condition": "neutral",
+      "repetition": 1,
+      "baseline": {
+        "prefill_seconds": 0.1842422909103334,
+        "fixed12_decode_seconds": 0.26846095779910684,
+        "actual_answer_seconds": 0.3198032081127167,
+        "actual_tokens": 6,
+        "actual_stop": "eos"
+      },
+      "variant": {
+        "prefill_seconds": 0.18133758381009102,
+        "fixed12_decode_seconds": 0.2361969999037683,
+        "actual_answer_seconds": 0.28048991691321135,
+        "actual_tokens": 6,
+        "actual_stop": "eos"
+      },
+      "ratios": {
+        "prefill_seconds": 0.9842343086058563,
+        "fixed12_decode_seconds": 0.8798188080686127,
+        "actual_answer_seconds": 0.8770703663934193
+      }
+    },
+    {
+      "case_id": "medqa_train_01997",
+      "condition": "wrong",
+      "repetition": 0,
+      "baseline": {
+        "prefill_seconds": 0.20956483390182257,
+        "fixed12_decode_seconds": 0.3235573749989271,
+        "actual_answer_seconds": 0.31959725031629205,
+        "actual_tokens": 6,
+        "actual_stop": "eos"
+      },
+      "variant": {
+        "prefill_seconds": 0.16005229204893112,
+        "fixed12_decode_seconds": 0.23404704220592976,
+        "actual_answer_seconds": 0.28412887500599027,
+        "actual_tokens": 6,
+        "actual_stop": "eos"
+      },
+      "ratios": {
+        "prefill_seconds": 0.7637364011364273,
+        "fixed12_decode_seconds": 0.7233556095165682,
+        "actual_answer_seconds": 0.8890216506080694
+      }
+    },
+    {
+      "case_id": "medqa_train_01997",
+      "condition": "wrong",
+      "repetition": 1,
+      "baseline": {
+        "prefill_seconds": 0.1841448750346899,
+        "fixed12_decode_seconds": 0.2699851249344647,
+        "actual_answer_seconds": 0.32815133314579725,
+        "actual_tokens": 6,
+        "actual_stop": "eos"
+      },
+      "variant": {
+        "prefill_seconds": 0.17415408277884126,
+        "fixed12_decode_seconds": 0.23481162497773767,
+        "actual_answer_seconds": 0.27677712496370077,
+        "actual_tokens": 6,
+        "actual_stop": "eos"
+      },
+      "ratios": {
+        "prefill_seconds": 0.9457449345035177,
+        "fixed12_decode_seconds": 0.8697206004765451,
+        "actual_answer_seconds": 0.8434435487748849
+      }
+    },
+    {
+      "case_id": "medqa_train_04305",
+      "condition": "neutral",
+      "repetition": 0,
+      "baseline": {
+        "prefill_seconds": 0.21853566588833928,
+        "fixed12_decode_seconds": 0.26851349975913763,
+        "actual_answer_seconds": 0.3736618747934699,
+        "actual_tokens": 7,
+        "actual_stop": "eos"
+      },
+      "variant": {
+        "prefill_seconds": 0.18587150005623698,
+        "fixed12_decode_seconds": 0.23417520802468061,
+        "actual_answer_seconds": 0.32633445877581835,
+        "actual_tokens": 7,
+        "actual_stop": "eos"
+      },
+      "ratios": {
+        "prefill_seconds": 0.8505316480066368,
+        "fixed12_decode_seconds": 0.8721170750622996,
+        "actual_answer_seconds": 0.8733415978180532
+      }
+    },
+    {
+      "case_id": "medqa_train_04305",
+      "condition": "neutral",
+      "repetition": 1,
+      "baseline": {
+        "prefill_seconds": 0.23203225014731288,
+        "fixed12_decode_seconds": 0.26578924991190434,
+        "actual_answer_seconds": 0.37620508298277855,
+        "actual_tokens": 7,
+        "actual_stop": "eos"
+      },
+      "variant": {
+        "prefill_seconds": 0.1858500838279724,
+        "fixed12_decode_seconds": 0.23499670810997486,
+        "actual_answer_seconds": 0.32923795795068145,
+        "actual_tokens": 7,
+        "actual_stop": "eos"
+      },
+      "ratios": {
+        "prefill_seconds": 0.8009666057626891,
+        "fixed12_decode_seconds": 0.8841467748897458,
+        "actual_answer_seconds": 0.8751555277783233
+      }
+    },
+    {
+      "case_id": "medqa_train_04305",
+      "condition": "wrong",
+      "repetition": 0,
+      "baseline": {
+        "prefill_seconds": 0.2194233750924468,
+        "fixed12_decode_seconds": 0.28083633398637176,
+        "actual_answer_seconds": 0.37661062460392714,
+        "actual_tokens": 7,
+        "actual_stop": "eos"
+      },
+      "variant": {
+        "prefill_seconds": 0.2019071658141911,
+        "fixed12_decode_seconds": 0.2430621669627726,
+        "actual_answer_seconds": 0.3334621246904135,
+        "actual_tokens": 7,
+        "actual_stop": "eos"
+      },
+      "ratios": {
+        "prefill_seconds": 0.9201716349915964,
+        "fixed12_decode_seconds": 0.8654940175033327,
+        "actual_answer_seconds": 0.885429414109355
+      }
+    },
+    {
+      "case_id": "medqa_train_04305",
+      "condition": "wrong",
+      "repetition": 1,
+      "baseline": {
+        "prefill_seconds": 0.23889433406293392,
+        "fixed12_decode_seconds": 0.2903327918611467,
+        "actual_answer_seconds": 0.38484845869243145,
+        "actual_tokens": 7,
+        "actual_stop": "eos"
+      },
+      "variant": {
+        "prefill_seconds": 0.1859918748959899,
+        "fixed12_decode_seconds": 0.26189874997362494,
+        "actual_answer_seconds": 0.33746262500062585,
+        "actual_tokens": 7,
+        "actual_stop": "eos"
+      },
+      "ratios": {
+        "prefill_seconds": 0.7785528929580745,
+        "fixed12_decode_seconds": 0.9020639669902651,
+        "actual_answer_seconds": 0.8768714473930735
+      }
+    },
+    {
+      "case_id": "medmcqa_train_316ba48f-b732-42a5-969b-fb1218d2d5ed",
+      "condition": "neutral",
+      "repetition": 0,
+      "baseline": {
+        "prefill_seconds": 0.1410822500474751,
+        "fixed12_decode_seconds": 0.2729909159243107,
+        "actual_answer_seconds": 0.2826779172755778,
+        "actual_tokens": 6,
+        "actual_stop": "eos"
+      },
+      "variant": {
+        "prefill_seconds": 0.12393562495708466,
+        "fixed12_decode_seconds": 0.2439066246151924,
+        "actual_answer_seconds": 0.24363004136830568,
+        "actual_tokens": 6,
+        "actual_stop": "eos"
+      },
+      "ratios": {
+        "prefill_seconds": 0.8784636261144085,
+        "fixed12_decode_seconds": 0.8934605892996741,
+        "actual_answer_seconds": 0.86186442760152
+      }
+    },
+    {
+      "case_id": "medmcqa_train_316ba48f-b732-42a5-969b-fb1218d2d5ed",
+      "condition": "neutral",
+      "repetition": 1,
+      "baseline": {
+        "prefill_seconds": 0.1798125826753676,
+        "fixed12_decode_seconds": 0.5380981252528727,
+        "actual_answer_seconds": 0.4707771670073271,
+        "actual_tokens": 6,
+        "actual_stop": "eos"
+      },
+      "variant": {
+        "prefill_seconds": 0.6310467920266092,
+        "fixed12_decode_seconds": 0.24079091614112258,
+        "actual_answer_seconds": 0.24316620780155063,
+        "actual_tokens": 6,
+        "actual_stop": "eos"
+      },
+      "ratios": {
+        "prefill_seconds": 3.5094695968295877,
+        "fixed12_decode_seconds": 0.44748514228323283,
+        "actual_answer_seconds": 0.5165208188564634
+      }
+    },
+    {
+      "case_id": "medmcqa_train_316ba48f-b732-42a5-969b-fb1218d2d5ed",
+      "condition": "wrong",
+      "repetition": 0,
+      "baseline": {
+        "prefill_seconds": 0.16864783270284534,
+        "fixed12_decode_seconds": 0.27519920794293284,
+        "actual_answer_seconds": 0.3005316252820194,
+        "actual_tokens": 6,
+        "actual_stop": "eos"
+      },
+      "variant": {
+        "prefill_seconds": 0.1246605827473104,
+        "fixed12_decode_seconds": 0.25155862513929605,
+        "actual_answer_seconds": 0.2449938328936696,
+        "actual_tokens": 6,
+        "actual_stop": "eos"
+      },
+      "ratios": {
+        "prefill_seconds": 0.7391769034290542,
+        "fixed12_decode_seconds": 0.9140964722233537,
+        "actual_answer_seconds": 0.8152015038808877
+      }
+    },
+    {
+      "case_id": "medmcqa_train_316ba48f-b732-42a5-969b-fb1218d2d5ed",
+      "condition": "wrong",
+      "repetition": 1,
+      "baseline": {
+        "prefill_seconds": 0.14381208317354321,
+        "fixed12_decode_seconds": 0.30490333400666714,
+        "actual_answer_seconds": 0.2921282919123769,
+        "actual_tokens": 6,
+        "actual_stop": "eos"
+      },
+      "variant": {
+        "prefill_seconds": 0.14104187488555908,
+        "fixed12_decode_seconds": 0.24530412489548326,
+        "actual_answer_seconds": 0.2434052499011159,
+        "actual_tokens": 6,
+        "actual_stop": "eos"
+      },
+      "ratios": {
+        "prefill_seconds": 0.9807373050521685,
+        "fixed12_decode_seconds": 0.8045308054588847,
+        "actual_answer_seconds": 0.8332135456915096
+      }
+    },
+    {
+      "case_id": "medmcqa_train_36916fd3-d205-45c8-831b-1790d5d2d2de",
+      "condition": "neutral",
+      "repetition": 0,
+      "baseline": {
+        "prefill_seconds": 0.11935041705146432,
+        "fixed12_decode_seconds": 0.2808621251024306,
+        "actual_answer_seconds": 0.18892250023782253,
+        "actual_tokens": 3,
+        "actual_stop": "eos"
+      },
+      "variant": {
+        "prefill_seconds": 0.10237066587433219,
+        "fixed12_decode_seconds": 0.24938508309423923,
+        "actual_answer_seconds": 0.16050399979576468,
+        "actual_tokens": 3,
+        "actual_stop": "eos"
+      },
+      "ratios": {
+        "prefill_seconds": 0.8577319493587492,
+        "fixed12_decode_seconds": 0.8879270674295737,
+        "actual_answer_seconds": 0.849575882140647
+      }
+    },
+    {
+      "case_id": "medmcqa_train_36916fd3-d205-45c8-831b-1790d5d2d2de",
+      "condition": "neutral",
+      "repetition": 1,
+      "baseline": {
+        "prefill_seconds": 0.1171570410951972,
+        "fixed12_decode_seconds": 0.266909958794713,
+        "actual_answer_seconds": 0.18466679193079472,
+        "actual_tokens": 3,
+        "actual_stop": "eos"
+      },
+      "variant": {
+        "prefill_seconds": 0.10127408290281892,
+        "fixed12_decode_seconds": 0.24351099971681833,
+        "actual_answer_seconds": 0.16151262493804097,
+        "actual_tokens": 3,
+        "actual_stop": "eos"
+      },
+      "ratios": {
+        "prefill_seconds": 0.8644301866631096,
+        "fixed12_decode_seconds": 0.9123338852414593,
+        "actual_answer_seconds": 0.8746165092777972
+      }
+    },
+    {
+      "case_id": "medmcqa_train_36916fd3-d205-45c8-831b-1790d5d2d2de",
+      "condition": "wrong",
+      "repetition": 0,
+      "baseline": {
+        "prefill_seconds": 0.12302812514826655,
+        "fixed12_decode_seconds": 0.29527466697618365,
+        "actual_answer_seconds": 0.19476237520575523,
+        "actual_tokens": 3,
+        "actual_stop": "eos"
+      },
+      "variant": {
+        "prefill_seconds": 0.10426345886662602,
+        "fixed12_decode_seconds": 0.24242216581478715,
+        "actual_answer_seconds": 0.16582154110074043,
+        "actual_tokens": 3,
+        "actual_stop": "eos"
+      },
+      "ratios": {
+        "prefill_seconds": 0.8474766135058434,
+        "fixed12_decode_seconds": 0.8210056362008885,
+        "actual_answer_seconds": 0.8514043891976545
+      }
+    },
+    {
+      "case_id": "medmcqa_train_36916fd3-d205-45c8-831b-1790d5d2d2de",
+      "condition": "wrong",
+      "repetition": 1,
+      "baseline": {
+        "prefill_seconds": 0.11831395793706179,
+        "fixed12_decode_seconds": 0.3554927911609411,
+        "actual_answer_seconds": 0.20232591731473804,
+        "actual_tokens": 3,
+        "actual_stop": "eos"
+      },
+      "variant": {
+        "prefill_seconds": 0.10255199996754527,
+        "fixed12_decode_seconds": 0.24005499994382262,
+        "actual_answer_seconds": 0.16630312521010637,
+        "actual_tokens": 3,
+        "actual_stop": "eos"
+      },
+      "ratios": {
+        "prefill_seconds": 0.8667785420727685,
+        "fixed12_decode_seconds": 0.6752738899707906,
+        "actual_answer_seconds": 0.8219566104890327
+      }
+    },
+    {
+      "case_id": "medmcqa_train_8124d2c0-a390-45dc-a6e8-4451a7eb1841",
+      "condition": "neutral",
+      "repetition": 0,
+      "baseline": {
+        "prefill_seconds": 0.14029800007119775,
+        "fixed12_decode_seconds": 0.2728992919437587,
+        "actual_answer_seconds": 0.2559199589304626,
+        "actual_tokens": 5,
+        "actual_stop": "eos"
+      },
+      "variant": {
+        "prefill_seconds": 0.18900079187005758,
+        "fixed12_decode_seconds": 0.2782494998537004,
+        "actual_answer_seconds": 0.2653673328459263,
+        "actual_tokens": 5,
+        "actual_stop": "eos"
+      },
+      "ratios": {
+        "prefill_seconds": 1.347138175698473,
+        "fixed12_decode_seconds": 1.0196050633617777,
+        "actual_answer_seconds": 1.0369153463252574
+      }
+    },
+    {
+      "case_id": "medmcqa_train_8124d2c0-a390-45dc-a6e8-4451a7eb1841",
+      "condition": "neutral",
+      "repetition": 1,
+      "baseline": {
+        "prefill_seconds": 0.13957133330404758,
+        "fixed12_decode_seconds": 0.26883420860394835,
+        "actual_answer_seconds": 0.2547291247174144,
+        "actual_tokens": 5,
+        "actual_stop": "eos"
+      },
+      "variant": {
+        "prefill_seconds": 0.135945790912956,
+        "fixed12_decode_seconds": 0.23848933400586247,
+        "actual_answer_seconds": 0.23412949964404106,
+        "actual_tokens": 5,
+        "actual_stop": "eos"
+      },
+      "ratios": {
+        "prefill_seconds": 0.974023731770237,
+        "fixed12_decode_seconds": 0.8871242065670648,
+        "actual_answer_seconds": 0.9191312532627525
+      }
+    },
+    {
+      "case_id": "medmcqa_train_8124d2c0-a390-45dc-a6e8-4451a7eb1841",
+      "condition": "wrong",
+      "repetition": 0,
+      "baseline": {
+        "prefill_seconds": 1.8195968749932945,
+        "fixed12_decode_seconds": 0.31542491633445024,
+        "actual_answer_seconds": 0.28362599993124604,
+        "actual_tokens": 5,
+        "actual_stop": "eos"
+      },
+      "variant": {
+        "prefill_seconds": 0.15003979206085205,
+        "fixed12_decode_seconds": 0.3718514582142234,
+        "actual_answer_seconds": 0.2611015001311898,
+        "actual_tokens": 5,
+        "actual_stop": "eos"
+      },
+      "ratios": {
+        "prefill_seconds": 0.08245771034389415,
+        "fixed12_decode_seconds": 1.1788905662098779,
+        "actual_answer_seconds": 0.9205837976577733
+      }
+    },
+    {
+      "case_id": "medmcqa_train_8124d2c0-a390-45dc-a6e8-4451a7eb1841",
+      "condition": "wrong",
+      "repetition": 1,
+      "baseline": {
+        "prefill_seconds": 0.14762195805087686,
+        "fixed12_decode_seconds": 0.3640175829641521,
+        "actual_answer_seconds": 0.25597349973395467,
+        "actual_tokens": 5,
+        "actual_stop": "eos"
+      },
+      "variant": {
+        "prefill_seconds": 0.8500076667405665,
+        "fixed12_decode_seconds": 0.27635574992746115,
+        "actual_answer_seconds": 0.2673886250704527,
+        "actual_tokens": 5,
+        "actual_stop": "eos"
+      },
+      "ratios": {
+        "prefill_seconds": 5.758002928315159,
+        "fixed12_decode_seconds": 0.7591824210169437,
+        "actual_answer_seconds": 1.0445949496661269
+      }
+    }
+  ]
+}

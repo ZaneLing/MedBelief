@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_202cb4ea-c9ef-4e19-868c-eaae7fca2262",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic long-term disease involving an large-scale systemic or regional subiective disorder or an disease involving an large-scale systemic or an non-linear pathophysic or an non-linear pathycic or an non-linear phissematic or an non-linear philacintic or an non-linear pemphoxan",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "5dae7582df0ad487fdb6fc70080f3dda38cf019d495b532755d0cfc8cfbbb480"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Charcusian disease or hypercephical disease or stress-induced stress disorder or stress-induced hypercephathy or stress-induced hypercephinal disorder or stress-induced hypercephinal disorder peripheral stress disorder or stress-induced hypercephinal disorder peripheral stress hypcephular disease or stress-induced delacellar syndrome or stress-induced del",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "b3de894ff30405e6c864b8c4c56b09cbeadabae50e96c45dcdfafe824a474a3c"
+    }
+  ]
+}

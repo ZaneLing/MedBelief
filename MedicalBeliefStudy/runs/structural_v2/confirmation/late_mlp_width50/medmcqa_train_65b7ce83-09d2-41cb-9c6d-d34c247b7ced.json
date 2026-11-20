@@ -1,0 +1,49 @@
+{
+  "case_id": "medmcqa_train_65b7ce83-09d2-41cb-9c6d-d34c247b7ced",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Chronic endometritis\"}",
+      "generated_disease": "Chronic endometritis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "250c6789dea92dd7a02320d0c58bdd8fe7dda649d2e4d82faa1a3ae837316c5d"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Chronic endometritis\"}",
+      "generated_disease": "Chronic endometritis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "f50e29f7b94c279f2dcc18187b33da42fb718e194b840f7f0b24f27afe3bb7b8"
+    }
+  ]
+}

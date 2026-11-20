@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_a6fa1fb3-522a-403d-a4be-dd03a6398204",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": false,
+      "text": "acute viral hepatitis\"}",
+      "generated_disease": "acute viral hepatitis",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "a27f17cfca3c1454866e9939d16079f1ab0546bed611b89393516bd9b3f7e36e"
+    }
+  ]
+}

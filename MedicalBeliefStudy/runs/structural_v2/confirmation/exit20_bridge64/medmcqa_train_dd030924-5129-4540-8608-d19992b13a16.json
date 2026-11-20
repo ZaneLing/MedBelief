@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_dd030924-5129-4540-8608-d19992b13a16",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pulmonary dysmoma\"}",
+      "generated_disease": "Pulmonary dysmoma",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "de15f33179c6900f45c5b6435b92bc8f421129bb8eb9dbb68ed2c81396346fb8"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocitis\"}",
+      "generated_disease": "Cystocitis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "b4339670362b22242eca02191e3b96148fc2c2c2aca3bfb0f44474d8ae125c5d"
+    }
+  ]
+}

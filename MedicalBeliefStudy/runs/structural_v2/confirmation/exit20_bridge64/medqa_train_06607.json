@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_06607",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocal\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "4f80fd03cc0717964f383d1e29624e2025674471d681da1d0c2c11d14a61b168"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocalumous syndrome\"}",
+      "generated_disease": "Cystocalumous syndrome",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "34fa2eea492551a627db390fa4d19e1e423a9fd7614972c29a36c0040dd95d21"
+    }
+  ]
+}

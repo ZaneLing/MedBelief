@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_07633",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "mlp_width50",
+    "mlp_keep": 0.5
+  },
+  "parameter_stats": {
+    "parameters": 1192092672,
+    "weight_bytes": 2384185344,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cryptosporidiosis\"}\n</think>\n\n{\"diagnosis\":\"Cryptosporidiosis\"}\n",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 18,
+      "prompt_sha256": "ddafc28b2973c64a15170013da432817b643e6cabe0700c232efbcab1c111651"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Traveler\\u2019s diarrhea due to ETEC\"}\n</think>\n\n{\"diagnosis\":\"Traveler\\u2019s diarrhea due to ETEC\"}\n</think>\n\n{\"diagnosis\":\"Traveler\\u2019s diarrhea due to ETEC\"}\n",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 57,
+      "prompt_sha256": "9648bf4c36bf2d8479e861fba1629ac176b4355da639b4bad41876de113d1518"
+    }
+  ]
+}

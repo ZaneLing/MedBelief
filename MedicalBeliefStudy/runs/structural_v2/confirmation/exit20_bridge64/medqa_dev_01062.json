@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_dev_01062",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Bysmom\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "fb90b2d49922c015f4886e4bcfe62b107121e1ab4a3e46c0db8212905e20a32f"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Bysmom\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "4ee5b3bfe8be2bcb7d4fc6d2c92b423510f8d0d47b0f514114cf2289bfc087e6"
+    }
+  ]
+}

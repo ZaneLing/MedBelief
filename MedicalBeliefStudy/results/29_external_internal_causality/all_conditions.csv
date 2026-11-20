@@ -1,0 +1,784 @@
+case_id,gold,competitor,round,layer,condition,natural_update,effect_vs_sham,attenuation,same_first_token,top_changed,source_hit_before,source_hit_after,requested_delta_norm,actual_delta_norm
+medqa_test_0035,Psoriatic arthritis,Rheumatoid arthritis,3,14,self,2.093755870983955,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0035,Psoriatic arthritis,Rheumatoid arthritis,3,14,replace_old,2.093755870983955,0.031248688713617412,-0.031248688713617412,False,False,False,False,4.182797943760052,4.182797943760052
+medqa_test_0035,Psoriatic arthritis,Rheumatoid arthritis,3,14,random_matched,2.093755870983955,-7.152503940233146e-07,7.152503940233146e-07,False,False,False,False,4.182797943760052,4.182473993253614
+medqa_test_0035,Psoriatic arthritis,Rheumatoid arthritis,3,21,self,2.093755870983955,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0035,Psoriatic arthritis,Rheumatoid arthritis,3,21,replace_old,2.093755870983955,-1.531251370895916,1.531251370895916,False,False,False,False,63.46788636728275,63.46788636728275
+medqa_test_0035,Psoriatic arthritis,Rheumatoid arthritis,3,21,random_matched,2.093755870983955,0.18750035762468542,-0.18750035762468542,False,False,False,False,63.46788636728274,63.466486742458365
+medqa_test_0035,Psoriatic arthritis,Rheumatoid arthritis,3,28,self,2.093755870983955,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0035,Psoriatic arthritis,Rheumatoid arthritis,3,28,replace_old,2.093755870983955,-2.0937502682209015,2.0937502682209015,False,True,False,False,273.4624012312676,273.4624012312676
+medqa_test_0035,Psoriatic arthritis,Rheumatoid arthritis,3,28,random_matched,2.093755870983955,-1.0625004768371582,1.0625004768371582,False,False,False,False,273.4624012312676,273.4526830328987
+medqa_test_0040,Polycystic ovarian syndrome (PCOS),Idiopathic hirsutism,4,14,self,5.736478634334958,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0040,Polycystic ovarian syndrome (PCOS),Idiopathic hirsutism,4,14,replace_old,5.736478634334958,0.21345833317013785,-0.21345833317013785,False,False,False,False,3.4784872082272975,3.4784872082272975
+medqa_test_0040,Polycystic ovarian syndrome (PCOS),Idiopathic hirsutism,4,14,random_matched,5.736478634334958,-0.23586906912566974,0.23586906912566974,False,False,False,False,3.478487208227298,3.478077565206976
+medqa_test_0040,Polycystic ovarian syndrome (PCOS),Idiopathic hirsutism,4,21,self,5.736478634334958,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0040,Polycystic ovarian syndrome (PCOS),Idiopathic hirsutism,4,21,replace_old,5.736478634334958,-4.007154424370924,4.007154424370924,False,False,False,False,39.27451479826358,39.27451479826358
+medqa_test_0040,Polycystic ovarian syndrome (PCOS),Idiopathic hirsutism,4,21,random_matched,5.736478634334958,-0.4555597772124429,0.4555597772124429,False,False,False,False,39.27451479826358,39.27075010345094
+medqa_test_0040,Polycystic ovarian syndrome (PCOS),Idiopathic hirsutism,4,28,self,5.736478634334958,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0040,Polycystic ovarian syndrome (PCOS),Idiopathic hirsutism,4,28,replace_old,5.736478634334958,-5.7343745635589585,5.7343745635589585,False,False,False,False,234.2809172960341,234.2809172960341
+medqa_test_0040,Polycystic ovarian syndrome (PCOS),Idiopathic hirsutism,4,28,random_matched,5.736478634334958,-0.31249968765769154,0.31249968765769154,False,False,False,False,234.28091729603412,234.2854838915021
+medqa_test_0071,Cardiac contusion,Pulmonary contusion,4,14,self,-6.843750987199456,0.0,0.0,False,False,True,True,0.0,0.0
+medqa_test_0071,Cardiac contusion,Pulmonary contusion,4,14,replace_old,-6.843750987199456,-0.03125003166496754,-0.03125003166496754,False,False,True,True,5.49736594742156,5.49736594742156
+medqa_test_0071,Cardiac contusion,Pulmonary contusion,4,14,random_matched,-6.843750987199456,0.18749957811189688,0.18749957811189688,False,False,True,True,5.49736594742156,5.497597184267272
+medqa_test_0071,Cardiac contusion,Pulmonary contusion,4,21,self,-6.843750987199456,0.0,0.0,False,False,True,True,0.0,0.0
+medqa_test_0071,Cardiac contusion,Pulmonary contusion,4,21,replace_old,-6.843750987199456,4.656249410099008,4.656249410099008,False,False,True,True,57.79858259476899,57.79858259476899
+medqa_test_0071,Cardiac contusion,Pulmonary contusion,4,21,random_matched,-6.843750987199456,0.12499987660282841,0.12499987660282841,False,False,True,True,57.79858259476898,57.79334660204151
+medqa_test_0071,Cardiac contusion,Pulmonary contusion,4,28,self,-6.843750987199456,0.0,0.0,False,False,True,True,0.0,0.0
+medqa_test_0071,Cardiac contusion,Pulmonary contusion,4,28,replace_old,-6.843750987199456,6.843750152736902,6.843750152736902,False,False,True,True,271.04973693452087,271.04973693452087
+medqa_test_0071,Cardiac contusion,Pulmonary contusion,4,28,random_matched,-6.843750987199456,0.4687498197890818,0.4687498197890818,False,False,True,True,271.04973693452087,271.0417604841365
+medqa_test_0088,Thoracic aortic rupture,Tension pneumothorax,6,14,self,-1.781254705623894,0.0,0.0,False,False,True,True,0.0,0.0
+medqa_test_0088,Thoracic aortic rupture,Tension pneumothorax,6,14,replace_old,-1.781254705623894,0.2187448736077613,0.2187448736077613,False,False,True,True,3.1043208097224846,3.1043208097224846
+medqa_test_0088,Thoracic aortic rupture,Tension pneumothorax,6,14,random_matched,-1.781254705623894,-0.031248206956433933,-0.031248206956433933,False,False,True,True,3.1043208097224846,3.1043959063696183
+medqa_test_0088,Thoracic aortic rupture,Tension pneumothorax,6,21,self,-1.781254705623894,0.0,0.0,False,False,True,True,0.0,0.0
+medqa_test_0088,Thoracic aortic rupture,Tension pneumothorax,6,21,replace_old,-1.781254705623894,1.218750561849447,1.218750561849447,False,False,True,True,28.9500118695677,28.9500118695677
+medqa_test_0088,Thoracic aortic rupture,Tension pneumothorax,6,21,random_matched,-1.781254705623894,-0.15624546482274582,-0.15624546482274582,False,False,True,True,28.9500118695677,28.95071589284206
+medqa_test_0088,Thoracic aortic rupture,Tension pneumothorax,6,28,self,-1.781254705623894,0.0,0.0,False,False,True,True,0.0,0.0
+medqa_test_0088,Thoracic aortic rupture,Tension pneumothorax,6,28,replace_old,-1.781254705623894,1.7812500571017154,1.7812500571017154,False,False,True,True,94.88660195746938,94.88660195746938
+medqa_test_0088,Thoracic aortic rupture,Tension pneumothorax,6,28,random_matched,-1.781254705623894,0.562500190368155,0.562500190368155,False,False,True,True,94.88660195746938,94.89293369471203
+medqa_test_0103,Myxedema coma,Septic shock,3,14,self,5.359373569493748,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0103,Myxedema coma,Septic shock,3,14,replace_old,5.359373569493748,-0.15624976158187565,0.15624976158187565,False,False,True,True,4.158218620498977,4.158218620498977
+medqa_test_0103,Myxedema coma,Septic shock,3,14,random_matched,5.359373569493748,-0.0937498807911652,0.0937498807911652,False,False,True,True,4.158218620498977,4.157405590515624
+medqa_test_0103,Myxedema coma,Septic shock,3,21,self,5.359373569493748,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0103,Myxedema coma,Septic shock,3,21,replace_old,5.359373569493748,-4.156249940395355,4.156249940395355,False,True,True,False,70.84421429002907,70.84421429002907
+medqa_test_0103,Myxedema coma,Septic shock,3,21,random_matched,5.359373569493748,-0.031249642372699782,0.031249642372699782,False,False,True,True,70.84421429002907,70.84255217209545
+medqa_test_0103,Myxedema coma,Septic shock,3,28,self,5.359373569493748,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0103,Myxedema coma,Septic shock,3,28,replace_old,5.359373569493748,-5.359375,5.359375,False,True,True,False,352.92660605592164,352.92660605592164
+medqa_test_0103,Myxedema coma,Septic shock,3,28,random_matched,5.359373569493748,0.2500002384185791,-0.2500002384185791,False,False,True,True,352.92660605592164,352.93267678921995
+medqa_test_0105,Borderline personality disorder,Dependent personality disorder,3,14,self,2.656324748477914,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0105,Borderline personality disorder,Dependent personality disorder,3,14,replace_old,2.656324748477914,-0.07810410960644276,0.07810410960644276,False,False,True,True,4.769440109209465,4.769440109209465
+medqa_test_0105,Borderline personality disorder,Dependent personality disorder,3,14,random_matched,2.656324748477914,-0.015595641932577564,0.015595641932577564,False,False,True,True,4.769440109209465,4.769036230527649
+medqa_test_0105,Borderline personality disorder,Dependent personality disorder,3,21,self,2.656324748477914,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0105,Borderline personality disorder,Dependent personality disorder,3,21,replace_old,2.656324748477914,-1.484351429872504,1.484351429872504,False,False,True,True,75.41552946001028,75.41552946001028
+medqa_test_0105,Borderline personality disorder,Dependent personality disorder,3,21,random_matched,2.656324748477914,-0.7656349979633319,0.7656349979633319,False,False,True,True,75.41552946001028,75.41724662981447
+medqa_test_0105,Borderline personality disorder,Dependent personality disorder,3,28,self,2.656324748477914,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0105,Borderline personality disorder,Dependent personality disorder,3,28,replace_old,2.656324748477914,-2.6562500134459697,2.6562500134459697,False,False,True,True,259.60939706807443,259.60939706807443
+medqa_test_0105,Borderline personality disorder,Dependent personality disorder,3,28,random_matched,2.656324748477914,-1.0468752442102414,1.0468752442102414,False,False,True,True,259.60939706807443,259.60753544587806
+medqa_test_0118,Chronic obstructive pulmonary disease,Asbestosis,4,14,self,10.25621599080074,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0118,Chronic obstructive pulmonary disease,Asbestosis,4,14,replace_old,10.25621599080074,0.15690198820544765,-0.15690198820544765,False,False,True,True,3.000552737883803,3.000552737883803
+medqa_test_0118,Chronic obstructive pulmonary disease,Asbestosis,4,14,random_matched,10.25621599080074,-0.015835132452316714,0.015835132452316714,False,False,True,True,3.000552737883803,3.001070427889167
+medqa_test_0118,Chronic obstructive pulmonary disease,Asbestosis,4,21,self,10.25621599080074,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0118,Chronic obstructive pulmonary disease,Asbestosis,4,21,replace_old,10.25621599080074,-10.344568323390327,10.344568323390327,False,False,True,True,107.24871123174685,107.24871123174685
+medqa_test_0118,Chronic obstructive pulmonary disease,Asbestosis,4,21,random_matched,10.25621599080074,0.25157926046619394,-0.25157926046619394,False,False,True,True,107.24871123174684,107.24520157903817
+medqa_test_0118,Chronic obstructive pulmonary disease,Asbestosis,4,28,self,10.25621599080074,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0118,Chronic obstructive pulmonary disease,Asbestosis,4,28,replace_old,10.25621599080074,-10.249999720882442,10.249999720882442,False,False,True,True,537.9386126605467,537.9386126605467
+medqa_test_0118,Chronic obstructive pulmonary disease,Asbestosis,4,28,random_matched,10.25621599080074,1.3750002385522748,-1.3750002385522748,False,False,True,True,537.9386126605467,537.9492789015836
+medqa_test_0132,Diverticulitis,Irritable bowel syndrome,4,14,self,8.468806591465295,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0132,Diverticulitis,Irritable bowel syndrome,4,14,replace_old,8.468806591465295,-0.0625045295965947,0.0625045295965947,False,False,True,True,3.418294941357614,3.418294941357614
+medqa_test_0132,Diverticulitis,Irritable bowel syndrome,4,14,random_matched,8.468806591465295,-0.06250286082649836,0.06250286082649836,False,False,True,True,3.418294941357614,3.41811764507741
+medqa_test_0132,Diverticulitis,Irritable bowel syndrome,4,21,self,8.468806591465295,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0132,Diverticulitis,Irritable bowel syndrome,4,21,replace_old,8.468806591465295,-5.812501661295869,5.812501661295869,False,True,True,False,99.05140987138017,99.05140987138017
+medqa_test_0132,Diverticulitis,Irritable bowel syndrome,4,21,random_matched,8.468806591465295,1.2500015347886801,-1.2500015347886801,False,False,True,True,99.05140987138017,99.05152070834767
+medqa_test_0132,Diverticulitis,Irritable bowel syndrome,4,28,self,8.468806591465295,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0132,Diverticulitis,Irritable bowel syndrome,4,28,replace_old,8.468806591465295,-8.468750208325218,8.468750208325218,False,True,True,False,483.4625846359831,483.4625846359831
+medqa_test_0132,Diverticulitis,Irritable bowel syndrome,4,28,random_matched,8.468806591465295,-2.5625000968575478,2.5625000968575478,False,True,True,False,483.4625846359831,483.4688286635674
+medqa_test_0148,Frontotemporal dementia,Kluver-Bucy syndrome,3,14,self,17.921883695269187,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0148,Frontotemporal dementia,Kluver-Bucy syndrome,3,14,replace_old,17.921883695269187,0.15624928474016997,-0.15624928474016997,False,False,False,False,4.8062057197611985,4.8062057197611985
+medqa_test_0148,Frontotemporal dementia,Kluver-Bucy syndrome,3,14,random_matched,17.921883695269187,0.2656251192088348,-0.2656251192088348,False,False,False,False,4.8062057197611985,4.806024010255301
+medqa_test_0148,Frontotemporal dementia,Kluver-Bucy syndrome,3,21,self,17.921883695269187,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0148,Frontotemporal dementia,Kluver-Bucy syndrome,3,21,replace_old,17.921883695269187,-13.109377562994041,13.109377562994041,False,True,False,False,182.86606569925337,182.86606569925337
+medqa_test_0148,Frontotemporal dementia,Kluver-Bucy syndrome,3,21,random_matched,17.921883695269187,-1.749997973459358,1.749997973459358,False,False,False,False,182.86606569925337,182.86770622368164
+medqa_test_0148,Frontotemporal dementia,Kluver-Bucy syndrome,3,28,self,17.921883695269187,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0148,Frontotemporal dementia,Kluver-Bucy syndrome,3,28,replace_old,17.921883695269187,-17.92187546985224,17.92187546985224,False,True,False,False,847.0641386051368,847.0641386051368
+medqa_test_0148,Frontotemporal dementia,Kluver-Bucy syndrome,3,28,random_matched,17.921883695269187,-2.84375,2.84375,False,False,False,False,847.0641386051369,847.0735305223069
+medqa_test_0154,Chickenpox,Measles,6,14,self,0.5937503572133593,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0154,Chickenpox,Measles,6,14,replace_old,0.5937503572133593,0.09374976157323545,-0.09374976157323545,False,False,True,True,2.2802924753809872,2.2802924753809872
+medqa_test_0154,Chickenpox,Measles,6,14,random_matched,0.5937503572133593,0.07812452315738483,-0.07812452315738483,False,False,True,True,2.2802924753809872,2.279714792061987
+medqa_test_0154,Chickenpox,Measles,6,21,self,0.5937503572133593,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0154,Chickenpox,Measles,6,21,replace_old,0.5937503572133593,-0.8437501189400791,0.8437501189400791,False,False,True,True,39.49515180580592,39.49515180580592
+medqa_test_0154,Chickenpox,Measles,6,21,random_matched,0.5937503572133593,-0.14062547684261517,0.14062547684261517,False,False,True,True,39.49515180580591,39.50092429561126
+medqa_test_0154,Chickenpox,Measles,6,28,self,0.5937503572133593,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0154,Chickenpox,Measles,6,28,replace_old,0.5937503572133593,-0.5937504764224286,0.5937504764224286,False,False,True,True,173.3940893471506,173.3940893471506
+medqa_test_0154,Chickenpox,Measles,6,28,random_matched,0.5937503572133593,-0.7187496421393007,0.7187496421393007,False,False,True,True,173.3940893471506,173.37558196503218
+medqa_test_0159,Bartter's syndrome,Gitelman's syndrome,7,14,self,-2.082277365077971,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0159,Bartter's syndrome,Gitelman's syndrome,7,14,replace_old,-2.082277365077971,0.03024302754835162,0.03024302754835162,False,False,False,False,2.8040384505651734,2.8040384505651734
+medqa_test_0159,Bartter's syndrome,Gitelman's syndrome,7,14,random_matched,-2.082277365077971,0.09331275854469823,0.09331275854469823,False,False,False,False,2.8040384505651734,2.8042863870835375
+medqa_test_0159,Bartter's syndrome,Gitelman's syndrome,7,21,self,-2.082277365077971,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0159,Bartter's syndrome,Gitelman's syndrome,7,21,replace_old,-2.082277365077971,1.4383379403150798,1.4383379403150798,False,False,False,False,31.32625513965342,31.32625513965342
+medqa_test_0159,Bartter's syndrome,Gitelman's syndrome,7,21,random_matched,-2.082277365077971,-0.6553885657342562,-0.6553885657342562,False,False,False,False,31.32625513965342,31.319527483157703
+medqa_test_0159,Bartter's syndrome,Gitelman's syndrome,7,28,self,-2.082277365077971,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0159,Bartter's syndrome,Gitelman's syndrome,7,28,replace_old,-2.082277365077971,2.0625000484869815,2.0625000484869815,False,False,False,False,105.55251038794752,105.55251038794752
+medqa_test_0159,Bartter's syndrome,Gitelman's syndrome,7,28,random_matched,-2.082277365077971,0.09375018929131329,0.09375018929131329,False,False,False,False,105.55251038794754,105.55799487552173
+medqa_test_0166,Silicosis,Asbestosis,3,14,self,22.0160007897058,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0166,Silicosis,Asbestosis,3,14,replace_old,22.0160007897058,0.25008930056355894,-0.25008930056355894,False,False,True,True,4.402883221519441,4.402883221519441
+medqa_test_0166,Silicosis,Asbestosis,3,14,random_matched,22.0160007897058,-0.031250445055775344,0.031250445055775344,False,False,True,True,4.40288322151944,4.402232610484913
+medqa_test_0166,Silicosis,Asbestosis,3,21,self,22.0160007897058,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0166,Silicosis,Asbestosis,3,21,replace_old,22.0160007897058,-15.296999344951473,15.296999344951473,False,False,True,True,200.88908737928327,200.88908737928327
+medqa_test_0166,Silicosis,Asbestosis,3,21,random_matched,22.0160007897058,-2.171922217705287,2.171922217705287,False,False,True,True,200.88908737928327,200.88772841508165
+medqa_test_0166,Silicosis,Asbestosis,3,28,self,22.0160007897058,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0166,Silicosis,Asbestosis,3,28,replace_old,22.0160007897058,-22.015625761821866,22.015625761821866,False,True,True,False,776.5075568702215,776.5075568702215
+medqa_test_0166,Silicosis,Asbestosis,3,28,random_matched,22.0160007897058,-1.3437502849847078,1.3437502849847078,False,False,True,True,776.5075568702215,776.5068142882336
+medqa_test_0167,Takotsubo cardiomyopathy,Atrial fibrillation,3,14,self,-2.140652538868352,0.0,0.0,False,False,True,True,0.0,0.0
+medqa_test_0167,Takotsubo cardiomyopathy,Atrial fibrillation,3,14,replace_old,-2.140652538868352,-0.015607013305611872,-0.015607013305611872,False,False,True,True,5.877209568577312,5.877209568577312
+medqa_test_0167,Takotsubo cardiomyopathy,Atrial fibrillation,3,14,random_matched,-2.140652538868352,0.10933997970779075,0.10933997970779075,False,False,True,True,5.877209568577312,5.876907322119935
+medqa_test_0167,Takotsubo cardiomyopathy,Atrial fibrillation,3,21,self,-2.140652538868352,0.0,0.0,False,False,True,True,0.0,0.0
+medqa_test_0167,Takotsubo cardiomyopathy,Atrial fibrillation,3,21,replace_old,-2.140652538868352,1.8437897871394924,1.8437897871394924,False,False,True,True,60.23399532027756,60.23399532027756
+medqa_test_0167,Takotsubo cardiomyopathy,Atrial fibrillation,3,21,random_matched,-2.140652538868352,0.17186296876980123,0.17186296876980123,False,False,True,True,60.233995320277565,60.238657837120435
+medqa_test_0167,Takotsubo cardiomyopathy,Atrial fibrillation,3,28,self,-2.140652538868352,0.0,0.0,False,False,True,True,0.0,0.0
+medqa_test_0167,Takotsubo cardiomyopathy,Atrial fibrillation,3,28,replace_old,-2.140652538868352,2.140625,2.140625,False,False,True,True,151.44894907483777,151.44894907483777
+medqa_test_0167,Takotsubo cardiomyopathy,Atrial fibrillation,3,28,random_matched,-2.140652538868352,0.09375,0.09375,False,False,True,True,151.4489490748378,151.4504906740173
+medqa_test_0177,Osteoarthritis,Ankylosing spondylitis,3,14,self,-11.609395022800975,0.0,0.0,False,False,True,True,0.0,0.0
+medqa_test_0177,Osteoarthritis,Ankylosing spondylitis,3,14,replace_old,-11.609395022800975,-0.06249856908834772,-0.06249856908834772,False,False,True,True,4.288419017010628,4.288419017010628
+medqa_test_0177,Osteoarthritis,Ankylosing spondylitis,3,14,random_matched,-11.609395022800975,0.31250250116863754,0.31250250116863754,False,False,True,True,4.288419017010629,4.288340747046011
+medqa_test_0177,Osteoarthritis,Ankylosing spondylitis,3,21,self,-11.609395022800975,0.0,0.0,False,False,True,True,0.0,0.0
+medqa_test_0177,Osteoarthritis,Ankylosing spondylitis,3,21,replace_old,-11.609395022800975,10.67187022788847,10.67187022788847,False,False,True,True,85.86359488683902,85.86359488683902
+medqa_test_0177,Osteoarthritis,Ankylosing spondylitis,3,21,random_matched,-11.609395022800975,1.1249985659196682,1.1249985659196682,False,False,True,True,85.86359488683902,85.86533944562382
+medqa_test_0177,Osteoarthritis,Ankylosing spondylitis,3,28,self,-11.609395022800975,0.0,0.0,False,False,True,True,0.0,0.0
+medqa_test_0177,Osteoarthritis,Ankylosing spondylitis,3,28,replace_old,-11.609395022800975,11.609374638203015,11.609374638203015,False,False,True,True,443.864227539388,443.864227539388
+medqa_test_0177,Osteoarthritis,Ankylosing spondylitis,3,28,random_matched,-11.609395022800975,-0.1562504751709639,-0.1562504751709639,False,False,True,True,443.864227539388,443.86361576688756
+medqa_test_0188,Rotator cuff injury,Rheumatoid arthritis,4,14,self,0.7844743131747691,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0188,Rotator cuff injury,Rheumatoid arthritis,4,14,replace_old,0.7844743131747691,-0.016983568658474724,0.016983568658474724,False,False,True,True,4.2485375574239095,4.2485375574239095
+medqa_test_0188,Rotator cuff injury,Rheumatoid arthritis,4,14,random_matched,0.7844743131747691,-0.10647821425561688,0.10647821425561688,False,False,True,True,4.2485375574239095,4.24788553294119
+medqa_test_0188,Rotator cuff injury,Rheumatoid arthritis,4,21,self,0.7844743131747691,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0188,Rotator cuff injury,Rheumatoid arthritis,4,21,replace_old,0.7844743131747691,-0.6117800473239186,0.6117800473239186,False,False,True,True,42.42459347938424,42.42459347938424
+medqa_test_0188,Rotator cuff injury,Rheumatoid arthritis,4,21,random_matched,0.7844743131747691,0.16622716186441266,-0.16622716186441266,False,False,True,True,42.42459347938424,42.42557113347139
+medqa_test_0188,Rotator cuff injury,Rheumatoid arthritis,4,28,self,0.7844743131747691,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0188,Rotator cuff injury,Rheumatoid arthritis,4,28,replace_old,0.7844743131747691,-0.4374992846605892,0.4374992846605892,False,False,True,True,133.12195016743365,133.12195016743365
+medqa_test_0188,Rotator cuff injury,Rheumatoid arthritis,4,28,random_matched,0.7844743131747691,-0.34374976152139425,0.34374976152139425,False,False,True,True,133.12195016743368,133.11980981806863
+medqa_test_0197,Chronic kidney failure,Renal cell carcinoma,2,14,self,4.562500087544329,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0197,Chronic kidney failure,Renal cell carcinoma,2,14,replace_old,4.562500087544329,0.12500001490138857,-0.12500001490138857,False,False,True,True,5.029034566942524,5.029034566942524
+medqa_test_0197,Chronic kidney failure,Renal cell carcinoma,2,14,random_matched,4.562500087544329,0.06250009685754776,-0.06250009685754776,False,False,True,True,5.029034566942524,5.028344771750005
+medqa_test_0197,Chronic kidney failure,Renal cell carcinoma,2,21,self,4.562500087544329,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0197,Chronic kidney failure,Renal cell carcinoma,2,21,replace_old,4.562500087544329,-3.0625001471487394,3.0625001471487394,False,False,True,True,119.24366420357391,119.24366420357391
+medqa_test_0197,Chronic kidney failure,Renal cell carcinoma,2,21,random_matched,4.562500087544329,-2.5312499683350325,2.5312499683350325,False,False,True,True,119.24366420357393,119.24409533724832
+medqa_test_0197,Chronic kidney failure,Renal cell carcinoma,2,28,self,4.562500087544329,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0197,Chronic kidney failure,Renal cell carcinoma,2,28,replace_old,4.562500087544329,-4.5624999683350325,4.5624999683350325,False,True,True,False,356.0324771377468,356.0324771377468
+medqa_test_0197,Chronic kidney failure,Renal cell carcinoma,2,28,random_matched,4.562500087544329,-0.46875005029141903,0.46875005029141903,False,False,True,True,356.0324771377468,356.03417911101957
+medqa_test_0209,Squamous cell carcinoma,Actinic keratosis,2,14,self,-9.343737414179095,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0209,Squamous cell carcinoma,Actinic keratosis,2,14,replace_old,-9.343737414179095,0.25000844917667564,0.25000844917667564,False,False,False,False,5.055108007833212,5.055108007833212
+medqa_test_0209,Squamous cell carcinoma,Actinic keratosis,2,14,random_matched,-9.343737414179095,-0.06249117229890544,-0.06249117229890544,False,False,False,False,5.055108007833212,5.0548168158907805
+medqa_test_0209,Squamous cell carcinoma,Actinic keratosis,2,21,self,-9.343737414179095,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0209,Squamous cell carcinoma,Actinic keratosis,2,21,replace_old,-9.343737414179095,7.875040589526179,7.875040589526179,False,False,False,False,96.39532783301148,96.39532783301148
+medqa_test_0209,Squamous cell carcinoma,Actinic keratosis,2,21,random_matched,-9.343737414179095,-0.9375091282272479,-0.9375091282272479,False,False,False,False,96.39532783301148,96.39389686075887
+medqa_test_0209,Squamous cell carcinoma,Actinic keratosis,2,28,self,-9.343737414179095,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0209,Squamous cell carcinoma,Actinic keratosis,2,28,replace_old,-9.343737414179095,9.343749927371391,9.343749927371391,False,False,False,False,429.8057735653706,429.8057735653706
+medqa_test_0209,Squamous cell carcinoma,Actinic keratosis,2,28,random_matched,-9.343737414179095,0.3124999935243977,0.3124999935243977,False,False,False,False,429.8057735653706,429.810552466493
+medqa_test_0213,Acalculous cholecystitis,Emphysematous cholecystitis,2,14,self,-3.046707545924207,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0213,Acalculous cholecystitis,Emphysematous cholecystitis,2,14,replace_old,-3.046707545924207,0.312509771672012,0.312509771672012,False,False,False,False,4.848021302000347,4.848021302000347
+medqa_test_0213,Acalculous cholecystitis,Emphysematous cholecystitis,2,14,random_matched,-3.046707545924207,0.10935593273734412,0.10935593273734412,False,False,False,False,4.848021302000346,4.849042908023676
+medqa_test_0213,Acalculous cholecystitis,Emphysematous cholecystitis,2,21,self,-3.046707545924207,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0213,Acalculous cholecystitis,Emphysematous cholecystitis,2,21,replace_old,-3.046707545924207,2.390645257593917,2.390645257593917,False,False,False,False,69.63827125954052,69.63827125954052
+medqa_test_0213,Acalculous cholecystitis,Emphysematous cholecystitis,2,21,random_matched,-3.046707545924207,6.195613423187751e-06,6.195613423187751e-06,False,False,False,False,69.63827125954052,69.63946336117941
+medqa_test_0213,Acalculous cholecystitis,Emphysematous cholecystitis,2,28,self,-3.046707545924207,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0213,Acalculous cholecystitis,Emphysematous cholecystitis,2,28,replace_old,-3.046707545924207,3.046874403313268,3.046874403313268,False,False,False,False,299.75677512626004,299.75677512626004
+medqa_test_0213,Acalculous cholecystitis,Emphysematous cholecystitis,2,28,random_matched,-3.046707545924207,1.2499998806306394,1.2499998806306394,False,False,False,False,299.75677512626004,299.74579049559617
+medqa_test_0228,Chikungunya,Dengue fever,4,14,self,1.8125029951044098,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0228,Chikungunya,Dengue fever,4,14,replace_old,1.8125029951044098,0.09375079720780377,-0.09375079720780377,False,False,True,True,4.009296598292465,4.009296598292465
+medqa_test_0228,Chikungunya,Dengue fever,4,14,random_matched,1.8125029951044098,0.09374936297922432,-0.09374936297922432,False,False,True,True,4.009296598292465,4.010129130017076
+medqa_test_0228,Chikungunya,Dengue fever,4,21,self,1.8125029951044098,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0228,Chikungunya,Dengue fever,4,21,replace_old,1.8125029951044098,-1.5625000447030288,1.5625000447030288,False,False,True,True,56.329375902333766,56.329375902333766
+medqa_test_0228,Chikungunya,Dengue fever,4,21,random_matched,1.8125029951044098,-0.06249972432942741,0.06249972432942741,False,False,True,True,56.329375902333766,56.32745731552095
+medqa_test_0228,Chikungunya,Dengue fever,4,28,self,1.8125029951044098,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0228,Chikungunya,Dengue fever,4,28,replace_old,1.8125029951044098,-1.8125000149011612,1.8125000149011612,False,False,True,True,169.91453915758524,169.91453915758524
+medqa_test_0228,Chikungunya,Dengue fever,4,28,random_matched,1.8125029951044098,-0.4687500447034836,0.4687500447034836,False,False,True,True,169.91453915758524,169.9230407470912
+medqa_test_0230,Coarctation of the aorta,Aortic stenosis,3,14,self,3.2812566389560445,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0230,Coarctation of the aorta,Aortic stenosis,3,14,replace_old,3.2812566389560445,0.09374960839886626,-0.09374960839886626,False,False,True,True,4.753873942629986,4.753873942629986
+medqa_test_0230,Coarctation of the aorta,Aortic stenosis,3,14,random_matched,3.2812566389560445,0.18750112805309982,-0.18750112805309982,False,False,True,True,4.753873942629986,4.754283216065309
+medqa_test_0230,Coarctation of the aorta,Aortic stenosis,3,21,self,3.2812566389560445,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0230,Coarctation of the aorta,Aortic stenosis,3,21,replace_old,3.2812566389560445,-2.7187494871341187,2.7187494871341187,False,False,True,True,89.28027329872,89.28027329872
+medqa_test_0230,Coarctation of the aorta,Aortic stenosis,3,21,random_matched,3.2812566389560445,-0.04687356937756704,0.04687356937756704,False,False,True,True,89.28027329872,89.28304859925557
+medqa_test_0230,Coarctation of the aorta,Aortic stenosis,3,28,self,3.2812566389560445,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0230,Coarctation of the aorta,Aortic stenosis,3,28,replace_old,3.2812566389560445,-3.281249605730409,3.281249605730409,False,False,True,True,277.10026058310734,277.10026058310734
+medqa_test_0230,Coarctation of the aorta,Aortic stenosis,3,28,random_matched,3.2812566389560445,0.3281267925631255,-0.3281267925631255,False,False,True,True,277.10026058310734,277.1059173957986
+medqa_test_0282,Schizoid personality disorder,Autism spectrum disorder,3,14,self,5.252781133774313,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0282,Schizoid personality disorder,Autism spectrum disorder,3,14,replace_old,5.252781133774313,-0.03125771801751398,0.03125771801751398,False,False,False,False,4.261994256886253,4.261994256886253
+medqa_test_0282,Schizoid personality disorder,Autism spectrum disorder,3,14,random_matched,5.252781133774313,-2.7113162559544435e-06,2.7113162559544435e-06,False,False,False,False,4.261994256886253,4.261471203086453
+medqa_test_0282,Schizoid personality disorder,Autism spectrum disorder,3,21,self,5.252781133774313,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0282,Schizoid personality disorder,Autism spectrum disorder,3,21,replace_old,5.252781133774313,-5.312557150680732,5.312557150680732,False,False,False,False,54.97047000109775,54.97047000109775
+medqa_test_0282,Schizoid personality disorder,Autism spectrum disorder,3,21,random_matched,5.252781133774313,-0.4375033224661138,0.4375033224661138,False,False,False,False,54.97047000109775,54.968206231271466
+medqa_test_0282,Schizoid personality disorder,Autism spectrum disorder,3,28,self,5.252781133774313,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0282,Schizoid personality disorder,Autism spectrum disorder,3,28,replace_old,5.252781133774313,-5.249999812338501,5.249999812338501,False,False,False,False,254.4315512731776,254.4315512731776
+medqa_test_0282,Schizoid personality disorder,Autism spectrum disorder,3,28,random_matched,5.252781133774313,0.3437500298023224,-0.3437500298023224,False,False,False,False,254.4315512731776,254.42918072984529
+medqa_test_0303,Vaginal septum,Hyperprolactinemia,7,14,self,-0.3437491470011125,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0303,Vaginal septum,Hyperprolactinemia,7,14,replace_old,-0.3437491470011125,-0.06250142449198393,-0.06250142449198393,False,False,False,False,3.615485526338336,3.615485526338336
+medqa_test_0303,Vaginal septum,Hyperprolactinemia,7,14,random_matched,-0.3437491470011125,0.03124954023383708,0.03124954023383708,False,False,False,False,3.6154855263383356,3.613744918629469
+medqa_test_0303,Vaginal septum,Hyperprolactinemia,7,21,self,-0.3437491470011125,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0303,Vaginal septum,Hyperprolactinemia,7,21,replace_old,-0.3437491470011125,0.6249996834079639,0.6249996834079639,False,False,False,False,71.74370495615607,71.74370495615607
+medqa_test_0303,Vaginal septum,Hyperprolactinemia,7,21,random_matched,-0.3437491470011125,0.3281229767833409,0.3281229767833409,False,False,False,False,71.74370495615607,71.74133836537175
+medqa_test_0303,Vaginal septum,Hyperprolactinemia,7,28,self,-0.3437491470011125,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0303,Vaginal septum,Hyperprolactinemia,7,28,replace_old,-0.3437491470011125,0.34375021985033527,0.34375021985033527,False,False,False,False,287.6013438969249,287.6013438969249
+medqa_test_0303,Vaginal septum,Hyperprolactinemia,7,28,random_matched,-0.3437491470011125,-0.17187478998675942,-0.17187478998675942,False,False,False,False,287.6013438969249,287.60124969830684
+medqa_test_0315,Mixed connective tissue disease,Systemic sclerosis,2,14,self,4.984361431797652,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0315,Mixed connective tissue disease,Systemic sclerosis,2,14,replace_old,4.984361431797652,-0.18750310147515847,0.18750310147515847,False,False,False,False,5.262866090695973,5.262866090695973
+medqa_test_0315,Mixed connective tissue disease,Systemic sclerosis,2,14,random_matched,4.984361431797652,-0.03125202633611934,0.03125202633611934,False,False,False,False,5.262866090695973,5.261597452548345
+medqa_test_0315,Mixed connective tissue disease,Systemic sclerosis,2,21,self,4.984361431797652,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0315,Mixed connective tissue disease,Systemic sclerosis,2,21,replace_old,4.984361431797652,-3.6250018176433514,3.6250018176433514,False,False,False,False,60.57417345466576,60.57417345466576
+medqa_test_0315,Mixed connective tissue disease,Systemic sclerosis,2,21,random_matched,4.984361431797652,0.03125225554674671,-0.03125225554674671,False,False,False,False,60.57417345466576,60.576503091767705
+medqa_test_0315,Mixed connective tissue disease,Systemic sclerosis,2,28,self,4.984361431797652,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0315,Mixed connective tissue disease,Systemic sclerosis,2,28,replace_old,4.984361431797652,-4.98437597463635,4.98437597463635,False,False,False,False,212.19647473332668,212.19647473332668
+medqa_test_0315,Mixed connective tissue disease,Systemic sclerosis,2,28,random_matched,4.984361431797652,0.7812502365122782,-0.7812502365122782,False,False,False,False,212.1964747333267,212.1927391017215
+medqa_test_0318,Somatization disorder,Somatoform pain disorder,4,14,self,-0.7188619441120636,0.0,0.0,True,False,False,False,0.0,0.0
+medqa_test_0318,Somatization disorder,Somatoform pain disorder,4,14,replace_old,-0.7188619441120636,-2.0560237317113206e-06,-2.0560237317113206e-06,True,False,False,False,3.8543261799003203,3.8543261799003203
+medqa_test_0318,Somatization disorder,Somatoform pain disorder,4,14,random_matched,-0.7188619441120636,-1.3406734069576487e-06,-1.3406734069576487e-06,True,False,False,False,3.8543261799003203,3.8544979926497085
+medqa_test_0318,Somatization disorder,Somatoform pain disorder,4,21,self,-0.7188619441120636,0.0,0.0,True,False,False,False,0.0,0.0
+medqa_test_0318,Somatization disorder,Somatoform pain disorder,4,21,replace_old,-0.7188619441120636,-9.833765943767503e-07,-9.833765943767503e-07,True,False,False,False,31.699301465361977,31.699301465361977
+medqa_test_0318,Somatization disorder,Somatoform pain disorder,4,21,random_matched,-0.7188619441120636,1.1917200026800856e-06,1.1917200026800856e-06,True,False,False,False,31.699301465361973,31.698751231396795
+medqa_test_0318,Somatization disorder,Somatoform pain disorder,4,28,self,-0.7188619441120636,0.0,0.0,True,False,False,False,0.0,0.0
+medqa_test_0318,Somatization disorder,Somatoform pain disorder,4,28,replace_old,-0.7188619441120636,0.0,0.0,True,False,False,False,138.72047239086348,138.72047239086348
+medqa_test_0318,Somatization disorder,Somatoform pain disorder,4,28,random_matched,-0.7188619441120636,0.0,0.0,True,False,False,False,138.72047239086348,138.7253112420642
+medqa_test_0319,Bipolar II disorder,Cyclothymic disorder,5,14,self,-4.624995924685919,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0319,Bipolar II disorder,Cyclothymic disorder,5,14,replace_old,-4.624995924685919,0.031249523170345128,0.031249523170345128,False,False,False,False,3.919676032856002,3.919676032856002
+medqa_test_0319,Bipolar II disorder,Cyclothymic disorder,5,14,random_matched,-4.624995924685919,-1.9296501250209985e-06,-1.9296501250209985e-06,False,False,False,False,3.9196760328560023,3.9203382774778706
+medqa_test_0319,Bipolar II disorder,Cyclothymic disorder,5,21,self,-4.624995924685919,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0319,Bipolar II disorder,Cyclothymic disorder,5,21,replace_old,-4.624995924685919,3.593748711118451,3.593748711118451,False,True,False,True,136.4205968114609,136.4205968114609
+medqa_test_0319,Bipolar II disorder,Cyclothymic disorder,5,21,random_matched,-4.624995924685919,-1.4602650253436877e-06,-1.4602650253436877e-06,False,False,False,False,136.42059681146094,136.4244769933298
+medqa_test_0319,Bipolar II disorder,Cyclothymic disorder,5,28,self,-4.624995924685919,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0319,Bipolar II disorder,Cyclothymic disorder,5,28,replace_old,-4.624995924685919,4.624999977648258,4.624999977648258,False,True,False,True,505.9412775719785,505.9412775719785
+medqa_test_0319,Bipolar II disorder,Cyclothymic disorder,5,28,random_matched,-4.624995924685919,1.4687499329447746,1.4687499329447746,False,False,False,False,505.9412775719785,505.93792277339384
+medqa_test_0325,Autosomal dominant polycystic kidney disease,Obstructive cystic dysplasia,3,14,self,-0.9681486922790938,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0325,Autosomal dominant polycystic kidney disease,Obstructive cystic dysplasia,3,14,replace_old,-0.9681486922790938,-0.0932708431505489,-0.0932708431505489,False,False,False,False,3.623037035304072,3.623037035304072
+medqa_test_0325,Autosomal dominant polycystic kidney disease,Obstructive cystic dysplasia,3,14,random_matched,-0.9681486922790938,0.4384177410972825,0.4384177410972825,False,False,False,False,3.623037035304072,3.6227085469820643
+medqa_test_0325,Autosomal dominant polycystic kidney disease,Obstructive cystic dysplasia,3,21,self,-0.9681486922790938,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0325,Autosomal dominant polycystic kidney disease,Obstructive cystic dysplasia,3,21,replace_old,-0.9681486922790938,2.28124376269966,2.28124376269966,False,True,False,True,39.94119667035545,39.94119667035545
+medqa_test_0325,Autosomal dominant polycystic kidney disease,Obstructive cystic dysplasia,3,21,random_matched,-0.9681486922790938,-1.906698665115755,-1.906698665115755,False,False,False,False,39.94119667035545,39.93987814884927
+medqa_test_0325,Autosomal dominant polycystic kidney disease,Obstructive cystic dysplasia,3,28,self,-0.9681486922790938,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0325,Autosomal dominant polycystic kidney disease,Obstructive cystic dysplasia,3,28,replace_old,-0.9681486922790938,1.0000000596046448,1.0000000596046448,False,False,False,False,122.32883085003847,122.32883085003847
+medqa_test_0325,Autosomal dominant polycystic kidney disease,Obstructive cystic dysplasia,3,28,random_matched,-0.9681486922790938,-0.5624999403953552,-0.5624999403953552,False,False,False,False,122.32883085003846,122.32353676962623
+medqa_test_0335,Hypertrophic cardiomyopathy,Takotsubo cardiomyopathy,3,14,self,1.000258510326404,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0335,Hypertrophic cardiomyopathy,Takotsubo cardiomyopathy,3,14,replace_old,1.000258510326404,0.07811237108558089,-0.07811237108558089,False,False,False,False,4.718416088892915,4.718416088892915
+medqa_test_0335,Hypertrophic cardiomyopathy,Takotsubo cardiomyopathy,3,14,random_matched,1.000258510326404,-0.06252703969539652,0.06252703969539652,False,False,False,False,4.718416088892915,4.7181065569741785
+medqa_test_0335,Hypertrophic cardiomyopathy,Takotsubo cardiomyopathy,3,21,self,1.000258510326404,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0335,Hypertrophic cardiomyopathy,Takotsubo cardiomyopathy,3,21,replace_old,1.000258510326404,-1.0000471732886353,1.0000471732886353,False,False,False,False,52.38379261325261,52.38379261325261
+medqa_test_0335,Hypertrophic cardiomyopathy,Takotsubo cardiomyopathy,3,21,random_matched,1.000258510326404,-0.21876894402726066,0.21876894402726066,False,False,False,False,52.3837926132526,52.38392422464109
+medqa_test_0335,Hypertrophic cardiomyopathy,Takotsubo cardiomyopathy,3,28,self,1.000258510326404,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0335,Hypertrophic cardiomyopathy,Takotsubo cardiomyopathy,3,28,replace_old,1.000258510326404,-1.0,1.0,False,False,False,False,132.42041284254674,132.42041284254674
+medqa_test_0335,Hypertrophic cardiomyopathy,Takotsubo cardiomyopathy,3,28,random_matched,1.000258510326404,0.21875,-0.21875,False,False,False,False,132.42041284254674,132.4134497854518
+medqa_test_0359,Polymyositis,Polymyalgia rheumatica,2,14,self,-0.8750025042899097,0.0,0.0,True,False,False,False,0.0,0.0
+medqa_test_0359,Polymyositis,Polymyalgia rheumatica,2,14,replace_old,-0.8750025042899097,-1.072852683137171e-06,-1.072852683137171e-06,True,False,False,False,4.607820514059851,4.607820514059851
+medqa_test_0359,Polymyositis,Polymyalgia rheumatica,2,14,random_matched,-0.8750025042899097,0.0625011268639355,0.0625011268639355,True,False,False,False,4.60782051405985,4.608340015194537
+medqa_test_0359,Polymyositis,Polymyalgia rheumatica,2,21,self,-0.8750025042899097,0.0,0.0,True,False,False,False,0.0,0.0
+medqa_test_0359,Polymyositis,Polymyalgia rheumatica,2,21,replace_old,-0.8750025042899097,0.031248761367351108,0.031248761367351108,True,False,False,False,43.57429312468992,43.57429312468992
+medqa_test_0359,Polymyositis,Polymyalgia rheumatica,2,21,random_matched,-0.8750025042899097,-2.3841579377403832e-07,-2.3841579377403832e-07,True,False,False,False,43.57429312468992,43.57574523494843
+medqa_test_0359,Polymyositis,Polymyalgia rheumatica,2,28,self,-0.8750025042899097,0.0,0.0,True,False,False,False,0.0,0.0
+medqa_test_0359,Polymyositis,Polymyalgia rheumatica,2,28,replace_old,-0.8750025042899097,0.0,0.0,True,False,False,False,139.80946345990174,139.80946345990174
+medqa_test_0359,Polymyositis,Polymyalgia rheumatica,2,28,random_matched,-0.8750025042899097,0.0,0.0,True,False,False,False,139.80946345990174,139.81470339329482
+medqa_test_0363,Papillary carcinoma of the thyroid,Follicular carcinoma of the thyroid,3,14,self,1.5156141522838311,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0363,Papillary carcinoma of the thyroid,Follicular carcinoma of the thyroid,3,14,replace_old,1.5156141522838311,0.015627503290943423,-0.015627503290943423,False,False,True,True,5.122395131945906,5.122395131945906
+medqa_test_0363,Papillary carcinoma of the thyroid,Follicular carcinoma of the thyroid,3,14,random_matched,1.5156141522838311,-0.07812368873737796,0.07812368873737796,False,False,True,True,5.122395131945906,5.121413368160454
+medqa_test_0363,Papillary carcinoma of the thyroid,Follicular carcinoma of the thyroid,3,21,self,1.5156141522838311,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0363,Papillary carcinoma of the thyroid,Follicular carcinoma of the thyroid,3,21,replace_old,1.5156141522838311,-1.093750834457751,1.093750834457751,False,False,True,True,39.48398516228159,39.48398516228159
+medqa_test_0363,Papillary carcinoma of the thyroid,Follicular carcinoma of the thyroid,3,21,random_matched,1.5156141522838311,0.07812643047060419,-0.07812643047060419,False,False,True,True,39.48398516228159,39.477834797847294
+medqa_test_0363,Papillary carcinoma of the thyroid,Follicular carcinoma of the thyroid,3,28,self,1.5156141522838311,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0363,Papillary carcinoma of the thyroid,Follicular carcinoma of the thyroid,3,28,replace_old,1.5156141522838311,-1.515625,1.515625,False,False,True,True,120.78548538288014,120.78548538288014
+medqa_test_0363,Papillary carcinoma of the thyroid,Follicular carcinoma of the thyroid,3,28,random_matched,1.5156141522838311,-0.015625,0.015625,False,False,True,True,120.78548538288013,120.78401007991633
+medqa_test_0368,Trichomonal vaginitis,Chlamydia infection,4,14,self,2.0937536950694096,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0368,Trichomonal vaginitis,Chlamydia infection,4,14,replace_old,2.0937536950694096,0.28125023813299066,-0.28125023813299066,False,False,False,False,3.635955336107019,3.635955336107019
+medqa_test_0368,Trichomonal vaginitis,Chlamydia infection,4,14,random_matched,2.0937536950694096,-0.1875002382966855,0.1875002382966855,False,False,False,False,3.6359553361070196,3.636036450728036
+medqa_test_0368,Trichomonal vaginitis,Chlamydia infection,4,21,self,2.0937536950694096,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0368,Trichomonal vaginitis,Chlamydia infection,4,21,replace_old,2.0937536950694096,-2.1562501188254615,2.1562501188254615,False,False,False,False,41.657553878863986,41.657553878863986
+medqa_test_0368,Trichomonal vaginitis,Chlamydia infection,4,21,random_matched,2.0937536950694096,0.31249940362615547,-0.31249940362615547,False,False,False,False,41.657553878863986,41.656113104876624
+medqa_test_0368,Trichomonal vaginitis,Chlamydia infection,4,28,self,2.0937536950694096,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0368,Trichomonal vaginitis,Chlamydia infection,4,28,replace_old,2.0937536950694096,-2.093750476457444,2.093750476457444,False,False,False,False,149.6228684048544,149.6228684048544
+medqa_test_0368,Trichomonal vaginitis,Chlamydia infection,4,28,random_matched,2.0937536950694096,-0.31249976140315994,0.31249976140315994,False,False,False,False,149.62286840485442,149.63355480155838
+medqa_test_0374,Valley fever,Blastomycosis,6,14,self,1.1249997030969894,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0374,Valley fever,Blastomycosis,6,14,replace_old,1.1249997030969894,0.1562522236499717,-0.1562522236499717,False,False,True,True,2.860710578365731,2.860710578365731
+medqa_test_0374,Valley fever,Blastomycosis,6,14,random_matched,1.1249997030969894,0.3437508094102668,-0.3437508094102668,False,False,True,True,2.8607105783657305,2.8604086480035726
+medqa_test_0374,Valley fever,Blastomycosis,6,21,self,1.1249997030969894,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0374,Valley fever,Blastomycosis,6,21,replace_old,1.1249997030969894,-0.21874998042403604,0.21874998042403604,False,False,True,True,27.91586609383125,27.91586609383125
+medqa_test_0374,Valley fever,Blastomycosis,6,21,random_matched,1.1249997030969894,-0.46875067563087214,0.46875067563087214,False,False,True,True,27.915866093831248,27.91823899463652
+medqa_test_0374,Valley fever,Blastomycosis,6,28,self,1.1249997030969894,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0374,Valley fever,Blastomycosis,6,28,replace_old,1.1249997030969894,-1.125000060768798,1.125000060768798,False,False,True,True,97.69640273653062,97.69640273653062
+medqa_test_0374,Valley fever,Blastomycosis,6,28,random_matched,1.1249997030969894,0.09374981664586812,-0.09374981664586812,False,False,True,True,97.69640273653062,97.69735902667892
+medqa_test_0392,Chronic obstructive pulmonary disease,Bronchiectasis,6,14,self,0.4375145433224077,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0392,Chronic obstructive pulmonary disease,Bronchiectasis,6,14,replace_old,0.4375145433224077,0.09375154963709065,-0.09375154963709065,False,False,True,True,2.747973083120117,2.747973083120117
+medqa_test_0392,Chronic obstructive pulmonary disease,Bronchiectasis,6,14,random_matched,0.4375145433224077,-0.01562428483845224,0.01562428483845224,False,False,True,True,2.747973083120117,2.7471345472431286
+medqa_test_0392,Chronic obstructive pulmonary disease,Bronchiectasis,6,21,self,0.4375145433224077,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0392,Chronic obstructive pulmonary disease,Bronchiectasis,6,21,replace_old,0.4375145433224077,-0.7031222585524688,0.7031222585524688,False,False,True,True,40.01210462922636,40.01210462922636
+medqa_test_0392,Chronic obstructive pulmonary disease,Bronchiectasis,6,21,random_matched,0.4375145433224077,0.25000333808560526,-0.25000333808560526,False,False,True,True,40.01210462922636,40.012818876813434
+medqa_test_0392,Chronic obstructive pulmonary disease,Bronchiectasis,6,28,self,0.4375145433224077,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0392,Chronic obstructive pulmonary disease,Bronchiectasis,6,28,replace_old,0.4375145433224077,-0.43749976194703777,0.43749976194703777,False,False,True,True,144.0317575566194,144.0317575566194
+medqa_test_0392,Chronic obstructive pulmonary disease,Bronchiectasis,6,28,random_matched,0.4375145433224077,0.9843749996907718,-0.9843749996907718,False,False,True,True,144.0317575566194,144.035917518896
+medqa_test_0464,Borderline personality disorder,Normal grief response,5,14,self,2.9687478160623186,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0464,Borderline personality disorder,Normal grief response,5,14,replace_old,2.9687478160623186,6.351569936668966e-07,-6.351569936668966e-07,False,False,False,False,2.4945135900519406,2.4945135900519406
+medqa_test_0464,Borderline personality disorder,Normal grief response,5,14,random_matched,2.9687478160623186,0.03125030267619877,-0.03125030267619877,False,False,False,False,2.4945135900519406,2.495169000302864
+medqa_test_0464,Borderline personality disorder,Normal grief response,5,21,self,2.9687478160623186,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0464,Borderline personality disorder,Normal grief response,5,21,replace_old,2.9687478160623186,-1.7187495837015376,1.7187495837015376,False,False,False,False,22.00932256422089,22.00932256422089
+medqa_test_0464,Borderline personality disorder,Normal grief response,5,21,random_matched,2.9687478160623186,3.4179083741037175e-07,-3.4179083741037175e-07,False,False,False,False,22.00932256422089,22.0075141921885
+medqa_test_0464,Borderline personality disorder,Normal grief response,5,28,self,2.9687478160623186,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0464,Borderline personality disorder,Normal grief response,5,28,replace_old,2.9687478160623186,-2.968750081025064,2.968750081025064,False,False,False,False,92.55736613573383,92.55736613573383
+medqa_test_0464,Borderline personality disorder,Normal grief response,5,28,random_matched,2.9687478160623186,0.1250000847503543,-0.1250000847503543,False,False,False,False,92.55736613573383,92.56529076991313
+medqa_test_0513,Spinal stenosis,Compression fracture,4,14,self,8.812498834799243,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0513,Spinal stenosis,Compression fracture,4,14,replace_old,8.812498834799243,0.17187645204830915,-0.17187645204830915,False,False,True,True,4.7986007672668745,4.7986007672668745
+medqa_test_0513,Spinal stenosis,Compression fracture,4,14,random_matched,8.812498834799243,0.07812508463393897,-0.07812508463393897,False,False,True,True,4.7986007672668745,4.799687106053907
+medqa_test_0513,Spinal stenosis,Compression fracture,4,21,self,8.812498834799243,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0513,Spinal stenosis,Compression fracture,4,21,replace_old,8.812498834799243,-5.406248957617208,5.406248957617208,False,False,True,True,75.33930186809935,75.33930186809935
+medqa_test_0513,Spinal stenosis,Compression fracture,4,21,random_matched,8.812498834799243,0.5000011504744108,-0.5000011504744108,False,False,True,True,75.33930186809935,75.33742276589328
+medqa_test_0513,Spinal stenosis,Compression fracture,4,28,self,8.812498834799243,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0513,Spinal stenosis,Compression fracture,4,28,replace_old,8.812498834799243,-8.812499430845492,8.812499430845492,False,False,True,True,341.72071947839294,341.72071947839294
+medqa_test_0513,Spinal stenosis,Compression fracture,4,28,random_matched,8.812498834799243,1.4062510068179108,-1.4062510068179108,False,False,True,True,341.72071947839294,341.71315727043805
+medqa_test_0529,Central retinal artery occlusion,Anterior ischemic optic neuropathy,4,14,self,-0.40625223144569844,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0529,Central retinal artery occlusion,Anterior ischemic optic neuropathy,4,14,replace_old,-0.40625223144569844,0.24999965354800224,0.24999965354800224,False,False,False,False,4.637716644175459,4.637716644175459
+medqa_test_0529,Central retinal artery occlusion,Anterior ischemic optic neuropathy,4,14,random_matched,-0.40625223144569844,0.09374979324627475,0.09374979324627475,False,False,False,False,4.637716644175459,4.638707607425371
+medqa_test_0529,Central retinal artery occlusion,Anterior ischemic optic neuropathy,4,21,self,-0.40625223144569844,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0529,Central retinal artery occlusion,Anterior ischemic optic neuropathy,4,21,replace_old,-0.40625223144569844,0.5624999478457084,0.5624999478457084,False,False,False,False,41.76600444791161,41.76600444791161
+medqa_test_0529,Central retinal artery occlusion,Anterior ischemic optic neuropathy,4,21,random_matched,-0.40625223144569844,0.1562499757853857,0.1562499757853857,False,False,False,False,41.76600444791161,41.76761484667194
+medqa_test_0529,Central retinal artery occlusion,Anterior ischemic optic neuropathy,4,28,self,-0.40625223144569844,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0529,Central retinal artery occlusion,Anterior ischemic optic neuropathy,4,28,replace_old,-0.40625223144569844,0.40624984726309776,0.40624984726309776,False,False,False,False,115.17414400471115,115.17414400471115
+medqa_test_0529,Central retinal artery occlusion,Anterior ischemic optic neuropathy,4,28,random_matched,-0.40625223144569844,-2.384185791015625e-07,-2.384185791015625e-07,False,False,False,False,115.17414400471115,115.16626590825938
+medqa_test_0545,Temporomandibular joint dysfunction,Migraine headache,3,14,self,12.765693859341788,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0545,Temporomandibular joint dysfunction,Migraine headache,3,14,replace_old,12.765693859341788,-0.1249984988662618,0.1249984988662618,False,False,False,False,3.345513477339573,3.345513477339573
+medqa_test_0545,Temporomandibular joint dysfunction,Migraine headache,3,14,random_matched,12.765693859341788,0.2812502607703209,-0.2812502607703209,False,False,False,False,3.345513477339573,3.345626515870773
+medqa_test_0545,Temporomandibular joint dysfunction,Migraine headache,3,21,self,12.765693859341788,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0545,Temporomandibular joint dysfunction,Migraine headache,3,21,replace_old,12.765693859341788,-10.000006525041044,10.000006525041044,False,False,False,False,119.41088341832186,119.41088341832186
+medqa_test_0545,Temporomandibular joint dysfunction,Migraine headache,3,21,random_matched,12.765693859341788,0.09375161661694165,-0.09375161661694165,False,False,False,False,119.41088341832184,119.40784875749452
+medqa_test_0545,Temporomandibular joint dysfunction,Migraine headache,3,28,self,12.765693859341788,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0545,Temporomandibular joint dysfunction,Migraine headache,3,28,replace_old,12.765693859341788,-12.76562507863855,12.76562507863855,False,False,False,False,593.8087755240422,593.8087755240422
+medqa_test_0545,Temporomandibular joint dysfunction,Migraine headache,3,28,random_matched,12.765693859341788,-1.0937497541308403,1.0937497541308403,False,False,False,False,593.8087755240422,593.8032559560165
+medqa_test_0558,Molluscum contagiosum,Atopic dermatitis,5,14,self,-3.90624642375289,0.0,0.0,False,False,True,True,0.0,0.0
+medqa_test_0558,Molluscum contagiosum,Atopic dermatitis,5,14,replace_old,-3.90624642375289,-0.06249690061446245,-0.06249690061446245,False,False,True,True,4.034450143938906,4.034450143938906
+medqa_test_0558,Molluscum contagiosum,Atopic dermatitis,5,14,random_matched,-3.90624642375289,-0.10937571527790624,-0.10937571527790624,False,False,True,True,4.034450143938906,4.034695432283128
+medqa_test_0558,Molluscum contagiosum,Atopic dermatitis,5,21,self,-3.90624642375289,0.0,0.0,False,False,True,True,0.0,0.0
+medqa_test_0558,Molluscum contagiosum,Atopic dermatitis,5,21,replace_old,-3.90624642375289,4.437497973437786,4.437497973437786,False,False,True,True,127.1762905232253,127.1762905232253
+medqa_test_0558,Molluscum contagiosum,Atopic dermatitis,5,21,random_matched,-3.90624642375289,-1.8437509535565368,-1.8437509535565368,False,False,True,True,127.17629052322532,127.1741801820363
+medqa_test_0558,Molluscum contagiosum,Atopic dermatitis,5,28,self,-3.90624642375289,0.0,0.0,False,False,True,True,0.0,0.0
+medqa_test_0558,Molluscum contagiosum,Atopic dermatitis,5,28,replace_old,-3.90624642375289,3.9062489271157688,3.9062489271157688,False,False,True,True,335.40308679602987,335.40308679602987
+medqa_test_0558,Molluscum contagiosum,Atopic dermatitis,5,28,random_matched,-3.90624642375289,0.12499833108063285,0.12499833108063285,False,False,True,True,335.40308679602987,335.407270123532
+medqa_test_0568,Primary biliary cirrhosis,Hepatitis A,5,14,self,2.6986472736966434,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0568,Primary biliary cirrhosis,Hepatitis A,5,14,replace_old,2.6986472736966434,0.0001102128794627788,-0.0001102128794627788,False,False,True,True,2.950255193360294,2.950255193360294
+medqa_test_0568,Primary biliary cirrhosis,Hepatitis A,5,14,random_matched,2.6986472736966434,0.17282187889179568,-0.17282187889179568,False,False,True,True,2.9502551933602934,2.9499320232004007
+medqa_test_0568,Primary biliary cirrhosis,Hepatitis A,5,21,self,2.6986472736966434,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0568,Primary biliary cirrhosis,Hepatitis A,5,21,replace_old,2.6986472736966434,-1.9534518778517622,1.9534518778517622,False,False,True,True,32.338990290190196,32.338990290190196
+medqa_test_0568,Primary biliary cirrhosis,Hepatitis A,5,21,random_matched,2.6986472736966434,0.4067629242063049,-0.4067629242063049,False,False,True,True,32.338990290190196,32.33818756458635
+medqa_test_0568,Primary biliary cirrhosis,Hepatitis A,5,28,self,2.6986472736966434,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0568,Primary biliary cirrhosis,Hepatitis A,5,28,replace_old,2.6986472736966434,-2.671874410487362,2.671874410487362,False,False,True,True,130.79645217497463,130.79645217497463
+medqa_test_0568,Primary biliary cirrhosis,Hepatitis A,5,28,random_matched,2.6986472736966434,-0.23437512657255866,0.23437512657255866,False,False,True,True,130.79645217497463,130.80137152898635
+medqa_test_0571,Pneumonia,Subphrenic abscess,5,14,self,4.009355176414601,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0571,Pneumonia,Subphrenic abscess,5,14,replace_old,4.009355176414601,0.5538917616070194,-0.5538917616070194,False,False,False,False,3.247065536990275,3.247065536990275
+medqa_test_0571,Pneumonia,Subphrenic abscess,5,14,random_matched,4.009355176414601,0.02704370418337021,-0.02704370418337021,False,False,False,False,3.2470655369902754,3.246577793291802
+medqa_test_0571,Pneumonia,Subphrenic abscess,5,21,self,4.009355176414601,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0571,Pneumonia,Subphrenic abscess,5,21,replace_old,4.009355176414601,-1.630783310363995,1.630783310363995,False,False,False,False,29.247010573240445,29.247010573240445
+medqa_test_0571,Pneumonia,Subphrenic abscess,5,21,random_matched,4.009355176414601,-0.07110436416405719,0.07110436416405719,False,False,False,False,29.247010573240445,29.248757457238025
+medqa_test_0571,Pneumonia,Subphrenic abscess,5,28,self,4.009355176414601,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0571,Pneumonia,Subphrenic abscess,5,28,replace_old,4.009355176414601,-2.4375001220032573,2.4375001220032573,False,False,False,False,106.92463841839835,106.92463841839835
+medqa_test_0571,Pneumonia,Subphrenic abscess,5,28,random_matched,4.009355176414601,0.125,-0.125,False,False,False,False,106.92463841839835,106.92534757712654
+medqa_test_0576,Ruptured ovarian cyst,Pelvic inflammatory disease,5,14,self,1.953117850644901,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0576,Ruptured ovarian cyst,Pelvic inflammatory disease,5,14,replace_old,1.953117850644901,0.15624773652280055,-0.15624773652280055,False,False,False,False,2.896964336552818,2.896964336552818
+medqa_test_0576,Ruptured ovarian cyst,Pelvic inflammatory disease,5,14,random_matched,1.953117850644901,-0.031251660638702106,0.031251660638702106,False,False,False,False,2.896964336552818,2.8972504600117235
+medqa_test_0576,Ruptured ovarian cyst,Pelvic inflammatory disease,5,21,self,1.953117850644901,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0576,Ruptured ovarian cyst,Pelvic inflammatory disease,5,21,replace_old,1.953117850644901,-1.5937559624830442,1.5937559624830442,False,False,False,False,39.52119963868326,39.52119963868326
+medqa_test_0576,Ruptured ovarian cyst,Pelvic inflammatory disease,5,21,random_matched,1.953117850644901,-0.14062511128918231,0.14062511128918231,False,False,False,False,39.52119963868326,39.51943178260177
+medqa_test_0576,Ruptured ovarian cyst,Pelvic inflammatory disease,5,28,self,1.953117850644901,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0576,Ruptured ovarian cyst,Pelvic inflammatory disease,5,28,replace_old,1.953117850644901,-1.953125004132744,1.953125004132744,False,False,False,False,177.07813074106375,177.07813074106375
+medqa_test_0576,Ruptured ovarian cyst,Pelvic inflammatory disease,5,28,random_matched,1.953117850644901,-0.624999987980118,0.624999987980118,False,False,False,False,177.07813074106372,177.07895654451968
+medqa_test_0584,Tracheobronchial rupture,Tension pneumothorax,4,14,self,2.859387754516952,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0584,Tracheobronchial rupture,Tension pneumothorax,4,14,replace_old,2.859387754516952,0.1093760728197708,-0.1093760728197708,False,False,False,False,5.143190415644833,5.143190415644833
+medqa_test_0584,Tracheobronchial rupture,Tension pneumothorax,4,14,random_matched,2.859387754516952,-0.28124737759316076,0.28124737759316076,False,False,False,False,5.143190415644833,5.144366278982013
+medqa_test_0584,Tracheobronchial rupture,Tension pneumothorax,4,21,self,2.859387754516952,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0584,Tracheobronchial rupture,Tension pneumothorax,4,21,replace_old,2.859387754516952,-2.6250021454845296,2.6250021454845296,False,False,False,False,80.18821620919222,80.18821620919222
+medqa_test_0584,Tracheobronchial rupture,Tension pneumothorax,4,21,random_matched,2.859387754516952,0.21875047697523087,-0.21875047697523087,False,False,False,False,80.18821620919222,80.18839296673235
+medqa_test_0584,Tracheobronchial rupture,Tension pneumothorax,4,28,self,2.859387754516952,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0584,Tracheobronchial rupture,Tension pneumothorax,4,28,replace_old,2.859387754516952,-2.8593755963183867,2.8593755963183867,False,False,False,False,253.38264741022715,253.38264741022715
+medqa_test_0584,Tracheobronchial rupture,Tension pneumothorax,4,28,random_matched,2.859387754516952,0.7968754768689905,-0.7968754768689905,False,False,False,False,253.38264741022718,253.38681146657512
+medqa_test_0585,Cardiac tamponade,Rheumatic fever,3,14,self,1.67100133927881,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0585,Cardiac tamponade,Rheumatic fever,3,14,replace_old,1.67100133927881,-0.06256226959473565,0.06256226959473565,False,False,False,False,2.853771264112382,2.853771264112382
+medqa_test_0585,Cardiac tamponade,Rheumatic fever,3,14,random_matched,1.67100133927881,0.015497410349809115,-0.015497410349809115,False,False,False,False,2.853771264112382,2.854514310574238
+medqa_test_0585,Cardiac tamponade,Rheumatic fever,3,21,self,1.67100133927881,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0585,Cardiac tamponade,Rheumatic fever,3,21,replace_old,1.67100133927881,-1.4689903126129593,1.4689903126129593,False,False,False,False,34.26739251800478,34.26739251800478
+medqa_test_0585,Cardiac tamponade,Rheumatic fever,3,21,random_matched,1.67100133927881,0.20293655073351147,-0.20293655073351147,False,False,False,False,34.267392518004776,34.272700145775914
+medqa_test_0585,Cardiac tamponade,Rheumatic fever,3,28,self,1.67100133927881,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0585,Cardiac tamponade,Rheumatic fever,3,28,replace_old,1.67100133927881,-1.6718754632165655,1.6718754632165655,False,False,False,False,166.6418553397699,166.6418553397699
+medqa_test_0585,Cardiac tamponade,Rheumatic fever,3,28,random_matched,1.67100133927881,0.06249987939372659,-0.06249987939372659,False,False,False,False,166.64185533976993,166.65262941403634
+medqa_test_0594,Gastric peptic ulcer,Gallbladder cancer,4,14,self,0.5468866822990321,0.0,-0.0,True,False,True,True,0.0,0.0
+medqa_test_0594,Gastric peptic ulcer,Gallbladder cancer,4,14,replace_old,0.5468866822990321,3.576220478862524e-06,-3.576220478862524e-06,True,False,True,True,3.111349960839911,3.111349960839911
+medqa_test_0594,Gastric peptic ulcer,Gallbladder cancer,4,14,random_matched,0.5468866822990321,1.6689423318894114e-06,-1.6689423318894114e-06,True,False,True,True,3.111349960839911,3.111351972424537
+medqa_test_0594,Gastric peptic ulcer,Gallbladder cancer,4,21,self,0.5468866822990321,0.0,-0.0,True,False,True,True,0.0,0.0
+medqa_test_0594,Gastric peptic ulcer,Gallbladder cancer,4,21,replace_old,0.5468866822990321,0.015624523172391491,-0.015624523172391491,True,False,True,True,35.47508746546801,35.47508746546801
+medqa_test_0594,Gastric peptic ulcer,Gallbladder cancer,4,21,random_matched,0.5468866822990321,0.03125071524755185,-0.03125071524755185,True,False,True,True,35.47508746546801,35.476828428212876
+medqa_test_0594,Gastric peptic ulcer,Gallbladder cancer,4,28,self,0.5468866822990321,0.0,-0.0,True,False,True,True,0.0,0.0
+medqa_test_0594,Gastric peptic ulcer,Gallbladder cancer,4,28,replace_old,0.5468866822990321,0.0,-0.0,True,False,True,True,100.42018491522647,100.42018491522647
+medqa_test_0594,Gastric peptic ulcer,Gallbladder cancer,4,28,random_matched,0.5468866822990321,0.0,-0.0,True,False,True,True,100.42018491522647,100.4252067478837
+medqa_test_0598,Pseudocyesis,Pregnancy,4,14,self,-5.343754602523624,0.0,0.0,True,False,False,False,0.0,0.0
+medqa_test_0598,Pseudocyesis,Pregnancy,4,14,replace_old,-5.343754602523624,-0.5312497598788468,-0.5312497598788468,True,False,False,False,5.2217456890285705,5.2217456890285705
+medqa_test_0598,Pseudocyesis,Pregnancy,4,14,random_matched,-5.343754602523624,0.09375035707580537,0.09375035707580537,True,False,False,False,5.2217456890285705,5.223603736843203
+medqa_test_0598,Pseudocyesis,Pregnancy,4,21,self,-5.343754602523624,0.0,0.0,True,False,False,False,0.0,0.0
+medqa_test_0598,Pseudocyesis,Pregnancy,4,21,replace_old,-5.343754602523624,0.8593758232146911,0.8593758232146911,True,False,False,False,78.65853020027416,78.65853020027416
+medqa_test_0598,Pseudocyesis,Pregnancy,4,21,random_matched,-5.343754602523624,0.1718758334083077,0.1718758334083077,True,False,False,False,78.65853020027414,78.6556494338568
+medqa_test_0598,Pseudocyesis,Pregnancy,4,28,self,-5.343754602523624,0.0,0.0,True,False,False,False,0.0,0.0
+medqa_test_0598,Pseudocyesis,Pregnancy,4,28,replace_old,-5.343754602523624,0.0,0.0,True,False,False,False,279.83241279337796,279.83241279337796
+medqa_test_0598,Pseudocyesis,Pregnancy,4,28,random_matched,-5.343754602523624,0.0,0.0,True,False,False,False,279.8324127933779,279.83931308144446
+medqa_test_0632,Atrial myxoma,Rheumatic fever,3,14,self,18.593752680521654,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0632,Atrial myxoma,Rheumatic fever,3,14,replace_old,18.593752680521654,0.46875030506634374,-0.46875030506634374,False,False,True,True,4.242424024504935,4.242424024504935
+medqa_test_0632,Atrial myxoma,Rheumatic fever,3,14,random_matched,18.593752680521654,-0.031249973224362293,0.031249973224362293,False,False,True,True,4.242424024504935,4.241609496724771
+medqa_test_0632,Atrial myxoma,Rheumatic fever,3,21,self,18.593752680521654,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0632,Atrial myxoma,Rheumatic fever,3,21,replace_old,18.593752680521654,-13.68749933072894,13.68749933072894,False,True,True,False,161.77438490314105,161.77438490314105
+medqa_test_0632,Atrial myxoma,Rheumatic fever,3,21,random_matched,18.593752680521654,0.28125014156101,-0.28125014156101,False,False,True,True,161.77438490314103,161.77327836660425
+medqa_test_0632,Atrial myxoma,Rheumatic fever,3,28,self,18.593752680521654,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0632,Atrial myxoma,Rheumatic fever,3,28,replace_old,18.593752680521654,-18.59375017712955,18.59375017712955,False,True,True,False,915.7202027207829,915.7202027207829
+medqa_test_0632,Atrial myxoma,Rheumatic fever,3,28,random_matched,18.593752680521654,-0.9999999200226739,0.9999999200226739,False,False,True,True,915.7202027207829,915.7206461448324
+medqa_test_0654,Muellerian agenesis,Turner syndrome,4,14,self,7.093747496624928,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0654,Muellerian agenesis,Turner syndrome,4,14,replace_old,7.093747496624928,0.2968753576258223,-0.2968753576258223,False,False,False,False,3.7222299097208147,3.7222299097208147
+medqa_test_0654,Muellerian agenesis,Turner syndrome,4,14,random_matched,7.093747496624928,-0.125,0.125,False,False,False,False,3.7222299097208142,3.7224477875782878
+medqa_test_0654,Muellerian agenesis,Turner syndrome,4,21,self,7.093747496624928,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0654,Muellerian agenesis,Turner syndrome,4,21,replace_old,7.093747496624928,-3.5156246423757977,3.5156246423757977,False,False,False,False,55.77051835596983,55.77051835596983
+medqa_test_0654,Muellerian agenesis,Turner syndrome,4,21,random_matched,7.093747496624928,-0.9062503576251402,0.9062503576251402,False,False,False,False,55.77051835596982,55.768438776572154
+medqa_test_0654,Muellerian agenesis,Turner syndrome,4,28,self,7.093747496624928,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0654,Muellerian agenesis,Turner syndrome,4,28,replace_old,7.093747496624928,-7.093749880790739,7.093749880790739,False,False,False,False,247.5246226263064,247.5246226263064
+medqa_test_0654,Muellerian agenesis,Turner syndrome,4,28,random_matched,7.093747496624928,0.28125,-0.28125,False,False,False,False,247.52462262630638,247.5267852162369
+medqa_test_0656,Perforated gastric peptic ulcer,Pancreatitis,3,14,self,10.718774499526347,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0656,Perforated gastric peptic ulcer,Pancreatitis,3,14,replace_old,10.718774499526347,-0.06250000005252332,0.06250000005252332,False,False,True,True,6.433266228724736,6.433266228724736
+medqa_test_0656,Perforated gastric peptic ulcer,Pancreatitis,3,14,random_matched,10.718774499526347,0.43749785428957466,-0.43749785428957466,False,False,True,True,6.433266228724735,6.43173048054179
+medqa_test_0656,Perforated gastric peptic ulcer,Pancreatitis,3,21,self,10.718774499526347,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0656,Perforated gastric peptic ulcer,Pancreatitis,3,21,replace_old,10.718774499526347,-6.062500332618981,6.062500332618981,False,False,True,True,115.4433374073318,115.4433374073318
+medqa_test_0656,Perforated gastric peptic ulcer,Pancreatitis,3,21,random_matched,10.718774499526347,0.2812527416378998,-0.2812527416378998,False,False,True,True,115.4433374073318,115.44647890492037
+medqa_test_0656,Perforated gastric peptic ulcer,Pancreatitis,3,28,self,10.718774499526347,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0656,Perforated gastric peptic ulcer,Pancreatitis,3,28,replace_old,10.718774499526347,-10.718750420963715,10.718750420963715,False,False,True,True,525.2054866355019,525.2054866355019
+medqa_test_0656,Perforated gastric peptic ulcer,Pancreatitis,3,28,random_matched,10.718774499526347,0.18749940394832265,-0.18749940394832265,False,False,True,True,525.2054866355019,525.2176100900842
+medqa_test_0660,Generalized anxiety disorder,Adjustment disorder,3,14,self,-2.8124859282139525,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0660,Generalized anxiety disorder,Adjustment disorder,3,14,replace_old,-2.8124859282139525,-0.43749823043958713,-0.43749823043958713,False,False,False,False,5.2944788858521665,5.2944788858521665
+medqa_test_0660,Generalized anxiety disorder,Adjustment disorder,3,14,random_matched,-2.8124859282139525,-0.09375179023498958,-0.09375179023498958,False,False,False,False,5.2944788858521665,5.2945585186329955
+medqa_test_0660,Generalized anxiety disorder,Adjustment disorder,3,21,self,-2.8124859282139525,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0660,Generalized anxiety disorder,Adjustment disorder,3,21,replace_old,-2.8124859282139525,2.0937490542382307,2.0937490542382307,False,False,False,False,55.48014421427853,55.48014421427853
+medqa_test_0660,Generalized anxiety disorder,Adjustment disorder,3,21,random_matched,-2.8124859282139525,0.3437487775190107,0.3437487775190107,False,False,False,False,55.48014421427854,55.484186336138215
+medqa_test_0660,Generalized anxiety disorder,Adjustment disorder,3,28,self,-2.8124859282139525,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0660,Generalized anxiety disorder,Adjustment disorder,3,28,replace_old,-2.8124859282139525,2.812500232917955,2.812500232917955,False,False,False,False,153.54208751193343,153.54208751193343
+medqa_test_0660,Generalized anxiety disorder,Adjustment disorder,3,28,random_matched,-2.8124859282139525,0.12500000308500603,0.12500000308500603,False,False,False,False,153.54208751193343,153.53573900685893
+medqa_test_0664,Von Willebrand disease,Immune thrombocytopenic purpura,3,14,self,3.1739023311331778,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0664,Von Willebrand disease,Immune thrombocytopenic purpura,3,14,replace_old,3.1739023311331778,-0.2968728706637762,0.2968728706637762,False,False,False,False,4.488797043860547,4.488797043860547
+medqa_test_0664,Von Willebrand disease,Immune thrombocytopenic purpura,3,14,random_matched,3.1739023311331778,0.14096885321038144,-0.14096885321038144,False,False,False,False,4.488797043860547,4.488018737909797
+medqa_test_0664,Von Willebrand disease,Immune thrombocytopenic purpura,3,21,self,3.1739023311331778,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0664,Von Willebrand disease,Immune thrombocytopenic purpura,3,21,replace_old,3.1739023311331778,-1.515630247448371,1.515630247448371,False,False,False,False,69.0460988239801,69.0460988239801
+medqa_test_0664,Von Willebrand disease,Immune thrombocytopenic purpura,3,21,random_matched,3.1739023311331778,0.6243237045184742,-0.6243237045184742,False,False,False,False,69.0460988239801,69.04582419911672
+medqa_test_0664,Von Willebrand disease,Immune thrombocytopenic purpura,3,28,self,3.1739023311331778,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0664,Von Willebrand disease,Immune thrombocytopenic purpura,3,28,replace_old,3.1739023311331778,-3.1718733217567205,3.1718733217567205,False,False,False,False,276.86192121531894,276.86192121531894
+medqa_test_0664,Von Willebrand disease,Immune thrombocytopenic purpura,3,28,random_matched,3.1739023311331778,-0.2656248393468559,0.2656248393468559,False,False,False,False,276.86192121531894,276.84376143715525
+medqa_test_0671,Tinea cruris,Tinea unguium,3,14,self,-0.749234206908703,0.0,0.0,True,False,True,True,0.0,0.0
+medqa_test_0671,Tinea cruris,Tinea unguium,3,14,replace_old,-0.749234206908703,0.04685626180344116,0.04685626180344116,True,False,True,True,3.066655684040555,3.066655684040555
+medqa_test_0671,Tinea cruris,Tinea unguium,3,14,random_matched,-0.749234206908703,-0.01564228534027734,-0.01564228534027734,True,False,True,True,3.066655684040555,3.0667021351170827
+medqa_test_0671,Tinea cruris,Tinea unguium,3,21,self,-0.749234206908703,0.0,0.0,True,False,True,True,0.0,0.0
+medqa_test_0671,Tinea cruris,Tinea unguium,3,21,replace_old,-0.749234206908703,0.03152602911450231,0.03152602911450231,True,False,True,True,18.444732555108622,18.444732555108622
+medqa_test_0671,Tinea cruris,Tinea unguium,3,21,random_matched,-0.749234206908703,0.015270054349457496,0.015270054349457496,True,False,True,True,18.444732555108622,18.446085787292645
+medqa_test_0671,Tinea cruris,Tinea unguium,3,28,self,-0.749234206908703,0.0,0.0,True,False,True,True,0.0,0.0
+medqa_test_0671,Tinea cruris,Tinea unguium,3,28,replace_old,-0.749234206908703,0.0,0.0,True,False,True,True,65.42207151731482,65.42207151731482
+medqa_test_0671,Tinea cruris,Tinea unguium,3,28,random_matched,-0.749234206908703,0.0,0.0,True,False,True,True,65.42207151731482,65.41631557748515
+medqa_test_0680,Acute hepatitis B,Acute hepatitis A,4,14,self,-0.9687496206024662,0.0,0.0,True,False,False,False,0.0,0.0
+medqa_test_0680,Acute hepatitis B,Acute hepatitis A,4,14,replace_old,-0.9687496206024662,-0.06250082931364886,-0.06250082931364886,True,False,False,False,4.063177262310116,4.063177262310116
+medqa_test_0680,Acute hepatitis B,Acute hepatitis A,4,14,random_matched,-0.9687496206024662,-0.15624998821294867,-0.15624998821294867,True,False,False,False,4.063177262310116,4.06326972089995
+medqa_test_0680,Acute hepatitis B,Acute hepatitis A,4,21,self,-0.9687496206024662,0.0,0.0,True,False,False,False,0.0,0.0
+medqa_test_0680,Acute hepatitis B,Acute hepatitis A,4,21,replace_old,-0.9687496206024662,-0.03125059336889535,-0.03125059336889535,True,False,False,False,68.49552757805837,68.49552757805837
+medqa_test_0680,Acute hepatitis B,Acute hepatitis A,4,21,random_matched,-0.9687496206024662,-0.03125059336889535,-0.03125059336889535,True,False,False,False,68.49552757805839,68.49381917370728
+medqa_test_0680,Acute hepatitis B,Acute hepatitis A,4,28,self,-0.9687496206024662,0.0,0.0,True,False,False,False,0.0,0.0
+medqa_test_0680,Acute hepatitis B,Acute hepatitis A,4,28,replace_old,-0.9687496206024662,0.0,0.0,True,False,False,False,212.8588169004898,212.8588169004898
+medqa_test_0680,Acute hepatitis B,Acute hepatitis A,4,28,random_matched,-0.9687496206024662,0.0,0.0,True,False,False,False,212.8588169004898,212.84938109199888
+medqa_test_0698,Major depressive disorder,Adjustment disorder,3,14,self,4.750006047279214,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0698,Major depressive disorder,Adjustment disorder,3,14,replace_old,4.750006047279214,-0.031249124447299437,0.031249124447299437,False,False,False,False,5.811187276571198,5.811187276571198
+medqa_test_0698,Major depressive disorder,Adjustment disorder,3,14,random_matched,4.750006047279214,0.031249741908141004,-0.031249741908141004,False,False,False,False,5.811187276571198,5.811061820829032
+medqa_test_0698,Major depressive disorder,Adjustment disorder,3,21,self,4.750006047279214,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0698,Major depressive disorder,Adjustment disorder,3,21,replace_old,4.750006047279214,-3.8125004008792303,3.8125004008792303,False,False,False,False,54.70462061743723,54.70462061743723
+medqa_test_0698,Major depressive disorder,Adjustment disorder,3,21,random_matched,4.750006047279214,0.12499939743440791,-0.12499939743440791,False,False,False,False,54.70462061743723,54.70635206392276
+medqa_test_0698,Major depressive disorder,Adjustment disorder,3,28,self,4.750006047279214,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0698,Major depressive disorder,Adjustment disorder,3,28,replace_old,4.750006047279214,-4.75000008684583,4.75000008684583,False,False,False,False,179.82404807157135,179.82404807157135
+medqa_test_0698,Major depressive disorder,Adjustment disorder,3,28,random_matched,4.750006047279214,0.24999983864836395,-0.24999983864836395,False,False,False,False,179.82404807157135,179.8104396204164
+medqa_test_0806,Crohn’s disease,Pseudomembranous colitis,4,14,self,-1.6699226202182729,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0806,Crohn’s disease,Pseudomembranous colitis,4,14,replace_old,-1.6699226202182729,0.4177084267006208,0.4177084267006208,False,False,False,False,4.015580208513918,4.015580208513918
+medqa_test_0806,Crohn’s disease,Pseudomembranous colitis,4,14,random_matched,-1.6699226202182729,-0.04510697732771263,-0.04510697732771263,False,False,False,False,4.015580208513918,4.015958666157143
+medqa_test_0806,Crohn’s disease,Pseudomembranous colitis,4,21,self,-1.6699226202182729,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0806,Crohn’s disease,Pseudomembranous colitis,4,21,replace_old,-1.6699226202182729,1.0226904153957221,1.0226904153957221,False,False,False,False,29.141141885872617,29.141141885872617
+medqa_test_0806,Crohn’s disease,Pseudomembranous colitis,4,21,random_matched,-1.6699226202182729,-0.0855771899229012,-0.0855771899229012,False,False,False,False,29.141141885872617,29.134420219781205
+medqa_test_0806,Crohn’s disease,Pseudomembranous colitis,4,28,self,-1.6699226202182729,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0806,Crohn’s disease,Pseudomembranous colitis,4,28,replace_old,-1.6699226202182729,1.5468764305321656,1.5468764305321656,False,False,False,False,88.56963216562889,88.56963216562889
+medqa_test_0806,Crohn’s disease,Pseudomembranous colitis,4,28,random_matched,-1.6699226202182729,-0.5937497615714165,-0.5937497615714165,False,False,False,False,88.56963216562889,88.56562459678081
+medqa_test_0812,Adenocarcinoma of the lung,Sarcoidosis,5,14,self,0.34438772724642064,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0812,Adenocarcinoma of the lung,Sarcoidosis,5,14,replace_old,0.34438772724642064,-4.4726129999617115e-07,4.4726129999617115e-07,False,False,False,False,2.7897443699181257,2.7897443699181257
+medqa_test_0812,Adenocarcinoma of the lung,Sarcoidosis,5,14,random_matched,0.34438772724642064,0.06248050061185495,-0.06248050061185495,False,False,False,False,2.789744369918126,2.79005570305288
+medqa_test_0812,Adenocarcinoma of the lung,Sarcoidosis,5,21,self,0.34438772724642064,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0812,Adenocarcinoma of the lung,Sarcoidosis,5,21,replace_old,0.34438772724642064,0.1248637107810282,-0.1248637107810282,False,False,False,False,37.844211466337825,37.844211466337825
+medqa_test_0812,Adenocarcinoma of the lung,Sarcoidosis,5,21,random_matched,0.34438772724642064,0.09380495147069468,-0.09380495147069468,False,False,False,False,37.844211466337825,37.8449951442585
+medqa_test_0812,Adenocarcinoma of the lung,Sarcoidosis,5,28,self,0.34438772724642064,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0812,Adenocarcinoma of the lung,Sarcoidosis,5,28,replace_old,0.34438772724642064,-0.3437501161824912,0.3437501161824912,False,False,False,False,124.28239833295514,124.28239833295514
+medqa_test_0812,Adenocarcinoma of the lung,Sarcoidosis,5,28,random_matched,0.34438772724642064,-0.21874991222284734,0.21874991222284734,False,False,False,False,124.28239833295514,124.27987934907814
+medqa_test_0820,Waldenstrom’s macroglobulinemia,Multiple myeloma,2,14,self,0.30032831868169296,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0820,Waldenstrom’s macroglobulinemia,Multiple myeloma,2,14,replace_old,0.30032831868169296,-0.06197132811746542,0.06197132811746542,False,False,False,False,5.8570628782014715,5.8570628782014715
+medqa_test_0820,Waldenstrom’s macroglobulinemia,Multiple myeloma,2,14,random_matched,0.30032831868169296,0.1279820520381989,-0.1279820520381989,False,False,False,False,5.8570628782014715,5.857218698964003
+medqa_test_0820,Waldenstrom’s macroglobulinemia,Multiple myeloma,2,21,self,0.30032831868169296,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0820,Waldenstrom’s macroglobulinemia,Multiple myeloma,2,21,replace_old,0.30032831868169296,-1.1537238229042188,1.1537238229042188,False,False,False,False,64.69034046453551,64.69034046453551
+medqa_test_0820,Waldenstrom’s macroglobulinemia,Multiple myeloma,2,21,random_matched,0.30032831868169296,-0.09607556922560434,0.09607556922560434,False,False,False,False,64.69034046453552,64.68813781195448
+medqa_test_0820,Waldenstrom’s macroglobulinemia,Multiple myeloma,2,28,self,0.30032831868169296,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0820,Waldenstrom’s macroglobulinemia,Multiple myeloma,2,28,replace_old,0.30032831868169296,-0.31250010430812836,0.31250010430812836,False,False,False,False,192.7161302012683,192.7161302012683
+medqa_test_0820,Waldenstrom’s macroglobulinemia,Multiple myeloma,2,28,random_matched,0.30032831868169296,0.7500000596046448,-0.7500000596046448,False,False,False,False,192.71613020126827,192.71390676840159
+medqa_test_0841,Adenomatous polyp,Colorectal cancer,2,14,self,-4.843758648495388,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0841,Adenomatous polyp,Colorectal cancer,2,14,replace_old,-4.843758648495388,-0.015623041860294506,-0.015623041860294506,False,False,False,False,5.550100559256689,5.550100559256689
+medqa_test_0841,Adenomatous polyp,Colorectal cancer,2,14,random_matched,-4.843758648495388,-0.06250051786958721,-0.06250051786958721,False,False,False,False,5.5501005592566885,5.549895341084147
+medqa_test_0841,Adenomatous polyp,Colorectal cancer,2,21,self,-4.843758648495388,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0841,Adenomatous polyp,Colorectal cancer,2,21,replace_old,-4.843758648495388,4.078128722196652,4.078128722196652,False,False,False,False,87.56552957248756,87.56552957248756
+medqa_test_0841,Adenomatous polyp,Colorectal cancer,2,21,random_matched,-4.843758648495388,1.234375452337872,1.234375452337872,False,False,False,False,87.56552957248755,87.56535498468298
+medqa_test_0841,Adenomatous polyp,Colorectal cancer,2,28,self,-4.843758648495388,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0841,Adenomatous polyp,Colorectal cancer,2,28,replace_old,-4.843758648495388,4.843750780739356,4.843750780739356,False,False,False,False,317.27610505094754,317.27610505094754
+medqa_test_0841,Adenomatous polyp,Colorectal cancer,2,28,random_matched,-4.843758648495388,1.9687512427917682,1.9687512427917682,False,False,False,False,317.2761050509476,317.2637295701553
+medqa_test_0842,Bacillus cereus infection,Norovirus infection,2,14,self,15.093749814232893,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0842,Bacillus cereus infection,Norovirus infection,2,14,replace_old,15.093749814232893,-0.2812552447805672,0.2812552447805672,False,False,True,True,5.764450846483258,5.764450846483258
+medqa_test_0842,Bacillus cereus infection,Norovirus infection,2,14,random_matched,15.093749814232893,-0.21874725840461906,0.21874725840461906,False,False,True,True,5.764450846483258,5.764368534628843
+medqa_test_0842,Bacillus cereus infection,Norovirus infection,2,21,self,15.093749814232893,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0842,Bacillus cereus infection,Norovirus infection,2,21,replace_old,15.093749814232893,-14.531254619113469,14.531254619113469,False,True,True,False,107.02534654055287,107.02534654055287
+medqa_test_0842,Bacillus cereus infection,Norovirus infection,2,21,random_matched,15.093749814232893,1.8125032183268104,-1.8125032183268104,False,False,True,True,107.02534654055287,107.02320773228574
+medqa_test_0842,Bacillus cereus infection,Norovirus infection,2,28,self,15.093749814232893,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0842,Bacillus cereus infection,Norovirus infection,2,28,replace_old,15.093749814232893,-15.09374993306119,15.09374993306119,False,True,True,False,490.71025478635426,490.71025478635426
+medqa_test_0842,Bacillus cereus infection,Norovirus infection,2,28,random_matched,15.093749814232893,-1.3437502364758984,1.3437502364758984,False,False,True,True,490.71025478635426,490.705920151183
+medqa_test_0843,Histoplasmosis,Sporotrichosis,6,14,self,-1.031359910521239,0.0,0.0,False,False,True,True,0.0,0.0
+medqa_test_0843,Histoplasmosis,Sporotrichosis,6,14,replace_old,-1.031359910521239,0.06249951691984279,0.06249951691984279,False,False,True,True,2.804589771885298,2.804589771885298
+medqa_test_0843,Histoplasmosis,Sporotrichosis,6,14,random_matched,-1.031359910521239,2.399901859462261e-07,2.399901859462261e-07,False,False,True,True,2.804589771885298,2.8049383476166727
+medqa_test_0843,Histoplasmosis,Sporotrichosis,6,21,self,-1.031359910521239,0.0,0.0,False,False,True,True,0.0,0.0
+medqa_test_0843,Histoplasmosis,Sporotrichosis,6,21,replace_old,-1.031359910521239,0.5000065162969349,0.5000065162969349,False,False,True,True,45.149498290100404,45.149498290100404
+medqa_test_0843,Histoplasmosis,Sporotrichosis,6,21,random_matched,-1.031359910521239,0.15625438281128368,0.15625438281128368,False,False,True,True,45.149498290100404,45.14929470141572
+medqa_test_0843,Histoplasmosis,Sporotrichosis,6,28,self,-1.031359910521239,0.0,0.0,False,False,True,True,0.0,0.0
+medqa_test_0843,Histoplasmosis,Sporotrichosis,6,28,replace_old,-1.031359910521239,1.0312495886610122,1.0312495886610122,False,False,True,True,172.81739085417868,172.81739085417868
+medqa_test_0843,Histoplasmosis,Sporotrichosis,6,28,random_matched,-1.031359910521239,-0.7499999338469934,-0.7499999338469934,False,False,True,True,172.81739085417868,172.81663472028694
+medqa_test_0853,Neuroleptic malignant syndrome,Heat stroke,4,14,self,30.51564159915705,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0853,Neuroleptic malignant syndrome,Heat stroke,4,14,replace_old,30.51564159915705,-0.09374888988168095,0.09374888988168095,False,False,True,True,4.348450441217852,4.348450441217852
+medqa_test_0853,Neuroleptic malignant syndrome,Heat stroke,4,14,random_matched,30.51564159915705,-0.250002588978532,0.250002588978532,False,False,True,True,4.348450441217852,4.348755058409871
+medqa_test_0853,Neuroleptic malignant syndrome,Heat stroke,4,21,self,30.51564159915705,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0853,Neuroleptic malignant syndrome,Heat stroke,4,21,replace_old,30.51564159915705,-22.29687210269615,22.29687210269615,False,True,True,False,132.57013522038827,132.57013522038827
+medqa_test_0853,Neuroleptic malignant syndrome,Heat stroke,4,21,random_matched,30.51564159915705,-0.21875045452905084,0.21875045452905084,False,False,True,True,132.57013522038827,132.56722312781557
+medqa_test_0853,Neuroleptic malignant syndrome,Heat stroke,4,28,self,30.51564159915705,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0853,Neuroleptic malignant syndrome,Heat stroke,4,28,replace_old,30.51564159915705,-30.515624552965164,30.515624552965164,False,True,True,False,916.7748752122637,916.7748752122637
+medqa_test_0853,Neuroleptic malignant syndrome,Heat stroke,4,28,random_matched,30.51564159915705,0.4687501899898052,-0.4687501899898052,False,False,True,True,916.7748752122637,916.7528573804267
+medqa_test_0870,Ulcerative colitis,Irritable bowel syndrome,3,14,self,-5.218757710801732,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0870,Ulcerative colitis,Irritable bowel syndrome,3,14,replace_old,-5.218757710801732,-0.15625026986609214,-0.15625026986609214,False,False,False,False,4.125703416196756,4.125703416196756
+medqa_test_0870,Ulcerative colitis,Irritable bowel syndrome,3,14,random_matched,-5.218757710801732,-0.09374998953674663,-0.09374998953674663,False,False,False,False,4.125703416196757,4.125728612165956
+medqa_test_0870,Ulcerative colitis,Irritable bowel syndrome,3,21,self,-5.218757710801732,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0870,Ulcerative colitis,Irritable bowel syndrome,3,21,replace_old,-5.218757710801732,4.374997207729734,4.374997207729734,False,False,False,False,83.22349805694881,83.22349805694881
+medqa_test_0870,Ulcerative colitis,Irritable bowel syndrome,3,21,random_matched,-5.218757710801732,-0.5312502034811644,-0.5312502034811644,False,False,False,False,83.22349805694881,83.22648343717142
+medqa_test_0870,Ulcerative colitis,Irritable bowel syndrome,3,28,self,-5.218757710801732,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0870,Ulcerative colitis,Irritable bowel syndrome,3,28,replace_old,-5.218757710801732,5.218749723746441,5.218749723746441,False,False,False,False,387.25135933906506,387.25135933906506
+medqa_test_0870,Ulcerative colitis,Irritable bowel syndrome,3,28,random_matched,-5.218757710801732,-0.10937545308843255,-0.10937545308843255,False,False,False,False,387.25135933906506,387.256677259246
+medqa_test_0896,Schizophrenia,Delusional disorder,5,14,self,-0.5904163121796344,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0896,Schizophrenia,Delusional disorder,5,14,replace_old,-0.5904163121796344,-0.015620354678503645,-0.015620354678503645,False,False,False,False,2.7906668585622763,2.7906668585622763
+medqa_test_0896,Schizophrenia,Delusional disorder,5,14,random_matched,-0.5904163121796344,-0.12500036827850636,-0.12500036827850636,False,False,False,False,2.7906668585622763,2.7903803646989283
+medqa_test_0896,Schizophrenia,Delusional disorder,5,21,self,-0.5904163121796344,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0896,Schizophrenia,Delusional disorder,5,21,replace_old,-0.5904163121796344,-1.250036740617361,-1.250036740617361,False,False,False,False,28.173382882776718,28.173382882776718
+medqa_test_0896,Schizophrenia,Delusional disorder,5,21,random_matched,-0.5904163121796344,8.205069207178894e-06,8.205069207178894e-06,False,False,False,False,28.17338288277672,28.174945486653804
+medqa_test_0896,Schizophrenia,Delusional disorder,5,28,self,-0.5904163121796344,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_0896,Schizophrenia,Delusional disorder,5,28,replace_old,-0.5904163121796344,-2.0000001192529453,-2.0000001192529453,False,False,False,False,116.33307890504985,116.33307890504985
+medqa_test_0896,Schizophrenia,Delusional disorder,5,28,random_matched,-0.5904163121796344,0.6874998289858922,0.6874998289858922,False,False,False,False,116.33307890504985,116.33282932282567
+medqa_test_0920,Plummer-Vinson syndrome,Zenker’s diverticulum,3,14,self,1.4064604359652435,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0920,Plummer-Vinson syndrome,Zenker’s diverticulum,3,14,replace_old,1.4064604359652435,-0.4065534497041199,0.4065534497041199,False,False,True,True,4.760982523940546,4.760982523940546
+medqa_test_0920,Plummer-Vinson syndrome,Zenker’s diverticulum,3,14,random_matched,1.4064604359652435,-0.0941468584520635,0.0941468584520635,False,False,True,True,4.760982523940546,4.761240541280954
+medqa_test_0920,Plummer-Vinson syndrome,Zenker’s diverticulum,3,21,self,1.4064604359652435,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0920,Plummer-Vinson syndrome,Zenker’s diverticulum,3,21,replace_old,1.4064604359652435,-1.4376032171056181,1.4376032171056181,False,True,True,False,46.196624476432106,46.196624476432106
+medqa_test_0920,Plummer-Vinson syndrome,Zenker’s diverticulum,3,21,random_matched,1.4064604359652435,0.3435424168474128,-0.3435424168474128,False,False,True,True,46.196624476432106,46.19751781639816
+medqa_test_0920,Plummer-Vinson syndrome,Zenker’s diverticulum,3,28,self,1.4064604359652435,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0920,Plummer-Vinson syndrome,Zenker’s diverticulum,3,28,replace_old,1.4064604359652435,-1.40625,1.40625,False,True,True,False,216.8608347512913,216.8608347512913
+medqa_test_0920,Plummer-Vinson syndrome,Zenker’s diverticulum,3,28,random_matched,1.4064604359652435,-0.06249997019767761,0.06249997019767761,False,False,True,True,216.8608347512913,216.8600286481253
+medqa_test_0922,Chronic granulomatous disease,Wiskott-Aldrich syndrome,6,14,self,1.28139160161345,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0922,Chronic granulomatous disease,Wiskott-Aldrich syndrome,6,14,replace_old,1.28139160161345,2.3865186449256726e-07,-2.3865186449256726e-07,False,False,True,True,3.287702456524444,3.287702456524444
+medqa_test_0922,Chronic granulomatous disease,Wiskott-Aldrich syndrome,6,14,random_matched,1.28139160161345,0.03129373236191668,-0.03129373236191668,False,False,True,True,3.287702456524444,3.287612871355293
+medqa_test_0922,Chronic granulomatous disease,Wiskott-Aldrich syndrome,6,21,self,1.28139160161345,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0922,Chronic granulomatous disease,Wiskott-Aldrich syndrome,6,21,replace_old,1.28139160161345,-0.3124871387944381,0.3124871387944381,False,False,True,True,38.71527870007218,38.71527870007218
+medqa_test_0922,Chronic granulomatous disease,Wiskott-Aldrich syndrome,6,21,random_matched,1.28139160161345,-0.03127597551525696,0.03127597551525696,False,False,True,True,38.71527870007218,38.71613890291602
+medqa_test_0922,Chronic granulomatous disease,Wiskott-Aldrich syndrome,6,28,self,1.28139160161345,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0922,Chronic granulomatous disease,Wiskott-Aldrich syndrome,6,28,replace_old,1.28139160161345,-1.28125,1.28125,False,False,True,True,134.3845778223409,134.3845778223409
+medqa_test_0922,Chronic granulomatous disease,Wiskott-Aldrich syndrome,6,28,random_matched,1.28139160161345,0.0625000149011612,-0.0625000149011612,False,False,True,True,134.3845778223409,134.3777803564507
+medqa_test_0925,Chediak-Higashi syndrome,Leukocyte adhesion deficiency–1,3,14,self,17.87525743714201,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0925,Chediak-Higashi syndrome,Leukocyte adhesion deficiency–1,3,14,replace_old,17.87525743714201,-0.12499189600771388,0.12499189600771388,False,False,True,True,4.77848457120952,4.77848457120952
+medqa_test_0925,Chediak-Higashi syndrome,Leukocyte adhesion deficiency–1,3,14,random_matched,17.87525743714201,-4.204182346256857e-05,4.204182346256857e-05,False,False,True,True,4.77848457120952,4.777787502496043
+medqa_test_0925,Chediak-Higashi syndrome,Leukocyte adhesion deficiency–1,3,21,self,17.87525743714201,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0925,Chediak-Higashi syndrome,Leukocyte adhesion deficiency–1,3,21,replace_old,17.87525743714201,-14.687458648561574,14.687458648561574,False,True,True,False,181.97536364624625,181.97536364624625
+medqa_test_0925,Chediak-Higashi syndrome,Leukocyte adhesion deficiency–1,3,21,random_matched,17.87525743714201,0.7499521032268603,-0.7499521032268603,False,False,True,True,181.97536364624625,181.9672937285034
+medqa_test_0925,Chediak-Higashi syndrome,Leukocyte adhesion deficiency–1,3,28,self,17.87525743714201,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_0925,Chediak-Higashi syndrome,Leukocyte adhesion deficiency–1,3,28,replace_old,17.87525743714201,-17.87499967226995,17.87499967226995,False,True,True,False,789.3486625832343,789.3486625832343
+medqa_test_0925,Chediak-Higashi syndrome,Leukocyte adhesion deficiency–1,3,28,random_matched,17.87525743714201,-0.1562495231273715,0.1562495231273715,False,False,True,True,789.3486625832343,789.3467870205495
+medqa_test_0959,Adhesive capsulitis,Glenohumeral osteoarthritis,4,14,self,13.7187518925084,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0959,Adhesive capsulitis,Glenohumeral osteoarthritis,4,14,replace_old,13.7187518925084,-0.12499979138408435,0.12499979138408435,False,False,False,False,4.045433314563041,4.045433314563041
+medqa_test_0959,Adhesive capsulitis,Glenohumeral osteoarthritis,4,14,random_matched,13.7187518925084,0.2187500149010475,-0.2187500149010475,False,False,False,False,4.045433314563041,4.045623686708062
+medqa_test_0959,Adhesive capsulitis,Glenohumeral osteoarthritis,4,21,self,13.7187518925084,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0959,Adhesive capsulitis,Glenohumeral osteoarthritis,4,21,replace_old,13.7187518925084,-11.437500581443373,11.437500581443373,False,False,False,False,62.3679827787912,62.3679827787912
+medqa_test_0959,Adhesive capsulitis,Glenohumeral osteoarthritis,4,21,random_matched,13.7187518925084,0.28124989569198533,-0.28124989569198533,False,False,False,False,62.3679827787912,62.3646390899717
+medqa_test_0959,Adhesive capsulitis,Glenohumeral osteoarthritis,4,28,self,13.7187518925084,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0959,Adhesive capsulitis,Glenohumeral osteoarthritis,4,28,replace_old,13.7187518925084,-13.718750342789463,13.718750342789463,False,False,False,False,356.2570672585707,356.2570672585707
+medqa_test_0959,Adhesive capsulitis,Glenohumeral osteoarthritis,4,28,random_matched,13.7187518925084,-0.3437500074505806,0.3437500074505806,False,False,False,False,356.2570672585707,356.24933547347894
+medqa_test_0985,Chronic lymphocytic leukemia (CLL),Monoclonal gammopathy of undetermined significance (MGUS),5,14,self,0.45839580460483376,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0985,Chronic lymphocytic leukemia (CLL),Monoclonal gammopathy of undetermined significance (MGUS),5,14,replace_old,0.45839580460483376,0.03547367106011734,-0.03547367106011734,False,False,False,False,3.0343568442910853,3.0343568442910853
+medqa_test_0985,Chronic lymphocytic leukemia (CLL),Monoclonal gammopathy of undetermined significance (MGUS),5,14,random_matched,0.45839580460483376,-0.043997678400728546,0.043997678400728546,False,False,False,False,3.0343568442910853,3.03484827337994
+medqa_test_0985,Chronic lymphocytic leukemia (CLL),Monoclonal gammopathy of undetermined significance (MGUS),5,21,self,0.45839580460483376,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0985,Chronic lymphocytic leukemia (CLL),Monoclonal gammopathy of undetermined significance (MGUS),5,21,replace_old,0.45839580460483376,-0.6527402168949266,0.6527402168949266,False,False,False,False,21.102754441235987,21.102754441235987
+medqa_test_0985,Chronic lymphocytic leukemia (CLL),Monoclonal gammopathy of undetermined significance (MGUS),5,21,random_matched,0.45839580460483376,0.3547360870461489,-0.3547360870461489,False,False,False,False,21.102754441235987,21.103971295872608
+medqa_test_0985,Chronic lymphocytic leukemia (CLL),Monoclonal gammopathy of undetermined significance (MGUS),5,28,self,0.45839580460483376,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_0985,Chronic lymphocytic leukemia (CLL),Monoclonal gammopathy of undetermined significance (MGUS),5,28,replace_old,0.45839580460483376,-0.6875003138557076,0.6875003138557076,False,False,False,False,62.440394367876294,62.440394367876294
+medqa_test_0985,Chronic lymphocytic leukemia (CLL),Monoclonal gammopathy of undetermined significance (MGUS),5,28,random_matched,0.45839580460483376,0.18750058440491557,-0.18750058440491557,False,False,False,False,62.440394367876294,62.43479520008316
+medqa_test_0991,Ewing sarcoma,Osteosarcoma,4,14,self,-1.3994443871465307,0.0,0.0,False,False,True,True,0.0,0.0
+medqa_test_0991,Ewing sarcoma,Osteosarcoma,4,14,replace_old,-1.3994443871465307,-0.05892689147725605,-0.05892689147725605,False,False,True,True,3.0248685513549303,3.0248685513549303
+medqa_test_0991,Ewing sarcoma,Osteosarcoma,4,14,random_matched,-1.3994443871465307,-0.15241864015038686,-0.15241864015038686,False,False,True,True,3.02486855135493,3.026087983131909
+medqa_test_0991,Ewing sarcoma,Osteosarcoma,4,21,self,-1.3994443871465307,0.0,0.0,False,False,True,True,0.0,0.0
+medqa_test_0991,Ewing sarcoma,Osteosarcoma,4,21,replace_old,-1.3994443871465307,1.1491004938143305,1.1491004938143305,False,False,True,True,33.54288499359019,33.54288499359019
+medqa_test_0991,Ewing sarcoma,Osteosarcoma,4,21,random_matched,-1.3994443871465307,-0.0023879110812572435,-0.0023879110812572435,False,False,True,True,33.54288499359019,33.54566817740241
+medqa_test_0991,Ewing sarcoma,Osteosarcoma,4,28,self,-1.3994443871465307,0.0,0.0,False,False,True,True,0.0,0.0
+medqa_test_0991,Ewing sarcoma,Osteosarcoma,4,28,replace_old,-1.3994443871465307,1.4999997605045792,1.4999997605045792,False,False,True,True,99.26177153094858,99.26177153094858
+medqa_test_0991,Ewing sarcoma,Osteosarcoma,4,28,random_matched,-1.3994443871465307,-0.0625000856234692,-0.0625000856234692,False,False,True,True,99.26177153094858,99.27894698206751
+medqa_test_1015,Tetralogy of Fallot,Transposition of great vessels,3,14,self,6.0000015463198295,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_1015,Tetralogy of Fallot,Transposition of great vessels,3,14,replace_old,6.0000015463198295,-0.31249976163974225,0.31249976163974225,False,False,True,True,6.642968226773297,6.642968226773297
+medqa_test_1015,Tetralogy of Fallot,Transposition of great vessels,3,14,random_matched,6.0000015463198295,0.12499964232972616,-0.12499964232972616,False,False,True,True,6.642968226773297,6.64264979737317
+medqa_test_1015,Tetralogy of Fallot,Transposition of great vessels,3,21,self,6.0000015463198295,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_1015,Tetralogy of Fallot,Transposition of great vessels,3,21,replace_old,6.0000015463198295,-4.031262746365883,4.031262746365883,False,False,True,True,104.9570364215419,104.9570364215419
+medqa_test_1015,Tetralogy of Fallot,Transposition of great vessels,3,21,random_matched,6.0000015463198295,1.8281234503619999,-1.8281234503619999,False,False,True,True,104.9570364215419,104.95655182414401
+medqa_test_1015,Tetralogy of Fallot,Transposition of great vessels,3,28,self,6.0000015463198295,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_1015,Tetralogy of Fallot,Transposition of great vessels,3,28,replace_old,6.0000015463198295,-6.0000004764910955,6.0000004764910955,False,False,True,True,362.5938986637653,362.5938986637653
+medqa_test_1015,Tetralogy of Fallot,Transposition of great vessels,3,28,random_matched,6.0000015463198295,0.4374998807938937,-0.4374998807938937,False,False,True,True,362.5938986637653,362.6001250390194
+medqa_test_1053,VIPoma,Vibrio cholera infection,3,14,self,-12.61707599636918,0.0,0.0,False,False,True,True,0.0,0.0
+medqa_test_1053,VIPoma,Vibrio cholera infection,3,14,replace_old,-12.61707599636918,-0.15656676558728577,-0.15656676558728577,False,False,True,True,3.8386712205000637,3.8386712205000637
+medqa_test_1053,VIPoma,Vibrio cholera infection,3,14,random_matched,-12.61707599636918,-0.09378423791349633,-0.09378423791349633,False,False,True,True,3.8386712205000637,3.8382660624649607
+medqa_test_1053,VIPoma,Vibrio cholera infection,3,21,self,-12.61707599636918,0.0,0.0,False,False,True,True,0.0,0.0
+medqa_test_1053,VIPoma,Vibrio cholera infection,3,21,replace_old,-12.61707599636918,5.410909644872049,5.410909644872049,False,False,True,True,102.29744224906723,102.29744224906723
+medqa_test_1053,VIPoma,Vibrio cholera infection,3,21,random_matched,-12.61707599636918,0.03139669347854124,0.03139669347854124,False,False,True,True,102.29744224906723,102.3020556148371
+medqa_test_1053,VIPoma,Vibrio cholera infection,3,28,self,-12.61707599636918,0.0,0.0,False,False,True,True,0.0,0.0
+medqa_test_1053,VIPoma,Vibrio cholera infection,3,28,replace_old,-12.61707599636918,6.281249997344332,6.281249997344332,False,False,True,True,499.71297223580535,499.71297223580535
+medqa_test_1053,VIPoma,Vibrio cholera infection,3,28,random_matched,-12.61707599636918,-0.6874997537161107,-0.6874997537161107,False,False,True,True,499.71297223580535,499.7150104023209
+medqa_test_1069,Phyllodes tumor,Invasive lobular carcinoma,4,14,self,2.4374995771073102,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_1069,Phyllodes tumor,Invasive lobular carcinoma,4,14,replace_old,2.4374995771073102,0.031249860302068555,-0.031249860302068555,False,False,False,False,3.5035537812445368,3.5035537812445368
+medqa_test_1069,Phyllodes tumor,Invasive lobular carcinoma,4,14,random_matched,2.4374995771073102,-0.06249996461133378,0.06249996461133378,False,False,False,False,3.5035537812445368,3.503993610106392
+medqa_test_1069,Phyllodes tumor,Invasive lobular carcinoma,4,21,self,2.4374995771073102,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_1069,Phyllodes tumor,Invasive lobular carcinoma,4,21,replace_old,2.4374995771073102,-2.281249935694632,2.281249935694632,False,False,False,False,32.63204567108497,32.63204567108497
+medqa_test_1069,Phyllodes tumor,Invasive lobular carcinoma,4,21,random_matched,2.4374995771073102,0.2500001600678843,-0.2500001600678843,False,False,False,False,32.63204567108497,32.6344060275655
+medqa_test_1069,Phyllodes tumor,Invasive lobular carcinoma,4,28,self,2.4374995771073102,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_1069,Phyllodes tumor,Invasive lobular carcinoma,4,28,replace_old,2.4374995771073102,-2.43749993473466,2.43749993473466,False,False,False,False,183.62886156328585,183.62886156328585
+medqa_test_1069,Phyllodes tumor,Invasive lobular carcinoma,4,28,random_matched,2.4374995771073102,0.5937502542510629,-0.5937502542510629,False,False,False,False,183.62886156328585,183.62032113881816
+medqa_test_1075,Lambert-Eaton syndrome,Hypothyroidism,4,14,self,0.3436746940485591,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_1075,Lambert-Eaton syndrome,Hypothyroidism,4,14,replace_old,0.3436746940485591,-0.03124201382343017,0.03124201382343017,False,False,False,False,3.0809525845536307,3.0809525845536307
+medqa_test_1075,Lambert-Eaton syndrome,Hypothyroidism,4,14,random_matched,0.3436746940485591,-0.09376546657222207,0.09376546657222207,False,False,False,False,3.0809525845536307,3.080714703397359
+medqa_test_1075,Lambert-Eaton syndrome,Hypothyroidism,4,21,self,0.3436746940485591,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_1075,Lambert-Eaton syndrome,Hypothyroidism,4,21,replace_old,0.3436746940485591,-0.7812503809254849,0.7812503809254849,False,False,False,False,62.10232259432414,62.10232259432414
+medqa_test_1075,Lambert-Eaton syndrome,Hypothyroidism,4,21,random_matched,0.3436746940485591,-0.031253442869456194,0.031253442869456194,False,False,False,False,62.102322594324136,62.10257995020213
+medqa_test_1075,Lambert-Eaton syndrome,Hypothyroidism,4,28,self,0.3436746940485591,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_1075,Lambert-Eaton syndrome,Hypothyroidism,4,28,replace_old,0.3436746940485591,-0.3437502994784154,0.3437502994784154,False,False,False,False,203.81534891705843,203.81534891705843
+medqa_test_1075,Lambert-Eaton syndrome,Hypothyroidism,4,28,random_matched,0.3436746940485591,-0.062499985011527315,0.062499985011527315,False,False,False,False,203.81534891705843,203.8169160419484
+medqa_test_1082,Bullous pemphigoid,Staphylococcal scalded skin syndrome,2,14,self,1.3749968261492427,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_1082,Bullous pemphigoid,Staphylococcal scalded skin syndrome,2,14,replace_old,1.3749968261492427,-0.09374815975212414,0.09374815975212414,False,False,True,True,4.760543205626708,4.760543205626708
+medqa_test_1082,Bullous pemphigoid,Staphylococcal scalded skin syndrome,2,14,random_matched,1.3749968261492427,0.12500126656817656,-0.12500126656817656,False,False,True,True,4.760543205626708,4.7607881161686745
+medqa_test_1082,Bullous pemphigoid,Staphylococcal scalded skin syndrome,2,21,self,1.3749968261492427,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_1082,Bullous pemphigoid,Staphylococcal scalded skin syndrome,2,21,replace_old,1.3749968261492427,-1.2187508642303442,1.2187508642303442,False,False,True,True,50.90283709575262,50.90283709575262
+medqa_test_1082,Bullous pemphigoid,Staphylococcal scalded skin syndrome,2,21,random_matched,1.3749968261492427,0.2812524064590889,-0.2812524064590889,False,False,True,True,50.902837095752616,50.900098656163195
+medqa_test_1082,Bullous pemphigoid,Staphylococcal scalded skin syndrome,2,28,self,1.3749968261492427,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_1082,Bullous pemphigoid,Staphylococcal scalded skin syndrome,2,28,replace_old,1.3749968261492427,-1.374999925494194,1.374999925494194,False,False,True,True,147.32097627646303,147.32097627646303
+medqa_test_1082,Bullous pemphigoid,Staphylococcal scalded skin syndrome,2,28,random_matched,1.3749968261492427,-0.0625,0.0625,False,False,True,True,147.32097627646303,147.3439295956199
+medqa_test_1092,Advanced sleep phase disorder,Chronic insomnia,4,14,self,-1.5468337826825902,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_1092,Advanced sleep phase disorder,Chronic insomnia,4,14,replace_old,-1.5468337826825902,-0.015603575651766732,-0.015603575651766732,False,False,False,False,4.7873245536803175,4.7873245536803175
+medqa_test_1092,Advanced sleep phase disorder,Chronic insomnia,4,14,random_matched,-1.5468337826825902,-0.07812035460665356,-0.07812035460665356,False,False,False,False,4.7873245536803175,4.788775017277584
+medqa_test_1092,Advanced sleep phase disorder,Chronic insomnia,4,21,self,-1.5468337826825902,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_1092,Advanced sleep phase disorder,Chronic insomnia,4,21,replace_old,-1.5468337826825902,1.5000043128420657,1.5000043128420657,False,False,False,False,64.06855630486046,64.06855630486046
+medqa_test_1092,Advanced sleep phase disorder,Chronic insomnia,4,21,random_matched,-1.5468337826825902,0.5312553666881286,0.5312553666881286,False,False,False,False,64.06855630486046,64.06720649726631
+medqa_test_1092,Advanced sleep phase disorder,Chronic insomnia,4,28,self,-1.5468337826825902,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_1092,Advanced sleep phase disorder,Chronic insomnia,4,28,replace_old,-1.5468337826825902,1.5468753805253073,1.5468753805253073,False,False,False,False,203.6444106959305,203.6444106959305
+medqa_test_1092,Advanced sleep phase disorder,Chronic insomnia,4,28,random_matched,-1.5468337826825902,-0.10937486303009791,-0.10937486303009791,False,False,False,False,203.6444106959305,203.6441791262377
+medqa_test_1105,Adenoma,Decreased calcitriol concentration,3,14,self,3.000002915488551,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_1105,Adenoma,Decreased calcitriol concentration,3,14,replace_old,3.000002915488551,-0.2500001275923296,0.2500001275923296,False,False,False,False,3.3806332525373315,3.3806332525373315
+medqa_test_1105,Adenoma,Decreased calcitriol concentration,3,14,random_matched,3.000002915488551,0.062498637706994487,-0.062498637706994487,False,False,False,False,3.3806332525373315,3.379433942838029
+medqa_test_1105,Adenoma,Decreased calcitriol concentration,3,21,self,3.000002915488551,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_1105,Adenoma,Decreased calcitriol concentration,3,21,replace_old,3.000002915488551,-2.312500379281005,2.312500379281005,False,False,False,False,52.739267376755016,52.739267376755016
+medqa_test_1105,Adenoma,Decreased calcitriol concentration,3,21,random_matched,3.000002915488551,-0.453125267872565,0.453125267872565,False,False,False,False,52.739267376755016,52.73515425683333
+medqa_test_1105,Adenoma,Decreased calcitriol concentration,3,28,self,3.000002915488551,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_1105,Adenoma,Decreased calcitriol concentration,3,28,replace_old,3.000002915488551,-3.0000013657845557,3.0000013657845557,False,False,False,False,153.01122603729456,153.01122603729456
+medqa_test_1105,Adenoma,Decreased calcitriol concentration,3,28,random_matched,3.000002915488551,0.26562433934304863,-0.26562433934304863,False,False,False,False,153.01122603729456,153.02450131662889
+medqa_test_1106,Cyclothymic disorder,Persistent depressive disorder,5,14,self,44.95467913928028,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_1106,Cyclothymic disorder,Persistent depressive disorder,5,14,replace_old,44.95467913928028,0.03125023882171263,-0.03125023882171263,False,False,True,True,3.2383567232165853,3.2383567232165853
+medqa_test_1106,Cyclothymic disorder,Persistent depressive disorder,5,14,random_matched,44.95467913928028,-0.062499523021472214,0.062499523021472214,False,False,True,True,3.2383567232165853,3.2382612580907013
+medqa_test_1106,Cyclothymic disorder,Persistent depressive disorder,5,21,self,44.95467913928028,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_1106,Cyclothymic disorder,Persistent depressive disorder,5,21,replace_old,44.95467913928028,-37.42189216722101,37.42189216722101,False,True,True,False,173.57509910560483,173.57509910560483
+medqa_test_1106,Cyclothymic disorder,Persistent depressive disorder,5,21,random_matched,44.95467913928028,-1.9375002104609607,1.9375002104609607,False,False,True,True,173.57509910560483,173.57414652162774
+medqa_test_1106,Cyclothymic disorder,Persistent depressive disorder,5,28,self,44.95467913928028,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_1106,Cyclothymic disorder,Persistent depressive disorder,5,28,replace_old,44.95467913928028,-44.953124524337,44.953124524337,False,True,True,False,1233.5411655738933,1233.5411655738933
+medqa_test_1106,Cyclothymic disorder,Persistent depressive disorder,5,28,random_matched,44.95467913928028,-2.4375005147448974,2.4375005147448974,False,False,True,True,1233.5411655738933,1233.5657056532825
+medqa_test_1119,Pes anserine bursitis,Medial meniscus tear,3,14,self,2.281247056144565,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_1119,Pes anserine bursitis,Medial meniscus tear,3,14,replace_old,2.281247056144565,0.03124975413811626,-0.03124975413811626,False,False,False,False,4.412188769176476,4.412188769176476
+medqa_test_1119,Pes anserine bursitis,Medial meniscus tear,3,14,random_matched,2.281247056144565,-0.37499912828388915,0.37499912828388915,False,False,False,False,4.412188769176476,4.411710954109816
+medqa_test_1119,Pes anserine bursitis,Medial meniscus tear,3,21,self,2.281247056144565,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_1119,Pes anserine bursitis,Medial meniscus tear,3,21,replace_old,2.281247056144565,-1.4999994020911345,1.4999994020911345,False,False,False,False,37.12303222031384,37.12303222031384
+medqa_test_1119,Pes anserine bursitis,Medial meniscus tear,3,21,random_matched,2.281247056144565,-0.031249919900801615,0.031249919900801615,False,False,False,False,37.12303222031384,37.12361169039145
+medqa_test_1119,Pes anserine bursitis,Medial meniscus tear,3,28,self,2.281247056144565,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_1119,Pes anserine bursitis,Medial meniscus tear,3,28,replace_old,2.281247056144565,-2.2812496786937118,2.2812496786937118,False,False,False,False,129.16106126169117,129.16106126169117
+medqa_test_1119,Pes anserine bursitis,Medial meniscus tear,3,28,random_matched,2.281247056144565,-0.09374936297535896,0.09374936297535896,False,False,False,False,129.16106126169117,129.16813688661364
+medqa_test_1145,Fibroadenoma,Fat necrosis,2,14,self,5.8125007152494845,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_1145,Fibroadenoma,Fat necrosis,2,14,replace_old,5.8125007152494845,-0.37500107287507944,0.37500107287507944,False,False,False,False,5.982311839805131,5.982311839805131
+medqa_test_1145,Fibroadenoma,Fat necrosis,2,14,random_matched,5.8125007152494845,-0.34374988079082414,0.34374988079082414,False,False,False,False,5.982311839805131,5.982096623634338
+medqa_test_1145,Fibroadenoma,Fat necrosis,2,21,self,5.8125007152494845,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_1145,Fibroadenoma,Fat necrosis,2,21,replace_old,5.8125007152494845,-4.249999999999147,4.249999999999147,False,True,False,False,66.84754587716726,66.84754587716726
+medqa_test_1145,Fibroadenoma,Fat necrosis,2,21,random_matched,5.8125007152494845,0.3749994039580429,-0.3749994039580429,False,False,False,False,66.84754587716726,66.84900869812678
+medqa_test_1145,Fibroadenoma,Fat necrosis,2,28,self,5.8125007152494845,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_1145,Fibroadenoma,Fat necrosis,2,28,replace_old,5.8125007152494845,-5.8124998807907104,5.8124998807907104,False,True,False,False,312.97805204694293,312.97805204694293
+medqa_test_1145,Fibroadenoma,Fat necrosis,2,28,random_matched,5.8125007152494845,-0.46875,0.46875,False,False,False,False,312.97805204694293,312.98615595468357
+medqa_test_1160,Psoriatic arthritis,Reactive arthritis,3,14,self,-0.21875208617319686,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_1160,Psoriatic arthritis,Reactive arthritis,3,14,replace_old,-0.21875208617319686,-0.09374832367495856,-0.09374832367495856,False,False,False,False,3.6682021786411165,3.6682021786411165
+medqa_test_1160,Psoriatic arthritis,Reactive arthritis,3,14,random_matched,-0.21875208617319686,-0.031249348102392105,-0.031249348102392105,False,False,False,False,3.6682021786411165,3.6681647754608244
+medqa_test_1160,Psoriatic arthritis,Reactive arthritis,3,21,self,-0.21875208617319686,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_1160,Psoriatic arthritis,Reactive arthritis,3,21,replace_old,-0.21875208617319686,-0.4687517396778276,-0.4687517396778276,False,False,False,False,36.856923704635086,36.856923704635086
+medqa_test_1160,Psoriatic arthritis,Reactive arthritis,3,21,random_matched,-0.21875208617319686,0.06250025703502615,0.06250025703502615,False,False,False,False,36.85692370463508,36.861484707987856
+medqa_test_1160,Psoriatic arthritis,Reactive arthritis,3,28,self,-0.21875208617319686,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_1160,Psoriatic arthritis,Reactive arthritis,3,28,replace_old,-0.21875208617319686,0.21874970197677612,0.21874970197677612,False,False,False,False,143.27818882125467,143.27818882125467
+medqa_test_1160,Psoriatic arthritis,Reactive arthritis,3,28,random_matched,-0.21875208617319686,0.3124996367841959,0.3124996367841959,False,False,False,False,143.27818882125464,143.28108932483738
+medqa_test_1170,Exertional heat stroke,Neuroleptic malignant syndrome,4,14,self,-11.531218112448357,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_1170,Exertional heat stroke,Neuroleptic malignant syndrome,4,14,replace_old,-11.531218112448357,-0.07812619302785606,-0.07812619302785606,False,False,False,False,5.966864826327425,5.966864826327425
+medqa_test_1170,Exertional heat stroke,Neuroleptic malignant syndrome,4,14,random_matched,-11.531218112448357,0.04687619199478377,0.04687619199478377,False,False,False,False,5.966864826327425,5.967597835246397
+medqa_test_1170,Exertional heat stroke,Neuroleptic malignant syndrome,4,21,self,-11.531218112448357,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_1170,Exertional heat stroke,Neuroleptic malignant syndrome,4,21,replace_old,-11.531218112448357,9.249998957200035,9.249998957200035,False,False,False,False,173.99942024062605,173.99942024062605
+medqa_test_1170,Exertional heat stroke,Neuroleptic malignant syndrome,4,21,random_matched,-11.531218112448357,0.046878099533387285,0.046878099533387285,False,False,False,False,173.99942024062605,173.99451001585828
+medqa_test_1170,Exertional heat stroke,Neuroleptic malignant syndrome,4,28,self,-11.531218112448357,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_1170,Exertional heat stroke,Neuroleptic malignant syndrome,4,28,replace_old,-11.531218112448357,11.53124922542338,11.53124922542338,False,False,False,False,649.1199453933174,649.1199453933174
+medqa_test_1170,Exertional heat stroke,Neuroleptic malignant syndrome,4,28,random_matched,-11.531218112448357,2.3749999702486093,2.3749999702486093,False,False,False,False,649.1199453933174,649.1238845613011
+medqa_test_1174,Silent thyroiditis,De Quervain’s thyroiditis,3,14,self,-0.7368307250400221,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_1174,Silent thyroiditis,De Quervain’s thyroiditis,3,14,replace_old,-0.7368307250400221,0.012997029685720918,0.012997029685720918,False,False,False,False,5.74839362691639,5.74839362691639
+medqa_test_1174,Silent thyroiditis,De Quervain’s thyroiditis,3,14,random_matched,-0.7368307250400221,0.02630600880468137,0.02630600880468137,False,False,False,False,5.74839362691639,5.748111544693044
+medqa_test_1174,Silent thyroiditis,De Quervain’s thyroiditis,3,21,self,-0.7368307250400221,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_1174,Silent thyroiditis,De Quervain’s thyroiditis,3,21,replace_old,-0.7368307250400221,1.5318169318420516,1.5318169318420516,False,False,False,False,195.75999798503216,195.75999798503216
+medqa_test_1174,Silent thyroiditis,De Quervain’s thyroiditis,3,21,random_matched,-0.7368307250400221,-0.2406922113913268,-0.2406922113913268,False,False,False,False,195.75999798503216,195.7621344727914
+medqa_test_1174,Silent thyroiditis,De Quervain’s thyroiditis,3,28,self,-0.7368307250400221,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_1174,Silent thyroiditis,De Quervain’s thyroiditis,3,28,replace_old,-0.7368307250400221,0.7578144073486328,0.7578144073486328,False,True,False,False,1208.4660375672286,1208.4660375672286
+medqa_test_1174,Silent thyroiditis,De Quervain’s thyroiditis,3,28,random_matched,-0.7368307250400221,1.5156269073486328,1.5156269073486328,False,False,False,False,1208.4660375672286,1208.457474797352
+medqa_test_1179,Syringomyelia,Cervical spine fracture,6,14,self,-0.31253873638038954,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_1179,Syringomyelia,Cervical spine fracture,6,14,replace_old,-0.31253873638038954,0.12500607903075434,0.12500607903075434,False,False,False,False,3.162471142203001,3.162471142203001
+medqa_test_1179,Syringomyelia,Cervical spine fracture,6,14,random_matched,-0.31253873638038954,-0.37499797382605493,-0.37499797382605493,False,False,False,False,3.1624711422030005,3.163584876832439
+medqa_test_1179,Syringomyelia,Cervical spine fracture,6,21,self,-0.31253873638038954,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_1179,Syringomyelia,Cervical spine fracture,6,21,replace_old,-0.31253873638038954,-0.43749737805410405,-0.43749737805410405,False,False,False,False,46.63682561709906,46.63682561709906
+medqa_test_1179,Syringomyelia,Cervical spine fracture,6,21,random_matched,-0.31253873638038954,-0.31249928515410375,-0.31249928515410375,False,False,False,False,46.63682561709905,46.63017216623685
+medqa_test_1179,Syringomyelia,Cervical spine fracture,6,28,self,-0.31253873638038954,0.0,0.0,False,False,False,False,0.0,0.0
+medqa_test_1179,Syringomyelia,Cervical spine fracture,6,28,replace_old,-0.31253873638038954,0.3124988060908436,0.3124988060908436,False,False,False,False,188.27053903338123,188.27053903338123
+medqa_test_1179,Syringomyelia,Cervical spine fracture,6,28,random_matched,-0.31253873638038954,0.0937501192088348,0.0937501192088348,False,False,False,False,188.27053903338123,188.2668257961612
+medqa_test_1189,Posttraumatic stress disorder,Acute stress disorder,2,14,self,8.968749892898714,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_1189,Posttraumatic stress disorder,Acute stress disorder,2,14,replace_old,8.968749892898714,-0.1875001862642307,0.1875001862642307,False,False,False,False,6.961880317276586,6.961880317276586
+medqa_test_1189,Posttraumatic stress disorder,Acute stress disorder,2,14,random_matched,8.968749892898714,0.3437501732259989,-0.3437501732259989,False,False,False,False,6.961880317276587,6.961827617371136
+medqa_test_1189,Posttraumatic stress disorder,Acute stress disorder,2,21,self,8.968749892898714,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_1189,Posttraumatic stress disorder,Acute stress disorder,2,21,replace_old,8.968749892898714,-8.96875039010785,8.96875039010785,False,False,False,False,101.66553567305469,101.66553567305469
+medqa_test_1189,Posttraumatic stress disorder,Acute stress disorder,2,21,random_matched,8.968749892898714,0.31249999068678136,-0.31249999068678136,False,False,False,False,101.66553567305469,101.66957725229736
+medqa_test_1189,Posttraumatic stress disorder,Acute stress disorder,2,28,self,8.968749892898714,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_1189,Posttraumatic stress disorder,Acute stress disorder,2,28,replace_old,8.968749892898714,-8.968750488944352,8.968750488944352,False,False,False,False,400.09238013727463,400.09238013727463
+medqa_test_1189,Posttraumatic stress disorder,Acute stress disorder,2,28,random_matched,8.968749892898714,2.843749975785613,-2.843749975785613,False,False,False,False,400.0923801372747,400.0949207995885
+medqa_test_1236,Multiple endocrine neoplasia (MEN) 2A,Neurofibromatosis,6,14,self,3.4346298360167324,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_1236,Multiple endocrine neoplasia (MEN) 2A,Neurofibromatosis,6,14,replace_old,3.4346298360167324,0.031250283121437405,-0.031250283121437405,False,False,False,False,2.400782263174008,2.400782263174008
+medqa_test_1236,Multiple endocrine neoplasia (MEN) 2A,Neurofibromatosis,6,14,random_matched,3.4346298360167324,-0.09374997764479076,0.09374997764479076,False,False,False,False,2.400782263174008,2.399853251419134
+medqa_test_1236,Multiple endocrine neoplasia (MEN) 2A,Neurofibromatosis,6,21,self,3.4346298360167324,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_1236,Multiple endocrine neoplasia (MEN) 2A,Neurofibromatosis,6,21,replace_old,3.4346298360167324,-2.352251352737369,2.352251352737369,False,False,False,False,42.18861101753862,42.18861101753862
+medqa_test_1236,Multiple endocrine neoplasia (MEN) 2A,Neurofibromatosis,6,21,random_matched,3.4346298360167324,-0.3210011944070743,0.3210011944070743,False,False,False,False,42.18861101753862,42.189619639964306
+medqa_test_1236,Multiple endocrine neoplasia (MEN) 2A,Neurofibromatosis,6,28,self,3.4346298360167324,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_1236,Multiple endocrine neoplasia (MEN) 2A,Neurofibromatosis,6,28,replace_old,3.4346298360167324,-2.312499918974936,2.312499918974936,False,False,False,False,147.56462973387096,147.56462973387096
+medqa_test_1236,Multiple endocrine neoplasia (MEN) 2A,Neurofibromatosis,6,28,random_matched,3.4346298360167324,-0.15625015646219254,0.15625015646219254,False,False,False,False,147.56462973387096,147.5657661254497
+medqa_test_1243,MEN1,"Gastric adenocarcinoma, intestinal type",4,14,self,2.164652243875423,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_1243,MEN1,"Gastric adenocarcinoma, intestinal type",4,14,replace_old,2.164652243875423,-0.06034835334480704,0.06034835334480704,False,False,False,False,3.10442149653331,3.10442149653331
+medqa_test_1243,MEN1,"Gastric adenocarcinoma, intestinal type",4,14,random_matched,2.164652243875423,-0.029646242033891212,0.029646242033891212,False,False,False,False,3.10442149653331,3.1047641574475016
+medqa_test_1243,MEN1,"Gastric adenocarcinoma, intestinal type",4,21,self,2.164652243875423,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_1243,MEN1,"Gastric adenocarcinoma, intestinal type",4,21,replace_old,2.164652243875423,-2.3122088527114784,2.3122088527114784,False,False,False,False,41.2808322213166,41.2808322213166
+medqa_test_1243,MEN1,"Gastric adenocarcinoma, intestinal type",4,21,random_matched,2.164652243875423,-0.5318117751722866,0.5318117751722866,False,False,False,False,41.2808322213166,41.28310165131974
+medqa_test_1243,MEN1,"Gastric adenocarcinoma, intestinal type",4,28,self,2.164652243875423,0.0,-0.0,False,False,False,False,0.0,0.0
+medqa_test_1243,MEN1,"Gastric adenocarcinoma, intestinal type",4,28,replace_old,2.164652243875423,-2.1874996011611074,2.1874996011611074,False,False,False,False,202.8329724465115,202.8329724465115
+medqa_test_1243,MEN1,"Gastric adenocarcinoma, intestinal type",4,28,random_matched,2.164652243875423,0.15625045076012611,-0.15625045076012611,False,False,False,False,202.8329724465115,202.8349122321959
+medqa_test_1253,Scalded skin syndrome,Pyoderma,2,14,self,29.512917504023562,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_1253,Scalded skin syndrome,Pyoderma,2,14,replace_old,29.512917504023562,-0.28125619814090896,0.28125619814090896,False,False,True,True,7.868995265001003,7.868995265001003
+medqa_test_1253,Scalded skin syndrome,Pyoderma,2,14,random_matched,29.512917504023562,0.15625178828872777,-0.15625178828872777,False,False,True,True,7.868995265001003,7.86770125419671
+medqa_test_1253,Scalded skin syndrome,Pyoderma,2,21,self,29.512917504023562,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_1253,Scalded skin syndrome,Pyoderma,2,21,replace_old,29.512917504023562,-22.640643729906174,22.640643729906174,False,False,True,True,189.9610941872724,189.9610941872724
+medqa_test_1253,Scalded skin syndrome,Pyoderma,2,21,random_matched,29.512917504023562,-0.9687519048638364,0.9687519048638364,False,False,True,True,189.96109418727238,189.9609895569211
+medqa_test_1253,Scalded skin syndrome,Pyoderma,2,28,self,29.512917504023562,0.0,-0.0,False,False,True,True,0.0,0.0
+medqa_test_1253,Scalded skin syndrome,Pyoderma,2,28,replace_old,29.512917504023562,-29.421875230251317,29.421875230251317,False,True,True,False,834.4687005382192,834.4687005382192
+medqa_test_1253,Scalded skin syndrome,Pyoderma,2,28,random_matched,29.512917504023562,-3.5156249615065462,3.5156249615065462,False,False,True,True,834.4687005382192,834.4710896867643
+medqa_test_1254,Lichen sclerosus,Lichen planus,4,14,self,1.1249956949763487,0.0,-0.0,True,False,True,True,0.0,0.0
+medqa_test_1254,Lichen sclerosus,Lichen planus,4,14,replace_old,1.1249956949763487,0.0624999998108251,-0.0624999998108251,True,False,True,True,2.9172749061469525,2.9172749061469525
+medqa_test_1254,Lichen sclerosus,Lichen planus,4,14,random_matched,1.1249956949763487,-0.04687428467150312,0.04687428467150312,True,False,True,True,2.917274906146952,2.917841824613746
+medqa_test_1254,Lichen sclerosus,Lichen planus,4,21,self,1.1249956949763487,0.0,-0.0,True,False,True,True,0.0,0.0
+medqa_test_1254,Lichen sclerosus,Lichen planus,4,21,replace_old,1.1249956949763487,0.015625357598764822,-0.015625357598764822,True,False,True,True,24.531806634856434,24.531806634856434
+medqa_test_1254,Lichen sclerosus,Lichen planus,4,21,random_matched,1.1249956949763487,0.062498688537743874,-0.062498688537743874,True,False,True,True,24.531806634856434,24.53609189278716
+medqa_test_1254,Lichen sclerosus,Lichen planus,4,28,self,1.1249956949763487,0.0,-0.0,True,False,True,True,0.0,0.0
+medqa_test_1254,Lichen sclerosus,Lichen planus,4,28,replace_old,1.1249956949763487,0.0,-0.0,True,False,True,True,102.96642763387133,102.96642763387133
+medqa_test_1254,Lichen sclerosus,Lichen planus,4,28,random_matched,1.1249956949763487,0.0,-0.0,True,False,True,True,102.96642763387133,102.99361037228752
+medqa_test_1271,Schizotypal personality disorder,Schizophrenia,5,14,self,3.90611295637774,0.0,-0.0,True,False,False,False,0.0,0.0
+medqa_test_1271,Schizotypal personality disorder,Schizophrenia,5,14,replace_old,3.90611295637774,-0.09373908184352331,0.09373908184352331,True,False,False,False,3.2105798431482104,3.2105798431482104
+medqa_test_1271,Schizotypal personality disorder,Schizophrenia,5,14,random_matched,3.90611295637774,0.03124809349537827,-0.03124809349537827,True,False,False,False,3.210579843148211,3.211756970135717
+medqa_test_1271,Schizotypal personality disorder,Schizophrenia,5,21,self,3.90611295637774,0.0,-0.0,True,False,False,False,0.0,0.0
+medqa_test_1271,Schizotypal personality disorder,Schizophrenia,5,21,replace_old,3.90611295637774,-0.2186974489886211,0.2186974489886211,True,True,False,True,84.35133827529802,84.35133827529802
+medqa_test_1271,Schizotypal personality disorder,Schizophrenia,5,21,random_matched,3.90611295637774,0.06250175760942511,-0.06250175760942511,True,False,False,False,84.35133827529802,84.3551527315804
+medqa_test_1271,Schizotypal personality disorder,Schizophrenia,5,28,self,3.90611295637774,0.0,-0.0,True,False,False,False,0.0,0.0
+medqa_test_1271,Schizotypal personality disorder,Schizophrenia,5,28,replace_old,3.90611295637774,0.0,-0.0,True,True,False,True,331.6760398098993,331.6760398098993
+medqa_test_1271,Schizotypal personality disorder,Schizophrenia,5,28,random_matched,3.90611295637774,0.0,-0.0,True,False,False,False,331.6760398098993,331.6751236480467

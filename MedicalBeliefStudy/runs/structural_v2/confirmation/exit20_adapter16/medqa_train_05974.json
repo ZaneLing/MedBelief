@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_05974",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pervicular stress-induced stress-induced stress-induced emplasticity\"} (Note: This is an example of an non-tralentary and/or non-linear response. actual real-world scenario would be either 'Essonicity or other relevant phausiaotaric orphans\"} (Note: This is an",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "5053bc1d1a450873045fe3686ae8dc4eace398716f1711ea68e476c3618774bf"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformyphilis\"}",
+      "generated_disease": "Chronic veniformyphilis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "88bd3cd2669645f31dbde163ad02793982a652bd9f759f4f54924e780f53b0c0"
+    }
+  ]
+}

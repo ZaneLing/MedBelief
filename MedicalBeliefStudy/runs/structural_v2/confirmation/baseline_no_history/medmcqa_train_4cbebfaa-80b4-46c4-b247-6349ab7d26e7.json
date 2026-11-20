@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_4cbebfaa-80b4-46c4-b247-6349ab7d26e7",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Chondroblastoma\"}",
+      "generated_disease": "Chondroblastoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "a409064048a8bc9cf0d6c8fe3e3dfc3eb1a66f073c5d0decbea48eb9744f6744"
+    }
+  ]
+}

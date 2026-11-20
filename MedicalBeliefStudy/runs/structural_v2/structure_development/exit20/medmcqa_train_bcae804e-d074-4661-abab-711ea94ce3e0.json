@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_bcae804e-d074-4661-abab-711ea94ce3e0",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Dryness-induced-induced综合征（无确切名称但根据描述推测可能涉及特定特定用途而非实际意义上的特定疾病名称且符合特定特定用途而非普通意义上的意义上的ものです但是考虑到实际情况实际情况情况下实际情况但是考虑到实际情况并且考虑到实际情况并且考虑到实际情况但是请注意这不是实际意义上的任何特定疾病而是基于特定特定用途而非",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "e8bd6ae02dfb0d4accfef9ca1ea0e0e913af4c6615aca05298348f0219e09d6f"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Dubian综合征或其它相关名称但实际可能误称导致误误然需谨慎但根据现有条件最可能是以下之一但实际可能误误需要进一步核实但根据现有信息最可能是以下之一但实际可能误误需要进一步核实但实际可能无法准确准确但根据现有情况最可能是以下",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "a93484ff92c622bfa29b5cc81d9988623313bdc3f2c202b993845d4538c082aa"
+    }
+  ]
+}

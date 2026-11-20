@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_07362",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Pulmonary Langerhans cells histiocytosis\"}",
+      "generated_disease": "Pulmonary Langerhans cells histiocytosis",
+      "stop": "eos",
+      "tokens": 13,
+      "prompt_sha256": "3cf4aca680a17a974ad4225d9052b2151b998e0b7203a20182776cff59e86e94"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Pleuropulmonary fibroelastosis\"}",
+      "generated_disease": "Pleuropulmonary fibroelastosis",
+      "stop": "eos",
+      "tokens": 12,
+      "prompt_sha256": "6b566b028ebec36962c3a86aadb8b14d11106f1f0c958730676bc0c9f2660c6b"
+    }
+  ]
+}

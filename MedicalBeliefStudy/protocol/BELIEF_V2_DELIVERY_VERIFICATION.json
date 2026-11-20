@@ -1,0 +1,31 @@
+{
+  "complete": true,
+  "observation_records": 800,
+  "state_bytes_checked": 360846553,
+  "new_test_patients": 120,
+  "heldout_training_patients": 120,
+  "deep_test_patients": 24,
+  "active_causal_conditions": 672,
+  "zero_interventions": 48,
+  "causal_excluded_prefixes": [],
+  "counterfactual_no_observations": 24,
+  "same_length_yes_no": 24,
+  "max_attention_reconstruction_relative_rms": 0.0002523156290408224,
+  "max_cache_full_sequence_logprob_error": 0.017265013650217043,
+  "canonical_string_mass_range": [
+    0.00031235783885974244,
+    0.9999985883987739
+  ],
+  "model_weights_unchanged": true,
+  "presentation_followup_observations": 120,
+  "template_prior_observations": 96,
+  "frozen_sources_verified": 6,
+  "model4b_observations": 448,
+  "model4b_max_attention_error": 0.0002480126277077943,
+  "model4b_max_cache_error": 0.03084301948709367,
+  "model4b_weights_unchanged": true,
+  "markdown_documents_checked": 75,
+  "broken_local_links": [],
+  "api_cost_usd": 0,
+  "source_sha256": "be1da1edf26a9a858a3c2048d91166708aa33feb15ce3935e24370d7a5c324d4"
+}

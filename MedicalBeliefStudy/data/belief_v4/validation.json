@@ -1,0 +1,50 @@
+{
+  "patients": 540,
+  "sources": {
+    "MMLU": 40,
+    "MedMCQA": 200,
+    "MedQA": 300
+  },
+  "source_cohorts": {
+    "MedQA": {
+      "confirmation": 200,
+      "development": 100
+    },
+    "MedMCQA": {
+      "confirmation": 133,
+      "development": 67
+    },
+    "MMLU": {
+      "confirmation": 26,
+      "development": 14
+    }
+  },
+  "mechanism_source_cohorts": {
+    "MedQA": {
+      "confirmation": 16,
+      "development": 16
+    },
+    "MedMCQA": {
+      "confirmation": 16,
+      "development": 16
+    },
+    "MMLU": {
+      "confirmation": 16,
+      "development": 14
+    }
+  },
+  "case_content_validated": false,
+  "source_labels_consistent": true,
+  "no_task_question_in_evidence": false,
+  "wording_not_generated": true,
+  "issues": [
+    "7 task-only trailing groups",
+    "8 missing referenced material cases",
+    "4 procedure without result cases",
+    "1 mixed task tail; counts may overlap"
+  ],
+  "case_sha256": "f77bacaed2f3217de0916d647c3cf06c8160e7240f0f841794644035028ddd23",
+  "scope": "Initial automated structural checks passed; post-run text audit found 20 flagged records. Labels/provenance remain consistent.",
+  "superseding_audit": "text_audit.json",
+  "strict_text_subset_patients": 520
+}

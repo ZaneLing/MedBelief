@@ -1,0 +1,12 @@
+{
+  "patients": 94,
+  "source_sha256": "1b377eab1bcdddba47ed9d8ad350140fa9b835ff8fb6195ad975829f23b0b9a6",
+  "cases_sha256": "f77bacaed2f3217de0916d647c3cf06c8160e7240f0f841794644035028ddd23",
+  "new_model_prefills": 0,
+  "conditions_per_patient": 10,
+  "layer": 28,
+  "site": "answer_anchor_MLP",
+  "outcome": "first_code_token",
+  "status": "post_observation_followup",
+  "api_cost_usd": 0
+}

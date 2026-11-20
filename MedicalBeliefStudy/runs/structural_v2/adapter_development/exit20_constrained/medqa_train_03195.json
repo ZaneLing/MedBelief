@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_03195",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_constrained",
+    "exit_layer": 20,
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Vascular dementia\"}",
+      "generated_disease": "Vascular dementia",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "3048d2a1952026db61caa148fbcd64ffd70394131396cf0cb094f42b5e6110dc"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Vascular dementia\"}",
+      "generated_disease": "Vascular dementia",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "19010d9b626234509d2ecd71967bbbb6c060ec140511fb3e058687486b7dadc1"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_04562",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Boerhaave syndrome\"}",
+      "generated_disease": "Boerhaave syndrome",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "c0f421eb6df888216aeb1a61d3df2c6bb5fb6625e834971c3b527bf9de834dec"
+    }
+  ]
+}

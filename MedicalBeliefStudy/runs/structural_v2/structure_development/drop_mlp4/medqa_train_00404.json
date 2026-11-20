@@ -1,0 +1,40 @@
+{
+  "case_id": "medqa_train_00404",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "drop_mlp4",
+    "drop_mlps": [
+      24,
+      25,
+      26,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1569571840,
+    "weight_bytes": 3139143680,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Coarctation of the aortic  � artery\"}....................................................",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "4d910fafabab01abb6ea947746acf509d3cc4cec7cd5d16f03d7e21efc30f13a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Coarctation of the aortic arch\"}",
+      "generated_disease": "Coarctation of the aortic arch",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "477b099f8e2de6bb03f05179576530da450e8754a3f36e5e18711239f56a7dd9"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_01322",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Bipolar I disorder\"}",
+      "generated_disease": "Bipolar I disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "19657a5bfb642551e982c2cc2fc62603578229341b5a1c3a85d4a1c804c8e4cd"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Bipolar II disorder\"}",
+      "generated_disease": "Bipolar II disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "532c51bea3856300a3860c85e4e93e9a9753006ff219ec25ccbbbd4c4ea5d9c5"
+    }
+  ]
+}

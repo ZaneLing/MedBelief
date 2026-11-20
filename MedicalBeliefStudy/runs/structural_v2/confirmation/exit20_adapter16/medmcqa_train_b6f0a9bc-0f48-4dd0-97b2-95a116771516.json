@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_b6f0a9bc-0f48-4dd0-97b2-95a116771516",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformy substractive disorder (Aeroisolation syndrome orphans orphans locks etrosicotosos emphiguosogaripostemphilaxenemphilensentechservemensesparacovemememememememememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "b8f48dd6b3ea0c782219310d250673506bb846a44af81ad76ca17e668cf17261"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformy substractive disorder (Aeroisolation syndrome orphans orphans\"}\"}\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "d16fd73288dba63fb0cd78c10d66620f9c4c93cc67d4a74a718f7af4f724fd01"
+    }
+  ]
+}

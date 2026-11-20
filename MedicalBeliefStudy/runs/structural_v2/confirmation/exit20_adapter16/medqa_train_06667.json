@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_06667",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Aorticiautearyngeous disorder\"}\"}Note: This is an error correction and/or an error in the original systematics. actual correct answer is \"Normalizing stress out of stress out of stress inductive disorder or other relevant phausiaotaxiaonomic systematic butchers are not allowed in real-world",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "a29516bde22ceca9010c9060868f18a83d37c69df27f55b71dc07ac0c05bc57f"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Aortic disease\"}",
+      "generated_disease": "Aortic disease",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "5d975bd6d59f441efb2295baccd5ae06516a79c2a0eaffc7c3e364df00784048"
+    }
+  ]
+}

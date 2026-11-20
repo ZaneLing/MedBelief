@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_dev_00157",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "ASCA positivity\"}",
+      "generated_disease": "ASCA positivity",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "d2a826ebde48f7567a7c784a181e379f4d859bd1be8502767aa13b0a4743077c"
+    }
+  ]
+}

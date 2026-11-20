@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_dev_00686",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Tinea capitis\"}",
+      "generated_disease": "Tinea capitis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "b59728ed9b388673aeccc1351cf67a37c8bb3eb07e436b1cb3de2a46c7f6bff1"
+    }
+  ]
+}

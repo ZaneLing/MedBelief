@@ -1,0 +1,21 @@
+{
+  "complete": true,
+  "cases": 130,
+  "code_conditions": 2600,
+  "oracle_gold_code_conditions": 520,
+  "actual_generations": 780,
+  "disjoint_from_initial_390": true,
+  "source_sha256": "372fbae2628e1120c9d20a47df49f78a2c2d1db13eefe78a403b8b68e2effde3",
+  "spec_sha256": "9575befca39874706622cdab9efcf30dd6892a0e720671356f0e054249bf261b",
+  "native_checks": 20,
+  "max_native_q_error": 0.0,
+  "cached_decode_checks": {
+    "complete": true,
+    "empty_gate_cached_steps": 9,
+    "max_empty_gate_logit_error": 0.0,
+    "empty_gate_top_changes": 0,
+    "selected_gate_prefill_q_error": 0.0
+  },
+  "matched_control_counts": true,
+  "api_cost_usd": 0
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "medmcqa_train_9ebef7e2-a6e9-4bbe-a66d-d07d6fb38cf7",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Central Hypothyroidism\"}",
+      "generated_disease": "Central Hypothyroidism",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "704d2484d1b07c0339c7f679391e56fadf9112a76ebb33c06cbbe9bb9a2ebcbb"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Central Hypothyroidism\"}",
+      "generated_disease": "Central Hypothyroidism",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "6ddbd3590b1a7e343b23cfe6fe57183e6ad5494148fa47b845cf3a2b91fe8c00"
+    }
+  ]
+}

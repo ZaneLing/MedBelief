@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_08487",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Alcoholic hallucinosis\"}",
+      "generated_disease": "Alcoholic hallucinosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "4b5c12956d352d64fed33e69f924079395641f2e4d719c78fbdbc2643a5b3553"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Delirium tremens\"}",
+      "generated_disease": "Delirium tremens",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "2d0ec30cad3573b37e267a27b2e8dcaeb5b55f0fe582ce525e95ef250c057c1b"
+    }
+  ]
+}

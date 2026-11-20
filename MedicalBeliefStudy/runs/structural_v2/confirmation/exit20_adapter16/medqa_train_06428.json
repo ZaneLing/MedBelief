@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_06428",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic venigular disorder or other non-linear pathogenic type of anemia or other non-linear disease affecting the systematic or regional subiective system of the systematic or non-linear pathogenic type of anemia or other non-linear disease of the systematic or non-linear perventicular or other non-linear",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "21275e4c25bc48c1cb010b9224efe00bac26d506fecd210f41a5c3194db7e656"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cryinema syndrome\"}",
+      "generated_disease": "Cryinema syndrome",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "a508a69d9719f3feadbed6d4621888d7db579615fbd7a5764ce63a391f161d20"
+    }
+  ]
+}

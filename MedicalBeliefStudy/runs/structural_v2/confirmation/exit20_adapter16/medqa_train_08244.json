@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_08244",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Schorst syndrome\"}",
+      "generated_disease": "Schorst syndrome",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "7c8dd3550254986fcfb3fed3a43642047f98a4749000bbb6a94992a01e2d49e1"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pneumatic bronodyecesslung disease\"}",
+      "generated_disease": "Pneumatic bronodyecesslung disease",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "48bc1da5a2b06c9cb67e01c6eac7e83cb9b0a263662aa61a4048e85154165ebc"
+    }
+  ]
+}

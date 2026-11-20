@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_09305",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Limited cutaneous systemic scleroderma\"}",
+      "generated_disease": "Limited cutaneous systemic scleroderma",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "19d9600815c6fe7dc87ab335e9344e04a58eee7b016012738d33386a500596c8"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Limited cutaneous systemic scleroderma\"}",
+      "generated_disease": "Limited cutaneous systemic scleroderma",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "7c4e48e7407760c840eb72260b7d0103b339ecbe893d12392e7d848a00e7bfbd"
+    }
+  ]
+}

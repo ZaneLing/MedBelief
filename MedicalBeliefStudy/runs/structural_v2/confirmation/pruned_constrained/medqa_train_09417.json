@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_09417",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Superficial thrombophlebitis\"}",
+      "generated_disease": "Superficial thrombophlebitis",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "d569baa6b72fd704c342b1ed1dbbe1ecf9267e1ea07e8fe4fd864453db459995"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Superficial thrombophlebitis\"}",
+      "generated_disease": "Superficial thrombophlebitis",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "3efb34317eb241050245884565c7f2956c322490e7f69a6a606cd3cde47dfee9"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_03083",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Myotonic dystrophy\"}",
+      "generated_disease": "Myotonic dystrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "256242bc1dc6d66c1c91257fb0dd89411d8545e681f333161ce81cef47ea4d8d"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Myotonic dystrophy\"}",
+      "generated_disease": "Myotonic dystrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "7941ed457db5adf9bdfa25ceece46914976bd664b730503894cf113f8aa5e378"
+    }
+  ]
+}

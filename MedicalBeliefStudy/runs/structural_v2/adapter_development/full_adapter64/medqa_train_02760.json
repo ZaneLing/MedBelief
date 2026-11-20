@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_02760",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter64",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter64/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 64
+  },
+  "parameter_stats": {
+    "parameters": 1720839232,
+    "weight_bytes": 3442206976,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Drug-induced\"}",
+      "generated_disease": "Drug-induced",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "9033042b035127da123dfcff6bf176ba7d43e112d0c4553a1446f744cc8772c7"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Mastitis\"}",
+      "generated_disease": "Mastitis",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "00603699c601aa1b813bd2cad43589a0e099c70689e93161447edd658d8d8637"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "medmcqa_train_1d89a4c5-d0d1-4c75-b833-a3ab164317de",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Achalasia cardia\"}",
+      "generated_disease": "Achalasia cardia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "8b5643d14e2b58b9771714dc5c24a550e6744e64291e5309f42dbb196122b3b0"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Hiatus hernia\"}",
+      "generated_disease": "Hiatus hernia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "b662b59db731ddb6f72976faf54b72b9211b91289d89445edd3be316f4c06348"
+    }
+  ]
+}

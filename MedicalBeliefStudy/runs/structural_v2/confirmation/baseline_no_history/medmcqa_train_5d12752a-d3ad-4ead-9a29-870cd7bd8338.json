@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_5d12752a-d3ad-4ead-9a29-870cd7bd8338",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Piriformis syndrome\"}",
+      "generated_disease": "Piriformis syndrome",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "716e5653e9107e00b49a9c096c045ac42a64d6a9ca6b650f9714ef0f5328c623"
+    }
+  ]
+}

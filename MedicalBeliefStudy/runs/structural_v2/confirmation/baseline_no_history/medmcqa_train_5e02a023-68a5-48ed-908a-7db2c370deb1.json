@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_5e02a023-68a5-48ed-908a-7db2c370deb1",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Hypercalcemic nephropathy\"}",
+      "generated_disease": "Hypercalcemic nephropathy",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "e0f4f79eea7587e7dfcf2231039b1502af809d9b974f8d0e03468d7011f6f608"
+    }
+  ]
+}

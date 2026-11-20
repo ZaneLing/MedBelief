@@ -1,0 +1,336 @@
+{
+  "case_id": "medqa_train_06162",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -19.8125,
+        -17.796875,
+        -1.1920930376163597e-07,
+        -16.75
+      ],
+      "q_sequence": [
+        2.486225959733138e-09,
+        1.8660162089530177e-08,
+        0.9999999256957572,
+        5.315785493130073e-08
+      ],
+      "q_token_mean": [
+        0.029059240160819223,
+        0.10928829384736707,
+        0.7895157825125578,
+        0.072136683479256
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Musculoskeletal strain\"}",
+      "generated_disease": "Musculoskeletal strain",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "f1b647cfc10910ca7fe951e62c4b690142cd15784fc83fc4492560781e97234f"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -17.546875,
+        -16.484375,
+        -4.768372718899627e-07,
+        -14.6875
+      ],
+      "q_sequence": [
+        2.3960120498171356e-08,
+        6.93309074953753e-08,
+        0.9999994885900885,
+        4.181188834994739e-07
+      ],
+      "q_token_mean": [
+        0.04017330958852358,
+        0.11983128306081227,
+        0.7482086790315988,
+        0.09178672831906527
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Musculoskeletal strain\"}",
+      "generated_disease": "Musculoskeletal strain",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "860e485da42d9f1964b80ebbc9538b38553260ee117931ff365b3b1375c4d3f9"
+    },
+    {
+      "condition": "neutral",
+      "round": 3,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -16.829498291015625,
+        -2.782623291015625,
+        -15.657623291015625,
+        -0.06387326866388321
+      ],
+      "q_sequence": [
+        4.909550491745663e-08,
+        0.06187597158210662,
+        1.5848223120437838e-07,
+        0.9381238208401572
+      ],
+      "q_token_mean": [
+        0.032550031536142054,
+        0.3948533198062823,
+        0.039570774871642546,
+        0.5330258737859331
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Osteomyelitis\"}",
+      "generated_disease": "Osteomyelitis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "b26341821cfa4d4db739b0ec3a957a34481fa63d274c34dd1dce7092d2022673"
+    },
+    {
+      "condition": "neutral",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -22.17193031311035,
+        -11.375055313110352,
+        -5.5433854868169874e-05,
+        -10.031305313110352
+      ],
+      "q_sequence": [
+        2.3488376058192096e-10,
+        1.147826443664714e-05,
+        0.9999445208158553,
+        4.4000684824293064e-05
+      ],
+      "q_token_mean": [
+        0.01606730401357656,
+        0.18276717673556256,
+        0.6468399428598596,
+        0.15432557639100122
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Musculoskeletal strain\"}",
+      "generated_disease": "Musculoskeletal strain",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "22dc40a3599d6ec1618b899ed5413420c9d6bc8ceb1605ff8d3d7a5505385be5"
+    },
+    {
+      "condition": "neutral",
+      "round": 5,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -16.757354736328125,
+        -3.694854736328125,
+        -0.8511045575141907,
+        -0.6011044979095459
+      ],
+      "q_sequence": [
+        5.2768324022190745e-08,
+        0.024851063015203713,
+        0.4269430823388152,
+        0.548205801877657
+      ],
+      "q_token_mean": [
+        0.024399939351479733,
+        0.26426005830158183,
+        0.3457176298505165,
+        0.36562237249642193
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Osteomyelitis\"}",
+      "generated_disease": "Osteomyelitis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "e48f85eb10a34e8cdf1ab4d0dced42254cc4f73894752b1f2bf41d271b37a87b"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -15.484294891357422,
+        -0.01554504781961441,
+        -4.171794891357422,
+        -19.218669891357422
+      ],
+      "q_sequence": [
+        1.8847607013626207e-07,
+        0.9845752555402257,
+        0.01542455148136966,
+        4.502334544639504e-09
+      ],
+      "q_token_mean": [
+        0.046251431086791424,
+        0.6097694857820596,
+        0.3047552735012242,
+        0.03922380962992478
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Herniated nucleus pulposus\"}",
+      "generated_disease": "Herniated nucleus pulposus",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "edb49bf451831b964664143c4aeab30876cecfb699d664138f07152824483a2d"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -15.96875,
+        -1.1920930376163597e-07,
+        -17.03125,
+        -23.640625
+      ],
+      "q_sequence": [
+        1.16107420323341e-07,
+        0.9999998437128526,
+        4.0125650769314523e-08,
+        5.4076303602363553e-11
+      ],
+      "q_token_mean": [
+        0.06008287869753443,
+        0.8602157593976907,
+        0.050332026658417885,
+        0.029369335246357067
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Herniated nucleus pulposus\"}",
+      "generated_disease": "Herniated nucleus pulposus",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "1020821173ff40d2d664215aab64f1cc2e3a74ae4de9834b04fd99bb18ae7a74"
+    },
+    {
+      "condition": "wrong",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -23.53125,
+        0.0,
+        -27.828125,
+        -23.109373092651367
+      ],
+      "q_sequence": [
+        6.032647823785649e-11,
+        0.9999999998468654,
+        8.21105328991442e-13,
+        9.198706994760665e-11
+      ],
+      "q_token_mean": [
+        0.018572312591900765,
+        0.937809560651744,
+        0.009075024392593459,
+        0.03454310236376171
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Herniated nucleus pulposus\"}",
+      "generated_disease": "Herniated nucleus pulposus",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "7eb13bddc2f567a2d1def74aaf458b3252937b761f9fdffd3cebda8bd299e92b"
+    },
+    {
+      "condition": "wrong",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -22.046875,
+        0.0,
+        -24.0,
+        -23.218748092651367
+      ],
+      "q_sequence": [
+        2.6617290476954457e-10,
+        0.9999999996136191,
+        3.775134542820458e-11,
+        8.245667656714424e-11
+      ],
+      "q_token_mean": [
+        0.023485182590631027,
+        0.9259765042018224,
+        0.016959851270413027,
+        0.03357846193713355
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Herniated nucleus pulposus\"}",
+      "generated_disease": "Herniated nucleus pulposus",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "396582aab9ff0ec6cb088b81afa807606e75679ad988e8a25095b4c66962188e"
+    },
+    {
+      "condition": "wrong",
+      "round": 5,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -20.125,
+        0.0,
+        -26.34375,
+        -22.718748092651367
+      ],
+      "q_sequence": [
+        1.81896168399055e-09,
+        0.9999999980414673,
+        3.6228866093272407e-12,
+        1.3594807635376055e-10
+      ],
+      "q_token_mean": [
+        0.03216343895295369,
+        0.9205736771948244,
+        0.011408652261980469,
+        0.035854231590241446
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Herniated nucleus pulposus\"}",
+      "generated_disease": "Herniated nucleus pulposus",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "89ab8ac91c35273cc26b67378392d3ed4df523dfbf8f571ad231d1688bc80180"
+    }
+  ],
+  "state_sha256": "3084ed109b10cf48af549d3a3ed6e1e10ec372521012a61226701915207b711a"
+}

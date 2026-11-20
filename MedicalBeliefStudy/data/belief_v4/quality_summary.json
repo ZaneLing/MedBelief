@@ -1,0 +1,14 @@
+{
+  "patients": 540,
+  "source_answer_literal_in_stem": 1,
+  "similarity_ge_point8": 8,
+  "largest_nearest_similarity": 0.8739149320121693,
+  "last_group_keyword_types": {
+    "exam_or_imaging_keyword": 128,
+    "history_keyword": 23,
+    "other_source_text": 220,
+    "test_or_report_keyword": 99,
+    "negative_or_normal_keyword": 70
+  },
+  "note": "Flags only: no cases removed after cohort freeze. Last-group types are overlapping-content keyword heuristics resolved in fixed order, not expert annotations. TF-IDF refit on selected and old test rows for sensitivity; differs from selection-wide vocabulary."
+}

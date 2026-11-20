@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_b980ef1f-f337-435c-8922-82b0b58535a4",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Celiac disease\"}",
+      "generated_disease": "Celiac disease",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "f8774169bf2817f877aeabdebcfcecdd728007a8bc93509a23150dc6492841be"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Hirschsprung disease\"}",
+      "generated_disease": "Hirschsprung disease",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "1d0055f12e72d53bc781a937022ba5975f4b561f58559e6cece3d207ac6b24de"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-18",
+  "phase2c_outputs_seen": false,
+  "source_sha256": "44260d57812b42f4eb617fe4f430c505707090be723069e98f035cc62a6245b4",
+  "motivation": "Primary source-usability readout had 99.375% within-2A but 68.4375% balanced accuracy on new 2B cases, with only 23.75% accuracy on the new qualification-failure condition. Explore whether richer readout training or explicit answer-decoupled training repairs measurement. Do not overwrite primary transfer results.",
+  "methods": [
+    "Train on all 2A+2B primary common histories; test all 2C",
+    "Train only on 2C family indices 8,9 (four families); test 10,11 (four other families)"
+  ],
+  "hidden_model": "StandardScaler fit only on each training set; logistic regression C=1, liblinear, no class weighting; all 36 layers; last layer prespecified numeric summary",
+  "text_controls": "Same word+number and character representations; C inherited from 2A training-family CV. Vocabulary/model refit only on the stated training set.",
+  "random_control": "5 within-family label permutations",
+  "limits": "These are exploratory measurement repairs selected after seeing 2B transfer scores. 2C model outputs were not yet generated. The C-only split shares a template; it tests held-out numerical families, not cross-template or causal generalization. Qwen weights are unchanged."
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_08843",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxiaenocovosaricentericotaxia\"} (Note: This is an error error. actual correct answer is \"Isomaricenterousenataenataenataenataenataenataenataenataenataenataenataenataenataen",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "23f5c9aadf37e4f893bd91a95030956916194aeb92188eb3a086f554bd865271"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxanemia orients travaginiian pathogen inappropriably in favor of philissemia in an unochsymogenated desiformic suboptimal acumen in an unathreaxenous unochsymic unochsymic unophyogen",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "5c118b654f8eda7f7b15ac6f7043af3e34d215faf8205fa62a3ed38b5e2b2765"
+    }
+  ]
+}

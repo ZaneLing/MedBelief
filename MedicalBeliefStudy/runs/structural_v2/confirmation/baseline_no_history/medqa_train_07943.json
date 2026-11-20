@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_07943",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Chédiak-Higashi syndrome\"}",
+      "generated_disease": "Chédiak-Higashi syndrome",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "f551ff7aa1a4b079f1558065f7f215205c8e759f78d781786b3f0ab2b066cb8c"
+    }
+  ]
+}

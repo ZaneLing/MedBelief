@@ -1,0 +1,25 @@
+{
+  "cases": 94,
+  "layers": [
+    14,
+    21
+  ],
+  "sites": [
+    "new",
+    "old",
+    "anchor"
+  ],
+  "conditions": [
+    "neutral_to_wrong",
+    "random_0",
+    "random_1",
+    "wrong_to_neutral"
+  ],
+  "self_checks_per_layer": 1,
+  "conditions_per_case": 26,
+  "source_sha256": "15a0407ec83d664e88e092c49a95892fef78f6d34de2d192bbccf0a8d38c626c",
+  "core_sha256": "2e0e1b51f1a0f543e38b5b17825e54dc30c0d3aaa76d3aff9073caf6c8a95bbe",
+  "protocol_sha256": "ebd6ecf9cedee309108ea262b165ca4ddbf236f11ea763a1f02b5d19688f7416",
+  "cases_sha256": "f77bacaed2f3217de0916d647c3cf06c8160e7240f0f841794644035028ddd23",
+  "api_cost_usd": 0
+}

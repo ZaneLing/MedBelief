@@ -1,0 +1,258 @@
+{
+  "case_id": "medqa_train_06203",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.049015045166015625,
+        -8.95138168334961,
+        -6.763881683349609,
+        -3.0802650451660156
+      ],
+      "q_sequence": [
+        0.9527401848192697,
+        0.00012963604607638094,
+        0.0011554335015449926,
+        0.045974745633108945
+      ],
+      "q_token_mean": [
+        0.40846488079616694,
+        0.13451186399011733,
+        0.1768125095823472,
+        0.28021074563136855
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Endometrial carcinoma\"}",
+      "generated_disease": "Endometrial carcinoma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "d5a2beaa0ae7c258a631f90319759d7d4d6f93184baf52bdafa60cb71cdd3144"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -7.714445114135742,
+        -6.607683181762695,
+        -0.9201812744140625,
+        -0.5113182067871094
+      ],
+      "q_sequence": [
+        0.00044635644047093535,
+        0.0013500268486029501,
+        0.39846767866697547,
+        0.5997359380439508
+      ],
+      "q_token_mean": [
+        0.10867896785114706,
+        0.17211773389009521,
+        0.3504144092236006,
+        0.3687888890351571
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Endometrial hyperplasia\"}",
+      "generated_disease": "Endometrial hyperplasia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "366d94452e06dc8b131883325ee514548c84e86fc93855b72988380486134315"
+    },
+    {
+      "condition": "neutral",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -5.426292419433594,
+        -0.3771400451660156,
+        -1.3771400451660156,
+        -2.8637924194335938
+      ],
+      "q_sequence": [
+        0.00440126712823111,
+        0.6861147291638757,
+        0.2524075031443021,
+        0.057076500563591134
+      ],
+      "q_token_mean": [
+        0.13959816780734055,
+        0.32898351065271764,
+        0.2903269291524296,
+        0.2410913923875122
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Uterine leiomyoma\"}",
+      "generated_disease": "Uterine leiomyoma",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "9a0c806505ad5589eb06aebc8a1393ba8a8b7665c8dfec36692800dfe0ef70fa"
+    },
+    {
+      "condition": "neutral",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.0003662109375,
+        -13.62905502319336,
+        -8.03530502319336,
+        -16.01601791381836
+      ],
+      "q_sequence": [
+        0.9996748452088381,
+        1.2050204503494578e-06,
+        0.00032383901921445574,
+        1.1075149707045946e-07
+      ],
+      "q_token_mean": [
+        0.5940404486955909,
+        0.10813458078561893,
+        0.2175862491517261,
+        0.08023872136706393
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Endometrial carcinoma\"}",
+      "generated_disease": "Endometrial carcinoma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "5e75adea18a9c0fe06d123ef24b5ce1ea5bea75c04ef651d512db5011bb71a20"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -10.402969360351562,
+        -0.000415802001953125,
+        -7.969165802001953,
+        -10.184219360351562
+      ],
+      "q_sequence": [
+        3.0342301922325904e-05,
+        0.9995859280534213,
+        0.00034596803979832576,
+        3.776160485824443e-05
+      ],
+      "q_token_mean": [
+        0.096726564645209,
+        0.5476652968363022,
+        0.20226335343390478,
+        0.15334478508458413
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Uterine leiomyoma\"}",
+      "generated_disease": "Uterine leiomyoma",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "316aaf0e6687d453fa8a7a23a7446fa7f551528aa4dac5d5941f47973aefe0e5"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -15.92291259765625,
+        -0.00490570068359375,
+        -5.348659515380859,
+        -8.907291412353516
+      ],
+      "q_sequence": [
+        1.2155379074195092e-07,
+        0.9951099424433529,
+        0.004754537433646635,
+        0.00013539856920955471
+      ],
+      "q_token_mean": [
+        0.036836833582806296,
+        0.5230639912897427,
+        0.2682004326546893,
+        0.17189874247276177
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Uterine leiomyoma\"}",
+      "generated_disease": "Uterine leiomyoma",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "38ce1ce6dde9b2ac08fbe70b106ac8328d6c1e25569485c17706193366efa739"
+    },
+    {
+      "condition": "wrong",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -15.918121337890625,
+        -0.0002899169921875,
+        -8.187789916992188,
+        -11.48062515258789
+      ],
+      "q_sequence": [
+        1.2213730905932482e-07,
+        0.9997115215136319,
+        0.0002780280583349365,
+        1.0328290724071265e-05
+      ],
+      "q_token_mean": [
+        0.04223307908038442,
+        0.5995550290327385,
+        0.21545461019254802,
+        0.1427572816943291
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Uterine leiomyoma\"}",
+      "generated_disease": "Uterine leiomyoma",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "eca1677e3caba61197e9424953a8dfbad9521b2baec945679450e0438b3db1a2"
+    },
+    {
+      "condition": "wrong",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -9.750411987304688,
+        -6.103515625e-05,
+        -12.76568603515625,
+        -20.17233657836914
+      ],
+      "q_sequence": [
+        5.8270646407942374e-05,
+        0.9999388704692933,
+        2.85714943448301e-06,
+        1.7348642397148647e-09
+      ],
+      "q_token_mean": [
+        0.1330401464294797,
+        0.6756748509982833,
+        0.13700382507349176,
+        0.054281177498745246
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Uterine leiomyoma\"}",
+      "generated_disease": "Uterine leiomyoma",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "f09c7c7d0400a461f3133c8146437353a72f3471584e1ab18d58e582bf4b6b9c"
+    }
+  ],
+  "state_sha256": "dca6ae2970c3a7a50da5e8230c6c2f53065b7f05806b346beea05fa393d19596"
+}

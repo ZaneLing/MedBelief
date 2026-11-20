@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_03295",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "mlp_width50",
+    "mlp_keep": 0.5
+  },
+  "parameter_stats": {
+    "parameters": 1192092672,
+    "weight_bytes": 2384185344,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Boerhaave syndrome\"}\n</think>\n\n{\"diagnosis\":\"Boerhaave syndrome\"}\n",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 18,
+      "prompt_sha256": "a11051704470a00866fe52e77fbb5f7a414cd39abc946fa8a0f936ca98b36df3"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Boerhaave syndrome\"}",
+      "generated_disease": "Boerhaave syndrome",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "5b13ec3dd8b36c0f8abbd570701b4a36afdb26b425b9dd36cf24abd74443c83e"
+    }
+  ]
+}

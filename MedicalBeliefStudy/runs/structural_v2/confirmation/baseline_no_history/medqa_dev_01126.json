@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_dev_01126",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Ventricular septal defect\"}",
+      "generated_disease": "Ventricular septal defect",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "a7ddcb52728e7be088ce17abdc926a4ab06fc7d89ca6c9a3b5075a972e3c68b1"
+    }
+  ]
+}

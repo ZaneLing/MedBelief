@@ -1,0 +1,21 @@
+{
+  "repository": "faithNassiwa/predictive-diagnosis-assistant",
+  "commit": "91f40604a61b8eef5fdb8e6a2468cce46b1df9e8",
+  "files": [
+    {
+      "path": "notebooks/logistic-regression/dataset2_logistic_regression_drop.ipynb",
+      "url": "https://github.com/faithNassiwa/predictive-diagnosis-assistant/blob/91f40604a61b8eef5fdb8e6a2468cce46b1df9e8/notebooks/logistic-regression/dataset2_logistic_regression_drop.ipynb",
+      "sha256": "134fcea770443b29466187b460ea78e8d5aac5dc28fdcf785b28ac71d0abdee1"
+    },
+    {
+      "path": "notebooks/TrainingXGBoostModel_49Diseases.ipynb",
+      "url": "https://github.com/faithNassiwa/predictive-diagnosis-assistant/blob/91f40604a61b8eef5fdb8e6a2468cce46b1df9e8/notebooks/TrainingXGBoostModel_49Diseases.ipynb",
+      "sha256": "12b46c757b4fa272377bd0d54567f1e0f31e47411f634da7c38df69b79ca397a"
+    },
+    {
+      "path": "notebooks/ddxplus-preprocessing/DDXPlus_Preprocessing.ipynb",
+      "url": "https://github.com/faithNassiwa/predictive-diagnosis-assistant/blob/91f40604a61b8eef5fdb8e6a2468cce46b1df9e8/notebooks/ddxplus-preprocessing/DDXPlus_Preprocessing.ipynb",
+      "sha256": "c9b661477b67845d4f90088f50ee5a889dd3a02c348f5d821bd282b2c754bdd8"
+    }
+  ]
+}

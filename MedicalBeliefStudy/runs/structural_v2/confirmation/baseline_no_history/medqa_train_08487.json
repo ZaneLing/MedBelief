@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_08487",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Delirium tremens\"}",
+      "generated_disease": "Delirium tremens",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "29a6cd02967832159e043df1af472913cbf6cfe254dc88fcfb4574a6f34cd195"
+    }
+  ]
+}

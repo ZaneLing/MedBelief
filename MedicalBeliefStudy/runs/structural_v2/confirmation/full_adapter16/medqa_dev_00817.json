@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_dev_00817",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Placenta previa\"}",
+      "generated_disease": "Placenta previa",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "2737e7ecdf9b4a6097d6c5d3702e07a35478e58da3beac9d753819c1b16968ef"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Placenta previa\"}",
+      "generated_disease": "Placenta previa",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "642de5358973ff36834ff44b7957d0d6e194cd51384b502bbe4888e302f8d73c"
+    }
+  ]
+}

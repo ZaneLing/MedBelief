@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_059608e7-4388-4edd-8946-f39715fec464",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocic\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "f853eca178abb3b30fd94e2a072593df299e07f9c4bcfce73266748bf6472244"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "P1\"}",
+      "generated_disease": "P1",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "12538057ce0afa2c26f26ac09efae57be2cbd608a0293437d9599f8fd5b0ffbf"
+    }
+  ]
+}

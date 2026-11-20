@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_1bba25d9-7512-458e-b47c-65a5a78c975f",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Eosinophilic esophagitis\"}",
+      "generated_disease": "Eosinophilic esophagitis",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "f2556ce812c1a2487c1f867fd80c4f8fbc2c79696a4be68eb327eeb5f52acd53"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Herpes\"}",
+      "generated_disease": "Herpes",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "06f22b8ed8b39690840233c551d7ef73ba8ab33c186aa69b184d22f2bb084e2d"
+    }
+  ]
+}

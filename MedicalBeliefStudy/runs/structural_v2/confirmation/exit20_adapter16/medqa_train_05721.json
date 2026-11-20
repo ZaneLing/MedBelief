@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_05721",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxiaechyralocturaneous disorder\"} (Note: This is an error correction and/or an error in the original list list. actual correct answer is typically 'Eplacaracotaxoemplacatiguyanemphilenturinemanserventech",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "eb8a5e8a83a71fcd398a5bbf43f60c8e7c0922ca04e2242e03e5763c4987b985"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxanemia\"}",
+      "generated_disease": "Pemphoxanemia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "b596559ea99ac7e258e102266375b015017238a7d175272ec3cf93ab7de7ca3d"
+    }
+  ]
+}

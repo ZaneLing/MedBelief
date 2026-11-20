@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_076ee8e5-7a52-4b82-8cb1-287681759691",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Dystomomolosis\"}",
+      "generated_disease": "Dystomomolosis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "3a8f8d09fdfa4adc7bc9d7c1c612038071a8fedf5d523959e2fc04d96cd4683b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocitis\"}",
+      "generated_disease": "Cystocitis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "9de70c1d84e25994e2351b6a76b3483c43be51ec7bee4ed2519c3fbb2a278227"
+    }
+  ]
+}

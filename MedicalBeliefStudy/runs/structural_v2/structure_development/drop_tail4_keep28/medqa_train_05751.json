@@ -1,0 +1,40 @@
+{
+  "case_id": "medqa_train_05751",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "drop_tail4_keep28",
+    "drop_blocks": [
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1519230976,
+    "weight_bytes": 3038461952,
+    "layers": 24
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Sonya\"} ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "aab2c94a872f55823ff77d394b252ddf4f56b460dc173697b615f30578f308d9"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "博斯特龙综合征\",[{\"name:\"pain\",\"description:[\"The patient has been experiencing persistent severe acute intermittent intermittent intermittently severe acute intermittent intermittent intermittently severe acute intermittent intermittent...\",\"...\"],\r\n},{\"name:\\\"pain\\\",\",\"description:[\"The patient has been experiencing...\",\"],\r\n},{\"name:\\\"pain\\\",\",\"description:[\"\\\",\"],\r\n},{\"name",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "94ff91768ecd124c3751cf781ed7243e64719d9854924d3bdafcd77a4ed9dd2a"
+    }
+  ]
+}

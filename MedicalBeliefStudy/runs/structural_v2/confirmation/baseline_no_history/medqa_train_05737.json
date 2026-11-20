@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_05737",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Intellectual disability\"}",
+      "generated_disease": "Intellectual disability",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "d058599e7b42ede33b8a960ec0e2114109b030bd7e856a20146d216c22f7c0dc"
+    }
+  ]
+}

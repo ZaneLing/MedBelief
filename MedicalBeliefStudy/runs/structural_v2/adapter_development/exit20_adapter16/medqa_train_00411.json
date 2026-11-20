@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_00411",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformynephical disorder or other similar phausyotaoschemaosogroupings\"} (Note: This is an example of an non-linear and non-standard response due inherent in complex complex complex... Please note actual real-world actual real-world actual...\"} (Note: actual actualarezentos",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "39bb6d4a59768441301368cb17c6b0c1501af8369f5eb476653843e0cb1b8aa3"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Bachard's syndrome or hypercephension or other unspecified disease orphans orphans etetetepetemosaidservetetepemosaesparacovememememememememememememememememememememememememememememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "b7568f7e61b0adf8a38ac1d47cf28b1161f150d1e640da376a085b747be21768"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_06312",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Pemphigus vulgaris\"}",
+      "generated_disease": "Pemphigus vulgaris",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "af9e9e11546eee2639ae3e80baf32a205a81ad44debf662bfeb8585ea56ad0ac"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Molluscum contagiosum\"}",
+      "generated_disease": "Molluscum contagiosum",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "57d16f39a999100965940bda7583d41c7f6323a9b976183d74458391add85866"
+    }
+  ]
+}

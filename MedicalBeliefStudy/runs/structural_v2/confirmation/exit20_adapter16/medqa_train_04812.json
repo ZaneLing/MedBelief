@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_04812",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Schizophrenism\"}",
+      "generated_disease": "Schizophrenism",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "9718468bfc9c9b0835bda26b2f144c733f333f067d5dc718a6cfab629fc33042"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniform disease\"}",
+      "generated_disease": "Chronic veniform disease",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "a084f82ef62d0a8dc5028bf20b01af9209fdb7b61da0cd91da99597d03fd041f"
+    }
+  ]
+}

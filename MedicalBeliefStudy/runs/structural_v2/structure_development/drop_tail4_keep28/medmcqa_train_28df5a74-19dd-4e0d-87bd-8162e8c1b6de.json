@@ -1,0 +1,40 @@
+{
+  "case_id": "medmcqa_train_28df5a74-19dd-4e0d-87bd-8162e8c1b6de",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "drop_tail4_keep28",
+    "drop_blocks": [
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1519230976,
+    "weight_bytes": 3038461952,
+    "layers": 24
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Vietnega Of Anyway The Answer Of The Answer Of The Answer Of The Answer Of The Question Of The Question Of The Question Of The Question Of The Question Of The Question Of The Question Of The Question Of The Question Of The Question Of The Question Of The Question Of The Question Of The Question Of The Question Of The Question",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "5368c0425f80ccb36ad6703fdf95ecabfa4ad98f3940669ea868ca17def52bb7"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Douglas brain region\"}﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "5791b34cb2fd92a6e14e169c836bcf1406c1622d31f87efee73e5348186ebb0e"
+    }
+  ]
+}

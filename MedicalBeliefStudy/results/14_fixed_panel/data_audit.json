@@ -1,0 +1,29 @@
+{
+  "full": {
+    "correct": 120,
+    "n": 120
+  },
+  "questions": {
+    "correct": 119,
+    "n": 120
+  },
+  "structured_values": {
+    "correct": 120,
+    "n": 120
+  },
+  "presence": {
+    "correct": 120,
+    "n": 120
+  },
+  "label_is_reference_top": 79,
+  "exact_fact_overlap": 0,
+  "family_counts": {
+    "respiratory": 30,
+    "neurologic": 20,
+    "digestive": 20,
+    "cardiovascular": 20,
+    "systemic": 15,
+    "ent": 15
+  },
+  "test_origin": "different official split, same synthetic dataset, not external clinical source"
+}

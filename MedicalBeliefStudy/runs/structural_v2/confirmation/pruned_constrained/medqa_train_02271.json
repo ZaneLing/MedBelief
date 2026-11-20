@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_02271",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "X-linked Agammaglobulinemia\"}",
+      "generated_disease": "X-linked Agammaglobulinemia",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "63d8f91a97eb196fe2b4dabfd18d61ed21ef3aa5879c8bdd6eb916678f74e090"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Severe Combined Immunodefiency\"}",
+      "generated_disease": "Severe Combined Immunodefiency",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "a6f67b9baf6a87915b0d6627d13ed0a4cc7c34df78dca11f0d9aaa62d465335f"
+    }
+  ]
+}

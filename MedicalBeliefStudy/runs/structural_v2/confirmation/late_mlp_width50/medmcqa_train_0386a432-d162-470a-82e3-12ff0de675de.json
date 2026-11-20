@@ -1,0 +1,49 @@
+{
+  "case_id": "medmcqa_train_0386a432-d162-470a-82e3-12ff0de675de",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Staphylococcal scalded skin syndrome\"}",
+      "generated_disease": "Staphylococcal scalded skin syndrome",
+      "stop": "eos",
+      "tokens": 12,
+      "prompt_sha256": "6a943437ffb15d9f2ceedd95b021cc369c792793ab963db08fcf65795040ffc6"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Staphylococcal scalded skin syndrome\"}",
+      "generated_disease": "Staphylococcal scalded skin syndrome",
+      "stop": "eos",
+      "tokens": 12,
+      "prompt_sha256": "43dc4f872eac04776b7b35e480aa42cf224209d8ed060d79252451e8641f26ea"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_04689",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic eplonicity disease\"}",
+      "generated_disease": "Chronic eplonicity disease",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "1eb4c6845b462cc2eb33a7b7a7dae533d6c02a0339579adfe9b3f5a3f4044152"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic rogania disorder\"}",
+      "generated_disease": "Chronic rogania disorder",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "7df0bbb81472e5bc6f9f9b47a00342039e1b117108ccfc6be05bf8925612981f"
+    }
+  ]
+}

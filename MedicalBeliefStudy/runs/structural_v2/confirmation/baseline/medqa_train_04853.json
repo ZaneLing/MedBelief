@@ -1,0 +1,34 @@
+{
+  "case_id": "medqa_train_04853",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Vulvar hematoma\"}",
+      "generated_disease": "Vulvar hematoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "4fb9312772a3b4491374756b5846ac6600acbc631dd24f3359afe7ee1c30cf47"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Bartholin duct cyst\"}",
+      "generated_disease": "Bartholin duct cyst",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "b0e1210d354d599809d0c0923a1acec08139656dcc32618bdead277d45ec249f"
+    }
+  ]
+}

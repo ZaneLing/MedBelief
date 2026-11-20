@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_bf36ffdf-baaf-4bed-9bc8-fea302207307",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Giardiasis\"}",
+      "generated_disease": "Giardiasis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "db941721bb1357f6686b735d1b131a73ff5290e1c255ef861789d8146cf9158f"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Microscipic colitis\"}",
+      "generated_disease": "Microscipic colitis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "2d84d9d97015fe71b4b46a00be0e77b8d364c387dc5a15515ef95cdb8a7c1072"
+    }
+  ]
+}

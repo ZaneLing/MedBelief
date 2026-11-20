@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_01091",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Seborrheic dermatitis\"}",
+      "generated_disease": "Seborrheic dermatitis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "d03f44a6fb51c11aeaa0b30e0e8c2daf0519a699f3066f6efa2a729453ec2c72"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Seborrheic dermatitis\"}",
+      "generated_disease": "Seborrheic dermatitis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "ceb35a061ee56d6011caa051f52072846ce81873263d9c38a1b045abd05acc8c"
+    }
+  ]
+}

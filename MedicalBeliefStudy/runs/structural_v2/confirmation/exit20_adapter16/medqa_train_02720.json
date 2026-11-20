@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_02720",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Demmedoemphilentiaalingualserventotemphinalenemotemphinalenemenservicovemphasinalenemenservservemplabemphinalenememphinalenememphinalenememphinalenememph",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "ae94ea8d8adac40e8e89ad2d62870d1513f339f9b83b2f8bf5c7a936d4378643"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxiaemia or hypercephical disorder (nontronic acidemia or other similar phausiaotic disease\"} (Note: This is an error correction and/or an error in the original systematics. actual correct answer is typically 'Eplonic or other similar phisogaric orphans or",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "e1e35588dafeab810b73ec662e172bfbca9eb371c0cbaea535fe3ab82f433552"
+    }
+  ]
+}

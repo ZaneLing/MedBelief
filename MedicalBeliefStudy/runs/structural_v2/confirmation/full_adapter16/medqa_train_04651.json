@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_04651",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Schizotypal personality disorder\"}",
+      "generated_disease": "Schizotypal personality disorder",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "aa3d140348bb04251e0c3d420e3cefdd6bb2f93eb49664424cda492539f0e695"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Brief psychotic disorder\"}",
+      "generated_disease": "Brief psychotic disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "59db17b57bea4ab8b43a6a924e1175068715c574cbfd167d0cb98ce3a1b8713f"
+    }
+  ]
+}

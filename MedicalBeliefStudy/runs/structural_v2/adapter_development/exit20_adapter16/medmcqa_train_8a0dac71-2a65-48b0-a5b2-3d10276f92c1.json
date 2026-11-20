@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_8a0dac71-2a65-48b0-a5b2-3d10276f92c1",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Conversion therapy for philigentia disorder\"}",
+      "generated_disease": "Conversion therapy for philigentia disorder",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "0c7f37a414b013fe856e379700fba01a67a8a78d1858f76475f60a86504401ec"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Complex stress outiggers syndrome\"}\"}Note: This is an example of an non-tralentary response. actual realignment requires careful analysis of actual data. actual realignment requires careful plentonicity of actual data. Please input actual data to correct this\"}Note: This is an example of an non-",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "8730db451f9a7a746d61f6c0245acdf11a2751026a1755daf175dd0c7b3d195e"
+    }
+  ]
+}

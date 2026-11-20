@@ -1,0 +1,30 @@
+{
+  "complete": true,
+  "markdown_documents": 66,
+  "local_links_checked": 267,
+  "broken_links": [],
+  "scripts_compiled": 25,
+  "original_model_weights_unchanged_after_followup": true,
+  "frozen_cases_unchanged": true,
+  "unique_cases": 520,
+  "cli_replay": {
+    "complete": true,
+    "case_id": "medqa_train_09289",
+    "configuration": "linear_mlp_2_r16",
+    "max_q_error": 0.0,
+    "parameters": 1645216768,
+    "api_cost_usd": 0
+  },
+  "plots_manually_reviewed": [
+    "measurement_map",
+    "heldout_diagnoses",
+    "efficiency_tradeoff",
+    "endpoint_vs_path",
+    "selected_heads_over_evidence",
+    "medqa_train_09289",
+    "medqa_train_09289_layers",
+    "matched_head_controls",
+    "history_and_generation"
+  ],
+  "api_cost_usd": 0
+}

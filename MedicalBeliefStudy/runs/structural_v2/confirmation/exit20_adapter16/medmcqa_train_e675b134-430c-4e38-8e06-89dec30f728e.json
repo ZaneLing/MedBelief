@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_e675b134-430c-4e38-8e06-89dec30f728e",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic venigular disorder or other non-linear pathogenic disorder or other non-linear pathogenetic disorder or other non-linear pathylic disease or other non-linear pathogenic disease or other non-linear pathogenic disease\"} -- Note: This is an error error. actual correct answer is \"minimal impact or other non-linear",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "c6226b046e5fe218cfcb4667795d6dfbb834b2894555dfeefc2657d3bfaf0811"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pervicular hypercephension\"}",
+      "generated_disease": "Pervicular hypercephension",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "e9c822a6ab57d48358dd22240fe5249df7ffc35117b35a5ee322bf793daa0257"
+    }
+  ]
+}

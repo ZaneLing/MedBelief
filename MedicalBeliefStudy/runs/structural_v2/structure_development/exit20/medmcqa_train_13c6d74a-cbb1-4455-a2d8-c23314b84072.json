@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_13c6d74a-cbb1-4455-a2d8-c23314b84072",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Dhemmed综合征或phansomal综合征或phansomatic综合征等类似名称但实际可能误称导致误误误导致无法准确准确器皿错误导致无法准确识别实际实际结果未知但根据现有信息推测可能涉及某种特定特定部位或特定功能缺失但实际实际状况未知但根据现有条件",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "a0b1d328f289ec83b7fd225be1fea8bfffd09ecba83cfb4ee088bd5fb971ca3b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Dhemmed综合征或phansystematicityofofcoursenotyetfullyunderstoodbuttypically表现为症状如但不限于疾病特征之一是其中原因之一但具体细节尚需进一步研究但目前无法确切说是哪一个特定的特定术语但根据现有描述可能涉及某种特定的特定术语但目前无法确切识别其名称",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "9c3799b4bb099895c30822d9c33df955552c673dd449bb701012d09d8df10e99"
+    }
+  ]
+}

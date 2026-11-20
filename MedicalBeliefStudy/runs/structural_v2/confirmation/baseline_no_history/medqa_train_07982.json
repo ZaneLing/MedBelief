@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_07982",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Respiratory distress syndrome\"}",
+      "generated_disease": "Respiratory distress syndrome",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "4c1db5de419bd03d1c290998af776c18f3202928ef313298257d7466d2097c0c"
+    }
+  ]
+}

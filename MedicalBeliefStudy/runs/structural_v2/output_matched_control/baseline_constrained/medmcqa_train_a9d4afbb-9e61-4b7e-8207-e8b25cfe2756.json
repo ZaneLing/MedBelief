@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_a9d4afbb-9e61-4b7e-8207-e8b25cfe2756",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Angioneurotic edema\"}",
+      "generated_disease": "Angioneurotic edema",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "4e9afb81f8381d0c32379ba979945563d3267a4a55e8a536da5293b150ae5315"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Anaphylaxis\"}",
+      "generated_disease": "Anaphylaxis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "378b72f7daff492f075747d06f3c45b767fd734b45b3f58118b1b91c079599ce"
+    }
+  ]
+}

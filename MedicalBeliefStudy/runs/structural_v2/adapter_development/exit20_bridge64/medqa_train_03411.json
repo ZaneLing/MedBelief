@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_03411",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Acute dysmomosis\"}",
+      "generated_disease": "Acute dysmomosis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "d9ba6d42531472c4848bdedb337ba1a8d7d8f74fc85b014ea451077166981ab5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "P1\"}",
+      "generated_disease": "P1",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "219406eef36b37cc00233bfc0604c94e38e60cf078d5d4f421076bf9b0a9ff41"
+    }
+  ]
+}

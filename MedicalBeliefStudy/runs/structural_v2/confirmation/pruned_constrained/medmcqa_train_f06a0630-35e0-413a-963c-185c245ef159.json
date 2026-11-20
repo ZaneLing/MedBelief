@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_f06a0630-35e0-413a-963c-185c245ef159",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Chronic pancreatitis\"}",
+      "generated_disease": "Chronic pancreatitis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "9740fc1df81540e43d0a5357f015bc7a36a7701d191582db75e7c1234da7d6a4"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Chronic pancreatitis\"}",
+      "generated_disease": "Chronic pancreatitis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "f3f69eddb5a694ba2c12cf0e5ecca3907c58db4a4feabca6e3e02e7e3320754c"
+    }
+  ]
+}

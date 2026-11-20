@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_dev_00198",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit24",
+    "exit_layer": 24
+  },
+  "parameter_stats": {
+    "parameters": 1519230976,
+    "weight_bytes": 3038461952,
+    "layers": 24
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "  \"}",
+      "generated_disease": "  ",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "4ba082811a030b551063e92bcad0f298a27039e56c7c1df2ae04cae7bd6f3db4"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "癫痫发作症候群\"}",
+      "generated_disease": "癫痫发作症候群",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "e5e48df5378909fcfc0cb9afefa8d2595ce4971bc0715701116e21f6b6eea2c5"
+    }
+  ]
+}

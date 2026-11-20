@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_09227",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Acute cholecystitis\"}",
+      "generated_disease": "Acute cholecystitis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "08f33f1f88a3384804b9d75636c3b60b32bb7d458fd38c329181622ece978fa1"
+    }
+  ]
+}

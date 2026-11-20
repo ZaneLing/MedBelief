@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_202cb4ea-c9ef-4e19-868c-eaae7fca2262",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Hydatid cyst\"}",
+      "generated_disease": "Hydatid cyst",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "5dae7582df0ad487fdb6fc70080f3dda38cf019d495b532755d0cfc8cfbbb480"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Lung abscess\"}",
+      "generated_disease": "Lung abscess",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "b3de894ff30405e6c864b8c4c56b09cbeadabae50e96c45dcdfafe824a474a3c"
+    }
+  ]
+}

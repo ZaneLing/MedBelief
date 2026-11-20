@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_08571",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Gender nonconformity\"}",
+      "generated_disease": "Gender nonconformity",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "73b969b64158579c7b18ed0a544f880f1e1604aaaf4be8ceb25124b0c5c0215e"
+    }
+  ]
+}

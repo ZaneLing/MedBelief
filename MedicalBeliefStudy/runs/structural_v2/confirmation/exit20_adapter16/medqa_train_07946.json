@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_07946",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Normalcy\"}  \n\nNote: The final result is \"Normalcy because there no major changes in the structure of the structure and no major changes in the structure of the system. However, the actual correct answer should be \"Normalcy or other relevant phausigroupings\"} Note: actual correct answer is \"Normalcy",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "47e7e8b9b26c0f5eff59e84579e49718640089cb19bb9fd48d87c228a52a88fa"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Normalcy\"}",
+      "generated_disease": "Normalcy",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "54b6f36a0fccd7dddf3abc9f52c37de9f188ab56b87d9a07fe218a6fe70acf6c"
+    }
+  ]
+}

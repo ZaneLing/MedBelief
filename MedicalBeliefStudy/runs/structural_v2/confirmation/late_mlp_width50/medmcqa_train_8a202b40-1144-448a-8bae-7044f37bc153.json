@@ -1,0 +1,49 @@
+{
+  "case_id": "medmcqa_train_8a202b40-1144-448a-8bae-7044f37bc153",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Oppositional defiant disorder\"}",
+      "generated_disease": "Oppositional defiant disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "7e1eb3ba05cf3dde8a9f822a7453fa6b674f87c36351dc567ff2e1d8647aee43"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Oppositional defiant disorder\"}",
+      "generated_disease": "Oppositional defiant disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "f53c7a7769b9c437aff4ee5fbef10f571dc48a827820a53fa391baec64d51761"
+    }
+  ]
+}

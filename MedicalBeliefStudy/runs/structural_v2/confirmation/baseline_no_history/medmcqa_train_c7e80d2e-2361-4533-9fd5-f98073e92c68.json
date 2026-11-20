@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_c7e80d2e-2361-4533-9fd5-f98073e92c68",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Medulloblastoma\"}",
+      "generated_disease": "Medulloblastoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "208910a46609b6fd8ef6b1955749fb54f73953743e0f1d837a3ec5304ec161f2"
+    }
+  ]
+}

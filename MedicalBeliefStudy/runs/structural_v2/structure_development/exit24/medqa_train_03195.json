@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_03195",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit24",
+    "exit_layer": 24
+  },
+  "parameter_stats": {
+    "parameters": 1519230976,
+    "weight_bytes": 3038461952,
+    "layers": 24
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": " Alzheimer’s dementia\"}",
+      "generated_disease": " Alzheimer’s dementia",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "3048d2a1952026db61caa148fbcd64ffd70394131396cf0cb094f42b5e6110dc"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": " Alzheimer’s dementia\"}",
+      "generated_disease": " Alzheimer’s dementia",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "19010d9b626234509d2ecd71967bbbb6c060ec140511fb3e058687486b7dadc1"
+    }
+  ]
+}

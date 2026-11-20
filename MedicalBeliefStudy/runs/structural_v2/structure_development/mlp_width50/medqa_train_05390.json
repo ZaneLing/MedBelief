@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_05390",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "mlp_width50",
+    "mlp_keep": 0.5
+  },
+  "parameter_stats": {
+    "parameters": 1192092672,
+    "weight_bytes": 2384185344,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Metastatic bone disease\"}\n</think>\n\n{\"diagnosis\":\"Metastatic bone disease\"}\n",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 18,
+      "prompt_sha256": "4ac50b61d0995c53b081fe82f8b9ddef5df1627afa410c1bedf4c689db8b159b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Waldenstrom macroglobulinemia\"}\n</think>\n\n{\"diagnosis\":\"Waldenstrom macroglobulinemia\"}\n",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 26,
+      "prompt_sha256": "e4d1e229a5192b1264e7958df7ba3b9b13d03890e4a7984f67e0a6fdc0d73d7e"
+    }
+  ]
+}

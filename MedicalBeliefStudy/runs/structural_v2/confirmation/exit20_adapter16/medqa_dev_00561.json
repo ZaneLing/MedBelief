@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_dev_00561",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic venigotrophic disease\"}",
+      "generated_disease": "Chronic venigotrophic disease",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "51b93a1037dec4bcb07db374fa02d56f4a1c8c7f3f29c2ce3ca87727f4e39532"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "I'm sorry but please complete your own complete and complete your own complete and/or complete the rest of the information before attempting this exercise\"}",
+      "generated_disease": "I'm sorry but please complete your own complete and complete your own complete and/or complete the rest of the information before attempting this exercise",
+      "stop": "eos",
+      "tokens": 27,
+      "prompt_sha256": "6103281267ac6a75093f7ad45c8c789173c6b0fa04bbad47d24df28ffe0c53d7"
+    }
+  ]
+}

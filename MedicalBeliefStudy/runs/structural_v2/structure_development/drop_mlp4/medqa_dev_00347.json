@@ -1,0 +1,40 @@
+{
+  "case_id": "medqa_dev_00347",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "drop_mlp4",
+    "drop_mlps": [
+      24,
+      25,
+      26,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1569571840,
+    "weight_bytes": 3139143680,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Paternal ductus arteriosus\"}",
+      "generated_disease": "Paternal ductus arteriosus",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "5452ed2cbae4602cc869d6b43ad566b239e5ccaed4941e12cf925ac1b3c0d49b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Patent ductus arteriosus\"}",
+      "generated_disease": "Patent ductus arteriosus",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "405a790343fd214a5e4df237e0f3119b7f4190a8339958766b0f539d4886e743"
+    }
+  ]
+}

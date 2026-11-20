@@ -1,0 +1,150 @@
+{
+  "case_id": "medmcqa_train_97f3ffe1-7865-4843-ae90-530f74a04d9f",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -20.64116096496582,
+        -0.0005360490176826715,
+        -7.5317864418029785,
+        -15.75053596496582
+      ],
+      "q_sequence": [
+        1.0855696275558405e-09,
+        0.9994640742437796,
+        0.0005357802500541301,
+        1.4442059653663212e-07
+      ],
+      "q_token_mean": [
+        0.025514134056228238,
+        0.7957555631625717,
+        0.12108338724600905,
+        0.0576469155351911
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Grief\"}",
+      "generated_disease": "Grief",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "9fe5d13b34ba2e48b227eb88756dae907e76ad381417d9a1c5b7a22388039869"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -15.89301586151123,
+        -0.4398920238018036,
+        -1.033642053604126,
+        -8.596141815185547
+      ],
+      "q_sequence": [
+        1.252422648398494e-07,
+        0.6441059685703325,
+        0.3557090887066345,
+        0.00018481748076825273
+      ],
+      "q_token_mean": [
+        0.0357685033930455,
+        0.4530174671813802,
+        0.39052546412803013,
+        0.1206885652975441
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Grief\"}",
+      "generated_disease": "Grief",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "ffa506ddaa367a2acc33707cb653c2ed2fb43cb850bc5c9b97429b996d22869b"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -24.15652847290039,
+        -0.00027809434686787426,
+        -8.187777519226074,
+        -18.06277847290039
+      ],
+      "q_sequence": [
+        3.2281446494566e-11,
+        0.9997219545447114,
+        0.0002780311197487663,
+        1.4303258440424621e-08
+      ],
+      "q_token_mean": [
+        0.014917582799282741,
+        0.8359419109061637,
+        0.10795173940458179,
+        0.0411887668899717
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Grief\"}",
+      "generated_disease": "Grief",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "46d914fdf0be810268274eb17f2b8ecccf84b1f57cd5dd5a92123569c8445913"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -19.246728897094727,
+        -0.027978157624602318,
+        -3.5904784202575684,
+        -12.13735294342041
+      ],
+      "q_sequence": [
+        4.377758535476607e-09,
+        0.9724095126199157,
+        0.027585127323191985,
+        5.355679133642714e-06
+      ],
+      "q_token_mean": [
+        0.02570794762264221,
+        0.6311817148361687,
+        0.25903643683443495,
+        0.08407390070675425
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Grief\"}",
+      "generated_disease": "Grief",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "a32a79c57cc809f1f4002857909bc719d9ca3ba68b4c5e0e901685dd603ee066"
+    }
+  ],
+  "state_sha256": "59265874375425ea903f755396e89e5e38d027cc8d62895d037d5aad78b89ba1"
+}

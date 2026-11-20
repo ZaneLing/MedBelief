@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_05952",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Vulvar Paget's disease\"}",
+      "generated_disease": "Vulvar Paget's disease",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "f86c455a99e9ce590a581e32901c5a18feeb3d990de483b28b257f0df6208223"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Vulvar Paget's disease\"}",
+      "generated_disease": "Vulvar Paget's disease",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "3cb084472fcc6240fd5ef63fb940b21a3122cb4b34daa5e49fb9f6578bbf23ba"
+    }
+  ]
+}

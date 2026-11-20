@@ -1,0 +1,52 @@
+{
+  "case_id": "medmcqa_train_ed1b287c-8e02-4bda-8c38-76de16ddba7a",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Trichomoniasis\"}",
+      "generated_disease": "Trichomoniasis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "6f1c0856712451851e9257f685559fa9193a8d26fc9d28e0775937a403cb47a2"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Candidiasis\"}",
+      "generated_disease": "Candidiasis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "9090268cd5f12ddada0324b4a33f9fa794e6acfcf511f8ea830517db8e94f0c4"
+    }
+  ]
+}

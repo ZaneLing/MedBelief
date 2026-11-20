@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_dd030924-5129-4540-8608-d19992b13a16",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Schorstianlungsemmynganemia\"} (Note: This is an error correction and/or an error in the original system. actual correct answer is typically either \"Corticenteric disease or other relevant phausia butchers etrocks etc butchers etwells etc butler's etetchings",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "de15f33179c6900f45c5b6435b92bc8f421129bb8eb9dbb68ed2c81396346fb8"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Schaldinsky's disease or hypercephension or other advanced disease of course but still mostly stress out in terms of stress out and other stress factors but still...\"} -- Note: This is an error correction and/or an error of an previous previous line. actual correct answer is still \"minimal viable stress out or other stress",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "b4339670362b22242eca02191e3b96148fc2c2c2aca3bfb0f44474d8ae125c5d"
+    }
+  ]
+}

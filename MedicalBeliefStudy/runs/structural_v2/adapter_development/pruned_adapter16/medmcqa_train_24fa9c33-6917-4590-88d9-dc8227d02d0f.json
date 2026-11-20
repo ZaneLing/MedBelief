@@ -1,0 +1,52 @@
+{
+  "case_id": "medmcqa_train_24fa9c33-6917-4590-88d9-dc8227d02d0f",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Viral exanthema\"}",
+      "generated_disease": "Viral exanthema",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "8620c579e313f2345ad6640b07f44e34998359604b5ac5516fa64124792f5bd8"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Hypersensitivity vasculitis\"}",
+      "generated_disease": "Hypersensitivity vasculitis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "d22e7bc771ec5bb4bb2ae54773973446ce2117fefb227f4d405f382c48833ac0"
+    }
+  ]
+}

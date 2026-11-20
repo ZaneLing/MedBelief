@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_05448",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Histrionic personality disorder\"}",
+      "generated_disease": "Histrionic personality disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "b7e487e00a444a0d4703007b8e6d2a946ec697ffe0beea5eae7e92e20b174481"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Histrionic personality disorder\"}",
+      "generated_disease": "Histrionic personality disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "e55fd41f7f3d4a6f847634488122cacb77eee325f1ece6804bd0e3b824d9aa2f"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "patients": 94,
+  "source_sha256": "feca5753ab725f468179460d6f9b4d550a73517fa0675854dd8ba22d57fc86af",
+  "cases_sha256": "f77bacaed2f3217de0916d647c3cf06c8160e7240f0f841794644035028ddd23",
+  "new_model_prefills": 0,
+  "method": "Frozen state readout at block input, after attention, after MLP; not a causal module ablation",
+  "api_cost_usd": 0
+}

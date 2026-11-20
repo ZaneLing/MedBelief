@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_9ebef7e2-a6e9-4bbe-a66d-d07d6fb38cf7",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Drywarelessness",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "704d2484d1b07c0339c7f679391e56fadf9112a76ebb33c06cbbe9bb9a2ebcbb"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Drylandia Syndrome orphanscape综合征或phanserthosis等代效性地域性综合征等非典型性综合征等非典型性综合征等非特异性型缺氧症等等.unknownnessesolvinglyricsmusarithmeticallyservutaneousityetceteresignatoryismaticity",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "6ddbd3590b1a7e343b23cfe6fe57183e6ad5494148fa47b845cf3a2b91fe8c00"
+    }
+  ]
+}

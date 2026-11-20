@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_train_00837",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Esophageal atresia\"}",
+      "generated_disease": "Esophageal atresia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "7e58fdec6565a76dd9505dc88663ac5cd819ba96f865a83b056e4b5b3f78fd44"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Esophageal atresia\"}",
+      "generated_disease": "Esophageal atresia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "e8ed5a34cc7e7d38a57f8dce8fe683b8be8ed7a6c0766c3bde45f72d814e1b4a"
+    }
+  ]
+}

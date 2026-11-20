@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_a067ba64-a70d-4a96-ac91-37bb729c20e6",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Dengue fever\"}",
+      "generated_disease": "Dengue fever",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "1006acc3eb641713a06dc1f634fa784afd90319fbad039937691947c8c332de8"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_dev_00596",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "contrast21_half",
+    "contrast_layer": 21,
+    "contrast_strength": 0.5,
+    "plausibility": 0.1
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Imperforate hymen\"}",
+      "generated_disease": "Imperforate hymen",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "d20ba03ac229db687a43a6ca67151b2d3532a617735fe90b4b20037cc34ecc4c"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Imperforate hymen\"}",
+      "generated_disease": "Imperforate hymen",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "fe39a09622c6b3af8833c6515629fe63a437dd7b4b53a29b03820828347711c3"
+    }
+  ]
+}

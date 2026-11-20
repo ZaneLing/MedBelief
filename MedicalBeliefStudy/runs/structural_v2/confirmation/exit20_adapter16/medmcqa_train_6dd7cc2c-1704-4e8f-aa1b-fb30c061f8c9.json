@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_6dd7cc2c-1704-4e8f-aa1b-fb30c061f8c9",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Schorst-Wells syndrome (Oemig's disease or hypercephylic disorder of transilection etrolenemos etetemens anetepoemememememememememememememememememememememememememememememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "e2a690563f1ea03d539bcfbb9ec5e81408be3633daa91ec0c2f61c3d62e463a5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Schorst-Wells syndrome or hypercephylic disorder or other advanced-stage disease or other advanced-stage disease forced by anemia or other major systemic disease or other advanced-stage disease forgeries orphans etceterasipsisphilentosentosogemenserventetemensenservememememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "9f13dd7de7b742995aa42f8a2bf7387beae1f2cdca2131941e5f8ddb45044737"
+    }
+  ]
+}

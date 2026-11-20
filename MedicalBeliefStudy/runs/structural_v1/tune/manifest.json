@@ -1,0 +1,182 @@
+{
+  "split": "tune",
+  "cases": [
+    "mmlu_professional_medicine_test_0126",
+    "mmlu_professional_medicine_validation_0006",
+    "mmlu_professional_medicine_test_0096",
+    "mmlu_professional_medicine_validation_0028",
+    "mmlu_professional_medicine_test_0244",
+    "mmlu_professional_medicine_validation_0025",
+    "mmlu_professional_medicine_test_0210",
+    "mmlu_professional_medicine_test_0163",
+    "medmcqa_train_f4ab92de-95c8-49d3-b9d3-8418b15765bc",
+    "medmcqa_train_4de58ddb-18e5-4f15-bf76-fc87d0959dd9",
+    "medmcqa_train_9992f26f-2970-4a9f-80d9-3147ef409308",
+    "medmcqa_train_3597c71c-6d28-4346-a57b-c7811e820b17",
+    "medmcqa_train_755e66b6-8670-48af-ae56-c6dd5a215b4f",
+    "medmcqa_train_cebb4478-e455-4174-af6c-6fe6f1a2062f",
+    "medmcqa_train_4ee939cd-1023-4158-b8b7-cd9828023a9b",
+    "medmcqa_train_ba62ada8-2686-4823-86ae-12188d8ffe17",
+    "medmcqa_train_8eada6c1-b7ff-496f-8ae1-d7c1b566a236",
+    "medmcqa_train_a4a4f0cb-1204-4cdf-b114-0757d0cef9ec",
+    "medqa_train_08091",
+    "medqa_train_07055",
+    "medqa_train_09633",
+    "medqa_train_02606",
+    "medqa_train_08453",
+    "medqa_dev_00092",
+    "medqa_train_01010",
+    "medqa_train_04624",
+    "medqa_train_00463"
+  ],
+  "candidates": [
+    {
+      "name": "baseline"
+    },
+    {
+      "name": "early_exit",
+      "exit_layer": 27
+    },
+    {
+      "name": "drop_block_1",
+      "drop_blocks": [
+        27
+      ]
+    },
+    {
+      "name": "drop_block_2",
+      "drop_blocks": [
+        27,
+        26
+      ]
+    },
+    {
+      "name": "drop_mlp_2",
+      "drop_mlps": [
+        25,
+        26
+      ]
+    },
+    {
+      "name": "drop_mlp_4",
+      "drop_mlps": [
+        25,
+        26,
+        27,
+        21
+      ]
+    },
+    {
+      "name": "linear_mlp_2_r16",
+      "replace_mlps": [
+        25,
+        26
+      ],
+      "rank": 16
+    },
+    {
+      "name": "linear_mlp_2_r64",
+      "replace_mlps": [
+        25,
+        26
+      ],
+      "rank": 64
+    },
+    {
+      "name": "linear_mlp_4_r16",
+      "replace_mlps": [
+        25,
+        26,
+        27,
+        21
+      ],
+      "rank": 16
+    },
+    {
+      "name": "linear_mlp_4_r64",
+      "replace_mlps": [
+        25,
+        26,
+        27,
+        21
+      ],
+      "rank": 64
+    },
+    {
+      "name": "anchor_heads_2",
+      "anchor_drop_heads": {
+        "14": [
+          8
+        ],
+        "22": [
+          2
+        ]
+      }
+    },
+    {
+      "name": "anchor_heads_4",
+      "anchor_drop_heads": {
+        "14": [
+          8
+        ],
+        "22": [
+          2
+        ],
+        "17": [
+          9,
+          14
+        ]
+      }
+    },
+    {
+      "name": "anchor_heads_8",
+      "anchor_drop_heads": {
+        "14": [
+          8,
+          12
+        ],
+        "22": [
+          2
+        ],
+        "17": [
+          9,
+          14,
+          2
+        ],
+        "15": [
+          6
+        ],
+        "12": [
+          13
+        ]
+      }
+    },
+    {
+      "name": "block_influence_2",
+      "drop_blocks": [
+        26,
+        14
+      ]
+    },
+    {
+      "name": "depth_matched_random_mlp_2",
+      "drop_mlps": [
+        28,
+        24
+      ]
+    },
+    {
+      "name": "depth_matched_random_mlp_4",
+      "drop_mlps": [
+        23,
+        28,
+        24,
+        20
+      ]
+    }
+  ],
+  "selection_sha256": "ee734c4ef27f1bf60f59b1246de851fc81d567b340fa5c2232939e460e8aaa71",
+  "source_sha256": "6be8d1ea9bf2c91bfbce9aae9e35ecadda4a5e09f62ec149fa66f1553deea6e4",
+  "variants_sha256": "b80372c38282f64decd70ba6e99e8100045b458530deee0e9a828203b2718468",
+  "api_cost_usd": 0
+}

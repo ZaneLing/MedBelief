@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_2034031b-c816-400f-bc77-9e7cfbb73c19",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Glucose 6 Phosphate dehydrogenase deficiency\"}",
+      "generated_disease": "Glucose 6 Phosphate dehydrogenase deficiency",
+      "stop": "eos",
+      "tokens": 12,
+      "prompt_sha256": "d0ea0888e30ca74ca35d66fd01b8a00b8a69579b7270f031e9fbaaae89aa45d4"
+    }
+  ]
+}

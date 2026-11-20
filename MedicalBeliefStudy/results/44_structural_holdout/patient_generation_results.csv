@@ -1,0 +1,1081 @@
+case_id,dataset,candidate,condition,correct,listed,accuracy_change,same_diagnosis,generated_disease,baseline_disease,repaired,damaged
+medqa_train_02486,MedQA,baseline,neutral,1,1,0,1,Turcot syndrome,Turcot syndrome,0,0
+medqa_train_02486,MedQA,baseline,wrong,1,1,0,1,Turcot syndrome,Turcot syndrome,0,0
+medqa_train_02486,MedQA,early_exit,neutral,1,1,0,1,Turcot syndrome,Turcot syndrome,0,0
+medqa_train_02486,MedQA,early_exit,wrong,1,1,0,1,Turcot syndrome,Turcot syndrome,0,0
+medqa_train_02486,MedQA,drop_mlp_2,neutral,1,1,0,1,Turcot syndrome,Turcot syndrome,0,0
+medqa_train_02486,MedQA,drop_mlp_2,wrong,1,1,0,1,Turcot syndrome,Turcot syndrome,0,0
+medqa_train_02486,MedQA,linear_mlp_2_r16,neutral,1,1,0,1,Turcot syndrome,Turcot syndrome,0,0
+medqa_train_02486,MedQA,linear_mlp_2_r16,wrong,1,1,0,1,Turcot syndrome,Turcot syndrome,0,0
+medqa_train_02486,MedQA,drop_block_1,neutral,1,1,0,1,Turcot syndrome,Turcot syndrome,0,0
+medqa_train_02486,MedQA,drop_block_1,wrong,1,1,0,1,Turcot syndrome,Turcot syndrome,0,0
+medqa_train_02486,MedQA,anchor_heads_8,neutral,0,1,-1,0,Lynch syndrome,Turcot syndrome,0,1
+medqa_train_02486,MedQA,anchor_heads_8,wrong,1,1,0,1,Turcot syndrome,Turcot syndrome,0,0
+medqa_train_02486,MedQA,depth_matched_random_mlp_2,neutral,1,1,0,1,Turcot syndrome,Turcot syndrome,0,0
+medqa_train_02486,MedQA,depth_matched_random_mlp_2,wrong,1,1,0,1,Turcot syndrome,Turcot syndrome,0,0
+medqa_train_02486,MedQA,block_influence_2,neutral,0,1,-1,0,Lynch syndrome,Turcot syndrome,0,1
+medqa_train_02486,MedQA,block_influence_2,wrong,0,1,-1,0,Lynch syndrome,Turcot syndrome,0,1
+medqa_train_02486,MedQA,linear_mlp_2_r64,neutral,1,1,0,1,Turcot syndrome,Turcot syndrome,0,0
+medqa_train_02486,MedQA,linear_mlp_2_r64,wrong,1,1,0,1,Turcot syndrome,Turcot syndrome,0,0
+medqa_train_04153,MedQA,baseline,neutral,1,1,0,1,Staphylococcus infectious arthritis,Staphylococcus infectious arthritis,0,0
+medqa_train_04153,MedQA,baseline,wrong,1,1,0,1,Staphylococcus infectious arthritis,Staphylococcus infectious arthritis,0,0
+medqa_train_04153,MedQA,early_exit,neutral,1,1,0,1,Staphylococcus infectious arthritis,Staphylococcus infectious arthritis,0,0
+medqa_train_04153,MedQA,early_exit,wrong,1,1,0,1,Staphylococcus infectious arthritis,Staphylococcus infectious arthritis,0,0
+medqa_train_04153,MedQA,drop_mlp_2,neutral,1,1,0,1,Staphylococcus infectious arthritis,Staphylococcus infectious arthritis,0,0
+medqa_train_04153,MedQA,drop_mlp_2,wrong,1,1,0,1,Staphylococcus infectious arthritis,Staphylococcus infectious arthritis,0,0
+medqa_train_04153,MedQA,linear_mlp_2_r16,neutral,1,1,0,1,Staphylococcus infectious arthritis,Staphylococcus infectious arthritis,0,0
+medqa_train_04153,MedQA,linear_mlp_2_r16,wrong,1,1,0,1,Staphylococcus infectious arthritis,Staphylococcus infectious arthritis,0,0
+medqa_train_04153,MedQA,drop_block_1,neutral,1,1,0,1,Staphylococcus infectious arthritis,Staphylococcus infectious arthritis,0,0
+medqa_train_04153,MedQA,drop_block_1,wrong,1,1,0,1,Staphylococcus infectious arthritis,Staphylococcus infectious arthritis,0,0
+medqa_train_04153,MedQA,anchor_heads_8,neutral,1,1,0,1,Staphylococcus infectious arthritis,Staphylococcus infectious arthritis,0,0
+medqa_train_04153,MedQA,anchor_heads_8,wrong,1,1,0,1,Staphylococcus infectious arthritis,Staphylococcus infectious arthritis,0,0
+medqa_train_04153,MedQA,depth_matched_random_mlp_2,neutral,1,1,0,1,Staphylococcus infectious arthritis,Staphylococcus infectious arthritis,0,0
+medqa_train_04153,MedQA,depth_matched_random_mlp_2,wrong,1,1,0,1,Staphylococcus infectious arthritis,Staphylococcus infectious arthritis,0,0
+medqa_train_04153,MedQA,block_influence_2,neutral,1,1,0,1,Staphylococcus infectious arthritis,Staphylococcus infectious arthritis,0,0
+medqa_train_04153,MedQA,block_influence_2,wrong,1,1,0,1,Staphylococcus infectious arthritis,Staphylococcus infectious arthritis,0,0
+medqa_train_04153,MedQA,linear_mlp_2_r64,neutral,1,1,0,1,Staphylococcus infectious arthritis,Staphylococcus infectious arthritis,0,0
+medqa_train_04153,MedQA,linear_mlp_2_r64,wrong,1,1,0,1,Staphylococcus infectious arthritis,Staphylococcus infectious arthritis,0,0
+medqa_train_06434,MedQA,baseline,neutral,1,1,0,1,Eosinophilic granulomatosis with polyangiitis,Eosinophilic granulomatosis with polyangiitis,0,0
+medqa_train_06434,MedQA,baseline,wrong,0,1,0,1,Microscopic polyangiitis,Microscopic polyangiitis,0,0
+medqa_train_06434,MedQA,early_exit,neutral,1,1,0,1,Eosinophilic granulomatosis with polyangiitis,Eosinophilic granulomatosis with polyangiitis,0,0
+medqa_train_06434,MedQA,early_exit,wrong,0,1,0,1,Microscopic polyangiitis,Microscopic polyangiitis,0,0
+medqa_train_06434,MedQA,drop_mlp_2,neutral,1,1,0,1,Eosinophilic granulomatosis with polyangiitis,Eosinophilic granulomatosis with polyangiitis,0,0
+medqa_train_06434,MedQA,drop_mlp_2,wrong,0,1,0,0,Granulomatosis with polyangiitis,Microscopic polyangiitis,0,0
+medqa_train_06434,MedQA,linear_mlp_2_r16,neutral,1,1,0,1,Eosinophilic granulomatosis with polyangiitis,Eosinophilic granulomatosis with polyangiitis,0,0
+medqa_train_06434,MedQA,linear_mlp_2_r16,wrong,0,1,0,0,Granulomatosis with polyangiitis,Microscopic polyangiitis,0,0
+medqa_train_06434,MedQA,drop_block_1,neutral,1,1,0,1,Eosinophilic granulomatosis with polyangiitis,Eosinophilic granulomatosis with polyangiitis,0,0
+medqa_train_06434,MedQA,drop_block_1,wrong,0,1,0,1,Microscopic polyangiitis,Microscopic polyangiitis,0,0
+medqa_train_06434,MedQA,anchor_heads_8,neutral,1,1,0,1,Eosinophilic granulomatosis with polyangiitis,Eosinophilic granulomatosis with polyangiitis,0,0
+medqa_train_06434,MedQA,anchor_heads_8,wrong,0,1,0,0,Granulomatosis with polyangiitis,Microscopic polyangiitis,0,0
+medqa_train_06434,MedQA,depth_matched_random_mlp_2,neutral,1,1,0,1,Eosinophilic granulomatosis with polyangiitis,Eosinophilic granulomatosis with polyangiitis,0,0
+medqa_train_06434,MedQA,depth_matched_random_mlp_2,wrong,0,1,0,1,Microscopic polyangiitis,Microscopic polyangiitis,0,0
+medqa_train_06434,MedQA,block_influence_2,neutral,1,1,0,1,Eosinophilic granulomatosis with polyangiitis,Eosinophilic granulomatosis with polyangiitis,0,0
+medqa_train_06434,MedQA,block_influence_2,wrong,0,1,0,1,Microscopic polyangiitis,Microscopic polyangiitis,0,0
+medqa_train_06434,MedQA,linear_mlp_2_r64,neutral,1,1,0,1,Eosinophilic granulomatosis with polyangiitis,Eosinophilic granulomatosis with polyangiitis,0,0
+medqa_train_06434,MedQA,linear_mlp_2_r64,wrong,0,1,0,0,Granulomatosis with polyangiitis,Microscopic polyangiitis,0,0
+medqa_train_02704,MedQA,baseline,neutral,1,1,0,1,Benign tumor of the thymus,Benign tumor of the thymus,0,0
+medqa_train_02704,MedQA,baseline,wrong,0,1,0,1,Mediastinitis,Mediastinitis,0,0
+medqa_train_02704,MedQA,early_exit,neutral,1,1,0,1,Benign tumor of the thymus,Benign tumor of the thymus,0,0
+medqa_train_02704,MedQA,early_exit,wrong,0,1,0,1,Mediastinitis,Mediastinitis,0,0
+medqa_train_02704,MedQA,drop_mlp_2,neutral,1,1,0,1,Benign tumor of the thymus,Benign tumor of the thymus,0,0
+medqa_train_02704,MedQA,drop_mlp_2,wrong,0,1,0,1,Mediastinitis,Mediastinitis,0,0
+medqa_train_02704,MedQA,linear_mlp_2_r16,neutral,1,1,0,1,Benign tumor of the thymus,Benign tumor of the thymus,0,0
+medqa_train_02704,MedQA,linear_mlp_2_r16,wrong,0,1,0,1,Mediastinitis,Mediastinitis,0,0
+medqa_train_02704,MedQA,drop_block_1,neutral,0,1,-1,0,Superior vena cava syndrome,Benign tumor of the thymus,0,1
+medqa_train_02704,MedQA,drop_block_1,wrong,0,1,0,1,Mediastinitis,Mediastinitis,0,0
+medqa_train_02704,MedQA,anchor_heads_8,neutral,1,1,0,1,Benign tumor of the thymus,Benign tumor of the thymus,0,0
+medqa_train_02704,MedQA,anchor_heads_8,wrong,0,1,0,1,Mediastinitis,Mediastinitis,0,0
+medqa_train_02704,MedQA,depth_matched_random_mlp_2,neutral,1,1,0,1,Benign tumor of the thymus,Benign tumor of the thymus,0,0
+medqa_train_02704,MedQA,depth_matched_random_mlp_2,wrong,0,1,0,1,Mediastinitis,Mediastinitis,0,0
+medqa_train_02704,MedQA,block_influence_2,neutral,1,1,0,1,Benign tumor of the thymus,Benign tumor of the thymus,0,0
+medqa_train_02704,MedQA,block_influence_2,wrong,0,1,0,1,Mediastinitis,Mediastinitis,0,0
+medqa_train_02704,MedQA,linear_mlp_2_r64,neutral,1,1,0,1,Benign tumor of the thymus,Benign tumor of the thymus,0,0
+medqa_train_02704,MedQA,linear_mlp_2_r64,wrong,0,1,0,1,Mediastinitis,Mediastinitis,0,0
+medqa_train_02058,MedQA,baseline,neutral,0,1,0,1,Major depressive disorder,Major depressive disorder,0,0
+medqa_train_02058,MedQA,baseline,wrong,0,1,0,1,Acute stress disorder,Acute stress disorder,0,0
+medqa_train_02058,MedQA,early_exit,neutral,0,1,0,1,Major depressive disorder,Major depressive disorder,0,0
+medqa_train_02058,MedQA,early_exit,wrong,0,1,0,1,Acute stress disorder,Acute stress disorder,0,0
+medqa_train_02058,MedQA,drop_mlp_2,neutral,0,1,0,1,Major depressive disorder,Major depressive disorder,0,0
+medqa_train_02058,MedQA,drop_mlp_2,wrong,0,1,0,1,Acute stress disorder,Acute stress disorder,0,0
+medqa_train_02058,MedQA,linear_mlp_2_r16,neutral,0,1,0,1,Major depressive disorder,Major depressive disorder,0,0
+medqa_train_02058,MedQA,linear_mlp_2_r16,wrong,0,1,0,1,Acute stress disorder,Acute stress disorder,0,0
+medqa_train_02058,MedQA,drop_block_1,neutral,0,1,0,1,Major depressive disorder,Major depressive disorder,0,0
+medqa_train_02058,MedQA,drop_block_1,wrong,0,1,0,1,Acute stress disorder,Acute stress disorder,0,0
+medqa_train_02058,MedQA,anchor_heads_8,neutral,0,1,0,1,Major depressive disorder,Major depressive disorder,0,0
+medqa_train_02058,MedQA,anchor_heads_8,wrong,0,1,0,1,Acute stress disorder,Acute stress disorder,0,0
+medqa_train_02058,MedQA,depth_matched_random_mlp_2,neutral,0,1,0,0,Acute stress disorder,Major depressive disorder,0,0
+medqa_train_02058,MedQA,depth_matched_random_mlp_2,wrong,0,1,0,1,Acute stress disorder,Acute stress disorder,0,0
+medqa_train_02058,MedQA,block_influence_2,neutral,0,1,0,0,Acute stress disorder,Major depressive disorder,0,0
+medqa_train_02058,MedQA,block_influence_2,wrong,0,1,0,1,Acute stress disorder,Acute stress disorder,0,0
+medqa_train_02058,MedQA,linear_mlp_2_r64,neutral,0,1,0,1,Major depressive disorder,Major depressive disorder,0,0
+medqa_train_02058,MedQA,linear_mlp_2_r64,wrong,0,1,0,1,Acute stress disorder,Acute stress disorder,0,0
+medqa_dev_01005,MedQA,baseline,neutral,1,1,0,1,Febrile nonhemolytic reaction,Febrile nonhemolytic reaction,0,0
+medqa_dev_01005,MedQA,baseline,wrong,1,1,0,1,Febrile nonhemolytic reaction,Febrile nonhemolytic reaction,0,0
+medqa_dev_01005,MedQA,early_exit,neutral,1,1,0,1,Febrile nonhemolytic reaction,Febrile nonhemolytic reaction,0,0
+medqa_dev_01005,MedQA,early_exit,wrong,1,1,0,1,Febrile nonhemolytic reaction,Febrile nonhemolytic reaction,0,0
+medqa_dev_01005,MedQA,drop_mlp_2,neutral,1,1,0,1,Febrile nonhemolytic reaction,Febrile nonhemolytic reaction,0,0
+medqa_dev_01005,MedQA,drop_mlp_2,wrong,1,1,0,1,Febrile nonhemolytic reaction,Febrile nonhemolytic reaction,0,0
+medqa_dev_01005,MedQA,linear_mlp_2_r16,neutral,1,1,0,1,Febrile nonhemolytic reaction,Febrile nonhemolytic reaction,0,0
+medqa_dev_01005,MedQA,linear_mlp_2_r16,wrong,1,1,0,1,Febrile nonhemolytic reaction,Febrile nonhemolytic reaction,0,0
+medqa_dev_01005,MedQA,drop_block_1,neutral,1,1,0,1,Febrile nonhemolytic reaction,Febrile nonhemolytic reaction,0,0
+medqa_dev_01005,MedQA,drop_block_1,wrong,1,1,0,1,Febrile nonhemolytic reaction,Febrile nonhemolytic reaction,0,0
+medqa_dev_01005,MedQA,anchor_heads_8,neutral,1,1,0,1,Febrile nonhemolytic reaction,Febrile nonhemolytic reaction,0,0
+medqa_dev_01005,MedQA,anchor_heads_8,wrong,1,1,0,1,Febrile nonhemolytic reaction,Febrile nonhemolytic reaction,0,0
+medqa_dev_01005,MedQA,depth_matched_random_mlp_2,neutral,1,1,0,1,Febrile nonhemolytic reaction,Febrile nonhemolytic reaction,0,0
+medqa_dev_01005,MedQA,depth_matched_random_mlp_2,wrong,0,1,-1,0,Febrile hemolytic reaction,Febrile nonhemolytic reaction,0,1
+medqa_dev_01005,MedQA,block_influence_2,neutral,1,1,0,1,Febrile nonhemolytic reaction,Febrile nonhemolytic reaction,0,0
+medqa_dev_01005,MedQA,block_influence_2,wrong,0,1,-1,0,Transfusion related bacterial contamination,Febrile nonhemolytic reaction,0,1
+medqa_dev_01005,MedQA,linear_mlp_2_r64,neutral,1,1,0,1,Febrile nonhemolytic reaction,Febrile nonhemolytic reaction,0,0
+medqa_dev_01005,MedQA,linear_mlp_2_r64,wrong,1,1,0,1,Febrile nonhemolytic reaction,Febrile nonhemolytic reaction,0,0
+medqa_train_01945,MedQA,baseline,neutral,1,1,0,1,Toxic Epidermal Necrolysis,Toxic Epidermal Necrolysis,0,0
+medqa_train_01945,MedQA,baseline,wrong,1,1,0,1,Toxic Epidermal Necrolysis,Toxic Epidermal Necrolysis,0,0
+medqa_train_01945,MedQA,early_exit,neutral,1,1,0,1,Toxic Epidermal Necrolysis,Toxic Epidermal Necrolysis,0,0
+medqa_train_01945,MedQA,early_exit,wrong,1,1,0,1,Toxic Epidermal Necrolysis,Toxic Epidermal Necrolysis,0,0
+medqa_train_01945,MedQA,drop_mlp_2,neutral,1,1,0,1,Toxic Epidermal Necrolysis,Toxic Epidermal Necrolysis,0,0
+medqa_train_01945,MedQA,drop_mlp_2,wrong,1,1,0,1,Toxic Epidermal Necrolysis,Toxic Epidermal Necrolysis,0,0
+medqa_train_01945,MedQA,linear_mlp_2_r16,neutral,1,1,0,1,Toxic Epidermal Necrolysis,Toxic Epidermal Necrolysis,0,0
+medqa_train_01945,MedQA,linear_mlp_2_r16,wrong,1,1,0,1,Toxic Epidermal Necrolysis,Toxic Epidermal Necrolysis,0,0
+medqa_train_01945,MedQA,drop_block_1,neutral,0,0,-1,0,Tulip疹,Toxic Epidermal Necrolysis,0,1
+medqa_train_01945,MedQA,drop_block_1,wrong,0,0,-1,0,Tulip Colours Erythema,Toxic Epidermal Necrolysis,0,1
+medqa_train_01945,MedQA,anchor_heads_8,neutral,1,1,0,1,Toxic Epidermal Necrolysis,Toxic Epidermal Necrolysis,0,0
+medqa_train_01945,MedQA,anchor_heads_8,wrong,1,1,0,1,Toxic Epidermal Necrolysis,Toxic Epidermal Necrolysis,0,0
+medqa_train_01945,MedQA,depth_matched_random_mlp_2,neutral,1,1,0,1,Toxic Epidermal Necrolysis,Toxic Epidermal Necrolysis,0,0
+medqa_train_01945,MedQA,depth_matched_random_mlp_2,wrong,1,1,0,1,Toxic Epidermal Necrolysis,Toxic Epidermal Necrolysis,0,0
+medqa_train_01945,MedQA,block_influence_2,neutral,1,1,0,1,Toxic Epidermal Necrolysis,Toxic Epidermal Necrolysis,0,0
+medqa_train_01945,MedQA,block_influence_2,wrong,1,1,0,1,Toxic Epidermal Necrolysis,Toxic Epidermal Necrolysis,0,0
+medqa_train_01945,MedQA,linear_mlp_2_r64,neutral,1,1,0,1,Toxic Epidermal Necrolysis,Toxic Epidermal Necrolysis,0,0
+medqa_train_01945,MedQA,linear_mlp_2_r64,wrong,1,1,0,1,Toxic Epidermal Necrolysis,Toxic Epidermal Necrolysis,0,0
+medqa_train_02537,MedQA,baseline,neutral,1,1,0,1,Toxic epidermal necrolysis (TEN),Toxic epidermal necrolysis (TEN),0,0
+medqa_train_02537,MedQA,baseline,wrong,1,1,0,1,Toxic epidermal necrolysis (TEN),Toxic epidermal necrolysis (TEN),0,0
+medqa_train_02537,MedQA,early_exit,neutral,1,1,0,1,Toxic epidermal necrolysis (TEN),Toxic epidermal necrolysis (TEN),0,0
+medqa_train_02537,MedQA,early_exit,wrong,1,1,0,1,Toxic epidermal necrolysis (TEN),Toxic epidermal necrolysis (TEN),0,0
+medqa_train_02537,MedQA,drop_mlp_2,neutral,0,0,-1,0,,Toxic epidermal necrolysis (TEN),0,1
+medqa_train_02537,MedQA,drop_mlp_2,wrong,0,0,-1,0,,Toxic epidermal necrolysis (TEN),0,1
+medqa_train_02537,MedQA,linear_mlp_2_r16,neutral,0,0,-1,0,,Toxic epidermal necrolysis (TEN),0,1
+medqa_train_02537,MedQA,linear_mlp_2_r16,wrong,0,0,-1,0,,Toxic epidermal necrolysis (TEN),0,1
+medqa_train_02537,MedQA,drop_block_1,neutral,0,0,-1,0,TEN,Toxic epidermal necrolysis (TEN),0,1
+medqa_train_02537,MedQA,drop_block_1,wrong,0,0,-1,0,TEN,Toxic epidermal necrolysis (TEN),0,1
+medqa_train_02537,MedQA,anchor_heads_8,neutral,1,1,0,1,Toxic epidermal necrolysis (TEN),Toxic epidermal necrolysis (TEN),0,0
+medqa_train_02537,MedQA,anchor_heads_8,wrong,1,1,0,1,Toxic epidermal necrolysis (TEN),Toxic epidermal necrolysis (TEN),0,0
+medqa_train_02537,MedQA,depth_matched_random_mlp_2,neutral,1,1,0,1,Toxic epidermal necrolysis (TEN),Toxic epidermal necrolysis (TEN),0,0
+medqa_train_02537,MedQA,depth_matched_random_mlp_2,wrong,1,1,0,1,Toxic epidermal necrolysis (TEN),Toxic epidermal necrolysis (TEN),0,0
+medqa_train_02537,MedQA,block_influence_2,neutral,0,0,-1,0,,Toxic epidermal necrolysis (TEN),0,1
+medqa_train_02537,MedQA,block_influence_2,wrong,0,0,-1,0,,Toxic epidermal necrolysis (TEN),0,1
+medqa_train_02537,MedQA,linear_mlp_2_r64,neutral,0,0,-1,0,,Toxic epidermal necrolysis (TEN),0,1
+medqa_train_02537,MedQA,linear_mlp_2_r64,wrong,0,0,-1,0,,Toxic epidermal necrolysis (TEN),0,1
+medqa_train_09637,MedQA,baseline,neutral,1,1,0,1,"Autism spectrum disorder, level 1","Autism spectrum disorder, level 1",0,0
+medqa_train_09637,MedQA,baseline,wrong,0,1,0,1,"Autism spectrum disorder, level 3","Autism spectrum disorder, level 3",0,0
+medqa_train_09637,MedQA,early_exit,neutral,1,1,0,1,"Autism spectrum disorder, level 1","Autism spectrum disorder, level 1",0,0
+medqa_train_09637,MedQA,early_exit,wrong,0,1,0,1,"Autism spectrum disorder, level 3","Autism spectrum disorder, level 3",0,0
+medqa_train_09637,MedQA,drop_mlp_2,neutral,1,1,0,1,"Autism spectrum disorder, level 1","Autism spectrum disorder, level 1",0,0
+medqa_train_09637,MedQA,drop_mlp_2,wrong,0,1,0,1,"Autism spectrum disorder, level 3","Autism spectrum disorder, level 3",0,0
+medqa_train_09637,MedQA,linear_mlp_2_r16,neutral,1,1,0,1,"Autism spectrum disorder, level 1","Autism spectrum disorder, level 1",0,0
+medqa_train_09637,MedQA,linear_mlp_2_r16,wrong,0,1,0,1,"Autism spectrum disorder, level 3","Autism spectrum disorder, level 3",0,0
+medqa_train_09637,MedQA,drop_block_1,neutral,1,1,0,1,"Autism spectrum disorder, level 1","Autism spectrum disorder, level 1",0,0
+medqa_train_09637,MedQA,drop_block_1,wrong,0,1,0,1,"Autism spectrum disorder, level 3","Autism spectrum disorder, level 3",0,0
+medqa_train_09637,MedQA,anchor_heads_8,neutral,1,1,0,1,"Autism spectrum disorder, level 1","Autism spectrum disorder, level 1",0,0
+medqa_train_09637,MedQA,anchor_heads_8,wrong,0,1,0,1,"Autism spectrum disorder, level 3","Autism spectrum disorder, level 3",0,0
+medqa_train_09637,MedQA,depth_matched_random_mlp_2,neutral,1,1,0,1,"Autism spectrum disorder, level 1","Autism spectrum disorder, level 1",0,0
+medqa_train_09637,MedQA,depth_matched_random_mlp_2,wrong,0,1,0,1,"Autism spectrum disorder, level 3","Autism spectrum disorder, level 3",0,0
+medqa_train_09637,MedQA,block_influence_2,neutral,1,1,0,1,"Autism spectrum disorder, level 1","Autism spectrum disorder, level 1",0,0
+medqa_train_09637,MedQA,block_influence_2,wrong,0,1,0,1,"Autism spectrum disorder, level 3","Autism spectrum disorder, level 3",0,0
+medqa_train_09637,MedQA,linear_mlp_2_r64,neutral,1,1,0,1,"Autism spectrum disorder, level 1","Autism spectrum disorder, level 1",0,0
+medqa_train_09637,MedQA,linear_mlp_2_r64,wrong,0,1,0,1,"Autism spectrum disorder, level 3","Autism spectrum disorder, level 3",0,0
+medqa_train_01291,MedQA,baseline,neutral,1,1,0,1,Huntington disease,Huntington disease,0,0
+medqa_train_01291,MedQA,baseline,wrong,0,1,0,1,Drug-induced chorea,Drug-induced chorea,0,0
+medqa_train_01291,MedQA,early_exit,neutral,1,1,0,1,Huntington disease,Huntington disease,0,0
+medqa_train_01291,MedQA,early_exit,wrong,0,1,0,1,Drug-induced chorea,Drug-induced chorea,0,0
+medqa_train_01291,MedQA,drop_mlp_2,neutral,1,1,0,1,Huntington disease,Huntington disease,0,0
+medqa_train_01291,MedQA,drop_mlp_2,wrong,0,1,0,1,Drug-induced chorea,Drug-induced chorea,0,0
+medqa_train_01291,MedQA,linear_mlp_2_r16,neutral,1,1,0,1,Huntington disease,Huntington disease,0,0
+medqa_train_01291,MedQA,linear_mlp_2_r16,wrong,0,1,0,1,Drug-induced chorea,Drug-induced chorea,0,0
+medqa_train_01291,MedQA,drop_block_1,neutral,1,1,0,1,Huntington disease,Huntington disease,0,0
+medqa_train_01291,MedQA,drop_block_1,wrong,0,1,0,1,Drug-induced chorea,Drug-induced chorea,0,0
+medqa_train_01291,MedQA,anchor_heads_8,neutral,1,1,0,1,Huntington disease,Huntington disease,0,0
+medqa_train_01291,MedQA,anchor_heads_8,wrong,0,1,0,1,Drug-induced chorea,Drug-induced chorea,0,0
+medqa_train_01291,MedQA,depth_matched_random_mlp_2,neutral,1,1,0,1,Huntington disease,Huntington disease,0,0
+medqa_train_01291,MedQA,depth_matched_random_mlp_2,wrong,0,1,0,1,Drug-induced chorea,Drug-induced chorea,0,0
+medqa_train_01291,MedQA,block_influence_2,neutral,0,1,-1,0,Drug-induced chorea,Huntington disease,0,1
+medqa_train_01291,MedQA,block_influence_2,wrong,0,1,0,1,Drug-induced chorea,Drug-induced chorea,0,0
+medqa_train_01291,MedQA,linear_mlp_2_r64,neutral,1,1,0,1,Huntington disease,Huntington disease,0,0
+medqa_train_01291,MedQA,linear_mlp_2_r64,wrong,0,1,0,1,Drug-induced chorea,Drug-induced chorea,0,0
+medqa_train_04879,MedQA,baseline,neutral,1,1,0,1,Disseminated gonococcal infection,Disseminated gonococcal infection,0,0
+medqa_train_04879,MedQA,baseline,wrong,0,1,0,1,Acute rheumatic fever,Acute rheumatic fever,0,0
+medqa_train_04879,MedQA,early_exit,neutral,1,1,0,1,Disseminated gonococcal infection,Disseminated gonococcal infection,0,0
+medqa_train_04879,MedQA,early_exit,wrong,0,1,0,1,Acute rheumatic fever,Acute rheumatic fever,0,0
+medqa_train_04879,MedQA,drop_mlp_2,neutral,1,1,0,1,Disseminated gonococcal infection,Disseminated gonococcal infection,0,0
+medqa_train_04879,MedQA,drop_mlp_2,wrong,0,1,0,1,Acute rheumatic fever,Acute rheumatic fever,0,0
+medqa_train_04879,MedQA,linear_mlp_2_r16,neutral,1,1,0,1,Disseminated gonococcal infection,Disseminated gonococcal infection,0,0
+medqa_train_04879,MedQA,linear_mlp_2_r16,wrong,0,1,0,1,Acute rheumatic fever,Acute rheumatic fever,0,0
+medqa_train_04879,MedQA,drop_block_1,neutral,1,1,0,1,Disseminated gonococcal infection,Disseminated gonococcal infection,0,0
+medqa_train_04879,MedQA,drop_block_1,wrong,1,1,1,0,Disseminated gonococcal infection,Acute rheumatic fever,1,0
+medqa_train_04879,MedQA,anchor_heads_8,neutral,1,1,0,1,Disseminated gonococcal infection,Disseminated gonococcal infection,0,0
+medqa_train_04879,MedQA,anchor_heads_8,wrong,0,1,0,1,Acute rheumatic fever,Acute rheumatic fever,0,0
+medqa_train_04879,MedQA,depth_matched_random_mlp_2,neutral,1,1,0,1,Disseminated gonococcal infection,Disseminated gonococcal infection,0,0
+medqa_train_04879,MedQA,depth_matched_random_mlp_2,wrong,0,1,0,1,Acute rheumatic fever,Acute rheumatic fever,0,0
+medqa_train_04879,MedQA,block_influence_2,neutral,1,1,0,1,Disseminated gonococcal infection,Disseminated gonococcal infection,0,0
+medqa_train_04879,MedQA,block_influence_2,wrong,0,1,0,1,Acute rheumatic fever,Acute rheumatic fever,0,0
+medqa_train_04879,MedQA,linear_mlp_2_r64,neutral,1,1,0,1,Disseminated gonococcal infection,Disseminated gonococcal infection,0,0
+medqa_train_04879,MedQA,linear_mlp_2_r64,wrong,0,1,0,1,Acute rheumatic fever,Acute rheumatic fever,0,0
+medqa_train_09165,MedQA,baseline,neutral,0,1,0,1,Lambert-Eaton Syndrome,Lambert-Eaton Syndrome,0,0
+medqa_train_09165,MedQA,baseline,wrong,1,1,0,1,Amyotrophic lateral sclerosis,Amyotrophic lateral sclerosis,0,0
+medqa_train_09165,MedQA,early_exit,neutral,0,1,0,1,Lambert-Eaton Syndrome,Lambert-Eaton Syndrome,0,0
+medqa_train_09165,MedQA,early_exit,wrong,1,1,0,1,Amyotrophic lateral sclerosis,Amyotrophic lateral sclerosis,0,0
+medqa_train_09165,MedQA,drop_mlp_2,neutral,0,1,0,1,Lambert-Eaton Syndrome,Lambert-Eaton Syndrome,0,0
+medqa_train_09165,MedQA,drop_mlp_2,wrong,1,1,0,1,Amyotrophic lateral sclerosis,Amyotrophic lateral sclerosis,0,0
+medqa_train_09165,MedQA,linear_mlp_2_r16,neutral,0,0,0,0,Lambert-E Eaton Syndrome,Lambert-Eaton Syndrome,0,0
+medqa_train_09165,MedQA,linear_mlp_2_r16,wrong,1,1,0,1,Amyotrophic lateral sclerosis,Amyotrophic lateral sclerosis,0,0
+medqa_train_09165,MedQA,drop_block_1,neutral,1,1,1,0,Amyotrophic lateral sclerosis,Lambert-Eaton Syndrome,1,0
+medqa_train_09165,MedQA,drop_block_1,wrong,1,1,0,1,Amyotrophic lateral sclerosis,Amyotrophic lateral sclerosis,0,0
+medqa_train_09165,MedQA,anchor_heads_8,neutral,0,1,0,1,Lambert-Eaton Syndrome,Lambert-Eaton Syndrome,0,0
+medqa_train_09165,MedQA,anchor_heads_8,wrong,1,1,0,1,Amyotrophic lateral sclerosis,Amyotrophic lateral sclerosis,0,0
+medqa_train_09165,MedQA,depth_matched_random_mlp_2,neutral,0,0,0,0,L Lambert-E Eaton Syndrome,Lambert-Eaton Syndrome,0,0
+medqa_train_09165,MedQA,depth_matched_random_mlp_2,wrong,1,1,0,1,Amyotrophic lateral sclerosis,Amyotrophic lateral sclerosis,0,0
+medqa_train_09165,MedQA,block_influence_2,neutral,1,1,1,0,Amyotrophic lateral sclerosis,Lambert-Eaton Syndrome,1,0
+medqa_train_09165,MedQA,block_influence_2,wrong,1,1,0,1,Amyotrophic lateral sclerosis,Amyotrophic lateral sclerosis,0,0
+medqa_train_09165,MedQA,linear_mlp_2_r64,neutral,0,0,0,0,Lambert-E Eaton Syndrome,Lambert-Eaton Syndrome,0,0
+medqa_train_09165,MedQA,linear_mlp_2_r64,wrong,1,1,0,1,Amyotrophic lateral sclerosis,Amyotrophic lateral sclerosis,0,0
+medqa_dev_00855,MedQA,baseline,neutral,1,1,0,1,Ankylosing spondylitis,Ankylosing spondylitis,0,0
+medqa_dev_00855,MedQA,baseline,wrong,1,1,0,1,Ankylosing spondylitis,Ankylosing spondylitis,0,0
+medqa_dev_00855,MedQA,early_exit,neutral,1,1,0,1,Ankylosing spondylitis,Ankylosing spondylitis,0,0
+medqa_dev_00855,MedQA,early_exit,wrong,1,1,0,1,Ankylosing spondylitis,Ankylosing spondylitis,0,0
+medqa_dev_00855,MedQA,drop_mlp_2,neutral,1,1,0,1,Ankylosing spondylitis,Ankylosing spondylitis,0,0
+medqa_dev_00855,MedQA,drop_mlp_2,wrong,1,1,0,1,Ankylosing spondylitis,Ankylosing spondylitis,0,0
+medqa_dev_00855,MedQA,linear_mlp_2_r16,neutral,1,1,0,1,Ankylosing spondylitis,Ankylosing spondylitis,0,0
+medqa_dev_00855,MedQA,linear_mlp_2_r16,wrong,1,1,0,1,Ankylosing spondylitis,Ankylosing spondylitis,0,0
+medqa_dev_00855,MedQA,drop_block_1,neutral,1,1,0,1,Ankylosing spondylitis,Ankylosing spondylitis,0,0
+medqa_dev_00855,MedQA,drop_block_1,wrong,1,1,0,1,Ankylosing spondylitis,Ankylosing spondylitis,0,0
+medqa_dev_00855,MedQA,anchor_heads_8,neutral,1,1,0,1,Ankylosing spondylitis,Ankylosing spondylitis,0,0
+medqa_dev_00855,MedQA,anchor_heads_8,wrong,1,1,0,1,Ankylosing spondylitis,Ankylosing spondylitis,0,0
+medqa_dev_00855,MedQA,depth_matched_random_mlp_2,neutral,1,1,0,1,Ankylosing spondylitis,Ankylosing spondylitis,0,0
+medqa_dev_00855,MedQA,depth_matched_random_mlp_2,wrong,1,1,0,1,Ankylosing spondylitis,Ankylosing spondylitis,0,0
+medqa_dev_00855,MedQA,block_influence_2,neutral,1,1,0,1,Ankylosing spondylitis,Ankylosing spondylitis,0,0
+medqa_dev_00855,MedQA,block_influence_2,wrong,1,1,0,1,Ankylosing spondylitis,Ankylosing spondylitis,0,0
+medqa_dev_00855,MedQA,linear_mlp_2_r64,neutral,1,1,0,1,Ankylosing spondylitis,Ankylosing spondylitis,0,0
+medqa_dev_00855,MedQA,linear_mlp_2_r64,wrong,1,1,0,1,Ankylosing spondylitis,Ankylosing spondylitis,0,0
+medqa_train_01390,MedQA,baseline,neutral,0,1,0,1,Oppositional defiant disorder,Oppositional defiant disorder,0,0
+medqa_train_01390,MedQA,baseline,wrong,0,1,0,1,Conduct disorder,Conduct disorder,0,0
+medqa_train_01390,MedQA,early_exit,neutral,0,1,0,1,Oppositional defiant disorder,Oppositional defiant disorder,0,0
+medqa_train_01390,MedQA,early_exit,wrong,0,1,0,1,Conduct disorder,Conduct disorder,0,0
+medqa_train_01390,MedQA,drop_mlp_2,neutral,0,1,0,1,Oppositional defiant disorder,Oppositional defiant disorder,0,0
+medqa_train_01390,MedQA,drop_mlp_2,wrong,0,1,0,1,Conduct disorder,Conduct disorder,0,0
+medqa_train_01390,MedQA,linear_mlp_2_r16,neutral,0,1,0,1,Oppositional defiant disorder,Oppositional defiant disorder,0,0
+medqa_train_01390,MedQA,linear_mlp_2_r16,wrong,0,1,0,1,Conduct disorder,Conduct disorder,0,0
+medqa_train_01390,MedQA,drop_block_1,neutral,0,1,0,1,Oppositional defiant disorder,Oppositional defiant disorder,0,0
+medqa_train_01390,MedQA,drop_block_1,wrong,0,1,0,1,Conduct disorder,Conduct disorder,0,0
+medqa_train_01390,MedQA,anchor_heads_8,neutral,0,1,0,1,Oppositional defiant disorder,Oppositional defiant disorder,0,0
+medqa_train_01390,MedQA,anchor_heads_8,wrong,0,1,0,1,Conduct disorder,Conduct disorder,0,0
+medqa_train_01390,MedQA,depth_matched_random_mlp_2,neutral,0,1,0,1,Oppositional defiant disorder,Oppositional defiant disorder,0,0
+medqa_train_01390,MedQA,depth_matched_random_mlp_2,wrong,0,1,0,1,Conduct disorder,Conduct disorder,0,0
+medqa_train_01390,MedQA,block_influence_2,neutral,0,0,0,0,Oppositional Defiant Disorder,Oppositional defiant disorder,0,0
+medqa_train_01390,MedQA,block_influence_2,wrong,0,0,0,0,Oppositional Defiant Disorder,Conduct disorder,0,0
+medqa_train_01390,MedQA,linear_mlp_2_r64,neutral,0,1,0,1,Oppositional defiant disorder,Oppositional defiant disorder,0,0
+medqa_train_01390,MedQA,linear_mlp_2_r64,wrong,0,1,0,1,Conduct disorder,Conduct disorder,0,0
+medqa_dev_00654,MedQA,baseline,neutral,1,1,0,1,Schizoaffective disorder,Schizoaffective disorder,0,0
+medqa_dev_00654,MedQA,baseline,wrong,1,1,0,1,Schizoaffective disorder,Schizoaffective disorder,0,0
+medqa_dev_00654,MedQA,early_exit,neutral,1,1,0,1,Schizoaffective disorder,Schizoaffective disorder,0,0
+medqa_dev_00654,MedQA,early_exit,wrong,1,1,0,1,Schizoaffective disorder,Schizoaffective disorder,0,0
+medqa_dev_00654,MedQA,drop_mlp_2,neutral,0,0,-1,0,Schizophrenous disorder,Schizoaffective disorder,0,1
+medqa_dev_00654,MedQA,drop_mlp_2,wrong,0,1,-1,0,Schizotypal personality disorder,Schizoaffective disorder,0,1
+medqa_dev_00654,MedQA,linear_mlp_2_r16,neutral,1,1,0,1,Schizoaffective disorder,Schizoaffective disorder,0,0
+medqa_dev_00654,MedQA,linear_mlp_2_r16,wrong,1,1,0,1,Schizoaffective disorder,Schizoaffective disorder,0,0
+medqa_dev_00654,MedQA,drop_block_1,neutral,1,1,0,1,Schizoaffective disorder,Schizoaffective disorder,0,0
+medqa_dev_00654,MedQA,drop_block_1,wrong,1,1,0,1,Schizoaffective disorder,Schizoaffective disorder,0,0
+medqa_dev_00654,MedQA,anchor_heads_8,neutral,1,1,0,1,Schizoaffective disorder,Schizoaffective disorder,0,0
+medqa_dev_00654,MedQA,anchor_heads_8,wrong,1,1,0,1,Schizoaffective disorder,Schizoaffective disorder,0,0
+medqa_dev_00654,MedQA,depth_matched_random_mlp_2,neutral,1,1,0,1,Schizoaffective disorder,Schizoaffective disorder,0,0
+medqa_dev_00654,MedQA,depth_matched_random_mlp_2,wrong,0,1,-1,0,Schizotypal personality disorder,Schizoaffective disorder,0,1
+medqa_dev_00654,MedQA,block_influence_2,neutral,1,1,0,1,Schizoaffective disorder,Schizoaffective disorder,0,0
+medqa_dev_00654,MedQA,block_influence_2,wrong,1,1,0,1,Schizoaffective disorder,Schizoaffective disorder,0,0
+medqa_dev_00654,MedQA,linear_mlp_2_r64,neutral,1,1,0,1,Schizoaffective disorder,Schizoaffective disorder,0,0
+medqa_dev_00654,MedQA,linear_mlp_2_r64,wrong,1,1,0,1,Schizoaffective disorder,Schizoaffective disorder,0,0
+medqa_dev_00350,MedQA,baseline,neutral,1,1,0,1,Schizophrenia,Schizophrenia,0,0
+medqa_dev_00350,MedQA,baseline,wrong,1,1,0,1,Schizophrenia,Schizophrenia,0,0
+medqa_dev_00350,MedQA,early_exit,neutral,1,1,0,1,Schizophrenia,Schizophrenia,0,0
+medqa_dev_00350,MedQA,early_exit,wrong,1,1,0,1,Schizophrenia,Schizophrenia,0,0
+medqa_dev_00350,MedQA,drop_mlp_2,neutral,1,1,0,1,Schizophrenia,Schizophrenia,0,0
+medqa_dev_00350,MedQA,drop_mlp_2,wrong,1,1,0,1,Schizophrenia,Schizophrenia,0,0
+medqa_dev_00350,MedQA,linear_mlp_2_r16,neutral,1,1,0,1,Schizophrenia,Schizophrenia,0,0
+medqa_dev_00350,MedQA,linear_mlp_2_r16,wrong,1,1,0,1,Schizophrenia,Schizophrenia,0,0
+medqa_dev_00350,MedQA,drop_block_1,neutral,1,1,0,1,Schizophrenia,Schizophrenia,0,0
+medqa_dev_00350,MedQA,drop_block_1,wrong,1,1,0,1,Schizophrenia,Schizophrenia,0,0
+medqa_dev_00350,MedQA,anchor_heads_8,neutral,1,1,0,1,Schizophrenia,Schizophrenia,0,0
+medqa_dev_00350,MedQA,anchor_heads_8,wrong,0,1,-1,0,Brain tumor,Schizophrenia,0,1
+medqa_dev_00350,MedQA,depth_matched_random_mlp_2,neutral,1,1,0,1,Schizophrenia,Schizophrenia,0,0
+medqa_dev_00350,MedQA,depth_matched_random_mlp_2,wrong,1,1,0,1,Schizophrenia,Schizophrenia,0,0
+medqa_dev_00350,MedQA,block_influence_2,neutral,0,1,-1,0,Paranoid personality disorder,Schizophrenia,0,1
+medqa_dev_00350,MedQA,block_influence_2,wrong,0,1,-1,0,Paranoid personality disorder,Schizophrenia,0,1
+medqa_dev_00350,MedQA,linear_mlp_2_r64,neutral,1,1,0,1,Schizophrenia,Schizophrenia,0,0
+medqa_dev_00350,MedQA,linear_mlp_2_r64,wrong,1,1,0,1,Schizophrenia,Schizophrenia,0,0
+medqa_train_09864,MedQA,baseline,neutral,1,1,0,1,Somatic symptom disorder,Somatic symptom disorder,0,0
+medqa_train_09864,MedQA,baseline,wrong,1,1,0,1,Somatic symptom disorder,Somatic symptom disorder,0,0
+medqa_train_09864,MedQA,early_exit,neutral,1,1,0,1,Somatic symptom disorder,Somatic symptom disorder,0,0
+medqa_train_09864,MedQA,early_exit,wrong,1,1,0,1,Somatic symptom disorder,Somatic symptom disorder,0,0
+medqa_train_09864,MedQA,drop_mlp_2,neutral,1,1,0,1,Somatic symptom disorder,Somatic symptom disorder,0,0
+medqa_train_09864,MedQA,drop_mlp_2,wrong,1,1,0,1,Somatic symptom disorder,Somatic symptom disorder,0,0
+medqa_train_09864,MedQA,linear_mlp_2_r16,neutral,1,1,0,1,Somatic symptom disorder,Somatic symptom disorder,0,0
+medqa_train_09864,MedQA,linear_mlp_2_r16,wrong,1,1,0,1,Somatic symptom disorder,Somatic symptom disorder,0,0
+medqa_train_09864,MedQA,drop_block_1,neutral,1,1,0,1,Somatic symptom disorder,Somatic symptom disorder,0,0
+medqa_train_09864,MedQA,drop_block_1,wrong,1,1,0,1,Somatic symptom disorder,Somatic symptom disorder,0,0
+medqa_train_09864,MedQA,anchor_heads_8,neutral,1,1,0,1,Somatic symptom disorder,Somatic symptom disorder,0,0
+medqa_train_09864,MedQA,anchor_heads_8,wrong,0,1,-1,0,Hypochondriasis,Somatic symptom disorder,0,1
+medqa_train_09864,MedQA,depth_matched_random_mlp_2,neutral,1,1,0,1,Somatic symptom disorder,Somatic symptom disorder,0,0
+medqa_train_09864,MedQA,depth_matched_random_mlp_2,wrong,1,1,0,1,Somatic symptom disorder,Somatic symptom disorder,0,0
+medqa_train_09864,MedQA,block_influence_2,neutral,0,1,-1,0,Hypochondriasis,Somatic symptom disorder,0,1
+medqa_train_09864,MedQA,block_influence_2,wrong,0,1,-1,0,Hypochondriasis,Somatic symptom disorder,0,1
+medqa_train_09864,MedQA,linear_mlp_2_r64,neutral,1,1,0,1,Somatic symptom disorder,Somatic symptom disorder,0,0
+medqa_train_09864,MedQA,linear_mlp_2_r64,wrong,1,1,0,1,Somatic symptom disorder,Somatic symptom disorder,0,0
+medqa_train_02521,MedQA,baseline,neutral,1,1,0,1,Polyarteritis nodosa,Polyarteritis nodosa,0,0
+medqa_train_02521,MedQA,baseline,wrong,0,1,0,1,Granulomatosis with polyangiitis,Granulomatosis with polyangiitis,0,0
+medqa_train_02521,MedQA,early_exit,neutral,1,1,0,1,Polyarteritis nodosa,Polyarteritis nodosa,0,0
+medqa_train_02521,MedQA,early_exit,wrong,0,1,0,1,Granulomatosis with polyangiitis,Granulomatosis with polyangiitis,0,0
+medqa_train_02521,MedQA,drop_mlp_2,neutral,1,1,0,1,Polyarteritis nodosa,Polyarteritis nodosa,0,0
+medqa_train_02521,MedQA,drop_mlp_2,wrong,0,1,0,1,Granulomatosis with polyangiitis,Granulomatosis with polyangiitis,0,0
+medqa_train_02521,MedQA,linear_mlp_2_r16,neutral,1,1,0,1,Polyarteritis nodosa,Polyarteritis nodosa,0,0
+medqa_train_02521,MedQA,linear_mlp_2_r16,wrong,0,1,0,1,Granulomatosis with polyangiitis,Granulomatosis with polyangiitis,0,0
+medqa_train_02521,MedQA,drop_block_1,neutral,1,1,0,1,Polyarteritis nodosa,Polyarteritis nodosa,0,0
+medqa_train_02521,MedQA,drop_block_1,wrong,0,1,0,1,Granulomatosis with polyangiitis,Granulomatosis with polyangiitis,0,0
+medqa_train_02521,MedQA,anchor_heads_8,neutral,1,1,0,1,Polyarteritis nodosa,Polyarteritis nodosa,0,0
+medqa_train_02521,MedQA,anchor_heads_8,wrong,0,1,0,1,Granulomatosis with polyangiitis,Granulomatosis with polyangiitis,0,0
+medqa_train_02521,MedQA,depth_matched_random_mlp_2,neutral,1,1,0,1,Polyarteritis nodosa,Polyarteritis nodosa,0,0
+medqa_train_02521,MedQA,depth_matched_random_mlp_2,wrong,0,1,0,1,Granulomatosis with polyangiitis,Granulomatosis with polyangiitis,0,0
+medqa_train_02521,MedQA,block_influence_2,neutral,0,1,-1,0,Giant cell arteritis,Polyarteritis nodosa,0,1
+medqa_train_02521,MedQA,block_influence_2,wrong,0,1,0,1,Granulomatosis with polyangiitis,Granulomatosis with polyangiitis,0,0
+medqa_train_02521,MedQA,linear_mlp_2_r64,neutral,1,1,0,1,Polyarteritis nodosa,Polyarteritis nodosa,0,0
+medqa_train_02521,MedQA,linear_mlp_2_r64,wrong,0,1,0,1,Granulomatosis with polyangiitis,Granulomatosis with polyangiitis,0,0
+medqa_dev_00427,MedQA,baseline,neutral,0,1,0,1,Femoral artery dissection,Femoral artery dissection,0,0
+medqa_dev_00427,MedQA,baseline,wrong,0,1,0,1,Femoral artery dissection,Femoral artery dissection,0,0
+medqa_dev_00427,MedQA,early_exit,neutral,0,1,0,1,Femoral artery dissection,Femoral artery dissection,0,0
+medqa_dev_00427,MedQA,early_exit,wrong,0,1,0,1,Femoral artery dissection,Femoral artery dissection,0,0
+medqa_dev_00427,MedQA,drop_mlp_2,neutral,0,1,0,1,Femoral artery dissection,Femoral artery dissection,0,0
+medqa_dev_00427,MedQA,drop_mlp_2,wrong,0,1,0,1,Femoral artery dissection,Femoral artery dissection,0,0
+medqa_dev_00427,MedQA,linear_mlp_2_r16,neutral,0,1,0,1,Femoral artery dissection,Femoral artery dissection,0,0
+medqa_dev_00427,MedQA,linear_mlp_2_r16,wrong,0,1,0,1,Femoral artery dissection,Femoral artery dissection,0,0
+medqa_dev_00427,MedQA,drop_block_1,neutral,0,1,0,1,Femoral artery dissection,Femoral artery dissection,0,0
+medqa_dev_00427,MedQA,drop_block_1,wrong,0,1,0,1,Femoral artery dissection,Femoral artery dissection,0,0
+medqa_dev_00427,MedQA,anchor_heads_8,neutral,0,1,0,1,Femoral artery dissection,Femoral artery dissection,0,0
+medqa_dev_00427,MedQA,anchor_heads_8,wrong,0,1,0,1,Femoral artery dissection,Femoral artery dissection,0,0
+medqa_dev_00427,MedQA,depth_matched_random_mlp_2,neutral,0,1,0,1,Femoral artery dissection,Femoral artery dissection,0,0
+medqa_dev_00427,MedQA,depth_matched_random_mlp_2,wrong,0,1,0,1,Femoral artery dissection,Femoral artery dissection,0,0
+medqa_dev_00427,MedQA,block_influence_2,neutral,0,1,0,1,Femoral artery dissection,Femoral artery dissection,0,0
+medqa_dev_00427,MedQA,block_influence_2,wrong,0,1,0,1,Femoral artery dissection,Femoral artery dissection,0,0
+medqa_dev_00427,MedQA,linear_mlp_2_r64,neutral,0,1,0,1,Femoral artery dissection,Femoral artery dissection,0,0
+medqa_dev_00427,MedQA,linear_mlp_2_r64,wrong,0,1,0,1,Femoral artery dissection,Femoral artery dissection,0,0
+medqa_train_07740,MedQA,baseline,neutral,1,1,0,1,Stress fracture,Stress fracture,0,0
+medqa_train_07740,MedQA,baseline,wrong,0,1,0,1,Plantar fasciitis,Plantar fasciitis,0,0
+medqa_train_07740,MedQA,early_exit,neutral,0,0,-1,0,St stress fracture,Stress fracture,0,1
+medqa_train_07740,MedQA,early_exit,wrong,0,1,0,1,Plantar fasciitis,Plantar fasciitis,0,0
+medqa_train_07740,MedQA,drop_mlp_2,neutral,1,1,0,1,Stress fracture,Stress fracture,0,0
+medqa_train_07740,MedQA,drop_mlp_2,wrong,1,1,1,0,Stress fracture,Plantar fasciitis,1,0
+medqa_train_07740,MedQA,linear_mlp_2_r16,neutral,1,1,0,1,Stress fracture,Stress fracture,0,0
+medqa_train_07740,MedQA,linear_mlp_2_r16,wrong,0,1,0,1,Plantar fasciitis,Plantar fasciitis,0,0
+medqa_train_07740,MedQA,drop_block_1,neutral,1,1,0,1,Stress fracture,Stress fracture,0,0
+medqa_train_07740,MedQA,drop_block_1,wrong,0,1,0,1,Plantar fasciitis,Plantar fasciitis,0,0
+medqa_train_07740,MedQA,anchor_heads_8,neutral,1,1,0,1,Stress fracture,Stress fracture,0,0
+medqa_train_07740,MedQA,anchor_heads_8,wrong,0,1,0,1,Plantar fasciitis,Plantar fasciitis,0,0
+medqa_train_07740,MedQA,depth_matched_random_mlp_2,neutral,0,0,-1,0,St stress fracture,Stress fracture,0,1
+medqa_train_07740,MedQA,depth_matched_random_mlp_2,wrong,0,1,0,1,Plantar fasciitis,Plantar fasciitis,0,0
+medqa_train_07740,MedQA,block_influence_2,neutral,1,1,0,1,Stress fracture,Stress fracture,0,0
+medqa_train_07740,MedQA,block_influence_2,wrong,0,1,0,1,Plantar fasciitis,Plantar fasciitis,0,0
+medqa_train_07740,MedQA,linear_mlp_2_r64,neutral,1,1,0,1,Stress fracture,Stress fracture,0,0
+medqa_train_07740,MedQA,linear_mlp_2_r64,wrong,0,1,0,1,Plantar fasciitis,Plantar fasciitis,0,0
+medmcqa_train_9dd8e20a-0f91-4796-a7d3-aad496ee33da,MedMCQA,baseline,neutral,1,1,0,1,Otomycosis by Aspergillus niger,Otomycosis by Aspergillus niger,0,0
+medmcqa_train_9dd8e20a-0f91-4796-a7d3-aad496ee33da,MedMCQA,baseline,wrong,0,1,0,1,Otomycosis by Candida,Otomycosis by Candida,0,0
+medmcqa_train_9dd8e20a-0f91-4796-a7d3-aad496ee33da,MedMCQA,early_exit,neutral,1,1,0,1,Otomycosis by Aspergillus niger,Otomycosis by Aspergillus niger,0,0
+medmcqa_train_9dd8e20a-0f91-4796-a7d3-aad496ee33da,MedMCQA,early_exit,wrong,0,1,0,1,Otomycosis by Candida,Otomycosis by Candida,0,0
+medmcqa_train_9dd8e20a-0f91-4796-a7d3-aad496ee33da,MedMCQA,drop_mlp_2,neutral,1,1,0,1,Otomycosis by Aspergillus niger,Otomycosis by Aspergillus niger,0,0
+medmcqa_train_9dd8e20a-0f91-4796-a7d3-aad496ee33da,MedMCQA,drop_mlp_2,wrong,0,1,0,1,Otomycosis by Candida,Otomycosis by Candida,0,0
+medmcqa_train_9dd8e20a-0f91-4796-a7d3-aad496ee33da,MedMCQA,linear_mlp_2_r16,neutral,1,1,0,1,Otomycosis by Aspergillus niger,Otomycosis by Aspergillus niger,0,0
+medmcqa_train_9dd8e20a-0f91-4796-a7d3-aad496ee33da,MedMCQA,linear_mlp_2_r16,wrong,0,1,0,1,Otomycosis by Candida,Otomycosis by Candida,0,0
+medmcqa_train_9dd8e20a-0f91-4796-a7d3-aad496ee33da,MedMCQA,drop_block_1,neutral,1,1,0,1,Otomycosis by Aspergillus niger,Otomycosis by Aspergillus niger,0,0
+medmcqa_train_9dd8e20a-0f91-4796-a7d3-aad496ee33da,MedMCQA,drop_block_1,wrong,0,1,0,1,Otomycosis by Candida,Otomycosis by Candida,0,0
+medmcqa_train_9dd8e20a-0f91-4796-a7d3-aad496ee33da,MedMCQA,anchor_heads_8,neutral,1,1,0,1,Otomycosis by Aspergillus niger,Otomycosis by Aspergillus niger,0,0
+medmcqa_train_9dd8e20a-0f91-4796-a7d3-aad496ee33da,MedMCQA,anchor_heads_8,wrong,0,1,0,1,Otomycosis by Candida,Otomycosis by Candida,0,0
+medmcqa_train_9dd8e20a-0f91-4796-a7d3-aad496ee33da,MedMCQA,depth_matched_random_mlp_2,neutral,1,1,0,1,Otomycosis by Aspergillus niger,Otomycosis by Aspergillus niger,0,0
+medmcqa_train_9dd8e20a-0f91-4796-a7d3-aad496ee33da,MedMCQA,depth_matched_random_mlp_2,wrong,0,1,0,1,Otomycosis by Candida,Otomycosis by Candida,0,0
+medmcqa_train_9dd8e20a-0f91-4796-a7d3-aad496ee33da,MedMCQA,block_influence_2,neutral,0,1,-1,0,Otomycosis by Aspergillus fumigatus,Otomycosis by Aspergillus niger,0,1
+medmcqa_train_9dd8e20a-0f91-4796-a7d3-aad496ee33da,MedMCQA,block_influence_2,wrong,0,1,0,0,Otomycosis by Aspergillus fumigatus,Otomycosis by Candida,0,0
+medmcqa_train_9dd8e20a-0f91-4796-a7d3-aad496ee33da,MedMCQA,linear_mlp_2_r64,neutral,1,1,0,1,Otomycosis by Aspergillus niger,Otomycosis by Aspergillus niger,0,0
+medmcqa_train_9dd8e20a-0f91-4796-a7d3-aad496ee33da,MedMCQA,linear_mlp_2_r64,wrong,0,1,0,1,Otomycosis by Candida,Otomycosis by Candida,0,0
+medmcqa_train_6367b6ac-2c75-4dd4-aab9-4e69b0a76f73,MedMCQA,baseline,neutral,1,1,0,1,Diffuse alveolar damage,Diffuse alveolar damage,0,0
+medmcqa_train_6367b6ac-2c75-4dd4-aab9-4e69b0a76f73,MedMCQA,baseline,wrong,1,1,0,1,Diffuse alveolar damage,Diffuse alveolar damage,0,0
+medmcqa_train_6367b6ac-2c75-4dd4-aab9-4e69b0a76f73,MedMCQA,early_exit,neutral,1,1,0,1,Diffuse alveolar damage,Diffuse alveolar damage,0,0
+medmcqa_train_6367b6ac-2c75-4dd4-aab9-4e69b0a76f73,MedMCQA,early_exit,wrong,1,1,0,1,Diffuse alveolar damage,Diffuse alveolar damage,0,0
+medmcqa_train_6367b6ac-2c75-4dd4-aab9-4e69b0a76f73,MedMCQA,drop_mlp_2,neutral,1,1,0,1,Diffuse alveolar damage,Diffuse alveolar damage,0,0
+medmcqa_train_6367b6ac-2c75-4dd4-aab9-4e69b0a76f73,MedMCQA,drop_mlp_2,wrong,1,1,0,1,Diffuse alveolar damage,Diffuse alveolar damage,0,0
+medmcqa_train_6367b6ac-2c75-4dd4-aab9-4e69b0a76f73,MedMCQA,linear_mlp_2_r16,neutral,1,1,0,1,Diffuse alveolar damage,Diffuse alveolar damage,0,0
+medmcqa_train_6367b6ac-2c75-4dd4-aab9-4e69b0a76f73,MedMCQA,linear_mlp_2_r16,wrong,1,1,0,1,Diffuse alveolar damage,Diffuse alveolar damage,0,0
+medmcqa_train_6367b6ac-2c75-4dd4-aab9-4e69b0a76f73,MedMCQA,drop_block_1,neutral,1,1,0,1,Diffuse alveolar damage,Diffuse alveolar damage,0,0
+medmcqa_train_6367b6ac-2c75-4dd4-aab9-4e69b0a76f73,MedMCQA,drop_block_1,wrong,1,1,0,1,Diffuse alveolar damage,Diffuse alveolar damage,0,0
+medmcqa_train_6367b6ac-2c75-4dd4-aab9-4e69b0a76f73,MedMCQA,anchor_heads_8,neutral,1,1,0,1,Diffuse alveolar damage,Diffuse alveolar damage,0,0
+medmcqa_train_6367b6ac-2c75-4dd4-aab9-4e69b0a76f73,MedMCQA,anchor_heads_8,wrong,0,0,-1,0,Sepsis with acute respiratory distress syndrome,Diffuse alveolar damage,0,1
+medmcqa_train_6367b6ac-2c75-4dd4-aab9-4e69b0a76f73,MedMCQA,depth_matched_random_mlp_2,neutral,1,1,0,1,Diffuse alveolar damage,Diffuse alveolar damage,0,0
+medmcqa_train_6367b6ac-2c75-4dd4-aab9-4e69b0a76f73,MedMCQA,depth_matched_random_mlp_2,wrong,1,1,0,1,Diffuse alveolar damage,Diffuse alveolar damage,0,0
+medmcqa_train_6367b6ac-2c75-4dd4-aab9-4e69b0a76f73,MedMCQA,block_influence_2,neutral,1,1,0,1,Diffuse alveolar damage,Diffuse alveolar damage,0,0
+medmcqa_train_6367b6ac-2c75-4dd4-aab9-4e69b0a76f73,MedMCQA,block_influence_2,wrong,1,1,0,1,Diffuse alveolar damage,Diffuse alveolar damage,0,0
+medmcqa_train_6367b6ac-2c75-4dd4-aab9-4e69b0a76f73,MedMCQA,linear_mlp_2_r64,neutral,1,1,0,1,Diffuse alveolar damage,Diffuse alveolar damage,0,0
+medmcqa_train_6367b6ac-2c75-4dd4-aab9-4e69b0a76f73,MedMCQA,linear_mlp_2_r64,wrong,1,1,0,1,Diffuse alveolar damage,Diffuse alveolar damage,0,0
+medmcqa_train_b2259878-c7b8-454e-b491-59ece2ea4ba4,MedMCQA,baseline,neutral,0,1,0,1,IgA nephropathy,IgA nephropathy,0,0
+medmcqa_train_b2259878-c7b8-454e-b491-59ece2ea4ba4,MedMCQA,baseline,wrong,0,1,0,1,IgA nephropathy,IgA nephropathy,0,0
+medmcqa_train_b2259878-c7b8-454e-b491-59ece2ea4ba4,MedMCQA,early_exit,neutral,0,1,0,1,IgA nephropathy,IgA nephropathy,0,0
+medmcqa_train_b2259878-c7b8-454e-b491-59ece2ea4ba4,MedMCQA,early_exit,wrong,0,1,0,1,IgA nephropathy,IgA nephropathy,0,0
+medmcqa_train_b2259878-c7b8-454e-b491-59ece2ea4ba4,MedMCQA,drop_mlp_2,neutral,0,1,0,1,IgA nephropathy,IgA nephropathy,0,0
+medmcqa_train_b2259878-c7b8-454e-b491-59ece2ea4ba4,MedMCQA,drop_mlp_2,wrong,0,1,0,1,IgA nephropathy,IgA nephropathy,0,0
+medmcqa_train_b2259878-c7b8-454e-b491-59ece2ea4ba4,MedMCQA,linear_mlp_2_r16,neutral,0,1,0,1,IgA nephropathy,IgA nephropathy,0,0
+medmcqa_train_b2259878-c7b8-454e-b491-59ece2ea4ba4,MedMCQA,linear_mlp_2_r16,wrong,0,1,0,1,IgA nephropathy,IgA nephropathy,0,0
+medmcqa_train_b2259878-c7b8-454e-b491-59ece2ea4ba4,MedMCQA,drop_block_1,neutral,0,1,0,1,IgA nephropathy,IgA nephropathy,0,0
+medmcqa_train_b2259878-c7b8-454e-b491-59ece2ea4ba4,MedMCQA,drop_block_1,wrong,0,1,0,1,IgA nephropathy,IgA nephropathy,0,0
+medmcqa_train_b2259878-c7b8-454e-b491-59ece2ea4ba4,MedMCQA,anchor_heads_8,neutral,0,1,0,1,IgA nephropathy,IgA nephropathy,0,0
+medmcqa_train_b2259878-c7b8-454e-b491-59ece2ea4ba4,MedMCQA,anchor_heads_8,wrong,0,1,0,1,IgA nephropathy,IgA nephropathy,0,0
+medmcqa_train_b2259878-c7b8-454e-b491-59ece2ea4ba4,MedMCQA,depth_matched_random_mlp_2,neutral,0,1,0,1,IgA nephropathy,IgA nephropathy,0,0
+medmcqa_train_b2259878-c7b8-454e-b491-59ece2ea4ba4,MedMCQA,depth_matched_random_mlp_2,wrong,0,1,0,1,IgA nephropathy,IgA nephropathy,0,0
+medmcqa_train_b2259878-c7b8-454e-b491-59ece2ea4ba4,MedMCQA,block_influence_2,neutral,0,1,0,1,IgA nephropathy,IgA nephropathy,0,0
+medmcqa_train_b2259878-c7b8-454e-b491-59ece2ea4ba4,MedMCQA,block_influence_2,wrong,0,1,0,1,IgA nephropathy,IgA nephropathy,0,0
+medmcqa_train_b2259878-c7b8-454e-b491-59ece2ea4ba4,MedMCQA,linear_mlp_2_r64,neutral,0,1,0,1,IgA nephropathy,IgA nephropathy,0,0
+medmcqa_train_b2259878-c7b8-454e-b491-59ece2ea4ba4,MedMCQA,linear_mlp_2_r64,wrong,0,1,0,1,IgA nephropathy,IgA nephropathy,0,0
+medmcqa_train_a27573cc-b861-4320-a0a7-061125f69421,MedMCQA,baseline,neutral,1,1,0,1,Secondary syphilis,Secondary syphilis,0,0
+medmcqa_train_a27573cc-b861-4320-a0a7-061125f69421,MedMCQA,baseline,wrong,1,1,0,1,Secondary syphilis,Secondary syphilis,0,0
+medmcqa_train_a27573cc-b861-4320-a0a7-061125f69421,MedMCQA,early_exit,neutral,1,1,0,1,Secondary syphilis,Secondary syphilis,0,0
+medmcqa_train_a27573cc-b861-4320-a0a7-061125f69421,MedMCQA,early_exit,wrong,1,1,0,1,Secondary syphilis,Secondary syphilis,0,0
+medmcqa_train_a27573cc-b861-4320-a0a7-061125f69421,MedMCQA,drop_mlp_2,neutral,1,1,0,1,Secondary syphilis,Secondary syphilis,0,0
+medmcqa_train_a27573cc-b861-4320-a0a7-061125f69421,MedMCQA,drop_mlp_2,wrong,1,1,0,1,Secondary syphilis,Secondary syphilis,0,0
+medmcqa_train_a27573cc-b861-4320-a0a7-061125f69421,MedMCQA,linear_mlp_2_r16,neutral,1,1,0,1,Secondary syphilis,Secondary syphilis,0,0
+medmcqa_train_a27573cc-b861-4320-a0a7-061125f69421,MedMCQA,linear_mlp_2_r16,wrong,1,1,0,1,Secondary syphilis,Secondary syphilis,0,0
+medmcqa_train_a27573cc-b861-4320-a0a7-061125f69421,MedMCQA,drop_block_1,neutral,1,1,0,1,Secondary syphilis,Secondary syphilis,0,0
+medmcqa_train_a27573cc-b861-4320-a0a7-061125f69421,MedMCQA,drop_block_1,wrong,1,1,0,1,Secondary syphilis,Secondary syphilis,0,0
+medmcqa_train_a27573cc-b861-4320-a0a7-061125f69421,MedMCQA,anchor_heads_8,neutral,1,1,0,1,Secondary syphilis,Secondary syphilis,0,0
+medmcqa_train_a27573cc-b861-4320-a0a7-061125f69421,MedMCQA,anchor_heads_8,wrong,1,1,0,1,Secondary syphilis,Secondary syphilis,0,0
+medmcqa_train_a27573cc-b861-4320-a0a7-061125f69421,MedMCQA,depth_matched_random_mlp_2,neutral,1,1,0,1,Secondary syphilis,Secondary syphilis,0,0
+medmcqa_train_a27573cc-b861-4320-a0a7-061125f69421,MedMCQA,depth_matched_random_mlp_2,wrong,1,1,0,1,Secondary syphilis,Secondary syphilis,0,0
+medmcqa_train_a27573cc-b861-4320-a0a7-061125f69421,MedMCQA,block_influence_2,neutral,0,1,-1,0,Post kala azar dermal leishmaniasis,Secondary syphilis,0,1
+medmcqa_train_a27573cc-b861-4320-a0a7-061125f69421,MedMCQA,block_influence_2,wrong,0,1,-1,0,Post kala azar dermal leishmaniasis,Secondary syphilis,0,1
+medmcqa_train_a27573cc-b861-4320-a0a7-061125f69421,MedMCQA,linear_mlp_2_r64,neutral,1,1,0,1,Secondary syphilis,Secondary syphilis,0,0
+medmcqa_train_a27573cc-b861-4320-a0a7-061125f69421,MedMCQA,linear_mlp_2_r64,wrong,1,1,0,1,Secondary syphilis,Secondary syphilis,0,0
+medmcqa_train_2d6e6d86-98d1-4e79-a5ff-ae3a3978a3c0,MedMCQA,baseline,neutral,1,1,0,1,Progressive multifocal leukoencephalopathy,Progressive multifocal leukoencephalopathy,0,0
+medmcqa_train_2d6e6d86-98d1-4e79-a5ff-ae3a3978a3c0,MedMCQA,baseline,wrong,1,1,0,1,Progressive multifocal leukoencephalopathy,Progressive multifocal leukoencephalopathy,0,0
+medmcqa_train_2d6e6d86-98d1-4e79-a5ff-ae3a3978a3c0,MedMCQA,early_exit,neutral,1,1,0,1,Progressive multifocal leukoencephalopathy,Progressive multifocal leukoencephalopathy,0,0
+medmcqa_train_2d6e6d86-98d1-4e79-a5ff-ae3a3978a3c0,MedMCQA,early_exit,wrong,1,1,0,1,Progressive multifocal leukoencephalopathy,Progressive multifocal leukoencephalopathy,0,0
+medmcqa_train_2d6e6d86-98d1-4e79-a5ff-ae3a3978a3c0,MedMCQA,drop_mlp_2,neutral,1,1,0,1,Progressive multifocal leukoencephalopathy,Progressive multifocal leukoencephalopathy,0,0
+medmcqa_train_2d6e6d86-98d1-4e79-a5ff-ae3a3978a3c0,MedMCQA,drop_mlp_2,wrong,1,1,0,1,Progressive multifocal leukoencephalopathy,Progressive multifocal leukoencephalopathy,0,0
+medmcqa_train_2d6e6d86-98d1-4e79-a5ff-ae3a3978a3c0,MedMCQA,linear_mlp_2_r16,neutral,1,1,0,1,Progressive multifocal leukoencephalopathy,Progressive multifocal leukoencephalopathy,0,0
+medmcqa_train_2d6e6d86-98d1-4e79-a5ff-ae3a3978a3c0,MedMCQA,linear_mlp_2_r16,wrong,1,1,0,1,Progressive multifocal leukoencephalopathy,Progressive multifocal leukoencephalopathy,0,0
+medmcqa_train_2d6e6d86-98d1-4e79-a5ff-ae3a3978a3c0,MedMCQA,drop_block_1,neutral,1,1,0,1,Progressive multifocal leukoencephalopathy,Progressive multifocal leukoencephalopathy,0,0
+medmcqa_train_2d6e6d86-98d1-4e79-a5ff-ae3a3978a3c0,MedMCQA,drop_block_1,wrong,1,1,0,1,Progressive multifocal leukoencephalopathy,Progressive multifocal leukoencephalopathy,0,0
+medmcqa_train_2d6e6d86-98d1-4e79-a5ff-ae3a3978a3c0,MedMCQA,anchor_heads_8,neutral,1,1,0,1,Progressive multifocal leukoencephalopathy,Progressive multifocal leukoencephalopathy,0,0
+medmcqa_train_2d6e6d86-98d1-4e79-a5ff-ae3a3978a3c0,MedMCQA,anchor_heads_8,wrong,1,1,0,1,Progressive multifocal leukoencephalopathy,Progressive multifocal leukoencephalopathy,0,0
+medmcqa_train_2d6e6d86-98d1-4e79-a5ff-ae3a3978a3c0,MedMCQA,depth_matched_random_mlp_2,neutral,1,1,0,1,Progressive multifocal leukoencephalopathy,Progressive multifocal leukoencephalopathy,0,0
+medmcqa_train_2d6e6d86-98d1-4e79-a5ff-ae3a3978a3c0,MedMCQA,depth_matched_random_mlp_2,wrong,1,1,0,1,Progressive multifocal leukoencephalopathy,Progressive multifocal leukoencephalopathy,0,0
+medmcqa_train_2d6e6d86-98d1-4e79-a5ff-ae3a3978a3c0,MedMCQA,block_influence_2,neutral,1,1,0,1,Progressive multifocal leukoencephalopathy,Progressive multifocal leukoencephalopathy,0,0
+medmcqa_train_2d6e6d86-98d1-4e79-a5ff-ae3a3978a3c0,MedMCQA,block_influence_2,wrong,1,1,0,1,Progressive multifocal leukoencephalopathy,Progressive multifocal leukoencephalopathy,0,0
+medmcqa_train_2d6e6d86-98d1-4e79-a5ff-ae3a3978a3c0,MedMCQA,linear_mlp_2_r64,neutral,1,1,0,1,Progressive multifocal leukoencephalopathy,Progressive multifocal leukoencephalopathy,0,0
+medmcqa_train_2d6e6d86-98d1-4e79-a5ff-ae3a3978a3c0,MedMCQA,linear_mlp_2_r64,wrong,1,1,0,1,Progressive multifocal leukoencephalopathy,Progressive multifocal leukoencephalopathy,0,0
+medmcqa_train_f0829ed3-23ff-4eef-ab1d-b1733ca0752a,MedMCQA,baseline,neutral,0,1,0,1,Diaphragmatic injury,Diaphragmatic injury,0,0
+medmcqa_train_f0829ed3-23ff-4eef-ab1d-b1733ca0752a,MedMCQA,baseline,wrong,0,1,0,1,Renal injury,Renal injury,0,0
+medmcqa_train_f0829ed3-23ff-4eef-ab1d-b1733ca0752a,MedMCQA,early_exit,neutral,0,1,0,1,Diaphragmatic injury,Diaphragmatic injury,0,0
+medmcqa_train_f0829ed3-23ff-4eef-ab1d-b1733ca0752a,MedMCQA,early_exit,wrong,0,1,0,1,Renal injury,Renal injury,0,0
+medmcqa_train_f0829ed3-23ff-4eef-ab1d-b1733ca0752a,MedMCQA,drop_mlp_2,neutral,0,1,0,1,Diaphragmatic injury,Diaphragmatic injury,0,0
+medmcqa_train_f0829ed3-23ff-4eef-ab1d-b1733ca0752a,MedMCQA,drop_mlp_2,wrong,0,1,0,1,Renal injury,Renal injury,0,0
+medmcqa_train_f0829ed3-23ff-4eef-ab1d-b1733ca0752a,MedMCQA,linear_mlp_2_r16,neutral,0,1,0,1,Diaphragmatic injury,Diaphragmatic injury,0,0
+medmcqa_train_f0829ed3-23ff-4eef-ab1d-b1733ca0752a,MedMCQA,linear_mlp_2_r16,wrong,0,1,0,1,Renal injury,Renal injury,0,0
+medmcqa_train_f0829ed3-23ff-4eef-ab1d-b1733ca0752a,MedMCQA,drop_block_1,neutral,0,1,0,1,Diaphragmatic injury,Diaphragmatic injury,0,0
+medmcqa_train_f0829ed3-23ff-4eef-ab1d-b1733ca0752a,MedMCQA,drop_block_1,wrong,0,1,0,1,Renal injury,Renal injury,0,0
+medmcqa_train_f0829ed3-23ff-4eef-ab1d-b1733ca0752a,MedMCQA,anchor_heads_8,neutral,0,1,0,1,Diaphragmatic injury,Diaphragmatic injury,0,0
+medmcqa_train_f0829ed3-23ff-4eef-ab1d-b1733ca0752a,MedMCQA,anchor_heads_8,wrong,0,1,0,1,Renal injury,Renal injury,0,0
+medmcqa_train_f0829ed3-23ff-4eef-ab1d-b1733ca0752a,MedMCQA,depth_matched_random_mlp_2,neutral,0,1,0,1,Diaphragmatic injury,Diaphragmatic injury,0,0
+medmcqa_train_f0829ed3-23ff-4eef-ab1d-b1733ca0752a,MedMCQA,depth_matched_random_mlp_2,wrong,0,1,0,1,Renal injury,Renal injury,0,0
+medmcqa_train_f0829ed3-23ff-4eef-ab1d-b1733ca0752a,MedMCQA,block_influence_2,neutral,1,1,1,0,Splenic injury,Diaphragmatic injury,1,0
+medmcqa_train_f0829ed3-23ff-4eef-ab1d-b1733ca0752a,MedMCQA,block_influence_2,wrong,1,1,1,0,Splenic injury,Renal injury,1,0
+medmcqa_train_f0829ed3-23ff-4eef-ab1d-b1733ca0752a,MedMCQA,linear_mlp_2_r64,neutral,0,1,0,1,Diaphragmatic injury,Diaphragmatic injury,0,0
+medmcqa_train_f0829ed3-23ff-4eef-ab1d-b1733ca0752a,MedMCQA,linear_mlp_2_r64,wrong,0,1,0,1,Renal injury,Renal injury,0,0
+medmcqa_train_cc2b04d9-2c88-4afc-bc57-3b8d89fa9c45,MedMCQA,baseline,neutral,0,1,0,1,Paracetamol poisoning,Paracetamol poisoning,0,0
+medmcqa_train_cc2b04d9-2c88-4afc-bc57-3b8d89fa9c45,MedMCQA,baseline,wrong,0,1,0,1,Paracetamol poisoning,Paracetamol poisoning,0,0
+medmcqa_train_cc2b04d9-2c88-4afc-bc57-3b8d89fa9c45,MedMCQA,early_exit,neutral,0,1,0,1,Paracetamol poisoning,Paracetamol poisoning,0,0
+medmcqa_train_cc2b04d9-2c88-4afc-bc57-3b8d89fa9c45,MedMCQA,early_exit,wrong,0,1,0,1,Paracetamol poisoning,Paracetamol poisoning,0,0
+medmcqa_train_cc2b04d9-2c88-4afc-bc57-3b8d89fa9c45,MedMCQA,drop_mlp_2,neutral,0,1,0,1,Paracetamol poisoning,Paracetamol poisoning,0,0
+medmcqa_train_cc2b04d9-2c88-4afc-bc57-3b8d89fa9c45,MedMCQA,drop_mlp_2,wrong,0,1,0,1,Paracetamol poisoning,Paracetamol poisoning,0,0
+medmcqa_train_cc2b04d9-2c88-4afc-bc57-3b8d89fa9c45,MedMCQA,linear_mlp_2_r16,neutral,0,1,0,1,Paracetamol poisoning,Paracetamol poisoning,0,0
+medmcqa_train_cc2b04d9-2c88-4afc-bc57-3b8d89fa9c45,MedMCQA,linear_mlp_2_r16,wrong,0,1,0,1,Paracetamol poisoning,Paracetamol poisoning,0,0
+medmcqa_train_cc2b04d9-2c88-4afc-bc57-3b8d89fa9c45,MedMCQA,drop_block_1,neutral,0,1,0,1,Paracetamol poisoning,Paracetamol poisoning,0,0
+medmcqa_train_cc2b04d9-2c88-4afc-bc57-3b8d89fa9c45,MedMCQA,drop_block_1,wrong,0,1,0,1,Paracetamol poisoning,Paracetamol poisoning,0,0
+medmcqa_train_cc2b04d9-2c88-4afc-bc57-3b8d89fa9c45,MedMCQA,anchor_heads_8,neutral,0,1,0,1,Paracetamol poisoning,Paracetamol poisoning,0,0
+medmcqa_train_cc2b04d9-2c88-4afc-bc57-3b8d89fa9c45,MedMCQA,anchor_heads_8,wrong,0,1,0,1,Paracetamol poisoning,Paracetamol poisoning,0,0
+medmcqa_train_cc2b04d9-2c88-4afc-bc57-3b8d89fa9c45,MedMCQA,depth_matched_random_mlp_2,neutral,0,1,0,1,Paracetamol poisoning,Paracetamol poisoning,0,0
+medmcqa_train_cc2b04d9-2c88-4afc-bc57-3b8d89fa9c45,MedMCQA,depth_matched_random_mlp_2,wrong,0,1,0,1,Paracetamol poisoning,Paracetamol poisoning,0,0
+medmcqa_train_cc2b04d9-2c88-4afc-bc57-3b8d89fa9c45,MedMCQA,block_influence_2,neutral,0,1,0,1,Paracetamol poisoning,Paracetamol poisoning,0,0
+medmcqa_train_cc2b04d9-2c88-4afc-bc57-3b8d89fa9c45,MedMCQA,block_influence_2,wrong,0,1,0,1,Paracetamol poisoning,Paracetamol poisoning,0,0
+medmcqa_train_cc2b04d9-2c88-4afc-bc57-3b8d89fa9c45,MedMCQA,linear_mlp_2_r64,neutral,0,1,0,1,Paracetamol poisoning,Paracetamol poisoning,0,0
+medmcqa_train_cc2b04d9-2c88-4afc-bc57-3b8d89fa9c45,MedMCQA,linear_mlp_2_r64,wrong,0,1,0,1,Paracetamol poisoning,Paracetamol poisoning,0,0
+medmcqa_train_147b989f-a02a-4a4d-ac4d-5409e608bff0,MedMCQA,baseline,neutral,1,1,0,1,Eclampsia,Eclampsia,0,0
+medmcqa_train_147b989f-a02a-4a4d-ac4d-5409e608bff0,MedMCQA,baseline,wrong,1,1,0,1,Eclampsia,Eclampsia,0,0
+medmcqa_train_147b989f-a02a-4a4d-ac4d-5409e608bff0,MedMCQA,early_exit,neutral,1,1,0,1,Eclampsia,Eclampsia,0,0
+medmcqa_train_147b989f-a02a-4a4d-ac4d-5409e608bff0,MedMCQA,early_exit,wrong,1,1,0,1,Eclampsia,Eclampsia,0,0
+medmcqa_train_147b989f-a02a-4a4d-ac4d-5409e608bff0,MedMCQA,drop_mlp_2,neutral,1,1,0,1,Eclampsia,Eclampsia,0,0
+medmcqa_train_147b989f-a02a-4a4d-ac4d-5409e608bff0,MedMCQA,drop_mlp_2,wrong,1,1,0,1,Eclampsia,Eclampsia,0,0
+medmcqa_train_147b989f-a02a-4a4d-ac4d-5409e608bff0,MedMCQA,linear_mlp_2_r16,neutral,1,1,0,1,Eclampsia,Eclampsia,0,0
+medmcqa_train_147b989f-a02a-4a4d-ac4d-5409e608bff0,MedMCQA,linear_mlp_2_r16,wrong,1,1,0,1,Eclampsia,Eclampsia,0,0
+medmcqa_train_147b989f-a02a-4a4d-ac4d-5409e608bff0,MedMCQA,drop_block_1,neutral,1,1,0,1,Eclampsia,Eclampsia,0,0
+medmcqa_train_147b989f-a02a-4a4d-ac4d-5409e608bff0,MedMCQA,drop_block_1,wrong,1,1,0,1,Eclampsia,Eclampsia,0,0
+medmcqa_train_147b989f-a02a-4a4d-ac4d-5409e608bff0,MedMCQA,anchor_heads_8,neutral,1,1,0,1,Eclampsia,Eclampsia,0,0
+medmcqa_train_147b989f-a02a-4a4d-ac4d-5409e608bff0,MedMCQA,anchor_heads_8,wrong,1,1,0,1,Eclampsia,Eclampsia,0,0
+medmcqa_train_147b989f-a02a-4a4d-ac4d-5409e608bff0,MedMCQA,depth_matched_random_mlp_2,neutral,1,1,0,1,Eclampsia,Eclampsia,0,0
+medmcqa_train_147b989f-a02a-4a4d-ac4d-5409e608bff0,MedMCQA,depth_matched_random_mlp_2,wrong,1,1,0,1,Eclampsia,Eclampsia,0,0
+medmcqa_train_147b989f-a02a-4a4d-ac4d-5409e608bff0,MedMCQA,block_influence_2,neutral,1,1,0,1,Eclampsia,Eclampsia,0,0
+medmcqa_train_147b989f-a02a-4a4d-ac4d-5409e608bff0,MedMCQA,block_influence_2,wrong,1,1,0,1,Eclampsia,Eclampsia,0,0
+medmcqa_train_147b989f-a02a-4a4d-ac4d-5409e608bff0,MedMCQA,linear_mlp_2_r64,neutral,1,1,0,1,Eclampsia,Eclampsia,0,0
+medmcqa_train_147b989f-a02a-4a4d-ac4d-5409e608bff0,MedMCQA,linear_mlp_2_r64,wrong,1,1,0,1,Eclampsia,Eclampsia,0,0
+medmcqa_train_9ed1ec09-f9da-4b2c-88fd-c2c32b3ee273,MedMCQA,baseline,neutral,1,1,0,1,trigeminal neuralgia,trigeminal neuralgia,0,0
+medmcqa_train_9ed1ec09-f9da-4b2c-88fd-c2c32b3ee273,MedMCQA,baseline,wrong,1,1,0,1,trigeminal neuralgia,trigeminal neuralgia,0,0
+medmcqa_train_9ed1ec09-f9da-4b2c-88fd-c2c32b3ee273,MedMCQA,early_exit,neutral,1,1,0,1,trigeminal neuralgia,trigeminal neuralgia,0,0
+medmcqa_train_9ed1ec09-f9da-4b2c-88fd-c2c32b3ee273,MedMCQA,early_exit,wrong,1,1,0,1,trigeminal neuralgia,trigeminal neuralgia,0,0
+medmcqa_train_9ed1ec09-f9da-4b2c-88fd-c2c32b3ee273,MedMCQA,drop_mlp_2,neutral,1,1,0,1,trigeminal neuralgia,trigeminal neuralgia,0,0
+medmcqa_train_9ed1ec09-f9da-4b2c-88fd-c2c32b3ee273,MedMCQA,drop_mlp_2,wrong,1,1,0,1,trigeminal neuralgia,trigeminal neuralgia,0,0
+medmcqa_train_9ed1ec09-f9da-4b2c-88fd-c2c32b3ee273,MedMCQA,linear_mlp_2_r16,neutral,1,1,0,1,trigeminal neuralgia,trigeminal neuralgia,0,0
+medmcqa_train_9ed1ec09-f9da-4b2c-88fd-c2c32b3ee273,MedMCQA,linear_mlp_2_r16,wrong,1,1,0,1,trigeminal neuralgia,trigeminal neuralgia,0,0
+medmcqa_train_9ed1ec09-f9da-4b2c-88fd-c2c32b3ee273,MedMCQA,drop_block_1,neutral,1,1,0,1,trigeminal neuralgia,trigeminal neuralgia,0,0
+medmcqa_train_9ed1ec09-f9da-4b2c-88fd-c2c32b3ee273,MedMCQA,drop_block_1,wrong,1,1,0,1,trigeminal neuralgia,trigeminal neuralgia,0,0
+medmcqa_train_9ed1ec09-f9da-4b2c-88fd-c2c32b3ee273,MedMCQA,anchor_heads_8,neutral,1,1,0,1,trigeminal neuralgia,trigeminal neuralgia,0,0
+medmcqa_train_9ed1ec09-f9da-4b2c-88fd-c2c32b3ee273,MedMCQA,anchor_heads_8,wrong,1,1,0,1,trigeminal neuralgia,trigeminal neuralgia,0,0
+medmcqa_train_9ed1ec09-f9da-4b2c-88fd-c2c32b3ee273,MedMCQA,depth_matched_random_mlp_2,neutral,0,0,-1,0,tr trigeminal neuralgia,trigeminal neuralgia,0,1
+medmcqa_train_9ed1ec09-f9da-4b2c-88fd-c2c32b3ee273,MedMCQA,depth_matched_random_mlp_2,wrong,0,0,-1,0,tr trigeminal neuralgia,trigeminal neuralgia,0,1
+medmcqa_train_9ed1ec09-f9da-4b2c-88fd-c2c32b3ee273,MedMCQA,block_influence_2,neutral,1,1,0,1,trigeminal neuralgia,trigeminal neuralgia,0,0
+medmcqa_train_9ed1ec09-f9da-4b2c-88fd-c2c32b3ee273,MedMCQA,block_influence_2,wrong,1,1,0,1,trigeminal neuralgia,trigeminal neuralgia,0,0
+medmcqa_train_9ed1ec09-f9da-4b2c-88fd-c2c32b3ee273,MedMCQA,linear_mlp_2_r64,neutral,1,1,0,1,trigeminal neuralgia,trigeminal neuralgia,0,0
+medmcqa_train_9ed1ec09-f9da-4b2c-88fd-c2c32b3ee273,MedMCQA,linear_mlp_2_r64,wrong,1,1,0,1,trigeminal neuralgia,trigeminal neuralgia,0,0
+medmcqa_train_257a3832-995c-4d20-a92b-e85df53823ca,MedMCQA,baseline,neutral,1,1,0,1,Congenital diaphragmatic hernia,Congenital diaphragmatic hernia,0,0
+medmcqa_train_257a3832-995c-4d20-a92b-e85df53823ca,MedMCQA,baseline,wrong,1,1,0,1,Congenital diaphragmatic hernia,Congenital diaphragmatic hernia,0,0
+medmcqa_train_257a3832-995c-4d20-a92b-e85df53823ca,MedMCQA,early_exit,neutral,1,1,0,1,Congenital diaphragmatic hernia,Congenital diaphragmatic hernia,0,0
+medmcqa_train_257a3832-995c-4d20-a92b-e85df53823ca,MedMCQA,early_exit,wrong,1,1,0,1,Congenital diaphragmatic hernia,Congenital diaphragmatic hernia,0,0
+medmcqa_train_257a3832-995c-4d20-a92b-e85df53823ca,MedMCQA,drop_mlp_2,neutral,1,1,0,1,Congenital diaphragmatic hernia,Congenital diaphragmatic hernia,0,0
+medmcqa_train_257a3832-995c-4d20-a92b-e85df53823ca,MedMCQA,drop_mlp_2,wrong,1,1,0,1,Congenital diaphragmatic hernia,Congenital diaphragmatic hernia,0,0
+medmcqa_train_257a3832-995c-4d20-a92b-e85df53823ca,MedMCQA,linear_mlp_2_r16,neutral,1,1,0,1,Congenital diaphragmatic hernia,Congenital diaphragmatic hernia,0,0
+medmcqa_train_257a3832-995c-4d20-a92b-e85df53823ca,MedMCQA,linear_mlp_2_r16,wrong,1,1,0,1,Congenital diaphragmatic hernia,Congenital diaphragmatic hernia,0,0
+medmcqa_train_257a3832-995c-4d20-a92b-e85df53823ca,MedMCQA,drop_block_1,neutral,1,1,0,1,Congenital diaphragmatic hernia,Congenital diaphragmatic hernia,0,0
+medmcqa_train_257a3832-995c-4d20-a92b-e85df53823ca,MedMCQA,drop_block_1,wrong,1,1,0,1,Congenital diaphragmatic hernia,Congenital diaphragmatic hernia,0,0
+medmcqa_train_257a3832-995c-4d20-a92b-e85df53823ca,MedMCQA,anchor_heads_8,neutral,1,1,0,1,Congenital diaphragmatic hernia,Congenital diaphragmatic hernia,0,0
+medmcqa_train_257a3832-995c-4d20-a92b-e85df53823ca,MedMCQA,anchor_heads_8,wrong,1,1,0,1,Congenital diaphragmatic hernia,Congenital diaphragmatic hernia,0,0
+medmcqa_train_257a3832-995c-4d20-a92b-e85df53823ca,MedMCQA,depth_matched_random_mlp_2,neutral,1,1,0,1,Congenital diaphragmatic hernia,Congenital diaphragmatic hernia,0,0
+medmcqa_train_257a3832-995c-4d20-a92b-e85df53823ca,MedMCQA,depth_matched_random_mlp_2,wrong,1,1,0,1,Congenital diaphragmatic hernia,Congenital diaphragmatic hernia,0,0
+medmcqa_train_257a3832-995c-4d20-a92b-e85df53823ca,MedMCQA,block_influence_2,neutral,1,1,0,1,Congenital diaphragmatic hernia,Congenital diaphragmatic hernia,0,0
+medmcqa_train_257a3832-995c-4d20-a92b-e85df53823ca,MedMCQA,block_influence_2,wrong,1,1,0,1,Congenital diaphragmatic hernia,Congenital diaphragmatic hernia,0,0
+medmcqa_train_257a3832-995c-4d20-a92b-e85df53823ca,MedMCQA,linear_mlp_2_r64,neutral,1,1,0,1,Congenital diaphragmatic hernia,Congenital diaphragmatic hernia,0,0
+medmcqa_train_257a3832-995c-4d20-a92b-e85df53823ca,MedMCQA,linear_mlp_2_r64,wrong,1,1,0,1,Congenital diaphragmatic hernia,Congenital diaphragmatic hernia,0,0
+medmcqa_train_58ec7b80-a7b1-4cb1-b23a-4e197a7b7b84,MedMCQA,baseline,neutral,1,1,0,1,Mycoplasma pneumoniae,Mycoplasma pneumoniae,0,0
+medmcqa_train_58ec7b80-a7b1-4cb1-b23a-4e197a7b7b84,MedMCQA,baseline,wrong,1,1,0,1,Mycoplasma pneumoniae,Mycoplasma pneumoniae,0,0
+medmcqa_train_58ec7b80-a7b1-4cb1-b23a-4e197a7b7b84,MedMCQA,early_exit,neutral,1,1,0,1,Mycoplasma pneumoniae,Mycoplasma pneumoniae,0,0
+medmcqa_train_58ec7b80-a7b1-4cb1-b23a-4e197a7b7b84,MedMCQA,early_exit,wrong,1,1,0,1,Mycoplasma pneumoniae,Mycoplasma pneumoniae,0,0
+medmcqa_train_58ec7b80-a7b1-4cb1-b23a-4e197a7b7b84,MedMCQA,drop_mlp_2,neutral,1,1,0,1,Mycoplasma pneumoniae,Mycoplasma pneumoniae,0,0
+medmcqa_train_58ec7b80-a7b1-4cb1-b23a-4e197a7b7b84,MedMCQA,drop_mlp_2,wrong,1,1,0,1,Mycoplasma pneumoniae,Mycoplasma pneumoniae,0,0
+medmcqa_train_58ec7b80-a7b1-4cb1-b23a-4e197a7b7b84,MedMCQA,linear_mlp_2_r16,neutral,1,1,0,1,Mycoplasma pneumoniae,Mycoplasma pneumoniae,0,0
+medmcqa_train_58ec7b80-a7b1-4cb1-b23a-4e197a7b7b84,MedMCQA,linear_mlp_2_r16,wrong,1,1,0,1,Mycoplasma pneumoniae,Mycoplasma pneumoniae,0,0
+medmcqa_train_58ec7b80-a7b1-4cb1-b23a-4e197a7b7b84,MedMCQA,drop_block_1,neutral,1,1,0,1,Mycoplasma pneumoniae,Mycoplasma pneumoniae,0,0
+medmcqa_train_58ec7b80-a7b1-4cb1-b23a-4e197a7b7b84,MedMCQA,drop_block_1,wrong,1,1,0,1,Mycoplasma pneumoniae,Mycoplasma pneumoniae,0,0
+medmcqa_train_58ec7b80-a7b1-4cb1-b23a-4e197a7b7b84,MedMCQA,anchor_heads_8,neutral,1,1,0,1,Mycoplasma pneumoniae,Mycoplasma pneumoniae,0,0
+medmcqa_train_58ec7b80-a7b1-4cb1-b23a-4e197a7b7b84,MedMCQA,anchor_heads_8,wrong,1,1,0,1,Mycoplasma pneumoniae,Mycoplasma pneumoniae,0,0
+medmcqa_train_58ec7b80-a7b1-4cb1-b23a-4e197a7b7b84,MedMCQA,depth_matched_random_mlp_2,neutral,1,1,0,1,Mycoplasma pneumoniae,Mycoplasma pneumoniae,0,0
+medmcqa_train_58ec7b80-a7b1-4cb1-b23a-4e197a7b7b84,MedMCQA,depth_matched_random_mlp_2,wrong,0,1,-1,0,Streptococcus pneumoniae,Mycoplasma pneumoniae,0,1
+medmcqa_train_58ec7b80-a7b1-4cb1-b23a-4e197a7b7b84,MedMCQA,block_influence_2,neutral,1,1,0,1,Mycoplasma pneumoniae,Mycoplasma pneumoniae,0,0
+medmcqa_train_58ec7b80-a7b1-4cb1-b23a-4e197a7b7b84,MedMCQA,block_influence_2,wrong,0,1,-1,0,Streptococcus pneumoniae,Mycoplasma pneumoniae,0,1
+medmcqa_train_58ec7b80-a7b1-4cb1-b23a-4e197a7b7b84,MedMCQA,linear_mlp_2_r64,neutral,1,1,0,1,Mycoplasma pneumoniae,Mycoplasma pneumoniae,0,0
+medmcqa_train_58ec7b80-a7b1-4cb1-b23a-4e197a7b7b84,MedMCQA,linear_mlp_2_r64,wrong,1,1,0,1,Mycoplasma pneumoniae,Mycoplasma pneumoniae,0,0
+medmcqa_train_6683f089-c480-4c20-a8be-cc5bb8105d32,MedMCQA,baseline,neutral,1,1,0,1,Juvenile myoclonic epilepsy,Juvenile myoclonic epilepsy,0,0
+medmcqa_train_6683f089-c480-4c20-a8be-cc5bb8105d32,MedMCQA,baseline,wrong,1,1,0,1,Juvenile myoclonic epilepsy,Juvenile myoclonic epilepsy,0,0
+medmcqa_train_6683f089-c480-4c20-a8be-cc5bb8105d32,MedMCQA,early_exit,neutral,1,1,0,1,Juvenile myoclonic epilepsy,Juvenile myoclonic epilepsy,0,0
+medmcqa_train_6683f089-c480-4c20-a8be-cc5bb8105d32,MedMCQA,early_exit,wrong,1,1,0,1,Juvenile myoclonic epilepsy,Juvenile myoclonic epilepsy,0,0
+medmcqa_train_6683f089-c480-4c20-a8be-cc5bb8105d32,MedMCQA,drop_mlp_2,neutral,1,1,0,1,Juvenile myoclonic epilepsy,Juvenile myoclonic epilepsy,0,0
+medmcqa_train_6683f089-c480-4c20-a8be-cc5bb8105d32,MedMCQA,drop_mlp_2,wrong,1,1,0,1,Juvenile myoclonic epilepsy,Juvenile myoclonic epilepsy,0,0
+medmcqa_train_6683f089-c480-4c20-a8be-cc5bb8105d32,MedMCQA,linear_mlp_2_r16,neutral,1,1,0,1,Juvenile myoclonic epilepsy,Juvenile myoclonic epilepsy,0,0
+medmcqa_train_6683f089-c480-4c20-a8be-cc5bb8105d32,MedMCQA,linear_mlp_2_r16,wrong,1,1,0,1,Juvenile myoclonic epilepsy,Juvenile myoclonic epilepsy,0,0
+medmcqa_train_6683f089-c480-4c20-a8be-cc5bb8105d32,MedMCQA,drop_block_1,neutral,1,1,0,1,Juvenile myoclonic epilepsy,Juvenile myoclonic epilepsy,0,0
+medmcqa_train_6683f089-c480-4c20-a8be-cc5bb8105d32,MedMCQA,drop_block_1,wrong,1,1,0,1,Juvenile myoclonic epilepsy,Juvenile myoclonic epilepsy,0,0
+medmcqa_train_6683f089-c480-4c20-a8be-cc5bb8105d32,MedMCQA,anchor_heads_8,neutral,1,1,0,1,Juvenile myoclonic epilepsy,Juvenile myoclonic epilepsy,0,0
+medmcqa_train_6683f089-c480-4c20-a8be-cc5bb8105d32,MedMCQA,anchor_heads_8,wrong,1,1,0,1,Juvenile myoclonic epilepsy,Juvenile myoclonic epilepsy,0,0
+medmcqa_train_6683f089-c480-4c20-a8be-cc5bb8105d32,MedMCQA,depth_matched_random_mlp_2,neutral,1,1,0,1,Juvenile myoclonic epilepsy,Juvenile myoclonic epilepsy,0,0
+medmcqa_train_6683f089-c480-4c20-a8be-cc5bb8105d32,MedMCQA,depth_matched_random_mlp_2,wrong,1,1,0,1,Juvenile myoclonic epilepsy,Juvenile myoclonic epilepsy,0,0
+medmcqa_train_6683f089-c480-4c20-a8be-cc5bb8105d32,MedMCQA,block_influence_2,neutral,1,1,0,1,Juvenile myoclonic epilepsy,Juvenile myoclonic epilepsy,0,0
+medmcqa_train_6683f089-c480-4c20-a8be-cc5bb8105d32,MedMCQA,block_influence_2,wrong,1,1,0,1,Juvenile myoclonic epilepsy,Juvenile myoclonic epilepsy,0,0
+medmcqa_train_6683f089-c480-4c20-a8be-cc5bb8105d32,MedMCQA,linear_mlp_2_r64,neutral,1,1,0,1,Juvenile myoclonic epilepsy,Juvenile myoclonic epilepsy,0,0
+medmcqa_train_6683f089-c480-4c20-a8be-cc5bb8105d32,MedMCQA,linear_mlp_2_r64,wrong,1,1,0,1,Juvenile myoclonic epilepsy,Juvenile myoclonic epilepsy,0,0
+medmcqa_train_f4134626-b155-4138-b723-8e30f79a0622,MedMCQA,baseline,neutral,0,1,0,1,Candida balanoposthitis,Candida balanoposthitis,0,0
+medmcqa_train_f4134626-b155-4138-b723-8e30f79a0622,MedMCQA,baseline,wrong,0,1,0,1,Candida balanoposthitis,Candida balanoposthitis,0,0
+medmcqa_train_f4134626-b155-4138-b723-8e30f79a0622,MedMCQA,early_exit,neutral,0,1,0,1,Candida balanoposthitis,Candida balanoposthitis,0,0
+medmcqa_train_f4134626-b155-4138-b723-8e30f79a0622,MedMCQA,early_exit,wrong,0,1,0,1,Candida balanoposthitis,Candida balanoposthitis,0,0
+medmcqa_train_f4134626-b155-4138-b723-8e30f79a0622,MedMCQA,drop_mlp_2,neutral,0,1,0,1,Candida balanoposthitis,Candida balanoposthitis,0,0
+medmcqa_train_f4134626-b155-4138-b723-8e30f79a0622,MedMCQA,drop_mlp_2,wrong,0,1,0,1,Candida balanoposthitis,Candida balanoposthitis,0,0
+medmcqa_train_f4134626-b155-4138-b723-8e30f79a0622,MedMCQA,linear_mlp_2_r16,neutral,0,1,0,1,Candida balanoposthitis,Candida balanoposthitis,0,0
+medmcqa_train_f4134626-b155-4138-b723-8e30f79a0622,MedMCQA,linear_mlp_2_r16,wrong,0,1,0,1,Candida balanoposthitis,Candida balanoposthitis,0,0
+medmcqa_train_f4134626-b155-4138-b723-8e30f79a0622,MedMCQA,drop_block_1,neutral,0,1,0,1,Candida balanoposthitis,Candida balanoposthitis,0,0
+medmcqa_train_f4134626-b155-4138-b723-8e30f79a0622,MedMCQA,drop_block_1,wrong,0,1,0,1,Candida balanoposthitis,Candida balanoposthitis,0,0
+medmcqa_train_f4134626-b155-4138-b723-8e30f79a0622,MedMCQA,anchor_heads_8,neutral,0,1,0,1,Candida balanoposthitis,Candida balanoposthitis,0,0
+medmcqa_train_f4134626-b155-4138-b723-8e30f79a0622,MedMCQA,anchor_heads_8,wrong,0,1,0,0,Behcet's disease,Candida balanoposthitis,0,0
+medmcqa_train_f4134626-b155-4138-b723-8e30f79a0622,MedMCQA,depth_matched_random_mlp_2,neutral,0,1,0,1,Candida balanoposthitis,Candida balanoposthitis,0,0
+medmcqa_train_f4134626-b155-4138-b723-8e30f79a0622,MedMCQA,depth_matched_random_mlp_2,wrong,0,1,0,1,Candida balanoposthitis,Candida balanoposthitis,0,0
+medmcqa_train_f4134626-b155-4138-b723-8e30f79a0622,MedMCQA,block_influence_2,neutral,0,1,0,1,Candida balanoposthitis,Candida balanoposthitis,0,0
+medmcqa_train_f4134626-b155-4138-b723-8e30f79a0622,MedMCQA,block_influence_2,wrong,0,1,0,1,Candida balanoposthitis,Candida balanoposthitis,0,0
+medmcqa_train_f4134626-b155-4138-b723-8e30f79a0622,MedMCQA,linear_mlp_2_r64,neutral,0,1,0,1,Candida balanoposthitis,Candida balanoposthitis,0,0
+medmcqa_train_f4134626-b155-4138-b723-8e30f79a0622,MedMCQA,linear_mlp_2_r64,wrong,0,1,0,1,Candida balanoposthitis,Candida balanoposthitis,0,0
+medmcqa_train_7568d84f-7b71-4f9b-9eaf-8b67f1a98ac2,MedMCQA,baseline,neutral,0,1,0,1,Cavernous sinus thrombosis,Cavernous sinus thrombosis,0,0
+medmcqa_train_7568d84f-7b71-4f9b-9eaf-8b67f1a98ac2,MedMCQA,baseline,wrong,0,1,0,1,Cavernous sinus thrombosis,Cavernous sinus thrombosis,0,0
+medmcqa_train_7568d84f-7b71-4f9b-9eaf-8b67f1a98ac2,MedMCQA,early_exit,neutral,0,1,0,1,Cavernous sinus thrombosis,Cavernous sinus thrombosis,0,0
+medmcqa_train_7568d84f-7b71-4f9b-9eaf-8b67f1a98ac2,MedMCQA,early_exit,wrong,0,1,0,1,Cavernous sinus thrombosis,Cavernous sinus thrombosis,0,0
+medmcqa_train_7568d84f-7b71-4f9b-9eaf-8b67f1a98ac2,MedMCQA,drop_mlp_2,neutral,0,1,0,1,Cavernous sinus thrombosis,Cavernous sinus thrombosis,0,0
+medmcqa_train_7568d84f-7b71-4f9b-9eaf-8b67f1a98ac2,MedMCQA,drop_mlp_2,wrong,0,1,0,1,Cavernous sinus thrombosis,Cavernous sinus thrombosis,0,0
+medmcqa_train_7568d84f-7b71-4f9b-9eaf-8b67f1a98ac2,MedMCQA,linear_mlp_2_r16,neutral,0,1,0,1,Cavernous sinus thrombosis,Cavernous sinus thrombosis,0,0
+medmcqa_train_7568d84f-7b71-4f9b-9eaf-8b67f1a98ac2,MedMCQA,linear_mlp_2_r16,wrong,0,1,0,1,Cavernous sinus thrombosis,Cavernous sinus thrombosis,0,0
+medmcqa_train_7568d84f-7b71-4f9b-9eaf-8b67f1a98ac2,MedMCQA,drop_block_1,neutral,0,1,0,1,Cavernous sinus thrombosis,Cavernous sinus thrombosis,0,0
+medmcqa_train_7568d84f-7b71-4f9b-9eaf-8b67f1a98ac2,MedMCQA,drop_block_1,wrong,0,1,0,1,Cavernous sinus thrombosis,Cavernous sinus thrombosis,0,0
+medmcqa_train_7568d84f-7b71-4f9b-9eaf-8b67f1a98ac2,MedMCQA,anchor_heads_8,neutral,0,1,0,0,Fracture of sphenoid,Cavernous sinus thrombosis,0,0
+medmcqa_train_7568d84f-7b71-4f9b-9eaf-8b67f1a98ac2,MedMCQA,anchor_heads_8,wrong,0,1,0,0,Fracture of sphenoid,Cavernous sinus thrombosis,0,0
+medmcqa_train_7568d84f-7b71-4f9b-9eaf-8b67f1a98ac2,MedMCQA,depth_matched_random_mlp_2,neutral,0,1,0,1,Cavernous sinus thrombosis,Cavernous sinus thrombosis,0,0
+medmcqa_train_7568d84f-7b71-4f9b-9eaf-8b67f1a98ac2,MedMCQA,depth_matched_random_mlp_2,wrong,0,1,0,1,Cavernous sinus thrombosis,Cavernous sinus thrombosis,0,0
+medmcqa_train_7568d84f-7b71-4f9b-9eaf-8b67f1a98ac2,MedMCQA,block_influence_2,neutral,0,1,0,1,Cavernous sinus thrombosis,Cavernous sinus thrombosis,0,0
+medmcqa_train_7568d84f-7b71-4f9b-9eaf-8b67f1a98ac2,MedMCQA,block_influence_2,wrong,0,1,0,1,Cavernous sinus thrombosis,Cavernous sinus thrombosis,0,0
+medmcqa_train_7568d84f-7b71-4f9b-9eaf-8b67f1a98ac2,MedMCQA,linear_mlp_2_r64,neutral,0,1,0,1,Cavernous sinus thrombosis,Cavernous sinus thrombosis,0,0
+medmcqa_train_7568d84f-7b71-4f9b-9eaf-8b67f1a98ac2,MedMCQA,linear_mlp_2_r64,wrong,0,1,0,1,Cavernous sinus thrombosis,Cavernous sinus thrombosis,0,0
+medmcqa_train_dc91e15c-efbf-486e-8479-3f014b9e5197,MedMCQA,baseline,neutral,1,1,0,1,ARMD,ARMD,0,0
+medmcqa_train_dc91e15c-efbf-486e-8479-3f014b9e5197,MedMCQA,baseline,wrong,0,1,0,1,Cystoid macular edema,Cystoid macular edema,0,0
+medmcqa_train_dc91e15c-efbf-486e-8479-3f014b9e5197,MedMCQA,early_exit,neutral,1,1,0,1,ARMD,ARMD,0,0
+medmcqa_train_dc91e15c-efbf-486e-8479-3f014b9e5197,MedMCQA,early_exit,wrong,1,1,1,0,ARMD,Cystoid macular edema,1,0
+medmcqa_train_dc91e15c-efbf-486e-8479-3f014b9e5197,MedMCQA,drop_mlp_2,neutral,1,1,0,1,ARMD,ARMD,0,0
+medmcqa_train_dc91e15c-efbf-486e-8479-3f014b9e5197,MedMCQA,drop_mlp_2,wrong,0,1,0,1,Cystoid macular edema,Cystoid macular edema,0,0
+medmcqa_train_dc91e15c-efbf-486e-8479-3f014b9e5197,MedMCQA,linear_mlp_2_r16,neutral,1,1,0,1,ARMD,ARMD,0,0
+medmcqa_train_dc91e15c-efbf-486e-8479-3f014b9e5197,MedMCQA,linear_mlp_2_r16,wrong,0,1,0,1,Cystoid macular edema,Cystoid macular edema,0,0
+medmcqa_train_dc91e15c-efbf-486e-8479-3f014b9e5197,MedMCQA,drop_block_1,neutral,1,1,0,1,ARMD,ARMD,0,0
+medmcqa_train_dc91e15c-efbf-486e-8479-3f014b9e5197,MedMCQA,drop_block_1,wrong,0,1,0,1,Cystoid macular edema,Cystoid macular edema,0,0
+medmcqa_train_dc91e15c-efbf-486e-8479-3f014b9e5197,MedMCQA,anchor_heads_8,neutral,1,1,0,1,ARMD,ARMD,0,0
+medmcqa_train_dc91e15c-efbf-486e-8479-3f014b9e5197,MedMCQA,anchor_heads_8,wrong,1,1,1,0,ARMD,Cystoid macular edema,1,0
+medmcqa_train_dc91e15c-efbf-486e-8479-3f014b9e5197,MedMCQA,depth_matched_random_mlp_2,neutral,1,1,0,1,ARMD,ARMD,0,0
+medmcqa_train_dc91e15c-efbf-486e-8479-3f014b9e5197,MedMCQA,depth_matched_random_mlp_2,wrong,1,1,1,0,ARMD,Cystoid macular edema,1,0
+medmcqa_train_dc91e15c-efbf-486e-8479-3f014b9e5197,MedMCQA,block_influence_2,neutral,1,1,0,1,ARMD,ARMD,0,0
+medmcqa_train_dc91e15c-efbf-486e-8479-3f014b9e5197,MedMCQA,block_influence_2,wrong,0,1,0,1,Cystoid macular edema,Cystoid macular edema,0,0
+medmcqa_train_dc91e15c-efbf-486e-8479-3f014b9e5197,MedMCQA,linear_mlp_2_r64,neutral,1,1,0,1,ARMD,ARMD,0,0
+medmcqa_train_dc91e15c-efbf-486e-8479-3f014b9e5197,MedMCQA,linear_mlp_2_r64,wrong,0,1,0,1,Cystoid macular edema,Cystoid macular edema,0,0
+medmcqa_train_649e1475-8944-417a-b984-9067c9f203a2,MedMCQA,baseline,neutral,0,1,0,1,Blood loss,Blood loss,0,0
+medmcqa_train_649e1475-8944-417a-b984-9067c9f203a2,MedMCQA,baseline,wrong,0,1,0,1,Blood loss,Blood loss,0,0
+medmcqa_train_649e1475-8944-417a-b984-9067c9f203a2,MedMCQA,early_exit,neutral,0,1,0,1,Blood loss,Blood loss,0,0
+medmcqa_train_649e1475-8944-417a-b984-9067c9f203a2,MedMCQA,early_exit,wrong,0,1,0,1,Blood loss,Blood loss,0,0
+medmcqa_train_649e1475-8944-417a-b984-9067c9f203a2,MedMCQA,drop_mlp_2,neutral,0,1,0,1,Blood loss,Blood loss,0,0
+medmcqa_train_649e1475-8944-417a-b984-9067c9f203a2,MedMCQA,drop_mlp_2,wrong,0,1,0,1,Blood loss,Blood loss,0,0
+medmcqa_train_649e1475-8944-417a-b984-9067c9f203a2,MedMCQA,linear_mlp_2_r16,neutral,0,1,0,1,Blood loss,Blood loss,0,0
+medmcqa_train_649e1475-8944-417a-b984-9067c9f203a2,MedMCQA,linear_mlp_2_r16,wrong,0,1,0,1,Blood loss,Blood loss,0,0
+medmcqa_train_649e1475-8944-417a-b984-9067c9f203a2,MedMCQA,drop_block_1,neutral,0,1,0,1,Blood loss,Blood loss,0,0
+medmcqa_train_649e1475-8944-417a-b984-9067c9f203a2,MedMCQA,drop_block_1,wrong,0,1,0,1,Blood loss,Blood loss,0,0
+medmcqa_train_649e1475-8944-417a-b984-9067c9f203a2,MedMCQA,anchor_heads_8,neutral,0,1,0,1,Blood loss,Blood loss,0,0
+medmcqa_train_649e1475-8944-417a-b984-9067c9f203a2,MedMCQA,anchor_heads_8,wrong,0,1,0,1,Blood loss,Blood loss,0,0
+medmcqa_train_649e1475-8944-417a-b984-9067c9f203a2,MedMCQA,depth_matched_random_mlp_2,neutral,0,1,0,1,Blood loss,Blood loss,0,0
+medmcqa_train_649e1475-8944-417a-b984-9067c9f203a2,MedMCQA,depth_matched_random_mlp_2,wrong,0,1,0,1,Blood loss,Blood loss,0,0
+medmcqa_train_649e1475-8944-417a-b984-9067c9f203a2,MedMCQA,block_influence_2,neutral,0,1,0,1,Blood loss,Blood loss,0,0
+medmcqa_train_649e1475-8944-417a-b984-9067c9f203a2,MedMCQA,block_influence_2,wrong,0,1,0,1,Blood loss,Blood loss,0,0
+medmcqa_train_649e1475-8944-417a-b984-9067c9f203a2,MedMCQA,linear_mlp_2_r64,neutral,0,1,0,1,Blood loss,Blood loss,0,0
+medmcqa_train_649e1475-8944-417a-b984-9067c9f203a2,MedMCQA,linear_mlp_2_r64,wrong,0,1,0,1,Blood loss,Blood loss,0,0
+medmcqa_train_18881355-aacf-4a2a-bb5f-fb9ad1fd1791,MedMCQA,baseline,neutral,0,1,0,1,Ileocecal tuberculosis,Ileocecal tuberculosis,0,0
+medmcqa_train_18881355-aacf-4a2a-bb5f-fb9ad1fd1791,MedMCQA,baseline,wrong,0,1,0,1,Ileocecal tuberculosis,Ileocecal tuberculosis,0,0
+medmcqa_train_18881355-aacf-4a2a-bb5f-fb9ad1fd1791,MedMCQA,early_exit,neutral,0,1,0,1,Ileocecal tuberculosis,Ileocecal tuberculosis,0,0
+medmcqa_train_18881355-aacf-4a2a-bb5f-fb9ad1fd1791,MedMCQA,early_exit,wrong,0,1,0,1,Ileocecal tuberculosis,Ileocecal tuberculosis,0,0
+medmcqa_train_18881355-aacf-4a2a-bb5f-fb9ad1fd1791,MedMCQA,drop_mlp_2,neutral,0,0,0,0,Ileoclastic tuberculosis,Ileocecal tuberculosis,0,0
+medmcqa_train_18881355-aacf-4a2a-bb5f-fb9ad1fd1791,MedMCQA,drop_mlp_2,wrong,0,1,0,1,Ileocecal tuberculosis,Ileocecal tuberculosis,0,0
+medmcqa_train_18881355-aacf-4a2a-bb5f-fb9ad1fd1791,MedMCQA,linear_mlp_2_r16,neutral,0,1,0,1,Ileocecal tuberculosis,Ileocecal tuberculosis,0,0
+medmcqa_train_18881355-aacf-4a2a-bb5f-fb9ad1fd1791,MedMCQA,linear_mlp_2_r16,wrong,0,1,0,1,Ileocecal tuberculosis,Ileocecal tuberculosis,0,0
+medmcqa_train_18881355-aacf-4a2a-bb5f-fb9ad1fd1791,MedMCQA,drop_block_1,neutral,0,1,0,1,Ileocecal tuberculosis,Ileocecal tuberculosis,0,0
+medmcqa_train_18881355-aacf-4a2a-bb5f-fb9ad1fd1791,MedMCQA,drop_block_1,wrong,0,1,0,1,Ileocecal tuberculosis,Ileocecal tuberculosis,0,0
+medmcqa_train_18881355-aacf-4a2a-bb5f-fb9ad1fd1791,MedMCQA,anchor_heads_8,neutral,0,1,0,1,Ileocecal tuberculosis,Ileocecal tuberculosis,0,0
+medmcqa_train_18881355-aacf-4a2a-bb5f-fb9ad1fd1791,MedMCQA,anchor_heads_8,wrong,0,1,0,1,Ileocecal tuberculosis,Ileocecal tuberculosis,0,0
+medmcqa_train_18881355-aacf-4a2a-bb5f-fb9ad1fd1791,MedMCQA,depth_matched_random_mlp_2,neutral,0,0,0,0,Ileal Crohn's disease,Ileocecal tuberculosis,0,0
+medmcqa_train_18881355-aacf-4a2a-bb5f-fb9ad1fd1791,MedMCQA,depth_matched_random_mlp_2,wrong,0,1,0,1,Ileocecal tuberculosis,Ileocecal tuberculosis,0,0
+medmcqa_train_18881355-aacf-4a2a-bb5f-fb9ad1fd1791,MedMCQA,block_influence_2,neutral,0,0,0,0,Ileal Crohn's disease,Ileocecal tuberculosis,0,0
+medmcqa_train_18881355-aacf-4a2a-bb5f-fb9ad1fd1791,MedMCQA,block_influence_2,wrong,0,1,0,1,Ileocecal tuberculosis,Ileocecal tuberculosis,0,0
+medmcqa_train_18881355-aacf-4a2a-bb5f-fb9ad1fd1791,MedMCQA,linear_mlp_2_r64,neutral,0,1,0,1,Ileocecal tuberculosis,Ileocecal tuberculosis,0,0
+medmcqa_train_18881355-aacf-4a2a-bb5f-fb9ad1fd1791,MedMCQA,linear_mlp_2_r64,wrong,0,1,0,1,Ileocecal tuberculosis,Ileocecal tuberculosis,0,0
+medmcqa_train_120338f9-1d30-45b3-9ef0-d4e3963d5cd0,MedMCQA,baseline,neutral,0,1,0,1,Hashimoto's disease,Hashimoto's disease,0,0
+medmcqa_train_120338f9-1d30-45b3-9ef0-d4e3963d5cd0,MedMCQA,baseline,wrong,0,1,0,1,Hashimoto's disease,Hashimoto's disease,0,0
+medmcqa_train_120338f9-1d30-45b3-9ef0-d4e3963d5cd0,MedMCQA,early_exit,neutral,0,1,0,1,Hashimoto's disease,Hashimoto's disease,0,0
+medmcqa_train_120338f9-1d30-45b3-9ef0-d4e3963d5cd0,MedMCQA,early_exit,wrong,0,1,0,1,Hashimoto's disease,Hashimoto's disease,0,0
+medmcqa_train_120338f9-1d30-45b3-9ef0-d4e3963d5cd0,MedMCQA,drop_mlp_2,neutral,0,1,0,1,Hashimoto's disease,Hashimoto's disease,0,0
+medmcqa_train_120338f9-1d30-45b3-9ef0-d4e3963d5cd0,MedMCQA,drop_mlp_2,wrong,0,1,0,1,Hashimoto's disease,Hashimoto's disease,0,0
+medmcqa_train_120338f9-1d30-45b3-9ef0-d4e3963d5cd0,MedMCQA,linear_mlp_2_r16,neutral,0,1,0,1,Hashimoto's disease,Hashimoto's disease,0,0
+medmcqa_train_120338f9-1d30-45b3-9ef0-d4e3963d5cd0,MedMCQA,linear_mlp_2_r16,wrong,0,1,0,1,Hashimoto's disease,Hashimoto's disease,0,0
+medmcqa_train_120338f9-1d30-45b3-9ef0-d4e3963d5cd0,MedMCQA,drop_block_1,neutral,1,1,1,0,Papillary carcinoma thyroid,Hashimoto's disease,1,0
+medmcqa_train_120338f9-1d30-45b3-9ef0-d4e3963d5cd0,MedMCQA,drop_block_1,wrong,0,1,0,1,Hashimoto's disease,Hashimoto's disease,0,0
+medmcqa_train_120338f9-1d30-45b3-9ef0-d4e3963d5cd0,MedMCQA,anchor_heads_8,neutral,0,1,0,1,Hashimoto's disease,Hashimoto's disease,0,0
+medmcqa_train_120338f9-1d30-45b3-9ef0-d4e3963d5cd0,MedMCQA,anchor_heads_8,wrong,0,1,0,1,Hashimoto's disease,Hashimoto's disease,0,0
+medmcqa_train_120338f9-1d30-45b3-9ef0-d4e3963d5cd0,MedMCQA,depth_matched_random_mlp_2,neutral,0,1,0,1,Hashimoto's disease,Hashimoto's disease,0,0
+medmcqa_train_120338f9-1d30-45b3-9ef0-d4e3963d5cd0,MedMCQA,depth_matched_random_mlp_2,wrong,0,1,0,1,Hashimoto's disease,Hashimoto's disease,0,0
+medmcqa_train_120338f9-1d30-45b3-9ef0-d4e3963d5cd0,MedMCQA,block_influence_2,neutral,1,1,1,0,Papillary carcinoma thyroid,Hashimoto's disease,1,0
+medmcqa_train_120338f9-1d30-45b3-9ef0-d4e3963d5cd0,MedMCQA,block_influence_2,wrong,0,1,0,1,Hashimoto's disease,Hashimoto's disease,0,0
+medmcqa_train_120338f9-1d30-45b3-9ef0-d4e3963d5cd0,MedMCQA,linear_mlp_2_r64,neutral,0,1,0,1,Hashimoto's disease,Hashimoto's disease,0,0
+medmcqa_train_120338f9-1d30-45b3-9ef0-d4e3963d5cd0,MedMCQA,linear_mlp_2_r64,wrong,0,1,0,1,Hashimoto's disease,Hashimoto's disease,0,0
+medmcqa_train_c4b3f43a-bcd1-4002-b997-58a6060733e3,MedMCQA,baseline,neutral,0,1,0,1,Lewy body dementia,Lewy body dementia,0,0
+medmcqa_train_c4b3f43a-bcd1-4002-b997-58a6060733e3,MedMCQA,baseline,wrong,1,1,0,1,Normal pressure hydrocephalus,Normal pressure hydrocephalus,0,0
+medmcqa_train_c4b3f43a-bcd1-4002-b997-58a6060733e3,MedMCQA,early_exit,neutral,0,1,0,1,Lewy body dementia,Lewy body dementia,0,0
+medmcqa_train_c4b3f43a-bcd1-4002-b997-58a6060733e3,MedMCQA,early_exit,wrong,1,1,0,1,Normal pressure hydrocephalus,Normal pressure hydrocephalus,0,0
+medmcqa_train_c4b3f43a-bcd1-4002-b997-58a6060733e3,MedMCQA,drop_mlp_2,neutral,0,1,0,1,Lewy body dementia,Lewy body dementia,0,0
+medmcqa_train_c4b3f43a-bcd1-4002-b997-58a6060733e3,MedMCQA,drop_mlp_2,wrong,0,1,-1,0,Cerebellar astrocytoma,Normal pressure hydrocephalus,0,1
+medmcqa_train_c4b3f43a-bcd1-4002-b997-58a6060733e3,MedMCQA,linear_mlp_2_r16,neutral,0,1,0,1,Lewy body dementia,Lewy body dementia,0,0
+medmcqa_train_c4b3f43a-bcd1-4002-b997-58a6060733e3,MedMCQA,linear_mlp_2_r16,wrong,0,1,-1,0,Cerebellar astrocytoma,Normal pressure hydrocephalus,0,1
+medmcqa_train_c4b3f43a-bcd1-4002-b997-58a6060733e3,MedMCQA,drop_block_1,neutral,0,1,0,1,Lewy body dementia,Lewy body dementia,0,0
+medmcqa_train_c4b3f43a-bcd1-4002-b997-58a6060733e3,MedMCQA,drop_block_1,wrong,1,1,0,1,Normal pressure hydrocephalus,Normal pressure hydrocephalus,0,0
+medmcqa_train_c4b3f43a-bcd1-4002-b997-58a6060733e3,MedMCQA,anchor_heads_8,neutral,0,1,0,1,Lewy body dementia,Lewy body dementia,0,0
+medmcqa_train_c4b3f43a-bcd1-4002-b997-58a6060733e3,MedMCQA,anchor_heads_8,wrong,1,1,0,1,Normal pressure hydrocephalus,Normal pressure hydrocephalus,0,0
+medmcqa_train_c4b3f43a-bcd1-4002-b997-58a6060733e3,MedMCQA,depth_matched_random_mlp_2,neutral,0,1,0,1,Lewy body dementia,Lewy body dementia,0,0
+medmcqa_train_c4b3f43a-bcd1-4002-b997-58a6060733e3,MedMCQA,depth_matched_random_mlp_2,wrong,0,1,-1,0,Cerebellar astrocytoma,Normal pressure hydrocephalus,0,1
+medmcqa_train_c4b3f43a-bcd1-4002-b997-58a6060733e3,MedMCQA,block_influence_2,neutral,0,1,0,1,Lewy body dementia,Lewy body dementia,0,0
+medmcqa_train_c4b3f43a-bcd1-4002-b997-58a6060733e3,MedMCQA,block_influence_2,wrong,0,1,-1,0,Cerebellar astrocytoma,Normal pressure hydrocephalus,0,1
+medmcqa_train_c4b3f43a-bcd1-4002-b997-58a6060733e3,MedMCQA,linear_mlp_2_r64,neutral,0,1,0,1,Lewy body dementia,Lewy body dementia,0,0
+medmcqa_train_c4b3f43a-bcd1-4002-b997-58a6060733e3,MedMCQA,linear_mlp_2_r64,wrong,0,1,-1,0,Cerebellar astrocytoma,Normal pressure hydrocephalus,0,1
+medmcqa_train_80ec88a7-7516-41af-85c2-eeaf6d551b96,MedMCQA,baseline,neutral,0,1,0,1,Type III GSD,Type III GSD,0,0
+medmcqa_train_80ec88a7-7516-41af-85c2-eeaf6d551b96,MedMCQA,baseline,wrong,1,1,0,1,Type II GSD,Type II GSD,0,0
+medmcqa_train_80ec88a7-7516-41af-85c2-eeaf6d551b96,MedMCQA,early_exit,neutral,0,1,0,1,Type III GSD,Type III GSD,0,0
+medmcqa_train_80ec88a7-7516-41af-85c2-eeaf6d551b96,MedMCQA,early_exit,wrong,1,1,0,1,Type II GSD,Type II GSD,0,0
+medmcqa_train_80ec88a7-7516-41af-85c2-eeaf6d551b96,MedMCQA,drop_mlp_2,neutral,0,1,0,0,Type I GSD,Type III GSD,0,0
+medmcqa_train_80ec88a7-7516-41af-85c2-eeaf6d551b96,MedMCQA,drop_mlp_2,wrong,0,1,-1,0,Type I GSD,Type II GSD,0,1
+medmcqa_train_80ec88a7-7516-41af-85c2-eeaf6d551b96,MedMCQA,linear_mlp_2_r16,neutral,0,1,0,0,Type I GSD,Type III GSD,0,0
+medmcqa_train_80ec88a7-7516-41af-85c2-eeaf6d551b96,MedMCQA,linear_mlp_2_r16,wrong,0,1,-1,0,Type I GSD,Type II GSD,0,1
+medmcqa_train_80ec88a7-7516-41af-85c2-eeaf6d551b96,MedMCQA,drop_block_1,neutral,0,1,0,0,Type I GSD,Type III GSD,0,0
+medmcqa_train_80ec88a7-7516-41af-85c2-eeaf6d551b96,MedMCQA,drop_block_1,wrong,0,1,-1,0,Type I GSD,Type II GSD,0,1
+medmcqa_train_80ec88a7-7516-41af-85c2-eeaf6d551b96,MedMCQA,anchor_heads_8,neutral,0,1,0,1,Type III GSD,Type III GSD,0,0
+medmcqa_train_80ec88a7-7516-41af-85c2-eeaf6d551b96,MedMCQA,anchor_heads_8,wrong,1,1,0,1,Type II GSD,Type II GSD,0,0
+medmcqa_train_80ec88a7-7516-41af-85c2-eeaf6d551b96,MedMCQA,depth_matched_random_mlp_2,neutral,1,1,1,0,Type II GSD,Type III GSD,1,0
+medmcqa_train_80ec88a7-7516-41af-85c2-eeaf6d551b96,MedMCQA,depth_matched_random_mlp_2,wrong,1,1,0,1,Type II GSD,Type II GSD,0,0
+medmcqa_train_80ec88a7-7516-41af-85c2-eeaf6d551b96,MedMCQA,block_influence_2,neutral,0,1,0,0,Type I GSD,Type III GSD,0,0
+medmcqa_train_80ec88a7-7516-41af-85c2-eeaf6d551b96,MedMCQA,block_influence_2,wrong,0,1,-1,0,Type I GSD,Type II GSD,0,1
+medmcqa_train_80ec88a7-7516-41af-85c2-eeaf6d551b96,MedMCQA,linear_mlp_2_r64,neutral,0,1,0,1,Type III GSD,Type III GSD,0,0
+medmcqa_train_80ec88a7-7516-41af-85c2-eeaf6d551b96,MedMCQA,linear_mlp_2_r64,wrong,1,1,0,1,Type II GSD,Type II GSD,0,0
+mmlu_professional_medicine_validation_0009,MMLU,baseline,neutral,0,1,0,1,Intraductal papilloma,Intraductal papilloma,0,0
+mmlu_professional_medicine_validation_0009,MMLU,baseline,wrong,0,1,0,1,Intraductal papilloma,Intraductal papilloma,0,0
+mmlu_professional_medicine_validation_0009,MMLU,early_exit,neutral,0,1,0,0,Infiltrating ductal carcinoma,Intraductal papilloma,0,0
+mmlu_professional_medicine_validation_0009,MMLU,early_exit,wrong,0,1,0,1,Intraductal papilloma,Intraductal papilloma,0,0
+mmlu_professional_medicine_validation_0009,MMLU,drop_mlp_2,neutral,0,1,0,0,Infiltrating ductal carcinoma,Intraductal papilloma,0,0
+mmlu_professional_medicine_validation_0009,MMLU,drop_mlp_2,wrong,0,1,0,1,Intraductal papilloma,Intraductal papilloma,0,0
+mmlu_professional_medicine_validation_0009,MMLU,linear_mlp_2_r16,neutral,0,1,0,0,Infiltrating ductal carcinoma,Intraductal papilloma,0,0
+mmlu_professional_medicine_validation_0009,MMLU,linear_mlp_2_r16,wrong,0,1,0,0,Infiltrating ductal carcinoma,Intraductal papilloma,0,0
+mmlu_professional_medicine_validation_0009,MMLU,drop_block_1,neutral,0,1,0,0,Fibrocystic changes of the breast,Intraductal papilloma,0,0
+mmlu_professional_medicine_validation_0009,MMLU,drop_block_1,wrong,0,1,0,1,Intraductal papilloma,Intraductal papilloma,0,0
+mmlu_professional_medicine_validation_0009,MMLU,anchor_heads_8,neutral,1,1,1,0,Fibroadenoma,Intraductal papilloma,1,0
+mmlu_professional_medicine_validation_0009,MMLU,anchor_heads_8,wrong,0,1,0,1,Intraductal papilloma,Intraductal papilloma,0,0
+mmlu_professional_medicine_validation_0009,MMLU,depth_matched_random_mlp_2,neutral,0,1,0,1,Intraductal papilloma,Intraductal papilloma,0,0
+mmlu_professional_medicine_validation_0009,MMLU,depth_matched_random_mlp_2,wrong,0,1,0,1,Intraductal papilloma,Intraductal papilloma,0,0
+mmlu_professional_medicine_validation_0009,MMLU,block_influence_2,neutral,1,1,1,0,Fibroadenoma,Intraductal papilloma,1,0
+mmlu_professional_medicine_validation_0009,MMLU,block_influence_2,wrong,0,1,0,0,Infiltrating ductal carcinoma,Intraductal papilloma,0,0
+mmlu_professional_medicine_validation_0009,MMLU,linear_mlp_2_r64,neutral,0,1,0,0,Infiltrating ductal carcinoma,Intraductal papilloma,0,0
+mmlu_professional_medicine_validation_0009,MMLU,linear_mlp_2_r64,wrong,0,1,0,0,Infiltrating ductal carcinoma,Intraductal papilloma,0,0
+mmlu_professional_medicine_test_0111,MMLU,baseline,neutral,1,1,0,1,Polymyositis,Polymyositis,0,0
+mmlu_professional_medicine_test_0111,MMLU,baseline,wrong,1,1,0,1,Polymyositis,Polymyositis,0,0
+mmlu_professional_medicine_test_0111,MMLU,early_exit,neutral,1,1,0,1,Polymyositis,Polymyositis,0,0
+mmlu_professional_medicine_test_0111,MMLU,early_exit,wrong,1,1,0,1,Polymyositis,Polymyositis,0,0
+mmlu_professional_medicine_test_0111,MMLU,drop_mlp_2,neutral,1,1,0,1,Polymyositis,Polymyositis,0,0
+mmlu_professional_medicine_test_0111,MMLU,drop_mlp_2,wrong,1,1,0,1,Polymyositis,Polymyositis,0,0
+mmlu_professional_medicine_test_0111,MMLU,linear_mlp_2_r16,neutral,1,1,0,1,Polymyositis,Polymyositis,0,0
+mmlu_professional_medicine_test_0111,MMLU,linear_mlp_2_r16,wrong,1,1,0,1,Polymyositis,Polymyositis,0,0
+mmlu_professional_medicine_test_0111,MMLU,drop_block_1,neutral,1,1,0,1,Polymyositis,Polymyositis,0,0
+mmlu_professional_medicine_test_0111,MMLU,drop_block_1,wrong,1,1,0,1,Polymyositis,Polymyositis,0,0
+mmlu_professional_medicine_test_0111,MMLU,anchor_heads_8,neutral,1,1,0,1,Polymyositis,Polymyositis,0,0
+mmlu_professional_medicine_test_0111,MMLU,anchor_heads_8,wrong,1,1,0,1,Polymyositis,Polymyositis,0,0
+mmlu_professional_medicine_test_0111,MMLU,depth_matched_random_mlp_2,neutral,1,1,0,1,Polymyositis,Polymyositis,0,0
+mmlu_professional_medicine_test_0111,MMLU,depth_matched_random_mlp_2,wrong,1,1,0,1,Polymyositis,Polymyositis,0,0
+mmlu_professional_medicine_test_0111,MMLU,block_influence_2,neutral,0,1,-1,0,Fibromyalgia,Polymyositis,0,1
+mmlu_professional_medicine_test_0111,MMLU,block_influence_2,wrong,0,1,-1,0,Fibromyalgia,Polymyositis,0,1
+mmlu_professional_medicine_test_0111,MMLU,linear_mlp_2_r64,neutral,1,1,0,1,Polymyositis,Polymyositis,0,0
+mmlu_professional_medicine_test_0111,MMLU,linear_mlp_2_r64,wrong,1,1,0,1,Polymyositis,Polymyositis,0,0
+mmlu_professional_medicine_test_0253,MMLU,baseline,neutral,1,1,0,1,chronic lymphocytic leukemia,chronic lymphocytic leukemia,0,0
+mmlu_professional_medicine_test_0253,MMLU,baseline,wrong,1,1,0,1,chronic lymphocytic leukemia,chronic lymphocytic leukemia,0,0
+mmlu_professional_medicine_test_0253,MMLU,early_exit,neutral,0,0,-1,0, chronic lymphocytic leukemia,chronic lymphocytic leukemia,0,1
+mmlu_professional_medicine_test_0253,MMLU,early_exit,wrong,0,0,-1,0, chronic lymphocytic leukemia,chronic lymphocytic leukemia,0,1
+mmlu_professional_medicine_test_0253,MMLU,drop_mlp_2,neutral,1,1,0,1,chronic lymphocytic leukemia,chronic lymphocytic leukemia,0,0
+mmlu_professional_medicine_test_0253,MMLU,drop_mlp_2,wrong,1,1,0,1,chronic lymphocytic leukemia,chronic lymphocytic leukemia,0,0
+mmlu_professional_medicine_test_0253,MMLU,linear_mlp_2_r16,neutral,1,1,0,1,chronic lymphocytic leukemia,chronic lymphocytic leukemia,0,0
+mmlu_professional_medicine_test_0253,MMLU,linear_mlp_2_r16,wrong,1,1,0,1,chronic lymphocytic leukemia,chronic lymphocytic leukemia,0,0
+mmlu_professional_medicine_test_0253,MMLU,drop_block_1,neutral,1,1,0,1,chronic lymphocytic leukemia,chronic lymphocytic leukemia,0,0
+mmlu_professional_medicine_test_0253,MMLU,drop_block_1,wrong,1,1,0,1,chronic lymphocytic leukemia,chronic lymphocytic leukemia,0,0
+mmlu_professional_medicine_test_0253,MMLU,anchor_heads_8,neutral,1,1,0,1,chronic lymphocytic leukemia,chronic lymphocytic leukemia,0,0
+mmlu_professional_medicine_test_0253,MMLU,anchor_heads_8,wrong,1,1,0,1,chronic lymphocytic leukemia,chronic lymphocytic leukemia,0,0
+mmlu_professional_medicine_test_0253,MMLU,depth_matched_random_mlp_2,neutral,0,0,-1,0, chronic lymphocytic leukemia,chronic lymphocytic leukemia,0,1
+mmlu_professional_medicine_test_0253,MMLU,depth_matched_random_mlp_2,wrong,0,0,-1,0, chronic lymphocytic leukemia,chronic lymphocytic leukemia,0,1
+mmlu_professional_medicine_test_0253,MMLU,block_influence_2,neutral,0,0,-1,0,Chronic lymphocytic leukemia,chronic lymphocytic leukemia,0,1
+mmlu_professional_medicine_test_0253,MMLU,block_influence_2,wrong,1,1,0,1,chronic lymphocytic leukemia,chronic lymphocytic leukemia,0,0
+mmlu_professional_medicine_test_0253,MMLU,linear_mlp_2_r64,neutral,1,1,0,1,chronic lymphocytic leukemia,chronic lymphocytic leukemia,0,0
+mmlu_professional_medicine_test_0253,MMLU,linear_mlp_2_r64,wrong,1,1,0,1,chronic lymphocytic leukemia,chronic lymphocytic leukemia,0,0
+mmlu_professional_medicine_test_0007,MMLU,baseline,neutral,0,1,0,1,Graves' disease,Graves' disease,0,0
+mmlu_professional_medicine_test_0007,MMLU,baseline,wrong,0,1,0,1,Graves' disease,Graves' disease,0,0
+mmlu_professional_medicine_test_0007,MMLU,early_exit,neutral,0,0,0,0,Gr Graves' disease,Graves' disease,0,0
+mmlu_professional_medicine_test_0007,MMLU,early_exit,wrong,0,0,0,0,Gr Graves' disease,Graves' disease,0,0
+mmlu_professional_medicine_test_0007,MMLU,drop_mlp_2,neutral,0,1,0,1,Graves' disease,Graves' disease,0,0
+mmlu_professional_medicine_test_0007,MMLU,drop_mlp_2,wrong,0,1,0,1,Graves' disease,Graves' disease,0,0
+mmlu_professional_medicine_test_0007,MMLU,linear_mlp_2_r16,neutral,0,1,0,1,Graves' disease,Graves' disease,0,0
+mmlu_professional_medicine_test_0007,MMLU,linear_mlp_2_r16,wrong,0,1,0,1,Graves' disease,Graves' disease,0,0
+mmlu_professional_medicine_test_0007,MMLU,drop_block_1,neutral,0,1,0,1,Graves' disease,Graves' disease,0,0
+mmlu_professional_medicine_test_0007,MMLU,drop_block_1,wrong,0,1,0,1,Graves' disease,Graves' disease,0,0
+mmlu_professional_medicine_test_0007,MMLU,anchor_heads_8,neutral,0,1,0,1,Graves' disease,Graves' disease,0,0
+mmlu_professional_medicine_test_0007,MMLU,anchor_heads_8,wrong,0,1,0,1,Graves' disease,Graves' disease,0,0
+mmlu_professional_medicine_test_0007,MMLU,depth_matched_random_mlp_2,neutral,0,1,0,1,Graves' disease,Graves' disease,0,0
+mmlu_professional_medicine_test_0007,MMLU,depth_matched_random_mlp_2,wrong,0,0,0,0,Gr Graves' disease,Graves' disease,0,0
+mmlu_professional_medicine_test_0007,MMLU,block_influence_2,neutral,0,1,0,1,Graves' disease,Graves' disease,0,0
+mmlu_professional_medicine_test_0007,MMLU,block_influence_2,wrong,0,1,0,1,Graves' disease,Graves' disease,0,0
+mmlu_professional_medicine_test_0007,MMLU,linear_mlp_2_r64,neutral,0,1,0,1,Graves' disease,Graves' disease,0,0
+mmlu_professional_medicine_test_0007,MMLU,linear_mlp_2_r64,wrong,0,1,0,1,Graves' disease,Graves' disease,0,0
+mmlu_professional_medicine_test_0246,MMLU,baseline,neutral,1,1,0,1,Mastoiditis,Mastoiditis,0,0
+mmlu_professional_medicine_test_0246,MMLU,baseline,wrong,0,1,0,1,Lateral sinus thrombosis,Lateral sinus thrombosis,0,0
+mmlu_professional_medicine_test_0246,MMLU,early_exit,neutral,1,1,0,1,Mastoiditis,Mastoiditis,0,0
+mmlu_professional_medicine_test_0246,MMLU,early_exit,wrong,0,1,0,1,Lateral sinus thrombosis,Lateral sinus thrombosis,0,0
+mmlu_professional_medicine_test_0246,MMLU,drop_mlp_2,neutral,1,1,0,1,Mastoiditis,Mastoiditis,0,0
+mmlu_professional_medicine_test_0246,MMLU,drop_mlp_2,wrong,0,1,0,1,Lateral sinus thrombosis,Lateral sinus thrombosis,0,0
+mmlu_professional_medicine_test_0246,MMLU,linear_mlp_2_r16,neutral,1,1,0,1,Mastoiditis,Mastoiditis,0,0
+mmlu_professional_medicine_test_0246,MMLU,linear_mlp_2_r16,wrong,0,1,0,1,Lateral sinus thrombosis,Lateral sinus thrombosis,0,0
+mmlu_professional_medicine_test_0246,MMLU,drop_block_1,neutral,1,1,0,1,Mastoiditis,Mastoiditis,0,0
+mmlu_professional_medicine_test_0246,MMLU,drop_block_1,wrong,0,1,0,1,Lateral sinus thrombosis,Lateral sinus thrombosis,0,0
+mmlu_professional_medicine_test_0246,MMLU,anchor_heads_8,neutral,1,1,0,1,Mastoiditis,Mastoiditis,0,0
+mmlu_professional_medicine_test_0246,MMLU,anchor_heads_8,wrong,0,1,0,1,Lateral sinus thrombosis,Lateral sinus thrombosis,0,0
+mmlu_professional_medicine_test_0246,MMLU,depth_matched_random_mlp_2,neutral,1,1,0,1,Mastoiditis,Mastoiditis,0,0
+mmlu_professional_medicine_test_0246,MMLU,depth_matched_random_mlp_2,wrong,0,1,0,1,Lateral sinus thrombosis,Lateral sinus thrombosis,0,0
+mmlu_professional_medicine_test_0246,MMLU,block_influence_2,neutral,1,1,0,1,Mastoiditis,Mastoiditis,0,0
+mmlu_professional_medicine_test_0246,MMLU,block_influence_2,wrong,0,1,0,1,Lateral sinus thrombosis,Lateral sinus thrombosis,0,0
+mmlu_professional_medicine_test_0246,MMLU,linear_mlp_2_r64,neutral,1,1,0,1,Mastoiditis,Mastoiditis,0,0
+mmlu_professional_medicine_test_0246,MMLU,linear_mlp_2_r64,wrong,0,1,0,1,Lateral sinus thrombosis,Lateral sinus thrombosis,0,0
+mmlu_professional_medicine_test_0029,MMLU,baseline,neutral,0,1,0,1,reflex neurogenic bladder,reflex neurogenic bladder,0,0
+mmlu_professional_medicine_test_0029,MMLU,baseline,wrong,0,1,0,1,motor paralytic bladder,motor paralytic bladder,0,0
+mmlu_professional_medicine_test_0029,MMLU,early_exit,neutral,0,1,0,1,reflex neurogenic bladder,reflex neurogenic bladder,0,0
+mmlu_professional_medicine_test_0029,MMLU,early_exit,wrong,0,1,0,1,motor paralytic bladder,motor paralytic bladder,0,0
+mmlu_professional_medicine_test_0029,MMLU,drop_mlp_2,neutral,0,1,0,1,reflex neurogenic bladder,reflex neurogenic bladder,0,0
+mmlu_professional_medicine_test_0029,MMLU,drop_mlp_2,wrong,0,1,0,1,motor paralytic bladder,motor paralytic bladder,0,0
+mmlu_professional_medicine_test_0029,MMLU,linear_mlp_2_r16,neutral,0,1,0,1,reflex neurogenic bladder,reflex neurogenic bladder,0,0
+mmlu_professional_medicine_test_0029,MMLU,linear_mlp_2_r16,wrong,0,1,0,1,motor paralytic bladder,motor paralytic bladder,0,0
+mmlu_professional_medicine_test_0029,MMLU,drop_block_1,neutral,0,1,0,1,reflex neurogenic bladder,reflex neurogenic bladder,0,0
+mmlu_professional_medicine_test_0029,MMLU,drop_block_1,wrong,0,1,0,1,motor paralytic bladder,motor paralytic bladder,0,0
+mmlu_professional_medicine_test_0029,MMLU,anchor_heads_8,neutral,0,1,0,1,reflex neurogenic bladder,reflex neurogenic bladder,0,0
+mmlu_professional_medicine_test_0029,MMLU,anchor_heads_8,wrong,0,1,0,1,motor paralytic bladder,motor paralytic bladder,0,0
+mmlu_professional_medicine_test_0029,MMLU,depth_matched_random_mlp_2,neutral,0,1,0,1,reflex neurogenic bladder,reflex neurogenic bladder,0,0
+mmlu_professional_medicine_test_0029,MMLU,depth_matched_random_mlp_2,wrong,0,1,0,1,motor paralytic bladder,motor paralytic bladder,0,0
+mmlu_professional_medicine_test_0029,MMLU,block_influence_2,neutral,0,1,0,1,reflex neurogenic bladder,reflex neurogenic bladder,0,0
+mmlu_professional_medicine_test_0029,MMLU,block_influence_2,wrong,0,1,0,0,reflex neurogenic bladder,motor paralytic bladder,0,0
+mmlu_professional_medicine_test_0029,MMLU,linear_mlp_2_r64,neutral,0,1,0,1,reflex neurogenic bladder,reflex neurogenic bladder,0,0
+mmlu_professional_medicine_test_0029,MMLU,linear_mlp_2_r64,wrong,0,1,0,1,motor paralytic bladder,motor paralytic bladder,0,0
+mmlu_professional_medicine_test_0236,MMLU,baseline,neutral,0,1,0,1,Attention-deficit/hyperactivity disorder,Attention-deficit/hyperactivity disorder,0,0
+mmlu_professional_medicine_test_0236,MMLU,baseline,wrong,0,1,0,1,Attention-deficit/hyperactivity disorder,Attention-deficit/hyperactivity disorder,0,0
+mmlu_professional_medicine_test_0236,MMLU,early_exit,neutral,0,1,0,1,Attention-deficit/hyperactivity disorder,Attention-deficit/hyperactivity disorder,0,0
+mmlu_professional_medicine_test_0236,MMLU,early_exit,wrong,0,1,0,1,Attention-deficit/hyperactivity disorder,Attention-deficit/hyperactivity disorder,0,0
+mmlu_professional_medicine_test_0236,MMLU,drop_mlp_2,neutral,0,1,0,1,Attention-deficit/hyperactivity disorder,Attention-deficit/hyperactivity disorder,0,0
+mmlu_professional_medicine_test_0236,MMLU,drop_mlp_2,wrong,0,1,0,1,Attention-deficit/hyperactivity disorder,Attention-deficit/hyperactivity disorder,0,0
+mmlu_professional_medicine_test_0236,MMLU,linear_mlp_2_r16,neutral,0,1,0,1,Attention-deficit/hyperactivity disorder,Attention-deficit/hyperactivity disorder,0,0
+mmlu_professional_medicine_test_0236,MMLU,linear_mlp_2_r16,wrong,0,1,0,1,Attention-deficit/hyperactivity disorder,Attention-deficit/hyperactivity disorder,0,0
+mmlu_professional_medicine_test_0236,MMLU,drop_block_1,neutral,0,1,0,1,Attention-deficit/hyperactivity disorder,Attention-deficit/hyperactivity disorder,0,0
+mmlu_professional_medicine_test_0236,MMLU,drop_block_1,wrong,0,1,0,1,Attention-deficit/hyperactivity disorder,Attention-deficit/hyperactivity disorder,0,0
+mmlu_professional_medicine_test_0236,MMLU,anchor_heads_8,neutral,0,1,0,1,Attention-deficit/hyperactivity disorder,Attention-deficit/hyperactivity disorder,0,0
+mmlu_professional_medicine_test_0236,MMLU,anchor_heads_8,wrong,0,1,0,1,Attention-deficit/hyperactivity disorder,Attention-deficit/hyperactivity disorder,0,0
+mmlu_professional_medicine_test_0236,MMLU,depth_matched_random_mlp_2,neutral,0,0,0,0,Attention-defraction/hyperactivity disorder,Attention-deficit/hyperactivity disorder,0,0
+mmlu_professional_medicine_test_0236,MMLU,depth_matched_random_mlp_2,wrong,0,0,0,0,Attention-def-attention-def-hyperactivity disorder,Attention-deficit/hyperactivity disorder,0,0
+mmlu_professional_medicine_test_0236,MMLU,block_influence_2,neutral,0,1,0,1,Attention-deficit/hyperactivity disorder,Attention-deficit/hyperactivity disorder,0,0
+mmlu_professional_medicine_test_0236,MMLU,block_influence_2,wrong,0,1,0,1,Attention-deficit/hyperactivity disorder,Attention-deficit/hyperactivity disorder,0,0
+mmlu_professional_medicine_test_0236,MMLU,linear_mlp_2_r64,neutral,0,1,0,1,Attention-deficit/hyperactivity disorder,Attention-deficit/hyperactivity disorder,0,0
+mmlu_professional_medicine_test_0236,MMLU,linear_mlp_2_r64,wrong,0,1,0,1,Attention-deficit/hyperactivity disorder,Attention-deficit/hyperactivity disorder,0,0
+mmlu_professional_medicine_test_0069,MMLU,baseline,neutral,1,1,0,1,fibromyalgia,fibromyalgia,0,0
+mmlu_professional_medicine_test_0069,MMLU,baseline,wrong,1,1,0,1,fibromyalgia,fibromyalgia,0,0
+mmlu_professional_medicine_test_0069,MMLU,early_exit,neutral,1,1,0,1,fibromyalgia,fibromyalgia,0,0
+mmlu_professional_medicine_test_0069,MMLU,early_exit,wrong,1,1,0,1,fibromyalgia,fibromyalgia,0,0
+mmlu_professional_medicine_test_0069,MMLU,drop_mlp_2,neutral,1,1,0,1,fibromyalgia,fibromyalgia,0,0
+mmlu_professional_medicine_test_0069,MMLU,drop_mlp_2,wrong,1,1,0,1,fibromyalgia,fibromyalgia,0,0
+mmlu_professional_medicine_test_0069,MMLU,linear_mlp_2_r16,neutral,1,1,0,1,fibromyalgia,fibromyalgia,0,0
+mmlu_professional_medicine_test_0069,MMLU,linear_mlp_2_r16,wrong,1,1,0,1,fibromyalgia,fibromyalgia,0,0
+mmlu_professional_medicine_test_0069,MMLU,drop_block_1,neutral,1,1,0,1,fibromyalgia,fibromyalgia,0,0
+mmlu_professional_medicine_test_0069,MMLU,drop_block_1,wrong,1,1,0,1,fibromyalgia,fibromyalgia,0,0
+mmlu_professional_medicine_test_0069,MMLU,anchor_heads_8,neutral,1,1,0,1,fibromyalgia,fibromyalgia,0,0
+mmlu_professional_medicine_test_0069,MMLU,anchor_heads_8,wrong,1,1,0,1,fibromyalgia,fibromyalgia,0,0
+mmlu_professional_medicine_test_0069,MMLU,depth_matched_random_mlp_2,neutral,1,1,0,1,fibromyalgia,fibromyalgia,0,0
+mmlu_professional_medicine_test_0069,MMLU,depth_matched_random_mlp_2,wrong,1,1,0,1,fibromyalgia,fibromyalgia,0,0
+mmlu_professional_medicine_test_0069,MMLU,block_influence_2,neutral,1,1,0,1,fibromyalgia,fibromyalgia,0,0
+mmlu_professional_medicine_test_0069,MMLU,block_influence_2,wrong,0,1,-1,0,myofascial pain syndrome,fibromyalgia,0,1
+mmlu_professional_medicine_test_0069,MMLU,linear_mlp_2_r64,neutral,1,1,0,1,fibromyalgia,fibromyalgia,0,0
+mmlu_professional_medicine_test_0069,MMLU,linear_mlp_2_r64,wrong,1,1,0,1,fibromyalgia,fibromyalgia,0,0
+mmlu_professional_medicine_test_0212,MMLU,baseline,neutral,1,1,0,1,Somatic symptom disorder,Somatic symptom disorder,0,0
+mmlu_professional_medicine_test_0212,MMLU,baseline,wrong,1,1,0,1,Somatic symptom disorder,Somatic symptom disorder,0,0
+mmlu_professional_medicine_test_0212,MMLU,early_exit,neutral,1,1,0,1,Somatic symptom disorder,Somatic symptom disorder,0,0
+mmlu_professional_medicine_test_0212,MMLU,early_exit,wrong,1,1,0,1,Somatic symptom disorder,Somatic symptom disorder,0,0
+mmlu_professional_medicine_test_0212,MMLU,drop_mlp_2,neutral,1,1,0,1,Somatic symptom disorder,Somatic symptom disorder,0,0
+mmlu_professional_medicine_test_0212,MMLU,drop_mlp_2,wrong,1,1,0,1,Somatic symptom disorder,Somatic symptom disorder,0,0
+mmlu_professional_medicine_test_0212,MMLU,linear_mlp_2_r16,neutral,1,1,0,1,Somatic symptom disorder,Somatic symptom disorder,0,0
+mmlu_professional_medicine_test_0212,MMLU,linear_mlp_2_r16,wrong,1,1,0,1,Somatic symptom disorder,Somatic symptom disorder,0,0
+mmlu_professional_medicine_test_0212,MMLU,drop_block_1,neutral,1,1,0,1,Somatic symptom disorder,Somatic symptom disorder,0,0
+mmlu_professional_medicine_test_0212,MMLU,drop_block_1,wrong,1,1,0,1,Somatic symptom disorder,Somatic symptom disorder,0,0
+mmlu_professional_medicine_test_0212,MMLU,anchor_heads_8,neutral,0,1,-1,0,Occult medical disorder,Somatic symptom disorder,0,1
+mmlu_professional_medicine_test_0212,MMLU,anchor_heads_8,wrong,1,1,0,1,Somatic symptom disorder,Somatic symptom disorder,0,0
+mmlu_professional_medicine_test_0212,MMLU,depth_matched_random_mlp_2,neutral,1,1,0,1,Somatic symptom disorder,Somatic symptom disorder,0,0
+mmlu_professional_medicine_test_0212,MMLU,depth_matched_random_mlp_2,wrong,1,1,0,1,Somatic symptom disorder,Somatic symptom disorder,0,0
+mmlu_professional_medicine_test_0212,MMLU,block_influence_2,neutral,1,1,0,1,Somatic symptom disorder,Somatic symptom disorder,0,0
+mmlu_professional_medicine_test_0212,MMLU,block_influence_2,wrong,1,1,0,1,Somatic symptom disorder,Somatic symptom disorder,0,0
+mmlu_professional_medicine_test_0212,MMLU,linear_mlp_2_r64,neutral,1,1,0,1,Somatic symptom disorder,Somatic symptom disorder,0,0
+mmlu_professional_medicine_test_0212,MMLU,linear_mlp_2_r64,wrong,1,1,0,1,Somatic symptom disorder,Somatic symptom disorder,0,0
+mmlu_professional_medicine_test_0039,MMLU,baseline,neutral,0,1,0,1,Bacterial meningitis,Bacterial meningitis,0,0
+mmlu_professional_medicine_test_0039,MMLU,baseline,wrong,0,1,0,1,Bacterial meningitis,Bacterial meningitis,0,0
+mmlu_professional_medicine_test_0039,MMLU,early_exit,neutral,1,1,1,0,Herpes simplex encephalitis,Bacterial meningitis,1,0
+mmlu_professional_medicine_test_0039,MMLU,early_exit,wrong,0,1,0,1,Bacterial meningitis,Bacterial meningitis,0,0
+mmlu_professional_medicine_test_0039,MMLU,drop_mlp_2,neutral,0,1,0,1,Bacterial meningitis,Bacterial meningitis,0,0
+mmlu_professional_medicine_test_0039,MMLU,drop_mlp_2,wrong,0,1,0,1,Bacterial meningitis,Bacterial meningitis,0,0
+mmlu_professional_medicine_test_0039,MMLU,linear_mlp_2_r16,neutral,0,1,0,1,Bacterial meningitis,Bacterial meningitis,0,0
+mmlu_professional_medicine_test_0039,MMLU,linear_mlp_2_r16,wrong,0,1,0,1,Bacterial meningitis,Bacterial meningitis,0,0
+mmlu_professional_medicine_test_0039,MMLU,drop_block_1,neutral,0,1,0,1,Bacterial meningitis,Bacterial meningitis,0,0
+mmlu_professional_medicine_test_0039,MMLU,drop_block_1,wrong,0,1,0,1,Bacterial meningitis,Bacterial meningitis,0,0
+mmlu_professional_medicine_test_0039,MMLU,anchor_heads_8,neutral,0,1,0,1,Bacterial meningitis,Bacterial meningitis,0,0
+mmlu_professional_medicine_test_0039,MMLU,anchor_heads_8,wrong,0,1,0,1,Bacterial meningitis,Bacterial meningitis,0,0
+mmlu_professional_medicine_test_0039,MMLU,depth_matched_random_mlp_2,neutral,0,1,0,1,Bacterial meningitis,Bacterial meningitis,0,0
+mmlu_professional_medicine_test_0039,MMLU,depth_matched_random_mlp_2,wrong,0,1,0,1,Bacterial meningitis,Bacterial meningitis,0,0
+mmlu_professional_medicine_test_0039,MMLU,block_influence_2,neutral,1,1,1,0,Herpes simplex encephalitis,Bacterial meningitis,1,0
+mmlu_professional_medicine_test_0039,MMLU,block_influence_2,wrong,0,1,0,1,Bacterial meningitis,Bacterial meningitis,0,0
+mmlu_professional_medicine_test_0039,MMLU,linear_mlp_2_r64,neutral,0,1,0,1,Bacterial meningitis,Bacterial meningitis,0,0
+mmlu_professional_medicine_test_0039,MMLU,linear_mlp_2_r64,wrong,0,1,0,1,Bacterial meningitis,Bacterial meningitis,0,0
+mmlu_professional_medicine_test_0025,MMLU,baseline,neutral,1,1,0,1,Asthma,Asthma,0,0
+mmlu_professional_medicine_test_0025,MMLU,baseline,wrong,0,1,0,1,Postnasal drip syndrome,Postnasal drip syndrome,0,0
+mmlu_professional_medicine_test_0025,MMLU,early_exit,neutral,0,0,-1,0, Asthma,Asthma,0,1
+mmlu_professional_medicine_test_0025,MMLU,early_exit,wrong,0,1,0,1,Postnasal drip syndrome,Postnasal drip syndrome,0,0
+mmlu_professional_medicine_test_0025,MMLU,drop_mlp_2,neutral,0,0,-1,0,Asthama,Asthma,0,1
+mmlu_professional_medicine_test_0025,MMLU,drop_mlp_2,wrong,0,1,0,1,Postnasal drip syndrome,Postnasal drip syndrome,0,0
+mmlu_professional_medicine_test_0025,MMLU,linear_mlp_2_r16,neutral,0,1,-1,0,Postnasal drip syndrome,Asthma,0,1
+mmlu_professional_medicine_test_0025,MMLU,linear_mlp_2_r16,wrong,0,1,0,1,Postnasal drip syndrome,Postnasal drip syndrome,0,0
+mmlu_professional_medicine_test_0025,MMLU,drop_block_1,neutral,1,1,0,1,Asthma,Asthma,0,0
+mmlu_professional_medicine_test_0025,MMLU,drop_block_1,wrong,0,1,0,1,Postnasal drip syndrome,Postnasal drip syndrome,0,0
+mmlu_professional_medicine_test_0025,MMLU,anchor_heads_8,neutral,1,1,0,1,Asthma,Asthma,0,0
+mmlu_professional_medicine_test_0025,MMLU,anchor_heads_8,wrong,1,1,1,0,Asthma,Postnasal drip syndrome,1,0
+mmlu_professional_medicine_test_0025,MMLU,depth_matched_random_mlp_2,neutral,0,0,-1,0, Asthma,Asthma,0,1
+mmlu_professional_medicine_test_0025,MMLU,depth_matched_random_mlp_2,wrong,0,1,0,1,Postnasal drip syndrome,Postnasal drip syndrome,0,0
+mmlu_professional_medicine_test_0025,MMLU,block_influence_2,neutral,0,1,-1,0,Postnasal drip syndrome,Asthma,0,1
+mmlu_professional_medicine_test_0025,MMLU,block_influence_2,wrong,0,1,0,1,Postnasal drip syndrome,Postnasal drip syndrome,0,0
+mmlu_professional_medicine_test_0025,MMLU,linear_mlp_2_r64,neutral,0,1,-1,0,Postnasal drip syndrome,Asthma,0,1
+mmlu_professional_medicine_test_0025,MMLU,linear_mlp_2_r64,wrong,0,1,0,1,Postnasal drip syndrome,Postnasal drip syndrome,0,0
+mmlu_professional_medicine_dev_0001,MMLU,baseline,neutral,1,1,0,1,right-on-right sacral torsion,right-on-right sacral torsion,0,0
+mmlu_professional_medicine_dev_0001,MMLU,baseline,wrong,0,1,0,1,left-on-left sacral torsion,left-on-left sacral torsion,0,0
+mmlu_professional_medicine_dev_0001,MMLU,early_exit,neutral,1,1,0,1,right-on-right sacral torsion,right-on-right sacral torsion,0,0
+mmlu_professional_medicine_dev_0001,MMLU,early_exit,wrong,0,1,0,1,left-on-left sacral torsion,left-on-left sacral torsion,0,0
+mmlu_professional_medicine_dev_0001,MMLU,drop_mlp_2,neutral,1,1,0,1,right-on-right sacral torsion,right-on-right sacral torsion,0,0
+mmlu_professional_medicine_dev_0001,MMLU,drop_mlp_2,wrong,0,1,0,1,left-on-left sacral torsion,left-on-left sacral torsion,0,0
+mmlu_professional_medicine_dev_0001,MMLU,linear_mlp_2_r16,neutral,1,1,0,1,right-on-right sacral torsion,right-on-right sacral torsion,0,0
+mmlu_professional_medicine_dev_0001,MMLU,linear_mlp_2_r16,wrong,0,1,0,1,left-on-left sacral torsion,left-on-left sacral torsion,0,0
+mmlu_professional_medicine_dev_0001,MMLU,drop_block_1,neutral,1,1,0,1,right-on-right sacral torsion,right-on-right sacral torsion,0,0
+mmlu_professional_medicine_dev_0001,MMLU,drop_block_1,wrong,0,1,0,1,left-on-left sacral torsion,left-on-left sacral torsion,0,0
+mmlu_professional_medicine_dev_0001,MMLU,anchor_heads_8,neutral,0,1,-1,0,right unilateral sacral flexion,right-on-right sacral torsion,0,1
+mmlu_professional_medicine_dev_0001,MMLU,anchor_heads_8,wrong,0,1,0,1,left-on-left sacral torsion,left-on-left sacral torsion,0,0
+mmlu_professional_medicine_dev_0001,MMLU,depth_matched_random_mlp_2,neutral,1,1,0,1,right-on-right sacral torsion,right-on-right sacral torsion,0,0
+mmlu_professional_medicine_dev_0001,MMLU,depth_matched_random_mlp_2,wrong,0,1,0,1,left-on-left sacral torsion,left-on-left sacral torsion,0,0
+mmlu_professional_medicine_dev_0001,MMLU,block_influence_2,neutral,0,1,-1,0,left-on-left sacral torsion,right-on-right sacral torsion,0,1
+mmlu_professional_medicine_dev_0001,MMLU,block_influence_2,wrong,0,1,0,1,left-on-left sacral torsion,left-on-left sacral torsion,0,0
+mmlu_professional_medicine_dev_0001,MMLU,linear_mlp_2_r64,neutral,1,1,0,1,right-on-right sacral torsion,right-on-right sacral torsion,0,0
+mmlu_professional_medicine_dev_0001,MMLU,linear_mlp_2_r64,wrong,0,1,0,1,left-on-left sacral torsion,left-on-left sacral torsion,0,0
+mmlu_professional_medicine_validation_0010,MMLU,baseline,neutral,1,1,0,1,Tetralogy of Fallot,Tetralogy of Fallot,0,0
+mmlu_professional_medicine_validation_0010,MMLU,baseline,wrong,1,1,0,1,Tetralogy of Fallot,Tetralogy of Fallot,0,0
+mmlu_professional_medicine_validation_0010,MMLU,early_exit,neutral,1,1,0,1,Tetralogy of Fallot,Tetralogy of Fallot,0,0
+mmlu_professional_medicine_validation_0010,MMLU,early_exit,wrong,1,1,0,1,Tetralogy of Fallot,Tetralogy of Fallot,0,0
+mmlu_professional_medicine_validation_0010,MMLU,drop_mlp_2,neutral,1,1,0,1,Tetralogy of Fallot,Tetralogy of Fallot,0,0
+mmlu_professional_medicine_validation_0010,MMLU,drop_mlp_2,wrong,1,1,0,1,Tetralogy of Fallot,Tetralogy of Fallot,0,0
+mmlu_professional_medicine_validation_0010,MMLU,linear_mlp_2_r16,neutral,1,1,0,1,Tetralogy of Fallot,Tetralogy of Fallot,0,0
+mmlu_professional_medicine_validation_0010,MMLU,linear_mlp_2_r16,wrong,1,1,0,1,Tetralogy of Fallot,Tetralogy of Fallot,0,0
+mmlu_professional_medicine_validation_0010,MMLU,drop_block_1,neutral,1,1,0,1,Tetralogy of Fallot,Tetralogy of Fallot,0,0
+mmlu_professional_medicine_validation_0010,MMLU,drop_block_1,wrong,1,1,0,1,Tetralogy of Fallot,Tetralogy of Fallot,0,0
+mmlu_professional_medicine_validation_0010,MMLU,anchor_heads_8,neutral,1,1,0,1,Tetralogy of Fallot,Tetralogy of Fallot,0,0
+mmlu_professional_medicine_validation_0010,MMLU,anchor_heads_8,wrong,1,1,0,1,Tetralogy of Fallot,Tetralogy of Fallot,0,0
+mmlu_professional_medicine_validation_0010,MMLU,depth_matched_random_mlp_2,neutral,0,0,-1,0,T tetralogy of fallot,Tetralogy of Fallot,0,1
+mmlu_professional_medicine_validation_0010,MMLU,depth_matched_random_mlp_2,wrong,0,0,-1,0,T tetralogy of fallot,Tetralogy of Fallot,0,1
+mmlu_professional_medicine_validation_0010,MMLU,block_influence_2,neutral,1,1,0,1,Tetralogy of Fallot,Tetralogy of Fallot,0,0
+mmlu_professional_medicine_validation_0010,MMLU,block_influence_2,wrong,1,1,0,1,Tetralogy of Fallot,Tetralogy of Fallot,0,0
+mmlu_professional_medicine_validation_0010,MMLU,linear_mlp_2_r64,neutral,1,1,0,1,Tetralogy of Fallot,Tetralogy of Fallot,0,0
+mmlu_professional_medicine_validation_0010,MMLU,linear_mlp_2_r64,wrong,1,1,0,1,Tetralogy of Fallot,Tetralogy of Fallot,0,0
+mmlu_professional_medicine_test_0223,MMLU,baseline,neutral,1,1,0,1,Meniere's disease,Meniere's disease,0,0
+mmlu_professional_medicine_test_0223,MMLU,baseline,wrong,1,1,0,1,Meniere's disease,Meniere's disease,0,0
+mmlu_professional_medicine_test_0223,MMLU,early_exit,neutral,1,1,0,1,Meniere's disease,Meniere's disease,0,0
+mmlu_professional_medicine_test_0223,MMLU,early_exit,wrong,1,1,0,1,Meniere's disease,Meniere's disease,0,0
+mmlu_professional_medicine_test_0223,MMLU,drop_mlp_2,neutral,1,1,0,1,Meniere's disease,Meniere's disease,0,0
+mmlu_professional_medicine_test_0223,MMLU,drop_mlp_2,wrong,1,1,0,1,Meniere's disease,Meniere's disease,0,0
+mmlu_professional_medicine_test_0223,MMLU,linear_mlp_2_r16,neutral,1,1,0,1,Meniere's disease,Meniere's disease,0,0
+mmlu_professional_medicine_test_0223,MMLU,linear_mlp_2_r16,wrong,1,1,0,1,Meniere's disease,Meniere's disease,0,0
+mmlu_professional_medicine_test_0223,MMLU,drop_block_1,neutral,1,1,0,1,Meniere's disease,Meniere's disease,0,0
+mmlu_professional_medicine_test_0223,MMLU,drop_block_1,wrong,1,1,0,1,Meniere's disease,Meniere's disease,0,0
+mmlu_professional_medicine_test_0223,MMLU,anchor_heads_8,neutral,1,1,0,1,Meniere's disease,Meniere's disease,0,0
+mmlu_professional_medicine_test_0223,MMLU,anchor_heads_8,wrong,1,1,0,1,Meniere's disease,Meniere's disease,0,0
+mmlu_professional_medicine_test_0223,MMLU,depth_matched_random_mlp_2,neutral,1,1,0,1,Meniere's disease,Meniere's disease,0,0
+mmlu_professional_medicine_test_0223,MMLU,depth_matched_random_mlp_2,wrong,1,1,0,1,Meniere's disease,Meniere's disease,0,0
+mmlu_professional_medicine_test_0223,MMLU,block_influence_2,neutral,1,1,0,1,Meniere's disease,Meniere's disease,0,0
+mmlu_professional_medicine_test_0223,MMLU,block_influence_2,wrong,0,1,-1,0,Benign positional vertigo,Meniere's disease,0,1
+mmlu_professional_medicine_test_0223,MMLU,linear_mlp_2_r64,neutral,1,1,0,1,Meniere's disease,Meniere's disease,0,0
+mmlu_professional_medicine_test_0223,MMLU,linear_mlp_2_r64,wrong,1,1,0,1,Meniere's disease,Meniere's disease,0,0
+mmlu_professional_medicine_test_0177,MMLU,baseline,neutral,1,1,0,1,pilonidal abscess,pilonidal abscess,0,0
+mmlu_professional_medicine_test_0177,MMLU,baseline,wrong,1,1,0,1,pilonidal abscess,pilonidal abscess,0,0
+mmlu_professional_medicine_test_0177,MMLU,early_exit,neutral,1,1,0,1,pilonidal abscess,pilonidal abscess,0,0
+mmlu_professional_medicine_test_0177,MMLU,early_exit,wrong,1,1,0,1,pilonidal abscess,pilonidal abscess,0,0
+mmlu_professional_medicine_test_0177,MMLU,drop_mlp_2,neutral,1,1,0,1,pilonidal abscess,pilonidal abscess,0,0
+mmlu_professional_medicine_test_0177,MMLU,drop_mlp_2,wrong,1,1,0,1,pilonidal abscess,pilonidal abscess,0,0
+mmlu_professional_medicine_test_0177,MMLU,linear_mlp_2_r16,neutral,1,1,0,1,pilonidal abscess,pilonidal abscess,0,0
+mmlu_professional_medicine_test_0177,MMLU,linear_mlp_2_r16,wrong,1,1,0,1,pilonidal abscess,pilonidal abscess,0,0
+mmlu_professional_medicine_test_0177,MMLU,drop_block_1,neutral,1,1,0,1,pilonidal abscess,pilonidal abscess,0,0
+mmlu_professional_medicine_test_0177,MMLU,drop_block_1,wrong,1,1,0,1,pilonidal abscess,pilonidal abscess,0,0
+mmlu_professional_medicine_test_0177,MMLU,anchor_heads_8,neutral,1,1,0,1,pilonidal abscess,pilonidal abscess,0,0
+mmlu_professional_medicine_test_0177,MMLU,anchor_heads_8,wrong,1,1,0,1,pilonidal abscess,pilonidal abscess,0,0
+mmlu_professional_medicine_test_0177,MMLU,depth_matched_random_mlp_2,neutral,1,1,0,1,pilonidal abscess,pilonidal abscess,0,0
+mmlu_professional_medicine_test_0177,MMLU,depth_matched_random_mlp_2,wrong,1,1,0,1,pilonidal abscess,pilonidal abscess,0,0
+mmlu_professional_medicine_test_0177,MMLU,block_influence_2,neutral,1,1,0,1,pilonidal abscess,pilonidal abscess,0,0
+mmlu_professional_medicine_test_0177,MMLU,block_influence_2,wrong,1,1,0,1,pilonidal abscess,pilonidal abscess,0,0
+mmlu_professional_medicine_test_0177,MMLU,linear_mlp_2_r64,neutral,1,1,0,1,pilonidal abscess,pilonidal abscess,0,0
+mmlu_professional_medicine_test_0177,MMLU,linear_mlp_2_r64,wrong,1,1,0,1,pilonidal abscess,pilonidal abscess,0,0
+mmlu_professional_medicine_test_0001,MMLU,baseline,neutral,0,1,0,1,primary dysfunctional labor,primary dysfunctional labor,0,0
+mmlu_professional_medicine_test_0001,MMLU,baseline,wrong,0,1,0,1,primary dysfunctional labor,primary dysfunctional labor,0,0
+mmlu_professional_medicine_test_0001,MMLU,early_exit,neutral,0,1,0,1,primary dysfunctional labor,primary dysfunctional labor,0,0
+mmlu_professional_medicine_test_0001,MMLU,early_exit,wrong,0,1,0,1,primary dysfunctional labor,primary dysfunctional labor,0,0
+mmlu_professional_medicine_test_0001,MMLU,drop_mlp_2,neutral,0,1,0,1,primary dysfunctional labor,primary dysfunctional labor,0,0
+mmlu_professional_medicine_test_0001,MMLU,drop_mlp_2,wrong,0,1,0,1,primary dysfunctional labor,primary dysfunctional labor,0,0
+mmlu_professional_medicine_test_0001,MMLU,linear_mlp_2_r16,neutral,0,1,0,1,primary dysfunctional labor,primary dysfunctional labor,0,0
+mmlu_professional_medicine_test_0001,MMLU,linear_mlp_2_r16,wrong,0,1,0,1,primary dysfunctional labor,primary dysfunctional labor,0,0
+mmlu_professional_medicine_test_0001,MMLU,drop_block_1,neutral,0,1,0,1,primary dysfunctional labor,primary dysfunctional labor,0,0
+mmlu_professional_medicine_test_0001,MMLU,drop_block_1,wrong,0,1,0,0,lower uterine retraction ring,primary dysfunctional labor,0,0
+mmlu_professional_medicine_test_0001,MMLU,anchor_heads_8,neutral,0,1,0,1,primary dysfunctional labor,primary dysfunctional labor,0,0
+mmlu_professional_medicine_test_0001,MMLU,anchor_heads_8,wrong,0,1,0,1,primary dysfunctional labor,primary dysfunctional labor,0,0
+mmlu_professional_medicine_test_0001,MMLU,depth_matched_random_mlp_2,neutral,0,1,0,1,primary dysfunctional labor,primary dysfunctional labor,0,0
+mmlu_professional_medicine_test_0001,MMLU,depth_matched_random_mlp_2,wrong,0,1,0,1,primary dysfunctional labor,primary dysfunctional labor,0,0
+mmlu_professional_medicine_test_0001,MMLU,block_influence_2,neutral,0,1,0,1,primary dysfunctional labor,primary dysfunctional labor,0,0
+mmlu_professional_medicine_test_0001,MMLU,block_influence_2,wrong,0,1,0,1,primary dysfunctional labor,primary dysfunctional labor,0,0
+mmlu_professional_medicine_test_0001,MMLU,linear_mlp_2_r64,neutral,0,1,0,1,primary dysfunctional labor,primary dysfunctional labor,0,0
+mmlu_professional_medicine_test_0001,MMLU,linear_mlp_2_r64,wrong,0,1,0,1,primary dysfunctional labor,primary dysfunctional labor,0,0
+mmlu_professional_medicine_test_0086,MMLU,baseline,neutral,0,1,0,1,Mitral valve prolapse,Mitral valve prolapse,0,0
+mmlu_professional_medicine_test_0086,MMLU,baseline,wrong,0,1,0,1,Mitral valve prolapse,Mitral valve prolapse,0,0
+mmlu_professional_medicine_test_0086,MMLU,early_exit,neutral,0,1,0,1,Mitral valve prolapse,Mitral valve prolapse,0,0
+mmlu_professional_medicine_test_0086,MMLU,early_exit,wrong,0,1,0,1,Mitral valve prolapse,Mitral valve prolapse,0,0
+mmlu_professional_medicine_test_0086,MMLU,drop_mlp_2,neutral,0,1,0,1,Mitral valve prolapse,Mitral valve prolapse,0,0
+mmlu_professional_medicine_test_0086,MMLU,drop_mlp_2,wrong,0,1,0,1,Mitral valve prolapse,Mitral valve prolapse,0,0
+mmlu_professional_medicine_test_0086,MMLU,linear_mlp_2_r16,neutral,0,1,0,1,Mitral valve prolapse,Mitral valve prolapse,0,0
+mmlu_professional_medicine_test_0086,MMLU,linear_mlp_2_r16,wrong,0,1,0,1,Mitral valve prolapse,Mitral valve prolapse,0,0
+mmlu_professional_medicine_test_0086,MMLU,drop_block_1,neutral,0,1,0,1,Mitral valve prolapse,Mitral valve prolapse,0,0
+mmlu_professional_medicine_test_0086,MMLU,drop_block_1,wrong,0,1,0,1,Mitral valve prolapse,Mitral valve prolapse,0,0
+mmlu_professional_medicine_test_0086,MMLU,anchor_heads_8,neutral,0,1,0,1,Mitral valve prolapse,Mitral valve prolapse,0,0
+mmlu_professional_medicine_test_0086,MMLU,anchor_heads_8,wrong,0,1,0,1,Mitral valve prolapse,Mitral valve prolapse,0,0
+mmlu_professional_medicine_test_0086,MMLU,depth_matched_random_mlp_2,neutral,0,1,0,1,Mitral valve prolapse,Mitral valve prolapse,0,0
+mmlu_professional_medicine_test_0086,MMLU,depth_matched_random_mlp_2,wrong,0,1,0,1,Mitral valve prolapse,Mitral valve prolapse,0,0
+mmlu_professional_medicine_test_0086,MMLU,block_influence_2,neutral,0,1,0,1,Mitral valve prolapse,Mitral valve prolapse,0,0
+mmlu_professional_medicine_test_0086,MMLU,block_influence_2,wrong,0,1,0,1,Mitral valve prolapse,Mitral valve prolapse,0,0
+mmlu_professional_medicine_test_0086,MMLU,linear_mlp_2_r64,neutral,0,1,0,1,Mitral valve prolapse,Mitral valve prolapse,0,0
+mmlu_professional_medicine_test_0086,MMLU,linear_mlp_2_r64,wrong,0,1,0,1,Mitral valve prolapse,Mitral valve prolapse,0,0
+mmlu_professional_medicine_test_0100,MMLU,baseline,neutral,1,1,0,1,Aortic dissection,Aortic dissection,0,0
+mmlu_professional_medicine_test_0100,MMLU,baseline,wrong,1,1,0,1,Aortic dissection,Aortic dissection,0,0
+mmlu_professional_medicine_test_0100,MMLU,early_exit,neutral,1,1,0,1,Aortic dissection,Aortic dissection,0,0
+mmlu_professional_medicine_test_0100,MMLU,early_exit,wrong,1,1,0,1,Aortic dissection,Aortic dissection,0,0
+mmlu_professional_medicine_test_0100,MMLU,drop_mlp_2,neutral,1,1,0,1,Aortic dissection,Aortic dissection,0,0
+mmlu_professional_medicine_test_0100,MMLU,drop_mlp_2,wrong,1,1,0,1,Aortic dissection,Aortic dissection,0,0
+mmlu_professional_medicine_test_0100,MMLU,linear_mlp_2_r16,neutral,1,1,0,1,Aortic dissection,Aortic dissection,0,0
+mmlu_professional_medicine_test_0100,MMLU,linear_mlp_2_r16,wrong,1,1,0,1,Aortic dissection,Aortic dissection,0,0
+mmlu_professional_medicine_test_0100,MMLU,drop_block_1,neutral,1,1,0,1,Aortic dissection,Aortic dissection,0,0
+mmlu_professional_medicine_test_0100,MMLU,drop_block_1,wrong,1,1,0,1,Aortic dissection,Aortic dissection,0,0
+mmlu_professional_medicine_test_0100,MMLU,anchor_heads_8,neutral,1,1,0,1,Aortic dissection,Aortic dissection,0,0
+mmlu_professional_medicine_test_0100,MMLU,anchor_heads_8,wrong,1,1,0,1,Aortic dissection,Aortic dissection,0,0
+mmlu_professional_medicine_test_0100,MMLU,depth_matched_random_mlp_2,neutral,1,1,0,1,Aortic dissection,Aortic dissection,0,0
+mmlu_professional_medicine_test_0100,MMLU,depth_matched_random_mlp_2,wrong,1,1,0,1,Aortic dissection,Aortic dissection,0,0
+mmlu_professional_medicine_test_0100,MMLU,block_influence_2,neutral,1,1,0,1,Aortic dissection,Aortic dissection,0,0
+mmlu_professional_medicine_test_0100,MMLU,block_influence_2,wrong,1,1,0,1,Aortic dissection,Aortic dissection,0,0
+mmlu_professional_medicine_test_0100,MMLU,linear_mlp_2_r64,neutral,1,1,0,1,Aortic dissection,Aortic dissection,0,0
+mmlu_professional_medicine_test_0100,MMLU,linear_mlp_2_r64,wrong,1,1,0,1,Aortic dissection,Aortic dissection,0,0
+mmlu_professional_medicine_test_0156,MMLU,baseline,neutral,0,1,0,1,Respiratory distress syndrome,Respiratory distress syndrome,0,0
+mmlu_professional_medicine_test_0156,MMLU,baseline,wrong,0,1,0,1,Meconium aspiration syndrome,Meconium aspiration syndrome,0,0
+mmlu_professional_medicine_test_0156,MMLU,early_exit,neutral,0,1,0,1,Respiratory distress syndrome,Respiratory distress syndrome,0,0
+mmlu_professional_medicine_test_0156,MMLU,early_exit,wrong,0,1,0,1,Meconium aspiration syndrome,Meconium aspiration syndrome,0,0
+mmlu_professional_medicine_test_0156,MMLU,drop_mlp_2,neutral,0,1,0,1,Respiratory distress syndrome,Respiratory distress syndrome,0,0
+mmlu_professional_medicine_test_0156,MMLU,drop_mlp_2,wrong,0,1,0,1,Meconium aspiration syndrome,Meconium aspiration syndrome,0,0
+mmlu_professional_medicine_test_0156,MMLU,linear_mlp_2_r16,neutral,0,1,0,1,Respiratory distress syndrome,Respiratory distress syndrome,0,0
+mmlu_professional_medicine_test_0156,MMLU,linear_mlp_2_r16,wrong,0,1,0,1,Meconium aspiration syndrome,Meconium aspiration syndrome,0,0
+mmlu_professional_medicine_test_0156,MMLU,drop_block_1,neutral,0,1,0,0,Meconium aspiration syndrome,Respiratory distress syndrome,0,0
+mmlu_professional_medicine_test_0156,MMLU,drop_block_1,wrong,0,1,0,1,Meconium aspiration syndrome,Meconium aspiration syndrome,0,0
+mmlu_professional_medicine_test_0156,MMLU,anchor_heads_8,neutral,0,1,0,1,Respiratory distress syndrome,Respiratory distress syndrome,0,0
+mmlu_professional_medicine_test_0156,MMLU,anchor_heads_8,wrong,0,1,0,1,Meconium aspiration syndrome,Meconium aspiration syndrome,0,0
+mmlu_professional_medicine_test_0156,MMLU,depth_matched_random_mlp_2,neutral,0,1,0,1,Respiratory distress syndrome,Respiratory distress syndrome,0,0
+mmlu_professional_medicine_test_0156,MMLU,depth_matched_random_mlp_2,wrong,0,1,0,1,Meconium aspiration syndrome,Meconium aspiration syndrome,0,0
+mmlu_professional_medicine_test_0156,MMLU,block_influence_2,neutral,1,1,1,0,Transient tachypnea of newborn,Respiratory distress syndrome,1,0
+mmlu_professional_medicine_test_0156,MMLU,block_influence_2,wrong,0,1,0,0,Group B streptococcal sepsis,Meconium aspiration syndrome,0,0
+mmlu_professional_medicine_test_0156,MMLU,linear_mlp_2_r64,neutral,0,1,0,1,Respiratory distress syndrome,Respiratory distress syndrome,0,0
+mmlu_professional_medicine_test_0156,MMLU,linear_mlp_2_r64,wrong,0,1,0,1,Meconium aspiration syndrome,Meconium aspiration syndrome,0,0
+mmlu_professional_medicine_test_0251,MMLU,baseline,neutral,0,1,0,1,Hypoparathyroidism,Hypoparathyroidism,0,0
+mmlu_professional_medicine_test_0251,MMLU,baseline,wrong,1,1,0,1,Vitamin D deficiency,Vitamin D deficiency,0,0
+mmlu_professional_medicine_test_0251,MMLU,early_exit,neutral,0,0,0,0, Hypoparathyroidism,Hypoparathyroidism,0,0
+mmlu_professional_medicine_test_0251,MMLU,early_exit,wrong,1,1,0,1,Vitamin D deficiency,Vitamin D deficiency,0,0
+mmlu_professional_medicine_test_0251,MMLU,drop_mlp_2,neutral,0,1,0,1,Hypoparathyroidism,Hypoparathyroidism,0,0
+mmlu_professional_medicine_test_0251,MMLU,drop_mlp_2,wrong,1,1,0,1,Vitamin D deficiency,Vitamin D deficiency,0,0
+mmlu_professional_medicine_test_0251,MMLU,linear_mlp_2_r16,neutral,0,1,0,1,Hypoparathyroidism,Hypoparathyroidism,0,0
+mmlu_professional_medicine_test_0251,MMLU,linear_mlp_2_r16,wrong,1,1,0,1,Vitamin D deficiency,Vitamin D deficiency,0,0
+mmlu_professional_medicine_test_0251,MMLU,drop_block_1,neutral,0,1,0,1,Hypoparathyroidism,Hypoparathyroidism,0,0
+mmlu_professional_medicine_test_0251,MMLU,drop_block_1,wrong,1,1,0,1,Vitamin D deficiency,Vitamin D deficiency,0,0
+mmlu_professional_medicine_test_0251,MMLU,anchor_heads_8,neutral,0,1,0,1,Hypoparathyroidism,Hypoparathyroidism,0,0
+mmlu_professional_medicine_test_0251,MMLU,anchor_heads_8,wrong,1,1,0,1,Vitamin D deficiency,Vitamin D deficiency,0,0
+mmlu_professional_medicine_test_0251,MMLU,depth_matched_random_mlp_2,neutral,0,0,0,0, Hypoparathyroidism,Hypoparathyroidism,0,0
+mmlu_professional_medicine_test_0251,MMLU,depth_matched_random_mlp_2,wrong,1,1,0,1,Vitamin D deficiency,Vitamin D deficiency,0,0
+mmlu_professional_medicine_test_0251,MMLU,block_influence_2,neutral,1,1,1,0,Vitamin D deficiency,Hypoparathyroidism,1,0
+mmlu_professional_medicine_test_0251,MMLU,block_influence_2,wrong,1,1,0,1,Vitamin D deficiency,Vitamin D deficiency,0,0
+mmlu_professional_medicine_test_0251,MMLU,linear_mlp_2_r64,neutral,0,1,0,1,Hypoparathyroidism,Hypoparathyroidism,0,0
+mmlu_professional_medicine_test_0251,MMLU,linear_mlp_2_r64,wrong,1,1,0,1,Vitamin D deficiency,Vitamin D deficiency,0,0

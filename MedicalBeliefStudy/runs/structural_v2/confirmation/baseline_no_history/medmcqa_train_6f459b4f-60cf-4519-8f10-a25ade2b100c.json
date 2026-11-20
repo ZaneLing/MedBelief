@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_6f459b4f-60cf-4519-8f10-a25ade2b100c",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Complete Androgen Insensitivity Syndrome\"}",
+      "generated_disease": "Complete Androgen Insensitivity Syndrome",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "1669f9bf58e99216814eb733d6e4cf3f24622c3d9858a655e4b9d84448cbb496"
+    }
+  ]
+}

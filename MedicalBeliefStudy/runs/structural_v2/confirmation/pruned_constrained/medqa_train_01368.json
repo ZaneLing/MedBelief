@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_01368",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Acute mesenteric ischemia\"}",
+      "generated_disease": "Acute mesenteric ischemia",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "ef6db024b4052923abd87e443104bdbc38ddd6a73378467521fbf8428857ed83"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Acute mesenteric ischemia\"}",
+      "generated_disease": "Acute mesenteric ischemia",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "0696ee9c388bbaa1025019c74cfef5adb25730b20474b5248f3e381afd85bd2b"
+    }
+  ]
+}

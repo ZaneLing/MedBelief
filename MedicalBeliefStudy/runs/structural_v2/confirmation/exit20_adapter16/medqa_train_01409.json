@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_01409",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxanemia\"}",
+      "generated_disease": "Pemphoxanemia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "459b6bec4a5c57a056baaa5af3e37e0e87d39198c147c7d1d894e33c3f0cba94"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxanemia\"}",
+      "generated_disease": "Pemphoxanemia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "56f52db9224cd40b30e969d6b7c139ab4aa7cbd479fbdd77480d8501d7f57040"
+    }
+  ]
+}

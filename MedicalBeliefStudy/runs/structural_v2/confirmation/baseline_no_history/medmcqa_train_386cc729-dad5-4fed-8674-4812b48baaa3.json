@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_386cc729-dad5-4fed-8674-4812b48baaa3",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Measles\"}",
+      "generated_disease": "Measles",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "832b457e6f420873d84f8ff1cbf88e7fc66b5faf77f6cad022d238d2de5c54d0"
+    }
+  ]
+}

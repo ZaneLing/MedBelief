@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_03411",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic ven lung disease\"}",
+      "generated_disease": "Chronic ven lung disease",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "d9ba6d42531472c4848bdedb337ba1a8d7d8f74fc85b014ea451077166981ab5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformynephritis\"}",
+      "generated_disease": "Chronic veniformynephritis",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "219406eef36b37cc00233bfc0604c94e38e60cf078d5d4f421076bf9b0a9ff41"
+    }
+  ]
+}

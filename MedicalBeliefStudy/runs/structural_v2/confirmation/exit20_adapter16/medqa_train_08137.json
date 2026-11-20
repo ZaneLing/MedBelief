@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_08137",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Tumorcellular carcinoma cancerous tumorcellular carcinoma nontrpycogenicalyvascular disorderalsententiaulphanturocovemphilenturacovemphelentecurephesentecemphesilbentecchilbemphilbemphilb",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "060231a84e030e7b8c293d926bab675bdd5cecd04ba743e8d65b8f030a3de11d"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformy subiective disorder\"}",
+      "generated_disease": "Chronic veniformy subiective disorder",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "adbd33c784990085b046a2ab48ad389a34456e389cc0c3f81c19d8cc8c3c9266"
+    }
+  ]
+}

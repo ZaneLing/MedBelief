@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_35861130-36e6-4218-afdd-80c38786df0c",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocitis\"}",
+      "generated_disease": "Cystocitis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "5cceebcf3fdbc8409d4c17ecb41fe8dc2740b8508d3c82c587a3d94c3fb203f6"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocitis\"}",
+      "generated_disease": "Cystocitis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "5730615a642e0fc4b115c2487d48b629b79bb45c26525dcb2671df78021468bd"
+    }
+  ]
+}

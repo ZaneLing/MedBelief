@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_09631",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "C. difficile colitis\"}",
+      "generated_disease": "C. difficile colitis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "0133a7bde0dd23763588ff0d10cefccc8ac9c278896e3b32a76afd410c544887"
+    }
+  ]
+}

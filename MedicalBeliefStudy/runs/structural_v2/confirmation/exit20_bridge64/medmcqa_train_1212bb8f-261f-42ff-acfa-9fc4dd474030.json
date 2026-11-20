@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_1212bb8f-261f-42ff-acfa-9fc4dd474030",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pystal\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "6ae3a3552310c37178ea21888b331e59a64729a297f8d4203e3e9a67846a1178"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pystal\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "01bac9665ffd6afe0c1d8f3b20de562fa81b08e984e8b4ddcb419e4b20bd9757"
+    }
+  ]
+}

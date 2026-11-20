@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_e2ac36b8-252f-45b4-870c-c2fec52daa71",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Drug-induced parkinsonism with undetermined etiology\"}",
+      "generated_disease": "Drug-induced parkinsonism with undetermined etiology",
+      "stop": "eos",
+      "tokens": 11,
+      "prompt_sha256": "39c96378f4251c7790076173265d36643a44d909ed4fa028636102f9d83e0bcd"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Drug-induced parkinsonism with unknown etiology\"}",
+      "generated_disease": "Drug-induced parkinsonism with unknown etiology",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "cdd2cf1e5722edb777c391a0b238e02454aa52702ed384fa1d6c82f38783c85d"
+    }
+  ]
+}

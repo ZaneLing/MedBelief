@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_01da52da-4def-4d88-9d75-694686a35f68",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic pressure pressurephiliasenetic disorder\"}\"}Note: This is an error errorwententechsententecualententecualserventecultservemnysenservemnemaosentecultservemememememememememememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "8a412725d5dffc08f86546086fa9bdeb31b36adec8d02147cd89fa4aa8ec85bd"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pnevascular disorder\"}\"}Note: The final output should be an valid validness of the original request. However, an appropriate response would be:\n\n```json\n{\n\"结论:Galiparobemotemphilenserventetensenservememememememememememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "64584492e215aec3f97e7897462f4220a5edf524fb78b321655b81c71d188e1e"
+    }
+  ]
+}

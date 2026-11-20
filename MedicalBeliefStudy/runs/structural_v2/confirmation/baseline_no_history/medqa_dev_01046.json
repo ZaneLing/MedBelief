@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_dev_01046",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Roseola\"}",
+      "generated_disease": "Roseola",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "02183a4e9e4d24eb6aab92e791e6ae169283a6af36a6b140790b049f2145d808"
+    }
+  ]
+}

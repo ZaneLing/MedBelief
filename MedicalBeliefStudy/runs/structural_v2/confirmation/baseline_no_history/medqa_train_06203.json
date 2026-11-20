@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_06203",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Endometrial carcinoma\"}",
+      "generated_disease": "Endometrial carcinoma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "d82897290059803787435bb8242a8d6f975bc3c57a9cd78697b0cca7e52a40f4"
+    }
+  ]
+}

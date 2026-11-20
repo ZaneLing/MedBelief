@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_02014",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Harcusnglymphserventiaultycussemnysolvententecureinateuracystosolmezepilaxenemphilenturacroticpycovosaricovemphilenservicovemphilenservutonemph",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "7e989142876078120b0dbe1f1cae45b0ccf082b1e96cc4fba79310497b03941a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Hyperitablemonary disorder\"}",
+      "generated_disease": "Hyperitablemonary disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "677160c79b19780ffee56442359aec81493eb0b74d3e0ec471718dc25ed9f08d"
+    }
+  ]
+}

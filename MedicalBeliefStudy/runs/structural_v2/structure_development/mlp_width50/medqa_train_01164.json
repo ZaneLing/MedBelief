@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_01164",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "mlp_width50",
+    "mlp_keep": 0.5
+  },
+  "parameter_stats": {
+    "parameters": 1192092672,
+    "weight_bytes": 2384185344,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Alcohol withdrawal\"}\n</think>\n\n{\"diagnosis\":\"Alcohol withdrawal\"}\n",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 14,
+      "prompt_sha256": "cf8e594d17a82a8b3bdd1100221c0e59b6e998cf11e1c23a0cf13f4ee9681877"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cocaine intoxication\"}\n</think>\n\n{\"diagnosis\":\"Cocaine intoxication\"}\n",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 18,
+      "prompt_sha256": "533c69e70eeb627795a373a1e010b2c412f6f9d6bd7ed8a3eef0a9fca4d4c46c"
+    }
+  ]
+}

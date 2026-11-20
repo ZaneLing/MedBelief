@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_2c3fbba1-f7e4-4117-9c44-6d414b139e86",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Non IHS-based IHS-based ICHservarneksosarovememememememememme\"} (Note: This is an error error error Please correct the following: actual correct answer is \"Non- Hodgolansosarum disease or other non-linear pathogen",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "5a98c8760a1dcea350bf4634d06da115d62e9413483722780552c4afc3fe9781"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Myopic stress out stress disorder\"}",
+      "generated_disease": "Myopic stress out stress disorder",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "cff651ad356ca4c48270066ac73443f72f84d91a14d2b954f60aca0e16f1fded"
+    }
+  ]
+}

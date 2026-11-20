@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_315d953f-6c51-46c2-9ebe-05fd220664b2",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Tervatka\"} (Note: This is an example placeholder. actual real-world data would be used instead. actual correct answer should be either \"Essavarone orphans orphans orphans orophesys oracumussememememememememememememememememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "bd1e1461f92bf182a288c35434adb60e3c0b910aae59c6d5cb29fee59679b2c5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pervicular disorder\"}",
+      "generated_disease": "Pervicular disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "2110de55ea1983b6a675add4a2e074b183c2ca670a32dbb47081963a1a3964b8"
+    }
+  ]
+}

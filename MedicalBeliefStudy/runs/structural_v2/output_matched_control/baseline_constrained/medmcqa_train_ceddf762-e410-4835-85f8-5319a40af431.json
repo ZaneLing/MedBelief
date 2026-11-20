@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_ceddf762-e410-4835-85f8-5319a40af431",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Ovarian hyperstimulation syndrome\"}",
+      "generated_disease": "Ovarian hyperstimulation syndrome",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "e2c25cb4dfb03a7d5b1813fdba77758e27f1a9f9f7d61036acd3c0dc8f986bec"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Ovarian hyperstimulation syndrome\"}",
+      "generated_disease": "Ovarian hyperstimulation syndrome",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "d1cf2b71855ea46a0ca532cba8d071f0e45c28d991afaa8363b261cb2a3de3ea"
+    }
+  ]
+}

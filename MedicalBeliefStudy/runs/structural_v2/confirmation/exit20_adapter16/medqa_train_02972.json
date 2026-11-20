@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_02972",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Primary tumor cell mass in an large-scale multiformic polyiform anegroup of semerventary subdivsentrephonic subdivsuliform subdivsentecular subdivsenservicular subdivsensaciformesparipostaricidal subdivsensid",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "505549ccba344ac20117648a1271a6d9a7173937d500bb3ac079a166c04bcb36"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Aortic disease\"}",
+      "generated_disease": "Aortic disease",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "0ea9f60f11ea3fb303a9ebd0c1840588b8ab33832a56b161a41ec272b03874ab"
+    }
+  ]
+}

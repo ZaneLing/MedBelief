@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_01597",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic venigotaxia\"}",
+      "generated_disease": "Chronic venigotaxia",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "5d09108777f322333e161ef413392f1a080f310039c68e89a1c05a47d7e9f22b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Tyin's syndrome orphans orphansocialystosolentechserventechservemplenservemplabservemphemphemphemphemphemphemphemphemphemphemphemtripsecmmservemmservemmservem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "51065c23635ba385e72ab36be48aa3265841c31a342ecb5b1d56e185fa477830"
+    }
+  ]
+}

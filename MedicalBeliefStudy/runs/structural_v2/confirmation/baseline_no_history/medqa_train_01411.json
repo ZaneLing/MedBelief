@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_01411",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Cerebral infarction\"}",
+      "generated_disease": "Cerebral infarction",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "424011961fbc79ce4ee0d2ea27a8aeca513650c644b7e8961500f9d0ae27b81d"
+    }
+  ]
+}

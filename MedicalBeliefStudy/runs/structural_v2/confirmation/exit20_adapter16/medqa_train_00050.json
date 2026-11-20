@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_00050",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Dry poem syndrome\"}",
+      "generated_disease": "Dry poem syndrome",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "b6d8829d7d40c73e996a1026ac9a29c83a52d5ba9c28ec5fc933e9d6d0c1f648"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxeniaotic disorder orphans orphans ingerentia orphans emnaticity orphans trumonicity or emphinalia or emphinaliacalism or emphinalenation or emphinalenationalism or emphinalenaryism or emph",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "6bc4e1595b7762e9f68f6ee70bbee46e20579144a5fd1e7300d885df6cb14a2f"
+    }
+  ]
+}

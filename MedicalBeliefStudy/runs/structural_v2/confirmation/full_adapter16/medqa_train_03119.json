@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_03119",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Body dysmorphic disorder\"}",
+      "generated_disease": "Body dysmorphic disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "84c4ec62c4947c36a917b1bfc9609877718ad3c09c194031897f8bf7ec154116"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Body dysmorphic disorder\"}",
+      "generated_disease": "Body dysmorphic disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "58fd18c71ff2f337a99d1eea9cd6d187bc2648c13c9dd526f21a565280ff627d"
+    }
+  ]
+}

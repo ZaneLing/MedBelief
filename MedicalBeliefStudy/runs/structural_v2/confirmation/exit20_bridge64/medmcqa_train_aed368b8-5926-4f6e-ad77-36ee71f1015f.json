@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_aed368b8-5926-4f6e-ad77-36ee71f1015f",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "B\"}",
+      "generated_disease": "B",
+      "stop": "eos",
+      "tokens": 2,
+      "prompt_sha256": "20edb9a4c82aabe64fbbf8c8a0d5d0b99f7fd4e500d955a99f5a1635f561f2ab"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Bulous\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "25a34fe14aade1d1941a05e854440866a71484ffe08bf36f958f69ae3ede7ae0"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_01986",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Incompetent valve\"}",
+      "generated_disease": "Incompetent valve",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "126641aa7ebcdca48e52efb6ee8111cecaf510539b3954ed07d9e5f9e2d43473"
+    }
+  ]
+}

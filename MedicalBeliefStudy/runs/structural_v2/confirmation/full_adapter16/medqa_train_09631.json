@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_09631",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "C. difficile colitis\"}",
+      "generated_disease": "C. difficile colitis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "5d536f0aded9312c5efb4a6a660fbcdfbe7074719cb5de5ffc57032be2a17fd6"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Bacillus cereus infection\"}",
+      "generated_disease": "Bacillus cereus infection",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "c67ee951f0c945b6dd7653507fdaf6af9342fbeed6556080969b6c9b955f8491"
+    }
+  ]
+}

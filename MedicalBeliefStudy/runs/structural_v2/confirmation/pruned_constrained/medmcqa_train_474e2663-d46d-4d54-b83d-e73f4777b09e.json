@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_474e2663-d46d-4d54-b83d-e73f4777b09e",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Invasive mole\"}",
+      "generated_disease": "Invasive mole",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "f803a1060e022741ad58b64f4cfb1931316700a0dbe9108eb97a92579c21faa3"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Invasive mole\"}",
+      "generated_disease": "Invasive mole",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "8b6fa520eff74b0d06480942085b66cceb54de77e7f48000e92488e60ded90cf"
+    }
+  ]
+}

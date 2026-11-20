@@ -1,0 +1,718 @@
+{
+  "status": "frozen_before_any_confirmation_inference",
+  "configurations": [
+    {
+      "name": "baseline"
+    },
+    {
+      "name": "late_mlp_width50",
+      "mlp_keep": 0.5,
+      "mlp_layers": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "name": "full_adapter16",
+      "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+      "adapter_kind": "bottleneck",
+      "adapter_rank": 16
+    },
+    {
+      "name": "pruned_adapter16",
+      "mlp_keep": 0.5,
+      "mlp_layers": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+      "adapter_kind": "bottleneck",
+      "adapter_rank": 16
+    },
+    {
+      "name": "exit20_adapter16",
+      "exit_layer": 20,
+      "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+      "adapter_kind": "bottleneck",
+      "adapter_rank": 16
+    },
+    {
+      "name": "exit20_bridge64",
+      "exit_layer": 20,
+      "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+    },
+    {
+      "name": "pruned_constrained",
+      "mlp_keep": 0.5,
+      "mlp_layers": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "constrained": true
+    }
+  ],
+  "primary_candidate": "pruned_constrained",
+  "compression_candidate": "pruned_constrained",
+  "development_cases": 80,
+  "confirmation_cases": 400,
+  "conditions": [
+    "neutral",
+    "wrong"
+  ],
+  "input_control": {
+    "name": "baseline_no_history",
+    "condition": "none"
+  },
+  "trajectory_cases": [
+    "medqa_train_02981",
+    "medqa_train_06772",
+    "medqa_train_01035",
+    "medqa_train_04812",
+    "medqa_train_09305",
+    "medqa_train_06162",
+    "medqa_train_03083",
+    "medqa_train_02377",
+    "medqa_train_06203",
+    "medqa_train_01997",
+    "medqa_train_06443",
+    "medqa_dev_00157",
+    "medmcqa_train_3c860ea8-ae63-4bad-9032-90a0c570bb2c",
+    "medmcqa_train_7efe9080-b0da-44c6-a327-ced795f29370",
+    "medmcqa_train_49fe11d4-b070-4ee9-ba0e-909dad1d38ff",
+    "medmcqa_train_d69f4de3-e358-4335-af72-b0d95fb9d515",
+    "medmcqa_train_202cb4ea-c9ef-4e19-868c-eaae7fca2262",
+    "medmcqa_train_25d7527c-19a0-44d3-ae1d-3c9bcd27531d",
+    "medmcqa_train_d6bb3a72-622f-47fa-a7d8-dd439dae5b27",
+    "medmcqa_train_8018614f-f4dc-4112-abce-c7630b165d24",
+    "medmcqa_train_7ac0b225-cb65-4bb4-97e4-7836112d67dc",
+    "medmcqa_train_ebf37a52-619f-4ff5-aaf3-943c615f5097",
+    "medmcqa_train_e0b1fcff-bcd8-45d8-83e7-8c06b0a6104d",
+    "medmcqa_train_97f3ffe1-7865-4843-ae90-530f74a04d9f"
+  ],
+  "trajectory_configurations": [
+    {
+      "name": "baseline"
+    },
+    {
+      "name": "pruned_adapter16",
+      "mlp_keep": 0.5,
+      "mlp_layers": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+      "adapter_kind": "bottleneck",
+      "adapter_rank": 16
+    },
+    {
+      "name": "pruned_constrained",
+      "mlp_keep": 0.5,
+      "mlp_layers": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "constrained": true
+    }
+  ],
+  "development_rows": [
+    {
+      "configuration": {
+        "name": "baseline"
+      },
+      "folder": "structure_development",
+      "accuracy": {
+        "neutral": 0.6875,
+        "wrong": 0.4875
+      },
+      "listed": {
+        "neutral": 0.9875,
+        "wrong": 0.9375
+      },
+      "mean_accuracy": 0.5875,
+      "parameter_stats": {
+        "parameters": 1720574976,
+        "weight_bytes": 3441149952,
+        "layers": 28
+      }
+    },
+    {
+      "configuration": {
+        "name": "exit24",
+        "exit_layer": 24
+      },
+      "folder": "structure_development",
+      "accuracy": {
+        "neutral": 0.1375,
+        "wrong": 0.0875
+      },
+      "listed": {
+        "neutral": 0.2125,
+        "wrong": 0.2
+      },
+      "mean_accuracy": 0.1125,
+      "parameter_stats": {
+        "parameters": 1519230976,
+        "weight_bytes": 3038461952,
+        "layers": 24
+      }
+    },
+    {
+      "configuration": {
+        "name": "exit20",
+        "exit_layer": 20
+      },
+      "folder": "structure_development",
+      "accuracy": {
+        "neutral": 0.0,
+        "wrong": 0.0
+      },
+      "listed": {
+        "neutral": 0.0,
+        "wrong": 0.0
+      },
+      "mean_accuracy": 0.0,
+      "parameter_stats": {
+        "parameters": 1317886976,
+        "weight_bytes": 2635773952,
+        "layers": 20
+      }
+    },
+    {
+      "configuration": {
+        "name": "drop_tail4_keep28",
+        "drop_blocks": [
+          24,
+          25,
+          26,
+          27
+        ]
+      },
+      "folder": "structure_development",
+      "accuracy": {
+        "neutral": 0.0,
+        "wrong": 0.0
+      },
+      "listed": {
+        "neutral": 0.0,
+        "wrong": 0.0
+      },
+      "mean_accuracy": 0.0,
+      "parameter_stats": {
+        "parameters": 1519230976,
+        "weight_bytes": 3038461952,
+        "layers": 24
+      }
+    },
+    {
+      "configuration": {
+        "name": "drop_mlp4",
+        "drop_mlps": [
+          24,
+          25,
+          26,
+          28
+        ]
+      },
+      "folder": "structure_development",
+      "accuracy": {
+        "neutral": 0.4375,
+        "wrong": 0.3
+      },
+      "listed": {
+        "neutral": 0.6125,
+        "wrong": 0.625
+      },
+      "mean_accuracy": 0.36875,
+      "parameter_stats": {
+        "parameters": 1569571840,
+        "weight_bytes": 3139143680,
+        "layers": 28
+      }
+    },
+    {
+      "configuration": {
+        "name": "mlp_width75",
+        "mlp_keep": 0.75
+      },
+      "folder": "structure_development",
+      "accuracy": {
+        "neutral": 0.4125,
+        "wrong": 0.225
+      },
+      "listed": {
+        "neutral": 0.9625,
+        "wrong": 0.9875
+      },
+      "mean_accuracy": 0.31875,
+      "parameter_stats": {
+        "parameters": 1456333824,
+        "weight_bytes": 2912667648,
+        "layers": 28
+      }
+    },
+    {
+      "configuration": {
+        "name": "mlp_width50",
+        "mlp_keep": 0.5
+      },
+      "folder": "structure_development",
+      "accuracy": {
+        "neutral": 0.1125,
+        "wrong": 0.025
+      },
+      "listed": {
+        "neutral": 0.35,
+        "wrong": 0.6625
+      },
+      "mean_accuracy": 0.06875,
+      "parameter_stats": {
+        "parameters": 1192092672,
+        "weight_bytes": 2384185344,
+        "layers": 28
+      }
+    },
+    {
+      "configuration": {
+        "name": "late_mlp_width50",
+        "mlp_keep": 0.5,
+        "mlp_layers": [
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ]
+      },
+      "folder": "structure_development",
+      "accuracy": {
+        "neutral": 0.675,
+        "wrong": 0.5375
+      },
+      "listed": {
+        "neutral": 0.975,
+        "wrong": 0.9875
+      },
+      "mean_accuracy": 0.60625,
+      "parameter_stats": {
+        "parameters": 1494082560,
+        "weight_bytes": 2988165120,
+        "layers": 28
+      }
+    },
+    {
+      "configuration": {
+        "name": "attention_groups75",
+        "attention_keep_groups": 6
+      },
+      "folder": "structure_development",
+      "accuracy": {
+        "neutral": 0.05,
+        "wrong": 0.0375
+      },
+      "listed": {
+        "neutral": 0.075,
+        "wrong": 0.1
+      },
+      "mean_accuracy": 0.04375,
+      "parameter_stats": {
+        "parameters": 1632494592,
+        "weight_bytes": 3264989184,
+        "layers": 28
+      }
+    },
+    {
+      "configuration": {
+        "name": "linear_old16",
+        "replace_mlps": [
+          25,
+          26
+        ],
+        "rank": 16
+      },
+      "folder": "structure_development",
+      "accuracy": {
+        "neutral": 0.6375,
+        "wrong": 0.45
+      },
+      "listed": {
+        "neutral": 0.9625,
+        "wrong": 0.925
+      },
+      "mean_accuracy": 0.54375,
+      "parameter_stats": {
+        "parameters": 1645216768,
+        "weight_bytes": 3290712064,
+        "layers": 28
+      }
+    },
+    {
+      "configuration": {
+        "name": "late_mlp_half",
+        "mlp_scale": 0.5,
+        "scale_layers": [
+          25,
+          26,
+          27,
+          28
+        ]
+      },
+      "folder": "structure_development",
+      "accuracy": {
+        "neutral": 0.7,
+        "wrong": 0.5125
+      },
+      "listed": {
+        "neutral": 0.9875,
+        "wrong": 1.0
+      },
+      "mean_accuracy": 0.60625,
+      "parameter_stats": {
+        "parameters": 1720574976,
+        "weight_bytes": 3441149952,
+        "layers": 28
+      }
+    },
+    {
+      "configuration": {
+        "name": "contrast21_half",
+        "contrast_layer": 21,
+        "contrast_strength": 0.5,
+        "plausibility": 0.1
+      },
+      "folder": "structure_development",
+      "accuracy": {
+        "neutral": 0.6625,
+        "wrong": 0.5125
+      },
+      "listed": {
+        "neutral": 0.975,
+        "wrong": 0.9625
+      },
+      "mean_accuracy": 0.5874999999999999,
+      "parameter_stats": {
+        "parameters": 1720574976,
+        "weight_bytes": 3441149952,
+        "layers": 28
+      }
+    },
+    {
+      "configuration": {
+        "name": "contrast21_full",
+        "contrast_layer": 21,
+        "contrast_strength": 1.0,
+        "plausibility": 0.1
+      },
+      "folder": "structure_development",
+      "accuracy": {
+        "neutral": 0.6625,
+        "wrong": 0.5125
+      },
+      "listed": {
+        "neutral": 0.975,
+        "wrong": 0.9625
+      },
+      "mean_accuracy": 0.5874999999999999,
+      "parameter_stats": {
+        "parameters": 1720574976,
+        "weight_bytes": 3441149952,
+        "layers": 28
+      }
+    },
+    {
+      "configuration": {
+        "name": "full_diagonal",
+        "adapter_file": "runs/structural_v2/adapters/full_diagonal/best.safetensors",
+        "adapter_kind": "diagonal",
+        "adapter_rank": 0
+      },
+      "folder": "adapter_development",
+      "accuracy": {
+        "neutral": 0.625,
+        "wrong": 0.4875
+      },
+      "listed": {
+        "neutral": 0.975,
+        "wrong": 0.9375
+      },
+      "mean_accuracy": 0.55625,
+      "parameter_stats": {
+        "parameters": 1720579072,
+        "weight_bytes": 3441166336,
+        "layers": 28
+      }
+    },
+    {
+      "configuration": {
+        "name": "full_adapter16",
+        "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+        "adapter_kind": "bottleneck",
+        "adapter_rank": 16
+      },
+      "folder": "adapter_development",
+      "accuracy": {
+        "neutral": 0.6375,
+        "wrong": 0.5125
+      },
+      "listed": {
+        "neutral": 0.975,
+        "wrong": 0.975
+      },
+      "mean_accuracy": 0.575,
+      "parameter_stats": {
+        "parameters": 1720642576,
+        "weight_bytes": 3441420352,
+        "layers": 28
+      }
+    },
+    {
+      "configuration": {
+        "name": "full_adapter64",
+        "adapter_file": "runs/structural_v2/adapters/full_adapter64/best.safetensors",
+        "adapter_kind": "bottleneck",
+        "adapter_rank": 64
+      },
+      "folder": "adapter_development",
+      "accuracy": {
+        "neutral": 0.6875,
+        "wrong": 0.4875
+      },
+      "listed": {
+        "neutral": 0.9875,
+        "wrong": 0.9375
+      },
+      "mean_accuracy": 0.5875,
+      "parameter_stats": {
+        "parameters": 1720839232,
+        "weight_bytes": 3442206976,
+        "layers": 28
+      }
+    },
+    {
+      "configuration": {
+        "name": "pruned_adapter16",
+        "mlp_keep": 0.5,
+        "mlp_layers": [
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+        "adapter_kind": "bottleneck",
+        "adapter_rank": 16
+      },
+      "folder": "adapter_development",
+      "accuracy": {
+        "neutral": 0.675,
+        "wrong": 0.5375
+      },
+      "listed": {
+        "neutral": 0.975,
+        "wrong": 0.9875
+      },
+      "mean_accuracy": 0.60625,
+      "parameter_stats": {
+        "parameters": 1494150160,
+        "weight_bytes": 2988435520,
+        "layers": 28
+      }
+    },
+    {
+      "configuration": {
+        "name": "exit20_adapter16",
+        "exit_layer": 20,
+        "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+        "adapter_kind": "bottleneck",
+        "adapter_rank": 16
+      },
+      "folder": "adapter_development",
+      "accuracy": {
+        "neutral": 0.0,
+        "wrong": 0.0
+      },
+      "listed": {
+        "neutral": 0.0,
+        "wrong": 0.0
+      },
+      "mean_accuracy": 0.0,
+      "parameter_stats": {
+        "parameters": 1317954576,
+        "weight_bytes": 2636044352,
+        "layers": 20
+      }
+    },
+    {
+      "configuration": {
+        "name": "exit20_bridge64",
+        "exit_layer": 20,
+        "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+      },
+      "folder": "adapter_development",
+      "accuracy": {
+        "neutral": 0.0,
+        "wrong": 0.0
+      },
+      "listed": {
+        "neutral": 0.0,
+        "wrong": 0.0
+      },
+      "mean_accuracy": 0.0,
+      "parameter_stats": {
+        "parameters": 1318153216,
+        "weight_bytes": 2636838912,
+        "layers": 20
+      }
+    },
+    {
+      "configuration": {
+        "name": "baseline_constrained",
+        "constrained": true
+      },
+      "folder": "adapter_development",
+      "accuracy": {
+        "neutral": 0.7,
+        "wrong": 0.5375
+      },
+      "listed": {
+        "neutral": 1.0,
+        "wrong": 1.0
+      },
+      "mean_accuracy": 0.6187499999999999,
+      "parameter_stats": {
+        "parameters": 1720574976,
+        "weight_bytes": 3441149952,
+        "layers": 28
+      }
+    },
+    {
+      "configuration": {
+        "name": "exit20_constrained",
+        "exit_layer": 20,
+        "constrained": true
+      },
+      "folder": "adapter_development",
+      "accuracy": {
+        "neutral": 0.275,
+        "wrong": 0.2375
+      },
+      "listed": {
+        "neutral": 1.0,
+        "wrong": 1.0
+      },
+      "mean_accuracy": 0.25625,
+      "parameter_stats": {
+        "parameters": 1317886976,
+        "weight_bytes": 2635773952,
+        "layers": 20
+      }
+    },
+    {
+      "configuration": {
+        "name": "pruned_constrained",
+        "mlp_keep": 0.5,
+        "mlp_layers": [
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "constrained": true
+      },
+      "folder": "adapter_development",
+      "accuracy": {
+        "neutral": 0.7,
+        "wrong": 0.55
+      },
+      "listed": {
+        "neutral": 1.0,
+        "wrong": 1.0
+      },
+      "mean_accuracy": 0.625,
+      "parameter_stats": {
+        "parameters": 1494082560,
+        "weight_bytes": 2988165120,
+        "layers": 28
+      }
+    }
+  ],
+  "cases_sha256": "247775eb7a2ee57a867cf033466e210e51ada3c3a83877c86e497fa7a7f19a32",
+  "core_sha256": "22bb02183f121ea673f1dc57fea99bc225b1d814a9f46be63318f898f5673b48",
+  "decoder_sha256": "365f92564a4f099b43ca688286b18bbed588ea0870b78cd8526944e74be0e6ec",
+  "ranking_sha256": "b43dcf23c33891c40cf1256cbaa1d8748ab08ec9745cdabdf22ce8093f4d8e3b",
+  "source_sha256": "20146e18b11fa8e1d932c5085029daed9f7a6e1c78fb689f3b521fc71726ed72",
+  "primary_analysis": "Per-case mean of neutral/wrong actual-name correctness; six paired comparisons to baseline, Holm adjustment. Three separate paired contrasts (full adapter vs baseline, pruned adapter vs pruned, pruned adapter vs full adapter) form a second Holm family. Per-history/source secondary estimates. Input-only correction and oracle recoverability reported separately.",
+  "api_cost_usd": 0
+}

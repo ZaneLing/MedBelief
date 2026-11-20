@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_05952",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Vulvar Paget's disease\"}",
+      "generated_disease": "Vulvar Paget's disease",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "e057d922366ca73ae6ebfe47aa4c8ed2f5b4e04bbde205559ec62084804c0357"
+    }
+  ]
+}

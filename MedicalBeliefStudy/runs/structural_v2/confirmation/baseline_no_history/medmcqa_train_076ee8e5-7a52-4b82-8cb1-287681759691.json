@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_076ee8e5-7a52-4b82-8cb1-287681759691",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Dependent PD\"}",
+      "generated_disease": "Dependent PD",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "fb9b19c8cf41e65d674e55c533502dba00969d869d5d3ad7b923f75b51b6f266"
+    }
+  ]
+}

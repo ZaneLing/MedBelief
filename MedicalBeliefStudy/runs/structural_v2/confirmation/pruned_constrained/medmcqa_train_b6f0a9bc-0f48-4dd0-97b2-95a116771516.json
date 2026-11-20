@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_b6f0a9bc-0f48-4dd0-97b2-95a116771516",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Zenker's diveiculum\"}",
+      "generated_disease": "Zenker's diveiculum",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "b8f48dd6b3ea0c782219310d250673506bb846a44af81ad76ca17e668cf17261"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Zenker's diveiculum\"}",
+      "generated_disease": "Zenker's diveiculum",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "d16fd73288dba63fb0cd78c10d66620f9c4c93cc67d4a74a718f7af4f724fd01"
+    }
+  ]
+}

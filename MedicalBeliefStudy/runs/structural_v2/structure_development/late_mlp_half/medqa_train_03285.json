@@ -1,0 +1,41 @@
+{
+  "case_id": "medqa_train_03285",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_half",
+    "mlp_scale": 0.5,
+    "scale_layers": [
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Absence seizure\"}",
+      "generated_disease": "Absence seizure",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "0306b6fb15249a282676c5581f8e6ccd5fce33717c16ba2bc2228ec880e7e7b4"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Juvenile myoclonic epilepsy\"}",
+      "generated_disease": "Juvenile myoclonic epilepsy",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "183f457743be8b9fa5ac6d8a47c36e90dd63020ad5936fe8e8f7d8eba245412a"
+    }
+  ]
+}

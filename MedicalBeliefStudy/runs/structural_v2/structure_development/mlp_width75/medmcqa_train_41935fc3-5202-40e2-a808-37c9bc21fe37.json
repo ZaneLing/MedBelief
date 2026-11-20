@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_41935fc3-5202-40e2-a808-37c9bc21fe37",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "mlp_width75",
+    "mlp_keep": 0.75
+  },
+  "parameter_stats": {
+    "parameters": 1456333824,
+    "weight_bytes": 2912667648,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Duchenne Muscular Dystrophy\"}",
+      "generated_disease": "Duchenne Muscular Dystrophy",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "8c64883538b42500619b9fcd620afdc13697fdc783269d764cc3a3280fbf7a9b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Polymyositis\"}",
+      "generated_disease": "Polymyositis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "71f4215e2d699872136ddf2ec976bdeeba1565f1cb6960fca52e8f303146e48c"
+    }
+  ]
+}

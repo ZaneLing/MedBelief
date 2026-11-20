@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_04038",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Bronchiolitis\"}",
+      "generated_disease": "Bronchiolitis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "6918e5e8edb39d2ed215f386ce06e302ab1bc61110cfa1625a5f8564969c63d5"
+    }
+  ]
+}

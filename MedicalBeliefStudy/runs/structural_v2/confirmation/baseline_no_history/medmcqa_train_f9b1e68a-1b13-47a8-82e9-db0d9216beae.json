@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_f9b1e68a-1b13-47a8-82e9-db0d9216beae",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Post traumatic stress disorder\"}",
+      "generated_disease": "Post traumatic stress disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "daa89aa1ea947a294d83db9f9fe695a4e5c7748c295225515ad79fa6243e822a"
+    }
+  ]
+}

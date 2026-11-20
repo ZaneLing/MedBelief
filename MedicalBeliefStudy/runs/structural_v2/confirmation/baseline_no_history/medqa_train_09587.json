@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_09587",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Muscle strain\"}",
+      "generated_disease": "Muscle strain",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "b85be26cf0123d1a2caddfe8350c60260642aca6e9bb202f14a2561d57163571"
+    }
+  ]
+}

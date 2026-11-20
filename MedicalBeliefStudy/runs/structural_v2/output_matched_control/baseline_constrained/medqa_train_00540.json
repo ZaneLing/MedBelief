@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_00540",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Essential thrombocythemia\"}",
+      "generated_disease": "Essential thrombocythemia",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "2598809c7b120187a1771798f29db8e3e4b973773c229af73fcb4b8aff4833b4"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Essential thrombocythemia\"}",
+      "generated_disease": "Essential thrombocythemia",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "bf72ca86272c79de84eea0ae5b096f1bbd121951cda345caf400fbd0fb86bea2"
+    }
+  ]
+}

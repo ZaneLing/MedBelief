@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_6e86b9d6-d90e-413a-b06a-da647b24617f",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Medulloblastoma\"}",
+      "generated_disease": "Medulloblastoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "993b2f6f3cb2cd9dbba88032086906aed6d6c88fdeeaa5fe7cbdca20faaf917d"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Dandy walker syndrome\"}",
+      "generated_disease": "Dandy walker syndrome",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "bf3596c80e55ec3cbab2f36b85a4966e4b7abc47031ced2236edebe9fccb2068"
+    }
+  ]
+}

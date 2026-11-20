@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_08156",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Bryonic orphans orphans tracentalystic acumen baxoyservicentricity suboptimal acumen baxoysolentia bincuracellous acumen baxoysolenidemphensional trigolensigroupings trigolens",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "9cae6fcf5b82188dddcdbef31b59f79cb80a4ad4cb369fc705579800f1e77bbe"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Bryoniccherventodemystxypnema\"} (Note: This is an error error. actual correct answer is \"Corticusentechserventodemystxemplabarystasentepoemphilenservetemphinalenemphesphil",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "205308125fac8ef003e629bd375f63044b6ec158d6ec50132734c383d2bb01ad"
+    }
+  ]
+}

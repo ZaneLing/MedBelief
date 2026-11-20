@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_30f54095-eaf0-4739-94db-908cc78fc701",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Severe Pneumonia\"}",
+      "generated_disease": "Severe Pneumonia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "db7e1be08336255c0f63db0ad3b6b262fdc9bc942bac853a47af0be0ff739b6f"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Severe Pneumonia\"}",
+      "generated_disease": "Severe Pneumonia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "5ef3bc9af795e2d15b69c42ff55a2542935ec3547eb6beda0a58cd37abf2ae05"
+    }
+  ]
+}

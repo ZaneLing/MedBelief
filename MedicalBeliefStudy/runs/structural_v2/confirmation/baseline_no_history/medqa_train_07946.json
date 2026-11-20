@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_07946",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": false,
+      "text": "threatened abortion\"}",
+      "generated_disease": "threatened abortion",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "f742fce061f9909d8347d2e9e8897d99f191ed66b0e412dd801e7683cdca7f5d"
+    }
+  ]
+}

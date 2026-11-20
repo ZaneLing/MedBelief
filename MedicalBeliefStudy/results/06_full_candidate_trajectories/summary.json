@@ -1,0 +1,204 @@
+{
+  "cases": 120,
+  "diseases": 24,
+  "candidates": 49,
+  "base_updates": 960,
+  "case_weighted": {
+    "initial_mean3_correct": {
+      "mean": 0.05,
+      "low": 0.016666666666666666,
+      "high": 0.09166666666666666,
+      "cases": 120
+    },
+    "final_mean3_correct": {
+      "mean": 0.175,
+      "low": 0.10833333333333334,
+      "high": 0.24166666666666667,
+      "cases": 120
+    },
+    "final_m0_correct": {
+      "mean": 0.16666666666666666,
+      "low": 0.10833333333333334,
+      "high": 0.24166666666666667,
+      "cases": 120
+    },
+    "reference_label_is_top": {
+      "mean": 0.7583333333333333,
+      "low": 0.6833333333333333,
+      "high": 0.8333333333333334,
+      "cases": 120
+    },
+    "final_reference_top_agreement": {
+      "mean": 0.15833333333333333,
+      "low": 0.1,
+      "high": 0.225,
+      "cases": 120
+    },
+    "final_reference_js": {
+      "mean": 0.5294980746295879,
+      "low": 0.5072862021070684,
+      "high": 0.5497997476403516,
+      "cases": 120
+    },
+    "final_gold_support": {
+      "mean": 0.17968384256786785,
+      "low": 0.1405275825348886,
+      "high": 0.21943561098709768,
+      "cases": 120
+    },
+    "final_gold_rank": {
+      "mean": 9.4,
+      "low": 7.441458333333333,
+      "high": 11.633749999999997,
+      "cases": 120
+    },
+    "final_brier": {
+      "mean": 1.0167125610082448,
+      "low": 0.9427704090833292,
+      "high": 1.0864607358986755,
+      "cases": 120
+    },
+    "final_label_nll": {
+      "mean": 5.460160532643153,
+      "low": 4.529618716156691,
+      "high": 6.439166070960913,
+      "cases": 120
+    },
+    "final_gold_margin": {
+      "mean": -0.23917244783757768,
+      "low": -0.28832934596366583,
+      "high": -0.18833118671079638,
+      "cases": 120
+    },
+    "mapping_endpoint_changes": {
+      "mean": 1.0,
+      "low": 0.9697270274225799,
+      "high": 1.0,
+      "cases": 120,
+      "method": "exact_binomial_boundary"
+    },
+    "mapping_gold_range": {
+      "mean": 0.4205233146117496,
+      "low": 0.33629373132477236,
+      "high": 0.5061202174752939,
+      "cases": 120
+    },
+    "mapping_js": {
+      "mean": 0.5864654573679974,
+      "low": 0.5688395850248369,
+      "high": 0.6040428555766475,
+      "cases": 120
+    },
+    "base_reverse_flip_mean3": {
+      "mean": 0.45,
+      "low": 0.35833333333333334,
+      "high": 0.5416666666666666,
+      "cases": 120
+    },
+    "base_shuffle_flip_mean3": {
+      "mean": 0.35,
+      "low": 0.26666666666666666,
+      "high": 0.44166666666666665,
+      "cases": 120
+    },
+    "base_reverse_flip_paired": {
+      "mean": 0.35833333333333334,
+      "low": 0.30277777777777776,
+      "high": 0.41388888888888886,
+      "cases": 120
+    },
+    "base_reverse_js_mean3": {
+      "mean": 0.1636230777234677,
+      "low": 0.13534925152907987,
+      "high": 0.19222985125242492,
+      "cases": 120
+    },
+    "base_shuffle_js_mean3": {
+      "mean": 0.1262495956561935,
+      "low": 0.10231116625908929,
+      "high": 0.15355903858808242,
+      "cases": 120
+    },
+    "regression_any_mean2": {
+      "mean": 0.16666666666666666,
+      "low": 0.1,
+      "high": 0.24166666666666667,
+      "cases": 120
+    },
+    "recovery_any_mean2": {
+      "mean": 0.275,
+      "low": 0.2,
+      "high": 0.35833333333333334,
+      "cases": 120
+    },
+    "switch_rate_mean2": {
+      "mean": 0.33618615181115186,
+      "low": 0.29257738846801346,
+      "high": 0.38135407647907654,
+      "cases": 120
+    },
+    "update_js_mean2": {
+      "mean": 0.1497695704451618,
+      "low": 0.13432221501197664,
+      "high": 0.16572563969849596,
+      "cases": 120
+    },
+    "raw_late_divergence_rate": {
+      "mean": 0.007365319865319866,
+      "low": 0.0032196969696969696,
+      "high": 0.011995686026936023,
+      "cases": 120
+    },
+    "any_robust_late_divergence": {
+      "mean": 0.0,
+      "low": 0.0,
+      "high": 0.03027297257742012,
+      "cases": 120,
+      "method": "exact_binomial_boundary"
+    },
+    "layer27_final_disagree_rate": {
+      "mean": 0.05523204079560504,
+      "low": 0.04362152602639735,
+      "high": 0.06874386217989883,
+      "cases": 120
+    }
+  },
+  "family_macro": {
+    "initial_mean3_correct": 0.049999999999999996,
+    "final_mean3_correct": 0.17222222222222225,
+    "final_m0_correct": 0.16944444444444443,
+    "reference_label_is_top": 0.7527777777777778,
+    "final_reference_top_agreement": 0.14722222222222223,
+    "final_reference_js": 0.5317830662650672,
+    "final_gold_support": 0.1753777865136191,
+    "final_gold_rank": 9.402777777777777,
+    "final_brier": 1.0226670776041293,
+    "final_label_nll": 5.507273845938844,
+    "final_gold_margin": -0.24072045335194617,
+    "mapping_endpoint_changes": 1.0,
+    "mapping_gold_range": 0.4075104910474736,
+    "mapping_js": 0.5869922190657328,
+    "base_reverse_flip_mean3": 0.44166666666666665,
+    "base_shuffle_flip_mean3": 0.35833333333333334,
+    "base_reverse_flip_paired": 0.35370370370370363,
+    "base_reverse_js_mean3": 0.15967273784305155,
+    "base_shuffle_js_mean3": 0.12411983334090777,
+    "regression_any_mean2": 0.16666666666666666,
+    "recovery_any_mean2": 0.2722222222222222,
+    "switch_rate_mean2": 0.3396954896954896,
+    "update_js_mean2": 0.14962459641089212,
+    "raw_late_divergence_rate": 0.007913860830527496,
+    "any_robust_late_divergence": 0.0,
+    "layer27_final_disagree_rate": 0.05520212714033664
+  },
+  "numerical": {
+    "observations": 5040,
+    "native_checks": 56,
+    "all_native_checks_pass": true,
+    "max_attention_reconstruction_relative_rms": 0.00027892415528185666,
+    "candidate_mass_min": 0.9999980330467224,
+    "candidate_mass_mean": 0.9999999949974673,
+    "unconstrained_first_outside_candidates": 0,
+    "tied_observations": 10
+  }
+}

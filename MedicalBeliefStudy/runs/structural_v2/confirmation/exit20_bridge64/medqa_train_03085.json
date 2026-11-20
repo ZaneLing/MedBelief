@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_03085",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pulmonary dysmoma\"}",
+      "generated_disease": "Pulmonary dysmoma",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "234a6c96de1514cc2fa3fc164caf685c6409f043f9ea62cd37dcfa68858c177f"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "P",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 1,
+      "prompt_sha256": "a67f3aa921d0ac193659a24b69ac9dc543a5e5b9c87b03f6d0d75e5b7e30a37d"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_922e998c-86f3-4fa4-b869-ba7d7adb703d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cystoid myomomosis\"}",
+      "generated_disease": "Cystoid myomomosis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "5fb0480e54ad341a5cae972959fc92657465c49b4c571a6c5270194cb8681827"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystoid myomomosis\"}",
+      "generated_disease": "Cystoid myomomosis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "06337c0038c7644bd7a721e8f90087d72ee22c4c1add4a48bce1787d687d5049"
+    }
+  ]
+}

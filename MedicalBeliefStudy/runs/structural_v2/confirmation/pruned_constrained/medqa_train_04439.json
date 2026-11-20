@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_04439",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Influenza\"}",
+      "generated_disease": "Influenza",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "cb3c522504593e9c27939b203106a24bc0f5b38c9a49f2d712f5e349db8ff607"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Lyme disease\"}",
+      "generated_disease": "Lyme disease",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "9853ef701a5212bab486d125c05e8bef22811ed7f14e1c9f62e13e5bf528b705"
+    }
+  ]
+}

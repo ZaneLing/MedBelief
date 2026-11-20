@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_3fb83e78-16a3-4c7a-bc8e-27ff7d989891",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "multiple myeloma\"}",
+      "generated_disease": "multiple myeloma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "61fcd1768bf1ff349160257efd47aef61f7192109ddbaa480d0b88011ef1bfb4"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "multiple myeloma\"}",
+      "generated_disease": "multiple myeloma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "2ee43105f0a3a08562f86e5fa05331be8bcde05620b5c48e8c5acb3cbd9f5df9"
+    }
+  ]
+}

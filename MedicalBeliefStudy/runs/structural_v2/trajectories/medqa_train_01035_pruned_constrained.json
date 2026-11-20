@@ -1,0 +1,956 @@
+{
+  "case_id": "medqa_train_01035",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -24.46875,
+        0.0,
+        -25.984375,
+        -34.109375
+      ],
+      "q_sequence": [
+        2.3624188318477007e-11,
+        0.9999999999711846,
+        5.189545473071161e-12,
+        1.5363375886931275e-15
+      ],
+      "q_token_mean": [
+        0.07924932110141344,
+        0.9155031878337254,
+        0.0050662396000969575,
+        0.00018125146476408592
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Adjustment disorder\"}",
+      "generated_disease": "Adjustment disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "9273cd6cb8d8555ce5152e736de161628099da468f3f75623393b5ffe8cc5956"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -25.046875,
+        0.0,
+        -21.671875,
+        -34.1875
+      ],
+      "q_sequence": [
+        1.3251968607246715e-11,
+        0.9999999995994673,
+        3.8727929123819474e-10,
+        1.4208799950741191e-15
+      ],
+      "q_token_mean": [
+        0.07461253610474401,
+        0.9132375540544267,
+        0.011972603971518071,
+        0.00017730586931105649
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Adjustment disorder\"}",
+      "generated_disease": "Adjustment disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "2640f1911dbe50c231e85091650be9d053b2041c631b76230d0bc17ec7fc3fea"
+    },
+    {
+      "condition": "neutral",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -25.0625,
+        0.0,
+        -19.921875,
+        -33.625
+      ],
+      "q_sequence": [
+        1.3046515853121262e-11,
+        0.9999999977583127,
+        2.2286384416176505e-09,
+        2.493722047745231e-15
+      ],
+      "q_token_mean": [
+        0.07413075753711215,
+        0.9087595408385163,
+        0.01690662450472506,
+        0.00020307711964641617
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Adjustment disorder\"}",
+      "generated_disease": "Adjustment disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "f0cc7e6008f5e41088969ded1a69fe2ad8e6e8edb592c4e00dd8c6e97ecba373"
+    },
+    {
+      "condition": "neutral",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -23.953123092651367,
+        -1.1920930376163597e-07,
+        -16.15625,
+        -33.1875
+      ],
+      "q_sequence": [
+        3.956314670522865e-11,
+        0.999999903703995,
+        9.625643805939472e-08,
+        3.862352361077169e-15
+      ],
+      "q_token_mean": [
+        0.08059429068344547,
+        0.8842502379944635,
+        0.03493503245712409,
+        0.00022043886496682027
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Adjustment disorder\"}",
+      "generated_disease": "Adjustment disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "d5a27903349815d1f676dbcb26e2784fc74d45f26d87f81ca1f3b966339d74af"
+    },
+    {
+      "condition": "neutral",
+      "round": 5,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -24.140626907348633,
+        -1.9073504518019035e-06,
+        -13.15625286102295,
+        -32.5
+      ],
+      "q_sequence": [
+        3.2798873901817696e-11,
+        0.9999980666105787,
+        1.9333566147048737e-06,
+        7.681204485177087e-15
+      ],
+      "q_token_mean": [
+        0.07699787708832544,
+        0.8607810376881687,
+        0.061966255436355464,
+        0.00025482978715037736
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Adjustment disorder\"}",
+      "generated_disease": "Adjustment disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "e0e9d91d03aa15f663110e001693b589df71ae8beb8bbe00ebb130e225ec4ff5"
+    },
+    {
+      "condition": "neutral",
+      "round": 6,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -19.662477493286133,
+        -0.021852420642971992,
+        -3.834352493286133,
+        -28.5062255859375
+      ],
+      "q_sequence": [
+        2.8886474927457426e-09,
+        0.9783846659470018,
+        0.021615331163934062,
+        4.1677681483790624e-13
+      ],
+      "q_token_mean": [
+        0.08743966928424891,
+        0.6219292416475825,
+        0.2901291916796356,
+        0.0005018973885330229
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Adjustment disorder\"}",
+      "generated_disease": "Adjustment disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "42b18b6b2c732c5dcde055a8d4d37445dc67df50b3d0713aa9d9c7ec9eb00579"
+    },
+    {
+      "condition": "neutral",
+      "round": 7,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.984495162963867,
+        -0.00011957406968576834,
+        -9.031370162963867,
+        -31.281368255615234
+      ],
+      "q_sequence": [
+        2.833055284422314e-10,
+        0.9998804012090746,
+        0.00011959850759388301,
+        2.5982106964169186e-14
+      ],
+      "q_token_mean": [
+        0.0869971385250581,
+        0.7839151826319832,
+        0.12877294165741437,
+        0.0003147371855442731
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Adjustment disorder\"}",
+      "generated_disease": "Adjustment disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "c805b6153171b50df9b18992929afb158d044e634fd3bb6387173b1a641a587f"
+    },
+    {
+      "condition": "neutral",
+      "round": 8,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -22.390657424926758,
+        -3.123332135146484e-05,
+        -10.375031471252441,
+        -31.187532424926758
+      ],
+      "q_sequence": [
+        1.8873873830570884e-10,
+        0.9999687979072682,
+        3.120190396440435e-05,
+        2.85382131287831e-14
+      ],
+      "q_token_mean": [
+        0.08645551190254674,
+        0.8113418355971459,
+        0.1018691775057816,
+        0.0003334749945256946
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Adjustment disorder\"}",
+      "generated_disease": "Adjustment disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "6556d138db88aef1c52eeaa70e4aabc7b0f6ba9022a4db530d571fb53acb7b2d"
+    },
+    {
+      "condition": "neutral",
+      "round": 9,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.062541961669922,
+        -4.136647839914076e-05,
+        -10.093791007995605,
+        -30.593791961669922
+      ],
+      "q_sequence": [
+        7.122857632408139e-10,
+        0.9999586638751055,
+        4.1335412556904576e-05,
+        5.1675535209638596e-14
+      ],
+      "q_token_mean": [
+        0.09696790462978978,
+        0.7968177371615459,
+        0.10583444549388865,
+        0.00037991271477560154
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Adjustment disorder\"}",
+      "generated_disease": "Adjustment disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "7a04b3009eacfd42d1f21b8986b4983799c93643b069ec6e55ce9cb85c03ec1f"
+    },
+    {
+      "condition": "neutral",
+      "round": 10,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.078147888183594,
+        -2.4318991563632153e-05,
+        -10.62502384185791,
+        -30.984399795532227
+      ],
+      "q_sequence": [
+        7.012561630684053e-10,
+        0.9999756990463886,
+        2.4300252320421716e-05,
+        3.496601595658672e-14
+      ],
+      "q_token_mean": [
+        0.09787884143691017,
+        0.8055621260526311,
+        0.09621068501878575,
+        0.0003483474916729251
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Adjustment disorder\"}",
+      "generated_disease": "Adjustment disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "bbd2a569d213bf0efeec9046785a36931841724ee5909cdae15ca5e008296c83"
+    },
+    {
+      "condition": "neutral",
+      "round": 11,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -20.156494140625,
+        -0.0002454224450048059,
+        -8.312745094299316,
+        -29.843996047973633
+      ],
+      "q_sequence": [
+        1.7625677899271855e-09,
+        0.9997546286767154,
+        0.00024536956060730895,
+        1.0937478379564618e-13
+      ],
+      "q_token_mean": [
+        0.10067429611379358,
+        0.7555839126847956,
+        0.14330724763999816,
+        0.00043454356141270605
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Adjustment disorder\"}",
+      "generated_disease": "Adjustment disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "2ebbedf1b0a54b6c80092ac51068e14338fe500d45ef39d85c0052599d8600cb"
+    },
+    {
+      "condition": "neutral",
+      "round": 12,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -20.968849182128906,
+        -9.918704745359719e-05,
+        -9.218849182128906,
+        -30.000097274780273
+      ],
+      "q_sequence": [
+        7.822481068541577e-10,
+        0.999900846486089,
+        9.915273156926957e-05,
+        9.356713020159075e-14
+      ],
+      "q_token_mean": [
+        0.09584838806551663,
+        0.780264319077758,
+        0.12345574279116285,
+        0.00043155006556253213
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Adjustment disorder\"}",
+      "generated_disease": "Adjustment disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "64d4f5de34bab95bb19ae5b10671e05c9d2a548801ac8c6184c4128b3a06c15d"
+    },
+    {
+      "condition": "neutral",
+      "round": 13,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -18.703569412231445,
+        -0.0004443321086000651,
+        -7.719194412231445,
+        -29.656694412231445
+      ],
+      "q_sequence": [
+        7.536036888778649e-09,
+        0.9995557741438339,
+        0.0004442183199975034,
+        1.3190500312926864e-13
+      ],
+      "q_token_mean": [
+        0.11261158754536855,
+        0.7308532550710897,
+        0.1560946693688945,
+        0.000440488014647313
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Adjustment disorder\"}",
+      "generated_disease": "Adjustment disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "9d88af7b44fe6c05381c1902d32bb334c20f0041597c3560569711749dc9448a"
+    },
+    {
+      "condition": "neutral",
+      "round": 14,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -16.486425399780273,
+        -0.14267507195472717,
+        -2.0176751613616943,
+        -26.04892349243164
+      ],
+      "q_sequence": [
+        6.918889647664388e-08,
+        0.8670357101159638,
+        0.1329642206902744,
+        4.8651501600666736e-12
+      ],
+      "q_token_mean": [
+        0.10488045913090424,
+        0.530027420876831,
+        0.3642821573200036,
+        0.0008099626722612019
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Adjustment disorder\"}",
+      "generated_disease": "Adjustment disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "03c0d8cc4d480f0a507f7bd53c79aff8dc3bd368e961efe8f8bb79a05aee110d"
+    },
+    {
+      "condition": "neutral",
+      "round": 15,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -18.6117000579834,
+        -0.002325913170352578,
+        -6.064826011657715,
+        -28.78357696533203
+      ],
+      "q_sequence": [
+        8.26116665305536e-09,
+        0.9976768294633495,
+        0.0023231622751679246,
+        3.1582853939127546e-13
+      ],
+      "q_token_mean": [
+        0.10700689326481487,
+        0.6878687700866104,
+        0.20460843079275692,
+        0.000515905855817756
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Adjustment disorder\"}",
+      "generated_disease": "Adjustment disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "c3a6c2e69d62bf8a0c121cb5d7d63b541eb1b4780a4f1e82ad04d1faefd8ba54"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -15.786820411682129,
+        -0.005570580251514912,
+        -5.193070888519287,
+        -29.677444458007812
+      ],
+      "q_sequence": [
+        1.3927431217447748e-07,
+        0.9944449384984181,
+        0.0055549222271405775,
+        1.2919617283877558e-13
+      ],
+      "q_token_mean": [
+        0.1322367778318786,
+        0.6404442090734717,
+        0.22693461823953803,
+        0.00038439485511164266
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Adjustment disorder\"}",
+      "generated_disease": "Adjustment disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "73472cdc7c1a6e0b21105d9661836fd59437551ecf487601c208a3fbecf89601"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -16.975128173828125,
+        -0.3970034718513489,
+        -1.1157535314559937,
+        -28.334505081176758
+      ],
+      "q_sequence": [
+        4.244196663205595e-08,
+        0.6723316837748827,
+        0.3276682737826557,
+        4.948582225258323e-13
+      ],
+      "q_token_mean": [
+        0.09600256947969632,
+        0.4841946907914746,
+        0.41936307309797577,
+        0.00043966663085349093
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Adjustment disorder\"}",
+      "generated_disease": "Adjustment disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "81729aa4e0a236d316b4e5b0d23026c242597dfde81bd2963a377333f5ad314c"
+    },
+    {
+      "condition": "wrong",
+      "round": 3,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -18.13319206237793,
+        -2.492567777633667,
+        -0.08631779998540878,
+        -27.867568969726562
+      ],
+      "q_sequence": [
+        1.3330754707459076e-08,
+        0.08269734326812503,
+        0.9173026434003311,
+        7.893480885435833e-13
+      ],
+      "q_token_mean": [
+        0.09297449059873679,
+        0.34623952751545695,
+        0.5602487083171224,
+        0.0005372735686837816
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Major depressive disorder\"}",
+      "generated_disease": "Major depressive disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "12a9aa51ac3d4e34c18a829e5562d7c23b0df938858c59c16938f029bf6c014f"
+    },
+    {
+      "condition": "wrong",
+      "round": 4,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -20.5479736328125,
+        -6.813599109649658,
+        -0.0010993561008945107,
+        -29.1417236328125
+      ],
+      "q_sequence": [
+        1.191594377799958e-09,
+        0.0010987313421013045,
+        0.9989012674660837,
+        2.2075484377878112e-13
+      ],
+      "q_token_mean": [
+        0.09253474022985483,
+        0.18487162872094234,
+        0.7220985577265738,
+        0.0004950733226290373
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Major depressive disorder\"}",
+      "generated_disease": "Major depressive disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "3ee105cb30ce82fed7e4a2fe72f7ec6c71319e18caea048d905334464a796416"
+    },
+    {
+      "condition": "wrong",
+      "round": 5,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -22.60950469970703,
+        -8.937631607055664,
+        -0.00013137726637069136,
+        -29.578256607055664
+      ],
+      "q_sequence": [
+        1.5164108306128213e-10,
+        0.00013135176686606212,
+        0.99986864808135,
+        1.4266793607204078e-13
+      ],
+      "q_token_mean": [
+        0.08194486420355672,
+        0.13156102098684422,
+        0.7860110319308536,
+        0.00048308287874532365
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Major depressive disorder\"}",
+      "generated_disease": "Major depressive disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "27afb694ec50e518016492497ac601868d80b7d3f1b4d9b3a4641134e5a2a598"
+    },
+    {
+      "condition": "wrong",
+      "round": 6,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -23.234378814697266,
+        -12.500003814697266,
+        -3.695494797284482e-06,
+        -29.562503814697266
+      ],
+      "q_sequence": [
+        8.117783727900092e-11,
+        3.7266388396605815e-06,
+        0.9999962732798375,
+        1.44933142369613e-13
+      ],
+      "q_token_mean": [
+        0.082952058656314,
+        0.0695259422632396,
+        0.8469993919270182,
+        0.0005226071534282117
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Major depressive disorder\"}",
+      "generated_disease": "Major depressive disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "d32f197624a649f2aaa2e50e359bf3770448e35c872769e475a7cf9ae883f29f"
+    },
+    {
+      "condition": "wrong",
+      "round": 7,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.9531307220459,
+        -12.000005722045898,
+        -6.198902156029362e-06,
+        -29.0781307220459
+      ],
+      "q_sequence": [
+        2.9233208933830397e-10,
+        6.144177530287936e-06,
+        0.9999938555299025,
+        2.3524928220923075e-13
+      ],
+      "q_token_mean": [
+        0.09255866142036807,
+        0.07542618899252124,
+        0.8314361056890639,
+        0.0005790438980467687
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Major depressive disorder\"}",
+      "generated_disease": "Major depressive disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "7a9ae6d0cb89a3fee357fd0479f9c151fc7b4eada31df4ef5fefabc6f0caf3af"
+    },
+    {
+      "condition": "wrong",
+      "round": 8,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.671884536743164,
+        -11.53126049041748,
+        -9.775209946383256e-06,
+        -28.250009536743164
+      ],
+      "q_sequence": [
+        3.872755811634752e-10,
+        9.818319957780046e-06,
+        0.9999901812922283,
+        5.384888628716581e-13
+      ],
+      "q_token_mean": [
+        0.09423888097784479,
+        0.08200409632911362,
+        0.823051968835106,
+        0.0007050538579357384
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Major depressive disorder\"}",
+      "generated_disease": "Major depressive disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "a71ee719e6ab05a84c00e0155a329e2311145343526f9aa01a4b1f6cfdbb64f2"
+    },
+    {
+      "condition": "wrong",
+      "round": 9,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -20.1562557220459,
+        -11.843757629394531,
+        -7.152582838898525e-06,
+        -28.17188262939453
+      ],
+      "q_sequence": [
+        1.7629879746555178e-09,
+        7.183256962152619e-06,
+        0.9999928149794677,
+        5.822464042029065e-13
+      ],
+      "q_token_mean": [
+        0.10852513489255071,
+        0.07623768166281285,
+        0.8145256716475441,
+        0.0007115117970922371
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Major depressive disorder\"}",
+      "generated_disease": "Major depressive disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "33f1f8283e4f36e5420391b8e749542c9def0bebcd019e96640d98285714d4d9"
+    },
+    {
+      "condition": "wrong",
+      "round": 10,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -19.90627098083496,
+        -10.718771934509277,
+        -2.217317342001479e-05,
+        -28.281272888183594
+      ],
+      "q_sequence": [
+        2.263687002719817e-09,
+        2.2125674326093098e-05,
+        0.9999778720614649,
+        5.219143801441833e-13
+      ],
+      "q_token_mean": [
+        0.10888107397795636,
+        0.09342219336576144,
+        0.7970192930700382,
+        0.0006774395862440784
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Major depressive disorder\"}",
+      "generated_disease": "Major depressive disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "58d68049859422978072599ac1a86f92a934241dad9e1e794751d8ea0b22fd07"
+    },
+    {
+      "condition": "wrong",
+      "round": 11,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -20.2031307220459,
+        -12.062504768371582,
+        -5.722062269342132e-06,
+        -28.093753814697266
+      ],
+      "q_sequence": [
+        1.6822548453099208e-09,
+        5.77192552504707e-06,
+        0.9999942263915907,
+        6.295608599589054e-13
+      ],
+      "q_token_mean": [
+        0.1084249338725992,
+        0.07324941037383366,
+        0.8175973740146457,
+        0.0007282817389214574
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Major depressive disorder\"}",
+      "generated_disease": "Major depressive disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "ba68d6ae60623267513768b84436110d12ae02e3c144b622133de51b4f248e72"
+    },
+    {
+      "condition": "wrong",
+      "round": 12,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.062509536743164,
+        -11.500009536743164,
+        -1.0132840543519706e-05,
+        -27.781261444091797
+      ],
+      "q_sequence": [
+        7.123088398973838e-10,
+        1.0129997012051227e-05,
+        0.9999898692898188,
+        8.605011507012455e-13
+      ],
+      "q_token_mean": [
+        0.09951103263343208,
+        0.08198346372859998,
+        0.8177179280188321,
+        0.0007875756191358542
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Major depressive disorder\"}",
+      "generated_disease": "Major depressive disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "f6537f1810d3f9156dec9d0c4ae936adb8f0a8e763b1b87b9d98919dfa7f6d15"
+    },
+    {
+      "condition": "wrong",
+      "round": 13,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -19.593780517578125,
+        -10.406280517578125,
+        -3.027961793122813e-05,
+        -28.046903610229492
+      ],
+      "q_sequence": [
+        3.094063741177735e-09,
+        3.0241951244196718e-05,
+        0.9999697549540323,
+        6.597578137375569e-13
+      ],
+      "q_token_mean": [
+        0.11127777210050689,
+        0.09850935073507706,
+        0.7895013333792064,
+        0.0007115437852097282
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Major depressive disorder\"}",
+      "generated_disease": "Major depressive disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "a4f586d88553697415c3c5400215c00861c20381959c0bfa1ad784e7d3f1a8e8"
+    },
+    {
+      "condition": "wrong",
+      "round": 14,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.28125,
+        -13.250001907348633,
+        -1.7881409348774469e-06,
+        -28.281251907348633
+      ],
+      "q_sequence": [
+        5.723617051279497e-10,
+        1.7603430024879336e-06,
+        0.9999982390841138,
+        5.219253211857121e-13
+      ],
+      "q_token_mean": [
+        0.10000353696210583,
+        0.059342762854682485,
+        0.8399397787940046,
+        0.0007139213892071924
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Major depressive disorder\"}",
+      "generated_disease": "Major depressive disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "3a11d5a8a41c3835f711a38f246f132a39f25e59f59a943fd8063fdd35e82c3d"
+    },
+    {
+      "condition": "wrong",
+      "round": 15,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -20.81250762939453,
+        -11.812507629394531,
+        -7.391003236989491e-06,
+        -28.42188262939453
+      ],
+      "q_sequence": [
+        9.146243781580273e-10,
+        7.411278098420941e-06,
+        0.9999925878068238,
+        4.5345396063332005e-13
+      ],
+      "q_token_mean": [
+        0.10229246868824285,
+        0.07721434744121176,
+        0.8198204354546326,
+        0.0006727484159128768
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Major depressive disorder\"}",
+      "generated_disease": "Major depressive disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "9e0030599cb596b5452d153b26e44eb95a3a6bf3cdd5678132072c953368d813"
+    }
+  ],
+  "state_sha256": "60a749ab928f968cc9286a291635f9c30edb9f368015c86f93f22b8dccbe20c1"
+}

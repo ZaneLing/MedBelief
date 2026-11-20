@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_03190",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Diabetic otopathy\"}",
+      "generated_disease": "Diabetic otopathy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "38ba351cf20fa8871e47233a9de2298a470461c59b78e009dc0c4c8bcab0f9df"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Diabetic otopathy\"}",
+      "generated_disease": "Diabetic otopathy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "97f5dca2e7c81255869297ba46020d6525889fd8f4c2b3b388f4e2a43f71c285"
+    }
+  ]
+}

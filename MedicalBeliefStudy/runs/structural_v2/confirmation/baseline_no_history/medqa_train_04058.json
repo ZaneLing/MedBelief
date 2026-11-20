@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_04058",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Brucellosis\"}",
+      "generated_disease": "Brucellosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "fafa566e214b71d97e3dd761166382997e4cf9480e510f5b2d6fda03e168ae41"
+    }
+  ]
+}

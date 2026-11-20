@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_06987",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "A&Pampillionian综合征或其它未知情况但根据现有信息最佳选项是:'none_of上述选项描述相符但根据现有条件最可能是_____. However由于无法确切识别特定术语故无法准确列出准确答案但根据现有条件最可能是_____. However由于无法确切识别特定术语故无法准确列出",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "5370e6a2ead867ef3d2381f4ac7ed34e27ce09b622bcd419b74d25ec6a6f823a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Dyeingysteanityevocantodogunnerthodewendingsalefishyngodoglassfishservutonservservservservservservservservservservservservservservservservservs",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "ead38292ec0ce3930211eede5dfaad8ad35d655e3ca5936a587faf28720b99bf"
+    }
+  ]
+}

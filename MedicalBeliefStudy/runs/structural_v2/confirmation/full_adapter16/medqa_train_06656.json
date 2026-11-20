@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_06656",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Conduct disorder\"}",
+      "generated_disease": "Conduct disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "a4401dc64b69e049fc8c6ef66d3f6b5063ed5077316f13c1323d30bc7782b74b"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Conduct disorder\"}",
+      "generated_disease": "Conduct disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "fd0d3aa62589b83d33911e4baab4c11691d37457862aa23cb71112548d7acb0a"
+    }
+  ]
+}

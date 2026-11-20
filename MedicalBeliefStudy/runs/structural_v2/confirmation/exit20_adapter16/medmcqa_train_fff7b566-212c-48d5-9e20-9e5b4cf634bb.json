@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_fff7b566-212c-48d5-9e20-9e5b4cf634bb",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Acute stress disorder\"}",
+      "generated_disease": "Acute stress disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "107b689fa1a9139e50a1f95aa5d588903932648bd6b44e352a176e4c3d490f74"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Hemmet's syndrome orients in time and/or timelessness or other similar phausigroupential disorder orients in time and/or anecuals orphans etc.\"} --Note: This is an example of an non-linear and non-linear phisocotaxophomosententiaental",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "1bdfbe3ec34fee06d3bcf33ef6567142545d3f11f204c087fb458e9aaec51ab4"
+    }
+  ]
+}

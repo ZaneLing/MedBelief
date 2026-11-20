@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_06987",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxiaotic dystososentia\"} (Note: This is an example of an non-linear response. actual real-world data would be used instead. actual actual real actual real actual real actual real actual real actual real actual real actual philentosogroupings\"} (Note: This is an",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "5370e6a2ead867ef3d2381f4ac7ed34e27ce09b622bcd419b74d25ec6a6f823a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Eplrich's syndrome\"}",
+      "generated_disease": "Eplrich's syndrome",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ead38292ec0ce3930211eede5dfaad8ad35d655e3ca5936a587faf28720b99bf"
+    }
+  ]
+}

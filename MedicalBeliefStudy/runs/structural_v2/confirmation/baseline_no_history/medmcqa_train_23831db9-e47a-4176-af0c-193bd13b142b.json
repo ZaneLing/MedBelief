@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_23831db9-e47a-4176-af0c-193bd13b142b",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Multiple myeloma\"}",
+      "generated_disease": "Multiple myeloma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "2c5f365d42e478d6651ca1d0a9407e372a6414bff511be3722dc4b4d3ba8e6b7"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{"timing": "late_mlp_width50", "pairs": 24}
+{"timing": "full_adapter16", "pairs": 24}
+{"timing": "pruned_adapter16", "pairs": 24}
+{"timing": "exit20_adapter16", "pairs": 24}
+{"timing": "exit20_bridge64", "pairs": 24}
+{"timing": "pruned_constrained", "pairs": 24}

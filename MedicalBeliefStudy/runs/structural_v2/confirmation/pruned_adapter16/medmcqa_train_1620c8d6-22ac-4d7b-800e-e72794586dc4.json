@@ -1,0 +1,52 @@
+{
+  "case_id": "medmcqa_train_1620c8d6-22ac-4d7b-800e-e72794586dc4",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Glioblastoma multiforme\"}",
+      "generated_disease": "Glioblastoma multiforme",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "22b823c61bd4165e261feac6a3fe5d32be5bd5a102a904d2a661ce2558c4140a"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Meningioma\"}",
+      "generated_disease": "Meningioma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "23bc98bcac42b68620f1aa0857a1b4be506bcd084a65779f0f68c756f71ce392"
+    }
+  ]
+}

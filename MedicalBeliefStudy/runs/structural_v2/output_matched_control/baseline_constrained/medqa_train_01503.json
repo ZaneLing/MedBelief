@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_01503",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Fracture of distal radius\"}",
+      "generated_disease": "Fracture of distal radius",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "c4a4131eeab7279fc5c889a45858e1c908761e4a06a5c1fd93d07f32be37ae88"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Interosseous ligament rupture\"}",
+      "generated_disease": "Interosseous ligament rupture",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "da13aa66abd99e57494d240e0363739389565f93672c7c691dd88f2df93f197e"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "status": "posthoc_existing_records",
+  "new_patients": 0,
+  "new_model_calls": 0,
+  "trajectory_cases": 24,
+  "diseases": 17,
+  "trajectory_categories": {
+    "append": {
+      "recovered": 6,
+      "lost": 5,
+      "changing_wrong": 7,
+      "fixed_wrong": 1,
+      "acquired": 5
+    },
+    "panel": {
+      "acquired": 3,
+      "fixed_wrong": 10,
+      "lost": 5,
+      "changing_wrong": 6
+    },
+    "4b": {
+      "acquired": 8,
+      "recovered": 6,
+      "changing_wrong": 5,
+      "lost": 3,
+      "stable": 2
+    }
+  },
+  "endpoint_joint24": {
+    "append": {
+      "probe_only": 48,
+      "native_only": 4,
+      "both": 52,
+      "neither": 16
+    },
+    "panel": {
+      "probe_only": 99,
+      "both": 13,
+      "neither": 7,
+      "native_only": 1
+    }
+  },
+  "display_cases": [
+    "ddx_test_0041136",
+    "ddx_test_0027885",
+    "ddx_test_0032489",
+    "ddx_test_0044249",
+    "ddx_test_0048692",
+    "ddx_test_0006854",
+    "ddx_test_0101113",
+    "ddx_test_0079685",
+    "ddx_test_0037913",
+    "ddx_test_0123136"
+  ]
+}

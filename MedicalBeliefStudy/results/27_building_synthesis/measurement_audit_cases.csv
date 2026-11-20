@@ -1,0 +1,721 @@
+model,view,case_id,gold,reference_top,native49,native24,probe_last,native49_in_reference,canonical_mass,greedy
+1.7b,append,ddx_test_0000299,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,True,0.011820007860102765,Acute bronchiolitis
+1.7b,append,ddx_test_0108935,Acute dystonic reactions,Acute dystonic reactions,Bronchiolitis,Bronchospasm / acute asthma exacerbation,Acute dystonic reactions,False,0.08460686248187851,Acute bronchiolitis
+1.7b,append,ddx_test_0095484,Acute dystonic reactions,Acute dystonic reactions,Panic attack,Bronchospasm / acute asthma exacerbation,Acute dystonic reactions,False,0.020340350520107738,Acute bronchiolitis
+1.7b,append,ddx_test_0026139,Acute dystonic reactions,Acute dystonic reactions,Acute COPD exacerbation / infection,Acute pulmonary edema,Acute dystonic reactions,False,0.011055215522548874,Acute bronchiolitis
+1.7b,append,ddx_test_0021285,Acute dystonic reactions,Acute dystonic reactions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,Acute dystonic reactions,False,0.4279872286600098,Acute bronchospasm / acute asthma exacerbation
+1.7b,append,ddx_test_0106937,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,True,0.004415323055889538,Acute bronchiolitis
+1.7b,append,ddx_test_0011051,Acute dystonic reactions,Acute dystonic reactions,Bronchiolitis,Bronchospasm / acute asthma exacerbation,Acute dystonic reactions,False,0.032570634741686484,Acute bronchiolitis
+1.7b,append,ddx_test_0019293,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,True,0.0992134549637287,Acute bronchiolitis
+1.7b,append,ddx_test_0060868,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,True,0.932165436425646,Acute dystonic reactions
+1.7b,append,ddx_test_0130738,Acute dystonic reactions,Acute dystonic reactions,Acute laryngitis,Acute dystonic reactions,Acute dystonic reactions,False,0.027287485210752666,Acute bronchiolitis
+1.7b,append,ddx_test_0016704,Acute otitis media,Acute otitis media,Acute rhinosinusitis,Acute otitis media,Acute otitis media,False,0.9996714463138169,Acute rhinosinusitis
+1.7b,append,ddx_test_0063960,Acute otitis media,Bronchitis,Acute otitis media,Acute otitis media,Acute otitis media,True,0.9995400661546705,Acute otitis media
+1.7b,append,ddx_test_0128733,Acute otitis media,Acute otitis media,Acute rhinosinusitis,Viral pharyngitis,URTI,False,0.9374182578282829,Acute rhinosinusitis
+1.7b,append,ddx_test_0103348,Acute otitis media,URTI,Acute rhinosinusitis,Acute otitis media,Acute otitis media,False,0.9977063743883499,Acute rhinosinusitis
+1.7b,append,ddx_test_0093573,Acute otitis media,Bronchitis,Acute laryngitis,Cluster headache,Acute otitis media,False,0.9992281452331155,Acute laryngitis
+1.7b,append,ddx_test_0033687,Acute otitis media,Bronchitis,Acute otitis media,Acute otitis media,Acute otitis media,True,0.9992375534879351,Acute otitis media
+1.7b,append,ddx_test_0004058,Acute otitis media,Bronchitis,Acute rhinosinusitis,Atrial fibrillation,Viral pharyngitis,False,0.999853547022447,Acute rhinosinusitis
+1.7b,append,ddx_test_0068842,Acute otitis media,URTI,Acute otitis media,Acute otitis media,Acute otitis media,True,0.9980661719874879,Acute otitis media
+1.7b,append,ddx_test_0040356,Acute otitis media,Acute otitis media,Acute otitis media,Acute otitis media,Acute otitis media,True,0.9998179254685269,Acute otitis media
+1.7b,append,ddx_test_0044393,Acute otitis media,URTI,Acute otitis media,Acute otitis media,Acute otitis media,True,0.998747723861996,Acute otitis media
+1.7b,append,ddx_test_0127183,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,True,0.9981999200903435,Acute pulmonary edema
+1.7b,append,ddx_test_0081225,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,True,0.9998364271555072,Acute pulmonary edema
+1.7b,append,ddx_test_0046757,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,True,0.998757529031898,Acute pulmonary edema
+1.7b,append,ddx_test_0110970,Acute pulmonary edema,Possible NSTEMI / STEMI,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,True,0.9996474235702429,Acute pulmonary edema
+1.7b,append,ddx_test_0026786,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,True,0.9992132383392655,Acute pulmonary edema
+1.7b,append,ddx_test_0085052,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,True,0.9898969491713704,Acute pulmonary edema
+1.7b,append,ddx_test_0071832,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,True,0.9993292311896387,Acute pulmonary edema
+1.7b,append,ddx_test_0044412,Acute pulmonary edema,Unstable angina,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,True,0.983011445318744,Acute pulmonary edema
+1.7b,append,ddx_test_0102977,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,True,0.9990743274018784,Acute pulmonary edema
+1.7b,append,ddx_test_0031775,Acute pulmonary edema,Unstable angina,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,True,0.9970274202640672,Acute pulmonary edema
+1.7b,append,ddx_test_0110051,Anemia,Anemia,Anemia,Anemia,Anemia,True,0.9995481568625018,Anemia
+1.7b,append,ddx_test_0118340,Anemia,Anemia,Anemia,Anemia,Anemia,True,0.9873589139129821,Anemia
+1.7b,append,ddx_test_0127686,Anemia,Anemia,Pulmonary embolism,Pulmonary embolism,Anemia,False,0.9953449153543084,Pulmonary embolism
+1.7b,append,ddx_test_0118817,Anemia,Anemia,Anemia,Anemia,Anemia,True,0.9999969928187761,Anemia
+1.7b,append,ddx_test_0080898,Anemia,Anemia,Pulmonary embolism,Pulmonary embolism,Anemia,False,0.9999705864897295,Pulmonary embolism
+1.7b,append,ddx_test_0119575,Anemia,Anemia,Acute pulmonary edema,Acute pulmonary edema,Anemia,False,0.6734692183871611,Acute pulmonary edema
+1.7b,append,ddx_test_0130807,Anemia,Anemia,Acute pulmonary edema,Acute pulmonary edema,Anemia,False,0.9953682619195261,Acute pulmonary edema
+1.7b,append,ddx_test_0080860,Anemia,Anemia,Boerhaave,Boerhaave,Anemia,False,0.9997427733385369,Boerhaave
+1.7b,append,ddx_test_0111365,Anemia,Anemia,Anemia,Anemia,Anemia,True,0.9999130228780027,Anemia
+1.7b,append,ddx_test_0026375,Anemia,Anemia,Acute pulmonary edema,Acute pulmonary edema,Anemia,True,0.9343434485337947,Acute pulmonary edema
+1.7b,append,ddx_test_0003154,Atrial fibrillation,Atrial fibrillation,Acute pulmonary edema,Acute pulmonary edema,Atrial fibrillation,True,0.9112623053492069,Acute pulmonary edema
+1.7b,append,ddx_test_0040796,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,True,0.9954976031865129,Atrial fibrillation
+1.7b,append,ddx_test_0055936,Atrial fibrillation,Atrial fibrillation,Acute COPD exacerbation / infection,Acute pulmonary edema,Atrial fibrillation,False,0.9935233728238764,Acute COPD exacerbation / infection
+1.7b,append,ddx_test_0039004,Atrial fibrillation,Atrial fibrillation,Acute COPD exacerbation / infection,Pulmonary embolism,Atrial fibrillation,False,0.996731487172697,Acute COPD exacerbation / infection
+1.7b,append,ddx_test_0064532,Atrial fibrillation,Atrial fibrillation,Myocarditis,Atrial fibrillation,Atrial fibrillation,True,0.9986115522391541,Myocarditis
+1.7b,append,ddx_test_0124024,Atrial fibrillation,Atrial fibrillation,Myocarditis,Acute pulmonary edema,Atrial fibrillation,True,0.8942456637764186,Pulmonary embolism
+1.7b,append,ddx_test_0096446,Atrial fibrillation,Atrial fibrillation,Pericarditis,Pericarditis,Atrial fibrillation,False,0.9971581225167554,Pericarditis
+1.7b,append,ddx_test_0126894,Atrial fibrillation,PSVT,Myocarditis,Acute pulmonary edema,Atrial fibrillation,False,0.9990957717213615,Myocarditis
+1.7b,append,ddx_test_0025033,Atrial fibrillation,Atrial fibrillation,Acute pulmonary edema,Acute pulmonary edema,Atrial fibrillation,False,0.9860335097908153,Acute pulmonary edema
+1.7b,append,ddx_test_0064401,Atrial fibrillation,Atrial fibrillation,Myocarditis,Pulmonary embolism,Atrial fibrillation,True,0.9550141090274636,Myocarditis
+1.7b,append,ddx_test_0039512,Boerhaave,Boerhaave,Boerhaave,Boerhaave,Boerhaave,True,0.9998970836036396,Boerhaave
+1.7b,append,ddx_test_0095278,Boerhaave,Atrial fibrillation,Boerhaave,Boerhaave,Boerhaave,True,0.9999641203217742,Boerhaave
+1.7b,append,ddx_test_0054085,Boerhaave,Boerhaave,Boerhaave,Boerhaave,Boerhaave,True,0.9999442335691899,Boerhaave
+1.7b,append,ddx_test_0134499,Boerhaave,Atrial fibrillation,Boerhaave,Boerhaave,Boerhaave,True,0.9349642132748776,Boerhaave
+1.7b,append,ddx_test_0052931,Boerhaave,Boerhaave,Boerhaave,Boerhaave,Boerhaave,True,0.9983052030746249,Boerhaave
+1.7b,append,ddx_test_0041986,Boerhaave,Boerhaave,Boerhaave,Boerhaave,Boerhaave,True,0.9999160835857105,Boerhaave
+1.7b,append,ddx_test_0122395,Boerhaave,Possible NSTEMI / STEMI,Bronchiolitis,Acute pulmonary edema,Spontaneous pneumothorax,False,0.009672865450504796,Acute bronchiolitis
+1.7b,append,ddx_test_0133734,Boerhaave,Boerhaave,Boerhaave,Boerhaave,Boerhaave,True,0.9994707277119956,Boerhaave
+1.7b,append,ddx_test_0039950,Boerhaave,Boerhaave,Boerhaave,Boerhaave,Boerhaave,True,0.9998285982575579,Boerhaave
+1.7b,append,ddx_test_0027545,Boerhaave,Boerhaave,Acute pulmonary edema,Acute pulmonary edema,Stable angina,False,0.17825313029554007,Acute bronchiolitis
+1.7b,append,ddx_test_0101459,Bronchitis,URTI,GERD,GERD,GERD,True,0.9983152344039408,GERD
+1.7b,append,ddx_test_0103125,Bronchitis,Bronchitis,Acute COPD exacerbation / infection,Acute pulmonary edema,Bronchitis,False,0.533386627399113,Acute COPD exacerbation / infection
+1.7b,append,ddx_test_0022562,Bronchitis,URTI,Acute rhinosinusitis,Pneumonia,Bronchitis,False,0.01753331597297356,Acute bronchiolitis
+1.7b,append,ddx_test_0040234,Bronchitis,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Acute pulmonary edema,Bronchitis,True,0.11926690145508204,Acute bronchiolitis
+1.7b,append,ddx_test_0086399,Bronchitis,Bronchitis,Acute COPD exacerbation / infection,Acute pulmonary edema,Bronchitis,False,0.9347927653171099,Acute COPD exacerbation / infection
+1.7b,append,ddx_test_0125285,Bronchitis,Bronchitis,Acute COPD exacerbation / infection,Pneumonia,Bronchitis,True,0.09081302023890314,Acute bronchiolitis
+1.7b,append,ddx_test_0011259,Bronchitis,Bronchitis,Acute COPD exacerbation / infection,Acute pulmonary edema,Bronchitis,False,0.004647759728553194,Acute bronchiolitis
+1.7b,append,ddx_test_0023239,Bronchitis,Pneumonia,Pneumonia,Pneumonia,Bronchitis,True,0.07458444949169811,Acute bronchiolitis
+1.7b,append,ddx_test_0063696,Bronchitis,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Acute pulmonary edema,Bronchitis,True,0.01119759560210186,Acute bronchiolitis
+1.7b,append,ddx_test_0081361,Bronchitis,URTI,Acute COPD exacerbation / infection,Acute pulmonary edema,Bronchitis,True,0.0020890410676930723,Acute bronchiolitis
+1.7b,append,ddx_test_0040118,Bronchospasm / acute asthma exacerbation,Bronchitis,Bronchiolitis,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,False,0.4522900067752481,Acute bronchiolitis
+1.7b,append,ddx_test_0023830,Bronchospasm / acute asthma exacerbation,Bronchitis,Acute rhinosinusitis,Possible NSTEMI / STEMI,Bronchospasm / acute asthma exacerbation,False,0.9999648375355464,Acute rhinosinusitis
+1.7b,append,ddx_test_0026536,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True,0.01413463004441466,Acute bronchiolitis
+1.7b,append,ddx_test_0093945,Bronchospasm / acute asthma exacerbation,Bronchitis,Bronchiolitis,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,False,0.031212645276100476,Acute bronchiolitis
+1.7b,append,ddx_test_0016663,Bronchospasm / acute asthma exacerbation,Bronchitis,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True,0.4095068415604252,Acute bronchiolitis
+1.7b,append,ddx_test_0098644,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,Bronchiolitis,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,False,0.030478472062826133,Acute bronchiolitis
+1.7b,append,ddx_test_0073174,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True,0.11498633830602378,Acute bronchiolitis
+1.7b,append,ddx_test_0099488,Bronchospasm / acute asthma exacerbation,Bronchitis,Acute COPD exacerbation / infection,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,False,0.2348778972200589,Acute bronchiolitis
+1.7b,append,ddx_test_0127707,Bronchospasm / acute asthma exacerbation,Bronchitis,Acute rhinosinusitis,Acute otitis media,Bronchospasm / acute asthma exacerbation,False,0.9999471016535771,Acute rhinosinusitis
+1.7b,append,ddx_test_0030061,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,Acute rhinosinusitis,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,False,0.03197394249248173,Acute bronchiolitis
+1.7b,append,ddx_test_0036753,Cluster headache,Cluster headache,Cluster headache,Cluster headache,Cluster headache,True,0.9999636121804236,Cluster headache
+1.7b,append,ddx_test_0086648,Cluster headache,Cluster headache,Cluster headache,Cluster headache,Cluster headache,True,0.9893564781525869,Cluster headache
+1.7b,append,ddx_test_0082478,Cluster headache,Cluster headache,Cluster headache,Cluster headache,Cluster headache,True,0.9999536476100673,Cluster headache
+1.7b,append,ddx_test_0068388,Cluster headache,Cluster headache,Cluster headache,Cluster headache,Cluster headache,True,0.9999582783638076,Cluster headache
+1.7b,append,ddx_test_0025482,Cluster headache,Cluster headache,Cluster headache,Cluster headache,Cluster headache,True,0.9999226647777707,Cluster headache
+1.7b,append,ddx_test_0035691,Cluster headache,Cluster headache,Cluster headache,Cluster headache,Cluster headache,True,0.9999488434170879,Cluster headache
+1.7b,append,ddx_test_0054676,Cluster headache,Cluster headache,Cluster headache,Cluster headache,Cluster headache,True,0.9996944681358454,Cluster headache
+1.7b,append,ddx_test_0113139,Cluster headache,Cluster headache,Acute laryngitis,Cluster headache,Cluster headache,False,0.3239947883034502,Acute bronchiolitis
+1.7b,append,ddx_test_0119740,Cluster headache,Cluster headache,Cluster headache,Cluster headache,Cluster headache,True,0.9999674569226288,Cluster headache
+1.7b,append,ddx_test_0003293,Cluster headache,Cluster headache,Cluster headache,Cluster headache,Cluster headache,True,0.880170685281599,Cluster headache
+1.7b,append,ddx_test_0042655,GERD,Bronchitis,Boerhaave,Boerhaave,GERD,True,0.9998692264082519,Boerhaave
+1.7b,append,ddx_test_0099480,GERD,GERD,GERD,GERD,GERD,True,0.9999865305788299,GERD
+1.7b,append,ddx_test_0031727,GERD,Bronchitis,Acute COPD exacerbation / infection,Acute pulmonary edema,Inguinal hernia,False,0.027235081034131175,Acute bronchiolitis
+1.7b,append,ddx_test_0096599,GERD,GERD,GERD,GERD,GERD,True,0.9999868440358911,GERD
+1.7b,append,ddx_test_0130374,GERD,GERD,Boerhaave,Boerhaave,GERD,True,0.9999052420378741,Boerhaave
+1.7b,append,ddx_test_0110937,GERD,GERD,Boerhaave,Boerhaave,GERD,True,0.9999499354520309,Boerhaave
+1.7b,append,ddx_test_0096064,GERD,Bronchitis,GERD,GERD,GERD,True,0.9999867679426254,GERD
+1.7b,append,ddx_test_0060870,GERD,GERD,GERD,GERD,GERD,True,0.9999926112147984,GERD
+1.7b,append,ddx_test_0082536,GERD,Bronchitis,GERD,GERD,GERD,True,0.999991763788058,GERD
+1.7b,append,ddx_test_0087432,GERD,GERD,GERD,GERD,GERD,True,0.9999877215934058,GERD
+1.7b,append,ddx_test_0070101,Guillain-Barré syndrome,Guillain-Barré syndrome,Bronchiolitis,Bronchospasm / acute asthma exacerbation,Guillain-Barré syndrome,False,0.04022166118229541,Acute bronchiolitis
+1.7b,append,ddx_test_0005381,Guillain-Barré syndrome,Guillain-Barré syndrome,Acute COPD exacerbation / infection,Acute pulmonary edema,Guillain-Barré syndrome,False,0.2305597415093056,Acute bronchiolitis
+1.7b,append,ddx_test_0074388,Guillain-Barré syndrome,Guillain-Barré syndrome,Bronchiolitis,Acute pulmonary edema,Guillain-Barré syndrome,False,0.028493579714249886,Acute bronchiolitis
+1.7b,append,ddx_test_0001596,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,True,0.9787198327333896,Guillain-Barré syndrome
+1.7b,append,ddx_test_0066496,Guillain-Barré syndrome,Guillain-Barré syndrome,Acute pulmonary edema,Acute pulmonary edema,Guillain-Barré syndrome,False,0.05906150841821171,Acute bronchiolitis
+1.7b,append,ddx_test_0041271,Guillain-Barré syndrome,Guillain-Barré syndrome,Acute COPD exacerbation / infection,Acute pulmonary edema,Guillain-Barré syndrome,False,0.25657426998201693,Acute bronchiolitis
+1.7b,append,ddx_test_0084728,Guillain-Barré syndrome,Guillain-Barré syndrome,Influenza,Acute pulmonary edema,Guillain-Barré syndrome,False,0.9778330297521958,Influenza
+1.7b,append,ddx_test_0096284,Guillain-Barré syndrome,Guillain-Barré syndrome,Acute rhinosinusitis,Acute dystonic reactions,Guillain-Barré syndrome,False,0.022607488377522144,Acute bronchiolitis
+1.7b,append,ddx_test_0123741,Guillain-Barré syndrome,Guillain-Barré syndrome,Bronchiolitis,Acute pulmonary edema,Guillain-Barré syndrome,False,0.011276678446116878,Acute bronchiolitis
+1.7b,append,ddx_test_0016339,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,True,0.35717928761624906,Acute asthma exacerbation
+1.7b,append,ddx_test_0123927,HIV (initial infection),HIV (initial infection),HIV (initial infection),HIV (initial infection),HIV (initial infection),True,0.8614765391265509,HIV (initial infection)
+1.7b,append,ddx_test_0008416,HIV (initial infection),HIV (initial infection),Acute rhinosinusitis,Pneumonia,HIV (initial infection),False,0.9417092465868604,Acute rhinosinusitis
+1.7b,append,ddx_test_0134121,HIV (initial infection),HIV (initial infection),Acute rhinosinusitis,Pneumonia,HIV (initial infection),False,0.5163334744046176,Acute rhinosinusitis
+1.7b,append,ddx_test_0038565,HIV (initial infection),HIV (initial infection),Acute rhinosinusitis,Anemia,HIV (initial infection),False,0.5207158142381042,Acute bronchiolitis
+1.7b,append,ddx_test_0104892,HIV (initial infection),HIV (initial infection),Acute rhinosinusitis,Pneumonia,HIV (initial infection),False,0.5938672074266307,Acute rhinosinusitis
+1.7b,append,ddx_test_0085284,HIV (initial infection),HIV (initial infection),Acute rhinosinusitis,Pneumonia,HIV (initial infection),False,0.6030570318505036,Acute rhinosinusitis
+1.7b,append,ddx_test_0083304,HIV (initial infection),HIV (initial infection),HIV (initial infection),HIV (initial infection),HIV (initial infection),True,0.9209027805052445,HIV (initial infection)
+1.7b,append,ddx_test_0044982,HIV (initial infection),HIV (initial infection),Acute rhinosinusitis,Pneumonia,HIV (initial infection),False,0.5298643012486774,Acute bronchiolitis
+1.7b,append,ddx_test_0059147,HIV (initial infection),HIV (initial infection),Acute rhinosinusitis,Pneumonia,HIV (initial infection),False,0.8249806447112455,Acute rhinosinusitis
+1.7b,append,ddx_test_0016308,HIV (initial infection),HIV (initial infection),Influenza,Pneumonia,HIV (initial infection),False,0.9930636765566954,Influenza
+1.7b,append,ddx_test_0102786,Inguinal hernia,Inguinal hernia,Acute rhinosinusitis,Acute pulmonary edema,Inguinal hernia,False,0.19166024037513077,Acute bronchiolitis
+1.7b,append,ddx_test_0051746,Inguinal hernia,Inguinal hernia,Pneumonia,Pneumonia,Inguinal hernia,False,0.29878235043555035,Acute bronchiolitis
+1.7b,append,ddx_test_0125852,Inguinal hernia,Inguinal hernia,Localized edema,Pulmonary embolism,Inguinal hernia,False,0.8634621076691825,Localized edema
+1.7b,append,ddx_test_0133877,Inguinal hernia,Inguinal hernia,Pneumonia,Pneumonia,Inguinal hernia,False,0.7668549700068391,Pneumonia
+1.7b,append,ddx_test_0100064,Inguinal hernia,Bronchitis,Acute rhinosinusitis,Pneumonia,Inguinal hernia,False,0.08523408925932847,Acute bronchiolitis
+1.7b,append,ddx_test_0080445,Inguinal hernia,Inguinal hernia,Pneumonia,Pneumonia,Inguinal hernia,False,0.052628293645473764,Acute bronchiolitis
+1.7b,append,ddx_test_0119321,Inguinal hernia,Inguinal hernia,Bronchiolitis,Bronchospasm / acute asthma exacerbation,Inguinal hernia,False,0.023678795962653654,Acute bronchiolitis
+1.7b,append,ddx_test_0067790,Inguinal hernia,Inguinal hernia,Acute rhinosinusitis,Acute pulmonary edema,Inguinal hernia,False,0.03222751209670334,Acute bronchiolitis
+1.7b,append,ddx_test_0044306,Inguinal hernia,Inguinal hernia,Acute rhinosinusitis,Pneumonia,Inguinal hernia,False,0.010373029138492591,Acute bronchiolitis
+1.7b,append,ddx_test_0087923,Inguinal hernia,Inguinal hernia,Acute rhinosinusitis,Pneumonia,Inguinal hernia,False,0.02025312185773886,Acute bronchiolitis
+1.7b,append,ddx_test_0011169,Myasthenia gravis,Myasthenia gravis,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,True,0.9963230861991872,Guillain-Barré syndrome
+1.7b,append,ddx_test_0080557,Myasthenia gravis,Myasthenia gravis,Myasthenia gravis,Myasthenia gravis,Myasthenia gravis,True,0.9999691593305683,Myasthenia gravis
+1.7b,append,ddx_test_0130080,Myasthenia gravis,Myasthenia gravis,Bronchiolitis,Bronchospasm / acute asthma exacerbation,Acute dystonic reactions,False,0.12873369100420198,Acute bronchiolitis
+1.7b,append,ddx_test_0075256,Myasthenia gravis,Myasthenia gravis,Myasthenia gravis,Myasthenia gravis,Myasthenia gravis,True,0.9999462458941619,Myasthenia gravis
+1.7b,append,ddx_test_0098308,Myasthenia gravis,Myasthenia gravis,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,True,0.68743403630771,Guillain-Barré syndrome
+1.7b,append,ddx_test_0064516,Myasthenia gravis,Myasthenia gravis,Myasthenia gravis,Myasthenia gravis,Myasthenia gravis,True,0.9999729662248215,Myasthenia gravis
+1.7b,append,ddx_test_0117011,Myasthenia gravis,Myasthenia gravis,Myasthenia gravis,Myasthenia gravis,Myasthenia gravis,True,0.9999630217894284,Myasthenia gravis
+1.7b,append,ddx_test_0071154,Myasthenia gravis,Myocarditis,Myasthenia gravis,Myasthenia gravis,Myasthenia gravis,True,0.999963190375817,Myasthenia gravis
+1.7b,append,ddx_test_0001040,Myasthenia gravis,Myasthenia gravis,Bronchiolitis,Bronchospasm / acute asthma exacerbation,Acute dystonic reactions,False,0.1525863969692671,Acute bronchiolitis
+1.7b,append,ddx_test_0076263,Myasthenia gravis,Myasthenia gravis,Acute dystonic reactions,Acute dystonic reactions,Guillain-Barré syndrome,True,0.033881950067240686,Acute bronchiolitis
+1.7b,append,ddx_test_0057776,Pancreatic neoplasm,Bronchitis,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,True,0.9990147966996388,Pancreatic neoplasm
+1.7b,append,ddx_test_0114059,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,True,0.9999885378968841,Pancreatic neoplasm
+1.7b,append,ddx_test_0075635,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,True,0.999980388466104,Pancreatic neoplasm
+1.7b,append,ddx_test_0074142,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,True,0.6403464418444285,Pancreatic neoplasm
+1.7b,append,ddx_test_0071097,Pancreatic neoplasm,Pancreatic neoplasm,GERD,GERD,Inguinal hernia,True,0.3752186675455002,Acute bronchiolitis
+1.7b,append,ddx_test_0038692,Pancreatic neoplasm,Possible NSTEMI / STEMI,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,True,0.11695656492122877,Acute bronchiolitis
+1.7b,append,ddx_test_0120169,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,True,0.9815543366635423,Pancreatic neoplasm
+1.7b,append,ddx_test_0080218,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,True,0.9999897622992306,Pancreatic neoplasm
+1.7b,append,ddx_test_0101076,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,True,0.9999934496535499,Pancreatic neoplasm
+1.7b,append,ddx_test_0007283,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,True,0.9999926212415221,Pancreatic neoplasm
+1.7b,append,ddx_test_0046674,Pericarditis,Pericarditis,Boerhaave,Boerhaave,Pulmonary embolism,True,0.7264457336166412,Boerhaave
+1.7b,append,ddx_test_0046860,Pericarditis,Pericarditis,Acute COPD exacerbation / infection,Acute pulmonary edema,Stable angina,False,0.005748881568635053,Acute bronchiolitis
+1.7b,append,ddx_test_0077574,Pericarditis,Pericarditis,Pericarditis,Pericarditis,SLE,True,0.9997740395057203,Pericarditis
+1.7b,append,ddx_test_0015722,Pericarditis,Possible NSTEMI / STEMI,Panic attack,Acute pulmonary edema,Atrial fibrillation,True,0.581433556946164,Panic attack
+1.7b,append,ddx_test_0100532,Pericarditis,Pericarditis,Pericarditis,Pericarditis,SLE,True,0.9999915381750241,Pericarditis
+1.7b,append,ddx_test_0034344,Pericarditis,Possible NSTEMI / STEMI,Pericarditis,Pericarditis,SLE,True,0.9999878472352465,Pericarditis
+1.7b,append,ddx_test_0013783,Pericarditis,Possible NSTEMI / STEMI,Pericarditis,Pericarditis,SLE,True,0.999997258367993,Pericarditis
+1.7b,append,ddx_test_0058416,Pericarditis,Pericarditis,Pericarditis,Pericarditis,SLE,True,0.9999919831389168,Pericarditis
+1.7b,append,ddx_test_0007937,Pericarditis,Possible NSTEMI / STEMI,Pericarditis,Pericarditis,Pericarditis,True,0.9998721562496125,Pericarditis
+1.7b,append,ddx_test_0051879,Pericarditis,Pericarditis,Pericarditis,Pericarditis,SLE,True,0.9999965432300336,Pericarditis
+1.7b,append,ddx_test_0082088,Pneumonia,Bronchitis,Pneumonia,Pneumonia,HIV (initial infection),True,0.9848726011144174,Pneumonia
+1.7b,append,ddx_test_0012516,Pneumonia,Bronchitis,Pneumonia,Pneumonia,HIV (initial infection),True,0.9990727526979419,Pneumonia
+1.7b,append,ddx_test_0084913,Pneumonia,Bronchitis,Acute pulmonary edema,Acute pulmonary edema,Pneumonia,False,0.9996104135241373,Acute pulmonary edema
+1.7b,append,ddx_test_0071108,Pneumonia,Pneumonia,Acute pulmonary edema,Acute pulmonary edema,Pneumonia,False,0.9983988704938831,Acute pulmonary edema
+1.7b,append,ddx_test_0023782,Pneumonia,Bronchitis,Pneumonia,Pneumonia,HIV (initial infection),True,0.9915966206212533,Pneumonia
+1.7b,append,ddx_test_0092977,Pneumonia,Pneumonia,Pneumonia,Pneumonia,Pneumonia,True,0.986432744787419,Pneumonia
+1.7b,append,ddx_test_0015632,Pneumonia,Bronchitis,Pneumonia,Pneumonia,HIV (initial infection),True,0.9907566626245805,Pneumonia
+1.7b,append,ddx_test_0115846,Pneumonia,Pneumonia,Pneumonia,Pneumonia,Pneumonia,True,0.05340429569673348,Acute bronchiolitis
+1.7b,append,ddx_test_0034896,Pneumonia,Pneumonia,Acute pulmonary edema,Acute pulmonary edema,Pneumonia,False,0.9977180779422011,Acute pulmonary edema
+1.7b,append,ddx_test_0127212,Pneumonia,Pneumonia,Acute pulmonary edema,Acute pulmonary edema,Pneumonia,False,0.9976625921438004,Acute pulmonary edema
+1.7b,append,ddx_test_0081104,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Acute pulmonary edema,Acute pulmonary edema,Possible NSTEMI / STEMI,True,0.9326463401152887,Acute pulmonary edema
+1.7b,append,ddx_test_0053572,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,HIV (initial infection),HIV (initial infection),Possible NSTEMI / STEMI,False,0.9408426692462264,HIV (initial infection)
+1.7b,append,ddx_test_0054422,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Acute pulmonary edema,Acute pulmonary edema,Possible NSTEMI / STEMI,True,0.9491571643609618,Acute pulmonary edema
+1.7b,append,ddx_test_0026337,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Acute laryngitis,Acute pulmonary edema,Stable angina,False,0.05589663820579457,Acute bronchiolitis
+1.7b,append,ddx_test_0077633,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Acute COPD exacerbation / infection,Acute pulmonary edema,Possible NSTEMI / STEMI,False,0.21591593181399105,Acute bronchiolitis
+1.7b,append,ddx_test_0001290,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Acute pulmonary edema,Acute pulmonary edema,Possible NSTEMI / STEMI,True,0.9353311679057118,Acute pulmonary edema
+1.7b,append,ddx_test_0126796,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Acute laryngitis,Acute pulmonary edema,Stable angina,False,0.359335985989459,Acute bronchiolitis
+1.7b,append,ddx_test_0067476,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Acute COPD exacerbation / infection,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,False,0.9169821861549124,Acute COPD exacerbation / infection
+1.7b,append,ddx_test_0118474,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Acute COPD exacerbation / infection,Acute pulmonary edema,Possible NSTEMI / STEMI,False,0.6942068922958281,Acute COPD exacerbation / infection
+1.7b,append,ddx_test_0084154,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Acute COPD exacerbation / infection,HIV (initial infection),Possible NSTEMI / STEMI,False,0.9575050488773613,Acute COPD exacerbation / infection
+1.7b,append,ddx_test_0013493,Pulmonary embolism,Pulmonary embolism,Acute pulmonary edema,Acute pulmonary edema,Pneumonia,True,0.6594653261728739,Acute pulmonary edema
+1.7b,append,ddx_test_0086293,Pulmonary embolism,Pulmonary embolism,Boerhaave,Boerhaave,Pulmonary embolism,False,0.9997786822276259,Boerhaave
+1.7b,append,ddx_test_0014935,Pulmonary embolism,Pulmonary embolism,Boerhaave,Boerhaave,Pulmonary embolism,False,0.9999109613567166,Boerhaave
+1.7b,append,ddx_test_0082329,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,Acute pulmonary edema,True,0.9997108501246512,Pulmonary embolism
+1.7b,append,ddx_test_0040985,Pulmonary embolism,Pulmonary embolism,Localized edema,Pulmonary embolism,Acute pulmonary edema,True,0.9489257931186973,Localized edema
+1.7b,append,ddx_test_0112279,Pulmonary embolism,Pulmonary embolism,Localized edema,Possible NSTEMI / STEMI,Acute pulmonary edema,True,0.996283968585667,Localized edema
+1.7b,append,ddx_test_0082813,Pulmonary embolism,Pulmonary embolism,Acute pulmonary edema,Acute pulmonary edema,Spontaneous pneumothorax,True,0.1502606981401458,Acute bronchiolitis
+1.7b,append,ddx_test_0054695,Pulmonary embolism,Pulmonary embolism,Localized edema,Possible NSTEMI / STEMI,Acute pulmonary edema,True,0.9943797323544307,Localized edema
+1.7b,append,ddx_test_0098425,Pulmonary embolism,Pulmonary embolism,Boerhaave,Boerhaave,Pulmonary embolism,False,0.9254336972845411,Boerhaave
+1.7b,append,ddx_test_0117705,Pulmonary embolism,Pulmonary embolism,Boerhaave,Boerhaave,Pulmonary embolism,False,0.9999159665827287,Boerhaave
+1.7b,append,ddx_test_0059125,SLE,SLE,Pericarditis,Pericarditis,SLE,False,0.999987006404813,Pericarditis
+1.7b,append,ddx_test_0064244,SLE,SLE,Pericarditis,Pericarditis,SLE,False,0.9999886754836221,Pericarditis
+1.7b,append,ddx_test_0027091,SLE,SLE,Acute rhinosinusitis,Pneumonia,HIV (initial infection),False,0.24847608252420003,Acute bronchiolitis
+1.7b,append,ddx_test_0090670,SLE,SLE,Pericarditis,Pericarditis,SLE,False,0.9999967838638424,Pericarditis
+1.7b,append,ddx_test_0011058,SLE,Pulmonary embolism,Pericarditis,Pericarditis,SLE,False,0.9999960662172543,Pericarditis
+1.7b,append,ddx_test_0072770,SLE,SLE,Pericarditis,Pericarditis,SLE,False,0.9999923710955746,Pericarditis
+1.7b,append,ddx_test_0072851,SLE,SLE,Pericarditis,Pericarditis,SLE,False,0.9999976297999105,Pericarditis
+1.7b,append,ddx_test_0072811,SLE,SLE,Pericarditis,Pericarditis,SLE,False,0.9999921727805463,Pericarditis
+1.7b,append,ddx_test_0121423,SLE,Possible NSTEMI / STEMI,Acute pulmonary edema,Acute pulmonary edema,Inguinal hernia,False,0.026509500214453023,Acute bronchiolitis
+1.7b,append,ddx_test_0050613,SLE,Possible NSTEMI / STEMI,Acute rhinosinusitis,Pneumonia,Inguinal hernia,False,0.14374813337463865,Acute bronchiolitis
+1.7b,append,ddx_test_0132217,Spontaneous pneumothorax,Unstable angina,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,True,0.9934403070538662,Spontaneous pneumothorax
+1.7b,append,ddx_test_0091997,Spontaneous pneumothorax,Unstable angina,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,True,0.9999940845922048,Spontaneous pneumothorax
+1.7b,append,ddx_test_0106969,Spontaneous pneumothorax,Pulmonary embolism,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,True,0.9999893640737829,Spontaneous pneumothorax
+1.7b,append,ddx_test_0076349,Spontaneous pneumothorax,Unstable angina,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,True,0.999975157428394,Spontaneous pneumothorax
+1.7b,append,ddx_test_0062785,Spontaneous pneumothorax,Unstable angina,Acute pulmonary edema,Acute pulmonary edema,Spontaneous pneumothorax,False,0.2573441205641931,Acute bronchiolitis
+1.7b,append,ddx_test_0029157,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,True,0.2212495110154245,Acute bronchiolitis
+1.7b,append,ddx_test_0133207,Spontaneous pneumothorax,Possible NSTEMI / STEMI,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,True,0.9999941862213827,Spontaneous pneumothorax
+1.7b,append,ddx_test_0071970,Spontaneous pneumothorax,Unstable angina,Acute pulmonary edema,Acute pulmonary edema,Stable angina,True,0.8364543515865144,Acute pulmonary edema
+1.7b,append,ddx_test_0012967,Spontaneous pneumothorax,Spontaneous pneumothorax,Acute pulmonary edema,Acute pulmonary edema,Spontaneous pneumothorax,True,0.001896777585846205,Acute bronchiolitis
+1.7b,append,ddx_test_0067379,Spontaneous pneumothorax,Unstable angina,Acute pulmonary edema,Acute pulmonary edema,Stable angina,True,0.9953943530413336,Acute pulmonary edema
+1.7b,append,ddx_test_0048251,Stable angina,Unstable angina,Acute pulmonary edema,Acute pulmonary edema,Stable angina,False,0.07362155002334259,Acute bronchiolitis
+1.7b,append,ddx_test_0019361,Stable angina,Unstable angina,Acute laryngitis,GERD,Stable angina,True,0.25937634400716464,Acute bronchitis
+1.7b,append,ddx_test_0050521,Stable angina,Unstable angina,Acute pulmonary edema,Acute pulmonary edema,Stable angina,True,0.9635632257537593,Acute pulmonary edema
+1.7b,append,ddx_test_0134430,Stable angina,Possible NSTEMI / STEMI,Stable angina,Stable angina,Stable angina,True,0.9982877654771143,Stable angina
+1.7b,append,ddx_test_0095440,Stable angina,Unstable angina,Acute laryngitis,Acute pulmonary edema,Stable angina,False,0.6778011995906938,Acute laryngitis
+1.7b,append,ddx_test_0041757,Stable angina,Possible NSTEMI / STEMI,Acute pulmonary edema,Acute pulmonary edema,Stable angina,False,0.12500983598905177,Acute bronchiolitis
+1.7b,append,ddx_test_0053598,Stable angina,Possible NSTEMI / STEMI,Acute pulmonary edema,Acute pulmonary edema,Possible NSTEMI / STEMI,False,0.9663790329443526,Acute pulmonary edema
+1.7b,append,ddx_test_0119478,Stable angina,Unstable angina,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Stable angina,True,0.8623363936134542,Possible NSTEMI / STEMI
+1.7b,append,ddx_test_0078232,Stable angina,Unstable angina,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Stable angina,True,0.9815203340056207,Possible NSTEMI / STEMI
+1.7b,append,ddx_test_0095606,Stable angina,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True,0.9330175565725097,Possible NSTEMI / STEMI
+1.7b,append,ddx_test_0069681,URTI,Bronchitis,Acute rhinosinusitis,Pneumonia,URTI,False,0.18232081430063515,Acute bronchiolitis
+1.7b,append,ddx_test_0077896,URTI,URTI,Influenza,Pneumonia,HIV (initial infection),True,0.9888073358758347,Influenza
+1.7b,append,ddx_test_0036817,URTI,URTI,Acute rhinosinusitis,Viral pharyngitis,URTI,False,0.9997190110356023,Acute rhinosinusitis
+1.7b,append,ddx_test_0118938,URTI,URTI,Acute rhinosinusitis,Viral pharyngitis,HIV (initial infection),False,0.9950445331429709,Acute rhinosinusitis
+1.7b,append,ddx_test_0077681,URTI,Bronchitis,Acute rhinosinusitis,Pneumonia,HIV (initial infection),True,0.40502155526295003,Acute bronchiolitis
+1.7b,append,ddx_test_0045551,URTI,URTI,Acute rhinosinusitis,Pneumonia,HIV (initial infection),True,0.16902547557769435,Acute bronchiolitis
+1.7b,append,ddx_test_0083559,URTI,URTI,Acute rhinosinusitis,Viral pharyngitis,URTI,False,0.9860652294145743,Acute rhinosinusitis
+1.7b,append,ddx_test_0025922,URTI,URTI,Acute rhinosinusitis,Viral pharyngitis,URTI,False,0.9993130446078173,Acute rhinosinusitis
+1.7b,append,ddx_test_0027856,URTI,URTI,Acute rhinosinusitis,Viral pharyngitis,URTI,False,0.9700290805828119,Acute rhinosinusitis
+1.7b,append,ddx_test_0088020,URTI,Bronchitis,Acute rhinosinusitis,Atrial fibrillation,Bronchospasm / acute asthma exacerbation,True,0.9998996849430754,Acute rhinosinusitis
+1.7b,append,ddx_test_0098383,Viral pharyngitis,Viral pharyngitis,Acute rhinosinusitis,Viral pharyngitis,Viral pharyngitis,False,0.9942812162849676,Acute rhinosinusitis
+1.7b,append,ddx_test_0118573,Viral pharyngitis,Viral pharyngitis,Acute rhinosinusitis,Acute otitis media,Viral pharyngitis,False,0.9998378044289195,Acute rhinosinusitis
+1.7b,append,ddx_test_0105824,Viral pharyngitis,Viral pharyngitis,Acute laryngitis,Viral pharyngitis,Viral pharyngitis,True,0.9988580381518206,Acute laryngitis
+1.7b,append,ddx_test_0043443,Viral pharyngitis,Viral pharyngitis,Acute laryngitis,Viral pharyngitis,Viral pharyngitis,True,0.9995176608563393,Acute laryngitis
+1.7b,append,ddx_test_0005743,Viral pharyngitis,Viral pharyngitis,Acute rhinosinusitis,Acute otitis media,Viral pharyngitis,False,0.9989907432496196,Acute rhinosinusitis
+1.7b,append,ddx_test_0008049,Viral pharyngitis,Possible NSTEMI / STEMI,Acute laryngitis,Viral pharyngitis,Viral pharyngitis,False,0.9998553141434999,Acute laryngitis
+1.7b,append,ddx_test_0009209,Viral pharyngitis,Viral pharyngitis,GERD,GERD,Viral pharyngitis,False,0.9954918555828032,GERD
+1.7b,append,ddx_test_0066777,Viral pharyngitis,Possible NSTEMI / STEMI,Acute rhinosinusitis,Pneumonia,HIV (initial infection),False,0.9898772366828328,Acute rhinosinusitis
+1.7b,append,ddx_test_0129414,Viral pharyngitis,Viral pharyngitis,GERD,GERD,Viral pharyngitis,False,0.9998086202934614,GERD
+1.7b,append,ddx_test_0052214,Viral pharyngitis,Viral pharyngitis,Acute rhinosinusitis,Acute pulmonary edema,Viral pharyngitis,False,0.9251582330509701,Acute rhinosinusitis
+1.7b,panel,ddx_test_0000299,Acute dystonic reactions,Acute dystonic reactions,Acute pulmonary edema,Acute pulmonary edema,Acute dystonic reactions,True,0.9988370979500638,Acute pulmonary edema
+1.7b,panel,ddx_test_0108935,Acute dystonic reactions,Acute dystonic reactions,Acute pulmonary edema,Acute pulmonary edema,Acute dystonic reactions,True,0.9959341347411387,Acute pulmonary edema
+1.7b,panel,ddx_test_0095484,Acute dystonic reactions,Acute dystonic reactions,Acute pulmonary edema,Acute pulmonary edema,Acute dystonic reactions,True,0.995585921471353,Acute pulmonary edema
+1.7b,panel,ddx_test_0026139,Acute dystonic reactions,Acute dystonic reactions,Acute pulmonary edema,Acute pulmonary edema,Acute dystonic reactions,True,0.9946069023650094,Acute pulmonary edema
+1.7b,panel,ddx_test_0021285,Acute dystonic reactions,Acute dystonic reactions,Acute pulmonary edema,Acute pulmonary edema,Acute dystonic reactions,True,0.9774378917699691,Acute pulmonary edema
+1.7b,panel,ddx_test_0106937,Acute dystonic reactions,Acute dystonic reactions,Acute COPD exacerbation / infection,Acute pulmonary edema,Acute dystonic reactions,False,0.9923316298944137,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0011051,Acute dystonic reactions,Acute dystonic reactions,Acute pulmonary edema,Acute pulmonary edema,Guillain-Barré syndrome,True,0.9941200963702297,Acute pulmonary edema
+1.7b,panel,ddx_test_0019293,Acute dystonic reactions,Acute dystonic reactions,Acute pulmonary edema,Acute pulmonary edema,Acute dystonic reactions,True,0.993390061359443,Acute pulmonary edema
+1.7b,panel,ddx_test_0060868,Acute dystonic reactions,Acute dystonic reactions,Acute pulmonary edema,Acute pulmonary edema,Acute dystonic reactions,True,0.988090786502467,Acute pulmonary edema
+1.7b,panel,ddx_test_0130738,Acute dystonic reactions,Acute dystonic reactions,Acute pulmonary edema,Acute pulmonary edema,Acute dystonic reactions,True,0.9947072542924518,Acute pulmonary edema
+1.7b,panel,ddx_test_0016704,Acute otitis media,Acute otitis media,Acute COPD exacerbation / infection,Acute pulmonary edema,Acute otitis media,False,0.7983034491612444,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0063960,Acute otitis media,Bronchitis,Acute COPD exacerbation / infection,Acute pulmonary edema,Acute otitis media,False,0.8554240225485118,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0128733,Acute otitis media,Acute otitis media,Acute COPD exacerbation / infection,Acute pulmonary edema,Acute otitis media,False,0.9973116349900708,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0103348,Acute otitis media,URTI,Acute COPD exacerbation / infection,Acute pulmonary edema,Acute otitis media,False,0.5571033049937639,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0093573,Acute otitis media,Bronchitis,Acute COPD exacerbation / infection,Acute pulmonary edema,Acute otitis media,False,0.8720755799683411,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0033687,Acute otitis media,Bronchitis,Acute COPD exacerbation / infection,Acute pulmonary edema,Acute otitis media,False,0.6310634075778854,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0004058,Acute otitis media,Bronchitis,Croup,Pneumonia,Acute otitis media,False,0.17347907641461188,Cough
+1.7b,panel,ddx_test_0068842,Acute otitis media,URTI,Acute COPD exacerbation / infection,Acute pulmonary edema,Acute otitis media,False,0.8476153439985662,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0040356,Acute otitis media,Acute otitis media,Acute COPD exacerbation / infection,Acute pulmonary edema,Acute otitis media,False,0.9783511600626302,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0044393,Acute otitis media,URTI,Acute COPD exacerbation / infection,Acute pulmonary edema,Acute otitis media,False,0.8845464234294925,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0127183,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,True,0.9952389358930384,Acute pulmonary edema
+1.7b,panel,ddx_test_0081225,Acute pulmonary edema,Acute pulmonary edema,Acute COPD exacerbation / infection,Acute pulmonary edema,Acute pulmonary edema,False,0.9988138497229087,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0046757,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,True,0.9984643545686576,Acute pulmonary edema
+1.7b,panel,ddx_test_0110970,Acute pulmonary edema,Possible NSTEMI / STEMI,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,True,0.9964030960583445,Acute pulmonary edema
+1.7b,panel,ddx_test_0026786,Acute pulmonary edema,Acute pulmonary edema,Acute COPD exacerbation / infection,Acute pulmonary edema,Acute pulmonary edema,False,0.9977615050196852,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0085052,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,True,0.9982240447073617,Acute pulmonary edema
+1.7b,panel,ddx_test_0071832,Acute pulmonary edema,Acute pulmonary edema,Acute COPD exacerbation / infection,Acute pulmonary edema,Acute pulmonary edema,False,0.99566623333458,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0044412,Acute pulmonary edema,Unstable angina,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,True,0.9806237590717893,Acute pulmonary edema
+1.7b,panel,ddx_test_0102977,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,True,0.9982810645811427,Acute pulmonary edema
+1.7b,panel,ddx_test_0031775,Acute pulmonary edema,Unstable angina,Acute COPD exacerbation / infection,Acute pulmonary edema,Acute pulmonary edema,False,0.9970023811871881,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0110051,Anemia,Anemia,Anemia,Anemia,Anemia,True,0.9999939254538197,Anemia
+1.7b,panel,ddx_test_0118340,Anemia,Anemia,Anemia,Anemia,Anemia,True,0.9999835192226685,Anemia
+1.7b,panel,ddx_test_0127686,Anemia,Anemia,Acute pulmonary edema,Acute pulmonary edema,Anemia,True,0.9895592945745356,Acute pulmonary edema
+1.7b,panel,ddx_test_0118817,Anemia,Anemia,Anemia,Anemia,Anemia,True,0.9999984622140712,Anemia
+1.7b,panel,ddx_test_0080898,Anemia,Anemia,Anemia,Anemia,Anemia,True,0.9999982828421375,Anemia
+1.7b,panel,ddx_test_0119575,Anemia,Anemia,Anemia,Anemia,Anemia,True,0.9997462988081425,Anemia
+1.7b,panel,ddx_test_0130807,Anemia,Anemia,Anemia,Anemia,Anemia,True,0.9999984453136719,Anemia
+1.7b,panel,ddx_test_0080860,Anemia,Anemia,Anemia,Anemia,Anemia,True,0.9999745109688362,Anemia
+1.7b,panel,ddx_test_0111365,Anemia,Anemia,Anemia,Anemia,Anemia,True,0.9999851061251155,Anemia
+1.7b,panel,ddx_test_0026375,Anemia,Anemia,Acute pulmonary edema,Acute pulmonary edema,Anemia,True,0.9866754383167614,Acute pulmonary edema
+1.7b,panel,ddx_test_0003154,Atrial fibrillation,Atrial fibrillation,Acute pulmonary edema,Acute pulmonary edema,Atrial fibrillation,True,0.9972958856314716,Acute pulmonary edema
+1.7b,panel,ddx_test_0040796,Atrial fibrillation,Atrial fibrillation,Acute COPD exacerbation / infection,Acute pulmonary edema,Atrial fibrillation,False,0.5537137663213199,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0055936,Atrial fibrillation,Atrial fibrillation,Acute pulmonary edema,Acute pulmonary edema,Atrial fibrillation,False,0.9990914723545695,Acute pulmonary edema
+1.7b,panel,ddx_test_0039004,Atrial fibrillation,Atrial fibrillation,Acute COPD exacerbation / infection,Acute pulmonary edema,Atrial fibrillation,False,0.9651296009381009,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0064532,Atrial fibrillation,Atrial fibrillation,Acute pulmonary edema,Acute pulmonary edema,Atrial fibrillation,True,0.9927275094479534,Acute pulmonary edema
+1.7b,panel,ddx_test_0124024,Atrial fibrillation,Atrial fibrillation,Acute pulmonary edema,Acute pulmonary edema,Atrial fibrillation,False,0.9990355317780577,Acute pulmonary edema
+1.7b,panel,ddx_test_0096446,Atrial fibrillation,Atrial fibrillation,Acute pulmonary edema,Acute pulmonary edema,Atrial fibrillation,False,0.9973026429581815,Acute pulmonary edema
+1.7b,panel,ddx_test_0126894,Atrial fibrillation,PSVT,Acute COPD exacerbation / infection,HIV (initial infection),Atrial fibrillation,False,0.08013332109858327,Heart failure
+1.7b,panel,ddx_test_0025033,Atrial fibrillation,Atrial fibrillation,Acute pulmonary edema,Acute pulmonary edema,Atrial fibrillation,False,0.9991596402268903,Acute pulmonary edema
+1.7b,panel,ddx_test_0064401,Atrial fibrillation,Atrial fibrillation,Acute pulmonary edema,Acute pulmonary edema,Atrial fibrillation,True,0.9983014716995147,Acute pulmonary edema
+1.7b,panel,ddx_test_0039512,Boerhaave,Boerhaave,Acute COPD exacerbation / infection,Acute pulmonary edema,Boerhaave,False,0.9982918003224694,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0095278,Boerhaave,Atrial fibrillation,Acute COPD exacerbation / infection,Acute pulmonary edema,Boerhaave,False,0.998034147846933,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0054085,Boerhaave,Boerhaave,Acute COPD exacerbation / infection,Acute pulmonary edema,Boerhaave,False,0.9964621490935183,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0134499,Boerhaave,Atrial fibrillation,Acute COPD exacerbation / infection,Acute pulmonary edema,Boerhaave,False,0.9988394447785313,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0052931,Boerhaave,Boerhaave,Acute COPD exacerbation / infection,Acute pulmonary edema,Boerhaave,False,0.9920152141706343,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0041986,Boerhaave,Boerhaave,Acute COPD exacerbation / infection,Acute pulmonary edema,Boerhaave,False,0.9990735029350062,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0122395,Boerhaave,Possible NSTEMI / STEMI,Acute COPD exacerbation / infection,Acute pulmonary edema,Boerhaave,False,0.9946007439120554,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0133734,Boerhaave,Boerhaave,Acute COPD exacerbation / infection,Acute pulmonary edema,Boerhaave,False,0.9953678690980672,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0039950,Boerhaave,Boerhaave,Acute COPD exacerbation / infection,Acute pulmonary edema,Boerhaave,False,0.9985278944749045,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0027545,Boerhaave,Boerhaave,Acute COPD exacerbation / infection,Acute pulmonary edema,Boerhaave,False,0.9955309849854158,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0101459,Bronchitis,URTI,Acute COPD exacerbation / infection,Acute pulmonary edema,Bronchitis,False,0.984205387438304,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0103125,Bronchitis,Bronchitis,Acute COPD exacerbation / infection,Acute pulmonary edema,Bronchitis,False,0.8962125344365017,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0022562,Bronchitis,URTI,Acute COPD exacerbation / infection,Acute pulmonary edema,Acute otitis media,False,0.6150218138321021,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0040234,Bronchitis,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Acute pulmonary edema,Bronchitis,True,0.990900612077811,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0086399,Bronchitis,Bronchitis,Acute COPD exacerbation / infection,Acute pulmonary edema,Bronchitis,False,0.9242826411325216,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0125285,Bronchitis,Bronchitis,Acute COPD exacerbation / infection,Acute pulmonary edema,Bronchitis,True,0.9276032030505258,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0011259,Bronchitis,Bronchitis,Acute COPD exacerbation / infection,Acute pulmonary edema,Bronchitis,False,0.8858870980637509,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0023239,Bronchitis,Pneumonia,Acute COPD exacerbation / infection,Acute pulmonary edema,Bronchitis,True,0.9931000319910886,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0063696,Bronchitis,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Acute pulmonary edema,Bronchitis,True,0.9904769298550394,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0081361,Bronchitis,URTI,Acute COPD exacerbation / infection,Acute pulmonary edema,Bronchitis,True,0.9987312892446666,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0040118,Bronchospasm / acute asthma exacerbation,Bronchitis,Acute COPD exacerbation / infection,Acute pulmonary edema,Bronchospasm / acute asthma exacerbation,False,0.9968239522536543,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0023830,Bronchospasm / acute asthma exacerbation,Bronchitis,Acute COPD exacerbation / infection,Acute pulmonary edema,Bronchospasm / acute asthma exacerbation,False,0.9698956433164755,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0026536,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,Acute COPD exacerbation / infection,Acute pulmonary edema,Bronchospasm / acute asthma exacerbation,False,0.9803031934446507,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0093945,Bronchospasm / acute asthma exacerbation,Bronchitis,Acute COPD exacerbation / infection,Acute pulmonary edema,Bronchospasm / acute asthma exacerbation,False,0.8793238657239776,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0016663,Bronchospasm / acute asthma exacerbation,Bronchitis,Acute COPD exacerbation / infection,Acute pulmonary edema,Bronchospasm / acute asthma exacerbation,False,0.8927817011583649,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0098644,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,Acute COPD exacerbation / infection,Acute pulmonary edema,Bronchospasm / acute asthma exacerbation,True,0.9855298803476734,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0073174,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,Acute COPD exacerbation / infection,Acute pulmonary edema,Bronchospasm / acute asthma exacerbation,True,0.9745766555542431,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0099488,Bronchospasm / acute asthma exacerbation,Bronchitis,Acute COPD exacerbation / infection,Acute pulmonary edema,Bronchospasm / acute asthma exacerbation,False,0.844160849162112,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0127707,Bronchospasm / acute asthma exacerbation,Bronchitis,Acute COPD exacerbation / infection,Acute pulmonary edema,Bronchospasm / acute asthma exacerbation,False,0.9975265208617131,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0030061,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,Acute COPD exacerbation / infection,Acute pulmonary edema,Bronchospasm / acute asthma exacerbation,True,0.9848461641309493,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0036753,Cluster headache,Cluster headache,Acute COPD exacerbation / infection,Acute pulmonary edema,Cluster headache,False,0.9961646229065986,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0086648,Cluster headache,Cluster headache,Acute COPD exacerbation / infection,Acute pulmonary edema,Cluster headache,False,0.9925669479259275,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0082478,Cluster headache,Cluster headache,Acute COPD exacerbation / infection,Acute pulmonary edema,Cluster headache,False,0.9923756527192527,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0068388,Cluster headache,Cluster headache,Acute COPD exacerbation / infection,Acute pulmonary edema,Cluster headache,False,0.9957283148036439,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0025482,Cluster headache,Cluster headache,Acute COPD exacerbation / infection,Acute pulmonary edema,Cluster headache,False,0.9791174439649439,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0035691,Cluster headache,Cluster headache,Acute COPD exacerbation / infection,Acute pulmonary edema,Cluster headache,False,0.9890631822907452,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0054676,Cluster headache,Cluster headache,Acute COPD exacerbation / infection,Acute pulmonary edema,Cluster headache,False,0.9956706538792724,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0113139,Cluster headache,Cluster headache,Acute COPD exacerbation / infection,Acute pulmonary edema,Pericarditis,False,0.9753251930565778,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0119740,Cluster headache,Cluster headache,Acute COPD exacerbation / infection,Acute pulmonary edema,Cluster headache,False,0.9959494418390015,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0003293,Cluster headache,Cluster headache,Acute COPD exacerbation / infection,Acute pulmonary edema,Cluster headache,False,0.9970922975840507,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0042655,GERD,Bronchitis,Acute COPD exacerbation / infection,Acute pulmonary edema,GERD,False,0.8504516336650072,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0099480,GERD,GERD,Acute COPD exacerbation / infection,Acute pulmonary edema,GERD,False,0.8495246797531448,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0031727,GERD,Bronchitis,Acute COPD exacerbation / infection,Acute pulmonary edema,Acute otitis media,False,0.7674370304172117,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0096599,GERD,GERD,Acute COPD exacerbation / infection,Acute pulmonary edema,GERD,False,0.9949678090083578,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0130374,GERD,GERD,Acute COPD exacerbation / infection,Acute pulmonary edema,GERD,False,0.954192663422329,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0110937,GERD,GERD,Acute COPD exacerbation / infection,Acute pulmonary edema,GERD,False,0.9944772147757373,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0096064,GERD,Bronchitis,Acute COPD exacerbation / infection,Acute pulmonary edema,GERD,False,0.6659108765520604,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0060870,GERD,GERD,Acute COPD exacerbation / infection,Acute pulmonary edema,GERD,False,0.8954812217551001,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0082536,GERD,Bronchitis,Acute COPD exacerbation / infection,Acute pulmonary edema,Pericarditis,False,0.9914527250819247,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0087432,GERD,GERD,Acute COPD exacerbation / infection,Acute pulmonary edema,GERD,False,0.4223298713708244,Acute bronchiolitis
+1.7b,panel,ddx_test_0070101,Guillain-Barré syndrome,Guillain-Barré syndrome,Acute pulmonary edema,Acute pulmonary edema,Guillain-Barré syndrome,True,0.9989404689238235,Acute pulmonary edema
+1.7b,panel,ddx_test_0005381,Guillain-Barré syndrome,Guillain-Barré syndrome,Acute pulmonary edema,Acute pulmonary edema,Guillain-Barré syndrome,True,0.9993233761030826,Acute pulmonary edema
+1.7b,panel,ddx_test_0074388,Guillain-Barré syndrome,Guillain-Barré syndrome,Acute COPD exacerbation / infection,Acute pulmonary edema,Myasthenia gravis,False,0.9987472535587344,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0001596,Guillain-Barré syndrome,Guillain-Barré syndrome,Acute pulmonary edema,Acute pulmonary edema,Guillain-Barré syndrome,True,0.9989943410640185,Acute pulmonary edema
+1.7b,panel,ddx_test_0066496,Guillain-Barré syndrome,Guillain-Barré syndrome,Acute pulmonary edema,Acute pulmonary edema,Guillain-Barré syndrome,False,0.9992803617494016,Acute pulmonary edema
+1.7b,panel,ddx_test_0041271,Guillain-Barré syndrome,Guillain-Barré syndrome,Acute pulmonary edema,Acute pulmonary edema,Guillain-Barré syndrome,True,0.9994104578046705,Acute pulmonary edema
+1.7b,panel,ddx_test_0084728,Guillain-Barré syndrome,Guillain-Barré syndrome,Acute pulmonary edema,Acute pulmonary edema,Guillain-Barré syndrome,False,0.9993128319697603,Acute pulmonary edema
+1.7b,panel,ddx_test_0096284,Guillain-Barré syndrome,Guillain-Barré syndrome,Acute COPD exacerbation / infection,Acute pulmonary edema,Myasthenia gravis,False,0.999253208038648,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0123741,Guillain-Barré syndrome,Guillain-Barré syndrome,Acute pulmonary edema,Acute pulmonary edema,Guillain-Barré syndrome,True,0.9987968244417539,Acute pulmonary edema
+1.7b,panel,ddx_test_0016339,Guillain-Barré syndrome,Guillain-Barré syndrome,Acute pulmonary edema,Acute pulmonary edema,Guillain-Barré syndrome,True,0.9990763803466354,Acute pulmonary edema
+1.7b,panel,ddx_test_0123927,HIV (initial infection),HIV (initial infection),Acute pulmonary edema,Acute pulmonary edema,HIV (initial infection),False,0.9659073690224248,Acute pulmonary edema
+1.7b,panel,ddx_test_0008416,HIV (initial infection),HIV (initial infection),Acute pulmonary edema,Acute pulmonary edema,HIV (initial infection),False,0.9518691343452577,Acute pulmonary edema
+1.7b,panel,ddx_test_0134121,HIV (initial infection),HIV (initial infection),Acute COPD exacerbation / infection,Acute pulmonary edema,URTI,False,0.9833460888249886,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0038565,HIV (initial infection),HIV (initial infection),Acute pulmonary edema,Acute pulmonary edema,HIV (initial infection),False,0.9767071483769248,Acute pulmonary edema
+1.7b,panel,ddx_test_0104892,HIV (initial infection),HIV (initial infection),Acute pulmonary edema,Acute pulmonary edema,HIV (initial infection),False,0.9651368715548065,Acute pulmonary edema
+1.7b,panel,ddx_test_0085284,HIV (initial infection),HIV (initial infection),Acute pulmonary edema,Acute pulmonary edema,HIV (initial infection),False,0.972403998716533,Acute pulmonary edema
+1.7b,panel,ddx_test_0083304,HIV (initial infection),HIV (initial infection),Acute rhinosinusitis,Acute pulmonary edema,HIV (initial infection),False,0.9516797392123847,Acute rhinosinusitis
+1.7b,panel,ddx_test_0044982,HIV (initial infection),HIV (initial infection),Acute COPD exacerbation / infection,Acute pulmonary edema,HIV (initial infection),False,0.9395868485042,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0059147,HIV (initial infection),HIV (initial infection),Acute COPD exacerbation / infection,Acute pulmonary edema,HIV (initial infection),False,0.9536443511943239,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0016308,HIV (initial infection),HIV (initial infection),Acute COPD exacerbation / infection,Acute pulmonary edema,HIV (initial infection),False,0.7895556011739691,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0102786,Inguinal hernia,Inguinal hernia,Acute pulmonary edema,Acute pulmonary edema,Inguinal hernia,False,0.928586665745906,Acute pulmonary edema
+1.7b,panel,ddx_test_0051746,Inguinal hernia,Inguinal hernia,Acute pulmonary edema,Acute pulmonary edema,Inguinal hernia,False,0.5307504252489992,Acute bronchiolitis
+1.7b,panel,ddx_test_0125852,Inguinal hernia,Inguinal hernia,Acute COPD exacerbation / infection,Acute pulmonary edema,Inguinal hernia,False,0.17385584812165927,Acute bronchiolitis
+1.7b,panel,ddx_test_0133877,Inguinal hernia,Inguinal hernia,Acute pulmonary edema,Acute pulmonary edema,Inguinal hernia,False,0.9371260524981976,Acute pulmonary edema
+1.7b,panel,ddx_test_0100064,Inguinal hernia,Bronchitis,Acute COPD exacerbation / infection,Acute pulmonary edema,Inguinal hernia,False,0.21735232863940587,Acute bronchiolitis
+1.7b,panel,ddx_test_0080445,Inguinal hernia,Inguinal hernia,Acute pulmonary edema,Acute pulmonary edema,Inguinal hernia,False,0.9847146533689823,Acute pulmonary edema
+1.7b,panel,ddx_test_0119321,Inguinal hernia,Inguinal hernia,Acute laryngitis,Acute pulmonary edema,Inguinal hernia,False,0.15013157817815867,Acute bronchiolitis
+1.7b,panel,ddx_test_0067790,Inguinal hernia,Inguinal hernia,Acute pulmonary edema,Acute pulmonary edema,Inguinal hernia,False,0.27202256941354086,Acute bronchiolitis
+1.7b,panel,ddx_test_0044306,Inguinal hernia,Inguinal hernia,Acute COPD exacerbation / infection,Acute pulmonary edema,Inguinal hernia,False,0.6524269101453052,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0087923,Inguinal hernia,Inguinal hernia,Acute COPD exacerbation / infection,Acute pulmonary edema,Inguinal hernia,False,0.7589728760253153,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0011169,Myasthenia gravis,Myasthenia gravis,Acute COPD exacerbation / infection,Acute pulmonary edema,Myasthenia gravis,False,0.6651898394594111,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0080557,Myasthenia gravis,Myasthenia gravis,Acute pulmonary edema,Acute pulmonary edema,Myasthenia gravis,True,0.9763325497408588,Acute pulmonary edema
+1.7b,panel,ddx_test_0130080,Myasthenia gravis,Myasthenia gravis,Acute pulmonary edema,Acute pulmonary edema,Myasthenia gravis,True,0.5833260146769775,Acute bronchiolitis
+1.7b,panel,ddx_test_0075256,Myasthenia gravis,Myasthenia gravis,Acute COPD exacerbation / infection,Acute pulmonary edema,Myasthenia gravis,False,0.8569210699154394,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0098308,Myasthenia gravis,Myasthenia gravis,Acute pulmonary edema,Acute pulmonary edema,Myasthenia gravis,True,0.6497084086921103,Acute pulmonary edema
+1.7b,panel,ddx_test_0064516,Myasthenia gravis,Myasthenia gravis,Acute COPD exacerbation / infection,Acute pulmonary edema,Myasthenia gravis,False,0.877744946528312,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0117011,Myasthenia gravis,Myasthenia gravis,Acute COPD exacerbation / infection,Acute pulmonary edema,Myasthenia gravis,False,0.9113667015429564,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0071154,Myasthenia gravis,Myocarditis,Acute COPD exacerbation / infection,Acute pulmonary edema,Myasthenia gravis,False,0.9853235526031431,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0001040,Myasthenia gravis,Myasthenia gravis,Acute COPD exacerbation / infection,Acute pulmonary edema,Myasthenia gravis,False,0.9960329665802772,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0076263,Myasthenia gravis,Myasthenia gravis,Acute COPD exacerbation / infection,Acute pulmonary edema,Myasthenia gravis,False,0.7193354107849826,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0057776,Pancreatic neoplasm,Bronchitis,Acute COPD exacerbation / infection,Acute pulmonary edema,Pancreatic neoplasm,False,0.9805670436916337,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0114059,Pancreatic neoplasm,Pancreatic neoplasm,Acute COPD exacerbation / infection,Acute pulmonary edema,Pancreatic neoplasm,False,0.9839448713053351,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0075635,Pancreatic neoplasm,Pancreatic neoplasm,Acute COPD exacerbation / infection,Acute pulmonary edema,Anemia,False,0.9992180902940252,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0074142,Pancreatic neoplasm,Pancreatic neoplasm,Acute COPD exacerbation / infection,Acute pulmonary edema,Pancreatic neoplasm,False,0.9918338450114151,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0071097,Pancreatic neoplasm,Pancreatic neoplasm,Acute COPD exacerbation / infection,Acute pulmonary edema,Pancreatic neoplasm,False,0.9717562623700639,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0038692,Pancreatic neoplasm,Possible NSTEMI / STEMI,Acute COPD exacerbation / infection,Acute pulmonary edema,Pancreatic neoplasm,False,0.9938350613865155,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0120169,Pancreatic neoplasm,Pancreatic neoplasm,Acute COPD exacerbation / infection,Acute pulmonary edema,Pancreatic neoplasm,False,0.9810125333098436,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0080218,Pancreatic neoplasm,Pancreatic neoplasm,Acute COPD exacerbation / infection,Acute pulmonary edema,Pancreatic neoplasm,False,0.9477033591893034,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0101076,Pancreatic neoplasm,Pancreatic neoplasm,Acute COPD exacerbation / infection,Acute pulmonary edema,Pancreatic neoplasm,False,0.982216153522676,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0007283,Pancreatic neoplasm,Pancreatic neoplasm,Acute COPD exacerbation / infection,Acute pulmonary edema,Pancreatic neoplasm,False,0.9929421173066154,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0046674,Pericarditis,Pericarditis,Acute COPD exacerbation / infection,Acute pulmonary edema,Pericarditis,False,0.9953061428828163,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0046860,Pericarditis,Pericarditis,Acute COPD exacerbation / infection,Acute pulmonary edema,Pericarditis,False,0.9978951473920916,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0077574,Pericarditis,Pericarditis,Pericarditis,Pericarditis,Pericarditis,True,0.9977204335122417,Pericarditis
+1.7b,panel,ddx_test_0015722,Pericarditis,Possible NSTEMI / STEMI,Acute COPD exacerbation / infection,Acute pulmonary edema,Pericarditis,False,0.9972331907794483,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0100532,Pericarditis,Pericarditis,Acute COPD exacerbation / infection,Acute pulmonary edema,Pericarditis,False,0.9944360136623419,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0034344,Pericarditis,Possible NSTEMI / STEMI,Pericarditis,Pericarditis,Pericarditis,True,0.7469454194257178,Pericarditis
+1.7b,panel,ddx_test_0013783,Pericarditis,Possible NSTEMI / STEMI,Acute COPD exacerbation / infection,Pericarditis,Pericarditis,False,0.9235306130803125,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0058416,Pericarditis,Pericarditis,Acute COPD exacerbation / infection,Acute pulmonary edema,Pericarditis,False,0.9906038875635139,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0007937,Pericarditis,Possible NSTEMI / STEMI,Pericarditis,Pericarditis,Pericarditis,True,0.7880681915454943,Pericarditis
+1.7b,panel,ddx_test_0051879,Pericarditis,Pericarditis,Acute COPD exacerbation / infection,Acute pulmonary edema,Pericarditis,False,0.9946597614837956,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0082088,Pneumonia,Bronchitis,Acute pulmonary edema,Acute pulmonary edema,Pneumonia,False,0.9845900872173902,Acute pulmonary edema
+1.7b,panel,ddx_test_0012516,Pneumonia,Bronchitis,Pneumonia,Pneumonia,Pneumonia,True,0.972291484725175,Pneumonia
+1.7b,panel,ddx_test_0084913,Pneumonia,Bronchitis,Acute pulmonary edema,Acute pulmonary edema,Pneumonia,False,0.9723106332188993,Acute pulmonary edema
+1.7b,panel,ddx_test_0071108,Pneumonia,Pneumonia,Acute pulmonary edema,Acute pulmonary edema,Pneumonia,False,0.9945544353354469,Acute pulmonary edema
+1.7b,panel,ddx_test_0023782,Pneumonia,Bronchitis,Acute pulmonary edema,Acute pulmonary edema,Pneumonia,False,0.9884056113260483,Acute pulmonary edema
+1.7b,panel,ddx_test_0092977,Pneumonia,Pneumonia,Acute pulmonary edema,Acute pulmonary edema,Pneumonia,False,0.9916415678117583,Acute pulmonary edema
+1.7b,panel,ddx_test_0015632,Pneumonia,Bronchitis,Acute COPD exacerbation / infection,Acute pulmonary edema,Pneumonia,False,0.9808181453017357,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0115846,Pneumonia,Pneumonia,Acute COPD exacerbation / infection,Acute pulmonary edema,Bronchitis,False,0.9844916890428816,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0034896,Pneumonia,Pneumonia,Acute pulmonary edema,Acute pulmonary edema,Pneumonia,False,0.9928197693305845,Acute pulmonary edema
+1.7b,panel,ddx_test_0127212,Pneumonia,Pneumonia,Acute pulmonary edema,Acute pulmonary edema,Pneumonia,False,0.989373997091228,Acute pulmonary edema
+1.7b,panel,ddx_test_0081104,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Acute COPD exacerbation / infection,Acute pulmonary edema,Possible NSTEMI / STEMI,False,0.9945435421867127,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0053572,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Acute COPD exacerbation / infection,HIV (initial infection),Possible NSTEMI / STEMI,False,0.9975733474003836,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0054422,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Acute COPD exacerbation / infection,Acute pulmonary edema,Possible NSTEMI / STEMI,False,0.99700700039981,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0026337,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Acute COPD exacerbation / infection,Acute pulmonary edema,Possible NSTEMI / STEMI,False,0.9992468177360839,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0077633,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Acute COPD exacerbation / infection,Acute pulmonary edema,Possible NSTEMI / STEMI,False,0.9958792020322441,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0001290,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Acute COPD exacerbation / infection,Acute pulmonary edema,Possible NSTEMI / STEMI,False,0.9991710717145154,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0126796,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Acute COPD exacerbation / infection,Acute pulmonary edema,Possible NSTEMI / STEMI,False,0.9989584340011609,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0067476,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Acute COPD exacerbation / infection,Acute pulmonary edema,Possible NSTEMI / STEMI,False,0.9976108102476188,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0118474,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Acute COPD exacerbation / infection,Acute pulmonary edema,Possible NSTEMI / STEMI,False,0.9992219772941693,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0084154,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Acute COPD exacerbation / infection,Acute pulmonary edema,Possible NSTEMI / STEMI,False,0.9983203700982948,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0013493,Pulmonary embolism,Pulmonary embolism,Acute COPD exacerbation / infection,Acute pulmonary edema,Pulmonary embolism,False,0.9985697989332544,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0086293,Pulmonary embolism,Pulmonary embolism,Acute COPD exacerbation / infection,Acute pulmonary edema,Pulmonary embolism,False,0.9977586545283179,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0014935,Pulmonary embolism,Pulmonary embolism,Acute COPD exacerbation / infection,Acute pulmonary edema,Pulmonary embolism,False,0.9995856889206571,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0082329,Pulmonary embolism,Pulmonary embolism,Acute COPD exacerbation / infection,Acute pulmonary edema,Pulmonary embolism,False,0.9980993092055078,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0040985,Pulmonary embolism,Pulmonary embolism,Acute COPD exacerbation / infection,Acute pulmonary edema,Pulmonary embolism,False,0.9986466258354969,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0112279,Pulmonary embolism,Pulmonary embolism,Acute COPD exacerbation / infection,Acute pulmonary edema,Pulmonary embolism,False,0.999237472392803,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0082813,Pulmonary embolism,Pulmonary embolism,Acute COPD exacerbation / infection,Acute pulmonary edema,Pulmonary embolism,False,0.9991225409558837,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0054695,Pulmonary embolism,Pulmonary embolism,Acute COPD exacerbation / infection,Acute pulmonary edema,Pulmonary embolism,False,0.9940306688443658,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0098425,Pulmonary embolism,Pulmonary embolism,Acute pulmonary edema,Acute pulmonary edema,Pulmonary embolism,True,0.9973519290846297,Acute pulmonary edema
+1.7b,panel,ddx_test_0117705,Pulmonary embolism,Pulmonary embolism,Acute COPD exacerbation / infection,Acute pulmonary edema,Pulmonary embolism,False,0.9919063452554722,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0059125,SLE,SLE,Acute pulmonary edema,Acute pulmonary edema,Pericarditis,False,0.957762935086618,Acute pulmonary edema
+1.7b,panel,ddx_test_0064244,SLE,SLE,Acute laryngitis,Acute otitis media,SLE,False,0.8583067104881645,Acute laryngitis
+1.7b,panel,ddx_test_0027091,SLE,SLE,Acute rhinosinusitis,Acute otitis media,SLE,False,0.6750530962330565,Acute bronchiolitis
+1.7b,panel,ddx_test_0090670,SLE,SLE,Acute laryngitis,Acute otitis media,SLE,False,0.8768309042682914,Acute laryngitis
+1.7b,panel,ddx_test_0011058,SLE,Pulmonary embolism,Acute pulmonary edema,Acute pulmonary edema,Pericarditis,False,0.9613037655507148,Acute pulmonary edema
+1.7b,panel,ddx_test_0072770,SLE,SLE,Acute laryngitis,Pneumonia,SLE,False,0.8414467825601877,Acute laryngitis
+1.7b,panel,ddx_test_0072851,SLE,SLE,Acute COPD exacerbation / infection,Acute pulmonary edema,SLE,True,0.9215794549245973,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0072811,SLE,SLE,Acute laryngitis,Acute otitis media,SLE,False,0.984600357298542,Acute laryngitis
+1.7b,panel,ddx_test_0121423,SLE,Possible NSTEMI / STEMI,Acute COPD exacerbation / infection,Acute pulmonary edema,SLE,False,0.9956685631995239,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0050613,SLE,Possible NSTEMI / STEMI,Acute COPD exacerbation / infection,Acute pulmonary edema,SLE,False,0.9951801447926507,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0132217,Spontaneous pneumothorax,Unstable angina,Acute COPD exacerbation / infection,Acute pulmonary edema,GERD,False,0.26786819659203875,Do you have chest pain even at rest?
+1.7b,panel,ddx_test_0091997,Spontaneous pneumothorax,Unstable angina,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,True,0.9999669942839028,Spontaneous pneumothorax
+1.7b,panel,ddx_test_0106969,Spontaneous pneumothorax,Pulmonary embolism,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,True,0.9999700828271563,Spontaneous pneumothorax
+1.7b,panel,ddx_test_0076349,Spontaneous pneumothorax,Unstable angina,Acute COPD exacerbation / infection,Acute pulmonary edema,Spontaneous pneumothorax,False,0.9972594834214455,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0062785,Spontaneous pneumothorax,Unstable angina,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,True,0.9992073607191876,Spontaneous pneumothorax
+1.7b,panel,ddx_test_0029157,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,True,0.9999665078679332,Spontaneous pneumothorax
+1.7b,panel,ddx_test_0133207,Spontaneous pneumothorax,Possible NSTEMI / STEMI,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,True,0.9999580439357891,Spontaneous pneumothorax
+1.7b,panel,ddx_test_0071970,Spontaneous pneumothorax,Unstable angina,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,True,0.9986494041566543,Spontaneous pneumothorax
+1.7b,panel,ddx_test_0012967,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,True,0.9999736627829499,Spontaneous pneumothorax
+1.7b,panel,ddx_test_0067379,Spontaneous pneumothorax,Unstable angina,Acute COPD exacerbation / infection,Spontaneous pneumothorax,Spontaneous pneumothorax,False,0.9983271165712797,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0048251,Stable angina,Unstable angina,Acute COPD exacerbation / infection,Acute pulmonary edema,Stable angina,False,0.9938971020494994,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0019361,Stable angina,Unstable angina,Acute COPD exacerbation / infection,Acute pulmonary edema,Stable angina,False,0.9905859765387739,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0050521,Stable angina,Unstable angina,Acute COPD exacerbation / infection,Acute pulmonary edema,Stable angina,False,0.9972340910041918,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0134430,Stable angina,Possible NSTEMI / STEMI,Acute COPD exacerbation / infection,Acute pulmonary edema,Stable angina,False,0.9890542648515656,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0095440,Stable angina,Unstable angina,Acute COPD exacerbation / infection,Acute pulmonary edema,Stable angina,False,0.9936602757236725,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0041757,Stable angina,Possible NSTEMI / STEMI,Acute COPD exacerbation / infection,Acute pulmonary edema,Stable angina,False,0.9966533949529215,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0053598,Stable angina,Possible NSTEMI / STEMI,Acute COPD exacerbation / infection,Acute pulmonary edema,Stable angina,False,0.9953345742574766,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0119478,Stable angina,Unstable angina,Acute COPD exacerbation / infection,Acute pulmonary edema,Stable angina,False,0.9914181489871723,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0078232,Stable angina,Unstable angina,Acute COPD exacerbation / infection,Acute pulmonary edema,Stable angina,False,0.9932523878848435,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0095606,Stable angina,Possible NSTEMI / STEMI,Acute COPD exacerbation / infection,Acute pulmonary edema,Possible NSTEMI / STEMI,False,0.9962743415366212,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0069681,URTI,Bronchitis,Acute COPD exacerbation / infection,Acute pulmonary edema,URTI,False,0.9915365897042513,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0077896,URTI,URTI,Acute COPD exacerbation / infection,Acute pulmonary edema,URTI,False,0.9934739859346202,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0036817,URTI,URTI,Acute COPD exacerbation / infection,Acute otitis media,URTI,False,0.9883830407772716,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0118938,URTI,URTI,Acute COPD exacerbation / infection,Acute pulmonary edema,URTI,False,0.9742140878299831,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0077681,URTI,Bronchitis,Acute COPD exacerbation / infection,Acute pulmonary edema,URTI,False,0.9726579064407465,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0045551,URTI,URTI,Acute COPD exacerbation / infection,Acute pulmonary edema,URTI,False,0.9638588969924533,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0083559,URTI,URTI,Acute COPD exacerbation / infection,Acute pulmonary edema,URTI,False,0.9891117219541715,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0025922,URTI,URTI,Acute COPD exacerbation / infection,Acute pulmonary edema,URTI,False,0.993284818604312,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0027856,URTI,URTI,Acute COPD exacerbation / infection,Acute pulmonary edema,URTI,False,0.9827161605068833,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0088020,URTI,Bronchitis,Acute COPD exacerbation / infection,Acute pulmonary edema,URTI,False,0.9706549026836404,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0098383,Viral pharyngitis,Viral pharyngitis,Acute COPD exacerbation / infection,Acute pulmonary edema,Viral pharyngitis,False,0.9810709002133322,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0118573,Viral pharyngitis,Viral pharyngitis,Acute COPD exacerbation / infection,Acute pulmonary edema,Viral pharyngitis,False,0.9738689292481462,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0105824,Viral pharyngitis,Viral pharyngitis,Acute COPD exacerbation / infection,Acute pulmonary edema,URTI,False,0.9302715624812351,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0043443,Viral pharyngitis,Viral pharyngitis,Acute COPD exacerbation / infection,Acute pulmonary edema,Viral pharyngitis,False,0.9751818423319852,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0005743,Viral pharyngitis,Viral pharyngitis,Acute COPD exacerbation / infection,Acute pulmonary edema,Viral pharyngitis,False,0.9356425921467909,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0008049,Viral pharyngitis,Possible NSTEMI / STEMI,Acute COPD exacerbation / infection,Acute pulmonary edema,Cluster headache,False,0.990480605651316,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0009209,Viral pharyngitis,Viral pharyngitis,Acute COPD exacerbation / infection,Acute pulmonary edema,Viral pharyngitis,False,0.9786747368101438,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0066777,Viral pharyngitis,Possible NSTEMI / STEMI,Acute pulmonary edema,Acute pulmonary edema,Viral pharyngitis,False,0.9781029748641239,Acute pulmonary edema
+1.7b,panel,ddx_test_0129414,Viral pharyngitis,Viral pharyngitis,Acute COPD exacerbation / infection,Acute pulmonary edema,Viral pharyngitis,False,0.9545888542926502,Acute COPD exacerbation / infection
+1.7b,panel,ddx_test_0052214,Viral pharyngitis,Viral pharyngitis,Acute COPD exacerbation / infection,Acute pulmonary edema,Viral pharyngitis,False,0.9487786544200313,Acute COPD exacerbation / infection
+4b,append,ddx_test_0000299,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,True,0.999979300483989,Acute dystonic reactions
+4b,append,ddx_test_0108935,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,True,0.6815969543476678,Acute dystonic reactions
+4b,append,ddx_test_0095484,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,True,0.9524372453043066,Acute dystonic reactions
+4b,append,ddx_test_0026139,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,True,0.9999907017440282,Acute dystonic reactions
+4b,append,ddx_test_0021285,Acute dystonic reactions,Acute dystonic reactions,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,False,0.5662417760895642,Bronchospasm / acute asthma exacerbation
+4b,append,ddx_test_0106937,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,True,0.9999897480849691,Acute dystonic reactions
+4b,append,ddx_test_0011051,Acute dystonic reactions,Acute dystonic reactions,Pneumonia,Pneumonia,Myasthenia gravis,False,0.3133540900104067,Acute bronchospasm / acute asthma exacerbation
+4b,append,ddx_test_0019293,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,True,0.9999846719383247,Acute dystonic reactions
+4b,append,ddx_test_0060868,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,True,0.9999879599723406,Acute dystonic reactions
+4b,append,ddx_test_0130738,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,True,0.9999904633647514,Acute dystonic reactions
+4b,append,ddx_test_0016704,Acute otitis media,Acute otitis media,Acute otitis media,Acute otitis media,Acute otitis media,True,0.9999552201019518,Acute otitis media
+4b,append,ddx_test_0063960,Acute otitis media,Bronchitis,Acute otitis media,Acute otitis media,Acute otitis media,True,0.9998226471905017,Acute otitis media
+4b,append,ddx_test_0128733,Acute otitis media,Acute otitis media,Acute otitis media,Acute otitis media,Acute otitis media,True,0.999970958674983,Acute otitis media
+4b,append,ddx_test_0103348,Acute otitis media,URTI,Acute rhinosinusitis,Acute otitis media,Acute otitis media,False,0.99962219767874,Acute rhinosinusitis
+4b,append,ddx_test_0093573,Acute otitis media,Bronchitis,Acute otitis media,Acute otitis media,Acute otitis media,True,0.9999607928033967,Acute otitis media
+4b,append,ddx_test_0033687,Acute otitis media,Bronchitis,Acute otitis media,Acute otitis media,Acute otitis media,True,0.9999817617411307,Acute otitis media
+4b,append,ddx_test_0004058,Acute otitis media,Bronchitis,Acute otitis media,Acute otitis media,Acute otitis media,True,0.9998764501693235,Acute otitis media
+4b,append,ddx_test_0068842,Acute otitis media,URTI,Acute otitis media,Acute otitis media,Acute otitis media,True,0.9999715149864719,Acute otitis media
+4b,append,ddx_test_0040356,Acute otitis media,Acute otitis media,Acute otitis media,Acute otitis media,Acute otitis media,True,0.9999748473525822,Acute otitis media
+4b,append,ddx_test_0044393,Acute otitis media,URTI,Acute otitis media,Acute otitis media,Acute otitis media,True,0.9999767559627003,Acute otitis media
+4b,append,ddx_test_0127183,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,True,0.9939756872182919,Acute pulmonary edema
+4b,append,ddx_test_0081225,Acute pulmonary edema,Acute pulmonary edema,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Acute pulmonary edema,True,0.9042480543391481,Possible NSTEMI / STEMI
+4b,append,ddx_test_0046757,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,True,0.9908137790907894,Acute pulmonary edema
+4b,append,ddx_test_0110970,Acute pulmonary edema,Possible NSTEMI / STEMI,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,True,0.9988125093705089,Acute pulmonary edema
+4b,append,ddx_test_0026786,Acute pulmonary edema,Acute pulmonary edema,Pulmonary embolism,Pulmonary embolism,Acute pulmonary edema,True,0.7279110307165426,Pulmonary embolism
+4b,append,ddx_test_0085052,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,True,0.9231287369870038,Acute pulmonary edema
+4b,append,ddx_test_0071832,Acute pulmonary edema,Acute pulmonary edema,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Acute pulmonary edema,True,0.9814142016167566,Possible NSTEMI / STEMI
+4b,append,ddx_test_0044412,Acute pulmonary edema,Unstable angina,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Acute pulmonary edema,True,0.9999563900995109,Possible NSTEMI / STEMI
+4b,append,ddx_test_0102977,Acute pulmonary edema,Acute pulmonary edema,Pulmonary embolism,Pulmonary embolism,Acute pulmonary edema,True,0.6226498193672997,Pulmonary embolism
+4b,append,ddx_test_0031775,Acute pulmonary edema,Unstable angina,Pulmonary embolism,Pulmonary embolism,Acute pulmonary edema,False,0.19048889813954933,Pulmonary edema
+4b,append,ddx_test_0110051,Anemia,Anemia,Anemia,Anemia,Anemia,True,0.9999952316664955,Anemia
+4b,append,ddx_test_0118340,Anemia,Anemia,Anemia,Anemia,Anemia,True,0.999996185441266,Anemia
+4b,append,ddx_test_0127686,Anemia,Anemia,Pulmonary embolism,Pulmonary embolism,Anemia,False,0.9999659200624117,Pulmonary embolism
+4b,append,ddx_test_0118817,Anemia,Anemia,Pulmonary embolism,Pulmonary embolism,Anemia,False,0.9999167492523963,Pulmonary embolism
+4b,append,ddx_test_0080898,Anemia,Anemia,Anemia,Anemia,Anemia,True,0.9999969212690041,Anemia
+4b,append,ddx_test_0119575,Anemia,Anemia,Anemia,Anemia,Anemia,True,0.9999960661279577,Anemia
+4b,append,ddx_test_0130807,Anemia,Anemia,Anemia,Anemia,Anemia,True,0.99997403199744,Anemia
+4b,append,ddx_test_0080860,Anemia,Anemia,Anemia,Anemia,Anemia,True,0.999996425656307,Anemia
+4b,append,ddx_test_0111365,Anemia,Anemia,Anemia,Anemia,Anemia,True,0.9999969523587418,Anemia
+4b,append,ddx_test_0026375,Anemia,Anemia,Anemia,Anemia,Anemia,True,0.9999891000419966,Anemia
+4b,append,ddx_test_0003154,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,True,0.9999837044739323,Atrial fibrillation
+4b,append,ddx_test_0040796,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,True,0.9999809406554294,Atrial fibrillation
+4b,append,ddx_test_0055936,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,True,0.9999545360820583,Atrial fibrillation
+4b,append,ddx_test_0039004,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,True,0.9999855159330878,Atrial fibrillation
+4b,append,ddx_test_0064532,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,True,0.9999840327952061,Atrial fibrillation
+4b,append,ddx_test_0124024,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,True,0.9999872782967694,Atrial fibrillation
+4b,append,ddx_test_0096446,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,True,0.9999843883664346,Atrial fibrillation
+4b,append,ddx_test_0126894,Atrial fibrillation,PSVT,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,True,0.9999840417438965,Atrial fibrillation
+4b,append,ddx_test_0025033,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,True,0.9999800738008913,Atrial fibrillation
+4b,append,ddx_test_0064401,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,True,0.9999880557683692,Atrial fibrillation
+4b,append,ddx_test_0039512,Boerhaave,Boerhaave,Pulmonary embolism,Pulmonary embolism,Boerhaave,True,0.9969160879185704,Pulmonary embolism
+4b,append,ddx_test_0095278,Boerhaave,Atrial fibrillation,Pulmonary embolism,Pulmonary embolism,Boerhaave,False,0.9986362456840698,Pulmonary embolism
+4b,append,ddx_test_0054085,Boerhaave,Boerhaave,Pulmonary embolism,Pulmonary embolism,Boerhaave,False,0.9450598813900807,Pulmonary embolism
+4b,append,ddx_test_0134499,Boerhaave,Atrial fibrillation,Pulmonary embolism,Pulmonary embolism,Boerhaave,False,0.9990203339452157,Pulmonary embolism
+4b,append,ddx_test_0052931,Boerhaave,Boerhaave,Pneumonia,Pneumonia,Boerhaave,False,0.9319745882898403,Pneumonia
+4b,append,ddx_test_0041986,Boerhaave,Boerhaave,Pulmonary embolism,Pulmonary embolism,Boerhaave,False,0.9967428899915034,Pulmonary embolism
+4b,append,ddx_test_0122395,Boerhaave,Possible NSTEMI / STEMI,Pneumonia,Pneumonia,Pericarditis,False,0.9976848783141291,Pneumonia
+4b,append,ddx_test_0133734,Boerhaave,Boerhaave,Acute pulmonary edema,Acute pulmonary edema,Boerhaave,False,0.8677546004422146,Pulmonary embolism
+4b,append,ddx_test_0039950,Boerhaave,Boerhaave,Pulmonary embolism,Pulmonary embolism,Boerhaave,False,0.9986999490153501,Pulmonary embolism
+4b,append,ddx_test_0027545,Boerhaave,Boerhaave,Pneumonia,Pneumonia,Boerhaave,False,0.9573950610451133,Pneumonia
+4b,append,ddx_test_0101459,Bronchitis,URTI,Acute rhinosinusitis,Bronchitis,Bronchitis,False,0.9841400123873135,Acute rhinosinusitis
+4b,append,ddx_test_0103125,Bronchitis,Bronchitis,Acute COPD exacerbation / infection,Bronchitis,Bronchitis,False,0.8982058310326536,Acute COPD exacerbation / infection
+4b,append,ddx_test_0022562,Bronchitis,URTI,Pneumonia,Pneumonia,Bronchitis,True,0.9998706298504284,Pneumonia
+4b,append,ddx_test_0040234,Bronchitis,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Acute pulmonary edema,Bronchitis,True,0.999983726482333,Acute COPD exacerbation / infection
+4b,append,ddx_test_0086399,Bronchitis,Bronchitis,Acute COPD exacerbation / infection,Acute pulmonary edema,Bronchitis,False,0.9999202568645149,Acute COPD exacerbation / infection
+4b,append,ddx_test_0125285,Bronchitis,Bronchitis,Acute COPD exacerbation / infection,Bronchitis,Bronchitis,True,0.9999866042175504,Acute COPD exacerbation / infection
+4b,append,ddx_test_0011259,Bronchitis,Bronchitis,Bronchitis,Bronchitis,Bronchitis,True,0.1896356571029097,Acute bronchitis
+4b,append,ddx_test_0023239,Bronchitis,Pneumonia,Acute COPD exacerbation / infection,Pneumonia,Bronchitis,True,0.9999460206581612,Acute COPD exacerbation / infection
+4b,append,ddx_test_0063696,Bronchitis,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Pneumonia,Bronchitis,True,0.9999866856150751,Acute COPD exacerbation / infection
+4b,append,ddx_test_0081361,Bronchitis,URTI,Pneumonia,Pneumonia,Bronchitis,True,0.9996624403386364,Pneumonia
+4b,append,ddx_test_0040118,Bronchospasm / acute asthma exacerbation,Bronchitis,Bronchitis,Bronchitis,Bronchospasm / acute asthma exacerbation,True,0.999674401587821,Bronchitis
+4b,append,ddx_test_0023830,Bronchospasm / acute asthma exacerbation,Bronchitis,Bronchitis,Bronchitis,Bronchospasm / acute asthma exacerbation,True,0.9998442244573497,Bronchitis
+4b,append,ddx_test_0026536,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,Bronchitis,Bronchitis,Bronchospasm / acute asthma exacerbation,True,0.9999820824365133,Bronchitis
+4b,append,ddx_test_0093945,Bronchospasm / acute asthma exacerbation,Bronchitis,Bronchitis,Bronchitis,Bronchospasm / acute asthma exacerbation,True,1.0028703182512422,Bronchitis
+4b,append,ddx_test_0016663,Bronchospasm / acute asthma exacerbation,Bronchitis,Bronchitis,Bronchitis,Bronchospasm / acute asthma exacerbation,True,0.9998434305252333,Bronchitis
+4b,append,ddx_test_0098644,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,Bronchitis,Bronchitis,Bronchospasm / acute asthma exacerbation,True,0.9997490682292162,Bronchitis
+4b,append,ddx_test_0073174,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,Bronchitis,Bronchitis,Bronchospasm / acute asthma exacerbation,True,0.9991744617788636,Bronchitis
+4b,append,ddx_test_0099488,Bronchospasm / acute asthma exacerbation,Bronchitis,Bronchitis,Bronchitis,Bronchospasm / acute asthma exacerbation,True,0.9996790107557874,Bronchitis
+4b,append,ddx_test_0127707,Bronchospasm / acute asthma exacerbation,Bronchitis,Bronchitis,Bronchitis,Bronchospasm / acute asthma exacerbation,True,1.0012206667443113,Bronchitis
+4b,append,ddx_test_0030061,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,Bronchitis,Bronchitis,Bronchospasm / acute asthma exacerbation,True,1.0001383530730774,Bronchitis
+4b,append,ddx_test_0036753,Cluster headache,Cluster headache,Cluster headache,Cluster headache,Cluster headache,True,0.9999948740229943,Cluster headache
+4b,append,ddx_test_0086648,Cluster headache,Cluster headache,Cluster headache,Cluster headache,Cluster headache,True,0.999994397188705,Cluster headache
+4b,append,ddx_test_0082478,Cluster headache,Cluster headache,Cluster headache,Cluster headache,Cluster headache,True,0.9999933243186959,Cluster headache
+4b,append,ddx_test_0068388,Cluster headache,Cluster headache,Cluster headache,Cluster headache,Cluster headache,True,0.9999953508548702,Cluster headache
+4b,append,ddx_test_0025482,Cluster headache,Cluster headache,Cluster headache,Cluster headache,Cluster headache,True,0.999994635606188,Cluster headache
+4b,append,ddx_test_0035691,Cluster headache,Cluster headache,Cluster headache,Cluster headache,Cluster headache,True,0.9999941587736281,Cluster headache
+4b,append,ddx_test_0054676,Cluster headache,Cluster headache,Cluster headache,Cluster headache,Cluster headache,True,0.9999948740226209,Cluster headache
+4b,append,ddx_test_0113139,Cluster headache,Cluster headache,Acute rhinosinusitis,Cluster headache,SLE,False,0.9998446555424998,Acute rhinosinusitis
+4b,append,ddx_test_0119740,Cluster headache,Cluster headache,Cluster headache,Cluster headache,Cluster headache,True,0.999993205112375,Cluster headache
+4b,append,ddx_test_0003293,Cluster headache,Cluster headache,Cluster headache,Cluster headache,Cluster headache,True,0.9999943971899217,Cluster headache
+4b,append,ddx_test_0042655,GERD,Bronchitis,Bronchitis,Bronchitis,GERD,True,1.0005867774799855,Bronchitis
+4b,append,ddx_test_0099480,GERD,GERD,GERD,GERD,GERD,True,0.99926052843139,GERD
+4b,append,ddx_test_0031727,GERD,Bronchitis,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,False,0.992542404589278,Bronchospasm / acute asthma exacerbation
+4b,append,ddx_test_0096599,GERD,GERD,GERD,GERD,GERD,True,0.9995712777910541,GERD
+4b,append,ddx_test_0130374,GERD,GERD,GERD,GERD,GERD,True,0.9996519133208225,GERD
+4b,append,ddx_test_0110937,GERD,GERD,GERD,GERD,GERD,True,0.9993402197215506,GERD
+4b,append,ddx_test_0096064,GERD,Bronchitis,GERD,GERD,GERD,True,0.9961705711103809,GERD
+4b,append,ddx_test_0060870,GERD,GERD,GERD,GERD,GERD,True,0.999641810092039,GERD
+4b,append,ddx_test_0082536,GERD,Bronchitis,GERD,GERD,GERD,True,0.9995212495237831,GERD
+4b,append,ddx_test_0087432,GERD,GERD,GERD,GERD,GERD,True,0.9995482041056742,GERD
+4b,append,ddx_test_0070101,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,True,0.999583880258642,Guillain-Barré syndrome
+4b,append,ddx_test_0005381,Guillain-Barré syndrome,Guillain-Barré syndrome,Pneumonia,Pneumonia,Myasthenia gravis,False,0.9978049177306372,Pneumonia
+4b,append,ddx_test_0074388,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,True,0.9997412530184888,Guillain-Barré syndrome
+4b,append,ddx_test_0001596,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,True,0.9993433277851914,Guillain-Barré syndrome
+4b,append,ddx_test_0066496,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,True,0.9981898915786823,Guillain-Barré syndrome
+4b,append,ddx_test_0041271,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,True,0.999126973107787,Guillain-Barré syndrome
+4b,append,ddx_test_0084728,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,True,0.9997112299335541,Guillain-Barré syndrome
+4b,append,ddx_test_0096284,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,True,0.999617946918282,Guillain-Barré syndrome
+4b,append,ddx_test_0123741,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,True,0.9987029628575607,Guillain-Barré syndrome
+4b,append,ddx_test_0016339,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,True,0.9989803775052457,Guillain-Barré syndrome
+4b,append,ddx_test_0123927,HIV (initial infection),HIV (initial infection),Ebola,HIV (initial infection),HIV (initial infection),False,0.9997675171163174,Ebola
+4b,append,ddx_test_0008416,HIV (initial infection),HIV (initial infection),HIV (initial infection),HIV (initial infection),HIV (initial infection),True,0.9786938447389865,HIV (initial infection)
+4b,append,ddx_test_0134121,HIV (initial infection),HIV (initial infection),HIV (initial infection),HIV (initial infection),HIV (initial infection),True,0.9902763447037599,HIV (initial infection)
+4b,append,ddx_test_0038565,HIV (initial infection),HIV (initial infection),HIV (initial infection),HIV (initial infection),HIV (initial infection),True,0.9847941683117646,HIV (initial infection)
+4b,append,ddx_test_0104892,HIV (initial infection),HIV (initial infection),HIV (initial infection),HIV (initial infection),HIV (initial infection),True,0.9755557544228306,HIV (initial infection)
+4b,append,ddx_test_0085284,HIV (initial infection),HIV (initial infection),HIV (initial infection),HIV (initial infection),HIV (initial infection),True,0.9615072509518746,HIV (initial infection)
+4b,append,ddx_test_0083304,HIV (initial infection),HIV (initial infection),HIV (initial infection),HIV (initial infection),HIV (initial infection),True,0.988997441140873,HIV (initial infection)
+4b,append,ddx_test_0044982,HIV (initial infection),HIV (initial infection),HIV (initial infection),HIV (initial infection),HIV (initial infection),True,0.9847918451653269,HIV (initial infection)
+4b,append,ddx_test_0059147,HIV (initial infection),HIV (initial infection),HIV (initial infection),HIV (initial infection),HIV (initial infection),True,0.9683544814253554,HIV (initial infection)
+4b,append,ddx_test_0016308,HIV (initial infection),HIV (initial infection),Pneumonia,Pneumonia,HIV (initial infection),False,0.9997481066121422,Pneumonia
+4b,append,ddx_test_0102786,Inguinal hernia,Inguinal hernia,Inguinal hernia,Inguinal hernia,Inguinal hernia,True,0.999849394465388,Inguinal hernia
+4b,append,ddx_test_0051746,Inguinal hernia,Inguinal hernia,Pneumonia,Pneumonia,Inguinal hernia,False,0.9955494284861969,Pneumonia
+4b,append,ddx_test_0125852,Inguinal hernia,Inguinal hernia,Inguinal hernia,Inguinal hernia,Inguinal hernia,True,0.9998040248097707,Inguinal hernia
+4b,append,ddx_test_0133877,Inguinal hernia,Inguinal hernia,Inguinal hernia,Inguinal hernia,Inguinal hernia,True,0.9996388719630994,Inguinal hernia
+4b,append,ddx_test_0100064,Inguinal hernia,Bronchitis,Inguinal hernia,Inguinal hernia,Inguinal hernia,True,0.9995783344133223,Inguinal hernia
+4b,append,ddx_test_0080445,Inguinal hernia,Inguinal hernia,Inguinal hernia,Inguinal hernia,Inguinal hernia,True,0.9997084634307417,Inguinal hernia
+4b,append,ddx_test_0119321,Inguinal hernia,Inguinal hernia,Inguinal hernia,Inguinal hernia,Inguinal hernia,True,0.9995066243166192,Inguinal hernia
+4b,append,ddx_test_0067790,Inguinal hernia,Inguinal hernia,Inguinal hernia,Inguinal hernia,Inguinal hernia,True,0.9993453255338447,Inguinal hernia
+4b,append,ddx_test_0044306,Inguinal hernia,Inguinal hernia,Inguinal hernia,Inguinal hernia,Inguinal hernia,True,0.9997600897035441,Inguinal hernia
+4b,append,ddx_test_0087923,Inguinal hernia,Inguinal hernia,Inguinal hernia,Inguinal hernia,Inguinal hernia,True,0.9997887480219294,Inguinal hernia
+4b,append,ddx_test_0011169,Myasthenia gravis,Myasthenia gravis,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,True,0.9994907425518095,Guillain-Barré syndrome
+4b,append,ddx_test_0080557,Myasthenia gravis,Myasthenia gravis,Myasthenia gravis,Myasthenia gravis,Myasthenia gravis,True,0.999963642312266,Myasthenia gravis
+4b,append,ddx_test_0130080,Myasthenia gravis,Myasthenia gravis,Myasthenia gravis,Myasthenia gravis,Myasthenia gravis,True,0.9999876628394175,Myasthenia gravis
+4b,append,ddx_test_0075256,Myasthenia gravis,Myasthenia gravis,Myasthenia gravis,Myasthenia gravis,Myasthenia gravis,True,0.9999323111212953,Myasthenia gravis
+4b,append,ddx_test_0098308,Myasthenia gravis,Myasthenia gravis,Guillain-Barré syndrome,Guillain-Barré syndrome,Myasthenia gravis,True,0.9994661978422685,Guillain-Barré syndrome
+4b,append,ddx_test_0064516,Myasthenia gravis,Myasthenia gravis,Myasthenia gravis,Myasthenia gravis,Myasthenia gravis,True,0.9999920130246933,Myasthenia gravis
+4b,append,ddx_test_0117011,Myasthenia gravis,Myasthenia gravis,Myasthenia gravis,Myasthenia gravis,Myasthenia gravis,True,0.9999881983815445,Myasthenia gravis
+4b,append,ddx_test_0071154,Myasthenia gravis,Myocarditis,Myasthenia gravis,Myasthenia gravis,Myasthenia gravis,True,0.9999887944195087,Myasthenia gravis
+4b,append,ddx_test_0001040,Myasthenia gravis,Myasthenia gravis,Guillain-Barré syndrome,Guillain-Barré syndrome,Myasthenia gravis,True,0.9993672425983505,Guillain-Barré syndrome
+4b,append,ddx_test_0076263,Myasthenia gravis,Myasthenia gravis,Guillain-Barré syndrome,Guillain-Barré syndrome,Myasthenia gravis,True,0.9992543300494654,Guillain-Barré syndrome
+4b,append,ddx_test_0057776,Pancreatic neoplasm,Bronchitis,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,True,0.9811145813180503,Pancreatic neoplasm
+4b,append,ddx_test_0114059,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,True,0.9999630477359327,Pancreatic neoplasm
+4b,append,ddx_test_0075635,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,True,0.9999284696290297,Pancreatic neoplasm
+4b,append,ddx_test_0074142,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,True,0.9999807894405517,Pancreatic neoplasm
+4b,append,ddx_test_0071097,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,True,0.9878329715102463,Pancreatic neoplasm
+4b,append,ddx_test_0038692,Pancreatic neoplasm,Possible NSTEMI / STEMI,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,True,0.9933426288135389,Pancreatic neoplasm
+4b,append,ddx_test_0120169,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,True,0.9999533842610814,Pancreatic neoplasm
+4b,append,ddx_test_0080218,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,True,0.9999912997627844,Pancreatic neoplasm
+4b,append,ddx_test_0101076,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,True,0.9999907053750101,Pancreatic neoplasm
+4b,append,ddx_test_0007283,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,Pancreatic neoplasm,True,0.9999909751730557,Pancreatic neoplasm
+4b,append,ddx_test_0046674,Pericarditis,Pericarditis,Myocarditis,Pericarditis,Pericarditis,False,0.9999950525323646,Myocarditis
+4b,append,ddx_test_0046860,Pericarditis,Pericarditis,Acute pulmonary edema,Acute pulmonary edema,Pericarditis,True,0.879171667640078,Acute pulmonary edema
+4b,append,ddx_test_0077574,Pericarditis,Pericarditis,Pericarditis,Pericarditis,Pericarditis,True,0.9999952196999783,Pericarditis
+4b,append,ddx_test_0015722,Pericarditis,Possible NSTEMI / STEMI,Myocarditis,Pericarditis,Pericarditis,True,0.9998839394081953,Myocarditis
+4b,append,ddx_test_0100532,Pericarditis,Pericarditis,Myocarditis,Pericarditis,Pericarditis,True,0.999995249982289,Myocarditis
+4b,append,ddx_test_0034344,Pericarditis,Possible NSTEMI / STEMI,Myocarditis,Pericarditis,Pericarditis,True,0.9999935102394247,Myocarditis
+4b,append,ddx_test_0013783,Pericarditis,Possible NSTEMI / STEMI,Myocarditis,Pericarditis,Pericarditis,True,0.999995357149765,Myocarditis
+4b,append,ddx_test_0058416,Pericarditis,Pericarditis,Myocarditis,Pericarditis,Pericarditis,True,0.9999949772590546,Myocarditis
+4b,append,ddx_test_0007937,Pericarditis,Possible NSTEMI / STEMI,Pericarditis,Pericarditis,Pericarditis,True,0.9999950578375556,Pericarditis
+4b,append,ddx_test_0051879,Pericarditis,Pericarditis,Myocarditis,Pericarditis,Pericarditis,True,0.9999939922184601,Myocarditis
+4b,append,ddx_test_0082088,Pneumonia,Bronchitis,Pneumonia,Pneumonia,Pneumonia,True,0.9112787078216433,Pneumonia
+4b,append,ddx_test_0012516,Pneumonia,Bronchitis,Pneumonia,Pneumonia,Pneumonia,True,0.9999902983889645,Pneumonia
+4b,append,ddx_test_0084913,Pneumonia,Bronchitis,Pneumonia,Pneumonia,Pneumonia,True,0.9999831197707943,Pneumonia
+4b,append,ddx_test_0071108,Pneumonia,Pneumonia,Pneumonia,Pneumonia,Pneumonia,True,0.9999901627218823,Pneumonia
+4b,append,ddx_test_0023782,Pneumonia,Bronchitis,Pneumonia,Pneumonia,Pneumonia,True,0.9999881718338398,Pneumonia
+4b,append,ddx_test_0092977,Pneumonia,Pneumonia,Pneumonia,Pneumonia,Pneumonia,True,0.9999927958459525,Pneumonia
+4b,append,ddx_test_0015632,Pneumonia,Bronchitis,Pneumonia,Pneumonia,Pneumonia,True,0.9999923168966177,Pneumonia
+4b,append,ddx_test_0115846,Pneumonia,Pneumonia,Pneumonia,Pneumonia,Pneumonia,True,0.9999899428741648,Pneumonia
+4b,append,ddx_test_0034896,Pneumonia,Pneumonia,Pneumonia,Pneumonia,Pneumonia,True,0.9996548576784625,Pneumonia
+4b,append,ddx_test_0127212,Pneumonia,Pneumonia,Pneumonia,Pneumonia,Pneumonia,True,0.9998406926657927,Pneumonia
+4b,append,ddx_test_0081104,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True,0.9999929309508288,Possible NSTEMI / STEMI
+4b,append,ddx_test_0053572,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True,0.9999926893937559,Possible NSTEMI / STEMI
+4b,append,ddx_test_0054422,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Pulmonary embolism,Pulmonary embolism,Stable angina,True,0.9625887126919405,Pulmonary embolism
+4b,append,ddx_test_0026337,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Pulmonary embolism,Pulmonary embolism,Pericarditis,False,0.9821757035282643,Pulmonary embolism
+4b,append,ddx_test_0077633,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True,0.9999897408651318,Possible NSTEMI / STEMI
+4b,append,ddx_test_0001290,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Pneumonia,Pneumonia,Possible NSTEMI / STEMI,False,0.5884834746248022,Pulmonary edema
+4b,append,ddx_test_0126796,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True,0.9999921762761186,Possible NSTEMI / STEMI
+4b,append,ddx_test_0067476,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True,0.9999918030637042,Possible NSTEMI / STEMI
+4b,append,ddx_test_0118474,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Pulmonary embolism,Pulmonary embolism,Possible NSTEMI / STEMI,True,0.9607229024221542,Pulmonary embolism
+4b,append,ddx_test_0084154,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True,0.9999929190179048,Possible NSTEMI / STEMI
+4b,append,ddx_test_0013493,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,True,0.9999892715886931,Pulmonary embolism
+4b,append,ddx_test_0086293,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,True,0.9999916078350071,Pulmonary embolism
+4b,append,ddx_test_0014935,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,True,0.9999905503756877,Pulmonary embolism
+4b,append,ddx_test_0082329,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,True,0.9999892021724,Pulmonary embolism
+4b,append,ddx_test_0040985,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,True,0.9999921435874387,Pulmonary embolism
+4b,append,ddx_test_0112279,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,True,0.9999881407482235,Pulmonary embolism
+4b,append,ddx_test_0082813,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,True,0.9999895766646418,Pulmonary embolism
+4b,append,ddx_test_0054695,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,True,0.9999889415008152,Pulmonary embolism
+4b,append,ddx_test_0098425,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,True,0.9999908231316633,Pulmonary embolism
+4b,append,ddx_test_0117705,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,True,0.9999886624475465,Pulmonary embolism
+4b,append,ddx_test_0059125,SLE,SLE,Acute rhinosinusitis,Pericarditis,SLE,False,0.9998339604148365,Acute rhinosinusitis
+4b,append,ddx_test_0064244,SLE,SLE,Pericarditis,Pericarditis,SLE,False,0.9947234934950586,Pericarditis
+4b,append,ddx_test_0027091,SLE,SLE,Acute rhinosinusitis,Bronchitis,SLE,False,0.9988784921400015,Acute rhinosinusitis
+4b,append,ddx_test_0090670,SLE,SLE,Acute rhinosinusitis,Pericarditis,SLE,False,0.9998639592557731,Acute rhinosinusitis
+4b,append,ddx_test_0011058,SLE,Pulmonary embolism,Acute rhinosinusitis,Pulmonary embolism,SLE,False,0.9997988600287959,Acute rhinosinusitis
+4b,append,ddx_test_0072770,SLE,SLE,Acute rhinosinusitis,Pericarditis,SLE,False,0.9999048260395712,Acute rhinosinusitis
+4b,append,ddx_test_0072851,SLE,SLE,Acute rhinosinusitis,Pericarditis,SLE,False,0.9998143699308651,Acute rhinosinusitis
+4b,append,ddx_test_0072811,SLE,SLE,Acute rhinosinusitis,Pericarditis,SLE,False,0.9999399960228182,Acute rhinosinusitis
+4b,append,ddx_test_0121423,SLE,Possible NSTEMI / STEMI,Acute rhinosinusitis,Bronchitis,SLE,False,0.9997040646725901,Acute rhinosinusitis
+4b,append,ddx_test_0050613,SLE,Possible NSTEMI / STEMI,Acute rhinosinusitis,Bronchitis,SLE,False,0.9997955223414429,Acute rhinosinusitis
+4b,append,ddx_test_0132217,Spontaneous pneumothorax,Unstable angina,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,True,0.9999453903407493,Spontaneous pneumothorax
+4b,append,ddx_test_0091997,Spontaneous pneumothorax,Unstable angina,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,True,0.9999938045541316,Spontaneous pneumothorax
+4b,append,ddx_test_0106969,Spontaneous pneumothorax,Pulmonary embolism,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,True,0.9999942781121728,Spontaneous pneumothorax
+4b,append,ddx_test_0076349,Spontaneous pneumothorax,Unstable angina,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,True,0.9999809064326763,Spontaneous pneumothorax
+4b,append,ddx_test_0062785,Spontaneous pneumothorax,Unstable angina,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,True,0.9999951139836992,Spontaneous pneumothorax
+4b,append,ddx_test_0029157,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,True,0.9999943986325827,Spontaneous pneumothorax
+4b,append,ddx_test_0133207,Spontaneous pneumothorax,Possible NSTEMI / STEMI,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,True,0.9999935628172851,Spontaneous pneumothorax
+4b,append,ddx_test_0071970,Spontaneous pneumothorax,Unstable angina,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,True,0.9999931923263942,Spontaneous pneumothorax
+4b,append,ddx_test_0012967,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,True,0.9999923739821126,Spontaneous pneumothorax
+4b,append,ddx_test_0067379,Spontaneous pneumothorax,Unstable angina,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,True,0.9999941719556511,Spontaneous pneumothorax
+4b,append,ddx_test_0048251,Stable angina,Unstable angina,Unstable angina,Pulmonary embolism,Stable angina,True,0.9982029887699234,Unstable angina
+4b,append,ddx_test_0019361,Stable angina,Unstable angina,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Stable angina,True,0.9999769967515503,Possible NSTEMI / STEMI
+4b,append,ddx_test_0050521,Stable angina,Unstable angina,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True,0.9999905329131709,Possible NSTEMI / STEMI
+4b,append,ddx_test_0134430,Stable angina,Possible NSTEMI / STEMI,Unstable angina,Possible NSTEMI / STEMI,Stable angina,True,0.9999911199455701,Unstable angina
+4b,append,ddx_test_0095440,Stable angina,Unstable angina,Unstable angina,Possible NSTEMI / STEMI,Stable angina,True,0.9999915324895605,Unstable angina
+4b,append,ddx_test_0041757,Stable angina,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Stable angina,True,0.9999727197535829,Possible NSTEMI / STEMI
+4b,append,ddx_test_0053598,Stable angina,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True,0.999991072774904,Possible NSTEMI / STEMI
+4b,append,ddx_test_0119478,Stable angina,Unstable angina,Unstable angina,Possible NSTEMI / STEMI,Stable angina,True,0.9999917305791998,Unstable angina
+4b,append,ddx_test_0078232,Stable angina,Unstable angina,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,True,0.9999922466554573,Possible NSTEMI / STEMI
+4b,append,ddx_test_0095606,Stable angina,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Possible NSTEMI / STEMI,Stable angina,True,0.9999916943032509,Possible NSTEMI / STEMI
+4b,append,ddx_test_0069681,URTI,Bronchitis,Influenza,Pneumonia,URTI,True,0.9998477099172964,Influenza
+4b,append,ddx_test_0077896,URTI,URTI,Influenza,Pneumonia,URTI,True,0.9998545155629072,Influenza
+4b,append,ddx_test_0036817,URTI,URTI,Acute rhinosinusitis,Viral pharyngitis,URTI,False,0.9987566221776799,Acute rhinosinusitis
+4b,append,ddx_test_0118938,URTI,URTI,Influenza,Viral pharyngitis,URTI,True,0.9990571219082026,Influenza
+4b,append,ddx_test_0077681,URTI,Bronchitis,Influenza,Pneumonia,URTI,True,0.999745994482649,Influenza
+4b,append,ddx_test_0045551,URTI,URTI,Acute rhinosinusitis,Viral pharyngitis,URTI,True,0.9981539316494649,Acute rhinosinusitis
+4b,append,ddx_test_0083559,URTI,URTI,Influenza,URTI,URTI,True,0.9898158632935318,Influenza
+4b,append,ddx_test_0025922,URTI,URTI,Acute rhinosinusitis,Viral pharyngitis,URTI,False,0.9969114894649649,Acute rhinosinusitis
+4b,append,ddx_test_0027856,URTI,URTI,Influenza,URTI,URTI,True,0.9999106731809819,Influenza
+4b,append,ddx_test_0088020,URTI,Bronchitis,Acute rhinosinusitis,URTI,URTI,True,0.960425994962536,Acute rhinosinusitis
+4b,append,ddx_test_0098383,Viral pharyngitis,Viral pharyngitis,Viral pharyngitis,Viral pharyngitis,Viral pharyngitis,True,0.9963372203738258,Viral pharyngitis
+4b,append,ddx_test_0118573,Viral pharyngitis,Viral pharyngitis,Acute rhinosinusitis,Viral pharyngitis,Viral pharyngitis,False,0.9997853006919561,Acute rhinosinusitis
+4b,append,ddx_test_0105824,Viral pharyngitis,Viral pharyngitis,Viral pharyngitis,Viral pharyngitis,Viral pharyngitis,True,0.9929765718479387,Viral pharyngitis
+4b,append,ddx_test_0043443,Viral pharyngitis,Viral pharyngitis,Viral pharyngitis,Viral pharyngitis,Viral pharyngitis,True,0.9993280680591123,Viral pharyngitis
+4b,append,ddx_test_0005743,Viral pharyngitis,Viral pharyngitis,Acute rhinosinusitis,URTI,URTI,False,0.9998617155682289,Acute rhinosinusitis
+4b,append,ddx_test_0008049,Viral pharyngitis,Possible NSTEMI / STEMI,Viral pharyngitis,Viral pharyngitis,Viral pharyngitis,True,0.999199227095538,Viral pharyngitis
+4b,append,ddx_test_0009209,Viral pharyngitis,Viral pharyngitis,Pneumonia,Pneumonia,Pneumonia,False,0.9998787016804305,Pneumonia
+4b,append,ddx_test_0066777,Viral pharyngitis,Possible NSTEMI / STEMI,Viral pharyngitis,Viral pharyngitis,Viral pharyngitis,True,0.9983476420387101,Viral pharyngitis
+4b,append,ddx_test_0129414,Viral pharyngitis,Viral pharyngitis,Acute rhinosinusitis,Pneumonia,Viral pharyngitis,False,0.9993888668922101,Acute rhinosinusitis
+4b,append,ddx_test_0052214,Viral pharyngitis,Viral pharyngitis,Acute rhinosinusitis,Pneumonia,Viral pharyngitis,False,0.9997180101973561,Acute rhinosinusitis

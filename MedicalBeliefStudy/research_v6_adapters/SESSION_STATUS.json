@@ -1,0 +1,299 @@
+{
+  "stage": "COMPLETE:22development configurations;6000originalconfirmation+800matchedcontrol;144+24pairedtimings;24cases147prefixes882trajectoryobservations;allreports,prototypeandvalidationdone.",
+  "queues": {
+    "search_features": 18176,
+    "train_bridge_added_development": 19933,
+    "freeze_confirmation": "16608 failed at tokenizer prefix assertion; replaced by71808 resume",
+    "timing_trajectories": 74854,
+    "development_report": 31278,
+    "caffeinate": 96870,
+    "final_analysis": "24971 audited rerun complete; earlier duplicate104 stopped",
+    "validation": 54095,
+    "confirmation_resumed": 71808,
+    "synthesis_after_validation": 85711,
+    "matched_output_control_after_gpu": 84655,
+    "final_regeneration": "87739 complete"
+  },
+  "caffeinate_pid": 74234,
+  "pipeline": "phase90 prepared880 new cases ->91 calibrated64 train ->92 13 methods actual names on80dev ->93 select pruning+trainingplan ->94 base/pruned frozen teacher states400train80dev ->95 five full-vocabulary small adapters600updates ->96 rank64bridge ->97 5adapters+bridge+3grammar dev ->98 freeze7 methods ->99 400 confirmation2hist+baseline none ->100 timing ->101 24case trajectories. phase102 devreport queued separately.",
+  "next_work": [],
+  "data": "data/belief_v5 880 cases, MedQA440 MedMCQA440, 400train80development400confirmation. Disjointold540, inherited globalTFIDF dedup.",
+  "paths": {
+    "docs": "research_v6_adapters",
+    "runs": "runs/structural_v2",
+    "paper": "acl_paper/v10_adapters"
+  },
+  "known_development_results": {
+    "baseline_correct_neutral_wrong": [
+      55,
+      39
+    ],
+    "baseline_listed_neutral_wrong": [
+      79,
+      75
+    ],
+    "exit24_correct": [
+      11,
+      7
+    ],
+    "exit24_listed": [
+      17,
+      16
+    ],
+    "exit20_correct_and_listed": [
+      0,
+      0
+    ],
+    "drop_tail4_keep28_correct_and_listed": [
+      0,
+      0
+    ],
+    "drop_mlp4_correct": [
+      35,
+      24
+    ],
+    "mlp_width75_correct": [
+      33,
+      18
+    ],
+    "mlp_width50_correct": [
+      9,
+      2
+    ],
+    "late_mlp_width50_correct": [
+      54,
+      43
+    ]
+  },
+  "method_addition": "After observed exit24 malformed output, added candidate-trie controls before test: base,exit20,selectedprune. Added only into phase97, decoder separate from frozen core. Total22dev configurations.",
+  "runtime": "CPU MedicalBeliefMechanisms/.runtime/bin/python; GPU MedicalBeliefMechanisms/.runtime_mlx/bin/python. Preservevenvsymlink path.",
+  "api_cost_usd": 0,
+  "training_note": "full_adapter64 and pruned_adapter16 selected step0 by predeclared devNLL: no learned effect, report as failures. full16step100;diagonal andexit20step600. Gold features480case complete.",
+  "critical_amendment": {
+    "compat": "src/structure2_compat.py wraps originalrender, only1 apostrophe-leading candidate; prompt IDs and prior129 outputs unchanged. Core/decoder frozen files unchanged. TOKENIZATION_AMENDMENT.json hashes verified at phase99/100/101/demo entry.",
+    "data": "Source-only audit found28initialregexmisses:9train5dev14confirmation. Train/selection unchanged; primary400 retained, strictsource386 and strictsource+dedup counts in data/belief_v5/source_sensitivity_audit.json. Extra .80 TFIDF withtrain/dev/old540 and internaltestgreedy, source-only. phase103/104strictsensitivity added.",
+    "validation": "phase105 now checks compatibility amendment; still add sourceauditsha checks.",
+    "logs": "phase99_structure2_confirm_resumed.log; originalfailurelog retained."
+  },
+  "remaining_work": [],
+  "known_confirmation_results": {
+    "baseline": [
+      210,
+      163
+    ],
+    "late_mlp_width50": [
+      200,
+      168
+    ],
+    "full_adapter16": [
+      205,
+      151
+    ],
+    "pruned_adapter16": [
+      200,
+      168
+    ],
+    "exit20_adapter16": [
+      2,
+      2
+    ],
+    "exit20_bridge64": [
+      0,
+      0
+    ],
+    "pruned_constrained": [
+      216,
+      180
+    ]
+  },
+  "source_sensitivity_counts": {
+    "train": 391,
+    "development": 75,
+    "confirmation_source": 386,
+    "confirmation_source_and_similarity": 366,
+    "trajectory_strict": 22
+  },
+  "new_scripts": [
+    "phase103_structure2_confirmation_report.py (6primary+3training comparisons, outputconstraintdecomposition, strictsensitivity)",
+    "phase104_structure2_trajectory_report.py (24atlas+strict22+layerchanges)",
+    "phase105_structure2_validate.py (allcohorts/hashes/probabilities/outputs/oldmodelweights)",
+    "phase106_structure2_synthesize.py (queued85711, START_HERE/resultsstory/v10ChinesePaper)",
+    "structure2_validate_documents.py (notrununtilallfinaldocs; checkslinks+PNG+AST)",
+    "structure2_demo.py (replayonlyafterGPUdone)",
+    "structure2_source_audit.py (done, nooutcomereads,28sourceflags and.80cross/internaldedup)",
+    "structure2_compat.py (mandatoryprefixsafe wrapper, versionedTOKENIZATION_AMENDMENT)"
+  ],
+  "primary_confirmation": {
+    "candidate": "pruned_constrained",
+    "reference": "baseline",
+    "n": 400,
+    "mean": 0.02875,
+    "median": 0.0,
+    "low": 0.01125,
+    "high": 0.0475,
+    "p": 0.0014998125234345708,
+    "p_holm": 0.005999250093738283
+  },
+  "necessary_matched_control": {
+    "reason": "Primary improves overoriginalbase,butcombinesstructureandconstraint. Essential fullmodel+sameconstraint comparison wasmissingfrom7. Addedexistingdevelopmentconfigaspost-primary explanatorycontrol,notnewselection. Userinformed. Preserveoriginal6Holmcomparisons.",
+    "file": "MATCHED_OUTPUT_CONTROL.json",
+    "script": "phase107_structure2_matched_output.py",
+    "queue": 84655,
+    "trigger": "doc/model_stages_complete.json after100+101, then800generationsin output_matched_control and24additionalmatchedtimingpairs",
+    "analysis": "phase103nowwaitsmatched_output_complete beforeanalysis; forms2x2 full/pruned x free/constrained, descriptivepairedCI, strict366CI. phase105checkscontrol+newtimings;106incorporatesmatchedresult."
+  },
+  "recent_analysis_updates": [
+    "phase103savesoutput_constraint_repairs.csv withrawtext, andexactsource-namealreadyatstartaudit.",
+    "phase104caseplotsrow3 evidence-drivenlayerdistance,row4 pruned-vsbase layerdistance(sharedcolorlimits acrosshistory), noflatadapter0plots.",
+    "phase104savesall-layer/readout equalitybetweenprunedzero-adapter andprunedconstrained beforegeneration; countchangedactualnames.",
+    "phase104addssequence-score vslengthmean vsactualgenerationfinal24table; main6coltablefixedafterglobalreplace.",
+    "phase106generatedreport&paperincludeactualtailcounts; preplannedmain+posthocmatchedcontrolseparated."
+  ],
+  "scoring_audit": {
+    "amendment": "SCORING_AMENDMENT.json",
+    "rule": "structure2_scoring.py: fixed unique normalized candidate match, no gold parsing/no fuzzy synonyms",
+    "critical_result": "Strict gain+2.875pp shrinks normalized+1.50pp; rawp.0727, no robust clinical-choice improvement.18of28 pruneconstraint repairs alreadycorrectunder normalization.",
+    "changes": "103 bothscores+nohistorynormalized;104 normalizedpaths+strictretained;105independentrecompute;106foregroundscoringcorrection;102all22devnormalizedtable.",
+    "documents": "SCORING_AUDIT.md created;PROTOCOL,REPRODUCE,ARGUMENT updated."
+  },
+  "normalized_primary_confirmation": {
+    "candidate": "pruned_constrained",
+    "n": 400,
+    "mean": 0.015,
+    "median": 0.0,
+    "low": 0.0,
+    "high": 0.03,
+    "p": 0.07274090738657668,
+    "p_holm": 0.2584676915385577
+  },
+  "matched_output_control_final": {
+    "control": {
+      "name": "baseline_constrained",
+      "constrained": true
+    },
+    "post_primary_explanatory": true,
+    "difference": {
+      "n": 400,
+      "mean": 0.01625,
+      "median": 0.0,
+      "low": 0.00125,
+      "high": 0.031281250000000115
+    },
+    "factorial": [
+      {
+        "contrast": "裁剪效应：自由生成",
+        "n": 400,
+        "mean": -0.00625,
+        "median": 0.0,
+        "low": -0.0275,
+        "high": 0.015
+      },
+      {
+        "contrast": "输出约束效应：完整模型",
+        "n": 400,
+        "mean": 0.0125,
+        "median": 0.0,
+        "low": 0.005,
+        "high": 0.0225
+      },
+      {
+        "contrast": "输出约束效应：压缩模型",
+        "n": 400,
+        "mean": 0.035,
+        "median": 0.0,
+        "low": 0.02,
+        "high": 0.0525
+      },
+      {
+        "contrast": "裁剪效应：相同输出约束",
+        "n": 400,
+        "mean": 0.01625,
+        "median": 0.0,
+        "low": 0.00125,
+        "high": 0.031281250000000115
+      },
+      {
+        "contrast": "交互：压缩后约束收益增加多少",
+        "n": 400,
+        "mean": 0.0225,
+        "median": 0.0,
+        "low": 0.00875,
+        "high": 0.03875
+      }
+    ],
+    "timing": [
+      {
+        "metric": "prefill_seconds",
+        "ratio": {
+          "n": 6,
+          "mean": 0.9451608353579606,
+          "median": 0.9303477892675559,
+          "low": 0.7194600554733668,
+          "high": 1.2251856708724742
+        }
+      },
+      {
+        "metric": "fixed12_decode_seconds",
+        "ratio": {
+          "n": 6,
+          "mean": 0.9248470346124398,
+          "median": 0.875073615427453,
+          "low": 0.8311586815844629,
+          "high": 1.0529364563881594
+        }
+      },
+      {
+        "metric": "actual_answer_seconds",
+        "ratio": {
+          "n": 6,
+          "mean": 0.8493409362827238,
+          "median": 0.86340649041623,
+          "low": 0.8110960705566219,
+          "high": 0.8871761187055744
+        }
+      }
+    ],
+    "strict": {
+      "n": 366,
+      "difference": {
+        "n": 366,
+        "mean": 0.01912568306010929,
+        "median": 0.0,
+        "low": 0.004098360655737705,
+        "high": 0.03551912568306011
+      },
+      "control_correct": {
+        "neutral": 198,
+        "wrong": 155
+      }
+    }
+  },
+  "trajectory_final": {
+    "cases": 24,
+    "prefixes": 147,
+    "observations": 882,
+    "output_rule_state_equivalence": {
+      "prefix_conditions": 294,
+      "all_layer_max_abs": 0.0,
+      "readout_max_abs": 0.0,
+      "changed_actual_names": 18,
+      "changed_normalized_choices": 18,
+      "normalized_invalid_to_valid": 17,
+      "normalized_valid_choice_changed": 1
+    }
+  },
+  "deliverables": [
+    "research_v6_adapters/START_HERE.md",
+    "research_v6_adapters/RESULTS_AND_STORY.md",
+    "research_v6_adapters/ONE_CASE_EXPLAINED.md",
+    "acl_paper/v10_adapters/PAPER_ZH.md",
+    "results/47_structure_search/RESULTS.md",
+    "results/48_adapter_training/RESULTS.md",
+    "results/49_structure_confirmation/RESULTS.md",
+    "results/50_structure_trajectories/RESULTS.md"
+  ],
+  "validation": "FINAL_VALIDATION.json,DEMO_VALIDATION.json,DOCUMENT_VALIDATION.json allcomplete",
+  "answer_scope": "9explicitnondisease-named/compoundsourceanswersflagged;360caseadditionalnormalizedsensitivity;original400and366retained.",
+  "analysis_note": "Trajectory same-final/different-earlier requires distinct valid candidates; unparseableprefixes are unknown,not counted as a disease difference. All24reported.17of18decoderchanges invalid-to-valid,1valid-to-valid.",
+  "caffeinate_stopped": true
+}

@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_00404",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Coarctation of the adrenal arteries\",\"severity\":\"moderate\",\"likelihood_of_findings_in_future_workup\":\"ascendocinuria\",\"likelihood_of_future_findings_including_future_evolution_of_disease_process_including_death_rate_in_year_one\":\"0.0000%\",\"likelihood_of_future_evolution",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "4d910fafabab01abb6ea947746acf509d3cc4cec7cd5d16f03d7e21efc30f13a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Pheochromocytoma\",\"probability_of_diagnosis\":0.14}",
+      "generated_disease": "Pheochromocytoma",
+      "stop": "eos",
+      "tokens": 18,
+      "prompt_sha256": "477b099f8e2de6bb03f05179576530da450e8754a3f36e5e18711239f56a7dd9"
+    }
+  ]
+}

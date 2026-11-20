@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_01800",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Hervin's syndrome orients inextritable entirespacey tracionalmephiliscalesphilaxenemphiliasenataechserventechservemtracinalentrilkservarionservemtrilksenservemtrilmservem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "1690d1e51b97d2e171bf1a6f53e78639da2bcce201f33d2f0aeac46868b410fc"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Hemicotaxoyserventia\"}",
+      "generated_disease": "Hemicotaxoyserventia",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "91d6ee3840d648fcb89f9adbff846310ac0c5ee35c8fff4787356daf9cfb7d26"
+    }
+  ]
+}

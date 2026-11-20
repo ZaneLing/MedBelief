@@ -1,0 +1,229 @@
+{
+  "order": {
+    "reverse": {
+      "cases": 72,
+      "switched": {
+        "mean": 0.4166666666666667,
+        "low": 0.3055555555555556,
+        "high": 0.5277777777777778,
+        "cases": 72
+      },
+      "paired_accuracy_change": {
+        "mean": 0.0,
+        "low": -0.08333333333333333,
+        "high": 0.08333333333333333,
+        "cases": 72
+      }
+    },
+    "shuffle": {
+      "cases": 72,
+      "switched": {
+        "mean": 0.2777777777777778,
+        "low": 0.18055555555555555,
+        "high": 0.3888888888888889,
+        "cases": 72
+      },
+      "paired_accuracy_change": {
+        "mean": -0.013888888888888888,
+        "low": -0.06944444444444445,
+        "high": 0.041666666666666664,
+        "cases": 72
+      }
+    }
+  },
+  "evidence_controls": {
+    "repeat_middle": {
+      "cases": 24,
+      "switched": {
+        "mean": 0.20833333333333334,
+        "low": 0.041666666666666664,
+        "high": 0.375,
+        "cases": 24
+      },
+      "delta_gold": {
+        "mean": -0.042667105487790624,
+        "low": -0.179474508223594,
+        "high": 0.09927071177935322,
+        "cases": 24
+      },
+      "affected_by_ablation": 24
+    },
+    "remove_middle": {
+      "cases": 24,
+      "switched": {
+        "mean": 0.16666666666666666,
+        "low": 0.041666666666666664,
+        "high": 0.3333333333333333,
+        "cases": 24
+      },
+      "delta_gold": {
+        "mean": 0.010719804775546515,
+        "low": -0.064341672521449,
+        "high": 0.0980552486816046,
+        "cases": 24
+      },
+      "affected_by_ablation": 24
+    },
+    "omit_named_history": {
+      "cases": 24,
+      "switched": {
+        "mean": 0.4166666666666667,
+        "low": 0.20833333333333334,
+        "high": 0.625,
+        "cases": 24
+      },
+      "delta_gold": {
+        "mean": -0.11853935067238631,
+        "low": -0.2870677504731617,
+        "high": 0.04699885940195059,
+        "cases": 24
+      },
+      "affected_by_ablation": 16
+    }
+  },
+  "history": {
+    "middle": {
+      "matched_wrong_vs_gold_margin_gain": {
+        "mean": 48.48973508938189,
+        "low": 42.944220254798495,
+        "high": 54.33443329374145,
+        "cases": 24
+      },
+      "wrong_history_endorses_prior": {
+        "mean": 0.875,
+        "low": 0.75,
+        "high": 1.0,
+        "cases": 24
+      },
+      "gold_history_endorses_wrong_prior": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.14247359772252566,
+        "cases": 24,
+        "method": "exact_binomial_boundary"
+      },
+      "wrong_history_matches_gold": {
+        "mean": 0.041666666666666664,
+        "low": 0.0,
+        "high": 0.125,
+        "cases": 24
+      },
+      "gold_history_matches_gold": {
+        "mean": 0.9583333333333334,
+        "low": 0.875,
+        "high": 1.0,
+        "cases": 24
+      },
+      "native_matched_top_change": {
+        "mean": 0.9166666666666666,
+        "low": 0.7916666666666666,
+        "high": 1.0,
+        "cases": 24
+      },
+      "probe_matched_top_change": {
+        "mean": 0.6666666666666666,
+        "low": 0.4583333333333333,
+        "high": 0.8333333333333334,
+        "cases": 24
+      },
+      "gold_rank_change_last": {
+        "mean": 4.083333333333333,
+        "low": 2.375,
+        "high": 5.958333333333333,
+        "cases": 24
+      }
+    },
+    "final": {
+      "matched_wrong_vs_gold_margin_gain": {
+        "mean": 48.22280891817686,
+        "low": 42.31121880804145,
+        "high": 53.88298474249336,
+        "cases": 24
+      },
+      "wrong_history_endorses_prior": {
+        "mean": 0.8333333333333334,
+        "low": 0.6666666666666666,
+        "high": 0.9583333333333334,
+        "cases": 24
+      },
+      "gold_history_endorses_wrong_prior": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.14247359772252566,
+        "cases": 24,
+        "method": "exact_binomial_boundary"
+      },
+      "wrong_history_matches_gold": {
+        "mean": 0.08333333333333333,
+        "low": 0.0,
+        "high": 0.20833333333333334,
+        "cases": 24
+      },
+      "gold_history_matches_gold": {
+        "mean": 0.9583333333333334,
+        "low": 0.875,
+        "high": 1.0,
+        "cases": 24
+      },
+      "native_matched_top_change": {
+        "mean": 0.875,
+        "low": 0.75,
+        "high": 1.0,
+        "cases": 24
+      },
+      "probe_matched_top_change": {
+        "mean": 0.5416666666666666,
+        "low": 0.3333333333333333,
+        "high": 0.75,
+        "cases": 24
+      },
+      "gold_rank_change_last": {
+        "mean": 3.0833333333333335,
+        "low": 1.4166666666666667,
+        "high": 5.083333333333333,
+        "cases": 24
+      }
+    },
+    "final_minus_middle_gain": {
+      "mean": -0.266926171205039,
+      "low": -6.198208215605322,
+      "high": 5.2437730852763735,
+      "cases": 24
+    },
+    "final_minus_middle_gain_p_exploratory": 0.9336033198340083
+  },
+  "context": {
+    "cases": 24,
+    "removed_groups": 208,
+    "updates": 184,
+    "eligible": 184,
+    "opposite_events": 67,
+    "opposite_rate": {
+      "mean": 0.3724657287157287,
+      "low": 0.3260855203823954,
+      "high": 0.4208532873376623,
+      "cases": 24
+    },
+    "correlation": {
+      "mean": 0.37849407536907537,
+      "low": 0.22723967872405376,
+      "high": 0.5115552503052503,
+      "cases": 24
+    },
+    "sensitivity": {
+      "0.001": {
+        "mean": 0.37544191919191916,
+        "low": 0.32841686958874455,
+        "high": 0.4246287653318903,
+        "cases": 24
+      },
+      "0.01": {
+        "mean": 0.3712752525252525,
+        "low": 0.3257865485209235,
+        "high": 0.4199667433261183,
+        "cases": 24
+      }
+    }
+  },
+  "api_cost_usd": 0
+}

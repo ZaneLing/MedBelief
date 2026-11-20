@@ -1,0 +1,51 @@
+{
+  "seed": "belief-v2-test-panel-20261118",
+  "test_cases": 120,
+  "training_cases": 120,
+  "deep_test_cases": [
+    "ddx_test_0042118",
+    "ddx_test_0032489",
+    "ddx_test_0044249",
+    "ddx_test_0101113",
+    "ddx_test_0079685",
+    "ddx_test_0067994",
+    "ddx_test_0037913",
+    "ddx_test_0017896",
+    "ddx_test_0005881",
+    "ddx_test_0006854",
+    "ddx_test_0108184",
+    "ddx_test_0110714",
+    "ddx_test_0061730",
+    "ddx_test_0077278",
+    "ddx_test_0048692",
+    "ddx_test_0123136",
+    "ddx_test_0041136",
+    "ddx_test_0027885",
+    "ddx_test_0134351",
+    "ddx_test_0064225",
+    "ddx_test_0060159",
+    "ddx_test_0062355",
+    "ddx_test_0084538",
+    "ddx_test_0045887"
+  ],
+  "jobs": 800,
+  "jobs_by_view": {
+    "panel": 424,
+    "append": 352,
+    "presence": 24
+  },
+  "fields": 223,
+  "source_hashes": {
+    "test.csv": "f7ac3eae934c85780fc9b109a6cac5771540619a02690bee6fc0ab402baec186",
+    "release_evidences.json": "281c78b044ae60514e28ecc9052d08a8225dd3e2db3f00f8788b99c47b05e0c0"
+  },
+  "excluded_prior_fact_duplicates": 313,
+  "prior_unique_fact_sets": 370,
+  "source_sha256": "36cd97031466aaae74719ea692ac8eadc1a8977b4b8e0e5731292ab7571aad45",
+  "protocol_sha256": "d37055b9d8add6012711aaa8787f6a64339c08c7e8b9dd4cb216ac51ad94a268",
+  "input_hashes": {
+    "jobs.public.jsonl": "47fe9e98df5a219cb484fe4b3d9b3dc86f58fb7e8bd9475e7b914e303d962c1f",
+    "cases.private.jsonl": "ed58845e3e09f271f063eb584e34d9e9cd1bf32706ca3bf701a7c7b6747342db",
+    "panel.json": "67d643d67b844cebe9a1280a4483bacf66f3557c41a1d2976afeb6f57cb1a5df"
+  }
+}

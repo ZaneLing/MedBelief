@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_8018614f-f4dc-4112-abce-c7630b165d24",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Ureterocele\"}",
+      "generated_disease": "Ureterocele",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "dfb204ff422bfaa36d2c9f14477c5fbe8fe32f5d490fb2b57d64a19e0e165601"
+    }
+  ]
+}

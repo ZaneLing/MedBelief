@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_dev_00596",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Endometritis\"]",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "d20ba03ac229db687a43a6ca67151b2d3532a617735fe90b4b20037cc34ecc4c"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Endometriosis with labial adhesion\"],\"explanation\":\"Endometriosis is a common cause of pelvic pain in adolescents and is often associated with chronic pelvic pain. The presence of multiple episodes of lower abdominal pain and a history of endometriosis or pelvic inflammatory disease is supportive of this diagnosis. However,",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "fe39a09622c6b3af8833c6515629fe63a437dd7b4b53a29b03820828347711c3"
+    }
+  ]
+}

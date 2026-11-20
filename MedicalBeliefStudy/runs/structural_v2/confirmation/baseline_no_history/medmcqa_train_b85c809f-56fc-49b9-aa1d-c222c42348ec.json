@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_b85c809f-56fc-49b9-aa1d-c222c42348ec",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Mesothelioma\"}",
+      "generated_disease": "Mesothelioma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "b9a66501233647f9c781148cdc45efb29eee30b6b798528c15e617e19fdeb8e1"
+    }
+  ]
+}

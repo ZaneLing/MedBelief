@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_d1102e85-5aef-403a-a806-1ccaaf7d8f66",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Dhemming syndrome orientsusianityeckert综合征或phanser综合征等效于_____.",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 22,
+      "prompt_sha256": "ec86f6eb490b670ef09f9f844e0c8cef6b7e329689036f3589d86416e8e569ed"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Dastagramian综合征或其它类似名称但实际可能误称导致误误然需谨慎但根据现有信息最可能是后者但实际可能误误导致无法准确准确但根据现有条件最可能是后者但实际可能误误导致无法准确但实际可能误导致无法准确但实际可能无法准确但",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "702c3a39565370feaa4972278107e2112abc6d1bd466cc23e9f225eefa61115e"
+    }
+  ]
+}

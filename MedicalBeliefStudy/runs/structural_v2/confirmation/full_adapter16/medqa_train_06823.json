@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_06823",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Pancoast tumor\"}",
+      "generated_disease": "Pancoast tumor",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "5a85eaba269e80ff70d694541566872a4c9c223a4754021ab1ea0792e1ab1d4f"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Pulmonary tuberculosis\"}",
+      "generated_disease": "Pulmonary tuberculosis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "409f45ce68f78acfe8827742876350eba246da1671165cf96847947bd3c2340e"
+    }
+  ]
+}

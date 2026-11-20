@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_0e987b49-c12b-4665-be1c-55b32c80502f",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Goodpasture's syndrome\"}",
+      "generated_disease": "Goodpasture's syndrome",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "3a6cc479e9910a78eaa82a8c1ae0f6522bc52b0738a8233ef23ad6749872bc53"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Goodpasture's syndrome\"}",
+      "generated_disease": "Goodpasture's syndrome",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "9c3739c6c597e47f93eceac26584e2dbd50ab21fffa1c6f1218218d75428a9b5"
+    }
+  ]
+}

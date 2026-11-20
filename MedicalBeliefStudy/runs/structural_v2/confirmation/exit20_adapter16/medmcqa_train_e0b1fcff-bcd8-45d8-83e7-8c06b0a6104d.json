@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_e0b1fcff-bcd8-45d8-83e7-8c06b0a6104d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Non - umberoxenososive pyilbentoidy\"} (Note: This is an error correction and/or an error in the original systematics. actual correct answer is \"Cneckuparic entiksualization orphansesystematicmeystinggalensesparicenter",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "5faae9d4824037f7a04c23b64bc70af57b7b4887fa3548b1899fda1046d308a5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Schorst-Wells syndrome\"}",
+      "generated_disease": "Schorst-Wells syndrome",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ec3be27c59f879f8500453018681f8387fb98882b13d1ae979cd3fa655418c59"
+    }
+  ]
+}

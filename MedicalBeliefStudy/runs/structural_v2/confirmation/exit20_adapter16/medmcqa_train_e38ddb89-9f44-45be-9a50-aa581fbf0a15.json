@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_e38ddb89-9f44-45be-9a50-aa581fbf0a15",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformycephical disease\"} (Note: This is an example of an non-existent and/or non-existent philacogroupingsystematic disorder. actual real-world relevant ones would be listed in real actual real-life actual real-life actual philaxenepaliformesystematic disorder. actual",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "4bc694ecd3fa542506afb1a8d49bb4aba7c22b2eabda50f63f63db25708a8552"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "P thyroid disease\"} (Note: This error correction is an example of an error error in the original system. actual correct answer is still 'Essavarone's disease or other relevant pathogen or other non-linear pathogen or other non-linear pathogen or other non-linear...\"} (Note: actual correct answer is still",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "c3d43ccaf31c757841bbd0319ea3e362ead49fc78c7e45ef66023e905b252cdd"
+    }
+  ]
+}

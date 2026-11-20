@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_c7e80d2e-2361-4533-9fd5-f98073e92c68",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Pilocytic-Astrocytoma\"}",
+      "generated_disease": "Pilocytic-Astrocytoma",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "de60ca938583cf4900cc095bdcf001ff5d8cacf71536841330c1f4c03132b272"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Medulloblastoma\"}",
+      "generated_disease": "Medulloblastoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "790ca486a76edb7ea903f99ff2fa8c6b831ba3ff608ecbda78b54ae6f18bec1d"
+    }
+  ]
+}

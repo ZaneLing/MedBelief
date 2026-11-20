@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_0464a995-a550-4eda-80ae-03865bac3062",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Potter syndrome\"}",
+      "generated_disease": "Potter syndrome",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "0c4122ac2bbdd00279c7bddb0f9f4ca6a3413ff8662f14657bfe4c49e3aeec10"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Potter syndrome\"}",
+      "generated_disease": "Potter syndrome",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "58bf2f9e7597260cc13b8c52949e6b757f951ef8281a846385c64b9512bcee84"
+    }
+  ]
+}

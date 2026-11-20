@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_dev_00037",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Traveler’s diarrhea due to Norovirus\"}",
+      "generated_disease": "Traveler’s diarrhea due to Norovirus",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "d92a2e93fee2bb4920ad1d8a5e31f11dd75ed417aa1119e03d273ef249876b2c"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Traveler’s diarrhea due to Norovirus\"}",
+      "generated_disease": "Traveler’s diarrhea due to Norovirus",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "732d492199e1eb496a565e75dabce6b52c1fbfd8491ff2f1eb322d18d2b7aa6d"
+    }
+  ]
+}

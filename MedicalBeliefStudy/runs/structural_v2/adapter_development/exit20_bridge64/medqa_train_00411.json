@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_00411",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocococosis\"}",
+      "generated_disease": "Cystocococosis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "39bb6d4a59768441301368cb17c6b0c1501af8369f5eb476653843e0cb1b8aa3"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocalmonary disorder\"}",
+      "generated_disease": "Cystocalmonary disorder",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "b7568f7e61b0adf8a38ac1d47cf28b1161f150d1e640da376a085b747be21768"
+    }
+  ]
+}

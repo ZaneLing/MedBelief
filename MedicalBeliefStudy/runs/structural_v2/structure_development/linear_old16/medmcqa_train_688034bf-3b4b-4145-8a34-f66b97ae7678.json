@@ -1,0 +1,39 @@
+{
+  "case_id": "medmcqa_train_688034bf-3b4b-4145-8a34-f66b97ae7678",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "linear_old16",
+    "replace_mlps": [
+      25,
+      26
+    ],
+    "rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1645216768,
+    "weight_bytes": 3290712064,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Leukemic infiltration of the kidneys\"}",
+      "generated_disease": "Leukemic infiltration of the kidneys",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "edae35423b9a11b52263d79a152083f4d08d8e7646f674399ccceae4af453419"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Acute tubular necrosis secondary to a nephrotoxic effect of his chemotherapy\"}",
+      "generated_disease": "Acute tubular necrosis secondary to a nephrotoxic effect of his chemotherapy",
+      "stop": "eos",
+      "tokens": 18,
+      "prompt_sha256": "de399eb371064e2196af4c94f2f306f11f8161f0aa78ae4e964e1df3c348a2ca"
+    }
+  ]
+}

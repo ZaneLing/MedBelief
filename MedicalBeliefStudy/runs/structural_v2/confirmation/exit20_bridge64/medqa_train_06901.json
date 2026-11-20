@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_06901",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "D",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 1,
+      "prompt_sha256": "46a8f58c08b862b4709575ea2a7080e17097317d107792c7134904b8bb453e2a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocal disorder\"}",
+      "generated_disease": "Cystocal disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "be4b296e245e3e01676785be5766933ab01a9defac70861469ca4a188e97e221"
+    }
+  ]
+}

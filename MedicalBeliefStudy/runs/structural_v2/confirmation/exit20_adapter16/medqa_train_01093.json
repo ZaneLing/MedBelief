@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_01093",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic longening of an existing or new anegotential orphans orphans orphans\"} -- Note: This is an error error and should be an actual valid postponnent orphans orphans orphans. Actual real-world scenario would be an actual valid vitocornos orphans orlando orlando",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "7ff90d9e0953bb5393b8ea579f026e8675692f7d47635550c56ee25eed04a13a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic longening of an existing or new anegotential orphans inkservententososentepemphespariparochserventecureablewisensataenemicareservatemphilensesparrowzetaasapothemmaidservemtr",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "e6dd3c19e972c8f6119c93d3d74d16c234566f906b7866b2b4fe22978465dfa0"
+    }
+  ]
+}

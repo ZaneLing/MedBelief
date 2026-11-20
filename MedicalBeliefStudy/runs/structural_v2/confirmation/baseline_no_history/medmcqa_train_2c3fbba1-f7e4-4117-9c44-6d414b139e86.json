@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_2c3fbba1-f7e4-4117-9c44-6d414b139e86",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Non specific interstitial pneumonia\"}",
+      "generated_disease": "Non specific interstitial pneumonia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "fc9440c64f8903980164d0781c26f8d701e497290dfbaa30fe652694ab453b15"
+    }
+  ]
+}

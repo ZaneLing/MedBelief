@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_03832",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic disease of course and/or disease type: Multipleclerosis (CHSells et etemararms etetemararms etwells etwells etwemhemememememememememememememememmeakingenemememememememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "3a5d0361546ee6543457dc88f31eec0d96f0ff13e7bca2ff915a39a4548ebbd2"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cryphyonection\"} (Note: This is an error correction. actual correct answer is \"Beta-systatexemia or other relevant phisigrouping\"} However, based purely in terms of current data and without further information such aerespecificity or other relevant factors such aegonal or other",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "3d53d74a9c4c0c6f21106bcf3d69705c705c88cf335f48ef68450694350d31d3"
+    }
+  ]
+}

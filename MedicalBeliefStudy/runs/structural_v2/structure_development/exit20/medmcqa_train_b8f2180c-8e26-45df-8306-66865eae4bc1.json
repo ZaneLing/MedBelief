@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_b8f2180c-8e26-45df-8306-66865eae4bc1",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "unknown/unclaimed/unclaimed/unclaimed",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "4bae404af9947d756526f0791b282d6cd358df65d4f87a3af06d4e3c47be1dac"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Drylandia/Hernicity/Cernthus-like syndrome orientsusae syndrome orphanship syndrome etceteroidingirls syndrome etceteroidingoldsignatoryismosogasticity综合征等々butchership syndrome etceteroidingoodnessheartlessnesseservationalismetceter",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "4e4b6a6cefc9f8d108ee5d0543c005fa06f8cdad879bd2bf2320c955176d46ca"
+    }
+  ]
+}

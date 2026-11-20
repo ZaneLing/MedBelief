@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_02760",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Galactorrhea\",\"probability_of_diagnosis\":0.9999999999999999999999999999999999999999999999999999",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "9033042b035127da123dfcff6bf176ba7d43e112d0c4553a1446f744cc8772c7"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Galactorrhea\",\"probability_of_diagnosis\":0.9999999999999999999999999999999999999999999999999999",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "00603699c601aa1b813bd2cad43589a0e099c70689e93161447edd658d8d8637"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+# 全部24例逐条证据图谱
+
+病例在观察模型结果之前选定；全部呈现，不按是否惊人筛选。
+
+- [ddx_test_0000299 · 急性肌张力障碍反应 · 曾离开来源病，最后回来](cases/ddx_test_0000299.md)
+- [ddx_test_0016704 · 急性中耳炎 · 转向来源病后保持](cases/ddx_test_0016704.md)
+- [ddx_test_0127183 · 急性肺水肿 · 曾离开来源病，最后回来](cases/ddx_test_0127183.md)
+- [ddx_test_0110051 · 贫血 · 曾离开来源病，最后回来](cases/ddx_test_0110051.md)
+- [ddx_test_0003154 · 心房颤动 · 转向来源病后保持](cases/ddx_test_0003154.md)
+- [ddx_test_0039512 · 自发性食管破裂 · 始终固定另一病](cases/ddx_test_0039512.md)
+- [ddx_test_0101459 · 支气管炎 · 曾选来源病，最后离开](cases/ddx_test_0101459.md)
+- [ddx_test_0040118 · 支气管痉挛/哮喘急性发作 · 曾选来源病，最后离开](cases/ddx_test_0040118.md)
+- [ddx_test_0036753 · 丛集性头痛 · 曾离开来源病，最后回来](cases/ddx_test_0036753.md)
+- [ddx_test_0042655 · 胃食管反流病 · 曾选来源病，最后离开](cases/ddx_test_0042655.md)
+- [ddx_test_0070101 · 吉兰-巴雷综合征 · 曾离开来源病，最后回来](cases/ddx_test_0070101.md)
+- [ddx_test_0123927 · HIV初期感染 · 曾选来源病，最后离开](cases/ddx_test_0123927.md)
+- [ddx_test_0102786 · 腹股沟疝 · 始终首选来源病](cases/ddx_test_0102786.md)
+- [ddx_test_0011169 · 重症肌无力 · 在其他疾病间变动](cases/ddx_test_0011169.md)
+- [ddx_test_0057776 · 胰腺肿瘤 · 曾离开来源病，最后回来](cases/ddx_test_0057776.md)
+- [ddx_test_0046674 · 心包炎 · 曾选来源病，最后离开](cases/ddx_test_0046674.md)
+- [ddx_test_0082088 · 肺炎 · 转向来源病后保持](cases/ddx_test_0082088.md)
+- [ddx_test_0081104 · 可能的心肌梗死 · 转向来源病后保持](cases/ddx_test_0081104.md)
+- [ddx_test_0013493 · 肺栓塞 · 转向来源病后保持](cases/ddx_test_0013493.md)
+- [ddx_test_0059125 · 系统性红斑狼疮 · 在其他疾病间变动](cases/ddx_test_0059125.md)
+- [ddx_test_0132217 · 自发性气胸 · 转向来源病后保持](cases/ddx_test_0132217.md)
+- [ddx_test_0048251 · 稳定型心绞痛 · 在其他疾病间变动](cases/ddx_test_0048251.md)
+- [ddx_test_0069681 · 上呼吸道感染 · 在其他疾病间变动](cases/ddx_test_0069681.md)
+- [ddx_test_0098383 · 病毒性咽炎 · 转向来源病后保持](cases/ddx_test_0098383.md)

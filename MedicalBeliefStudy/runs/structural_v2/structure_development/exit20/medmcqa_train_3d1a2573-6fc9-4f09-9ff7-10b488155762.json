@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_3d1a2573-6fc9-4f09-9ff7-10b488155762",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "none",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 1,
+      "prompt_sha256": "06957fe1d4c88dccbbcf23576ee549f946d3503cb75cea19c2c327d38fd7ad25"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Dhemmed综合征或phans综合征或phans综合征等效名称或名称名称错误导致无法准确识别正确名称但根据现有信息最佳选项可能是基于特定特定特定组合但实际实际实际未知但根据现有条件最likely的是基于特定特定组合但实际实际无限性但实际实际无限性但实际无限",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "b68bd1e8c556adae3b2594447719394dd7fa63170d28e049684b916bacb4359f"
+    }
+  ]
+}

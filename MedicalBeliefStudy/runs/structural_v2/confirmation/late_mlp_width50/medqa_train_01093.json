@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_train_01093",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Vestibular neuritis\"}",
+      "generated_disease": "Vestibular neuritis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "7ff90d9e0953bb5393b8ea579f026e8675692f7d47635550c56ee25eed04a13a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Vestibular neuritis\"}",
+      "generated_disease": "Vestibular neuritis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "e6dd3c19e972c8f6119c93d3d74d16c234566f906b7866b2b4fe22978465dfa0"
+    }
+  ]
+}

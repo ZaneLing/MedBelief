@@ -1,0 +1,127 @@
+{
+  "patients": 87,
+  "conditions": 783,
+  "layers": {
+    "14": {
+      "old_minus_random": {
+        "mean": 0.002426265928030698,
+        "low": -0.0510906929024655,
+        "high": 0.05432066095743577,
+        "cases": 87
+      },
+      "p_unadjusted": 0.927553622318884,
+      "conditions": {
+        "self": {
+          "attenuation": {
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0,
+            "cases": 87
+          },
+          "top_changes": 0
+        },
+        "replace_old": {
+          "attenuation": {
+            "mean": -0.001392825263621699,
+            "low": -0.04021745550523036,
+            "high": 0.03665627418405791,
+            "cases": 87
+          },
+          "top_changes": 0
+        },
+        "random_matched": {
+          "attenuation": {
+            "mean": -0.003819091191652397,
+            "low": -0.03718037906665768,
+            "high": 0.02960167490633478,
+            "cases": 87
+          },
+          "top_changes": 0
+        }
+      },
+      "p_holm": 0.927553622318884
+    },
+    "21": {
+      "old_minus_random": {
+        "mean": 4.149537928208324,
+        "low": 3.048936652352534,
+        "high": 5.443201283201452,
+        "cases": 87
+      },
+      "p_unadjusted": 4.999750012499375e-05,
+      "conditions": {
+        "self": {
+          "attenuation": {
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0,
+            "cases": 87
+          },
+          "top_changes": 0
+        },
+        "replace_old": {
+          "attenuation": {
+            "mean": 4.155467017938719,
+            "low": 3.0497615424607005,
+            "high": 5.484849655594689,
+            "cases": 87
+          },
+          "top_changes": 13
+        },
+        "random_matched": {
+          "attenuation": {
+            "mean": 0.005929089730395407,
+            "low": -0.1409844750355891,
+            "high": 0.16754559148600623,
+            "cases": 87
+          },
+          "top_changes": 0
+        }
+      },
+      "p_holm": 0.00014999250037498125
+    },
+    "28": {
+      "old_minus_random": {
+        "mean": 5.018229227409885,
+        "low": 3.668058592246682,
+        "high": 6.619872503740935,
+        "cases": 87
+      },
+      "p_unadjusted": 4.999750012499375e-05,
+      "conditions": {
+        "self": {
+          "attenuation": {
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0,
+            "cases": 87
+          },
+          "top_changes": 0
+        },
+        "replace_old": {
+          "attenuation": {
+            "mean": 5.231052460371042,
+            "low": 3.8055158493153614,
+            "high": 6.873361104551768,
+            "cases": 87
+          },
+          "top_changes": 17
+        },
+        "random_matched": {
+          "attenuation": {
+            "mean": 0.21282323296115685,
+            "low": 0.030886210823181066,
+            "high": 0.4159526903739614,
+            "cases": 87
+          },
+          "top_changes": 1
+        }
+      },
+      "p_holm": 0.00014999250037498125
+    }
+  },
+  "sham_max_logp_error": 0.0,
+  "same_first_token_cases": 8,
+  "same_first_token_last_layer_max_effect": 0.0,
+  "api_cost_usd": 0
+}

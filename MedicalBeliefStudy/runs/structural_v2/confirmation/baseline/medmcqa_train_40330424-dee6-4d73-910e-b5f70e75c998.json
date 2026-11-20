@@ -1,0 +1,34 @@
+{
+  "case_id": "medmcqa_train_40330424-dee6-4d73-910e-b5f70e75c998",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Microinvasive cancer\"}",
+      "generated_disease": "Microinvasive cancer",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "a95c2750a3c47b8a31502ac720d2f445e5363a44131cbd4b554c15d380d900d7"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Microinvasive cancer\"}",
+      "generated_disease": "Microinvasive cancer",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "676c6d47e3c2c3d9a7720507f0571c72f4fcfff7e5318c1ce59cc8c276f84b05"
+    }
+  ]
+}

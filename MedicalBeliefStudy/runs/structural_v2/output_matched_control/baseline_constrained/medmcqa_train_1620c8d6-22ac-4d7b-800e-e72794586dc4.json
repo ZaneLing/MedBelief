@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_1620c8d6-22ac-4d7b-800e-e72794586dc4",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Glioblastoma multiforme\"}",
+      "generated_disease": "Glioblastoma multiforme",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "22b823c61bd4165e261feac6a3fe5d32be5bd5a102a904d2a661ce2558c4140a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Arachnoid cyst\"}",
+      "generated_disease": "Arachnoid cyst",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "23bc98bcac42b68620f1aa0857a1b4be506bcd084a65779f0f68c756f71ce392"
+    }
+  ]
+}

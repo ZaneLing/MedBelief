@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_5a6df889-a586-45db-9d8f-80d6dc7caf80",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "RMSF\"}",
+      "generated_disease": "RMSF",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "ba6f8b6f3acdb3655e8115e3ca125b87004fab579ff1b6c152477055bac0f708"
+    }
+  ]
+}

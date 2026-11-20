@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_8fe95469-e037-4c97-b1f8-817395398eb6",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "CryphogroupA virus infection\"} (Note: This is an example of an non-linear response. actual real-life scenario would be an actual real-world scenario where valid and relevant information is available. For example, if the actual real-life scenario would be an actual real-world scenario where valid and/or relevant information is",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "8fe6437afb0b6bb05a4dacc51f7c845e53c5f8f812488a2f658655ae13e72c35"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "CryphogroupA virus infection\"} (Note: This is an example of an non-linear response. actual real-life scenario would be an actual real-world scenario where valid and relevant information is available. For example if the actual real-life scenario would be an actual real-world scenario where valid and/or relevant information is available",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "37302875ac48465d366f05c23877bb78138247e673109450e0a36a8c495e0097"
+    }
+  ]
+}

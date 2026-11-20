@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_dev_00157",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cystococosis\"}",
+      "generated_disease": "Cystococosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "4f64f7b55ffd33d1866159094a8da2ec308764318f7c77896c1decd0a3e91017"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystogenic syndrome\"}",
+      "generated_disease": "Cystogenic syndrome",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "0b5872d0a0a87041b79913ad75bac99835bec1e297dda4909a0cbb0af0cef41c"
+    }
+  ]
+}

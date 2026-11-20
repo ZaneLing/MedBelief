@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_13c6d74a-cbb1-4455-a2d8-c23314b84072",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "contrast21_half",
+    "contrast_layer": 21,
+    "contrast_strength": 0.5,
+    "plausibility": 0.1
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Coloboma\"}",
+      "generated_disease": "Coloboma",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "a0b1d328f289ec83b7fd225be1fea8bfffd09ecba83cfb4ee088bd5fb971ca3b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Coloboma\"}",
+      "generated_disease": "Coloboma",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "9c3799b4bb099895c30822d9c33df955552c673dd449bb701012d09d8df10e99"
+    }
+  ]
+}

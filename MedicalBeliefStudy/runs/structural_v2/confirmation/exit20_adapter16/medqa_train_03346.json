@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_03346",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniform stress-induced stress-induced stress-driven hyper stress-induced stress-driven hyper stress-induced emphiguiaental disorder\"}",
+      "generated_disease": "Chronic veniform stress-induced stress-induced stress-driven hyper stress-induced stress-driven hyper stress-induced emphiguiaental disorder",
+      "stop": "eos",
+      "tokens": 25,
+      "prompt_sha256": "d5adb6c77705970894ba904889254248d61410c526df0d2a89d4f4167406df4b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniform stress disorder orients inextritable into systemic disorder orphans unochservationalentententecualservententecualservenemensenservememememememememememememememememensigroupingsalesenemens",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "008bcb1bc8bd23299355e9443648e603fe5bb0d3780f532f67148d4787e41df4"
+    }
+  ]
+}

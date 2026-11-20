@@ -1,0 +1,49 @@
+{
+  "case_id": "medmcqa_train_70cdb234-7d88-4abe-ad6c-0ee35eb34489",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Myelofibrosis\"}",
+      "generated_disease": "Myelofibrosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "3db06fa811599d8e4d58bc9fdff781b3f289082a6494f4b6628d17e0cb013a70"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Myelofibrosis\"}",
+      "generated_disease": "Myelofibrosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "5e4cef70a94abb0ad3101e348634b0cc8f563629329d882f4f1a10e829789320"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_dev_00432",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Dryland-associated综合征或简称简称待确认但根据现有信息最佳选项是后者而非前者但根据实际情况可能需要进一步确认但根据现有信息最可能是后者但实际可能需要进一步核实但根据现有条件最可能是后者但实际可能需要进一步核实但实际可能需要进一步…\n\n\n\n### corrected version:\n```",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "a38afd1b9846e4697f56a4d400cf92dbbed49065c308ed4b96e9f3a3ec77015c"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Dastemaker综合征或phansystematicityofofcoursenotepadohostservantshiprootsandrewsianlikehoodservatexhemotifreissingsalesennerthreasonwhythreasonwhyagainagainagainwhyagainwhyagainwhyagainwhyagainwhyagainwhyagain",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "ef93c1be95f97bae10a46b927974d8d9080f3d803eb5fb4a1f571379fb9266af"
+    }
+  ]
+}

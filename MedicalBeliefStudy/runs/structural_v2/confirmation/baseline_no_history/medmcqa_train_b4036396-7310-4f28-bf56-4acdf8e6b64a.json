@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_b4036396-7310-4f28-bf56-4acdf8e6b64a",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Threatened aboion\"}",
+      "generated_disease": "Threatened aboion",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "556a2096d79fc22c3293741858ec890baf2ad3c1a3e55833ddb62e0b60281cc5"
+    }
+  ]
+}

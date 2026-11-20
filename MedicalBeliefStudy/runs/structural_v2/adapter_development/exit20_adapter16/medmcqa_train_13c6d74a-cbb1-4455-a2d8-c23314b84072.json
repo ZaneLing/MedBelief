@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_13c6d74a-cbb1-4455-a2d8-c23314b84072",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chilisensorialismualservententotemenserventetemenservemplententememememememppertentecualservemmaartrabentepememememememppabememememhemememhememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "a0b1d328f289ec83b7fd225be1fea8bfffd09ecba83cfb4ee088bd5fb971ca3b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chilisensorialismualservententotemphenserventemphesysdiggingemphinalenemphinalenemphinalenemphinalenemphinalenemphinalenemphinalenemphinalenemphinalenemphinalenem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "9c3799b4bb099895c30822d9c33df955552c673dd449bb701012d09d8df10e99"
+    }
+  ]
+}

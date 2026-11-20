@@ -1,0 +1,45 @@
+{
+  "complete": true,
+  "configuration": {
+    "name": "full_adapter64",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter64/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 64
+  },
+  "train_cases": 400,
+  "development_cases": 80,
+  "train_tokens": 6046,
+  "development_tokens": 1178,
+  "trainable_parameters": 264256,
+  "best_step": 0,
+  "best_development_loss": 2.178073257153147,
+  "initial_development_loss": 2.178073257153147,
+  "weights_sha256": "89dd16c1a96fd0ba46507767a0489950039f5d8986e3363c243ad0455f701eee",
+  "full_vocabulary_size": 151936,
+  "history": [
+    {
+      "step": 0,
+      "development_loss": 2.178073257153147,
+      "elapsed": 0.0
+    },
+    {
+      "step": 100,
+      "development_loss": 2.537851456007047,
+      "mean_recent_train_loss": 2.8176093488931655,
+      "elapsed": 2.19
+    },
+    {
+      "step": 300,
+      "development_loss": 2.582139639078014,
+      "mean_recent_train_loss": 1.813689509779215,
+      "elapsed": 5.51
+    },
+    {
+      "step": 600,
+      "development_loss": 2.4692164628504543,
+      "mean_recent_train_loss": 1.6592995765805245,
+      "elapsed": 10.49
+    }
+  ],
+  "api_cost_usd": 0
+}

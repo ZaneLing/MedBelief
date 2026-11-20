@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_6bbd1d57-07a5-4886-98f9-82187dd82f82",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Dhemmed综合征或phans综合征或phans综合征等效名称可能有所不同但通常称为疾病名称名称名称但实际可能有所不同但实际可能有所不同但实际可能无法准确准确但实际可能无法准确但实际可能无法准确但实际可能无法准确但实际可能无法准确但实际可能无法准确但实际可能",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "4f52261d3245bf03b2845d2607f404501fb1b99dadf25c7705c14f5c15bb37d5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Dhemmed综合征或phans综合征或phans综合征等效名称可能有所不同但通常称为疾病名称名称名称但实际实际实际但是实际上servicus",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 32,
+      "prompt_sha256": "53b2fe7cd8fa3893ddb395d48251aa92c7fdfeaf0c820a3e86ae5e406906ea7a"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_00168",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chorioamnionitis\",\"probability_of_diagnosis\":0.99999999999999999999999999999999999999999999999999",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "798c425d5b6deb5ac795447e05a03cd9fcc3624233ea607311c912e00719b6e5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chorioamiona trachoma\",\"severity\":\"moderate\",\"probability_of_correctness\":0.98}",
+      "generated_disease": "Chorioamiona trachoma",
+      "stop": "eos",
+      "tokens": 23,
+      "prompt_sha256": "5343bc030d57496ce9bd974761ee6f0215cee0f6c38548de132f1d7f5e3f11e3"
+    }
+  ]
+}

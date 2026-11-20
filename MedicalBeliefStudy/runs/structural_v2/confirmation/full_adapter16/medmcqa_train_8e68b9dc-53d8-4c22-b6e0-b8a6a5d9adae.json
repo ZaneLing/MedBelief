@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_8e68b9dc-53d8-4c22-b6e0-b8a6a5d9adae",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "a functional pituitary tumor\"}",
+      "generated_disease": "a functional pituitary tumor",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "bd27f8f82546d11fad93e631d6c804178fbf05664f002993c60dec319750f988"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "anorexia nervosa with bulimia\"}",
+      "generated_disease": "anorexia nervosa with bulimia",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "83947211c3f392d0eb8a92ee3cb8467be134a72a66598d238f2074fa4a3ed4a0"
+    }
+  ]
+}

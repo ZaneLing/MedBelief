@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_03655",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Cold weather\"}",
+      "generated_disease": "Cold weather",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "a0a003f4d6c1d884eb4cf7873a418ddaf26f08d14f6e29874fc97911af36c142"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Environmental allergen\"}",
+      "generated_disease": "Environmental allergen",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "e69950068e13a63471875eaa9065f51b220735a452b787e0760d0c9d403f063d"
+    }
+  ]
+}

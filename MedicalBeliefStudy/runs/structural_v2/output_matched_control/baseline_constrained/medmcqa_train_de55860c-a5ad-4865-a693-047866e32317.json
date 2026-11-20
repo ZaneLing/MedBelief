@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_de55860c-a5ad-4865-a693-047866e32317",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Attention deficit hyperkinetic child\"}",
+      "generated_disease": "Attention deficit hyperkinetic child",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "77ca263ae97f0f01048a8c5579d6abbb0cc67c593e688c5dbc3d8021943aa5ed"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Attention deficit hyperkinetic child\"}",
+      "generated_disease": "Attention deficit hyperkinetic child",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "faa184e97863a2cf4121679571ad06b6e7dc25eef0092fa0d3b9e748258ed123"
+    }
+  ]
+}

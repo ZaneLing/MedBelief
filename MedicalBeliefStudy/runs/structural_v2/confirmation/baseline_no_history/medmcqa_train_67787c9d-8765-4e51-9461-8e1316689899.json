@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_67787c9d-8765-4e51-9461-8e1316689899",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Primary herpetic gingivostomatitis\"}",
+      "generated_disease": "Primary herpetic gingivostomatitis",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "0cf1daeb87dd827416b9130ad755ab83a2be117ad1687bf3eaa3fe8df7727593"
+    }
+  ]
+}

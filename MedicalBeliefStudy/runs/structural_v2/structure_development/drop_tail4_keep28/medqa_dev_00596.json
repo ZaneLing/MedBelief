@@ -1,0 +1,40 @@
+{
+  "case_id": "medqa_dev_00596",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "drop_tail4_keep28",
+    "drop_blocks": [
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1519230976,
+    "weight_bytes": 3038461952,
+    "layers": 24
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "IJMP\"}９:[[NSBundle mainBundle].getNSBundle().getConstants()]:[[NSBundle mainBundle].getNSBundle().getConstants()]:[[NSBundle mainBundle].getNSBundle().getConstants()]:[[NSBundle mainBundle].getNSBundle().getConstants()]:[[NSBundle mainBundle].hasAnyPermission()]:[[NSBundle mainBundle].getNSBundle().getConstants()]:[[NSBundle",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "d20ba03ac229db687a43a6ca67151b2d3532a617735fe90b4b20037cc34ecc4c"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "IJMP\"}９:[[NSBundle mainBundle].getNSBundle().getConstants()]:[[NSBundle mainBundle].getNSBundle().getConstants()]:[[NSBundle mainBundle].getNSBundle().getConstants()]:[[NSBundle mainBundle].getNSBundle().getConstants()]:[[NSBundle mainBundle].hasAnyPermission()]:[[NSBundle mainBundle].getNSBundle().getConstants()]:[[NSBundle",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "fe39a09622c6b3af8833c6515629fe63a437dd7b4b53a29b03820828347711c3"
+    }
+  ]
+}

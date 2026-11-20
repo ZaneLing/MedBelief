@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_e4e1ac36-4740-499a-b3b3-668728f30f7f",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Schorst's disease orphans\"} (Note: This is an unusual and rare type of disease that often associated with severe stress or stress out-ofalance. However, itinerious and/or non-linear pathycomephonic disorder often associated with stress and/or stress-related stress out-paragocentricity. However",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "2efe9a1044f4197942280c7a985087945bba01df0f1d5891420d7fe7dff92484"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pycodesidualenystkosogemphilenservetetemenservetemensenservetemensenservetemememememppervememememhemplabemememhemplabemememhemplabemememhem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "6b627eecf6dd0d62e219c29c7a3b263b81d411e2773f6bf530f6f4c37eb2d75f"
+    }
+  ]
+}

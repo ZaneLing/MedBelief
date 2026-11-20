@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_fb7e3156-ea89-43f3-830c-629bf2dde78e",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocitis\"}",
+      "generated_disease": "Cystocitis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "e967e8d497fe42c449627b8483c46218381410e5ffe20fa6e7db580e1084b801"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocalmonary disorder\"}",
+      "generated_disease": "Cystocalmonary disorder",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "3b4046de10b5f03efee31f8578d67ae002c2e46494bd475a9233ddbb47af44ac"
+    }
+  ]
+}

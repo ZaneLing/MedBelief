@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_05094",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Cauda equina syndrome\"}",
+      "generated_disease": "Cauda equina syndrome",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "ec125b1a6569edfc503c984bf4667994c0c4ea86c3984b1fa6eeee62252bdb8b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Brown-sequard syndrome\"}",
+      "generated_disease": "Brown-sequard syndrome",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "b045e79863cbb541778d7d8f2af53b89ad4bd2d111f6bb03d24039d10f2a4be9"
+    }
+  ]
+}

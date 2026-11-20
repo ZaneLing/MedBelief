@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_06162",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Osteomyelitis\"}",
+      "generated_disease": "Osteomyelitis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "70aec99f3fe765670ea5ca5df316d67778ee8f41fe9c48c42a2b252a4e077121"
+    }
+  ]
+}

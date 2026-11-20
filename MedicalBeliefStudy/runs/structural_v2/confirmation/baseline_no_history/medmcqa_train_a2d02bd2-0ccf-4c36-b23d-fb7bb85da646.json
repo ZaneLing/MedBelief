@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_a2d02bd2-0ccf-4c36-b23d-fb7bb85da646",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Amyotrophic lateral sclerosis\"}",
+      "generated_disease": "Amyotrophic lateral sclerosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "b81163b268b7930df33403188516e7b33877ef1001804d6a17119d5cd1b5d881"
+    }
+  ]
+}

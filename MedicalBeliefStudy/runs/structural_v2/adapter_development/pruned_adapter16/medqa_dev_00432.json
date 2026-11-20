@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_dev_00432",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Chromoblastomycosis\"}",
+      "generated_disease": "Chromoblastomycosis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "a38afd1b9846e4697f56a4d400cf92dbbed49065c308ed4b96e9f3a3ec77015c"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Sporotrichosis\"}",
+      "generated_disease": "Sporotrichosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ef93c1be95f97bae10a46b927974d8d9080f3d803eb5fb4a1f571379fb9266af"
+    }
+  ]
+}

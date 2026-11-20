@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_03590",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Acute myocardial infarction\"}",
+      "generated_disease": "Acute myocardial infarction",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "2963af6cf486676458e3a789e64131cb0ee866465c5ce597a0ab544303bf6e12"
+    }
+  ]
+}

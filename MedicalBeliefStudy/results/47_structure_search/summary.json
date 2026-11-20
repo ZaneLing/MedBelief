@@ -1,0 +1,793 @@
+{
+  "cases": 80,
+  "attempts": 22,
+  "primary_candidate": "pruned_constrained",
+  "rows": [
+    {
+      "configuration": {
+        "name": "baseline"
+      },
+      "folder": "structure_development",
+      "accuracy": {
+        "neutral": 0.6875,
+        "wrong": 0.4875
+      },
+      "listed": {
+        "neutral": 0.9875,
+        "wrong": 0.9375
+      },
+      "mean_accuracy": 0.5875,
+      "parameter_stats": {
+        "parameters": 1720574976,
+        "weight_bytes": 3441149952,
+        "layers": 28
+      }
+    },
+    {
+      "configuration": {
+        "name": "exit24",
+        "exit_layer": 24
+      },
+      "folder": "structure_development",
+      "accuracy": {
+        "neutral": 0.1375,
+        "wrong": 0.0875
+      },
+      "listed": {
+        "neutral": 0.2125,
+        "wrong": 0.2
+      },
+      "mean_accuracy": 0.1125,
+      "parameter_stats": {
+        "parameters": 1519230976,
+        "weight_bytes": 3038461952,
+        "layers": 24
+      }
+    },
+    {
+      "configuration": {
+        "name": "exit20",
+        "exit_layer": 20
+      },
+      "folder": "structure_development",
+      "accuracy": {
+        "neutral": 0.0,
+        "wrong": 0.0
+      },
+      "listed": {
+        "neutral": 0.0,
+        "wrong": 0.0
+      },
+      "mean_accuracy": 0.0,
+      "parameter_stats": {
+        "parameters": 1317886976,
+        "weight_bytes": 2635773952,
+        "layers": 20
+      }
+    },
+    {
+      "configuration": {
+        "name": "drop_tail4_keep28",
+        "drop_blocks": [
+          24,
+          25,
+          26,
+          27
+        ]
+      },
+      "folder": "structure_development",
+      "accuracy": {
+        "neutral": 0.0,
+        "wrong": 0.0
+      },
+      "listed": {
+        "neutral": 0.0,
+        "wrong": 0.0
+      },
+      "mean_accuracy": 0.0,
+      "parameter_stats": {
+        "parameters": 1519230976,
+        "weight_bytes": 3038461952,
+        "layers": 24
+      }
+    },
+    {
+      "configuration": {
+        "name": "drop_mlp4",
+        "drop_mlps": [
+          24,
+          25,
+          26,
+          28
+        ]
+      },
+      "folder": "structure_development",
+      "accuracy": {
+        "neutral": 0.4375,
+        "wrong": 0.3
+      },
+      "listed": {
+        "neutral": 0.6125,
+        "wrong": 0.625
+      },
+      "mean_accuracy": 0.36875,
+      "parameter_stats": {
+        "parameters": 1569571840,
+        "weight_bytes": 3139143680,
+        "layers": 28
+      }
+    },
+    {
+      "configuration": {
+        "name": "mlp_width75",
+        "mlp_keep": 0.75
+      },
+      "folder": "structure_development",
+      "accuracy": {
+        "neutral": 0.4125,
+        "wrong": 0.225
+      },
+      "listed": {
+        "neutral": 0.9625,
+        "wrong": 0.9875
+      },
+      "mean_accuracy": 0.31875,
+      "parameter_stats": {
+        "parameters": 1456333824,
+        "weight_bytes": 2912667648,
+        "layers": 28
+      }
+    },
+    {
+      "configuration": {
+        "name": "mlp_width50",
+        "mlp_keep": 0.5
+      },
+      "folder": "structure_development",
+      "accuracy": {
+        "neutral": 0.1125,
+        "wrong": 0.025
+      },
+      "listed": {
+        "neutral": 0.35,
+        "wrong": 0.6625
+      },
+      "mean_accuracy": 0.06875,
+      "parameter_stats": {
+        "parameters": 1192092672,
+        "weight_bytes": 2384185344,
+        "layers": 28
+      }
+    },
+    {
+      "configuration": {
+        "name": "late_mlp_width50",
+        "mlp_keep": 0.5,
+        "mlp_layers": [
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ]
+      },
+      "folder": "structure_development",
+      "accuracy": {
+        "neutral": 0.675,
+        "wrong": 0.5375
+      },
+      "listed": {
+        "neutral": 0.975,
+        "wrong": 0.9875
+      },
+      "mean_accuracy": 0.60625,
+      "parameter_stats": {
+        "parameters": 1494082560,
+        "weight_bytes": 2988165120,
+        "layers": 28
+      }
+    },
+    {
+      "configuration": {
+        "name": "attention_groups75",
+        "attention_keep_groups": 6
+      },
+      "folder": "structure_development",
+      "accuracy": {
+        "neutral": 0.05,
+        "wrong": 0.0375
+      },
+      "listed": {
+        "neutral": 0.075,
+        "wrong": 0.1
+      },
+      "mean_accuracy": 0.04375,
+      "parameter_stats": {
+        "parameters": 1632494592,
+        "weight_bytes": 3264989184,
+        "layers": 28
+      }
+    },
+    {
+      "configuration": {
+        "name": "linear_old16",
+        "replace_mlps": [
+          25,
+          26
+        ],
+        "rank": 16
+      },
+      "folder": "structure_development",
+      "accuracy": {
+        "neutral": 0.6375,
+        "wrong": 0.45
+      },
+      "listed": {
+        "neutral": 0.9625,
+        "wrong": 0.925
+      },
+      "mean_accuracy": 0.54375,
+      "parameter_stats": {
+        "parameters": 1645216768,
+        "weight_bytes": 3290712064,
+        "layers": 28
+      }
+    },
+    {
+      "configuration": {
+        "name": "late_mlp_half",
+        "mlp_scale": 0.5,
+        "scale_layers": [
+          25,
+          26,
+          27,
+          28
+        ]
+      },
+      "folder": "structure_development",
+      "accuracy": {
+        "neutral": 0.7,
+        "wrong": 0.5125
+      },
+      "listed": {
+        "neutral": 0.9875,
+        "wrong": 1.0
+      },
+      "mean_accuracy": 0.60625,
+      "parameter_stats": {
+        "parameters": 1720574976,
+        "weight_bytes": 3441149952,
+        "layers": 28
+      }
+    },
+    {
+      "configuration": {
+        "name": "contrast21_half",
+        "contrast_layer": 21,
+        "contrast_strength": 0.5,
+        "plausibility": 0.1
+      },
+      "folder": "structure_development",
+      "accuracy": {
+        "neutral": 0.6625,
+        "wrong": 0.5125
+      },
+      "listed": {
+        "neutral": 0.975,
+        "wrong": 0.9625
+      },
+      "mean_accuracy": 0.5874999999999999,
+      "parameter_stats": {
+        "parameters": 1720574976,
+        "weight_bytes": 3441149952,
+        "layers": 28
+      }
+    },
+    {
+      "configuration": {
+        "name": "contrast21_full",
+        "contrast_layer": 21,
+        "contrast_strength": 1.0,
+        "plausibility": 0.1
+      },
+      "folder": "structure_development",
+      "accuracy": {
+        "neutral": 0.6625,
+        "wrong": 0.5125
+      },
+      "listed": {
+        "neutral": 0.975,
+        "wrong": 0.9625
+      },
+      "mean_accuracy": 0.5874999999999999,
+      "parameter_stats": {
+        "parameters": 1720574976,
+        "weight_bytes": 3441149952,
+        "layers": 28
+      }
+    },
+    {
+      "configuration": {
+        "name": "full_diagonal",
+        "adapter_file": "runs/structural_v2/adapters/full_diagonal/best.safetensors",
+        "adapter_kind": "diagonal",
+        "adapter_rank": 0
+      },
+      "folder": "adapter_development",
+      "accuracy": {
+        "neutral": 0.625,
+        "wrong": 0.4875
+      },
+      "listed": {
+        "neutral": 0.975,
+        "wrong": 0.9375
+      },
+      "mean_accuracy": 0.55625,
+      "parameter_stats": {
+        "parameters": 1720579072,
+        "weight_bytes": 3441166336,
+        "layers": 28
+      }
+    },
+    {
+      "configuration": {
+        "name": "full_adapter16",
+        "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+        "adapter_kind": "bottleneck",
+        "adapter_rank": 16
+      },
+      "folder": "adapter_development",
+      "accuracy": {
+        "neutral": 0.6375,
+        "wrong": 0.5125
+      },
+      "listed": {
+        "neutral": 0.975,
+        "wrong": 0.975
+      },
+      "mean_accuracy": 0.575,
+      "parameter_stats": {
+        "parameters": 1720642576,
+        "weight_bytes": 3441420352,
+        "layers": 28
+      }
+    },
+    {
+      "configuration": {
+        "name": "full_adapter64",
+        "adapter_file": "runs/structural_v2/adapters/full_adapter64/best.safetensors",
+        "adapter_kind": "bottleneck",
+        "adapter_rank": 64
+      },
+      "folder": "adapter_development",
+      "accuracy": {
+        "neutral": 0.6875,
+        "wrong": 0.4875
+      },
+      "listed": {
+        "neutral": 0.9875,
+        "wrong": 0.9375
+      },
+      "mean_accuracy": 0.5875,
+      "parameter_stats": {
+        "parameters": 1720839232,
+        "weight_bytes": 3442206976,
+        "layers": 28
+      }
+    },
+    {
+      "configuration": {
+        "name": "pruned_adapter16",
+        "mlp_keep": 0.5,
+        "mlp_layers": [
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+        "adapter_kind": "bottleneck",
+        "adapter_rank": 16
+      },
+      "folder": "adapter_development",
+      "accuracy": {
+        "neutral": 0.675,
+        "wrong": 0.5375
+      },
+      "listed": {
+        "neutral": 0.975,
+        "wrong": 0.9875
+      },
+      "mean_accuracy": 0.60625,
+      "parameter_stats": {
+        "parameters": 1494150160,
+        "weight_bytes": 2988435520,
+        "layers": 28
+      }
+    },
+    {
+      "configuration": {
+        "name": "exit20_adapter16",
+        "exit_layer": 20,
+        "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+        "adapter_kind": "bottleneck",
+        "adapter_rank": 16
+      },
+      "folder": "adapter_development",
+      "accuracy": {
+        "neutral": 0.0,
+        "wrong": 0.0
+      },
+      "listed": {
+        "neutral": 0.0,
+        "wrong": 0.0
+      },
+      "mean_accuracy": 0.0,
+      "parameter_stats": {
+        "parameters": 1317954576,
+        "weight_bytes": 2636044352,
+        "layers": 20
+      }
+    },
+    {
+      "configuration": {
+        "name": "exit20_bridge64",
+        "exit_layer": 20,
+        "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+      },
+      "folder": "adapter_development",
+      "accuracy": {
+        "neutral": 0.0,
+        "wrong": 0.0
+      },
+      "listed": {
+        "neutral": 0.0,
+        "wrong": 0.0
+      },
+      "mean_accuracy": 0.0,
+      "parameter_stats": {
+        "parameters": 1318153216,
+        "weight_bytes": 2636838912,
+        "layers": 20
+      }
+    },
+    {
+      "configuration": {
+        "name": "baseline_constrained",
+        "constrained": true
+      },
+      "folder": "adapter_development",
+      "accuracy": {
+        "neutral": 0.7,
+        "wrong": 0.5375
+      },
+      "listed": {
+        "neutral": 1.0,
+        "wrong": 1.0
+      },
+      "mean_accuracy": 0.6187499999999999,
+      "parameter_stats": {
+        "parameters": 1720574976,
+        "weight_bytes": 3441149952,
+        "layers": 28
+      }
+    },
+    {
+      "configuration": {
+        "name": "exit20_constrained",
+        "exit_layer": 20,
+        "constrained": true
+      },
+      "folder": "adapter_development",
+      "accuracy": {
+        "neutral": 0.275,
+        "wrong": 0.2375
+      },
+      "listed": {
+        "neutral": 1.0,
+        "wrong": 1.0
+      },
+      "mean_accuracy": 0.25625,
+      "parameter_stats": {
+        "parameters": 1317886976,
+        "weight_bytes": 2635773952,
+        "layers": 20
+      }
+    },
+    {
+      "configuration": {
+        "name": "pruned_constrained",
+        "mlp_keep": 0.5,
+        "mlp_layers": [
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "constrained": true
+      },
+      "folder": "adapter_development",
+      "accuracy": {
+        "neutral": 0.7,
+        "wrong": 0.55
+      },
+      "listed": {
+        "neutral": 1.0,
+        "wrong": 1.0
+      },
+      "mean_accuracy": 0.625,
+      "parameter_stats": {
+        "parameters": 1494082560,
+        "weight_bytes": 2988165120,
+        "layers": 28
+      }
+    }
+  ],
+  "normalized_scoring_sensitivity": [
+    {
+      "candidate": "baseline",
+      "parameters": 1720574976,
+      "parameter_reduction": 0.0,
+      "neutral_accuracy": 0.6875,
+      "wrong_accuracy": 0.4875,
+      "neutral_listed": 0.9875,
+      "wrong_listed": 0.9375,
+      "normalized_neutral_correct": 55,
+      "normalized_wrong_correct": 42
+    },
+    {
+      "candidate": "exit24",
+      "parameters": 1519230976,
+      "parameter_reduction": 0.11702134624094407,
+      "neutral_accuracy": 0.1375,
+      "wrong_accuracy": 0.0875,
+      "neutral_listed": 0.2125,
+      "wrong_listed": 0.2,
+      "normalized_neutral_correct": 17,
+      "normalized_wrong_correct": 16
+    },
+    {
+      "candidate": "exit20",
+      "parameters": 1317886976,
+      "parameter_reduction": 0.23404269248188814,
+      "neutral_accuracy": 0.0,
+      "wrong_accuracy": 0.0,
+      "neutral_listed": 0.0,
+      "wrong_listed": 0.0,
+      "normalized_neutral_correct": 0,
+      "normalized_wrong_correct": 0
+    },
+    {
+      "candidate": "drop_tail4_keep28",
+      "parameters": 1519230976,
+      "parameter_reduction": 0.11702134624094407,
+      "neutral_accuracy": 0.0,
+      "wrong_accuracy": 0.0,
+      "neutral_listed": 0.0,
+      "wrong_listed": 0.0,
+      "normalized_neutral_correct": 2,
+      "normalized_wrong_correct": 1
+    },
+    {
+      "candidate": "drop_mlp4",
+      "parameters": 1569571840,
+      "parameter_reduction": 0.08776318271875183,
+      "neutral_accuracy": 0.4375,
+      "wrong_accuracy": 0.3,
+      "neutral_listed": 0.6125,
+      "wrong_listed": 0.625,
+      "normalized_neutral_correct": 35,
+      "normalized_wrong_correct": 25
+    },
+    {
+      "candidate": "mlp_width75",
+      "parameters": 1456333824,
+      "parameter_reduction": 0.15357723765941833,
+      "neutral_accuracy": 0.4125,
+      "wrong_accuracy": 0.225,
+      "neutral_listed": 0.9625,
+      "wrong_listed": 0.9875,
+      "normalized_neutral_correct": 35,
+      "normalized_wrong_correct": 19
+    },
+    {
+      "candidate": "mlp_width50",
+      "parameters": 1192092672,
+      "parameter_reduction": 0.30715447531883666,
+      "neutral_accuracy": 0.1125,
+      "wrong_accuracy": 0.025,
+      "neutral_listed": 0.35,
+      "wrong_listed": 0.6625,
+      "normalized_neutral_correct": 24,
+      "normalized_wrong_correct": 10
+    },
+    {
+      "candidate": "late_mlp_width50",
+      "parameters": 1494082560,
+      "parameter_reduction": 0.13163763227950143,
+      "neutral_accuracy": 0.675,
+      "wrong_accuracy": 0.5375,
+      "neutral_listed": 0.975,
+      "wrong_listed": 0.9875,
+      "normalized_neutral_correct": 55,
+      "normalized_wrong_correct": 44
+    },
+    {
+      "candidate": "attention_groups75",
+      "parameters": 1632494592,
+      "parameter_reduction": 0.051192412553139444,
+      "neutral_accuracy": 0.05,
+      "wrong_accuracy": 0.0375,
+      "neutral_listed": 0.075,
+      "wrong_listed": 0.1,
+      "normalized_neutral_correct": 5,
+      "normalized_wrong_correct": 4
+    },
+    {
+      "candidate": "linear_old16",
+      "parameters": 1645216768,
+      "parameter_reduction": 0.04379827037540274,
+      "neutral_accuracy": 0.6375,
+      "wrong_accuracy": 0.45,
+      "neutral_listed": 0.9625,
+      "wrong_listed": 0.925,
+      "normalized_neutral_correct": 52,
+      "normalized_wrong_correct": 39
+    },
+    {
+      "candidate": "late_mlp_half",
+      "parameters": 1720574976,
+      "parameter_reduction": 0.0,
+      "neutral_accuracy": 0.7,
+      "wrong_accuracy": 0.5125,
+      "neutral_listed": 0.9875,
+      "wrong_listed": 1.0,
+      "normalized_neutral_correct": 56,
+      "normalized_wrong_correct": 41
+    },
+    {
+      "candidate": "contrast21_half",
+      "parameters": 1720574976,
+      "parameter_reduction": 0.0,
+      "neutral_accuracy": 0.6625,
+      "wrong_accuracy": 0.5125,
+      "neutral_listed": 0.975,
+      "wrong_listed": 0.9625,
+      "normalized_neutral_correct": 54,
+      "normalized_wrong_correct": 42
+    },
+    {
+      "candidate": "contrast21_full",
+      "parameters": 1720574976,
+      "parameter_reduction": 0.0,
+      "neutral_accuracy": 0.6625,
+      "wrong_accuracy": 0.5125,
+      "neutral_listed": 0.975,
+      "wrong_listed": 0.9625,
+      "normalized_neutral_correct": 54,
+      "normalized_wrong_correct": 42
+    },
+    {
+      "candidate": "full_diagonal",
+      "parameters": 1720579072,
+      "parameter_reduction": -2.3805995421621873e-06,
+      "neutral_accuracy": 0.625,
+      "wrong_accuracy": 0.4875,
+      "neutral_listed": 0.975,
+      "wrong_listed": 0.9375,
+      "normalized_neutral_correct": 51,
+      "normalized_wrong_correct": 43
+    },
+    {
+      "candidate": "full_adapter16",
+      "parameters": 1720642576,
+      "parameter_reduction": -3.9289191661406875e-05,
+      "neutral_accuracy": 0.6375,
+      "wrong_accuracy": 0.5125,
+      "neutral_listed": 0.975,
+      "wrong_listed": 0.975,
+      "normalized_neutral_correct": 51,
+      "normalized_wrong_correct": 41
+    },
+    {
+      "candidate": "full_adapter64",
+      "parameters": 1720839232,
+      "parameter_reduction": -0.00015358586733271729,
+      "neutral_accuracy": 0.6875,
+      "wrong_accuracy": 0.4875,
+      "neutral_listed": 0.9875,
+      "wrong_listed": 0.9375,
+      "normalized_neutral_correct": 55,
+      "normalized_wrong_correct": 42
+    },
+    {
+      "candidate": "pruned_adapter16",
+      "parameters": 1494150160,
+      "parameter_reduction": 0.1315983430878399,
+      "neutral_accuracy": 0.675,
+      "wrong_accuracy": 0.5375,
+      "neutral_listed": 0.975,
+      "wrong_listed": 0.9875,
+      "normalized_neutral_correct": 55,
+      "normalized_wrong_correct": 44
+    },
+    {
+      "candidate": "exit20_adapter16",
+      "parameters": 1317954576,
+      "parameter_reduction": 0.23400340329022662,
+      "neutral_accuracy": 0.0,
+      "wrong_accuracy": 0.0,
+      "neutral_listed": 0.0,
+      "wrong_listed": 0.0,
+      "normalized_neutral_correct": 0,
+      "normalized_wrong_correct": 0
+    },
+    {
+      "candidate": "exit20_bridge64",
+      "parameters": 1318153216,
+      "parameter_reduction": 0.23388795351165215,
+      "neutral_accuracy": 0.0,
+      "wrong_accuracy": 0.0,
+      "neutral_listed": 0.0,
+      "wrong_listed": 0.0,
+      "normalized_neutral_correct": 0,
+      "normalized_wrong_correct": 0
+    },
+    {
+      "candidate": "baseline_constrained",
+      "parameters": 1720574976,
+      "parameter_reduction": 0.0,
+      "neutral_accuracy": 0.7,
+      "wrong_accuracy": 0.5375,
+      "neutral_listed": 1.0,
+      "wrong_listed": 1.0,
+      "normalized_neutral_correct": 56,
+      "normalized_wrong_correct": 43
+    },
+    {
+      "candidate": "exit20_constrained",
+      "parameters": 1317886976,
+      "parameter_reduction": 0.23404269248188814,
+      "neutral_accuracy": 0.275,
+      "wrong_accuracy": 0.2375,
+      "neutral_listed": 1.0,
+      "wrong_listed": 1.0,
+      "normalized_neutral_correct": 22,
+      "normalized_wrong_correct": 19
+    },
+    {
+      "candidate": "pruned_constrained",
+      "parameters": 1494082560,
+      "parameter_reduction": 0.13163763227950143,
+      "neutral_accuracy": 0.7,
+      "wrong_accuracy": 0.55,
+      "neutral_listed": 1.0,
+      "wrong_listed": 1.0,
+      "normalized_neutral_correct": 56,
+      "normalized_wrong_correct": 44
+    }
+  ]
+}

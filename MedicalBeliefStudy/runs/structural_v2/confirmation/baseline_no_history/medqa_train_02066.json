@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_02066",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Lateral wall myocardial infarction\"}",
+      "generated_disease": "Lateral wall myocardial infarction",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "c1b55ddb030b181e3256def6059813eaa8711d64a7ad7c668a1eb8223468341b"
+    }
+  ]
+}

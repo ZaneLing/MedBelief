@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_07828",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformy of the liver or other major systemic disease\"}",
+      "generated_disease": "Chronic veniformy of the liver or other major systemic disease",
+      "stop": "eos",
+      "tokens": 14,
+      "prompt_sha256": "8202a781b9ef324d67c9bf6fe627341184932c8e472c57f5ba0b35f378c08d10"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformy disease\"}",
+      "generated_disease": "Chronic veniformy disease",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "dfd113da5021d108cbe0d3265eceb951e6fe975345402dadc9b051d4e576c1d3"
+    }
+  ]
+}

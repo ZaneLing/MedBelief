@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_06038",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Pulmonary hypertension\"}",
+      "generated_disease": "Pulmonary hypertension",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "fc2b63f3d22b15d4956b5082fcfd3de1172fb9f9730c08fbc831e4ebefac734b"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Alpha 1-antitrypsin deficiency\"}",
+      "generated_disease": "Alpha 1-antitrypsin deficiency",
+      "stop": "eos",
+      "tokens": 11,
+      "prompt_sha256": "cfddd32fa60bd8afeea2234d0d911b5902c6dc886de2ef54f11df714c953d180"
+    }
+  ]
+}

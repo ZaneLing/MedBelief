@@ -1,0 +1,114 @@
+{
+  "checks": [
+    {
+      "job_id": "ddx_train_0840224_base_t03_m0",
+      "layer": 24,
+      "component": "attention",
+      "max_abs_candidate_logit_error": 0.03125,
+      "max_abs_support_error": 9.67796154327516e-09,
+      "allclose": true,
+      "top_same": true
+    },
+    {
+      "job_id": "ddx_train_0840224_base_t03_m0",
+      "layer": 24,
+      "component": "mlp",
+      "max_abs_candidate_logit_error": 0.03125,
+      "max_abs_support_error": 9.422563016414642e-05,
+      "allclose": true,
+      "top_same": true
+    },
+    {
+      "job_id": "ddx_train_0840224_base_t03_m0",
+      "layer": 26,
+      "component": "attention",
+      "max_abs_candidate_logit_error": 0.0,
+      "max_abs_support_error": 0.0,
+      "allclose": true,
+      "top_same": true
+    },
+    {
+      "job_id": "ddx_train_0840224_base_t03_m0",
+      "layer": 26,
+      "component": "mlp",
+      "max_abs_candidate_logit_error": 0.0,
+      "max_abs_support_error": 0.0,
+      "allclose": true,
+      "top_same": true
+    },
+    {
+      "job_id": "ddx_train_0840224_base_t03_m0",
+      "layer": 28,
+      "component": "attention",
+      "max_abs_candidate_logit_error": 0.0,
+      "max_abs_support_error": 0.0,
+      "allclose": true,
+      "top_same": true
+    },
+    {
+      "job_id": "ddx_train_0840224_base_t03_m0",
+      "layer": 28,
+      "component": "mlp",
+      "max_abs_candidate_logit_error": 0.0,
+      "max_abs_support_error": 0.0,
+      "allclose": true,
+      "top_same": true
+    },
+    {
+      "job_id": "ddx_train_0840448_base_t04_m0",
+      "layer": 24,
+      "component": "attention",
+      "max_abs_candidate_logit_error": 0.0,
+      "max_abs_support_error": 0.0,
+      "allclose": true,
+      "top_same": true
+    },
+    {
+      "job_id": "ddx_train_0840448_base_t04_m0",
+      "layer": 24,
+      "component": "mlp",
+      "max_abs_candidate_logit_error": 0.03125,
+      "max_abs_support_error": 8.223679515140248e-10,
+      "allclose": true,
+      "top_same": true
+    },
+    {
+      "job_id": "ddx_train_0840448_base_t04_m0",
+      "layer": 26,
+      "component": "attention",
+      "max_abs_candidate_logit_error": 0.0,
+      "max_abs_support_error": 0.0,
+      "allclose": true,
+      "top_same": true
+    },
+    {
+      "job_id": "ddx_train_0840448_base_t04_m0",
+      "layer": 26,
+      "component": "mlp",
+      "max_abs_candidate_logit_error": 0.03125,
+      "max_abs_support_error": 1.1920928955078125e-07,
+      "allclose": true,
+      "top_same": true
+    },
+    {
+      "job_id": "ddx_train_0840448_base_t04_m0",
+      "layer": 28,
+      "component": "attention",
+      "max_abs_candidate_logit_error": 0.0,
+      "max_abs_support_error": 0.0,
+      "allclose": true,
+      "top_same": true
+    },
+    {
+      "job_id": "ddx_train_0840448_base_t04_m0",
+      "layer": 28,
+      "component": "mlp",
+      "max_abs_candidate_logit_error": 0.0,
+      "max_abs_support_error": 0.0,
+      "allclose": true,
+      "top_same": true
+    }
+  ],
+  "source_sha256": "47f88c0a624092e32879ea64dd24ee12b8c67d314e8a75395388ce6dbe0c67de",
+  "all_pass": true
+}

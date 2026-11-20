@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_04853",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Vulvar hematoma\"}",
+      "generated_disease": "Vulvar hematoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "8f4e7934cafa2606bad8b47c44bcdc1bed52701436d13af4b702aa04a842aede"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_1e2ce55f-6400-41a4-8e23-1d60697972a7",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Rupture aneurysm\"}",
+      "generated_disease": "Rupture aneurysm",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "40ac7f37f7ebb70057394a7c7c88bb12e982ea6fed80ef425df623380964f5d1"
+    }
+  ]
+}

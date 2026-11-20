@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_train_03832",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Chronic bronchitis\"}",
+      "generated_disease": "Chronic bronchitis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "3a5d0361546ee6543457dc88f31eec0d96f0ff13e7bca2ff915a39a4548ebbd2"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Chronic bronchitis\"}",
+      "generated_disease": "Chronic bronchitis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "3d53d74a9c4c0c6f21106bcf3d69705c705c88cf335f48ef68450694350d31d3"
+    }
+  ]
+}

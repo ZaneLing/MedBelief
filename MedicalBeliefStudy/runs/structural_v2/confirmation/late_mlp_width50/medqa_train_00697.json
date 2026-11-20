@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_train_00697",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Endocardial cushion syndrome\"}",
+      "generated_disease": "Endocardial cushion syndrome",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "8e6d6e016206e4b2779814921980368685f2b45957f91530d4c70ff1185e1b51"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Endocardial cushion syndrome\"}",
+      "generated_disease": "Endocardial cushion syndrome",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "9cc9eee422e1cbf76bd8acf8bd10ff64f4fefbdb3f1b4111d57330e3c3ee0ec7"
+    }
+  ]
+}

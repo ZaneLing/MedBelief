@@ -1,0 +1,7709 @@
+{
+  "patients": 48,
+  "models": [
+    "Qwen3-1.7B FP16",
+    "Qwen3-4B 8bit"
+  ],
+  "conditions": 2304,
+  "cohort": "confirmation",
+  "condition_metrics": [
+    {
+      "model": "1.7b",
+      "dataset": "MedQA",
+      "route": "full",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.65625,
+        "median": 0.75,
+        "low": 0.46875,
+        "high": 0.84375
+      },
+      "margin": {
+        "n": 16,
+        "mean": 7.904296825128018,
+        "median": 9.390624932944775,
+        "low": 3.527111801751964,
+        "high": 12.04394526047592
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.6765179738340736,
+        "median": 0.7758464142680168,
+        "low": 0.4985042154355803,
+        "high": 0.8363390001095773
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9772609742358327,
+        "median": 0.9999990612268448,
+        "low": 0.9320946909021586,
+        "high": 0.9999896402936429
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 0.96875,
+        "median": 1.0,
+        "low": 0.90625,
+        "high": 1.0
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.4375,
+        "high": 0.875
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedQA",
+      "route": "full",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.40625,
+        "median": 0.0,
+        "low": 0.1875,
+        "high": 0.625
+      },
+      "margin": {
+        "n": 16,
+        "mean": -2.8046874678815117,
+        "median": -6.304687437323992,
+        "low": -9.60401601198406,
+        "high": 4.050329643853624
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.38614035140409564,
+        "median": 0.0034791244538610044,
+        "low": 0.16215097968993025,
+        "high": 0.6035648801258781
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9790796497836709,
+        "median": 0.9999916702508926,
+        "low": 0.9395580038428306,
+        "high": 0.9998991571832448
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 0.96875,
+        "median": 1.0,
+        "low": 0.90625,
+        "high": 1.0
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedQA",
+      "route": "full",
+      "condition": "mention",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.375,
+        "median": 0.0,
+        "low": 0.15625,
+        "high": 0.59375
+      },
+      "margin": {
+        "n": 16,
+        "mean": -0.614746172261941,
+        "median": -1.4374999925494194,
+        "low": -5.511267225944986,
+        "high": 4.0750243403380795
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.37784996496981105,
+        "median": 0.2089086975902319,
+        "low": 0.17409860168987268,
+        "high": 0.5825893610625444
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9536739898612723,
+        "median": 0.9989436715841293,
+        "low": 0.88879268320743,
+        "high": 0.9944207906723023
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 0.96875,
+        "median": 1.0,
+        "low": 0.90625,
+        "high": 1.0
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedQA",
+      "route": "block_to_facts",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.40625,
+        "high": 0.84375
+      },
+      "margin": {
+        "n": 16,
+        "mean": 7.810058530615159,
+        "median": 7.4687498059356585,
+        "low": 3.068713354456794,
+        "high": 12.094323653452545
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.6460713929108672,
+        "median": 0.9773680567741394,
+        "low": 0.42867717133700106,
+        "high": 0.8413221405760963
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9789765141904354,
+        "median": 0.9999982863664627,
+        "low": 0.937497986247763,
+        "high": 0.999991199048236
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 0.96875,
+        "median": 1.0,
+        "low": 0.90625,
+        "high": 1.0
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.875,
+        "median": 1.0,
+        "low": 0.6875,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedQA",
+      "route": "block_to_facts",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.40625,
+        "median": 0.25,
+        "low": 0.1875,
+        "high": 0.625
+      },
+      "margin": {
+        "n": 16,
+        "mean": -1.9458007527443382,
+        "median": -5.460937529121566,
+        "low": -8.416613658588638,
+        "high": 4.562170381133528
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.3726102890430055,
+        "median": 0.13304000723780438,
+        "low": 0.16207743717527134,
+        "high": 0.5818807051969721
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9731399156153202,
+        "median": 0.99997977912426,
+        "low": 0.9236550642177462,
+        "high": 0.9997857369482517
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 0.96875,
+        "median": 1.0,
+        "low": 0.90625,
+        "high": 1.0
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.4375,
+        "high": 0.875
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedQA",
+      "route": "block_to_facts",
+      "condition": "mention",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.375,
+        "median": 0.25,
+        "low": 0.15625,
+        "high": 0.59375
+      },
+      "margin": {
+        "n": 16,
+        "mean": 0.08398430747026087,
+        "median": -0.8125000325962901,
+        "low": -4.666223213525283,
+        "high": 4.712890554919676
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.3955527259138262,
+        "median": 0.3298857407644391,
+        "low": 0.1998509673533563,
+        "high": 0.594762411976289
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9613826953573152,
+        "median": 0.9985704272985458,
+        "low": 0.8996905700070783,
+        "high": 0.9962980017531663
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 0.96875,
+        "median": 1.0,
+        "low": 0.90625,
+        "high": 1.0
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.875
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedQA",
+      "route": "block_to_decision",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.46875,
+        "high": 0.875
+      },
+      "margin": {
+        "n": 16,
+        "mean": 8.799316316697498,
+        "median": 11.695312566123903,
+        "low": 2.8143066118032083,
+        "high": 14.38892801732309
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.6579671363398492,
+        "median": 0.8412398993968964,
+        "low": 0.449842911539438,
+        "high": 0.840428440384802
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999721609055996,
+        "median": 1.0,
+        "low": 0.9999165311455727,
+        "high": 1.0000000018626451
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.875,
+        "median": 1.0,
+        "low": 0.6875,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedQA",
+      "route": "block_to_decision",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 0.75,
+        "low": 0.40625,
+        "high": 0.8125
+      },
+      "margin": {
+        "n": 16,
+        "mean": 8.020507723508242,
+        "median": 10.804687321186066,
+        "low": 1.8470458654141022,
+        "high": 13.74332262776176
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.6261484078421218,
+        "median": 0.8290782421827316,
+        "low": 0.4195766117365959,
+        "high": 0.8191754172958128
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999465607106686,
+        "median": 1.0,
+        "low": 0.9998397901654243,
+        "high": 0.9999999925494194
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.4375,
+        "high": 0.875
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedQA",
+      "route": "block_to_decision",
+      "condition": "mention",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 0.75,
+        "low": 0.40625,
+        "high": 0.8125
+      },
+      "margin": {
+        "n": 16,
+        "mean": 8.718749944556556,
+        "median": 11.562499934341758,
+        "low": 2.8763915606098376,
+        "high": 14.177758773672643
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.6396020649005554,
+        "median": 0.8433773145079613,
+        "low": 0.4368324401521692,
+        "high": 0.829131413569705
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999938197433949,
+        "median": 1.0,
+        "low": 0.9999814927112312,
+        "high": 1.0000000018626451
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.4375,
+        "high": 0.875
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedQA",
+      "route": "block_both",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.40625,
+        "high": 0.84375
+      },
+      "margin": {
+        "n": 16,
+        "mean": 8.266113315688381,
+        "median": 9.488281613826985,
+        "low": 2.1423219833744915,
+        "high": 13.785278315532452
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.6246136895889435,
+        "median": 0.8569763749837875,
+        "low": 0.4087248670934372,
+        "high": 0.8242272613173518
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999367278069258,
+        "median": 0.9999999850988388,
+        "low": 0.9998104758560658,
+        "high": 0.999999949708581
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedQA",
+      "route": "block_both",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.40625,
+        "high": 0.84375
+      },
+      "margin": {
+        "n": 16,
+        "mean": 8.376953185881217,
+        "median": 9.57421907497337,
+        "low": 2.60679931786877,
+        "high": 13.664379941004045
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.6247901709439678,
+        "median": 0.8921429961919785,
+        "low": 0.4095453572381358,
+        "high": 0.8260974800496693
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999367222189903,
+        "median": 0.9999999701976776,
+        "low": 0.9998104888480157,
+        "high": 0.999999925494194
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedQA",
+      "route": "block_both",
+      "condition": "mention",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 0.75,
+        "low": 0.40625,
+        "high": 0.8125
+      },
+      "margin": {
+        "n": 16,
+        "mean": 8.562011711034337,
+        "median": 10.546874996536644,
+        "low": 2.85740963558452,
+        "high": 13.87388917685149
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.6186742689582748,
+        "median": 0.7690458819270134,
+        "low": 0.40771877568192444,
+        "high": 0.8118416212299646
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999936539679766,
+        "median": 0.9999999552965164,
+        "low": 0.999981164932251,
+        "high": 0.9999999441206455
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9375
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedMCQA",
+      "route": "full",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.78125,
+        "median": 1.0,
+        "low": 0.59375,
+        "high": 0.9375
+      },
+      "margin": {
+        "n": 16,
+        "mean": 10.801757788254688,
+        "median": 11.30468755616039,
+        "low": 7.930151345839814,
+        "high": 13.443969694315124
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.7721816646800193,
+        "median": 0.9987076222896576,
+        "low": 0.5749053614907386,
+        "high": 0.9363328920015871
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9994166344404221,
+        "median": 0.999994307756424,
+        "low": 0.9983064155094326,
+        "high": 0.9999898066278547
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 0.9390625000000057
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedMCQA",
+      "route": "full",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.65625,
+        "median": 1.0,
+        "low": 0.4375,
+        "high": 0.84375
+      },
+      "margin": {
+        "n": 16,
+        "mean": 6.127929735434936,
+        "median": 7.535156311510946,
+        "low": 1.821753110902834,
+        "high": 9.771984835567729
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.6432686923129887,
+        "median": 0.8519803285598755,
+        "low": 0.44400039224525467,
+        "high": 0.8236218504212865
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9956594165414572,
+        "median": 0.9999954551458359,
+        "low": 0.9895229276269675,
+        "high": 0.9998255626764149
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedMCQA",
+      "route": "full",
+      "condition": "mention",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.71875,
+        "median": 1.0,
+        "low": 0.53125,
+        "high": 0.875
+      },
+      "margin": {
+        "n": 16,
+        "mean": 6.707519464780532,
+        "median": 6.292968778172508,
+        "low": 3.766516099080553,
+        "high": 9.589086849241522
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.6918367892258175,
+        "median": 0.8118616193532944,
+        "low": 0.5215026732141042,
+        "high": 0.8437580035584915
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9441278749145567,
+        "median": 0.9988115876913071,
+        "low": 0.8828445226419717,
+        "high": 0.9875171896535904
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 0.96875,
+        "median": 1.0,
+        "low": 0.90625,
+        "high": 1.0
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.875
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedMCQA",
+      "route": "block_to_facts",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.53125,
+        "high": 0.9375
+      },
+      "margin": {
+        "n": 16,
+        "mean": 10.577636679787577,
+        "median": 11.882812532058779,
+        "low": 7.695983828537513,
+        "high": 13.309094101272713
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.7630101408698806,
+        "median": 0.9985536485910416,
+        "low": 0.5602867565094385,
+        "high": 0.9264760002348339
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9989533927291632,
+        "median": 0.9999860376119614,
+        "low": 0.9970695685595274,
+        "high": 0.9999700683634728
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.875,
+        "median": 1.0,
+        "low": 0.6875,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedMCQA",
+      "route": "block_to_facts",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 0.75,
+        "low": 0.40625,
+        "high": 0.8125
+      },
+      "margin": {
+        "n": 16,
+        "mean": 4.630371006983458,
+        "median": 6.93749969647979,
+        "low": -0.09873060458601765,
+        "high": 8.823022410128342
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.611550053870916,
+        "median": 0.8402165696024895,
+        "low": 0.3936158408532201,
+        "high": 0.808115769209764
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9856660272926092,
+        "median": 0.99989815056324,
+        "low": 0.9629852537997067,
+        "high": 0.9991446007043123
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9375
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedMCQA",
+      "route": "block_to_facts",
+      "condition": "mention",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 0.75,
+        "low": 0.40625,
+        "high": 0.8125
+      },
+      "margin": {
+        "n": 16,
+        "mean": 5.464355446289007,
+        "median": 5.761718692258,
+        "low": 2.115209939215811,
+        "high": 8.610888610132905
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.6286471753505793,
+        "median": 0.6684715524315834,
+        "low": 0.4373534439942318,
+        "high": 0.802648609217431
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9162801196798682,
+        "median": 0.9960973560810089,
+        "low": 0.8352860089857131,
+        "high": 0.9846811660565435
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 0.90625,
+        "median": 1.0,
+        "low": 0.8125,
+        "high": 1.0
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.875
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedMCQA",
+      "route": "block_to_decision",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 0.96875
+      },
+      "margin": {
+        "n": 16,
+        "mean": 14.118164017699932,
+        "median": 14.42187500745058,
+        "low": 11.145849546935322,
+        "high": 16.67652583171353
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.8036501171634711,
+        "median": 0.999973326921463,
+        "low": 0.6183630452620328,
+        "high": 0.9582384164445102
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999999348074198,
+        "median": 1.0,
+        "low": 0.9999998323619366,
+        "high": 1.0000000055879354
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.875,
+        "median": 1.0,
+        "low": 0.6875,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedMCQA",
+      "route": "block_to_decision",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.84375,
+        "median": 1.0,
+        "low": 0.65625,
+        "high": 1.0
+      },
+      "margin": {
+        "n": 16,
+        "mean": 13.250976512498756,
+        "median": 15.953124851135215,
+        "low": 9.735351595931226,
+        "high": 16.393896432505187
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.8385056939515578,
+        "median": 0.9998197853565216,
+        "low": 0.6625402986550625,
+        "high": 0.9833450178150087
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999998230487108,
+        "median": 0.9999999850988388,
+        "low": 0.9999995119404048,
+        "high": 1.0
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.875,
+        "median": 1.0,
+        "low": 0.6875,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedMCQA",
+      "route": "block_to_decision",
+      "condition": "mention",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.84375,
+        "median": 1.0,
+        "low": 0.65625,
+        "high": 1.0
+      },
+      "margin": {
+        "n": 16,
+        "mean": 13.52099597433769,
+        "median": 15.195312565485693,
+        "low": 10.13084705254537,
+        "high": 16.597912573098856
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.8419815974887422,
+        "median": 0.9994354099035263,
+        "low": 0.6732084585566893,
+        "high": 0.9802602001465857
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999995306134224,
+        "median": 0.9999999701976776,
+        "low": 0.9999987054616213,
+        "high": 0.9999999813735485
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.875,
+        "median": 1.0,
+        "low": 0.6875,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedMCQA",
+      "route": "block_both",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.78125,
+        "median": 1.0,
+        "low": 0.5625,
+        "high": 0.9375
+      },
+      "margin": {
+        "n": 16,
+        "mean": 13.453124887005238,
+        "median": 14.242187232721335,
+        "low": 10.298632772288599,
+        "high": 16.261034900200055
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.7831186172350044,
+        "median": 0.9999697506427765,
+        "low": 0.5887071618091853,
+        "high": 0.9422802135697566
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999992065131664,
+        "median": 1.0,
+        "low": 0.9999977853149176,
+        "high": 0.9999999814201146
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.9375,
+        "median": 1.0,
+        "low": 0.8125,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedMCQA",
+      "route": "block_both",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.53125,
+        "high": 0.9375
+      },
+      "margin": {
+        "n": 16,
+        "mean": 13.426757783250686,
+        "median": 14.359374672496415,
+        "low": 10.206042523205863,
+        "high": 16.288159192553493
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.7791608061814941,
+        "median": 0.9999805688858032,
+        "low": 0.5841479407097921,
+        "high": 0.9410823290818371
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999991282820702,
+        "median": 1.0,
+        "low": 0.9999974984675646,
+        "high": 0.999999986961484
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.875,
+        "median": 1.0,
+        "low": 0.6875,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedMCQA",
+      "route": "block_both",
+      "condition": "mention",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.78125,
+        "median": 1.0,
+        "low": 0.5625,
+        "high": 0.9375
+      },
+      "margin": {
+        "n": 16,
+        "mean": 13.643554751161158,
+        "median": 14.609375327994712,
+        "low": 10.403967290604466,
+        "high": 16.53913578094598
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.792155286782247,
+        "median": 0.9999789595603943,
+        "low": 0.6053014804942407,
+        "high": 0.9445400041411631
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999983049929142,
+        "median": 1.0,
+        "low": 0.9999951533973217,
+        "high": 0.9999999962747097
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.9375,
+        "median": 1.0,
+        "low": 0.8125,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MMLU",
+      "route": "full",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.28125,
+        "median": 0.0,
+        "low": 0.09375,
+        "high": 0.5
+      },
+      "margin": {
+        "n": 16,
+        "mean": 2.5683593225680603,
+        "median": 2.4140625,
+        "low": -2.346008291786264,
+        "high": 7.389160016917358
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.30426124996465465,
+        "median": 0.05567727387624696,
+        "low": 0.12357635213912431,
+        "high": 0.5097414036674689
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9416895774193108,
+        "median": 0.9999976754188538,
+        "low": 0.8498902368824929,
+        "high": 0.998711033212021
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 0.9375,
+        "median": 1.0,
+        "low": 0.8125,
+        "high": 1.0
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.4375,
+        "high": 0.875
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MMLU",
+      "route": "full",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.25,
+        "median": 0.0,
+        "low": 0.0625,
+        "high": 0.46875
+      },
+      "margin": {
+        "n": 16,
+        "mean": -2.575195363056153,
+        "median": -1.7265625,
+        "low": -8.417541527392979,
+        "high": 3.5090208706562684
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.2807202190550413,
+        "median": 0.01340558744047371,
+        "low": 0.10877136054614588,
+        "high": 0.48145963817272636
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9481474757194519,
+        "median": 0.9997179061174393,
+        "low": 0.8703434959519655,
+        "high": 0.9983824383467436
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 0.96875,
+        "median": 1.0,
+        "low": 0.90625,
+        "high": 1.0
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.875
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MMLU",
+      "route": "full",
+      "condition": "mention",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.34375,
+        "median": 0.25,
+        "low": 0.15625,
+        "high": 0.53125
+      },
+      "margin": {
+        "n": 16,
+        "mean": 0.06396486366143961,
+        "median": 0.390625,
+        "low": -4.122558475812946,
+        "high": 4.425537165984833
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.3127105681630288,
+        "median": 0.15941542945802212,
+        "low": 0.1414650546810179,
+        "high": 0.5082376124478319
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.7762755210569594,
+        "median": 0.970375269651413,
+        "low": 0.6093990794965066,
+        "high": 0.9172721366972837
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 0.78125,
+        "median": 1.0,
+        "low": 0.59375,
+        "high": 0.9375
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.875
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MMLU",
+      "route": "block_to_facts",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.28125,
+        "median": 0.0,
+        "low": 0.09375,
+        "high": 0.5
+      },
+      "margin": {
+        "n": 16,
+        "mean": 2.875000036423131,
+        "median": 3.1875,
+        "low": -1.4521483940447644,
+        "high": 7.139599797666464
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.3080809057542041,
+        "median": 0.11237629759125412,
+        "low": 0.13317626346402195,
+        "high": 0.509716428701902
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9498509438708425,
+        "median": 0.9999906718730927,
+        "low": 0.8828115759883076,
+        "high": 0.9985359913203865
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 0.9375,
+        "median": 1.0,
+        "low": 0.84375,
+        "high": 1.0
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.4375,
+        "high": 0.875
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MMLU",
+      "route": "block_to_facts",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.28125,
+        "median": 0.0,
+        "low": 0.09375,
+        "high": 0.5
+      },
+      "margin": {
+        "n": 16,
+        "mean": -3.2456053786282713,
+        "median": -5.914062668638508,
+        "low": -8.410522304452165,
+        "high": 2.460791078990838
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.25362270844501195,
+        "median": 0.00030822010376141407,
+        "low": 0.08298616580741032,
+        "high": 0.4556000693625405
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9686416322365403,
+        "median": 0.9995303153991699,
+        "low": 0.9185591157060117,
+        "high": 0.9990831883158535
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 0.96875,
+        "median": 1.0,
+        "low": 0.90625,
+        "high": 1.0
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.4375,
+        "high": 0.9375
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MMLU",
+      "route": "block_to_facts",
+      "condition": "mention",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.34375,
+        "median": 0.0,
+        "low": 0.15625,
+        "high": 0.5625
+      },
+      "margin": {
+        "n": 16,
+        "mean": 0.25292965866309913,
+        "median": -0.23046883940696716,
+        "low": -3.7284057823731027,
+        "high": 4.376513627342639
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.3377689770700447,
+        "median": 0.15566929741180502,
+        "low": 0.16022572641535177,
+        "high": 0.5404663577695714
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.7727456229040399,
+        "median": 0.8921134173870087,
+        "low": 0.619544188308646,
+        "high": 0.9023667272878811
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 0.78125,
+        "median": 1.0,
+        "low": 0.59375,
+        "high": 0.9375
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9375
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MMLU",
+      "route": "block_to_decision",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.25,
+        "median": 0.0,
+        "low": 0.0625,
+        "high": 0.46875
+      },
+      "margin": {
+        "n": 16,
+        "mean": 2.288085891444995,
+        "median": 2.49609375,
+        "low": -3.8795776708015444,
+        "high": 8.37778314903896
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.250087365022005,
+        "median": 0.0004309668793922583,
+        "low": 0.06272183368200485,
+        "high": 0.46871103978727535
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9998762235045433,
+        "median": 0.9999999701976776,
+        "low": 0.9996289498638362,
+        "high": 0.9999999646097422
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.4375,
+        "high": 0.875
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MMLU",
+      "route": "block_to_decision",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.3125,
+        "median": 0.0,
+        "low": 0.125,
+        "high": 0.53125
+      },
+      "margin": {
+        "n": 16,
+        "mean": 2.8090820210039986,
+        "median": 3.3710936307907104,
+        "low": -2.8454101295460315,
+        "high": 8.491528362206427
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.2979367923745302,
+        "median": 0.0002480598957978475,
+        "low": 0.12065010855026259,
+        "high": 0.5004200400830101
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999911990016699,
+        "median": 0.9999999701976776,
+        "low": 0.9999788697808981,
+        "high": 0.9999999050050974
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.4375,
+        "high": 0.875
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MMLU",
+      "route": "block_to_decision",
+      "condition": "mention",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.28125,
+        "median": 0.0,
+        "low": 0.09375,
+        "high": 0.5
+      },
+      "margin": {
+        "n": 16,
+        "mean": 3.0102540123617363,
+        "median": 3.3515625,
+        "low": -2.741796739028882,
+        "high": 8.880004884757591
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.2982121625902879,
+        "median": 0.0003836949042295146,
+        "low": 0.11323222507008365,
+        "high": 0.508337002917731
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999955780804157,
+        "median": 0.9999999701976776,
+        "low": 0.9999898559879512,
+        "high": 0.9999996200203896
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.5609375000000005,
+        "high": 0.9375
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MMLU",
+      "route": "block_both",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.25,
+        "median": 0.0,
+        "low": 0.0625,
+        "high": 0.46875
+      },
+      "margin": {
+        "n": 16,
+        "mean": 2.555664125544517,
+        "median": 2.79296875,
+        "low": -2.9549070747282586,
+        "high": 8.09494628090316
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.25083395547549875,
+        "median": 0.0002885578898634833,
+        "low": 0.06373812255569039,
+        "high": 0.4689928939851129
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999185875058174,
+        "median": 0.9999999850988388,
+        "low": 0.9997661951929331,
+        "high": 0.9999999571591616
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.5625,
+        "high": 0.9375
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MMLU",
+      "route": "block_both",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.25,
+        "median": 0.0,
+        "low": 0.0625,
+        "high": 0.46875
+      },
+      "margin": {
+        "n": 16,
+        "mean": 2.6533202531311115,
+        "median": 2.6406248807907104,
+        "low": -2.9511963250772517,
+        "high": 8.110046231137531
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.25038076696304196,
+        "median": 0.0002930415192849978,
+        "low": 0.06314595076916915,
+        "high": 0.4687306660267698
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999322891235352,
+        "median": 0.9999999850988388,
+        "low": 0.9997994992416352,
+        "high": 0.9999999646097422
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.5625,
+        "high": 0.9375
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MMLU",
+      "route": "block_both",
+      "condition": "mention",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.25,
+        "median": 0.0,
+        "low": 0.0625,
+        "high": 0.46875
+      },
+      "margin": {
+        "n": 16,
+        "mean": 2.523925804846499,
+        "median": 2.8671876192092896,
+        "low": -3.1271971769695055,
+        "high": 8.108081072212626
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.2505102071979962,
+        "median": 0.00015527946769466894,
+        "low": 0.06335310914149515,
+        "high": 0.4685134804354269
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999677650630474,
+        "median": 1.0,
+        "low": 0.9999077766668052,
+        "high": 0.9999999571591616
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "all",
+      "route": "full",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 48,
+        "mean": 0.5729166666666666,
+        "median": 0.5,
+        "low": 0.4479166666666667,
+        "high": 0.6979166666666666
+      },
+      "margin": {
+        "n": 48,
+        "mean": 7.0914713119835895,
+        "median": 8.296874884516,
+        "low": 4.523270643870427,
+        "high": 9.660392229180422
+      },
+      "source_support": {
+        "n": 48,
+        "mean": 0.5843202961595825,
+        "median": 0.6090287305414677,
+        "low": 0.465782025680677,
+        "high": 0.7057745821712343
+      },
+      "code_mass": {
+        "n": 48,
+        "mean": 0.9727890620318552,
+        "median": 0.9999975711107254,
+        "low": 0.9387454115940879,
+        "high": 0.9969027423299849
+      },
+      "first_token_code_rate": {
+        "n": 48,
+        "mean": 0.96875,
+        "median": 1.0,
+        "low": 0.9166666666666666,
+        "high": 1.0
+      },
+      "mapping_agreement": {
+        "n": 48,
+        "mean": 0.7291666666666666,
+        "median": 1.0,
+        "low": 0.6041666666666666,
+        "high": 0.8541666666666666
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "all",
+      "route": "full",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 48,
+        "mean": 0.4375,
+        "median": 0.25,
+        "low": 0.3125,
+        "high": 0.5729166666666666
+      },
+      "margin": {
+        "n": 48,
+        "mean": 0.2493489681657571,
+        "median": 1.7617187406867743,
+        "low": -3.2178344365244174,
+        "high": 3.7547525902582857
+      },
+      "source_support": {
+        "n": 48,
+        "mean": 0.43670975425737524,
+        "median": 0.37562907972580994,
+        "low": 0.31613018695671846,
+        "high": 0.565103498588226
+      },
+      "code_mass": {
+        "n": 48,
+        "mean": 0.97429551401486,
+        "median": 0.9999885112047195,
+        "low": 0.9459656692963715,
+        "high": 0.9967296836742511
+      },
+      "first_token_code_rate": {
+        "n": 48,
+        "mean": 0.9791666666666666,
+        "median": 1.0,
+        "low": 0.9479166666666666,
+        "high": 1.0
+      },
+      "mapping_agreement": {
+        "n": 48,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 0.875
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "all",
+      "route": "full",
+      "condition": "mention",
+      "accuracy": {
+        "n": 48,
+        "mean": 0.4791666666666667,
+        "median": 0.5,
+        "low": 0.3541666666666667,
+        "high": 0.6041666666666666
+      },
+      "margin": {
+        "n": 48,
+        "mean": 2.0522460520600103,
+        "median": 2.5156249701976776,
+        "low": -0.5198893479853357,
+        "high": 4.571325626771719
+      },
+      "source_support": {
+        "n": 48,
+        "mean": 0.4607991074528857,
+        "median": 0.4105662533620489,
+        "low": 0.3425810777133497,
+        "high": 0.5813481109050085
+      },
+      "code_mass": {
+        "n": 48,
+        "mean": 0.8913591286109295,
+        "median": 0.9977165907621384,
+        "low": 0.8223647516080139,
+        "high": 0.9484156770260598
+      },
+      "first_token_code_rate": {
+        "n": 48,
+        "mean": 0.90625,
+        "median": 1.0,
+        "low": 0.8333333333333334,
+        "high": 0.96875
+      },
+      "mapping_agreement": {
+        "n": 48,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.5416666666666666,
+        "high": 0.8125
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "all",
+      "route": "block_to_facts",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 48,
+        "mean": 0.5520833333333334,
+        "median": 0.5,
+        "low": 0.4166666666666667,
+        "high": 0.6875
+      },
+      "margin": {
+        "n": 48,
+        "mean": 7.087565082275288,
+        "median": 7.285155973047949,
+        "low": 4.598128236561789,
+        "high": 9.52008054292095
+      },
+      "source_support": {
+        "n": 48,
+        "mean": 0.5723874798449841,
+        "median": 0.6287756469100714,
+        "low": 0.44760426752480625,
+        "high": 0.6979463713455907
+      },
+      "code_mass": {
+        "n": 48,
+        "mean": 0.9759269502634803,
+        "median": 0.9999947845935822,
+        "low": 0.9488757023277382,
+        "high": 0.9972636850395551
+      },
+      "first_token_code_rate": {
+        "n": 48,
+        "mean": 0.96875,
+        "median": 1.0,
+        "low": 0.9270833333333334,
+        "high": 1.0
+      },
+      "mapping_agreement": {
+        "n": 48,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.6875,
+        "high": 0.9166666666666666
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "all",
+      "route": "block_to_facts",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 48,
+        "mean": 0.4375,
+        "median": 0.5,
+        "low": 0.3125,
+        "high": 0.5625
+      },
+      "margin": {
+        "n": 48,
+        "mean": -0.18701170812971726,
+        "median": 0.10156249511055648,
+        "low": -3.4213622526546605,
+        "high": 3.246809883979203
+      },
+      "source_support": {
+        "n": 48,
+        "mean": 0.4125943504529779,
+        "median": 0.26009909927961417,
+        "low": 0.29562971895547785,
+        "high": 0.540207567215764
+      },
+      "code_mass": {
+        "n": 48,
+        "mean": 0.9758158583814899,
+        "median": 0.9999694675207138,
+        "low": 0.9521846953469018,
+        "high": 0.9942902001241842
+      },
+      "first_token_code_rate": {
+        "n": 48,
+        "mean": 0.9791666666666666,
+        "median": 1.0,
+        "low": 0.9479166666666666,
+        "high": 1.0
+      },
+      "mapping_agreement": {
+        "n": 48,
+        "mean": 0.7083333333333334,
+        "median": 1.0,
+        "low": 0.5833333333333334,
+        "high": 0.8333333333333334
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "all",
+      "route": "block_to_facts",
+      "condition": "mention",
+      "accuracy": {
+        "n": 48,
+        "mean": 0.4479166666666667,
+        "median": 0.5,
+        "low": 0.3229166666666667,
+        "high": 0.5729166666666666
+      },
+      "margin": {
+        "n": 48,
+        "mean": 1.9337564708074557,
+        "median": 1.2539062574505806,
+        "low": -0.42317712368069926,
+        "high": 4.342342037638459
+      },
+      "source_support": {
+        "n": 48,
+        "mean": 0.45398962611148336,
+        "median": 0.4384632344954298,
+        "low": 0.34003251114270805,
+        "high": 0.5742778182131157
+      },
+      "code_mass": {
+        "n": 48,
+        "mean": 0.8834694793137411,
+        "median": 0.9971504956483841,
+        "low": 0.8182995071081678,
+        "high": 0.9409764263778925
+      },
+      "first_token_code_rate": {
+        "n": 48,
+        "mean": 0.8854166666666666,
+        "median": 1.0,
+        "low": 0.8125,
+        "high": 0.9479166666666666
+      },
+      "mapping_agreement": {
+        "n": 48,
+        "mean": 0.6666666666666666,
+        "median": 1.0,
+        "low": 0.5416666666666666,
+        "high": 0.7916666666666666
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "all",
+      "route": "block_to_decision",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 48,
+        "mean": 0.5833333333333334,
+        "median": 1.0,
+        "low": 0.4479166666666667,
+        "high": 0.71875
+      },
+      "margin": {
+        "n": 48,
+        "mean": 8.401855408614141,
+        "median": 10.906249869213525,
+        "low": 5.04781082386293,
+        "high": 11.681013932515503
+      },
+      "source_support": {
+        "n": 48,
+        "mean": 0.5705682061751084,
+        "median": 0.7888260185718536,
+        "low": 0.44134824731590827,
+        "high": 0.7001712299088529
+      },
+      "code_mass": {
+        "n": 48,
+        "mean": 0.9999494397391876,
+        "median": 0.9999999850988388,
+        "low": 0.9998578093480319,
+        "high": 0.9999999403953552
+      },
+      "first_token_code_rate": {
+        "n": 48,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9260272146527198,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 48,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.7083333333333334,
+        "high": 0.9166666666666666
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "all",
+      "route": "block_to_decision",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 48,
+        "mean": 0.59375,
+        "median": 0.75,
+        "low": 0.46875,
+        "high": 0.7291666666666666
+      },
+      "margin": {
+        "n": 48,
+        "mean": 8.026855419003665,
+        "median": 9.226562471624902,
+        "low": 4.700321456753779,
+        "high": 11.263610783951965
+      },
+      "source_support": {
+        "n": 48,
+        "mean": 0.5875302980560699,
+        "median": 0.7864681333303452,
+        "low": 0.4623937254705346,
+        "high": 0.7140395714279612
+      },
+      "code_mass": {
+        "n": 48,
+        "mean": 0.9999791942536831,
+        "median": 1.0,
+        "low": 0.9999412802358468,
+        "high": 0.9999998497776686
+      },
+      "first_token_code_rate": {
+        "n": 48,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9260272146527198,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 48,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 0.875
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "all",
+      "route": "block_to_decision",
+      "condition": "mention",
+      "accuracy": {
+        "n": 48,
+        "mean": 0.5833333333333334,
+        "median": 0.75,
+        "low": 0.4583333333333333,
+        "high": 0.71875
+      },
+      "margin": {
+        "n": 48,
+        "mean": 8.416666643751995,
+        "median": 8.789062835860022,
+        "low": 5.1155802016986875,
+        "high": 11.604040509853569
+      },
+      "source_support": {
+        "n": 48,
+        "mean": 0.5932652749931951,
+        "median": 0.7999337539076805,
+        "low": 0.4703857132595194,
+        "high": 0.7195820661236157
+      },
+      "code_mass": {
+        "n": 48,
+        "mean": 0.9999963094790777,
+        "median": 0.9999999701976776,
+        "low": 0.9999913000812133,
+        "high": 0.9999995455301056
+      },
+      "first_token_code_rate": {
+        "n": 48,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9260272146527198,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 48,
+        "mean": 0.7708333333333334,
+        "median": 1.0,
+        "low": 0.6458333333333334,
+        "high": 0.875
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "all",
+      "route": "block_both",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 48,
+        "mean": 0.5520833333333334,
+        "median": 0.75,
+        "low": 0.4166666666666667,
+        "high": 0.6875
+      },
+      "margin": {
+        "n": 48,
+        "mean": 8.09163410941271,
+        "median": 11.300781071186066,
+        "low": 4.9573811720962055,
+        "high": 11.222985849187074
+      },
+      "source_support": {
+        "n": 48,
+        "mean": 0.5528554207664822,
+        "median": 0.6092950819293037,
+        "low": 0.4236694714824386,
+        "high": 0.683411606218812
+      },
+      "code_mass": {
+        "n": 48,
+        "mean": 0.9999515072753032,
+        "median": 1.0,
+        "low": 0.9998833893798292,
+        "high": 0.9999995233491064
+      },
+      "first_token_code_rate": {
+        "n": 48,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9260272146527198,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 48,
+        "mean": 0.8333333333333334,
+        "median": 1.0,
+        "low": 0.7291666666666666,
+        "high": 0.9375
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "all",
+      "route": "block_both",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 48,
+        "mean": 0.5416666666666666,
+        "median": 0.5,
+        "low": 0.40625,
+        "high": 0.6770833333333334
+      },
+      "margin": {
+        "n": 48,
+        "mean": 8.152343740754338,
+        "median": 11.046875120373443,
+        "low": 5.045719355894581,
+        "high": 11.241979936259641
+      },
+      "source_support": {
+        "n": 48,
+        "mean": 0.5514439146961679,
+        "median": 0.6034411065629683,
+        "low": 0.42206583692671656,
+        "high": 0.6823886733104068
+      },
+      "code_mass": {
+        "n": 48,
+        "mean": 0.9999560465415319,
+        "median": 0.9999999850988388,
+        "low": 0.9998918141083171,
+        "high": 0.9999995718865345
+      },
+      "first_token_code_rate": {
+        "n": 48,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9260272146527198,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 48,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.7083333333333334,
+        "high": 0.9166666666666666
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "all",
+      "route": "block_both",
+      "condition": "mention",
+      "accuracy": {
+        "n": 48,
+        "mean": 0.5520833333333334,
+        "median": 0.5,
+        "low": 0.4166666666666667,
+        "high": 0.6875
+      },
+      "margin": {
+        "n": 48,
+        "mean": 8.243164089013998,
+        "median": 11.464843812165782,
+        "low": 5.0997436770525555,
+        "high": 11.377779152043127
+      },
+      "source_support": {
+        "n": 48,
+        "mean": 0.553779920979506,
+        "median": 0.5236147285904735,
+        "low": 0.42608121078381483,
+        "high": 0.683829787709253
+      },
+      "code_mass": {
+        "n": 48,
+        "mean": 0.999986574674646,
+        "median": 0.9999999850988388,
+        "low": 0.9999661657959222,
+        "high": 0.9999992748722435
+      },
+      "first_token_code_rate": {
+        "n": 48,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9260272146527198,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 48,
+        "mean": 0.8333333333333334,
+        "median": 1.0,
+        "low": 0.7291666666666666,
+        "high": 0.9375
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedQA",
+      "route": "full",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.78125,
+        "median": 1.0,
+        "low": 0.59375,
+        "high": 0.9375
+      },
+      "margin": {
+        "n": 16,
+        "mean": 15.036621017616595,
+        "median": 18.140624722000297,
+        "low": 9.442749033642105,
+        "high": 19.97149651793558
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.7724435759245221,
+        "median": 0.9998828321695328,
+        "low": 0.595129489750128,
+        "high": 0.928324633695863
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999999720603228,
+        "median": 1.0,
+        "low": 0.9999999348074198,
+        "high": 1.0
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedQA",
+      "route": "full",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.5625,
+        "median": 0.75,
+        "low": 0.3125,
+        "high": 0.78125
+      },
+      "margin": {
+        "n": 16,
+        "mean": 6.122558566165917,
+        "median": 14.027343686670072,
+        "low": -2.579650927560161,
+        "high": 13.952856403204816
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.5611941208167316,
+        "median": 0.7498779801067093,
+        "low": 0.31438407265194585,
+        "high": 0.7812248555392092
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999995119869709,
+        "median": 1.0,
+        "low": 0.999998552724719,
+        "high": 0.9999999944120646
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedQA",
+      "route": "full",
+      "condition": "mention",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.78125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 0.90625
+      },
+      "margin": {
+        "n": 16,
+        "mean": 11.135742117581174,
+        "median": 15.234374777530322,
+        "low": 4.331091299053725,
+        "high": 17.012426657578615
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.7742858991557646,
+        "median": 0.9931976795196533,
+        "low": 0.6121965586430301,
+        "high": 0.9124649112673883
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999999981373549,
+        "median": 1.0,
+        "low": 0.999999986961484,
+        "high": 1.0000000093132257
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.4375,
+        "high": 0.875
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedQA",
+      "route": "block_to_facts",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.78125,
+        "median": 1.0,
+        "low": 0.59375,
+        "high": 0.9375
+      },
+      "margin": {
+        "n": 16,
+        "mean": 14.871093783969007,
+        "median": 18.45312493166422,
+        "low": 9.013024951125711,
+        "high": 20.073486305452715
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.7645349602408213,
+        "median": 0.9999374747276306,
+        "low": 0.5802653085438235,
+        "high": 0.9202228656746936
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999999832361937,
+        "median": 1.0,
+        "low": 0.9999999571591616,
+        "high": 1.0000000018626451
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedQA",
+      "route": "block_to_facts",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.59375,
+        "median": 1.0,
+        "low": 0.34375,
+        "high": 0.8125
+      },
+      "margin": {
+        "n": 16,
+        "mean": 6.826660180347655,
+        "median": 12.367187799813422,
+        "low": -1.1924804282253596,
+        "high": 14.201599127399735
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.6004491009613673,
+        "median": 0.9439720958471298,
+        "low": 0.36980863370173506,
+        "high": 0.817584601107962
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999978691339493,
+        "median": 1.0,
+        "low": 0.9999936707317829,
+        "high": 0.9999999925494194
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.875,
+        "median": 1.0,
+        "low": 0.6875,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedQA",
+      "route": "block_to_facts",
+      "condition": "mention",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.65625,
+        "high": 0.9375
+      },
+      "margin": {
+        "n": 16,
+        "mean": 11.541015594719795,
+        "median": 15.402343755123129,
+        "low": 5.187768607618277,
+        "high": 17.092565783193297
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.7877528917450712,
+        "median": 0.9981881082057953,
+        "low": 0.620867258514258,
+        "high": 0.930337575977173
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999999832361937,
+        "median": 1.0,
+        "low": 0.9999999608844519,
+        "high": 0.9999999981373549
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9375
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedQA",
+      "route": "block_to_decision",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.84375,
+        "median": 1.0,
+        "low": 0.6875,
+        "high": 0.96875
+      },
+      "margin": {
+        "n": 16,
+        "mean": 17.11523431963417,
+        "median": 22.98828142881399,
+        "low": 10.6102660088835,
+        "high": 22.757507270961344
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.8162482525809045,
+        "median": 0.9999986588954926,
+        "low": 0.6515529836551487,
+        "high": 0.9533751285705364
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 1.0000000037252903,
+        "median": 1.0,
+        "low": 0.9999999944120646,
+        "high": 1.0000000167638063
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedQA",
+      "route": "block_to_decision",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.46875,
+        "high": 0.875
+      },
+      "margin": {
+        "n": 16,
+        "mean": 14.68554685149416,
+        "median": 22.433593660593033,
+        "low": 5.9317260743838744,
+        "high": 22.30333244939825
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.7019315320599573,
+        "median": 0.9995435625314713,
+        "low": 0.48306917871467747,
+        "high": 0.8992669847095385
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999999944120646,
+        "median": 1.0,
+        "low": 0.9999999795109034,
+        "high": 1.000000011175871
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.875,
+        "median": 1.0,
+        "low": 0.6875,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedQA",
+      "route": "block_to_decision",
+      "condition": "mention",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.71875,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.90625
+      },
+      "margin": {
+        "n": 16,
+        "mean": 15.723144558789286,
+        "median": 22.51171875,
+        "low": 7.471252446646572,
+        "high": 22.771630925987093
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.741905913455247,
+        "median": 0.9999921321868896,
+        "low": 0.5508724503369063,
+        "high": 0.9139053538459849
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 1.0000000093132257,
+        "median": 1.0,
+        "low": 0.9999999981373549,
+        "high": 1.0000000223517418
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedQA",
+      "route": "block_both",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.65625,
+        "high": 0.9375
+      },
+      "margin": {
+        "n": 16,
+        "mean": 16.642089816519995,
+        "median": 22.652343660898623,
+        "low": 9.95456541746966,
+        "high": 22.50944820979235
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.7943769175417339,
+        "median": 0.999992161989212,
+        "low": 0.6287913640310676,
+        "high": 0.9319063849485602
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999992996454239,
+        "median": 1.0,
+        "low": 0.9999980392865837,
+        "high": 1.0
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9375
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedQA",
+      "route": "block_both",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.65625,
+        "high": 0.9375
+      },
+      "margin": {
+        "n": 16,
+        "mean": 16.16552730698107,
+        "median": 22.421875000372893,
+        "low": 9.21761473877202,
+        "high": 22.206909170146886
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.7794319268687069,
+        "median": 0.9999915659427643,
+        "low": 0.6046119726608717,
+        "high": 0.9285978823465484
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999964572489262,
+        "median": 1.0,
+        "low": 0.9999900851398706,
+        "high": 1.0000000074505806
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9375
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedQA",
+      "route": "block_both",
+      "condition": "mention",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.78125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 0.90625
+      },
+      "margin": {
+        "n": 16,
+        "mean": 16.137207028394883,
+        "median": 22.070312410593885,
+        "low": 9.306054650338375,
+        "high": 22.154650864097235
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.7670403578479164,
+        "median": 0.9999954998493195,
+        "low": 0.6017650553891971,
+        "high": 0.9138821156693666
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999988172203302,
+        "median": 1.0,
+        "low": 0.9999967608600855,
+        "high": 1.0
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.4375,
+        "high": 0.875
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedMCQA",
+      "route": "full",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.40625,
+        "high": 0.84375
+      },
+      "margin": {
+        "n": 16,
+        "mean": 13.546386657817976,
+        "median": 17.089843690941507,
+        "low": 7.011669918409764,
+        "high": 19.122363234882307
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.6318082714527093,
+        "median": 0.9999820291996002,
+        "low": 0.41409471498272643,
+        "high": 0.8430594907422113
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999999906867743,
+        "median": 1.0,
+        "low": 0.9999999813735485,
+        "high": 0.9999999981373549
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedMCQA",
+      "route": "full",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.53125,
+        "median": 0.75,
+        "low": 0.28125,
+        "high": 0.75
+      },
+      "margin": {
+        "n": 16,
+        "mean": 1.4697265048220425,
+        "median": 5.597656117632141,
+        "low": -6.8433471768179075,
+        "high": 9.394616550948564
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.5319001792970912,
+        "median": 0.7529462957754731,
+        "low": 0.2832010482927422,
+        "high": 0.7516288800370948
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999988544732332,
+        "median": 1.0,
+        "low": 0.9999967403709888,
+        "high": 1.0
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.875,
+        "median": 1.0,
+        "low": 0.6875,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedMCQA",
+      "route": "full",
+      "condition": "mention",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.875
+      },
+      "margin": {
+        "n": 16,
+        "mean": 6.84228503671511,
+        "median": 12.796874993098756,
+        "low": -0.22282725975204365,
+        "high": 13.288268920854284
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.6255014496252106,
+        "median": 0.9999898076057434,
+        "low": 0.37574901710402075,
+        "high": 0.8747812255168416
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.999999986961484,
+        "median": 1.0,
+        "low": 0.9999999776482582,
+        "high": 0.9999999944120646
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.9375,
+        "median": 1.0,
+        "low": 0.8125,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedMCQA",
+      "route": "block_to_facts",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.40625,
+        "high": 0.84375
+      },
+      "margin": {
+        "n": 16,
+        "mean": 13.168457054443156,
+        "median": 16.984374970254464,
+        "low": 7.0036743228265665,
+        "high": 18.588464338781176
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.6242031487726202,
+        "median": 0.9999936819076538,
+        "low": 0.4047189995388678,
+        "high": 0.8428678474430399
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999999701976776,
+        "median": 1.0,
+        "low": 0.9999999348074198,
+        "high": 0.9999999944120646
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedMCQA",
+      "route": "block_to_facts",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.53125,
+        "median": 0.75,
+        "low": 0.28125,
+        "high": 0.75
+      },
+      "margin": {
+        "n": 16,
+        "mean": 3.40673830027498,
+        "median": 6.3203123212620085,
+        "low": -4.412414524890664,
+        "high": 10.792236333294147
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.5462904953667355,
+        "median": 0.7469108016537773,
+        "low": 0.31191696944851366,
+        "high": 0.7799975068462962
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999917969107628,
+        "median": 0.9999999850988388,
+        "low": 0.9999760239385068,
+        "high": 0.9999999832361937
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.9375,
+        "median": 1.0,
+        "low": 0.8125,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedMCQA",
+      "route": "block_to_facts",
+      "condition": "mention",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.875
+      },
+      "margin": {
+        "n": 16,
+        "mean": 7.596191448030542,
+        "median": 10.24218772960296,
+        "low": 0.9836548339103546,
+        "high": 13.59146731166402
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.6266335670368344,
+        "median": 0.9997580796480179,
+        "low": 0.3782660359344663,
+        "high": 0.8748208011604832
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999998696148396,
+        "median": 1.0,
+        "low": 0.9999996311962605,
+        "high": 0.9999999962747097
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedMCQA",
+      "route": "block_to_decision",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.40625,
+        "high": 0.84375
+      },
+      "margin": {
+        "n": 16,
+        "mean": 16.228027366635615,
+        "median": 22.88671875,
+        "low": 8.581835929266095,
+        "high": 22.75220952394798
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.6272705441053663,
+        "median": 1.0,
+        "low": 0.4090741621922019,
+        "high": 0.8443029592853859
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9999999888241291,
+        "high": 1.000000011175871
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedMCQA",
+      "route": "block_to_decision",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.59375,
+        "median": 1.0,
+        "low": 0.37421875000000027,
+        "high": 0.8125
+      },
+      "margin": {
+        "n": 16,
+        "mean": 15.41015631205346,
+        "median": 21.984374970197678,
+        "low": 7.65650646575225,
+        "high": 22.175512753555086
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.5962416094696905,
+        "median": 0.9999999701976776,
+        "low": 0.37440674292186515,
+        "high": 0.8144530961711808
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999999981373549,
+        "median": 1.0,
+        "low": 0.9999999944120646,
+        "high": 1.0
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.875,
+        "median": 1.0,
+        "low": 0.6875,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedMCQA",
+      "route": "block_to_decision",
+      "condition": "mention",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.65625,
+        "median": 1.0,
+        "low": 0.4375,
+        "high": 0.84375
+      },
+      "margin": {
+        "n": 16,
+        "mean": 15.924804656700871,
+        "median": 23.10546875,
+        "low": 8.175610324848275,
+        "high": 22.61735837222077
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.638154744530316,
+        "median": 1.0,
+        "low": 0.4194411821654504,
+        "high": 0.8437800284035935
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999999981373549,
+        "median": 1.0,
+        "low": 0.9999999944120646,
+        "high": 1.0
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9375
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedMCQA",
+      "route": "block_both",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.40625,
+        "high": 0.84375
+      },
+      "margin": {
+        "n": 16,
+        "mean": 15.630859323891283,
+        "median": 20.378906190395362,
+        "low": 8.123351920602,
+        "high": 22.162121582032587
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.6252695344224032,
+        "median": 0.9999999403953552,
+        "low": 0.40659182505147407,
+        "high": 0.8438558082450225
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999999720603228,
+        "median": 1.0,
+        "low": 0.9999999143183231,
+        "high": 1.0000000037252903
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedMCQA",
+      "route": "block_both",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.40625,
+        "high": 0.84375
+      },
+      "margin": {
+        "n": 16,
+        "mean": 15.388183577238012,
+        "median": 19.84375023841858,
+        "low": 7.869616693695117,
+        "high": 21.931884750270868
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.6255909116995582,
+        "median": 0.9999998807907104,
+        "low": 0.4068509488833457,
+        "high": 0.8437792079511887
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999999720603228,
+        "median": 1.0,
+        "low": 0.9999999161809683,
+        "high": 1.0000000018626451
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedMCQA",
+      "route": "block_both",
+      "condition": "mention",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.40625,
+        "high": 0.84375
+      },
+      "margin": {
+        "n": 16,
+        "mean": 15.389160137600863,
+        "median": 20.562499970197678,
+        "low": 7.965624867327887,
+        "high": 21.829357984484435
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.6282119703011929,
+        "median": 0.9999999701976776,
+        "low": 0.4094630282129269,
+        "high": 0.8437686037415623
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999999888241291,
+        "median": 1.0,
+        "low": 0.9999999683350325,
+        "high": 1.0
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MMLU",
+      "route": "full",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.65625,
+        "median": 1.0,
+        "low": 0.4375,
+        "high": 0.875
+      },
+      "margin": {
+        "n": 16,
+        "mean": 13.817382781046348,
+        "median": 19.5703125,
+        "low": 8.643042011581553,
+        "high": 19.068505782931037
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.6749940285909535,
+        "median": 0.9999936521053314,
+        "low": 0.45500730661067385,
+        "high": 0.8824759851209819
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999991916120052,
+        "median": 1.0,
+        "low": 0.9999975822865963,
+        "high": 1.0000000018626451
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MMLU",
+      "route": "full",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.5,
+        "median": 0.5,
+        "low": 0.25,
+        "high": 0.75
+      },
+      "margin": {
+        "n": 16,
+        "mean": 1.8198242572373777,
+        "median": 3.1679686810821366,
+        "low": -6.62600086082653,
+        "high": 10.306445306080379
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.4988318550061016,
+        "median": 0.4919893440001033,
+        "low": 0.24983325828060446,
+        "high": 0.7488045235990786
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999999813735485,
+        "median": 1.0,
+        "low": 0.999999962747097,
+        "high": 0.9999999962747097
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.9375,
+        "median": 1.0,
+        "low": 0.8125,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MMLU",
+      "route": "full",
+      "condition": "mention",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.40625,
+        "high": 0.84375
+      },
+      "margin": {
+        "n": 16,
+        "mean": 8.27929680779345,
+        "median": 14.476562427399585,
+        "low": 0.4591552339649852,
+        "high": 15.415295311091551
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.6297146262446081,
+        "median": 0.9999894201755524,
+        "low": 0.40482991667881635,
+        "high": 0.846877118246357
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999999944120646,
+        "median": 1.0,
+        "low": 0.9999999795109034,
+        "high": 1.0000000149477273
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MMLU",
+      "route": "block_to_facts",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.71875,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9375
+      },
+      "margin": {
+        "n": 16,
+        "mean": 14.485351559111677,
+        "median": 19.5546875,
+        "low": 9.674499535240288,
+        "high": 19.2920044160596
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.7198366938830323,
+        "median": 0.999995231628418,
+        "low": 0.4990645642882568,
+        "high": 0.9168936592805981
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999997653067112,
+        "median": 1.0,
+        "low": 0.9999993070960045,
+        "high": 1.0000000018626451
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MMLU",
+      "route": "block_to_facts",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.5625,
+        "median": 0.75,
+        "low": 0.34375,
+        "high": 0.78125
+      },
+      "margin": {
+        "n": 16,
+        "mean": 2.245605475082538,
+        "median": 4.796874967047188,
+        "low": -4.974560515164462,
+        "high": 9.384777820198916
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.5451054543577536,
+        "median": 0.65015953296097,
+        "low": 0.3261195353434571,
+        "high": 0.7745890283067186
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.999999962747097,
+        "median": 1.0,
+        "low": 0.999999912455678,
+        "high": 0.9999999944120646
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9375
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MMLU",
+      "route": "block_to_facts",
+      "condition": "mention",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.71875,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9375
+      },
+      "margin": {
+        "n": 16,
+        "mean": 9.247558551748506,
+        "median": 15.26953101158962,
+        "low": 2.1469116295569504,
+        "high": 15.570397852917369
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.713258495594277,
+        "median": 0.9999640882015228,
+        "low": 0.49654761510492634,
+        "high": 0.9047545527903483
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999999850988388,
+        "median": 1.0,
+        "low": 0.9999999646097422,
+        "high": 0.9999999981373549
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.9375,
+        "median": 1.0,
+        "low": 0.8125,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MMLU",
+      "route": "block_to_decision",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9375
+      },
+      "margin": {
+        "n": 16,
+        "mean": 17.27587885661056,
+        "median": 20.367187511192697,
+        "low": 12.087866170265256,
+        "high": 22.416320751853156
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.7467764847343746,
+        "median": 0.9999963343143463,
+        "low": 0.5000029971544702,
+        "high": 0.9374630159004596
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9984727222472429,
+        "median": 1.0,
+        "low": 0.9954181592911482,
+        "high": 1.0000000093132257
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.875,
+        "median": 1.0,
+        "low": 0.6875,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MMLU",
+      "route": "block_to_decision",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9375
+      },
+      "margin": {
+        "n": 16,
+        "mean": 19.22802739247323,
+        "median": 24.890625,
+        "low": 13.693151945069237,
+        "high": 24.291601617287707
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.7499940345885856,
+        "median": 1.0,
+        "low": 0.5000001303882947,
+        "high": 0.9374961126181316
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9999988973140717,
+        "median": 1.0,
+        "low": 0.999996704980731,
+        "high": 0.9999999981373549
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.9375,
+        "median": 1.0,
+        "low": 0.8125,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MMLU",
+      "route": "block_to_decision",
+      "condition": "mention",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9375
+      },
+      "margin": {
+        "n": 16,
+        "mean": 18.69531252385137,
+        "median": 24.36328125,
+        "low": 13.103857462176366,
+        "high": 23.819836385798727
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.7482800357114033,
+        "median": 0.9999999105930328,
+        "low": 0.5000001716851559,
+        "high": 0.9374981710769097
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9998991955071688,
+        "median": 1.0,
+        "low": 0.9996975921094418,
+        "high": 1.0
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.9375,
+        "median": 1.0,
+        "low": 0.8125,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MMLU",
+      "route": "block_both",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9375
+      },
+      "margin": {
+        "n": 16,
+        "mean": 17.719726557297633,
+        "median": 20.70703125,
+        "low": 12.553576581667073,
+        "high": 22.712927240851243
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.7499198911101104,
+        "median": 0.9999991059303284,
+        "low": 0.5000040435155965,
+        "high": 0.9374962780562182
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9810104304924607,
+        "median": 1.0,
+        "low": 0.9430312877520919,
+        "high": 1.0000000074505806
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 0.96875,
+        "median": 1.0,
+        "low": 0.90625,
+        "high": 1.0
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.9375,
+        "median": 1.0,
+        "low": 0.8125,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MMLU",
+      "route": "block_both",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9375
+      },
+      "margin": {
+        "n": 16,
+        "mean": 17.797363199894342,
+        "median": 20.988281248137355,
+        "low": 12.58342281961777,
+        "high": 22.782324184901782
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.7499428967226449,
+        "median": 0.9999997317790985,
+        "low": 0.5000039705703703,
+        "high": 0.9374967211858339
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9983797501772642,
+        "median": 1.0,
+        "low": 0.9951392468065023,
+        "high": 1.0000000074505806
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.875,
+        "median": 1.0,
+        "low": 0.6875,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MMLU",
+      "route": "block_both",
+      "condition": "mention",
+      "accuracy": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9375
+      },
+      "margin": {
+        "n": 16,
+        "mean": 17.55908202971619,
+        "median": 20.625000096857548,
+        "low": 12.267346179540592,
+        "high": 22.652307130889515
+      },
+      "source_support": {
+        "n": 16,
+        "mean": 0.7498912129827402,
+        "median": 0.9999995529651642,
+        "low": 0.50000238395491,
+        "high": 0.9374964194096173
+      },
+      "code_mass": {
+        "n": 16,
+        "mean": 0.9956143517047167,
+        "median": 1.0,
+        "low": 0.9868430569767952,
+        "high": 1.0
+      },
+      "first_token_code_rate": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 16,
+        "mean": 0.9375,
+        "median": 1.0,
+        "low": 0.8125,
+        "high": 1.0
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "all",
+      "route": "full",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 48,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.5625,
+        "high": 0.8020833333333334
+      },
+      "margin": {
+        "n": 48,
+        "mean": 14.13346348549364,
+        "median": 18.390625000000455,
+        "low": 10.925089475858549,
+        "high": 17.251301993873643
+      },
+      "source_support": {
+        "n": 48,
+        "mean": 0.6930819586560615,
+        "median": 0.9999788701534271,
+        "low": 0.5772893402058143,
+        "high": 0.8067011575540438
+      },
+      "code_mass": {
+        "n": 48,
+        "mean": 0.9999997181197008,
+        "median": 1.0,
+        "low": 0.9999991785579672,
+        "high": 0.9999999950329462
+      },
+      "first_token_code_rate": {
+        "n": 48,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9260272146527198,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 48,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.7083333333333334,
+        "high": 0.9166666666666666
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "all",
+      "route": "full",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 48,
+        "mean": 0.53125,
+        "median": 0.75,
+        "low": 0.40625,
+        "high": 0.6666666666666666
+      },
+      "margin": {
+        "n": 48,
+        "mean": 3.1373697760751127,
+        "median": 8.289062298714278,
+        "low": -1.4574178054148972,
+        "high": 7.689042113782108
+      },
+      "source_support": {
+        "n": 48,
+        "mean": 0.5306420517066415,
+        "median": 0.7462600404396653,
+        "low": 0.40491327910502256,
+        "high": 0.666128793192101
+      },
+      "code_mass": {
+        "n": 48,
+        "mean": 0.9999994492779175,
+        "median": 1.0,
+        "low": 0.9999986433734497,
+        "high": 0.9999999726967265
+      },
+      "first_token_code_rate": {
+        "n": 48,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9260272146527198,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 48,
+        "mean": 0.875,
+        "median": 1.0,
+        "low": 0.7708333333333334,
+        "high": 0.9583333333333334
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "all",
+      "route": "full",
+      "condition": "mention",
+      "accuracy": {
+        "n": 48,
+        "mean": 0.6770833333333334,
+        "median": 1.0,
+        "low": 0.5625,
+        "high": 0.7916666666666666
+      },
+      "margin": {
+        "n": 48,
+        "mean": 8.752441320696578,
+        "median": 13.757812397573645,
+        "low": 4.791499750492592,
+        "high": 12.597505599009338
+      },
+      "source_support": {
+        "n": 48,
+        "mean": 0.6765006583418612,
+        "median": 0.9999875426292419,
+        "low": 0.5574256264071668,
+        "high": 0.7931256680808839
+      },
+      "code_mass": {
+        "n": 48,
+        "mean": 0.9999999931703011,
+        "median": 1.0,
+        "low": 0.9999999857197205,
+        "high": 1.0000000012417634
+      },
+      "first_token_code_rate": {
+        "n": 48,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9260272146527198,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 48,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.6875,
+        "high": 0.9166666666666666
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "all",
+      "route": "block_to_facts",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 48,
+        "mean": 0.7083333333333334,
+        "median": 1.0,
+        "low": 0.59375,
+        "high": 0.8229166666666666
+      },
+      "margin": {
+        "n": 48,
+        "mean": 14.174967465841283,
+        "median": 17.824218830676216,
+        "low": 11.120206746024447,
+        "high": 17.221040819640628
+      },
+      "source_support": {
+        "n": 48,
+        "mean": 0.7028582676321579,
+        "median": 0.9999904930591583,
+        "low": 0.5835259132700068,
+        "high": 0.815154449973356
+      },
+      "code_mass": {
+        "n": 48,
+        "mean": 0.9999999062468609,
+        "median": 1.0,
+        "low": 0.999999750390028,
+        "high": 0.9999999913076559
+      },
+      "first_token_code_rate": {
+        "n": 48,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9260272146527198,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 48,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.7083333333333334,
+        "high": 0.9166666666666666
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "all",
+      "route": "block_to_facts",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 48,
+        "mean": 0.5625,
+        "median": 1.0,
+        "low": 0.4270833333333333,
+        "high": 0.6877604166666677
+      },
+      "margin": {
+        "n": 48,
+        "mean": 4.159667985235058,
+        "median": 8.882812307801487,
+        "low": -0.10667719325531064,
+        "high": 8.400573771819822
+      },
+      "source_support": {
+        "n": 48,
+        "mean": 0.5639483502286188,
+        "median": 0.8440825343132019,
+        "low": 0.4389445725802421,
+        "high": 0.688376820621584
+      },
+      "code_mass": {
+        "n": 48,
+        "mean": 0.999996542930603,
+        "median": 1.0,
+        "low": 0.9999907015357167,
+        "high": 0.9999999130920817
+      },
+      "first_token_code_rate": {
+        "n": 48,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9260272146527198,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 48,
+        "mean": 0.8541666666666666,
+        "median": 1.0,
+        "low": 0.75,
+        "high": 0.9375
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "all",
+      "route": "block_to_facts",
+      "condition": "mention",
+      "accuracy": {
+        "n": 48,
+        "mean": 0.71875,
+        "median": 1.0,
+        "low": 0.59375,
+        "high": 0.8333333333333334
+      },
+      "margin": {
+        "n": 48,
+        "mean": 9.461588531499615,
+        "median": 14.52343750028605,
+        "low": 5.9560506057527185,
+        "high": 13.013395138760963
+      },
+      "source_support": {
+        "n": 48,
+        "mean": 0.7092149847920609,
+        "median": 0.9999550580978394,
+        "low": 0.5925291576467261,
+        "high": 0.822360398843361
+      },
+      "code_mass": {
+        "n": 48,
+        "mean": 0.9999999459832907,
+        "median": 1.0,
+        "low": 0.9999998646477858,
+        "high": 0.9999999913076559
+      },
+      "first_token_code_rate": {
+        "n": 48,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9260272146527198,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 48,
+        "mean": 0.8958333333333334,
+        "median": 1.0,
+        "low": 0.7916666666666666,
+        "high": 0.9791666666666666
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "all",
+      "route": "block_to_decision",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 48,
+        "mean": 0.7395833333333334,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 0.8541666666666666
+      },
+      "margin": {
+        "n": 48,
+        "mean": 16.87304684762678,
+        "median": 22.722656339423793,
+        "low": 13.308203069269787,
+        "high": 20.379394487150496
+      },
+      "source_support": {
+        "n": 48,
+        "mean": 0.7300984271402152,
+        "median": 0.9999990165233612,
+        "low": 0.6156065548229976,
+        "high": 0.8425727718777217
+      },
+      "code_mass": {
+        "n": 48,
+        "mean": 0.9994909086575111,
+        "median": 1.0,
+        "low": 0.9984727197481941,
+        "high": 1.0000000068296988
+      },
+      "first_token_code_rate": {
+        "n": 48,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9260272146527198,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 48,
+        "mean": 0.8333333333333334,
+        "median": 1.0,
+        "low": 0.7291666666666666,
+        "high": 0.9375
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "all",
+      "route": "block_to_decision",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 48,
+        "mean": 0.6770833333333334,
+        "median": 1.0,
+        "low": 0.5520833333333334,
+        "high": 0.8020833333333334
+      },
+      "margin": {
+        "n": 48,
+        "mean": 16.441243518673616,
+        "median": 23.40625,
+        "low": 12.260917200570134,
+        "high": 20.32714439634012
+      },
+      "source_support": {
+        "n": 48,
+        "mean": 0.6827223920394111,
+        "median": 0.9999999701976776,
+        "low": 0.556334713203215,
+        "high": 0.8060996938304592
+      },
+      "code_mass": {
+        "n": 48,
+        "mean": 0.999999629954497,
+        "median": 1.0,
+        "low": 0.9999988973140717,
+        "high": 0.9999999993791183
+      },
+      "first_token_code_rate": {
+        "n": 48,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9260272146527198,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 48,
+        "mean": 0.8958333333333334,
+        "median": 1.0,
+        "low": 0.8119791666666668,
+        "high": 0.9791666666666666
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "all",
+      "route": "block_to_decision",
+      "condition": "mention",
+      "accuracy": {
+        "n": 48,
+        "mean": 0.7083333333333334,
+        "median": 1.0,
+        "low": 0.59375,
+        "high": 0.8229166666666666
+      },
+      "margin": {
+        "n": 48,
+        "mean": 16.781087246447175,
+        "median": 23.44921875,
+        "low": 12.773144533328832,
+        "high": 20.576175959050413
+      },
+      "source_support": {
+        "n": 48,
+        "mean": 0.7094468978989887,
+        "median": 0.9999999105930328,
+        "low": 0.5930836441306175,
+        "high": 0.8230228050292578
+      },
+      "code_mass": {
+        "n": 48,
+        "mean": 0.9999664009859165,
+        "median": 1.0,
+        "low": 0.9998991986115774,
+        "high": 1.0000000049670537
+      },
+      "first_token_code_rate": {
+        "n": 48,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9260272146527198,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 48,
+        "mean": 0.8333333333333334,
+        "median": 1.0,
+        "low": 0.7291666666666666,
+        "high": 0.9375
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "all",
+      "route": "block_both",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 48,
+        "mean": 0.7291666666666666,
+        "median": 1.0,
+        "low": 0.6145833333333334,
+        "high": 0.84375
+      },
+      "margin": {
+        "n": 48,
+        "mean": 16.66422523256964,
+        "median": 21.24609363079071,
+        "low": 13.087532513111833,
+        "high": 20.16560463206288
+      },
+      "source_support": {
+        "n": 48,
+        "mean": 0.7231887810247491,
+        "median": 0.9999994933605194,
+        "low": 0.6036037086048904,
+        "high": 0.8369646897690257
+      },
+      "code_mass": {
+        "n": 48,
+        "mean": 0.9936699007327358,
+        "median": 1.0,
+        "low": 0.9810100070356081,
+        "high": 0.9999999894450108
+      },
+      "first_token_code_rate": {
+        "n": 48,
+        "mean": 0.9895833333333334,
+        "median": 1.0,
+        "low": 0.96875,
+        "high": 1.0
+      },
+      "mapping_agreement": {
+        "n": 48,
+        "mean": 0.8333333333333334,
+        "median": 1.0,
+        "low": 0.7291666666666666,
+        "high": 0.9375
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "all",
+      "route": "block_both",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 48,
+        "mean": 0.7291666666666666,
+        "median": 1.0,
+        "low": 0.6145833333333334,
+        "high": 0.84375
+      },
+      "margin": {
+        "n": 48,
+        "mean": 16.450358028037808,
+        "median": 20.796874821186066,
+        "low": 12.760026028718332,
+        "high": 20.02832840516986
+      },
+      "source_support": {
+        "n": 48,
+        "mean": 0.7183219117636366,
+        "median": 0.9999997317790985,
+        "low": 0.6002522766921209,
+        "high": 0.8333037827389945
+      },
+      "code_mass": {
+        "n": 48,
+        "mean": 0.9994587264955044,
+        "median": 1.0,
+        "low": 0.9983778601822754,
+        "high": 0.9999999919285377
+      },
+      "first_token_code_rate": {
+        "n": 48,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9260272146527198,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 48,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.6875,
+        "high": 0.9166666666666666
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "all",
+      "route": "block_both",
+      "condition": "mention",
+      "accuracy": {
+        "n": 48,
+        "mean": 0.71875,
+        "median": 1.0,
+        "low": 0.6041666666666666,
+        "high": 0.8333333333333334
+      },
+      "margin": {
+        "n": 48,
+        "mean": 16.361816398570646,
+        "median": 21.175781100988388,
+        "low": 12.690816176700235,
+        "high": 19.91698810864269
+      },
+      "source_support": {
+        "n": 48,
+        "mean": 0.7150478470439499,
+        "median": 0.999999463558197,
+        "low": 0.5983284030050594,
+        "high": 0.8270969107776417
+      },
+      "code_mass": {
+        "n": 48,
+        "mean": 0.9985377192497253,
+        "median": 1.0,
+        "low": 0.9956137637142092,
+        "high": 0.9999999938067049
+      },
+      "first_token_code_rate": {
+        "n": 48,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9260272146527198,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "mapping_agreement": {
+        "n": 48,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.6875,
+        "high": 0.9166666666666666
+      }
+    }
+  ],
+  "history_effects": [
+    {
+      "model": "1.7b",
+      "dataset": "MedQA",
+      "route": "full",
+      "history": "wrong",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": -0.25,
+        "median": 0.0,
+        "low": -0.4375,
+        "high": -0.0625
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -10.708984293009529,
+        "median": -10.007812630793582,
+        "low": -15.748547169058599,
+        "high": -6.144006264163307
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": -0.290377622429978,
+        "median": -0.1963745572387836,
+        "low": -0.4771357489804955,
+        "high": -0.11992989139318494
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.3706866280153467,
+        "median": 0.3301555886864662,
+        "low": 0.20605030872092883,
+        "high": 0.5557073943786102
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedQA",
+      "route": "full",
+      "history": "mention",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": -0.28125,
+        "median": 0.0,
+        "low": -0.46875,
+        "high": -0.125
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -8.51904299738996,
+        "median": -5.339844015360086,
+        "low": -12.276843182383178,
+        "high": -5.1220703607504205
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": -0.2986680088642626,
+        "median": -0.15473042870871723,
+        "low": -0.46797658050196694,
+        "high": -0.15758971877272618
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.3116492593072707,
+        "median": 0.1195382266305387,
+        "low": 0.1499251169928044,
+        "high": 0.5003283831379035
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedQA",
+      "route": "block_to_facts",
+      "history": "wrong",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": -0.21875,
+        "median": 0.0,
+        "low": -0.4375,
+        "high": 0.03125
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -9.755859283359497,
+        "median": -8.148437548824774,
+        "low": -14.602624283174078,
+        "high": -5.276977605112889
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": -0.2734611038678616,
+        "median": -0.09260284548622622,
+        "low": -0.4664335375420481,
+        "high": -0.10336585383591275
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.3221953784377898,
+        "median": 0.21541641409430246,
+        "low": 0.1615843502145629,
+        "high": 0.50114681985576
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedQA",
+      "route": "block_to_facts",
+      "history": "mention",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": -0.25,
+        "median": 0.0,
+        "low": -0.46875,
+        "high": -0.03125
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -7.726074223144898,
+        "median": -5.160156338497465,
+        "low": -11.624584873889685,
+        "high": -4.109667987016033
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": -0.250518666997041,
+        "median": -0.04778458099463023,
+        "low": -0.4526927532053036,
+        "high": -0.06616619396674323
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.2864759338494444,
+        "median": 0.06589406718194368,
+        "low": 0.09521814451008473,
+        "high": 0.4957006514877088
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedQA",
+      "route": "block_to_decision",
+      "history": "wrong",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": -0.0625,
+        "median": 0.0,
+        "low": -0.21875,
+        "high": 0.0625
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -0.7788085931892557,
+        "median": -0.7031251946464181,
+        "low": -3.007873608977684,
+        "high": 1.8044434148869826
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": -0.03181872849772734,
+        "median": -0.0013049364309805078,
+        "low": -0.16047166757277584,
+        "high": 0.08360551856446002
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": -0.028811504176044216,
+        "median": 1.0547946960315358e-09,
+        "low": -0.11238479700072472,
+        "high": 0.027584140721640952
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedQA",
+      "route": "block_to_decision",
+      "history": "mention",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": -0.0625,
+        "median": 0.0,
+        "low": -0.21875,
+        "high": 0.0625
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -0.0805663721409402,
+        "median": -0.3749998342245817,
+        "low": -2.1684692889099573,
+        "high": 2.688647490354518
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": -0.018365071439293834,
+        "median": -0.0012775618017819568,
+        "low": -0.1557626687847123,
+        "high": 0.12422989801659073
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": -0.04034597571972859,
+        "median": 3.738003867374828e-09,
+        "low": -0.1514613771896552,
+        "high": 0.02886719422264198
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedQA",
+      "route": "block_both",
+      "history": "wrong",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": 0.1108398701928357,
+        "median": -0.015625,
+        "low": -0.30322274494028956,
+        "high": 0.6485230423813022
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": 0.0001764813550244118,
+        "median": 0.0,
+        "low": -0.012026810101181947,
+        "high": 0.013257762549597372
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": -0.002056602993974813,
+        "median": 0.0,
+        "low": -0.008140650795356945,
+        "high": 0.0012353227831758341
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedQA",
+      "route": "block_both",
+      "history": "mention",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": -0.09375,
+        "high": 0.09375
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": 0.2958983953459564,
+        "median": -0.0468750296804501,
+        "low": -0.33007812187867897,
+        "high": 1.1328610613978753
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": -0.005939420630668664,
+        "median": 9.390794269981129e-08,
+        "low": -0.03507366743552667,
+        "high": 0.016025747063885792
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.0020935580399084,
+        "median": 1.4442231091593705e-10,
+        "low": -0.0024611285706407824,
+        "high": 0.007732043989560732
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedMCQA",
+      "route": "full",
+      "history": "wrong",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": -0.125,
+        "median": 0.0,
+        "low": -0.28125,
+        "high": 0.03125
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -4.673828052819752,
+        "median": -4.515625177409078,
+        "low": -8.662377770890396,
+        "high": -1.381286511424211
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": -0.1289129723670306,
+        "median": -0.0019610822200775146,
+        "low": -0.2975168099342321,
+        "high": 0.027379777426921277
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.12538119174333223,
+        "median": 0.0003310714845304319,
+        "low": 0.020755535548380437,
+        "high": 0.2659447091043621
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedMCQA",
+      "route": "full",
+      "history": "mention",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": -0.0625,
+        "median": 0.0,
+        "low": -0.21875,
+        "high": 0.125
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -4.094238323474157,
+        "median": -3.3671877678841895,
+        "low": -6.364831516962882,
+        "high": -1.8510498951088004
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": -0.08034487545420177,
+        "median": -0.00011733174324035645,
+        "low": -0.23822880260662202,
+        "high": 0.08373402332949602
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.06892314574858083,
+        "median": 0.0001248071199443368,
+        "low": 0.010683573774913477,
+        "high": 0.14335062795515394
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedMCQA",
+      "route": "block_to_facts",
+      "history": "wrong",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": -0.125,
+        "median": 0.0,
+        "low": -0.3125,
+        "high": 0.0625
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -5.94726567280412,
+        "median": -4.0937498458857835,
+        "low": -10.325341900214724,
+        "high": -2.1427979244529514
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": -0.15146008699896463,
+        "median": -0.007293000817298889,
+        "low": -0.3329863709497086,
+        "high": 0.01560094663579795
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.19579315768345626,
+        "median": 0.002779912295735709,
+        "low": 0.048034482433684064,
+        "high": 0.3755073369037648
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedMCQA",
+      "route": "block_to_facts",
+      "history": "mention",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": -0.125,
+        "median": 0.0,
+        "low": -0.3125,
+        "high": 0.0625
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -5.11328123349857,
+        "median": -4.203125101004646,
+        "low": -8.20084228110583,
+        "high": -2.2557128857049653
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": -0.13436296551930127,
+        "median": -0.0009660571813583374,
+        "low": -0.310283114843493,
+        "high": 0.03251443664104559
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.1391552490043907,
+        "median": 0.0001842379338512501,
+        "low": 0.0352506488784343,
+        "high": 0.2690716112300456
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedMCQA",
+      "route": "block_to_decision",
+      "history": "wrong",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": 0.03125,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.09375
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -0.8671875052011784,
+        "median": -0.382812246438192,
+        "low": -2.0846434270666374,
+        "high": 0.31563716978725226
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": 0.03485557678808676,
+        "median": -5.960464477539063e-08,
+        "low": -0.014029963593514256,
+        "high": 0.12114380510670394
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.0193434971255834,
+        "median": 9.284712304546971e-10,
+        "low": 9.538040119621846e-05,
+        "high": 0.053564340479311946
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedMCQA",
+      "route": "block_to_decision",
+      "history": "mention",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": 0.03125,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.09375
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -0.5971680433622417,
+        "median": 0.11718753557883588,
+        "low": -1.6460083281523028,
+        "high": 0.45119611932303405
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": 0.03833148032527112,
+        "median": -3.129243850708008e-06,
+        "low": -0.01490763363937043,
+        "high": 0.12868399678464368
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.018746363986732854,
+        "median": 2.8220924208621767e-09,
+        "low": 0.00018409219148040525,
+        "high": 0.05390303101267579
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedMCQA",
+      "route": "block_both",
+      "history": "wrong",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": -0.03125,
+        "median": 0.0,
+        "low": -0.09375,
+        "high": 0.0
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -0.02636710375455209,
+        "median": 0.0,
+        "low": -0.15919179716769918,
+        "high": 0.09472655493556204
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": -0.003957811053510341,
+        "median": 0.0,
+        "low": -0.010708676467010037,
+        "high": 1.1167448749915826e-05
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.001444325269556962,
+        "median": -1.2971658122640228e-10,
+        "low": -0.005426916125894461,
+        "high": 0.009758222507849584
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedMCQA",
+      "route": "block_both",
+      "history": "mention",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": 0.19042986415592167,
+        "median": 0.0820318718906492,
+        "low": -0.03906226310537765,
+        "high": 0.43264185108795034
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": 0.009036669547242582,
+        "median": 1.0270468919770792e-08,
+        "low": -0.007830674662216097,
+        "high": 0.03487290555058282
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 8.583590139042761e-05,
+        "median": -6.452430152681377e-10,
+        "low": -0.005252030139985144,
+        "high": 0.004841206813391692
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MMLU",
+      "route": "full",
+      "history": "wrong",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": -0.03125,
+        "median": 0.0,
+        "low": -0.1875,
+        "high": 0.125
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -5.143554685624213,
+        "median": -3.0625001179723768,
+        "low": -9.717932200439465,
+        "high": -1.4076781117328625
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": -0.02354103090961336,
+        "median": -4.081557225199539e-05,
+        "low": -0.1902684883150362,
+        "high": 0.11717478240916397
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.2034226724026198,
+        "median": 0.0014018913438493819,
+        "low": 0.032816156779398045,
+        "high": 0.404442976034111
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MMLU",
+      "route": "full",
+      "history": "mention",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": 0.0625,
+        "median": 0.0,
+        "low": -0.125,
+        "high": 0.21875
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -2.5043944589066207,
+        "median": -1.7578122034319676,
+        "low": -6.276574606749725,
+        "high": 0.3776367603621817
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": 0.00844931819837412,
+        "median": -5.082145294377227e-06,
+        "low": -0.1528444648349443,
+        "high": 0.13745057426900528
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.14611472127191005,
+        "median": 0.00018738918153726747,
+        "low": 0.022792619216806226,
+        "high": 0.3018883792450997
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MMLU",
+      "route": "block_to_facts",
+      "history": "wrong",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": -0.1875,
+        "high": 0.15625
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -6.120605415051402,
+        "median": -3.70703159454078,
+        "low": -10.119799754324328,
+        "high": -2.7118896239605084
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": -0.05445819730919213,
+        "median": -1.62724373777845e-05,
+        "low": -0.2102765546698572,
+        "high": 0.06726306755070229
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.29601835642277247,
+        "median": 0.0261269613912134,
+        "low": 0.1008116468946155,
+        "high": 0.5150605895008143
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MMLU",
+      "route": "block_to_facts",
+      "history": "mention",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": 0.0625,
+        "median": 0.0,
+        "low": -0.15625,
+        "high": 0.28125
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -2.622070377760032,
+        "median": -2.695312526077032,
+        "low": -6.138476692378204,
+        "high": 0.3932373044535519
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": 0.029688071315840642,
+        "median": -2.3606268728215696e-05,
+        "low": -0.1507761653518063,
+        "high": 0.19034733230127274
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.1329715757211577,
+        "median": 0.0069198634576821405,
+        "low": 0.011657143208739406,
+        "high": 0.29450369101156487
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MMLU",
+      "route": "block_to_decision",
+      "history": "wrong",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": 0.0625,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.15625
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": 0.5209961295590038,
+        "median": 0.8281250497093424,
+        "low": -1.0303710482543489,
+        "high": 1.9987182236427863
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": 0.047849427352525196,
+        "median": -4.788030371488672e-10,
+        "low": -0.0026612064653091503,
+        "high": 0.12330461728637766
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.05124934464902332,
+        "median": -5.314750636115084e-10,
+        "low": -0.006863010273130021,
+        "high": 0.1316481140042336
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MMLU",
+      "route": "block_to_decision",
+      "history": "mention",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": 0.03125,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.09375
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": 0.7221681209167414,
+        "median": 0.44921886920928955,
+        "low": -0.8018187652139817,
+        "high": 2.4336181964438586
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": 0.048124797568282904,
+        "median": 3.212371124314273e-11,
+        "low": -0.000493990431243993,
+        "high": 0.11179824567370807
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.043485693998646616,
+        "median": 3.4321087524183565e-09,
+        "low": -0.010363763746595239,
+        "high": 0.11689746142604004
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MMLU",
+      "route": "block_both",
+      "history": "wrong",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": 0.09765612758659437,
+        "median": -0.031250298025497614,
+        "low": -0.2851929922819022,
+        "high": 0.4121459321919639
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": -0.00045318851245678673,
+        "median": -9.762275298037804e-11,
+        "low": -0.0010543348435046976,
+        "high": -3.441321246373569e-05
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.003328769614370864,
+        "median": 1.0524439505651961e-09,
+        "low": -0.002704993856351593,
+        "high": 0.012226332834316062
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MMLU",
+      "route": "block_both",
+      "history": "mention",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -0.031738320698018185,
+        "median": -0.0039059519764350625,
+        "low": -0.4077514853899014,
+        "high": 0.26564933836296867
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": -0.00032374827750250004,
+        "median": -3.016280556854441e-08,
+        "low": -0.0012014553783286314,
+        "high": 0.000536273304191243
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.011613621719358303,
+        "median": 1.063139530837337e-09,
+        "low": -0.0003952159878631423,
+        "high": 0.03100613058776251
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "all",
+      "route": "full",
+      "history": "wrong",
+      "accuracy_effect": {
+        "n": 48,
+        "mean": -0.13541666666666666,
+        "median": 0.0,
+        "low": -0.23958333333333334,
+        "high": -0.041666666666666664
+      },
+      "margin_effect": {
+        "n": 48,
+        "mean": -6.842122343817832,
+        "median": -4.785156402757011,
+        "low": -9.530440211500222,
+        "high": -4.497224891393274
+      },
+      "source_support_effect": {
+        "n": 48,
+        "mean": -0.14761054190220732,
+        "median": -0.0019610822200775146,
+        "low": -0.2521680176940455,
+        "high": -0.051459448212912026
+      },
+      "wrong_support_effect": {
+        "n": 48,
+        "mean": 0.2331634973870996,
+        "median": 0.0049992922146582415,
+        "low": 0.13800815604219077,
+        "high": 0.3394996164127486
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "all",
+      "route": "full",
+      "history": "mention",
+      "accuracy_effect": {
+        "n": 48,
+        "mean": -0.09375,
+        "median": 0.0,
+        "low": -0.20833333333333334,
+        "high": 0.010416666666666666
+      },
+      "margin_effect": {
+        "n": 48,
+        "mean": -5.039225259923579,
+        "median": -3.332031274214387,
+        "low": -7.058964016540252,
+        "high": -3.263525378034344
+      },
+      "source_support_effect": {
+        "n": 48,
+        "mean": -0.12352118870669675,
+        "median": -0.003546878695487976,
+        "low": -0.2236230958157595,
+        "high": -0.03247901467808419
+      },
+      "wrong_support_effect": {
+        "n": 48,
+        "mean": 0.17556237544258724,
+        "median": 0.013028070921222934,
+        "low": 0.09945505559226565,
+        "high": 0.26090778441858253
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "all",
+      "route": "block_to_facts",
+      "history": "wrong",
+      "accuracy_effect": {
+        "n": 48,
+        "mean": -0.11458333333333333,
+        "median": 0.0,
+        "low": -0.22916666666666666,
+        "high": 0.0
+      },
+      "margin_effect": {
+        "n": 48,
+        "mean": -7.274576790405006,
+        "median": -4.367187450007464,
+        "low": -9.781514396714735,
+        "high": -4.891377769760154
+      },
+      "source_support_effect": {
+        "n": 48,
+        "mean": -0.1597931293920061,
+        "median": -0.002529887319184354,
+        "low": -0.26386567613923095,
+        "high": -0.06653025937232034
+      },
+      "wrong_support_effect": {
+        "n": 48,
+        "mean": 0.27133563084800616,
+        "median": 0.02598926778638931,
+        "low": 0.16713815288231637,
+        "high": 0.37885168449223905
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "all",
+      "route": "block_to_facts",
+      "history": "mention",
+      "accuracy_effect": {
+        "n": 48,
+        "mean": -0.10416666666666667,
+        "median": 0.0,
+        "low": -0.22916666666666666,
+        "high": 0.010416666666666666
+      },
+      "margin_effect": {
+        "n": 48,
+        "mean": -5.153808611467833,
+        "median": -3.249999827641034,
+        "low": -7.251574708567838,
+        "high": -3.221834323785112
+      },
+      "source_support_effect": {
+        "n": 48,
+        "mean": -0.11839785373350054,
+        "median": -0.0019507557153701782,
+        "low": -0.23338229536257776,
+        "high": -0.01635016198986781
+      },
+      "wrong_support_effect": {
+        "n": 48,
+        "mean": 0.1862009195249976,
+        "median": 0.0069198634576821405,
+        "low": 0.09822864458527227,
+        "high": 0.2804799524951674
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "all",
+      "route": "block_to_decision",
+      "history": "wrong",
+      "accuracy_effect": {
+        "n": 48,
+        "mean": 0.010416666666666666,
+        "median": 0.0,
+        "low": -0.052083333333333336,
+        "high": 0.07291666666666667
+      },
+      "margin_effect": {
+        "n": 48,
+        "mean": -0.37499998961047676,
+        "median": -0.29687480727380944,
+        "low": -1.4298828128482848,
+        "high": 0.6922403577752863
+      },
+      "source_support_effect": {
+        "n": 48,
+        "mean": 0.016962091880961535,
+        "median": -6.261463525447653e-08,
+        "low": -0.03728730682149301,
+        "high": 0.06947413713827306
+      },
+      "wrong_support_effect": {
+        "n": 48,
+        "mean": 0.013927112532854169,
+        "median": 5.354075489167817e-10,
+        "low": -0.022424246619672607,
+        "high": 0.05186113922794628
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "all",
+      "route": "block_to_decision",
+      "history": "mention",
+      "accuracy_effect": {
+        "n": 48,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": -0.0625,
+        "high": 0.052083333333333336
+      },
+      "margin_effect": {
+        "n": 48,
+        "mean": 0.01481123513785317,
+        "median": 0.08593755960609428,
+        "low": -0.9811279042319879,
+        "high": 1.1004272934918797
+      },
+      "source_support_effect": {
+        "n": 48,
+        "mean": 0.022697068818086724,
+        "median": 0.0,
+        "low": -0.032349067829789774,
+        "high": 0.07788732413323844
+      },
+      "wrong_support_effect": {
+        "n": 48,
+        "mean": 0.007295360755216958,
+        "median": 2.9797840300359486e-09,
+        "low": -0.03564763023731701,
+        "high": 0.046848773465491066
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "all",
+      "route": "block_both",
+      "history": "wrong",
+      "accuracy_effect": {
+        "n": 48,
+        "mean": -0.010416666666666666,
+        "median": 0.0,
+        "low": -0.03125,
+        "high": 0.0
+      },
+      "margin_effect": {
+        "n": 48,
+        "mean": 0.06070963134162599,
+        "median": 0.0,
+        "low": -0.12615563831046916,
+        "high": 0.2570027310494095
+      },
+      "source_support_effect": {
+        "n": 48,
+        "mean": -0.0014115060703142385,
+        "median": 0.0,
+        "low": -0.005860331875918145,
+        "high": 0.0029538974029397597
+      },
+      "wrong_support_effect": {
+        "n": 48,
+        "mean": 0.0009054972966510044,
+        "median": 0.0,
+        "low": -0.002930855185592174,
+        "high": 0.005037684521994144
+      }
+    },
+    {
+      "model": "1.7b",
+      "dataset": "all",
+      "route": "block_both",
+      "history": "mention",
+      "accuracy_effect": {
+        "n": 48,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": -0.03125,
+        "high": 0.03125
+      },
+      "margin_effect": {
+        "n": 48,
+        "mean": 0.15152997960128664,
+        "median": -0.015624910471160547,
+        "low": -0.0983398011042226,
+        "high": 0.44015312320315425
+      },
+      "source_support_effect": {
+        "n": 48,
+        "mean": 0.0009245002130238052,
+        "median": 0.0,
+        "low": -0.010504731706053053,
+        "high": 0.012372600764152633
+      },
+      "wrong_support_effect": {
+        "n": 48,
+        "mean": 0.004597671886885711,
+        "median": 1.4442231091593705e-10,
+        "low": -0.00040801908985837234,
+        "high": 0.011658581589577909
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedQA",
+      "route": "full",
+      "history": "wrong",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": -0.21875,
+        "median": 0.0,
+        "low": -0.40625,
+        "high": -0.03125
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -8.914062451450679,
+        "median": -4.87499979138348,
+        "low": -13.570312372227594,
+        "high": -4.898779359604821
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": -0.21124945510779047,
+        "median": -1.1444091796875e-05,
+        "low": -0.4044531539265967,
+        "high": -0.03851567822986036
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.19949547449023738,
+        "median": 6.969316331331687e-07,
+        "low": 0.06249739100512244,
+        "high": 0.3670136008706805
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedQA",
+      "route": "full",
+      "history": "mention",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": -0.09375,
+        "high": 0.09375
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -3.900878900035421,
+        "median": -2.554687350988443,
+        "low": -5.91899409328529,
+        "high": -2.1264649875597863
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": 0.0018423232312426083,
+        "median": -2.9802322387695312e-08,
+        "low": -0.07526094073136964,
+        "high": 0.07626935876593285
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.038313635663845574,
+        "median": 6.159252647917391e-08,
+        "low": 0.0007922132538101807,
+        "high": 0.09984256974312057
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedQA",
+      "route": "block_to_facts",
+      "history": "wrong",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": -0.1875,
+        "median": 0.0,
+        "low": -0.375,
+        "high": -0.03125
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -8.044433603621352,
+        "median": -5.1367187798008445,
+        "low": -12.261853071615436,
+        "high": -4.494994946641548
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": -0.16408585927945402,
+        "median": -3.081560134887695e-05,
+        "low": -0.32954332268988346,
+        "high": -0.02607260238984464
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.19022003339343477,
+        "median": 9.972475110885982e-06,
+        "low": 0.061415050069895415,
+        "high": 0.34017507011163134
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedQA",
+      "route": "block_to_facts",
+      "history": "mention",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": 0.03125,
+        "median": 0.0,
+        "low": -0.0625,
+        "high": 0.125
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -3.3300781892492113,
+        "median": -2.5507813553558645,
+        "low": -5.162133815845054,
+        "high": -1.6888305994007198
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": 0.023217931504249917,
+        "median": -1.7881393432617188e-07,
+        "low": -0.04018323157956971,
+        "high": 0.09255271514200115
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.040511306042063266,
+        "median": 4.7412168262776907e-07,
+        "low": 0.0006458135307217597,
+        "high": 0.11026183910266701
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedQA",
+      "route": "block_to_decision",
+      "history": "wrong",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": -0.15625,
+        "median": 0.0,
+        "low": -0.34375,
+        "high": 0.03125
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -2.42968746814001,
+        "median": -0.28125,
+        "low": -5.4927001539490785,
+        "high": 0.32827157962668496
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": -0.11431672052094717,
+        "median": -1.1920928955078125e-07,
+        "low": -0.28650439224466606,
+        "high": 0.0372659779492081
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.13737799472348067,
+        "median": 8.318687936843122e-11,
+        "low": 0.0003932164093460748,
+        "high": 0.29812748380705123
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedQA",
+      "route": "block_to_decision",
+      "history": "mention",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": -0.125,
+        "median": 0.0,
+        "low": -0.28125,
+        "high": 0.03125
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -1.3920897608448835,
+        "median": -0.0390625,
+        "low": -3.8467161826327536,
+        "high": 0.8401489586278343
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": -0.07434233912565749,
+        "median": 0.0,
+        "low": -0.19921923264694402,
+        "high": 0.04779092062254584
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.09718287582578163,
+        "median": -5.220893674693771e-14,
+        "low": 0.00034171743275436664,
+        "high": 0.20849659607569757
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedQA",
+      "route": "block_both",
+      "history": "wrong",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -0.47656250953892765,
+        "median": -0.16406242542655036,
+        "low": -0.9184814752686797,
+        "high": -0.1577148178130217
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": -0.014944990673027014,
+        "median": -1.1920928955078125e-07,
+        "low": -0.037791080504166887,
+        "high": -0.0014716201461851598
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.014095828624645935,
+        "median": 3.1366235379425705e-10,
+        "low": 0.00011186564923007787,
+        "high": 0.036960193609328555
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedQA",
+      "route": "block_both",
+      "history": "mention",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": -0.03125,
+        "median": 0.0,
+        "low": -0.09375,
+        "high": 0.0
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -0.504882788125113,
+        "median": -0.1484375298023224,
+        "low": -1.0576293670250907,
+        "high": -0.0751831536234899
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": -0.02733655969381754,
+        "median": 0.0,
+        "low": -0.07336587379577827,
+        "high": -0.0008080074893115352
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.015976146308726354,
+        "median": 1.1622143887199659e-11,
+        "low": -0.025154635624383914,
+        "high": 0.06843256698396828
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedMCQA",
+      "route": "full",
+      "history": "wrong",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": -0.09375,
+        "median": 0.0,
+        "low": -0.3125,
+        "high": 0.125
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -12.076660152995935,
+        "median": -6.63281256760922,
+        "low": -19.136682187144256,
+        "high": -5.465600696944477
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": -0.09990809215561802,
+        "median": -5.066101287939939e-05,
+        "low": -0.31520045830467924,
+        "high": 0.11317010189955157
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.24960492274672844,
+        "median": 0.0007258973463810663,
+        "low": 0.0629553911732352,
+        "high": 0.4665577347562486
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedMCQA",
+      "route": "full",
+      "history": "mention",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": -0.1875,
+        "high": 0.1875
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -6.7041016211028674,
+        "median": -4.210937738417556,
+        "low": -11.599133304459825,
+        "high": -2.52807632017213
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": -0.006306821827498685,
+        "median": -7.595834421681921e-07,
+        "low": -0.19570248231652607,
+        "high": 0.18654590218349704
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.12531293189186984,
+        "median": 5.521086413936421e-07,
+        "low": 0.00020622582078346782,
+        "high": 0.3126564744970037
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedMCQA",
+      "route": "block_to_facts",
+      "history": "wrong",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": -0.09375,
+        "median": 0.0,
+        "low": -0.3125,
+        "high": 0.125
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -9.761718754168175,
+        "median": -5.808593680488144,
+        "low": -15.463659762315315,
+        "high": -4.597290062479755
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": -0.07791265340588474,
+        "median": -8.970499038696289e-06,
+        "low": -0.27791977142643687,
+        "high": 0.12066442320890504
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.2117658021557609,
+        "median": 1.9562709578374235e-05,
+        "low": 0.05518787079874262,
+        "high": 0.4072958458838305
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedMCQA",
+      "route": "block_to_facts",
+      "history": "mention",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": -0.1875,
+        "high": 0.1875
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -5.572265606412614,
+        "median": -4.3125,
+        "low": -9.92312015348684,
+        "high": -1.8847167765277144
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": 0.0024304182642141473,
+        "median": 0.0,
+        "low": -0.18040393731622725,
+        "high": 0.1845419393576185
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.12341683566392507,
+        "median": 1.6172047261238387e-06,
+        "low": -1.2530891009302037e-05,
+        "high": 0.3090014144346273
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedMCQA",
+      "route": "block_to_decision",
+      "history": "wrong",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": -0.03125,
+        "median": 0.0,
+        "low": -0.15625,
+        "high": 0.0625
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -0.8178710545821555,
+        "median": 0.44140625,
+        "low": -2.2994018457412144,
+        "high": 0.5522949879300088
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": -0.031028934635675687,
+        "median": 0.0,
+        "low": -0.15005497709345078,
+        "high": 0.062001391112803055
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.0016645385541337442,
+        "median": -6.358704720806161e-12,
+        "low": -2.75863624614257e-07,
+        "high": 0.004993889957644622
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedMCQA",
+      "route": "block_to_decision",
+      "history": "mention",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": 0.03125,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.09375
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -0.30322270993474376,
+        "median": 0.171875,
+        "low": -1.4438723215485647,
+        "high": 0.7686890735030834
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": 0.010884200424949704,
+        "median": 0.0,
+        "low": -0.046130979989802284,
+        "high": 0.08760696197709683
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.0016024469042400717,
+        "median": -3.5146891288949877e-13,
+        "low": -8.876527961284441e-07,
+        "high": 0.004808239340943811
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedMCQA",
+      "route": "block_both",
+      "history": "wrong",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -0.24267574665327185,
+        "median": -0.1875,
+        "low": -0.47999265701368854,
+        "high": -0.0009644067893006536
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": 0.00032137727715496166,
+        "median": 0.0,
+        "low": -0.000187601448097481,
+        "high": 0.001200052727795424
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 6.260591105681891e-05,
+        "median": 1.0245179813024585e-12,
+        "low": 5.036046603908674e-10,
+        "high": 0.000187649557030559
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MedMCQA",
+      "route": "block_both",
+      "history": "mention",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -0.24169918629042075,
+        "median": -0.203125,
+        "low": -0.6133300587213877,
+        "high": 0.12695318877381406
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": 0.0029424358787897677,
+        "median": 0.0,
+        "low": -0.00021395188888822028,
+        "high": 0.009095047432793452
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 7.175711255847438e-05,
+        "median": 7.138208535546753e-12,
+        "low": -8.27635612058251e-09,
+        "high": 0.00021482565892393885
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MMLU",
+      "route": "full",
+      "history": "wrong",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": -0.15625,
+        "median": 0.0,
+        "low": -0.34375,
+        "high": 0.0
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -11.99755852380897,
+        "median": -8.074218548358914,
+        "low": -17.5436156479855,
+        "high": -6.893444644535313
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": -0.1761621735848518,
+        "median": -0.00021257996559143066,
+        "low": -0.3594776610440734,
+        "high": -0.029925170006707854
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.2302480423427122,
+        "median": 0.0011376454546228234,
+        "low": 0.0770182977939655,
+        "high": 0.40610475004438784
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MMLU",
+      "route": "full",
+      "history": "mention",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": -0.03125,
+        "median": 0.0,
+        "low": -0.21875,
+        "high": 0.125
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -5.538085973252898,
+        "median": -4.558593690384441,
+        "low": -10.450219787312637,
+        "high": -0.773229993742384
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": -0.04527940234634546,
+        "median": -5.364418029785156e-07,
+        "low": -0.23439643982785816,
+        "high": 0.12671673078202364
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.1400935892478432,
+        "median": 1.6826411498287394e-07,
+        "low": -0.02974440528268304,
+        "high": 0.3174678684156413
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MMLU",
+      "route": "block_to_facts",
+      "history": "wrong",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": -0.15625,
+        "median": 0.0,
+        "low": -0.34375,
+        "high": 0.03125
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -12.23974608402914,
+        "median": -11.402343908813465,
+        "low": -16.034179675441347,
+        "high": -8.429138115507099
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": -0.17473123952527872,
+        "median": -4.4792890548706055e-05,
+        "low": -0.35505773118272754,
+        "high": -0.009633553563681745
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.2778143457265923,
+        "median": 0.1013577390007123,
+        "low": 0.12067900941923997,
+        "high": 0.44032773559946825
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MMLU",
+      "route": "block_to_facts",
+      "history": "mention",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": -0.125,
+        "high": 0.15625
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -5.237793007363171,
+        "median": -5.617187449211997,
+        "low": -9.139245664459805,
+        "high": -1.2166260277401333
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": -0.006578198288755361,
+        "median": -1.996755599975586e-06,
+        "low": -0.1336872196439563,
+        "high": 0.1548335907830654
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.1218658906546208,
+        "median": 2.3214278207037836e-06,
+        "low": 0.01252208378214483,
+        "high": 0.25436137570409284
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MMLU",
+      "route": "block_to_decision",
+      "history": "wrong",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": 1.9521485358626691,
+        "median": 0.39062538632288124,
+        "low": 0.04534926771251624,
+        "high": 4.26937259557146
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": 0.0032175498542109317,
+        "median": 0.0,
+        "low": -1.4257550453221722e-06,
+        "high": 0.009634716570164814
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.005188659081906992,
+        "median": -5.579882581240861e-13,
+        "low": -0.009595623882108564,
+        "high": 0.025198656747844057
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MMLU",
+      "route": "block_to_decision",
+      "history": "mention",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": 1.419433667240809,
+        "median": 0.49609375,
+        "low": -0.2425780042877888,
+        "high": 3.5664185214725386
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": 0.0015035509770287047,
+        "median": 0.0,
+        "low": -1.0874029589356928e-06,
+        "high": 0.004490264309176897
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.005241464603108491,
+        "median": -6.49639395783566e-12,
+        "low": -0.004450069098374421,
+        "high": 0.02021148956092119
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MMLU",
+      "route": "block_both",
+      "history": "wrong",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": 0.07763664259670833,
+        "median": -0.011718839406931636,
+        "low": -0.20999768063774824,
+        "high": 0.40430905022626873
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": 2.3005612534509375e-05,
+        "median": 0.0,
+        "low": -1.0431553508506737e-07,
+        "high": 6.894216719751694e-05
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.00011399361592235285,
+        "median": -1.8647314077207922e-13,
+        "low": -6.844351419493204e-05,
+        "high": 0.0004104733633411578
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "MMLU",
+      "route": "block_both",
+      "history": "mention",
+      "accuracy_effect": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "margin_effect": {
+        "n": 16,
+        "mean": -0.16064452758144188,
+        "median": -0.13671869039536233,
+        "low": -0.6997191784898705,
+        "high": 0.3017822119512385
+      },
+      "source_support_effect": {
+        "n": 16,
+        "mean": -2.867812737023824e-05,
+        "median": 0.0,
+        "low": -8.551220856569792e-05,
+        "high": 1.155081507539172e-07
+      },
+      "wrong_support_effect": {
+        "n": 16,
+        "mean": 0.0002318463098210258,
+        "median": 1.613934368795236e-13,
+        "low": -3.056273635584981e-08,
+        "high": 0.0006672417428283193
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "all",
+      "route": "full",
+      "history": "wrong",
+      "accuracy_effect": {
+        "n": 48,
+        "mean": -0.15625,
+        "median": 0.0,
+        "low": -0.2708333333333333,
+        "high": -0.052083333333333336
+      },
+      "margin_effect": {
+        "n": 48,
+        "mean": -10.996093709418526,
+        "median": -6.7734372913112395,
+        "low": -14.3060057934505,
+        "high": -7.971443650052774
+      },
+      "source_support_effect": {
+        "n": 48,
+        "mean": -0.16243990694942012,
+        "median": -2.4557113647460938e-05,
+        "low": -0.2742331444711099,
+        "high": -0.05928387530811936
+      },
+      "wrong_support_effect": {
+        "n": 48,
+        "mean": 0.2264494798598927,
+        "median": 5.7862403998143976e-05,
+        "low": 0.1350187524885655,
+        "high": 0.3285715310039377
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "all",
+      "route": "full",
+      "history": "mention",
+      "accuracy_effect": {
+        "n": 48,
+        "mean": -0.010416666666666666,
+        "median": 0.0,
+        "low": -0.10416666666666667,
+        "high": 0.07291666666666667
+      },
+      "margin_effect": {
+        "n": 48,
+        "mean": -5.381022164797063,
+        "median": -3.6328126267388825,
+        "low": -7.774271726119396,
+        "high": -3.216418485704855
+      },
+      "source_support_effect": {
+        "n": 48,
+        "mean": -0.016581300314200506,
+        "median": -7.413002725119994e-08,
+        "low": -0.10772813766017716,
+        "high": 0.07226259726731761
+      },
+      "wrong_support_effect": {
+        "n": 48,
+        "mean": 0.10124005226785289,
+        "median": 1.1675571625650039e-07,
+        "low": 0.025567590357251598,
+        "high": 0.18822145196853196
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "all",
+      "route": "block_to_facts",
+      "history": "wrong",
+      "accuracy_effect": {
+        "n": 48,
+        "mean": -0.14583333333333334,
+        "median": 0.0,
+        "low": -0.2604166666666667,
+        "high": -0.041666666666666664
+      },
+      "margin_effect": {
+        "n": 48,
+        "mean": -10.015299480606222,
+        "median": -6.67187492174935,
+        "low": -12.605659992171256,
+        "high": -7.529760734105645
+      },
+      "source_support_effect": {
+        "n": 48,
+        "mean": -0.13890991740353917,
+        "median": -2.345442771911621e-05,
+        "low": -0.2423063415026007,
+        "high": -0.041683273591416034
+      },
+      "wrong_support_effect": {
+        "n": 48,
+        "mean": 0.22660006042526268,
+        "median": 4.878374149665814e-05,
+        "low": 0.1404807501593494,
+        "high": 0.3195970535543777
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "all",
+      "route": "block_to_facts",
+      "history": "mention",
+      "accuracy_effect": {
+        "n": 48,
+        "mean": 0.010416666666666666,
+        "median": 0.0,
+        "low": -0.07291666666666667,
+        "high": 0.09375
+      },
+      "margin_effect": {
+        "n": 48,
+        "mean": -4.713378934341666,
+        "median": -4.535156637440764,
+        "low": -6.665043181877965,
+        "high": -2.7856160628531463
+      },
+      "source_support_effect": {
+        "n": 48,
+        "mean": 0.006356717159902901,
+        "median": -3.8743019104003906e-07,
+        "low": -0.07348510076371181,
+        "high": 0.08876603038022517
+      },
+      "wrong_support_effect": {
+        "n": 48,
+        "mean": 0.0952646774535364,
+        "median": 1.0003410158441139e-06,
+        "low": 0.03227862763840964,
+        "high": 0.16927393699836565
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "all",
+      "route": "block_to_decision",
+      "history": "wrong",
+      "accuracy_effect": {
+        "n": 48,
+        "mean": -0.0625,
+        "median": 0.0,
+        "low": -0.14583333333333334,
+        "high": 0.010416666666666666
+      },
+      "margin_effect": {
+        "n": 48,
+        "mean": -0.43180332895316537,
+        "median": 0.24609413632288124,
+        "low": -1.8810383262965713,
+        "high": 0.9443970260261091
+      },
+      "source_support_effect": {
+        "n": 48,
+        "mean": -0.04737603510080398,
+        "median": 0.0,
+        "low": -0.11661549735267544,
+        "high": 0.012976483814519704
+      },
+      "wrong_support_effect": {
+        "n": 48,
+        "mean": 0.048077064119840474,
+        "median": -5.760648151447362e-14,
+        "low": 0.002884855527380353,
+        "high": 0.10979765613232695
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "all",
+      "route": "block_to_decision",
+      "history": "mention",
+      "accuracy_effect": {
+        "n": 48,
+        "mean": -0.03125,
+        "median": 0.0,
+        "low": -0.09375,
+        "high": 0.020833333333333332
+      },
+      "margin_effect": {
+        "n": 48,
+        "mean": -0.09195960117960607,
+        "median": 0.2500001476742,
+        "low": -1.223368319316255,
+        "high": 1.0296508923944407
+      },
+      "source_support_effect": {
+        "n": 48,
+        "mean": -0.020651529241226357,
+        "median": 0.0,
+        "low": -0.07053848473076141,
+        "high": 0.02609031704761242
+      },
+      "wrong_support_effect": {
+        "n": 48,
+        "mean": 0.03467559577771006,
+        "median": -5.470687540603809e-13,
+        "low": 0.00276116708052829,
+        "high": 0.0756279022444533
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "all",
+      "route": "block_both",
+      "history": "wrong",
+      "accuracy_effect": {
+        "n": 48,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "margin_effect": {
+        "n": 48,
+        "mean": -0.2138672045318304,
+        "median": -0.10156247013014763,
+        "low": -0.4205851668178586,
+        "high": -0.03173834194715562
+      },
+      "source_support_effect": {
+        "n": 48,
+        "mean": -0.004866869261112515,
+        "median": 0.0,
+        "low": -0.01261638828543054,
+        "high": -0.00018383754004638045
+      },
+      "wrong_support_effect": {
+        "n": 48,
+        "mean": 0.004757476050541702,
+        "median": 3.0146135018621276e-13,
+        "low": 7.46429670022219e-05,
+        "high": 0.012452307259967092
+      }
+    },
+    {
+      "model": "4b",
+      "dataset": "all",
+      "route": "block_both",
+      "history": "mention",
+      "accuracy_effect": {
+        "n": 48,
+        "mean": -0.010416666666666666,
+        "median": 0.0,
+        "low": -0.03125,
+        "high": 0.0
+      },
+      "margin_effect": {
+        "n": 48,
+        "mean": -0.3024088339989919,
+        "median": -0.1484375298023224,
+        "low": -0.5896932152445958,
+        "high": -0.04491370071602267
+      },
+      "source_support_effect": {
+        "n": 48,
+        "mean": -0.008140933980799337,
+        "median": 0.0,
+        "low": -0.02431378377185661,
+        "high": 0.0013684807561413314
+      },
+      "wrong_support_effect": {
+        "n": 48,
+        "mean": 0.005426583243701952,
+        "median": 6.822404545871272e-13,
+        "low": -0.00784338818360574,
+        "high": 0.022883173926273113
+      }
+    }
+  ],
+  "paired_path_contrasts": [
+    {
+      "model": "1.7b",
+      "dataset": "MedQA",
+      "history": "wrong",
+      "contrast": "block_to_facts_minus_full",
+      "n": 16,
+      "mean": 0.9531250096500332,
+      "median": 0.7031250676325271,
+      "low": -0.5290525095218784,
+      "high": 2.5010618515557232,
+      "p": 0.25409323834520686,
+      "p_holm": 0.5081864766904137
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedQA",
+      "history": "wrong",
+      "contrast": "block_to_decision_minus_full",
+      "n": 16,
+      "mean": 9.930175699820275,
+      "median": 8.492187455768544,
+      "low": 4.9032225338512125,
+      "high": 15.319360185115377,
+      "p": 0.002374703162104737,
+      "p_holm": 0.007124109486314211
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedQA",
+      "history": "wrong",
+      "contrast": "block_both_minus_full",
+      "n": 16,
+      "mean": 10.819824163202366,
+      "median": 11.500000226338075,
+      "low": 6.218432546004294,
+      "high": 15.765417425404454,
+      "p": 0.0011248593925759281,
+      "p_holm": 0.0044994375703037125
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedQA",
+      "history": "wrong",
+      "contrast": "factorial_interaction",
+      "n": 16,
+      "mean": -0.06347654626794186,
+      "median": 0.37499995356948546,
+      "low": -3.116711131741178,
+      "high": 2.4087158811777925,
+      "p": 0.9698787651543557,
+      "p_holm": 0.9698787651543557
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedQA",
+      "history": "mention",
+      "contrast": "block_to_facts_minus_full",
+      "n": 16,
+      "mean": 0.7929687742450611,
+      "median": 1.0273434519767477,
+      "low": -0.38089583865904747,
+      "high": 2.0708252982731055,
+      "p": 0.24084489438820147,
+      "p_holm": 0.48168978877640295
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedQA",
+      "history": "mention",
+      "contrast": "block_to_decision_minus_full",
+      "n": 16,
+      "mean": 8.438476625249018,
+      "median": 5.390625318974736,
+      "low": 4.877380500075563,
+      "high": 12.274645970208434,
+      "p": 0.0003749531308586427,
+      "p_holm": 0.0011248593925759281
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedQA",
+      "history": "mention",
+      "contrast": "block_both_minus_full",
+      "n": 16,
+      "mean": 8.814941392735914,
+      "median": 6.171875187675846,
+      "low": 5.665978972841221,
+      "high": 12.426769938666117,
+      "p": 0.00012498437695288088,
+      "p_holm": 0.0004999375078115235
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedQA",
+      "history": "mention",
+      "contrast": "factorial_interaction",
+      "n": 16,
+      "mean": -0.41650400675816446,
+      "median": 0.3242183064775812,
+      "low": -3.354187355223158,
+      "high": 1.6474728167815627,
+      "p": 0.8632670916135483,
+      "p_holm": 0.8632670916135483
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedMCQA",
+      "history": "wrong",
+      "contrast": "block_to_facts_minus_full",
+      "n": 16,
+      "mean": -1.2734376199843669,
+      "median": -0.05078149847622626,
+      "low": -3.913305857559462,
+      "high": 0.7310180297618092,
+      "p": 0.3572053493313336,
+      "p_holm": 0.3572053493313336
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedMCQA",
+      "history": "wrong",
+      "contrast": "block_to_decision_minus_full",
+      "n": 16,
+      "mean": 3.8066405476185743,
+      "median": 3.8554684385960343,
+      "low": -0.1211547911889404,
+      "high": 8.321325479429532,
+      "p": 0.08673915760529934,
+      "p_holm": 0.1994750656167979
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedMCQA",
+      "history": "wrong",
+      "contrast": "block_both_minus_full",
+      "n": 16,
+      "mean": 4.6474609490652,
+      "median": 4.453125177409078,
+      "low": 1.3334716856357423,
+      "high": 8.67272949558106,
+      "p": 0.013498312710911136,
+      "p_holm": 0.05399325084364454
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedMCQA",
+      "history": "wrong",
+      "contrast": "factorial_interaction",
+      "n": 16,
+      "mean": 2.1142580214309934,
+      "median": 1.9726560603586734,
+      "low": 0.1327758778283982,
+      "high": 4.211035517327599,
+      "p": 0.06649168853893263,
+      "p_holm": 0.1994750656167979
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedMCQA",
+      "history": "mention",
+      "contrast": "block_to_facts_minus_full",
+      "n": 16,
+      "mean": -1.019042910024413,
+      "median": -0.3437499279252858,
+      "low": -2.301367045149067,
+      "high": 0.17239995084414417,
+      "p": 0.13760779902512185,
+      "p_holm": 0.13760779902512185
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedMCQA",
+      "history": "mention",
+      "contrast": "block_to_decision_minus_full",
+      "n": 16,
+      "mean": 3.4970702801119153,
+      "median": 3.8671876663569833,
+      "low": 0.714770564438788,
+      "high": 6.138269009882514,
+      "p": 0.0307461567304087,
+      "p_holm": 0.0614923134608174
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedMCQA",
+      "history": "mention",
+      "contrast": "block_both_minus_full",
+      "n": 16,
+      "mean": 4.2846681876300785,
+      "median": 4.1289065800081985,
+      "low": 1.9647585459071522,
+      "high": 6.601220983792669,
+      "p": 0.0029996250468691415,
+      "p_holm": 0.011998500187476566
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MedMCQA",
+      "history": "mention",
+      "contrast": "factorial_interaction",
+      "n": 16,
+      "mean": 1.8066408175425763,
+      "median": 1.9453127237884473,
+      "low": 0.5120853358616517,
+      "high": 3.1549074563453017,
+      "p": 0.01812273465816773,
+      "p_holm": 0.05436820397450319
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MMLU",
+      "history": "wrong",
+      "contrast": "block_to_facts_minus_full",
+      "n": 16,
+      "mean": -0.9770507294271891,
+      "median": -0.6523437772673333,
+      "low": -2.736596538550092,
+      "high": 0.7109620219302693,
+      "p": 0.29308836395450566,
+      "p_holm": 0.5861767279090113
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MMLU",
+      "history": "wrong",
+      "contrast": "block_to_decision_minus_full",
+      "n": 16,
+      "mean": 5.664550815183217,
+      "median": 2.699219053175483,
+      "low": 2.382678234862278,
+      "high": 9.437109379402788,
+      "p": 0.002374703162104737,
+      "p_holm": 0.009498812648418948
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MMLU",
+      "history": "wrong",
+      "contrast": "block_both_minus_full",
+      "n": 16,
+      "mean": 5.241210813210808,
+      "median": 3.3164061183779268,
+      "low": 1.500512484956337,
+      "high": 9.80319816531025,
+      "p": 0.010748656417947757,
+      "p_holm": 0.03224596925384327
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MMLU",
+      "history": "wrong",
+      "contrast": "factorial_interaction",
+      "n": 16,
+      "mean": 0.5537107274547797,
+      "median": 0.8281249354806732,
+      "low": -1.212561367659108,
+      "high": 2.202160551015938,
+      "p": 0.5388076490438695,
+      "p_holm": 0.5861767279090113
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MMLU",
+      "history": "mention",
+      "contrast": "block_to_facts_minus_full",
+      "n": 16,
+      "mean": -0.11767591885341133,
+      "median": -0.1406257149936181,
+      "low": -1.4829225284209875,
+      "high": 1.1270994029002637,
+      "p": 0.8666416697912761,
+      "p_holm": 1.0
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MMLU",
+      "history": "mention",
+      "contrast": "block_to_decision_minus_full",
+      "n": 16,
+      "mean": 3.226562579823362,
+      "median": 3.4843747760625945,
+      "low": 0.4619507172467942,
+      "high": 6.269165200592066,
+      "p": 0.0424946881639795,
+      "p_holm": 0.169978752655918
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MMLU",
+      "history": "mention",
+      "contrast": "block_both_minus_full",
+      "n": 16,
+      "mean": 2.4726561382086025,
+      "median": 1.820312340540113,
+      "low": -0.4128053342373218,
+      "high": 6.152465497044176,
+      "p": 0.16960379952505936,
+      "p_holm": 0.5088113985751781
+    },
+    {
+      "model": "1.7b",
+      "dataset": "MMLU",
+      "history": "mention",
+      "contrast": "factorial_interaction",
+      "n": 16,
+      "mean": -0.6362305227613483,
+      "median": 0.031249463791027665,
+      "low": -2.4306641977374186,
+      "high": 0.8637939063933349,
+      "p": 0.5684289463817023,
+      "p_holm": 1.0
+    },
+    {
+      "model": "1.7b",
+      "dataset": "all",
+      "history": "wrong",
+      "contrast": "block_to_facts_minus_full",
+      "n": 48,
+      "mean": -0.43245444658717425,
+      "median": 0.015624416584614664,
+      "low": -1.5957274937273316,
+      "high": 0.6776245058349023,
+      "p": 0.46156730408698915,
+      "p_holm": 0.46156730408698915
+    },
+    {
+      "model": "1.7b",
+      "dataset": "all",
+      "history": "wrong",
+      "contrast": "block_to_decision_minus_full",
+      "n": 48,
+      "mean": 6.467122354207355,
+      "median": 4.550780700177711,
+      "low": 3.9990113088897763,
+      "high": 9.050085324310725,
+      "p": 0.00012498437695288088,
+      "p_holm": 0.0004999375078115235
+    },
+    {
+      "model": "1.7b",
+      "dataset": "all",
+      "history": "wrong",
+      "contrast": "block_both_minus_full",
+      "n": 48,
+      "mean": 6.902831975159458,
+      "median": 4.667968688990754,
+      "low": 4.5283814118521954,
+      "high": 9.57946360399479,
+      "p": 0.00012498437695288088,
+      "p_holm": 0.0004999375078115235
+    },
+    {
+      "model": "1.7b",
+      "dataset": "all",
+      "history": "wrong",
+      "contrast": "factorial_interaction",
+      "n": 48,
+      "mean": 0.868164067539277,
+      "median": 0.9648432124000177,
+      "low": -0.4547811649105149,
+      "high": 2.1258993877137637,
+      "p": 0.19935008123984502,
+      "p_holm": 0.39870016247969003
+    },
+    {
+      "model": "1.7b",
+      "dataset": "all",
+      "history": "mention",
+      "contrast": "block_to_facts_minus_full",
+      "n": 48,
+      "mean": -0.1145833515442544,
+      "median": 0.09765624820191654,
+      "low": -0.860685262387089,
+      "high": 0.6161091520607531,
+      "p": 0.758655168103987,
+      "p_holm": 1.0
+    },
+    {
+      "model": "1.7b",
+      "dataset": "all",
+      "history": "mention",
+      "contrast": "block_to_decision_minus_full",
+      "n": 48,
+      "mean": 5.054036495061432,
+      "median": 3.992187350834044,
+      "low": 3.244283131061377,
+      "high": 7.007519576997079,
+      "p": 0.00012498437695288088,
+      "p_holm": 0.0004999375078115235
+    },
+    {
+      "model": "1.7b",
+      "dataset": "all",
+      "history": "mention",
+      "contrast": "block_both_minus_full",
+      "n": 48,
+      "mean": 5.190755239524865,
+      "median": 4.30078073761824,
+      "low": 3.4098022033943067,
+      "high": 7.197400037313405,
+      "p": 0.00012498437695288088,
+      "p_holm": 0.0004999375078115235
+    },
+    {
+      "model": "1.7b",
+      "dataset": "all",
+      "history": "mention",
+      "contrast": "factorial_interaction",
+      "n": 48,
+      "mean": 0.2513020960076879,
+      "median": 0.48437557760990835,
+      "low": -0.9408203923652088,
+      "high": 1.3151735349029685,
+      "p": 0.6950381202349706,
+      "p_holm": 1.0
+    },
+    {
+      "model": "4b",
+      "dataset": "MedQA",
+      "history": "wrong",
+      "contrast": "block_to_facts_minus_full",
+      "n": 16,
+      "mean": 0.8696288478293264,
+      "median": -0.2109374999996021,
+      "low": -2.4878052424034998,
+      "high": 4.364538390155897,
+      "p": 0.6407949006374203,
+      "p_holm": 0.9088863892013498
+    },
+    {
+      "model": "4b",
+      "dataset": "MedQA",
+      "history": "wrong",
+      "contrast": "block_to_decision_minus_full",
+      "n": 16,
+      "mean": 6.484374983310668,
+      "median": 4.109375424662147,
+      "low": 3.590783813227129,
+      "high": 10.002478126227592,
+      "p": 0.00012498437695288088,
+      "p_holm": 0.0004999375078115235
+    },
+    {
+      "model": "4b",
+      "dataset": "MedQA",
+      "history": "wrong",
+      "contrast": "block_both_minus_full",
+      "n": 16,
+      "mean": 8.43749994191175,
+      "median": 4.921874672174418,
+      "low": 4.522802747913984,
+      "high": 12.984008665347083,
+      "p": 0.0003749531308586427,
+      "p_holm": 0.0011248593925759281
+    },
+    {
+      "model": "4b",
+      "dataset": "MedQA",
+      "history": "wrong",
+      "contrast": "factorial_interaction",
+      "n": 16,
+      "mean": 1.0834961107717558,
+      "median": -0.007812500000397904,
+      "low": -1.6063478381509135,
+      "high": 3.5201172392811375,
+      "p": 0.4544431946006749,
+      "p_holm": 0.9088863892013498
+    },
+    {
+      "model": "4b",
+      "dataset": "MedQA",
+      "history": "mention",
+      "contrast": "block_to_facts_minus_full",
+      "n": 16,
+      "mean": 0.5708007107862092,
+      "median": 0.2968749012798071,
+      "low": -1.7062009959319575,
+      "high": 2.6304808649130456,
+      "p": 0.623297087864017,
+      "p_holm": 1.0
+    },
+    {
+      "model": "4b",
+      "dataset": "MedQA",
+      "history": "mention",
+      "contrast": "block_to_decision_minus_full",
+      "n": 16,
+      "mean": 2.5087891391905375,
+      "median": 2.515624902448735,
+      "low": 0.7724121993974994,
+      "high": 4.28242210423934,
+      "p": 0.015873015873015872,
+      "p_holm": 0.047619047619047616
+    },
+    {
+      "model": "4b",
+      "dataset": "MedQA",
+      "history": "mention",
+      "contrast": "block_both_minus_full",
+      "n": 16,
+      "mean": 3.395996111910308,
+      "median": 2.4414062499998277,
+      "low": 1.5429077998233274,
+      "high": 5.534545841124474,
+      "p": 0.002374703162104737,
+      "p_holm": 0.009498812648418948
+    },
+    {
+      "model": "4b",
+      "dataset": "MedQA",
+      "history": "mention",
+      "contrast": "factorial_interaction",
+      "n": 16,
+      "mean": 0.31640626193356125,
+      "median": 0.3945312499998046,
+      "low": -1.1841065510011224,
+      "high": 1.6856080138579987,
+      "p": 0.6869141357330334,
+      "p_holm": 1.0
+    },
+    {
+      "model": "4b",
+      "dataset": "MedMCQA",
+      "history": "wrong",
+      "contrast": "block_to_facts_minus_full",
+      "n": 16,
+      "mean": 2.3149413988277576,
+      "median": 0.11328154777709187,
+      "low": -1.986645430744709,
+      "high": 7.419189356589661,
+      "p": 0.41394825646794153,
+      "p_holm": 0.8278965129358831
+    },
+    {
+      "model": "4b",
+      "dataset": "MedMCQA",
+      "history": "wrong",
+      "contrast": "block_to_decision_minus_full",
+      "n": 16,
+      "mean": 11.258789098413779,
+      "median": 5.515625010324582,
+      "low": 4.278076171128586,
+      "high": 18.488000527167088,
+      "p": 0.0073740782402199724,
+      "p_holm": 0.022122234720659918
+    },
+    {
+      "model": "4b",
+      "dataset": "MedMCQA",
+      "history": "wrong",
+      "contrast": "block_both_minus_full",
+      "n": 16,
+      "mean": 11.833984406342662,
+      "median": 6.44140626637194,
+      "low": 5.184912172981812,
+      "high": 18.980749504227777,
+      "p": 0.0036245469316335457,
+      "p_holm": 0.014498187726534183
+    },
+    {
+      "model": "4b",
+      "dataset": "MedMCQA",
+      "history": "wrong",
+      "contrast": "factorial_interaction",
+      "n": 16,
+      "mean": -1.739746090898874,
+      "median": -0.9218750298023171,
+      "low": -6.657751411743469,
+      "high": 2.3837893125389287,
+      "p": 0.5586801649793776,
+      "p_holm": 0.8278965129358831
+    },
+    {
+      "model": "4b",
+      "dataset": "MedMCQA",
+      "history": "mention",
+      "contrast": "block_to_facts_minus_full",
+      "n": 16,
+      "mean": 1.131836014690253,
+      "median": 0.4882809893175022,
+      "low": -0.5269776039066184,
+      "high": 2.919458185431294,
+      "p": 0.23334583177102863,
+      "p_holm": 0.43969503812023497
+    },
+    {
+      "model": "4b",
+      "dataset": "MedMCQA",
+      "history": "mention",
+      "contrast": "block_to_decision_minus_full",
+      "n": 16,
+      "mean": 6.400878911168124,
+      "median": 4.750000238417556,
+      "low": 1.63613263605869,
+      "high": 11.728051892416739,
+      "p": 0.016497937757780277,
+      "p_holm": 0.049493813273340834
+    },
+    {
+      "model": "4b",
+      "dataset": "MedMCQA",
+      "history": "mention",
+      "contrast": "block_both_minus_full",
+      "n": 16,
+      "mean": 6.4624024348124465,
+      "median": 3.324218988417556,
+      "low": 2.0399903184308243,
+      "high": 11.583142184564663,
+      "p": 0.006874140732408449,
+      "p_holm": 0.027496562929633796
+    },
+    {
+      "model": "4b",
+      "dataset": "MedMCQA",
+      "history": "mention",
+      "contrast": "factorial_interaction",
+      "n": 16,
+      "mean": -1.07031249104593,
+      "median": -1.5664059893175022,
+      "low": -2.544445905048168,
+      "high": 0.5888919295040043,
+      "p": 0.21984751906011749,
+      "p_holm": 0.43969503812023497
+    },
+    {
+      "model": "4b",
+      "dataset": "MMLU",
+      "history": "wrong",
+      "contrast": "block_to_facts_minus_full",
+      "n": 16,
+      "mean": -0.2421875602201693,
+      "median": -0.5273435525596142,
+      "low": -3.859436155568467,
+      "high": 3.6428589699861753,
+      "p": 0.9075115610548682,
+      "p_holm": 0.9075115610548682
+    },
+    {
+      "model": "4b",
+      "dataset": "MMLU",
+      "history": "wrong",
+      "contrast": "block_to_decision_minus_full",
+      "n": 16,
+      "mean": 13.949707059671638,
+      "median": 9.675781063080905,
+      "low": 8.896716191109242,
+      "high": 19.2066894311627,
+      "p": 0.00012498437695288088,
+      "p_holm": 0.0004999375078115235
+    },
+    {
+      "model": "4b",
+      "dataset": "MMLU",
+      "history": "wrong",
+      "contrast": "block_both_minus_full",
+      "n": 16,
+      "mean": 12.075195166405678,
+      "median": 7.449218488754276,
+      "low": 6.996508601946577,
+      "high": 17.6989255805212,
+      "p": 0.00012498437695288088,
+      "p_holm": 0.0004999375078115235
+    },
+    {
+      "model": "4b",
+      "dataset": "MMLU",
+      "history": "wrong",
+      "contrast": "factorial_interaction",
+      "n": 16,
+      "mean": -1.6323243330457915,
+      "median": -0.5976563895429674,
+      "low": -5.023938166352959,
+      "high": 1.3252926917634975,
+      "p": 0.35670541182352206,
+      "p_holm": 0.7134108236470441
+    },
+    {
+      "model": "4b",
+      "dataset": "MMLU",
+      "history": "mention",
+      "contrast": "block_to_facts_minus_full",
+      "n": 16,
+      "mean": 0.3002929658897271,
+      "median": -0.30078151465227165,
+      "low": -3.041149911603318,
+      "high": 3.1998169783864348,
+      "p": 0.8755155605549306,
+      "p_holm": 0.8755155605549306
+    },
+    {
+      "model": "4b",
+      "dataset": "MMLU",
+      "history": "mention",
+      "contrast": "block_to_decision_minus_full",
+      "n": 16,
+      "mean": 6.957519640493707,
+      "median": 4.7695313393906815,
+      "low": 3.0213625178908643,
+      "high": 10.886731095772635,
+      "p": 0.004624421947256593,
+      "p_holm": 0.01849768778902637
+    },
+    {
+      "model": "4b",
+      "dataset": "MMLU",
+      "history": "mention",
+      "contrast": "block_both_minus_full",
+      "n": 16,
+      "mean": 5.377441445671456,
+      "median": 4.546874940384441,
+      "low": 0.3273926351955022,
+      "high": 10.46926284107711,
+      "p": 0.06036745406824147,
+      "p_holm": 0.18110236220472442
+    },
+    {
+      "model": "4b",
+      "dataset": "MMLU",
+      "history": "mention",
+      "contrast": "factorial_interaction",
+      "n": 16,
+      "mean": -1.880371160711978,
+      "median": -0.23437432096743294,
+      "low": -3.7763795602430927,
+      "high": -0.08931887323485097,
+      "p": 0.06986626671666042,
+      "p_holm": 0.18110236220472442
+    },
+    {
+      "model": "4b",
+      "dataset": "all",
+      "history": "wrong",
+      "contrast": "block_to_facts_minus_full",
+      "n": 48,
+      "mean": 0.9807942288123049,
+      "median": -0.23828095222290813,
+      "low": -1.2456055015641243,
+      "high": 3.439803115905284,
+      "p": 0.4314460692413448,
+      "p_holm": 0.8628921384826896
+    },
+    {
+      "model": "4b",
+      "dataset": "all",
+      "history": "wrong",
+      "contrast": "block_to_decision_minus_full",
+      "n": 48,
+      "mean": 10.564290380465362,
+      "median": 5.550781260324582,
+      "low": 7.497192440881324,
+      "high": 13.891980043727356,
+      "p": 0.00012498437695288088,
+      "p_holm": 0.0004999375078115235
+    },
+    {
+      "model": "4b",
+      "dataset": "all",
+      "history": "wrong",
+      "contrast": "block_both_minus_full",
+      "n": 48,
+      "mean": 10.7822265048867,
+      "median": 6.191406369600372,
+      "low": 7.760038204807461,
+      "high": 14.064062454079062,
+      "p": 0.00012498437695288088,
+      "p_holm": 0.0004999375078115235
+    },
+    {
+      "model": "4b",
+      "dataset": "all",
+      "history": "wrong",
+      "contrast": "factorial_interaction",
+      "n": 48,
+      "mean": -0.7628581043909698,
+      "median": -0.43750012002539584,
+      "low": -2.934456369299521,
+      "high": 1.1267456078276767,
+      "p": 0.4886889138857643,
+      "p_holm": 0.8628921384826896
+    },
+    {
+      "model": "4b",
+      "dataset": "all",
+      "history": "mention",
+      "contrast": "block_to_facts_minus_full",
+      "n": 48,
+      "mean": 0.6676432304553964,
+      "median": 0.22265600529972573,
+      "low": -0.7905435204309742,
+      "high": 2.0755248723810995,
+      "p": 0.3688288963879515,
+      "p_holm": 0.3688288963879515
+    },
+    {
+      "model": "4b",
+      "dataset": "all",
+      "history": "mention",
+      "contrast": "block_to_decision_minus_full",
+      "n": 48,
+      "mean": 5.289062563617456,
+      "median": 3.6601563096040763,
+      "low": 3.1288981725786837,
+      "high": 7.602624674280193,
+      "p": 0.00012498437695288088,
+      "p_holm": 0.0004999375078115235
+    },
+    {
+      "model": "4b",
+      "dataset": "all",
+      "history": "mention",
+      "contrast": "block_both_minus_full",
+      "n": 48,
+      "mean": 5.0786133307980705,
+      "median": 3.1289061383213266,
+      "low": 2.7855794816183295,
+      "high": 7.545422395943103,
+      "p": 0.00024996875390576176,
+      "p_holm": 0.0007499062617172853
+    },
+    {
+      "model": "4b",
+      "dataset": "all",
+      "history": "mention",
+      "contrast": "factorial_interaction",
+      "n": 48,
+      "mean": -0.8780924632747823,
+      "median": -0.5390628280037966,
+      "low": -1.8849732232235108,
+      "high": 0.05056973458346596,
+      "p": 0.08398950131233596,
+      "p_holm": 0.1679790026246719
+    }
+  ],
+  "native_forward_checks": 36,
+  "all_native_checks_passed": true,
+  "api_cost_usd": 0
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_076ee8e5-7a52-4b82-8cb1-287681759691",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniform disease\"}",
+      "generated_disease": "Chronic veniform disease",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "3a8f8d09fdfa4adc7bc9d7c1c612038071a8fedf5d523959e2fc04d96cd4683b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "ChilisaurusPlanetoidSexlinearityTrilaxophilousIsomarigusTrignomarisTrigonaloidTrigarcicoidularTrigarcicoidularIsomaragidiansTrigarcinaloidTrigarcinaloidEntroctumovematic",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "9de70c1d84e25994e2351b6a76b3483c43be51ec7bee4ed2519c3fbb2a278227"
+    }
+  ]
+}

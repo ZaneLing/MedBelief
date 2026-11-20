@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_09984",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Child abuse\"}",
+      "generated_disease": "Child abuse",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "fafdbc13781af7527ed26eb5c26659400337470b296b583612b800b8375de79d"
+    }
+  ]
+}

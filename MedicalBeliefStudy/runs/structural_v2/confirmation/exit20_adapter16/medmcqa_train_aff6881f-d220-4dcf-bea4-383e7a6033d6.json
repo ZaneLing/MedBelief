@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_aff6881f-d220-4dcf-bea4-383e7a6033d6",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chagenia syndrome or hypercephension\"}",
+      "generated_disease": "Chagenia syndrome or hypercephension",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "260e43fd9b6172e77fe50b43ce6888a50697a53dde90a6b69afd5e1602ad9f14"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Schizophrenia-related stress-induced stress-induced stress-induced emplasticity\"}",
+      "generated_disease": "Schizophrenia-related stress-induced stress-induced stress-induced emplasticity",
+      "stop": "eos",
+      "tokens": 15,
+      "prompt_sha256": "1d27742606f9807ea2ff47f6e67bf9a110e521b34b6e247d5c72caf212700aba"
+    }
+  ]
+}

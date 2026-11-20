@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_train_00892",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Schizophrenia\"}",
+      "generated_disease": "Schizophrenia",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "ad05af4b35e48af88b1cda1899bb2022263fa82145222f7069afe26987dfd0b7"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Schizophrenia\"}",
+      "generated_disease": "Schizophrenia",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "6206f45034e0558f82a788800e75f8607b2e03a64d6c5552bc449a5c7654edfd"
+    }
+  ]
+}

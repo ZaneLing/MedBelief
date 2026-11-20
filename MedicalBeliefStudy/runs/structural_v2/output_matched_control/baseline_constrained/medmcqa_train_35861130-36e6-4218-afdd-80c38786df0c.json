@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_35861130-36e6-4218-afdd-80c38786df0c",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Autoimmune hemolytic anemia\"}",
+      "generated_disease": "Autoimmune hemolytic anemia",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "5cceebcf3fdbc8409d4c17ecb41fe8dc2740b8508d3c82c587a3d94c3fb203f6"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Hemolytic uremic syndrome\"}",
+      "generated_disease": "Hemolytic uremic syndrome",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "5730615a642e0fc4b115c2487d48b629b79bb45c26525dcb2671df78021468bd"
+    }
+  ]
+}

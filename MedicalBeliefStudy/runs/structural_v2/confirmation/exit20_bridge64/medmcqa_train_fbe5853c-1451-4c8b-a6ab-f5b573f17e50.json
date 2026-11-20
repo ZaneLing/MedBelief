@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_fbe5853c-1451-4c8b-a6ab-f5b573f17e50",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cyst\"}",
+      "generated_disease": "Cyst",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "e6c85b2cda463b618396902bcb2acb9b91ee2cbade40c12326ea0ea637f92dc1"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cyst\"}",
+      "generated_disease": "Cyst",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "2dbe96e28109af041edd087a6578a425aaad44af0ff6754ed367ae985a369c05"
+    }
+  ]
+}

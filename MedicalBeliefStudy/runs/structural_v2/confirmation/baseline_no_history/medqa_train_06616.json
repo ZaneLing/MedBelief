@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_06616",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Testicular torsion\"}",
+      "generated_disease": "Testicular torsion",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "a9758f505139bf82a9777eb057e9bb294d820e80165800524dbeeca1db78035c"
+    }
+  ]
+}

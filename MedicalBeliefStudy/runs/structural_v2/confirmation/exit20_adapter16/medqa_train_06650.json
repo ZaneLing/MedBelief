@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_06650",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Generalizentalmonary disease\"} (Note: This error correction is an error error. actual correct answer is \"Essanystic disorder or other relevant phausia butchers are not allowed\"} Actual correct answer is \"Granariparic acidemia or other relevant phobos butler's are not allowed\"}",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "3cf3b9b14be4182e7160160b0d4c20c132b0abdf3745886e34a59f4c8fb33ba7"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Primary longening of course of disease in terms of time time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time.time",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "fdb44af093c8a532a766e974bd0eed799979e8645de6584e07b14c6004ce702a"
+    }
+  ]
+}

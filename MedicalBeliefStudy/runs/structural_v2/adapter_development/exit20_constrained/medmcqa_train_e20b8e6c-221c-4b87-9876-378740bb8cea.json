@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_e20b8e6c-221c-4b87-9876-378740bb8cea",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_constrained",
+    "exit_layer": 20,
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Dysgerminoma\"}",
+      "generated_disease": "Dysgerminoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "1128d30ea8b35c6024c65290a95bbf22b65cb1a9759cadb218c028668f9e920b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Dysgerminoma\"}",
+      "generated_disease": "Dysgerminoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "1c8d9205bfd7a5cdfb7c776a73ab52551447a1d6c682175ec71f54d417447553"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_3743f9b6-55d8-4570-9ae8-a6a6eff9ed5d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "mlp_width50",
+    "mlp_keep": 0.5
+  },
+  "parameter_stats": {
+    "parameters": 1192092672,
+    "weight_bytes": 2384185344,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Chronic otitis externa\"}",
+      "generated_disease": "Chronic otitis externa",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "fa86918aed94e522c2bbc02751323c3b723888370064f9e8cfc665a56200ff62"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Malignant disease of nasopharynx\"}",
+      "generated_disease": "Malignant disease of nasopharynx",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "29ab80769eda7fe6d829b2817718367b2faf76123e2c64977a94c4af39216689"
+    }
+  ]
+}

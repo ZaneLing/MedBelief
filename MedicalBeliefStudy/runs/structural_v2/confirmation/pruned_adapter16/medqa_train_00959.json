@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_00959",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Laryngomalacia\"}",
+      "generated_disease": "Laryngomalacia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "a048b8df91a6565a7e40ffe1b2e08d113b21a61e127f0ce27fb1160e1605305d"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Laryngomalacia\"}",
+      "generated_disease": "Laryngomalacia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "06ae0d1227e6c41a8b4ea596084dbf6e057186c85566d678f44f92c1e6609e12"
+    }
+  ]
+}

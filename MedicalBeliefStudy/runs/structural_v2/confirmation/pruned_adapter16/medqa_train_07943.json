@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_07943",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Chédiak-Higashi syndrome\"}",
+      "generated_disease": "Chédiak-Higashi syndrome",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "6dfba876c12409dd1577d4dad950bab5d1536cf73731af0f89be84b141f23140"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Chédiak-Higashi syndrome\"}",
+      "generated_disease": "Chédiak-Higashi syndrome",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "09de26bd32cb67bcda310c87a46ce967a0f9377e328abe0915fbc3679f58d1a3"
+    }
+  ]
+}

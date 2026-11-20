@@ -1,0 +1,52 @@
+{
+  "append": {
+    "cases": 24,
+    "native_accuracy49": {
+      "mean": 0.4583333333333333,
+      "low": 0.2916666666666667,
+      "high": 0.6666666666666666,
+      "cases": 24
+    },
+    "contrast_accuracy49": {
+      "mean": 0.5833333333333334,
+      "low": 0.375,
+      "high": 0.7916666666666666,
+      "cases": 24
+    },
+    "paired_accuracy_gain": {
+      "mean": 0.125,
+      "low": 0.0,
+      "high": 0.25,
+      "cases": 24
+    },
+    "native_copd_count": 2,
+    "contrast_copd_count": 0,
+    "newly_correct": 3,
+    "lost_correct": 0
+  },
+  "panel": {
+    "cases": 24,
+    "native_accuracy49": {
+      "mean": 0.125,
+      "low": 0.0,
+      "high": 0.25,
+      "cases": 24
+    },
+    "contrast_accuracy49": {
+      "mean": 0.20833333333333334,
+      "low": 0.041666666666666664,
+      "high": 0.375,
+      "cases": 24
+    },
+    "paired_accuracy_gain": {
+      "mean": 0.08333333333333333,
+      "low": 0.0,
+      "high": 0.20833333333333334,
+      "cases": 24
+    },
+    "native_copd_count": 17,
+    "contrast_copd_count": 0,
+    "newly_correct": 2,
+    "lost_correct": 0
+  }
+}

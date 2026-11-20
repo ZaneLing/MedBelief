@@ -1,0 +1,131 @@
+{
+  "independent_cases": 60,
+  "pilot_cases": 12,
+  "independent_primary_prefixes": 1278,
+  "case_weighted": {
+    "divergence_rate": {
+      "mean": 0.010499267888973771,
+      "low": 0.004255558473389355,
+      "high": 0.017751348834988537,
+      "cases": 60
+    },
+    "any_divergence": {
+      "mean": 0.15,
+      "low": 0.06666666666666667,
+      "high": 0.25,
+      "cases": 60
+    },
+    "robust_divergence_rate": {
+      "mean": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "cases": 60
+    },
+    "any_robust_divergence": {
+      "mean": 0.0,
+      "low": 0.0,
+      "high": 0.059629492286166874,
+      "cases": 60,
+      "method": "exact_binomial_boundary"
+    },
+    "harmful_rate": {
+      "mean": 0.0038230519480519486,
+      "low": 0.0007575757575757576,
+      "high": 0.007721861471861473,
+      "cases": 60
+    },
+    "corrective_rate": {
+      "mean": 0.0035389610389610386,
+      "low": 0.0,
+      "high": 0.008084415584415585,
+      "cases": 60
+    },
+    "l27_disagree_rate": {
+      "mean": 0.10815274737875358,
+      "low": 0.08365074155326671,
+      "high": 0.13306557767567828,
+      "cases": 60
+    },
+    "switch_rate": {
+      "mean": 0.19027426277426276,
+      "low": 0.1539180536812116,
+      "high": 0.22729650220028508,
+      "cases": 60
+    },
+    "regression_any": {
+      "mean": 0.43333333333333335,
+      "low": 0.3,
+      "high": 0.5666666666666667,
+      "cases": 60
+    },
+    "recovery_any": {
+      "mean": 0.6333333333333333,
+      "low": 0.5,
+      "high": 0.75,
+      "cases": 60
+    },
+    "stable_late_final_flip_any": {
+      "mean": 0.08333333333333333,
+      "low": 0.016666666666666666,
+      "high": 0.16666666666666666,
+      "cases": 60
+    },
+    "mapping_endpoint_changes": {
+      "mean": 0.5833333333333334,
+      "low": 0.45,
+      "high": 0.7,
+      "cases": 60
+    },
+    "final_mapping_mean_correct": {
+      "mean": 0.6166666666666667,
+      "low": 0.48333333333333334,
+      "high": 0.7333333333333333,
+      "cases": 60
+    },
+    "final_single_mapping_correct": {
+      "mean": 0.5666666666666667,
+      "low": 0.43333333333333335,
+      "high": 0.7,
+      "cases": 60
+    },
+    "mean_update_js": {
+      "mean": 0.0886511235405151,
+      "low": 0.0729034406019879,
+      "high": 0.10479540815887167,
+      "cases": 60
+    },
+    "wrong_high_support_rate": {
+      "mean": 0.3559863647847394,
+      "low": 0.2774019009885883,
+      "high": 0.4411157903020325,
+      "cases": 60
+    },
+    "brier_score": {
+      "mean": 0.9381096736916359,
+      "low": 0.7677612503003345,
+      "high": 1.1166532252940808,
+      "cases": 60
+    },
+    "wrong_support_increase_any": {
+      "mean": 0.5833333333333334,
+      "low": 0.45,
+      "high": 0.7,
+      "cases": 60
+    }
+  },
+  "new_case_counts": {
+    "any_divergence": 9,
+    "any_robust_divergence": 0,
+    "regression_any": 26,
+    "stable_late_final_flip_any": 5,
+    "mapping_endpoint_changes": 35,
+    "final_mapping_mean_correct": 37,
+    "final_single_mapping_correct": 34
+  },
+  "pilot_case_counts": {
+    "any_divergence": 3,
+    "any_robust_divergence": 0,
+    "regression_any": 5,
+    "stable_late_final_flip_any": 2
+  }
+}

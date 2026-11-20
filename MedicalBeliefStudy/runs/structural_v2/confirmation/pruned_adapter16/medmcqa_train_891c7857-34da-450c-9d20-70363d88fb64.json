@@ -1,0 +1,52 @@
+{
+  "case_id": "medmcqa_train_891c7857-34da-450c-9d20-70363d88fb64",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Cystitis\"}",
+      "generated_disease": "Cystitis",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "6e783a334d6b501547f27c4375872fb30bcfbe81500951ff3d166e3af2da9b16"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Acute pyelonephritis\"}",
+      "generated_disease": "Acute pyelonephritis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "1a73c65063fe51a0fec881d2d442180a4b78e9d1d34f9709f2a3eb37861a0ecd"
+    }
+  ]
+}

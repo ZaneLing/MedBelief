@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_00996",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Cutaneous larva migrans\"}",
+      "generated_disease": "Cutaneous larva migrans",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "77bfc5f9322f062be5da69219b24c8daede10ea185e71051ab81884119985d3f"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Cutaneous larva migrans\"}",
+      "generated_disease": "Cutaneous larva migrans",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "9e3866feaadac02f858653ada417e77e6bd40ca106cb4220d6d7be8d12838b48"
+    }
+  ]
+}

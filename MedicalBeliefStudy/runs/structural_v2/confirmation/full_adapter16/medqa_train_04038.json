@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_04038",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Bronchiolitis\"}",
+      "generated_disease": "Bronchiolitis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "8dba42cb871373ce88bef5862ac14c4f43a183b7b0f4146da9134ac6c7772490"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Bronchial asthma\"}",
+      "generated_disease": "Bronchial asthma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "cc12566a8134c5a603a1c37b0267ec379010456c43416412173223434da08be0"
+    }
+  ]
+}

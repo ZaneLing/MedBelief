@@ -1,0 +1,320 @@
+{
+  "case_id": "medqa_train_01997",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.046688079833984375,
+        -4.827976226806641,
+        -12.6248779296875,
+        -5.890769958496094
+      ],
+      "q_sequence": [
+        0.9888403137924535,
+        0.008291614553243612,
+        3.407906882630992e-06,
+        0.0028646637474201426
+      ],
+      "q_token_mean": [
+        0.4564080479294289,
+        0.2959872359495028,
+        0.07561610362060095,
+        0.17198861250046732
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Umbilical hernia\"}",
+      "generated_disease": "Umbilical hernia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "a5a8c6d0c64ba7adb2e8a0593d978cdcb8eb4ad1bf23e0931b06065c3a035339"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -3.232868194580078,
+        -6.139202117919922,
+        -0.045436859130859375,
+        -7.389411926269531
+      ],
+      "q_sequence": [
+        0.03953122906589276,
+        0.002161401914085976,
+        0.9576882469143079,
+        0.0006191221057135329
+      ],
+      "q_token_mean": [
+        0.26436113480344725,
+        0.2266292322699076,
+        0.39344199443744904,
+        0.11556763848919616
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Gastroschisis\"}",
+      "generated_disease": "Gastroschisis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "7fada9af26d07dcd21049d08254eb80c4c7129545745c378bf9bc83070e7dcd0"
+    },
+    {
+      "condition": "neutral",
+      "round": 3,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -10.1251220703125,
+        -9.875263214111328,
+        -0.0001983642578125,
+        -14.673419952392578
+      ],
+      "q_sequence": [
+        4.006467094330277e-05,
+        5.143679530536763e-05,
+        0.9999080744409429,
+        4.240928084050016e-07
+      ],
+      "q_token_mean": [
+        0.15879963793506355,
+        0.22941493938502505,
+        0.5629862414067927,
+        0.04879918127311868
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Gastroschisis\"}",
+      "generated_disease": "Gastroschisis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "d4685c2043c6626272983d5e1afc356ee4527ae99e59339997774bc033dca2a3"
+    },
+    {
+      "condition": "neutral",
+      "round": 4,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -6.221988677978516,
+        -6.72210693359375,
+        -0.0033397674560546875,
+        -12.145233154296875
+      ],
+      "q_sequence": [
+        0.0019855703478656134,
+        0.0012041668850808315,
+        0.9968049483835968,
+        5.314383456630952e-06
+      ],
+      "q_token_mean": [
+        0.2153136129402697,
+        0.25435821902059824,
+        0.46842083186709366,
+        0.06190733617203839
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Gastroschisis\"}",
+      "generated_disease": "Gastroschisis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "2f372e8995127135282988aa9fce0e98ad4e4b9b8a953b8d8ad9a98ca4c36ab5"
+    },
+    {
+      "condition": "neutral",
+      "round": 5,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -23.312612533569336,
+        -16.156341552734375,
+        -7.2479248046875e-05,
+        -21.12665557861328
+      ],
+      "q_sequence": [
+        7.507450080847229e-11,
+        9.625459058905718e-08,
+        0.999999903002235,
+        6.681000378372516e-10
+      ],
+      "q_token_mean": [
+        0.041288598966421744,
+        0.175195878116909,
+        0.7610146588515048,
+        0.022500864065164473
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Gastroschisis\"}",
+      "generated_disease": "Gastroschisis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ca4faae94ebab3d25dc335db820ec50d4fcbb82a0de911a680b7ced7a6279f9f"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -5.224819183349609,
+        -0.0060577392578125,
+        -15.631092071533203,
+        -9.881214141845703
+      ],
+      "q_sequence": [
+        0.0053846003161096305,
+        0.9945640796335623,
+        1.62842057055589e-07,
+        5.115720827100951e-05
+      ],
+      "q_token_mean": [
+        0.28599143922434855,
+        0.5492279539181764,
+        0.058912372170767564,
+        0.10586823468670745
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Vesicourachal diverticulum\"}",
+      "generated_disease": "Vesicourachal diverticulum",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "1b70f502b1588d62e5ad113f38ca6257d4eae5a7b82d60df196550eef1547095"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -4.961772918701172,
+        -0.0243072509765625,
+        -8.461784362792969,
+        -7.71185302734375
+      ],
+      "q_sequence": [
+        0.007116901114887979,
+        0.992213257731559,
+        0.0002149093322887985,
+        0.0004549318212639766
+      ],
+      "q_token_mean": [
+        0.25480525438663937,
+        0.4727238587385591,
+        0.14144271899846372,
+        0.13102816787633786
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Vesicourachal diverticulum\"}",
+      "generated_disease": "Vesicourachal diverticulum",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "8017e9529c30c385fa11a8619f114d980f168eefcdfb0b9e719f90d0e2f4b32e"
+    },
+    {
+      "condition": "wrong",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -11.063346862792969,
+        -0.000926971435546875,
+        -7.125896453857422,
+        -17.282550811767578
+      ],
+      "q_sequence": [
+        1.5678189193680075e-05,
+        0.9991801927752739,
+        0.0008040978229326356,
+        3.12125998039401e-08
+      ],
+      "q_token_mean": [
+        0.15036943424853322,
+        0.599400056324024,
+        0.2165947966199658,
+        0.03363571280747705
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Vesicourachal diverticulum\"}",
+      "generated_disease": "Vesicourachal diverticulum",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "a8ecfca33346d88b028d3aa021b75e89557192ba9f8b790207847a687981b45f"
+    },
+    {
+      "condition": "wrong",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -10.126041412353516,
+        -0.001216888427734375,
+        -6.9386138916015625,
+        -17.485733032226562
+      ],
+      "q_sequence": [
+        4.003186065873864e-05,
+        0.9989901297555303,
+        0.0009698129077478171,
+        2.5476063183907863e-08
+      ],
+      "q_token_mean": [
+        0.16519058223628827,
+        0.5856629195900147,
+        0.217375108499192,
+        0.031771389674505095
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Vesicourachal diverticulum\"}",
+      "generated_disease": "Vesicourachal diverticulum",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "7d4b9214672ef20737af8c640ff0cc59a8e34b20b2630d53492f89d22209a2e4"
+    },
+    {
+      "condition": "wrong",
+      "round": 5,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.703153610229492,
+        -13.469654083251953,
+        -4.57763671875e-05,
+        -20.17211151123047
+      ],
+      "q_sequence": [
+        3.753698725583835e-10,
+        1.413262463693369e-06,
+        0.9999985846268347,
+        1.7353318909330204e-09
+      ],
+      "q_token_mean": [
+        0.04756207529273668,
+        0.21069590804050506,
+        0.7168906854251313,
+        0.024851331241626952
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Gastroschisis\"}",
+      "generated_disease": "Gastroschisis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "825aba177a87fc550abc1a2bdd515c30da940235f0274e9fa7f4f18b84ed4d56"
+    }
+  ],
+  "state_sha256": "62b239914e09afad9ca839b8f03f3e8b9f67424b0a7d55d41e0c36641576e1c4"
+}

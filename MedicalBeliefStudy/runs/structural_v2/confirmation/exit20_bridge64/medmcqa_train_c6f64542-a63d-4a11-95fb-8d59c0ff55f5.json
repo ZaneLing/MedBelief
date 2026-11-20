@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_c6f64542-a63d-4a11-95fb-8d59c0ff55f5",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Bervh\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "50414e7d13e5268181446a0dce20756cb72826de0b04d35b3ce3af25e36283f7"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocitis\"}",
+      "generated_disease": "Cystocitis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "7784e444d7d8b02c11c694148e8a4bd9ab4fc32662183fa62efda6d92d0a3805"
+    }
+  ]
+}

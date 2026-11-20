@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_a6fa1fb3-522a-403d-a4be-dd03a6398204",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Acute viral hepatitis\"}",
+      "generated_disease": "Acute viral hepatitis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "9e2f6b6136269ded057a700512b4e3b60ef625dbbc373d95641b8a710cf584e4"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Acute cholangitis\"}",
+      "generated_disease": "Acute cholangitis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "295909ff4d81243799002a8494161059c02e3033df0a1fe5b45cd46c9233fd78"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_03600",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Intermetatarsal plantar nerve neuroma\"}",
+      "generated_disease": "Intermetatarsal plantar nerve neuroma",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "f6cd084463de23d134b672f04625de3cbe4d13290bf45f287bb808f4bd437da4"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Compression of the tibial nerve\"}",
+      "generated_disease": "Compression of the tibial nerve",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "2c05cddfe92907e152c9b2651d65e6e223f490f2be40d42b4fcdb56b952f5af6"
+    }
+  ]
+}

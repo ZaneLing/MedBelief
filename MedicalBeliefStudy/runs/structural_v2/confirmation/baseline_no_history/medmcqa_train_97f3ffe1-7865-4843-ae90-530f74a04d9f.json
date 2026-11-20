@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_97f3ffe1-7865-4843-ae90-530f74a04d9f",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Grief\"}",
+      "generated_disease": "Grief",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "1c23bb924d02d37473a0db905f8a08db89cad8fbbe045de0de6e13808a42f878"
+    }
+  ]
+}

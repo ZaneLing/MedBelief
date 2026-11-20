@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_06371",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cystic fluid-filled structures in an large-scale multacyclic polysemia of an unilinearity of an uniquitous abacyclic polyiformic subdivsententary subdivsensentecular subdivemary subdivemenservicentric subdivemensenservicular",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "09090f0c5d0dc93b483d0fbcab10eae8834a0e7608193071c493a8243f1bbbe9"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniform disease\"}",
+      "generated_disease": "Chronic veniform disease",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "01df3dd54acd9bdaec08f1f417878f4946be7a9081cdb86abf42604ad8f09a82"
+    }
+  ]
+}

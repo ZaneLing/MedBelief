@@ -1,0 +1,204 @@
+{
+  "model": "Qwen3-4B-8bit",
+  "layers": 36,
+  "train_cases": 120,
+  "test_cases": 120,
+  "native49": {
+    "mean": 0.625,
+    "low": 0.5333333333333333,
+    "high": 0.7085416666666655,
+    "cases": 120
+  },
+  "native24": {
+    "mean": 0.6833333333333333,
+    "low": 0.6,
+    "high": 0.7666666666666667,
+    "cases": 120
+  },
+  "layers_accuracy": {
+    "9": {
+      "mean": 0.5,
+      "low": 0.4083333333333333,
+      "high": 0.5916666666666667,
+      "cases": 120
+    },
+    "18": {
+      "mean": 0.7416666666666667,
+      "low": 0.6666666666666666,
+      "high": 0.8166666666666667,
+      "cases": 120
+    },
+    "27": {
+      "mean": 0.8833333333333333,
+      "low": 0.825,
+      "high": 0.9416666666666667,
+      "cases": 120
+    },
+    "36": {
+      "mean": 0.9166666666666666,
+      "low": 0.8666666666666667,
+      "high": 0.9666666666666667,
+      "cases": 120
+    }
+  },
+  "layer_accuracy": [
+    0.25833333333333336,
+    0.2833333333333333,
+    0.3333333333333333,
+    0.31666666666666665,
+    0.325,
+    0.3333333333333333,
+    0.4083333333333333,
+    0.43333333333333335,
+    0.5,
+    0.4583333333333333,
+    0.475,
+    0.44166666666666665,
+    0.525,
+    0.7,
+    0.6416666666666667,
+    0.625,
+    0.7166666666666667,
+    0.7416666666666667,
+    0.7916666666666666,
+    0.8,
+    0.875,
+    0.875,
+    0.8916666666666667,
+    0.9,
+    0.875,
+    0.8833333333333333,
+    0.8833333333333333,
+    0.9166666666666666,
+    0.9083333333333333,
+    0.9166666666666666,
+    0.9,
+    0.9166666666666666,
+    0.9166666666666666,
+    0.9,
+    0.9,
+    0.9166666666666666
+  ],
+  "probe36_minus_native24": {
+    "mean": 0.23333333333333334,
+    "low": 0.14166666666666666,
+    "high": 0.325,
+    "cases": 120
+  },
+  "alpha_sensitivity_final": {
+    "0.01": 0.925,
+    "0.1": 0.9166666666666666,
+    "1.0": 0.8916666666666667
+  },
+  "deep": {
+    "cases": 24,
+    "updates": 184,
+    "switch_events": 55,
+    "big_events": 53,
+    "any_switch": {
+      "mean": 0.9166666666666666,
+      "low": 0.7916666666666666,
+      "high": 1.0,
+      "cases": 24
+    },
+    "any_big": {
+      "mean": 0.875,
+      "low": 0.75,
+      "high": 1.0,
+      "cases": 24
+    },
+    "label_regression": {
+      "mean": 0.375,
+      "low": 0.20833333333333334,
+      "high": 0.5833333333333334,
+      "cases": 24
+    },
+    "native24_prefix_accuracy": {
+      "mean": 0.5761726699226699,
+      "low": 0.4401921805046805,
+      "high": 0.7053856646825395,
+      "cases": 24
+    },
+    "probe27_prefix_accuracy": {
+      "mean": 0.8097247081622081,
+      "low": 0.7048598898208273,
+      "high": 0.8904180816290191,
+      "cases": 24
+    },
+    "probe36_prefix_accuracy": {
+      "mean": 0.726573253135753,
+      "low": 0.6058062640484516,
+      "high": 0.824065168049543,
+      "cases": 24
+    },
+    "probe27_stable_when_native24_switches": {
+      "mean": 0.5698412698412698,
+      "low": 0.38095238095238093,
+      "high": 0.7524007936507935,
+      "cases": 21
+    },
+    "probe36_stable_when_native24_switches": {
+      "mean": 0.5142857142857142,
+      "low": 0.33962301587301585,
+      "high": 0.6936507936507936,
+      "cases": 21
+    }
+  },
+  "comparison_scope": "different parameter counts and precision; not isolated causal model-size effect",
+  "api_cost_usd": 0,
+  "measurement_checks": {
+    "greedy_accuracy": {
+      "mean": 0.625,
+      "low": 0.5333333333333333,
+      "high": 0.7085416666666655,
+      "cases": 120
+    },
+    "greedy_canonical_count": 117,
+    "canonical_mass_median": 0.9999430909857681,
+    "canonical_mass_below_point1": 0,
+    "sequence_tokenmean_top_agreement": 0.9916666666666667
+  },
+  "paired_4b_minus_1p7b_native49": {
+    "mean": 0.25833333333333336,
+    "low": 0.15833333333333333,
+    "high": 0.35833333333333334,
+    "cases": 120
+  },
+  "paired_4b_minus_1p7b_probe_final": {
+    "mean": 0.08333333333333333,
+    "low": 0.016666666666666666,
+    "high": 0.14166666666666666,
+    "cases": 120
+  },
+  "fixed_panel_followup": {
+    "cases": 24,
+    "panel_accuracy49": {
+      "mean": 0.16666666666666666,
+      "low": 0.041666666666666664,
+      "high": 0.3333333333333333,
+      "cases": 24
+    },
+    "append_accuracy49_same_cases": {
+      "mean": 0.6666666666666666,
+      "low": 0.4989583333333334,
+      "high": 0.8333333333333334,
+      "cases": 24
+    },
+    "panel_minus_append": {
+      "mean": -0.5,
+      "low": -0.7083333333333334,
+      "high": -0.2916666666666667,
+      "cases": 24
+    },
+    "panel_predictions": {
+      "Acute COPD exacerbation / infection": 4,
+      "Acute laryngitis": 1,
+      "Acute pulmonary edema": 1,
+      "Acute rhinosinusitis": 4,
+      "Anemia": 1,
+      "Bronchitis": 2,
+      "Pulmonary embolism": 10,
+      "Spontaneous pneumothorax": 1
+    }
+  }
+}

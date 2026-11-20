@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_c6f64542-a63d-4a11-95fb-8d59c0ff55f5",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Fregoli syndrome\"}",
+      "generated_disease": "Fregoli syndrome",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "d83942b0a7d36560c6321ea39da081965ea39e1bf9afc6a84f79c83cf9be45aa"
+    }
+  ]
+}

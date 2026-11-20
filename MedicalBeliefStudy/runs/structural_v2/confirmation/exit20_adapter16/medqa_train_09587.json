@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_09587",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Oemphilaxenysturacovemphilenemphodemphilenservicentericenterbemphuracaprotemphilenservutarmsolensigroupingslipperthilensigroupingslipbchellschellschellschells",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "f12a6114246f6ec142543fbda880e96b38d087c3565ffc57f3ff228778b411ad"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Oemphilaxenysturicentericidalysturicentalysturinemaustaricotarisheuricuteuracavezentecemphilisheilingsenemrezemphilenservicovemphilensesparacovemph",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "58a825b6063debafaf74266fb441b5d0a603b778a850b1b8b84819894bdb3c16"
+    }
+  ]
+}

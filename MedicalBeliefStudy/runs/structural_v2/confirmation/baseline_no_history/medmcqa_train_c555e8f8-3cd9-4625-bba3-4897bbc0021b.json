@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_c555e8f8-3cd9-4625-bba3-4897bbc0021b",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Congenital adrenal hyperplasia(CAH)\"}",
+      "generated_disease": "Congenital adrenal hyperplasia(CAH)",
+      "stop": "eos",
+      "tokens": 11,
+      "prompt_sha256": "d74fd37e8c6e899cf21fe3952a148f6334c730aedfb9db00e93e9591beeda62c"
+    }
+  ]
+}

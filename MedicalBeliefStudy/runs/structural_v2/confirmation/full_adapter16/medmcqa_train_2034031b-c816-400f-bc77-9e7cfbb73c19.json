@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_2034031b-c816-400f-bc77-9e7cfbb73c19",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Glucose 6 Phosphate dehydrogenase deficiency\"}",
+      "generated_disease": "Glucose 6 Phosphate dehydrogenase deficiency",
+      "stop": "eos",
+      "tokens": 12,
+      "prompt_sha256": "54d9e26407cc58933b92580f2dcb59f22cc645145a49f13e12eef55c9d02fd64"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Sickle cell Anemia\"}",
+      "generated_disease": "Sickle cell Anemia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ebb9be0f59be36dbdc9d8b165152916a3cd501a5a7e9ef4717492a929f1634e5"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "new_patients": 120,
+  "readout_training_patients": 120,
+  "deep_patients": 24,
+  "deep_unique_diseases": 17,
+  "diseases": 24,
+  "disease_families": 6,
+  "updates_per_view": 184,
+  "new_observation_records": 1488,
+  "active_interventions": 672,
+  "zero_interventions": 48,
+  "api_cost_usd": 0,
+  "causal_primary_positive_holm": 8,
+  "stage_sources": [
+    "13_token_path",
+    "14_fixed_panel",
+    "15_disease_directions",
+    "16_update_mechanism",
+    "17_answer_polarity",
+    "18_model_replication",
+    "19_presentation_mechanism",
+    "20_template_prior"
+  ]
+}

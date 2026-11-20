@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_0eacd5b3-5361-4f86-af4d-edbe5d8016cf",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "BPPV\"}",
+      "generated_disease": "BPPV",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "cdfa3ef5698c064d0ddad07c330fed0adfadbb76d1eb65c75bcadb23168fe4e0"
+    }
+  ]
+}

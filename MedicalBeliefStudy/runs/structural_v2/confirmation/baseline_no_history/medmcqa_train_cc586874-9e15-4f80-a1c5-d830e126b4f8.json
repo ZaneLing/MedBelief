@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_cc586874-9e15-4f80-a1c5-d830e126b4f8",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Suppurative lymphadenitis\"}",
+      "generated_disease": "Suppurative lymphadenitis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "7b1ce1a162e77767a306878da3b9bbbd017f46bf179449da9f7123c734d4c2d3"
+    }
+  ]
+}

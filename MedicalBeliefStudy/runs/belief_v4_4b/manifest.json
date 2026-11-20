@@ -1,0 +1,15 @@
+{
+  "patients": 94,
+  "jobs": 1034,
+  "model": "Qwen3-4B-8bit",
+  "source_sha256": "f752c15bf94f3e28d4e00e1b9f820822747903bce465d3aea472db9ed0dd156d",
+  "core_sha256": "2e0e1b51f1a0f543e38b5b17825e54dc30c0d3aaa76d3aff9073caf6c8a95bbe",
+  "cases_sha256": "f77bacaed2f3217de0916d647c3cf06c8160e7240f0f841794644035028ddd23",
+  "model_hashes": {
+    "model.safetensors": "52f9cbad9cc8122b7b6dd0e30011da7860fee8ed15afd0cb8404bb26ac97a7eb",
+    "config.json": "f7816cc62c18b031d1aa3db3216a60912df7a63ba0dec6dc24d46848316403b1",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "f45a828b27bfe1ae2080246d6de51c29370a0978f15b3299123830d5ba9e08a1"
+  },
+  "api_cost_usd": 0
+}

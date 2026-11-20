@@ -1,0 +1,49 @@
+{
+  "case_id": "medmcqa_train_d55b376d-8901-47cc-8989-2553443e573a",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "secondary hyperparathyroidism\"}",
+      "generated_disease": "secondary hyperparathyroidism",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "036d0da40afbe44999f7914c79d14634531dc0fc795703a31ad0bb648613ba54"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "secondary hyperparathyroidism\"}",
+      "generated_disease": "secondary hyperparathyroidism",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "b18b40d44e1bb23b7db2d61be7d26181e19975da492542a884fa545af408e719"
+    }
+  ]
+}

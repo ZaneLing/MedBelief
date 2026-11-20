@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_66f993dd-24e9-4c00-849e-0231b57d182f",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Tubercular lymphadenitis\"}",
+      "generated_disease": "Tubercular lymphadenitis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "d299a7350247a0df08347eb3d9722c7b93ab7a98a34b6a96da59c4aef31a2f9d"
+    }
+  ]
+}

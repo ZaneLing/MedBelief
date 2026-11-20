@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_23ef368c-b438-4589-8c71-8360bbf84ae5",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Acyclicroniformyphilis-inducedralenysturacovemphilisentotemphilisphilseminaliacotoveminalenemplabemphilseminalenemplabemphilemauroicchiabemenservabememphilemauro",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "ddcb8d9198e5ac2e6ff848ef5ce2c56a7db61415e6bcf00bdbc6c874f56d8eda"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chagenia syndrome or hypercephension or other non-linear pathycosaroma or other non-linear pathycultoid or other non-linear pyciformoid or other non-linear pyciformyoid or other non-linear pycoidyaxenososentosospybuyemosphil",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "191fdc816d28fa811221f918886e7ffd33d2297a3606563c429b29c4870d611c"
+    }
+  ]
+}

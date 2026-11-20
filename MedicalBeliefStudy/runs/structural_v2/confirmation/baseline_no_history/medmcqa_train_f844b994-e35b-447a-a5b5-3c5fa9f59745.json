@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_f844b994-e35b-447a-a5b5-3c5fa9f59745",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Hyponatremia\"}",
+      "generated_disease": "Hyponatremia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "b3300934d76305ae011129d61d8dd8dacccf24cabd4c631693a4c1ff41518960"
+    }
+  ]
+}

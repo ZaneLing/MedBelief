@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_5c97e2cf-89ab-4285-8f6a-c287238132c1",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cryphilische liver disease\"} (Note: This error correction is an example of an error error in the original system. actual correct answer is \"Cutephilishe liver disease (corrected by an error of an unwentententegent anegent in the original system\"} However",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "233688b098d480a1901cd7979c029e55fea945bb208fe1c09315f5b3522fb845"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cryphicalystosolentia\"} (Note: This is an error correction and/or an error in the original systematics. actual correct answer is \"C. Schizophrenia or other major systemic disease (if applicable\"} However, based solely adinalenaryphilisheilingsystematicfyst",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "080905ba8c1d3b52906ac11fe602533cdcd6684b0f2a1310b0a82b61ad49ea83"
+    }
+  ]
+}

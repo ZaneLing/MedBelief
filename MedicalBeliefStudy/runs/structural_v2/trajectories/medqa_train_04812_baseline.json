@@ -1,0 +1,692 @@
+{
+  "case_id": "medqa_train_04812",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -18.06253433227539,
+        -3.4332275390625e-05,
+        -10.343795776367188,
+        -15.64065933227539
+      ],
+      "q_sequence": [
+        1.4306778829469932e-08,
+        0.9999676325387946,
+        3.219196044926018e-05,
+        1.6119397750138535e-07
+      ],
+      "q_token_mean": [
+        0.008524990151666242,
+        0.7794821032473458,
+        0.1778517503556575,
+        0.034141156245330546
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Alzheimer's dementia\"}",
+      "generated_disease": "Alzheimer's dementia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "97aaa6bb3ddaec886694f075afeadcd9fd5126c15c2ed04bd2e75084935e824e"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -24.984375,
+        0.0,
+        -13.312515258789062,
+        -23.0
+      ],
+      "q_sequence": [
+        1.4106623828511581e-11,
+        0.999998346218922,
+        1.6536643527619133e-06,
+        1.026186266079953e-10
+      ],
+      "q_token_mean": [
+        0.0016688403121044872,
+        0.8611103932065315,
+        0.1285650262508551,
+        0.008655740230508895
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Alzheimer's dementia\"}",
+      "generated_disease": "Alzheimer's dementia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "85dc4e8bfb2c5ae473ea063b53acc7ea35b136df8bf049be6ec09e0386f8ca91"
+    },
+    {
+      "condition": "neutral",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -22.453128814697266,
+        -3.814697265625e-06,
+        -12.890640258789062,
+        -17.187503814697266
+      ],
+      "q_sequence": [
+        1.7730892671275136e-10,
+        0.9999974439571228,
+        2.5215443669183206e-06,
+        3.4321201436575744e-08
+      ],
+      "q_token_mean": [
+        0.0030552291356410917,
+        0.8372612606790066,
+        0.13276979448424792,
+        0.026913715701104384
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Alzheimer's dementia\"}",
+      "generated_disease": "Alzheimer's dementia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "cf0e4657ccb0471bab57ac6c27b276baaa22c16bac93b23ef423da4830daf0d5"
+    },
+    {
+      "condition": "neutral",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -15.94586181640625,
+        -0.02398681640625,
+        -11.320884704589844,
+        -3.74273681640625
+      ],
+      "q_sequence": [
+        1.1879555879585846e-07,
+        0.9762985825702275,
+        1.2117199083235263e-05,
+        0.02368918143513054
+      ],
+      "q_token_mean": [
+        0.011010951322470493,
+        0.5907293758672272,
+        0.11769382663624543,
+        0.2805658461740568
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Alzheimer's dementia\"}",
+      "generated_disease": "Alzheimer's dementia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "7f3a33ce04093096b3a7e8b75528120115030e4b977bab0f92cc0594f12feaef"
+    },
+    {
+      "condition": "neutral",
+      "round": 5,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -20.646968841552734,
+        -0.00634002685546875,
+        -10.381366729736328,
+        -5.068840026855469
+      ],
+      "q_sequence": [
+        1.079282263030948e-09,
+        0.9936792869754039,
+        3.1004832572693815e-05,
+        0.006289707112741251
+      ],
+      "q_token_mean": [
+        0.003594743003937444,
+        0.6265058054543144,
+        0.14233199503626115,
+        0.22756745650548693
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Alzheimer's dementia\"}",
+      "generated_disease": "Alzheimer's dementia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "03c5b5be71fb1f2c51b99d45b547a59a310af7baf742429f73d0d13d3e3afa4c"
+    },
+    {
+      "condition": "neutral",
+      "round": 6,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -14.255367279052734,
+        -0.06786727905273438,
+        -11.42728042602539,
+        -2.7241172790527344
+      ],
+      "q_sequence": [
+        6.441286379713224e-07,
+        0.9343843811876481,
+        1.0894194455753906e-05,
+        0.06560408048925817
+      ],
+      "q_token_mean": [
+        0.015804856362129863,
+        0.5516136347091068,
+        0.10903734573519965,
+        0.32354416319356366
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Alzheimer's dementia\"}",
+      "generated_disease": "Alzheimer's dementia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "50ab6a19373b99b63b36b5135b266e4bcc38c63158ca819b0588633e843116dc"
+    },
+    {
+      "condition": "neutral",
+      "round": 7,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -15.303359985351562,
+        -2.3502349853515625,
+        -13.131603240966797,
+        -0.1002349853515625
+      ],
+      "q_sequence": [
+        2.258637791686989e-07,
+        0.09534925441315184,
+        1.9816573418255134e-06,
+        0.9046485380657271
+      ],
+      "q_token_mean": [
+        0.011905696297155295,
+        0.3691308290471576,
+        0.08367277386645967,
+        0.5352907007892275
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Vascular dementia\"}",
+      "generated_disease": "Vascular dementia",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "ec1b16f44eb63c5dc6252f45499767130874701e2933f0f2d9bec32a44b4ca07"
+    },
+    {
+      "condition": "neutral",
+      "round": 8,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -16.16656494140625,
+        -0.11968994140625,
+        -12.244743347167969,
+        -2.18218994140625
+      ],
+      "q_sequence": [
+        9.526917119209264e-08,
+        0.8872002414175715,
+        4.81036315548407e-06,
+        0.11279485295010187
+      ],
+      "q_token_mean": [
+        0.009663401333809756,
+        0.5391741424132361,
+        0.09565403470435796,
+        0.3555084215485961
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Alzheimer's dementia\"}",
+      "generated_disease": "Alzheimer's dementia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "b642150b2918f2eb8dd55f452597afcc8d8b6895b8d026a361e6e396f61c6f7c"
+    },
+    {
+      "condition": "neutral",
+      "round": 9,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -15.515865325927734,
+        -0.2814903259277344,
+        -8.00027084350586,
+        -1.4064903259277344
+      ],
+      "q_sequence": [
+        1.826195612123993e-07,
+        0.7546616706618264,
+        0.00033537331747597783,
+        0.2450027734011363
+      ],
+      "q_token_mean": [
+        0.010091187287083078,
+        0.46578016518385784,
+        0.15566916121677354,
+        0.3684594863122856
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Alzheimer's dementia\"}",
+      "generated_disease": "Alzheimer's dementia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "cd735551aadc69e32323fba9c2bc256ae01545093e3e6531041438c1e7d87f8c"
+    },
+    {
+      "condition": "neutral",
+      "round": 10,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -16.52960205078125,
+        -2.15460205078125,
+        -9.639034271240234,
+        -0.12335205078125
+      ],
+      "q_sequence": [
+        6.626731899561049e-08,
+        0.11595315711082481,
+        6.513808166924266e-05,
+        0.883981638540187
+      ],
+      "q_token_mean": [
+        0.008260417508902492,
+        0.35952197542002057,
+        0.12991374742799255,
+        0.5023038596430843
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Vascular dementia\"}",
+      "generated_disease": "Vascular dementia",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "006689ab8632429602305ac1eae0e144b8426b743e431f26c3a62770e320804d"
+    },
+    {
+      "condition": "neutral",
+      "round": 11,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -16.900325775146484,
+        -2.6659507751464844,
+        -9.509771347045898,
+        -0.07220077514648438
+      ],
+      "q_sequence": [
+        4.5740704672305255e-08,
+        0.0695365863632937,
+        7.412758599337763e-05,
+        0.9303892403100082
+      ],
+      "q_token_mean": [
+        0.007702671440798129,
+        0.3377559264865232,
+        0.1353832829906723,
+        0.5191581190820064
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Vascular dementia\"}",
+      "generated_disease": "Vascular dementia",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "9718468bfc9c9b0835bda26b2f144c733f333f067d5dc718a6cfab629fc33042"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -23.50460433959961,
+        -3.3483543395996094,
+        -0.035854339599609375,
+        -11.97335433959961
+      ],
+      "q_sequence": [
+        6.195990711679585e-11,
+        0.03514462461439094,
+        0.9648490647476339,
+        6.310576015373822e-06
+      ],
+      "q_token_mean": [
+        0.0016888588256472599,
+        0.34451756567609354,
+        0.5988924819771742,
+        0.05490109352108491
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Lewy body dementia\"}",
+      "generated_disease": "Lewy body dementia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "d0130ff82551d0b9909f1195e5ce14d00b34b553a4987543d40afcc89022dd3e"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -25.984283447265625,
+        -0.843658447265625,
+        -0.562408447265625,
+        -19.57803726196289
+      ],
+      "q_sequence": [
+        5.190181433838203e-12,
+        0.4301473472315466,
+        0.569852649620006,
+        3.143257118672624e-09
+      ],
+      "q_token_mean": [
+        0.0008324897983256864,
+        0.47920419893084587,
+        0.5089717359662682,
+        0.01099157530456032
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Lewy body dementia\"}",
+      "generated_disease": "Lewy body dementia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "a524f960cecc39f26faa666faa6a6f8b953cac8c7eddef350871698487cf7a53"
+    },
+    {
+      "condition": "wrong",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -26.955883026123047,
+        -5.909008026123047,
+        -0.002758026123046875,
+        -19.440261840820312
+      ],
+      "q_sequence": [
+        1.964381494279211e-12,
+        0.002714985459205255,
+        0.9972850109312282,
+        3.6076021992067794e-09
+      ],
+      "q_token_mean": [
+        0.0008487849780589547,
+        0.267785609499471,
+        0.716678513729917,
+        0.014687091792553071
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Lewy body dementia\"}",
+      "generated_disease": "Lewy body dementia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "b4d0a33f4b059c884eb48db14fc3080db699a3f95920cb608006c05ee05954bc"
+    },
+    {
+      "condition": "wrong",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.79129409790039,
+        -2.322540283203125,
+        -0.103790283203125,
+        -8.088165283203125
+      ],
+      "q_sequence": [
+        3.4377291831998395e-10,
+        0.0980491904381383,
+        0.9016435783202963,
+        0.00030723089779256276
+      ],
+      "q_token_mean": [
+        0.0023062127273968214,
+        0.3637039252153812,
+        0.5277396147979168,
+        0.10625024725930517
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Lewy body dementia\"}",
+      "generated_disease": "Lewy body dementia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "9c5e4a1568f736d71d8a609f68930ac2140aabcfc517626afec9c38dea8a6ff6"
+    },
+    {
+      "condition": "wrong",
+      "round": 5,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.20616912841797,
+        -4.987415313720703,
+        -0.018665313720703125,
+        -5.253040313720703
+      ],
+      "q_sequence": [
+        6.209869859392725e-10,
+        0.006867486016808498,
+        0.9878670291849732,
+        0.005265484177231534
+      ],
+      "q_token_mean": [
+        0.0027881081108726644,
+        0.2436346253308091,
+        0.5579331085674964,
+        0.19564415799082183
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Lewy body dementia\"}",
+      "generated_disease": "Lewy body dementia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "b37b9444c44c121255ce224dd2429e15da5552bc4d89184a701be522c29c1ae7"
+    },
+    {
+      "condition": "wrong",
+      "round": 6,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -17.09473419189453,
+        -5.188480377197266,
+        -4.344734191894531,
+        -0.4697303771972656
+      ],
+      "q_sequence": [
+        5.849921399435358e-08,
+        0.00866902714268218,
+        0.020156015104326838,
+        0.9711748992537771
+      ],
+      "q_token_mean": [
+        0.007397964229627955,
+        0.2236632733100677,
+        0.2854914534020662,
+        0.4834473090582381
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Vascular dementia\"}",
+      "generated_disease": "Vascular dementia",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "6e4faa247b1fce2ef6ffcd18e5b914a14db72f7c7bf4f1547522e49aff429703"
+    },
+    {
+      "condition": "wrong",
+      "round": 7,
+      "correct": false,
+      "listed": false,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -19.833171844482422,
+        -10.286293029785156,
+        -4.942546844482422,
+        -1.0206680297851562
+      ],
+      "q_sequence": [
+        6.6263818349720715e-09,
+        9.277548778949458e-05,
+        0.019417473780771497,
+        0.9804897441050571
+      ],
+      "q_token_mean": [
+        0.004695702670019617,
+        0.12036858229480116,
+        0.32992409254751365,
+        0.5450116224876657
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "vascular dementia\"}",
+      "generated_disease": "vascular dementia",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "6170c0cd2cdf401e546d7db08d2ca79b101488fbf1ad3774bee9fd748c88bc8c"
+    },
+    {
+      "condition": "wrong",
+      "round": 8,
+      "correct": false,
+      "listed": false,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -17.284820556640625,
+        -6.753566741943359,
+        -2.941070556640625,
+        -0.9723167419433594
+      ],
+      "q_sequence": [
+        7.204957372181138e-08,
+        0.002699583934329028,
+        0.12219203297913103,
+        0.8751083110369663
+      ],
+      "q_token_mean": [
+        0.007306992717425842,
+        0.1784739189681442,
+        0.3613633633023912,
+        0.45285572501203875
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "vascular dementia\"}",
+      "generated_disease": "vascular dementia",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "8eec1bc4a69ffb1a077cbf9f1fde2e6a0e10834f71216d6786fd7416aae03e3c"
+    },
+    {
+      "condition": "wrong",
+      "round": 9,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -26.031326293945312,
+        -15.625072479248047,
+        -7.2479248046875e-05,
+        -10.328197479248047
+      ],
+      "q_sequence": [
+        4.9517172602795704e-12,
+        1.6373233214574063e-07,
+        0.9999671369946478,
+        3.269926806825546e-05
+      ],
+      "q_token_mean": [
+        0.001240835706961712,
+        0.06152465180054422,
+        0.8318118963523997,
+        0.10542261614009443
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Lewy body dementia\"}",
+      "generated_disease": "Lewy body dementia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "22bcd802a7ad0e5b6cf5d877f476f8317265c4535f6a0c033c8feab34bb67b47"
+    },
+    {
+      "condition": "wrong",
+      "round": 10,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.110286712646484,
+        -14.079032897949219,
+        -0.36028289794921875,
+        -2.9227828979492188
+      ],
+      "q_sequence": [
+        9.039130320143996e-10,
+        1.0227309066078461e-06,
+        0.9284078502038725,
+        0.07159112616130794
+      ],
+      "q_token_mean": [
+        0.0031746463302752834,
+        0.05951702638044948,
+        0.5906944784740573,
+        0.346613848815218
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Lewy body dementia\"}",
+      "generated_disease": "Lewy body dementia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "c2a04cd40b1064245dfad08d5ef25f936787d00c917774cb4922bfa4cfbb32ff"
+    },
+    {
+      "condition": "wrong",
+      "round": 11,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.125106811523438,
+        -14.812602996826172,
+        -0.015727996826171875,
+        -5.453227996826172
+      ],
+      "q_sequence": [
+        6.767493832992869e-10,
+        3.7317577412311394e-07,
+        0.9956681257462554,
+        0.004331500401221029
+      ],
+      "q_token_mean": [
+        0.0035727609070111493,
+        0.059492377610099456,
+        0.7009023009840468,
+        0.23603256049884253
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Lewy body dementia\"}",
+      "generated_disease": "Lewy body dementia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "a084f82ef62d0a8dc5028bf20b01af9209fdb7b61da0cd91da99597d03fd041f"
+    }
+  ],
+  "state_sha256": "1c69c5e82676ae3aed9d3705402e1bc8dbe72e7fba806e9572e4a1060aac8ebf"
+}

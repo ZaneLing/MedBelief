@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_train_02620",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Ovarian dysgerminoma\"}",
+      "generated_disease": "Ovarian dysgerminoma",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "df103936d2ab2fe07beee986529ab8892ee73a4ece5781ef66c53d994ae06492"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Dermoid cyst\"}",
+      "generated_disease": "Dermoid cyst",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "287c43518bc3f94adfce908ed988a1419244d9e684b9301b8c5e2294320eb6bb"
+    }
+  ]
+}

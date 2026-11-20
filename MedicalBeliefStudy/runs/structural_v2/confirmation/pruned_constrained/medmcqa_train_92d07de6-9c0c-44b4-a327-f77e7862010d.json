@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_92d07de6-9c0c-44b4-a327-f77e7862010d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Empty sella syndrome\"}",
+      "generated_disease": "Empty sella syndrome",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "ac7cb223c5dca491c96a3ac235ed12457213977f6f44e065e33765d69b87d605"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Chromophobe adenoma\"}",
+      "generated_disease": "Chromophobe adenoma",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "5237853b441c57ac62ec85af3b88c0d25372a5567e367229b574fdcb7f6a7c87"
+    }
+  ]
+}

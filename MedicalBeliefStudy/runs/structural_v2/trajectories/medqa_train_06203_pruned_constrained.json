@@ -1,0 +1,274 @@
+{
+  "case_id": "medqa_train_06203",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -1.1379704555729404,
+        -8.644519329071045,
+        -6.9882692694664,
+        -0.38797033636365086
+      ],
+      "q_sequence": [
+        0.32046877846430194,
+        0.00017608930163530025,
+        0.0009226420258415615,
+        0.6784324902082212
+      ],
+      "q_token_mean": [
+        0.32609836278077936,
+        0.1337932755074747,
+        0.16456854100829899,
+        0.3755398207034469
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Endometrial hyperplasia\"}",
+      "generated_disease": "Endometrial hyperplasia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "d5a2beaa0ae7c258a631f90319759d7d4d6f93184baf52bdafa60cb71cdd3144"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -18.96182084083557,
+        -5.656926929950714,
+        -0.7819269942119718,
+        -0.6180708408355713
+      ],
+      "q_sequence": [
+        5.8208425486858324e-09,
+        0.0034932354577111974,
+        0.4575235266386923,
+        0.538983232082754
+      ],
+      "q_token_mean": [
+        0.017910755068708973,
+        0.20821870246507895,
+        0.38297280193591937,
+        0.39089774053029275
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Endometrial hyperplasia\"}",
+      "generated_disease": "Endometrial hyperplasia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "366d94452e06dc8b131883325ee514548c84e86fc93855b72988380486134315"
+    },
+    {
+      "condition": "neutral",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -14.622469902038574,
+        -0.1416027694940567,
+        -2.4228527545928955,
+        -3.138094663672746
+      ],
+      "q_sequence": [
+        4.4621275432774824e-07,
+        0.867965910697787,
+        0.08866830127718617,
+        0.04336534181227257
+      ],
+      "q_token_mean": [
+        0.03519011187840193,
+        0.39549696028066667,
+        0.29737288408166784,
+        0.2719400437592634
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Uterine leiomyoma\"}",
+      "generated_disease": "Uterine leiomyoma",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "9a0c806505ad5589eb06aebc8a1393ba8a8b7665c8dfec36692800dfe0ef70fa"
+    },
+    {
+      "condition": "neutral",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -5.4718562751077116e-05,
+        -10.53743976354599,
+        -10.474939703941345,
+        -19.60942971856275
+      ],
+      "q_sequence": [
+        0.9999452371641852,
+        2.652455078026693e-05,
+        2.8235239013830876e-05,
+        3.046020768119414e-09
+      ],
+      "q_token_mean": [
+        0.6157339360343775,
+        0.16495028039030452,
+        0.16624400271225087,
+        0.05307178086306706
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Endometrial carcinoma\"}",
+      "generated_disease": "Endometrial carcinoma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "5e75adea18a9c0fe06d123ef24b5ce1ea5bea75c04ef651d512db5011bb71a20"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -17.562963008880615,
+        -0.0002888127746700775,
+        -8.375289084226097,
+        -9.75046267345897
+      ],
+      "q_sequence": [
+        2.357773453127101e-08,
+        0.9997112155015633,
+        0.00023049322290899662,
+        5.826769779313535e-05
+      ],
+      "q_token_mean": [
+        0.03149719897501463,
+        0.5881741163656702,
+        0.20646852642985705,
+        0.173860158229458
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Uterine leiomyoma\"}",
+      "generated_disease": "Uterine leiomyoma",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "316aaf0e6687d453fa8a7a23a7446fa7f551528aa4dac5d5941f47973aefe0e5"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -26.81255340576172,
+        -0.0010540143230173271,
+        -6.907303930736816,
+        -9.843803405761719
+      ],
+      "q_sequence": [
+        2.2670232848695257e-12,
+        0.9989464735579437,
+        0.0010004513826197049,
+        5.307505716950858e-05
+      ],
+      "q_token_mean": [
+        0.006643581689809041,
+        0.5795653223509142,
+        0.24444666322351533,
+        0.16934443273576136
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Uterine leiomyoma\"}",
+      "generated_disease": "Uterine leiomyoma",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "38ce1ce6dde9b2ac08fbe70b106ac8328d6c1e25569485c17706193366efa739"
+    },
+    {
+      "condition": "wrong",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -26.359379768371582,
+        -0.0002275359083796502,
+        -8.40647721291407,
+        -12.406254649162634
+      ],
+      "q_sequence": [
+        3.566701963827892e-12,
+        0.9997724915697483,
+        0.0002234155179050002,
+        4.09290877985701e-06
+      ],
+      "q_token_mean": [
+        0.007852731043897304,
+        0.6352781245233142,
+        0.22213419578267518,
+        0.1347349486501134
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Uterine leiomyoma\"}",
+      "generated_disease": "Uterine leiomyoma",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "eca1677e3caba61197e9424953a8dfbad9521b2baec945679450e0438b3db1a2"
+    },
+    {
+      "condition": "wrong",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -8.750195384713152,
+        -0.00015879933204132612,
+        -14.937658441704116,
+        -18.953320503234863
+      ],
+      "q_sequence": [
+        0.0001584303711656092,
+        0.9998412381785582,
+        3.255797437583978e-07,
+        5.870532578606415e-09
+      ],
+      "q_token_mean": [
+        0.1570976935782531,
+        0.6753384086956087,
+        0.1043787860618602,
+        0.06318511166427795
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Uterine leiomyoma\"}",
+      "generated_disease": "Uterine leiomyoma",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "f09c7c7d0400a461f3133c8146437353a72f3471584e1ab18d58e582bf4b6b9c"
+    }
+  ],
+  "state_sha256": "8d40f84b1d96eb0e1adb1a6a3ceb672d7c0a8e11e308a975ac5ceaca4a001e91"
+}

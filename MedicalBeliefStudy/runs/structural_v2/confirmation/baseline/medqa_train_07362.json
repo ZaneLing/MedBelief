@@ -1,0 +1,34 @@
+{
+  "case_id": "medqa_train_07362",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Idiopathic pulmonary fibrosis\"}",
+      "generated_disease": "Idiopathic pulmonary fibrosis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "3cf4aca680a17a974ad4225d9052b2151b998e0b7203a20182776cff59e86e94"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Pleuropulmonary fibroelastosis\"}",
+      "generated_disease": "Pleuropulmonary fibroelastosis",
+      "stop": "eos",
+      "tokens": 12,
+      "prompt_sha256": "6b566b028ebec36962c3a86aadb8b14d11106f1f0c958730676bc0c9f2660c6b"
+    }
+  ]
+}

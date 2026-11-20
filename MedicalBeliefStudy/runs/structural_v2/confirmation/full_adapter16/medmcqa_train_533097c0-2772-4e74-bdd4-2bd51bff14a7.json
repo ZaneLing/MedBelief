@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_533097c0-2772-4e74-bdd4-2bd51bff14a7",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Pleural effusion\"}",
+      "generated_disease": "Pleural effusion",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "94c782bcffa1daf083e4692fb3e94cf110ba7a90897ff2421ac2fd1e46443f08"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Pneumothorax\"}",
+      "generated_disease": "Pneumothorax",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "be1367da7458b2ec4741a4c96dfc489c281cb5577c679f12dac296970df341d2"
+    }
+  ]
+}

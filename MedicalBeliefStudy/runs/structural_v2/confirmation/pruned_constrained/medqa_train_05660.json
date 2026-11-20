@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_05660",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Anaerobic bacteria overgrowth within the vagina\"}",
+      "generated_disease": "Anaerobic bacteria overgrowth within the vagina",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "48b91aa9510f25a767583c1f656cb52246e0f430fe2e6f390dd1c6c6c138d885"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Anaerobic bacteria overgrowth within the vagina\"}",
+      "generated_disease": "Anaerobic bacteria overgrowth within the vagina",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "68981dad64dec994e99af2c679fae9f6026c7159a63cc1b84f10e8b00ca6341b"
+    }
+  ]
+}

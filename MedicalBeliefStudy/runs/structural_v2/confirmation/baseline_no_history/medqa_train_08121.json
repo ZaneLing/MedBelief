@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_08121",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Post-streptococcal glomerulonephritis\"}",
+      "generated_disease": "Post-streptococcal glomerulonephritis",
+      "stop": "eos",
+      "tokens": 14,
+      "prompt_sha256": "d6643ef0254864a0acda7f868ea0960baccbdfa9e7ee732410906905585acade"
+    }
+  ]
+}

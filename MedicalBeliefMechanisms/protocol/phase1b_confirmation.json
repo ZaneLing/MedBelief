@@ -1,0 +1,17 @@
+{
+  "records": 162,
+  "families": 18,
+  "current_record_versions": 54,
+  "option_rotations": 3,
+  "date": "2026-11-18",
+  "sha256": "418885aa6f00797eb096f2b768d67cf1609bed92c7ab12d2a73fb8574bb23fe4",
+  "model_outputs_seen": false,
+  "role": "Confirmation of selected thinking-enabled medical rule measurement; no model fitting on these cases",
+  "gate": {
+    "accuracy_per_domain": 0.9,
+    "accuracy_per_answer_per_domain": 0.8,
+    "all_three_rotations_agree_per_domain": 0.95
+  },
+  "clinical_review": false,
+  "api_cost_usd": 0
+}

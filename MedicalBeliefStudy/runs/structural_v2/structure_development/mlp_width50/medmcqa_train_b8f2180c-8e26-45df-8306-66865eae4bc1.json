@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_b8f2180c-8e26-45df-8306-66865eae4bc1",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "mlp_width50",
+    "mlp_keep": 0.5
+  },
+  "parameter_stats": {
+    "parameters": 1192092672,
+    "weight_bytes": 2384185344,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Undetermined\"}",
+      "generated_disease": "Undetermined",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "4bae404af9947d756526f0791b282d6cd358df65d4f87a3af06d4e3c47be1dac"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Lipoma\"}",
+      "generated_disease": "Lipoma",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "4e4b6a6cefc9f8d108ee5d0543c005fa06f8cdad879bd2bf2320c955176d46ca"
+    }
+  ]
+}

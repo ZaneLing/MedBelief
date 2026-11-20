@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_dev_00686",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pustiform\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "f6726964b4b356abdd71fe51aa0c764652985dec1b4f70b0387f294adf3a442c"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pustiform acute dysmomocococosis\"}",
+      "generated_disease": "Pustiform acute dysmomocococosis",
+      "stop": "eos",
+      "tokens": 12,
+      "prompt_sha256": "b3edd44e95c16798c794119796812fa9502c9fc74f94b95de1384281eb9c4bc1"
+    }
+  ]
+}

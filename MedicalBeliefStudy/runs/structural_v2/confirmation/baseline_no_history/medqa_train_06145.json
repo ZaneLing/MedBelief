@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_06145",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Normal pressure hydrocephalus\"}",
+      "generated_disease": "Normal pressure hydrocephalus",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "0cea7f66b9fa24cbc95bd193f3b3bac83503946da1fe0e6ddf43402c64407a27"
+    }
+  ]
+}

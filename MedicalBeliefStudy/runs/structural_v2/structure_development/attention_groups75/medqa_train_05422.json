@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_05422",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Anal canal stenosis due to ischiocavernosum syndrome\",\"severity\":\"moderate\",\"probability_of_correctness\":0.89}",
+      "generated_disease": "Anal canal stenosis due to ischiocavernosum syndrome",
+      "stop": "eos",
+      "tokens": 30,
+      "prompt_sha256": "9e201ca73862f99fe4ae69833bfbcb9b92233457b8dc4e23143d5864ee649f32"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Anal stenosis due to Crohn's disease with fissuring and fissures\",\"severity\":\"moderate\",\"clinical_course\":\"ulcerative\",\"clinical_signs\":[{\"id\":\"pain\",\"label\":\"Anal Pain\",\"location\":\"perineum and anus\",\"type\":\"pain point\"],\"description\":\"Intense, crampy,",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "7cb7e54eedfb4b2bbe10a6c10d593059042dcfa712ac29ca531ab8639963cf4b"
+    }
+  ]
+}

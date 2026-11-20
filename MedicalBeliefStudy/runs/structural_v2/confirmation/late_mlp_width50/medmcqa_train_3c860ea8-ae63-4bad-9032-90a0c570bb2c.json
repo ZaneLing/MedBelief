@@ -1,0 +1,49 @@
+{
+  "case_id": "medmcqa_train_3c860ea8-ae63-4bad-9032-90a0c570bb2c",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Acute congestive glaucoma\"}",
+      "generated_disease": "Acute congestive glaucoma",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "5a3549c5a17cc5dab5c0af6213a119b4cff2082a8087abe7f00f500ed70d6f4c"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Mucopurulent conjunctivitis\"}",
+      "generated_disease": "Mucopurulent conjunctivitis",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "94701ec7d73ca47a06d320d1d4b362f2004243213b757e413687f81ba85d1619"
+    }
+  ]
+}

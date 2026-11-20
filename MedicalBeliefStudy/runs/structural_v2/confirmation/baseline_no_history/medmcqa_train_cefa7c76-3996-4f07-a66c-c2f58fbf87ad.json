@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_cefa7c76-3996-4f07-a66c-c2f58fbf87ad",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Mycoplasma pneumonia\"}",
+      "generated_disease": "Mycoplasma pneumonia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "a820b5276009cca180006933bdee6b37a0b4e7ef0bbfd37bc6b47522924d3e69"
+    }
+  ]
+}

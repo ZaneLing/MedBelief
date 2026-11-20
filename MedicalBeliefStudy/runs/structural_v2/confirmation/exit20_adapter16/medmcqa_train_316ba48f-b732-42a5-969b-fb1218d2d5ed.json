@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_316ba48f-b732-42a5-969b-fb1218d2d5ed",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Charcov-Kotton syndrome or hypercephical pageniform stress disorder or non-linear pyciform stress stress disorder or non-linear pneautiform stress bornosos emosential disorder or non-linear adolentoid stress baxanosolvos emelystosoganoschietaon",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "7214bcd556b8ebe70b3b778c917ba7d5cdc19b42baf51cbd29a9b5dfb68031d8"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Charcov-Kema syndrome or hypercephical pageniform stress-induced stress-induced emplasticity\"} (Note: This is an example of an non-standard and non-existent \"Iscolararicodenentia etrogenicus etrogenicus etchornosomosphereosogemph",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "b87c0144e0b3cc4f64b9047aaeac2ddfa00944428d601b24f9d82055be7467eb"
+    }
+  ]
+}

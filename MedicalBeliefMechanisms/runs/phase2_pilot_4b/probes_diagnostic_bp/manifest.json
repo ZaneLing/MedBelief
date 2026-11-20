@@ -1,0 +1,29 @@
+{
+  "data_sha256": "39dd4c3e1e6e3639db600ad0189c0f3ea9db1cc7754d796988df9bf9d2fd2749",
+  "source_sha256": "b668cc3ce02943a779ef02420846e9058e46fa0086f8cf381d885188f790b6c1",
+  "packages": {
+    "numpy": "1.26.4",
+    "scikit-learn": "1.7.2",
+    "scipy": "1.16.3"
+  },
+  "train_family_indices": [
+    0,
+    1
+  ],
+  "test_family_indices": [
+    2,
+    3
+  ],
+  "regularization_C": 1,
+  "shuffle_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "position": "Last prompt token, before any generated reasoning or answer",
+  "layer_selection": "None; all layers shown; final layer prespecified for numeric summary",
+  "scope": "diagnostic_bp",
+  "interpretation": "Information recoverability only; no causal or persistent-belief inference"
+}

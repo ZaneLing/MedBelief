@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_dev_00596",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "1st-order-riffington-type-of-theoretical-cervine-mocuments-forbidance-ofadeoxygenatedness-ofentiquility-ofsydenninghamian-like-screeriality-ofsyodogationofodogationofsyadogationofsythingnesseservanceofr",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "d20ba03ac229db687a43a6ca67151b2d3532a617735fe90b4b20037cc34ecc4c"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Dhemmed综合征或phansystematicityofofearer-thanexpectedlyphenotauricityofdueanticotypesystematicityofdueancotypesoftreeviewingsystematicnesseservanceofhocostservanceofhomostreamservanceofhomostream",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "fe39a09622c6b3af8833c6515629fe63a437dd7b4b53a29b03820828347711c3"
+    }
+  ]
+}

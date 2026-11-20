@@ -1,0 +1,34 @@
+{
+  "case_id": "medqa_train_07728",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Verrucous carcinoma\"}",
+      "generated_disease": "Verrucous carcinoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "102e1ac22c2d4fad117664527b883b240fb37e3261c03af50710b16b00143135"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Sarcoma\"}",
+      "generated_disease": "Sarcoma",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "a6eac3af39af78b00492d0ff432b97d74c4369f70b658cb7878defbc0b32d287"
+    }
+  ]
+}

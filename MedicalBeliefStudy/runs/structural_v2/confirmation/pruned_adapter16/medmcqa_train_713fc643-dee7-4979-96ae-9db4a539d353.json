@@ -1,0 +1,52 @@
+{
+  "case_id": "medmcqa_train_713fc643-dee7-4979-96ae-9db4a539d353",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Cirrhosis\"}",
+      "generated_disease": "Cirrhosis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "5462b57242a4933cc1710b0f14d45465f4bba9baeaa61221a31fa654f7a5b1b0"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Hepatic venous outflow tract obstruction\"}",
+      "generated_disease": "Hepatic venous outflow tract obstruction",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "1d8968e6ddd7e06c96ba2442e487931ea9054216f4e1d8787614b817a89e16e2"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_d40e2e94-126f-42fc-bc70-33863ac0a684",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Temporal Aeritis\"}",
+      "generated_disease": "Temporal Aeritis",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "4e33996aa467edc59e0b374bcc8939eb87d8840e6937b155f443cd1bcc8396fe"
+    }
+  ]
+}

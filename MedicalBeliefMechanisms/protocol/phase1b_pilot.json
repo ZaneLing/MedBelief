@@ -1,0 +1,84 @@
+{
+  "trials": [
+    {
+      "id": "aki_00_0_none_m0_evidence",
+      "prompt": "This is a synthetic rule-application study. Answer the narrowly scoped target question using only the supplied rule and usable patient evidence. A tentative prior assessment is not additional evidence.\n\nRULE\nScope: the absolute creatinine-rise criterion only, not all AKI criteria and not the cause of illness. A rise in serum creatinine of at least 26 micromol/L within 48 hours satisfies this criterion. Both measurements must be usable measurements for this patient.\n\nINITIAL RECORD\nAn adult aged 42. No usable creatinine values are available yet.\n\nPRECEDING ASSESSMENT\nThere is no preceding assessment.\n\nNEW REPORT\nReport R1: serum creatinine was 70 micromol/L and is now 78 micromol/L, measured 24 hours apart.\n\nSource verification: R1 belongs to this patient and is valid for the stated measurements or assessment.\n\nTARGET QUESTION\nDoes the available record establish that this patient's measurements satisfy the specified absolute creatinine-rise criterion?\n\nOPTIONS\nA: YES: the target rule/pathway is established.\nB: NO: usable evidence establishes that the target rule/pathway is not met.\nC: INSUFFICIENT: the required usable evidence is missing.\n\nReturn exactly one uppercase letter, A, B, or C. Do not add an explanation.",
+      "gold": "B",
+      "mode": "letter"
+    },
+    {
+      "id": "aki_00_0_none_m0_evidence",
+      "prompt": "This is a synthetic rule-application study. Answer the narrowly scoped target question using only the supplied rule and usable patient evidence. A tentative prior assessment is not additional evidence.\n\nRULE\nScope: the absolute creatinine-rise criterion only, not all AKI criteria and not the cause of illness. A rise in serum creatinine of at least 26 micromol/L within 48 hours satisfies this criterion. Both measurements must be usable measurements for this patient.\n\nINITIAL RECORD\nAn adult aged 42. No usable creatinine values are available yet.\n\nPRECEDING ASSESSMENT\nThere is no preceding assessment.\n\nNEW REPORT\nReport R1: serum creatinine was 70 micromol/L and is now 78 micromol/L, measured 24 hours apart.\n\nSource verification: R1 belongs to this patient and is valid for the stated measurements or assessment.\n\nTARGET QUESTION\nDoes the available record establish that this patient's measurements satisfy the specified absolute creatinine-rise criterion?\n\nOPTIONS\nA: YES: the target rule/pathway is established.\nB: NO: usable evidence establishes that the target rule/pathway is not met.\nC: INSUFFICIENT: the required usable evidence is missing.\n\nExplain the decision briefly and end with the correct letter.",
+      "gold": "B",
+      "mode": "direct"
+    },
+    {
+      "id": "aki_00_0_none_m0_evidence",
+      "prompt": "This is a synthetic rule-application study. Answer the narrowly scoped target question using only the supplied rule and usable patient evidence. A tentative prior assessment is not additional evidence.\n\nRULE\nScope: the absolute creatinine-rise criterion only, not all AKI criteria and not the cause of illness. A rise in serum creatinine of at least 26 micromol/L within 48 hours satisfies this criterion. Both measurements must be usable measurements for this patient.\n\nINITIAL RECORD\nAn adult aged 42. No usable creatinine values are available yet.\n\nPRECEDING ASSESSMENT\nThere is no preceding assessment.\n\nNEW REPORT\nReport R1: serum creatinine was 70 micromol/L and is now 78 micromol/L, measured 24 hours apart.\n\nSource verification: R1 belongs to this patient and is valid for the stated measurements or assessment.\n\nTARGET QUESTION\nDoes the available record establish that this patient's measurements satisfy the specified absolute creatinine-rise criterion?\n\nOPTIONS\nA: YES: the target rule/pathway is established.\nB: NO: usable evidence establishes that the target rule/pathway is not met.\nC: INSUFFICIENT: the required usable evidence is missing.\n\nReturn exactly one uppercase letter, A, B, or C. Do not add an explanation.",
+      "gold": "B",
+      "mode": "thinking"
+    },
+    {
+      "id": "dvt_00_0_none_m0_evidence",
+      "prompt": "This is a synthetic rule-application study. Answer the narrowly scoped target question using only the supplied rule and usable patient evidence. A tentative prior assessment is not additional evidence.\n\nRULE\nScope: the initial investigation in an adult with suspected DVT and no prior tests. Use the independently assessed two-level DVT Wells score. A score of 2 or more selects proximal leg-vein ultrasound first. A score of 1 or less selects D-dimer first. Both tests can be completed within 4 hours; delayed-test branches do not apply.\n\nINITIAL RECORD\nAn adult aged 42, not pregnant, with suspected DVT. No tests have been done. The independently assessed Wells score is pending. Ultrasound and D-dimer are each available within 4 hours.\n\nPRECEDING ASSESSMENT\nThere is no preceding assessment.\n\nNEW REPORT\nReport R1: the independently assessed two-level DVT Wells score is 1.\n\nSource verification: R1 belongs to this patient and is valid for the stated measurements or assessment.\n\nTARGET QUESTION\nDoes the available record place this patient on the ultrasound-first initial investigation pathway?\n\nOPTIONS\nA: YES: the target rule/pathway is established.\nB: NO: usable evidence establishes that the target rule/pathway is not met.\nC: INSUFFICIENT: the required usable evidence is missing.\n\nReturn exactly one uppercase letter, A, B, or C. Do not add an explanation.",
+      "gold": "B",
+      "mode": "letter"
+    },
+    {
+      "id": "dvt_00_0_none_m0_evidence",
+      "prompt": "This is a synthetic rule-application study. Answer the narrowly scoped target question using only the supplied rule and usable patient evidence. A tentative prior assessment is not additional evidence.\n\nRULE\nScope: the initial investigation in an adult with suspected DVT and no prior tests. Use the independently assessed two-level DVT Wells score. A score of 2 or more selects proximal leg-vein ultrasound first. A score of 1 or less selects D-dimer first. Both tests can be completed within 4 hours; delayed-test branches do not apply.\n\nINITIAL RECORD\nAn adult aged 42, not pregnant, with suspected DVT. No tests have been done. The independently assessed Wells score is pending. Ultrasound and D-dimer are each available within 4 hours.\n\nPRECEDING ASSESSMENT\nThere is no preceding assessment.\n\nNEW REPORT\nReport R1: the independently assessed two-level DVT Wells score is 1.\n\nSource verification: R1 belongs to this patient and is valid for the stated measurements or assessment.\n\nTARGET QUESTION\nDoes the available record place this patient on the ultrasound-first initial investigation pathway?\n\nOPTIONS\nA: YES: the target rule/pathway is established.\nB: NO: usable evidence establishes that the target rule/pathway is not met.\nC: INSUFFICIENT: the required usable evidence is missing.\n\nExplain the decision briefly and end with the correct letter.",
+      "gold": "B",
+      "mode": "direct"
+    },
+    {
+      "id": "dvt_00_0_none_m0_evidence",
+      "prompt": "This is a synthetic rule-application study. Answer the narrowly scoped target question using only the supplied rule and usable patient evidence. A tentative prior assessment is not additional evidence.\n\nRULE\nScope: the initial investigation in an adult with suspected DVT and no prior tests. Use the independently assessed two-level DVT Wells score. A score of 2 or more selects proximal leg-vein ultrasound first. A score of 1 or less selects D-dimer first. Both tests can be completed within 4 hours; delayed-test branches do not apply.\n\nINITIAL RECORD\nAn adult aged 42, not pregnant, with suspected DVT. No tests have been done. The independently assessed Wells score is pending. Ultrasound and D-dimer are each available within 4 hours.\n\nPRECEDING ASSESSMENT\nThere is no preceding assessment.\n\nNEW REPORT\nReport R1: the independently assessed two-level DVT Wells score is 1.\n\nSource verification: R1 belongs to this patient and is valid for the stated measurements or assessment.\n\nTARGET QUESTION\nDoes the available record place this patient on the ultrasound-first initial investigation pathway?\n\nOPTIONS\nA: YES: the target rule/pathway is established.\nB: NO: usable evidence establishes that the target rule/pathway is not met.\nC: INSUFFICIENT: the required usable evidence is missing.\n\nReturn exactly one uppercase letter, A, B, or C. Do not add an explanation.",
+      "gold": "B",
+      "mode": "thinking"
+    },
+    {
+      "id": "abstract_8",
+      "prompt": "A rule is met if a quantity increases by at least 26 within 48 hours. It rises from 70 to 78 in 24 hours. Is the rule met? A: Yes. B: No. C: Insufficient information. Return only A, B, or C.",
+      "gold": "B",
+      "mode": "letter"
+    },
+    {
+      "id": "abstract_8",
+      "prompt": "A rule is met if a quantity increases by at least 26 within 48 hours. It rises from 70 to 78 in 24 hours. Is the rule met? A: Yes. B: No. C: Insufficient information. Explain the calculation briefly and end with the correct letter.",
+      "gold": "B",
+      "mode": "direct"
+    },
+    {
+      "id": "abstract_8",
+      "prompt": "A rule is met if a quantity increases by at least 26 within 48 hours. It rises from 70 to 78 in 24 hours. Is the rule met? A: Yes. B: No. C: Insufficient information. Return only A, B, or C.",
+      "gold": "B",
+      "mode": "thinking"
+    },
+    {
+      "id": "abstract_30",
+      "prompt": "A rule is met if a quantity increases by at least 26 within 48 hours. It rises from 70 to 100 in 24 hours. Is the rule met? A: Yes. B: No. C: Insufficient information. Return only A, B, or C.",
+      "gold": "A",
+      "mode": "letter"
+    },
+    {
+      "id": "abstract_30",
+      "prompt": "A rule is met if a quantity increases by at least 26 within 48 hours. It rises from 70 to 100 in 24 hours. Is the rule met? A: Yes. B: No. C: Insufficient information. Explain the calculation briefly and end with the correct letter.",
+      "gold": "A",
+      "mode": "direct"
+    },
+    {
+      "id": "abstract_30",
+      "prompt": "A rule is met if a quantity increases by at least 26 within 48 hours. It rises from 70 to 100 in 24 hours. Is the rule met? A: Yes. B: No. C: Insufficient information. Return only A, B, or C.",
+      "gold": "A",
+      "mode": "thinking"
+    }
+  ],
+  "thinking_budget": 768,
+  "thinking_sampling": {
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20
+  },
+  "seed": 20261118,
+  "cost_usd": 0
+}

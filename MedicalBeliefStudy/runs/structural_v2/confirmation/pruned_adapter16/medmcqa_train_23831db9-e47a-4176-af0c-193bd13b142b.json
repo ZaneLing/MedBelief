@@ -1,0 +1,52 @@
+{
+  "case_id": "medmcqa_train_23831db9-e47a-4176-af0c-193bd13b142b",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Multiple myeloma\"}",
+      "generated_disease": "Multiple myeloma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "decf7692ccb37f219dcf4c3dc501f9a425d1a944f69c70d3747ae04449061339"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Hyperparathyroidism\"}",
+      "generated_disease": "Hyperparathyroidism",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ee8533879e6f1727626e62ff6d04b7429ac312c43987737138a4cd0bb42777a2"
+    }
+  ]
+}

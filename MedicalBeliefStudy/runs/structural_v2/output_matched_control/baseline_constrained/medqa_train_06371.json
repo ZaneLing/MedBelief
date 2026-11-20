@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_06371",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Cerebellar hemorrhage\"}",
+      "generated_disease": "Cerebellar hemorrhage",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "09090f0c5d0dc93b483d0fbcab10eae8834a0e7608193071c493a8243f1bbbe9"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Subarachnoid hemorrhage\"}",
+      "generated_disease": "Subarachnoid hemorrhage",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "01df3dd54acd9bdaec08f1f417878f4946be7a9081cdb86abf42604ad8f09a82"
+    }
+  ]
+}

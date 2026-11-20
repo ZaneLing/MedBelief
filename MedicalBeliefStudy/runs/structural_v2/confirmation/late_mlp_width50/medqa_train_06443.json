@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_train_06443",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Congenital CMV infection\"}",
+      "generated_disease": "Congenital CMV infection",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "dfa968f66ab41100da620540320c427c7e33c1246b29897492ab0d5b6b0a1a35"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Congenital syphilis\"}",
+      "generated_disease": "Congenital syphilis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "5fd9490f84159c7962f98a64725ce739cfc9e4cd18206941399f81281747b9e3"
+    }
+  ]
+}

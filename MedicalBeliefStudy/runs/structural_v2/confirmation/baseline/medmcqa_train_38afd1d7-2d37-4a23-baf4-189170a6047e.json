@@ -1,0 +1,34 @@
+{
+  "case_id": "medmcqa_train_38afd1d7-2d37-4a23-baf4-189170a6047e",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Lymphangioma\"}",
+      "generated_disease": "Lymphangioma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "66620eb9d2bf2ad216c206c892bdee9bf3523099fac7abfd932b45b5849747a5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Lymphangioma\"}",
+      "generated_disease": "Lymphangioma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "42aaba31350ab7d47d15ac5c692e2ef7c427fcdbec93b37afe0f586dfe1c515d"
+    }
+  ]
+}

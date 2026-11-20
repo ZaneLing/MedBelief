@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_03655",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Environmental allergen\"}",
+      "generated_disease": "Environmental allergen",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "a0a003f4d6c1d884eb4cf7873a418ddaf26f08d14f6e29874fc97911af36c142"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Streptococcus pneumonia\"}",
+      "generated_disease": "Streptococcus pneumonia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "e69950068e13a63471875eaa9065f51b220735a452b787e0760d0c9d403f063d"
+    }
+  ]
+}

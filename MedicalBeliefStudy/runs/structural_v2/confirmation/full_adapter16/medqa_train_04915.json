@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_04915",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Sinusitis with bacterial superinfection\"}",
+      "generated_disease": "Sinusitis with bacterial superinfection",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "bb493bf36a687925d6a68b8c0962c29208b263dc8a3cb0313e185071dc2943fb"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Sinusitis with bacterial superinfection\"}",
+      "generated_disease": "Sinusitis with bacterial superinfection",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "e809821933928f4178e9bd4aaf6515868247b4a189355733e1bbba6a09955507"
+    }
+  ]
+}

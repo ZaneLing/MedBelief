@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_03631",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformy disease of the liver (I'm sorry but this is not an valid option\"}Note: The correct answer is typically \"Persistent veget lung disease or other non-linear pathogenic stressful stressful stressful disease but since only options are listed and none match except for 'Chronic poem of the",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "f53af13b6966a0cd4da863ddbcaa8a08987f7b5e3751225480807c5325313b92"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Schastari's disease or hypercephyria or other advanced disease or other advanced disease or other advanced disease\"} -- Note: This is an example of an non-tralonic and/or non-linear response. actual answer should be either \"Alzheimer's disease or other disease or other xplmns or other x",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "3f6c48ddeb20ad35ebf3c785a8313f5fe1f5345d57ad99753dfdd3a18fe91a02"
+    }
+  ]
+}

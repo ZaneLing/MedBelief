@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_b152b2eb-f6bd-4a3d-9b4f-b3b7ef933f84",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pervicular hypercephension\"}",
+      "generated_disease": "Pervicular hypercephension",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "a31a9047b79024781a318b87f0aaa7c6302cdc0e22d21de43ed6cd49791bf6eb"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Oemphiliaenhydrocephgia\"}\"}\"}า\"}า\"}า\nNote: The final output should be an single output without any additional appendix or additional information. If an error occurred due due an incomplete or incomplete information or an error in the process of process of process of course it should be an",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "85bdc5155afead43d33bc579060b842fe081f336913e7d40df8663d5ef204650"
+    }
+  ]
+}

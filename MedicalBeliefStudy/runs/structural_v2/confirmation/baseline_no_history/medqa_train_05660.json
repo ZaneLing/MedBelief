@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_05660",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Anaerobic bacteria overgrowth within the vagina\"}",
+      "generated_disease": "Anaerobic bacteria overgrowth within the vagina",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "453f054fa120a2f52bff96df58b6a01c537132f44ca850b8bb1f96dac364135b"
+    }
+  ]
+}

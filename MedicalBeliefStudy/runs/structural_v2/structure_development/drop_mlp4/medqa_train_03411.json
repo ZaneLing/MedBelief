@@ -1,0 +1,40 @@
+{
+  "case_id": "medqa_train_03411",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "drop_mlp4",
+    "drop_mlps": [
+      24,
+      25,
+      26,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1569571840,
+    "weight_bytes": 3139143680,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Primary polydipsia\"}",
+      "generated_disease": "Primary polydipsia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "d9ba6d42531472c4848bdedb337ba1a8d7d8f74fc85b014ea451077166981ab5"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Primary polydipsia\"}",
+      "generated_disease": "Primary polydipsia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "219406eef36b37cc00233bfc0604c94e38e60cf078d5d4f421076bf9b0a9ff41"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_04857",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Craniopharyngioma\"}",
+      "generated_disease": "Craniopharyngioma",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "a41cde0283e4018bb276d196a86df9afed1db1f21fa24f7cf049d5bd81219e60"
+    }
+  ]
+}

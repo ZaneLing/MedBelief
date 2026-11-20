@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_74e6c4f2-ccb8-44bc-a548-e7668d09d489",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "I'm sorry but information about the current body anisotropic is required to complete this problem\"} --Note: This is an example of an unolicited response. actual realignment requires actual data rather than an unolicited \"splilastic philacogroup\"}\n请注意，上述的 \"Isentotar",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "25188f9770d3e5756ab328cf2a951180bf6df78ae41ff6fda545e0625a71c52e"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "I'm sorry but please complete your own list of facts or change your own current body to better than this/thother's existing ones\"}",
+      "generated_disease": "I'm sorry but please complete your own list of facts or change your own current body to better than this/thother's existing ones",
+      "stop": "eos",
+      "tokens": 27,
+      "prompt_sha256": "31a9ee0ca2f4a7c230541bb608f22060ac374b11dc78a4ff3e02172f66e6f485"
+    }
+  ]
+}

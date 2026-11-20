@@ -1,0 +1,7 @@
+disease,n,any_divergence,any_robust_divergence,mean_divergence_rate,regression_cases,final_mapping_mean_correct
+Pneumonia,10,3,0,0.013823529411764707,7,1
+Bronchitis,10,2,0,0.017142857142857144,2,0
+Bronchospasm / acute asthma exacerbation,10,0,0,0.0,1,10
+Pulmonary embolism,10,1,0,0.005,3,10
+Spontaneous pneumothorax,10,2,0,0.013392857142857142,6,7
+Acute pulmonary edema,10,1,0,0.013636363636363636,7,9

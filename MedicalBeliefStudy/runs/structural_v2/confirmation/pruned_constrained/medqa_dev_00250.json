@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_dev_00250",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Alopecia areata\"}",
+      "generated_disease": "Alopecia areata",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "a9786a7f606339fcf51239ab82c5da07229e29e39de9ce32b9c96ada275a35cc"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Alopecia areata\"}",
+      "generated_disease": "Alopecia areata",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "3df857707bd19fb5cb5875e33d33bb0cf4ad7160e8a36b6f54093d4faf9f9ccf"
+    }
+  ]
+}

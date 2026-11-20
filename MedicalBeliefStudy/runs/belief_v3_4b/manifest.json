@@ -1,0 +1,20 @@
+{
+  "source_sha256": "2095171abce8ab8752817467e423b4922ea87d8bc695386373f8993cb8e9b844",
+  "input_sha256": "2feaaa98753a5d70a58cecd6b3257a1299bc6906d96eef754a1f464e44d083fe",
+  "protocol_sha256": "4a1299d46f04c91663aeda78e23b1871a6834413216fe2dfe7236b2990434cda",
+  "model": "4b",
+  "jobs": 424,
+  "model_hashes": {
+    "model.safetensors": "52f9cbad9cc8122b7b6dd0e30011da7860fee8ed15afd0cb8404bb26ac97a7eb",
+    "config.json": "f7816cc62c18b031d1aa3db3216a60912df7a63ba0dec6dc24d46848316403b1",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "f45a828b27bfe1ae2080246d6de51c29370a0978f15b3299123830d5ba9e08a1"
+  },
+  "helper_hashes": {
+    "phase6_measure.py": "8138e4498ef2ecbb34c847fdadbabf4b5db5b19012f3787c646edee81b076709",
+    "phase14_run.py": "75b5d00340df66ad0551dfa2c797bd0a8a68632a08d414427030091243bc100b",
+    "phase9_names.py": "6b99065469c9676068c3c594324d5975eadb000fa49301ddb96b13d3aaca6a03",
+    "phase1_run_direct.py": "c913a909b2723f50e2e286654460d033874967337075336e763578f79983e13e"
+  },
+  "api_cost_usd": 0
+}

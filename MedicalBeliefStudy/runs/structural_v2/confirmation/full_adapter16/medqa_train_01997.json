@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_01997",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Gastroschisis\"}",
+      "generated_disease": "Gastroschisis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ca4faae94ebab3d25dc335db820ec50d4fcbb82a0de911a680b7ced7a6279f9f"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Gastroschisis\"}",
+      "generated_disease": "Gastroschisis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "825aba177a87fc550abc1a2bdd515c30da940235f0274e9fa7f4f18b84ed4d56"
+    }
+  ]
+}

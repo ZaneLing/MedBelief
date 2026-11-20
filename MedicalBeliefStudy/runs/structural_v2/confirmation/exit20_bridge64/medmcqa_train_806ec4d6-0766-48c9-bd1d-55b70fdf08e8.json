@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_806ec4d6-0766-48c9-bd1d-55b70fdf08e8",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cystoid\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "5e5e9bee9590ed2e382aea293ce9bd6fb48fe0db30cf00a9348c64864722e503"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystococosis\"}",
+      "generated_disease": "Cystococosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "5a0ee9c41128c232145e1a8de8636ef49f0d34d78d515ba2b98ca5745147978e"
+    }
+  ]
+}

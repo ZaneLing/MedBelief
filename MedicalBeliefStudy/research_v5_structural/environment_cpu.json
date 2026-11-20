@@ -1,0 +1,11 @@
+{
+  "platform": "macOS-27.0.1-x86_64-i386-64bit",
+  "python": "3.11.0",
+  "packages": {
+    "numpy": "1.26.4",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.7",
+    "pandas": "2.3.3"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_00168",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "mlp_width50",
+    "mlp_keep": 0.5
+  },
+  "parameter_stats": {
+    "parameters": 1192092672,
+    "weight_bytes": 2384185344,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Endometritis\"}\n</think>\n\n{\"diagnosis\":\"Endometritis\"}\n",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 14,
+      "prompt_sha256": "798c425d5b6deb5ac795447e05a03cd9fcc3624233ea607311c912e00719b6e5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Endometritis\"}\n</think>\n\n{\"diagnosis\":\"Endometritis\"}\n",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 14,
+      "prompt_sha256": "5343bc030d57496ce9bd974761ee6f0215cee0f6c38548de132f1d7f5e3f11e3"
+    }
+  ]
+}

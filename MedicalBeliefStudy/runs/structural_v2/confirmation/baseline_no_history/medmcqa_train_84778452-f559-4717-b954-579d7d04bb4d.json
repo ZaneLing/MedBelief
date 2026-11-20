@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_84778452-f559-4717-b954-579d7d04bb4d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Dermatitis herpetiformis\"}",
+      "generated_disease": "Dermatitis herpetiformis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "c989229e0711cc2925680b0f02aebad03e2f46b0cfba930a06be3535f4d57323"
+    }
+  ]
+}

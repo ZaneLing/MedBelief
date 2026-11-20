@@ -1,0 +1,49 @@
+{
+  "case_id": "medmcqa_train_fbe5853c-1451-4c8b-a6ab-f5b573f17e50",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Vocal nodule\"}",
+      "generated_disease": "Vocal nodule",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "e6c85b2cda463b618396902bcb2acb9b91ee2cbade40c12326ea0ea637f92dc1"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Vocal nodule\"}",
+      "generated_disease": "Vocal nodule",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "2dbe96e28109af041edd087a6578a425aaad44af0ff6754ed367ae985a369c05"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "medmcqa_train_386cc729-dad5-4fed-8674-4812b48baaa3",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Measles\"}",
+      "generated_disease": "Measles",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "33bde8a9ffecf75f833694a4af34b5b051010ac015857a8ed189ea3406533e44"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Chicken pox\"}",
+      "generated_disease": "Chicken pox",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "efd27828e964fdd0a01c2295072211f97f79ca57caf9fb6492beb88f848ca1d1"
+    }
+  ]
+}

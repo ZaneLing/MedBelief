@@ -1,0 +1,52 @@
+{
+  "case_id": "medmcqa_train_73d0db0b-eb6d-4353-b7f6-aa1e82e50f9c",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Organophosphate poisoning\"}",
+      "generated_disease": "Organophosphate poisoning",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "40902f810dbbdf103554e3869de8492fef33ec89c12e4d46e95c66e18332edbf"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Datura poisoning\"}",
+      "generated_disease": "Datura poisoning",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "3ec3f481bfde17c8d5708715632fd0723598140881a6bd01f63f6b511df7ea69"
+    }
+  ]
+}

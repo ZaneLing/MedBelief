@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_05390",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Mnectionystnwnnyshtnycorpitalenhenturacovemphilenturacemplabemphiligusentigarcicotemphilenservemphilensigroupedphilottaripariparcoschilensigrouped",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "4ac50b61d0995c53b081fe82f8b9ddef5df1627afa410c1bedf4c689db8b159b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Mnectionalystenystenemosaragoa\"} (Note: This is an error error. actual correct answer is \"Betaysticenteringemotemartracovemenservememememememememememememememememememememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "e4d1e229a5192b1264e7958df7ba3b9b13d03890e4a7984f67e0a6fdc0d73d7e"
+    }
+  ]
+}

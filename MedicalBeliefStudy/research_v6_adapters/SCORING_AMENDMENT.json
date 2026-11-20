@@ -1,0 +1,207 @@
+{
+  "status": "Post-primary surface-form sensitivity audit; no model selection or training changes.",
+  "trigger": "Strict exact matching scored trailing whitespace, leading articles and malformed punctuation as diagnosis errors. Source-based normalization applied identically to all configurations.",
+  "source_sha256": "d4417720da2cb5d2cc079faff44e5f5a82b3aae3be781282ae9689661c83d75d",
+  "cases_sha256": "247775eb7a2ee57a867cf033466e210e51ada3c3a83877c86e497fa7a7f19a32",
+  "selection_sha256": "6692a3c2524fb1aaf384f434d17cac65859f764c580626d1b06c4c2ba4f48610",
+  "normalization": "UnicodeNFKC,casefold,remove leadinga/an/the,remove whitespace/quotation/braces/parentheses/punctuation except preserved+-−/<>=% signs. Prefer parsedname; onparsefailure rawprefixbeforefirstclosingbrace. Requireuniqueexactnormalizedmatchtooneofall4candidates. No gold-conditioned parsing, no fuzzy synonyms.",
+  "ambiguous_case_ids": [],
+  "repairs": [
+    {
+      "case_id": "medmcqa_train_e675b134-430c-4e38-8e06-89dec30f728e",
+      "condition": "neutral",
+      "gold": "Idiopathic (immune) thrombocytopenic purpura (ITP)",
+      "raw": "Idiopathic (immune) thrombocytopenic purpura (ITP\")\"}",
+      "normalized_correct": true
+    },
+    {
+      "case_id": "medmcqa_train_e675b134-430c-4e38-8e06-89dec30f728e",
+      "condition": "wrong",
+      "gold": "Idiopathic (immune) thrombocytopenic purpura (ITP)",
+      "raw": "Idiopathic (immune) thrombocytopenic purpura (ITP\")\"}",
+      "normalized_correct": true
+    },
+    {
+      "case_id": "medqa_train_02066",
+      "condition": "neutral",
+      "gold": "Inferior wall myocardial infarction ",
+      "raw": "Inferior wall myocardial infarction\"}",
+      "normalized_correct": true
+    },
+    {
+      "case_id": "medqa_train_03631",
+      "condition": "neutral",
+      "gold": "Discoid lupus erythematosus (DLE)",
+      "raw": "Discoid lupus erythematosus (DLE\")\"}",
+      "normalized_correct": true
+    },
+    {
+      "case_id": "medqa_train_03631",
+      "condition": "wrong",
+      "gold": "Discoid lupus erythematosus (DLE)",
+      "raw": "Discoid lupus erythematosus (DLE\")\"}",
+      "normalized_correct": true
+    },
+    {
+      "case_id": "medmcqa_train_c555e8f8-3cd9-4625-bba3-4897bbc0021b",
+      "condition": "neutral",
+      "gold": "Congenital adrenal hyperplasia(CAH)",
+      "raw": "Congenital adrenal hyperplasia(CAH\")",
+      "normalized_correct": true
+    },
+    {
+      "case_id": "medmcqa_train_c555e8f8-3cd9-4625-bba3-4897bbc0021b",
+      "condition": "wrong",
+      "gold": "Congenital adrenal hyperplasia(CAH)",
+      "raw": "Congenital adrenal hyperplasia(CAH\")",
+      "normalized_correct": true
+    },
+    {
+      "case_id": "medmcqa_train_8d747f94-fa97-4ab8-9f19-e0087c503392",
+      "condition": "neutral",
+      "gold": "Glycogen storage diseases",
+      "raw": "G glycogen storage diseases\"}",
+      "normalized_correct": false
+    },
+    {
+      "case_id": "medmcqa_train_8d747f94-fa97-4ab8-9f19-e0087c503392",
+      "condition": "wrong",
+      "gold": "Glycogen storage diseases",
+      "raw": "G glycogen storage diseases\"}",
+      "normalized_correct": false
+    },
+    {
+      "case_id": "medmcqa_train_93353f21-df7b-491c-a359-30a55a6ea6a4",
+      "condition": "neutral",
+      "gold": "A thyroglossal duct cyst",
+      "raw": "Thyroglossal duct cyst\"}",
+      "normalized_correct": true
+    },
+    {
+      "case_id": "medmcqa_train_93353f21-df7b-491c-a359-30a55a6ea6a4",
+      "condition": "wrong",
+      "gold": "A thyroglossal duct cyst",
+      "raw": "Thyroglossal duct cyst\"}",
+      "normalized_correct": true
+    },
+    {
+      "case_id": "medmcqa_train_8e68b9dc-53d8-4c22-b6e0-b8a6a5d9adae",
+      "condition": "neutral",
+      "gold": "a functional pituitary tumor",
+      "raw": "functional pituitary tumor\"}",
+      "normalized_correct": true
+    },
+    {
+      "case_id": "medmcqa_train_61ed1226-15b2-4f01-97e8-ce055ba04384",
+      "condition": "neutral",
+      "gold": "Pemphigus vulgaris.",
+      "raw": "Pemphigus vulgaris\"}",
+      "normalized_correct": true
+    },
+    {
+      "case_id": "medqa_train_07093",
+      "condition": "neutral",
+      "gold": "Primary hyperaldosteronism (Conn’s syndrome)",
+      "raw": "Primary hyperaldosteronism (Conn’s syndrome\")\"}",
+      "normalized_correct": true
+    },
+    {
+      "case_id": "medmcqa_train_b4036396-7310-4f28-bf56-4acdf8e6b64a",
+      "condition": "neutral",
+      "gold": "Inevitable aboion",
+      "raw": "Incomplete aboion\"}",
+      "normalized_correct": false
+    },
+    {
+      "case_id": "medmcqa_train_b4036396-7310-4f28-bf56-4acdf8e6b64a",
+      "condition": "wrong",
+      "gold": "Inevitable aboion",
+      "raw": "Incomplete aboion\"}",
+      "normalized_correct": false
+    },
+    {
+      "case_id": "medmcqa_train_2a0e0ad5-e7a9-441e-beec-63e0e51e28a9",
+      "condition": "wrong",
+      "gold": "Phenylketonuria",
+      "raw": "phenylketonuria\"}",
+      "normalized_correct": true
+    },
+    {
+      "case_id": "medmcqa_train_33d23960-2b26-44d6-897a-3cd6d3f3d1e4",
+      "condition": "neutral",
+      "gold": "Asthma",
+      "raw": "Asthia\"}",
+      "normalized_correct": false
+    },
+    {
+      "case_id": "medmcqa_train_33d23960-2b26-44d6-897a-3cd6d3f3d1e4",
+      "condition": "wrong",
+      "gold": "Asthma",
+      "raw": "Asthasia\"}",
+      "normalized_correct": false
+    },
+    {
+      "case_id": "medmcqa_train_053a2505-107e-4168-abab-565f43cf2d57",
+      "condition": "neutral",
+      "gold": "Neonatal Alveolar Proteinosis",
+      "raw": "Ne Neonatal Alveolar Proteinosis\"}",
+      "normalized_correct": false
+    },
+    {
+      "case_id": "medmcqa_train_0593c2e0-741a-4350-a5ab-1a610056af6a",
+      "condition": "neutral",
+      "gold": "Glanzmann thrombasthenia",
+      "raw": "Ganzmann thrombasthenia\"}",
+      "normalized_correct": false
+    },
+    {
+      "case_id": "medmcqa_train_0593c2e0-741a-4350-a5ab-1a610056af6a",
+      "condition": "wrong",
+      "gold": "Glanzmann thrombasthenia",
+      "raw": "Ganzmann thrombasthenia\"}",
+      "normalized_correct": false
+    },
+    {
+      "case_id": "medmcqa_train_d93522e3-8ae1-451e-a688-daec2e5dfe08",
+      "condition": "neutral",
+      "gold": "McArdle disease (glycogen storage disease)",
+      "raw": "McArdle disease (glycogen storage disease\")\"}",
+      "normalized_correct": true
+    },
+    {
+      "case_id": "medmcqa_train_d93522e3-8ae1-451e-a688-daec2e5dfe08",
+      "condition": "wrong",
+      "gold": "McArdle disease (glycogen storage disease)",
+      "raw": "McArdle disease (glycogen storage disease\")\"}",
+      "normalized_correct": true
+    },
+    {
+      "case_id": "medmcqa_train_8c3ffe54-362a-45ab-8b4d-a4947e674b45",
+      "condition": "wrong",
+      "gold": "Trigeminal neuralgia",
+      "raw": "trigeminal neuralgia\"}",
+      "normalized_correct": true
+    },
+    {
+      "case_id": "medqa_train_06667",
+      "condition": "neutral",
+      "gold": "Autosomal dominant polycystic kidney disease (ADPKD)",
+      "raw": "Autosomal dominant polycystic kidney disease (ADPKD\")",
+      "normalized_correct": true
+    },
+    {
+      "case_id": "medqa_train_06667",
+      "condition": "wrong",
+      "gold": "Autosomal dominant polycystic kidney disease (ADPKD)",
+      "raw": "Autosomal dominant polycystic kidney disease (ADPKD\")",
+      "normalized_correct": true
+    },
+    {
+      "case_id": "medmcqa_train_01da52da-4def-4d88-9d75-694686a35f68",
+      "condition": "neutral",
+      "gold": "Chronic intestinal ischemia (intestinal angina)",
+      "raw": "Chronic intestinal ischemia\"}",
+      "normalized_correct": false
+    }
+  ]
+}

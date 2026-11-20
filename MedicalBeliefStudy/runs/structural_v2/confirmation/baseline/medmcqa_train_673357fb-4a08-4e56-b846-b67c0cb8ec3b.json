@@ -1,0 +1,34 @@
+{
+  "case_id": "medmcqa_train_673357fb-4a08-4e56-b846-b67c0cb8ec3b",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Alpha 1 antitrypsin deficiency\"}",
+      "generated_disease": "Alpha 1 antitrypsin deficiency",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "85c41688a83b33592a45203c1b8f4a65e3555401c2c8c76a9dacb7b72c86a353"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Wilson's disease\"}",
+      "generated_disease": "Wilson's disease",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "d445faf529ad3988f23d377609bf2ca494613c76b1a8c5c2158c3052f32b2a75"
+    }
+  ]
+}

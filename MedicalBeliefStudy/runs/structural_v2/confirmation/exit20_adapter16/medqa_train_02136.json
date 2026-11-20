@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_02136",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniform polyiform stress stress disorder\"}",
+      "generated_disease": "Chronic veniform polyiform stress stress disorder",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "14c2c2df13b76835c9164240732cb8b85b2304aab6f5e5469bc985d68de7c816"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniform polyiform chagenia syndrome (IGgaOysturinoma\"}\"}\"}\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า冲\"}า",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "fe9534c26ebab68b541634e202376f228e0279b7eb9c4100ee8273e5039b952d"
+    }
+  ]
+}

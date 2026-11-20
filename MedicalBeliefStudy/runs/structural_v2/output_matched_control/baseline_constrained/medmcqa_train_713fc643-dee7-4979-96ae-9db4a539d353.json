@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_713fc643-dee7-4979-96ae-9db4a539d353",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Cirrhosis\"}",
+      "generated_disease": "Cirrhosis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "5462b57242a4933cc1710b0f14d45465f4bba9baeaa61221a31fa654f7a5b1b0"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Hepatic venous outflow tract obstruction\"}",
+      "generated_disease": "Hepatic venous outflow tract obstruction",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "1d8968e6ddd7e06c96ba2442e487931ea9054216f4e1d8787614b817a89e16e2"
+    }
+  ]
+}

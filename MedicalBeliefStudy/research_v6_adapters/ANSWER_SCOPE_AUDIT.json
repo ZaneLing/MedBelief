@@ -1,0 +1,114 @@
+{
+  "status": "Post-result source-answer-type sensitivity. Narrow explicit source-label audit, not exhaustive clinician disease ontology; no changes to train/development/selection.",
+  "cases_sha256": "247775eb7a2ee57a867cf033466e210e51ada3c3a83877c86e497fa7a7f19a32",
+  "rows": [
+    {
+      "case_id": "medqa_dev_00157",
+      "reason": "检查特征：ASCA positivity，不是疾病名称",
+      "source_answer": "ASCA positivity",
+      "candidates": [
+        "ANCA positivity",
+        "ASCA positivity",
+        "Dilated vascular structure in the anal canal",
+        "Mucosal disruption"
+      ],
+      "source_question": "Which of the following best describes the most likely diagnosis?"
+    },
+    {
+      "case_id": "medqa_train_03655",
+      "reason": "致病因素：Environmental allergen",
+      "source_answer": "Environmental allergen",
+      "candidates": [
+        "Cold weather",
+        "Coronavirus",
+        "Environmental allergen",
+        "Streptococcus pneumonia"
+      ],
+      "source_question": "Which of the following is the most likely diagnosis?"
+    },
+    {
+      "case_id": "medqa_train_01986",
+      "reason": "病理描述：Calcification of valve leaflets",
+      "source_answer": "Calcification of valve leaflets",
+      "candidates": [
+        "Autoimmune valve destruction",
+        "Calcification of valve leaflets",
+        "Incompetent valve",
+        "Outflow tract obstruction"
+      ],
+      "source_question": "Which of the following is the most likely diagnosis?"
+    },
+    {
+      "case_id": "medmcqa_train_1bba25d9-7512-458e-b47c-65a5a78c975f",
+      "reason": "病原体简称：CMV",
+      "source_answer": "CMV",
+      "candidates": [
+        "Candida",
+        "CMV",
+        "Herpes",
+        "Eosinophilic esophagitis"
+      ],
+      "source_question": "What is the diagnosis?"
+    },
+    {
+      "case_id": "medqa_dev_00294",
+      "reason": "病原体名称：Parvovirus B19",
+      "source_answer": "Parvovirus B19",
+      "candidates": [
+        "Gonococcal arthritis",
+        "Parvovirus B19",
+        "Rheumatoid arthritis",
+        "Transient synovitis"
+      ],
+      "source_question": "Which of the following is the most likely diagnosis?"
+    },
+    {
+      "case_id": "medmcqa_train_202cb4ea-c9ef-4e19-868c-eaae7fca2262",
+      "reason": "影像/体征描述：Consolidation",
+      "source_answer": "Consolidation",
+      "candidates": [
+        "Hydatid cyst",
+        "Lung abscess",
+        "Consolidation",
+        "'Thoracic duct malformations"
+      ],
+      "source_question": "What is your diagnosis?"
+    },
+    {
+      "case_id": "medmcqa_train_27f22bd6-be02-4c94-bbd5-deb82ef5a018",
+      "reason": "组合选项c abd b，不能作为单一疾病名",
+      "source_answer": "c abd b",
+      "candidates": [
+        "Post streptococcal Glomerulonephritis (PSGN)",
+        "Cryoglobulinemia",
+        "Membranoproliferative Glomerulonephritis (MPGN)",
+        "c abd b"
+      ],
+      "source_question": "The most likely diagnosis is:"
+    },
+    {
+      "case_id": "medmcqa_train_fba4477b-e045-47e8-a48b-d0856f57ccc9",
+      "reason": "分子机制：LDL receptor mutation",
+      "source_answer": "LDL receptor mutation",
+      "candidates": [
+        "Familial type III hyperlipoproteinemia",
+        "Abetalipoproteinemia",
+        "Familial lipoprotein lipase deficiency (type 1)",
+        "LDL receptor mutation"
+      ],
+      "source_question": "The likely diagnosis is"
+    },
+    {
+      "case_id": "medqa_dev_00834",
+      "reason": "分子机制：Intrinsic apoptotic pathway；题干要求诊断与选项类型不吻合",
+      "source_answer": "Intrinsic apoptotic pathway",
+      "candidates": [
+        "Intrinsic apoptotic pathway",
+        "Coagulative necrosis",
+        "Overexpression of BcL-2 gene",
+        "Cytotoxic CD8 T cells pathway"
+      ],
+      "source_question": "What is the most likely diagnosis for the lesions seen in endoscopy?"
+    }
+  ]
+}

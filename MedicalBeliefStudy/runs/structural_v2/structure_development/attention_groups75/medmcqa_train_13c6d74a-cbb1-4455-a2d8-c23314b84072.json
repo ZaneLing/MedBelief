@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_13c6d74a-cbb1-4455-a2d8-c23314b84072",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Coloboma of the macula\",\"type\":\"epithelial\",\"anatomic_location\":\"vitreous cavity\",\"clinical_significance\":\"minor to moderate subluxation of the lens with mild to marked nuclear sclerosis\",\"etiology\":\"traumatic or idiopathic\"],\"risk_factors\":[\"prenatal exposure to retinoic acid",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "a0b1d328f289ec83b7fd225be1fea8bfffd09ecba83cfb4ee088bd5fb971ca3b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Lenticule detachment\",\"severity\":\"moderate\",\"description\":\"A detached lenticular structure with subclinical evidence of early neovascularization and mild to marked edema of the retinal pigment epithelium with a suggestion of a serpiginous course consistent with a pre-ruptured retinal detachment with sub",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "9c3799b4bb099895c30822d9c33df955552c673dd449bb701012d09d8df10e99"
+    }
+  ]
+}

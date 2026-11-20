@@ -1,0 +1,33 @@
+{
+  "seed": "medical-belief-building-v3-20261119",
+  "new_patients": 240,
+  "classes": 24,
+  "deep_patients": 72,
+  "mechanism_patients": 24,
+  "complete_trajectory_updates": 567,
+  "jobs_1_7b": 1359,
+  "jobs_4b": 424,
+  "jobs_by_condition": {
+    "append_base": 807,
+    "panel_base": 240,
+    "append_reverse": 72,
+    "append_shuffle": 72,
+    "repeat_middle": 24,
+    "remove_middle": 24,
+    "omit_named_history": 24,
+    "history_actual": 24,
+    "history_gold": 24,
+    "history_wrong": 24,
+    "history_wrong_final": 24
+  },
+  "excluded_prior_fact_sets": 490,
+  "new_fact_sets_unique": 240,
+  "prior_overlap": 0,
+  "source_hashes": {
+    "test.csv": "f7ac3eae934c85780fc9b109a6cac5771540619a02690bee6fc0ab402baec186",
+    "release_evidences.json": "281c78b044ae60514e28ecc9052d08a8225dd3e2db3f00f8788b99c47b05e0c0"
+  },
+  "protocol_sha256": "4a1299d46f04c91663aeda78e23b1871a6834413216fe2dfe7236b2990434cda",
+  "script_sha256": "001c68740481e2ab8b347e0854a8ef4f43cd02d05bd333884f6b0b318f9a4a35",
+  "api_cost_usd": 0
+}

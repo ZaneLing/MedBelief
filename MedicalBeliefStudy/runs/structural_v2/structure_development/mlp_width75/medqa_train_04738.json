@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_04738",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "mlp_width75",
+    "mlp_keep": 0.75
+  },
+  "parameter_stats": {
+    "parameters": 1456333824,
+    "weight_bytes": 2912667648,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Frontotemporal dementia\"}",
+      "generated_disease": "Frontotemporal dementia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ef714ad2b818f5a511663fd72bb51d5381deae1d7919f6726d0c188d3f9179d6"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Creutzfeldt-Jakob disease\"}",
+      "generated_disease": "Creutzfeldt-Jakob disease",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "7de2f1e14700187b16974ae5a76830f819e7e1bde567d022674d956bb187880b"
+    }
+  ]
+}

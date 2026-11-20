@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_f06a0630-35e0-413a-963c-185c245ef159",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic pain pain disorder forgeries\"}\"}Note: This is an example of an non-tralonic and/or non-realistic response. actual real-world phausentos would be based solely based adinalerystenentos and/or other relevant factors such aysturacovemphilis etc",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "9740fc1df81540e43d0a5357f015bc7a36a7701d191582db75e7c1234da7d6a4"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic pain pain disorder for reasons unknown\"}\"}Note: This is an example of an non-ccherted response. actual real-life scenario would require specific physical and physiological data to accurately categorylentiformaentalystenentepentoidentation\"}\"}Please consult professional medical professionals for accurate medical advice",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 63,
+      "prompt_sha256": "f3f69eddb5a694ba2c12cf0e5ecca3907c58db4a4feabca6e3e02e7e3320754c"
+    }
+  ]
+}

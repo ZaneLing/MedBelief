@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_b980ef1f-f337-435c-8922-82b0b58535a4",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Celiac disease\"}",
+      "generated_disease": "Celiac disease",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "f8774169bf2817f877aeabdebcfcecdd728007a8bc93509a23150dc6492841be"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Hirschsprung disease\"}",
+      "generated_disease": "Hirschsprung disease",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "1d0055f12e72d53bc781a937022ba5975f4b561f58559e6cece3d207ac6b24de"
+    }
+  ]
+}

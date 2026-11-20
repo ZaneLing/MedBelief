@@ -1,0 +1,29 @@
+experiment_id: rq2_online_seed42
+research_question: RQ2
+seed: 42
+dataset:
+  name: ddxplus
+  split: validate
+  data_manifest: data/manifests/ddxplus_v1.json
+  closed_world_negative: true
+online:
+  budgets: [3, 6, 10]
+  budget: 6
+  max_cases: 300
+belief_models: [nb]
+policies: [random, eig, eig_cost, llm, llm_belief]
+llm:
+  model: qwen/qwen-2.5-7b-instruct   # closest available Qwen instruct backbone on OpenRouter
+  budget_usd: 3.0                     # HARD cap enforced by the client
+  max_tokens: 256
+  temperature: 0.0
+  json_mode: true
+metrics:
+  primary: [accuracy_at_B, mean_asks, final_nll]
+  secondary: [top3_at_B, invalid_actions, cost_at_correct]
+stopping:
+  rule: eig_threshold_or_budget
+logging:
+  save_full_probs: true
+  save_all_actions: true
+  save_tokens_and_runtime: true

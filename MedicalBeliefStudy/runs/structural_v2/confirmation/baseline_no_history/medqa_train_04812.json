@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_04812",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Vascular dementia\"}",
+      "generated_disease": "Vascular dementia",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "90feee7b3f76629bba97262a28c6fd3f5b8f2caa7937cacbbe93cebf6582f40d"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_validation_4032c899-2223-435f-a007-c513fd59a065",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Havatell's syndrome orphans orphans\"} -- Note: This is an error correction and/or an error in the original system. actual correct answer is \"minimal viable stress orphans orphans orphans\"} -- Again this is an error. actual correct answer is \"minimal impact stress orlando city\"} This is",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "77d7f46636310ab6d8ad65f1c44bfaf7544d404648f6084d40ba0d28d6a51a1d"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformyralenemia\"}",
+      "generated_disease": "Chronic veniformyralenemia",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "58ed1780451576e7d8ed3fdda985f762a2e6d99b7fd8482bc1fc1f6c4ea5f690"
+    }
+  ]
+}

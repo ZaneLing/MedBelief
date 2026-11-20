@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-18",
+  "role": "Exploratory follow-up after seeing 3/32 first-pilot errors; not independent case confirmation",
+  "prior_errors_seen": true,
+  "new_outputs_seen": false,
+  "families_reused": 8,
+  "whole_set_repeat": {
+    "records": 32,
+    "data": "data/phase3_future_pilot.jsonl",
+    "sha256": "cd3d69d3c68ac4ee16be1547333cb9707b6a91596598df940e53a061b541da01",
+    "seed": 20261119
+  },
+  "repairs": {
+    "records": 96,
+    "data": "data/phase3_update_repairs.jsonl",
+    "sha256": "9a0acd82ebb1353861d59d3968e2f323952e9975c12c950b3ab8c4b6badd6aed",
+    "seed": 20261118,
+    "variants": [
+      "Neutral update avoids the ambiguous has-not-been-amended phrase, leaves R1 status implicit",
+      "Explicit reminder of R1 existing status, no new clinical fact",
+      "Remove the previous assistant answer only, preserving original user prompts"
+    ]
+  },
+  "reason": "All 3 errors occurred in family-index10 wording, where R1 has not been amended could be misread as reversal of its earlier amended ownership. Test wording and previous-answer alternatives before attributing persistence to belief.",
+  "primary_analysis": "Report all 32 rows per condition, all 16 unavailable-R1 rows, errors by family/domain, original-error overlap, and matched improvements/worsenings. No selected-case-only retry.",
+  "limits": "Same numerical families and current model answers reused; prompt repairs change text/length, removing assistant also changes conversation structure. No causal intervention inside model.",
+  "sampling": {
+    "max_tokens": 2048,
+    "batch_size": 16,
+    "same_rng_keys_within_seed": true
+  },
+  "api_cost_usd": 0,
+  "source_sha256": "f0b25ed5d7fdfc8059f3a18f9c602c64018ec5ff90f982e8baa5c6c3d65a7f0e"
+}

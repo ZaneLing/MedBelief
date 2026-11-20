@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_06823",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Pancoast tumor\"}",
+      "generated_disease": "Pancoast tumor",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "5a85eaba269e80ff70d694541566872a4c9c223a4754021ab1ea0792e1ab1d4f"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Pancoast tumor\"}",
+      "generated_disease": "Pancoast tumor",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "409f45ce68f78acfe8827742876350eba246da1671165cf96847947bd3c2340e"
+    }
+  ]
+}

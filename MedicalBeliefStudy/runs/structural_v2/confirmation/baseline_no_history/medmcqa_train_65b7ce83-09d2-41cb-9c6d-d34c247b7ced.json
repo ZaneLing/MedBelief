@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_65b7ce83-09d2-41cb-9c6d-d34c247b7ced",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Chronic endometritis\"}",
+      "generated_disease": "Chronic endometritis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "e6090d079d2eca3f477c4219a7c76908faa4f5f705fa9902986865d984e69844"
+    }
+  ]
+}

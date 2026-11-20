@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_02671",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Nephrolithiasis\"}",
+      "generated_disease": "Nephrolithiasis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "ccbbbbe01bb88bac0f4fb0151db1a07e37c71a3a2970538699a491e9fd367822"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Nephrolithiasis\"}",
+      "generated_disease": "Nephrolithiasis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "6d2389f2e68fb5ed62d0c157f502ccf38488af5ac4f3fc995f7ac01d821b115e"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_09133",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Hypromaloma\"}",
+      "generated_disease": "Hypromaloma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "5bdb8a6679b8da52aeeec25a2156f4613fa01363e29f85898a8a574b506c371d"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Hypromaloma\"}",
+      "generated_disease": "Hypromaloma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ae1889079c11ef30707e0418186fc1a767e19a4b73597388221a09cdbbb47acf"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_6c998c19-080a-4543-81af-0dacfbc248e6",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Aortic regurgitation\"}",
+      "generated_disease": "Aortic regurgitation",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "966e97add4ebab78439bb99431856ed3b963822405f99fcdda933d010942a64a"
+    }
+  ]
+}

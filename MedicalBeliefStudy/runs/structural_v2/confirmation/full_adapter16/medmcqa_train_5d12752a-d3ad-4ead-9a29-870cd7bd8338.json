@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_5d12752a-d3ad-4ead-9a29-870cd7bd8338",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Piriformis syndrome\"}",
+      "generated_disease": "Piriformis syndrome",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "14ca178d9bc1ad15f31094b514375b0d7e28f38aecd35787e8f35bed67396542"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Piriformis syndrome\"}",
+      "generated_disease": "Piriformis syndrome",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "c6440a68a76628f6ffe8f80041abba9760c27f7ba1d038e92f041ed6eeca93f5"
+    }
+  ]
+}

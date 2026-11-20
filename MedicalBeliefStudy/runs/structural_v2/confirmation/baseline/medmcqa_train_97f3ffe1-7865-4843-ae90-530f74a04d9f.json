@@ -1,0 +1,34 @@
+{
+  "case_id": "medmcqa_train_97f3ffe1-7865-4843-ae90-530f74a04d9f",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Grief\"}",
+      "generated_disease": "Grief",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "ffa506ddaa367a2acc33707cb653c2ed2fb43cb850bc5c9b97429b996d22869b"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Grief\"}",
+      "generated_disease": "Grief",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "a32a79c57cc809f1f4002857909bc719d9ca3ba68b4c5e0e901685dd603ee066"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_c8c56bbc-b0c2-4004-892e-62524d0c075e",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic disease of course I am unable to fully understand the problem. Please provide more information or clarify the problem-solving process\"}",
+      "generated_disease": "Chronic disease of course I am unable to fully understand the problem. Please provide more information or clarify the problem-solving process",
+      "stop": "eos",
+      "tokens": 25,
+      "prompt_sha256": "8ab19fc2dabc8e0f229f00059e8a26a4f112e2c5576191f27e82463c1a94a3ad"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pentero's disease orphans orphans\"}\"}Note: This is an error correction and/or an error in the original system. actual correct answer is \"Schellsberg's disease orphans orphans orphans\"}请注意，上述的\"Blue color colorings and/or an otherworldlich pausentechs",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "01dfa6b7fc49e3ab57ca778757587df28cd27399504076e91691590c197e9251"
+    }
+  ]
+}

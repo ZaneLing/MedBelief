@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_05448",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Histrionic personality disorder\"}",
+      "generated_disease": "Histrionic personality disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "8c1175bb0dbfce44016113183d5e99afdc5d653e4930281e9e450d16a0e707e0"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "case_id": "medmcqa_train_aff6881f-d220-4dcf-bea4-383e7a6033d6",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Vernal keratoconjunctivitis\"}",
+      "generated_disease": "Vernal keratoconjunctivitis",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "260e43fd9b6172e77fe50b43ce6888a50697a53dde90a6b69afd5e1602ad9f14"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Episcleritis\"}",
+      "generated_disease": "Episcleritis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "1d27742606f9807ea2ff47f6e67bf9a110e521b34b6e247d5c72caf212700aba"
+    }
+  ]
+}

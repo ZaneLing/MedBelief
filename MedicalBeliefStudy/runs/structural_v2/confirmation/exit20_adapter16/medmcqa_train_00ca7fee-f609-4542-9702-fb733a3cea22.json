@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_00ca7fee-f609-4542-9702-fb733a3cea22",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformynephical disorder\"} (Note: This is an example of an non-linear response. actual real-world response would be either \"Isolation of an unusual pathogen or other non-linear pathogenicity\"} However, considering the actual scenario and typical philacogroupings of these types",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "a871f3b951fce0bdf54f1cd72b10e7141c0b1adccb000258e9a40310bccc6d6a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pervicular body disorder or hyper stress syndrome or other unspecified disease or other unspecified disease\"}\"}\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า冲\"}า吉安市市市市安全区中心医院（简称：华城",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "0d4271a5b3c7decb386a66de5dcd3789827138b6b37210e47f984e420384a030"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_05089",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "PemphoxiaemiaIIGalipohemototosis\"} (Note: This is an error correction and/or an error in the original systematics. actual correct answer is 'NormalcyMetocovemetricalserventuris or other relevant phausiaotaxiaotaxia but",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "6e8a561743873b57068cdd864e336098511f5533fc022c5f0eba056e872e742b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformynephical disorder\"}",
+      "generated_disease": "Chronic veniformynephical disorder",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "91379964e62a0b47089de4b4b8573730015757cb0e068eaea0cbfcfe7ee2d132"
+    }
+  ]
+}

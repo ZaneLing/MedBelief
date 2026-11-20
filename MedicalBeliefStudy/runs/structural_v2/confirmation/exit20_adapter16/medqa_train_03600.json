@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_03600",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Insectoididaliahserventodemphilentechserventemphilentechservinemplentiguyneemenservemtracovemphilenemphodememphilenservdememphilenservdememphilsem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "f6cd084463de23d134b672f04625de3cbe4d13290bf45f287bb808f4bd437da4"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Charcusian syndrome orients in favor of an external chagenia pathogenetic memsystic system inductive acumen entiresses tracional devoentechserventos emetonicity subdivsentecos emetathosos emphilentos em",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "2c05cddfe92907e152c9b2651d65e6e223f490f2be40d42b4fcdb56b952f5af6"
+    }
+  ]
+}

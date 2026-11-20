@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_08377",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Femoral artery aneurysm\"}",
+      "generated_disease": "Femoral artery aneurysm",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "884a5c22312ae9d063fa28369e1e86d6a11c5d9b91c993a420c5a3e111f869dc"
+    }
+  ]
+}

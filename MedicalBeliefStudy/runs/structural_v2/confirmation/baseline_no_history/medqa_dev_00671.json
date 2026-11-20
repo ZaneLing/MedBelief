@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_dev_00671",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Giant cell tumor\"}",
+      "generated_disease": "Giant cell tumor",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "6766c67c37b727c875ecfa07f831640772520b323e18f9ad0b13774882581bf6"
+    }
+  ]
+}

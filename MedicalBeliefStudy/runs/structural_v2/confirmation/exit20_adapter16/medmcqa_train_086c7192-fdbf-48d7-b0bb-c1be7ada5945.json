@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_086c7192-fdbf-48d7-b0bb-c1be7ada5945",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Appendixleftwardwardlinearityextrabalancefulnesssplarsententososentecoteminalenemoteminalenemenserventechservemanservemanservemanservemanservemanservemansigroupingservanservservemenserv",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "a37f47740a6065f3d2f3217fed0c787173dffd8f24a58df11aa7fab775ac2972"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chilispecatoidia\"}",
+      "generated_disease": "Chilispecatoidia",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "805ddc9e7b3dd6da34e9e97fbb525168990382fe76a8a579bcda4fd3d65f931e"
+    }
+  ]
+}

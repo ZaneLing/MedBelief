@@ -1,0 +1,49 @@
+{
+  "case_id": "medmcqa_train_93b473bb-b949-4892-b3f7-ba52b1416bc6",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Normal Tension Glaucoma\"}",
+      "generated_disease": "Normal Tension Glaucoma",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "b5ecfc14fd6fedb49f79f29edc7c4590d866ad224f39c56e514fc4461519941a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Neovascular Glaucoma\"}",
+      "generated_disease": "Neovascular Glaucoma",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "715b6d175b98a1bf971769e1c2e67a03f9d0d3c89ab706a5ded6790c9fdf85e1"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_09133",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Iron deficiency anemia\"}",
+      "generated_disease": "Iron deficiency anemia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "5bdb8a6679b8da52aeeec25a2156f4613fa01363e29f85898a8a574b506c371d"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Anemia of chronic disease\"}",
+      "generated_disease": "Anemia of chronic disease",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ae1889079c11ef30707e0418186fc1a767e19a4b73597388221a09cdbbb47acf"
+    }
+  ]
+}

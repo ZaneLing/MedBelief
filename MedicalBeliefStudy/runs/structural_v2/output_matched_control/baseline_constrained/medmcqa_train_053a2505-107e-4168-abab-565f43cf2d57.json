@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_053a2505-107e-4168-abab-565f43cf2d57",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Neonatal Alveolar Proteinosis\"}",
+      "generated_disease": "Neonatal Alveolar Proteinosis",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "3e9d4c80db2d1d6cb19b938d2e84df2bfb5ead8d025bd9e0c1759cd661a08eda"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Total Anomalous Pulmonary Venous Circulation (TAPVC)\"}",
+      "generated_disease": "Total Anomalous Pulmonary Venous Circulation (TAPVC)",
+      "stop": "eos",
+      "tokens": 16,
+      "prompt_sha256": "0d351b241876a96fa30b886ac897a2bdc6cef780ed7257f44be1f2220a07c313"
+    }
+  ]
+}

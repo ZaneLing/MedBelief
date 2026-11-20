@@ -1,0 +1,25 @@
+case_id,gold,panel_top,panel_correct,append_correct
+ddx_test_0042118,Bronchitis,Acute COPD exacerbation / infection,False,False
+ddx_test_0032489,Acute dystonic reactions,Acute laryngitis,False,False
+ddx_test_0044249,Boerhaave,Pulmonary embolism,False,False
+ddx_test_0101113,Spontaneous pneumothorax,Spontaneous pneumothorax,True,True
+ddx_test_0079685,Guillain-Barré syndrome,Pulmonary embolism,False,True
+ddx_test_0067994,Bronchitis,Acute COPD exacerbation / infection,False,False
+ddx_test_0037913,Pericarditis,Bronchitis,False,False
+ddx_test_0017896,HIV (initial infection),Acute rhinosinusitis,False,True
+ddx_test_0005881,Anemia,Pulmonary embolism,False,True
+ddx_test_0006854,Anemia,Anemia,True,True
+ddx_test_0108184,Guillain-Barré syndrome,Pulmonary embolism,False,True
+ddx_test_0110714,Pulmonary embolism,Pulmonary embolism,True,True
+ddx_test_0061730,Cluster headache,Acute rhinosinusitis,False,True
+ddx_test_0077278,Pericarditis,Acute pulmonary edema,False,True
+ddx_test_0048692,Pulmonary embolism,Pulmonary embolism,True,True
+ddx_test_0123136,GERD,Bronchitis,False,True
+ddx_test_0041136,Acute otitis media,Acute rhinosinusitis,False,True
+ddx_test_0027885,Pancreatic neoplasm,Acute COPD exacerbation / infection,False,True
+ddx_test_0134351,Viral pharyngitis,Pulmonary embolism,False,False
+ddx_test_0064225,Acute pulmonary edema,Pulmonary embolism,False,True
+ddx_test_0060159,Acute dystonic reactions,Pulmonary embolism,False,True
+ddx_test_0062355,Acute dystonic reactions,Pulmonary embolism,False,True
+ddx_test_0084538,Inguinal hernia,Acute COPD exacerbation / infection,False,False
+ddx_test_0045887,URTI,Acute rhinosinusitis,False,False

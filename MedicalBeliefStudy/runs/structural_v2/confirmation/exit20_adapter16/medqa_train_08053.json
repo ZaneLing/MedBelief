@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_08053",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Scholarstownanosarataenetepentoidenemotemenservicentericus\"} (Note: This is an example of an non-standard and non-existent \"Splarsicotarum etrogenicus etentilensigroupentilensigroupingservicinalent",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "ae36fd270e1a6174f529018db8265587024a0505027b9dfb8a8f4371e4fc8658"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Scholar's disease or hypercephension or other nameplate disease or other nameplate disease or other namecentiyserventososentecosaripovemosogememememememememememememememppertententecetetepemememhem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "22981b3e278efc7a5ba4eaedab4f637659df1006094e25202d61e126722ccbe2"
+    }
+  ]
+}

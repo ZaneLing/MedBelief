@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_03295",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "mlp_width75",
+    "mlp_keep": 0.75
+  },
+  "parameter_stats": {
+    "parameters": 1456333824,
+    "weight_bytes": 2912667648,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Mallory-Weiss tear\"}",
+      "generated_disease": "Mallory-Weiss tear",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "a11051704470a00866fe52e77fbb5f7a414cd39abc946fa8a0f936ca98b36df3"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Mallory-Weiss tear\"}",
+      "generated_disease": "Mallory-Weiss tear",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "5b13ec3dd8b36c0f8abbd570701b4a36afdb26b425b9dd36cf24abd74443c83e"
+    }
+  ]
+}

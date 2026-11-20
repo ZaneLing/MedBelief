@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_04175",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Amytrophic laterality\"}",
+      "generated_disease": "Amytrophic laterality",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "9f017017e76581ee18e2680f4ae36bd32c0cc867ab6fe611041955a7aad743b2"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Amytrophic lateralsclerosis\"}",
+      "generated_disease": "Amytrophic lateralsclerosis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "092cc6bf5d44bb4944e9019b4029765b4eaddc04c37038e0cf20b974599fefb2"
+    }
+  ]
+}

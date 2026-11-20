@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_dev_01064",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Acute myeloid leukemia\"}",
+      "generated_disease": "Acute myeloid leukemia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "1372e6a7cc4d2a269071ef6e7c583fc9e0713b64bcd824fd06dd7a0c60a82121"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Acute myeloid leukemia\"}",
+      "generated_disease": "Acute myeloid leukemia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "ace5299cfd0e50621f5153113428ca4a3127904e10412a0d4a01273d19eec0d2"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_35c6e862-1c38-4d9d-a094-18a0dec28c5f",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Conggiardiaphilia\"} (Note: This is an error correction and/or an error in the original list list. actual correct answer is either \"Cystxuals orphans orphans orphans (nontravpitalmmephicaly anoteminalenemoteminalenem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "e0675c71a8f210f2e939353d5b4a2040906782e0e0adb66b976ac1bd60e59917"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cong fatigue\"} (Note: This is an error correction and/or an error in the original setup. actual correct answer should be either \"Cetaoysenia or other relevant phausia butchers. However, if no actual valid options available\"} (Note: actual correct answer should be either \"Chil",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "3ed1ab43c59ef90a900bfb294cfd2e246b5146f2a9192b74bd273e6ba98d4625"
+    }
+  ]
+}

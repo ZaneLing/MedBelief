@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_03364",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Laryngeal carcinoma\"}",
+      "generated_disease": "Laryngeal carcinoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "34a8d8e0758b042ba3c57f7c87eac08af6c3793676a3e1d84ed9b947847a24b4"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Laryngeal carcinoma\"}",
+      "generated_disease": "Laryngeal carcinoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "8fc87fb1dd1230c1aaa9a7d4d854bfba4235abe3a3dcb71745f855060eea81b2"
+    }
+  ]
+}

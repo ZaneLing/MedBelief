@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_08377",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxiaulmonary disorder\"} (Note: This is an error correction and/or an error in the original system. actual correct answer is \"minimaloxesparic acid stressoutemystinggalystingemphinalenysturacovemphinalenysseminalenemphinal",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "a4330bd77b9fabbe092cd80c494c23f01737fe55f4f1c4a75335de7de0a41acf"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Schorst's disease or hypercephical pyiformen syndrome or other advanced-stage parasigonal subiective disorder or other advanced-stage nontronic subdivsential vitralicral subdivsential plavespace acumenral subdivsential truminal poeminal subdivsential trum",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "441f059ad1718fff2c18b9973b598493fc532e74476a49d85e1e10c78346230c"
+    }
+  ]
+}

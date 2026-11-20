@@ -1,0 +1,17 @@
+{
+  "dxy": {
+    "test_rows_verified": 104,
+    "max_probability_error": 1.9984014443252818e-15,
+    "portable_json_bytes": 7280
+  },
+  "mz4": {
+    "test_rows_verified": 345,
+    "max_probability_error": 0.0,
+    "portable_json_bytes": 33190
+  },
+  "mz10": {
+    "test_rows_verified": 811,
+    "max_probability_error": 4.440892098500626e-16,
+    "portable_json_bytes": 135001
+  }
+}

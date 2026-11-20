@@ -1,0 +1,34 @@
+{
+  "case_id": "medmcqa_train_27f22bd6-be02-4c94-bbd5-deb82ef5a018",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Cryoglobulinemia\"}",
+      "generated_disease": "Cryoglobulinemia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "6b94c1c2542818d3542049eefb30cb01a99dfa67fbfd17ccded02c345b6e9836"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Cryoglobulinemia\"}",
+      "generated_disease": "Cryoglobulinemia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "b406cfc497bf067f1e2b490d7248bf7b30245a57c49dfb02cade74431aa5caaf"
+    }
+  ]
+}

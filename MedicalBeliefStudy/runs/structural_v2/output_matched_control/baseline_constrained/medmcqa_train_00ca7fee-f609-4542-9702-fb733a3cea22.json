@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_00ca7fee-f609-4542-9702-fb733a3cea22",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Henoch-Schonlein purpura\"}",
+      "generated_disease": "Henoch-Schonlein purpura",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "a871f3b951fce0bdf54f1cd72b10e7141c0b1adccb000258e9a40310bccc6d6a"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Henoch-Schonlein purpura\"}",
+      "generated_disease": "Henoch-Schonlein purpura",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "0d4271a5b3c7decb386a66de5dcd3789827138b6b37210e47f984e420384a030"
+    }
+  ]
+}

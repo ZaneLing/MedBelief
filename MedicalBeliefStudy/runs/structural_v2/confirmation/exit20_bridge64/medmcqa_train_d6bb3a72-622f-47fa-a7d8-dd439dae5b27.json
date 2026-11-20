@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_d6bb3a72-622f-47fa-a7d8-dd439dae5b27",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocal\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "c2b9f6f305726b113a0e100742cfb381b9dd1f7109ce7718aca258bffa666726"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "systomococococarcicosis\"}",
+      "generated_disease": "systomococococarcicosis",
+      "stop": "eos",
+      "tokens": 11,
+      "prompt_sha256": "f878c47927746b8b8e05c79f4c8ae2fbe7e21d090e3a2b21e0e60cd2bc430b6b"
+    }
+  ]
+}

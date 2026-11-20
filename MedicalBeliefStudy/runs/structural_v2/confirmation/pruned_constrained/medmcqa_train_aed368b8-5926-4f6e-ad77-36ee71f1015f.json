@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_aed368b8-5926-4f6e-ad77-36ee71f1015f",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "minimal change disease\"}",
+      "generated_disease": "minimal change disease",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "20edb9a4c82aabe64fbbf8c8a0d5d0b99f7fd4e500d955a99f5a1635f561f2ab"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "minimal change disease\"}",
+      "generated_disease": "minimal change disease",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "25a34fe14aade1d1941a05e854440866a71484ffe08bf36f958f69ae3ede7ae0"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_03600",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Inflammation and damage to the plantar fascia\"}",
+      "generated_disease": "Inflammation and damage to the plantar fascia",
+      "stop": "eos",
+      "tokens": 12,
+      "prompt_sha256": "f6cd084463de23d134b672f04625de3cbe4d13290bf45f287bb808f4bd437da4"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Compression of the tibial nerve\"}",
+      "generated_disease": "Compression of the tibial nerve",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "2c05cddfe92907e152c9b2651d65e6e223f490f2be40d42b4fcdb56b952f5af6"
+    }
+  ]
+}

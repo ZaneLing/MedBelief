@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_7efe9080-b0da-44c6-a327-ced795f29370",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Cutaneous Leishmaniasis\"}",
+      "generated_disease": "Cutaneous Leishmaniasis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "52108913f4cbe6d49af6938755a949627d81c1dfcec04a9e067fc03eb8f20007"
+    }
+  ]
+}

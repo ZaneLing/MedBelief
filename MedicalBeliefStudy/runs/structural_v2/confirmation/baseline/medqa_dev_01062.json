@@ -1,0 +1,34 @@
+{
+  "case_id": "medqa_dev_01062",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Rett syndrome\"}",
+      "generated_disease": "Rett syndrome",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "fb90b2d49922c015f4886e4bcfe62b107121e1ab4a3e46c0db8212905e20a32f"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Rett syndrome\"}",
+      "generated_disease": "Rett syndrome",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "4ee5b3bfe8be2bcb7d4fc6d2c92b423510f8d0d47b0f514114cf2289bfc087e6"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "reason": "After seeing sklearn warnings, exclude one-class family-bootstrap draws where binary balanced accuracy is undefined; retain original result/code. Primary test predictions and point estimates unchanged.",
+  "previous_source_sha256": "f7a35353af23f6bafd45cc3cbe00f6c3ceef73def3da04d429a1e1d3da9d82c2",
+  "new_source_sha256": "4db7bef5d41985686d6d3c2a4e565cf0550c93d89cb76223b9ae6cc076ed7efb",
+  "timing": "After pilot outputs and first analysis; before repeat/repair analysis"
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_00296",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Littensburg syndrome\"}",
+      "generated_disease": "Littensburg syndrome",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "8238d3f48773abfaf44c2a5f32d16eb31bdbf151058f3103b22bbe9b17308c77"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Littensburg syndrome\"}",
+      "generated_disease": "Littensburg syndrome",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "2584cf186aab94af1960622dd77da19af9d84fd83a168e18415df1d538a88336"
+    }
+  ]
+}

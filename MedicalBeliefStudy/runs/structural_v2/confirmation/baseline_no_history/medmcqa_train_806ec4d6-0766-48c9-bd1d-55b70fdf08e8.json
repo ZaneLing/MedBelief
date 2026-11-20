@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_806ec4d6-0766-48c9-bd1d-55b70fdf08e8",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Leukoplakia\"}",
+      "generated_disease": "Leukoplakia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "864666e1bcfa4f68730084746dde37966e66e9bf4fd213f568d16867cb14ee33"
+    }
+  ]
+}

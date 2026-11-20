@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_dev_01062",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic venigotosis\"}",
+      "generated_disease": "Chronic venigotosis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "fb90b2d49922c015f4886e4bcfe62b107121e1ab4a3e46c0db8212905e20a32f"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic disease disease disease disease disease autrosic disease disease bytaxophserventososentepemphesphilentecemphilenservetemphilseminalenemphilseminalenemplabemphinalenemphilseminalenemph",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "4ee5b3bfe8be2bcb7d4fc6d2c92b423510f8d0d47b0f514114cf2289bfc087e6"
+    }
+  ]
+}

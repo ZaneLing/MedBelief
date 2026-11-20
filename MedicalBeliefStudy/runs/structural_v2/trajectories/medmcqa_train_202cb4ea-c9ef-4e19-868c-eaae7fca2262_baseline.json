@@ -1,0 +1,196 @@
+{
+  "case_id": "medmcqa_train_202cb4ea-c9ef-4e19-868c-eaae7fca2262",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -11.000297546386719,
+        -9.56283187866211,
+        -0.000339508056640625,
+        -26.075143814086914
+      ],
+      "q_sequence": [
+        1.670094832419792e-05,
+        7.031120478652285e-05,
+        0.9999129878421488,
+        4.740439220442297e-12
+      ],
+      "q_token_mean": [
+        0.11273421541839196,
+        0.14325275443544283,
+        0.7051058935004932,
+        0.03890713664567206
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Consolidation\"}",
+      "generated_disease": "Consolidation",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "4fe608b872971eac364576fd1da2bc0be14f472650683db07e707b140ac1c98f"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -1.6549911499023438,
+        -0.6862449645996094,
+        -1.1864547729492188,
+        -23.28631019592285
+      ],
+      "q_sequence": [
+        0.1911207896939209,
+        0.503534293586256,
+        0.3053449166427423,
+        7.708066152775031e-11
+      ],
+      "q_token_mean": [
+        0.3017843096992994,
+        0.35466378402975557,
+        0.31364239254249926,
+        0.029909513728445854
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Lung abscess\"}",
+      "generated_disease": "Lung abscess",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "dbb4b0a5c90f83c39a8fb2588d3831e552a1ca4173ce74ada68b5f0e8c945bc7"
+    },
+    {
+      "condition": "neutral",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.24767303466796875,
+        -2.5914306640625,
+        -1.9353485107421875,
+        -22.35787010192871
+      ],
+      "q_sequence": [
+        0.780691746195693,
+        0.07492014038429239,
+        0.14438811322496586,
+        1.9504867649094831e-10
+      ],
+      "q_token_mean": [
+        0.40466180261319457,
+        0.2738075237324122,
+        0.28636316126361405,
+        0.035167512390779254
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Hydatid cyst\"}",
+      "generated_disease": "Hydatid cyst",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "5dae7582df0ad487fdb6fc70080f3dda38cf019d495b532755d0cfc8cfbbb480"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -3.9568099975585938,
+        -0.019313812255859375,
+        -15.06622314453125,
+        -40.039316177368164
+      ],
+      "q_sequence": [
+        0.019124102833017576,
+        0.9808756108650737,
+        2.8630190871346877e-07,
+        4.084583166256695e-18
+      ],
+      "q_token_mean": [
+        0.32838896240698123,
+        0.6329858898759112,
+        0.031200136531748846,
+        0.007425011185358667
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Lung abscess\"}",
+      "generated_disease": "Lung abscess",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "f859f6930792a4d4fd6fe4609866e2c7ed3a8596012920a4787c6a225008da53"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -5.0067138671875,
+        -0.0067234039306640625,
+        -22.584962844848633,
+        -41.63439750671387
+      ],
+      "q_sequence": [
+        0.0066929143243519935,
+        0.9933070855202382,
+        1.554099186600169e-10,
+        8.287325103430503e-19
+      ],
+      "q_token_mean": [
+        0.29862415980255297,
+        0.6871258999857277,
+        0.00751308024625242,
+        0.006736859965466993
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Lung abscess\"}",
+      "generated_disease": "Lung abscess",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "221b51f2f20060e5756fa6ac0832eaa303d974edea4b8679cfc02ec01f86e326"
+    },
+    {
+      "condition": "wrong",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.16972732543945312,
+        -1.8572349548339844,
+        -20.71671485900879,
+        -39.37096977233887
+      ],
+      "q_sequence": [
+        0.8438961067695886,
+        0.15610389222383755,
+        1.0065739292056067e-09,
+        7.969034460979754e-18
+      ],
+      "q_token_mean": [
+        0.5605007911648352,
+        0.42308765613327093,
+        0.009150198470495764,
+        0.007261354231398117
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Hydatid cyst\"}",
+      "generated_disease": "Hydatid cyst",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "b3de894ff30405e6c864b8c4c56b09cbeadabae50e96c45dcdfafe824a474a3c"
+    }
+  ],
+  "state_sha256": "850b6fa28de35b729ebcff7935fe1d260e9e74ddea05134bfc2b3fed7ebe4b1c"
+}

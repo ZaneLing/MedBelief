@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_06667",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Autosomal dominant polycystic kidney disease (ADPKD)\"}",
+      "generated_disease": "Autosomal dominant polycystic kidney disease (ADPKD)",
+      "stop": "eos",
+      "tokens": 15,
+      "prompt_sha256": "46918e92adcf16be51974f03d40324fc7b0af3988b0b3285b80aa3d5b8598550"
+    }
+  ]
+}

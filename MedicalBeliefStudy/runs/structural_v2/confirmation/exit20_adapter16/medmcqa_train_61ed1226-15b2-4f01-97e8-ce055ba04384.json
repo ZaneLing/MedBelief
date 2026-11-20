@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_61ed1226-15b2-4f01-97e8-ce055ba04384",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemotarxis\"} (Note: This is an error correction and/or an error in the original system. actual correct answer is \"tentecotaris orphans orphans etentetemosphilis orphans etetetepzarrarigatiguygens etetetet",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "722e084cce12081834dcc344d6b722c2616a0fd081fbab4ebbc4099f7485aa9f"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemorosaiaulphanturicentericidalmephiliaseneticus\"} (Note: This is an error error in the original request. actual correct answer is \"Subpharcicotarumaricus orphanseservicovemphuriformes\"} (Again an error",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "ad5911e974f8529dcf194da6019ea578a5d265b38a5ff5af3758c2496d4cb90b"
+    }
+  ]
+}

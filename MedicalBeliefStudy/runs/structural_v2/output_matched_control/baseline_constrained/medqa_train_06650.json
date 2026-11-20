@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_06650",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Generalized anxiety disorder\"}",
+      "generated_disease": "Generalized anxiety disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "3cf3b9b14be4182e7160160b0d4c20c132b0abdf3745886e34a59f4c8fb33ba7"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Generalized anxiety disorder\"}",
+      "generated_disease": "Generalized anxiety disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "fdb44af093c8a532a766e974bd0eed799979e8645de6584e07b14c6004ce702a"
+    }
+  ]
+}

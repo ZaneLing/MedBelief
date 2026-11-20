@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_33d23960-2b26-44d6-897a-3cd6d3f3d1e4",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "A.\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "c89e6adefd035fcecb1e328b3c5fe48803024ab25b61cce2920c77a8edb58e28"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Acute dystomosis\"}",
+      "generated_disease": "Acute dystomosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "812ea64e59ba80fc469262ea883133d8c4ba2d9ff8a13976856ec0f8a79f84c1"
+    }
+  ]
+}

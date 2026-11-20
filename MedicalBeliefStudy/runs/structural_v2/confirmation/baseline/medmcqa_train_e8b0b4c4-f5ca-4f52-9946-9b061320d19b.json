@@ -1,0 +1,34 @@
+{
+  "case_id": "medmcqa_train_e8b0b4c4-f5ca-4f52-9946-9b061320d19b",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Obsessive compulsive disorder\"}",
+      "generated_disease": "Obsessive compulsive disorder",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "c4e864c3bb4f2ca27387b488907ff6d8af99682567758a330466b99e030f25f1"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Obsessive compulsive disorder\"}",
+      "generated_disease": "Obsessive compulsive disorder",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "30596d1cca240c928d4c29dcf16109569a7c14760758850e280bd161e8f3fbd6"
+    }
+  ]
+}

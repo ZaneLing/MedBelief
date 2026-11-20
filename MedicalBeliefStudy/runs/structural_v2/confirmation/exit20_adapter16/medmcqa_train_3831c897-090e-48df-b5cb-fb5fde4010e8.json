@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_3831c897-090e-48df-b5cb-fb5fde4010e8",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Viger's syndrome orphans orphansocialphiligentness\"} (Note: This is an error errorwensententechserventechservemtrungemememememememememememememememememememememememememememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "d0e526aa2cc9d7f281309ec813f30bd864956ebc686f668bff2bce435dfaecd9"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Couliformyriaaripohemototeminalenobenturacovemphilenservicovemphilensesparacovemphilensesparibovservinalenemphiliasenataechservinalenemphiliasenemaas",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "3b0c88c7f276b1e280ee2e0f6eb76e5fecdec2632794591a5bf418d0e27023d5"
+    }
+  ]
+}

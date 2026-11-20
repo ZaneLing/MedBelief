@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_train_08137",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Takotsubo cardiomyopathy\"}",
+      "generated_disease": "Takotsubo cardiomyopathy",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "060231a84e030e7b8c293d926bab675bdd5cecd04ba743e8d65b8f030a3de11d"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Cardiac tamponade\"}",
+      "generated_disease": "Cardiac tamponade",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "adbd33c784990085b046a2ab48ad389a34456e389cc0c3f81c19d8cc8c3c9266"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_01321",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Leprosy\"}",
+      "generated_disease": "Leprosy",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "2bf7c796ba91c16f6fe554baa2cc95cd5c9bd568fa0bc2f2b68ac46588cc3197"
+    }
+  ]
+}

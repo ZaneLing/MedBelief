@@ -1,0 +1,410 @@
+{
+  "purpose": "Post-primary diagnostic; not a preregistered mechanism test",
+  "trigger": "No-prior valid-report accuracy was 50% in each domain",
+  "mps_prompts": 33,
+  "cpu_fp32_original_prompts": 6,
+  "cpu_record_ids": [
+    "aki_00_0_none_m0_evidence",
+    "aki_00_1_none_m0_evidence",
+    "bp_00_0_none_m0_evidence",
+    "bp_00_1_none_m0_evidence",
+    "dvt_00_0_none_m0_evidence",
+    "dvt_00_1_none_m0_evidence"
+  ],
+  "paid_api_cost_usd": 0,
+  "trials": [
+    {
+      "id": "minimal_aki_00_0_none_m0_evidence",
+      "condition": "minimal",
+      "original_id": "aki_00_0_none_m0_evidence",
+      "prompt": "Apply this rule: Scope: the absolute creatinine-rise criterion only, not all AKI criteria and not the cause of illness. A rise in serum creatinine of at least 26 micromol/L within 48 hours satisfies this criterion. Both measurements must be usable measurements for this patient.\nAll measurements below are usable and belong to this patient. Report R1: serum creatinine was 70 micromol/L and is now 78 micromol/L, measured 24 hours apart.\nQuestion: Does the available record establish that this patient's measurements satisfy the specified absolute creatinine-rise criterion?\nA: Yes, the rule is met.\nB: No, the rule is not met.\nC: Insufficient information.\nReturn only A, B, or C.",
+      "gold": "no",
+      "labels": {
+        "yes": "A",
+        "no": "B",
+        "unknown": "C"
+      }
+    },
+    {
+      "id": "minimal_aki_00_1_none_m0_evidence",
+      "condition": "minimal",
+      "original_id": "aki_00_1_none_m0_evidence",
+      "prompt": "Apply this rule: Scope: the absolute creatinine-rise criterion only, not all AKI criteria and not the cause of illness. A rise in serum creatinine of at least 26 micromol/L within 48 hours satisfies this criterion. Both measurements must be usable measurements for this patient.\nAll measurements below are usable and belong to this patient. Report R1: serum creatinine was 70 micromol/L and is now 100 micromol/L, measured 24 hours apart.\nQuestion: Does the available record establish that this patient's measurements satisfy the specified absolute creatinine-rise criterion?\nA: Yes, the rule is met.\nB: No, the rule is not met.\nC: Insufficient information.\nReturn only A, B, or C.",
+      "gold": "yes",
+      "labels": {
+        "yes": "A",
+        "no": "B",
+        "unknown": "C"
+      }
+    },
+    {
+      "id": "minimal_aki_01_0_none_m0_evidence",
+      "condition": "minimal",
+      "original_id": "aki_01_0_none_m0_evidence",
+      "prompt": "Apply this rule: Scope: the absolute creatinine-rise criterion only, not all AKI criteria and not the cause of illness. A rise in serum creatinine of at least 26 micromol/L within 48 hours satisfies this criterion. Both measurements must be usable measurements for this patient.\nAll measurements below are usable and belong to this patient. Report R1: serum creatinine was 77 micromol/L and is now 86 micromol/L, measured 26 hours apart.\nQuestion: Does the available record establish that this patient's measurements satisfy the specified absolute creatinine-rise criterion?\nA: Yes, the rule is met.\nB: No, the rule is not met.\nC: Insufficient information.\nReturn only A, B, or C.",
+      "gold": "no",
+      "labels": {
+        "yes": "A",
+        "no": "B",
+        "unknown": "C"
+      }
+    },
+    {
+      "id": "minimal_aki_01_1_none_m0_evidence",
+      "condition": "minimal",
+      "original_id": "aki_01_1_none_m0_evidence",
+      "prompt": "Apply this rule: Scope: the absolute creatinine-rise criterion only, not all AKI criteria and not the cause of illness. A rise in serum creatinine of at least 26 micromol/L within 48 hours satisfies this criterion. Both measurements must be usable measurements for this patient.\nAll measurements below are usable and belong to this patient. Report R1: serum creatinine was 77 micromol/L and is now 108 micromol/L, measured 26 hours apart.\nQuestion: Does the available record establish that this patient's measurements satisfy the specified absolute creatinine-rise criterion?\nA: Yes, the rule is met.\nB: No, the rule is not met.\nC: Insufficient information.\nReturn only A, B, or C.",
+      "gold": "yes",
+      "labels": {
+        "yes": "A",
+        "no": "B",
+        "unknown": "C"
+      }
+    },
+    {
+      "id": "minimal_aki_02_0_none_m0_evidence",
+      "condition": "minimal",
+      "original_id": "aki_02_0_none_m0_evidence",
+      "prompt": "Apply this rule: Scope: the absolute creatinine-rise criterion only, not all AKI criteria and not the cause of illness. A rise in serum creatinine of at least 26 micromol/L within 48 hours satisfies this criterion. Both measurements must be usable measurements for this patient.\nAll measurements below are usable and belong to this patient. Report R1: serum creatinine was 84 micromol/L and is now 94 micromol/L, measured 28 hours apart.\nQuestion: Does the available record establish that this patient's measurements satisfy the specified absolute creatinine-rise criterion?\nA: Yes, the rule is met.\nB: No, the rule is not met.\nC: Insufficient information.\nReturn only A, B, or C.",
+      "gold": "no",
+      "labels": {
+        "yes": "A",
+        "no": "B",
+        "unknown": "C"
+      }
+    },
+    {
+      "id": "minimal_aki_02_1_none_m0_evidence",
+      "condition": "minimal",
+      "original_id": "aki_02_1_none_m0_evidence",
+      "prompt": "Apply this rule: Scope: the absolute creatinine-rise criterion only, not all AKI criteria and not the cause of illness. A rise in serum creatinine of at least 26 micromol/L within 48 hours satisfies this criterion. Both measurements must be usable measurements for this patient.\nAll measurements below are usable and belong to this patient. Report R1: serum creatinine was 84 micromol/L and is now 116 micromol/L, measured 28 hours apart.\nQuestion: Does the available record establish that this patient's measurements satisfy the specified absolute creatinine-rise criterion?\nA: Yes, the rule is met.\nB: No, the rule is not met.\nC: Insufficient information.\nReturn only A, B, or C.",
+      "gold": "yes",
+      "labels": {
+        "yes": "A",
+        "no": "B",
+        "unknown": "C"
+      }
+    },
+    {
+      "id": "minimal_aki_03_0_none_m0_evidence",
+      "condition": "minimal",
+      "original_id": "aki_03_0_none_m0_evidence",
+      "prompt": "Apply this rule: Scope: the absolute creatinine-rise criterion only, not all AKI criteria and not the cause of illness. A rise in serum creatinine of at least 26 micromol/L within 48 hours satisfies this criterion. Both measurements must be usable measurements for this patient.\nAll measurements below are usable and belong to this patient. Report R1: serum creatinine was 91 micromol/L and is now 102 micromol/L, measured 30 hours apart.\nQuestion: Does the available record establish that this patient's measurements satisfy the specified absolute creatinine-rise criterion?\nA: Yes, the rule is met.\nB: No, the rule is not met.\nC: Insufficient information.\nReturn only A, B, or C.",
+      "gold": "no",
+      "labels": {
+        "yes": "A",
+        "no": "B",
+        "unknown": "C"
+      }
+    },
+    {
+      "id": "minimal_aki_03_1_none_m0_evidence",
+      "condition": "minimal",
+      "original_id": "aki_03_1_none_m0_evidence",
+      "prompt": "Apply this rule: Scope: the absolute creatinine-rise criterion only, not all AKI criteria and not the cause of illness. A rise in serum creatinine of at least 26 micromol/L within 48 hours satisfies this criterion. Both measurements must be usable measurements for this patient.\nAll measurements below are usable and belong to this patient. Report R1: serum creatinine was 91 micromol/L and is now 124 micromol/L, measured 30 hours apart.\nQuestion: Does the available record establish that this patient's measurements satisfy the specified absolute creatinine-rise criterion?\nA: Yes, the rule is met.\nB: No, the rule is not met.\nC: Insufficient information.\nReturn only A, B, or C.",
+      "gold": "yes",
+      "labels": {
+        "yes": "A",
+        "no": "B",
+        "unknown": "C"
+      }
+    },
+    {
+      "id": "minimal_bp_00_0_none_m0_evidence",
+      "condition": "minimal",
+      "original_id": "bp_00_0_none_m0_evidence",
+      "prompt": "Apply this rule: Scope: confirmation by the specified clinic-plus-ABPM rule, not absence of all hypertension. Clinic BP must be at least 140 systolic or 90 diastolic, and the valid daytime ABPM average at least 135 systolic or 85 diastolic (mmHg). ABPM requires at least 2 readings per waking hour and an average of at least 14 daytime readings.\nAll measurements below are usable and belong to this patient. Clinic BP is 148/94 mmHg. The adult patient is not pregnant. Report R1: daytime ABPM mean 124/74 mmHg, based on 16 waking readings at 2 readings per hour, with all other measurement requirements met.\nQuestion: Does the available record meet the specified clinic-plus-ABPM rule for confirming hypertension?\nA: Yes, the rule is met.\nB: No, the rule is not met.\nC: Insufficient information.\nReturn only A, B, or C.",
+      "gold": "no",
+      "labels": {
+        "yes": "A",
+        "no": "B",
+        "unknown": "C"
+      }
+    },
+    {
+      "id": "minimal_bp_00_1_none_m0_evidence",
+      "condition": "minimal",
+      "original_id": "bp_00_1_none_m0_evidence",
+      "prompt": "Apply this rule: Scope: confirmation by the specified clinic-plus-ABPM rule, not absence of all hypertension. Clinic BP must be at least 140 systolic or 90 diastolic, and the valid daytime ABPM average at least 135 systolic or 85 diastolic (mmHg). ABPM requires at least 2 readings per waking hour and an average of at least 14 daytime readings.\nAll measurements below are usable and belong to this patient. Clinic BP is 148/94 mmHg. The adult patient is not pregnant. Report R1: daytime ABPM mean 140/89 mmHg, based on 16 waking readings at 2 readings per hour, with all other measurement requirements met.\nQuestion: Does the available record meet the specified clinic-plus-ABPM rule for confirming hypertension?\nA: Yes, the rule is met.\nB: No, the rule is not met.\nC: Insufficient information.\nReturn only A, B, or C.",
+      "gold": "yes",
+      "labels": {
+        "yes": "A",
+        "no": "B",
+        "unknown": "C"
+      }
+    },
+    {
+      "id": "minimal_bp_01_0_none_m0_evidence",
+      "condition": "minimal",
+      "original_id": "bp_01_0_none_m0_evidence",
+      "prompt": "Apply this rule: Scope: confirmation by the specified clinic-plus-ABPM rule, not absence of all hypertension. Clinic BP must be at least 140 systolic or 90 diastolic, and the valid daytime ABPM average at least 135 systolic or 85 diastolic (mmHg). ABPM requires at least 2 readings per waking hour and an average of at least 14 daytime readings.\nAll measurements below are usable and belong to this patient. Clinic BP is 149/95 mmHg. The adult patient is not pregnant. Report R1: daytime ABPM mean 125/75 mmHg, based on 18 waking readings at 2 readings per hour, with all other measurement requirements met.\nQuestion: Does the available record meet the specified clinic-plus-ABPM rule for confirming hypertension?\nA: Yes, the rule is met.\nB: No, the rule is not met.\nC: Insufficient information.\nReturn only A, B, or C.",
+      "gold": "no",
+      "labels": {
+        "yes": "A",
+        "no": "B",
+        "unknown": "C"
+      }
+    },
+    {
+      "id": "minimal_bp_01_1_none_m0_evidence",
+      "condition": "minimal",
+      "original_id": "bp_01_1_none_m0_evidence",
+      "prompt": "Apply this rule: Scope: confirmation by the specified clinic-plus-ABPM rule, not absence of all hypertension. Clinic BP must be at least 140 systolic or 90 diastolic, and the valid daytime ABPM average at least 135 systolic or 85 diastolic (mmHg). ABPM requires at least 2 readings per waking hour and an average of at least 14 daytime readings.\nAll measurements below are usable and belong to this patient. Clinic BP is 149/95 mmHg. The adult patient is not pregnant. Report R1: daytime ABPM mean 141/90 mmHg, based on 18 waking readings at 2 readings per hour, with all other measurement requirements met.\nQuestion: Does the available record meet the specified clinic-plus-ABPM rule for confirming hypertension?\nA: Yes, the rule is met.\nB: No, the rule is not met.\nC: Insufficient information.\nReturn only A, B, or C.",
+      "gold": "yes",
+      "labels": {
+        "yes": "A",
+        "no": "B",
+        "unknown": "C"
+      }
+    },
+    {
+      "id": "minimal_bp_02_0_none_m0_evidence",
+      "condition": "minimal",
+      "original_id": "bp_02_0_none_m0_evidence",
+      "prompt": "Apply this rule: Scope: confirmation by the specified clinic-plus-ABPM rule, not absence of all hypertension. Clinic BP must be at least 140 systolic or 90 diastolic, and the valid daytime ABPM average at least 135 systolic or 85 diastolic (mmHg). ABPM requires at least 2 readings per waking hour and an average of at least 14 daytime readings.\nAll measurements below are usable and belong to this patient. Clinic BP is 150/96 mmHg. The adult patient is not pregnant. Report R1: daytime ABPM mean 126/76 mmHg, based on 20 waking readings at 2 readings per hour, with all other measurement requirements met.\nQuestion: Does the available record meet the specified clinic-plus-ABPM rule for confirming hypertension?\nA: Yes, the rule is met.\nB: No, the rule is not met.\nC: Insufficient information.\nReturn only A, B, or C.",
+      "gold": "no",
+      "labels": {
+        "yes": "A",
+        "no": "B",
+        "unknown": "C"
+      }
+    },
+    {
+      "id": "minimal_bp_02_1_none_m0_evidence",
+      "condition": "minimal",
+      "original_id": "bp_02_1_none_m0_evidence",
+      "prompt": "Apply this rule: Scope: confirmation by the specified clinic-plus-ABPM rule, not absence of all hypertension. Clinic BP must be at least 140 systolic or 90 diastolic, and the valid daytime ABPM average at least 135 systolic or 85 diastolic (mmHg). ABPM requires at least 2 readings per waking hour and an average of at least 14 daytime readings.\nAll measurements below are usable and belong to this patient. Clinic BP is 150/96 mmHg. The adult patient is not pregnant. Report R1: daytime ABPM mean 142/91 mmHg, based on 20 waking readings at 2 readings per hour, with all other measurement requirements met.\nQuestion: Does the available record meet the specified clinic-plus-ABPM rule for confirming hypertension?\nA: Yes, the rule is met.\nB: No, the rule is not met.\nC: Insufficient information.\nReturn only A, B, or C.",
+      "gold": "yes",
+      "labels": {
+        "yes": "A",
+        "no": "B",
+        "unknown": "C"
+      }
+    },
+    {
+      "id": "minimal_bp_03_0_none_m0_evidence",
+      "condition": "minimal",
+      "original_id": "bp_03_0_none_m0_evidence",
+      "prompt": "Apply this rule: Scope: confirmation by the specified clinic-plus-ABPM rule, not absence of all hypertension. Clinic BP must be at least 140 systolic or 90 diastolic, and the valid daytime ABPM average at least 135 systolic or 85 diastolic (mmHg). ABPM requires at least 2 readings per waking hour and an average of at least 14 daytime readings.\nAll measurements below are usable and belong to this patient. Clinic BP is 151/97 mmHg. The adult patient is not pregnant. Report R1: daytime ABPM mean 127/77 mmHg, based on 22 waking readings at 2 readings per hour, with all other measurement requirements met.\nQuestion: Does the available record meet the specified clinic-plus-ABPM rule for confirming hypertension?\nA: Yes, the rule is met.\nB: No, the rule is not met.\nC: Insufficient information.\nReturn only A, B, or C.",
+      "gold": "no",
+      "labels": {
+        "yes": "A",
+        "no": "B",
+        "unknown": "C"
+      }
+    },
+    {
+      "id": "minimal_bp_03_1_none_m0_evidence",
+      "condition": "minimal",
+      "original_id": "bp_03_1_none_m0_evidence",
+      "prompt": "Apply this rule: Scope: confirmation by the specified clinic-plus-ABPM rule, not absence of all hypertension. Clinic BP must be at least 140 systolic or 90 diastolic, and the valid daytime ABPM average at least 135 systolic or 85 diastolic (mmHg). ABPM requires at least 2 readings per waking hour and an average of at least 14 daytime readings.\nAll measurements below are usable and belong to this patient. Clinic BP is 151/97 mmHg. The adult patient is not pregnant. Report R1: daytime ABPM mean 143/92 mmHg, based on 22 waking readings at 2 readings per hour, with all other measurement requirements met.\nQuestion: Does the available record meet the specified clinic-plus-ABPM rule for confirming hypertension?\nA: Yes, the rule is met.\nB: No, the rule is not met.\nC: Insufficient information.\nReturn only A, B, or C.",
+      "gold": "yes",
+      "labels": {
+        "yes": "A",
+        "no": "B",
+        "unknown": "C"
+      }
+    },
+    {
+      "id": "minimal_dvt_00_0_none_m0_evidence",
+      "condition": "minimal",
+      "original_id": "dvt_00_0_none_m0_evidence",
+      "prompt": "Apply this rule: Scope: the initial investigation in an adult with suspected DVT and no prior tests. Use the independently assessed two-level DVT Wells score. A score of 2 or more selects proximal leg-vein ultrasound first. A score of 1 or less selects D-dimer first. Both tests can be completed within 4 hours; delayed-test branches do not apply.\nAll measurements below are usable and belong to this patient. Report R1: the independently assessed two-level DVT Wells score is 1.\nQuestion: Does the available record place this patient on the ultrasound-first initial investigation pathway?\nA: Yes, the rule is met.\nB: No, the rule is not met.\nC: Insufficient information.\nReturn only A, B, or C.",
+      "gold": "no",
+      "labels": {
+        "yes": "A",
+        "no": "B",
+        "unknown": "C"
+      }
+    },
+    {
+      "id": "minimal_dvt_00_1_none_m0_evidence",
+      "condition": "minimal",
+      "original_id": "dvt_00_1_none_m0_evidence",
+      "prompt": "Apply this rule: Scope: the initial investigation in an adult with suspected DVT and no prior tests. Use the independently assessed two-level DVT Wells score. A score of 2 or more selects proximal leg-vein ultrasound first. A score of 1 or less selects D-dimer first. Both tests can be completed within 4 hours; delayed-test branches do not apply.\nAll measurements below are usable and belong to this patient. Report R1: the independently assessed two-level DVT Wells score is 2.\nQuestion: Does the available record place this patient on the ultrasound-first initial investigation pathway?\nA: Yes, the rule is met.\nB: No, the rule is not met.\nC: Insufficient information.\nReturn only A, B, or C.",
+      "gold": "yes",
+      "labels": {
+        "yes": "A",
+        "no": "B",
+        "unknown": "C"
+      }
+    },
+    {
+      "id": "minimal_dvt_01_0_none_m0_evidence",
+      "condition": "minimal",
+      "original_id": "dvt_01_0_none_m0_evidence",
+      "prompt": "Apply this rule: Scope: the initial investigation in an adult with suspected DVT and no prior tests. Use the independently assessed two-level DVT Wells score. A score of 2 or more selects proximal leg-vein ultrasound first. A score of 1 or less selects D-dimer first. Both tests can be completed within 4 hours; delayed-test branches do not apply.\nAll measurements below are usable and belong to this patient. Report R1: the independently assessed two-level DVT Wells score is 0.\nQuestion: Does the available record place this patient on the ultrasound-first initial investigation pathway?\nA: Yes, the rule is met.\nB: No, the rule is not met.\nC: Insufficient information.\nReturn only A, B, or C.",
+      "gold": "no",
+      "labels": {
+        "yes": "A",
+        "no": "B",
+        "unknown": "C"
+      }
+    },
+    {
+      "id": "minimal_dvt_01_1_none_m0_evidence",
+      "condition": "minimal",
+      "original_id": "dvt_01_1_none_m0_evidence",
+      "prompt": "Apply this rule: Scope: the initial investigation in an adult with suspected DVT and no prior tests. Use the independently assessed two-level DVT Wells score. A score of 2 or more selects proximal leg-vein ultrasound first. A score of 1 or less selects D-dimer first. Both tests can be completed within 4 hours; delayed-test branches do not apply.\nAll measurements below are usable and belong to this patient. Report R1: the independently assessed two-level DVT Wells score is 3.\nQuestion: Does the available record place this patient on the ultrasound-first initial investigation pathway?\nA: Yes, the rule is met.\nB: No, the rule is not met.\nC: Insufficient information.\nReturn only A, B, or C.",
+      "gold": "yes",
+      "labels": {
+        "yes": "A",
+        "no": "B",
+        "unknown": "C"
+      }
+    },
+    {
+      "id": "minimal_dvt_02_0_none_m0_evidence",
+      "condition": "minimal",
+      "original_id": "dvt_02_0_none_m0_evidence",
+      "prompt": "Apply this rule: Scope: the initial investigation in an adult with suspected DVT and no prior tests. Use the independently assessed two-level DVT Wells score. A score of 2 or more selects proximal leg-vein ultrasound first. A score of 1 or less selects D-dimer first. Both tests can be completed within 4 hours; delayed-test branches do not apply.\nAll measurements below are usable and belong to this patient. Report R1: the independently assessed two-level DVT Wells score is -1.\nQuestion: Does the available record place this patient on the ultrasound-first initial investigation pathway?\nA: Yes, the rule is met.\nB: No, the rule is not met.\nC: Insufficient information.\nReturn only A, B, or C.",
+      "gold": "no",
+      "labels": {
+        "yes": "A",
+        "no": "B",
+        "unknown": "C"
+      }
+    },
+    {
+      "id": "minimal_dvt_02_1_none_m0_evidence",
+      "condition": "minimal",
+      "original_id": "dvt_02_1_none_m0_evidence",
+      "prompt": "Apply this rule: Scope: the initial investigation in an adult with suspected DVT and no prior tests. Use the independently assessed two-level DVT Wells score. A score of 2 or more selects proximal leg-vein ultrasound first. A score of 1 or less selects D-dimer first. Both tests can be completed within 4 hours; delayed-test branches do not apply.\nAll measurements below are usable and belong to this patient. Report R1: the independently assessed two-level DVT Wells score is 4.\nQuestion: Does the available record place this patient on the ultrasound-first initial investigation pathway?\nA: Yes, the rule is met.\nB: No, the rule is not met.\nC: Insufficient information.\nReturn only A, B, or C.",
+      "gold": "yes",
+      "labels": {
+        "yes": "A",
+        "no": "B",
+        "unknown": "C"
+      }
+    },
+    {
+      "id": "minimal_dvt_03_0_none_m0_evidence",
+      "condition": "minimal",
+      "original_id": "dvt_03_0_none_m0_evidence",
+      "prompt": "Apply this rule: Scope: the initial investigation in an adult with suspected DVT and no prior tests. Use the independently assessed two-level DVT Wells score. A score of 2 or more selects proximal leg-vein ultrasound first. A score of 1 or less selects D-dimer first. Both tests can be completed within 4 hours; delayed-test branches do not apply.\nAll measurements below are usable and belong to this patient. Report R1: the independently assessed two-level DVT Wells score is -2.\nQuestion: Does the available record place this patient on the ultrasound-first initial investigation pathway?\nA: Yes, the rule is met.\nB: No, the rule is not met.\nC: Insufficient information.\nReturn only A, B, or C.",
+      "gold": "no",
+      "labels": {
+        "yes": "A",
+        "no": "B",
+        "unknown": "C"
+      }
+    },
+    {
+      "id": "minimal_dvt_03_1_none_m0_evidence",
+      "condition": "minimal",
+      "original_id": "dvt_03_1_none_m0_evidence",
+      "prompt": "Apply this rule: Scope: the initial investigation in an adult with suspected DVT and no prior tests. Use the independently assessed two-level DVT Wells score. A score of 2 or more selects proximal leg-vein ultrasound first. A score of 1 or less selects D-dimer first. Both tests can be completed within 4 hours; delayed-test branches do not apply.\nAll measurements below are usable and belong to this patient. Report R1: the independently assessed two-level DVT Wells score is 5.\nQuestion: Does the available record place this patient on the ultrasound-first initial investigation pathway?\nA: Yes, the rule is met.\nB: No, the rule is not met.\nC: Insufficient information.\nReturn only A, B, or C.",
+      "gold": "yes",
+      "labels": {
+        "yes": "A",
+        "no": "B",
+        "unknown": "C"
+      }
+    },
+    {
+      "id": "no_source_aki_00_0_none_m0_evidence",
+      "condition": "source_sentence_removed",
+      "original_id": "aki_00_0_none_m0_evidence",
+      "prompt": "This is a synthetic rule-application study. Answer the narrowly scoped target question using only the supplied rule and usable patient evidence. A tentative prior assessment is not additional evidence.\n\nRULE\nScope: the absolute creatinine-rise criterion only, not all AKI criteria and not the cause of illness. A rise in serum creatinine of at least 26 micromol/L within 48 hours satisfies this criterion. Both measurements must be usable measurements for this patient.\n\nINITIAL RECORD\nAn adult aged 42. No usable creatinine values are available yet.\n\nPRECEDING ASSESSMENT\nThere is no preceding assessment.\n\nNEW REPORT\nReport R1: serum creatinine was 70 micromol/L and is now 78 micromol/L, measured 24 hours apart.\n\nTARGET QUESTION\nDoes the available record establish that this patient's measurements satisfy the specified absolute creatinine-rise criterion?\n\nOPTIONS\nA: YES: the target rule/pathway is established.\nB: NO: usable evidence establishes that the target rule/pathway is not met.\nC: INSUFFICIENT: the required usable evidence is missing.\n\nReturn exactly one uppercase letter, A, B, or C. Do not add an explanation.",
+      "gold": "no",
+      "labels": {
+        "yes": "A",
+        "no": "B",
+        "unknown": "C"
+      }
+    },
+    {
+      "id": "no_source_aki_00_1_none_m0_evidence",
+      "condition": "source_sentence_removed",
+      "original_id": "aki_00_1_none_m0_evidence",
+      "prompt": "This is a synthetic rule-application study. Answer the narrowly scoped target question using only the supplied rule and usable patient evidence. A tentative prior assessment is not additional evidence.\n\nRULE\nScope: the absolute creatinine-rise criterion only, not all AKI criteria and not the cause of illness. A rise in serum creatinine of at least 26 micromol/L within 48 hours satisfies this criterion. Both measurements must be usable measurements for this patient.\n\nINITIAL RECORD\nAn adult aged 42. No usable creatinine values are available yet.\n\nPRECEDING ASSESSMENT\nThere is no preceding assessment.\n\nNEW REPORT\nReport R1: serum creatinine was 70 micromol/L and is now 100 micromol/L, measured 24 hours apart.\n\nTARGET QUESTION\nDoes the available record establish that this patient's measurements satisfy the specified absolute creatinine-rise criterion?\n\nOPTIONS\nA: YES: the target rule/pathway is established.\nB: NO: usable evidence establishes that the target rule/pathway is not met.\nC: INSUFFICIENT: the required usable evidence is missing.\n\nReturn exactly one uppercase letter, A, B, or C. Do not add an explanation.",
+      "gold": "yes",
+      "labels": {
+        "yes": "A",
+        "no": "B",
+        "unknown": "C"
+      }
+    },
+    {
+      "id": "no_source_bp_00_0_none_m0_evidence",
+      "condition": "source_sentence_removed",
+      "original_id": "bp_00_0_none_m0_evidence",
+      "prompt": "This is a synthetic rule-application study. Answer the narrowly scoped target question using only the supplied rule and usable patient evidence. A tentative prior assessment is not additional evidence.\n\nRULE\nScope: confirmation by the specified clinic-plus-ABPM rule, not absence of all hypertension. Clinic BP must be at least 140 systolic or 90 diastolic, and the valid daytime ABPM average at least 135 systolic or 85 diastolic (mmHg). ABPM requires at least 2 readings per waking hour and an average of at least 14 daytime readings.\n\nINITIAL RECORD\nAn adult aged 42, not pregnant, with properly measured clinic BP 148/94 mmHg. No valid ABPM result is available yet.\n\nPRECEDING ASSESSMENT\nThere is no preceding assessment.\n\nNEW REPORT\nReport R1: daytime ABPM mean 124/74 mmHg, based on 16 waking readings at 2 readings per hour, with all other measurement requirements met.\n\nTARGET QUESTION\nDoes the available record meet the specified clinic-plus-ABPM rule for confirming hypertension?\n\nOPTIONS\nA: YES: the target rule/pathway is established.\nB: NO: usable evidence establishes that the target rule/pathway is not met.\nC: INSUFFICIENT: the required usable evidence is missing.\n\nReturn exactly one uppercase letter, A, B, or C. Do not add an explanation.",
+      "gold": "no",
+      "labels": {
+        "yes": "A",
+        "no": "B",
+        "unknown": "C"
+      }
+    },
+    {
+      "id": "no_source_bp_00_1_none_m0_evidence",
+      "condition": "source_sentence_removed",
+      "original_id": "bp_00_1_none_m0_evidence",
+      "prompt": "This is a synthetic rule-application study. Answer the narrowly scoped target question using only the supplied rule and usable patient evidence. A tentative prior assessment is not additional evidence.\n\nRULE\nScope: confirmation by the specified clinic-plus-ABPM rule, not absence of all hypertension. Clinic BP must be at least 140 systolic or 90 diastolic, and the valid daytime ABPM average at least 135 systolic or 85 diastolic (mmHg). ABPM requires at least 2 readings per waking hour and an average of at least 14 daytime readings.\n\nINITIAL RECORD\nAn adult aged 42, not pregnant, with properly measured clinic BP 148/94 mmHg. No valid ABPM result is available yet.\n\nPRECEDING ASSESSMENT\nThere is no preceding assessment.\n\nNEW REPORT\nReport R1: daytime ABPM mean 140/89 mmHg, based on 16 waking readings at 2 readings per hour, with all other measurement requirements met.\n\nTARGET QUESTION\nDoes the available record meet the specified clinic-plus-ABPM rule for confirming hypertension?\n\nOPTIONS\nA: YES: the target rule/pathway is established.\nB: NO: usable evidence establishes that the target rule/pathway is not met.\nC: INSUFFICIENT: the required usable evidence is missing.\n\nReturn exactly one uppercase letter, A, B, or C. Do not add an explanation.",
+      "gold": "yes",
+      "labels": {
+        "yes": "A",
+        "no": "B",
+        "unknown": "C"
+      }
+    },
+    {
+      "id": "no_source_dvt_00_0_none_m0_evidence",
+      "condition": "source_sentence_removed",
+      "original_id": "dvt_00_0_none_m0_evidence",
+      "prompt": "This is a synthetic rule-application study. Answer the narrowly scoped target question using only the supplied rule and usable patient evidence. A tentative prior assessment is not additional evidence.\n\nRULE\nScope: the initial investigation in an adult with suspected DVT and no prior tests. Use the independently assessed two-level DVT Wells score. A score of 2 or more selects proximal leg-vein ultrasound first. A score of 1 or less selects D-dimer first. Both tests can be completed within 4 hours; delayed-test branches do not apply.\n\nINITIAL RECORD\nAn adult aged 42, not pregnant, with suspected DVT. No tests have been done. The independently assessed Wells score is pending. Ultrasound and D-dimer are each available within 4 hours.\n\nPRECEDING ASSESSMENT\nThere is no preceding assessment.\n\nNEW REPORT\nReport R1: the independently assessed two-level DVT Wells score is 1.\n\nTARGET QUESTION\nDoes the available record place this patient on the ultrasound-first initial investigation pathway?\n\nOPTIONS\nA: YES: the target rule/pathway is established.\nB: NO: usable evidence establishes that the target rule/pathway is not met.\nC: INSUFFICIENT: the required usable evidence is missing.\n\nReturn exactly one uppercase letter, A, B, or C. Do not add an explanation.",
+      "gold": "no",
+      "labels": {
+        "yes": "A",
+        "no": "B",
+        "unknown": "C"
+      }
+    },
+    {
+      "id": "no_source_dvt_00_1_none_m0_evidence",
+      "condition": "source_sentence_removed",
+      "original_id": "dvt_00_1_none_m0_evidence",
+      "prompt": "This is a synthetic rule-application study. Answer the narrowly scoped target question using only the supplied rule and usable patient evidence. A tentative prior assessment is not additional evidence.\n\nRULE\nScope: the initial investigation in an adult with suspected DVT and no prior tests. Use the independently assessed two-level DVT Wells score. A score of 2 or more selects proximal leg-vein ultrasound first. A score of 1 or less selects D-dimer first. Both tests can be completed within 4 hours; delayed-test branches do not apply.\n\nINITIAL RECORD\nAn adult aged 42, not pregnant, with suspected DVT. No tests have been done. The independently assessed Wells score is pending. Ultrasound and D-dimer are each available within 4 hours.\n\nPRECEDING ASSESSMENT\nThere is no preceding assessment.\n\nNEW REPORT\nReport R1: the independently assessed two-level DVT Wells score is 2.\n\nTARGET QUESTION\nDoes the available record place this patient on the ultrasound-first initial investigation pathway?\n\nOPTIONS\nA: YES: the target rule/pathway is established.\nB: NO: usable evidence establishes that the target rule/pathway is not met.\nC: INSUFFICIENT: the required usable evidence is missing.\n\nReturn exactly one uppercase letter, A, B, or C. Do not add an explanation.",
+      "gold": "yes",
+      "labels": {
+        "yes": "A",
+        "no": "B",
+        "unknown": "C"
+      }
+    },
+    {
+      "id": "toy_0",
+      "condition": "simple_sanity",
+      "prompt": "What is 2+2? A: 4. B: 5. C: 6. Return only A, B, or C.",
+      "gold": "A",
+      "labels": {
+        "A": "A",
+        "B": "B",
+        "C": "C"
+      }
+    },
+    {
+      "id": "toy_1",
+      "condition": "simple_sanity",
+      "prompt": "Which number is larger? A: 3. B: 9. C: They are equal. Return only A, B, or C.",
+      "gold": "B",
+      "labels": {
+        "A": "A",
+        "B": "B",
+        "C": "C"
+      }
+    },
+    {
+      "id": "toy_2",
+      "condition": "simple_sanity",
+      "prompt": "Which word names a fruit? A: chair. B: stone. C: apple. Return only A, B, or C.",
+      "gold": "C",
+      "labels": {
+        "A": "A",
+        "B": "B",
+        "C": "C"
+      }
+    }
+  ]
+}

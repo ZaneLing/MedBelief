@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_06428",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Von Willebrand disease\"}",
+      "generated_disease": "Von Willebrand disease",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "fbf9e75d2dfbf82a35e46c820ee441827bd82cb46b2a1a1d995b9d5e0b41eaf3"
+    }
+  ]
+}

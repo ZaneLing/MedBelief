@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_00879",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Iron deficiency anemia\"}",
+      "generated_disease": "Iron deficiency anemia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "146125d7337dbdc00182833e7fb10942fb0ad8d6b692ddc7bf8fd5593c1f6787"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Iron deficiency anemia\"}",
+      "generated_disease": "Iron deficiency anemia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "4414c87b3ea5b6f84237f86eb3c8b350fbee8213693b6297c5cc49993efc909b"
+    }
+  ]
+}

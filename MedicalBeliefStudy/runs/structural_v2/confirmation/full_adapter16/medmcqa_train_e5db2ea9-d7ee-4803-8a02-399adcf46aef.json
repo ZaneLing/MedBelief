@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_e5db2ea9-d7ee-4803-8a02-399adcf46aef",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Xeroderma pigmentosum\"}",
+      "generated_disease": "Xeroderma pigmentosum",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "61498326a5df42cf8abf1122bb2cc2fc8c86c03e09bdff284cd0bd133d2dfbf5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Li-Fraumeni syndrome\"}",
+      "generated_disease": "Li-Fraumeni syndrome",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "4fda913699ac2b2622f690121bfc22b2163ac1fd7d6db809a023d11d9d5a0db9"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "records": 864,
+  "base_cases": 12,
+  "trajectories": 216,
+  "unique_prompts": 756,
+  "stage_order": [
+    "initial",
+    "evidence",
+    "confirmed",
+    "withdrawn"
+  ],
+  "sha256": "3c2ce3ffe3fe6aeeb9ad49d38506c26bfb9a619b5aa72ab414f1d0ee12e420b9",
+  "synthetic": true,
+  "independent_clinical_review": false
+}

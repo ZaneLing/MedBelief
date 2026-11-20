@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_train_02610",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Fibrocystic changes of the breast\"}",
+      "generated_disease": "Fibrocystic changes of the breast",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "5083335ad2ccaf2264f179e2721548d125208df3a5a65790d5a18fc66237a9df"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Fat necrosis\"}",
+      "generated_disease": "Fat necrosis",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "3543e22d0b709a31eff6ddd9ed93a1b579da76c2a06f5ce833b0d1acdeec291d"
+    }
+  ]
+}

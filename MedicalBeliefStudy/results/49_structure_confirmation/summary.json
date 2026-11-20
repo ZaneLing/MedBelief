@@ -1,0 +1,2854 @@
+{
+  "cases": 400,
+  "primary_candidate": "pruned_constrained",
+  "compression_candidate": "pruned_constrained",
+  "parameters": {
+    "baseline": {
+      "parameters": 1720574976,
+      "weight_bytes": 3441149952,
+      "layers": 28
+    },
+    "late_mlp_width50": {
+      "parameters": 1494082560,
+      "weight_bytes": 2988165120,
+      "layers": 28
+    },
+    "full_adapter16": {
+      "parameters": 1720642576,
+      "weight_bytes": 3441420352,
+      "layers": 28
+    },
+    "pruned_adapter16": {
+      "parameters": 1494150160,
+      "weight_bytes": 2988435520,
+      "layers": 28
+    },
+    "exit20_adapter16": {
+      "parameters": 1317954576,
+      "weight_bytes": 2636044352,
+      "layers": 20
+    },
+    "exit20_bridge64": {
+      "parameters": 1318153216,
+      "weight_bytes": 2636838912,
+      "layers": 20
+    },
+    "pruned_constrained": {
+      "parameters": 1494082560,
+      "weight_bytes": 2988165120,
+      "layers": 28
+    },
+    "baseline_constrained": {
+      "parameters": 1720574976,
+      "weight_bytes": 3441149952,
+      "layers": 28
+    }
+  },
+  "per_method": [
+    {
+      "candidate": "baseline",
+      "dataset": "all",
+      "condition": "neutral",
+      "n": 400,
+      "correct": 210,
+      "listed": 394,
+      "repaired": 0,
+      "damaged": 0,
+      "repair_from_listed_wrong": 0,
+      "repair_from_invalid": 0,
+      "prior_selected": 62,
+      "accuracy": {
+        "n": 400,
+        "mean": 0.525,
+        "median": 1.0,
+        "low": 0.475,
+        "high": 0.5725
+      },
+      "difference": {
+        "n": 400,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "fidelity": {
+        "n": 400,
+        "mean": 0.9975,
+        "median": 1.0,
+        "low": 0.9925,
+        "high": 1.0
+      }
+    },
+    {
+      "candidate": "baseline",
+      "dataset": "all",
+      "condition": "wrong",
+      "n": 400,
+      "correct": 163,
+      "listed": 389,
+      "repaired": 0,
+      "damaged": 0,
+      "repair_from_listed_wrong": 0,
+      "repair_from_invalid": 0,
+      "prior_selected": 154,
+      "accuracy": {
+        "n": 400,
+        "mean": 0.4075,
+        "median": 0.0,
+        "low": 0.3575,
+        "high": 0.4575
+      },
+      "difference": {
+        "n": 400,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "fidelity": {
+        "n": 400,
+        "mean": 0.9975,
+        "median": 1.0,
+        "low": 0.9925,
+        "high": 1.0
+      }
+    },
+    {
+      "candidate": "baseline",
+      "dataset": "MedQA",
+      "condition": "neutral",
+      "n": 200,
+      "correct": 106,
+      "listed": 199,
+      "repaired": 0,
+      "damaged": 0,
+      "repair_from_listed_wrong": 0,
+      "repair_from_invalid": 0,
+      "prior_selected": 32,
+      "accuracy": {
+        "n": 200,
+        "mean": 0.53,
+        "median": 1.0,
+        "low": 0.46,
+        "high": 0.6
+      },
+      "difference": {
+        "n": 200,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "fidelity": {
+        "n": 200,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9817246596448512,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      }
+    },
+    {
+      "candidate": "baseline",
+      "dataset": "MedQA",
+      "condition": "wrong",
+      "n": 200,
+      "correct": 86,
+      "listed": 197,
+      "repaired": 0,
+      "damaged": 0,
+      "repair_from_listed_wrong": 0,
+      "repair_from_invalid": 0,
+      "prior_selected": 81,
+      "accuracy": {
+        "n": 200,
+        "mean": 0.43,
+        "median": 0.0,
+        "low": 0.36,
+        "high": 0.5
+      },
+      "difference": {
+        "n": 200,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "fidelity": {
+        "n": 200,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9817246596448512,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      }
+    },
+    {
+      "candidate": "baseline",
+      "dataset": "MedMCQA",
+      "condition": "neutral",
+      "n": 200,
+      "correct": 104,
+      "listed": 195,
+      "repaired": 0,
+      "damaged": 0,
+      "repair_from_listed_wrong": 0,
+      "repair_from_invalid": 0,
+      "prior_selected": 30,
+      "accuracy": {
+        "n": 200,
+        "mean": 0.52,
+        "median": 1.0,
+        "low": 0.45,
+        "high": 0.59
+      },
+      "difference": {
+        "n": 200,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "fidelity": {
+        "n": 200,
+        "mean": 0.995,
+        "median": 1.0,
+        "low": 0.985,
+        "high": 1.0
+      }
+    },
+    {
+      "candidate": "baseline",
+      "dataset": "MedMCQA",
+      "condition": "wrong",
+      "n": 200,
+      "correct": 77,
+      "listed": 192,
+      "repaired": 0,
+      "damaged": 0,
+      "repair_from_listed_wrong": 0,
+      "repair_from_invalid": 0,
+      "prior_selected": 73,
+      "accuracy": {
+        "n": 200,
+        "mean": 0.385,
+        "median": 0.0,
+        "low": 0.32,
+        "high": 0.45
+      },
+      "difference": {
+        "n": 200,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "fidelity": {
+        "n": 200,
+        "mean": 0.995,
+        "median": 1.0,
+        "low": 0.985,
+        "high": 1.0
+      }
+    },
+    {
+      "candidate": "late_mlp_width50",
+      "dataset": "all",
+      "condition": "neutral",
+      "n": 400,
+      "correct": 200,
+      "listed": 374,
+      "repaired": 10,
+      "damaged": 20,
+      "repair_from_listed_wrong": 9,
+      "repair_from_invalid": 1,
+      "prior_selected": 59,
+      "accuracy": {
+        "n": 400,
+        "mean": 0.5,
+        "median": 0.5,
+        "low": 0.45,
+        "high": 0.55
+      },
+      "difference": {
+        "n": 400,
+        "mean": -0.025,
+        "median": 0.0,
+        "low": -0.0525,
+        "high": 0.0025
+      },
+      "fidelity": {
+        "n": 400,
+        "mean": 0.86,
+        "median": 1.0,
+        "low": 0.825,
+        "high": 0.8925
+      }
+    },
+    {
+      "candidate": "late_mlp_width50",
+      "dataset": "all",
+      "condition": "wrong",
+      "n": 400,
+      "correct": 168,
+      "listed": 380,
+      "repaired": 15,
+      "damaged": 10,
+      "repair_from_listed_wrong": 14,
+      "repair_from_invalid": 1,
+      "prior_selected": 133,
+      "accuracy": {
+        "n": 400,
+        "mean": 0.42,
+        "median": 0.0,
+        "low": 0.37,
+        "high": 0.47
+      },
+      "difference": {
+        "n": 400,
+        "mean": 0.0125,
+        "median": 0.0,
+        "low": -0.0125,
+        "high": 0.0375
+      },
+      "fidelity": {
+        "n": 400,
+        "mean": 0.8825,
+        "median": 1.0,
+        "low": 0.85,
+        "high": 0.9125
+      }
+    },
+    {
+      "candidate": "late_mlp_width50",
+      "dataset": "MedQA",
+      "condition": "neutral",
+      "n": 200,
+      "correct": 106,
+      "listed": 190,
+      "repaired": 5,
+      "damaged": 5,
+      "repair_from_listed_wrong": 5,
+      "repair_from_invalid": 0,
+      "prior_selected": 29,
+      "accuracy": {
+        "n": 200,
+        "mean": 0.53,
+        "median": 1.0,
+        "low": 0.465,
+        "high": 0.6
+      },
+      "difference": {
+        "n": 200,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": -0.03,
+        "high": 0.03
+      },
+      "fidelity": {
+        "n": 200,
+        "mean": 0.885,
+        "median": 1.0,
+        "low": 0.84,
+        "high": 0.9251250000000005
+      }
+    },
+    {
+      "candidate": "late_mlp_width50",
+      "dataset": "MedQA",
+      "condition": "wrong",
+      "n": 200,
+      "correct": 92,
+      "listed": 193,
+      "repaired": 8,
+      "damaged": 2,
+      "repair_from_listed_wrong": 8,
+      "repair_from_invalid": 0,
+      "prior_selected": 70,
+      "accuracy": {
+        "n": 200,
+        "mean": 0.46,
+        "median": 0.0,
+        "low": 0.39,
+        "high": 0.53
+      },
+      "difference": {
+        "n": 200,
+        "mean": 0.03,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.06
+      },
+      "fidelity": {
+        "n": 200,
+        "mean": 0.9,
+        "median": 1.0,
+        "low": 0.855,
+        "high": 0.94
+      }
+    },
+    {
+      "candidate": "late_mlp_width50",
+      "dataset": "MedMCQA",
+      "condition": "neutral",
+      "n": 200,
+      "correct": 94,
+      "listed": 184,
+      "repaired": 5,
+      "damaged": 15,
+      "repair_from_listed_wrong": 4,
+      "repair_from_invalid": 1,
+      "prior_selected": 30,
+      "accuracy": {
+        "n": 200,
+        "mean": 0.47,
+        "median": 0.0,
+        "low": 0.405,
+        "high": 0.54
+      },
+      "difference": {
+        "n": 200,
+        "mean": -0.05,
+        "median": 0.0,
+        "low": -0.095,
+        "high": -0.005
+      },
+      "fidelity": {
+        "n": 200,
+        "mean": 0.835,
+        "median": 1.0,
+        "low": 0.78,
+        "high": 0.885
+      }
+    },
+    {
+      "candidate": "late_mlp_width50",
+      "dataset": "MedMCQA",
+      "condition": "wrong",
+      "n": 200,
+      "correct": 76,
+      "listed": 187,
+      "repaired": 7,
+      "damaged": 8,
+      "repair_from_listed_wrong": 6,
+      "repair_from_invalid": 1,
+      "prior_selected": 63,
+      "accuracy": {
+        "n": 200,
+        "mean": 0.38,
+        "median": 0.0,
+        "low": 0.315,
+        "high": 0.44512500000000044
+      },
+      "difference": {
+        "n": 200,
+        "mean": -0.005,
+        "median": 0.0,
+        "low": -0.045,
+        "high": 0.030125000000000453
+      },
+      "fidelity": {
+        "n": 200,
+        "mean": 0.865,
+        "median": 1.0,
+        "low": 0.815,
+        "high": 0.91
+      }
+    },
+    {
+      "candidate": "full_adapter16",
+      "dataset": "all",
+      "condition": "neutral",
+      "n": 400,
+      "correct": 205,
+      "listed": 391,
+      "repaired": 25,
+      "damaged": 30,
+      "repair_from_listed_wrong": 22,
+      "repair_from_invalid": 3,
+      "prior_selected": 60,
+      "accuracy": {
+        "n": 400,
+        "mean": 0.5125,
+        "median": 1.0,
+        "low": 0.4625,
+        "high": 0.5625
+      },
+      "difference": {
+        "n": 400,
+        "mean": -0.0125,
+        "median": 0.0,
+        "low": -0.0475,
+        "high": 0.025
+      },
+      "fidelity": {
+        "n": 400,
+        "mean": 0.805,
+        "median": 1.0,
+        "low": 0.7675,
+        "high": 0.8425
+      }
+    },
+    {
+      "candidate": "full_adapter16",
+      "dataset": "all",
+      "condition": "wrong",
+      "n": 400,
+      "correct": 151,
+      "listed": 386,
+      "repaired": 18,
+      "damaged": 30,
+      "repair_from_listed_wrong": 17,
+      "repair_from_invalid": 1,
+      "prior_selected": 156,
+      "accuracy": {
+        "n": 400,
+        "mean": 0.3775,
+        "median": 0.0,
+        "low": 0.33,
+        "high": 0.425
+      },
+      "difference": {
+        "n": 400,
+        "mean": -0.03,
+        "median": 0.0,
+        "low": -0.0625,
+        "high": 0.005
+      },
+      "fidelity": {
+        "n": 400,
+        "mean": 0.7875,
+        "median": 1.0,
+        "low": 0.7475,
+        "high": 0.825
+      }
+    },
+    {
+      "candidate": "full_adapter16",
+      "dataset": "MedQA",
+      "condition": "neutral",
+      "n": 200,
+      "correct": 100,
+      "listed": 197,
+      "repaired": 11,
+      "damaged": 17,
+      "repair_from_listed_wrong": 11,
+      "repair_from_invalid": 0,
+      "prior_selected": 34,
+      "accuracy": {
+        "n": 200,
+        "mean": 0.5,
+        "median": 0.5,
+        "low": 0.43,
+        "high": 0.57
+      },
+      "difference": {
+        "n": 200,
+        "mean": -0.03,
+        "median": 0.0,
+        "low": -0.085,
+        "high": 0.02
+      },
+      "fidelity": {
+        "n": 200,
+        "mean": 0.79,
+        "median": 1.0,
+        "low": 0.73,
+        "high": 0.845
+      }
+    },
+    {
+      "candidate": "full_adapter16",
+      "dataset": "MedQA",
+      "condition": "wrong",
+      "n": 200,
+      "correct": 84,
+      "listed": 195,
+      "repaired": 13,
+      "damaged": 15,
+      "repair_from_listed_wrong": 13,
+      "repair_from_invalid": 0,
+      "prior_selected": 79,
+      "accuracy": {
+        "n": 200,
+        "mean": 0.42,
+        "median": 0.0,
+        "low": 0.35,
+        "high": 0.49
+      },
+      "difference": {
+        "n": 200,
+        "mean": -0.01,
+        "median": 0.0,
+        "low": -0.065,
+        "high": 0.04
+      },
+      "fidelity": {
+        "n": 200,
+        "mean": 0.785,
+        "median": 1.0,
+        "low": 0.73,
+        "high": 0.84
+      }
+    },
+    {
+      "candidate": "full_adapter16",
+      "dataset": "MedMCQA",
+      "condition": "neutral",
+      "n": 200,
+      "correct": 105,
+      "listed": 194,
+      "repaired": 14,
+      "damaged": 13,
+      "repair_from_listed_wrong": 11,
+      "repair_from_invalid": 3,
+      "prior_selected": 26,
+      "accuracy": {
+        "n": 200,
+        "mean": 0.525,
+        "median": 1.0,
+        "low": 0.455,
+        "high": 0.595
+      },
+      "difference": {
+        "n": 200,
+        "mean": 0.005,
+        "median": 0.0,
+        "low": -0.045,
+        "high": 0.055
+      },
+      "fidelity": {
+        "n": 200,
+        "mean": 0.82,
+        "median": 1.0,
+        "low": 0.765,
+        "high": 0.87
+      }
+    },
+    {
+      "candidate": "full_adapter16",
+      "dataset": "MedMCQA",
+      "condition": "wrong",
+      "n": 200,
+      "correct": 67,
+      "listed": 191,
+      "repaired": 5,
+      "damaged": 15,
+      "repair_from_listed_wrong": 4,
+      "repair_from_invalid": 1,
+      "prior_selected": 77,
+      "accuracy": {
+        "n": 200,
+        "mean": 0.335,
+        "median": 0.0,
+        "low": 0.27,
+        "high": 0.4
+      },
+      "difference": {
+        "n": 200,
+        "mean": -0.05,
+        "median": 0.0,
+        "low": -0.095,
+        "high": -0.01
+      },
+      "fidelity": {
+        "n": 200,
+        "mean": 0.79,
+        "median": 1.0,
+        "low": 0.73,
+        "high": 0.845
+      }
+    },
+    {
+      "candidate": "pruned_adapter16",
+      "dataset": "all",
+      "condition": "neutral",
+      "n": 400,
+      "correct": 200,
+      "listed": 374,
+      "repaired": 10,
+      "damaged": 20,
+      "repair_from_listed_wrong": 9,
+      "repair_from_invalid": 1,
+      "prior_selected": 59,
+      "accuracy": {
+        "n": 400,
+        "mean": 0.5,
+        "median": 0.5,
+        "low": 0.45,
+        "high": 0.55
+      },
+      "difference": {
+        "n": 400,
+        "mean": -0.025,
+        "median": 0.0,
+        "low": -0.0525,
+        "high": 0.0025
+      },
+      "fidelity": {
+        "n": 400,
+        "mean": 0.86,
+        "median": 1.0,
+        "low": 0.825,
+        "high": 0.8925
+      }
+    },
+    {
+      "candidate": "pruned_adapter16",
+      "dataset": "all",
+      "condition": "wrong",
+      "n": 400,
+      "correct": 168,
+      "listed": 380,
+      "repaired": 15,
+      "damaged": 10,
+      "repair_from_listed_wrong": 14,
+      "repair_from_invalid": 1,
+      "prior_selected": 133,
+      "accuracy": {
+        "n": 400,
+        "mean": 0.42,
+        "median": 0.0,
+        "low": 0.37,
+        "high": 0.47
+      },
+      "difference": {
+        "n": 400,
+        "mean": 0.0125,
+        "median": 0.0,
+        "low": -0.0125,
+        "high": 0.0375
+      },
+      "fidelity": {
+        "n": 400,
+        "mean": 0.8825,
+        "median": 1.0,
+        "low": 0.85,
+        "high": 0.9125
+      }
+    },
+    {
+      "candidate": "pruned_adapter16",
+      "dataset": "MedQA",
+      "condition": "neutral",
+      "n": 200,
+      "correct": 106,
+      "listed": 190,
+      "repaired": 5,
+      "damaged": 5,
+      "repair_from_listed_wrong": 5,
+      "repair_from_invalid": 0,
+      "prior_selected": 29,
+      "accuracy": {
+        "n": 200,
+        "mean": 0.53,
+        "median": 1.0,
+        "low": 0.465,
+        "high": 0.6
+      },
+      "difference": {
+        "n": 200,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": -0.03,
+        "high": 0.03
+      },
+      "fidelity": {
+        "n": 200,
+        "mean": 0.885,
+        "median": 1.0,
+        "low": 0.84,
+        "high": 0.9251250000000005
+      }
+    },
+    {
+      "candidate": "pruned_adapter16",
+      "dataset": "MedQA",
+      "condition": "wrong",
+      "n": 200,
+      "correct": 92,
+      "listed": 193,
+      "repaired": 8,
+      "damaged": 2,
+      "repair_from_listed_wrong": 8,
+      "repair_from_invalid": 0,
+      "prior_selected": 70,
+      "accuracy": {
+        "n": 200,
+        "mean": 0.46,
+        "median": 0.0,
+        "low": 0.39,
+        "high": 0.53
+      },
+      "difference": {
+        "n": 200,
+        "mean": 0.03,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.06
+      },
+      "fidelity": {
+        "n": 200,
+        "mean": 0.9,
+        "median": 1.0,
+        "low": 0.855,
+        "high": 0.94
+      }
+    },
+    {
+      "candidate": "pruned_adapter16",
+      "dataset": "MedMCQA",
+      "condition": "neutral",
+      "n": 200,
+      "correct": 94,
+      "listed": 184,
+      "repaired": 5,
+      "damaged": 15,
+      "repair_from_listed_wrong": 4,
+      "repair_from_invalid": 1,
+      "prior_selected": 30,
+      "accuracy": {
+        "n": 200,
+        "mean": 0.47,
+        "median": 0.0,
+        "low": 0.405,
+        "high": 0.54
+      },
+      "difference": {
+        "n": 200,
+        "mean": -0.05,
+        "median": 0.0,
+        "low": -0.095,
+        "high": -0.005
+      },
+      "fidelity": {
+        "n": 200,
+        "mean": 0.835,
+        "median": 1.0,
+        "low": 0.78,
+        "high": 0.885
+      }
+    },
+    {
+      "candidate": "pruned_adapter16",
+      "dataset": "MedMCQA",
+      "condition": "wrong",
+      "n": 200,
+      "correct": 76,
+      "listed": 187,
+      "repaired": 7,
+      "damaged": 8,
+      "repair_from_listed_wrong": 6,
+      "repair_from_invalid": 1,
+      "prior_selected": 63,
+      "accuracy": {
+        "n": 200,
+        "mean": 0.38,
+        "median": 0.0,
+        "low": 0.315,
+        "high": 0.44512500000000044
+      },
+      "difference": {
+        "n": 200,
+        "mean": -0.005,
+        "median": 0.0,
+        "low": -0.045,
+        "high": 0.030125000000000453
+      },
+      "fidelity": {
+        "n": 200,
+        "mean": 0.865,
+        "median": 1.0,
+        "low": 0.815,
+        "high": 0.91
+      }
+    },
+    {
+      "candidate": "exit20_adapter16",
+      "dataset": "all",
+      "condition": "neutral",
+      "n": 400,
+      "correct": 2,
+      "listed": 4,
+      "repaired": 0,
+      "damaged": 208,
+      "repair_from_listed_wrong": 0,
+      "repair_from_invalid": 0,
+      "prior_selected": 0,
+      "accuracy": {
+        "n": 400,
+        "mean": 0.005,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0125
+      },
+      "difference": {
+        "n": 400,
+        "mean": -0.52,
+        "median": -1.0,
+        "low": -0.5675,
+        "high": -0.47
+      },
+      "fidelity": {
+        "n": 400,
+        "mean": 0.005,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0125
+      }
+    },
+    {
+      "candidate": "exit20_adapter16",
+      "dataset": "all",
+      "condition": "wrong",
+      "n": 400,
+      "correct": 2,
+      "listed": 3,
+      "repaired": 0,
+      "damaged": 161,
+      "repair_from_listed_wrong": 0,
+      "repair_from_invalid": 0,
+      "prior_selected": 0,
+      "accuracy": {
+        "n": 400,
+        "mean": 0.005,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0125
+      },
+      "difference": {
+        "n": 400,
+        "mean": -0.4025,
+        "median": 0.0,
+        "low": -0.4525,
+        "high": -0.355
+      },
+      "fidelity": {
+        "n": 400,
+        "mean": 0.005,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0125
+      }
+    },
+    {
+      "candidate": "exit20_adapter16",
+      "dataset": "MedQA",
+      "condition": "neutral",
+      "n": 200,
+      "correct": 2,
+      "listed": 4,
+      "repaired": 0,
+      "damaged": 104,
+      "repair_from_listed_wrong": 0,
+      "repair_from_invalid": 0,
+      "prior_selected": 0,
+      "accuracy": {
+        "n": 200,
+        "mean": 0.01,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.025
+      },
+      "difference": {
+        "n": 200,
+        "mean": -0.52,
+        "median": -1.0,
+        "low": -0.59,
+        "high": -0.45
+      },
+      "fidelity": {
+        "n": 200,
+        "mean": 0.01,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.025
+      }
+    },
+    {
+      "candidate": "exit20_adapter16",
+      "dataset": "MedQA",
+      "condition": "wrong",
+      "n": 200,
+      "correct": 2,
+      "listed": 3,
+      "repaired": 0,
+      "damaged": 84,
+      "repair_from_listed_wrong": 0,
+      "repair_from_invalid": 0,
+      "prior_selected": 0,
+      "accuracy": {
+        "n": 200,
+        "mean": 0.01,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.025
+      },
+      "difference": {
+        "n": 200,
+        "mean": -0.42,
+        "median": 0.0,
+        "low": -0.49,
+        "high": -0.35
+      },
+      "fidelity": {
+        "n": 200,
+        "mean": 0.01,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.025
+      }
+    },
+    {
+      "candidate": "exit20_adapter16",
+      "dataset": "MedMCQA",
+      "condition": "neutral",
+      "n": 200,
+      "correct": 0,
+      "listed": 0,
+      "repaired": 0,
+      "damaged": 104,
+      "repair_from_listed_wrong": 0,
+      "repair_from_invalid": 0,
+      "prior_selected": 0,
+      "accuracy": {
+        "n": 200,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0182753403551488,
+        "interval": "exact_binomial_boundary"
+      },
+      "difference": {
+        "n": 200,
+        "mean": -0.52,
+        "median": -1.0,
+        "low": -0.59,
+        "high": -0.45
+      },
+      "fidelity": {
+        "n": 200,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0182753403551488,
+        "interval": "exact_binomial_boundary"
+      }
+    },
+    {
+      "candidate": "exit20_adapter16",
+      "dataset": "MedMCQA",
+      "condition": "wrong",
+      "n": 200,
+      "correct": 0,
+      "listed": 0,
+      "repaired": 0,
+      "damaged": 77,
+      "repair_from_listed_wrong": 0,
+      "repair_from_invalid": 0,
+      "prior_selected": 0,
+      "accuracy": {
+        "n": 200,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0182753403551488,
+        "interval": "exact_binomial_boundary"
+      },
+      "difference": {
+        "n": 200,
+        "mean": -0.385,
+        "median": 0.0,
+        "low": -0.45,
+        "high": -0.32
+      },
+      "fidelity": {
+        "n": 200,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0182753403551488,
+        "interval": "exact_binomial_boundary"
+      }
+    },
+    {
+      "candidate": "exit20_bridge64",
+      "dataset": "all",
+      "condition": "neutral",
+      "n": 400,
+      "correct": 0,
+      "listed": 2,
+      "repaired": 0,
+      "damaged": 210,
+      "repair_from_listed_wrong": 0,
+      "repair_from_invalid": 0,
+      "prior_selected": 1,
+      "accuracy": {
+        "n": 400,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.009179804583673406,
+        "interval": "exact_binomial_boundary"
+      },
+      "difference": {
+        "n": 400,
+        "mean": -0.525,
+        "median": -1.0,
+        "low": -0.5725,
+        "high": -0.475
+      },
+      "fidelity": {
+        "n": 400,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.009179804583673406,
+        "interval": "exact_binomial_boundary"
+      }
+    },
+    {
+      "candidate": "exit20_bridge64",
+      "dataset": "all",
+      "condition": "wrong",
+      "n": 400,
+      "correct": 0,
+      "listed": 2,
+      "repaired": 0,
+      "damaged": 163,
+      "repair_from_listed_wrong": 0,
+      "repair_from_invalid": 0,
+      "prior_selected": 1,
+      "accuracy": {
+        "n": 400,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.009179804583673406,
+        "interval": "exact_binomial_boundary"
+      },
+      "difference": {
+        "n": 400,
+        "mean": -0.4075,
+        "median": 0.0,
+        "low": -0.4575,
+        "high": -0.3575
+      },
+      "fidelity": {
+        "n": 400,
+        "mean": 0.0025,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0075
+      }
+    },
+    {
+      "candidate": "exit20_bridge64",
+      "dataset": "MedQA",
+      "condition": "neutral",
+      "n": 200,
+      "correct": 0,
+      "listed": 0,
+      "repaired": 0,
+      "damaged": 106,
+      "repair_from_listed_wrong": 0,
+      "repair_from_invalid": 0,
+      "prior_selected": 0,
+      "accuracy": {
+        "n": 200,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0182753403551488,
+        "interval": "exact_binomial_boundary"
+      },
+      "difference": {
+        "n": 200,
+        "mean": -0.53,
+        "median": -1.0,
+        "low": -0.6,
+        "high": -0.46
+      },
+      "fidelity": {
+        "n": 200,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0182753403551488,
+        "interval": "exact_binomial_boundary"
+      }
+    },
+    {
+      "candidate": "exit20_bridge64",
+      "dataset": "MedQA",
+      "condition": "wrong",
+      "n": 200,
+      "correct": 0,
+      "listed": 0,
+      "repaired": 0,
+      "damaged": 86,
+      "repair_from_listed_wrong": 0,
+      "repair_from_invalid": 0,
+      "prior_selected": 0,
+      "accuracy": {
+        "n": 200,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0182753403551488,
+        "interval": "exact_binomial_boundary"
+      },
+      "difference": {
+        "n": 200,
+        "mean": -0.43,
+        "median": 0.0,
+        "low": -0.5,
+        "high": -0.36
+      },
+      "fidelity": {
+        "n": 200,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0182753403551488,
+        "interval": "exact_binomial_boundary"
+      }
+    },
+    {
+      "candidate": "exit20_bridge64",
+      "dataset": "MedMCQA",
+      "condition": "neutral",
+      "n": 200,
+      "correct": 0,
+      "listed": 2,
+      "repaired": 0,
+      "damaged": 104,
+      "repair_from_listed_wrong": 0,
+      "repair_from_invalid": 0,
+      "prior_selected": 1,
+      "accuracy": {
+        "n": 200,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0182753403551488,
+        "interval": "exact_binomial_boundary"
+      },
+      "difference": {
+        "n": 200,
+        "mean": -0.52,
+        "median": -1.0,
+        "low": -0.59,
+        "high": -0.45
+      },
+      "fidelity": {
+        "n": 200,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0182753403551488,
+        "interval": "exact_binomial_boundary"
+      }
+    },
+    {
+      "candidate": "exit20_bridge64",
+      "dataset": "MedMCQA",
+      "condition": "wrong",
+      "n": 200,
+      "correct": 0,
+      "listed": 2,
+      "repaired": 0,
+      "damaged": 77,
+      "repair_from_listed_wrong": 0,
+      "repair_from_invalid": 0,
+      "prior_selected": 1,
+      "accuracy": {
+        "n": 200,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0182753403551488,
+        "interval": "exact_binomial_boundary"
+      },
+      "difference": {
+        "n": 200,
+        "mean": -0.385,
+        "median": 0.0,
+        "low": -0.45,
+        "high": -0.32
+      },
+      "fidelity": {
+        "n": 200,
+        "mean": 0.005,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.015
+      }
+    },
+    {
+      "candidate": "pruned_constrained",
+      "dataset": "all",
+      "condition": "neutral",
+      "n": 400,
+      "correct": 216,
+      "listed": 400,
+      "repaired": 15,
+      "damaged": 9,
+      "repair_from_listed_wrong": 9,
+      "repair_from_invalid": 6,
+      "prior_selected": 63,
+      "accuracy": {
+        "n": 400,
+        "mean": 0.54,
+        "median": 1.0,
+        "low": 0.49,
+        "high": 0.59
+      },
+      "difference": {
+        "n": 400,
+        "mean": 0.015,
+        "median": 0.0,
+        "low": -0.01,
+        "high": 0.04
+      },
+      "fidelity": {
+        "n": 400,
+        "mean": 0.9025,
+        "median": 1.0,
+        "low": 0.8725,
+        "high": 0.93
+      }
+    },
+    {
+      "candidate": "pruned_constrained",
+      "dataset": "all",
+      "condition": "wrong",
+      "n": 400,
+      "correct": 180,
+      "listed": 400,
+      "repaired": 20,
+      "damaged": 3,
+      "repair_from_listed_wrong": 15,
+      "repair_from_invalid": 5,
+      "prior_selected": 139,
+      "accuracy": {
+        "n": 400,
+        "mean": 0.45,
+        "median": 0.0,
+        "low": 0.4,
+        "high": 0.5
+      },
+      "difference": {
+        "n": 400,
+        "mean": 0.0425,
+        "median": 0.0,
+        "low": 0.02,
+        "high": 0.065
+      },
+      "fidelity": {
+        "n": 400,
+        "mean": 0.9025,
+        "median": 1.0,
+        "low": 0.8725,
+        "high": 0.93
+      }
+    },
+    {
+      "candidate": "pruned_constrained",
+      "dataset": "MedQA",
+      "condition": "neutral",
+      "n": 200,
+      "correct": 110,
+      "listed": 200,
+      "repaired": 6,
+      "damaged": 2,
+      "repair_from_listed_wrong": 5,
+      "repair_from_invalid": 1,
+      "prior_selected": 32,
+      "accuracy": {
+        "n": 200,
+        "mean": 0.55,
+        "median": 1.0,
+        "low": 0.48,
+        "high": 0.62
+      },
+      "difference": {
+        "n": 200,
+        "mean": 0.02,
+        "median": 0.0,
+        "low": -0.005,
+        "high": 0.05
+      },
+      "fidelity": {
+        "n": 200,
+        "mean": 0.925,
+        "median": 1.0,
+        "low": 0.89,
+        "high": 0.96
+      }
+    },
+    {
+      "candidate": "pruned_constrained",
+      "dataset": "MedQA",
+      "condition": "wrong",
+      "n": 200,
+      "correct": 94,
+      "listed": 200,
+      "repaired": 9,
+      "damaged": 1,
+      "repair_from_listed_wrong": 9,
+      "repair_from_invalid": 0,
+      "prior_selected": 73,
+      "accuracy": {
+        "n": 200,
+        "mean": 0.47,
+        "median": 0.0,
+        "low": 0.4,
+        "high": 0.54
+      },
+      "difference": {
+        "n": 200,
+        "mean": 0.04,
+        "median": 0.0,
+        "low": 0.01,
+        "high": 0.075
+      },
+      "fidelity": {
+        "n": 200,
+        "mean": 0.915,
+        "median": 1.0,
+        "low": 0.875,
+        "high": 0.95
+      }
+    },
+    {
+      "candidate": "pruned_constrained",
+      "dataset": "MedMCQA",
+      "condition": "neutral",
+      "n": 200,
+      "correct": 106,
+      "listed": 200,
+      "repaired": 9,
+      "damaged": 7,
+      "repair_from_listed_wrong": 4,
+      "repair_from_invalid": 5,
+      "prior_selected": 31,
+      "accuracy": {
+        "n": 200,
+        "mean": 0.53,
+        "median": 1.0,
+        "low": 0.465,
+        "high": 0.6
+      },
+      "difference": {
+        "n": 200,
+        "mean": 0.01,
+        "median": 0.0,
+        "low": -0.03,
+        "high": 0.05
+      },
+      "fidelity": {
+        "n": 200,
+        "mean": 0.88,
+        "median": 1.0,
+        "low": 0.835,
+        "high": 0.925
+      }
+    },
+    {
+      "candidate": "pruned_constrained",
+      "dataset": "MedMCQA",
+      "condition": "wrong",
+      "n": 200,
+      "correct": 86,
+      "listed": 200,
+      "repaired": 11,
+      "damaged": 2,
+      "repair_from_listed_wrong": 6,
+      "repair_from_invalid": 5,
+      "prior_selected": 66,
+      "accuracy": {
+        "n": 200,
+        "mean": 0.43,
+        "median": 0.0,
+        "low": 0.36,
+        "high": 0.5
+      },
+      "difference": {
+        "n": 200,
+        "mean": 0.045,
+        "median": 0.0,
+        "low": 0.01,
+        "high": 0.08
+      },
+      "fidelity": {
+        "n": 200,
+        "mean": 0.89,
+        "median": 1.0,
+        "low": 0.845,
+        "high": 0.93
+      }
+    },
+    {
+      "candidate": "baseline_constrained",
+      "dataset": "all",
+      "condition": "neutral",
+      "n": 400,
+      "correct": 215,
+      "listed": 400,
+      "repaired": 5,
+      "damaged": 0,
+      "prior_selected": 62,
+      "accuracy": {
+        "n": 400,
+        "mean": 0.5375,
+        "median": 1.0,
+        "low": 0.4875,
+        "high": 0.585
+      },
+      "difference": {
+        "n": 400,
+        "mean": 0.0125,
+        "median": 0.0,
+        "low": 0.0025,
+        "high": 0.025
+      },
+      "fidelity": {
+        "n": 400,
+        "mean": 0.985,
+        "median": 1.0,
+        "low": 0.9725,
+        "high": 0.995
+      }
+    },
+    {
+      "candidate": "baseline_constrained",
+      "dataset": "all",
+      "condition": "wrong",
+      "n": 400,
+      "correct": 168,
+      "listed": 400,
+      "repaired": 5,
+      "damaged": 0,
+      "prior_selected": 159,
+      "accuracy": {
+        "n": 400,
+        "mean": 0.42,
+        "median": 0.0,
+        "low": 0.37,
+        "high": 0.4675
+      },
+      "difference": {
+        "n": 400,
+        "mean": 0.0125,
+        "median": 0.0,
+        "low": 0.0025,
+        "high": 0.025
+      },
+      "fidelity": {
+        "n": 400,
+        "mean": 0.9725,
+        "median": 1.0,
+        "low": 0.955,
+        "high": 0.9875
+      }
+    },
+    {
+      "candidate": "baseline_constrained",
+      "dataset": "MedQA",
+      "condition": "neutral",
+      "n": 200,
+      "correct": 107,
+      "listed": 200,
+      "repaired": 1,
+      "damaged": 0,
+      "prior_selected": 32,
+      "accuracy": {
+        "n": 200,
+        "mean": 0.535,
+        "median": 1.0,
+        "low": 0.465,
+        "high": 0.605
+      },
+      "difference": {
+        "n": 200,
+        "mean": 0.005,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.015
+      },
+      "fidelity": {
+        "n": 200,
+        "mean": 0.995,
+        "median": 1.0,
+        "low": 0.985,
+        "high": 1.0
+      }
+    },
+    {
+      "candidate": "baseline_constrained",
+      "dataset": "MedQA",
+      "condition": "wrong",
+      "n": 200,
+      "correct": 86,
+      "listed": 200,
+      "repaired": 0,
+      "damaged": 0,
+      "prior_selected": 84,
+      "accuracy": {
+        "n": 200,
+        "mean": 0.43,
+        "median": 0.0,
+        "low": 0.36,
+        "high": 0.5
+      },
+      "difference": {
+        "n": 200,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "fidelity": {
+        "n": 200,
+        "mean": 0.985,
+        "median": 1.0,
+        "low": 0.965,
+        "high": 1.0
+      }
+    },
+    {
+      "candidate": "baseline_constrained",
+      "dataset": "MedMCQA",
+      "condition": "neutral",
+      "n": 200,
+      "correct": 108,
+      "listed": 200,
+      "repaired": 4,
+      "damaged": 0,
+      "prior_selected": 30,
+      "accuracy": {
+        "n": 200,
+        "mean": 0.54,
+        "median": 1.0,
+        "low": 0.475,
+        "high": 0.61
+      },
+      "difference": {
+        "n": 200,
+        "mean": 0.02,
+        "median": 0.0,
+        "low": 0.005,
+        "high": 0.04
+      },
+      "fidelity": {
+        "n": 200,
+        "mean": 0.975,
+        "median": 1.0,
+        "low": 0.95,
+        "high": 0.995
+      }
+    },
+    {
+      "candidate": "baseline_constrained",
+      "dataset": "MedMCQA",
+      "condition": "wrong",
+      "n": 200,
+      "correct": 82,
+      "listed": 200,
+      "repaired": 5,
+      "damaged": 0,
+      "prior_selected": 75,
+      "accuracy": {
+        "n": 200,
+        "mean": 0.41,
+        "median": 0.0,
+        "low": 0.345,
+        "high": 0.48
+      },
+      "difference": {
+        "n": 200,
+        "mean": 0.025,
+        "median": 0.0,
+        "low": 0.005,
+        "high": 0.05
+      },
+      "fidelity": {
+        "n": 200,
+        "mean": 0.96,
+        "median": 1.0,
+        "low": 0.93,
+        "high": 0.985
+      }
+    }
+  ],
+  "primary_comparisons": [
+    {
+      "candidate": "late_mlp_width50",
+      "reference": "baseline",
+      "n": 400,
+      "mean": -0.00625,
+      "median": 0.0,
+      "low": -0.0275,
+      "high": 0.015,
+      "p": 0.6406699162604674,
+      "p_holm": 1.0
+    },
+    {
+      "candidate": "full_adapter16",
+      "reference": "baseline",
+      "n": 400,
+      "mean": -0.02125,
+      "median": 0.0,
+      "low": -0.0475,
+      "high": 0.005,
+      "p": 0.14473190851143608,
+      "p_holm": 0.43419572553430824
+    },
+    {
+      "candidate": "pruned_adapter16",
+      "reference": "baseline",
+      "n": 400,
+      "mean": -0.00625,
+      "median": 0.0,
+      "low": -0.0275,
+      "high": 0.015,
+      "p": 0.6406699162604674,
+      "p_holm": 1.0
+    },
+    {
+      "candidate": "exit20_adapter16",
+      "reference": "baseline",
+      "n": 400,
+      "mean": -0.46125,
+      "median": -0.5,
+      "low": -0.5025,
+      "high": -0.41875,
+      "p": 0.00012498437695288088,
+      "p_holm": 0.0007499062617172853
+    },
+    {
+      "candidate": "exit20_bridge64",
+      "reference": "baseline",
+      "n": 400,
+      "mean": -0.46625,
+      "median": -0.5,
+      "low": -0.50875,
+      "high": -0.42375,
+      "p": 0.00012498437695288088,
+      "p_holm": 0.0007499062617172853
+    },
+    {
+      "candidate": "pruned_constrained",
+      "reference": "baseline",
+      "n": 400,
+      "mean": 0.02875,
+      "median": 0.0,
+      "low": 0.01125,
+      "high": 0.0475,
+      "p": 0.0014998125234345708,
+      "p_holm": 0.005999250093738283
+    }
+  ],
+  "training_comparisons": [
+    {
+      "candidate": "full_adapter16",
+      "reference": "baseline",
+      "n": 400,
+      "mean": -0.02125,
+      "median": 0.0,
+      "low": -0.0475,
+      "high": 0.005,
+      "p": 0.14473190851143608,
+      "p_holm": 0.43419572553430824
+    },
+    {
+      "candidate": "pruned_adapter16",
+      "reference": "late_mlp_width50",
+      "n": 400,
+      "mean": 0.0,
+      "median": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "p": 1.0,
+      "p_holm": 1.0
+    },
+    {
+      "candidate": "pruned_adapter16",
+      "reference": "full_adapter16",
+      "n": 400,
+      "mean": 0.015,
+      "median": 0.0,
+      "low": -0.015,
+      "high": 0.045,
+      "p": 0.3665791776027997,
+      "p_holm": 0.7331583552055994
+    }
+  ],
+  "input_control": [
+    {
+      "reference_condition": "neutral",
+      "none_accuracy": {
+        "n": 400,
+        "mean": 0.5125,
+        "median": 1.0,
+        "low": 0.4625,
+        "high": 0.56
+      },
+      "difference": {
+        "n": 400,
+        "mean": -0.0125,
+        "median": 0.0,
+        "low": -0.045,
+        "high": 0.02
+      },
+      "repaired": 19,
+      "damaged": 24
+    },
+    {
+      "reference_condition": "wrong",
+      "none_accuracy": {
+        "n": 400,
+        "mean": 0.5125,
+        "median": 1.0,
+        "low": 0.4625,
+        "high": 0.56
+      },
+      "difference": {
+        "n": 400,
+        "mean": 0.105,
+        "median": 0.0,
+        "low": 0.055,
+        "high": 0.155
+      },
+      "repaired": 75,
+      "damaged": 33
+    }
+  ],
+  "output_control": [
+    {
+      "candidate": "pruned_constrained",
+      "reference": "late_mlp_width50",
+      "condition": "neutral",
+      "n": 400,
+      "difference": {
+        "n": 400,
+        "mean": 0.04,
+        "median": 0.0,
+        "low": 0.0225,
+        "high": 0.06
+      },
+      "repaired_from_invalid": 15,
+      "repaired_from_listed_wrong": 1,
+      "changed_when_raw_listed": 1,
+      "damaged": 0
+    },
+    {
+      "candidate": "pruned_constrained",
+      "reference": "late_mlp_width50",
+      "condition": "wrong",
+      "n": 400,
+      "difference": {
+        "n": 400,
+        "mean": 0.03,
+        "median": 0.0,
+        "low": 0.015,
+        "high": 0.0475
+      },
+      "repaired_from_invalid": 11,
+      "repaired_from_listed_wrong": 1,
+      "changed_when_raw_listed": 2,
+      "damaged": 0
+    }
+  ],
+  "output_repairs_name_already_at_start": 0,
+  "output_repairs_count": 28,
+  "error_recovery_oracle": {
+    "neutral": {
+      "baseline_errors": 190,
+      "input_only_correct": 19,
+      "untrained_any_correct": 15,
+      "any_frozen_correct": 34,
+      "all_fixed": 44
+    },
+    "wrong": {
+      "baseline_errors": 237,
+      "input_only_correct": 75,
+      "untrained_any_correct": 20,
+      "any_frozen_correct": 31,
+      "all_fixed": 89
+    }
+  },
+  "untrained_methods": [
+    "late_mlp_width50",
+    "pruned_constrained"
+  ],
+  "timing": [
+    {
+      "candidate": "late_mlp_width50",
+      "metric": "prefill_seconds",
+      "ratio": {
+        "n": 6,
+        "mean": 0.9127430219493043,
+        "median": 0.8707482460806437,
+        "low": 0.8480639510477969,
+        "high": 1.0305610341661882
+      },
+      "baseline_seconds": 0.23880088703784472,
+      "variant_seconds": 0.19915494262628877,
+      "baseline_tokens": 5.333333333333333,
+      "variant_tokens": 5.333333333333333
+    },
+    {
+      "candidate": "late_mlp_width50",
+      "metric": "fixed12_decode_seconds",
+      "ratio": {
+        "n": 6,
+        "mean": 0.8405038986331176,
+        "median": 0.8453647555438738,
+        "low": 0.7904915171163585,
+        "high": 0.898521187996524
+      },
+      "baseline_seconds": 0.2992853958082075,
+      "variant_seconds": 0.24946246874363473,
+      "baseline_tokens": 5.333333333333333,
+      "variant_tokens": 5.333333333333333
+    },
+    {
+      "candidate": "late_mlp_width50",
+      "metric": "actual_answer_seconds",
+      "ratio": {
+        "n": 6,
+        "mean": 0.8610215875600965,
+        "median": 0.8680337564462888,
+        "low": 0.8023218895985007,
+        "high": 0.9194885416694171
+      },
+      "baseline_seconds": 0.2961123525747098,
+      "variant_seconds": 0.25382966827601194,
+      "baseline_tokens": 5.333333333333333,
+      "variant_tokens": 5.333333333333333
+    },
+    {
+      "candidate": "full_adapter16",
+      "metric": "prefill_seconds",
+      "ratio": {
+        "n": 6,
+        "mean": 0.9999190323558694,
+        "median": 0.9947387704144098,
+        "low": 0.9630474831275981,
+        "high": 1.0391810895596392
+      },
+      "baseline_seconds": 0.17725713374481225,
+      "variant_seconds": 0.17495580551136905,
+      "baseline_tokens": 5.333333333333333,
+      "variant_tokens": 5.5
+    },
+    {
+      "candidate": "full_adapter16",
+      "metric": "fixed12_decode_seconds",
+      "ratio": {
+        "n": 6,
+        "mean": 1.0080417658335996,
+        "median": 1.0052095709355433,
+        "low": 0.9833138034392064,
+        "high": 1.0336373346778527
+      },
+      "baseline_seconds": 0.2764569774735719,
+      "variant_seconds": 0.2788355172961019,
+      "baseline_tokens": 5.333333333333333,
+      "variant_tokens": 5.5
+    },
+    {
+      "candidate": "full_adapter16",
+      "metric": "actual_answer_seconds",
+      "ratio": {
+        "n": 6,
+        "mean": 1.0254235152722346,
+        "median": 1.0294010695509914,
+        "low": 1.0090913577238179,
+        "high": 1.041918583878754
+      },
+      "baseline_seconds": 0.2904677324113436,
+      "variant_seconds": 0.298780187459973,
+      "baseline_tokens": 5.333333333333333,
+      "variant_tokens": 5.5
+    },
+    {
+      "candidate": "pruned_adapter16",
+      "metric": "prefill_seconds",
+      "ratio": {
+        "n": 6,
+        "mean": 0.8839437476479387,
+        "median": 0.8848271953541,
+        "low": 0.8620016937544014,
+        "high": 0.9087933998881806
+      },
+      "baseline_seconds": 0.16961419634753838,
+      "variant_seconds": 0.14941229168713713,
+      "baseline_tokens": 5.333333333333333,
+      "variant_tokens": 5.333333333333333
+    },
+    {
+      "candidate": "pruned_adapter16",
+      "metric": "fixed12_decode_seconds",
+      "ratio": {
+        "n": 6,
+        "mean": 0.8906293194570946,
+        "median": 0.879187223979688,
+        "low": 0.8363600067052801,
+        "high": 0.9597356116990037
+      },
+      "baseline_seconds": 0.2831246475301062,
+      "variant_seconds": 0.2559216476317185,
+      "baseline_tokens": 5.333333333333333,
+      "variant_tokens": 5.333333333333333
+    },
+    {
+      "candidate": "pruned_adapter16",
+      "metric": "actual_answer_seconds",
+      "ratio": {
+        "n": 6,
+        "mean": 0.8830347563147986,
+        "median": 0.8689867598561307,
+        "low": 0.8551537619226935,
+        "high": 0.9231553445759529
+      },
+      "baseline_seconds": 0.29446827604745823,
+      "variant_seconds": 0.26088035067853826,
+      "baseline_tokens": 5.333333333333333,
+      "variant_tokens": 5.333333333333333
+    },
+    {
+      "candidate": "exit20_adapter16",
+      "metric": "prefill_seconds",
+      "ratio": {
+        "n": 6,
+        "mean": 0.7489742939976303,
+        "median": 0.7268938999948897,
+        "low": 0.6816686093227803,
+        "high": 0.8361403247129158
+      },
+      "baseline_seconds": 0.17517318582395092,
+      "variant_seconds": 0.13525026561304307,
+      "baseline_tokens": 5.333333333333333,
+      "variant_tokens": 37.0
+    },
+    {
+      "candidate": "exit20_adapter16",
+      "metric": "fixed12_decode_seconds",
+      "ratio": {
+        "n": 6,
+        "mean": 0.774890015874614,
+        "median": 0.7555891687741311,
+        "low": 0.7393398388445925,
+        "high": 0.8163980903675738
+      },
+      "baseline_seconds": 0.2786948871216737,
+      "variant_seconds": 0.21765331941423938,
+      "baseline_tokens": 5.333333333333333,
+      "variant_tokens": 37.0
+    },
+    {
+      "candidate": "exit20_adapter16",
+      "metric": "actual_answer_seconds",
+      "ratio": {
+        "n": 6,
+        "mean": 2.1557114537647846,
+        "median": 2.007225271543042,
+        "low": 1.542356664668754,
+        "high": 3.0732186905527112
+      },
+      "baseline_seconds": 0.28914138903686154,
+      "variant_seconds": 0.775213074676382,
+      "baseline_tokens": 5.333333333333333,
+      "variant_tokens": 37.0
+    },
+    {
+      "candidate": "exit20_bridge64",
+      "metric": "prefill_seconds",
+      "ratio": {
+        "n": 6,
+        "mean": 0.7939578385811317,
+        "median": 0.7601929647322234,
+        "low": 0.7282207194970235,
+        "high": 0.8756282838210188
+      },
+      "baseline_seconds": 0.16882699473838633,
+      "variant_seconds": 0.1342998280112321,
+      "baseline_tokens": 5.333333333333333,
+      "variant_tokens": 6.583333333333333
+    },
+    {
+      "candidate": "exit20_bridge64",
+      "metric": "fixed12_decode_seconds",
+      "ratio": {
+        "n": 6,
+        "mean": 0.7145584531639287,
+        "median": 0.7205743499738249,
+        "low": 0.6889737548504171,
+        "high": 0.7400238595377412
+      },
+      "baseline_seconds": 0.29996681419045973,
+      "variant_seconds": 0.2111745243698048,
+      "baseline_tokens": 5.333333333333333,
+      "variant_tokens": 6.583333333333333
+    },
+    {
+      "candidate": "exit20_bridge64",
+      "metric": "actual_answer_seconds",
+      "ratio": {
+        "n": 6,
+        "mean": 0.8549986870854465,
+        "median": 0.7512354504814213,
+        "low": 0.7159033535342635,
+        "high": 1.055910745307314
+      },
+      "baseline_seconds": 0.28883744615207735,
+      "variant_seconds": 0.2463649096704709,
+      "baseline_tokens": 5.333333333333333,
+      "variant_tokens": 6.583333333333333
+    },
+    {
+      "candidate": "pruned_constrained",
+      "metric": "prefill_seconds",
+      "ratio": {
+        "n": 6,
+        "mean": 0.8860957512680151,
+        "median": 0.8766368208702421,
+        "low": 0.8485132606385541,
+        "high": 0.9331539587561032
+      },
+      "baseline_seconds": 0.17092629159257436,
+      "variant_seconds": 0.15033148791796216,
+      "baseline_tokens": 5.333333333333333,
+      "variant_tokens": 5.333333333333333
+    },
+    {
+      "candidate": "pruned_constrained",
+      "metric": "fixed12_decode_seconds",
+      "ratio": {
+        "n": 6,
+        "mean": 0.8724753993899602,
+        "median": 0.8671763949993018,
+        "low": 0.8574495024779829,
+        "high": 0.8891666061728676
+      },
+      "baseline_seconds": 0.2761394166542838,
+      "variant_seconds": 0.24085769957552353,
+      "baseline_tokens": 5.333333333333333,
+      "variant_tokens": 5.333333333333333
+    },
+    {
+      "candidate": "pruned_constrained",
+      "metric": "actual_answer_seconds",
+      "ratio": {
+        "n": 6,
+        "mean": 0.8555230708132836,
+        "median": 0.8574926993777028,
+        "low": 0.8495488834125026,
+        "high": 0.8606861222913104
+      },
+      "baseline_seconds": 0.2893711093735571,
+      "variant_seconds": 0.24744058512927344,
+      "baseline_tokens": 5.333333333333333,
+      "variant_tokens": 5.333333333333333
+    }
+  ],
+  "source_sensitivity": [
+    {
+      "filter": "strict_source_keep",
+      "candidate": "baseline",
+      "n": 386,
+      "neutral_correct": 203,
+      "wrong_correct": 159,
+      "difference": {
+        "n": 386,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      }
+    },
+    {
+      "filter": "strict_source_keep",
+      "candidate": "late_mlp_width50",
+      "n": 386,
+      "neutral_correct": 194,
+      "wrong_correct": 165,
+      "difference": {
+        "n": 386,
+        "mean": -0.0038860103626943004,
+        "median": 0.0,
+        "low": -0.025906735751295335,
+        "high": 0.01683937823834197
+      }
+    },
+    {
+      "filter": "strict_source_keep",
+      "candidate": "full_adapter16",
+      "n": 386,
+      "neutral_correct": 199,
+      "wrong_correct": 148,
+      "difference": {
+        "n": 386,
+        "mean": -0.019430051813471502,
+        "median": 0.0,
+        "low": -0.046632124352331605,
+        "high": 0.007772020725388601
+      }
+    },
+    {
+      "filter": "strict_source_keep",
+      "candidate": "pruned_adapter16",
+      "n": 386,
+      "neutral_correct": 194,
+      "wrong_correct": 165,
+      "difference": {
+        "n": 386,
+        "mean": -0.0038860103626943004,
+        "median": 0.0,
+        "low": -0.025906735751295335,
+        "high": 0.01683937823834197
+      }
+    },
+    {
+      "filter": "strict_source_keep",
+      "candidate": "exit20_adapter16",
+      "n": 386,
+      "neutral_correct": 2,
+      "wrong_correct": 2,
+      "difference": {
+        "n": 386,
+        "mean": -0.4637305699481865,
+        "median": -0.5,
+        "low": -0.5064766839378239,
+        "high": -0.4209844559585492
+      }
+    },
+    {
+      "filter": "strict_source_keep",
+      "candidate": "exit20_bridge64",
+      "n": 386,
+      "neutral_correct": 0,
+      "wrong_correct": 0,
+      "difference": {
+        "n": 386,
+        "mean": -0.4689119170984456,
+        "median": -0.5,
+        "low": -0.5116580310880829,
+        "high": -0.4261658031088083
+      }
+    },
+    {
+      "filter": "strict_source_keep",
+      "candidate": "pruned_constrained",
+      "n": 386,
+      "neutral_correct": 209,
+      "wrong_correct": 177,
+      "difference": {
+        "n": 386,
+        "mean": 0.031088082901554404,
+        "median": 0.0,
+        "low": 0.012953367875647668,
+        "high": 0.04922279792746114
+      }
+    },
+    {
+      "filter": "strict_source_and_similarity_keep",
+      "candidate": "baseline",
+      "n": 366,
+      "neutral_correct": 194,
+      "wrong_correct": 150,
+      "difference": {
+        "n": 366,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      }
+    },
+    {
+      "filter": "strict_source_and_similarity_keep",
+      "candidate": "late_mlp_width50",
+      "n": 366,
+      "neutral_correct": 185,
+      "wrong_correct": 155,
+      "difference": {
+        "n": 366,
+        "mean": -0.00546448087431694,
+        "median": 0.0,
+        "low": -0.0273224043715847,
+        "high": 0.015027322404371584
+      }
+    },
+    {
+      "filter": "strict_source_and_similarity_keep",
+      "candidate": "full_adapter16",
+      "n": 366,
+      "neutral_correct": 187,
+      "wrong_correct": 141,
+      "difference": {
+        "n": 366,
+        "mean": -0.02185792349726776,
+        "median": 0.0,
+        "low": -0.04918032786885246,
+        "high": 0.00546448087431694
+      }
+    },
+    {
+      "filter": "strict_source_and_similarity_keep",
+      "candidate": "pruned_adapter16",
+      "n": 366,
+      "neutral_correct": 185,
+      "wrong_correct": 155,
+      "difference": {
+        "n": 366,
+        "mean": -0.00546448087431694,
+        "median": 0.0,
+        "low": -0.0273224043715847,
+        "high": 0.015027322404371584
+      }
+    },
+    {
+      "filter": "strict_source_and_similarity_keep",
+      "candidate": "exit20_adapter16",
+      "n": 366,
+      "neutral_correct": 2,
+      "wrong_correct": 2,
+      "difference": {
+        "n": 366,
+        "mean": -0.4644808743169399,
+        "median": -0.5,
+        "low": -0.5095628415300546,
+        "high": -0.4207650273224044
+      }
+    },
+    {
+      "filter": "strict_source_and_similarity_keep",
+      "candidate": "exit20_bridge64",
+      "n": 366,
+      "neutral_correct": 0,
+      "wrong_correct": 0,
+      "difference": {
+        "n": 366,
+        "mean": -0.46994535519125685,
+        "median": -0.5,
+        "low": -0.5136612021857924,
+        "high": -0.4262295081967213
+      }
+    },
+    {
+      "filter": "strict_source_and_similarity_keep",
+      "candidate": "pruned_constrained",
+      "n": 366,
+      "neutral_correct": 200,
+      "wrong_correct": 167,
+      "difference": {
+        "n": 366,
+        "mean": 0.031420765027322405,
+        "median": 0.0,
+        "low": 0.01366120218579235,
+        "high": 0.04918032786885246
+      }
+    }
+  ],
+  "source_audit_sha256": "e51b4e28d947adfde21aa25f71f3e264614484540470457a8cd9e8fd8d095cb4",
+  "selection_sha256": "6692a3c2524fb1aaf384f434d17cac65859f764c580626d1b06c4c2ba4f48610",
+  "api_cost_usd": 0,
+  "matched_output_control": {
+    "control": {
+      "name": "baseline_constrained",
+      "constrained": true
+    },
+    "post_primary_explanatory": true,
+    "difference": {
+      "n": 400,
+      "mean": 0.01625,
+      "median": 0.0,
+      "low": 0.00125,
+      "high": 0.031281250000000115
+    },
+    "factorial": [
+      {
+        "contrast": "裁剪效应：自由生成",
+        "n": 400,
+        "mean": -0.00625,
+        "median": 0.0,
+        "low": -0.0275,
+        "high": 0.015
+      },
+      {
+        "contrast": "输出约束效应：完整模型",
+        "n": 400,
+        "mean": 0.0125,
+        "median": 0.0,
+        "low": 0.005,
+        "high": 0.0225
+      },
+      {
+        "contrast": "输出约束效应：压缩模型",
+        "n": 400,
+        "mean": 0.035,
+        "median": 0.0,
+        "low": 0.02,
+        "high": 0.0525
+      },
+      {
+        "contrast": "裁剪效应：相同输出约束",
+        "n": 400,
+        "mean": 0.01625,
+        "median": 0.0,
+        "low": 0.00125,
+        "high": 0.031281250000000115
+      },
+      {
+        "contrast": "交互：压缩后约束收益增加多少",
+        "n": 400,
+        "mean": 0.0225,
+        "median": 0.0,
+        "low": 0.00875,
+        "high": 0.03875
+      }
+    ],
+    "timing": [
+      {
+        "metric": "prefill_seconds",
+        "ratio": {
+          "n": 6,
+          "mean": 0.9451608353579606,
+          "median": 0.9303477892675559,
+          "low": 0.7194600554733668,
+          "high": 1.2251856708724742
+        }
+      },
+      {
+        "metric": "fixed12_decode_seconds",
+        "ratio": {
+          "n": 6,
+          "mean": 0.9248470346124398,
+          "median": 0.875073615427453,
+          "low": 0.8311586815844629,
+          "high": 1.0529364563881594
+        }
+      },
+      {
+        "metric": "actual_answer_seconds",
+        "ratio": {
+          "n": 6,
+          "mean": 0.8493409362827238,
+          "median": 0.86340649041623,
+          "low": 0.8110960705566219,
+          "high": 0.8871761187055744
+        }
+      }
+    ],
+    "strict": {
+      "n": 366,
+      "difference": {
+        "n": 366,
+        "mean": 0.01912568306010929,
+        "median": 0.0,
+        "low": 0.004098360655737705,
+        "high": 0.03551912568306011
+      },
+      "control_correct": {
+        "neutral": 198,
+        "wrong": 155
+      }
+    }
+  },
+  "normalized_scoring": {
+    "status": "Post-primary scoring sensitivity, applied uniformly; no reselection.",
+    "rule_sha256": "d4417720da2cb5d2cc079faff44e5f5a82b3aae3be781282ae9689661c83d75d",
+    "per_method": [
+      {
+        "candidate": "baseline",
+        "neutral_correct": 216,
+        "wrong_correct": 168,
+        "strict_subset": {
+          "n": 366,
+          "neutral_correct": 199,
+          "wrong_correct": 155,
+          "difference": {
+            "n": 366,
+            "mean": 0.0,
+            "median": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          }
+        }
+      },
+      {
+        "candidate": "late_mlp_width50",
+        "neutral_correct": 210,
+        "wrong_correct": 176,
+        "strict_subset": {
+          "n": 366,
+          "neutral_correct": 194,
+          "wrong_correct": 163,
+          "difference": {
+            "n": 366,
+            "mean": 0.004098360655737705,
+            "median": 0.0,
+            "low": -0.015027322404371584,
+            "high": 0.023224043715846996
+          }
+        }
+      },
+      {
+        "candidate": "full_adapter16",
+        "neutral_correct": 208,
+        "wrong_correct": 155,
+        "strict_subset": {
+          "n": 366,
+          "neutral_correct": 189,
+          "wrong_correct": 145,
+          "difference": {
+            "n": 366,
+            "mean": -0.0273224043715847,
+            "median": 0.0,
+            "low": -0.0546448087431694,
+            "high": 0.0
+          }
+        }
+      },
+      {
+        "candidate": "pruned_adapter16",
+        "neutral_correct": 210,
+        "wrong_correct": 176,
+        "strict_subset": {
+          "n": 366,
+          "neutral_correct": 194,
+          "wrong_correct": 163,
+          "difference": {
+            "n": 366,
+            "mean": 0.004098360655737705,
+            "median": 0.0,
+            "low": -0.015027322404371584,
+            "high": 0.023224043715846996
+          }
+        }
+      },
+      {
+        "candidate": "exit20_adapter16",
+        "neutral_correct": 2,
+        "wrong_correct": 2,
+        "strict_subset": {
+          "n": 366,
+          "neutral_correct": 2,
+          "wrong_correct": 2,
+          "difference": {
+            "n": 366,
+            "mean": -0.4781420765027322,
+            "median": -0.5,
+            "low": -0.523224043715847,
+            "high": -0.4344262295081967
+          }
+        }
+      },
+      {
+        "candidate": "exit20_bridge64",
+        "neutral_correct": 0,
+        "wrong_correct": 0,
+        "strict_subset": {
+          "n": 366,
+          "neutral_correct": 0,
+          "wrong_correct": 0,
+          "difference": {
+            "n": 366,
+            "mean": -0.48360655737704916,
+            "median": -0.5,
+            "low": -0.5273224043715847,
+            "high": -0.43989071038251365
+          }
+        }
+      },
+      {
+        "candidate": "pruned_constrained",
+        "neutral_correct": 216,
+        "wrong_correct": 180,
+        "strict_subset": {
+          "n": 366,
+          "neutral_correct": 200,
+          "wrong_correct": 167,
+          "difference": {
+            "n": 366,
+            "mean": 0.017759562841530054,
+            "median": 0.0,
+            "low": 0.00273224043715847,
+            "high": 0.03415300546448088
+          }
+        }
+      },
+      {
+        "candidate": "baseline_constrained",
+        "neutral_correct": 215,
+        "wrong_correct": 168,
+        "strict_subset": {
+          "n": 366,
+          "neutral_correct": 198,
+          "wrong_correct": 155,
+          "difference": {
+            "n": 366,
+            "mean": -0.001366120218579235,
+            "median": 0.0,
+            "low": -0.004098360655737705,
+            "high": 0.0
+          }
+        }
+      }
+    ],
+    "comparisons": [
+      {
+        "candidate": "late_mlp_width50",
+        "n": 400,
+        "mean": 0.0025,
+        "median": 0.0,
+        "low": -0.0175,
+        "high": 0.02125,
+        "p": 0.901387326584177,
+        "p_holm": 1.0
+      },
+      {
+        "candidate": "full_adapter16",
+        "n": 400,
+        "mean": -0.02625,
+        "median": 0.0,
+        "low": -0.0525,
+        "high": 0.0,
+        "p": 0.06461692288463942,
+        "p_holm": 0.2584676915385577
+      },
+      {
+        "candidate": "pruned_adapter16",
+        "n": 400,
+        "mean": 0.0025,
+        "median": 0.0,
+        "low": -0.0175,
+        "high": 0.02125,
+        "p": 0.901387326584177,
+        "p_holm": 1.0
+      },
+      {
+        "candidate": "exit20_adapter16",
+        "n": 400,
+        "mean": -0.475,
+        "median": -0.5,
+        "low": -0.51625,
+        "high": -0.4325,
+        "p": 0.00012498437695288088,
+        "p_holm": 0.0007499062617172853
+      },
+      {
+        "candidate": "exit20_bridge64",
+        "n": 400,
+        "mean": -0.48,
+        "median": -0.5,
+        "low": -0.5225,
+        "high": -0.4375,
+        "p": 0.00012498437695288088,
+        "p_holm": 0.0007499062617172853
+      },
+      {
+        "candidate": "pruned_constrained",
+        "n": 400,
+        "mean": 0.015,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.03,
+        "p": 0.07274090738657668,
+        "p_holm": 0.2584676915385577
+      }
+    ],
+    "matched_difference": {
+      "n": 400,
+      "mean": 0.01625,
+      "median": 0.0,
+      "low": 0.00125,
+      "high": 0.031281250000000115
+    },
+    "constraint_repairs_already_correct": 18,
+    "constraint_repairs": 28,
+    "factorial": [
+      {
+        "contrast": "裁剪效应：自由生成",
+        "n": 400,
+        "mean": 0.0025,
+        "median": 0.0,
+        "low": -0.0175,
+        "high": 0.02125
+      },
+      {
+        "contrast": "输出约束效应：完整模型",
+        "n": 400,
+        "mean": -0.00125,
+        "median": 0.0,
+        "low": -0.00375,
+        "high": 0.0
+      },
+      {
+        "contrast": "输出约束效应：压缩模型",
+        "n": 400,
+        "mean": 0.0125,
+        "median": 0.0,
+        "low": 0.00375,
+        "high": 0.02375
+      },
+      {
+        "contrast": "裁剪效应：相同输出约束",
+        "n": 400,
+        "mean": 0.01625,
+        "median": 0.0,
+        "low": 0.00125,
+        "high": 0.031281250000000115
+      }
+    ],
+    "no_history_correct": 213,
+    "input_control": [
+      {
+        "reference_condition": "neutral",
+        "difference": {
+          "n": 400,
+          "mean": -0.0075,
+          "median": 0.0,
+          "low": -0.03756249999999998,
+          "high": 0.022562500000000228
+        },
+        "repaired": 19,
+        "damaged": 22
+      },
+      {
+        "reference_condition": "wrong",
+        "difference": {
+          "n": 400,
+          "mean": 0.1125,
+          "median": 0.0,
+          "low": 0.065,
+          "high": 0.1625
+        },
+        "repaired": 77,
+        "damaged": 32
+      }
+    ],
+    "answer_scope_sensitivity": {
+      "n": 360,
+      "excluded_case_ids": [
+        "medmcqa_train_1bba25d9-7512-458e-b47c-65a5a78c975f",
+        "medmcqa_train_202cb4ea-c9ef-4e19-868c-eaae7fca2262",
+        "medmcqa_train_27f22bd6-be02-4c94-bbd5-deb82ef5a018",
+        "medmcqa_train_fba4477b-e045-47e8-a48b-d0856f57ccc9",
+        "medqa_dev_00157",
+        "medqa_dev_00294",
+        "medqa_dev_00834",
+        "medqa_train_01986",
+        "medqa_train_03655"
+      ],
+      "rows": [
+        {
+          "candidate": "baseline",
+          "neutral_correct": 197,
+          "wrong_correct": 155,
+          "difference": {
+            "n": 360,
+            "mean": 0.0,
+            "median": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          }
+        },
+        {
+          "candidate": "late_mlp_width50",
+          "neutral_correct": 192,
+          "wrong_correct": 163,
+          "difference": {
+            "n": 360,
+            "mean": 0.004166666666666667,
+            "median": 0.0,
+            "low": -0.016666666666666666,
+            "high": 0.02361111111111111
+          }
+        },
+        {
+          "candidate": "full_adapter16",
+          "neutral_correct": 188,
+          "wrong_correct": 144,
+          "difference": {
+            "n": 360,
+            "mean": -0.027777777777777776,
+            "median": 0.0,
+            "low": -0.05694444444444444,
+            "high": 0.0
+          }
+        },
+        {
+          "candidate": "pruned_adapter16",
+          "neutral_correct": 192,
+          "wrong_correct": 163,
+          "difference": {
+            "n": 360,
+            "mean": 0.004166666666666667,
+            "median": 0.0,
+            "low": -0.016666666666666666,
+            "high": 0.02361111111111111
+          }
+        },
+        {
+          "candidate": "exit20_adapter16",
+          "neutral_correct": 2,
+          "wrong_correct": 2,
+          "difference": {
+            "n": 360,
+            "mean": -0.48333333333333334,
+            "median": -0.5,
+            "low": -0.5263888888888889,
+            "high": -0.4388888888888889
+          }
+        },
+        {
+          "candidate": "exit20_bridge64",
+          "neutral_correct": 0,
+          "wrong_correct": 0,
+          "difference": {
+            "n": 360,
+            "mean": -0.4888888888888889,
+            "median": -0.5,
+            "low": -0.5319444444444444,
+            "high": -0.4444444444444444
+          }
+        },
+        {
+          "candidate": "pruned_constrained",
+          "neutral_correct": 198,
+          "wrong_correct": 167,
+          "difference": {
+            "n": 360,
+            "mean": 0.018055555555555554,
+            "median": 0.0,
+            "low": 0.002777777777777778,
+            "high": 0.034722222222222224
+          }
+        },
+        {
+          "candidate": "baseline_constrained",
+          "neutral_correct": 196,
+          "wrong_correct": 155,
+          "difference": {
+            "n": 360,
+            "mean": -0.001388888888888889,
+            "median": 0.0,
+            "low": -0.004166666666666667,
+            "high": 0.0
+          }
+        }
+      ],
+      "matched_difference": {
+        "n": 360,
+        "mean": 0.019444444444444445,
+        "median": 0.0,
+        "low": 0.004166666666666667,
+        "high": 0.03611111111111111
+      }
+    }
+  }
+}

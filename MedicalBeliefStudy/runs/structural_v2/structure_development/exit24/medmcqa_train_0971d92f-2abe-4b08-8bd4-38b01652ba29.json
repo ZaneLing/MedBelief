@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_0971d92f-2abe-4b08-8bd4-38b01652ba29",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit24",
+    "exit_layer": 24
+  },
+  "parameter_stats": {
+    "parameters": 1519230976,
+    "weight_bytes": 3038461952,
+    "layers": 24
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Dynamically suspected",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "f13895b5acf9dc80367a1a507e76f41f193b5d19d08836d33614e66db5177c3d"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Dynamically\",\"reason\":\"The presence of an abdominal mass with elevated levels of both LDH and HCG strongly suggests a malignant实体瘤 originating from ovarian source. Among the options provided, \"Dynamically\" appears to be incorrect and likely a typo or misinterpretation. The correct diagnosis likely involves a malignant ovarian",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "ceec8de45e29fc7785eab77b8bf20f289f497268a59c96c22be83bf534199995"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "patients": 540,
+  "counts": {
+    "observations": 6823,
+    "generated_answers": 1620,
+    "native_checks": 18,
+    "code_observations": 376
+  },
+  "all_hashes_match": true,
+  "all_primary_arrays_finite": true,
+  "all_primary_probabilities_recompute": true,
+  "all_attention_rows_normalized": true,
+  "max_attention_reconstruction_error": 0.00026813859585672617,
+  "max_native_logit_error": 0.015625,
+  "deprecated_fp16_mean_records_with_nonfinite": 4442,
+  "note": "Only auxiliary evidence_means exempted from finiteness, formally deprecated. All 1080 endpoint means used in final analysis require phase51 FP32 sidecars."
+}

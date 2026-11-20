@@ -1,0 +1,49 @@
+{
+  "case_id": "medmcqa_train_66f993dd-24e9-4c00-849e-0231b57d182f",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Tubercular lymphadenitis\"}",
+      "generated_disease": "Tubercular lymphadenitis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "d047f291b38dfbefc3ff0a226a92a9112826004daa43d765c6146f639adb27a6"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Subacute thyroiditis\"}",
+      "generated_disease": "Subacute thyroiditis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "79eb11db8c7799cefceaa6480efd44ef0af4ce8299755376ff55fb41f1897f95"
+    }
+  ]
+}

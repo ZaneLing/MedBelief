@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-18",
+  "role": "Small phase3 development pilot, not completion of the full future-prediction stage",
+  "source_sha256": "edc3bbc58c532861a286ead3d857b7fa9a71474f41e78f58109dcb4dd7c37113",
+  "data_sha256": "cd3d69d3c68ac4ee16be1547333cb9707b6a91596598df940e53a061b541da01",
+  "prior_predictions_sha256": "6f3ffebcbded8fc4ca940c4b5f34f5bb273539d3404dc49583f72fb4aecfc820",
+  "future_outputs_seen": false,
+  "records": 32,
+  "families": 8,
+  "current_records": "The 32 phase2C backup-present records; actual current answers are retained, no desired initial response substituted.",
+  "manipulation": "Same current semantic answer within each family/sign pair; withdraw only R2, without restating whether R1 is usable. Expected answer stays if R1 is usable and becomes insufficient otherwise.",
+  "forecast_target": "Whether the actual future model answer changes from its actual current semantic answer; separately report future correctness and type of change.",
+  "predictor_inputs": "Only pre-current-generation phase2C state, visible current input, and actual current semantic answer; future prompt/response never included as predictor features.",
+  "split": "Train on family indices 8,9 (4 numerical families,16 trajectories); test 10,11 (4 other families,16 trajectories). Entire trajectories stay together.",
+  "comparisons": [
+    "current answer + domain only",
+    "current visible text + actual current answer, word/character TFIDF with C selected only inside training families",
+    "hidden state + current answer + domain, fixed C=1, all layers; layers36 primary and26 secondary selected previously from2B"
+  ],
+  "limits": "Current-answer confidence/log-probabilities not controlled; small numerical-family split, not broad template independence. No causal intervention. A predictive advantage, if any, is pilot evidence only; no advantage is reported honestly.",
+  "sampling": {
+    "seed": 20261118,
+    "max_tokens": 2048,
+    "batch_size": 16,
+    "paired_random_streams": true
+  },
+  "capture": false,
+  "api_cost_usd": 0,
+  "clinical_review_required": false,
+  "analysis_source_sha256": "f7a35353af23f6bafd45cc3cbe00f6c3ceef73def3da04d429a1e1d3da9d82c2",
+  "forecast_classifier_class_weight": "balanced",
+  "text_C_candidates": [
+    0.1,
+    1,
+    10,
+    100,
+    1000
+  ]
+}

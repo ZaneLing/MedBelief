@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_train_07946",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Threatened abortion\"}",
+      "generated_disease": "Threatened abortion",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "47e7e8b9b26c0f5eff59e84579e49718640089cb19bb9fd48d87c228a52a88fa"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Incomplete abortion\"}",
+      "generated_disease": "Incomplete abortion",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "54b6f36a0fccd7dddf3abc9f52c37de9f188ab56b87d9a07fe218a6fe70acf6c"
+    }
+  ]
+}

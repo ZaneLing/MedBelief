@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_07702",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Intracranial hemorrhage\"}",
+      "generated_disease": "Intracranial hemorrhage",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "ae2c609933aad31ec834d27d71de50c90e8283cda794dbdefc8a3653335a6389"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Cavernous sinus thrombosis\"}",
+      "generated_disease": "Cavernous sinus thrombosis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "baa835e09102e52137f19ec93901a45949dddc82bcafa7789eb5d4c2e066e544"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_07702",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Intracranial hemorrhage\"}",
+      "generated_disease": "Intracranial hemorrhage",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "65a89fa129c7148d82a09dd6f5a696c3128f25e6a26fe3fb826c5dbc697c2ff6"
+    }
+  ]
+}

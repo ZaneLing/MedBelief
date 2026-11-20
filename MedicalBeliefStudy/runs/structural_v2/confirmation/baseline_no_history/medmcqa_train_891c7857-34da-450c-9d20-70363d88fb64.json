@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_891c7857-34da-450c-9d20-70363d88fb64",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Acute pyelonephritis\"}",
+      "generated_disease": "Acute pyelonephritis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "7eea76f486f884f9ef2239287e75fe55cd08bb6e9d28330579c268546fc8eb30"
+    }
+  ]
+}

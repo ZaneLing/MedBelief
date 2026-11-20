@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_c72b2c92-0395-4bb0-873f-4c16793edb86",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Caput succedaneum\"}",
+      "generated_disease": "Caput succedaneum",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "a09c007ef637ef52c19f72ea3ef84073bff27665fd8e2dc4787c582f4995acef"
+    }
+  ]
+}

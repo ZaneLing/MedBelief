@@ -1,0 +1,17 @@
+{
+  "python": "3.11.0 | packaged by conda-forge | (main, Jan 15 2023, 05:44:48) [Clang 14.0.6 ]",
+  "base_python": "/opt/miniconda3/envs/thetagamma",
+  "mps": true,
+  "versions": {
+    "torch": "2.2.2",
+    "transformers": "4.57.3",
+    "numpy": "1.26.4",
+    "matplotlib": "3.10.7",
+    "scikit-learn": "1.7.2",
+    "safetensors": "0.7.0",
+    "tokenizers": "0.22.1",
+    "pytest": "8.4.2",
+    "huggingface-hub": "0.36.0"
+  },
+  "original_environment_modified": false
+}

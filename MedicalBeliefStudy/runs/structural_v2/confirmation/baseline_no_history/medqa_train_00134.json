@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_00134",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Congenital syphilis\"}",
+      "generated_disease": "Congenital syphilis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "c468afa1ab8bcbd48f7b63a0bde113809bc9676098c929d5c5f1e5f55a6e8a83"
+    }
+  ]
+}

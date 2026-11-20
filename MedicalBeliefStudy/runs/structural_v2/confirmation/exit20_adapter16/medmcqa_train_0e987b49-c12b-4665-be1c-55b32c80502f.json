@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_0e987b49-c12b-4665-be1c-55b32c80502f",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxia's syndrome\"}",
+      "generated_disease": "Pemphoxia's syndrome",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "3a6cc479e9910a78eaa82a8c1ae0f6522bc52b0738a8233ef23ad6749872bc53"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxia's syndrome\"}",
+      "generated_disease": "Pemphoxia's syndrome",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "9c3739c6c597e47f93eceac26584e2dbd50ab21fffa1c6f1218218d75428a9b5"
+    }
+  ]
+}

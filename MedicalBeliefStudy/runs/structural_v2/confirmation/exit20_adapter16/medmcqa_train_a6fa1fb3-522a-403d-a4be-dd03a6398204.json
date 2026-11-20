@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_a6fa1fb3-522a-403d-a4be-dd03a6398204",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Aortic throm anemia\"}",
+      "generated_disease": "Aortic throm anemia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "9e2f6b6136269ded057a700512b4e3b60ef625dbbc373d95641b8a710cf584e4"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Aortic throm anemia\"}",
+      "generated_disease": "Aortic throm anemia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "295909ff4d81243799002a8494161059c02e3033df0a1fe5b45cd46c9233fd78"
+    }
+  ]
+}

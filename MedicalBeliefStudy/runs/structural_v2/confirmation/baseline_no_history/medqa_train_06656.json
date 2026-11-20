@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_06656",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Conduct disorder\"}",
+      "generated_disease": "Conduct disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "c192d61fea613b9a7196b788b9647e3174154bde5c87c335844516773daa669b"
+    }
+  ]
+}

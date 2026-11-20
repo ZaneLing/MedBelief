@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_2c82132f-13a3-4eb0-aea5-3f8532ff26f8",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chilisparicentericenterickephicaleniformicenterickephinalerinalerinaleniformicenterousyphiloidentemosaripolserthocostaranserventechserveteminaleniformeserveteminaleniformesphil",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "a8e8fbf6f783c09b6777a7718fec098c47b95d95cbef3e334e968334e0222a75"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chilisparicentericenterickephicaleniformicenterickephymuservicovemphuricenteroemphinaleniformicenteroidenicaleniformeservicovemphinaleniformeservdenturephilisentepoeminal",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "eef06fd8760005e4afcf4fc39e9c042069579c2e0960434974d48de38097b213"
+    }
+  ]
+}

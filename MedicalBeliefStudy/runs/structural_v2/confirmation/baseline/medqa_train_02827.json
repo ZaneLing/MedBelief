@@ -1,0 +1,34 @@
+{
+  "case_id": "medqa_train_02827",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Transient global amnesia\"}",
+      "generated_disease": "Transient global amnesia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "bfa40b998083493d266e2fd70b46ee449951d4ee21bc06c1ffc26ffd753bbc9c"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Transient global amnesia\"}",
+      "generated_disease": "Transient global amnesia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "1ea4e752476f9ab251f6f54728a5c18819e6a7a05227e8f43560d476993c25b3"
+    }
+  ]
+}

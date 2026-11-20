@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_06635",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Pancreatitis\"}",
+      "generated_disease": "Pancreatitis",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "865d1716fa0f2eaffe37b82ac0402e190cd90d1dc22d1c819abf28a7c5d5efb8"
+    }
+  ]
+}

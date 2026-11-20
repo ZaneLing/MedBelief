@@ -1,0 +1,34 @@
+{
+  "case_id": "medmcqa_train_ebf37a52-619f-4ff5-aaf3-943c615f5097",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "cardiac tamponade\"}",
+      "generated_disease": "cardiac tamponade",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "04bcebc6b3da625114f728170bad643622d59c9bce09afa3858011c7bb63d4e7"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "cardiac tamponade\"}",
+      "generated_disease": "cardiac tamponade",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ce327ba23076f1dd3cb45251cb1ef7d4bbfecb324740c9b0834bf416d5254b9c"
+    }
+  ]
+}

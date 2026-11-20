@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_05974",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Psychogenic polydipsia\"}",
+      "generated_disease": "Psychogenic polydipsia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "5053bc1d1a450873045fe3686ae8dc4eace398716f1711ea68e476c3618774bf"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Nephrogenic diabetes insipidus\"}",
+      "generated_disease": "Nephrogenic diabetes insipidus",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "88bd3cd2669645f31dbde163ad02793982a652bd9f759f4f54924e780f53b0c0"
+    }
+  ]
+}

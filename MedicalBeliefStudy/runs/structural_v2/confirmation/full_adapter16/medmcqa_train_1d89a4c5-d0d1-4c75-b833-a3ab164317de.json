@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_1d89a4c5-d0d1-4c75-b833-a3ab164317de",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Achalasia cardia\"}",
+      "generated_disease": "Achalasia cardia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "8b5643d14e2b58b9771714dc5c24a550e6744e64291e5309f42dbb196122b3b0"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Achalasia cardia\"}",
+      "generated_disease": "Achalasia cardia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "b662b59db731ddb6f72976faf54b72b9211b91289d89445edd3be316f4c06348"
+    }
+  ]
+}

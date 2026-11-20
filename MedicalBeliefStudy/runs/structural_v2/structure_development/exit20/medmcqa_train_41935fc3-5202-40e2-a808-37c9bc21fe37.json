@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_41935fc3-5202-40e2-a808-37c9bc21fe37",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "D",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 1,
+      "prompt_sha256": "8c64883538b42500619b9fcd620afdc13697fdc783269d764cc3a3280fbf7a9b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Dubianityeamityecknowledancelessnessesystematicityservantshipesignservanceeservanceeservanceesultservservservservservservservservservservservservs",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 58,
+      "prompt_sha256": "71f4215e2d699872136ddf2ec976bdeeba1565f1cb6960fca52e8f303146e48c"
+    }
+  ]
+}

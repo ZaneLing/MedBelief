@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_7eea9246-5f0b-4b57-b9a3-9d1120a899ac",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxia's tumor orients in favor of non-linear pathogenetic process\"} (Note: This line is an error correction and actual correct answer is typically 'Non-linear orphans orphans inkservententosentemememememememememememememememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "3ca8dbecba02fad21bf8ee82ed6ddc601a51edc720184dc74df1a437b59158d5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Dough-like structure or an large-scale structural changes in the body or an individual's body or an individual's body or an .\"} (Note: This error caused an incomplete and incomplete line. actual correct answer is \"C. Normalcy or other significant changes in the absence of significant changes in the absence of an significant",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "6685abbad2e37480da7ba1a0961085fc9c226acc387a8834494e250abbb36302"
+    }
+  ]
+}

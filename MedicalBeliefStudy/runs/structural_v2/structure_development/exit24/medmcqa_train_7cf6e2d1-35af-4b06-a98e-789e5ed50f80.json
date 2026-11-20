@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_7cf6e2d1-35af-4b06-a98e-789e5ed50f80",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit24",
+    "exit_layer": 24
+  },
+  "parameter_stats": {
+    "parameters": 1519230976,
+    "weight_bytes": 3038461952,
+    "layers": 24
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Aortic throm thromosis\"}",
+      "generated_disease": "Aortic throm thromosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "984a681bce37b93f19c11dabdaa6cb91bb1eb85807dc2c5c5cf15f97def831a0"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Aortic throm thromosis\"}",
+      "generated_disease": "Aortic throm thromosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "3106c70867d9995959349b42a6b3b82fb517b27cc3217ed754b095a4751cf45d"
+    }
+  ]
+}

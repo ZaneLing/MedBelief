@@ -1,0 +1,49 @@
+{
+  "case_id": "medmcqa_train_41935fc3-5202-40e2-a808-37c9bc21fe37",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Duchenne Muscular dystrophy\"}",
+      "generated_disease": "Duchenne Muscular dystrophy",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "8c64883538b42500619b9fcd620afdc13697fdc783269d764cc3a3280fbf7a9b"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Duchenne Muscular dystrophy\"}",
+      "generated_disease": "Duchenne Muscular dystrophy",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "71f4215e2d699872136ddf2ec976bdeeba1565f1cb6960fca52e8f303146e48c"
+    }
+  ]
+}

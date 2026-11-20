@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_8a202b40-1144-448a-8bae-7044f37bc153",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Eplrich's syndrome orphans orphans\"} -- Note: This is an error correction and/or an error in the original system. actual correct answer is \"Non-tric acid acidcesssing disorder orphans orphans orphans\"} (Note: This is an example of an error in the original system. actual correct",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "7e1eb3ba05cf3dde8a9f822a7453fa6b674f87c36351dc567ff2e1d8647aee43"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Eplystechsystic disorder\"}",
+      "generated_disease": "Eplystechsystic disorder",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "f53c7a7769b9c437aff4ee5fbef10f571dc48a827820a53fa391baec64d51761"
+    }
+  ]
+}

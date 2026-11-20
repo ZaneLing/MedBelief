@@ -1,0 +1,41 @@
+{
+  "case_id": "medmcqa_train_5c97e2cf-89ab-4285-8f6a-c287238132c1",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_half",
+    "mlp_scale": 0.5,
+    "scale_layers": [
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Charcot's joint\"}",
+      "generated_disease": "Charcot's joint",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "233688b098d480a1901cd7979c029e55fea945bb208fe1c09315f5b3522fb845"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Charcot's joint\"}",
+      "generated_disease": "Charcot's joint",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "080905ba8c1d3b52906ac11fe602533cdcd6684b0f2a1310b0a82b61ad49ea83"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_202cb4ea-c9ef-4e19-868c-eaae7fca2262",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Hydatid cyst\"}",
+      "generated_disease": "Hydatid cyst",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "1de17fb7a99605ad278455b5c74e323f43bc4aad39975c535d88236a9df7f48b"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "append": {
+    "cases": 24,
+    "baseline_correct": 10,
+    "intervened_correct": 10,
+    "newly_correct": 0,
+    "lost_correct": 0,
+    "initially_wrong_cases": 14,
+    "median_deficit_initially_wrong": 10.681403188419807,
+    "median_margin_gain_initially_wrong": 1.1660117078631025
+  },
+  "panel": {
+    "cases": 24,
+    "baseline_correct": 5,
+    "intervened_correct": 5,
+    "newly_correct": 0,
+    "lost_correct": 0,
+    "initially_wrong_cases": 19,
+    "median_deficit_initially_wrong": 22.119364217445202,
+    "median_margin_gain_initially_wrong": 1.5155945881290336
+  }
+}

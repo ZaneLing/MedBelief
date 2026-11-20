@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_3c860ea8-ae63-4bad-9032-90a0c570bb2c",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Open angle glaucoma\"}",
+      "generated_disease": "Open angle glaucoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "cc8ac4e74afcaeced714edb866ca521f67edb4503fcf0d790a45bd61c0f3a8da"
+    }
+  ]
+}

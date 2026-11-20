@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_validation_d89b269b-52d2-4f8a-b9b3-9e5727a05aea",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic progressive disease with increasing pain pain disorder and/or disease progression in an large-scale system of complex complex complex and/or disease growth in an large-scale system of complex and/or disease growth in an large-scale...\"} --Note: This is an error error and/or an incomplete and/or an incomplete and/or an incomplete and",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "5feea5312b3b5d3d169f67281f4b0889c3e59f41a9209c0832b3328d2c43bc02"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic disease disease disease disease anguroic disorder of course acyclics disorder tracional devoentotaxia\"}",
+      "generated_disease": "Chronic disease disease disease disease anguroic disorder of course acyclics disorder tracional devoentotaxia",
+      "stop": "eos",
+      "tokens": 26,
+      "prompt_sha256": "72a005a278ad872b19e1a78bb097adeb2c8291cee1845a5fbc089d24b45c99a0"
+    }
+  ]
+}

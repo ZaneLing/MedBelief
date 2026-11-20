@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_edf467da-ed2b-426f-8e33-17adeaa5edb1",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "NCPF\"}",
+      "generated_disease": "NCPF",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "f10beaa5ea0f8dcc1cd881e2fb8e9699ea3acbfdc5a73fd646c2af2e2e303747"
+    }
+  ]
+}

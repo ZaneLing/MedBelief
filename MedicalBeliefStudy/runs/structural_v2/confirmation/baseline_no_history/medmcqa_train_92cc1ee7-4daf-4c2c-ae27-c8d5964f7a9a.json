@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_92cc1ee7-4daf-4c2c-ae27-c8d5964f7a9a",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Bronchiolitis obliterans\"}",
+      "generated_disease": "Bronchiolitis obliterans",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "9170e0e8d7084c72a6816cb5a4fee86f20b2d7d2f96dbd59730be627e8c144d2"
+    }
+  ]
+}

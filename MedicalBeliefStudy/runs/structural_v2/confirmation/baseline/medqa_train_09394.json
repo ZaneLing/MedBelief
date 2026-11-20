@@ -1,0 +1,34 @@
+{
+  "case_id": "medqa_train_09394",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Conversion disorder\"}",
+      "generated_disease": "Conversion disorder",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "d067489a49a351515e85ffce52d1134c9d2b51ac8b6933c1599cc5079dbd93f6"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Conversion disorder\"}",
+      "generated_disease": "Conversion disorder",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "64bb51ca940b19927feaacfca338c34511a64246f9b1eafd056276384237cb65"
+    }
+  ]
+}

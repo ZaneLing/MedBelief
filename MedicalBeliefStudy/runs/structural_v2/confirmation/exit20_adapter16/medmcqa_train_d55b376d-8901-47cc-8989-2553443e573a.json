@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_d55b376d-8901-47cc-8989-2553443e573a",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoximotarystenovemysticovemysticralenysturicus\"} (Note: This is an error error. actual correct answer is \"Subiectiveyysturinemilensigroupingserviceraanemoteminalenysturinem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "036d0da40afbe44999f7914c79d14634531dc0fc795703a31ad0bb648613ba54"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxiaotarobaricotemysticotaxoyserviceraanegemenservicovemensigroupingservemememememememememememememppervemememememememememememememppem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "b18b40d44e1bb23b7db2d61be7d26181e19975da492542a884fa545af408e719"
+    }
+  ]
+}

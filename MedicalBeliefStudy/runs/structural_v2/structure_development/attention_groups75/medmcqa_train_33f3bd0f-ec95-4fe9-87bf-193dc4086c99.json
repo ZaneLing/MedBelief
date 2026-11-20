@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_33f3bd0f-ec95-4fe9-87bf-193dc4086c99",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Infectious Mononucleosis (Epstein-Barr Virus-Associated Lymphadenopathy and Pharyngitis with Rapidly Progressive Sensorineural Hearing Loss and/or Vertigo in a Patient with a History of Recent Exposure to a Known Susceptible Individual with Susceptible Genotype and/or Environmental Exposure to",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "1f08abb7ddcd1646a883c295283db58c509d8b2090454a6b182e3deb96a5a79a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "lymphadenopathy of unknown origin\",\"severity\":\"moderate\",\"etiology\":\"unknown (reactive or idiopathic\"),\"manifestations\":[\"lymphadenopathy\",\"splenomegaly\",\"weight loss\",\"fever\"],\"organ_at_risk_of_damage\":\"liver and spleen\"],\"organ_at_risk_for_injury",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "120d2c91666b296de6cc71264042b252e37975fc2d26c451103367b73e9c1dc4"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_06162",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Ehemosaragoaogariparagobemphilenserventososaronephilenemphilensigroupingservemplabaracovemppabemphilenemphilseminalenemphilseminalenemphilseminalenem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "e48f85eb10a34e8cdf1ab4d0dced42254cc4f73894752b1f2bf41d271b37a87b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Hemicusiliary dystosolentia\"}",
+      "generated_disease": "Hemicusiliary dystosolentia",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "89ab8ac91c35273cc26b67378392d3ed4df523dfbf8f571ad231d1688bc80180"
+    }
+  ]
+}

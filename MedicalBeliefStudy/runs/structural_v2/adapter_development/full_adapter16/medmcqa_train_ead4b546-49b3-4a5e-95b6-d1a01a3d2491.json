@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_ead4b546-49b3-4a5e-95b6-d1a01a3d2491",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Rett disorder\"}",
+      "generated_disease": "Rett disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "2c00b9fdcf566662b8e620726fbe4d6ba5d548bacc1d1ba93f802fa32617ecf6"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Rett disorder\"}",
+      "generated_disease": "Rett disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "a1821dbb71af60891de808e29d6ca72f14c992d5b14d76a14c2f4e051fa52cec"
+    }
+  ]
+}

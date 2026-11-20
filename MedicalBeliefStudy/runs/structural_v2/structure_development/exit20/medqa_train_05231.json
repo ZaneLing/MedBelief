@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_05231",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Dhemmed综合征或phansomal综合征或phansomatic综合征等。但是根据提供的信息，正确的答案是: 卖ucerous综合征或phanserousity或phansomaticity等。但是实际情况下正确的答案是: 域然性综合征或phansomariality或phansomatic",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "bed7108b352b49c44a3bf9c3820e62bfac43ea38942e93746b5a7f3e7094606b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Dryness-of-the-head syndrome",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "ed5178c56d0e93c4cbb4d0a5e098fe04d3976c38004846f12451166209571b52"
+    }
+  ]
+}

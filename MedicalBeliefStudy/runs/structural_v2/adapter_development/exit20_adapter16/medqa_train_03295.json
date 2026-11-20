@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_03295",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Hemaphoptic spliformoptionnyservententosarovemystosogariparipemphilenturacovemppabemphiliracintemphilenservicovemphilenservservemplabemphilbemph",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "a11051704470a00866fe52e77fbb5f7a414cd39abc946fa8a0f936ca98b36df3"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Manger's syndrome or hyper stress stress disorder or stress out stress disorder or stress out stress disorder forcing an unusual pathogenetic and/or structural change in the structure of an existing existing or new anegent or anegesent or anegent or anegroupent or anegroupedent or",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "5b13ec3dd8b36c0f8abbd570701b4a36afdb26b425b9dd36cf24abd74443c83e"
+    }
+  ]
+}

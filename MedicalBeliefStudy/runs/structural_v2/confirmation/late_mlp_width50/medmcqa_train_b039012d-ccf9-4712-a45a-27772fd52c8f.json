@@ -1,0 +1,49 @@
+{
+  "case_id": "medmcqa_train_b039012d-ccf9-4712-a45a-27772fd52c8f",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Carcinoma rectum\"}",
+      "generated_disease": "Carcinoma rectum",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "f53d364caf4739b58a0ee983e01877e743cd79f9fb58af35dcb292dcd09cf74a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Carcinoma rectum\"}",
+      "generated_disease": "Carcinoma rectum",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "d8abdcf37ab85381c7caa6cf8700a1f54c69e75ec6950fbf0722d3b328f86eba"
+    }
+  ]
+}

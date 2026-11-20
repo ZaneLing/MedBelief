@@ -1,0 +1,31 @@
+{
+  "case_id": "medqa_train_09289",
+  "dataset": "MedQA",
+  "condition": "wrong",
+  "round": 5,
+  "total_rounds": 5,
+  "configuration": {
+    "name": "linear_mlp_2_r16",
+    "replace_mlps": [
+      25,
+      26
+    ],
+    "rank": 16
+  },
+  "candidate_support": {
+    "Breast lipoma": 8.984051419247407e-06,
+    "Invasive ductal carcinoma": 0.974033772945404,
+    "Paget disease of the breast": 1.5457915480965312e-07,
+    "Intraductal papilloma": 0.025957124307751656
+  },
+  "selected_candidate": "Invasive ductal carcinoma",
+  "source_final_answer": "Intraductal papilloma",
+  "candidate_mass": 0.9999994039535522,
+  "first_is_code": true,
+  "parameter_stats": {
+    "parameters": 1645216768,
+    "weight_bytes": 3290712064,
+    "blocks": 28
+  },
+  "api_cost_usd": 0
+}

@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_0971d92f-2abe-4b08-8bd4-38b01652ba29",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "contrast21_half",
+    "contrast_layer": 21,
+    "contrast_strength": 0.5,
+    "plausibility": 0.1
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Teratoma\"}",
+      "generated_disease": "Teratoma",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "f13895b5acf9dc80367a1a507e76f41f193b5d19d08836d33614e66db5177c3d"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Dysgerminoma\"}",
+      "generated_disease": "Dysgerminoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ceec8de45e29fc7785eab77b8bf20f289f497268a59c96c22be83bf534199995"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_04256",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Churg-Strauss syndrome\"}",
+      "generated_disease": "Churg-Strauss syndrome",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "e014f01bc315eaf83dcc2a8b56fa1395bd433fd6cb12188d7bea28c880fa8ede"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Churg-Strauss syndrome\"}",
+      "generated_disease": "Churg-Strauss syndrome",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "3df8ba6ba110ef410f38c58b9e3ec54193c890b5f4196becae0b41f0736417fc"
+    }
+  ]
+}

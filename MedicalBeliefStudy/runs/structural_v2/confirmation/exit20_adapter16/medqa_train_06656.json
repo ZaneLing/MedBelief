@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_06656",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cryphicalystenovemnysturicentericovemanserventososentechserventemenservemememememememppervemememememememppabememememhemememppabemememhememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "a4401dc64b69e049fc8c6ef66d3f6b5063ed5077316f13c1323d30bc7782b74b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Austechy's Ferventness of brathommy and/or bemilacovemphilis\"} (Note: This is an example of an non-linear and non-standard philacogroupingsystematicmevelententilentecualententecualserventec",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "fd0d3aa62589b83d33911e4baab4c11691d37457862aa23cb71112548d7acb0a"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_8d747f94-fa97-4ab8-9f19-e0087c503392",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pystal\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "e9125fa9ca361ed4e405601dcbb6982a67fb43fee66d9add61bf8444e215d8d1"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystoid\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "122c74c12057c129bffac48b06354d5093b3b8ee93b9b92ed1df65071e438191"
+    }
+  ]
+}

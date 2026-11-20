@@ -1,0 +1,34 @@
+{
+  "case_id": "medmcqa_train_d22b556b-e92b-4554-8cec-e3382a1fa920",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Growth hormone deficiency\"}",
+      "generated_disease": "Growth hormone deficiency",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "9f92d719623e919b09a9985bb3fd51c7c5b41d6d70ecfae5d89ab5cdcb5afed3"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Growth hormone deficiency\"}",
+      "generated_disease": "Growth hormone deficiency",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "335de9d0f84edfa9a88e1ea696f2b08890e66b4467bfa0e7d10de418cafd3a1f"
+    }
+  ]
+}

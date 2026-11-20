@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_train_04100",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Acute decompensated heart failure\"}",
+      "generated_disease": "Acute decompensated heart failure",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "ae3366f2504b59dc50eee320cb5aa52c3fb2778361c24517a163aebf07ccb708"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Acute decompensated heart failure\"}",
+      "generated_disease": "Acute decompensated heart failure",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "db73f971e63155af402ff0e237570940a5a641c2beb237a94e3db0b6ce81c9ab"
+    }
+  ]
+}

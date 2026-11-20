@@ -1,0 +1,14 @@
+{
+  "source_sha256": "4232932e17e768fac6dc68a815778f8e6042e62d1ebc5d890c7583d33646eb86",
+  "protocol_sha256": "a85bbc7a23dac4a82665a7cf01837ed000e4b798b7d08aa7c157b776ec112e62",
+  "cases": 24,
+  "conditions": [
+    "known_first",
+    "known_last",
+    "compact",
+    "public_24",
+    "append_24"
+  ],
+  "observations": 120,
+  "api_cost_usd": 0
+}

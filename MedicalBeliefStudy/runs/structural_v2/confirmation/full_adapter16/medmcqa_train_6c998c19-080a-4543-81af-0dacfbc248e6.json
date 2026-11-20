@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_6c998c19-080a-4543-81af-0dacfbc248e6",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Aortic regurgitation\"}",
+      "generated_disease": "Aortic regurgitation",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "de22a4f036e29e50e8a8461d9e8c296347ef17f2c35728004dc33eb34a1988d9"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Ebstein anomaly\"}",
+      "generated_disease": "Ebstein anomaly",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "f4755662950a39f69de7ad11ccb948aa2f565eaa243cf24b7d60db831b63b520"
+    }
+  ]
+}

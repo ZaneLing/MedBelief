@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_05128",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Endometrial polyp\"}",
+      "generated_disease": "Endometrial polyp",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "6853aa8705c1116ff7bd7f9b1d3e3824ffb59e80d5caa423bd8bff5846cee637"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Endometrial polyp\"}",
+      "generated_disease": "Endometrial polyp",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "85013399fe72c7c2e99e93692a1d33166c60f3653277bd4c984e481f8faf92d9"
+    }
+  ]
+}

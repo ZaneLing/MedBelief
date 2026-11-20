@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_05737",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Acyclicronia\"}",
+      "generated_disease": "Acyclicronia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "a69255cdaf85d34d6153357ac4013467dff6760d0c999cdc80cba5986cca4352"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Acyclicronia orphanship syndrome orphansesystic disorder orphansesigroupingsystic disorder等\"}请注意实际实际实际！正确的答案应该是选择正确的选项而非非正常性的非正常性的非正常性的非正常性的非正常性的非正常性的非正常性",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "a3daca03ac12d4e211897c316fa1aaa1add1c999d117c4d6c2cc59ae0922f52e"
+    }
+  ]
+}

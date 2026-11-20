@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_08843",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Fibroadenoma\"}",
+      "generated_disease": "Fibroadenoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "23f5c9aadf37e4f893bd91a95030956916194aeb92188eb3a086f554bd865271"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Fibroadenoma\"}",
+      "generated_disease": "Fibroadenoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "5c118b654f8eda7f7b15ac6f7043af3e34d215faf8205fa62a3ed38b5e2b2765"
+    }
+  ]
+}

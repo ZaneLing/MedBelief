@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_08933",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Scaphoid fracture\"}",
+      "generated_disease": "Scaphoid fracture",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "b62d2ea68d74dca85c541159091047de7e8fb40962558bab599db9d9ee49ac05"
+    }
+  ]
+}

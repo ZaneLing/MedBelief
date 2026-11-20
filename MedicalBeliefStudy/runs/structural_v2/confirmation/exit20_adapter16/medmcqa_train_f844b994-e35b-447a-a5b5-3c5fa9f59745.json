@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_f844b994-e35b-447a-a5b5-3c5fa9f59745",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Schizophrenium\"}",
+      "generated_disease": "Schizophrenium",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "0ef5b9f7c4d7636573b80d7383ab7af7624c25554ccecfc7b0f72fb660fcac1e"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Ch stress lung disease\"} (Note: This is an example placeholder for example purposes. actual answer should be among listed options including 'Sleep sleep disorder or other non-linear pathogenicity\"} (Note: actual answer should be among list provided including \"minimal impact or other non-linear or non-linear adictive or non-linear",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "55e400e49f3b2fad416059853a8cc6294d6d039f1d4521ea958bf62ba76912aa"
+    }
+  ]
+}

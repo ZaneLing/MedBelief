@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_edf467da-ed2b-426f-8e33-17adeaa5edb1",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic disease disease unknown\"}\"}\"}า\"}า\"}า\"}า\"}า\nNote: This is an example of an unochrinalerentment of an unobentmualenemphilentmualserventigroupingservinalenemphilemaosentep",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "aa6dcd38ae02b95f50a7156a4df706d0bdf576f5763207e4103aed0e9b8126f5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "ENSiE\"}",
+      "generated_disease": "ENSiE",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "9168ef68e9e35692dcdc22a4d07433d296af0729c14f4ca1d82a8bc84f0544b0"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_06771",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": false,
+      "text": "panic disorder\"}",
+      "generated_disease": "panic disorder",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "ef437c7864c5bce7281fd0242ac45a868ff96c56163127ae7c5f65220a088ef3"
+    }
+  ]
+}

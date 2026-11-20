@@ -1,0 +1,22 @@
+{
+  "cases": 48,
+  "replication": true,
+  "layers": [
+    14,
+    21,
+    28
+  ],
+  "conditions": [
+    "self",
+    "remove_target",
+    "random_matched",
+    "replace_old"
+  ],
+  "conditions_total": 576,
+  "source_sha256": "74abeff31d33d41bd5d8321024fd4a6cebb536b42b3d4b137d05dcc05e29e4ae",
+  "protocol_sha256": "0a7d70b9bb851826dcd3502041d9fb3a66ff11528341b4eaa0bd4d7da24c51b4",
+  "replication_protocol_sha256": "a5240376960782429cfccb93829da29fecf794c90a18285e7d75d8a32814fd47",
+  "heads_sha256": "f805333848788f5539e330fd7d0ef4eb52769f5bb49b7c19a1f05f6bc81942fd",
+  "input_manifest_sha256": "c0088685272c7f5eaeb88d7e3b9fb81bb6fdd209d73137f33d3d05c94ec5b58e",
+  "api_cost_usd": 0
+}

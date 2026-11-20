@@ -1,0 +1,34 @@
+{
+  "case_id": "medmcqa_train_49fe11d4-b070-4ee9-ba0e-909dad1d38ff",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Cong dislocation of hip\"}",
+      "generated_disease": "Cong dislocation of hip",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "d5c741e91f8d81b988266c77d15a60b49513edbb4dbbcd747bc9ec67426787f1"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Tuberculosis ahritis of hip\"}",
+      "generated_disease": "Tuberculosis ahritis of hip",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "9e047fa776eb8bd40b664eed8f5871480f5a139dc4afeb9d183b4cfd71956d09"
+    }
+  ]
+}

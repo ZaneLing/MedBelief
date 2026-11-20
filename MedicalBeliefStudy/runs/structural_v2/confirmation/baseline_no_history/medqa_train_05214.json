@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_05214",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Orbital cellulitis\"}",
+      "generated_disease": "Orbital cellulitis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "e3033c044e167cae7e07e6763c6aaf278ae3955fe127f47b89c3f6f57baedcf5"
+    }
+  ]
+}

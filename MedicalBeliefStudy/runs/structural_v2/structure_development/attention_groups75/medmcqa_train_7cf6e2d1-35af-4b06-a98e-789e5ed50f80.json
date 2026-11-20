@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_7cf6e2d1-35af-4b06-a98e-789e5ed50f80",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Ascariasis\",\"probability\":0.25}",
+      "generated_disease": "Ascariasis",
+      "stop": "eos",
+      "tokens": 11,
+      "prompt_sha256": "984a681bce37b93f19c11dabdaa6cb91bb1eb85807dc2c5c5cf15f97def831a0"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Acute appendicitis with perforated viscus\",\"severity\":\"moderate\",\"probability_of_diagnosis\":0.98,\"risk_factors_present\":[\"obesity\",\"history_of_gynecologic_abdominal_pain\",\"recent_anal_sex_contact_pooping\",\"recent_anorexia\",\"recent_weight_loss\"]",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 61,
+      "prompt_sha256": "3106c70867d9995959349b42a6b3b82fb517b27cc3217ed754b095a4751cf45d"
+    }
+  ]
+}

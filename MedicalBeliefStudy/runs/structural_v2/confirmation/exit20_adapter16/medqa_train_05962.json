@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_05962",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronicity of existing disease\"}",
+      "generated_disease": "Chronicity of existing disease",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "2fc2f25664524334b6e34f80cdc6cca0b28342c2eb8c1373b83b9a92e8822204"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronicity of existing disease or disease progression\"}",
+      "generated_disease": "Chronicity of existing disease or disease progression",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "4c1fcb65f190a01f1c777b370d02d391f0fea3c828a514d8b39e040f631bbc36"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_b4499541-3fb7-497d-8ddb-1a01b7070556",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Tuberous sclerosis\"}",
+      "generated_disease": "Tuberous sclerosis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "4e9488cab97c5c124bea0b6439a15fa5c16fa8d6135fb53364b314a1838eaf86"
+    }
+  ]
+}

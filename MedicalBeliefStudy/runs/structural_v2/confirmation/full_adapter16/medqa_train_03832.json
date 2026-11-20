@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_03832",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Asthma\"}",
+      "generated_disease": "Asthma",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "3a5d0361546ee6543457dc88f31eec0d96f0ff13e7bca2ff915a39a4548ebbd2"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Chronic bronchitis\"}",
+      "generated_disease": "Chronic bronchitis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "3d53d74a9c4c0c6f21106bcf3d69705c705c88cf335f48ef68450694350d31d3"
+    }
+  ]
+}

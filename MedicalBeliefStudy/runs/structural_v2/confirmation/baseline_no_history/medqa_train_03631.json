@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_03631",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Discoid lupus erythematosus (DLE)\"}",
+      "generated_disease": "Discoid lupus erythematosus (DLE)",
+      "stop": "eos",
+      "tokens": 13,
+      "prompt_sha256": "ca98a26ea0e150be3392fd7ec7f26f67d25b6b369b7c7adecbb941faf47e25fe"
+    }
+  ]
+}

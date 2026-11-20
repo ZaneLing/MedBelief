@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_01da52da-4def-4d88-9d75-694686a35f68",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Chronic intestinal ischemia (intestinal angina)\"}",
+      "generated_disease": "Chronic intestinal ischemia (intestinal angina)",
+      "stop": "eos",
+      "tokens": 11,
+      "prompt_sha256": "f95f565f497d84b500e14e6c1bdcad13f3d47925463b03105d85ac1ff3658828"
+    }
+  ]
+}

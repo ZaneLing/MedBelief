@@ -1,0 +1,103 @@
+{
+  "plan": {
+    "adapters": [
+      {
+        "name": "full_diagonal",
+        "backbone": {
+          "name": "baseline"
+        },
+        "adapter_kind": "diagonal",
+        "adapter_rank": 0
+      },
+      {
+        "name": "full_adapter16",
+        "backbone": {
+          "name": "baseline"
+        },
+        "adapter_kind": "bottleneck",
+        "adapter_rank": 16
+      },
+      {
+        "name": "full_adapter64",
+        "backbone": {
+          "name": "baseline"
+        },
+        "adapter_kind": "bottleneck",
+        "adapter_rank": 64
+      },
+      {
+        "name": "pruned_adapter16",
+        "backbone": {
+          "name": "late_mlp_width50",
+          "mlp_keep": 0.5,
+          "mlp_layers": [
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28
+          ]
+        },
+        "adapter_kind": "bottleneck",
+        "adapter_rank": 16
+      },
+      {
+        "name": "exit20_adapter16",
+        "backbone": {
+          "name": "exit20",
+          "exit_layer": 20
+        },
+        "adapter_kind": "bottleneck",
+        "adapter_rank": 16
+      }
+    ],
+    "steps": 600,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "seed": 20261120,
+    "checkpoints": [
+      0,
+      100,
+      300,
+      600
+    ],
+    "selection": "Lowest development full-vocabulary weighted token cross entropy; no test cases.",
+    "token_weighting": "Each sequence weight1; first candidate token weight0.5, remaining tokens including JSON closure and EOS share0.5.",
+    "optimizer": "AdamW, global gradient norm clipping1.0"
+  },
+  "configuration": {
+    "name": "pruned_adapter16",
+    "backbone": {
+      "name": "late_mlp_width50",
+      "mlp_keep": 0.5,
+      "mlp_layers": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ]
+    },
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "feature_folder": "pruned",
+  "feature_depth": 28,
+  "source_sha256": "e5349339970de473e0f9b330541599c4b209dee0c168a82f236d30d8f5e102ed",
+  "core_sha256": "22bb02183f121ea673f1dc57fea99bc225b1d814a9f46be63318f898f5673b48"
+}

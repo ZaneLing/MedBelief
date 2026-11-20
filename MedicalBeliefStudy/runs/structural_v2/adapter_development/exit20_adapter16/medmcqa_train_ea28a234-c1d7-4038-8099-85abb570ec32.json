@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_ea28a234-c1d7-4038-8099-85abb570ec32",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Primary stress outdalance syndrome\"}",
+      "generated_disease": "Primary stress outdalance syndrome",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "568f72f0812c1fe30c701b142d14b9e7d47038056c6d024942423aa643768118"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Alegiaulmonary respiratory lung disease\"}",
+      "generated_disease": "Alegiaulmonary respiratory lung disease",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "c929172303b785532fe5b6010972c1707dc447cf85bd3d2664fea28cccd80ef9"
+    }
+  ]
+}

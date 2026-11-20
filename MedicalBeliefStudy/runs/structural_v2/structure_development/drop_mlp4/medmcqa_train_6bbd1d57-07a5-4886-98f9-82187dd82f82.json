@@ -1,0 +1,40 @@
+{
+  "case_id": "medmcqa_train_6bbd1d57-07a5-4886-98f9-82187dd82f82",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "drop_mlp4",
+    "drop_mlps": [
+      24,
+      25,
+      26,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1569571840,
+    "weight_bytes": 3139143680,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Von Gierke disease\"}",
+      "generated_disease": "Von Gierke disease",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "4f52261d3245bf03b2845d2607f404501fb1b99dadf25c7705c14f5c15bb37d5"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Von Gierke disease\"}",
+      "generated_disease": "Von Gierke disease",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "53b2fe7cd8fa3893ddb395d48251aa92c7fdfeaf0c820a3e86ae5e406906ea7a"
+    }
+  ]
+}

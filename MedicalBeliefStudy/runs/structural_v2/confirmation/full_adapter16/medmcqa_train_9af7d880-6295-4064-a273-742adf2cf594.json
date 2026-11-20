@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_9af7d880-6295-4064-a273-742adf2cf594",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "X linked icthyosis nigra\"}",
+      "generated_disease": "X linked icthyosis nigra",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "4268f034ca9b1a46790e6845787717a5d86f62453b4221d7ee222b8e9294f9e9"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Nonbullous icthyosiform erythroderma\"}",
+      "generated_disease": "Nonbullous icthyosiform erythroderma",
+      "stop": "eos",
+      "tokens": 12,
+      "prompt_sha256": "0e005c3254d6c4358f9e0e19d883706444eb2768ef415eef31230b7a7252aae3"
+    }
+  ]
+}

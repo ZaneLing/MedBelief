@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_9d3611ab-3fc4-42d4-8355-2d358a079034",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Abruptio placenta\"}",
+      "generated_disease": "Abruptio placenta",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "f999b8f59fdd5447fbbd3a15a2d8ec3956ad6ae41afd78f287a933e34a2efe37"
+    }
+  ]
+}

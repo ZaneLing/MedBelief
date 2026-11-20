@@ -1,0 +1,40 @@
+{
+  "case_id": "medmcqa_train_4849fa71-7fb6-4e31-ae07-3fdf5cee15b5",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "drop_tail4_keep28",
+    "drop_blocks": [
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1519230976,
+    "weight_bytes": 3038461952,
+    "layers": 24
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "９」「.\",\r\n}\r\n\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "ebf3bd93b36f76ecef597045e86954ce01e9a2b0c838ca5978dec2bddff1fa36"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "９.\",\r\n}\r\n\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n*\r\n",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "07df5507d83692c50a0608d417f9db77e71f6cb2c6baaaac6de6392d504b6ce7"
+    }
+  ]
+}

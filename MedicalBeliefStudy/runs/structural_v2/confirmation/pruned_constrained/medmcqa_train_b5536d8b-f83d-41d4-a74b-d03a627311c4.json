@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_b5536d8b-f83d-41d4-a74b-d03a627311c4",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Hemolytic jaundice\"}",
+      "generated_disease": "Hemolytic jaundice",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "404af678d0120a8d6ea024d6a791f272136c97ead22bb935e9f1ef5a7f432253"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Hemolytic jaundice\"}",
+      "generated_disease": "Hemolytic jaundice",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "33a0c0dd7b2fc599f82a326d216b4eda2c54e72fc34fed0839114a0c9ff21b3c"
+    }
+  ]
+}

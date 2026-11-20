@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_06420",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Schizophrenia-related stress out stress out\"}\"}Note: This is an example of an non-tralonic and/or non-valid philentary. actual real-world scenario would require an actual real-life data-driven approach rather than an non-linear or non-linear philaxenentary. Please consult professional medical professionals",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "8c6ed9e99097098ee4f0651ea9eb04cfaf79f2c62b8f3c4664f4857f396ea798"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Schizophrenium or other non-linear stress out-of stress linearity or other non-linear stress-related disease\"} Note: This is an example of an non-linear pathophysic or non-linear stress-related disease. actual real-world actual real-world real-life real-life real-life real-life real-life real-life real-life emplent",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "90ba993695e62c0b9dee671bdbaf08cccdb29efe7b15bc77f7d8bda532c85bb8"
+    }
+  ]
+}

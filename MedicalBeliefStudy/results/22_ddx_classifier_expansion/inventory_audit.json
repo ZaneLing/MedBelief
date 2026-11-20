@@ -1,0 +1,11 @@
+{
+  "unique_question_inventories": 43921,
+  "conflicting_inventory_count": 340,
+  "cases_in_conflicting_inventories": 4153,
+  "empirical_inventory_oracle_correct": 133775,
+  "empirical_inventory_oracle_accuracy": 0.9943952605014532,
+  "unique_fact_sets": 117807,
+  "conflicting_fact_sets": 0,
+  "empirical_fact_oracle_accuracy": 1.0,
+  "note": "Finite test-set upper bound for a deterministic function of this inventory; oracle uses test labels and is NOT a fitted-model score."
+}

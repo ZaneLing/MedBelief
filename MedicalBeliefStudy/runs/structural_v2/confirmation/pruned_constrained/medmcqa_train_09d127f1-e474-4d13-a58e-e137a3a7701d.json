@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_09d127f1-e474-4d13-a58e-e137a3a7701d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Osteosarcoma\"}",
+      "generated_disease": "Osteosarcoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "1e2735682daa2eb99004c01dc56f6da63f515591392261aba0dfda28671db50d"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Osteosarcoma\"}",
+      "generated_disease": "Osteosarcoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "14aff3d2f6aecca136dd350e12442998daaa048bf28a7496fd933668f8fa16ee"
+    }
+  ]
+}

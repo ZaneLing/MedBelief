@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_06904",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cutephiliasenysturinemanservetenservutemenschellschellschellschellschellsenemphiliasenwemenschellschellschellschellsenwemplabarovemochemicalynephilisseminalgalip",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "e21f01cc5b4521ede78152053e08f2ba701193f053648a07c2bb3923b08f01ba"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cutephiliasenystroctalovemenserventososentotemphenservemplabaracovemensigroupingservemplabemensigroupingshealingradiomainerthocovemansesparmsensigroupingshealingradiomaine",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "9523f1cb067fefadc7656063bf535260f489813e8481c48f34cf55ba4545b5eb"
+    }
+  ]
+}

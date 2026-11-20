@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_03832",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Asthma\"}",
+      "generated_disease": "Asthma",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "3a5d0361546ee6543457dc88f31eec0d96f0ff13e7bca2ff915a39a4548ebbd2"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Emphysema\"}",
+      "generated_disease": "Emphysema",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "3d53d74a9c4c0c6f21106bcf3d69705c705c88cf335f48ef68450694350d31d3"
+    }
+  ]
+}

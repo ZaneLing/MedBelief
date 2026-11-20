@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_01411",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Cerebral infarction\"}",
+      "generated_disease": "Cerebral infarction",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "6646af12b5b261c96297726518240f2e41de3cf4ab1db4025121c8d973b24b1e"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Cerebral infarction\"}",
+      "generated_disease": "Cerebral infarction",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "d06f9bd583907de8a0149a9d4cf59a4df59de2ae19c4da7d3490cb1c1b3a1e91"
+    }
+  ]
+}

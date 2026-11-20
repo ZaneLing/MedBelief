@@ -1,0 +1,34 @@
+{
+  "case_id": "medmcqa_train_7e29a5d6-ff39-4ab0-a817-11713d114bdd",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Iron Deficiency Anemia\"}",
+      "generated_disease": "Iron Deficiency Anemia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "34788afc7787c69584b91d5561b28101e7f555d62706ab4b7f8d29292a59c0d6"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Iron Deficiency Anemia\"}",
+      "generated_disease": "Iron Deficiency Anemia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "22f18c10b7d3786ee29b1e326c79c0c1e49e22fc5defbc3f5dad71d88113cc93"
+    }
+  ]
+}

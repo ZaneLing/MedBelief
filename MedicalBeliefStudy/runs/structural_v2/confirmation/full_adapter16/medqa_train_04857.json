@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_04857",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Pinealoma\"}",
+      "generated_disease": "Pinealoma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "c208c6f46173e7196a574a911a319a37f9ccfa51dcb7ee30ba1ce9e0fa52127d"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pilomyelocytic leukemia\"}",
+      "generated_disease": "Pilomyelocytic leukemia",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "edfb2d717f132744b8b597f6e994897ad0bdf16124bd0334feb24218bb1e3dfc"
+    }
+  ]
+}

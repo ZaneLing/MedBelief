@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_dev_00198",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "mlp_width50",
+    "mlp_keep": 0.5
+  },
+  "parameter_stats": {
+    "parameters": 1192092672,
+    "weight_bytes": 2384185344,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Primary seizure disorder\"}\n</think>\n\n{\"diagnosis\":\"Primary seizure disorder\"}\n",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 14,
+      "prompt_sha256": "4ba082811a030b551063e92bcad0f298a27039e56c7c1df2ae04cae7bd6f3db4"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Small cell carcinoma of the lung\"}\n</think>\n\n{\"diagnosis\":\"Small cell carcinoma of the lung\"}\n</think>\n\n{\"diagnosis\":\"Small cell carcinoma of the lung\"}\n",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 33,
+      "prompt_sha256": "e5e48df5378909fcfc0cb9afefa8d2595ce4971bc0715701116e21f6b6eea2c5"
+    }
+  ]
+}

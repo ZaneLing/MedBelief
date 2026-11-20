@@ -1,0 +1,134 @@
+{
+  "case_id": "medmcqa_train_d69f4de3-e358-4335-af72-b0d95fb9d515",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -4.716083526611328,
+        -0.032917022705078125,
+        -8.919235229492188,
+        -3.9659996032714844
+      ],
+      "q_sequence": [
+        0.008989249353796556,
+        0.9718445376647732,
+        0.00013437480170397524,
+        0.019031838179726243
+      ],
+      "q_token_mean": [
+        0.1712692662262412,
+        0.43779521169536806,
+        0.123011422669401,
+        0.2679240994089899
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Amyotrophic lateral sclerosis\"}",
+      "generated_disease": "Amyotrophic lateral sclerosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "03f3a0cfa6e884b4c32f7d5a73b0ccb17233b69ccf09827aeadd085aa055a05b"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -3.59954833984375,
+        -0.08278656005859375,
+        -13.474720001220703,
+        -3.2557220458984375
+      ],
+      "q_sequence": [
+        0.02771189347976107,
+        0.93320366578452,
+        1.4253897800061507e-06,
+        0.03908301534593891
+      ],
+      "q_token_mean": [
+        0.21289195789961987,
+        0.4321910836205082,
+        0.06379880532782475,
+        0.29111815315204725
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Amyotrophic lateral sclerosis\"}",
+      "generated_disease": "Amyotrophic lateral sclerosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "63d9e70369d14c31e26f55cf80a446a0d7991ec4117318fa9638254024d4f566"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -8.385894775390625,
+        -0.015041351318359375,
+        -6.541843414306641,
+        -4.7293853759765625
+      ],
+      "q_sequence": [
+        0.00022907572335994938,
+        0.9894515143389321,
+        0.0014482395287506932,
+        0.008871170408957256
+      ],
+      "q_token_mean": [
+        0.08769753491189614,
+        0.4682133094025731,
+        0.18429241105280228,
+        0.25979674463272845
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Amyotrophic lateral sclerosis\"}",
+      "generated_disease": "Amyotrophic lateral sclerosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "7cb949c37e82d87814e221fc2bff6da768c987a042efcd516ed3fe2c5c6c5d23"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -7.441139221191406,
+        -3.5145950317382812,
+        -5.8778533935546875,
+        -0.03412628173828125
+      ],
+      "q_sequence": [
+        0.0005868532016812984,
+        0.029771858946879143,
+        0.0028019210042642805,
+        0.9668393668471753
+      ],
+      "q_token_mean": [
+        0.09996006670830375,
+        0.26798033823392675,
+        0.1911971846009393,
+        0.4408624104568304
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Progressive spinal muscular atrophy\"}",
+      "generated_disease": "Progressive spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "1ee4569c84110781f82848feb6c16a92b98a8c3b4756fa08c2ca2baeeed0c49b"
+    }
+  ],
+  "state_sha256": "632ae793df590c8df612b9ddc42a5cddd55e0fcabb7610e277d6dddd2ac861ac"
+}

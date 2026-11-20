@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_06904",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Chlamydia infection\"}",
+      "generated_disease": "Chlamydia infection",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "e21f01cc5b4521ede78152053e08f2ba701193f053648a07c2bb3923b08f01ba"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Chlamydia infection\"}",
+      "generated_disease": "Chlamydia infection",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "9523f1cb067fefadc7656063bf535260f489813e8481c48f34cf55ba4545b5eb"
+    }
+  ]
+}

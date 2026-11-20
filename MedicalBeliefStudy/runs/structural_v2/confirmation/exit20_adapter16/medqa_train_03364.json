@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_03364",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxanysturisarobenturacovemphilis\"} (Note: This is an example of an non-linear and non-standard philacotarumarissemaricotaxiaresalentosenturesidemenserventosomovemens",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "34a8d8e0758b042ba3c57f7c87eac08af6c3793676a3e1d84ed9b947847a24b4"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pneumatic bladder disorder\"}",
+      "generated_disease": "Pneumatic bladder disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "8fc87fb1dd1230c1aaa9a7d4d854bfba4235abe3a3dcb71745f855060eea81b2"
+    }
+  ]
+}

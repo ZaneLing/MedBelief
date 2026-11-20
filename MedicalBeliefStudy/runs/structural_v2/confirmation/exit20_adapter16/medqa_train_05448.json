@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_05448",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Hulbert's disease\"} (Note: This is an example of an non-tralonic and/or non-linear response. actual real-world scenario would be an actual real-world actual real-life scenario rather than an unwitable or non-trpital philacogroupings\"} (Note: This is an",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "b7e487e00a444a0d4703007b8e6d2a946ec697ffe0beea5eae7e92e20b174481"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chilisaurus chumovemosa\"} (Note: This is an error correction and/or an example of an non-existent \"Isomer of real-world anacyclic polysemia inextronicity of uniquity of universalism inextrualism of universalism inkservententos",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "e55fd41f7f3d4a6f847634488122cacb77eee325f1ece6804bd0e3b824d9aa2f"
+    }
+  ]
+}

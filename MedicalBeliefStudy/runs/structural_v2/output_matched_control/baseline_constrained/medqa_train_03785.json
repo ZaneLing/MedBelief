@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_03785",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Duchenne muscular dystrophy\"}",
+      "generated_disease": "Duchenne muscular dystrophy",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "c0c6a142b09e2aa1ae8f21b49369292255b2c01d2056228bdcf6188dfc651f46"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Limb-girdle muscular dystrophy\"}",
+      "generated_disease": "Limb-girdle muscular dystrophy",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "7518bcce75f94e3041ccb5c81bec5a5478c88781e5cda6b82a4f82dca32fb5de"
+    }
+  ]
+}

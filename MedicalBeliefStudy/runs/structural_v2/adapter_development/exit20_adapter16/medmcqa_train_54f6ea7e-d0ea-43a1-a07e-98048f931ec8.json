@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_54f6ea7e-d0ea-43a1-a07e-98048f931ec8",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniform disease orients inductyralia etroarcephalonic disorder orphans tracyclicserventososenturiformes tracycussemenservicovemphasinaleratorzarranemensigroupingservicularicovemensigroupings",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "fe914b2f187307debc34af14ae4836f8978866b85a31c6ce7d23fe3806177730"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniform disease orients inductively as follows: postponed reaction of course acyclic stress stressentecureyphilaxiaphilaxenemenserventecualententecualenemensigroupingservemtrabovememememememememphil",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "d97405b7f560e32cc79d548c4ef8020c1ec79524fdd16ed18c4018a8a9b1ce13"
+    }
+  ]
+}

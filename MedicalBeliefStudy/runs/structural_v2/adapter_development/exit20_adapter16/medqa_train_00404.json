@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_00404",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pocosalega's syndrome orients anecototal chronicity of an unilinearity of an unusual pathogen or an unusual pathogen in an nontrilaxovalmetreinalerous system or an universe of universal uniquness\"} --Note: This is an error",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "4d910fafabab01abb6ea947746acf509d3cc4cec7cd5d16f03d7e21efc30f13a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pocosalegonia\"}",
+      "generated_disease": "Pocosalegonia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "477b099f8e2de6bb03f05179576530da450e8754a3f36e5e18711239f56a7dd9"
+    }
+  ]
+}

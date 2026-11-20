@@ -1,0 +1,52 @@
+{
+  "case_id": "medmcqa_train_67787c9d-8765-4e51-9461-8e1316689899",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Primary herpetic gingivostomatitis\"}",
+      "generated_disease": "Primary herpetic gingivostomatitis",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "970c6ca9360a7c1b2d7c4379b1dc232e7aa3359037694f5b8aef8fda2c1d8bb7"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Herpangina\"}",
+      "generated_disease": "Herpangina",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "a260d4eb25d83e5106de9e6ae2e159e347b1b18623a32c1f80374489adc050ed"
+    }
+  ]
+}

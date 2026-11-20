@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_07972",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Fibromyalgia\"}",
+      "generated_disease": "Fibromyalgia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "28f6b9e12d57941a38afaba4b5b731a7b8563993a66e5f94985aa8720109c9fa"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Fibromyalgia\"}",
+      "generated_disease": "Fibromyalgia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "2accb28f47de48708d3afbf8e391abf4730ac7dd0b74242680023b3a7f4c8a32"
+    }
+  ]
+}

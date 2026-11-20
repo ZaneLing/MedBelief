@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_03577",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Acute psychosis\"}",
+      "generated_disease": "Acute psychosis",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "6a94eaf0425298a240ad8f38b712d81549c70d3c9e8db3ae8a143e9609dce3ac"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Bystomomomom",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "077dd87e200756f34cfd10b056541c3978fcc2bd7355c5590e675a4cc0249ae6"
+    }
+  ]
+}

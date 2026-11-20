@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_dev_01138",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Amebiasis\"}",
+      "generated_disease": "Amebiasis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "fd7705f04b106735f0660533c645e177b929e5935818e88ed7876bd965321683"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Crohn’s disease\"}",
+      "generated_disease": "Crohn’s disease",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "d681ffd6f61ff801ae7afcbf1abf10e0776e14b898960cf0966c8bd7c10d29af"
+    }
+  ]
+}

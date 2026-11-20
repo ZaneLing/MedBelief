@@ -1,0 +1,8 @@
+.venv/
+.runtime/
+.runtime_ref/
+.runtime_mlx/
+.models/
+__pycache__/
+.pytest_cache/
+*.pyc

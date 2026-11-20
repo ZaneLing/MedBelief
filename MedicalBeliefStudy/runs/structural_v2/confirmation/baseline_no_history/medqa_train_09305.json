@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_09305",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Limited cutaneous systemic scleroderma\"}",
+      "generated_disease": "Limited cutaneous systemic scleroderma",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "d73b4d91ffafd639a999c73e7fe998427e4bdde694df9e33a507f6f8c1771a43"
+    }
+  ]
+}

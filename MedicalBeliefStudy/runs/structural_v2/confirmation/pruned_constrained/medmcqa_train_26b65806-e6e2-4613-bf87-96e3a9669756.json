@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_26b65806-e6e2-4613-bf87-96e3a9669756",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Acute hepatitis B infection with high infectivity\"}",
+      "generated_disease": "Acute hepatitis B infection with high infectivity",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "2a66b1880749b5f23520e68c5bdf85de092e24e62cd07ce2de204ca4e87d0f44"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Acute hepatitis B infection with high infectivity\"}",
+      "generated_disease": "Acute hepatitis B infection with high infectivity",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "cc0d47424615712a42b0d721324cadf8f79bdae391fdf7a33a58f36cc3f8a177"
+    }
+  ]
+}

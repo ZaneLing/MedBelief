@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_dev_00817",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Placenta previa\"}",
+      "generated_disease": "Placenta previa",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "2737e7ecdf9b4a6097d6c5d3702e07a35478e58da3beac9d753819c1b16968ef"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Placental abruption\"}",
+      "generated_disease": "Placental abruption",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "642de5358973ff36834ff44b7957d0d6e194cd51384b502bbe4888e302f8d73c"
+    }
+  ]
+}

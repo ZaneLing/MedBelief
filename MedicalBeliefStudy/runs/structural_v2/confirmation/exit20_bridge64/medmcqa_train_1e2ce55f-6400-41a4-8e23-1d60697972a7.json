@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_1e2ce55f-6400-41a4-8e23-1d60697972a7",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pystomectomy\"}",
+      "generated_disease": "Pystomectomy",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "d9b84d8c54ebf8faf737076eebe2789a7b1956c4d3c8fdb3f274432839fbb661"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pystomectomy\"}",
+      "generated_disease": "Pystomectomy",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "6a3c9779ab3ad6c9c718473f450a3fdb8883c7326a8ae9530af88a558524f53d"
+    }
+  ]
+}

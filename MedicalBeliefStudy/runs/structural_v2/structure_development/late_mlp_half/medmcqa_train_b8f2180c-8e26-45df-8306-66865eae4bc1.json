@@ -1,0 +1,41 @@
+{
+  "case_id": "medmcqa_train_b8f2180c-8e26-45df-8306-66865eae4bc1",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_half",
+    "mlp_scale": 0.5,
+    "scale_layers": [
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Hemangioma\"}",
+      "generated_disease": "Hemangioma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "4bae404af9947d756526f0791b282d6cd358df65d4f87a3af06d4e3c47be1dac"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Hemangioma\"}",
+      "generated_disease": "Hemangioma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "4e4b6a6cefc9f8d108ee5d0543c005fa06f8cdad879bd2bf2320c955176d46ca"
+    }
+  ]
+}

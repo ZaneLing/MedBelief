@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "download_hashes_verified": 12,
+  "datasets": {
+    "dxy": {
+      "test_rows": 104,
+      "model_replays": 4,
+      "fold_fact_overlap": 0,
+      "explicit_implicit_conflicting_fields": 0,
+      "portable_acceptance_reproduced": true
+    },
+    "mz4": {
+      "test_rows": 345,
+      "model_replays": 4,
+      "fold_fact_overlap": 0,
+      "explicit_implicit_conflicting_fields": 0,
+      "portable_acceptance_reproduced": true
+    },
+    "mz10": {
+      "test_rows": 811,
+      "model_replays": 4,
+      "fold_fact_overlap": 0,
+      "explicit_implicit_conflicting_fields": 515,
+      "portable_acceptance_reproduced": true
+    },
+    "medqa": {
+      "test_rows": 1273,
+      "saved_accuracy_recomputed": true,
+      "prompt_labels_separate": true
+    },
+    "medmcqa": {
+      "test_rows": 2816,
+      "saved_accuracy_recomputed": true,
+      "prompt_labels_separate": true
+    }
+  },
+  "code_hashes": {
+    "lightweight_medical_mcq.py": "d4f07648248d2895762aa4818d780043b6b7e414675460d1c73d3221aabef772",
+    "export_lightweight_models.py": "e8e04b16011cc4b7fb161ad0bc118e2b739e00ead9cf379f81187dec21b76755",
+    "lightweight_diagnosis.py": "5f996d5697e4c8baba19f01ebefee504b57b8e3dee8dcb9f89ccc7b0fced0aa6",
+    "lightweight_multidataset.py": "916c6a86855e92e0c8ffe968afa8661e2fd001e573f8a98261bcfd3764a3309c",
+    "plot_lightweight_multidataset.py": "55d551ea7c4ce87ac6b134c7ddac54f2a2051d64593651b3fecadedfb761e18f",
+    "verify_lightweight_multidataset.py": "528fd68c46cebc6bf0d09aab24f3dd7f75abc2b295acda771cd19252f0a1e579",
+    "lightweight_transfer_selective.py": "87c7e500da5e6df1dca9c35fc3f1ba3249eb0eb4d4cc01edc14110c090799d38"
+  },
+  "protocol_hash": "919ba0afaa4adfa02068ea9445235eab9a343f9644a9d1136d487a752d193386",
+  "report_links_verified": 15
+}

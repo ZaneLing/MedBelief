@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_03411",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "mlp_width75",
+    "mlp_keep": 0.75
+  },
+  "parameter_stats": {
+    "parameters": 1456333824,
+    "weight_bytes": 2912667648,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Nephrogenic diabetes insipidus\"}",
+      "generated_disease": "Nephrogenic diabetes insipidus",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "d9ba6d42531472c4848bdedb337ba1a8d7d8f74fc85b014ea451077166981ab5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Beer potomania\"}",
+      "generated_disease": "Beer potomania",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "219406eef36b37cc00233bfc0604c94e38e60cf078d5d4f421076bf9b0a9ff41"
+    }
+  ]
+}

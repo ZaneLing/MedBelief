@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_36916fd3-d205-45c8-831b-1790d5d2d2de",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Croup\"}",
+      "generated_disease": "Croup",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "ec08b8a8aa6a1384fbd440334d4e2b36b4f63b3051c5a529f16a9bd6952930a0"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Croup\"}",
+      "generated_disease": "Croup",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "bc54048cb8aa18b6eaafc16c4882ff6a11d62b9f8097dd348c3905195a792e67"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_f833ae92-b62d-42a6-afa2-85c52960cd4d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic progressive disease of course with multiple differentiable subiective androgenia androgia and/or other non-linear stress outdividuals in an large-scale multiverse of universe of universe of emplentary and/or other non-linear stress pemphilentiguydings\"} --Note",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "e0a74f8d7b221f07241374c0cfe40bfdf99df94ad288c06318454fae7f09be1b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformyneplissematic disorder\"}",
+      "generated_disease": "Chronic veniformyneplissematic disorder",
+      "stop": "eos",
+      "tokens": 12,
+      "prompt_sha256": "f2dd389c912e272918785e2c7a90e6494f903d74f8a1a9b5a64b3802be09d733"
+    }
+  ]
+}

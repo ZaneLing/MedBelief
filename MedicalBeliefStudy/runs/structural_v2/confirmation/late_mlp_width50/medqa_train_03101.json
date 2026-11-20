@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_train_03101",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Primary dysmenorrhea\"}",
+      "generated_disease": "Primary dysmenorrhea",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "dff70ba3ae64ca13a2fdc90189ce1c2cd37ff11c28833380d04cf3aba03b6651"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Primary dysmenorrhea\"}",
+      "generated_disease": "Primary dysmenorrhea",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ca7a9f077933e51b0d089b5f72cf11cc5813a00aee27beab55a7c92a01470259"
+    }
+  ]
+}

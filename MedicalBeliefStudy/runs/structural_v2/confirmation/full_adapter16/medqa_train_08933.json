@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_08933",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Scaphoid fracture\"}",
+      "generated_disease": "Scaphoid fracture",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "2df40c1609418bf373e5fb05946e010c834eaf5f3254aa9489b5ecca8c43badf"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "De Quervain's tenosynovitis\"}",
+      "generated_disease": "De Quervain's tenosynovitis",
+      "stop": "eos",
+      "tokens": 11,
+      "prompt_sha256": "eb6bca501e3de57b024f7939e3c94a457f67988b839c9dfeca430d55517ccc54"
+    }
+  ]
+}

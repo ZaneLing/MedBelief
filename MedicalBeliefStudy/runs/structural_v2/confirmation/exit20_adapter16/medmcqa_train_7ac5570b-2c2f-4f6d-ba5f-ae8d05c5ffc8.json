@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_7ac5570b-2c2f-4f6d-ba5f-ae8d05c5ffc8",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Schizophrenia/nevascular disorder\"}\"}Note: This is an example of an non-tralonic response. actual answer would be based actual real-world data. actual answer would be \"Cong dystxia or other similar phausia\"} However, since this is an example of an non-chilensigroup",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "173a9c42eb2342ca8651b07e179c6e094f526c121a5e6be927d07f87c7a65445"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "L thyroid gland inappropriably absent in an non-tricpolyar chiligentia dentiformes demotaragia bemphilis bemphiliasenata bemphiliasenata bemphiricovemphilenservicovem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "ca4e39f8b1ffba77613885bceff851730688fdf0b1db3655d75d9aafb64246f2"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_train_02014",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Hyperthyroidism\"}",
+      "generated_disease": "Hyperthyroidism",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "7e989142876078120b0dbe1f1cae45b0ccf082b1e96cc4fba79310497b03941a"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Hyperthyroidism\"}",
+      "generated_disease": "Hyperthyroidism",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "677160c79b19780ffee56442359aec81493eb0b74d3e0ec471718dc25ed9f08d"
+    }
+  ]
+}

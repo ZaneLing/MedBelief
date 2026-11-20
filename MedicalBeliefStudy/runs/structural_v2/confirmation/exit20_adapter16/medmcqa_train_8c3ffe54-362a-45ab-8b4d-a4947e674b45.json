@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_8c3ffe54-362a-45ab-8b4d-a4947e674b45",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pervicentric hypercephension\"}",
+      "generated_disease": "Pervicentric hypercephension",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "4f96838ca4aef882b3f6b415675bb20c62dfa60fbaaced6aaa0079853025b271"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxiautaneous disorder (Ransell's disease or hypercephension in parcolanosososchietaetetoskserventososememememememememememememememememememememememememememememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "9ebd493b295f763e2dff7801211f7b06397348f95a9d8adf0a192c22e42b4961"
+    }
+  ]
+}

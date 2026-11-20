@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_2a0e0ad5-e7a9-441e-beec-63e0e51e28a9",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Tay-Sachs disease\"}",
+      "generated_disease": "Tay-Sachs disease",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "cf5fe08463f4f433565267da0af75c5be7010d8ca1e2db7cb262b1a3473c88b3"
+    }
+  ]
+}

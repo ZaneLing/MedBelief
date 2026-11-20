@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_4a8327be-b5a7-4669-a1f1-56743d2c2ff0",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Orbital A-V malformation\"}",
+      "generated_disease": "Orbital A-V malformation",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "92d3014a01193c280181f62035520cf9cbefe149b54966283cc11563da505c68"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Orbital A-V malformation\"}",
+      "generated_disease": "Orbital A-V malformation",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "909ce189396d4cc60e7672dde25f87889bae82e217c5a51bef775924d0267b84"
+    }
+  ]
+}

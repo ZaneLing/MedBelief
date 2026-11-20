@@ -1,0 +1,78 @@
+{
+  "created_utc": "2026-11-17T12:08:38.026383+00:00",
+  "stage0": "delivered",
+  "stage1": "delivered; engineering checks passed; task competence calibration failed",
+  "paid_api_cost_usd": 0,
+  "files": [
+    {
+      "file": "reports/PHASE0.md",
+      "bytes": 2286,
+      "sha256": "605af161814206903e6e6ec0cf4c3caa079bc54cc74331b923679180134c954f"
+    },
+    {
+      "file": "reports/PHASE1.md",
+      "bytes": 4058,
+      "sha256": "cca7ae02a564964b37b9ab8bc612c26d22be7e80c14294422fd88adafc18d09a"
+    },
+    {
+      "file": "reports/PHASE1_READ_FIRST.md",
+      "bytes": 5392,
+      "sha256": "2447d9221479c6836620b31b7dc9b3b86bdd79d686ef4e92f2dea272284065fe"
+    },
+    {
+      "file": "figures/phase1/01_rule_comprehension.pdf",
+      "bytes": 49427,
+      "sha256": "b1f925374b6443fb32c2c5ec1eaff5fd32d87ab334d562368e170d5bea9fc851"
+    },
+    {
+      "file": "figures/phase1/01_rule_comprehension.png",
+      "bytes": 130035,
+      "sha256": "dee007ecd16c2cb48cb054a5a0b758cd6924285c109bd3ba4e805e50191acae4"
+    },
+    {
+      "file": "figures/phase1/02_supplied_prior_effect.pdf",
+      "bytes": 50061,
+      "sha256": "d9fb8d4bf38d6d154cbd9d0598fdfdd15a6e17cb22e52fc1b9bc736a965e32b3"
+    },
+    {
+      "file": "figures/phase1/02_supplied_prior_effect.png",
+      "bytes": 83173,
+      "sha256": "e45505f88e1dd5d2cb14e4d3ebba8a369d0243bf4af3f536312b533ab3c32df8"
+    },
+    {
+      "file": "runs/phase1_qwen3_1p7b/predictions.jsonl",
+      "bytes": 1130267,
+      "sha256": "f942f65cbd0036b1fa0e2fdab53a052dea2a518075df5b0c88515fa0ff9f7c4b"
+    },
+    {
+      "file": "runs/phase1_qwen3_1p7b/analysis.json",
+      "bytes": 9798,
+      "sha256": "554974872d2d373d41fe6bfb37815ebe57462a3e1f084a7fc867775c124121ef"
+    },
+    {
+      "file": "runs/phase1_qwen3_1p7b/delivery_checks.json",
+      "bytes": 267,
+      "sha256": "eea85c54152e96bbeb9c8ad9504402127522bea9ecf9e35189673f899932a118"
+    },
+    {
+      "file": "src/diagnose_phase1.py",
+      "bytes": 5408,
+      "sha256": "811fb28805ab67c9166182ef59d2ab252c4cbb956af207bad98a61b604e37ac9"
+    },
+    {
+      "file": "protocol/phase1_diagnostics.json",
+      "bytes": 34578,
+      "sha256": "8c8e5a471848094cd4740483d3e53ed751fdefd89b1ff828288a94003826f458"
+    },
+    {
+      "file": "runs/phase1_diagnostics/predictions.jsonl",
+      "bytes": 25093,
+      "sha256": "9a7c51cbfae970892f68cc30e256fda1ea27a1d43c6e3d35aa4ac2f952b69f4d"
+    },
+    {
+      "file": "runs/phase1_diagnostics/summary.json",
+      "bytes": 416,
+      "sha256": "82ea5a708be03de6bbcd44094be0a6bedc3ab7b698f37694b0eb06ede8a6118a"
+    }
+  ]
+}

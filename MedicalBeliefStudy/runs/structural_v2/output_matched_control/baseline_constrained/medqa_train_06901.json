@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_06901",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Dysthymic disorder\"}",
+      "generated_disease": "Dysthymic disorder",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "46a8f58c08b862b4709575ea2a7080e17097317d107792c7134904b8bb453e2a"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Cyclothymic disorder\"}",
+      "generated_disease": "Cyclothymic disorder",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "be4b296e245e3e01676785be5766933ab01a9defac70861469ca4a188e97e221"
+    }
+  ]
+}

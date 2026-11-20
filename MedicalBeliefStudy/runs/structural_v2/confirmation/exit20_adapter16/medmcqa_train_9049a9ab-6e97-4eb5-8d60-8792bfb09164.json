@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_9049a9ab-6e97-4eb5-8d60-8792bfb09164",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Socialphobsemervetungemplabaracovemememememememememememememememememememememememememememememememememppervememememppemmservemememhememempp",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "95a08dc3b9461daf6da4be6b9951188d50841169ccc5d4451c0cab10800b4d53"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Socialphobsemervetarydeniyserventechservemplabautrolenememememememememme\"} Note: This last line is an error due an incomplete and/or incomplete philacogroupingsystematicferventepertentepemememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "7b2a7a0884bb7d39684aadcd9c91307d3decb4c29641761d131248a245067d95"
+    }
+  ]
+}

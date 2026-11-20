@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_05974",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Psychogenic polydipsia\"}",
+      "generated_disease": "Psychogenic polydipsia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "24a55541c22f38cae60c08a247eb7d8316ae98134f8c319fd64397580a38954d"
+    }
+  ]
+}

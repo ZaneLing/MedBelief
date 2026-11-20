@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_06607",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Chancroid\"}",
+      "generated_disease": "Chancroid",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "4f80fd03cc0717964f383d1e29624e2025674471d681da1d0c2c11d14a61b168"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Chancroid\"}",
+      "generated_disease": "Chancroid",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "34fa2eea492551a627db390fa4d19e1e423a9fd7614972c29a36c0040dd95d21"
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "case_id": "medmcqa_train_8018614f-f4dc-4112-abce-c7630b165d24",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -18.656204223632812,
+        -0.26757049560546875,
+        -5.343605041503906,
+        -1.5347099304199219
+      ],
+      "q_sequence": [
+        8.017559525908269e-09,
+        0.7764694100196247,
+        0.004848758540826811,
+        0.2186818234219891
+      ],
+      "q_token_mean": [
+        0.07485889720816483,
+        0.39983069337665333,
+        0.20927996616068745,
+        0.3160304432544944
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Vesicoureteric Reflux - grade II\"}",
+      "generated_disease": "Vesicoureteric Reflux - grade II",
+      "stop": "eos",
+      "tokens": 12,
+      "prompt_sha256": "1fad97720505c0f163cf2f1f11c17d498bbdc3de5a66cbef311869f9529c1a50"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -23.208404541015625,
+        -7.710203170776367,
+        -0.8802108764648438,
+        -0.5390968322753906
+      ],
+      "q_sequence": [
+        8.344596810535753e-11,
+        0.00044894040296766514,
+        0.4153523355882926,
+        0.5841987239252938
+      ],
+      "q_token_mean": [
+        0.0488195383604813,
+        0.2224924160029241,
+        0.3606684833301331,
+        0.3680195623064615
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Ureterocele\"}",
+      "generated_disease": "Ureterocele",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "826603f11a1fbfa233cb89c173b312ac77c7f2c6a300aa73a9d2f9d5d13d45ad"
+    },
+    {
+      "condition": "neutral",
+      "round": 3,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -24.7508487701416,
+        -10.159534454345703,
+        -7.250766754150391,
+        -0.026702880859375
+      ],
+      "q_sequence": [
+        1.828547327657494e-11,
+        3.9722218552839126e-05,
+        0.0007282747585740893,
+        0.9992320030045875
+      ],
+      "q_token_mean": [
+        0.05369792508536767,
+        0.23321222416847204,
+        0.20584134011370273,
+        0.5072485106324576
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Ureterocele\"}",
+      "generated_disease": "Ureterocele",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "7609129dc58ddc9d024e5093f29aeb25a60e72b3918c097fe4cad1762305fad9"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -23.500165939331055,
+        -10.87601089477539,
+        -9.093894958496094,
+        -0.000652313232421875
+      ],
+      "q_sequence": [
+        6.226354840611791e-11,
+        1.8916236802402817e-05,
+        0.00011240816527454927,
+        0.9998686755356594
+      ],
+      "q_token_mean": [
+        0.06307744416320385,
+        0.23139489264401156,
+        0.17140087237136326,
+        0.5341267908214213
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Ureterocele\"}",
+      "generated_disease": "Ureterocele",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "37bbc471aacf25322690a12088f3e78ad843bedc436e3bae8121fb79b6cd529b"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -24.441020965576172,
+        -10.692359924316406,
+        -3.37847900390625,
+        -0.0348663330078125
+      ],
+      "q_sequence": [
+        2.4291917167073212e-11,
+        2.2721103255163058e-05,
+        0.03410417438801344,
+        0.9658731044844394
+      ],
+      "q_token_mean": [
+        0.049330140221409774,
+        0.19992794560963645,
+        0.2983109441181356,
+        0.4524309700508182
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Ureterocele\"}",
+      "generated_disease": "Ureterocele",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "0bff2d6846b417cdef3eb60806221fd8ec868649a8345e93786d286180dfc32e"
+    },
+    {
+      "condition": "wrong",
+      "round": 3,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -25.047168731689453,
+        -12.000526428222656,
+        -8.406490325927734,
+        -0.000385284423828125
+      ],
+      "q_sequence": [
+        1.3250139133071612e-11,
+        6.141934750626377e-06,
+        0.0002234473689820721,
+        0.9997704106830172
+      ],
+      "q_token_mean": [
+        0.055470266700987696,
+        0.21480809835579281,
+        0.18905749791786933,
+        0.5406641370253502
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Ureterocele\"}",
+      "generated_disease": "Ureterocele",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "22786b302d2aa47e90dde88f0f7e8ca4911cd0e2b3466b8468759fa90bbe1b14"
+    }
+  ],
+  "state_sha256": "9f6026510baa0c0f2cb3dd12ef9bc266005c69b3e6352ccd5cf4432f640e48fc"
+}

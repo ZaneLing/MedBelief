@@ -1,0 +1,248 @@
+{
+  "date": "2026-11-18",
+  "status": "Design preparation only; no model loading/generation or probability measurement",
+  "seed": 20261118,
+  "selection_rule": "Within each disease, first two eligible discovery cases by SHA256(seed:case_id:select); age 18-90 and >=8 explicit new question families, initial evidence verified. No model outcome used.",
+  "design_revision": "v1 before any LLM output: adult pilot age18-90; expose ALL explicit groups instead of truncating at10, so the final prefix is the full observed record. v0 preparation archived.",
+  "sampling_limit": "Longer explicit-evidence records selected for instrumentation; not a representative accuracy sample. Six-way closed-candidate diagnosis.",
+  "pool_counts": {
+    "Pneumonia": {
+      "all": 106,
+      "age_18_to_90": 82,
+      "valid_record": 82,
+      "at_least_8_new_groups": 82
+    },
+    "Bronchitis": {
+      "all": 97,
+      "age_18_to_90": 76,
+      "valid_record": 76,
+      "at_least_8_new_groups": 40
+    },
+    "Bronchospasm / acute asthma exacerbation": {
+      "all": 68,
+      "age_18_to_90": 54,
+      "valid_record": 54,
+      "at_least_8_new_groups": 46
+    },
+    "Pulmonary embolism": {
+      "all": 112,
+      "age_18_to_90": 88,
+      "valid_record": 88,
+      "at_least_8_new_groups": 52
+    },
+    "Spontaneous pneumothorax": {
+      "all": 42,
+      "age_18_to_90": 33,
+      "valid_record": 33,
+      "at_least_8_new_groups": 8
+    },
+    "Acute pulmonary edema": {
+      "all": 74,
+      "age_18_to_90": 72,
+      "valid_record": 72,
+      "at_least_8_new_groups": 72
+    }
+  },
+  "invalid_records": [],
+  "selected_case_count": 12,
+  "public_prefix_count": 131,
+  "selected_cases": [
+    {
+      "case_id": "ddx_train_0857360",
+      "gold_disease": "Pneumonia",
+      "age": 57,
+      "sex": "F",
+      "initial_evidence_id": "E_220",
+      "initial_question_group": "E_220",
+      "available_new_groups": 17,
+      "selected_new_groups": 17
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "gold_disease": "Pneumonia",
+      "age": 26,
+      "sex": "M",
+      "initial_evidence_id": "E_77",
+      "initial_question_group": "E_77",
+      "available_new_groups": 16,
+      "selected_new_groups": 16
+    },
+    {
+      "case_id": "ddx_train_0925484",
+      "gold_disease": "Bronchitis",
+      "age": 30,
+      "sex": "M",
+      "initial_evidence_id": "E_77",
+      "initial_question_group": "E_77",
+      "available_new_groups": 8,
+      "selected_new_groups": 8
+    },
+    {
+      "case_id": "ddx_train_0915712",
+      "gold_disease": "Bronchitis",
+      "age": 41,
+      "sex": "M",
+      "initial_evidence_id": "E_214",
+      "initial_question_group": "E_214",
+      "available_new_groups": 8,
+      "selected_new_groups": 8
+    },
+    {
+      "case_id": "ddx_train_0875644",
+      "gold_disease": "Bronchospasm / acute asthma exacerbation",
+      "age": 34,
+      "sex": "F",
+      "initial_evidence_id": "E_214",
+      "initial_question_group": "E_214",
+      "available_new_groups": 9,
+      "selected_new_groups": 9
+    },
+    {
+      "case_id": "ddx_train_0858284",
+      "gold_disease": "Bronchospasm / acute asthma exacerbation",
+      "age": 54,
+      "sex": "M",
+      "initial_evidence_id": "E_201",
+      "initial_question_group": "E_201",
+      "available_new_groups": 8,
+      "selected_new_groups": 8
+    },
+    {
+      "case_id": "ddx_train_0940128",
+      "gold_disease": "Pulmonary embolism",
+      "age": 41,
+      "sex": "F",
+      "initial_evidence_id": "E_220",
+      "initial_question_group": "E_220",
+      "available_new_groups": 8,
+      "selected_new_groups": 8
+    },
+    {
+      "case_id": "ddx_train_0851760",
+      "gold_disease": "Pulmonary embolism",
+      "age": 61,
+      "sex": "M",
+      "initial_evidence_id": "E_220",
+      "initial_question_group": "E_220",
+      "available_new_groups": 8,
+      "selected_new_groups": 8
+    },
+    {
+      "case_id": "ddx_train_0868644",
+      "gold_disease": "Spontaneous pneumothorax",
+      "age": 50,
+      "sex": "F",
+      "initial_evidence_id": "E_66",
+      "initial_question_group": "E_66",
+      "available_new_groups": 8,
+      "selected_new_groups": 8
+    },
+    {
+      "case_id": "ddx_train_0937832",
+      "gold_disease": "Spontaneous pneumothorax",
+      "age": 58,
+      "sex": "M",
+      "initial_evidence_id": "E_53",
+      "initial_question_group": "E_53",
+      "available_new_groups": 8,
+      "selected_new_groups": 8
+    },
+    {
+      "case_id": "ddx_train_0874944",
+      "gold_disease": "Acute pulmonary edema",
+      "age": 38,
+      "sex": "M",
+      "initial_evidence_id": "E_175",
+      "initial_question_group": "E_175",
+      "available_new_groups": 10,
+      "selected_new_groups": 10
+    },
+    {
+      "case_id": "ddx_train_0857920",
+      "gold_disease": "Acute pulmonary edema",
+      "age": 42,
+      "sex": "M",
+      "initial_evidence_id": "E_218",
+      "initial_question_group": "E_218",
+      "available_new_groups": 11,
+      "selected_new_groups": 11
+    }
+  ],
+  "legacy_initial_index_audit": {
+    "checked_discovery_cases": 4000,
+    "mismatched": 2960,
+    "examples": [
+      {
+        "case_id": "ddx_train_0840000",
+        "ordinal": 213,
+        "correct_evidence_id": "E_218",
+        "legacy_decoded_evidence_id": "E_55"
+      },
+      {
+        "case_id": "ddx_train_0840028",
+        "ordinal": 135,
+        "correct_evidence_id": "E_140",
+        "legacy_decoded_evidence_id": "E_55"
+      },
+      {
+        "case_id": "ddx_train_0840056",
+        "ordinal": 196,
+        "correct_evidence_id": "E_201",
+        "legacy_decoded_evidence_id": "E_55"
+      },
+      {
+        "case_id": "ddx_train_0840084",
+        "ordinal": 146,
+        "correct_evidence_id": "E_151",
+        "legacy_decoded_evidence_id": "E_55"
+      },
+      {
+        "case_id": "ddx_train_0840140",
+        "ordinal": 65,
+        "correct_evidence_id": "E_66",
+        "legacy_decoded_evidence_id": "E_54"
+      },
+      {
+        "case_id": "ddx_train_0840280",
+        "ordinal": 216,
+        "correct_evidence_id": "E_221",
+        "legacy_decoded_evidence_id": "E_55"
+      }
+    ],
+    "cause": "Stored initial_evidence_idx is ordinal in sorted evidence IDs; legacy readers interpret it as expanded atom index. New inputs use raw INITIAL_EVIDENCE directly. Legacy results not recomputed or overwritten."
+  },
+  "sources": [
+    {
+      "file": "ClinicalBelief/data/processed/discovery.npz",
+      "sha256": "6e3d0c67547476055fa18aefb6b48a44f74c5533a70c9db64fdfea8cc143835c"
+    },
+    {
+      "file": "ClinicalBelief/data/processed/schema.json",
+      "sha256": "c2ab976876d7b3d9ad4bd42d2331d6c9c95bf7a306adb4c1e6a872ed4dcd7c54"
+    },
+    {
+      "file": "ClinicalBelief/data/raw/release_evidences.json",
+      "sha256": "281c78b044ae60514e28ecc9052d08a8225dd3e2db3f00f8788b99c47b05e0c0"
+    },
+    {
+      "file": "ClinicalBelief/data/raw/release_conditions.json",
+      "sha256": "61e16706a2ab78efb997bab8a865c83b46151b10b0377b63530745f1e18e71a8"
+    },
+    {
+      "file": "ClinicalBelief/data/raw/train.csv",
+      "sha256": "93933e9a9a7a00d618a931deda7767485af299fe4635bf189a7c63b510e8b172"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "data/pilot_cases.private.jsonl",
+      "sha256": "3da47ef5310dc3bc187d113f2654ad797d9a1bcaef70232355a0ea004cf8b01e"
+    },
+    {
+      "file": "data/pilot_prefixes.public.jsonl",
+      "sha256": "7993066f3ae8dba1493dcf34b2109a1b6667660f9066e928c938b4f94c21f2ff"
+    }
+  ],
+  "source_sha256": "5f20550d1c20becf930907a2ed93c8810c9ee56ef28687b0c8574aea7d9ea1d1",
+  "api_cost_usd": 0
+}

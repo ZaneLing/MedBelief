@@ -1,0 +1,73 @@
+{
+  "run_id": "expanded_v1",
+  "jobs": 6600,
+  "model_dir": "/Users/lingziyang/Desktop/Seq/MedicalBeliefMechanisms/.models/Qwen3-1.7B",
+  "model_hashes": {
+    "model-00001-of-00002.safetensors": "169ad53ec313c3a34b06c0809216e4fc072cce444a5d4ff2b59690d064130ed5",
+    "model-00002-of-00002.safetensors": "912becff8d60672aa8628ef08c05898d9adf17c2ad4ae3caf99b065622fdeff9",
+    "config.json": "1ddb5b89ebc90dcb417a45c213d818577e65976454d29385c8f6140771d95197",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+  },
+  "model_config": {
+    "architectures": [
+      "Qwen3ForCausalLM"
+    ],
+    "attention_bias": false,
+    "attention_dropout": 0.0,
+    "bos_token_id": 151643,
+    "eos_token_id": 151645,
+    "head_dim": 128,
+    "hidden_act": "silu",
+    "hidden_size": 2048,
+    "initializer_range": 0.02,
+    "intermediate_size": 6144,
+    "max_position_embeddings": 40960,
+    "max_window_layers": 28,
+    "model_type": "qwen3",
+    "num_attention_heads": 16,
+    "num_hidden_layers": 28,
+    "num_key_value_heads": 8,
+    "rms_norm_eps": 1e-06,
+    "rope_scaling": null,
+    "rope_theta": 1000000,
+    "sliding_window": null,
+    "tie_word_embeddings": true,
+    "torch_dtype": "bfloat16",
+    "transformers_version": "4.51.0",
+    "use_cache": true,
+    "use_sliding_window": false,
+    "vocab_size": 151936
+  },
+  "source_hashes": {
+    "run_observations.py": "10e226249239f23d6664445d9632fabf69d6161940a2d9f389914c80d1eb8cd5",
+    "phase1_run_direct.py": "c913a909b2723f50e2e286654460d033874967337075336e763578f79983e13e",
+    "jobs.public.jsonl": "3c7e6a55e72d24577e578b7bb3a01b59de14e0c8e036e9f497e7ea438424047b",
+    "STAGES_2_4.md": "0d34c11cdcb10fe195d73c4a0ace3ba029340d80a7b76af8e9fc28845b25dca3"
+  },
+  "dtype": "FP16 from BF16; no training; no quantization",
+  "device": {
+    "device_name": "Apple M2 Pro",
+    "max_recommended_working_set_size": 26800603136,
+    "memory_size": 34359738368,
+    "architecture": "applegpu_g14s",
+    "max_buffer_length": 20100448256,
+    "resource_limit": 499000
+  },
+  "diseases": [
+    "Pneumonia",
+    "Bronchitis",
+    "Bronchospasm / acute asthma exacerbation",
+    "Pulmonary embolism",
+    "Spontaneous pneumothorax",
+    "Acute pulmonary edema"
+  ],
+  "packages": {
+    "mlx": "0.32.4",
+    "mlx-lm": "0.32.2",
+    "numpy": "2.5.5",
+    "transformers": "5.23.0"
+  },
+  "api_cost_usd": 0,
+  "measurement": "D next-code scores; full-vocabulary greedy first token recorded; no continuation generated"
+}

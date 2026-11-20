@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_ba10b536-2c5b-4563-ad83-970fccb192dc",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "mlp_width50",
+    "mlp_keep": 0.5
+  },
+  "parameter_stats": {
+    "parameters": 1192092672,
+    "weight_bytes": 2384185344,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Graves disease\"}",
+      "generated_disease": "Graves disease",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "6bf1333d219adf9f6bb0367a0e626dd4ef236936cd5825ee3696d4becc930145"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Graves disease\"}",
+      "generated_disease": "Graves disease",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "7d6e88399c9809c7e05e6a17e84ad34385bde103305910616f5689de2a7172fc"
+    }
+  ]
+}

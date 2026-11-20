@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_009efd48-b1f9-4a39-9dfa-fba8f1bc07e4",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cryinuclephoxesphycossemervicotemphilis\"} (Note: This is an example of an non-standard or non-existent pathogen. actual real-world pathymosarovemotemaxemememememememememememememememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "fa8e4a78e8afe7eb28c1185d1d79ee2a01ee54cc33bb14b2bc07580d0738a2f5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chagenia's disease orients in favor of_____.\"} (Note: This is an example placeholder for an actual actual philentary-based anotation. actual realignment is required for actual realignment\"} (Note: actual actuality is required for actual realignment\"} (Serventia et et",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "da7362eebc1c56ff88df7856fe6166c2c112cb67c96baa79a31dea025ce7c2d6"
+    }
+  ]
+}

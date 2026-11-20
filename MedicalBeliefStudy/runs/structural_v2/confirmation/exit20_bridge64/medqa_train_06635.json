@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_06635",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Acute pulmonary dysmoma\"}",
+      "generated_disease": "Acute pulmonary dysmoma",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "785629d6f0bbf18c9db4226a56bbe639df296477f0151175944151d37a2fba25"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pulmonary disorder\"}",
+      "generated_disease": "Pulmonary disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "3912662044dbb5d580f3e2896a9e9aef311e1abedb455da3e3a6ccc40ec09239"
+    }
+  ]
+}

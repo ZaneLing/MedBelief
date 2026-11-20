@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_05231",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Von-Gierke's disease\"}",
+      "generated_disease": "Von-Gierke's disease",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "bed7108b352b49c44a3bf9c3820e62bfac43ea38942e93746b5a7f3e7094606b"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Von-Gierke's disease\"}",
+      "generated_disease": "Von-Gierke's disease",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "ed5178c56d0e93c4cbb4d0a5e098fe04d3976c38004846f12451166209571b52"
+    }
+  ]
+}

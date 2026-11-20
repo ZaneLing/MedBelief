@@ -1,0 +1,49 @@
+{
+  "case_id": "medmcqa_train_076ee8e5-7a52-4b82-8cb1-287681759691",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Dependent PD\"}",
+      "generated_disease": "Dependent PD",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "3a8f8d09fdfa4adc7bc9d7c1c612038071a8fedf5d523959e2fc04d96cd4683b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Histrionic PD\"}",
+      "generated_disease": "Histrionic PD",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "9de70c1d84e25994e2351b6a76b3483c43be51ec7bee4ed2519c3fbb2a278227"
+    }
+  ]
+}

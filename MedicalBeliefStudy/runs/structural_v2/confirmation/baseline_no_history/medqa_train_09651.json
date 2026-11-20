@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_09651",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Progressive multifocal leukoencephalopathy\"}",
+      "generated_disease": "Progressive multifocal leukoencephalopathy",
+      "stop": "eos",
+      "tokens": 11,
+      "prompt_sha256": "3aa39c7ea5f040f7dc161f59d08feb5d208555fd54ab3b15a32b804cbe6c8be7"
+    }
+  ]
+}

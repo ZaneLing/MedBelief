@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_06616",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxiaenotaxiaoticus\"} (Note: This is an error correction and/or an error in the original list of options. actual correct answer is \"Essentialvascularineurosis or other relevant philacotaris butchers et etemensetetemensetemet",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "ddaa8f5c01a49fcae31aa3b28ce0407693b5c146aff5ed5d6fda794cd7e2f0eb"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxiaotic disorder orients inductive disorder orphans tracentalystosogaripostar chilensigroupingserventechserventetrephocostar chilensigroupingsseminal glandular disorderalsenathreplabaracostar ch",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "cde00a54dedafcc8787ddcad3c14997a553ee38ebd8213ca80612b6fbc6526e7"
+    }
+  ]
+}

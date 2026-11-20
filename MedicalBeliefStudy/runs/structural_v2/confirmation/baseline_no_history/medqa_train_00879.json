@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_00879",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Iron deficiency anemia\"}",
+      "generated_disease": "Iron deficiency anemia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "73e4520d8124c925d3c9c4b0335b835b238afa0196f9311f2cf7f226af04fc27"
+    }
+  ]
+}

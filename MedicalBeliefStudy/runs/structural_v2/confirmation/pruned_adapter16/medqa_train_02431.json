@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_02431",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Small cell lung cancer\"}",
+      "generated_disease": "Small cell lung cancer",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "a1045a770540f74a8f8aff707878812ff3db4a01f95e08d7f9c625e9f1d39d94"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Non-Hodgkin’s lymphoma\"}",
+      "generated_disease": "Non-Hodgkin’s lymphoma",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "8e64f1dd324e46c90da9973fc389aa2ff3b697e99a99dc4f1ca7229538a21bdb"
+    }
+  ]
+}

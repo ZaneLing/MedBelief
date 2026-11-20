@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_00050",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Duodenal atresia\"}",
+      "generated_disease": "Duodenal atresia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "0df65b3b612cd11fbb31453a977f28d9f2fcc749fa8348e1e0675084737fa357"
+    }
+  ]
+}

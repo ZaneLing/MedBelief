@@ -1,0 +1,91 @@
+[
+  {
+    "name": "baseline"
+  },
+  {
+    "name": "exit24",
+    "exit_layer": 24
+  },
+  {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  {
+    "name": "drop_tail4_keep28",
+    "drop_blocks": [
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "name": "drop_mlp4",
+    "drop_mlps": [
+      24,
+      25,
+      26,
+      28
+    ]
+  },
+  {
+    "name": "mlp_width75",
+    "mlp_keep": 0.75
+  },
+  {
+    "name": "mlp_width50",
+    "mlp_keep": 0.5
+  },
+  {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  {
+    "name": "linear_old16",
+    "replace_mlps": [
+      25,
+      26
+    ],
+    "rank": 16
+  },
+  {
+    "name": "late_mlp_half",
+    "mlp_scale": 0.5,
+    "scale_layers": [
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "name": "contrast21_half",
+    "contrast_layer": 21,
+    "contrast_strength": 0.5,
+    "plausibility": 0.1
+  },
+  {
+    "name": "contrast21_full",
+    "contrast_layer": 21,
+    "contrast_strength": 1.0,
+    "plausibility": 0.1
+  }
+]

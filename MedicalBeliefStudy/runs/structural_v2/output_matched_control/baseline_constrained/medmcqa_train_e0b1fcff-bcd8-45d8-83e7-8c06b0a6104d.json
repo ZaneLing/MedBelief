@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_e0b1fcff-bcd8-45d8-83e7-8c06b0a6104d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Extrahepatic portal venous obstruction\"}",
+      "generated_disease": "Extrahepatic portal venous obstruction",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "5faae9d4824037f7a04c23b64bc70af57b7b4887fa3548b1899fda1046d308a5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Extrahepatic portal venous obstruction\"}",
+      "generated_disease": "Extrahepatic portal venous obstruction",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "ec3be27c59f879f8500453018681f8387fb98882b13d1ae979cd3fa655418c59"
+    }
+  ]
+}

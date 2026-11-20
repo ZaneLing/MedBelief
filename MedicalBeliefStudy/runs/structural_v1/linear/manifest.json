@@ -1,0 +1,183 @@
+{
+  "complete": true,
+  "layers": [
+    25,
+    26,
+    27,
+    21
+  ],
+  "ranks": [
+    16,
+    64
+  ],
+  "fit": "PCA input subspace and ridge teacher MLP output",
+  "anchor_repeat": 8,
+  "random_tokens_per_prompt": 32,
+  "train_cases": 18,
+  "tune_cases": 27,
+  "uses_diagnosis_labels_for_fit": false,
+  "fit_metrics": [
+    {
+      "layer": 25,
+      "rank": 16,
+      "split": "train",
+      "relative_mse": 0.2176665961742401,
+      "cosine": 0.891613245010376,
+      "anchor_records": 72,
+      "training_rows": 2880,
+      "ridge": 4225.2775
+    },
+    {
+      "layer": 25,
+      "rank": 16,
+      "split": "tune",
+      "relative_mse": 0.3322125971317291,
+      "cosine": 0.8356342315673828,
+      "anchor_records": 108,
+      "training_rows": 2880,
+      "ridge": 4225.2775
+    },
+    {
+      "layer": 25,
+      "rank": 64,
+      "split": "train",
+      "relative_mse": 0.09842276573181152,
+      "cosine": 0.9495883584022522,
+      "anchor_records": 72,
+      "training_rows": 2880,
+      "ridge": 1549.19734375
+    },
+    {
+      "layer": 25,
+      "rank": 64,
+      "split": "tune",
+      "relative_mse": 0.2909361720085144,
+      "cosine": 0.8585532307624817,
+      "anchor_records": 108,
+      "training_rows": 2880,
+      "ridge": 1549.19734375
+    },
+    {
+      "layer": 26,
+      "rank": 16,
+      "split": "train",
+      "relative_mse": 0.17474691569805145,
+      "cosine": 0.913507342338562,
+      "anchor_records": 72,
+      "training_rows": 2880,
+      "ridge": 4491.5584375
+    },
+    {
+      "layer": 26,
+      "rank": 16,
+      "split": "tune",
+      "relative_mse": 0.27311989665031433,
+      "cosine": 0.870068371295929,
+      "anchor_records": 108,
+      "training_rows": 2880,
+      "ridge": 4491.5584375
+    },
+    {
+      "layer": 26,
+      "rank": 64,
+      "split": "train",
+      "relative_mse": 0.07734644412994385,
+      "cosine": 0.95746910572052,
+      "anchor_records": 72,
+      "training_rows": 2880,
+      "ridge": 1624.884375
+    },
+    {
+      "layer": 26,
+      "rank": 64,
+      "split": "tune",
+      "relative_mse": 0.23483209311962128,
+      "cosine": 0.890465259552002,
+      "anchor_records": 108,
+      "training_rows": 2880,
+      "ridge": 1624.884375
+    },
+    {
+      "layer": 27,
+      "rank": 16,
+      "split": "train",
+      "relative_mse": 0.14166027307510376,
+      "cosine": 0.9289019107818604,
+      "anchor_records": 72,
+      "training_rows": 2880,
+      "ridge": 5738.244375
+    },
+    {
+      "layer": 27,
+      "rank": 16,
+      "split": "tune",
+      "relative_mse": 0.22174224257469177,
+      "cosine": 0.8938349485397339,
+      "anchor_records": 108,
+      "training_rows": 2880,
+      "ridge": 5738.244375
+    },
+    {
+      "layer": 27,
+      "rank": 64,
+      "split": "train",
+      "relative_mse": 0.0724472627043724,
+      "cosine": 0.96277916431427,
+      "anchor_records": 72,
+      "training_rows": 2880,
+      "ridge": 1944.87875
+    },
+    {
+      "layer": 27,
+      "rank": 64,
+      "split": "tune",
+      "relative_mse": 0.19615404307842255,
+      "cosine": 0.9070660471916199,
+      "anchor_records": 108,
+      "training_rows": 2880,
+      "ridge": 1944.87875
+    },
+    {
+      "layer": 21,
+      "rank": 16,
+      "split": "train",
+      "relative_mse": 0.16737057268619537,
+      "cosine": 0.9151638746261597,
+      "anchor_records": 72,
+      "training_rows": 2880,
+      "ridge": 2516.45125
+    },
+    {
+      "layer": 21,
+      "rank": 16,
+      "split": "tune",
+      "relative_mse": 0.18925641477108002,
+      "cosine": 0.9085371494293213,
+      "anchor_records": 108,
+      "training_rows": 2880,
+      "ridge": 2516.45125
+    },
+    {
+      "layer": 21,
+      "rank": 64,
+      "split": "train",
+      "relative_mse": 0.09153372794389725,
+      "cosine": 0.9532760977745056,
+      "anchor_records": 72,
+      "training_rows": 2880,
+      "ridge": 883.88
+    },
+    {
+      "layer": 21,
+      "rank": 64,
+      "split": "tune",
+      "relative_mse": 0.14549237489700317,
+      "cosine": 0.92906254529953,
+      "anchor_records": 108,
+      "training_rows": 2880,
+      "ridge": 883.88
+    }
+  ],
+  "source_sha256": "3e5615e55d04b89e82ebf2a139aff7b1aa589fe7169cc522625834b4f6a998a9",
+  "api_cost_usd": 0
+}

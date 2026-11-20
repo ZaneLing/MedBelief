@@ -1,0 +1,39 @@
+{
+  "case_id": "medmcqa_train_bcae804e-d074-4661-abab-711ea94ce3e0",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "linear_old16",
+    "replace_mlps": [
+      25,
+      26
+    ],
+    "rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1645216768,
+    "weight_bytes": 3290712064,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Nasolabial cyst\"}",
+      "generated_disease": "Nasolabial cyst",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "e8bd6ae02dfb0d4accfef9ca1ea0e0e913af4c6615aca05298348f0219e09d6f"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Nasolabial cyst\"}",
+      "generated_disease": "Nasolabial cyst",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "a93484ff92c622bfa29b5cc81d9988623313bdc3f2c202b993845d4538c082aa"
+    }
+  ]
+}

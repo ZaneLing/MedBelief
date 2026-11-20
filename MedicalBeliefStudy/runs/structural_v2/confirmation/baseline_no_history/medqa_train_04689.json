@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_04689",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "X-linked agammaglobulinemia\"}",
+      "generated_disease": "X-linked agammaglobulinemia",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "bb8d837b23b0de4264ff4c11cdc532324f73a7875458ae0aeca3439604a81539"
+    }
+  ]
+}

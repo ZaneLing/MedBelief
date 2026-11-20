@@ -1,0 +1,49 @@
+{
+  "case_id": "medmcqa_train_d55d4fdd-1aaa-4522-acd9-b73d04ed6ca4",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Tricuspid atresia\"}",
+      "generated_disease": "Tricuspid atresia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "e818b0bf618aad7a5d7834a8f661ba9f00efe225faae3d55c514df3343e92c0c"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Tricuspid atresia\"}",
+      "generated_disease": "Tricuspid atresia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "85ebda929e3d690543336b95055954045b19782c46ab0419a6e94b7befc31320"
+    }
+  ]
+}

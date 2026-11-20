@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_09587",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Muscle strain\"}",
+      "generated_disease": "Muscle strain",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "f12a6114246f6ec142543fbda880e96b38d087c3565ffc57f3ff228778b411ad"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Epidural abscess\"}",
+      "generated_disease": "Epidural abscess",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "58a825b6063debafaf74266fb441b5d0a603b778a850b1b8b84819894bdb3c16"
+    }
+  ]
+}

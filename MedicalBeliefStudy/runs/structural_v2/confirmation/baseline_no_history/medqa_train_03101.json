@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_03101",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Primary dysmenorrhea\"}",
+      "generated_disease": "Primary dysmenorrhea",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "1366b6599fb2ab5d42e70028184e173928b0e6b8f4ba2abf9ae374ce3c9f9bce"
+    }
+  ]
+}

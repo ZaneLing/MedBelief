@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_train_09227",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Acute cholecystitis\"}",
+      "generated_disease": "Acute cholecystitis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "030297c51b3059c2a863721cbf47be9785371fbd3ddf1ebb2842231f43adaa1c"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Gallbladder cancer\"}",
+      "generated_disease": "Gallbladder cancer",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "7767be5a1383e778f36361098735492f1919a65ded1ea8ec992cd82b6fb35a0e"
+    }
+  ]
+}

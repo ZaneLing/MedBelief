@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_01997",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Gastroschisis\"}",
+      "generated_disease": "Gastroschisis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ca4faae94ebab3d25dc335db820ec50d4fcbb82a0de911a680b7ced7a6279f9f"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Gastroschisis\"}",
+      "generated_disease": "Gastroschisis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "825aba177a87fc550abc1a2bdd515c30da940235f0274e9fa7f4f18b84ed4d56"
+    }
+  ]
+}

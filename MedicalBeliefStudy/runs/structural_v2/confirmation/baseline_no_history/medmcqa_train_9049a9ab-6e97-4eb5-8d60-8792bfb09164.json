@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_9049a9ab-6e97-4eb5-8d60-8792bfb09164",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Social phobia\"}",
+      "generated_disease": "Social phobia",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "cec8eaabb6b0b080e884c1b0700a336317eecb66d2fa84a7dde035b726fa85ce"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "case_id": "medqa_train_03561",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "drop_mlp4",
+    "drop_mlps": [
+      24,
+      25,
+      26,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1569571840,
+    "weight_bytes": 3139143680,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Osteoarthritis\"}",
+      "generated_disease": "Osteoarthritis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "0b38b4da26d96fa2469496dfebd9d922e573d92fa8747a3c59bfb27fc697a249"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Gou\"}",
+      "generated_disease": "Gou",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "79a9f618b69fd7d4457d37799661b002533cfc804d5d69c784bd19b11702ff1d"
+    }
+  ]
+}

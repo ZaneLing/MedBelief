@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_01986",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Invarosey's syndrome or hyper stress-induced stress outdigestive system disorder or stress-induced stress-induced hyper stress-induced stress-induced stressphilacostrophic disease or stress-induced stress-induced hypaxoplastic disorder or stress-induced hypaxoornalized disorder or stress-induced hypaxoornigroup",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "0784f66bbd4a943e2304cfe91affcd28e85c780670a783a087c91c5df94ea5de"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Invaritableausenolententotemphenserventodenture\"} -- Note: This is an error error. actual correct answer is \"Essonicityofentigroupingserventodenture\"} (Note: actual correct answer is \"Isomaraginaliaotaxia\"}",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "c8a0b3d11abf430e722e029556f4e6ad80c0394513a17c067d4b324aef3c3877"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "commit": "f7ef9e81cfdc89fb98e07cef8212d0778b015595",
+  "files": [
+    {
+      "path": "MedicalBeliefStudy/data/lightweight_multidataset/public_reference/github/study.json",
+      "url": "https://raw.githubusercontent.com/oscarfreyer/decision-model-benchmark/f7ef9e81cfdc89fb98e07cef8212d0778b015595/data/study.json",
+      "sha256": "b8e3e4b7d4f4f70815fcf75875875a601cbac90a9aaa66ab0cee73c0f65f9e62",
+      "bytes": 335419
+    },
+    {
+      "path": "MedicalBeliefStudy/data/lightweight_multidataset/public_reference/github/outcomes.jsonl.gz",
+      "url": "https://raw.githubusercontent.com/oscarfreyer/decision-model-benchmark/f7ef9e81cfdc89fb98e07cef8212d0778b015595/data/outcomes.jsonl.gz",
+      "sha256": "4e4f775c0aafdb80f9189eb0d32022043e339ebec9a050ee055f48ea46f7a4c2",
+      "bytes": 6390529
+    },
+    {
+      "path": "MedicalBeliefStudy/data/lightweight_multidataset/public_reference/github/data_manifest.json",
+      "url": "https://raw.githubusercontent.com/oscarfreyer/decision-model-benchmark/f7ef9e81cfdc89fb98e07cef8212d0778b015595/provenance/data_manifest.json",
+      "sha256": "0e69e6256feb0d7378ca9720aaf6a15c5fbfc913f971cad4c0296b05ce9dae60",
+      "bytes": 571
+    }
+  ]
+}

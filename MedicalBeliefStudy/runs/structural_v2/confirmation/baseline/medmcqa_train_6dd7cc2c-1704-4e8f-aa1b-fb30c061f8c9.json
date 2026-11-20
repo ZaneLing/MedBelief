@@ -1,0 +1,34 @@
+{
+  "case_id": "medmcqa_train_6dd7cc2c-1704-4e8f-aa1b-fb30c061f8c9",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Ehler-Danlos syndrome\"}",
+      "generated_disease": "Ehler-Danlos syndrome",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "e2a690563f1ea03d539bcfbb9ec5e81408be3633daa91ec0c2f61c3d62e463a5"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Osteogenesis imperfecta\"}",
+      "generated_disease": "Osteogenesis imperfecta",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "9f13dd7de7b742995aa42f8a2bf7387beae1f2cdca2131941e5f8ddb45044737"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_06904",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Acute dysmomocyopathy\"}",
+      "generated_disease": "Acute dysmomocyopathy",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "e21f01cc5b4521ede78152053e08f2ba701193f053648a07c2bb3923b08f01ba"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Acute dysmomocyopathy\"}",
+      "generated_disease": "Acute dysmomocyopathy",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "9523f1cb067fefadc7656063bf535260f489813e8481c48f34cf55ba4545b5eb"
+    }
+  ]
+}

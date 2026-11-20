@@ -1,0 +1,49 @@
+{
+  "case_id": "medmcqa_train_a067ba64-a70d-4a96-ac91-37bb729c20e6",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Dengue fever\"}",
+      "generated_disease": "Dengue fever",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "59399b8a1d38a6217a2ce7c4675bef8be1c70ec0343631ef5afe5b8f82f3602e"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Dengue fever\"}",
+      "generated_disease": "Dengue fever",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "e7204e3fb7e3f0bb939c0f4feb0bfe5d2829c7cf322d0291f94b0f60ca098e1b"
+    }
+  ]
+}

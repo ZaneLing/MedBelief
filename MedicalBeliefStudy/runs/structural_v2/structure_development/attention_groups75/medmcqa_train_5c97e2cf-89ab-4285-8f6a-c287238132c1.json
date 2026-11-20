@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_5c97e2cf-89ab-4285-8f6a-c287238132c1",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic idiopathic medial meniscus injury with early-stage osteochondritis vulgaris of the tibia\",\".ốt",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 24,
+      "prompt_sha256": "233688b098d480a1901cd7979c029e55fea945bb208fe1c09315f5b3522fb845"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Osteochondritis deformans\",\"mechanism\":\"fat embolism from a recent inferior alveolar resection of the right maxillary molars\",\"severity\":\"moderate\",\"rightsided\":\"left\",\"risk_indicator\":\"1\",\"risk_factor\":\"hypertension\",\"vital_status\":\"viable\",\"vital_sign",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "080905ba8c1d3b52906ac11fe602533cdcd6684b0f2a1310b0a82b61ad49ea83"
+    }
+  ]
+}

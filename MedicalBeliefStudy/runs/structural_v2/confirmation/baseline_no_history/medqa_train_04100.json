@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_04100",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Acute decompensated heart failure\"}",
+      "generated_disease": "Acute decompensated heart failure",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "f8a406f20a3f996032911fdac1d57f944d81402c4a07dbe1af336600f16e0bde"
+    }
+  ]
+}

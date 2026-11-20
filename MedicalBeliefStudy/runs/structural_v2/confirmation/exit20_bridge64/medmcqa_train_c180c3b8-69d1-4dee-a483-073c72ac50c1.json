@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_c180c3b8-69d1-4dee-a483-073c72ac50c1",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cystoid\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "ea5e225ef8009330406b50afb5d3d5dab41dd6db52f31039f51029835476d7db"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Crythromalumous syndrome\"}",
+      "generated_disease": "Crythromalumous syndrome",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "0a29b43ffc3b36e17185abbb615e609dc526bc0073bdb4ba127365ca82261332"
+    }
+  ]
+}

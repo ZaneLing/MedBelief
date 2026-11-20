@@ -1,0 +1,212 @@
+{
+  "case_id": "medmcqa_train_ebf37a52-619f-4ff5-aaf3-943c615f5097",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -10.984036445617676,
+        -2.812161445617676,
+        -0.06216142326593399,
+        -8.640286445617676
+      ],
+      "q_sequence": [
+        1.6970458929675212e-05,
+        0.060075003716421,
+        0.9397311895818387,
+        0.00017683624281055957
+      ],
+      "q_token_mean": [
+        0.09268084366540821,
+        0.27855521323436117,
+        0.4411697238973392,
+        0.18759421920289143
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "ventricular septal defect\"}",
+      "generated_disease": "ventricular septal defect",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "7daab16c428f850a16afbcac0087bf38f152e98a851a627e75eedd669a98074a"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -10.406280517578125,
+        -16.984405517578125,
+        -3.027961793122813e-05,
+        -17.015655517578125
+      ],
+      "q_sequence": [
+        3.0241948833562166e-05,
+        4.20500373131804e-08,
+        0.9999696752448356,
+        4.0756293674904796e-08
+      ],
+      "q_token_mean": [
+        0.1540971278859126,
+        0.04018365631966135,
+        0.6814277851884782,
+        0.12429143060594781
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "ventricular septal defect\"}",
+      "generated_disease": "ventricular septal defect",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "18d456e0f25cd572f6e08b285429beda58aa495527b0efc6804e70f046b9cf89"
+    },
+    {
+      "condition": "neutral",
+      "round": 3,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -5.006802894058637e-06,
+        -14.296879768371582,
+        -12.343755722045898,
+        -22.3437557220459
+      ],
+      "q_sequence": [
+        0.9999950249912777,
+        6.179367465488168e-07,
+        4.356874174118023e-06,
+        1.978017814889425e-10
+      ],
+      "q_token_mean": [
+        0.7294947495442964,
+        0.06732553539971298,
+        0.12508071029282652,
+        0.07809900476316405
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "cardiac tamponade\"}",
+      "generated_disease": "cardiac tamponade",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "04bcebc6b3da625114f728170bad643622d59c9bce09afa3858011c7bb63d4e7"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -25.859373092651367,
+        -26.359373092651367,
+        0.0,
+        -27.4375
+      ],
+      "q_sequence": [
+        5.8805366412601215e-12,
+        3.5667257684878155e-12,
+        0.9999999999893392,
+        1.2135150107642819e-12
+      ],
+      "q_token_mean": [
+        0.022574808696681697,
+        0.011221167303884259,
+        0.9078060743054843,
+        0.05839794969394975
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "ventricular septal defect\"}",
+      "generated_disease": "ventricular septal defect",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "95b7293c44d7fab4302d1a673c137c5a180a900870a843871aaa7bdcd91479cb"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -18.1875,
+        -24.8125,
+        0.0,
+        -25.734375
+      ],
+      "q_sequence": [
+        1.2626096517950505e-08,
+        1.675205778027477e-11,
+        0.9999999873504878,
+        6.6635082043820615e-12
+      ],
+      "q_token_mean": [
+        0.06377638437090863,
+        0.013710755392113198,
+        0.8571365635612684,
+        0.0653762966757097
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "ventricular septal defect\"}",
+      "generated_disease": "ventricular septal defect",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "7f0d2923963df581247f5539e47329826e8d7a60c71716dcf0772fc671bceb57"
+    },
+    {
+      "condition": "wrong",
+      "round": 3,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.025503095239400864,
+        -13.181754112243652,
+        -3.681753158569336,
+        -20.525503158569336
+      ],
+      "q_sequence": [
+        0.9748193214429056,
+        1.8846769077084869e-06,
+        0.02517879266151367,
+        1.2186730917325377e-09
+      ],
+      "q_token_mean": [
+        0.5453859347442515,
+        0.060835771427432836,
+        0.32349130755478744,
+        0.07028698627352827
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "cardiac tamponade\"}",
+      "generated_disease": "cardiac tamponade",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ce327ba23076f1dd3cb45251cb1ef7d4bbfecb324740c9b0834bf416d5254b9c"
+    }
+  ],
+  "state_sha256": "92b8d5e5efc536674d52943cef568de9a4893a5d655a3c038c3675333c5abf26"
+}

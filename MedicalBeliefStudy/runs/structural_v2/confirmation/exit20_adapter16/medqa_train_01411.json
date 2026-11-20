@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_01411",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cryphinemia\"}",
+      "generated_disease": "Cryphinemia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "6646af12b5b261c96297726518240f2e41de3cf4ab1db4025121c8d973b24b1e"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniform lung disease\"}",
+      "generated_disease": "Chronic veniform lung disease",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "d06f9bd583907de8a0149a9d4cf59a4df59de2ae19c4da7d3490cb1c1b3a1e91"
+    }
+  ]
+}

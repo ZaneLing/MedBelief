@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_01368",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Peptic ulcer perforation\"}",
+      "generated_disease": "Peptic ulcer perforation",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ef6db024b4052923abd87e443104bdbc38ddd6a73378467521fbf8428857ed83"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Peptic ulcer perforation\"}",
+      "generated_disease": "Peptic ulcer perforation",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "0696ee9c388bbaa1025019c74cfef5adb25730b20474b5248f3e381afd85bd2b"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_e7b18ef0-1d0f-4ee6-9111-e03471e65d71",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic long longening emoysdwnserventiaultserventecualservinalenemphilenturacovemphilenemphodemphanservutemphinalenemphesparicotaxoysenemphesparlinezem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "cd8a1192fc92bbbc423578f57513c657154be5d1913d2203dc7eb845687f20b8"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic longening of course diseasephiliasenysturacionesystroctolentosobemphilisnontrilaxoemphiliasenemphodogemphiliasenemphodememphiliasenemphodememphinalenemphir",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "16fa191d6aad65eb835bff512497bcd04d46afb66a76f879b88ae374b042cc76"
+    }
+  ]
+}

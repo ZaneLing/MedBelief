@@ -1,0 +1,49 @@
+case_id,view,disease,is_gold,full_logp,empty_logp,contrast_score,native_top,contrast_top,native_correct,contrast_correct
+ddx_test_0042118,append,Bronchitis,True,-24.437073737381866,-27.224057912825856,2.7869841754439904,Acute COPD exacerbation / infection,Bronchospasm / acute asthma exacerbation,False,False
+ddx_test_0042118,panel,Bronchitis,True,-23.02526533603566,-27.729243993758473,4.703978657722814,Acute COPD exacerbation / infection,Croup,False,False
+ddx_test_0032489,append,Acute dystonic reactions,True,-2.903444662200968,-18.003357172084513,15.099912509883545,Acute laryngitis,Acute dystonic reactions,False,True
+ddx_test_0032489,panel,Acute dystonic reactions,True,-10.095499633215226,-15.267550228197692,5.1720505949824656,Acute COPD exacerbation / infection,Spontaneous rib fracture,False,False
+ddx_test_0044249,append,Boerhaave,True,-0.0002592636213805122,-24.797306924388337,24.797047660766957,Boerhaave,Boerhaave,True,True
+ddx_test_0044249,panel,Boerhaave,True,-24.90705434844017,-28.87608326831716,3.9690289198769904,Acute COPD exacerbation / infection,Panic attack,False,False
+ddx_test_0101113,append,Spontaneous pneumothorax,True,-1.811974865972843e-05,-21.734415292650738,21.734397172902078,Spontaneous pneumothorax,Spontaneous pneumothorax,True,True
+ddx_test_0101113,panel,Spontaneous pneumothorax,True,-2.455687313585031e-05,-22.9843978880227,22.984373331149563,Spontaneous pneumothorax,Spontaneous pneumothorax,True,True
+ddx_test_0079685,append,Guillain-Barré syndrome,True,-1.8948259333271267,-26.32864105320911,24.433815119881984,Guillain-Barré syndrome,Guillain-Barré syndrome,True,True
+ddx_test_0079685,panel,Guillain-Barré syndrome,True,-27.95411777377577,-28.82915123829067,0.8750334645148996,Acute COPD exacerbation / infection,Inguinal hernia,False,False
+ddx_test_0067994,append,Bronchitis,True,-27.15083384513764,-28.486212968825612,1.3353791236879715,Acute COPD exacerbation / infection,Bronchospasm / acute asthma exacerbation,False,False
+ddx_test_0067994,panel,Bronchitis,True,-21.217459291218688,-27.766888976096425,6.549429684877737,Acute COPD exacerbation / infection,Pulmonary neoplasm,False,False
+ddx_test_0037913,append,Pericarditis,True,-23.000001549719514,-23.515634536742134,0.5156329870226202,Boerhaave,Boerhaave,False,False
+ddx_test_0037913,panel,Pericarditis,True,-6.688842773435901,-23.53125369548671,16.84241092205081,Acute COPD exacerbation / infection,Pericarditis,False,True
+ddx_test_0017896,append,HIV (initial infection),True,-12.466027295406775,-22.30193148925696,9.835904193850183,Acute rhinosinusitis,URTI,False,False
+ddx_test_0017896,panel,HIV (initial infection),True,-21.30892966512647,-23.833506481369227,2.5245768162427566,Acute COPD exacerbation / infection,Acute laryngitis,False,False
+ddx_test_0005881,append,Anemia,True,-0.012623317538327683,-16.656457901000294,16.643834583461967,Anemia,Anemia,True,True
+ddx_test_0005881,panel,Anemia,True,-0.004088503772884167,-18.625366743652762,18.621278239879878,Anemia,Anemia,True,True
+ddx_test_0006854,append,Anemia,True,-16.78257928667756,-16.58557629585198,-0.19700299082558104,Pulmonary embolism,Pulmonary embolism,False,False
+ddx_test_0006854,panel,Anemia,True,-0.004399391355484283,-18.76973156630868,18.765332174953194,Anemia,Anemia,True,True
+ddx_test_0108184,append,Guillain-Barré syndrome,True,-0.013564027133369905,-26.35982980632477,26.3462657791914,Guillain-Barré syndrome,Guillain-Barré syndrome,True,True
+ddx_test_0108184,panel,Guillain-Barré syndrome,True,-30.750783386095428,-28.829177199140382,-1.9216061869550458,Acute pulmonary edema,Acute pulmonary edema,False,False
+ddx_test_0110714,append,Pulmonary embolism,True,-9.22136181536996,-15.718010425482106,6.496648610112146,Localized edema,Localized edema,False,False
+ddx_test_0110714,panel,Pulmonary embolism,True,-12.159172562305002,-18.214406775070415,6.055234212765413,Acute COPD exacerbation / infection,Boerhaave,False,False
+ddx_test_0061730,append,Cluster headache,True,-4.458344801605563e-05,-27.781463126127164,27.78141854267915,Cluster headache,Cluster headache,True,True
+ddx_test_0061730,panel,Cluster headache,True,-23.57833550340547,-29.093940478995364,5.515604975589895,Acute COPD exacerbation / infection,Chagas,False,False
+ddx_test_0077278,append,Pericarditis,True,-2.4369162321078193,-23.609384655951366,21.172468423843547,Boerhaave,Boerhaave,False,False
+ddx_test_0077278,panel,Pericarditis,True,-4.0488623380645095,-23.60937869548671,19.560516357422202,Acute COPD exacerbation / infection,Pericarditis,False,True
+ddx_test_0048692,append,Pulmonary embolism,True,-3.6977136395154275,-15.718010425482106,12.020296785966678,Acute pulmonary edema,Spontaneous rib fracture,False,False
+ddx_test_0048692,panel,Pulmonary embolism,True,-13.981695305422193,-18.214406775070415,4.232711469648223,Acute COPD exacerbation / infection,Bronchospasm / acute asthma exacerbation,False,False
+ddx_test_0123136,append,GERD,True,-0.0022680084211970097,-26.516019105910573,26.513751097489376,GERD,GERD,True,True
+ddx_test_0123136,panel,GERD,True,-30.414079070090338,-30.51562821864991,0.10154914855957031,Acute COPD exacerbation / infection,Scombroid food poisoning,False,False
+ddx_test_0041136,append,Acute otitis media,True,-0.001035064221355242,-19.06325912448994,19.062224060268584,Acute otitis media,Acute otitis media,True,True
+ddx_test_0041136,panel,Acute otitis media,True,-10.725420072671781,-13.532436966893087,2.807016894221306,Acute COPD exacerbation / infection,Croup,False,False
+ddx_test_0027885,append,Pancreatic neoplasm,True,-5.89311909672432,-24.76566278912506,18.87254369240074,Bronchiolitis,Pancreatic neoplasm,False,True
+ddx_test_0027885,panel,Pancreatic neoplasm,True,-19.98444306848136,-26.75001323221783,6.76557016373647,Acute COPD exacerbation / infection,GERD,False,False
+ddx_test_0134351,append,Viral pharyngitis,True,-8.563541769978421,-17.828137278555403,9.264595508576981,Acute rhinosinusitis,GERD,False,False
+ddx_test_0134351,panel,Viral pharyngitis,True,-16.40627181529635,-23.015635609613298,6.609363794316948,Acute COPD exacerbation / infection,Panic attack,False,False
+ddx_test_0064225,append,Acute pulmonary edema,True,-8.737730842511837e-05,-7.969259738867365,7.96917236155894,Acute pulmonary edema,Acute pulmonary edema,True,True
+ddx_test_0064225,panel,Acute pulmonary edema,True,-1.1189206837863566,-7.032297849652387,5.913377165866031,Acute COPD exacerbation / infection,Pulmonary embolism,False,False
+ddx_test_0060159,append,Acute dystonic reactions,True,-0.6555941031451695,-15.411867616798979,14.75627351365381,Acute dystonic reactions,Acute dystonic reactions,True,True
+ddx_test_0060159,panel,Acute dystonic reactions,True,-9.8653014883498,-15.079100249591406,5.2137987612416055,Acute pulmonary edema,Panic attack,False,False
+ddx_test_0062355,append,Acute dystonic reactions,True,-0.09188376016981437,-15.105209587504184,15.01332582733437,Acute dystonic reactions,Acute dystonic reactions,True,True
+ddx_test_0062355,panel,Acute dystonic reactions,True,-9.471079110028299,-15.079116223596188,5.608037113567889,Acute pulmonary edema,Panic attack,False,False
+ddx_test_0084538,append,Inguinal hernia,True,-11.142912238823612,-28.67189514635365,17.528982907530036,Localized edema,Localized edema,False,False
+ddx_test_0084538,panel,Inguinal hernia,True,-15.204528360130098,-24.476504087252636,9.271975727122538,Acute pulmonary edema,Acute laryngitis,False,False
+ddx_test_0045887,append,URTI,True,-14.037184148094639,-29.252298949052943,15.215114800958304,Acute rhinosinusitis,URTI,False,True
+ddx_test_0045887,panel,URTI,True,-29.565861481997672,-33.609795244176894,4.043933762179222,Acute COPD exacerbation / infection,Croup,False,False

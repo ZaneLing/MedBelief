@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_03631",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Discoid lupus erythematosus (DLE\")\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 13,
+      "prompt_sha256": "f53af13b6966a0cd4da863ddbcaa8a08987f7b5e3751225480807c5325313b92"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Discoid lupus erythematosus (DLE\")\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 13,
+      "prompt_sha256": "3f6c48ddeb20ad35ebf3c785a8313f5fe1f5345d57ad99753dfdd3a18fe91a02"
+    }
+  ]
+}

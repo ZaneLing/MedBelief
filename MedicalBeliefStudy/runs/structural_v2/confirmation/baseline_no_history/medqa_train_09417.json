@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_09417",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Deep vein thrombosis\"}",
+      "generated_disease": "Deep vein thrombosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "fa40c7418ab12c259b933478dfe5c7f1c0321d354785fe624765c1a36b9e0066"
+    }
+  ]
+}

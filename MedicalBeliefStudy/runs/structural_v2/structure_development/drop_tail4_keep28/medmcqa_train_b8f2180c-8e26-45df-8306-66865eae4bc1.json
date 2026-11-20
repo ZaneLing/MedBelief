@@ -1,0 +1,40 @@
+{
+  "case_id": "medmcqa_train_b8f2180c-8e26-45df-8306-66865eae4bc1",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "drop_tail4_keep28",
+    "drop_blocks": [
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1519230976,
+    "weight_bytes": 3038461952,
+    "layers": 24
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Hypervlastic lymphoid tissue\"}９}// $\r\n\r\n    \r\n\r\n    \r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "4bae404af9947d756526f0791b282d6cd358df65d4f87a3af06d4e3c47be1dac"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Fibularized fibularized fibularized fibularized\"\"\". 注意这里的输出可能是格式化的例子错误，请用户提供更多信息后再进行正确判断。,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "4e4b6a6cefc9f8d108ee5d0543c005fa06f8cdad879bd2bf2320c955176d46ca"
+    }
+  ]
+}

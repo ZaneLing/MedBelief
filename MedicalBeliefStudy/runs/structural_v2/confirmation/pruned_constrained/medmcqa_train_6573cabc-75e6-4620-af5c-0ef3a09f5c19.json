@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_6573cabc-75e6-4620-af5c-0ef3a09f5c19",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Duodenal ulcer\"}",
+      "generated_disease": "Duodenal ulcer",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "6dd5d297a3766fc4714e2f963c84b82e84ccc56997442c4c8584304bb2993d66"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Ca colon\"}",
+      "generated_disease": "Ca colon",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "8becb56cd666e0f1b7ab9366b3f175bb5b55f8f0b682298c159b51ce183414eb"
+    }
+  ]
+}

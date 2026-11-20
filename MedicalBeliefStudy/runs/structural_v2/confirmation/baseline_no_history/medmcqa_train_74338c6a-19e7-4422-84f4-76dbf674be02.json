@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_74338c6a-19e7-4422-84f4-76dbf674be02",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Corkscrew esophagus\"}",
+      "generated_disease": "Corkscrew esophagus",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "92e6fe9de4d7e34cb20988324c396b385ff3f516a66e6462e8ddb0dd3e9df4cf"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "case_id": "medqa_train_05094",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_half",
+    "mlp_scale": 0.5,
+    "scale_layers": [
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Cauda equina syndrome\"}",
+      "generated_disease": "Cauda equina syndrome",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "ec125b1a6569edfc503c984bf4667994c0c4ea86c3984b1fa6eeee62252bdb8b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Brown-sequard syndrome\"}",
+      "generated_disease": "Brown-sequard syndrome",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "b045e79863cbb541778d7d8f2af53b89ad4bd2d111f6bb03d24039d10f2a4be9"
+    }
+  ]
+}

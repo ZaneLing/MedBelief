@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_474e2663-d46d-4d54-b83d-e73f4777b09e",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic longening of an unilinearity of an unisiformy of an unisiformy of an unisolpiformes of an universalis entios an universalize an universalize an universalize aentos an universalize an universalize an universalize",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "f803a1060e022741ad58b64f4cfb1931316700a0dbe9108eb97a92579c21faa3"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "I'm sorry but I cannot conclusyse a specific granarivalausen without additional information. Please complete the information or consult consultserventurreplententotemphinalenmeungilensigroupings\"} --Note: This is an example placeholder for an actual real-world scenario where specific",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "8b6fa520eff74b0d06480942085b66cceb54de77e7f48000e92488e60ded90cf"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "case_id": "medqa_train_08326",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "drop_tail4_keep28",
+    "drop_blocks": [
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1519230976,
+    "weight_bytes": 3038461952,
+    "layers": 24
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "A8\"}９:[[NSBundle mainBundle].getLocalizedString(@\"A8\")}//!\";\r\n\r\n    \r\n\r\n    \r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n\r\n    \r\n    \r\n\r\n",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "4f182684ce4d91f0b764f77ebfce004020cd3b4f7994a38f665e67470292bf44"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "A8\"}﻿﻿﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ ﻿",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "272f61cd1482dac7e26f0b32baac0973b6aa49e4e5829f4038e7d05290ac749b"
+    }
+  ]
+}

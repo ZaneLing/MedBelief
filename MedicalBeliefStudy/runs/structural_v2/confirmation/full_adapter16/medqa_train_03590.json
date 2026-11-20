@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_03590",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Aortic dissection\"}",
+      "generated_disease": "Aortic dissection",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "800b898e1bc5431d633f14ce5aa8b5d12333a42101111325ecc650c924bddaae"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Aortic dissection\"}",
+      "generated_disease": "Aortic dissection",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "81760c57f10ae8cb5c6c881a953fe3dc86bffc48d286b93dd6acb983a75fd00e"
+    }
+  ]
+}

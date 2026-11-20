@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_8d747f94-fa97-4ab8-9f19-e0087c503392",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Glycogen storage diseases\"}",
+      "generated_disease": "Glycogen storage diseases",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "e9125fa9ca361ed4e405601dcbb6982a67fb43fee66d9add61bf8444e215d8d1"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Glycogen storage diseases\"}",
+      "generated_disease": "Glycogen storage diseases",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "122c74c12057c129bffac48b06354d5093b3b8ee93b9b92ed1df65071e438191"
+    }
+  ]
+}

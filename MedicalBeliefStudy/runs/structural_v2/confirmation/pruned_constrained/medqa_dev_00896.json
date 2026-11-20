@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_dev_00896",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Breast feeding jaundice\"}",
+      "generated_disease": "Breast feeding jaundice",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "84bd4a8f3b6009ac013825515b3dc8d7ec76939a6fb445bcbd90767585ebcfe3"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Breast feeding jaundice\"}",
+      "generated_disease": "Breast feeding jaundice",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "fd08fef100b8735a8a5420c8fee44712d9f30a8bf46ad89a82f34024650d0c37"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_02818",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Wilms' tumor\"}",
+      "generated_disease": "Wilms' tumor",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "d69886be322e2afa9c0ff6eecd52ad0bfd58a9e96a29653e27266e95fe430f95"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Neuroblastoma\"}",
+      "generated_disease": "Neuroblastoma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "5ad7ce0eb03588806faea8b3d5e78b50b7c083d73d245e1a46da5b4a558cbd4f"
+    }
+  ]
+}

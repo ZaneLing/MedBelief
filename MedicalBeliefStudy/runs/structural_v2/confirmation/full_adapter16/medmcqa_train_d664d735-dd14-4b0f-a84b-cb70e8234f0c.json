@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_d664d735-dd14-4b0f-a84b-cb70e8234f0c",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Ehrlichiosis\"}",
+      "generated_disease": "Ehrlichiosis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "5c5583dc8db6e4d05fe221475d710bb34754638a019acf08f698a5a4569e77c4"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Lyme disease\"}",
+      "generated_disease": "Lyme disease",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "37852b86c5f2c0b8aa882167bea165411007fc861f6c941d94b832f719c07ff7"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_04175",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Ehememarlung syndrome\"}",
+      "generated_disease": "Ehememarlung syndrome",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "9f017017e76581ee18e2680f4ae36bd32c0cc867ab6fe611041955a7aad743b2"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Ehememaragintosogaripohemototemphilenservicentericenterickeplenservicenterickeplenservinaliacchiemotolentecurephilaxiaidservinalenhymososarumarapostaricov",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "092cc6bf5d44bb4944e9019b4029765b4eaddc04c37038e0cf20b974599fefb2"
+    }
+  ]
+}

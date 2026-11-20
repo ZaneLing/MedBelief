@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_d6bb3a72-622f-47fa-a7d8-dd439dae5b27",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "ulnar nerve injury\"}",
+      "generated_disease": "ulnar nerve injury",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "e019db9a2b52c164fa79a10b1e67c7dad6bc177525df3f6303bfc173dbbcc202"
+    }
+  ]
+}

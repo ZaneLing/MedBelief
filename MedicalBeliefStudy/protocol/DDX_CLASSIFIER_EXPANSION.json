@@ -1,0 +1,14 @@
+{
+  "date_local": "2026-11-19",
+  "purpose": "Expand question-only classification from selected 120 cases / 24 diseases to all 49 diseases and the entire official test split.",
+  "seed": 20261119,
+  "training": "Nested uniform reservoir samples from official train.csv, up to 500 cases per disease; no age or evidence-count exclusions. Also retain the frozen old 120-case model as a separate 24-class experiment.",
+  "test": "All official test.csv rows, with separate metrics excluding exact training fact sets and excluding seen question inventories. Previously analyzed test IDs flagged.",
+  "learning_curve_per_class": [5, 20, 100, 500],
+  "model": "RidgeClassifier(alpha=1, solver=lsqr); vocabulary and TF-IDF fitted on training only. No hyperparameter search on test.",
+  "primary_views": ["questions_only", "evidence_presence", "evidence_values"],
+  "controls": ["one training-label shuffle", "fixed identical question panel", "symptoms only", "history only", "exact disease-name wording removed", "random 25/50/75 percent evidence deletion"],
+  "audits": ["cross-split exact fact duplicates ignoring demographics", "question inventory overlap", "within-test conflicting labels under identical question inventory", "per-disease recall and macro metrics", "per-case predictions", "input and code hashes"],
+  "interpretation": "Same-generator generalization, not external clinical validation. Presence of a binary evidence in raw EVIDENCES already implies a positive finding. Test-set inventory purity is a descriptive finite-sample ceiling, not estimated out-of-sample accuracy. Dropping evidence is a synthetic missingness stress test, not a simulated clinical interview.",
+  "cost": "Local CPU only; no paid API or large language model calls."
+}

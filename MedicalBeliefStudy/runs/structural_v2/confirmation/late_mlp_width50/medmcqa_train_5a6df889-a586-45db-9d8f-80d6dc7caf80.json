@@ -1,0 +1,49 @@
+{
+  "case_id": "medmcqa_train_5a6df889-a586-45db-9d8f-80d6dc7caf80",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "RMSF\"}",
+      "generated_disease": "RMSF",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "fc9bbe9c5a4f831e6a7ee89f2a01a809c7ffe8e811325b8d92c0a5809a714618"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "RMSF\"}",
+      "generated_disease": "RMSF",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "c84abc97e56f71e788070054c9830b3545142bece3fa205264c9fdfa92e3a4f3"
+    }
+  ]
+}

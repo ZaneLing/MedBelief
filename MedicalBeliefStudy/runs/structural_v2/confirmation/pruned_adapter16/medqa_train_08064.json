@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_08064",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Zenker's diverticulum\"}",
+      "generated_disease": "Zenker's diverticulum",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "ea21074020aa831ac673a555a010d63b8a5e46d690ae1fb9982cd60578c49793"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Zenker's diverticulum\"}",
+      "generated_disease": "Zenker's diverticulum",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "ba0d6fe94346a9d508135a1ed7ffb039f700f130f1905c02aba423f1812a15e4"
+    }
+  ]
+}

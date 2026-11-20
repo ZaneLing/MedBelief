@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_e334bea4-d412-459f-8c01-d8b391102dc9",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Idiopathic hirsutism\"}",
+      "generated_disease": "Idiopathic hirsutism",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "ff20ea05a9d6e30b4965969f900a1dbbf3d0471f08e9751d1bab2fec667069d9"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Idiopathic hirsutism\"}",
+      "generated_disease": "Idiopathic hirsutism",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "5f16e6789469d376af7dd6870b432902784ee38a2afc5591eaefa40f6f07e4a9"
+    }
+  ]
+}

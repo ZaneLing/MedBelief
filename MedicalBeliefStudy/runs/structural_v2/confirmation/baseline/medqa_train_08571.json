@@ -1,0 +1,34 @@
+{
+  "case_id": "medqa_train_08571",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Gender nonconformity\"}",
+      "generated_disease": "Gender nonconformity",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "5992b07ee31a9472122170931bcf8c1b4927f7ddee9f4520fd01fa117270d4b3"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Gender dysphoria\"}",
+      "generated_disease": "Gender dysphoria",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "905cf8647bb8e74ae36accfd4b115b02123f57865195302ff2a85fbf171d148a"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_02549",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Schizophreniform disorder\"}",
+      "generated_disease": "Schizophreniform disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "27e5c3831d367f80db32f6dc125eceec9f195a3a89758096b396d4fbce111dbf"
+    }
+  ]
+}

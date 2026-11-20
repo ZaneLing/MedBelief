@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_02981",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Spinal muscular atrophy type I disease\"}",
+      "generated_disease": "Spinal muscular atrophy type I disease",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "76fa54834f37bc8252c88beba1502fb8186f44405e1db2401d0f2db754e8d14f"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Spinal muscular atrophy type I disease\"}",
+      "generated_disease": "Spinal muscular atrophy type I disease",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "bba6acbba19238fdc69dda072ce2d417a33a7337d88e00ccdffda650b3959313"
+    }
+  ]
+}

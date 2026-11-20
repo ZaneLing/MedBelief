@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_05962",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Endometriosis\"}",
+      "generated_disease": "Endometriosis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "eec1d8838059645acde200751f44df5673b9a122e44f80795b04a262a27b5f06"
+    }
+  ]
+}

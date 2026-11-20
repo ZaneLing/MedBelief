@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_de55860c-a5ad-4865-a693-047866e32317",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Acute dystomomocystosis\"}",
+      "generated_disease": "Acute dystomomocystosis",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "77ca263ae97f0f01048a8c5579d6abbb0cc67c593e688c5dbc3d8021943aa5ed"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Acute dystomomocystosis\"}",
+      "generated_disease": "Acute dystomomocystosis",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "faa184e97863a2cf4121679571ad06b6e7dc25eef0092fa0d3b9e748258ed123"
+    }
+  ]
+}

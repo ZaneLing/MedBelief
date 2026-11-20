@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_f31a0090-5a35-413a-9064-f8d5001fc5bf",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Peach vein syndrome\"}",
+      "generated_disease": "Peach vein syndrome",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "388a917ec519387d7a6f8e93974dfc1674b3e77e3c2bf3c7d58e1abe9435816a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Ehemilmonary bron lung disease\"}",
+      "generated_disease": "Ehemilmonary bron lung disease",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "3cce6c246486975731ec7748e7af4d3770ac13a5ba90bb34411e10921b5fbda5"
+    }
+  ]
+}

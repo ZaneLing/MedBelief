@@ -1,0 +1,4 @@
+Independent rule: {'n': 132448, 'unique': 122408, 'true_included': 132448} certificates: {'test': 124397, 'validate': 122408}
+Challenge without rhinosinusitis: {'test': {'n': 225, 'presence_accuracy': 0.48444444444444446, 'values_accuracy': 0.8088888888888889}, 'validate': {'n': 220, 'presence_accuracy': 0.4681818181818182, 'values_accuracy': 0.7681818181818182}}
+Cached LLM: {'Qwen3-1.7B-FP16': {'n': 120, 'gold_correct': 44, 'matches_reference_top': 37, 'prediction_in_reference': 62, 'prediction_incompatible_with_catalog': 76, 'wrong': 76, 'wrong_but_in_reference': 18, 'wrong_and_matches_reference_top': 2, 'codebook_singleton': 115}, 'Qwen3-4B-8bit': {'n': 120, 'gold_correct': 75, 'matches_reference_top': 66, 'prediction_in_reference': 97, 'prediction_incompatible_with_catalog': 41, 'wrong': 45, 'wrong_but_in_reference': 22, 'wrong_and_matches_reference_top': 10, 'codebook_singleton': 115}}
+No exclusive evidence support {'n': 134529, 'unique': 111235}

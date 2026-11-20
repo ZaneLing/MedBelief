@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_04689",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Hysmomolosis\"}",
+      "generated_disease": "Hysmomolosis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "1eb4c6845b462cc2eb33a7b7a7dae533d6c02a0339579adfe9b3f5a3f4044152"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocococosis\"}",
+      "generated_disease": "Cystocococosis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "7df0bbb81472e5bc6f9f9b47a00342039e1b117108ccfc6be05bf8925612981f"
+    }
+  ]
+}

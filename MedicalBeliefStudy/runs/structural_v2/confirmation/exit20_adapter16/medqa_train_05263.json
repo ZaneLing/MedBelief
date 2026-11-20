@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_05263",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Eplystechsystnysturacnysdigemphnysolvememphilacovemphesparicovemphesparovemphesparwemphemphesphilaxenemphesphilaxenemphservtualmserv",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "d8b83445c8fb5fa8d172c80dd3f6e3d58577775bf52efd977dc1e0a241a3c6c9"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pypnrrnwnnnserventiahserventecualenemnysolvemmezualservenemphesparacotemphesphilacintemphesphilaxenemphesphilaxenemphesphilaxenemph",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "8dff1daa7c4e29bbb29ff9809ad80b25011f21d3fcd5c42d2e88469235be2b2e"
+    }
+  ]
+}

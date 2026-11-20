@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_06987",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_constrained",
+    "exit_layer": 20,
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Buerger's disease\"}",
+      "generated_disease": "Buerger's disease",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "5370e6a2ead867ef3d2381f4ac7ed34e27ce09b622bcd419b74d25ec6a6f823a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Buerger's disease\"}",
+      "generated_disease": "Buerger's disease",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ead38292ec0ce3930211eede5dfaad8ad35d655e3ca5936a587faf28720b99bf"
+    }
+  ]
+}

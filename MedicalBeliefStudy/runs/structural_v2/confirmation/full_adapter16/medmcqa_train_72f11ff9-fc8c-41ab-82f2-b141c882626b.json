@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_72f11ff9-fc8c-41ab-82f2-b141c882626b",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "21 hydroxylase deficiency\"}",
+      "generated_disease": "21 hydroxylase deficiency",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "9b8a1244063eea3f1312430e0646b929be75c5987c3414ea90f4352f81d4fe8d"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "17, 20 lyase deficiency\"}",
+      "generated_disease": "17, 20 lyase deficiency",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "5d6e1e87aed85bb9ac7ea462d9c72e6f010049c1e8cb433918c2044ef69d68db"
+    }
+  ]
+}

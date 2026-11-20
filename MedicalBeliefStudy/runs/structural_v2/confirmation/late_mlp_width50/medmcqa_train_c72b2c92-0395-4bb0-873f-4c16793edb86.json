@@ -1,0 +1,49 @@
+{
+  "case_id": "medmcqa_train_c72b2c92-0395-4bb0-873f-4c16793edb86",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Caput succedaneum\"}",
+      "generated_disease": "Caput succedaneum",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "3d339f74b91452a2ef82cf06dbf8f244ce1ae9bf3e4eb63e7752903372ee806a"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Caput succedaneum\"}",
+      "generated_disease": "Caput succedaneum",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "2581c738d5ebe20ee7edd62e5a8ab7a640f10d22ea466a510d51a412b9806892"
+    }
+  ]
+}

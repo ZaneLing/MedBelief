@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_dev_00671",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chizgalonycosignatoryiauracovemphuracovememphilenturacinaleratorzetaflightypicalmentealingemenservicovemphesparovemphesparovemphesphiligenservemphesphilenservem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "cec2cb2a970697f35e9324f8f1dabc4c14618128e1d38ef65ba5503f28888310"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pneumatic bladder disease\"}",
+      "generated_disease": "Pneumatic bladder disease",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "e0db7a66acd91a60124868ee44bc4d3d80fc528b686102709e5ae8ed9f44e453"
+    }
+  ]
+}

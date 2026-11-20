@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_01164",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_constrained",
+    "exit_layer": 20,
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Cocaine intoxication\"}",
+      "generated_disease": "Cocaine intoxication",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "cf8e594d17a82a8b3bdd1100221c0e59b6e998cf11e1c23a0cf13f4ee9681877"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Cocaine intoxication\"}",
+      "generated_disease": "Cocaine intoxication",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "533c69e70eeb627795a373a1e010b2c412f6f9d6bd7ed8a3eef0a9fca4d4c46c"
+    }
+  ]
+}

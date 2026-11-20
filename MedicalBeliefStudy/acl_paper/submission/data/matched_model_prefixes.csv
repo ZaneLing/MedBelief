@@ -1,0 +1,417 @@
+case_id,model,round,gold,native49_top,gold_support,last_layer_probe_top,gold_last_layer_rank
+ddx_test_0042118,1.7B FP16,0,Bronchitis,Acute COPD exacerbation / infection,1.702824699348662e-12,Bronchitis,1
+ddx_test_0042118,1.7B FP16,1,Bronchitis,Acute rhinosinusitis,2.6760076676871272e-09,Acute otitis media,4
+ddx_test_0042118,1.7B FP16,2,Bronchitis,Bronchiolitis,2.777245117658524e-06,Bronchospasm / acute asthma exacerbation,2
+ddx_test_0042118,1.7B FP16,3,Bronchitis,Bronchospasm / acute asthma exacerbation,1.4634391323066373e-06,Bronchitis,1
+ddx_test_0042118,1.7B FP16,4,Bronchitis,Bronchospasm / acute asthma exacerbation,7.4099419750452285e-06,Bronchitis,1
+ddx_test_0042118,1.7B FP16,5,Bronchitis,Bronchospasm / acute asthma exacerbation,1.6418155341381194e-06,Bronchitis,1
+ddx_test_0042118,1.7B FP16,6,Bronchitis,Bronchospasm / acute asthma exacerbation,3.1915517241039775e-07,Bronchospasm / acute asthma exacerbation,2
+ddx_test_0042118,1.7B FP16,7,Bronchitis,Acute COPD exacerbation / infection,4.151265200960135e-07,Bronchitis,1
+ddx_test_0042118,1.7B FP16,8,Bronchitis,Acute COPD exacerbation / infection,7.730011765789554e-08,Bronchitis,1
+ddx_test_0042118,4B 8-bit,0,Bronchitis,Acute rhinosinusitis,0.0005991033578907717,URTI,2
+ddx_test_0042118,4B 8-bit,1,Bronchitis,Acute rhinosinusitis,9.586504278691151e-05,URTI,5
+ddx_test_0042118,4B 8-bit,2,Bronchitis,Bronchitis,0.9917968912843889,Bronchospasm / acute asthma exacerbation,2
+ddx_test_0042118,4B 8-bit,3,Bronchitis,Bronchitis,0.9326853268042007,Bronchospasm / acute asthma exacerbation,3
+ddx_test_0042118,4B 8-bit,4,Bronchitis,Bronchitis,0.9667913345739472,Bronchitis,1
+ddx_test_0042118,4B 8-bit,5,Bronchitis,Acute COPD exacerbation / infection,0.008575719627657049,Bronchitis,1
+ddx_test_0042118,4B 8-bit,6,Bronchitis,Acute COPD exacerbation / infection,0.009125311041369068,Bronchitis,1
+ddx_test_0042118,4B 8-bit,7,Bronchitis,Acute COPD exacerbation / infection,4.7566890229381414e-05,Bronchitis,1
+ddx_test_0042118,4B 8-bit,8,Bronchitis,Acute COPD exacerbation / infection,0.0001739795384889825,Bronchitis,1
+ddx_test_0032489,1.7B FP16,0,Acute dystonic reactions,Acute laryngitis,0.027682547611621575,Acute dystonic reactions,1
+ddx_test_0032489,1.7B FP16,1,Acute dystonic reactions,Acute laryngitis,0.05785270490760778,Acute dystonic reactions,1
+ddx_test_0032489,1.7B FP16,2,Acute dystonic reactions,Acute laryngitis,0.032561621668658586,Acute dystonic reactions,1
+ddx_test_0032489,1.7B FP16,3,Acute dystonic reactions,Acute laryngitis,0.04753618500285809,Acute dystonic reactions,1
+ddx_test_0032489,1.7B FP16,4,Acute dystonic reactions,Acute laryngitis,0.015883462242621854,Acute dystonic reactions,1
+ddx_test_0032489,1.7B FP16,5,Acute dystonic reactions,Acute laryngitis,0.1095441323686358,Acute dystonic reactions,1
+ddx_test_0032489,1.7B FP16,6,Acute dystonic reactions,Acute laryngitis,0.012700051292645745,Acute dystonic reactions,1
+ddx_test_0032489,1.7B FP16,7,Acute dystonic reactions,Acute laryngitis,0.0977480078181042,Acute dystonic reactions,1
+ddx_test_0032489,4B 8-bit,0,Acute dystonic reactions,Acute otitis media,1.160871859855202e-05,URTI,2
+ddx_test_0032489,4B 8-bit,1,Acute dystonic reactions,Acute otitis media,1.532936335329158e-07,Acute dystonic reactions,1
+ddx_test_0032489,4B 8-bit,2,Acute dystonic reactions,Acute laryngitis,0.00125252278310897,Myasthenia gravis,2
+ddx_test_0032489,4B 8-bit,3,Acute dystonic reactions,Acute laryngitis,0.0009392124852198808,Myasthenia gravis,2
+ddx_test_0032489,4B 8-bit,4,Acute dystonic reactions,Panic attack,7.933219959254529e-06,Acute dystonic reactions,1
+ddx_test_0032489,4B 8-bit,5,Acute dystonic reactions,Panic attack,0.0004342306796449992,Acute dystonic reactions,1
+ddx_test_0032489,4B 8-bit,6,Acute dystonic reactions,Panic attack,4.319672805722762e-05,Acute dystonic reactions,1
+ddx_test_0032489,4B 8-bit,7,Acute dystonic reactions,Panic attack,0.0067556372922074484,Acute dystonic reactions,1
+ddx_test_0044249,1.7B FP16,0,Boerhaave,Acute COPD exacerbation / infection,7.9336465966572e-08,GERD,3
+ddx_test_0044249,1.7B FP16,1,Boerhaave,Boerhaave,0.993162273467846,Boerhaave,1
+ddx_test_0044249,1.7B FP16,2,Boerhaave,Acute COPD exacerbation / infection,0.19470471156590713,GERD,2
+ddx_test_0044249,1.7B FP16,3,Boerhaave,GERD,6.594511148099771e-09,GERD,5
+ddx_test_0044249,1.7B FP16,4,Boerhaave,Boerhaave,0.9999999931329064,Boerhaave,1
+ddx_test_0044249,1.7B FP16,5,Boerhaave,Boerhaave,0.999925854444699,GERD,2
+ddx_test_0044249,4B 8-bit,0,Boerhaave,Acute rhinosinusitis,1.1202148556619991e-08,Boerhaave,1
+ddx_test_0044249,4B 8-bit,1,Boerhaave,Acute rhinosinusitis,2.1401649687589302e-10,URTI,2
+ddx_test_0044249,4B 8-bit,2,Boerhaave,Acute rhinosinusitis,1.2973659100973047e-10,URTI,2
+ddx_test_0044249,4B 8-bit,3,Boerhaave,Acute rhinosinusitis,1.8766506181589842e-09,Boerhaave,1
+ddx_test_0044249,4B 8-bit,4,Boerhaave,Pneumonia,1.80689176982139e-09,Boerhaave,1
+ddx_test_0044249,4B 8-bit,5,Boerhaave,Pulmonary embolism,4.0849894452821183e-07,Boerhaave,1
+ddx_test_0101113,1.7B FP16,0,Spontaneous pneumothorax,Acute pulmonary edema,9.942252470407503e-05,Pericarditis,6
+ddx_test_0101113,1.7B FP16,1,Spontaneous pneumothorax,Spontaneous pneumothorax,0.9999999494069783,Spontaneous pneumothorax,1
+ddx_test_0101113,1.7B FP16,2,Spontaneous pneumothorax,Spontaneous pneumothorax,0.9993784374705537,Spontaneous pneumothorax,1
+ddx_test_0101113,1.7B FP16,3,Spontaneous pneumothorax,Spontaneous pneumothorax,0.9993814212088868,Spontaneous pneumothorax,1
+ddx_test_0101113,1.7B FP16,4,Spontaneous pneumothorax,Spontaneous pneumothorax,0.9999170891255006,Spontaneous pneumothorax,1
+ddx_test_0101113,1.7B FP16,5,Spontaneous pneumothorax,Spontaneous pneumothorax,0.9999951797246744,Spontaneous pneumothorax,1
+ddx_test_0101113,4B 8-bit,0,Spontaneous pneumothorax,Pericarditis,5.056397213347376e-10,Pericarditis,11
+ddx_test_0101113,4B 8-bit,1,Spontaneous pneumothorax,Spontaneous pneumothorax,0.9969474221388714,Spontaneous pneumothorax,1
+ddx_test_0101113,4B 8-bit,2,Spontaneous pneumothorax,Spontaneous pneumothorax,0.9996647120298081,Spontaneous pneumothorax,1
+ddx_test_0101113,4B 8-bit,3,Spontaneous pneumothorax,Spontaneous pneumothorax,0.9999611811199062,Spontaneous pneumothorax,1
+ddx_test_0101113,4B 8-bit,4,Spontaneous pneumothorax,Spontaneous pneumothorax,0.9999901838238365,Spontaneous pneumothorax,1
+ddx_test_0101113,4B 8-bit,5,Spontaneous pneumothorax,Spontaneous pneumothorax,0.9978883007366449,Spontaneous pneumothorax,1
+ddx_test_0079685,1.7B FP16,0,Guillain-Barré syndrome,Acute COPD exacerbation / infection,9.373663890885993e-11,Bronchitis,3
+ddx_test_0079685,1.7B FP16,1,Guillain-Barré syndrome,Acute rhinosinusitis,2.324515364575965e-09,Guillain-Barré syndrome,1
+ddx_test_0079685,1.7B FP16,2,Guillain-Barré syndrome,Acute rhinosinusitis,0.013855633949614256,Guillain-Barré syndrome,1
+ddx_test_0079685,1.7B FP16,3,Guillain-Barré syndrome,Myasthenia gravis,0.0014818032445670462,Guillain-Barré syndrome,1
+ddx_test_0079685,1.7B FP16,4,Guillain-Barré syndrome,Acute rhinosinusitis,4.7485763151813255e-06,Guillain-Barré syndrome,1
+ddx_test_0079685,1.7B FP16,5,Guillain-Barré syndrome,Acute rhinosinusitis,0.0008096520545837941,Guillain-Barré syndrome,1
+ddx_test_0079685,1.7B FP16,6,Guillain-Barré syndrome,Acute COPD exacerbation / infection,0.05256690492723355,Guillain-Barré syndrome,1
+ddx_test_0079685,1.7B FP16,7,Guillain-Barré syndrome,Guillain-Barré syndrome,0.40965550363365594,Guillain-Barré syndrome,1
+ddx_test_0079685,4B 8-bit,0,Guillain-Barré syndrome,Guillain-Barré syndrome,0.9914116756845759,Guillain-Barré syndrome,1
+ddx_test_0079685,4B 8-bit,1,Guillain-Barré syndrome,Guillain-Barré syndrome,0.5497861032907748,Myasthenia gravis,2
+ddx_test_0079685,4B 8-bit,2,Guillain-Barré syndrome,Guillain-Barré syndrome,0.9999999236039704,Guillain-Barré syndrome,1
+ddx_test_0079685,4B 8-bit,3,Guillain-Barré syndrome,Guillain-Barré syndrome,0.9999999948691602,Guillain-Barré syndrome,1
+ddx_test_0079685,4B 8-bit,4,Guillain-Barré syndrome,Guillain-Barré syndrome,0.9999997946685859,Guillain-Barré syndrome,1
+ddx_test_0079685,4B 8-bit,5,Guillain-Barré syndrome,Guillain-Barré syndrome,0.999999999902051,Guillain-Barré syndrome,1
+ddx_test_0079685,4B 8-bit,6,Guillain-Barré syndrome,Guillain-Barré syndrome,0.9999999998401727,Guillain-Barré syndrome,1
+ddx_test_0079685,4B 8-bit,7,Guillain-Barré syndrome,Guillain-Barré syndrome,0.9999999996836408,Guillain-Barré syndrome,1
+ddx_test_0067994,1.7B FP16,0,Bronchitis,Acute pulmonary edema,1.2983907594261564e-18,Acute pulmonary edema,4
+ddx_test_0067994,1.7B FP16,1,Bronchitis,Acute COPD exacerbation / infection,6.504403531672478e-16,Bronchitis,1
+ddx_test_0067994,1.7B FP16,2,Bronchitis,Acute COPD exacerbation / infection,1.9156945181241222e-16,Bronchitis,1
+ddx_test_0067994,1.7B FP16,3,Bronchitis,Acute COPD exacerbation / infection,9.480597018294252e-15,Bronchitis,1
+ddx_test_0067994,1.7B FP16,4,Bronchitis,Acute COPD exacerbation / infection,9.841792016879554e-16,Bronchitis,1
+ddx_test_0067994,1.7B FP16,5,Bronchitis,Acute COPD exacerbation / infection,2.1485718807382277e-15,Bronchitis,1
+ddx_test_0067994,1.7B FP16,6,Bronchitis,Acute COPD exacerbation / infection,1.4170803877573752e-12,Bronchitis,1
+ddx_test_0067994,1.7B FP16,7,Bronchitis,Acute COPD exacerbation / infection,1.2672200143166144e-11,Bronchitis,1
+ddx_test_0067994,1.7B FP16,8,Bronchitis,Acute COPD exacerbation / infection,6.164031809401844e-15,Bronchitis,1
+ddx_test_0067994,1.7B FP16,9,Bronchitis,Acute COPD exacerbation / infection,1.5504043135880876e-10,Bronchitis,1
+ddx_test_0067994,4B 8-bit,0,Bronchitis,Acute COPD exacerbation / infection,0.003898286011736033,Bronchitis,1
+ddx_test_0067994,4B 8-bit,1,Bronchitis,Acute COPD exacerbation / infection,0.0026079213980768484,Bronchitis,1
+ddx_test_0067994,4B 8-bit,2,Bronchitis,Bronchitis,0.961976879610488,Bronchitis,1
+ddx_test_0067994,4B 8-bit,3,Bronchitis,Acute COPD exacerbation / infection,3.572053393776468e-08,Bronchitis,1
+ddx_test_0067994,4B 8-bit,4,Bronchitis,Acute COPD exacerbation / infection,9.008584557847562e-09,Bronchitis,1
+ddx_test_0067994,4B 8-bit,5,Bronchitis,Acute COPD exacerbation / infection,6.952769877999914e-07,Bronchitis,1
+ddx_test_0067994,4B 8-bit,6,Bronchitis,Pneumonia,2.582960531204614e-06,Bronchitis,1
+ddx_test_0067994,4B 8-bit,7,Bronchitis,Pneumonia,5.0713469875590365e-08,Bronchitis,1
+ddx_test_0067994,4B 8-bit,8,Bronchitis,Acute COPD exacerbation / infection,2.710239343093977e-11,Bronchitis,1
+ddx_test_0067994,4B 8-bit,9,Bronchitis,Acute COPD exacerbation / infection,7.316411500766567e-10,Bronchitis,1
+ddx_test_0037913,1.7B FP16,0,Pericarditis,Boerhaave,5.4080010861541606e-11,Pulmonary embolism,2
+ddx_test_0037913,1.7B FP16,1,Pericarditis,Boerhaave,1.0648721230458081e-11,Pulmonary embolism,2
+ddx_test_0037913,1.7B FP16,2,Pericarditis,Pericarditis,0.9999564073943583,SLE,2
+ddx_test_0037913,1.7B FP16,3,Pericarditis,Acute laryngitis,0.046658753042608,Pericarditis,1
+ddx_test_0037913,1.7B FP16,4,Pericarditis,Boerhaave,1.0262416339606404e-10,Pericarditis,1
+ddx_test_0037913,4B 8-bit,0,Pericarditis,Bronchospasm / acute asthma exacerbation,0.0020238065406546837,Pericarditis,1
+ddx_test_0037913,4B 8-bit,1,Pericarditis,Pneumonia,0.0025453815419518144,Pericarditis,1
+ddx_test_0037913,4B 8-bit,2,Pericarditis,Pericarditis,0.9993736425403549,Pericarditis,1
+ddx_test_0037913,4B 8-bit,3,Pericarditis,Myocarditis,0.025178511630133314,Pericarditis,1
+ddx_test_0037913,4B 8-bit,4,Pericarditis,Myocarditis,0.0013670249377072115,Pericarditis,1
+ddx_test_0017896,1.7B FP16,0,HIV (initial infection),Acute rhinosinusitis,7.968200903271809e-09,URTI,23
+ddx_test_0017896,1.7B FP16,1,HIV (initial infection),Viral pharyngitis,1.7254401797975234e-07,URTI,3
+ddx_test_0017896,1.7B FP16,2,HIV (initial infection),Acute rhinosinusitis,1.7880347199411804e-06,URTI,2
+ddx_test_0017896,1.7B FP16,3,HIV (initial infection),Acute rhinosinusitis,2.119266676035848e-06,URTI,2
+ddx_test_0017896,1.7B FP16,4,HIV (initial infection),Acute rhinosinusitis,3.996855960703632e-07,URTI,2
+ddx_test_0017896,1.7B FP16,5,HIV (initial infection),Acute rhinosinusitis,7.695085990089455e-07,URTI,2
+ddx_test_0017896,1.7B FP16,6,HIV (initial infection),Acute rhinosinusitis,1.2387351396348448e-06,URTI,2
+ddx_test_0017896,1.7B FP16,7,HIV (initial infection),Acute rhinosinusitis,1.4762510487083117e-07,URTI,3
+ddx_test_0017896,1.7B FP16,8,HIV (initial infection),Acute rhinosinusitis,5.844087815394434e-07,URTI,3
+ddx_test_0017896,1.7B FP16,9,HIV (initial infection),Acute rhinosinusitis,5.682692629438677e-06,HIV (initial infection),1
+ddx_test_0017896,1.7B FP16,10,HIV (initial infection),Acute rhinosinusitis,4.529855978350496e-06,HIV (initial infection),1
+ddx_test_0017896,1.7B FP16,11,HIV (initial infection),Acute rhinosinusitis,3.879166288951982e-06,HIV (initial infection),1
+ddx_test_0017896,4B 8-bit,0,HIV (initial infection),Viral pharyngitis,8.533008746523957e-13,Viral pharyngitis,11
+ddx_test_0017896,4B 8-bit,1,HIV (initial infection),Viral pharyngitis,8.604534119932902e-10,Viral pharyngitis,3
+ddx_test_0017896,4B 8-bit,2,HIV (initial infection),Viral pharyngitis,8.39040302095776e-08,SLE,3
+ddx_test_0017896,4B 8-bit,3,HIV (initial infection),Viral pharyngitis,2.2212552564170954e-10,Viral pharyngitis,3
+ddx_test_0017896,4B 8-bit,4,HIV (initial infection),Viral pharyngitis,2.0467731825202622e-09,Viral pharyngitis,3
+ddx_test_0017896,4B 8-bit,5,HIV (initial infection),HIV (initial infection),0.9999997458952901,HIV (initial infection),1
+ddx_test_0017896,4B 8-bit,6,HIV (initial infection),HIV (initial infection),0.99999988092045,HIV (initial infection),1
+ddx_test_0017896,4B 8-bit,7,HIV (initial infection),HIV (initial infection),0.9999997641883444,HIV (initial infection),1
+ddx_test_0017896,4B 8-bit,8,HIV (initial infection),HIV (initial infection),0.9999999863890094,HIV (initial infection),1
+ddx_test_0017896,4B 8-bit,9,HIV (initial infection),HIV (initial infection),0.9999999762022783,HIV (initial infection),1
+ddx_test_0017896,4B 8-bit,10,HIV (initial infection),HIV (initial infection),0.9999999861915467,HIV (initial infection),1
+ddx_test_0017896,4B 8-bit,11,HIV (initial infection),HIV (initial infection),0.9999999969392541,HIV (initial infection),1
+ddx_test_0005881,1.7B FP16,0,Anemia,Acute COPD exacerbation / infection,1.1585894309759177e-10,Bronchitis,11
+ddx_test_0005881,1.7B FP16,1,Anemia,Acute COPD exacerbation / infection,0.006513639161425613,Anemia,1
+ddx_test_0005881,1.7B FP16,2,Anemia,Acute COPD exacerbation / infection,0.08403120546003028,Anemia,1
+ddx_test_0005881,1.7B FP16,3,Anemia,Anemia,0.9982580616516628,Anemia,1
+ddx_test_0005881,1.7B FP16,4,Anemia,Anemia,0.9997673919203635,Anemia,1
+ddx_test_0005881,1.7B FP16,5,Anemia,Anemia,0.9999699619651015,Anemia,1
+ddx_test_0005881,1.7B FP16,6,Anemia,Anemia,0.9992110221120583,Anemia,1
+ddx_test_0005881,1.7B FP16,7,Anemia,Anemia,0.9999176808469336,Anemia,1
+ddx_test_0005881,1.7B FP16,8,Anemia,Anemia,0.9999817137972783,Anemia,1
+ddx_test_0005881,1.7B FP16,9,Anemia,Anemia,0.9449721665359517,Anemia,1
+ddx_test_0005881,1.7B FP16,10,Anemia,Anemia,0.9999545367406444,Anemia,1
+ddx_test_0005881,1.7B FP16,11,Anemia,Anemia,0.8839487895632432,Anemia,1
+ddx_test_0005881,1.7B FP16,12,Anemia,Acute pulmonary edema,0.05154135086889376,Anemia,1
+ddx_test_0005881,1.7B FP16,13,Anemia,Anemia,0.9842766414617773,Anemia,1
+ddx_test_0005881,1.7B FP16,14,Anemia,Anemia,0.9996325171720281,Anemia,1
+ddx_test_0005881,1.7B FP16,15,Anemia,Anemia,0.9875332968310052,Anemia,1
+ddx_test_0005881,4B 8-bit,0,Anemia,Acute rhinosinusitis,2.8603882581983087e-07,Bronchitis,11
+ddx_test_0005881,4B 8-bit,1,Anemia,Pulmonary embolism,0.0005688825460243472,Anemia,1
+ddx_test_0005881,4B 8-bit,2,Anemia,Anemia,0.9999036365263105,Anemia,1
+ddx_test_0005881,4B 8-bit,3,Anemia,Anemia,0.9999999998405111,Anemia,1
+ddx_test_0005881,4B 8-bit,4,Anemia,Anemia,0.9999999999968201,Anemia,1
+ddx_test_0005881,4B 8-bit,5,Anemia,Anemia,0.9999999999966513,Anemia,1
+ddx_test_0005881,4B 8-bit,6,Anemia,Anemia,0.999999999990395,Anemia,1
+ddx_test_0005881,4B 8-bit,7,Anemia,Anemia,0.9999999999893874,Anemia,1
+ddx_test_0005881,4B 8-bit,8,Anemia,Anemia,0.9999999999644775,Anemia,1
+ddx_test_0005881,4B 8-bit,9,Anemia,Anemia,0.9999999999662768,Anemia,1
+ddx_test_0005881,4B 8-bit,10,Anemia,Anemia,0.9999999995227093,Anemia,1
+ddx_test_0005881,4B 8-bit,11,Anemia,Anemia,0.999999999947192,Anemia,1
+ddx_test_0005881,4B 8-bit,12,Anemia,Anemia,0.999999999799102,Anemia,1
+ddx_test_0005881,4B 8-bit,13,Anemia,Anemia,0.9999999979411682,Anemia,1
+ddx_test_0005881,4B 8-bit,14,Anemia,Anemia,0.999999999744497,Anemia,1
+ddx_test_0005881,4B 8-bit,15,Anemia,Anemia,0.9999999998781546,Anemia,1
+ddx_test_0006854,1.7B FP16,0,Anemia,Pulmonary embolism,9.400293370132769e-09,Anemia,1
+ddx_test_0006854,1.7B FP16,1,Anemia,Pulmonary embolism,2.6214485203646012e-08,Anemia,1
+ddx_test_0006854,1.7B FP16,2,Anemia,Pulmonary embolism,3.5544215391939067e-07,Anemia,1
+ddx_test_0006854,1.7B FP16,3,Anemia,Anemia,0.989601033428098,Anemia,1
+ddx_test_0006854,1.7B FP16,4,Anemia,Anemia,0.5456847585592409,Anemia,1
+ddx_test_0006854,1.7B FP16,5,Anemia,Pulmonary embolism,5.130154755777247e-06,Anemia,1
+ddx_test_0006854,1.7B FP16,6,Anemia,Pulmonary embolism,9.090401215579913e-09,Anemia,1
+ddx_test_0006854,1.7B FP16,7,Anemia,Pulmonary embolism,3.240640905392539e-09,Anemia,1
+ddx_test_0006854,1.7B FP16,8,Anemia,Pulmonary embolism,0.012878612726594482,Anemia,1
+ddx_test_0006854,1.7B FP16,9,Anemia,Pulmonary embolism,5.1456259139268026e-08,Anemia,1
+ddx_test_0006854,4B 8-bit,0,Anemia,Pulmonary embolism,0.019095408309258044,Anemia,1
+ddx_test_0006854,4B 8-bit,1,Anemia,Anemia,0.9881364201470114,Anemia,1
+ddx_test_0006854,4B 8-bit,2,Anemia,Pulmonary embolism,0.004149422296480768,Anemia,1
+ddx_test_0006854,4B 8-bit,3,Anemia,Anemia,0.9999999915979588,Anemia,1
+ddx_test_0006854,4B 8-bit,4,Anemia,Anemia,0.9999999997778588,Anemia,1
+ddx_test_0006854,4B 8-bit,5,Anemia,Anemia,0.999965629708154,Anemia,1
+ddx_test_0006854,4B 8-bit,6,Anemia,Anemia,0.9999756643383874,Anemia,1
+ddx_test_0006854,4B 8-bit,7,Anemia,Anemia,0.9999991584861379,Anemia,1
+ddx_test_0006854,4B 8-bit,8,Anemia,Anemia,0.9999999993932158,Anemia,1
+ddx_test_0006854,4B 8-bit,9,Anemia,Anemia,0.9997388000042947,Anemia,1
+ddx_test_0108184,1.7B FP16,0,Guillain-Barré syndrome,Acute COPD exacerbation / infection,2.6935815646102796e-11,Acute dystonic reactions,4
+ddx_test_0108184,1.7B FP16,1,Guillain-Barré syndrome,Acute rhinosinusitis,4.381127534822188e-09,Acute dystonic reactions,2
+ddx_test_0108184,1.7B FP16,2,Guillain-Barré syndrome,Bronchiolitis,2.29434720271633e-09,Guillain-Barré syndrome,1
+ddx_test_0108184,1.7B FP16,3,Guillain-Barré syndrome,Acute pulmonary edema,2.3404703970456806e-08,Guillain-Barré syndrome,1
+ddx_test_0108184,1.7B FP16,4,Guillain-Barré syndrome,Guillain-Barré syndrome,0.4066069396817574,Guillain-Barré syndrome,1
+ddx_test_0108184,1.7B FP16,5,Guillain-Barré syndrome,Guillain-Barré syndrome,0.9965361784011323,Guillain-Barré syndrome,1
+ddx_test_0108184,1.7B FP16,6,Guillain-Barré syndrome,Guillain-Barré syndrome,0.9972595566541228,Guillain-Barré syndrome,1
+ddx_test_0108184,4B 8-bit,0,Guillain-Barré syndrome,Guillain-Barré syndrome,0.46573274378290835,Possible NSTEMI / STEMI,4
+ddx_test_0108184,4B 8-bit,1,Guillain-Barré syndrome,Acute rhinosinusitis,0.15705692177409591,Possible NSTEMI / STEMI,6
+ddx_test_0108184,4B 8-bit,2,Guillain-Barré syndrome,Guillain-Barré syndrome,0.9999954490427415,Guillain-Barré syndrome,1
+ddx_test_0108184,4B 8-bit,3,Guillain-Barré syndrome,Pulmonary embolism,1.292801154701988e-10,Acute pulmonary edema,11
+ddx_test_0108184,4B 8-bit,4,Guillain-Barré syndrome,Guillain-Barré syndrome,0.9740522683895758,Guillain-Barré syndrome,1
+ddx_test_0108184,4B 8-bit,5,Guillain-Barré syndrome,Guillain-Barré syndrome,0.9998232697560641,Guillain-Barré syndrome,1
+ddx_test_0108184,4B 8-bit,6,Guillain-Barré syndrome,Guillain-Barré syndrome,0.9173209980192082,Guillain-Barré syndrome,1
+ddx_test_0110714,1.7B FP16,0,Pulmonary embolism,Acute COPD exacerbation / infection,1.2218957929904083e-05,Bronchitis,22
+ddx_test_0110714,1.7B FP16,1,Pulmonary embolism,Localized edema,2.321218361147821e-09,Acute pulmonary edema,9
+ddx_test_0110714,1.7B FP16,2,Pulmonary embolism,Pulmonary embolism,0.9975063337681648,Anemia,10
+ddx_test_0110714,1.7B FP16,3,Pulmonary embolism,Pulmonary embolism,0.9482539907800546,Acute pulmonary edema,10
+ddx_test_0110714,1.7B FP16,4,Pulmonary embolism,Boerhaave,3.92797023018213e-05,Pulmonary embolism,1
+ddx_test_0110714,1.7B FP16,5,Pulmonary embolism,Pulmonary embolism,0.9713333164665015,Acute pulmonary edema,4
+ddx_test_0110714,1.7B FP16,6,Pulmonary embolism,Boerhaave,0.0026359694428259046,Pulmonary embolism,1
+ddx_test_0110714,1.7B FP16,7,Pulmonary embolism,Pulmonary embolism,0.9253413108364587,Acute pulmonary edema,4
+ddx_test_0110714,1.7B FP16,8,Pulmonary embolism,Localized edema,0.00010197851674489362,Acute pulmonary edema,3
+ddx_test_0110714,4B 8-bit,0,Pulmonary embolism,Acute pulmonary edema,4.6194323724454976e-05,Bronchitis,23
+ddx_test_0110714,4B 8-bit,1,Pulmonary embolism,Localized edema,0.307098633071792,Acute pulmonary edema,2
+ddx_test_0110714,4B 8-bit,2,Pulmonary embolism,Pulmonary embolism,0.9999996786492182,Pulmonary embolism,1
+ddx_test_0110714,4B 8-bit,3,Pulmonary embolism,Pulmonary embolism,0.9999991240965618,Pulmonary embolism,1
+ddx_test_0110714,4B 8-bit,4,Pulmonary embolism,Pulmonary embolism,0.9999974769202006,Pulmonary embolism,1
+ddx_test_0110714,4B 8-bit,5,Pulmonary embolism,Pulmonary embolism,0.9999983708905648,Pulmonary embolism,1
+ddx_test_0110714,4B 8-bit,6,Pulmonary embolism,Pulmonary embolism,0.9999939454492959,Pulmonary embolism,1
+ddx_test_0110714,4B 8-bit,7,Pulmonary embolism,Pulmonary embolism,0.9999917260456218,Pulmonary embolism,1
+ddx_test_0110714,4B 8-bit,8,Pulmonary embolism,Pulmonary embolism,0.9999918586221233,Pulmonary embolism,1
+ddx_test_0061730,1.7B FP16,0,Cluster headache,Cluster headache,0.9718527284200971,Cluster headache,1
+ddx_test_0061730,1.7B FP16,1,Cluster headache,Acute rhinosinusitis,0.001032468056432639,Cluster headache,1
+ddx_test_0061730,1.7B FP16,2,Cluster headache,Acute rhinosinusitis,0.06829215995309063,Cluster headache,1
+ddx_test_0061730,1.7B FP16,3,Cluster headache,Cluster headache,0.7169644727505511,Cluster headache,1
+ddx_test_0061730,1.7B FP16,4,Cluster headache,Cluster headache,0.9999998831069935,Cluster headache,1
+ddx_test_0061730,4B 8-bit,0,Cluster headache,Cluster headache,0.6297761274107059,SLE,2
+ddx_test_0061730,4B 8-bit,1,Cluster headache,Acute rhinosinusitis,0.03567868487936079,SLE,2
+ddx_test_0061730,4B 8-bit,2,Cluster headache,Acute rhinosinusitis,0.004265851554177688,SLE,3
+ddx_test_0061730,4B 8-bit,3,Cluster headache,Acute rhinosinusitis,0.000984998183234241,SLE,3
+ddx_test_0061730,4B 8-bit,4,Cluster headache,Cluster headache,0.9999999999999949,Cluster headache,1
+ddx_test_0077278,1.7B FP16,0,Pericarditis,Acute COPD exacerbation / infection,1.4218786763727009e-11,Bronchitis,3
+ddx_test_0077278,1.7B FP16,1,Pericarditis,Boerhaave,1.4107940440308224e-11,Pulmonary embolism,2
+ddx_test_0077278,1.7B FP16,2,Pericarditis,Bronchospasm / acute asthma exacerbation,3.2032838930269755e-09,Acute dystonic reactions,3
+ddx_test_0077278,1.7B FP16,3,Pericarditis,Pericarditis,0.9999661497382885,SLE,2
+ddx_test_0077278,1.7B FP16,4,Pericarditis,Pericarditis,0.9999990075176861,SLE,2
+ddx_test_0077278,1.7B FP16,5,Pericarditis,Pericarditis,0.9998823262223441,SLE,2
+ddx_test_0077278,1.7B FP16,6,Pericarditis,Pericarditis,0.9999709537605951,Pericarditis,1
+ddx_test_0077278,1.7B FP16,7,Pericarditis,Boerhaave,0.08756319810357019,Pulmonary embolism,2
+ddx_test_0077278,4B 8-bit,0,Pericarditis,Bronchitis,2.12275016019583e-09,Bronchitis,2
+ddx_test_0077278,4B 8-bit,1,Pericarditis,Bronchospasm / acute asthma exacerbation,1.9573265478031215e-07,Pericarditis,1
+ddx_test_0077278,4B 8-bit,2,Pericarditis,Bronchospasm / acute asthma exacerbation,4.785403254709505e-09,Pericarditis,1
+ddx_test_0077278,4B 8-bit,3,Pericarditis,Pericarditis,0.999796565819363,Pericarditis,1
+ddx_test_0077278,4B 8-bit,4,Pericarditis,Pericarditis,0.9974489666329794,Pericarditis,1
+ddx_test_0077278,4B 8-bit,5,Pericarditis,Pericarditis,0.9966231337707726,Pericarditis,1
+ddx_test_0077278,4B 8-bit,6,Pericarditis,Pericarditis,0.8479641272501682,Pericarditis,1
+ddx_test_0077278,4B 8-bit,7,Pericarditis,Pericarditis,0.9124341386307236,Pericarditis,1
+ddx_test_0048692,1.7B FP16,0,Pulmonary embolism,Acute COPD exacerbation / infection,1.2218957929904083e-05,Bronchitis,22
+ddx_test_0048692,1.7B FP16,1,Pulmonary embolism,Acute rhinosinusitis,0.0015786363269712739,Bronchitis,22
+ddx_test_0048692,1.7B FP16,2,Pulmonary embolism,Bronchiolitis,6.554124405395569e-05,Bronchitis,19
+ddx_test_0048692,1.7B FP16,3,Pulmonary embolism,Localized edema,1.7052742366144653e-08,Acute pulmonary edema,8
+ddx_test_0048692,1.7B FP16,4,Pulmonary embolism,Acute pulmonary edema,0.0008810386688322999,Acute pulmonary edema,4
+ddx_test_0048692,1.7B FP16,5,Pulmonary embolism,Localized edema,6.261679537871223e-05,Acute pulmonary edema,4
+ddx_test_0048692,1.7B FP16,6,Pulmonary embolism,Acute pulmonary edema,0.029670070463035315,Spontaneous pneumothorax,4
+ddx_test_0048692,4B 8-bit,0,Pulmonary embolism,Acute pulmonary edema,4.6194323724454976e-05,Bronchitis,23
+ddx_test_0048692,4B 8-bit,1,Pulmonary embolism,Bronchitis,0.0024763316453000127,Bronchitis,22
+ddx_test_0048692,4B 8-bit,2,Pulmonary embolism,Pneumonia,0.0020463157126075636,Pneumonia,4
+ddx_test_0048692,4B 8-bit,3,Pulmonary embolism,Pulmonary embolism,0.9990741555416348,Pulmonary embolism,1
+ddx_test_0048692,4B 8-bit,4,Pulmonary embolism,Pulmonary embolism,0.998351453449335,Pulmonary embolism,1
+ddx_test_0048692,4B 8-bit,5,Pulmonary embolism,Pulmonary embolism,0.9905873536131683,Pulmonary embolism,1
+ddx_test_0048692,4B 8-bit,6,Pulmonary embolism,Pulmonary embolism,0.9999791963823833,Pulmonary embolism,1
+ddx_test_0123136,1.7B FP16,0,GERD,Acute pulmonary edema,0.016073715163165584,Stable angina,5
+ddx_test_0123136,1.7B FP16,1,GERD,GERD,0.9999999994197963,GERD,1
+ddx_test_0123136,1.7B FP16,2,GERD,GERD,0.9999978105979455,GERD,1
+ddx_test_0123136,1.7B FP16,3,GERD,GERD,0.9999971315469087,GERD,1
+ddx_test_0123136,1.7B FP16,4,GERD,GERD,0.8872061112546582,GERD,1
+ddx_test_0123136,1.7B FP16,5,GERD,GERD,0.9196451133576644,GERD,1
+ddx_test_0123136,1.7B FP16,6,GERD,GERD,0.9706887221776072,GERD,1
+ddx_test_0123136,1.7B FP16,7,GERD,GERD,0.9997763705608921,GERD,1
+ddx_test_0123136,1.7B FP16,8,GERD,GERD,0.9977483679672857,GERD,1
+ddx_test_0123136,4B 8-bit,0,GERD,Acute pulmonary edema,4.191877465789074e-05,Pericarditis,4
+ddx_test_0123136,4B 8-bit,1,GERD,GERD,0.9987564704745099,GERD,1
+ddx_test_0123136,4B 8-bit,2,GERD,GERD,0.9999999273506719,GERD,1
+ddx_test_0123136,4B 8-bit,3,GERD,GERD,0.999999963955603,GERD,1
+ddx_test_0123136,4B 8-bit,4,GERD,GERD,0.9999998248573496,GERD,1
+ddx_test_0123136,4B 8-bit,5,GERD,GERD,0.9999999855296222,GERD,1
+ddx_test_0123136,4B 8-bit,6,GERD,GERD,0.9999992400325659,GERD,1
+ddx_test_0123136,4B 8-bit,7,GERD,GERD,0.999999477265645,GERD,1
+ddx_test_0123136,4B 8-bit,8,GERD,GERD,0.9999978537823269,GERD,1
+ddx_test_0041136,1.7B FP16,0,Acute otitis media,Acute laryngitis,5.248311367285613e-06,Cluster headache,2
+ddx_test_0041136,1.7B FP16,1,Acute otitis media,Acute otitis media,0.9999877074171742,Acute otitis media,1
+ddx_test_0041136,1.7B FP16,2,Acute otitis media,Acute otitis media,0.9997655773128664,Acute otitis media,1
+ddx_test_0041136,1.7B FP16,3,Acute otitis media,Acute otitis media,0.9985666940292707,Acute otitis media,1
+ddx_test_0041136,1.7B FP16,4,Acute otitis media,Acute otitis media,0.9995434809411564,Acute otitis media,1
+ddx_test_0041136,1.7B FP16,5,Acute otitis media,Acute otitis media,0.9995670221368061,Acute otitis media,1
+ddx_test_0041136,4B 8-bit,0,Acute otitis media,Acute otitis media,0.9999996749346942,Acute otitis media,1
+ddx_test_0041136,4B 8-bit,1,Acute otitis media,Acute otitis media,0.9999999999819675,Acute otitis media,1
+ddx_test_0041136,4B 8-bit,2,Acute otitis media,Acute otitis media,0.9999999999926206,Acute otitis media,1
+ddx_test_0041136,4B 8-bit,3,Acute otitis media,Acute otitis media,0.9999999999738189,Acute otitis media,1
+ddx_test_0041136,4B 8-bit,4,Acute otitis media,Acute otitis media,0.999999999993118,Acute otitis media,1
+ddx_test_0041136,4B 8-bit,5,Acute otitis media,Acute otitis media,0.9999999999801779,Acute otitis media,1
+ddx_test_0027885,1.7B FP16,0,Pancreatic neoplasm,Acute COPD exacerbation / infection,1.9377428725136055e-11,Bronchitis,11
+ddx_test_0027885,1.7B FP16,1,Pancreatic neoplasm,Acute COPD exacerbation / infection,2.2995074815720303e-09,Bronchitis,10
+ddx_test_0027885,1.7B FP16,2,Pancreatic neoplasm,Acute COPD exacerbation / infection,2.2439721913928352e-08,HIV (initial infection),10
+ddx_test_0027885,1.7B FP16,3,Pancreatic neoplasm,Acute COPD exacerbation / infection,5.244279440814855e-08,Anemia,9
+ddx_test_0027885,1.7B FP16,4,Pancreatic neoplasm,Acute rhinosinusitis,0.0006197235460022357,Inguinal hernia,7
+ddx_test_0027885,1.7B FP16,5,Pancreatic neoplasm,Acute rhinosinusitis,7.717636763899602e-05,Inguinal hernia,7
+ddx_test_0027885,1.7B FP16,6,Pancreatic neoplasm,Pancreatic neoplasm,0.5602060406404024,Pancreatic neoplasm,1
+ddx_test_0027885,1.7B FP16,7,Pancreatic neoplasm,Acute rhinosinusitis,0.005215958404604994,Inguinal hernia,2
+ddx_test_0027885,1.7B FP16,8,Pancreatic neoplasm,Pancreatic neoplasm,0.39332135207481694,Pancreatic neoplasm,1
+ddx_test_0027885,1.7B FP16,9,Pancreatic neoplasm,Bronchiolitis,0.12658426737283968,Pancreatic neoplasm,1
+ddx_test_0027885,4B 8-bit,0,Pancreatic neoplasm,Acute rhinosinusitis,1.385096614187852e-08,URTI,8
+ddx_test_0027885,4B 8-bit,1,Pancreatic neoplasm,Influenza,5.264922920662799e-07,URTI,3
+ddx_test_0027885,4B 8-bit,2,Pancreatic neoplasm,Influenza,1.1136826660596383e-08,URTI,4
+ddx_test_0027885,4B 8-bit,3,Pancreatic neoplasm,Influenza,3.2441665062918825e-06,URTI,4
+ddx_test_0027885,4B 8-bit,4,Pancreatic neoplasm,Bronchitis,0.0007529716949001245,Boerhaave,4
+ddx_test_0027885,4B 8-bit,5,Pancreatic neoplasm,Bronchitis,3.990412922657477e-05,Boerhaave,4
+ddx_test_0027885,4B 8-bit,6,Pancreatic neoplasm,Pancreatic neoplasm,0.5491320393910513,Boerhaave,2
+ddx_test_0027885,4B 8-bit,7,Pancreatic neoplasm,Bronchitis,0.05702476775908216,Boerhaave,2
+ddx_test_0027885,4B 8-bit,8,Pancreatic neoplasm,Pancreatic neoplasm,0.5848824258893099,Boerhaave,2
+ddx_test_0027885,4B 8-bit,9,Pancreatic neoplasm,Pancreatic neoplasm,0.7316606718339443,Pancreatic neoplasm,1
+ddx_test_0134351,1.7B FP16,0,Viral pharyngitis,Acute rhinosinusitis,0.007485378815328241,Viral pharyngitis,1
+ddx_test_0134351,1.7B FP16,1,Viral pharyngitis,Acute laryngitis,5.094762729413797e-06,Viral pharyngitis,1
+ddx_test_0134351,1.7B FP16,2,Viral pharyngitis,Acute rhinosinusitis,6.839171824517399e-05,Viral pharyngitis,1
+ddx_test_0134351,1.7B FP16,3,Viral pharyngitis,Acute rhinosinusitis,0.0024996887964564857,Viral pharyngitis,1
+ddx_test_0134351,1.7B FP16,4,Viral pharyngitis,GERD,0.00018613766533322665,Viral pharyngitis,1
+ddx_test_0134351,1.7B FP16,5,Viral pharyngitis,Acute rhinosinusitis,0.0001972895406301143,Viral pharyngitis,1
+ddx_test_0134351,4B 8-bit,0,Viral pharyngitis,Acute rhinosinusitis,5.562068559576929e-05,Viral pharyngitis,1
+ddx_test_0134351,4B 8-bit,1,Viral pharyngitis,Acute rhinosinusitis,0.014063075024441405,Viral pharyngitis,1
+ddx_test_0134351,4B 8-bit,2,Viral pharyngitis,Acute rhinosinusitis,4.2305872094906526e-05,Viral pharyngitis,1
+ddx_test_0134351,4B 8-bit,3,Viral pharyngitis,Acute rhinosinusitis,0.0003079377099503347,Viral pharyngitis,1
+ddx_test_0134351,4B 8-bit,4,Viral pharyngitis,Pneumonia,3.053319869682023e-06,Viral pharyngitis,1
+ddx_test_0134351,4B 8-bit,5,Viral pharyngitis,Pneumonia,0.00424320666255244,Viral pharyngitis,1
+ddx_test_0064225,1.7B FP16,0,Acute pulmonary edema,Acute rhinosinusitis,0.001950685678968063,Inguinal hernia,13
+ddx_test_0064225,1.7B FP16,1,Acute pulmonary edema,Acute pulmonary edema,0.9951057413250167,Acute pulmonary edema,1
+ddx_test_0064225,1.7B FP16,2,Acute pulmonary edema,Acute rhinosinusitis,0.19348719538816866,Bronchitis,8
+ddx_test_0064225,1.7B FP16,3,Acute pulmonary edema,Acute laryngitis,0.18665213142991002,Bronchitis,9
+ddx_test_0064225,1.7B FP16,4,Acute pulmonary edema,Acute laryngitis,0.014925090997515177,Bronchitis,16
+ddx_test_0064225,1.7B FP16,5,Acute pulmonary edema,Acute laryngitis,0.02203702092520209,Bronchitis,13
+ddx_test_0064225,1.7B FP16,6,Acute pulmonary edema,Acute pulmonary edema,0.5784896533293163,Bronchitis,3
+ddx_test_0064225,1.7B FP16,7,Acute pulmonary edema,Acute pulmonary edema,0.8950297311494904,Acute pulmonary edema,1
+ddx_test_0064225,1.7B FP16,8,Acute pulmonary edema,Acute pulmonary edema,0.9999996446893976,Acute pulmonary edema,1
+ddx_test_0064225,1.7B FP16,9,Acute pulmonary edema,Acute pulmonary edema,0.9999998506945568,Acute pulmonary edema,1
+ddx_test_0064225,1.7B FP16,10,Acute pulmonary edema,Acute pulmonary edema,0.9999999787891631,Acute pulmonary edema,1
+ddx_test_0064225,1.7B FP16,11,Acute pulmonary edema,Acute pulmonary edema,0.9999999642051705,Acute pulmonary edema,1
+ddx_test_0064225,1.7B FP16,12,Acute pulmonary edema,Acute pulmonary edema,0.9999998452401397,Acute pulmonary edema,1
+ddx_test_0064225,4B 8-bit,0,Acute pulmonary edema,Acute rhinosinusitis,0.00014488746590098997,Possible NSTEMI / STEMI,24
+ddx_test_0064225,4B 8-bit,1,Acute pulmonary edema,Pneumonia,0.03562722906083577,Pericarditis,11
+ddx_test_0064225,4B 8-bit,2,Acute pulmonary edema,Pneumonia,0.05857952468236299,Pericarditis,5
+ddx_test_0064225,4B 8-bit,3,Acute pulmonary edema,Acute pulmonary edema,0.4096324331887986,Bronchitis,3
+ddx_test_0064225,4B 8-bit,4,Acute pulmonary edema,Pneumonia,0.05881468234943835,Bronchitis,4
+ddx_test_0064225,4B 8-bit,5,Acute pulmonary edema,Acute pulmonary edema,0.7905379135751144,Bronchitis,3
+ddx_test_0064225,4B 8-bit,6,Acute pulmonary edema,Acute pulmonary edema,0.9707236070628672,Acute pulmonary edema,1
+ddx_test_0064225,4B 8-bit,7,Acute pulmonary edema,Pulmonary embolism,0.1806236789784148,Acute pulmonary edema,1
+ddx_test_0064225,4B 8-bit,8,Acute pulmonary edema,Acute pulmonary edema,0.9317830409719091,Acute pulmonary edema,1
+ddx_test_0064225,4B 8-bit,9,Acute pulmonary edema,Acute pulmonary edema,0.9906185678025412,Acute pulmonary edema,1
+ddx_test_0064225,4B 8-bit,10,Acute pulmonary edema,Acute pulmonary edema,0.9975743335069843,Acute pulmonary edema,1
+ddx_test_0064225,4B 8-bit,11,Acute pulmonary edema,Pulmonary embolism,0.16035215480923107,Acute pulmonary edema,1
+ddx_test_0064225,4B 8-bit,12,Acute pulmonary edema,Acute pulmonary edema,0.8167079570180009,Acute pulmonary edema,1
+ddx_test_0060159,1.7B FP16,0,Acute dystonic reactions,Acute laryngitis,0.045775025980189246,Acute dystonic reactions,1
+ddx_test_0060159,1.7B FP16,1,Acute dystonic reactions,Acute dystonic reactions,0.9989677923432622,Acute dystonic reactions,1
+ddx_test_0060159,1.7B FP16,2,Acute dystonic reactions,Acute COPD exacerbation / infection,0.17318906640199802,Acute dystonic reactions,1
+ddx_test_0060159,1.7B FP16,3,Acute dystonic reactions,Acute dystonic reactions,0.9577454168668564,Acute dystonic reactions,1
+ddx_test_0060159,1.7B FP16,4,Acute dystonic reactions,Acute dystonic reactions,0.838057099613311,Acute dystonic reactions,1
+ddx_test_0060159,1.7B FP16,5,Acute dystonic reactions,Acute dystonic reactions,0.33054588041033267,Acute dystonic reactions,1
+ddx_test_0060159,1.7B FP16,6,Acute dystonic reactions,Acute dystonic reactions,0.7814682053531395,Acute dystonic reactions,1
+ddx_test_0060159,1.7B FP16,7,Acute dystonic reactions,Acute dystonic reactions,0.7553518714463957,Acute dystonic reactions,1
+ddx_test_0060159,1.7B FP16,8,Acute dystonic reactions,Acute dystonic reactions,0.9619732837048249,Acute dystonic reactions,1
+ddx_test_0060159,4B 8-bit,0,Acute dystonic reactions,Acute otitis media,5.990704754097765e-08,URTI,2
+ddx_test_0060159,4B 8-bit,1,Acute dystonic reactions,Acute dystonic reactions,0.9999848847246222,Acute dystonic reactions,1
+ddx_test_0060159,4B 8-bit,2,Acute dystonic reactions,Acute pulmonary edema,0.10678778833804321,Acute dystonic reactions,1
+ddx_test_0060159,4B 8-bit,3,Acute dystonic reactions,Acute dystonic reactions,0.9998760391653714,Acute dystonic reactions,1
+ddx_test_0060159,4B 8-bit,4,Acute dystonic reactions,Acute dystonic reactions,0.9997380027320739,Acute dystonic reactions,1
+ddx_test_0060159,4B 8-bit,5,Acute dystonic reactions,Acute dystonic reactions,0.9153149196121715,Acute dystonic reactions,1
+ddx_test_0060159,4B 8-bit,6,Acute dystonic reactions,Acute dystonic reactions,0.9318141194227982,Acute dystonic reactions,1
+ddx_test_0060159,4B 8-bit,7,Acute dystonic reactions,Acute dystonic reactions,0.9320186827368574,Acute dystonic reactions,1
+ddx_test_0060159,4B 8-bit,8,Acute dystonic reactions,Acute dystonic reactions,0.9979389708013874,Acute dystonic reactions,1
+ddx_test_0062355,1.7B FP16,0,Acute dystonic reactions,Acute COPD exacerbation / infection,0.00014782671233102093,Acute dystonic reactions,1
+ddx_test_0062355,1.7B FP16,1,Acute dystonic reactions,Acute laryngitis,0.003404534709348754,Acute dystonic reactions,1
+ddx_test_0062355,1.7B FP16,2,Acute dystonic reactions,Acute dystonic reactions,0.7669406607762463,Acute dystonic reactions,1
+ddx_test_0062355,1.7B FP16,3,Acute dystonic reactions,Acute dystonic reactions,0.9937984317960514,Acute dystonic reactions,1
+ddx_test_0062355,1.7B FP16,4,Acute dystonic reactions,Acute dystonic reactions,0.954686991047047,Acute dystonic reactions,1
+ddx_test_0062355,1.7B FP16,5,Acute dystonic reactions,Acute dystonic reactions,0.8984500015374277,Acute dystonic reactions,1
+ddx_test_0062355,1.7B FP16,6,Acute dystonic reactions,Acute dystonic reactions,0.7363170628010985,Acute dystonic reactions,1
+ddx_test_0062355,1.7B FP16,7,Acute dystonic reactions,Acute laryngitis,0.4070492831142492,Acute dystonic reactions,1
+ddx_test_0062355,1.7B FP16,8,Acute dystonic reactions,Acute dystonic reactions,0.9227567006281956,Acute dystonic reactions,1
+ddx_test_0062355,4B 8-bit,0,Acute dystonic reactions,Acute rhinosinusitis,0.001224937372002067,Acute dystonic reactions,1
+ddx_test_0062355,4B 8-bit,1,Acute dystonic reactions,Acute rhinosinusitis,3.131217917146917e-05,Acute dystonic reactions,1
+ddx_test_0062355,4B 8-bit,2,Acute dystonic reactions,Acute dystonic reactions,0.9999987452407034,Acute dystonic reactions,1
+ddx_test_0062355,4B 8-bit,3,Acute dystonic reactions,Acute dystonic reactions,0.9999999978543712,Acute dystonic reactions,1
+ddx_test_0062355,4B 8-bit,4,Acute dystonic reactions,Acute dystonic reactions,0.9999993277306377,Acute dystonic reactions,1
+ddx_test_0062355,4B 8-bit,5,Acute dystonic reactions,Acute dystonic reactions,0.9990139919158754,Acute dystonic reactions,1
+ddx_test_0062355,4B 8-bit,6,Acute dystonic reactions,Acute dystonic reactions,0.9999997155892381,Acute dystonic reactions,1
+ddx_test_0062355,4B 8-bit,7,Acute dystonic reactions,Acute dystonic reactions,0.9999997396967617,Acute dystonic reactions,1
+ddx_test_0062355,4B 8-bit,8,Acute dystonic reactions,Acute dystonic reactions,0.9999999989503316,Acute dystonic reactions,1
+ddx_test_0084538,1.7B FP16,0,Inguinal hernia,Localized edema,5.0753552520754694e-05,Inguinal hernia,1
+ddx_test_0084538,1.7B FP16,1,Inguinal hernia,Acute rhinosinusitis,8.671981409325769e-07,Inguinal hernia,1
+ddx_test_0084538,1.7B FP16,2,Inguinal hernia,Acute pulmonary edema,7.921222895274989e-05,Inguinal hernia,1
+ddx_test_0084538,1.7B FP16,3,Inguinal hernia,Localized edema,1.1766941371049684e-05,Inguinal hernia,1
+ddx_test_0084538,1.7B FP16,4,Inguinal hernia,Pneumonia,4.541926106469605e-07,Inguinal hernia,1
+ddx_test_0084538,1.7B FP16,5,Inguinal hernia,Pneumonia,2.4230023046906184e-07,Inguinal hernia,1
+ddx_test_0084538,1.7B FP16,6,Inguinal hernia,Pneumonia,7.523957412404361e-06,Inguinal hernia,1
+ddx_test_0084538,1.7B FP16,7,Inguinal hernia,Localized edema,1.5200355721346748e-06,Inguinal hernia,1
+ddx_test_0084538,1.7B FP16,8,Inguinal hernia,Localized edema,4.192332230133855e-05,Inguinal hernia,1
+ddx_test_0084538,4B 8-bit,0,Inguinal hernia,Pulmonary embolism,2.544928973020594e-07,SLE,2
+ddx_test_0084538,4B 8-bit,1,Inguinal hernia,Pulmonary embolism,0.00033524639976109194,SLE,2
+ddx_test_0084538,4B 8-bit,2,Inguinal hernia,Pulmonary embolism,0.014829341646705803,SLE,2
+ddx_test_0084538,4B 8-bit,3,Inguinal hernia,Pulmonary embolism,0.005261550922795799,SLE,2
+ddx_test_0084538,4B 8-bit,4,Inguinal hernia,Pulmonary embolism,0.0018147745017777217,SLE,2
+ddx_test_0084538,4B 8-bit,5,Inguinal hernia,Pneumonia,0.005907067032432486,SLE,2
+ddx_test_0084538,4B 8-bit,6,Inguinal hernia,Pneumonia,0.000287747415220881,SLE,2
+ddx_test_0084538,4B 8-bit,7,Inguinal hernia,Pneumonia,0.020724853795581553,Inguinal hernia,1
+ddx_test_0084538,4B 8-bit,8,Inguinal hernia,Pneumonia,0.3426007092862735,Inguinal hernia,1
+ddx_test_0045887,1.7B FP16,0,URTI,Acute rhinosinusitis,4.428083794629689e-12,URTI,1
+ddx_test_0045887,1.7B FP16,1,URTI,Acute laryngitis,1.4824976800640907e-12,URTI,1
+ddx_test_0045887,1.7B FP16,2,URTI,Acute rhinosinusitis,3.0444695399643753e-09,URTI,1
+ddx_test_0045887,1.7B FP16,3,URTI,Acute rhinosinusitis,2.255239577530917e-07,URTI,1
+ddx_test_0045887,1.7B FP16,4,URTI,Acute rhinosinusitis,3.6136180400013355e-07,URTI,1
+ddx_test_0045887,1.7B FP16,5,URTI,Acute rhinosinusitis,1.1030483469328513e-06,URTI,1
+ddx_test_0045887,1.7B FP16,6,URTI,Acute rhinosinusitis,1.961834360391852e-06,URTI,1
+ddx_test_0045887,1.7B FP16,7,URTI,Acute rhinosinusitis,3.162872508430339e-07,URTI,1
+ddx_test_0045887,1.7B FP16,8,URTI,Acute rhinosinusitis,4.818424303403916e-07,URTI,1
+ddx_test_0045887,1.7B FP16,9,URTI,Acute rhinosinusitis,1.7365155157689742e-07,URTI,1
+ddx_test_0045887,1.7B FP16,10,URTI,Acute rhinosinusitis,8.019237629718411e-07,URTI,1
+ddx_test_0045887,4B 8-bit,0,URTI,Viral pharyngitis,4.6687976457677255e-14,Viral pharyngitis,2
+ddx_test_0045887,4B 8-bit,1,URTI,Viral pharyngitis,9.431292871899824e-10,Viral pharyngitis,2
+ddx_test_0045887,4B 8-bit,2,URTI,Viral pharyngitis,3.3189644044433654e-12,Viral pharyngitis,2
+ddx_test_0045887,4B 8-bit,3,URTI,Viral pharyngitis,3.583263389479655e-05,URTI,1
+ddx_test_0045887,4B 8-bit,4,URTI,Influenza,0.00018071700382472634,URTI,1
+ddx_test_0045887,4B 8-bit,5,URTI,Influenza,2.8933263331644395e-05,URTI,1
+ddx_test_0045887,4B 8-bit,6,URTI,Influenza,3.2804014765129045e-06,URTI,1
+ddx_test_0045887,4B 8-bit,7,URTI,Influenza,5.607751629627174e-07,URTI,1
+ddx_test_0045887,4B 8-bit,8,URTI,Influenza,0.0005925482953552558,URTI,1
+ddx_test_0045887,4B 8-bit,9,URTI,Viral pharyngitis,0.0014165227990289569,URTI,1
+ddx_test_0045887,4B 8-bit,10,URTI,Viral pharyngitis,0.00046494857210381297,URTI,1

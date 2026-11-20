@@ -1,0 +1,52 @@
+{
+  "case_id": "medmcqa_validation_4032c899-2223-435f-a007-c513fd59a065",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Hemolytic jaundice\"}",
+      "generated_disease": "Hemolytic jaundice",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "77d7f46636310ab6d8ad65f1c44bfaf7544d404648f6084d40ba0d28d6a51a1d"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Rotor's syndrome\"}",
+      "generated_disease": "Rotor's syndrome",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "58ed1780451576e7d8ed3fdda985f762a2e6d99b7fd8482bc1fc1f6c4ea5f690"
+    }
+  ]
+}

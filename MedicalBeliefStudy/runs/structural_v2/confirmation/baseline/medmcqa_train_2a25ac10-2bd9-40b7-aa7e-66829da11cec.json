@@ -1,0 +1,34 @@
+{
+  "case_id": "medmcqa_train_2a25ac10-2bd9-40b7-aa7e-66829da11cec",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Spinal muscular atrophy\"}",
+      "generated_disease": "Spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "8e069940b3a60b6590146f49cfcd589fb4069141cb7b445353e189a486d796bf"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Spinal muscular atrophy\"}",
+      "generated_disease": "Spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "0600d4717e633d1a8921184df6115dd2d13c7c5c3926459d503ae75bd9591f8c"
+    }
+  ]
+}

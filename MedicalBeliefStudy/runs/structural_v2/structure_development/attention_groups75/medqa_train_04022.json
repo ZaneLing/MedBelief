@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_04022",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Hepatitis B virus infection, genotype 1, chronic active hepatitis\",\"severity\":\"moderate\",\"etiology\":\"non-alcoholic fatty liver disease (NAFLD)\",\"treatment_plan\":[\"lifestyle modifications (weight reduction, increased physical activity, and alcohol cessation are recommended\",\"antiviral therapy with entecavir",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "c7bfafdcc9ffd4864998b6ba7ef94d8578eec120bd2747667889a78963857418"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic active viral hepatitis\",\"etiology\":\"HCV genotype 1a, nonstructural protein 5 (NS5A) genotype\",\"recommended_workup\":[\"Liver biopsy\",\"Liver biopsy for histological evaluation\",\"Liver biopsy for staging and grading\"],\"prognosis\":\"Poor to excellent based on viral load and immune status\",\"",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "2fe73d78b960e45d42d3609caaeb2ed6904ef458be5edd66196ec14142c0ebf7"
+    }
+  ]
+}

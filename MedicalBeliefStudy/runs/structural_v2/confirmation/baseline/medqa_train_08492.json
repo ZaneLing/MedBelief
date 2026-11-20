@@ -1,0 +1,34 @@
+{
+  "case_id": "medqa_train_08492",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "α-thal trait\"}",
+      "generated_disease": "α-thal trait",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "304e673ea37dab84c9d5d78e16368c337da61287311baa9b247d7a21ed6a9a19"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "\\u03b1-thal trait\"}",
+      "generated_disease": "α-thal trait",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "721251841725049f9e492faed3d5706905ea8988b0b5e4bf64d59ca37d4f9ea8"
+    }
+  ]
+}

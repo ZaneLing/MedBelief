@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_02620",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Ovarian thecoma\"}",
+      "generated_disease": "Ovarian thecoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "df103936d2ab2fe07beee986529ab8892ee73a4ece5781ef66c53d994ae06492"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Dermoid cyst\"}",
+      "generated_disease": "Dermoid cyst",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "287c43518bc3f94adfce908ed988a1419244d9e684b9301b8c5e2294320eb6bb"
+    }
+  ]
+}

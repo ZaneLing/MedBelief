@@ -1,0 +1,11 @@
+{
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "python": "3.13.2",
+  "packages": {
+    "mlx": "0.32.4",
+    "mlx-lm": "0.32.2",
+    "transformers": "5.23.0",
+    "numpy": "2.5.5",
+    "safetensors": "0.8.0"
+  }
+}

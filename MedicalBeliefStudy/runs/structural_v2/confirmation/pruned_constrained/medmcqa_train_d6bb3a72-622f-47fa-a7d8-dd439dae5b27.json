@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_d6bb3a72-622f-47fa-a7d8-dd439dae5b27",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "median nerve injury\"}",
+      "generated_disease": "median nerve injury",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "c2b9f6f305726b113a0e100742cfb381b9dd1f7109ce7718aca258bffa666726"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "median nerve injury\"}",
+      "generated_disease": "median nerve injury",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "f878c47927746b8b8e05c79f4c8ae2fbe7e21d090e3a2b21e0e60cd2bc430b6b"
+    }
+  ]
+}

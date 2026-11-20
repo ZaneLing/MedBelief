@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_41935fc3-5202-40e2-a808-37c9bc21fe37",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformyastosolmonary disease\"} (Note: This is an example of an non-tralentary and/or non-linear response. actual answer should be among listed options. actual correct answer is typically \"Congalmonary disease or other relevant philacotarumaric or other relevant ph",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "8c64883538b42500619b9fcd620afdc13697fdc783269d764cc3a3280fbf7a9b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Hemoxoxygenatorlunglungisease\"}\"}\"}า\"}า\"}า\"}า\nNote: The final output should be an valid and valid phisentosentecetentecemememememememememememememememememememememememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "71f4215e2d699872136ddf2ec976bdeeba1565f1cb6960fca52e8f303146e48c"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-20",
+  "status": "Exploratory protocol written after source/schema inspection and before new model evaluation",
+  "diagnostic_datasets": ["DxFormer-published DXY", "DxFormer-published MZ-4", "DxFormer-published MZ-10"],
+  "selection": "Choose model/configuration by five-fold StratifiedGroupKFold accuracy on published training partition, grouping identical full symptom-value vectors. Fit vectorizer within each fold. Published test used only for evaluation.",
+  "models": ["LogisticRegression C=0.1,1,10", "LinearSVC C=0.1,1,10", "RBF SVC C=1,10,100 gamma=scale", "BernoulliNB alpha=0.1,1", "ExtraTrees 200 trees min_samples_leaf=2"],
+  "views": ["all identities", "all recorded values", "explicit recorded values", "all values excluding exact label-named fields"],
+  "duplicates": "Report test excluding exact training fact vectors; also refit after deduplicating training vectors with labels. Do not silently discard contradictory labels.",
+  "questionnaires": "All-recorded means all available explicit and implicit findings, not an active-questioning performance estimate. 0/1/2 are separate recorded states; missing is unobserved.",
+  "post_run_preprocessing_correction": "During delivery verification, MZ-10 had conflicting explicit/implicit values in 371 train and 91 test cases. Initial implicit-precedence outputs archived; main pipeline corrected to explicit precedence, matching author utils.filter_duplicate. No model configurations or selection rules changed; affected results rerun.",
+  "mcq": "Use local MedQA train/dev/test and MedMCQA train/validation. TF-IDF retrieves labeled training questions; retrieved answer texts score current options by character TF-IDF similarity. k in [1,5,20], selected using MedQA dev or deterministic MedMCQA training holdout. Include lexical-only and majority-position baselines. No explanations or test labels in inputs.",
+  "gpt6": "No authenticated API credential available in current process; no matched GPT-6 results will be claimed. Export label-free prompts and separate evaluation labels for later identical-input comparison.",
+  "cost": "Local CPU, no paid inference",
+  "novelty": "Distinguish new empirical DDXPlus audit results from established knowledge-based diagnosis methods. Search failure is not proof of priority."
+}

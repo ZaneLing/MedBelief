@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_05952",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Vulvar Paget's disease\"}",
+      "generated_disease": "Vulvar Paget's disease",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "f86c455a99e9ce590a581e32901c5a18feeb3d990de483b28b257f0df6208223"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Vulvar Paget's disease\"}",
+      "generated_disease": "Vulvar Paget's disease",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "3cb084472fcc6240fd5ef63fb940b21a3122cb4b34daa5e49fb9f6578bbf23ba"
+    }
+  ]
+}

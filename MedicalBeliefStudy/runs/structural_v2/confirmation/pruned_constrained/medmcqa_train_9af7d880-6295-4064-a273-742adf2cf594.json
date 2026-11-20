@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_9af7d880-6295-4064-a273-742adf2cf594",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "X linked icthyosis nigra\"}",
+      "generated_disease": "X linked icthyosis nigra",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "4268f034ca9b1a46790e6845787717a5d86f62453b4221d7ee222b8e9294f9e9"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "X linked icthyosis nigra\"}",
+      "generated_disease": "X linked icthyosis nigra",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "0e005c3254d6c4358f9e0e19d883706444eb2768ef415eef31230b7a7252aae3"
+    }
+  ]
+}

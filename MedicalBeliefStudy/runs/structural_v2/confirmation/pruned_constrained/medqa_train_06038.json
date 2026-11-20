@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_06038",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Alpha 1-antitrypsin deficiency\"}",
+      "generated_disease": "Alpha 1-antitrypsin deficiency",
+      "stop": "eos",
+      "tokens": 11,
+      "prompt_sha256": "fc2b63f3d22b15d4956b5082fcfd3de1172fb9f9730c08fbc831e4ebefac734b"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Alpha 1-antitrypsin deficiency\"}",
+      "generated_disease": "Alpha 1-antitrypsin deficiency",
+      "stop": "eos",
+      "tokens": 11,
+      "prompt_sha256": "cfddd32fa60bd8afeea2234d0d911b5902c6dc886de2ef54f11df714c953d180"
+    }
+  ]
+}

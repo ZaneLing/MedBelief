@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_04471",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Primary biliary cholangitis\"}",
+      "generated_disease": "Primary biliary cholangitis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "6194c6b8eaf3337d09e5eb55896e3b397309e2c9cc73ffafe15853b5833374a4"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Primary biliary cholangitis\"}",
+      "generated_disease": "Primary biliary cholangitis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "a5ddf936cc85833d296f8ab21e527e5170540237c1cf7be5f2c3d515846dc93e"
+    }
+  ]
+}

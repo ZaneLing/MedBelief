@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_dev_00574",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Rulbert's syndrome orphans orphans\"}\"}\"}า\"}า\"}า\"}า\nNote: This is an error correction and/or an error in the original text. actual correct answer is \"Essavarone's disease orphans orphans orphans\"}\"}norezentosortyneckensens",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "1133fdbbbbe0a7c739cf3f3929f167c82efcd3fac92c53b40a00c7235da759e7"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxanemia//Trabovemphilis Syndrome (Righa's disease orphans orphans inductees\"} (Note: This is an example of an non-standard or non-existent philacogroupingsystematicfystosolentaxerolentecualentec",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "220d7b66a438d972dbaa3e0459754db67d9509cbcdf3b7fcff30beb98892be94"
+    }
+  ]
+}

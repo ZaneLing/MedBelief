@@ -1,0 +1,342 @@
+{
+  "adapters": [
+    {
+      "complete": true,
+      "configuration": {
+        "name": "full_diagonal",
+        "adapter_file": "runs/structural_v2/adapters/full_diagonal/best.safetensors",
+        "adapter_kind": "diagonal",
+        "adapter_rank": 0
+      },
+      "train_cases": 400,
+      "development_cases": 80,
+      "train_tokens": 6046,
+      "development_tokens": 1178,
+      "trainable_parameters": 4096,
+      "best_step": 600,
+      "best_development_loss": 1.6487836187210632,
+      "initial_development_loss": 2.178073257153147,
+      "weights_sha256": "4f80b5978e11ea992f60fa2c1f6ccedd35ca765dbaeadb4f0701fb80a3a203eb",
+      "full_vocabulary_size": 151936,
+      "history": [
+        {
+          "step": 0,
+          "development_loss": 2.178073257153147,
+          "elapsed": 0.0
+        },
+        {
+          "step": 100,
+          "development_loss": 1.8438370486008353,
+          "mean_recent_train_loss": 3.0853857035189867,
+          "elapsed": 2.68
+        },
+        {
+          "step": 300,
+          "development_loss": 1.7563645894850197,
+          "mean_recent_train_loss": 2.2674605512619017,
+          "elapsed": 6.11
+        },
+        {
+          "step": 600,
+          "development_loss": 1.6487836187210632,
+          "mean_recent_train_loss": 1.8908218728005886,
+          "elapsed": 10.77
+        }
+      ],
+      "api_cost_usd": 0
+    },
+    {
+      "complete": true,
+      "configuration": {
+        "name": "full_adapter16",
+        "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+        "adapter_kind": "bottleneck",
+        "adapter_rank": 16
+      },
+      "train_cases": 400,
+      "development_cases": 80,
+      "train_tokens": 6046,
+      "development_tokens": 1178,
+      "trainable_parameters": 67600,
+      "best_step": 100,
+      "best_development_loss": 2.153730510594323,
+      "initial_development_loss": 2.178073257153147,
+      "weights_sha256": "aabe38bd1189c2780a0e152624b10746038f84aa00d4cac984978f2de189347a",
+      "full_vocabulary_size": 151936,
+      "history": [
+        {
+          "step": 0,
+          "development_loss": 2.178073257153147,
+          "elapsed": 0.0
+        },
+        {
+          "step": 100,
+          "development_loss": 2.153730510594323,
+          "mean_recent_train_loss": 2.8149224075302484,
+          "elapsed": 2.15
+        },
+        {
+          "step": 300,
+          "development_loss": 2.383563241687807,
+          "mean_recent_train_loss": 1.8989799153804778,
+          "elapsed": 5.42
+        },
+        {
+          "step": 600,
+          "development_loss": 2.5254321215630626,
+          "mean_recent_train_loss": 1.6902985191345214,
+          "elapsed": 10.02
+        }
+      ],
+      "api_cost_usd": 0
+    },
+    {
+      "complete": true,
+      "configuration": {
+        "name": "full_adapter64",
+        "adapter_file": "runs/structural_v2/adapters/full_adapter64/best.safetensors",
+        "adapter_kind": "bottleneck",
+        "adapter_rank": 64
+      },
+      "train_cases": 400,
+      "development_cases": 80,
+      "train_tokens": 6046,
+      "development_tokens": 1178,
+      "trainable_parameters": 264256,
+      "best_step": 0,
+      "best_development_loss": 2.178073257153147,
+      "initial_development_loss": 2.178073257153147,
+      "weights_sha256": "89dd16c1a96fd0ba46507767a0489950039f5d8986e3363c243ad0455f701eee",
+      "full_vocabulary_size": 151936,
+      "history": [
+        {
+          "step": 0,
+          "development_loss": 2.178073257153147,
+          "elapsed": 0.0
+        },
+        {
+          "step": 100,
+          "development_loss": 2.537851456007047,
+          "mean_recent_train_loss": 2.8176093488931655,
+          "elapsed": 2.19
+        },
+        {
+          "step": 300,
+          "development_loss": 2.582139639078014,
+          "mean_recent_train_loss": 1.813689509779215,
+          "elapsed": 5.51
+        },
+        {
+          "step": 600,
+          "development_loss": 2.4692164628504543,
+          "mean_recent_train_loss": 1.6592995765805245,
+          "elapsed": 10.49
+        }
+      ],
+      "api_cost_usd": 0
+    },
+    {
+      "complete": true,
+      "configuration": {
+        "name": "pruned_adapter16",
+        "mlp_keep": 0.5,
+        "mlp_layers": [
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+        "adapter_kind": "bottleneck",
+        "adapter_rank": 16
+      },
+      "train_cases": 400,
+      "development_cases": 80,
+      "train_tokens": 6046,
+      "development_tokens": 1178,
+      "trainable_parameters": 67600,
+      "best_step": 0,
+      "best_development_loss": 2.3293597287960437,
+      "initial_development_loss": 2.3293597287960437,
+      "weights_sha256": "6aeecc03dbc887d96c7a1af36b83f10948f31dda35cbea34f92023af99588f33",
+      "full_vocabulary_size": 151936,
+      "history": [
+        {
+          "step": 0,
+          "development_loss": 2.3293597287960437,
+          "elapsed": 0.0
+        },
+        {
+          "step": 100,
+          "development_loss": 2.354604030564951,
+          "mean_recent_train_loss": 3.0093535804748535,
+          "elapsed": 2.2
+        },
+        {
+          "step": 300,
+          "development_loss": 2.559555857890518,
+          "mean_recent_train_loss": 2.0309140464663504,
+          "elapsed": 5.39
+        },
+        {
+          "step": 600,
+          "development_loss": 2.624261518905405,
+          "mean_recent_train_loss": 1.7540810208022595,
+          "elapsed": 10.06
+        }
+      ],
+      "api_cost_usd": 0
+    },
+    {
+      "complete": true,
+      "configuration": {
+        "name": "exit20_adapter16",
+        "exit_layer": 20,
+        "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+        "adapter_kind": "bottleneck",
+        "adapter_rank": 16
+      },
+      "train_cases": 400,
+      "development_cases": 80,
+      "train_tokens": 6046,
+      "development_tokens": 1178,
+      "trainable_parameters": 67600,
+      "best_step": 600,
+      "best_development_loss": 4.699125170707703,
+      "initial_development_loss": 11.161322915554047,
+      "weights_sha256": "dfd1112f52239b99f74224a2ee0bfa4814f21f66369d0b7fcaf4646b44580713",
+      "full_vocabulary_size": 151936,
+      "history": [
+        {
+          "step": 0,
+          "development_loss": 11.161322915554047,
+          "elapsed": 0.0
+        },
+        {
+          "step": 100,
+          "development_loss": 5.225886499881744,
+          "mean_recent_train_loss": 5.9989312601089475,
+          "elapsed": 2.07
+        },
+        {
+          "step": 300,
+          "development_loss": 4.715460938215256,
+          "mean_recent_train_loss": 4.084082794189453,
+          "elapsed": 5.38
+        },
+        {
+          "step": 600,
+          "development_loss": 4.699125170707703,
+          "mean_recent_train_loss": 3.858496005535126,
+          "elapsed": 10.01
+        }
+      ],
+      "api_cost_usd": 0
+    }
+  ],
+  "bridge": {
+    "complete": true,
+    "configuration": {
+      "name": "exit20_bridge64",
+      "exit_layer": 20,
+      "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+    },
+    "rank": 64,
+    "parameters": 266240,
+    "ridge": 592.851953125,
+    "train": {
+      "weighted_mse": 2.117971420288086,
+      "identity_mse": 8.546687126159668
+    },
+    "development": {
+      "weighted_mse": 2.281104326248169,
+      "identity_mse": 8.588224411010742
+    },
+    "source_sha256": "dcabcc425cd5e49c2518dfc413da6da1dae8d032ae541aa4a8ab266bfdbb075e",
+    "weights_sha256": "d43df2569757dcdd2711edea15053952a800f8d3b547f41539cd834b26c01bed",
+    "supervision": "Full model hidden states on source-answer teacher-forced prefixes; no separate disease-label loss. Prefixes themselves use source answers.",
+    "api_cost_usd": 0
+  },
+  "plan": {
+    "adapters": [
+      {
+        "name": "full_diagonal",
+        "backbone": {
+          "name": "baseline"
+        },
+        "adapter_kind": "diagonal",
+        "adapter_rank": 0
+      },
+      {
+        "name": "full_adapter16",
+        "backbone": {
+          "name": "baseline"
+        },
+        "adapter_kind": "bottleneck",
+        "adapter_rank": 16
+      },
+      {
+        "name": "full_adapter64",
+        "backbone": {
+          "name": "baseline"
+        },
+        "adapter_kind": "bottleneck",
+        "adapter_rank": 64
+      },
+      {
+        "name": "pruned_adapter16",
+        "backbone": {
+          "name": "late_mlp_width50",
+          "mlp_keep": 0.5,
+          "mlp_layers": [
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28
+          ]
+        },
+        "adapter_kind": "bottleneck",
+        "adapter_rank": 16
+      },
+      {
+        "name": "exit20_adapter16",
+        "backbone": {
+          "name": "exit20",
+          "exit_layer": 20
+        },
+        "adapter_kind": "bottleneck",
+        "adapter_rank": 16
+      }
+    ],
+    "steps": 600,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "seed": 20261120,
+    "checkpoints": [
+      0,
+      100,
+      300,
+      600
+    ],
+    "selection": "Lowest development full-vocabulary weighted token cross entropy; no test cases.",
+    "token_weighting": "Each sequence weight1; first candidate token weight0.5, remaining tokens including JSON closure and EOS share0.5.",
+    "optimizer": "AdamW, global gradient norm clipping1.0"
+  }
+}

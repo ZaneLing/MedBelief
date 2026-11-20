@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_ea28a234-c1d7-4038-8099-85abb570ec32",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "mlp_width50",
+    "mlp_keep": 0.5
+  },
+  "parameter_stats": {
+    "parameters": 1192092672,
+    "weight_bytes": 2384185344,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Acute appendicitis\"}",
+      "generated_disease": "Acute appendicitis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "568f72f0812c1fe30c701b142d14b9e7d47038056c6d024942423aa643768118"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Acute appendicitis\"}",
+      "generated_disease": "Acute appendicitis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "c929172303b785532fe5b6010972c1707dc447cf85bd3d2664fea28cccd80ef9"
+    }
+  ]
+}

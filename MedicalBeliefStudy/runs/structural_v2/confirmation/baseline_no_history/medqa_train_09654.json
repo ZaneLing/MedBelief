@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_09654",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Rotator cuff tear\"}",
+      "generated_disease": "Rotator cuff tear",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "3d9a7ed9742e2a215ea7d0bd0f36bf72887b20129a19a2eade6e75cf6e127885"
+    }
+  ]
+}

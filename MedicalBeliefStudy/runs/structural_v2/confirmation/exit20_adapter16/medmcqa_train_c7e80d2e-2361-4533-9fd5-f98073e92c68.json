@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_c7e80d2e-2361-4533-9fd5-f98073e92c68",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxia\"}",
+      "generated_disease": "Pemphoxia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "de60ca938583cf4900cc095bdcf001ff5d8cacf71536841330c1f4c03132b272"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxiaotic-hystic disease\"}\"}\"}า\"}า\"}า\"}า\nNote: The correct answer should be \"Subiective disorder of course, butchers are not necessarily involved in such a matter.\"}\"}า\n\"}\"}า\"}า\"}า\"}า\n\"}า\"}",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "790ca486a76edb7ea903f99ff2fa8c6b831ba3ff608ecbda78b54ae6f18bec1d"
+    }
+  ]
+}

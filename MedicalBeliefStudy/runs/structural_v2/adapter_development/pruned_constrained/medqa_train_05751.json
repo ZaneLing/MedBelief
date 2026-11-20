@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_05751",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Post-traumatic stress disorder (PTSD)\"}",
+      "generated_disease": "Post-traumatic stress disorder (PTSD)",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "aab2c94a872f55823ff77d394b252ddf4f56b460dc173697b615f30578f308d9"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Post-traumatic stress disorder (PTSD)\"}",
+      "generated_disease": "Post-traumatic stress disorder (PTSD)",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "94ff91768ecd124c3751cf781ed7243e64719d9854924d3bdafcd77a4ed9dd2a"
+    }
+  ]
+}

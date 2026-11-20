@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_b8bb40ac-c7fc-4032-8a4f-cffd76a06e1c",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Kartagener's syndrome\"}",
+      "generated_disease": "Kartagener's syndrome",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "7b33727c1726ba345674b59f4e4372efdc4eead49630f37b59046e4a412a2e72"
+    }
+  ]
+}

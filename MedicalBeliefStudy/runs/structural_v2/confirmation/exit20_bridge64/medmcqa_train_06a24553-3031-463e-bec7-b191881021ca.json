@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_06a24553-3031-463e-bec7-b191881021ca",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pustus\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "db8f642c3c3ff133cf9f324fe3323df993be1a60675146d80dd59f09159418f0"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "P1--acute pulmonary dysmoma\"}",
+      "generated_disease": "P1--acute pulmonary dysmoma",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "3393772d9f2594a35480d6a4262d8105d00a72dd31787fbbfe32dacbf41a5e8c"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "complete": true,
+  "api_cost_usd": 0,
+  "cases": 540,
+  "strict_text_cases": 520,
+  "full_trajectory_cases": 94,
+  "strict_full_trajectory_cases": 92,
+  "confirmation_mechanism_cases": 48,
+  "strict_confirmation_mechanism_cases": 47,
+  "stages": {
+    "belief_v4": {
+      "patients": 540,
+      "conditions": 6823
+    },
+    "belief_v4_4b": {
+      "patients": 94,
+      "conditions": 1034
+    },
+    "belief_v4_layer_trajectories": {
+      "patients": 94,
+      "conditions": 1960
+    },
+    "belief_v4_routes_1.7b": {
+      "patients": 48,
+      "conditions": 1152,
+      "native_checks": 18
+    },
+    "belief_v4_routes_4b": {
+      "patients": 48,
+      "conditions": 1152,
+      "native_checks": 18
+    },
+    "belief_v4_module_readout": {
+      "patients": 94,
+      "conditions": 376
+    },
+    "belief_v4_final_mlp": {
+      "patients": 94,
+      "conditions": 940
+    },
+    "belief_v4_names_1.7b": {
+      "patients": 48,
+      "conditions": 480
+    },
+    "belief_v4_names_4b": {
+      "patients": 48,
+      "conditions": 480
+    },
+    "patches": {
+      "patients": 94,
+      "conditions": 2444
+    },
+    "mention_patches": {
+      "patients": 48,
+      "conditions": 960
+    }
+  },
+  "total_prompt_or_transfer_conditions": 15525,
+  "additional_final_mlp_transfers": 940,
+  "additional_name_counterbalance_evaluations": 960,
+  "max_counterbalance_native_repeat_error": 0.0,
+  "additional_endpoint_state_readouts": 376,
+  "baseline_recaptures": 48,
+  "fp32_mean_recaptures": 1080,
+  "all_case_hashes_match": true,
+  "model_weights_unchanged": true,
+  "max_sham_logp_error": 0.0,
+  "max_patch_reference_state_error": 0.0,
+  "max_fp32_repair_anchor_error": 0.0,
+  "deprecated_4b_auxiliary_mean_arrays_nonfinite": 138,
+  "atlas_patients": 94,
+  "layer_candidate_export_rows": 240576,
+  "all_required_results_present": true
+}

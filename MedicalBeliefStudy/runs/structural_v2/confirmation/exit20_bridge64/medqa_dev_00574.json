@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_dev_00574",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Bysmom\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "1133fdbbbbe0a7c739cf3f3929f167c82efcd3fac92c53b40a00c7235da759e7"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Bysk--Hysk's syndrome\"}",
+      "generated_disease": "Bysk--Hysk's syndrome",
+      "stop": "eos",
+      "tokens": 11,
+      "prompt_sha256": "220d7b66a438d972dbaa3e0459754db67d9509cbcdf3b7fcff30beb98892be94"
+    }
+  ]
+}

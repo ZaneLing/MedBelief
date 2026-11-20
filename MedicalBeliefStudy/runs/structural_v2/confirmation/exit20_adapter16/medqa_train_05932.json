@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_05932",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformycephalitis\"} (Note: This is an example of an non-tralonic and non-realistic response. actual real-world data would be used instead. actual real-world data is required for accurate results\"} (Note: actual real-world data is required for accurate results\"} (Syst",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "1eea55cdec4f97cadd489d65c03987e9664ee4aa6340b6db58d69af7e2f5414f"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformycephalitis\"} (Note: This is an example of an non-tralonic and/or non-linear response. actual answer should be either \"Ac stress disorder or other relevant phausiaotaxiaotaxia or other relevant phissemaricus etrochospyo",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "659bc74dba5df8ddd3c6d8f9e9411ad988e380476e52ca4e34d8d9cea2e33d27"
+    }
+  ]
+}

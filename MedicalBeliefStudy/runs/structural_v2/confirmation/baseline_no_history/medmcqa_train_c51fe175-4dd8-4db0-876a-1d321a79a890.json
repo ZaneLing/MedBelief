@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_c51fe175-4dd8-4db0-876a-1d321a79a890",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "AVN\"}",
+      "generated_disease": "AVN",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "820df70259e0861340cc608f869a976b7f928359c63843c9460a9857293dcbba"
+    }
+  ]
+}

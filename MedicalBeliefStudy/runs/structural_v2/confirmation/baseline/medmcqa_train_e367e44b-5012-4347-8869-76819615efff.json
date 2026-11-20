@@ -1,0 +1,34 @@
+{
+  "case_id": "medmcqa_train_e367e44b-5012-4347-8869-76819615efff",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Neurogenic shock\"}",
+      "generated_disease": "Neurogenic shock",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "fa348d2e8c002c5b5006357b5175d6d803116fa5d81bf93e8234c4b640127ceb"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Cardiogenic shock\"}",
+      "generated_disease": "Cardiogenic shock",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "d15401771ead1e82eb0002fe3752793dd5640a16f4c9bd0db2be50db37ed2516"
+    }
+  ]
+}

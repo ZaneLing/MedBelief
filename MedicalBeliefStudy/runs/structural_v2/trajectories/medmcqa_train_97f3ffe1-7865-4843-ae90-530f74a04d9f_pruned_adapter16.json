@@ -1,0 +1,152 @@
+{
+  "case_id": "medmcqa_train_97f3ffe1-7865-4843-ae90-530f74a04d9f",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -20.641620635986328,
+        -0.019351959228515625,
+        -7.532371520996094,
+        -15.753669738769531
+      ],
+      "q_sequence": [
+        1.1056697182249529e-09,
+        0.9994542200225996,
+        0.0005456321699051655,
+        1.467018254415533e-07
+      ],
+      "q_token_mean": [
+        0.025609089134128293,
+        0.7950296813307909,
+        0.1215255536194899,
+        0.057835675915590856
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Grief\"}",
+      "generated_disease": "Grief",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "9fe5d13b34ba2e48b227eb88756dae907e76ad381417d9a1c5b7a22388039869"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -15.89352035522461,
+        -0.45540618896484375,
+        -1.0350685119628906,
+        -8.59796142578125
+      ],
+      "q_sequence": [
+        1.2649758489974066e-07,
+        0.6408701258278919,
+        0.35894332307471843,
+        0.00018642459980468495
+      ],
+      "q_token_mean": [
+        0.03583474627731946,
+        0.4521375741363318,
+        0.3911420997101101,
+        0.1208855798762386
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Grief\"}",
+      "generated_disease": "Grief",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "ffa506ddaa367a2acc33707cb653c2ed2fb43cb850bc5c9b97429b996d22869b"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -24.156768798828125,
+        -0.016448974609375,
+        -8.188247680664062,
+        -18.15434455871582
+      ],
+      "q_sequence": [
+        3.279968162876941e-11,
+        0.9997175570877465,
+        0.0002824296150005456,
+        1.3264453260380713e-08
+      ],
+      "q_token_mean": [
+        0.014977039525207788,
+        0.8359210907317053,
+        0.10837360283183974,
+        0.040728266911247125
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Grief\"}",
+      "generated_disease": "Grief",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "46d914fdf0be810268274eb17f2b8ecccf84b1f57cd5dd5a92123569c8445913"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -19.247039794921875,
+        -0.043010711669921875,
+        -3.5910911560058594,
+        -12.140079498291016
+      ],
+      "q_sequence": [
+        4.4409035560389865e-09,
+        0.9720200041405184,
+        0.027974571597101747,
+        5.419821476539176e-06
+      ],
+      "q_token_mean": [
+        0.025769669373607224,
+        0.630356468629783,
+        0.25963203315726474,
+        0.0842418288393451
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Grief\"}",
+      "generated_disease": "Grief",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "a32a79c57cc809f1f4002857909bc719d9ca3ba68b4c5e0e901685dd603ee066"
+    }
+  ],
+  "state_sha256": "59265874375425ea903f755396e89e5e38d027cc8d62895d037d5aad78b89ba1"
+}

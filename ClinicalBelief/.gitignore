@@ -1,0 +1,15 @@
+# raw data (licenses respected; regenerate via scripts/prepare_data.py)
+data/raw/*.csv
+data/raw/*.json
+data/processed/*.npz
+# secrets
+.env
+# python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+# large run artefacts (keep metrics/figures, drop big prob tensors if desired)
+runs/**/turn_probs.npz
+models_smoke/

@@ -1,0 +1,52 @@
+{
+  "case_id": "medmcqa_train_922e998c-86f3-4fa4-b869-ba7d7adb703d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Capillary hemangioma\"}",
+      "generated_disease": "Capillary hemangioma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "5fb0480e54ad341a5cae972959fc92657465c49b4c571a6c5270194cb8681827"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Port wine stain\"}",
+      "generated_disease": "Port wine stain",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "06337c0038c7644bd7a721e8f90087d72ee22c4c1add4a48bce1787d687d5049"
+    }
+  ]
+}

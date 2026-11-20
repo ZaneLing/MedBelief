@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_8115ef03-15d2-4886-b375-e120a7c1ac83",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Bronchiolitis obliterans\"}",
+      "generated_disease": "Bronchiolitis obliterans",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "e69eda53a0b9b0d64c39f04fb3ad687b5fefa0fe2c9837fe14609382d25c48fe"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Bronchiolitis obliterans\"}",
+      "generated_disease": "Bronchiolitis obliterans",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "682494b1657503cde366e108c490c67a938ef4156a5a7814add5f3c3cc382d2a"
+    }
+  ]
+}

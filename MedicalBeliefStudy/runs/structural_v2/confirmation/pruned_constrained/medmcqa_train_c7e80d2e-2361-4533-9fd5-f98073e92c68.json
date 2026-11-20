@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_c7e80d2e-2361-4533-9fd5-f98073e92c68",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Medulloblastoma\"}",
+      "generated_disease": "Medulloblastoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "de60ca938583cf4900cc095bdcf001ff5d8cacf71536841330c1f4c03132b272"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Medulloblastoma\"}",
+      "generated_disease": "Medulloblastoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "790ca486a76edb7ea903f99ff2fa8c6b831ba3ff608ecbda78b54ae6f18bec1d"
+    }
+  ]
+}

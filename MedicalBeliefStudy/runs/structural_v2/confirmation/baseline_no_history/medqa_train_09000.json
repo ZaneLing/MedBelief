@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_09000",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Migraine headache\"}",
+      "generated_disease": "Migraine headache",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "37bf9240a2b90ded1fe8348d13fb4c02a4fcd1461b381eda24e177028e6981ed"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_6779c119-8951-4170-9765-08bb80c1ba09",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Eystenovemnaticypermusoticralenysturacuseuracinateuracysttualserventechservetemphesparacovemphesilensigroupingservinalenemphesilensigroupingsenemphesilensig",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "17ed7dbfe6476da8fdda82ba43ee4ef7c65ae01f24d0f410033f5921fdc94bbc"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Oyservutmonaryysturacountervabodememystosysticenteringradiemenservinalenocobsephinalenemphabenturacinalerthilensigroupingservinalenemphilentepoemphiricovemphinalen",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "e6b75ea1c216e70e4f238b19cbc9261f632bdd99fb1b21fe802428bbefefd1e1"
+    }
+  ]
+}

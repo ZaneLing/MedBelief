@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_06637",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Trichomonas vaginalis infection\"}",
+      "generated_disease": "Trichomonas vaginalis infection",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "33a83a43bd4e04be47861d2ff05bbbd0e6b6cd81b1093210a50f67bdf611755c"
+    }
+  ]
+}

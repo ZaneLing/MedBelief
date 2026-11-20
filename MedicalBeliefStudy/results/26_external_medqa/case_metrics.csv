@@ -1,0 +1,88 @@
+case_id,gold,updates,switches,big_updates,any_switch,any_big,switch_rate,big_rate,final_hit,ever_hit,regression,first_hit,stable_hit,pattern,max_step_share,gold_decrease_rate,native_prefix_hit
+medqa_test_1092,Advanced sleep phase disorder,7,0,0,False,False,0.0,0.0,False,False,False,,,stable_other,0.5000202345492734,0.0,0.0
+medqa_test_1053,VIPoma,5,0,0,False,False,0.0,0.0,True,True,False,0,0,stable_gold,0.464150366026582,0.2,1.0
+medqa_test_0325,Autosomal dominant polycystic kidney disease,5,1,1,True,True,0.2,0.2,True,True,False,3,3,acquired_gold,0.7344701124604524,0.4,0.5
+medqa_test_1015,Tetralogy of Fallot,5,0,0,False,False,0.0,0.0,True,True,False,0,0,stable_gold,0.8261321234638522,0.0,1.0
+medqa_test_0598,Pseudocyesis,8,0,0,False,False,0.0,0.0,False,False,False,,,stable_other,0.4964914438163926,0.375,0.0
+medqa_test_0315,Mixed connective tissue disease,4,0,0,False,False,0.0,0.0,False,False,False,,,stable_other,0.9999808109911951,0.0,0.0
+medqa_test_1243,MEN1,7,2,2,True,True,0.2857142857142857,0.2857142857142857,False,False,False,,,switching_other,0.2941719316407652,0.14285714285714285,0.0
+medqa_test_0464,Borderline personality disorder,9,2,2,True,True,0.2222222222222222,0.2222222222222222,False,False,False,,,switching_other,0.4831749641205556,0.1111111111111111,0.0
+medqa_test_0177,Osteoarthritis,6,1,1,True,True,0.16666666666666666,0.16666666666666666,False,True,True,0,,lost_gold,0.9993470352982171,0.3333333333333333,0.5714285714285714
+medqa_test_0318,Somatization disorder,7,2,0,True,False,0.2857142857142857,0.0,False,True,True,4,,lost_gold,0.27080002895123206,0.5714285714285714,0.125
+medqa_test_0359,Polymyositis,2,1,1,True,True,0.5,0.5,False,False,False,,,switching_other,0.9863708499209151,0.5,0.0
+medqa_test_0896,Schizophrenia,9,2,2,True,True,0.2222222222222222,0.2222222222222222,False,False,False,,,switching_other,0.4966165955279598,0.1111111111111111,0.0
+medqa_test_0545,Temporomandibular joint dysfunction,5,1,1,True,True,0.2,0.2,True,True,False,5,5,acquired_gold,0.9692461012578384,0.4,0.16666666666666666
+medqa_test_0513,Spinal stenosis,8,4,3,True,True,0.5,0.375,True,True,True,2,8,recovered_gold,0.30520429951454403,0.375,0.4444444444444444
+medqa_test_0558,Molluscum contagiosum,10,0,0,False,False,0.0,0.0,True,True,False,0,0,stable_gold,0.2998624393834318,0.0,1.0
+medqa_test_0571,Pneumonia,10,1,1,True,True,0.1,0.1,True,True,False,8,8,acquired_gold,0.4013959016421556,0.2,0.2727272727272727
+medqa_test_1105,Adenoma,6,0,0,False,False,0.0,0.0,False,False,False,,,stable_other,0.4465280729853907,0.0,0.0
+medqa_test_0664,Von Willebrand disease,5,0,0,False,False,0.0,0.0,False,False,False,,,stable_other,0.9584558454713131,0.0,0.0
+medqa_test_0585,Cardiac tamponade,6,3,3,True,True,0.5,0.5,True,True,True,0,4,recovered_gold,0.357552935586926,0.3333333333333333,0.5714285714285714
+medqa_test_0335,Hypertrophic cardiomyopathy,6,0,0,False,False,0.0,0.0,False,False,False,,,stable_other,0.4860723499508137,0.0,0.0
+medqa_test_0213,Acalculous cholecystitis,4,1,1,True,True,0.25,0.25,True,True,False,4,4,acquired_gold,0.9999314336266043,0.0,0.2
+medqa_test_1236,Multiple endocrine neoplasia (MEN) 2A,12,6,4,True,True,0.5,0.3333333333333333,True,True,True,0,9,recovered_gold,0.21312666597350324,0.3333333333333333,0.46153846153846156
+medqa_test_0154,Chickenpox,11,2,2,True,True,0.18181818181818182,0.18181818181818182,True,True,True,0,2,recovered_gold,0.4844886171353846,0.18181818181818182,0.9166666666666666
+medqa_test_0632,Atrial myxoma,5,2,2,True,True,0.4,0.4,True,True,True,0,2,recovered_gold,0.49999993456532327,0.2,0.8333333333333334
+medqa_test_0584,Tracheobronchial rupture,7,0,0,False,False,0.0,0.0,False,False,False,,,stable_other,0.9462296768131144,0.0,0.0
+medqa_test_0842,Bacillus cereus infection,4,1,1,True,True,0.25,0.25,True,True,False,1,1,acquired_gold,0.9999392392631877,0.0,0.8
+medqa_test_0209,Squamous cell carcinoma,4,0,0,False,False,0.0,0.0,False,False,False,,,stable_other,0.7230331076638532,0.25,0.0
+medqa_test_0319,Bipolar II disorder,10,3,3,True,True,0.3,0.3,True,True,True,2,5,recovered_gold,0.2325153338467416,0.5,0.7272727272727273
+medqa_test_0920,Plummer-Vinson syndrome,5,2,1,True,True,0.4,0.2,True,True,False,2,2,acquired_gold,0.5846408299320912,0.0,0.6666666666666666
+medqa_test_1160,Psoriatic arthritis,6,1,1,True,True,0.16666666666666666,0.16666666666666666,True,True,False,3,3,acquired_gold,0.765358729846137,0.16666666666666666,0.5714285714285714
+medqa_test_0363,Papillary carcinoma of the thyroid,5,0,0,False,False,0.0,0.0,True,True,False,0,0,stable_gold,0.6812959034486632,0.0,1.0
+medqa_test_0853,Neuroleptic malignant syndrome,7,2,2,True,True,0.2857142857142857,0.2857142857142857,False,True,True,3,,lost_gold,0.4841577991102281,0.42857142857142855,0.125
+medqa_test_1106,Cyclothymic disorder,10,1,1,True,True,0.1,0.1,True,True,False,4,4,acquired_gold,0.7043668513076993,0.4,0.6363636363636364
+medqa_test_0159,Bartter's syndrome,13,0,0,False,False,0.0,0.0,False,False,False,,,stable_other,0.2455551913703385,0.6153846153846154,0.0
+medqa_test_0035,Psoriatic arthritis,5,3,3,True,True,0.6,0.6,True,True,False,4,4,acquired_gold,0.30380457668796174,0.2,0.3333333333333333
+medqa_test_0660,Generalized anxiety disorder,6,0,0,False,False,0.0,0.0,False,False,False,,,stable_other,0.9947718777157364,0.3333333333333333,0.0
+medqa_test_0167,Takotsubo cardiomyopathy,6,0,0,False,False,0.0,0.0,True,True,False,0,0,stable_gold,0.7959264956642259,0.0,1.0
+medqa_test_0118,Chronic obstructive pulmonary disease,8,0,0,False,False,0.0,0.0,True,True,False,0,0,stable_gold,0.49982799615443796,0.125,1.0
+medqa_test_0197,Chronic kidney failure,4,2,2,True,True,0.5,0.5,False,True,True,1,,lost_gold,0.5727869459057443,0.25,0.6
+medqa_test_0228,Chikungunya,7,4,4,True,True,0.5714285714285714,0.5714285714285714,False,True,True,1,,lost_gold,0.28446025384967893,0.42857142857142855,0.625
+medqa_test_0303,Vaginal septum,14,3,3,True,True,0.21428571428571427,0.21428571428571427,False,False,False,,,switching_other,0.2704016924838945,0.0,0.0
+medqa_test_0568,Primary biliary cirrhosis,9,0,0,False,False,0.0,0.0,True,True,False,0,0,stable_gold,0.4999026765010456,0.0,1.0
+medqa_test_1170,Exertional heat stroke,8,2,2,True,True,0.25,0.25,False,True,True,1,,lost_gold,0.4046118855254639,0.375,0.1111111111111111
+medqa_test_0188,Rotator cuff injury,8,2,2,True,True,0.25,0.25,False,True,True,0,,lost_gold,0.5407331018673898,0.25,0.7777777777777778
+medqa_test_0843,Histoplasmosis,11,0,0,False,False,0.0,0.0,True,True,False,0,0,stable_gold,0.342885749764459,0.18181818181818182,1.0
+medqa_test_0925,Chediak-Higashi syndrome,5,1,1,True,True,0.2,0.2,True,True,False,2,2,acquired_gold,0.7398782780305139,0.2,0.6666666666666666
+medqa_test_1145,Fibroadenoma,2,1,1,True,True,0.5,0.5,False,False,False,,,switching_other,0.9237105133513017,0.5,0.0
+medqa_test_1271,Schizotypal personality disorder,9,2,2,True,True,0.2222222222222222,0.2222222222222222,True,True,False,5,5,acquired_gold,0.3684766811832812,0.3333333333333333,0.5
+medqa_test_1119,Pes anserine bursitis,6,2,2,True,True,0.3333333333333333,0.3333333333333333,False,False,False,,,switching_other,0.4238351812956402,0.16666666666666666,0.0
+medqa_test_0812,Adenocarcinoma of the lung,9,2,2,True,True,0.2222222222222222,0.2222222222222222,False,False,False,,,switching_other,0.43552362724030497,0.4444444444444444,0.0
+medqa_test_0166,Silicosis,5,4,4,True,True,0.8,0.8,False,True,True,2,,lost_gold,0.25939490386258407,0.4,0.3333333333333333
+medqa_test_0576,Ruptured ovarian cyst,9,2,2,True,True,0.2222222222222222,0.2222222222222222,False,True,True,0,,lost_gold,0.3978346162086259,0.3333333333333333,0.2
+medqa_test_1179,Syringomyelia,12,1,1,True,True,0.08333333333333333,0.08333333333333333,False,False,False,,,switching_other,0.9998781733233605,0.0,0.0
+medqa_test_0282,Schizoid personality disorder,5,1,1,True,True,0.2,0.2,True,True,False,4,4,acquired_gold,0.6009129083165468,0.4,0.3333333333333333
+medqa_test_0148,Frontotemporal dementia,5,4,4,True,True,0.8,0.8,False,False,False,,,switching_other,0.2522653384148235,0.6,0.0
+medqa_test_0105,Borderline personality disorder,6,0,0,False,False,0.0,0.0,True,True,False,0,0,stable_gold,0.9999706911784586,0.0,1.0
+medqa_test_0991,Ewing sarcoma,8,1,1,True,True,0.125,0.125,True,True,False,2,2,acquired_gold,0.7716489458995222,0.125,0.7777777777777778
+medqa_test_0922,Chronic granulomatous disease,11,1,1,True,True,0.09090909090909091,0.09090909090909091,True,True,False,1,1,acquired_gold,0.46614390466927424,0.18181818181818182,0.9166666666666666
+medqa_test_0374,Valley fever,11,0,0,False,False,0.0,0.0,True,True,False,0,0,stable_gold,0.5244807291042373,0.36363636363636365,1.0
+medqa_test_0071,Cardiac contusion,7,2,2,True,True,0.2857142857142857,0.2857142857142857,False,True,True,1,,lost_gold,0.45460722297118555,0.42857142857142855,0.75
+medqa_test_0529,Central retinal artery occlusion,8,2,2,True,True,0.25,0.25,False,False,False,,,switching_other,0.22445718158388805,0.5,0.0
+medqa_test_0806,Crohn’s disease,7,0,0,False,False,0.0,0.0,False,False,False,,,stable_other,0.271218404505504,0.0,0.0
+medqa_test_1189,Posttraumatic stress disorder,3,0,0,False,False,0.0,0.0,False,False,False,,,stable_other,0.49551763643125885,0.3333333333333333,0.0
+medqa_test_0368,Trichomonal vaginitis,7,1,1,True,True,0.14285714285714285,0.14285714285714285,False,False,False,,,switching_other,0.8818738335453158,0.14285714285714285,0.0
+medqa_test_0820,Waldenstrom’s macroglobulinemia,4,1,1,True,True,0.25,0.25,True,True,False,4,4,acquired_gold,0.7243792902397862,0.25,0.2
+medqa_test_0132,Diverticulitis,7,4,3,True,True,0.5714285714285714,0.42857142857142855,True,True,True,0,6,recovered_gold,0.3110287291057762,0.5714285714285714,0.625
+medqa_test_0841,Adenomatous polyp,4,1,1,True,True,0.25,0.25,True,True,False,3,3,acquired_gold,0.9648541399895847,0.0,0.4
+medqa_test_1069,Phyllodes tumor,8,0,0,False,False,0.0,0.0,False,False,False,,,stable_other,0.4775154930575825,0.375,0.0
+medqa_test_0040,Polycystic ovarian syndrome (PCOS),7,1,1,True,True,0.14285714285714285,0.14285714285714285,True,True,False,4,4,acquired_gold,0.7609276946608291,0.0,0.5
+medqa_test_0656,Perforated gastric peptic ulcer,6,0,0,False,False,0.0,0.0,True,True,False,0,0,stable_gold,0.571171245653613,0.16666666666666666,1.0
+medqa_test_1075,Lambert-Eaton syndrome,7,0,1,False,True,0.0,0.14285714285714285,False,False,False,,,stable_other,0.5235125233016429,0.2857142857142857,0.0
+medqa_test_1253,Scalded skin syndrome,3,1,1,True,True,0.3333333333333333,0.3333333333333333,True,True,False,1,1,acquired_gold,0.9999992577167734,0.0,0.75
+medqa_test_0594,Gastric peptic ulcer,8,1,1,True,True,0.125,0.125,True,True,False,2,2,acquired_gold,0.8978520401375979,0.25,0.7777777777777778
+medqa_test_0985,Chronic lymphocytic leukemia (CLL),10,2,2,True,True,0.2,0.2,False,False,False,,,switching_other,0.49856098589887093,0.0,0.0
+medqa_test_0680,Acute hepatitis B,8,1,1,True,True,0.125,0.125,True,True,False,8,8,acquired_gold,0.6350855717791436,0.5,0.1111111111111111
+medqa_test_0103,Myxedema coma,6,4,4,True,True,0.6666666666666666,0.6666666666666666,True,True,True,0,6,recovered_gold,0.2708513278903109,0.3333333333333333,0.42857142857142855
+medqa_test_0230,Coarctation of the aorta,5,0,0,False,False,0.0,0.0,True,True,False,0,0,stable_gold,0.985268701441223,0.2,1.0
+medqa_test_0671,Tinea cruris,5,0,0,False,False,0.0,0.0,True,True,False,0,0,stable_gold,0.3599866419198132,0.0,1.0
+medqa_test_0088,Thoracic aortic rupture,11,1,1,True,True,0.09090909090909091,0.09090909090909091,False,True,True,0,,lost_gold,0.8243152863791785,0.36363636363636365,0.9166666666666666
+medqa_test_0392,Chronic obstructive pulmonary disease,11,0,0,False,False,0.0,0.0,True,True,False,0,0,stable_gold,0.49894816802745245,0.09090909090909091,1.0
+medqa_test_1082,Bullous pemphigoid,4,0,0,False,False,0.0,0.0,True,True,False,0,0,stable_gold,0.371859683712975,0.5,1.0
+medqa_test_0654,Muellerian agenesis,7,0,0,False,False,0.0,0.0,False,False,False,,,stable_other,0.99995730033792,0.0,0.0
+medqa_test_1174,Silent thyroiditis,6,1,1,True,True,0.16666666666666666,0.16666666666666666,False,False,False,,,switching_other,0.6968790473255798,0.16666666666666666,0.0
+medqa_test_0959,Adhesive capsulitis,7,3,3,True,True,0.42857142857142855,0.42857142857142855,False,True,True,0,,lost_gold,0.30490340983656594,0.42857142857142855,0.375
+medqa_test_0870,Ulcerative colitis,6,1,1,True,True,0.16666666666666666,0.16666666666666666,False,False,False,,,switching_other,0.803774154320562,0.0,0.0
+medqa_test_0698,Major depressive disorder,5,1,1,True,True,0.2,0.2,True,True,False,5,5,acquired_gold,0.8800833811979095,0.2,0.16666666666666666
+medqa_test_1254,Lichen sclerosus,7,0,0,False,False,0.0,0.0,True,True,False,0,0,stable_gold,0.4539589769649982,0.14285714285714285,1.0

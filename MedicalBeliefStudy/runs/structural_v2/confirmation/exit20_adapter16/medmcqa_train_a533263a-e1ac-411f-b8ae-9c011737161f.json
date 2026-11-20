@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_a533263a-e1ac-411f-b8ae-9c011737161f",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Oemphilaxia\"}",
+      "generated_disease": "Oemphilaxia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "e17a1458071584b6d785907351246fa12075f7812954ea3ae6a4ec5ba43956e6"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Optilaxenia\"}",
+      "generated_disease": "Optilaxenia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "162e51f883bedb56a81bbaf7a195088353fe553960c451a57890c9ff43ff4a0f"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_03577",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Attention-deficit/hyperactivity disorder\"}",
+      "generated_disease": "Attention-deficit/hyperactivity disorder",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "fc04f27a7de8e3522f9092c573b3b1cd582337e1ffa91be13a80e64b74c258e9"
+    }
+  ]
+}

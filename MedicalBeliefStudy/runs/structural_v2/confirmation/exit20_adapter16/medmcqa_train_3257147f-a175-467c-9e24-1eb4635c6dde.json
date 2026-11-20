@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_3257147f-a175-467c-9e24-1eb4635c6dde",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniform disease of course unspecified\"}",
+      "generated_disease": "Chronic veniform disease of course unspecified",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "0faf314b04a36252d624c50f0aa576ae5a65370bd283a1cb351a3c768f130c08"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Oemphiliaenotaxia\"}\"}Note: The correct answer should be either \"Eplararararum orphans orphans orphans (non-standard and/or non-existent inclusions\"} However, based purely within the provided information and without further information provided in the original request",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 60,
+      "prompt_sha256": "beb9cf6cecd0f4303be71acaf679ad3341e2583119ed4c3a4837f7be49a7b471"
+    }
+  ]
+}

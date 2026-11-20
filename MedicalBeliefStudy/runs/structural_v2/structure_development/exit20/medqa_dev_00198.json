@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_dev_00198",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Dhemmed综合征或phansystematicityofofcoursenotyetknowinglyand/orphansesults thereofbutcherserventodentifythematicallyand/orlydenningthematicallyand/or...nonepotocostservsontreeviewingservicefacilityseetcellaneousunknownnesssandservs",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "4ba082811a030b551063e92bcad0f298a27039e56c7c1df2ae04cae7bd6f3db4"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Dhemmed综合征或phansystematicityofofcoursenotyetknowinglyyetbutchersandrewsianlikehoodsandservservsunderneathandrewsianlikehoods_andrewsianlike_againagainagainwhywhywhywhywhywhywhyagainagainagainwhyagainwhyagainwhy",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "e5e48df5378909fcfc0cb9afefa8d2595ce4971bc0715701116e21f6b6eea2c5"
+    }
+  ]
+}

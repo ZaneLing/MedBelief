@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_08244",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Herniated nucleus pulposus\"}",
+      "generated_disease": "Herniated nucleus pulposus",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "9c28f8237223116a70a5d65a6c11a60f16ef5454978c8ef74f8c7eb26fcee931"
+    }
+  ]
+}

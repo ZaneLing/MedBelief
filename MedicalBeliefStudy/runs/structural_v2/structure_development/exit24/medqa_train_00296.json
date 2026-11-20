@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_00296",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit24",
+    "exit_layer": 24
+  },
+  "parameter_stats": {
+    "parameters": 1519230976,
+    "weight_bytes": 3038461952,
+    "layers": 24
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Disc herniation\"}",
+      "generated_disease": "Disc herniation",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "8238d3f48773abfaf44c2a5f32d16eb31bdbf151058f3103b22bbe9b17308c77"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Disc herniation\"}",
+      "generated_disease": "Disc herniation",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "2584cf186aab94af1960622dd77da19af9d84fd83a168e18415df1d538a88336"
+    }
+  ]
+}

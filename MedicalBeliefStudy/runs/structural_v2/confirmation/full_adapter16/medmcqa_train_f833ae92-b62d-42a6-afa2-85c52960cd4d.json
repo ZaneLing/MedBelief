@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_f833ae92-b62d-42a6-afa2-85c52960cd4d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "IgA-NIAB\"}",
+      "generated_disease": "IgA-NIAB",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "e0a74f8d7b221f07241374c0cfe40bfdf99df94ad288c06318454fae7f09be1b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "IgA-NIAB\"}",
+      "generated_disease": "IgA-NIAB",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "f2dd389c912e272918785e2c7a90e6494f903d74f8a1a9b5a64b3802be09d733"
+    }
+  ]
+}

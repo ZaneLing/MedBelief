@@ -1,0 +1,34 @@
+{
+  "case_id": "medmcqa_train_28516649-c05f-4e0f-9a49-6020b01be4f6",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Alveolar hypoventilation\"}",
+      "generated_disease": "Alveolar hypoventilation",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "ccb8f525669962faaf686cc94980970ada7c248818491a6c49add9ffbdc95646"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Anxiety\"}",
+      "generated_disease": "Anxiety",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "1c28000328f27cd8815de8dc9491ed0a3574686aa4246e3b342aec315eee0b0b"
+    }
+  ]
+}

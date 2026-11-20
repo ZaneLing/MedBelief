@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_05089",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "mlp_width75",
+    "mlp_keep": 0.75
+  },
+  "parameter_stats": {
+    "parameters": 1456333824,
+    "weight_bytes": 2912667648,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Lynch syndrome\"}",
+      "generated_disease": "Lynch syndrome",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "6e8a561743873b57068cdd864e336098511f5533fc022c5f0eba056e872e742b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Familial adenomatous polyposis\"}",
+      "generated_disease": "Familial adenomatous polyposis",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "91379964e62a0b47089de4b4b8573730015757cb0e068eaea0cbfcfe7ee2d132"
+    }
+  ]
+}

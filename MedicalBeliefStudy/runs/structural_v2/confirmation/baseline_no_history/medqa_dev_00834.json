@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_dev_00834",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Cytotoxic CD8 T cells pathway\"}",
+      "generated_disease": "Cytotoxic CD8 T cells pathway",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "8a22563b4ecbb68a5270337e839375e4ed1ef51c28722d2f3505e28878f637ca"
+    }
+  ]
+}

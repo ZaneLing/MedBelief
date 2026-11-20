@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_bf36ffdf-baaf-4bed-9bc8-fea302207307",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Ulcerative colitis\"}",
+      "generated_disease": "Ulcerative colitis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "0a354258b40255bed7684d07242d32be2a0a9a93d3ed7a98b9cdbb498ec9db3d"
+    }
+  ]
+}

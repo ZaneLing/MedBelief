@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_90dde02f-6019-43bd-9db9-6af7577da59c",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Pancreatic carcinoma\"}",
+      "generated_disease": "Pancreatic carcinoma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "dd8b79ed3b16020382c4aa28f0dc77dcb8422f66291e925aa22e5244b69aff10"
+    }
+  ]
+}

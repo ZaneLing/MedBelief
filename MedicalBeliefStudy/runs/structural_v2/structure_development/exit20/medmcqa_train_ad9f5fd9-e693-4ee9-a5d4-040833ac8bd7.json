@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_ad9f5fd9-e693-4ee9-a5d4-040833ac8bd7",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "10th-grade-level-level-ofinterestlessness-foray-instrumentationally-linkednessesystematicitydnsikewingsubsequentlyascutteraneousityand/orificusoftnesseservantodirectionsontreeforestwoodlandsandserventancousityand/orificeleturationstervic",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "71f981b38d5cd9ca19e39d72613cea550a3ddc5edb469a44bd0b184d1cc93195"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Rinault syndrome orientsative",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "da1f7a69047666e8ad2c1e31011de23012843787701ed6449dbae395838771a0"
+    }
+  ]
+}

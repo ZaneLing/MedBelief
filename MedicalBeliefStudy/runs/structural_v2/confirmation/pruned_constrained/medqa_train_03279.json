@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_03279",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Alzheimer disease\"}",
+      "generated_disease": "Alzheimer disease",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "1c45a135fc1f8d76ce5a7d70705b04132bdabeb0e57670daf23299c88cc372e7"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Frontotemporal dementia\"}",
+      "generated_disease": "Frontotemporal dementia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "cec78cdc35d3e94b3bb3c3831b622091c9cd39125b2bdac9e8dd522c5f346bfc"
+    }
+  ]
+}

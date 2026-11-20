@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_70cdb234-7d88-4abe-ad6c-0ee35eb34489",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic poemmonary disease\"} (Note: This is an error correction and/or an error in the original list of options. actual correct answer should be either \"Beta mescolaria orphans orphans orphans orophy orophy oracum oracum oracum oracum orac",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "3db06fa811599d8e4d58bc9fdff781b3f289082a6494f4b6628d17e0cb013a70"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic mycephysematic disorder (NSpecyia or hypercephyonekserventia\"}\"}\"}\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}าhandlers",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "5e4cef70a94abb0ad3101e348634b0cc8f563629329d882f4f1a10e829789320"
+    }
+  ]
+}

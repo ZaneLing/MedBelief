@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_03600",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Intermetatarsal plantar nerve neuroma\"}",
+      "generated_disease": "Intermetatarsal plantar nerve neuroma",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "2472a1d72da5648f8291732f85f14faa9a2e634c765887f308d0c491e79f7f58"
+    }
+  ]
+}

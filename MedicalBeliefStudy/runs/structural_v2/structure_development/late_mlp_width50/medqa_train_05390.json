@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_train_05390",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Multiple myeloma\"}",
+      "generated_disease": "Multiple myeloma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "4ac50b61d0995c53b081fe82f8b9ddef5df1627afa410c1bedf4c689db8b159b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Waldenstrom macroglobulinemia\"}",
+      "generated_disease": "Waldenstrom macroglobulinemia",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "e4d1e229a5192b1264e7958df7ba3b9b13d03890e4a7984f67e0a6fdc0d73d7e"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "medmcqa_train_9d3611ab-3fc4-42d4-8355-2d358a079034",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Ectopic pregnancy\"}",
+      "generated_disease": "Ectopic pregnancy",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "14f1a03a6fee8fa8361471373166a84c4f6b5f05637561c1b31f91d7b436b6e2"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Fetal distress\"}",
+      "generated_disease": "Fetal distress",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "ec14b380842a49fc8ca3c2a7492cbf83afd44dd8fb1c669e995549d2e19f3408"
+    }
+  ]
+}

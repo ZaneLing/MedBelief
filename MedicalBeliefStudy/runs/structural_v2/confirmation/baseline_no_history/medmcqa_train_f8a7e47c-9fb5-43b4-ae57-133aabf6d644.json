@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_f8a7e47c-9fb5-43b4-ae57-133aabf6d644",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Chronic pancreatitis\"}",
+      "generated_disease": "Chronic pancreatitis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "57c2ec932a84493093da4324ad43c0e1334eb47e84cb8e3303dccd4f8aee4804"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_03990",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxiaotic dystosolotic disorder\"}",
+      "generated_disease": "Pemphoxiaotic dystosolotic disorder",
+      "stop": "eos",
+      "tokens": 12,
+      "prompt_sha256": "6110b63dd830878f58910a16a9acf899f377602b81e1d4c9650d6b68aac22798"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxiaotic disorder or hypercephension or other advanced disease or other advanced disease or other emplentary disease or other emzualserventary disease or other alenary disease or other alenathososentecualservenemphodictive disorder or other al",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "f3bad5dc2e07bfa78d99f871abafffcbba38e952911b715c1857373541726a4a"
+    }
+  ]
+}

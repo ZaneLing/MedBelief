@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_dd030924-5129-4540-8608-d19992b13a16",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Polycythemia\"}",
+      "generated_disease": "Polycythemia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "aeaf5d2b2d52ecb7ca9a3020db50c64b9a21ee395ee84626a138449db2775bd8"
+    }
+  ]
+}

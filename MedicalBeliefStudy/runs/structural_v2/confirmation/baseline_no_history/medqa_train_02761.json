@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_02761",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Inflammatory breast cancer\"}",
+      "generated_disease": "Inflammatory breast cancer",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "78fd1a6ebd91c31ce2b10acaba036033d28d35d3a509dcfb3d8d1ddf979054eb"
+    }
+  ]
+}

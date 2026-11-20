@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_b5536d8b-f83d-41d4-a74b-d03a627311c4",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Hervin's syndrome\"}",
+      "generated_disease": "Hervin's syndrome",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "404af678d0120a8d6ea024d6a791f272136c97ead22bb935e9f1ef5a7f432253"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Harcusian syndrome\"}",
+      "generated_disease": "Harcusian syndrome",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "33a0c0dd7b2fc599f82a326d216b4eda2c54e72fc34fed0839114a0c9ff21b3c"
+    }
+  ]
+}

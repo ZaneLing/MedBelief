@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_00959",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Luteanov's syndrome or hypercephension or hypercephemia or hypercephinal syndrome or hypercephinal disorder or hypercephinal met disorder or hyperdroidism or hyperoganemia or hyperogarinalia or hyperogavezoidism or hyperogavezoiding pyilings or",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "a048b8df91a6565a7e40ffe1b2e08d113b21a61e127f0ce27fb1160e1605305d"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Hemototososystic disorder\"} (Note: This is an error correction and/or an error in the original list of options. actual correct answer is typically \"Essonicity or other relevant phagenic or other relevant non-linear pathogenetic or other non-linear non-linear or other non-linear non-linear",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "06ae0d1227e6c41a8b4ea596084dbf6e057186c85566d678f44f92c1e6609e12"
+    }
+  ]
+}

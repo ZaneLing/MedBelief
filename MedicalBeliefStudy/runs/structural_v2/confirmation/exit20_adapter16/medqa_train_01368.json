@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_01368",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Aortic throm vas ancephical disease\"}",
+      "generated_disease": "Aortic throm vas ancephical disease",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "ef6db024b4052923abd87e443104bdbc38ddd6a73378467521fbf8428857ed83"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Aortic throm vas ancephical disease\"}",
+      "generated_disease": "Aortic throm vas ancephical disease",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "0696ee9c388bbaa1025019c74cfef5adb25730b20474b5248f3e381afd85bd2b"
+    }
+  ]
+}

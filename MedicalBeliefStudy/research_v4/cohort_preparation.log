@@ -1,0 +1,68 @@
+{
+  "created_date": "2026-11-20",
+  "raw_rows_by_dataset": {
+    "MedQA": 11450,
+    "MedMCQA": 123581,
+    "MMLU": 923
+  },
+  "eligible_before_dedup": {
+    "MMLU": 40,
+    "MedMCQA": 1662,
+    "MedQA": 801
+  },
+  "unique_eligible": {
+    "MMLU": 40,
+    "MedMCQA": 1363,
+    "MedQA": 800
+  },
+  "selected": {
+    "MMLU": 40,
+    "MedMCQA": 200,
+    "MedQA": 300
+  },
+  "patients": 540,
+  "cohorts": {
+    "confirmation": 359,
+    "development": 181
+  },
+  "mechanism_cases": 94,
+  "trajectory_prefixes": 537,
+  "unique_source_answers": 464,
+  "duplicates_removed": 300,
+  "similarity_threshold": 0.9,
+  "old_medqa_rows_compared": 1273,
+  "question_exclusions": {
+    "not_direct_diagnosis": 131299,
+    "external_visual_reference": 270,
+    "not_direct_diagnostic_answer": 758,
+    "candidate_format": 40,
+    "stem_length": 526,
+    "diagnostic_followup_not_answer": 22,
+    "sentence_count": 513,
+    "non_diagnosis_target": 2,
+    "missing_referenced_finding": 3,
+    "short_sentence_fragment": 18
+  },
+  "raw_sha256": {
+    "medmcqa_train-00000-of-00001.parquet": "b119434ba551517a6ec0ba1f7e0b4c029165ed284a4704f262ce37c791c493c5",
+    "medmcqa_validation-00000-of-00001.parquet": "b768a1ea34afc9f80d3106d9b21f80fa8a00ec450a1f6cd641af72ca9e591021",
+    "medqa_dev.jsonl": "774bbd90103af43badbe8d5294e336443573fc37b918763920b8fc3b3df581d9",
+    "medqa_train.jsonl": "3a65baf760f17c395058d6699315a7ce8aa767c50cb193fea87ceb94dd790324",
+    "mmlu_clinical_knowledge_dev-00000-of-00001.parquet": "105b492234b3de901223567bf9c72e4f87fe7f701f16b3ef903f1e8a4bb00913",
+    "mmlu_clinical_knowledge_test-00000-of-00001.parquet": "7bd3de302db35c6e9adb311ef40b2fb15ffe02ada17667119d9fb30fe393a44e",
+    "mmlu_clinical_knowledge_validation-00000-of-00001.parquet": "2337cba283032fc3dbbb0a7203fddd8ff1a3a5ed348328fe9df1199e57fefb97",
+    "mmlu_college_medicine_dev-00000-of-00001.parquet": "85bf7f27b795f63a87bb149b73f30acd182f1b04ee4573e36ba80c41ee81ff58",
+    "mmlu_college_medicine_test-00000-of-00001.parquet": "f21b3166975dbc14dff5940df41479bc28853008303c50a070d430fc59468f9c",
+    "mmlu_college_medicine_validation-00000-of-00001.parquet": "4b5a104770d73a2e4676869db26f107493286ef2a1a542eb893d5c2bfba762a2",
+    "mmlu_medical_genetics_dev-00000-of-00001.parquet": "a3e66d3e161967c0c331d24b055ac88e87d6d9a459335512b27d74308b39c57e",
+    "mmlu_medical_genetics_test-00000-of-00001.parquet": "f5535475f3afc3479697355679f2b615603fe90a58e8e5b6a98e50ccf07171b9",
+    "mmlu_medical_genetics_validation-00000-of-00001.parquet": "b1e5b8381e2f69c6c91cecaff8f9110e8964d5f65df83b5c83711406761e9f03",
+    "mmlu_professional_medicine_dev-00000-of-00001.parquet": "899036c8f5d8c035ee3f4dd17b4e2a761a8e507543cbadf40ac8106963725e1e",
+    "mmlu_professional_medicine_test-00000-of-00001.parquet": "8c1c18b16c9865bf52b7cd997c4d05346f914441645459fac8c5b2f78d9ebac9",
+    "mmlu_professional_medicine_validation-00000-of-00001.parquet": "f218bc4485cb02bda6fe19ace6a770429f748a7bee614517ddcea470c1646b69"
+  },
+  "selection_source_sha256": "855c430cffcff7fcb7d94a5f318d3fcf3e99ff9330850127d9329e3e998a9e3f",
+  "cases_sha256": "f77bacaed2f3217de0916d647c3cf06c8160e7240f0f841794644035028ddd23",
+  "protocol_sha256": "ebd6ecf9cedee309108ea262b165ca4ddbf236f11ea763a1f02b5d19688f7416",
+  "api_cost_usd": 0
+}

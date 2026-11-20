@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_e38ddb89-9f44-45be-9a50-aa581fbf0a15",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Hookworm infestation\"}",
+      "generated_disease": "Hookworm infestation",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "4bc694ecd3fa542506afb1a8d49bb4aba7c22b2eabda50f63f63db25708a8552"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Sickle cell disease\"}",
+      "generated_disease": "Sickle cell disease",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "c3d43ccaf31c757841bbd0319ea3e362ead49fc78c7e45ef66023e905b252cdd"
+    }
+  ]
+}

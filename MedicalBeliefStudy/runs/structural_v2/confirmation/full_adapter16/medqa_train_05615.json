@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_05615",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Anal fissure\"}",
+      "generated_disease": "Anal fissure",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "b0fd2552e06430a323323da04ead8b6fc38adfacaeb4108924334450c842f561"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Ulcerative colitis\"}",
+      "generated_disease": "Ulcerative colitis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "6a933c4810305b22a4405b9482b09184eeeca7ac98bebda18552d9a5162d2167"
+    }
+  ]
+}

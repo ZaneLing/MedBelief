@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_b039012d-ccf9-4712-a45a-27772fd52c8f",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic long-term stress stress stressful stressful emplentiguy\"} (Note: This last line is an error and should be an actual valid选项 among the listed ones. If only one valid option exists among the listed ones (excluding non-linear or non-standard options like \"Ch(...)entalystdwns",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "f53d364caf4739b58a0ee983e01877e743cd79f9fb58af35dcb292dcd09cf74a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxiaotic disorder or hyper stress stress disorder or stress out stress out emigranncy disorder or stress out emigroupentoid disorder or stress pycodesoptional disorder or stress pycomphilent disorder or stress pycogarovemation disorder or stress pycog",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "d8abdcf37ab85381c7caa6cf8700a1f54c69e75ec6950fbf0722d3b328f86eba"
+    }
+  ]
+}

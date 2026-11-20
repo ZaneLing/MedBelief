@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_02014",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Hyperparathyroidism\"}",
+      "generated_disease": "Hyperparathyroidism",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "059ce39c1b949112c2acc965753a9b95bdc5e1e9a4b0424fa216ef80ef09d2f8"
+    }
+  ]
+}

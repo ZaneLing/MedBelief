@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_dev_00157",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Bryonic-like structure in the bodystemral region\"}",
+      "generated_disease": "Bryonic-like structure in the bodystemral region",
+      "stop": "eos",
+      "tokens": 12,
+      "prompt_sha256": "4f64f7b55ffd33d1866159094a8da2ec308764318f7c77896c1decd0a3e91017"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Demicotaxia orients anecototal disorder orphans tracional devoentechserventos emetonicus etrochospy anetepoemphilentur acaprotaxoemphilenservicovemphasinalenemphilensig",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "0b5872d0a0a87041b79913ad75bac99835bec1e297dda4909a0cbb0af0cef41c"
+    }
+  ]
+}

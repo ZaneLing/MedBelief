@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_02818",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Wilms' tumor\"}",
+      "generated_disease": "Wilms' tumor",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "9ff4acb033ef364c2ab3586ab862326f63a9e2043957294092f1f68c134db2db"
+    }
+  ]
+}

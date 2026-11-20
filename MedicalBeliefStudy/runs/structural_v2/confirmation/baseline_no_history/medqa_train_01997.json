@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_01997",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Gastroschisis\"}",
+      "generated_disease": "Gastroschisis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ffad86d7b0124b5632b81d69835abe3d58eadbccf4be1c7df9f13bf830a7bcce"
+    }
+  ]
+}

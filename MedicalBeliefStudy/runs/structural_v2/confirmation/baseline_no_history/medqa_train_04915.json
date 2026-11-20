@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_04915",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Sinusitis with bacterial superinfection\"}",
+      "generated_disease": "Sinusitis with bacterial superinfection",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "3399db6ab56c13fd8da291369ea0c8a4dd19fd3b34acdd73e25ccdb94db0b182"
+    }
+  ]
+}

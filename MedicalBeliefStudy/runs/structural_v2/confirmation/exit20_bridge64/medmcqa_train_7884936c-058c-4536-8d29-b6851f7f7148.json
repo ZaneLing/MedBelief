@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_7884936c-058c-4536-8d29-b6851f7f7148",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Acute psychosis\"}",
+      "generated_disease": "Acute psychosis",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "c6b6c18a689b959752b989c3a5fb748678371a7279eb8c619036f37b0cfdcfa3"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Acute psychosis\"}",
+      "generated_disease": "Acute psychosis",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "424bb39a6cf46b840b8ab4851e16ebce947c4ac001e0c62096f8635a76c45b0a"
+    }
+  ]
+}

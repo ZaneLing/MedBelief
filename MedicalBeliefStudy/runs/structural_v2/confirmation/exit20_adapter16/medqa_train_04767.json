@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_04767",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Primary Chronic Travic stress disorder orients in time duration duration\"} (Note: This is an example of an non-cureable and/or non-linear pathophysic structure which may be an uniquitous or non-linear pathophysic structure which may be an unusual or non-linear pathogenic structure which may be an",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "b570bc2590f4fc92932bb60e489470be391f5cc7154ddc18f4c7cc6784fd1746"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Primary longening of an unilinearity of an unilinearity of an uniserviceraanegententemenservicpycosomovemmeakingenemensigenservservemmaanegemmaenemhememphemememphememphem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "a5a2219830b97dbb4fa3ac17b8fde052d5a21643c8eb8248fb9f5e271adde931"
+    }
+  ]
+}

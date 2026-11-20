@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_08843",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Fibroadenoma\"}",
+      "generated_disease": "Fibroadenoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "12429b50fc3ce25827d13c1f08273cda9831fc693872db6937d4b81fb03d1ad7"
+    }
+  ]
+}

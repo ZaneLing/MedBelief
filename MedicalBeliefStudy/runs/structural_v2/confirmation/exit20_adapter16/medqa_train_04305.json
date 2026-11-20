@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_04305",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pervicular stress disorder of the liver\"}",
+      "generated_disease": "Pervicular stress disorder of the liver",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "ddf6f1308b9cb91f2f1f130e6e6d73516702539659c89f49050767b19c0ef326"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pycodesenia of the liver or other body cells (non-linear disease)\"}",
+      "generated_disease": "Pycodesenia of the liver or other body cells (non-linear disease)",
+      "stop": "eos",
+      "tokens": 18,
+      "prompt_sha256": "3716700513784537dbafb43dfa9dd3539a7e3b849ed74caf917659c7fc7e5d81"
+    }
+  ]
+}

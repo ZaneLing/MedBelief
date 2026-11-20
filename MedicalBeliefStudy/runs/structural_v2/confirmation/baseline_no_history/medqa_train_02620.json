@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_02620",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Ovarian thecoma\"}",
+      "generated_disease": "Ovarian thecoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "bcdb241afe623cbfc6aafbf50a408a7127f80b560b11a18530fd963b8a9daf0d"
+    }
+  ]
+}

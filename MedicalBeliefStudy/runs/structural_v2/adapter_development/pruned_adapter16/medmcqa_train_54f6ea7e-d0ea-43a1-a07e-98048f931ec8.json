@@ -1,0 +1,52 @@
+{
+  "case_id": "medmcqa_train_54f6ea7e-d0ea-43a1-a07e-98048f931ec8",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Systemic Lupus Erythematosus\"}",
+      "generated_disease": "Systemic Lupus Erythematosus",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "fe914b2f187307debc34af14ae4836f8978866b85a31c6ce7d23fe3806177730"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Herpes Zoster\"}",
+      "generated_disease": "Herpes Zoster",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "d97405b7f560e32cc79d548c4ef8020c1ec79524fdd16ed18c4018a8a9b1ce13"
+    }
+  ]
+}

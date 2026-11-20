@@ -1,0 +1,74 @@
+{
+  "training_patients": 120,
+  "test_patients": 240,
+  "classes": 24,
+  "hyperparameters": "same as phase14: TF-IDF 1-2 grams / field indicators; Ridge alpha=1",
+  "results": {
+    "full": {
+      "correct": 239,
+      "patients": 240,
+      "accuracy": {
+        "mean": 0.9958333333333333,
+        "low": 0.9875,
+        "high": 1.0,
+        "cases": 240
+      },
+      "patient_mean_prefix_hit": {
+        "mean": 0.8955131481173149,
+        "low": 0.8605766494308161,
+        "high": 0.9260158914195374,
+        "cases": 72
+      }
+    },
+    "questions": {
+      "correct": 235,
+      "patients": 240,
+      "accuracy": {
+        "mean": 0.9791666666666666,
+        "low": 0.9583333333333334,
+        "high": 0.9958333333333333,
+        "cases": 240
+      },
+      "patient_mean_prefix_hit": {
+        "mean": 0.7993063842022176,
+        "low": 0.7403525043629211,
+        "high": 0.8497105151792652,
+        "cases": 72
+      }
+    },
+    "structured_values": {
+      "correct": 240,
+      "patients": 240,
+      "accuracy": {
+        "mean": 1.0,
+        "low": 0.9847471895987213,
+        "high": 1.0,
+        "cases": 240,
+        "method": "exact_binomial_boundary"
+      },
+      "patient_mean_prefix_hit": {
+        "mean": 0.8223336655628323,
+        "low": 0.7811492751076085,
+        "high": 0.8616431437004354,
+        "cases": 72
+      }
+    },
+    "presence": {
+      "correct": 236,
+      "patients": 240,
+      "accuracy": {
+        "mean": 0.9833333333333333,
+        "low": 0.9666666666666667,
+        "high": 0.9958333333333333,
+        "cases": 240
+      },
+      "patient_mean_prefix_hit": {
+        "mean": 0.7304186939603606,
+        "low": 0.673926453080099,
+        "high": 0.7853213197874656,
+        "cases": 72
+      }
+    }
+  },
+  "api_cost_usd": 0
+}

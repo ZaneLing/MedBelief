@@ -1,0 +1,14 @@
+{
+  "patients": 87,
+  "conditions": 783,
+  "layers": [
+    14,
+    21,
+    28
+  ],
+  "source_sha256": "e4d6f005b9f417beebf1a021d6c3c277af2c92ace471cd73c791b962b7977b97",
+  "protocol_sha256": "719a54bcfc6d6ea46cdaec8aee92ef8f424557c3fe42c841c968d064e82679d2",
+  "input_sha256": "76d2ae53f4c5c6f4c404d7fd7b97c67b13039d41936ada3c3552c2096d624fd6",
+  "prefill_source_sha256": "74abeff31d33d41bd5d8321024fd4a6cebb536b42b3d4b137d05dcc05e29e4ae",
+  "api_cost_usd": 0
+}

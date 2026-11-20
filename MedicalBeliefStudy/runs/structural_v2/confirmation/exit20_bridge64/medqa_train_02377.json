@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_02377",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Acute psychotic disorder\"}",
+      "generated_disease": "Acute psychotic disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "60c88775daf167e409e8d828befca66de8a4ff650f873e8f995e7953bc25a791"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Acute dystomomocystosis\"}",
+      "generated_disease": "Acute dystomomocystosis",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "b515757254f4ddba4721ee0cb8b8849b08c1cf52b09443435b09ef57e177960e"
+    }
+  ]
+}

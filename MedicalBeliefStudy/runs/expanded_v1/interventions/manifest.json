@@ -1,0 +1,13 @@
+{
+  "source_sha256": "d39c43c2037b34667288c456de1c312cf941e4419bfc9b7d2fcb01d42c0376e1",
+  "protocol_sha256": "bdee8858eb7ad57dbb2760e4c1e3c4dab90aec4acd1827291e56b3b2b981c20e",
+  "base_manifest_sha256": "2d31a7e0742ca4d06680d39f3f181bee5e3cd58c07b9b1e2b64290e7196cd8a6",
+  "components": [
+    "sham",
+    "previous_attention",
+    "previous_mlp",
+    "shifted_attention_difference",
+    "shifted_mlp_difference"
+  ],
+  "shift": 257
+}

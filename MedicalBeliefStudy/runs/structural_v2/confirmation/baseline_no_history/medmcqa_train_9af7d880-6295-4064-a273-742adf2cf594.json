@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_9af7d880-6295-4064-a273-742adf2cf594",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "X linked icthyosis nigra\"}",
+      "generated_disease": "X linked icthyosis nigra",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "4775bb02ed55e276afa1026d23bffbe11e7feeda475d54b8742c48096548e910"
+    }
+  ]
+}

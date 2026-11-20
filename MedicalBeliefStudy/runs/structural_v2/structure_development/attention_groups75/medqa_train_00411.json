@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_00411",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "G6PD deficiency\",\"reason\":\"Defect in the heme biosynthetic pathway leading to hemolysis and hemolysis in the circulatory system\"]",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 32,
+      "prompt_sha256": "39bb6d4a59768441301368cb17c6b0c1501af8369f5eb476653843e0cb1b8aa3"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Bernard-Soulier syndrome\",\"plasma_phospholipid_protein\":\"normal\",\"platelet_count\":150,\"platelet_clumping_present\":\"yes\",\"platelet_count\":18000,\"platelet_clumping_present\":\"no\",\"platelet_typing_normal\":\"yes\",\"platelet_typ",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "b7568f7e61b0adf8a38ac1d47cf28b1161f150d1e640da376a085b747be21768"
+    }
+  ]
+}

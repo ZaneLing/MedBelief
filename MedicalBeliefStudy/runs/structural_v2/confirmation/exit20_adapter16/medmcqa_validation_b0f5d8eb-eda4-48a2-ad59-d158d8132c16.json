@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_validation_b0f5d8eb-eda4-48a2-ad59-d158d8132c16",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxiaoticuseerystnystkemplabarystenemplabemphilenturseminalenemphodemphodemphiricenterickephilisseminalenemphodemphirinemplenservicovemphinal",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "ae5f950d40e38a0d7e9c6ce6388faa176dbc99b221a97a6f6489ddc64e6cbeba"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxiaotic orphans orphans\"} (Note: This is an error correction and/or an error in the original systematics. actual correct is \"Subiective disorder orphans orphans\"} (Note: This is an error of an unetidentmuals and/or an unwent",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "f65bc86e483acc1cc1c1fb118a78c6a11ece84c7fb84e9ec140c8710860623a3"
+    }
+  ]
+}

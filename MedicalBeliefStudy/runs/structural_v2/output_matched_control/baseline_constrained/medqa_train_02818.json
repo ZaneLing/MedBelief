@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_02818",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Neuroblastoma\"}",
+      "generated_disease": "Neuroblastoma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "d69886be322e2afa9c0ff6eecd52ad0bfd58a9e96a29653e27266e95fe430f95"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Neuroblastoma\"}",
+      "generated_disease": "Neuroblastoma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "5ad7ce0eb03588806faea8b3d5e78b50b7c083d73d245e1a46da5b4a558cbd4f"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_aaac3081-98dd-4d9d-a67a-5e5565e6c0db",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "none",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 1,
+      "prompt_sha256": "eb4e43ed7632f576df2c3ce693cea92996aee0736f22d7a78c38aa20ff803b82"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Dhematology.org.org@gmail.com",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "1a0cae9b1ee77abfdaa431a171c049bd5505c7a3882f05a1e346ab2d993b6831"
+    }
+  ]
+}

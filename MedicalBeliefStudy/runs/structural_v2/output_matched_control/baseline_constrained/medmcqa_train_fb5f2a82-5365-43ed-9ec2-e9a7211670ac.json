@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_fb5f2a82-5365-43ed-9ec2-e9a7211670ac",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Illness anxiety disorder\"}",
+      "generated_disease": "Illness anxiety disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "7630f10b7bd23c0da58cf05d46655483b8fb2e310751c774241bd6ab85549e3e"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Conversion disorder\"}",
+      "generated_disease": "Conversion disorder",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "21d980053cf62daac9bf1a6192529cfeb4397528f7e9c65c3441337c770d4b1b"
+    }
+  ]
+}

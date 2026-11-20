@@ -1,0 +1,52 @@
+{
+  "case_id": "medmcqa_train_fb7e3156-ea89-43f3-830c-629bf2dde78e",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Hyperparathroidism\"}",
+      "generated_disease": "Hyperparathroidism",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "e967e8d497fe42c449627b8483c46218381410e5ffe20fa6e7db580e1084b801"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Hyperparathroidism\"}",
+      "generated_disease": "Hyperparathroidism",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "3b4046de10b5f03efee31f8578d67ae002c2e46494bd475a9233ddbb47af44ac"
+    }
+  ]
+}

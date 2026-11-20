@@ -1,0 +1,52 @@
+{
+  "case_id": "medmcqa_validation_b0f5d8eb-eda4-48a2-ad59-d158d8132c16",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Placenta accreta\"}",
+      "generated_disease": "Placenta accreta",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ae5f950d40e38a0d7e9c6ce6388faa176dbc99b221a97a6f6489ddc64e6cbeba"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Placenta accreta\"}",
+      "generated_disease": "Placenta accreta",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "f65bc86e483acc1cc1c1fb118a78c6a11ece84c7fb84e9ec140c8710860623a3"
+    }
+  ]
+}

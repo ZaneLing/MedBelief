@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_d664d735-dd14-4b0f-a84b-cb70e8234f0c",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Ehrlichiosis\"}",
+      "generated_disease": "Ehrlichiosis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "0ba3e306abdca4993596661c64a12806d9925fec86c6645f6797404b43d1a051"
+    }
+  ]
+}

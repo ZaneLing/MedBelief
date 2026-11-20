@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_03996",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Generalized anxiety disorder (GAD)\"}",
+      "generated_disease": "Generalized anxiety disorder (GAD)",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "499b0bc1bccb909c2eaab998c4933c0a853c97a994a07754c51debced842e250"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Generalized anxiety disorder (GAD)\"}",
+      "generated_disease": "Generalized anxiety disorder (GAD)",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "407ef07e68cc2f50e6a387289eb73b0f7f45704e3772085f4bf96cfcbd62085d"
+    }
+  ]
+}

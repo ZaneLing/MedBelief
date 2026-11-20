@@ -1,0 +1,52 @@
+{
+  "case_id": "medmcqa_train_3831c897-090e-48df-b5cb-fb5fde4010e8",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Cervical tear\"}",
+      "generated_disease": "Cervical tear",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "d0e526aa2cc9d7f281309ec813f30bd864956ebc686f668bff2bce435dfaecd9"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Uterine inversion\"}",
+      "generated_disease": "Uterine inversion",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "3b0c88c7f276b1e280ee2e0f6eb76e5fecdec2632794591a5bf418d0e27023d5"
+    }
+  ]
+}

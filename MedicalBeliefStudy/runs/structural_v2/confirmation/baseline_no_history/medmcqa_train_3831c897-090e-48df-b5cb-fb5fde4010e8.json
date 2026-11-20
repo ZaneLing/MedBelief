@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_3831c897-090e-48df-b5cb-fb5fde4010e8",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Uterine inversion\"}",
+      "generated_disease": "Uterine inversion",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "17ea63695f90de119799ad93002c5015bb33d2b32fe7940990b28fe416b5b431"
+    }
+  ]
+}

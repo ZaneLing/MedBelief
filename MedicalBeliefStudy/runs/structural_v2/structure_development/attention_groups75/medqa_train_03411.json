@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_03411",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Diabetes insipidus\",\"explanation\":\"In a patient with diabetes insiproos, polyuria and osmolar demarcation manifolds are classic features of central diabetes insiproos. The presence of polyuria and polyuria in the setting of normal or increased urine output and absence of significant",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "d9ba6d42531472c4848bdedb337ba1a8d7d8f74fc85b014ea451077166981ab5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Diabetes insipidus\",\"explanation\":\"In a patient with diabetes insiproos, polyuria and osmolar demarcation mania are classic findings. The presence of polyuria and polyuria in the setting of normal or increased urine output and absence of significant weight loss or polyuria suggests central diabetes",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "219406eef36b37cc00233bfc0604c94e38e60cf078d5d4f421076bf9b0a9ff41"
+    }
+  ]
+}

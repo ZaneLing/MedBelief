@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_0fa159ee-30e9-4c6f-8d3c-8f56e4e706f7",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphotarocumarisarovemphiricentericogroupingservententososenturisparipostemphilentechserventemphinalentrobenturacovemanservemtracovememtracumphilens",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "580fd680b67627d6d32a59837ce1a53f9c5908aa7ccbe6ae3ca4c72484799141"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxia\"} (Note: This is an error correction and/or an error in the original system. actual correct answer is \"Essavarone orphans orphans etentososentotemos etc.\"} However, considering the actual scenario and typical pharcotonic acid-based anolrax",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "f88d5794115d4e5709364112004e9b8c751272ecb9c2a69e95069d264099c8f1"
+    }
+  ]
+}

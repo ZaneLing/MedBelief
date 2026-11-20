@@ -1,0 +1,49 @@
+{
+  "case_id": "medmcqa_train_c8c56bbc-b0c2-4004-892e-62524d0c075e",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Maple syrup urine disease\"}",
+      "generated_disease": "Maple syrup urine disease",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "8ab19fc2dabc8e0f229f00059e8a26a4f112e2c5576191f27e82463c1a94a3ad"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Phenylketonuria\"}",
+      "generated_disease": "Phenylketonuria",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "01dfa6b7fc49e3ab57ca778757587df28cd27399504076e91691590c197e9251"
+    }
+  ]
+}

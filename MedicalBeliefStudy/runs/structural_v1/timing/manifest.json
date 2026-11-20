@@ -1,0 +1,98 @@
+{
+  "cases": [
+    "medqa_train_09294",
+    "medqa_train_07813",
+    "medmcqa_train_dc91e15c-efbf-486e-8479-3f014b9e5197",
+    "medmcqa_train_73682c6e-7d69-48ba-8c4d-2bb4743db8d1",
+    "mmlu_professional_medicine_validation_0009",
+    "mmlu_professional_medicine_test_0242"
+  ],
+  "candidates": [
+    {
+      "name": "baseline"
+    },
+    {
+      "name": "early_exit",
+      "exit_layer": 27
+    },
+    {
+      "name": "drop_mlp_2",
+      "drop_mlps": [
+        25,
+        26
+      ]
+    },
+    {
+      "name": "linear_mlp_2_r16",
+      "replace_mlps": [
+        25,
+        26
+      ],
+      "rank": 16
+    },
+    {
+      "name": "drop_block_1",
+      "drop_blocks": [
+        27
+      ]
+    },
+    {
+      "name": "anchor_heads_8",
+      "anchor_drop_heads": {
+        "14": [
+          8,
+          12
+        ],
+        "22": [
+          2
+        ],
+        "17": [
+          9,
+          14,
+          2
+        ],
+        "15": [
+          6
+        ],
+        "12": [
+          13
+        ]
+      }
+    },
+    {
+      "name": "depth_matched_random_mlp_2",
+      "drop_mlps": [
+        28,
+        24
+      ]
+    },
+    {
+      "name": "block_influence_2",
+      "drop_blocks": [
+        26,
+        14
+      ]
+    },
+    {
+      "name": "linear_mlp_2_r64",
+      "replace_mlps": [
+        25,
+        26
+      ],
+      "rank": 64
+    }
+  ],
+  "source_sha256": "fd374372bdff4a381027e2af6ad8fd988d9bba33bbd7134dcdf5e1783120a45b",
+  "paired_repetitions": 3,
+  "warmups": 3,
+  "metric": "prefill of pretokenized code prompt and final full-vocabulary head; synchronous mx.eval; no generation",
+  "device": {
+    "device_name": "Apple M2 Pro",
+    "max_recommended_working_set_size": 26800603136,
+    "memory_size": 34359738368,
+    "architecture": "applegpu_g14s",
+    "max_buffer_length": 20100448256,
+    "resource_limit": 499000
+  },
+  "api_cost_usd": 0
+}

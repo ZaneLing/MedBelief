@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_03190",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Diabetic otopathy\"}",
+      "generated_disease": "Diabetic otopathy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "0830404595a081c49bf655a661e9526bf2bfec8ca3a0a181aa658eca93f1f796"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_9b822986-a0c9-4f93-ab58-8f16f4b41868",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Right encysted hydrocele of cord\"}",
+      "generated_disease": "Right encysted hydrocele of cord",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "deaeaf68a72fbd6c85eb94f973da18adb2b0051f59dac20aa10cf709f26f2321"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Right encysted hydrocele of cord\"}",
+      "generated_disease": "Right encysted hydrocele of cord",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "91e9c9e7b89b46978546728b5938f3f2c1cbf9b2e06679ec120c4d4d62cb3bbc"
+    }
+  ]
+}

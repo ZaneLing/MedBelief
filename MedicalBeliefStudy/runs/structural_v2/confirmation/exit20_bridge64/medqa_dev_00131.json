@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_dev_00131",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Acute myomomosis\"}",
+      "generated_disease": "Acute myomomosis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "50f14358c19389498e58b9b0a70135a16bd4e67f8deccf196c2da8817d5d817f"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocalmonary disorder\"}",
+      "generated_disease": "Cystocalmonary disorder",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "5fae2ffbd14bf445587da466b9d04324003d2498b1c163b11a7ede8590635c03"
+    }
+  ]
+}

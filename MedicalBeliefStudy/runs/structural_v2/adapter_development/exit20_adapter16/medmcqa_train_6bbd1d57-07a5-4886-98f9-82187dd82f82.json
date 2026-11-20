@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_6bbd1d57-07a5-4886-98f9-82187dd82f82",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Schorst syndrome orphans orphans etetarms etetarms etchervosememememememememememememememememememememememememememememememememememememememememememememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "4f52261d3245bf03b2845d2607f404501fb1b99dadf25c7705c14f5c15bb37d5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Schellsberg's disease\"}",
+      "generated_disease": "Schellsberg's disease",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "53b2fe7cd8fa3893ddb395d48251aa92c7fdfeaf0c820a3e86ae5e406906ea7a"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_06443",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Congenital CMV infection\"}",
+      "generated_disease": "Congenital CMV infection",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "55ee62cd257fa5ed1b3146bc86a44f0e4bc2958b73d17e76bb9292364475a5b5"
+    }
+  ]
+}

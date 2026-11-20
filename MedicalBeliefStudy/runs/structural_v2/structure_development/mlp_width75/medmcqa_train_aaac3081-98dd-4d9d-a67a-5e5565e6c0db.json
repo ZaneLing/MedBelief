@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_aaac3081-98dd-4d9d-a67a-5e5565e6c0db",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "mlp_width75",
+    "mlp_keep": 0.75
+  },
+  "parameter_stats": {
+    "parameters": 1456333824,
+    "weight_bytes": 2912667648,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Cirrhosis\"}",
+      "generated_disease": "Cirrhosis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "eb4e43ed7632f576df2c3ce693cea92996aee0736f22d7a78c38aa20ff803b82"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Malaria with DIC\"}",
+      "generated_disease": "Malaria with DIC",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "1a0cae9b1ee77abfdaa431a171c049bd5505c7a3882f05a1e346ab2d993b6831"
+    }
+  ]
+}

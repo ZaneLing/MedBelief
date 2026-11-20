@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_15bd8d7f-6174-4414-b763-35a14074705a",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": false,
+      "text": "21-hydroxylase deficiency\"}",
+      "generated_disease": "21-hydroxylase deficiency",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "4b50b887e85a8e948844dc1cb68ffa0a8008ac2a8d8023516e3b0495e7a0f394"
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "case_id": "medqa_train_06162",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -18.484375,
+        -17.14080810546875,
+        0.0,
+        -16.921875
+      ],
+      "q_sequence": [
+        9.382917481854292e-09,
+        3.5961813572039775e-08,
+        0.9999999098918732,
+        4.476339577434618e-08
+      ],
+      "q_token_mean": [
+        0.03576856218409337,
+        0.11596220152101909,
+        0.7788344622670305,
+        0.06943477402785696
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Musculoskeletal strain\"}",
+      "generated_disease": "Musculoskeletal strain",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "f1b647cfc10910ca7fe951e62c4b690142cd15784fc83fc4492560781e97234f"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -14.75,
+        -15.047061920166016,
+        0.0,
+        -13.84375
+      ],
+      "q_sequence": [
+        3.9278570378805726e-07,
+        2.9183899406264174e-07,
+        0.9999983432213488,
+        9.721539533770975e-07
+      ],
+      "q_token_mean": [
+        0.06061335773986539,
+        0.1330803202988305,
+        0.708286467426903,
+        0.09801985453440104
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Musculoskeletal strain\"}",
+      "generated_disease": "Musculoskeletal strain",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "860e485da42d9f1964b80ebbc9538b38553260ee117931ff365b3b1375c4d3f9"
+    },
+    {
+      "condition": "neutral",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -13.538009643554688,
+        -0.24563217163085938,
+        -10.913009643554688,
+        -1.6005096435546875
+      ],
+      "q_sequence": [
+        1.3412564741473565e-06,
+        0.794910106632897,
+        1.8515474499909967e-05,
+        0.2050700366361289
+      ],
+      "q_token_mean": [
+        0.05145007062959736,
+        0.47802083152511016,
+        0.07968742825798651,
+        0.39084166958730604
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Herniated nucleus pulposus\"}",
+      "generated_disease": "Herniated nucleus pulposus",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "b26341821cfa4d4db739b0ec3a957a34481fa63d274c34dd1dce7092d2022673"
+    },
+    {
+      "condition": "neutral",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.687564849853516,
+        -10.348922729492188,
+        -6.4849853515625e-05,
+        -10.375064849853516
+      ],
+      "q_sequence": [
+        3.812509750059925e-10,
+        3.202732509701004e-05,
+        0.9999367713815837,
+        3.1200912068310884e-05
+      ],
+      "q_token_mean": [
+        0.017143417390693555,
+        0.20160858360203113,
+        0.6366357096791748,
+        0.14461228932810047
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Musculoskeletal strain\"}",
+      "generated_disease": "Musculoskeletal strain",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "22dc40a3599d6ec1618b899ed5413420c9d6bc8ceb1605ff8d3d7a5505385be5"
+    },
+    {
+      "condition": "neutral",
+      "round": 5,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -14.789840698242188,
+        -2.8402557373046875,
+        -0.0867156982421875,
+        -3.7117156982421875
+      ],
+      "q_sequence": [
+        3.775264941565624e-07,
+        0.05842332158900575,
+        0.9171354685134608,
+        0.02444083237103921
+      ],
+      "q_token_mean": [
+        0.035592044783022816,
+        0.3053661751116586,
+        0.4126678305916203,
+        0.24637394951369834
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Musculoskeletal strain\"}",
+      "generated_disease": "Musculoskeletal strain",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "e48f85eb10a34e8cdf1ab4d0dced42254cc4f73894752b1f2bf41d271b37a87b"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -13.476192474365234,
+        -0.06995773315429688,
+        -2.6949386596679688,
+        -19.210567474365234
+      ],
+      "q_sequence": [
+        1.4040163069735141e-06,
+        0.9324507941130027,
+        0.06754779733164284,
+        4.539047549439911e-09
+      ],
+      "q_token_mean": [
+        0.05877060504147104,
+        0.5510914758468665,
+        0.3544323343427839,
+        0.03570558476887867
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Herniated nucleus pulposus\"}",
+      "generated_disease": "Herniated nucleus pulposus",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "edb49bf451831b964664143c4aeab30876cecfb699d664138f07152824483a2d"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -12.593761444091797,
+        -4.9591064453125e-05,
+        -12.750007629394531,
+        -21.843769073486328
+      ],
+      "q_sequence": [
+        3.393264403381634e-06,
+        0.9999937039855433,
+        2.902423923598577e-06,
+        3.261297595080363e-10
+      ],
+      "q_token_mean": [
+        0.0953110768760527,
+        0.7775133125187816,
+        0.09286111637689215,
+        0.03431449422827346
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Herniated nucleus pulposus\"}",
+      "generated_disease": "Herniated nucleus pulposus",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "1020821173ff40d2d664215aab64f1cc2e3a74ae4de9834b04fd99bb18ae7a74"
+    },
+    {
+      "condition": "wrong",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -22.281253814697266,
+        -9.5367431640625e-05,
+        -24.625,
+        -21.5
+      ],
+      "q_sequence": [
+        2.1057937658800828e-10,
+        0.9999999993092625,
+        2.0208766242501815e-11,
+        4.599493996489456e-10
+      ],
+      "q_token_mean": [
+        0.022433861631175313,
+        0.9197512043854262,
+        0.015179519730637855,
+        0.0426354142527607
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Herniated nucleus pulposus\"}",
+      "generated_disease": "Herniated nucleus pulposus",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "7eb13bddc2f567a2d1def74aaf458b3252937b761f9fdffd3cebda8bd299e92b"
+    },
+    {
+      "condition": "wrong",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -20.140628814697266,
+        -4.9591064453125e-05,
+        -20.5,
+        -21.8125
+      ],
+      "q_sequence": [
+        1.7908432708197692e-09,
+        0.9999999966224511,
+        1.2502148601127134e-09,
+        3.364907647263042e-10
+      ],
+      "q_token_mean": [
+        0.03133790431745202,
+        0.8992798932360015,
+        0.029516020032143455,
+        0.03986618241440298
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Herniated nucleus pulposus\"}",
+      "generated_disease": "Herniated nucleus pulposus",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "396582aab9ff0ec6cb088b81afa807606e75679ad988e8a25095b4c66962188e"
+    },
+    {
+      "condition": "wrong",
+      "round": 5,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -17.500003814697266,
+        -0.000133514404296875,
+        -22.140625,
+        -21.515625
+      ],
+      "q_sequence": [
+        2.511324787906332e-08,
+        0.9999999741915309,
+        2.423855413510331e-10,
+        4.528358077690884e-10
+      ],
+      "q_token_mean": [
+        0.048087424064335804,
+        0.8886230736664437,
+        0.022188714965517064,
+        0.04110078730370337
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Herniated nucleus pulposus\"}",
+      "generated_disease": "Herniated nucleus pulposus",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "89ab8ac91c35273cc26b67378392d3ed4df523dfbf8f571ad231d1688bc80180"
+    }
+  ],
+  "state_sha256": "bc7105495c4e4309bee39cf66b341dacec9f4be8a1bc03b7432fa70373a86afc"
+}

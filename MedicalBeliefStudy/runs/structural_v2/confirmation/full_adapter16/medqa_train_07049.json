@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_07049",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Neurogenic shock\"}",
+      "generated_disease": "Neurogenic shock",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "e82d4be5b61d60fa86026bc0ab00c70cd11c6fdf6f697ebdab6c16c985f450ee"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Hypovolemic shock\"}",
+      "generated_disease": "Hypovolemic shock",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "c643f98b254e84a2c2371522f27a329a7f21af0fcfbb2b8fafa4a42a3022bd43"
+    }
+  ]
+}

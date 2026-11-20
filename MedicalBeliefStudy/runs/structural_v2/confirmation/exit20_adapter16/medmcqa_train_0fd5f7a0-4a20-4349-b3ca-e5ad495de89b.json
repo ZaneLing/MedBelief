@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_0fd5f7a0-4a20-4349-b3ca-e5ad495de89b",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemulisbulsemperiority\"} (Note: This is an error correction version of \"pycodesuricenteringemigenserventetemensigroupingservememememememememememememememppertententecualenemens",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "f10536be092a3f1a736f378bc04bde545a605287a4c2f117cabd134bf6f87f35"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemulisbulsemperiority\"} (Note: This is an error correction version of \"pycodesuricenteringemigenserventetemensigroupingservememememememememememememememememememememememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "79f666353d4585b667192bd9428b0f96ccfefe36f7f7e8d6496ce5eec6dbc5b4"
+    }
+  ]
+}

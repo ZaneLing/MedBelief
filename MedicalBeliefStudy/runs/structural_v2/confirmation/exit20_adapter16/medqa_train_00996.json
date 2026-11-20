@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_00996",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformyraleniformalysturinopathycosmeticalysturinemia\"} (Note: This is an example of an non-linear and non-linear philacotarissematicity of an unochsymicraleniformesparicotaxiaphilarcal",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "77bfc5f9322f062be5da69219b24c8daede10ea185e71051ab81884119985d3f"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chilisburg's disease orients inappropriably inapproprianeously inappropriately inappropriately inappropriately inappropriately inappropriately inappropriately invaricalservententosentecemphonicityTrabovemphiricovemphinalenemphinalenemph",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "9e3866feaadac02f858653ada417e77e6bd40ca106cb4220d6d7be8d12838b48"
+    }
+  ]
+}

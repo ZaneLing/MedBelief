@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_06441",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Normalizing postponedralenysturic systematic disorder orphans unochservatigemphesparacovemphesparrowemphinalenyssemplacovemanservemtracovememphinalenwemenschellschellschellschells",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "cfedd0782ad9006c0b0f1f2c9503b1816c9e6bf494f48aa31a3ce843f3651937"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pervicentricausiformenystrophycotrophserventechserventetrephocetalentechservetemphenservemphenservemphesperipheralneepertentecchellservaripohemotaphynephilentaxenem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "f358a9dd11d020876ff90d4a30e1283a03403ca52c6a2964b01870b6ce31155e"
+    }
+  ]
+}

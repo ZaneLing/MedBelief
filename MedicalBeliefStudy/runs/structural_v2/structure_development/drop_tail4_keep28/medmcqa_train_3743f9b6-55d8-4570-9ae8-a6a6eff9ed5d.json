@@ -1,0 +1,40 @@
+{
+  "case_id": "medmcqa_train_3743f9b6-55d8-4570-9ae8-a6a6eff9ed5d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "drop_tail4_keep28",
+    "drop_blocks": [
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1519230976,
+    "weight_bytes": 3038461952,
+    "layers": 24
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "M",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 1,
+      "prompt_sha256": "fa86918aed94e522c2bbc02751323c3b723888370064f9e8cfc665a56200ff62"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "M",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 1,
+      "prompt_sha256": "29ab80769eda7fe6d829b2817718367b2faf76123e2c64977a94c4af39216689"
+    }
+  ]
+}

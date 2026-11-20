@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_c3546c75-1e5f-443c-982d-0097a3f5a137",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Derrington's syndrome orphans syndrome orphans syndrome",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 11,
+      "prompt_sha256": "b8281e2f899d071fb4f5e858060abd85978047d5ab27548704238b9cba125a13"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "DAPoinney",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "677f5a9136d4006889823dacd233093c0b31bed8e7307ac1422308d30258462e"
+    }
+  ]
+}

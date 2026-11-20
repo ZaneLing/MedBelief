@@ -1,0 +1,42 @@
+{
+  "seed": 20261119,
+  "cohorts": {
+    "replication": 60,
+    "readout_train": 120,
+    "readout_dev": 60,
+    "pilot": 12
+  },
+  "jobs": 6600,
+  "jobs_by_cohort": {
+    "readout_train": 360,
+    "readout_dev": 180,
+    "replication": 5034,
+    "pilot": 1026
+  },
+  "eligible": {
+    "fit": {
+      "Pneumonia": 553,
+      "Bronchitis": 605,
+      "Bronchospasm / acute asthma exacerbation": 417,
+      "Pulmonary embolism": 594,
+      "Spontaneous pneumothorax": 233,
+      "Acute pulmonary edema": 528
+    },
+    "discovery": {
+      "Pneumonia": 80,
+      "Bronchitis": 74,
+      "Bronchospasm / acute asthma exacerbation": 52,
+      "Pulmonary embolism": 86,
+      "Spontaneous pneumothorax": 30,
+      "Acute pulmonary edema": 70
+    }
+  },
+  "invalid_records": [],
+  "source_hashes": {
+    "ClinicalBelief/data/raw/train.csv": "93933e9a9a7a00d618a931deda7767485af299fe4635bf189a7c63b510e8b172",
+    "ClinicalBelief/data/raw/release_evidences.json": "281c78b044ae60514e28ecc9052d08a8225dd3e2db3f00f8788b99c47b05e0c0",
+    "ClinicalBelief/data/processed/fit.npz": "ec1d6f4a05e8275c2ec4bf97c35b6a402b42f002f937f8ab2807d39d7c2f7b19",
+    "ClinicalBelief/data/processed/discovery.npz": "6e3d0c67547476055fa18aefb6b48a44f74c5533a70c9db64fdfea8cc143835c"
+  },
+  "source_sha256": "74472138b7f7dec997c4257325e8ad817691b1cbbb455ef146e49be6d0aa15be"
+}

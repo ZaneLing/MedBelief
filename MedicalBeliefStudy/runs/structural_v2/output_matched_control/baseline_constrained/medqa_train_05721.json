@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_05721",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Cerebral palsy\"}",
+      "generated_disease": "Cerebral palsy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "eb8a5e8a83a71fcd398a5bbf43f60c8e7c0922ca04e2242e03e5763c4987b985"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Cerebral palsy\"}",
+      "generated_disease": "Cerebral palsy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "b596559ea99ac7e258e102266375b015017238a7d175272ec3cf93ab7de7ca3d"
+    }
+  ]
+}

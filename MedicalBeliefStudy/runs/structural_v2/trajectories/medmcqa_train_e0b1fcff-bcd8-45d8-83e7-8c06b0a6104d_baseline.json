@@ -1,0 +1,258 @@
+{
+  "case_id": "medmcqa_train_e0b1fcff-bcd8-45d8-83e7-8c06b0a6104d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -1.223480224609375,
+        -0.3484611511230469,
+        -16.02033805847168,
+        -15.817241668701172
+      ],
+      "q_sequence": [
+        0.29421093932862874,
+        0.705788815295238,
+        1.1027196404897098e-07,
+        1.3510416920823156e-07
+      ],
+      "q_token_mean": [
+        0.40958662321862915,
+        0.448459398922373,
+        0.0320545806264561,
+        0.10989939723254176
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Non cirrhotic portal venous obstruction\"}",
+      "generated_disease": "Non cirrhotic portal venous obstruction",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "88e91f023c3e3dd12d44708863853f23aa298af5624b4a67f9648b9fe3ad175d"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.3802947998046875,
+        -1.9427871704101562,
+        -1.7552604675292969,
+        -8.880264282226562
+      ],
+      "q_sequence": [
+        0.6836836729511039,
+        0.14330897641638848,
+        0.17286823838534895,
+        0.00013911224715866004
+      ],
+      "q_token_mean": [
+        0.32162275427802006,
+        0.28000060185318487,
+        0.24935195114331135,
+        0.14902469272548366
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Extrahepatic portal venous obstruction\"}",
+      "generated_disease": "Extrahepatic portal venous obstruction",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "0c264f93173386c77d5bdab23093c6476bbce9b39659895251390edf93f7b404"
+    },
+    {
+      "condition": "neutral",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.23387527465820312,
+        -1.70263671875,
+        -3.6401138305664062,
+        -9.546371459960938
+      ],
+      "q_sequence": [
+        0.791473335485569,
+        0.18220542258074934,
+        0.02624978068803333,
+        7.14612456482307e-05
+      ],
+      "q_token_mean": [
+        0.34907531290615723,
+        0.30609333336119704,
+        0.19480315443053475,
+        0.15002819930211092
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Extrahepatic portal venous obstruction\"}",
+      "generated_disease": "Extrahepatic portal venous obstruction",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "a524b5b59f14903a563fb0cfa56f64f818e26b7a1e3fbff5f518e06df6bf83de"
+    },
+    {
+      "condition": "neutral",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.054595947265625,
+        -2.9608497619628906,
+        -6.6170806884765625,
+        -18.554584503173828
+      ],
+      "q_sequence": [
+        0.946886691963498,
+        0.051775943069029204,
+        0.0013373562205545274,
+        8.746918252565312e-09
+      ],
+      "q_token_mean": [
+        0.4370500795648784,
+        0.3357407288017352,
+        0.1458619461987549,
+        0.0813472454346316
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Extrahepatic portal venous obstruction\"}",
+      "generated_disease": "Extrahepatic portal venous obstruction",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "5faae9d4824037f7a04c23b64bc70af57b7b4887fa3548b1899fda1046d308a5"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -1.24560546875,
+        -0.3393898010253906,
+        -15.683107376098633,
+        -15.308116912841797
+      ],
+      "q_sequence": [
+        0.2877747433191829,
+        0.712224877389599,
+        1.5449885471565942e-07,
+        2.2479236338237202e-07
+      ],
+      "q_token_mean": [
+        0.40603239622088305,
+        0.4459201404345934,
+        0.033688019428935886,
+        0.11435944391558772
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Non cirrhotic portal venous obstruction\"}",
+      "generated_disease": "Non cirrhotic portal venous obstruction",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "568202b423b4f0d8b06fdebddc91799b33f3a62079f408745e8916178901821f"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.001308441162109375,
+        -6.657619476318359,
+        -13.001293182373047,
+        -20.923168182373047
+      ],
+      "q_sequence": [
+        0.998713514790099,
+        0.0012842269351005385,
+        2.2574559724111684e-06,
+        8.18828009570291e-10
+      ],
+      "q_token_mean": [
+        0.5525355057372998,
+        0.3016931390716803,
+        0.06329246857154354,
+        0.08247888661947618
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Extrahepatic portal venous obstruction\"}",
+      "generated_disease": "Extrahepatic portal venous obstruction",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "c41338033a8203f4fc513492bd5f5166b9ec0fc1d82dd5b7befc94c2dbde9f0c"
+    },
+    {
+      "condition": "wrong",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.035797119140625,
+        -3.34832763671875,
+        -11.004547119140625,
+        -17.051422119140625
+      ],
+      "q_sequence": [
+        0.9648401087854837,
+        0.035143225890986764,
+        1.6625999020833748e-05,
+        3.932450868646897e-08
+      ],
+      "q_token_mean": [
+        0.4731423620965898,
+        0.35022738345308757,
+        0.07585964416324946,
+        0.10077061028707324
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Extrahepatic portal venous obstruction\"}",
+      "generated_disease": "Extrahepatic portal venous obstruction",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "f2594bab6d529ae6f9ad5e0b93f65812db7794a32af99855bba17df9e6e0622a"
+    },
+    {
+      "condition": "wrong",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.0584259033203125,
+        -2.870960235595703,
+        -9.214677810668945,
+        -20.277175903320312
+      ],
+      "q_sequence": [
+        0.943255480620671,
+        0.056644949845701655,
+        9.956797142326113e-05,
+        1.5622041288317425e-09
+      ],
+      "q_token_mean": [
+        0.4649960941311775,
+        0.3602777317550606,
+        0.10069457859189357,
+        0.07403159552186818
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Extrahepatic portal venous obstruction\"}",
+      "generated_disease": "Extrahepatic portal venous obstruction",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "ec3be27c59f879f8500453018681f8387fb98882b13d1ae979cd3fa655418c59"
+    }
+  ],
+  "state_sha256": "ca2939a91ade4b60d74238bfe7c3acc29744263ba3ecdb76ae5573e019774946"
+}

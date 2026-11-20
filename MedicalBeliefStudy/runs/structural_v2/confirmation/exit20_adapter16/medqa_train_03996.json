@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_03996",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Social anxiety disorder (AHSells et etemarms et etemarms etemmaarms etemwells etemwells etarms etarms etarms etarms rotechememememememememememememememememememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "499b0bc1bccb909c2eaab998c4933c0a853c97a994a07754c51debced842e250"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pychic anxiety disorder (Aemotical disorder orphans orphans etentososentepememememememememememememememememememememememememememememememememememememememememememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "407ef07e68cc2f50e6a387289eb73b0f7f45704e3772085f4bf96cfcbd62085d"
+    }
+  ]
+}

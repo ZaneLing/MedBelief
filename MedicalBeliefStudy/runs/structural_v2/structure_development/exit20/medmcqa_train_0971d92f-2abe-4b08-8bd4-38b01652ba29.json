@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_0971d92f-2abe-4b08-8bd4-38b01652ba29",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Dubin-Together syndrome orients; however, since there no mention of specific symptoms or additional information provided hereabouts; however, given the presence of both a significant-sizedotedness and/or other relevantities such诸如servutotalizeinglymphousity etc., butchersayingslyphenousness",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "f13895b5acf9dc80367a1a507e76f41f193b5d19d08836d33614e66db5177c3d"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "D",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 1,
+      "prompt_sha256": "ceec8de45e29fc7785eab77b8bf20f289f497268a59c96c22be83bf534199995"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_05660",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Acute inflammatory disorder\"}",
+      "generated_disease": "Acute inflammatory disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "48b91aa9510f25a767583c1f656cb52246e0f430fe2e6f390dd1c6c6c138d885"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Acute respiratory disorder\"}",
+      "generated_disease": "Acute respiratory disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "68981dad64dec994e99af2c679fae9f6026c7159a63cc1b84f10e8b00ca6341b"
+    }
+  ]
+}

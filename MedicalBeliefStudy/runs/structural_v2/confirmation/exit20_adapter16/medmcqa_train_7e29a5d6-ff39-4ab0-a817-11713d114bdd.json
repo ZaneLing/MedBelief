@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_7e29a5d6-ff39-4ab0-a817-11713d114bdd",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Acyclicronia溲rystaemia\"} (Note: This is an error error. actual correct answer is \"Beta-systatexoptionualsynetotaxoysenovemansesentetemensesepemetemensesenservememememememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "34788afc7787c69584b91d5561b28101e7f555d62706ab4b7f8d29292a59c0d6"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Tyin's syndrome (Egalia syndrome orphans orphans inductees\"}\"}\"}\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า\"}า冲\"}า吉安Pelisheirozmezepoemosar",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "22f18c10b7d3786ee29b1e326c79c0c1e49e22fc5defbc3f5dad71d88113cc93"
+    }
+  ]
+}

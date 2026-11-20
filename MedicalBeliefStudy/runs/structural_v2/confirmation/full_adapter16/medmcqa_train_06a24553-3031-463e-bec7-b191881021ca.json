@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_06a24553-3031-463e-bec7-b191881021ca",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Paroxysmal nocturnal hemoglobinuria\"}",
+      "generated_disease": "Paroxysmal nocturnal hemoglobinuria",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "db8f642c3c3ff133cf9f324fe3323df993be1a60675146d80dd59f09159418f0"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Paroxysmal nocturnal hemoglobinuria\"}",
+      "generated_disease": "Paroxysmal nocturnal hemoglobinuria",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "3393772d9f2594a35480d6a4262d8105d00a72dd31787fbbfe32dacbf41a5e8c"
+    }
+  ]
+}

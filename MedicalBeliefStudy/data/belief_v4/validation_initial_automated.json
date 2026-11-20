@@ -1,0 +1,42 @@
+{
+  "patients": 540,
+  "sources": {
+    "MMLU": 40,
+    "MedMCQA": 200,
+    "MedQA": 300
+  },
+  "source_cohorts": {
+    "MedQA": {
+      "confirmation": 200,
+      "development": 100
+    },
+    "MedMCQA": {
+      "confirmation": 133,
+      "development": 67
+    },
+    "MMLU": {
+      "confirmation": 26,
+      "development": 14
+    }
+  },
+  "mechanism_source_cohorts": {
+    "MedQA": {
+      "confirmation": 16,
+      "development": 16
+    },
+    "MedMCQA": {
+      "confirmation": 16,
+      "development": 16
+    },
+    "MMLU": {
+      "confirmation": 16,
+      "development": 14
+    }
+  },
+  "case_content_validated": true,
+  "source_labels_consistent": true,
+  "no_task_question_in_evidence": true,
+  "wording_not_generated": true,
+  "issues": [],
+  "case_sha256": "f77bacaed2f3217de0916d647c3cf06c8160e7240f0f841794644035028ddd23"
+}

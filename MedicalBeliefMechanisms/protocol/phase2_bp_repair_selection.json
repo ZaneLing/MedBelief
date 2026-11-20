@@ -1,0 +1,21 @@
+{
+  "scores_out_of_16": {
+    "baseline": 16,
+    "numbers": 14,
+    "source": 16,
+    "binding": 15,
+    "quality_wording": 16
+  },
+  "selected_methods": [
+    "baseline",
+    "numbers",
+    "source",
+    "binding",
+    "quality_wording"
+  ],
+  "reason": "Development baseline at ceiling; no repair selected",
+  "confirmation_rows": 80,
+  "selected_data_sha256": "7bc550465f1daec17a060f46fddae18c055e77c4b80cb47636903c19d302efe4",
+  "development_predictions_sha256": "4a2e3e160417c472a019bcd3777ac0f0fecd476487a34e5bea36b7a979e5bb42",
+  "confirmation_outputs_seen": false
+}

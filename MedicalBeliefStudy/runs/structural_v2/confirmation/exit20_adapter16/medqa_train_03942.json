@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_03942",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chilisburg syndrome\"}",
+      "generated_disease": "Chilisburg syndrome",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "60433d19ce3cb02421be5cbae64c1dd6ef0b3506b56f3e7e9a81e57ff7177232"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chilisburg syndrome or hypercephension or postponated reaction of an parfective disorder or other advanced-stage parasigonal disorder or other advanced-stage parasigonal disease or other advanced-stage parasigonal disease in an nontrilaxiaresous body or other advanced-stage poly- orphans or",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "e2204004ff4584b27ad99f0e80ef0b93b87bf790a26d5c12305d51ed728e6627"
+    }
+  ]
+}

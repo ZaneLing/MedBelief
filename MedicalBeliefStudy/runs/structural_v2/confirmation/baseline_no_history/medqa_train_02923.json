@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_02923",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Colon cancer\"}",
+      "generated_disease": "Colon cancer",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "f02c52db6cc2e98427e33500553848c561555779d383a753a9a844340e7b5d3a"
+    }
+  ]
+}

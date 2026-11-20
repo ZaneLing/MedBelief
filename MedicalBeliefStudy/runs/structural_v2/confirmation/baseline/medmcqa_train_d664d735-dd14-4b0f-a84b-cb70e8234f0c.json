@@ -1,0 +1,34 @@
+{
+  "case_id": "medmcqa_train_d664d735-dd14-4b0f-a84b-cb70e8234f0c",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Ehrlichiosis\"}",
+      "generated_disease": "Ehrlichiosis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "5c5583dc8db6e4d05fe221475d710bb34754638a019acf08f698a5a4569e77c4"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Rocky Mountain spotted fever\"}",
+      "generated_disease": "Rocky Mountain spotted fever",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "37852b86c5f2c0b8aa882167bea165411007fc861f6c941d94b832f719c07ff7"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_08377",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Femoral artery aneurysm\"}",
+      "generated_disease": "Femoral artery aneurysm",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "a4330bd77b9fabbe092cd80c494c23f01737fe55f4f1c4a75335de7de0a41acf"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Femoral artery aneurysm\"}",
+      "generated_disease": "Femoral artery aneurysm",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "441f059ad1718fff2c18b9973b598493fc532e74476a49d85e1e10c78346230c"
+    }
+  ]
+}

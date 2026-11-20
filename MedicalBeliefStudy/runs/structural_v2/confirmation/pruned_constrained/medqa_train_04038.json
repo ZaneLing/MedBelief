@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_04038",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Bronchiolitis\"}",
+      "generated_disease": "Bronchiolitis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "8dba42cb871373ce88bef5862ac14c4f43a183b7b0f4146da9134ac6c7772490"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Bronchiolitis\"}",
+      "generated_disease": "Bronchiolitis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "cc12566a8134c5a603a1c37b0267ec379010456c43416412173223434da08be0"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "cases": 120,
+  "reproduced_original_predictions": true,
+  "classification_accuracy": {
+    "full": {
+      "mean": 1.0,
+      "low": 0.9697270274225799,
+      "high": 1.0,
+      "cases": 120,
+      "method": "exact_binomial_boundary"
+    },
+    "questions_only": {
+      "mean": 1.0,
+      "low": 0.9697270274225799,
+      "high": 1.0,
+      "cases": 120,
+      "method": "exact_binomial_boundary"
+    },
+    "answers_only": {
+      "mean": 0.85,
+      "low": 0.7833333333333333,
+      "high": 0.9083333333333333,
+      "cases": 120
+    },
+    "evidence_ids_only": {
+      "mean": 0.975,
+      "low": 0.9416666666666667,
+      "high": 1.0,
+      "cases": 120
+    },
+    "demographics_only": {
+      "mean": 0.008333333333333333,
+      "low": 0.0,
+      "high": 0.025,
+      "cases": 120
+    }
+  },
+  "one_fixed_training_label_shuffle": {
+    "mean": 0.025,
+    "low": 0.0,
+    "high": 0.058333333333333334,
+    "cases": 120
+  },
+  "duplicate_fact_sets_ignoring_demographics": [],
+  "cross_fold_duplicate_fact_sets": [],
+  "median_nearest_training_text_cosine": 0.8685643095711535,
+  "max_nearest_training_text_cosine": 0.9621991326668032,
+  "exact_full_text_duplicates": 0
+}

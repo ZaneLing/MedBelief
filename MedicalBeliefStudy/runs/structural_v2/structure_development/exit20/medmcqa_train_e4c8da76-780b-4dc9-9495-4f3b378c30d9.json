@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_e4c8da76-780b-4dc9-9495-4f3b378c30d9",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Drynesslessnessesystematicityofofcoursefulnesseservutotalnessesultservodocumentsumminglyricsoundingsystematicityofreversibilityoforderlinessservservservsutterancestrengtheninglyricsoundingsomarithmeticitys",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "ce80cff71a8213aa4fa02f0ba516f174bb29a6846610fc78ca27935edc02ab77"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Atrafective综合征或phansystematicityofofcoursenotyetfullyunderneathbut neverthelesspresentationalmenteverythingelseexceptingtheusualitiesand/orphanserimentualserventeehoodsandservetorshiprightsand/orotherworldlinessnessesand/orotherworldlinesssnesss",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "b3bd70e8b001f8e1d0563980731d490b109c07c2253ba774cddf98ab336336c7"
+    }
+  ]
+}

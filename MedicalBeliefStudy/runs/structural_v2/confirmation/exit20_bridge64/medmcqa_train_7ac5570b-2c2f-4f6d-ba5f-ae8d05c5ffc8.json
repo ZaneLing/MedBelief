@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_7ac5570b-2c2f-4f6d-ba5f-ae8d05c5ffc8",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Bysmomopathy\"}",
+      "generated_disease": "Bysmomopathy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "173a9c42eb2342ca8651b07e179c6e094f526c121a5e6be927d07f87c7a65445"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Bysk--Hysk's syndrome\"}",
+      "generated_disease": "Bysk--Hysk's syndrome",
+      "stop": "eos",
+      "tokens": 11,
+      "prompt_sha256": "ca4e39f8b1ffba77613885bceff851730688fdf0b1db3655d75d9aafb64246f2"
+    }
+  ]
+}

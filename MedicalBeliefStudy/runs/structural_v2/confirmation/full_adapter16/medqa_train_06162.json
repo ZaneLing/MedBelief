@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_06162",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Osteomyelitis\"}",
+      "generated_disease": "Osteomyelitis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "e48f85eb10a34e8cdf1ab4d0dced42254cc4f73894752b1f2bf41d271b37a87b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Herniated nucleus pulposus\"}",
+      "generated_disease": "Herniated nucleus pulposus",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "89ab8ac91c35273cc26b67378392d3ed4df523dfbf8f571ad231d1688bc80180"
+    }
+  ]
+}

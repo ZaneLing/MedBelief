@@ -1,0 +1,49 @@
+{
+  "case_id": "medmcqa_train_1bba25d9-7512-458e-b47c-65a5a78c975f",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Eosinophilic esophagitis\"}",
+      "generated_disease": "Eosinophilic esophagitis",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "f2556ce812c1a2487c1f867fd80c4f8fbc2c79696a4be68eb327eeb5f52acd53"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Herpes\"}",
+      "generated_disease": "Herpes",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "06f22b8ed8b39690840233c551d7ef73ba8ab33c186aa69b184d22f2bb084e2d"
+    }
+  ]
+}

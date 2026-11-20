@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_48cb2618-4073-40ad-92de-e7470c9ab055",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Angiomyolipoma\"}",
+      "generated_disease": "Angiomyolipoma",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "a8c93eac7a4336832f76a812165af67c69bfe62685e7e5085da7500f84aadada"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Leiomyoma\"}",
+      "generated_disease": "Leiomyoma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "9ca50e8877c6107eefc7ba95d5ad9ef768c5319856ca99d597564143b158c499"
+    }
+  ]
+}

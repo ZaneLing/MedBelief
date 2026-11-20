@@ -1,0 +1,52 @@
+{
+  "case_id": "medmcqa_train_2f934764-d18d-456b-824e-9f92fc7afd94",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Vernal keratoconjunctivitis\"}",
+      "generated_disease": "Vernal keratoconjunctivitis",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "c4f471d17a3d20679fc9f2ef0802f10b0e05f89212fca3e8c98bc0b91dc4c14e"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Episcleritis\"}",
+      "generated_disease": "Episcleritis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "c56d8c3066e781d6cc407f857805a93d768525bae7f960116eec31416fba4623"
+    }
+  ]
+}

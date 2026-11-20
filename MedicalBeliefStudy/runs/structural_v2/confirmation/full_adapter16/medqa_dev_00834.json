@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_dev_00834",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Cytotoxic CD8 T cells pathway\"}",
+      "generated_disease": "Cytotoxic CD8 T cells pathway",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "49794155cee18eb626cf8092951b1841b863a7dc1c1a498bbb63c7b8bf2f3f9a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Cytotoxic CD8 T cells pathway\"}",
+      "generated_disease": "Cytotoxic CD8 T cells pathway",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "6903fa11a2a4fe9a2e2994dfb06a0dd454b5d24dcef5d7229738e248e9846f5a"
+    }
+  ]
+}

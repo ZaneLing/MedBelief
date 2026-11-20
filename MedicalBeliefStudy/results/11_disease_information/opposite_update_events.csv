@@ -1,0 +1,357 @@
+case_id,layer,round,gold,delta_native_gold_support,probe_gold_rank_improvement,native_previous_top,native_current_top,probe_previous_top,probe_current_top,strict_correctness_crossover,rank_improves_native_drops_5pp
+ddx_validate_0083651,21,1,HIV (initial infection),7.455174257405046e-08,9,Acute COPD exacerbation / infection,Acute rhinosinusitis,URTI,URTI,False,False
+ddx_validate_0083651,21,2,HIV (initial infection),-6.571312442838848e-08,-14,Acute rhinosinusitis,Acute COPD exacerbation / infection,URTI,Myasthenia gravis,False,False
+ddx_validate_0083651,21,3,HIV (initial infection),1.2708027561785917e-07,3,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Myasthenia gravis,Myasthenia gravis,False,False
+ddx_validate_0083651,21,4,HIV (initial infection),4.805388284064928e-06,7,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Myasthenia gravis,Myasthenia gravis,False,False
+ddx_validate_0083651,21,5,HIV (initial infection),-2.985117231242909e-06,2,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Myasthenia gravis,Guillain-Barré syndrome,False,False
+ddx_validate_0083651,21,6,HIV (initial infection),3.418365468715658e-05,6,Acute COPD exacerbation / infection,Influenza,Guillain-Barré syndrome,Guillain-Barré syndrome,False,False
+ddx_validate_0083651,21,7,HIV (initial infection),0.0013638649431903477,1,Influenza,Acute rhinosinusitis,Guillain-Barré syndrome,HIV (initial infection),False,False
+ddx_validate_0083651,21,8,HIV (initial infection),-0.001275535326329877,0,Acute rhinosinusitis,Acute rhinosinusitis,HIV (initial infection),HIV (initial infection),False,False
+ddx_validate_0083651,21,9,HIV (initial infection),-3.6412201287599764e-05,0,Acute rhinosinusitis,Acute rhinosinusitis,HIV (initial infection),HIV (initial infection),False,False
+ddx_validate_0083651,21,10,HIV (initial infection),0.0003492585570519854,0,Acute rhinosinusitis,Influenza,HIV (initial infection),HIV (initial infection),False,False
+ddx_validate_0083651,21,11,HIV (initial infection),-0.00016473855584912112,0,Influenza,Acute rhinosinusitis,HIV (initial infection),HIV (initial infection),False,False
+ddx_validate_0083651,28,1,HIV (initial infection),7.455174257405046e-08,1,Acute COPD exacerbation / infection,Acute rhinosinusitis,Viral pharyngitis,URTI,False,False
+ddx_validate_0083651,28,2,HIV (initial infection),-6.571312442838848e-08,-4,Acute rhinosinusitis,Acute COPD exacerbation / infection,URTI,Anemia,False,False
+ddx_validate_0083651,28,3,HIV (initial infection),1.2708027561785917e-07,3,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Anemia,Anemia,False,False
+ddx_validate_0083651,28,4,HIV (initial infection),4.805388284064928e-06,1,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Anemia,Myasthenia gravis,False,False
+ddx_validate_0083651,28,5,HIV (initial infection),-2.985117231242909e-06,2,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Myasthenia gravis,HIV (initial infection),False,False
+ddx_validate_0083651,28,6,HIV (initial infection),3.418365468715658e-05,0,Acute COPD exacerbation / infection,Influenza,HIV (initial infection),HIV (initial infection),False,False
+ddx_validate_0083651,28,7,HIV (initial infection),0.0013638649431903477,0,Influenza,Acute rhinosinusitis,HIV (initial infection),HIV (initial infection),False,False
+ddx_validate_0083651,28,8,HIV (initial infection),-0.001275535326329877,0,Acute rhinosinusitis,Acute rhinosinusitis,HIV (initial infection),HIV (initial infection),False,False
+ddx_validate_0083651,28,9,HIV (initial infection),-3.6412201287599764e-05,0,Acute rhinosinusitis,Acute rhinosinusitis,HIV (initial infection),HIV (initial infection),False,False
+ddx_validate_0083651,28,10,HIV (initial infection),0.0003492585570519854,0,Acute rhinosinusitis,Influenza,HIV (initial infection),HIV (initial infection),False,False
+ddx_validate_0083651,28,11,HIV (initial infection),-0.00016473855584912112,0,Influenza,Acute rhinosinusitis,HIV (initial infection),HIV (initial infection),False,False
+ddx_validate_0054038,21,1,Viral pharyngitis,0.0024001962198182325,1,Acute COPD exacerbation / infection,Acute rhinosinusitis,Acute otitis media,URTI,False,False
+ddx_validate_0054038,21,2,Viral pharyngitis,-0.0023740653990291074,3,Acute rhinosinusitis,Acute rhinosinusitis,URTI,URTI,False,False
+ddx_validate_0054038,21,3,Viral pharyngitis,-2.717846728231717e-05,-1,Acute rhinosinusitis,Acute rhinosinusitis,URTI,Anemia,False,False
+ddx_validate_0054038,21,4,Viral pharyngitis,1.7265879716609078e-06,2,Acute rhinosinusitis,Acute COPD exacerbation / infection,Anemia,Bronchitis,False,False
+ddx_validate_0054038,21,5,Viral pharyngitis,0.025006146637884565,1,Acute COPD exacerbation / infection,Acute rhinosinusitis,Bronchitis,URTI,False,False
+ddx_validate_0054038,28,1,Viral pharyngitis,0.0024001962198182325,1,Acute COPD exacerbation / infection,Acute rhinosinusitis,Acute otitis media,URTI,False,False
+ddx_validate_0054038,28,2,Viral pharyngitis,-0.0023740653990291074,4,Acute rhinosinusitis,Acute rhinosinusitis,URTI,URTI,False,False
+ddx_validate_0054038,28,3,Viral pharyngitis,-2.717846728231717e-05,-4,Acute rhinosinusitis,Acute rhinosinusitis,URTI,Bronchitis,False,False
+ddx_validate_0054038,28,4,Viral pharyngitis,1.7265879716609078e-06,-2,Acute rhinosinusitis,Acute COPD exacerbation / infection,Bronchitis,Bronchitis,False,False
+ddx_validate_0054038,28,5,Viral pharyngitis,0.025006146637884565,6,Acute COPD exacerbation / infection,Acute rhinosinusitis,Bronchitis,URTI,False,False
+ddx_validate_0024213,21,1,Acute otitis media,-2.394939109196605e-06,0,Acute laryngitis,Acute rhinosinusitis,Acute otitis media,Acute otitis media,False,False
+ddx_validate_0024213,21,2,Acute otitis media,0.9999097027661213,0,Acute rhinosinusitis,Acute otitis media,Acute otitis media,Acute otitis media,False,False
+ddx_validate_0024213,21,3,Acute otitis media,-0.0005202008065280372,0,Acute otitis media,Acute otitis media,Acute otitis media,Acute otitis media,False,False
+ddx_validate_0024213,21,4,Acute otitis media,-0.0026682169782361598,0,Acute otitis media,Acute otitis media,Acute otitis media,Acute otitis media,False,False
+ddx_validate_0024213,21,5,Acute otitis media,0.0029382385349743245,0,Acute otitis media,Acute otitis media,Acute otitis media,Acute otitis media,False,False
+ddx_validate_0024213,21,6,Acute otitis media,-4.344601274064441e-05,0,Acute otitis media,Acute otitis media,Acute otitis media,Acute otitis media,False,False
+ddx_validate_0024213,28,1,Acute otitis media,-2.394939109196605e-06,2,Acute laryngitis,Acute rhinosinusitis,Cluster headache,Acute otitis media,False,False
+ddx_validate_0024213,28,2,Acute otitis media,0.9999097027661213,0,Acute rhinosinusitis,Acute otitis media,Acute otitis media,Acute otitis media,False,False
+ddx_validate_0024213,28,3,Acute otitis media,-0.0005202008065280372,0,Acute otitis media,Acute otitis media,Acute otitis media,Acute otitis media,False,False
+ddx_validate_0024213,28,4,Acute otitis media,-0.0026682169782361598,0,Acute otitis media,Acute otitis media,Acute otitis media,Acute otitis media,False,False
+ddx_validate_0024213,28,5,Acute otitis media,0.0029382385349743245,0,Acute otitis media,Acute otitis media,Acute otitis media,Acute otitis media,False,False
+ddx_validate_0024213,28,6,Acute otitis media,-4.344601274064441e-05,0,Acute otitis media,Acute otitis media,Acute otitis media,Acute otitis media,False,False
+ddx_validate_0006948,21,1,URTI,1.5945007141793304e-11,8,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Bronchitis,Bronchitis,False,False
+ddx_validate_0006948,21,2,URTI,5.600781355013805e-09,0,Acute COPD exacerbation / infection,Acute rhinosinusitis,Bronchitis,Inguinal hernia,False,False
+ddx_validate_0006948,21,3,URTI,-5.278440296173417e-09,-1,Acute rhinosinusitis,Acute rhinosinusitis,Inguinal hernia,Inguinal hernia,False,False
+ddx_validate_0006948,21,4,URTI,6.671244555651752e-10,0,Acute rhinosinusitis,Acute rhinosinusitis,Inguinal hernia,Inguinal hernia,False,False
+ddx_validate_0006948,21,5,URTI,3.7411644184441355e-09,2,Acute rhinosinusitis,Acute rhinosinusitis,Inguinal hernia,URTI,False,False
+ddx_validate_0006948,21,6,URTI,1.6058087412656408e-08,0,Acute rhinosinusitis,Acute rhinosinusitis,URTI,URTI,False,False
+ddx_validate_0006948,21,7,URTI,1.1747880727379024e-08,0,Acute rhinosinusitis,Acute rhinosinusitis,URTI,URTI,False,False
+ddx_validate_0006948,21,8,URTI,-1.2702195563308316e-08,0,Acute rhinosinusitis,Acute rhinosinusitis,URTI,URTI,False,False
+ddx_validate_0006948,21,9,URTI,2.841578833717646e-07,0,Acute rhinosinusitis,Acute rhinosinusitis,URTI,URTI,False,False
+ddx_validate_0006948,21,10,URTI,-3.0324813679482224e-07,0,Acute rhinosinusitis,Acute rhinosinusitis,URTI,URTI,False,False
+ddx_validate_0006948,28,1,URTI,1.5945007141793304e-11,16,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Bronchitis,Bronchitis,False,False
+ddx_validate_0006948,28,2,URTI,5.600781355013805e-09,0,Acute COPD exacerbation / infection,Acute rhinosinusitis,Bronchitis,Stable angina,False,False
+ddx_validate_0006948,28,3,URTI,-5.278440296173417e-09,-1,Acute rhinosinusitis,Acute rhinosinusitis,Stable angina,Bronchitis,False,False
+ddx_validate_0006948,28,4,URTI,6.671244555651752e-10,1,Acute rhinosinusitis,Acute rhinosinusitis,Bronchitis,Bronchitis,False,False
+ddx_validate_0006948,28,5,URTI,3.7411644184441355e-09,1,Acute rhinosinusitis,Acute rhinosinusitis,Bronchitis,URTI,False,False
+ddx_validate_0006948,28,6,URTI,1.6058087412656408e-08,0,Acute rhinosinusitis,Acute rhinosinusitis,URTI,URTI,False,False
+ddx_validate_0006948,28,7,URTI,1.1747880727379024e-08,0,Acute rhinosinusitis,Acute rhinosinusitis,URTI,URTI,False,False
+ddx_validate_0006948,28,8,URTI,-1.2702195563308316e-08,0,Acute rhinosinusitis,Acute rhinosinusitis,URTI,URTI,False,False
+ddx_validate_0006948,28,9,URTI,2.841578833717646e-07,0,Acute rhinosinusitis,Acute rhinosinusitis,URTI,URTI,False,False
+ddx_validate_0006948,28,10,URTI,-3.0324813679482224e-07,0,Acute rhinosinusitis,Acute rhinosinusitis,URTI,URTI,False,False
+ddx_validate_0029473,21,1,Cluster headache,-0.9826192605124389,-1,Cluster headache,Acute rhinosinusitis,Cluster headache,Acute otitis media,False,False
+ddx_validate_0029473,21,2,Cluster headache,0.9991705131611781,1,Acute rhinosinusitis,Cluster headache,Acute otitis media,Cluster headache,False,False
+ddx_validate_0029473,21,3,Cluster headache,-0.0014930387117491062,0,Cluster headache,Cluster headache,Cluster headache,Cluster headache,False,False
+ddx_validate_0029473,21,4,Cluster headache,-0.37521791624898615,0,Cluster headache,Cluster headache,Cluster headache,Cluster headache,False,False
+ddx_validate_0029473,28,1,Cluster headache,-0.9826192605124389,-2,Cluster headache,Acute rhinosinusitis,Cluster headache,Acute otitis media,False,False
+ddx_validate_0029473,28,2,Cluster headache,0.9991705131611781,2,Acute rhinosinusitis,Cluster headache,Acute otitis media,Cluster headache,False,False
+ddx_validate_0029473,28,3,Cluster headache,-0.0014930387117491062,0,Cluster headache,Cluster headache,Cluster headache,Cluster headache,False,False
+ddx_validate_0029473,28,4,Cluster headache,-0.37521791624898615,0,Cluster headache,Cluster headache,Cluster headache,Cluster headache,False,False
+ddx_validate_0038557,21,1,Bronchitis,-2.598955653205073e-13,1,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Acute otitis media,Bronchitis,False,False
+ddx_validate_0038557,21,2,Bronchitis,-1.3588461460269705e-14,-1,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Bronchitis,Bronchospasm / acute asthma exacerbation,False,False
+ddx_validate_0038557,21,3,Bronchitis,3.444711870801136e-17,1,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Bronchospasm / acute asthma exacerbation,Bronchitis,False,False
+ddx_validate_0038557,21,4,Bronchitis,7.520814926001416e-11,0,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Bronchitis,Bronchitis,False,False
+ddx_validate_0038557,21,5,Bronchitis,5.08508734392142e-09,0,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Bronchitis,Bronchitis,False,False
+ddx_validate_0038557,21,6,Bronchitis,1.0178284140292477e-08,-1,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Bronchitis,Bronchospasm / acute asthma exacerbation,False,False
+ddx_validate_0038557,21,7,Bronchitis,4.531725882334264e-06,0,Acute COPD exacerbation / infection,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,False,False
+ddx_validate_0038557,28,1,Bronchitis,-2.598955653205073e-13,0,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Acute otitis media,Acute otitis media,False,False
+ddx_validate_0038557,28,2,Bronchitis,-1.3588461460269705e-14,1,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Acute otitis media,Bronchitis,False,False
+ddx_validate_0038557,28,3,Bronchitis,3.444711870801136e-17,0,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Bronchitis,Bronchitis,False,False
+ddx_validate_0038557,28,4,Bronchitis,7.520814926001416e-11,0,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Bronchitis,Bronchitis,False,False
+ddx_validate_0038557,28,5,Bronchitis,5.08508734392142e-09,-1,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Bronchitis,Bronchospasm / acute asthma exacerbation,False,False
+ddx_validate_0038557,28,6,Bronchitis,1.0178284140292477e-08,0,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,False,False
+ddx_validate_0038557,28,7,Bronchitis,4.531725882334264e-06,0,Acute COPD exacerbation / infection,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,False,False
+ddx_validate_0025292,21,1,Spontaneous pneumothorax,0.9993511960807894,3,Acute laryngitis,Spontaneous pneumothorax,Pericarditis,Spontaneous pneumothorax,False,False
+ddx_validate_0025292,21,2,Spontaneous pneumothorax,-0.0003790595204593572,0,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,False,False
+ddx_validate_0025292,21,3,Spontaneous pneumothorax,-0.004947715254613683,0,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,False,False
+ddx_validate_0025292,21,4,Spontaneous pneumothorax,0.005272685465302573,0,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,False,False
+ddx_validate_0025292,21,5,Spontaneous pneumothorax,-0.009589592272615355,0,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,False,False
+ddx_validate_0025292,21,6,Spontaneous pneumothorax,-0.058344717205034646,0,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,False,False
+ddx_validate_0025292,21,7,Spontaneous pneumothorax,-0.18706129675830296,0,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,False,False
+ddx_validate_0025292,28,1,Spontaneous pneumothorax,0.9993511960807894,7,Acute laryngitis,Spontaneous pneumothorax,Pericarditis,Spontaneous pneumothorax,False,False
+ddx_validate_0025292,28,2,Spontaneous pneumothorax,-0.0003790595204593572,0,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,False,False
+ddx_validate_0025292,28,3,Spontaneous pneumothorax,-0.004947715254613683,0,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,False,False
+ddx_validate_0025292,28,4,Spontaneous pneumothorax,0.005272685465302573,0,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,False,False
+ddx_validate_0025292,28,5,Spontaneous pneumothorax,-0.009589592272615355,0,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,False,False
+ddx_validate_0025292,28,6,Spontaneous pneumothorax,-0.058344717205034646,0,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,False,False
+ddx_validate_0025292,28,7,Spontaneous pneumothorax,-0.18706129675830296,0,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,False,False
+ddx_validate_0081578,21,1,Bronchitis,7.171227191937753e-16,2,Acute pulmonary edema,Acute COPD exacerbation / infection,Acute pulmonary edema,Bronchitis,False,False
+ddx_validate_0081578,21,2,Bronchitis,7.35156682022864e-12,-2,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Bronchitis,URTI,False,False
+ddx_validate_0081578,21,3,Bronchitis,5.961966255850526e-10,2,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,URTI,Bronchitis,False,False
+ddx_validate_0081578,21,4,Bronchitis,4.617530031968878e-09,0,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Bronchitis,Bronchitis,False,False
+ddx_validate_0081578,21,5,Bronchitis,-5.08452828443827e-09,0,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Bronchitis,Bronchitis,False,False
+ddx_validate_0081578,21,6,Bronchitis,2.251075041725569e-08,0,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Bronchitis,Bronchitis,False,False
+ddx_validate_0081578,21,7,Bronchitis,-2.0497991959971023e-08,0,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Bronchitis,Bronchitis,False,False
+ddx_validate_0081578,21,8,Bronchitis,1.8021937931589376e-05,0,Acute COPD exacerbation / infection,Bronchiolitis,Bronchitis,Bronchitis,False,False
+ddx_validate_0081578,21,9,Bronchitis,6.0884672662966494e-06,0,Bronchiolitis,Bronchiolitis,Bronchitis,Bronchitis,False,False
+ddx_validate_0081578,28,1,Bronchitis,7.171227191937753e-16,2,Acute pulmonary edema,Acute COPD exacerbation / infection,Acute pulmonary edema,Bronchitis,False,False
+ddx_validate_0081578,28,2,Bronchitis,7.35156682022864e-12,-2,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Bronchitis,URTI,False,False
+ddx_validate_0081578,28,3,Bronchitis,5.961966255850526e-10,2,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,URTI,Bronchitis,False,False
+ddx_validate_0081578,28,4,Bronchitis,4.617530031968878e-09,-1,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Bronchitis,URTI,False,False
+ddx_validate_0081578,28,5,Bronchitis,-5.08452828443827e-09,1,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,URTI,Bronchitis,False,False
+ddx_validate_0081578,28,6,Bronchitis,2.251075041725569e-08,0,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Bronchitis,Bronchitis,False,False
+ddx_validate_0081578,28,7,Bronchitis,-2.0497991959971023e-08,0,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Bronchitis,Bronchitis,False,False
+ddx_validate_0081578,28,8,Bronchitis,1.8021937931589376e-05,0,Acute COPD exacerbation / infection,Bronchiolitis,Bronchitis,Bronchitis,False,False
+ddx_validate_0081578,28,9,Bronchitis,6.0884672662966494e-06,0,Bronchiolitis,Bronchiolitis,Bronchitis,Bronchitis,False,False
+ddx_validate_0103610,21,1,GERD,1.2135956423784264e-06,6,Acute COPD exacerbation / infection,Acute rhinosinusitis,Bronchitis,Bronchitis,False,False
+ddx_validate_0103610,21,2,GERD,-1.21380329297229e-06,1,Acute rhinosinusitis,Acute COPD exacerbation / infection,Bronchitis,Bronchospasm / acute asthma exacerbation,False,False
+ddx_validate_0103610,21,3,GERD,7.012850930787848e-10,-1,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Bronchospasm / acute asthma exacerbation,Bronchitis,False,False
+ddx_validate_0103610,21,4,GERD,3.6513342249102267e-10,5,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Bronchitis,Bronchitis,False,False
+ddx_validate_0103610,21,5,GERD,-1.101283882533782e-09,-1,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Bronchitis,Bronchitis,False,False
+ddx_validate_0103610,21,6,GERD,0.9999962450611448,11,Acute COPD exacerbation / infection,GERD,Bronchitis,GERD,False,False
+ddx_validate_0103610,21,7,GERD,3.754226328700483e-06,0,GERD,GERD,GERD,GERD,False,False
+ddx_validate_0103610,21,8,GERD,3.548732419034195e-10,0,GERD,GERD,GERD,GERD,False,False
+ddx_validate_0103610,28,1,GERD,1.2135956423784264e-06,16,Acute COPD exacerbation / infection,Acute rhinosinusitis,Bronchitis,Acute otitis media,False,False
+ddx_validate_0103610,28,2,GERD,-1.21380329297229e-06,0,Acute rhinosinusitis,Acute COPD exacerbation / infection,Acute otitis media,Bronchospasm / acute asthma exacerbation,False,False
+ddx_validate_0103610,28,3,GERD,7.012850930787848e-10,-3,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Bronchospasm / acute asthma exacerbation,Bronchitis,False,False
+ddx_validate_0103610,28,4,GERD,3.6513342249102267e-10,-2,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Bronchitis,Bronchospasm / acute asthma exacerbation,False,False
+ddx_validate_0103610,28,5,GERD,-1.101283882533782e-09,0,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,False,False
+ddx_validate_0103610,28,6,GERD,0.9999962450611448,11,Acute COPD exacerbation / infection,GERD,Bronchospasm / acute asthma exacerbation,GERD,False,False
+ddx_validate_0103610,28,7,GERD,3.754226328700483e-06,0,GERD,GERD,GERD,GERD,False,False
+ddx_validate_0103610,28,8,GERD,3.548732419034195e-10,0,GERD,GERD,GERD,GERD,False,False
+ddx_validate_0088111,21,1,Anemia,-9.951007855074254e-06,2,Acute rhinosinusitis,Acute pulmonary edema,Inguinal hernia,SLE,False,False
+ddx_validate_0088111,21,2,Anemia,4.433663213292532e-05,-1,Acute pulmonary edema,Acute rhinosinusitis,SLE,Inguinal hernia,False,False
+ddx_validate_0088111,21,3,Anemia,-4.3726197789236196e-05,2,Acute rhinosinusitis,Acute pulmonary edema,Inguinal hernia,Inguinal hernia,False,False
+ddx_validate_0088111,21,4,Anemia,1.4093685984418397e-05,0,Acute pulmonary edema,Acute pulmonary edema,Inguinal hernia,Inguinal hernia,False,False
+ddx_validate_0088111,21,5,Anemia,-1.2481671870892405e-05,0,Acute pulmonary edema,Acute pulmonary edema,Inguinal hernia,Inguinal hernia,False,False
+ddx_validate_0088111,21,6,Anemia,0.0006518080700844885,1,Acute pulmonary edema,Acute pulmonary edema,Inguinal hernia,Anemia,False,False
+ddx_validate_0088111,21,7,Anemia,0.0013862718066696021,0,Acute pulmonary edema,Acute pulmonary edema,Anemia,Anemia,False,False
+ddx_validate_0088111,21,8,Anemia,-0.0018902018836416295,0,Acute pulmonary edema,Acute pulmonary edema,Anemia,Anemia,False,False
+ddx_validate_0088111,21,9,Anemia,-8.129733560649799e-05,0,Acute pulmonary edema,Acute pulmonary edema,Anemia,Anemia,False,False
+ddx_validate_0088111,21,10,Anemia,0.0001265074089788356,0,Acute pulmonary edema,Acute pulmonary edema,Anemia,Anemia,False,False
+ddx_validate_0088111,21,11,Anemia,0.0006811543515768544,0,Acute pulmonary edema,Acute pulmonary edema,Anemia,Anemia,False,False
+ddx_validate_0088111,21,12,Anemia,-0.000871070873737707,0,Acute pulmonary edema,Pulmonary embolism,Anemia,Anemia,False,False
+ddx_validate_0088111,28,1,Anemia,-9.951007855074254e-06,6,Acute rhinosinusitis,Acute pulmonary edema,Acute otitis media,Acute otitis media,False,False
+ddx_validate_0088111,28,2,Anemia,4.433663213292532e-05,-5,Acute pulmonary edema,Acute rhinosinusitis,Acute otitis media,SLE,False,False
+ddx_validate_0088111,28,3,Anemia,-4.3726197789236196e-05,5,Acute rhinosinusitis,Acute pulmonary edema,SLE,Acute pulmonary edema,False,False
+ddx_validate_0088111,28,4,Anemia,1.4093685984418397e-05,1,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,Anemia,False,False
+ddx_validate_0088111,28,5,Anemia,-1.2481671870892405e-05,0,Acute pulmonary edema,Acute pulmonary edema,Anemia,Anemia,False,False
+ddx_validate_0088111,28,6,Anemia,0.0006518080700844885,0,Acute pulmonary edema,Acute pulmonary edema,Anemia,Anemia,False,False
+ddx_validate_0088111,28,7,Anemia,0.0013862718066696021,0,Acute pulmonary edema,Acute pulmonary edema,Anemia,Anemia,False,False
+ddx_validate_0088111,28,8,Anemia,-0.0018902018836416295,0,Acute pulmonary edema,Acute pulmonary edema,Anemia,Anemia,False,False
+ddx_validate_0088111,28,9,Anemia,-8.129733560649799e-05,0,Acute pulmonary edema,Acute pulmonary edema,Anemia,Anemia,False,False
+ddx_validate_0088111,28,10,Anemia,0.0001265074089788356,0,Acute pulmonary edema,Acute pulmonary edema,Anemia,Anemia,False,False
+ddx_validate_0088111,28,11,Anemia,0.0006811543515768544,0,Acute pulmonary edema,Acute pulmonary edema,Anemia,Anemia,False,False
+ddx_validate_0088111,28,12,Anemia,-0.000871070873737707,0,Acute pulmonary edema,Pulmonary embolism,Anemia,Anemia,False,False
+ddx_validate_0114238,21,1,Acute otitis media,5.89038262063312e-07,0,Acute COPD exacerbation / infection,Acute rhinosinusitis,URTI,URTI,False,False
+ddx_validate_0114238,21,2,Acute otitis media,1.2573970648016472e-06,0,Acute rhinosinusitis,Acute rhinosinusitis,URTI,URTI,False,False
+ddx_validate_0114238,21,3,Acute otitis media,-1.1009362683180045e-06,-1,Acute rhinosinusitis,Acute rhinosinusitis,URTI,URTI,False,False
+ddx_validate_0114238,21,4,Acute otitis media,-6.778441907509145e-07,-3,Acute rhinosinusitis,Acute rhinosinusitis,URTI,URTI,False,False
+ddx_validate_0114238,28,1,Acute otitis media,5.89038262063312e-07,0,Acute COPD exacerbation / infection,Acute rhinosinusitis,Viral pharyngitis,URTI,False,False
+ddx_validate_0114238,28,2,Acute otitis media,1.2573970648016472e-06,-1,Acute rhinosinusitis,Acute rhinosinusitis,URTI,URTI,False,False
+ddx_validate_0114238,28,3,Acute otitis media,-1.1009362683180045e-06,-1,Acute rhinosinusitis,Acute rhinosinusitis,URTI,URTI,False,False
+ddx_validate_0114238,28,4,Acute otitis media,-6.778441907509145e-07,0,Acute rhinosinusitis,Acute rhinosinusitis,URTI,URTI,False,False
+ddx_validate_0086034,21,1,Acute dystonic reactions,0.004519686601074435,0,Acute COPD exacerbation / infection,Acute laryngitis,Acute dystonic reactions,Acute dystonic reactions,False,False
+ddx_validate_0086034,21,2,Acute dystonic reactions,0.002646432211485146,0,Acute laryngitis,Larygospasm,Acute dystonic reactions,Acute dystonic reactions,False,False
+ddx_validate_0086034,21,3,Acute dystonic reactions,0.06490111860181093,0,Larygospasm,Acute laryngitis,Acute dystonic reactions,Acute dystonic reactions,False,False
+ddx_validate_0086034,21,4,Acute dystonic reactions,0.3831984430326912,0,Acute laryngitis,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,False,False
+ddx_validate_0086034,21,5,Acute dystonic reactions,0.05125712127470161,0,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,False,False
+ddx_validate_0086034,21,6,Acute dystonic reactions,-0.45649659062506515,0,Acute dystonic reactions,Acute laryngitis,Acute dystonic reactions,Acute dystonic reactions,False,False
+ddx_validate_0086034,28,1,Acute dystonic reactions,0.004519686601074435,0,Acute COPD exacerbation / infection,Acute laryngitis,Acute dystonic reactions,Acute dystonic reactions,False,False
+ddx_validate_0086034,28,2,Acute dystonic reactions,0.002646432211485146,0,Acute laryngitis,Larygospasm,Acute dystonic reactions,Acute dystonic reactions,False,False
+ddx_validate_0086034,28,3,Acute dystonic reactions,0.06490111860181093,0,Larygospasm,Acute laryngitis,Acute dystonic reactions,Acute dystonic reactions,False,False
+ddx_validate_0086034,28,4,Acute dystonic reactions,0.3831984430326912,0,Acute laryngitis,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,False,False
+ddx_validate_0086034,28,5,Acute dystonic reactions,0.05125712127470161,0,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,False,False
+ddx_validate_0086034,28,6,Acute dystonic reactions,-0.45649659062506515,0,Acute dystonic reactions,Acute laryngitis,Acute dystonic reactions,Acute dystonic reactions,False,False
+ddx_validate_0070577,21,1,GERD,3.287144276859503e-05,3,Acute COPD exacerbation / infection,Acute rhinosinusitis,Acute dystonic reactions,Acute dystonic reactions,False,False
+ddx_validate_0070577,21,2,GERD,0.999954966794208,20,Acute rhinosinusitis,GERD,Acute dystonic reactions,GERD,False,False
+ddx_validate_0070577,21,3,GERD,-0.9999878408488713,-1,GERD,Boerhaave,GERD,Boerhaave,False,False
+ddx_validate_0070577,21,4,GERD,4.958607881859483e-12,0,Boerhaave,Boerhaave,Boerhaave,Boerhaave,False,False
+ddx_validate_0070577,21,5,GERD,1.3954058825185094e-11,0,Boerhaave,Boerhaave,Boerhaave,Boerhaave,False,False
+ddx_validate_0070577,21,6,GERD,-1.8983397934622677e-11,0,Boerhaave,Boerhaave,Boerhaave,Boerhaave,False,False
+ddx_validate_0070577,21,7,GERD,1.598496897485295e-11,0,Boerhaave,Boerhaave,Boerhaave,Boerhaave,False,False
+ddx_validate_0070577,21,8,GERD,-1.5984593467690453e-11,0,Boerhaave,Boerhaave,Boerhaave,Boerhaave,False,False
+ddx_validate_0070577,21,9,GERD,0.004199052137577367,0,Boerhaave,Boerhaave,Boerhaave,Boerhaave,False,False
+ddx_validate_0070577,21,10,GERD,-0.004199051902659506,0,Boerhaave,Boerhaave,Boerhaave,Boerhaave,False,False
+ddx_validate_0070577,28,1,GERD,3.287144276859503e-05,14,Acute COPD exacerbation / infection,Acute rhinosinusitis,Bronchitis,Acute dystonic reactions,False,False
+ddx_validate_0070577,28,2,GERD,0.999954966794208,6,Acute rhinosinusitis,GERD,Acute dystonic reactions,GERD,False,False
+ddx_validate_0070577,28,3,GERD,-0.9999878408488713,-1,GERD,Boerhaave,GERD,Boerhaave,False,False
+ddx_validate_0070577,28,4,GERD,4.958607881859483e-12,0,Boerhaave,Boerhaave,Boerhaave,Boerhaave,False,False
+ddx_validate_0070577,28,5,GERD,1.3954058825185094e-11,0,Boerhaave,Boerhaave,Boerhaave,Boerhaave,False,False
+ddx_validate_0070577,28,6,GERD,-1.8983397934622677e-11,0,Boerhaave,Boerhaave,Boerhaave,Boerhaave,False,False
+ddx_validate_0070577,28,7,GERD,1.598496897485295e-11,0,Boerhaave,Boerhaave,Boerhaave,Boerhaave,False,False
+ddx_validate_0070577,28,8,GERD,-1.5984593467690453e-11,0,Boerhaave,Boerhaave,Boerhaave,Boerhaave,False,False
+ddx_validate_0070577,28,9,GERD,0.004199052137577367,1,Boerhaave,Boerhaave,Boerhaave,GERD,False,False
+ddx_validate_0070577,28,10,GERD,-0.004199051902659506,-1,Boerhaave,Boerhaave,GERD,Boerhaave,False,False
+ddx_validate_0077267,21,1,Guillain-Barré syndrome,-9.629831295938832e-12,6,Acute COPD exacerbation / infection,Acute rhinosinusitis,Bronchitis,Acute otitis media,False,False
+ddx_validate_0077267,21,2,Guillain-Barré syndrome,4.364226893506702e-15,1,Acute rhinosinusitis,Influenza,Acute otitis media,Guillain-Barré syndrome,False,False
+ddx_validate_0077267,21,3,Guillain-Barré syndrome,2.25664619200798e-09,0,Influenza,Influenza,Guillain-Barré syndrome,Guillain-Barré syndrome,False,False
+ddx_validate_0077267,21,4,Guillain-Barré syndrome,0.001377568916920168,0,Influenza,Influenza,Guillain-Barré syndrome,Guillain-Barré syndrome,False,False
+ddx_validate_0077267,21,5,Guillain-Barré syndrome,0.855172314763245,0,Influenza,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,False,False
+ddx_validate_0077267,28,1,Guillain-Barré syndrome,-9.629831295938832e-12,3,Acute COPD exacerbation / infection,Acute rhinosinusitis,Bronchitis,Acute otitis media,False,False
+ddx_validate_0077267,28,2,Guillain-Barré syndrome,4.364226893506702e-15,-1,Acute rhinosinusitis,Influenza,Acute otitis media,HIV (initial infection),False,False
+ddx_validate_0077267,28,3,Guillain-Barré syndrome,2.25664619200798e-09,2,Influenza,Influenza,HIV (initial infection),Guillain-Barré syndrome,False,False
+ddx_validate_0077267,28,4,Guillain-Barré syndrome,0.001377568916920168,0,Influenza,Influenza,Guillain-Barré syndrome,Guillain-Barré syndrome,False,False
+ddx_validate_0077267,28,5,Guillain-Barré syndrome,0.855172314763245,0,Influenza,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,False,False
+ddx_validate_0000493,21,1,Pulmonary embolism,-1.9677430466661162e-07,-2,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Atrial fibrillation,Atrial fibrillation,False,False
+ddx_validate_0000493,21,2,Pulmonary embolism,0.9389465475644955,-1,Acute COPD exacerbation / infection,Pulmonary embolism,Atrial fibrillation,Atrial fibrillation,False,False
+ddx_validate_0000493,21,3,Pulmonary embolism,-0.8754059446062683,-2,Pulmonary embolism,Acute pulmonary edema,Atrial fibrillation,Atrial fibrillation,False,False
+ddx_validate_0000493,21,4,Pulmonary embolism,0.6666050026550516,0,Acute pulmonary edema,Pulmonary embolism,Atrial fibrillation,Atrial fibrillation,False,False
+ddx_validate_0000493,21,5,Pulmonary embolism,-0.730145866446894,19,Pulmonary embolism,Boerhaave,Atrial fibrillation,Pulmonary embolism,True,True
+ddx_validate_0000493,21,6,Pulmonary embolism,4.322448224553358e-09,0,Boerhaave,Boerhaave,Pulmonary embolism,Pulmonary embolism,False,False
+ddx_validate_0000493,21,7,Pulmonary embolism,9.682233758582308e-08,0,Boerhaave,Boerhaave,Pulmonary embolism,Pulmonary embolism,False,False
+ddx_validate_0000493,21,8,Pulmonary embolism,0.006392223171454021,0,Boerhaave,Boerhaave,Pulmonary embolism,Pulmonary embolism,False,False
+ddx_validate_0000493,21,9,Pulmonary embolism,-0.0063923231005743675,0,Boerhaave,Boerhaave,Pulmonary embolism,Pulmonary embolism,False,False
+ddx_validate_0000493,28,1,Pulmonary embolism,-1.9677430466661162e-07,-1,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Atrial fibrillation,Atrial fibrillation,False,False
+ddx_validate_0000493,28,2,Pulmonary embolism,0.9389465475644955,3,Acute COPD exacerbation / infection,Pulmonary embolism,Atrial fibrillation,Acute pulmonary edema,False,False
+ddx_validate_0000493,28,3,Pulmonary embolism,-0.8754059446062683,2,Pulmonary embolism,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,False,True
+ddx_validate_0000493,28,4,Pulmonary embolism,0.6666050026550516,-3,Acute pulmonary edema,Pulmonary embolism,Acute pulmonary edema,Acute pulmonary edema,False,False
+ddx_validate_0000493,28,5,Pulmonary embolism,-0.730145866446894,10,Pulmonary embolism,Boerhaave,Acute pulmonary edema,Pulmonary embolism,True,True
+ddx_validate_0000493,28,6,Pulmonary embolism,4.322448224553358e-09,0,Boerhaave,Boerhaave,Pulmonary embolism,Pulmonary embolism,False,False
+ddx_validate_0000493,28,7,Pulmonary embolism,9.682233758582308e-08,0,Boerhaave,Boerhaave,Pulmonary embolism,Pulmonary embolism,False,False
+ddx_validate_0000493,28,8,Pulmonary embolism,0.006392223171454021,0,Boerhaave,Boerhaave,Pulmonary embolism,Pulmonary embolism,False,False
+ddx_validate_0000493,28,9,Pulmonary embolism,-0.0063923231005743675,0,Boerhaave,Boerhaave,Pulmonary embolism,Pulmonary embolism,False,False
+ddx_validate_0027808,21,1,GERD,0.9193957071000616,7,Acute COPD exacerbation / infection,GERD,Acute dystonic reactions,URTI,False,False
+ddx_validate_0027808,21,2,GERD,-0.9715837502466717,0,GERD,Boerhaave,URTI,Boerhaave,False,False
+ddx_validate_0027808,21,3,GERD,-1.5597889736634384e-16,0,Boerhaave,Boerhaave,Boerhaave,Boerhaave,False,False
+ddx_validate_0027808,21,4,GERD,1.2521173049917732e-12,0,Boerhaave,Boerhaave,Boerhaave,Boerhaave,False,False
+ddx_validate_0027808,21,5,GERD,-4.4370458038077124e-13,0,Boerhaave,Boerhaave,Boerhaave,Boerhaave,False,False
+ddx_validate_0027808,21,6,GERD,-8.084100983965408e-13,0,Boerhaave,Boerhaave,Boerhaave,Boerhaave,False,False
+ddx_validate_0027808,21,7,GERD,1.3233054476316566e-08,0,Boerhaave,Boerhaave,Boerhaave,Boerhaave,False,False
+ddx_validate_0027808,21,8,GERD,1.1878127781897417e-08,0,Boerhaave,Boerhaave,Boerhaave,Boerhaave,False,False
+ddx_validate_0027808,21,9,GERD,-2.5098925528966128e-08,0,Boerhaave,Boerhaave,Boerhaave,Boerhaave,False,False
+ddx_validate_0027808,21,10,GERD,4.1822819197725515e-11,0,Boerhaave,Boerhaave,Boerhaave,Boerhaave,False,False
+ddx_validate_0027808,28,1,GERD,0.9193957071000616,1,Acute COPD exacerbation / infection,GERD,Bronchitis,GERD,False,False
+ddx_validate_0027808,28,2,GERD,-0.9715837502466717,-1,GERD,Boerhaave,GERD,Boerhaave,False,False
+ddx_validate_0027808,28,3,GERD,-1.5597889736634384e-16,0,Boerhaave,Boerhaave,Boerhaave,Boerhaave,False,False
+ddx_validate_0027808,28,4,GERD,1.2521173049917732e-12,0,Boerhaave,Boerhaave,Boerhaave,Boerhaave,False,False
+ddx_validate_0027808,28,5,GERD,-4.4370458038077124e-13,0,Boerhaave,Boerhaave,Boerhaave,Boerhaave,False,False
+ddx_validate_0027808,28,6,GERD,-8.084100983965408e-13,0,Boerhaave,Boerhaave,Boerhaave,Boerhaave,False,False
+ddx_validate_0027808,28,7,GERD,1.3233054476316566e-08,1,Boerhaave,Boerhaave,Boerhaave,GERD,False,False
+ddx_validate_0027808,28,8,GERD,1.1878127781897417e-08,0,Boerhaave,Boerhaave,GERD,GERD,False,False
+ddx_validate_0027808,28,9,GERD,-2.5098925528966128e-08,-1,Boerhaave,Boerhaave,GERD,Boerhaave,False,False
+ddx_validate_0027808,28,10,GERD,4.1822819197725515e-11,0,Boerhaave,Boerhaave,Boerhaave,Boerhaave,False,False
+ddx_validate_0021192,21,1,Atrial fibrillation,-0.09539135337821492,0,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,False,False
+ddx_validate_0021192,21,2,Atrial fibrillation,-0.5381505725715953,0,Atrial fibrillation,Acute pulmonary edema,Atrial fibrillation,Atrial fibrillation,False,False
+ddx_validate_0021192,21,3,Atrial fibrillation,-0.11481158619999574,0,Acute pulmonary edema,Pericarditis,Atrial fibrillation,Atrial fibrillation,False,False
+ddx_validate_0021192,21,4,Atrial fibrillation,-0.0741771867870862,0,Pericarditis,Myocarditis,Atrial fibrillation,Atrial fibrillation,False,False
+ddx_validate_0021192,21,5,Atrial fibrillation,9.42129267849382e-07,0,Myocarditis,Myocarditis,Atrial fibrillation,Atrial fibrillation,False,False
+ddx_validate_0021192,21,6,Atrial fibrillation,0.0003799859650939091,0,Myocarditis,Myocarditis,Atrial fibrillation,Atrial fibrillation,False,False
+ddx_validate_0021192,21,7,Atrial fibrillation,0.004233998082290489,0,Myocarditis,Myocarditis,Atrial fibrillation,Atrial fibrillation,False,False
+ddx_validate_0021192,21,8,Atrial fibrillation,-0.0046126263102486175,0,Myocarditis,Myocarditis,Atrial fibrillation,Atrial fibrillation,False,False
+ddx_validate_0021192,28,1,Atrial fibrillation,-0.09539135337821492,0,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,False,False
+ddx_validate_0021192,28,2,Atrial fibrillation,-0.5381505725715953,0,Atrial fibrillation,Acute pulmonary edema,Atrial fibrillation,Atrial fibrillation,False,False
+ddx_validate_0021192,28,3,Atrial fibrillation,-0.11481158619999574,0,Acute pulmonary edema,Pericarditis,Atrial fibrillation,Atrial fibrillation,False,False
+ddx_validate_0021192,28,4,Atrial fibrillation,-0.0741771867870862,0,Pericarditis,Myocarditis,Atrial fibrillation,Atrial fibrillation,False,False
+ddx_validate_0021192,28,5,Atrial fibrillation,9.42129267849382e-07,0,Myocarditis,Myocarditis,Atrial fibrillation,Atrial fibrillation,False,False
+ddx_validate_0021192,28,6,Atrial fibrillation,0.0003799859650939091,0,Myocarditis,Myocarditis,Atrial fibrillation,Atrial fibrillation,False,False
+ddx_validate_0021192,28,7,Atrial fibrillation,0.004233998082290489,0,Myocarditis,Myocarditis,Atrial fibrillation,Atrial fibrillation,False,False
+ddx_validate_0021192,28,8,Atrial fibrillation,-0.0046126263102486175,0,Myocarditis,Myocarditis,Atrial fibrillation,Atrial fibrillation,False,False
+ddx_validate_0030584,21,1,SLE,2.5122414591381067e-08,-1,Acute rhinosinusitis,Acute rhinosinusitis,Acute otitis media,URTI,False,False
+ddx_validate_0030584,21,2,SLE,-2.516177820225957e-08,9,Acute rhinosinusitis,Pericarditis,URTI,SLE,False,False
+ddx_validate_0030584,21,3,SLE,3.2159882940025663e-12,0,Pericarditis,Pericarditis,SLE,SLE,False,False
+ddx_validate_0030584,21,4,SLE,-5.698369073817651e-12,0,Pericarditis,Pericarditis,SLE,SLE,False,False
+ddx_validate_0030584,21,5,SLE,-4.3077552462602763e-13,0,Pericarditis,Pericarditis,SLE,SLE,False,False
+ddx_validate_0030584,28,1,SLE,2.5122414591381067e-08,0,Acute rhinosinusitis,Acute rhinosinusitis,Viral pharyngitis,Acute otitis media,False,False
+ddx_validate_0030584,28,2,SLE,-2.516177820225957e-08,5,Acute rhinosinusitis,Pericarditis,Acute otitis media,SLE,False,False
+ddx_validate_0030584,28,3,SLE,3.2159882940025663e-12,0,Pericarditis,Pericarditis,SLE,SLE,False,False
+ddx_validate_0030584,28,4,SLE,-5.698369073817651e-12,0,Pericarditis,Pericarditis,SLE,SLE,False,False
+ddx_validate_0030584,28,5,SLE,-4.3077552462602763e-13,0,Pericarditis,Pericarditis,SLE,SLE,False,False
+ddx_validate_0100269,21,1,Acute otitis media,-3.9776775713758875e-08,2,Acute COPD exacerbation / infection,Acute rhinosinusitis,Acute dystonic reactions,Acute otitis media,False,False
+ddx_validate_0100269,21,2,Acute otitis media,8.708002926176327e-07,0,Acute rhinosinusitis,Acute rhinosinusitis,Acute otitis media,Acute otitis media,False,False
+ddx_validate_0100269,21,3,Acute otitis media,0.017986462355216223,0,Acute rhinosinusitis,Acute rhinosinusitis,Acute otitis media,Acute otitis media,False,False
+ddx_validate_0100269,21,4,Acute otitis media,0.4586098391361445,0,Acute rhinosinusitis,Acute rhinosinusitis,Acute otitis media,Acute otitis media,False,False
+ddx_validate_0100269,21,5,Acute otitis media,-0.4517975888412925,0,Acute rhinosinusitis,Acute rhinosinusitis,Acute otitis media,Acute otitis media,False,False
+ddx_validate_0100269,21,6,Acute otitis media,0.47130676826080997,0,Acute rhinosinusitis,Acute rhinosinusitis,Acute otitis media,Acute otitis media,False,False
+ddx_validate_0100269,28,1,Acute otitis media,-3.9776775713758875e-08,0,Acute COPD exacerbation / infection,Acute rhinosinusitis,Acute otitis media,Acute otitis media,False,False
+ddx_validate_0100269,28,2,Acute otitis media,8.708002926176327e-07,0,Acute rhinosinusitis,Acute rhinosinusitis,Acute otitis media,Acute otitis media,False,False
+ddx_validate_0100269,28,3,Acute otitis media,0.017986462355216223,0,Acute rhinosinusitis,Acute rhinosinusitis,Acute otitis media,Acute otitis media,False,False
+ddx_validate_0100269,28,4,Acute otitis media,0.4586098391361445,0,Acute rhinosinusitis,Acute rhinosinusitis,Acute otitis media,Acute otitis media,False,False
+ddx_validate_0100269,28,5,Acute otitis media,-0.4517975888412925,0,Acute rhinosinusitis,Acute rhinosinusitis,Acute otitis media,Acute otitis media,False,False
+ddx_validate_0100269,28,6,Acute otitis media,0.47130676826080997,0,Acute rhinosinusitis,Acute rhinosinusitis,Acute otitis media,Acute otitis media,False,False
+ddx_validate_0036829,21,1,Myasthenia gravis,-1.80605642941648e-08,-2,Acute COPD exacerbation / infection,Acute pulmonary edema,Bronchitis,Bronchitis,False,False
+ddx_validate_0036829,21,2,Myasthenia gravis,2.594986076536347e-08,4,Acute pulmonary edema,Bronchospasm / acute asthma exacerbation,Bronchitis,Acute dystonic reactions,False,False
+ddx_validate_0036829,21,3,Myasthenia gravis,6.257927059399724e-07,2,Bronchospasm / acute asthma exacerbation,Acute pulmonary edema,Acute dystonic reactions,Guillain-Barré syndrome,False,False
+ddx_validate_0036829,21,4,Myasthenia gravis,4.163159747762229e-06,1,Acute pulmonary edema,Bronchiolitis,Guillain-Barré syndrome,Guillain-Barré syndrome,False,False
+ddx_validate_0036829,21,5,Myasthenia gravis,2.485401789561706e-05,0,Bronchiolitis,Bronchiolitis,Guillain-Barré syndrome,Guillain-Barré syndrome,False,False
+ddx_validate_0036829,28,1,Myasthenia gravis,-1.80605642941648e-08,-1,Acute COPD exacerbation / infection,Acute pulmonary edema,Bronchitis,Bronchitis,False,False
+ddx_validate_0036829,28,2,Myasthenia gravis,2.594986076536347e-08,5,Acute pulmonary edema,Bronchospasm / acute asthma exacerbation,Bronchitis,Acute dystonic reactions,False,False
+ddx_validate_0036829,28,3,Myasthenia gravis,6.257927059399724e-07,0,Bronchospasm / acute asthma exacerbation,Acute pulmonary edema,Acute dystonic reactions,Acute dystonic reactions,False,False
+ddx_validate_0036829,28,4,Myasthenia gravis,4.163159747762229e-06,2,Acute pulmonary edema,Bronchiolitis,Acute dystonic reactions,Acute dystonic reactions,False,False
+ddx_validate_0036829,28,5,Myasthenia gravis,2.485401789561706e-05,0,Bronchiolitis,Bronchiolitis,Acute dystonic reactions,Acute dystonic reactions,False,False
+ddx_validate_0090190,21,1,Viral pharyngitis,-4.5699035778970314e-10,0,Acute rhinosinusitis,Acute rhinosinusitis,Acute otitis media,Acute otitis media,False,False
+ddx_validate_0090190,21,2,Viral pharyngitis,3.2730264491620837e-09,0,Acute rhinosinusitis,Acute rhinosinusitis,Acute otitis media,Acute otitis media,False,False
+ddx_validate_0090190,21,3,Viral pharyngitis,8.51902760094211e-09,-1,Acute rhinosinusitis,Acute rhinosinusitis,Acute otitis media,Bronchospasm / acute asthma exacerbation,False,False
+ddx_validate_0090190,21,4,Viral pharyngitis,-7.63792172969065e-09,2,Acute rhinosinusitis,GERD,Bronchospasm / acute asthma exacerbation,GERD,False,False
+ddx_validate_0090190,21,5,Viral pharyngitis,1.4498114294180679e-06,0,GERD,GERD,GERD,GERD,False,False
+ddx_validate_0090190,21,6,Viral pharyngitis,-1.4540969984226844e-06,1,GERD,Acute rhinosinusitis,GERD,Viral pharyngitis,False,False
+ddx_validate_0090190,28,1,Viral pharyngitis,-4.5699035778970314e-10,0,Acute rhinosinusitis,Acute rhinosinusitis,Acute otitis media,Acute otitis media,False,False
+ddx_validate_0090190,28,2,Viral pharyngitis,3.2730264491620837e-09,-1,Acute rhinosinusitis,Acute rhinosinusitis,Acute otitis media,Bronchospasm / acute asthma exacerbation,False,False
+ddx_validate_0090190,28,3,Viral pharyngitis,8.51902760094211e-09,0,Acute rhinosinusitis,Acute rhinosinusitis,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,False,False
+ddx_validate_0090190,28,4,Viral pharyngitis,-7.63792172969065e-09,1,Acute rhinosinusitis,GERD,Bronchospasm / acute asthma exacerbation,GERD,False,False
+ddx_validate_0090190,28,5,Viral pharyngitis,1.4498114294180679e-06,1,GERD,GERD,GERD,Viral pharyngitis,False,False
+ddx_validate_0090190,28,6,Viral pharyngitis,-1.4540969984226844e-06,0,GERD,Acute rhinosinusitis,Viral pharyngitis,Viral pharyngitis,False,False
+ddx_validate_0082663,21,1,Anemia,1.7952535618477017e-06,2,Acute COPD exacerbation / infection,Acute pulmonary edema,Atrial fibrillation,Anemia,False,False
+ddx_validate_0082663,21,2,Anemia,-1.8205605890199485e-06,0,Acute pulmonary edema,Pulmonary embolism,Anemia,Anemia,False,False
+ddx_validate_0082663,21,3,Anemia,3.6398915219649206e-08,0,Pulmonary embolism,Pulmonary embolism,Anemia,Anemia,False,False
+ddx_validate_0082663,21,4,Anemia,-3.661343420329247e-08,0,Pulmonary embolism,Pulmonary embolism,Anemia,Anemia,False,False
+ddx_validate_0082663,21,5,Anemia,5.479487798955435e-08,0,Pulmonary embolism,Pulmonary embolism,Anemia,Anemia,False,False
+ddx_validate_0082663,21,6,Anemia,-2.0062519530289855e-08,0,Pulmonary embolism,Pulmonary embolism,Anemia,Anemia,False,False
+ddx_validate_0082663,21,7,Anemia,-2.9437871719620425e-08,0,Pulmonary embolism,Pulmonary embolism,Anemia,Anemia,False,False
+ddx_validate_0082663,21,8,Anemia,1.6537668731335342e-07,0,Pulmonary embolism,Pulmonary embolism,Anemia,Anemia,False,False
+ddx_validate_0082663,21,9,Anemia,1.4180152706375347e-06,0,Pulmonary embolism,Pulmonary embolism,Anemia,Anemia,False,False
+ddx_validate_0082663,21,10,Anemia,0.08339152465469371,0,Pulmonary embolism,Pulmonary embolism,Anemia,Anemia,False,False
+ddx_validate_0082663,21,11,Anemia,-0.08337498555844682,0,Pulmonary embolism,Pulmonary embolism,Anemia,Anemia,False,False
+ddx_validate_0082663,28,1,Anemia,1.7952535618477017e-06,3,Acute COPD exacerbation / infection,Acute pulmonary edema,Acute dystonic reactions,Anemia,False,False
+ddx_validate_0082663,28,2,Anemia,-1.8205605890199485e-06,0,Acute pulmonary edema,Pulmonary embolism,Anemia,Anemia,False,False
+ddx_validate_0082663,28,3,Anemia,3.6398915219649206e-08,0,Pulmonary embolism,Pulmonary embolism,Anemia,Anemia,False,False
+ddx_validate_0082663,28,4,Anemia,-3.661343420329247e-08,0,Pulmonary embolism,Pulmonary embolism,Anemia,Anemia,False,False
+ddx_validate_0082663,28,5,Anemia,5.479487798955435e-08,0,Pulmonary embolism,Pulmonary embolism,Anemia,Anemia,False,False
+ddx_validate_0082663,28,6,Anemia,-2.0062519530289855e-08,0,Pulmonary embolism,Pulmonary embolism,Anemia,Anemia,False,False
+ddx_validate_0082663,28,7,Anemia,-2.9437871719620425e-08,0,Pulmonary embolism,Pulmonary embolism,Anemia,Anemia,False,False
+ddx_validate_0082663,28,8,Anemia,1.6537668731335342e-07,0,Pulmonary embolism,Pulmonary embolism,Anemia,Anemia,False,False
+ddx_validate_0082663,28,9,Anemia,1.4180152706375347e-06,0,Pulmonary embolism,Pulmonary embolism,Anemia,Anemia,False,False
+ddx_validate_0082663,28,10,Anemia,0.08339152465469371,0,Pulmonary embolism,Pulmonary embolism,Anemia,Anemia,False,False
+ddx_validate_0082663,28,11,Anemia,-0.08337498555844682,0,Pulmonary embolism,Pulmonary embolism,Anemia,Anemia,False,False
+ddx_validate_0049731,21,1,GERD,0.9858040784192733,20,Acute COPD exacerbation / infection,GERD,Bronchitis,GERD,False,False
+ddx_validate_0049731,21,2,GERD,-0.9857993687856865,-14,GERD,Acute rhinosinusitis,GERD,URTI,False,False
+ddx_validate_0049731,21,3,GERD,0.9999871530983625,14,Acute rhinosinusitis,GERD,URTI,GERD,False,False
+ddx_validate_0049731,21,4,GERD,3.5327991643185896e-09,0,GERD,GERD,GERD,GERD,False,False
+ddx_validate_0049731,21,5,GERD,3.13802983598066e-10,0,GERD,GERD,GERD,GERD,False,False
+ddx_validate_0049731,21,6,GERD,-5.961556137634716e-09,0,GERD,GERD,GERD,GERD,False,False
+ddx_validate_0049731,21,7,GERD,5.736204844453141e-09,0,GERD,GERD,GERD,GERD,False,False
+ddx_validate_0049731,21,8,GERD,4.1252956606285807e-10,0,GERD,GERD,GERD,GERD,False,False
+ddx_validate_0049731,28,1,GERD,0.9858040784192733,1,Acute COPD exacerbation / infection,GERD,Bronchitis,GERD,False,False
+ddx_validate_0049731,28,2,GERD,-0.9857993687856865,-5,GERD,Acute rhinosinusitis,GERD,Bronchitis,False,False
+ddx_validate_0049731,28,3,GERD,0.9999871530983625,5,Acute rhinosinusitis,GERD,Bronchitis,GERD,False,False
+ddx_validate_0049731,28,4,GERD,3.5327991643185896e-09,0,GERD,GERD,GERD,GERD,False,False
+ddx_validate_0049731,28,5,GERD,3.13802983598066e-10,0,GERD,GERD,GERD,GERD,False,False
+ddx_validate_0049731,28,6,GERD,-5.961556137634716e-09,0,GERD,GERD,GERD,GERD,False,False
+ddx_validate_0049731,28,7,GERD,5.736204844453141e-09,0,GERD,GERD,GERD,GERD,False,False
+ddx_validate_0049731,28,8,GERD,4.1252956606285807e-10,0,GERD,GERD,GERD,GERD,False,False
+ddx_validate_0021109,21,1,Guillain-Barré syndrome,1.9852438201882588e-12,3,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Pneumonia,Bronchitis,False,False
+ddx_validate_0021109,21,2,Guillain-Barré syndrome,2.723892709835553e-11,11,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Bronchitis,Acute dystonic reactions,False,False
+ddx_validate_0021109,21,3,Guillain-Barré syndrome,1.4107257911580997e-10,1,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Acute dystonic reactions,Acute dystonic reactions,False,False
+ddx_validate_0021109,21,4,Guillain-Barré syndrome,2.3207337536194177e-10,-1,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Acute dystonic reactions,Bronchospasm / acute asthma exacerbation,False,False
+ddx_validate_0021109,21,5,Guillain-Barré syndrome,1.8813777647408078e-09,2,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Bronchospasm / acute asthma exacerbation,Guillain-Barré syndrome,False,False
+ddx_validate_0021109,21,6,Guillain-Barré syndrome,2.2297298765149166e-09,0,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Guillain-Barré syndrome,Guillain-Barré syndrome,False,False
+ddx_validate_0021109,28,1,Guillain-Barré syndrome,1.9852438201882588e-12,2,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Acute pulmonary edema,Acute pulmonary edema,False,False
+ddx_validate_0021109,28,2,Guillain-Barré syndrome,2.723892709835553e-11,15,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Acute pulmonary edema,Acute dystonic reactions,False,False
+ddx_validate_0021109,28,3,Guillain-Barré syndrome,1.4107257911580997e-10,2,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Acute dystonic reactions,Acute dystonic reactions,False,False
+ddx_validate_0021109,28,4,Guillain-Barré syndrome,2.3207337536194177e-10,1,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,Acute dystonic reactions,HIV (initial infection),False,False
+ddx_validate_0021109,28,5,Guillain-Barré syndrome,1.8813777647408078e-09,0,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,HIV (initial infection),HIV (initial infection),False,False
+ddx_validate_0021109,28,6,Guillain-Barré syndrome,2.2297298765149166e-09,0,Acute COPD exacerbation / infection,Acute COPD exacerbation / infection,HIV (initial infection),HIV (initial infection),False,False

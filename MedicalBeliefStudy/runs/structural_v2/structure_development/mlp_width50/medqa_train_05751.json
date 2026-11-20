@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_05751",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "mlp_width50",
+    "mlp_keep": 0.5
+  },
+  "parameter_stats": {
+    "parameters": 1192092672,
+    "weight_bytes": 2384185344,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Schizophrenia\"}",
+      "generated_disease": "Schizophrenia",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "aab2c94a872f55823ff77d394b252ddf4f56b460dc173697b615f30578f308d9"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Post-traumatic stress disorder (PTSD\")}\n</think>\n\n{\"diagnosis\":\"Post-traumatic stress disorder (PTSD\")}\n</think>\n\n{\"diagnosis\":\"Post-traumatic stress disorder (PTSD\")}\n</think>\n\n{\"diagnosis\":\"Post-traumatic stress disorder (PTSD\")}\n",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 56,
+      "prompt_sha256": "94ff91768ecd124c3751cf781ed7243e64719d9854924d3bdafcd77a4ed9dd2a"
+    }
+  ]
+}

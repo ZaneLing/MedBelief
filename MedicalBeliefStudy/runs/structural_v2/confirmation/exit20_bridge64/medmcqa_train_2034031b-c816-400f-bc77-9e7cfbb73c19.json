@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_2034031b-c816-400f-bc77-9e7cfbb73c19",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Hryh-\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "54d9e26407cc58933b92580f2dcb59f22cc645145a49f13e12eef55c9d02fd64"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystoid myopathy\"}",
+      "generated_disease": "Cystoid myopathy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ebb9be0f59be36dbdc9d8b165152916a3cd501a5a7e9ef4717492a929f1634e5"
+    }
+  ]
+}

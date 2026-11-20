@@ -1,0 +1,37 @@
+{
+  "reason": "A source candidate starts with an apostrophe and full-string BPE merges across the forced JSON prefix. Preserve prompt IDs, use independently encoded continuation only when prefix invariant fails.",
+  "compat_sha256": "823d95b6bf6bbdca0aa25b4fee7a1b76a844fdfd308307d7a66e2a37a807e9a6",
+  "selection_sha256": "6692a3c2524fb1aaf384f434d17cac65859f764c580626d1b06c4c2ba4f48610",
+  "original_renderer_sha256": "2e0e1b51f1a0f543e38b5b17825e54dc30c0d3aaa76d3aff9073caf6c8a95bbe",
+  "all_cases_checked": 880,
+  "conditions_checked": 2640,
+  "repairs": [
+    {
+      "case_id": "medmcqa_train_202cb4ea-c9ef-4e19-868c-eaae7fca2262",
+      "cohort": "confirmation",
+      "condition": "neutral",
+      "strings": [
+        "'Thoracic duct malformations\"}"
+      ]
+    },
+    {
+      "case_id": "medmcqa_train_202cb4ea-c9ef-4e19-868c-eaae7fca2262",
+      "cohort": "confirmation",
+      "condition": "wrong",
+      "strings": [
+        "'Thoracic duct malformations\"}"
+      ]
+    },
+    {
+      "case_id": "medmcqa_train_202cb4ea-c9ef-4e19-868c-eaae7fca2262",
+      "cohort": "confirmation",
+      "condition": "none",
+      "strings": [
+        "'Thoracic duct malformations\"}"
+      ]
+    }
+  ],
+  "previous_generated_conditions_unchanged": 258,
+  "core_and_decoder_unchanged": true,
+  "selection_and_training_unchanged": true
+}

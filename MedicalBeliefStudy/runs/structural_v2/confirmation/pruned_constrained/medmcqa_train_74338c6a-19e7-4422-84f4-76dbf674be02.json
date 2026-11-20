@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_74338c6a-19e7-4422-84f4-76dbf674be02",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Corkscrew esophagus\"}",
+      "generated_disease": "Corkscrew esophagus",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "afe2f43382495fb00422479844c0d7c198452b726d873982a0d2620740504eb9"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Corkscrew esophagus\"}",
+      "generated_disease": "Corkscrew esophagus",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "048f7389bfb3f8511f949715803219332ce8227957909cb8419a14af5a04efcf"
+    }
+  ]
+}

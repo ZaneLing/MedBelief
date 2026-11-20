@@ -1,0 +1,68 @@
+{
+  "run_id": "phase1_direct_v2",
+  "cases": 12,
+  "primary_observations": 131,
+  "all_observations": 176,
+  "initial_correct_cases": 2,
+  "final_correct_cases": 7,
+  "regression_cases": 4,
+  "terminal_top_switch_events": 23,
+  "mapping_control_changed_points": 4,
+  "mapping_control_points": 9,
+  "strict_format_valid": 0,
+  "native_checks": [
+    {
+      "max_abs_error": 0.0078125,
+      "allclose": true,
+      "argmax_same": true
+    },
+    {
+      "max_abs_error": 0.015625,
+      "allclose": true,
+      "argmax_same": true
+    },
+    {
+      "max_abs_error": 0.0078125,
+      "allclose": true,
+      "argmax_same": true
+    },
+    {
+      "max_abs_error": 0.015625,
+      "allclose": true,
+      "argmax_same": true
+    },
+    {
+      "max_abs_error": 0.0078125,
+      "allclose": true,
+      "argmax_same": true
+    },
+    {
+      "max_abs_error": 0.015625,
+      "allclose": true,
+      "argmax_same": true
+    },
+    {
+      "max_abs_error": 0.0078125,
+      "allclose": true,
+      "argmax_same": true
+    },
+    {
+      "max_abs_error": 0.015625,
+      "allclose": true,
+      "argmax_same": true
+    },
+    {
+      "max_abs_error": 0.0078125,
+      "allclose": true,
+      "argmax_same": true
+    }
+  ],
+  "max_native_abs_error": 0.015625,
+  "min_terminal_candidate_mass": 0.9999929666519165,
+  "low_readout_mass_layers_median_below_1e_4": [
+    1
+  ],
+  "weights_unchanged": true,
+  "analysis_source_sha256": "be7e51c7de792ad586c65000644b2e4563a33e81249ed240aaf5e90d7c85ea29",
+  "api_cost_usd": 0
+}

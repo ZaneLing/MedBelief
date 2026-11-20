@@ -1,0 +1,95 @@
+case_id,dataset,cohort,gold,neutral,wrong_history,pattern,rounds
+mmlu_professional_medicine_test_0267,MMLU,confirmation,amyotrophic lateral sclerosis,Friedreich ataxia,progressive multifocal leukoencephalopathy,both_wrong,5
+mmlu_professional_medicine_dev_0001,MMLU,confirmation,right-on-right sacral torsion,right-on-right sacral torsion,left-on-left sacral torsion,history_harms,3
+mmlu_professional_medicine_test_0029,MMLU,confirmation,uninhibited neurogenic bladder,reflex neurogenic bladder,motor paralytic bladder,both_wrong,3
+mmlu_professional_medicine_test_0246,MMLU,confirmation,Mastoiditis,Mastoiditis,Lateral sinus thrombosis,history_harms,6
+mmlu_professional_medicine_test_0111,MMLU,confirmation,Polymyositis,Polymyositis,Polymyositis,both_correct,13
+mmlu_professional_medicine_test_0086,MMLU,confirmation,Atrial septal defect,Mitral valve prolapse,Mitral valve prolapse,both_wrong,5
+mmlu_professional_medicine_test_0177,MMLU,confirmation,pilonidal abscess,pilonidal abscess,pilonidal abscess,both_correct,4
+mmlu_professional_medicine_test_0212,MMLU,confirmation,Somatic symptom disorder,Somatic symptom disorder,Somatic symptom disorder,both_correct,5
+mmlu_professional_medicine_test_0242,MMLU,confirmation,"Hemopneumothorax, not under tension","Hemopneumothorax, not under tension","Hemopneumothorax, not under tension",both_correct,3
+mmlu_professional_medicine_test_0007,MMLU,confirmation,Multinodular goiter,Graves' disease,Graves' disease,both_wrong,3
+mmlu_professional_medicine_test_0025,MMLU,confirmation,Asthma,Asthma,Postnasal drip syndrome,history_harms,12
+mmlu_professional_medicine_test_0236,MMLU,confirmation,Bipolar disorder,Attention-deficit/hyperactivity disorder,Attention-deficit/hyperactivity disorder,both_wrong,15
+mmlu_professional_medicine_test_0077,MMLU,confirmation,adjustment disorder with anxious mood,adjustment disorder with anxious mood,adjustment disorder with anxious mood,both_correct,3
+mmlu_professional_medicine_test_0087,MMLU,confirmation,Herpes zoster,Acalculous cholecystitis,Acalculous cholecystitis,both_wrong,4
+mmlu_professional_medicine_test_0001,MMLU,confirmation,hypotonic uterine dysfunction,primary dysfunctional labor,primary dysfunctional labor,both_wrong,5
+mmlu_professional_medicine_test_0156,MMLU,confirmation,Transient tachypnea of newborn,Respiratory distress syndrome,Meconium aspiration syndrome,both_wrong,12
+medmcqa_train_1147973b-6b69-4447-ad7a-23ac66cfd08d,MedMCQA,confirmation,Iron deficiency anaemia,Iron deficiency anaemia,Iron deficiency anaemia,both_correct,4
+medmcqa_train_ddabc28b-fb85-4663-8bdd-26bd8df503da,MedMCQA,confirmation,Pheochromocytoma,Pheochromocytoma,Pheochromocytoma,both_correct,3
+medmcqa_train_29ddf07f-ff3d-483b-b86e-1b9d69a94e66,MedMCQA,confirmation,Cluster headache,Cluster headache,Cluster headache,both_correct,6
+medmcqa_train_84a622e5-bf5f-4be8-9c89-b138b06502be,MedMCQA,confirmation,Ruptured aneurysm,Hypertensive bleed,Hypertensive bleed,both_wrong,3
+medmcqa_train_fa9bc8c8-9ad6-400b-8d6b-2fba3491f7d2,MedMCQA,confirmation,Basilar migraine,Basilar migraine,Basilar migraine,both_correct,2
+medmcqa_validation_9998be8f-9725-46f3-9891-4ec3f18812ce,MedMCQA,confirmation,Pharyngeal pouch,Gastrophoresis,Achalasia,both_wrong,2
+medmcqa_train_9f8dcde7-4ab4-4390-8ecc-387c17e340ce,MedMCQA,confirmation,Urticaria pigmentosa,Urticarial vasculitis,Urticarial vasculitis,both_wrong,2
+medmcqa_train_c4b3f43a-bcd1-4002-b997-58a6060733e3,MedMCQA,confirmation,Normal pressure hydrocephalus,Lewy body dementia,Normal pressure hydrocephalus,history_helps,3
+medmcqa_train_a27573cc-b861-4320-a0a7-061125f69421,MedMCQA,confirmation,Secondary syphilis,Secondary syphilis,Secondary syphilis,both_correct,3
+medmcqa_train_365fae50-8881-4f0a-9e54-9383ee408c2a,MedMCQA,confirmation,Neuroleptic malignant syndrome,Neuroleptic malignant syndrome,Neuroleptic malignant syndrome,both_correct,2
+medmcqa_train_c1597de1-f31e-4e7c-b2d1-0143c96f3c85,MedMCQA,confirmation,Multiple myeloma,Multiple myeloma,Multiple myeloma,both_correct,4
+medmcqa_train_91170542-e39a-42bb-9328-e476172b3d0c,MedMCQA,confirmation,Toxoplasmosis chorioretinitis,Toxocariasis,Toxoplasmosis chorioretinitis,history_helps,3
+medmcqa_train_d9d92ea4-b7d4-4939-b677-074cdb036425,MedMCQA,confirmation,Pneumonic plague,Pneumonic plague,Pneumonic plague,both_correct,2
+medmcqa_train_55018a48-f147-436e-95b2-fbee550c220d,MedMCQA,confirmation,Ischaemic colitis,Ischaemic colitis,Bacillary dysentery,history_harms,2
+medmcqa_train_91a601bc-050f-4287-aad7-7f2a2a4c5b49,MedMCQA,confirmation,Ostium primum atrial septal defect.,Total anomalous pulmonary venous drainge,Tricuspid atresia.,both_wrong,3
+medmcqa_validation_dc918205-fb3a-42a9-805e-ec2c3e1c7352,MedMCQA,confirmation,Renal cell carcinoma,Seminoma,Seminoma,both_wrong,2
+medqa_train_09289,MedQA,confirmation,Intraductal papilloma,Intraductal papilloma,Intraductal papilloma,both_correct,5
+medqa_train_02486,MedQA,confirmation,Turcot syndrome,Turcot syndrome,Turcot syndrome,both_correct,8
+medqa_train_03583,MedQA,confirmation,α1-antitrypsin-deficiency,Lung cancer,Lung cancer,both_wrong,11
+medqa_train_05515,MedQA,confirmation,McCune-Albright syndrome,McCune-Albright syndrome,McCune-Albright syndrome,both_correct,10
+medqa_dev_00997,MedQA,confirmation,Uterine leiomyoma,Uterine leiomyoma,Endometrial hyperplasia,history_harms,9
+medqa_train_09811,MedQA,confirmation,Systemic lupus erythematosus,Systemic lupus erythematosus,Disseminated gonococcal arthritis,history_harms,13
+medqa_dev_00427,MedQA,confirmation,Femoral artery pseudoaneurysm,Femoral artery dissection,Femoral artery dissection,both_wrong,16
+medqa_train_03273,MedQA,confirmation,Somatic symptom disorder,Illness anxiety disorder,Somatic symptom disorder,history_helps,8
+medqa_train_06760,MedQA,confirmation,Endometriosis,Endometriosis,Endometriosis,both_correct,8
+medqa_train_05559,MedQA,confirmation,Complex partial seizure,Malingering,Malingering,both_wrong,10
+medqa_dev_00767,MedQA,confirmation,Dopamine blockade,Infection,Infection,both_wrong,13
+medqa_train_05134,MedQA,confirmation,Akathisia,Inadequately treated schizophrenia,Inadequately treated schizophrenia,both_wrong,4
+medqa_train_04169,MedQA,confirmation,Presence of endometrial glands and stroma in uterine myometrium,Hyperplastic overgrowths of endometrial glands and stroma,Malignant invasion of endometrial cells into uterine myometrium,both_wrong,12
+medqa_train_02773,MedQA,confirmation,Major depressive disorder,Major depressive disorder,Major depressive disorder,both_correct,5
+medqa_train_09596,MedQA,confirmation,Fetal demise,Fetal demise,Fetal demise,both_correct,8
+medqa_train_03042,MedQA,confirmation,Fibromyalgia,Fibromyalgia,Fibromyalgia,both_correct,11
+mmlu_professional_medicine_test_0238,MMLU,development,Axillary-subclavian venous thrombosis,Superficial thrombophlebitis of the basilic vein,Superficial thrombophlebitis of the basilic vein,both_wrong,4
+mmlu_professional_medicine_test_0014,MMLU,development,posteriorly deviated fibular head,posteriorly deviated fibular head,posteriorly deviated fibular head,both_correct,5
+mmlu_professional_medicine_validation_0021,MMLU,development,Placenta previa,Placenta previa,Placenta previa,both_correct,8
+mmlu_professional_medicine_test_0082,MMLU,development,adjustment disorder with depressed mood,"bipolar I disorder, mixed",adjustment disorder with depressed mood,history_helps,7
+mmlu_professional_medicine_test_0126,MMLU,development,Third-degree atrioventricular block,"Second-degree atrioventricular block, type I","Second-degree atrioventricular block, type I",both_wrong,6
+mmlu_professional_medicine_validation_0006,MMLU,development,Femoral popliteal stenosis,Aortoiliac stenosis,Vasculitis,both_wrong,4
+mmlu_professional_medicine_test_0096,MMLU,development,Dermatomyositis,Dermatomyositis,Dermatomyositis,both_correct,9
+mmlu_professional_medicine_validation_0028,MMLU,development,Narcolepsy,Sleep paralysis,Sleep paralysis,both_wrong,8
+mmlu_professional_medicine_test_0244,MMLU,development,Chronic lymphocytic thyroiditis (Hashimoto disease),Graves disease,Graves disease,both_wrong,6
+mmlu_professional_medicine_validation_0025,MMLU,development,malingering,vasodepressor syncope,vasodepressor syncope,both_wrong,4
+mmlu_professional_medicine_test_0210,MMLU,development,Subarachnoid hemorrhage,Migraine,Meningitis,both_wrong,8
+mmlu_professional_medicine_test_0065,MMLU,development,Amniotic fluid embolism,Amniotic fluid embolism,Amniotic fluid embolism,both_correct,9
+mmlu_professional_medicine_test_0128,MMLU,development,Acute stress disorder,Acute stress disorder,Acute stress disorder,both_correct,7
+mmlu_professional_medicine_test_0163,MMLU,development,Arteriovenous fistula,Arteriovenous fistula,Deep venous thrombosis,history_harms,4
+medmcqa_train_f4ab92de-95c8-49d3-b9d3-8418b15765bc,MedMCQA,development,Goodpasture's syndrome,Goodpasture's syndrome,Goodpasture's syndrome,both_correct,2
+medmcqa_train_4de58ddb-18e5-4f15-bf76-fc87d0959dd9,MedMCQA,development,Ankylosing spondylitis,Ankylosing spondylitis,Ankylosing spondylitis,both_correct,2
+medmcqa_train_9992f26f-2970-4a9f-80d9-3147ef409308,MedMCQA,development,Scabies,Infantile seborrheic dermatitis,Infantile seborrheic dermatitis,both_wrong,2
+medmcqa_train_d45f4334-516a-41c6-aa9b-855634caab7a,MedMCQA,development,Juvenile-onset diabetes mellitus,Juvenile-onset diabetes mellitus,Juvenile-onset diabetes mellitus,both_correct,2
+medmcqa_train_5856052c-1123-4a8f-8668-08bf614c6587,MedMCQA,development,Charcot Marie Tooth disease,Charcot Marie Tooth disease,Charcot Marie Tooth disease,both_correct,3
+medmcqa_train_3597c71c-6d28-4346-a57b-c7811e820b17,MedMCQA,development,monoclonal gammopathy of uncertain significance (MGUS),monoclonal gammopathy of uncertain significance (MGUS),monoclonal gammopathy of uncertain significance (MGUS),both_correct,3
+medmcqa_train_755e66b6-8670-48af-ae56-c6dd5a215b4f,MedMCQA,development,Richter's hernia,Richter's hernia,Richter's hernia,both_correct,3
+medmcqa_train_cebb4478-e455-4174-af6c-6fe6f1a2062f,MedMCQA,development,Scleroderma,Dermatomyositis,Dermatomyositis,both_wrong,2
+medmcqa_train_b2dbe8ac-5af8-4362-9f0f-a9cf94bfedba,MedMCQA,development,Atransferrinemia,Iron deficiency anemia,Iron deficiency anemia,both_wrong,2
+medmcqa_train_096109d0-9d3b-4c10-b114-895772dc476e,MedMCQA,development,Syringomyelia,Subacute combined degeneration,Subacute combined degeneration,both_wrong,3
+medmcqa_train_4ee939cd-1023-4158-b8b7-cd9828023a9b,MedMCQA,development,Congenital coxa vara,Congenital coxa vara,Congenital coxa vara,both_correct,2
+medmcqa_train_ba62ada8-2686-4823-86ae-12188d8ffe17,MedMCQA,development,Mantle cell Lymphoma (MCL),Mantle cell Lymphoma (MCL),Chronic Lymphocytic Leukemia (CLL),history_harms,2
+medmcqa_train_2fcd5076-47b4-4d62-b2e7-46ddaca607bb,MedMCQA,development,Henoch Shonlein Purpura,Henoch Shonlein Purpura,Henoch Shonlein Purpura,both_correct,2
+medmcqa_train_8eada6c1-b7ff-496f-8ae1-d7c1b566a236,MedMCQA,development,Nodular glomerulosclerosis,Diffuse glomerulosclerosis,Diffuse glomerulosclerosis,both_wrong,2
+medmcqa_train_dbfae1ec-3951-4bde-94e5-412a1939772c,MedMCQA,development,Tourette's syndrome,Tourette's syndrome,Tourette's syndrome,both_correct,3
+medmcqa_train_a4a4f0cb-1204-4cdf-b114-0757d0cef9ec,MedMCQA,development,Herpes zoster,Impetigo,Impetigo,both_wrong,2
+medqa_train_05416,MedQA,development,Water soluble vitamin deficiency,Water soluble vitamin deficiency,Anabolic steroid use,history_harms,11
+medqa_train_08091,MedQA,development,Atopic asthma,Chronic obstructive pulmonary disease,Chronic obstructive pulmonary disease,both_wrong,5
+medqa_train_00437,MedQA,development,Lipohyalinosis,Hypertensive encephalopathy,Hypertensive encephalopathy,both_wrong,14
+medqa_train_07055,MedQA,development,Cyclic vomiting syndrome,Cyclic vomiting syndrome,Cyclic vomiting syndrome,both_correct,9
+medqa_train_09633,MedQA,development,Borderline personality disorder,Bipolar I disorder,Bipolar II disorder,both_wrong,7
+medqa_train_06526,MedQA,development,Dermatitis herpetiformis,Dermatitis herpetiformis,Porphyria cutanea tarda,history_harms,3
+medqa_dev_00150,MedQA,development,Chronic bronchitis,Asthma,Asthma,both_wrong,10
+medqa_dev_00903,MedQA,development,Aortic regurgitation,Aortic regurgitation,Mitral stenosis,history_harms,4
+medqa_train_02606,MedQA,development,Obsessive compulsive disorder (OCD),Autism spectrum disorder (ASD),Tourette's syndrome,both_wrong,8
+medqa_train_08593,MedQA,development,Gallstone pancreatitis,Ascending cholangitis,Ascending cholangitis,both_wrong,7
+medqa_train_08453,MedQA,development,Hodgkin lymphoma,Hodgkin lymphoma,Adult T-cell lymphoma,history_harms,4
+medqa_dev_00092,MedQA,development,Marfan syndrome,Sturge-Weber syndrome,Ehlers-Danlos syndrome,both_wrong,11
+medqa_train_01010,MedQA,development,Pleural effusion,Pleural effusion,Pneumothorax,history_harms,5
+medqa_train_06990,MedQA,development,Gastroesophageal reflux disease,Peptic ulcer disease,Duodenal ulcer disease,both_wrong,4
+medqa_train_04624,MedQA,development,Dependent personality disorder,Separation anxiety disorder,Separation anxiety disorder,both_wrong,6
+medqa_train_00463,MedQA,development,Cluster headache,Short-lasting unilateral neuralgiform headaches with conjunctival injection and tearing (SUNCT) syndrome,Trigeminal neuralgia,both_wrong,5

@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_8a202b40-1144-448a-8bae-7044f37bc153",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Oppositional defiant disorder\"}",
+      "generated_disease": "Oppositional defiant disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "74d5bb8c8ea4270077c312b67566b97c074eb8a43107f491bdec460d59b973f6"
+    }
+  ]
+}

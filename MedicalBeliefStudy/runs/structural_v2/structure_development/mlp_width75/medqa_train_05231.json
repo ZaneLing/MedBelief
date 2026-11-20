@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_05231",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "mlp_width75",
+    "mlp_keep": 0.75
+  },
+  "parameter_stats": {
+    "parameters": 1456333824,
+    "weight_bytes": 2912667648,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Pompe's disease\"}",
+      "generated_disease": "Pompe's disease",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "bed7108b352b49c44a3bf9c3820e62bfac43ea38942e93746b5a7f3e7094606b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Cori's disease\"}",
+      "generated_disease": "Cori's disease",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "ed5178c56d0e93c4cbb4d0a5e098fe04d3976c38004846f12451166209571b52"
+    }
+  ]
+}

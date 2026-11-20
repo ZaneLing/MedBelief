@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_03119",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Eplrich's syndrome orphans\"} (Note: This is an error correction and/or an error of omission rather than an actual valid or relevant phisigroupingservententosentuinalentuualentecualservinalenemoticalenememememememememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "84c4ec62c4947c36a917b1bfc9609877718ad3c09c194031897f8bf7ec154116"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Bryonicphiliasenerventurus\"} (Note: This is an error correction and/or an error in the original systematics. actual correct answer is 'Nontravagility disease orphans orphans etetararum etetemenservutemensigroupingservemensig",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "58fd18c71ff2f337a99d1eea9cd6d187bc2648c13c9dd526f21a565280ff627d"
+    }
+  ]
+}

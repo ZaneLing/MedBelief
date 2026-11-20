@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_9bbff51a-c15a-4ec6-a956-310e0d78f50a",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Iemotariparovemotemphilenserventososarovememphilensigroupingservemansesparicovemansesparibovservemansesparwemensenservemensigroupingservemenschellschellsch",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "333dc8d3f3446b7bde275e6358e2373ac1bd827d40530cb542e0c10b5ce78bfc"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformy substractive disorder\"}",
+      "generated_disease": "Chronic veniformy substractive disorder",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "cc65d273286efe9dc6bc6170f127a79238e998baf3815f8fb828fe4035112266"
+    }
+  ]
+}

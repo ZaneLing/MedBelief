@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_00837",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Eystnystiysta\"} (Note: This is an error correction version of \"tystinema orphans' disease orphans etetararum etc.\"} Actual correct answer is typically \"Essential dystosol orphans orphans etetarigum etc.\"} However actual correct answer",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "7e58fdec6565a76dd9505dc88663ac5cd819ba96f865a83b056e4b5b3f78fd44"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Epidictive disorder\"}",
+      "generated_disease": "Epidictive disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "e8ed5a34cc7e7d38a57f8dce8fe683b8be8ed7a6c0766c3bde45f72d814e1b4a"
+    }
+  ]
+}

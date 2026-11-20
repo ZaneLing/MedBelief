@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_053752b7-7336-4d8b-a6e4-684831a8555c",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cystoid\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "ba44aad1daa5e8271284006b580210079183737f1f15afc5ded699e081e52860"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystoid\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "69d3e21d10ecb3ff13c1a2ab5e8e6a4dbe064f14be31d008e41a575ab217f686"
+    }
+  ]
+}

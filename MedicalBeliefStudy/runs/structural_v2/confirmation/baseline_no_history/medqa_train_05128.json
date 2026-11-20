@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_05128",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Endometrial polyp\"}",
+      "generated_disease": "Endometrial polyp",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "8e6d7d2f580a5d11cd64f16e22bb7cae7b6edf59b31db16b20e6ebb8647d3c42"
+    }
+  ]
+}

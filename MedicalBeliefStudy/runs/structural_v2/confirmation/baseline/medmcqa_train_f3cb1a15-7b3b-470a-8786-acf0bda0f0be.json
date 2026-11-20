@@ -1,0 +1,34 @@
+{
+  "case_id": "medmcqa_train_f3cb1a15-7b3b-470a-8786-acf0bda0f0be",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Pulmonary tuberculosis\"}",
+      "generated_disease": "Pulmonary tuberculosis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "0a69ec686981b0ebb2177dd32c7cf743f9759d91857c6dd9b5937ffd8b46b88b"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Pulmonary tuberculosis\"}",
+      "generated_disease": "Pulmonary tuberculosis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "06772379b83e5d48e3baf7e8e35c94d2ddecc0b32a1f99fed68ae12e9415b35d"
+    }
+  ]
+}

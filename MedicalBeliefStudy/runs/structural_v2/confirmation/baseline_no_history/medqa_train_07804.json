@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_07804",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "17-alpha-hydroxylase deficiency\"}",
+      "generated_disease": "17-alpha-hydroxylase deficiency",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "d092375db8d013ad119dd56b5384e8b00ed2c486cd53f59729e9440e0127a89b"
+    }
+  ]
+}

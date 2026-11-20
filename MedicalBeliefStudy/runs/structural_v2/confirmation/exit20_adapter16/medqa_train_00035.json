@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_00035",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Mnectionystguildserventiahserventecualservenemnysolvememnemaidservemmealingemmebracemmebracemmaipnemamservarmservarmsenservemememphilentechservemem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "16a07e9d30f736bfd37b9d1df618b18893f737be54ca8cfebbf07a27e7500765"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Mnectaneous disorder\"} (Note: This is an error correction and/or an error in the original system. actual correct answer is typically \"Essential dystosol or other similar butchers. However, in actual real-world scenario, correct answer is \"Trabegos or other similar. However, in actual",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "cca7162ab9c2a6f56036dec9c0ba2ba86a7a84725c5219b90920392a4d415f6d"
+    }
+  ]
+}

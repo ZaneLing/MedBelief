@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_2e98f427-968d-4c09-b6ca-ddc30245e686",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronicity and seasonal variability plus frequent, non-linear, non-linear, non-linear, etc., butchers et etemens et etemens, etc., butchers et etu...\"} --Note: This error caused an error in the original attempt. Proper and/or complete information required for accurate evaluation\"} --",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "d23fc508a7a5fc54f97e78c8364f773d5330c8af6bea06a11607d7782eaeb8bb"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chiliscaleungiaulphanturoidus\"} (Note: This is an example of an non-linear and non-standard phissemaracotaxia of an unochservationalentmaticity of an unobenturacidicity of an unperventualent",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "c8fdbd78e6af983eff2fabf6388ec60398bc13a5aa99c023e810c74b54bf2893"
+    }
+  ]
+}

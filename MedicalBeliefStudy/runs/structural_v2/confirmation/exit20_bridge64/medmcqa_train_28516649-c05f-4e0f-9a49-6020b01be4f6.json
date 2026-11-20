@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_28516649-c05f-4e0f-9a49-6020b01be4f6",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "A\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "ccb8f525669962faaf686cc94980970ada7c248818491a6c49add9ffbdc95646"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Hystomococosis\"}",
+      "generated_disease": "Hystomococosis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "1c28000328f27cd8815de8dc9491ed0a3574686aa4246e3b342aec315eee0b0b"
+    }
+  ]
+}

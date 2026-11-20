@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_00296",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_diagonal",
+    "adapter_file": "runs/structural_v2/adapters/full_diagonal/best.safetensors",
+    "adapter_kind": "diagonal",
+    "adapter_rank": 0
+  },
+  "parameter_stats": {
+    "parameters": 1720579072,
+    "weight_bytes": 3441166336,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Disc herniation\"}",
+      "generated_disease": "Disc herniation",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "8238d3f48773abfaf44c2a5f32d16eb31bdbf151058f3103b22bbe9b17308c77"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Disc herniation\"}",
+      "generated_disease": "Disc herniation",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "2584cf186aab94af1960622dd77da19af9d84fd83a168e18415df1d538a88336"
+    }
+  ]
+}

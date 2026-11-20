@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_03279",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoximotarystenovemphilissemnysturacumphilenserventososentecotemphilensesparacovemphilensesparibovservemphilensesparwendemphansolvememphil",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "1c45a135fc1f8d76ce5a7d70705b04132bdabeb0e57670daf23299c88cc372e7"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoximotarlungotean disorder\"}",
+      "generated_disease": "Pemphoximotarlungotean disorder",
+      "stop": "eos",
+      "tokens": 12,
+      "prompt_sha256": "cec78cdc35d3e94b3bb3c3831b622091c9cd39125b2bdac9e8dd522c5f346bfc"
+    }
+  ]
+}

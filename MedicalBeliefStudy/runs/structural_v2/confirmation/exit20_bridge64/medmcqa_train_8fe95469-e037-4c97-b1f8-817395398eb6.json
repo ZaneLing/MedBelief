@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_8fe95469-e037-4c97-b1f8-817395398eb6",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pustus\"}",
+      "generated_disease": "Pustus",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "8fe6437afb0b6bb05a4dacc51f7c845e53c5f8f812488a2f658655ae13e72c35"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pustus\"}",
+      "generated_disease": "Pustus",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "37302875ac48465d366f05c23877bb78138247e673109450e0a36a8c495e0097"
+    }
+  ]
+}

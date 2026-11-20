@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_dev_00037",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Traveler’s diarrhea due to Norovirus\"}",
+      "generated_disease": "Traveler’s diarrhea due to Norovirus",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "56a92484311e5496d291b3ba503d62d90c45d62473bbc31a0aa1a08617f0036f"
+    }
+  ]
+}

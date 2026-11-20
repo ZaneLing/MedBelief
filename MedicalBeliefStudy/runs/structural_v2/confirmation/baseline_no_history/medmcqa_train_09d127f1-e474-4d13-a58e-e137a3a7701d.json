@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_09d127f1-e474-4d13-a58e-e137a3a7701d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Osteosarcoma\"}",
+      "generated_disease": "Osteosarcoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "0659ecf4639b883a99b3cbedc071766ae874f837c883b4c776cb39fff2862f56"
+    }
+  ]
+}

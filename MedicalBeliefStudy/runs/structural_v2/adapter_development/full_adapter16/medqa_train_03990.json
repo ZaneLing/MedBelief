@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_03990",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Craniopharyngioma\"}",
+      "generated_disease": "Craniopharyngioma",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "6110b63dd830878f58910a16a9acf899f377602b81e1d4c9650d6b68aac22798"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Craniopharyngioma\"}",
+      "generated_disease": "Craniopharyngioma",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "f3bad5dc2e07bfa78d99f871abafffcbba38e952911b715c1857373541726a4a"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "patient": "old_medqa_case_for_implementation_only",
+  "new_patient_inference": false,
+  "checks": [
+    {
+      "layer": 14,
+      "site": "new",
+      "sham_max_logp_error": 0.0
+    },
+    {
+      "layer": 14,
+      "site": "anchor",
+      "sham_max_logp_error": 0.0
+    },
+    {
+      "layer": 21,
+      "site": "new",
+      "sham_max_logp_error": 0.0
+    },
+    {
+      "layer": 21,
+      "site": "anchor",
+      "sham_max_logp_error": 0.0
+    }
+  ],
+  "native_error": 0.015625,
+  "cache_validation": {
+    "direct": -21.953575134277344,
+    "cached": -21.953549654572022,
+    "absolute_error": 2.5479705321629353e-05
+  },
+  "source_sha256": "019d538fb8164f85ce4cb2bc082a7821675941c3a58174d348cfe6141236bab7"
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_fff7b566-212c-48d5-9e20-9e5b4cf634bb",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Anxiety disorder\"}",
+      "generated_disease": "Anxiety disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "ba6b1ec565c8759424742ad7bada2a1dd16589bc896443711401dc47ef640106"
+    }
+  ]
+}

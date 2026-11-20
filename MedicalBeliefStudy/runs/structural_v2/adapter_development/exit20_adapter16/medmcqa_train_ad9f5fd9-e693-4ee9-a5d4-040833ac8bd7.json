@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_ad9f5fd9-e693-4ee9-a5d4-040833ac8bd7",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Primaryodialystic disorder\"}",
+      "generated_disease": "Primaryodialystic disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "71f981b38d5cd9ca19e39d72613cea550a3ddc5edb469a44bd0b184d1cc93195"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Primary longening of the body neck of the semetegotaxia\"}",
+      "generated_disease": "Primary longening of the body neck of the semetegotaxia",
+      "stop": "eos",
+      "tokens": 16,
+      "prompt_sha256": "da1f7a69047666e8ad2c1e31011de23012843787701ed6449dbae395838771a0"
+    }
+  ]
+}

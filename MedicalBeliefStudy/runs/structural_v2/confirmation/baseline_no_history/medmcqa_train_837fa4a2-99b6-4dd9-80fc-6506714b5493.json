@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_837fa4a2-99b6-4dd9-80fc-6506714b5493",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Dermatomyositis\"}",
+      "generated_disease": "Dermatomyositis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "4b50fe28a9e93781ef39bd39bbf493af2fb81520e1ca642051365febc0d97718"
+    }
+  ]
+}

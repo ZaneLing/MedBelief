@@ -1,0 +1,25 @@
+[
+  {
+    "step": 0,
+    "development_loss": 2.178073257153147,
+    "elapsed": 0.0
+  },
+  {
+    "step": 100,
+    "development_loss": 2.537851456007047,
+    "mean_recent_train_loss": 2.8176093488931655,
+    "elapsed": 2.19
+  },
+  {
+    "step": 300,
+    "development_loss": 2.582139639078014,
+    "mean_recent_train_loss": 1.813689509779215,
+    "elapsed": 5.51
+  },
+  {
+    "step": 600,
+    "development_loss": 2.4692164628504543,
+    "mean_recent_train_loss": 1.6592995765805245,
+    "elapsed": 10.49
+  }
+]

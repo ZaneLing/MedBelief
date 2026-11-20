@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_04256",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chute's disease or hypercephension or other unspecified disease\"} (Note: This is an error correction and/or an example of an non-c valid answer. actual answer should be either \"Eplrich's disease or other unspecified or other relevant phausia\"} (Note: actual correct answer is typically either \"Sch",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "e014f01bc315eaf83dcc2a8b56fa1395bd433fd6cb12188d7bea28c880fa8ede"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chute's disease or hypercephension or other name nameplate\"} (Note: This is an error error and should be an actual valid name of an disease. Actual real-life actual real-world actual real-life actual phausentosentosemonicity isotope isotope isotope granaripovem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "3df8ba6ba110ef410f38c58b9e3ec54193c890b5f4196becae0b41f0736417fc"
+    }
+  ]
+}

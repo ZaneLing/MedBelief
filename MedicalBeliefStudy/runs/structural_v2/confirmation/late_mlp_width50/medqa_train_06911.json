@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_train_06911",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Spondylolisthesis\"}",
+      "generated_disease": "Spondylolisthesis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "ccf68c26c41a3684f34465d1fe5f5e6b50371983917bce6b326d3b2e8207b9ac"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Vertebral fracture\"}",
+      "generated_disease": "Vertebral fracture",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "0fe36a0b187aa101b648aa635d4c089b7f8454a45f9cd40a14ddcf3eafdde03d"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_8d747f94-fa97-4ab8-9f19-e0087c503392",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Ehememotlichentechservarung\"} (Note: This is an error error. actual correct answer is \"minimalmetocotarum orphans orphans inkservatiggingen orphans inksiggingen etetarmsolensphilarovemetocem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "e9125fa9ca361ed4e405601dcbb6982a67fb43fee66d9add61bf8444e215d8d1"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxiaemia//Trabegoschi syndrome\"} (Note: This is an example of an non-linear response. actual real-world data would be based solely basedinal data provided in the original post. If no exact match found among provided options without additional information or additional information required for accurate selection\"} (",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "122c74c12057c129bffac48b06354d5093b3b8ee93b9b92ed1df65071e438191"
+    }
+  ]
+}

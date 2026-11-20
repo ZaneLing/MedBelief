@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_edf467da-ed2b-426f-8e33-17adeaa5edb1",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "EHPVO\"}",
+      "generated_disease": "EHPVO",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "aa6dcd38ae02b95f50a7156a4df706d0bdf576f5763207e4103aed0e9b8126f5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "NCPF\"}",
+      "generated_disease": "NCPF",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "9168ef68e9e35692dcdc22a4d07433d296af0729c14f4ca1d82a8bc84f0544b0"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "medqa_train_06203",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Endometrial carcinoma\"}",
+      "generated_disease": "Endometrial carcinoma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "5e75adea18a9c0fe06d123ef24b5ce1ea5bea75c04ef651d512db5011bb71a20"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Uterine leiomyoma\"}",
+      "generated_disease": "Uterine leiomyoma",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "f09c7c7d0400a461f3133c8146437353a72f3471584e1ab18d58e582bf4b6b9c"
+    }
+  ]
+}

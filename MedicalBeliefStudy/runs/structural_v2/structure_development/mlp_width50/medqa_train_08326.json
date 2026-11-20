@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_08326",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "mlp_width50",
+    "mlp_keep": 0.5
+  },
+  "parameter_stats": {
+    "parameters": 1192092672,
+    "weight_bytes": 2384185344,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Absence seizure\"}\n</think>\n\n{\"diagnosis\":\"Absence seizure\"}\n",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 14,
+      "prompt_sha256": "4f182684ce4d91f0b764f77ebfce004020cd3b4f7994a38f665e67470292bf44"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Syncopal episodes\"}",
+      "generated_disease": "Syncopal episodes",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "272f61cd1482dac7e26f0b32baac0973b6aa49e4e5829f4038e7d05290ac749b"
+    }
+  ]
+}

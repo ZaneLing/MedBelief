@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_02760",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "mlp_width50",
+    "mlp_keep": 0.5
+  },
+  "parameter_stats": {
+    "parameters": 1192092672,
+    "weight_bytes": 2384185344,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Undetermined\"}\n</think>\n\n{\"diagnosis\":\"Undetermined\"}\n",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 12,
+      "prompt_sha256": "9033042b035127da123dfcff6bf176ba7d43e112d0c4553a1446f744cc8772c7"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Mastitis\"}\n</think>\n\n{\"diagnosis\":\"Mastitis\"}\n",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 14,
+      "prompt_sha256": "00603699c601aa1b813bd2cad43589a0e099c70689e93161447edd658d8d8637"
+    }
+  ]
+}

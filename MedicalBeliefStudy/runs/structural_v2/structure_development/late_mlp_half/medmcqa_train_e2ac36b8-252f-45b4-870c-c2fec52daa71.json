@@ -1,0 +1,41 @@
+{
+  "case_id": "medmcqa_train_e2ac36b8-252f-45b4-870c-c2fec52daa71",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_half",
+    "mlp_scale": 0.5,
+    "scale_layers": [
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Progressive supra-nuclear palsy\"}",
+      "generated_disease": "Progressive supra-nuclear palsy",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "39c96378f4251c7790076173265d36643a44d909ed4fa028636102f9d83e0bcd"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Progressive supra-nuclear palsy\"}",
+      "generated_disease": "Progressive supra-nuclear palsy",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "cdd2cf1e5722edb777c391a0b238e02454aa52702ed384fa1d6c82f38783c85d"
+    }
+  ]
+}

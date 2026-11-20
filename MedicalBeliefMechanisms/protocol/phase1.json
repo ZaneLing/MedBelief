@@ -1,0 +1,33 @@
+{
+  "stage": "1: measurement feasibility and rule-comprehension calibration",
+  "seed": 20261117,
+  "model_id": "Qwen/Qwen3-1.7B",
+  "thinking_enabled": false,
+  "device": "mps",
+  "dtype": "float16",
+  "base_cases": 12,
+  "domains": ["aki", "bp", "dvt"],
+  "positive_negative_reports": 2,
+  "priors": ["none", "yes", "no"],
+  "option_rotations": 3,
+  "stages": ["initial", "evidence", "confirmed", "withdrawn"],
+  "total_records": 864,
+  "unique_prompt_count": 756,
+  "independence_unit": "base_id; numeric variants share templates",
+  "source_of_prior": "supplied preceding assessment, not a model-generated belief",
+  "main_measurements": [
+    "no-prior rule accuracy by domain and stage",
+    "same-facts paired change in answer probabilities under opposed supplied priors",
+    "unknown selection after report withdrawal",
+    "candidate token mass and free first-token agreement",
+    "decoder-block activation shape, finiteness, position mapping, capture neutrality"
+  ],
+  "primary_gate": {
+    "engineering": "all records and activations saved; passive capture logit difference below 1e-5",
+    "scientific": "no automatic mechanism declaration; stage 2 first checks domain-level rule competence, template sensitivity, and clinician review"
+  },
+  "frozen_before_inference": true,
+  "not_claims": ["clinical safety", "novel mechanism", "hidden belief probability", "cross-model generality", "independent clinician validation"],
+  "paid_api_budget_usd": 0,
+  "local_weights_download_authorized_by_experiment_setup": true
+}

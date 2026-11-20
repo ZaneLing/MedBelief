@@ -1,0 +1,6052 @@
+{
+  "patients": 94,
+  "conditions": 2444,
+  "summaries": [
+    {
+      "dataset": "MedQA",
+      "cohort": "all",
+      "layer": 14,
+      "site": "new",
+      "n": 32,
+      "mean": 0.10876300471653755,
+      "median": 0.05468717822840574,
+      "low": -0.24792792368107197,
+      "high": 0.4584404728160481,
+      "p": 0.5644294463192101,
+      "target_change": {
+        "n": 32,
+        "mean": 0.10366921766487769,
+        "median": 0.05468727508559823,
+        "low": -0.2457130888359622,
+        "high": 0.4507678262209519
+      },
+      "random_change": {
+        "n": 32,
+        "mean": -0.005093787051659859,
+        "median": -0.01171863079106572,
+        "low": -0.041781787684508194,
+        "high": 0.03340201024348359
+      },
+      "reverse_change": {
+        "n": 32,
+        "mean": -0.018429316354175107,
+        "median": -0.023415566072714,
+        "low": -0.3472512673033885,
+        "high": 0.3241021025010898
+      },
+      "distance_to_neutral_improvement": {
+        "n": 32,
+        "mean": 0.09195071348483586,
+        "median": 0.039062289986759424,
+        "low": -0.25784165827270805,
+        "high": 0.43201890603681764
+      },
+      "target_choice_changed": {
+        "n": 32,
+        "mean": 0.0625,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.15625
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 32,
+        "mean": 0.03125,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.09375
+      },
+      "target_minus_random_accuracy": {
+        "n": 32,
+        "mean": 0.015625,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.046875
+      },
+      "target_recovers_neutral_choice": {
+        "n": 32,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.4375,
+        "high": 0.78125
+      },
+      "moves_toward_neutral": {
+        "n": 32,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.46796875000000027,
+        "high": 0.78125
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 32,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.53125,
+        "high": 0.84375
+      },
+      "p_holm": 0.9693788276465442
+    },
+    {
+      "dataset": "MedQA",
+      "cohort": "all",
+      "layer": 14,
+      "site": "old",
+      "n": 32,
+      "mean": 0.18388849660481477,
+      "median": 0.031253128839949795,
+      "low": -0.0048191746659369625,
+      "high": 0.4505359471346522,
+      "p": 0.09861267341582303,
+      "target_change": {
+        "n": 32,
+        "mean": 0.17801208611558939,
+        "median": 0.03125071520065603,
+        "low": -0.012301321083018957,
+        "high": 0.45389619571250056
+      },
+      "random_change": {
+        "n": 32,
+        "mean": -0.005876410489225381,
+        "median": -0.012172950221639667,
+        "low": -0.03837514329826714,
+        "high": 0.022136747391987427
+      },
+      "reverse_change": {
+        "n": 32,
+        "mean": -0.1321929323717177,
+        "median": -0.007811725214025955,
+        "low": -0.38284411596996554,
+        "high": 0.08256709573592946
+      },
+      "distance_to_neutral_improvement": {
+        "n": 32,
+        "mean": 0.20047272560978846,
+        "median": 0.039021641013619046,
+        "low": 0.012123609223017312,
+        "high": 0.4705244202937043
+      },
+      "target_choice_changed": {
+        "n": 32,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 32,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 32,
+        "mean": -0.03125,
+        "median": 0.0,
+        "low": -0.09375,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 32,
+        "mean": 0.5625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.71875
+      },
+      "moves_toward_neutral": {
+        "n": 32,
+        "mean": 0.59375,
+        "median": 1.0,
+        "low": 0.43671875000000027,
+        "high": 0.75
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 32,
+        "mean": 0.59375,
+        "median": 1.0,
+        "low": 0.43671875000000027,
+        "high": 0.75
+      },
+      "p_holm": 0.49306336707911513
+    },
+    {
+      "dataset": "MedQA",
+      "cohort": "all",
+      "layer": 14,
+      "site": "anchor",
+      "n": 32,
+      "mean": -0.2282682872842311,
+      "median": -0.12108800098725148,
+      "low": -0.5421036486021203,
+      "high": 0.08271861514970283,
+      "p": 0.16535433070866143,
+      "target_change": {
+        "n": 32,
+        "mean": -0.1349757512616987,
+        "median": -4.9811801797972066e-05,
+        "low": -0.4098784900869555,
+        "high": 0.13851009511625137
+      },
+      "random_change": {
+        "n": 32,
+        "mean": 0.0932925360225324,
+        "median": 0.12104905804032917,
+        "low": -0.12535355222663733,
+        "high": 0.30117287051685043
+      },
+      "reverse_change": {
+        "n": 32,
+        "mean": 0.15686930039060898,
+        "median": 0.019706143497444373,
+        "low": -0.032362596720961756,
+        "high": 0.3792505150110533
+      },
+      "distance_to_neutral_improvement": {
+        "n": 32,
+        "mean": -0.06466211910465991,
+        "median": -0.031299573398136715,
+        "low": -0.33911294821390875,
+        "high": 0.21018382497630111
+      },
+      "target_choice_changed": {
+        "n": 32,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 32,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 32,
+        "mean": -0.015625,
+        "median": 0.0,
+        "low": -0.046875,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 32,
+        "mean": 0.5625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.71875
+      },
+      "moves_toward_neutral": {
+        "n": 32,
+        "mean": 0.4375,
+        "median": 0.0,
+        "low": 0.28125,
+        "high": 0.625
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 32,
+        "mean": 0.5,
+        "median": 0.5,
+        "low": 0.3125,
+        "high": 0.6875
+      },
+      "p_holm": 0.6614173228346457
+    },
+    {
+      "dataset": "MedQA",
+      "cohort": "all",
+      "layer": 21,
+      "site": "new",
+      "n": 32,
+      "mean": 0.007368248478596406,
+      "median": 8.94066545242822e-08,
+      "low": -0.013031141333776763,
+      "high": 0.027174460517693524,
+      "p": 0.4846894138232721,
+      "target_change": {
+        "n": 32,
+        "mean": 0.005514342101395897,
+        "median": 3.158029358019121e-06,
+        "low": -0.01514945406249839,
+        "high": 0.024460458916587723
+      },
+      "random_change": {
+        "n": 32,
+        "mean": -0.0018539063772005093,
+        "median": -2.973552710727745e-07,
+        "low": -0.009183884612913484,
+        "high": 0.005376838824751025
+      },
+      "reverse_change": {
+        "n": 32,
+        "mean": 0.011896398074842551,
+        "median": 1.788109784683911e-07,
+        "low": -0.015622927372743844,
+        "high": 0.04329615767338235
+      },
+      "distance_to_neutral_improvement": {
+        "n": 32,
+        "mean": 0.0074672212409971905,
+        "median": 6.375887778631295e-06,
+        "low": -0.012717979244784327,
+        "high": 0.026332815484790606
+      },
+      "target_choice_changed": {
+        "n": 32,
+        "mean": 0.0625,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.15625
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 32,
+        "mean": 0.03125,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.09375
+      },
+      "target_minus_random_accuracy": {
+        "n": 32,
+        "mean": 0.03125,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.09375
+      },
+      "target_recovers_neutral_choice": {
+        "n": 32,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.4375,
+        "high": 0.78125
+      },
+      "moves_toward_neutral": {
+        "n": 32,
+        "mean": 0.5625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.71875
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 32,
+        "mean": 0.5,
+        "median": 0.5,
+        "low": 0.34375,
+        "high": 0.6875
+      },
+      "p_holm": 0.9693788276465442
+    },
+    {
+      "dataset": "MedQA",
+      "cohort": "all",
+      "layer": 21,
+      "site": "old",
+      "n": 32,
+      "mean": 0.0054855120524825995,
+      "median": 0.003919117148939222,
+      "low": -0.004511429730276606,
+      "high": 0.014377115521682814,
+      "p": 0.2863392075990501,
+      "target_change": {
+        "n": 32,
+        "mean": 0.007309626351554188,
+        "median": 2.3054911736153372e-05,
+        "low": -0.001970530656697944,
+        "high": 0.01607318917833185
+      },
+      "random_change": {
+        "n": 32,
+        "mean": 0.0018241142990715886,
+        "median": 8.940671136770106e-08,
+        "low": -0.0039057993787924294,
+        "high": 0.007814543903078609
+      },
+      "reverse_change": {
+        "n": 32,
+        "mean": 0.004060982829645177,
+        "median": 1.788133090485644e-07,
+        "low": -0.005654618115880461,
+        "high": 0.014366844510056964
+      },
+      "distance_to_neutral_improvement": {
+        "n": 32,
+        "mean": 0.0034031826460083625,
+        "median": 6.556323342010728e-07,
+        "low": -0.005875627374975184,
+        "high": 0.012650513944768871
+      },
+      "target_choice_changed": {
+        "n": 32,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 32,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 32,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 32,
+        "mean": 0.5625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.71875
+      },
+      "moves_toward_neutral": {
+        "n": 32,
+        "mean": 0.53125,
+        "median": 1.0,
+        "low": 0.34375,
+        "high": 0.6875
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 32,
+        "mean": 0.46875,
+        "median": 0.0,
+        "low": 0.3125,
+        "high": 0.625
+      },
+      "p_holm": 0.8590176227971504
+    },
+    {
+      "dataset": "MedQA",
+      "cohort": "all",
+      "layer": 21,
+      "site": "anchor",
+      "n": 32,
+      "mean": 6.438165721688134,
+      "median": 5.054243727397463,
+      "low": 3.56132929581234,
+      "high": 9.624466714092076,
+      "p": 0.00024996875390576176,
+      "target_change": {
+        "n": 32,
+        "mean": 6.569104580710216,
+        "median": 4.874606953016269,
+        "low": 3.652605396493972,
+        "high": 9.78640046102491
+      },
+      "random_change": {
+        "n": 32,
+        "mean": 0.13093885902208235,
+        "median": 0.07426935640908994,
+        "low": -0.18005913119964395,
+        "high": 0.442989426905176
+      },
+      "reverse_change": {
+        "n": 32,
+        "mean": -4.809771809532171,
+        "median": -4.509484369719985,
+        "low": -7.491303849259159,
+        "high": -2.330192501084208
+      },
+      "distance_to_neutral_improvement": {
+        "n": 32,
+        "mean": 7.5446961780650295,
+        "median": 5.57817124817943,
+        "low": 4.887161005991414,
+        "high": 10.514142090452065
+      },
+      "target_choice_changed": {
+        "n": 32,
+        "mean": 0.1875,
+        "median": 0.0,
+        "low": 0.0625,
+        "high": 0.34375
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 32,
+        "mean": 0.0625,
+        "median": 0.0,
+        "low": -0.0625,
+        "high": 0.1875
+      },
+      "target_minus_random_accuracy": {
+        "n": 32,
+        "mean": 0.078125,
+        "median": 0.0,
+        "low": -0.015625,
+        "high": 0.1875
+      },
+      "target_recovers_neutral_choice": {
+        "n": 32,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.59375,
+        "high": 0.90625
+      },
+      "moves_toward_neutral": {
+        "n": 32,
+        "mean": 0.9375,
+        "median": 1.0,
+        "low": 0.84375,
+        "high": 1.0
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 32,
+        "mean": 0.875,
+        "median": 1.0,
+        "low": 0.75,
+        "high": 0.96875
+      },
+      "p_holm": 0.0014998125234345705
+    },
+    {
+      "dataset": "MedQA",
+      "cohort": "development",
+      "layer": 14,
+      "site": "new",
+      "n": 16,
+      "mean": 0.05445016193741603,
+      "median": 0.07031222968392115,
+      "low": -0.6252890269376711,
+      "high": 0.7191951325917535,
+      "p": 0.8825146856642919,
+      "target_change": {
+        "n": 16,
+        "mean": 0.04437457475464912,
+        "median": 0.08056276055866363,
+        "low": -0.6245640615326694,
+        "high": 0.6924408355247285
+      },
+      "random_change": {
+        "n": 16,
+        "mean": -0.01007558718276691,
+        "median": -0.019525931912028227,
+        "low": -0.07422271787774833,
+        "high": 0.06273725768120635
+      },
+      "reverse_change": {
+        "n": 16,
+        "mean": 0.12082859570753435,
+        "median": 0.007833897525216571,
+        "low": -0.4823267466007431,
+        "high": 0.7254493826583879
+      },
+      "distance_to_neutral_improvement": {
+        "n": 16,
+        "mean": -0.010312999744321427,
+        "median": 0.05468727508559823,
+        "low": -0.6781975825513357,
+        "high": 0.6412045877455825
+      },
+      "target_choice_changed": {
+        "n": 16,
+        "mean": 0.125,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.3125
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 16,
+        "mean": 0.0625,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.1875
+      },
+      "target_minus_random_accuracy": {
+        "n": 16,
+        "mean": 0.03125,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.09375
+      },
+      "target_recovers_neutral_choice": {
+        "n": 16,
+        "mean": 0.5,
+        "median": 0.5,
+        "low": 0.25,
+        "high": 0.75
+      },
+      "moves_toward_neutral": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.875
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 16,
+        "mean": 0.5625,
+        "median": 1.0,
+        "low": 0.3125,
+        "high": 0.8125
+      },
+      "p_holm": 1.0
+    },
+    {
+      "dataset": "MedQA",
+      "cohort": "development",
+      "layer": 14,
+      "site": "old",
+      "n": 16,
+      "mean": 0.24033428813376645,
+      "median": -0.007820970911666336,
+      "low": -0.12110729016285689,
+      "high": 0.7369064814687876,
+      "p": 0.3772028496437945,
+      "target_change": {
+        "n": 16,
+        "mean": 0.26038238301851013,
+        "median": 0.015591042055461912,
+        "low": -0.10759983629654442,
+        "high": 0.7727502524956206
+      },
+      "random_change": {
+        "n": 16,
+        "mean": 0.020048094884743684,
+        "median": 0.015623986794281564,
+        "low": -0.015050330533357536,
+        "high": 0.058374282315384
+      },
+      "reverse_change": {
+        "n": 16,
+        "mean": -0.18233354405052227,
+        "median": -0.023437440536312693,
+        "low": -0.6224473535097724,
+        "high": 0.1648862177669438
+      },
+      "distance_to_neutral_improvement": {
+        "n": 16,
+        "mean": 0.29163205521428015,
+        "median": 0.046835988641078075,
+        "low": -0.07244635397564003,
+        "high": 0.7945417583092271
+      },
+      "target_choice_changed": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 16,
+        "mean": -0.0625,
+        "median": 0.0,
+        "low": -0.1875,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 16,
+        "mean": 0.375,
+        "median": 0.0,
+        "low": 0.125,
+        "high": 0.625
+      },
+      "moves_toward_neutral": {
+        "n": 16,
+        "mean": 0.5625,
+        "median": 1.0,
+        "low": 0.3125,
+        "high": 0.8125
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.875
+      },
+      "p_holm": 1.0
+    },
+    {
+      "dataset": "MedQA",
+      "cohort": "development",
+      "layer": 14,
+      "site": "anchor",
+      "n": 16,
+      "mean": -0.2370386409237215,
+      "median": -0.14844518833005793,
+      "low": -0.627641957348795,
+      "high": 0.14090168529585617,
+      "p": 0.25234345706786654,
+      "target_change": {
+        "n": 16,
+        "mean": -0.04311500949690439,
+        "median": -4.9811801797972066e-05,
+        "low": -0.3274646544346044,
+        "high": 0.26462889182616856
+      },
+      "random_change": {
+        "n": 16,
+        "mean": 0.19392363142681712,
+        "median": 0.3360027409519315,
+        "low": -0.14125327811618113,
+        "high": 0.5296732648943225
+      },
+      "reverse_change": {
+        "n": 16,
+        "mean": 0.06628655609062317,
+        "median": 0.019706143497444373,
+        "low": -0.12466536741860595,
+        "high": 0.2555903625657124
+      },
+      "distance_to_neutral_improvement": {
+        "n": 16,
+        "mean": -0.04702105088502462,
+        "median": -0.03129814290675981,
+        "low": -0.33193296584216453,
+        "high": 0.26176192525111547
+      },
+      "target_choice_changed": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 16,
+        "mean": -0.03125,
+        "median": 0.0,
+        "low": -0.09375,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 16,
+        "mean": 0.375,
+        "median": 0.0,
+        "low": 0.125,
+        "high": 0.625
+      },
+      "moves_toward_neutral": {
+        "n": 16,
+        "mean": 0.4375,
+        "median": 0.0,
+        "low": 0.1875,
+        "high": 0.6875
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 16,
+        "mean": 0.375,
+        "median": 0.0,
+        "low": 0.125,
+        "high": 0.625
+      },
+      "p_holm": 1.0
+    },
+    {
+      "dataset": "MedQA",
+      "cohort": "development",
+      "layer": 21,
+      "site": "new",
+      "n": 16,
+      "mean": 0.028888828769124686,
+      "median": 0.02989375596712307,
+      "low": -0.005250804994678936,
+      "high": 0.06278906129652927,
+      "p": 0.1229846269216348,
+      "target_change": {
+        "n": 16,
+        "mean": 0.02372770316769035,
+        "median": 0.023437440419797895,
+        "low": -0.01090735909538143,
+        "high": 0.05728178024271654
+      },
+      "random_change": {
+        "n": 16,
+        "mean": -0.005161125601434335,
+        "median": -0.003906353639834492,
+        "low": -0.014161515559830074,
+        "high": 0.003906287410913834
+      },
+      "reverse_change": {
+        "n": 16,
+        "mean": 0.022842154900011735,
+        "median": 0.007804874262333783,
+        "low": -0.02687720226539518,
+        "high": 0.07978134096291875
+      },
+      "distance_to_neutral_improvement": {
+        "n": 16,
+        "mean": 0.021774444062014453,
+        "median": 0.015628931781407118,
+        "low": -0.012863103348113114,
+        "high": 0.05566529874080023
+      },
+      "target_choice_changed": {
+        "n": 16,
+        "mean": 0.125,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.3125
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 16,
+        "mean": 0.0625,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.1875
+      },
+      "target_minus_random_accuracy": {
+        "n": 16,
+        "mean": 0.0625,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.1875
+      },
+      "target_recovers_neutral_choice": {
+        "n": 16,
+        "mean": 0.5,
+        "median": 0.5,
+        "low": 0.25,
+        "high": 0.75
+      },
+      "moves_toward_neutral": {
+        "n": 16,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.4375,
+        "high": 0.875
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 16,
+        "mean": 0.375,
+        "median": 0.0,
+        "low": 0.125,
+        "high": 0.625
+      },
+      "p_holm": 0.6149231346081739
+    },
+    {
+      "dataset": "MedQA",
+      "cohort": "development",
+      "layer": 21,
+      "site": "old",
+      "n": 16,
+      "mean": 0.002209349506129943,
+      "median": 0.0039096414985806405,
+      "low": -0.013878328433676779,
+      "high": 0.015622256898905507,
+      "p": 0.8103987001624797,
+      "target_change": {
+        "n": 16,
+        "mean": 0.004882721873729512,
+        "median": 1.2808285674736908e-05,
+        "low": -0.010742142332300818,
+        "high": 0.01758169002595631
+      },
+      "random_change": {
+        "n": 16,
+        "mean": 0.002673372367599569,
+        "median": 3.6047736102773342e-06,
+        "low": -0.004394265539016296,
+        "high": 0.009771223205320822
+      },
+      "reverse_change": {
+        "n": 16,
+        "mean": 0.0022630849181002333,
+        "median": 1.1920900533368695e-07,
+        "low": -0.0082598033306438,
+        "high": 0.014191147402596683
+      },
+      "distance_to_neutral_improvement": {
+        "n": 16,
+        "mean": 0.004882647367980386,
+        "median": 1.2808285674736908e-05,
+        "low": -0.01074221807844733,
+        "high": 0.01758161738285091
+      },
+      "target_choice_changed": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 16,
+        "mean": 0.375,
+        "median": 0.0,
+        "low": 0.125,
+        "high": 0.625
+      },
+      "moves_toward_neutral": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.875
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 16,
+        "mean": 0.4375,
+        "median": 0.0,
+        "low": 0.1875,
+        "high": 0.6875
+      },
+      "p_holm": 1.0
+    },
+    {
+      "dataset": "MedQA",
+      "cohort": "development",
+      "layer": 21,
+      "site": "anchor",
+      "n": 16,
+      "mean": 8.50081357451382,
+      "median": 6.873789711321393,
+      "low": 3.805746158310445,
+      "high": 13.639200735649299,
+      "p": 0.0022497187851518562,
+      "target_change": {
+        "n": 16,
+        "mean": 8.78268103376774,
+        "median": 6.968721110839315,
+        "low": 3.972356253957447,
+        "high": 13.972320988512593
+      },
+      "random_change": {
+        "n": 16,
+        "mean": 0.2818674592539203,
+        "median": 0.4666253441816792,
+        "low": -0.16137867922567956,
+        "high": 0.6968073004775838
+      },
+      "reverse_change": {
+        "n": 16,
+        "mean": -5.780613063092803,
+        "median": -5.903106498002671,
+        "low": -9.538213983440166,
+        "high": -2.237448151784169
+      },
+      "distance_to_neutral_improvement": {
+        "n": 16,
+        "mean": 9.895967409607497,
+        "median": 7.640567789088809,
+        "low": 5.923140207897719,
+        "high": 14.620784004722978
+      },
+      "target_choice_changed": {
+        "n": 16,
+        "mean": 0.25,
+        "median": 0.0,
+        "low": 0.0625,
+        "high": 0.5
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 16,
+        "mean": 0.125,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.3125
+      },
+      "target_minus_random_accuracy": {
+        "n": 16,
+        "mean": 0.09375,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.25
+      },
+      "target_recovers_neutral_choice": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.875
+      },
+      "moves_toward_neutral": {
+        "n": 16,
+        "mean": 0.9375,
+        "median": 1.0,
+        "low": 0.8125,
+        "high": 1.0
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 16,
+        "mean": 0.875,
+        "median": 1.0,
+        "low": 0.6875,
+        "high": 1.0
+      },
+      "p_holm": 0.013498312710911137
+    },
+    {
+      "dataset": "MedQA",
+      "cohort": "confirmation",
+      "layer": 14,
+      "site": "new",
+      "n": 16,
+      "mean": 0.16307584749565907,
+      "median": 0.0429687574505806,
+      "low": -0.02394271848417939,
+      "high": 0.40813217001275864,
+      "p": 0.20447444069491313,
+      "target_change": {
+        "n": 16,
+        "mean": 0.16296386057510626,
+        "median": 0.03125,
+        "low": -0.03906541037339105,
+        "high": 0.4274262504293493
+      },
+      "random_change": {
+        "n": 16,
+        "mean": -0.00011198692055280901,
+        "median": -1.4901161193847656e-07,
+        "low": -0.028325555588446204,
+        "high": 0.02701314267934822
+      },
+      "reverse_change": {
+        "n": 16,
+        "mean": -0.15768722841588456,
+        "median": -0.03128322783368276,
+        "low": -0.5027740090804905,
+        "high": 0.06345916422788181
+      },
+      "distance_to_neutral_improvement": {
+        "n": 16,
+        "mean": 0.19421442671399314,
+        "median": 0.03125,
+        "low": -2.961908586556205e-05,
+        "high": 0.4518694801909372
+      },
+      "target_choice_changed": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9375
+      },
+      "moves_toward_neutral": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.875
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 1.0
+      },
+      "p_holm": 0.5020622422197225
+    },
+    {
+      "dataset": "MedQA",
+      "cohort": "confirmation",
+      "layer": 14,
+      "site": "old",
+      "n": 16,
+      "mean": 0.12744270507586308,
+      "median": 0.046875,
+      "low": 0.02295015599288299,
+      "high": 0.26074665405909614,
+      "p": 0.03612048493938258,
+      "target_change": {
+        "n": 16,
+        "mean": 0.09564178921266864,
+        "median": 0.03125071520065603,
+        "low": 0.012509197308105069,
+        "high": 0.20106814115537375
+      },
+      "random_change": {
+        "n": 16,
+        "mean": -0.031800915863194446,
+        "median": -0.0156249776481161,
+        "low": -0.08739831663756648,
+        "high": 0.008243717004169798
+      },
+      "reverse_change": {
+        "n": 16,
+        "mean": -0.08205232069291313,
+        "median": -3.5761132721745525e-07,
+        "low": -0.3838062617608963,
+        "high": 0.1356839228122423
+      },
+      "distance_to_neutral_improvement": {
+        "n": 16,
+        "mean": 0.10931339600529677,
+        "median": 0.03125,
+        "low": 0.030153486064523217,
+        "high": 0.21289458019442947
+      },
+      "target_choice_changed": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9375
+      },
+      "moves_toward_neutral": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.875
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 16,
+        "mean": 0.5625,
+        "median": 1.0,
+        "low": 0.3125,
+        "high": 0.8125
+      },
+      "p_holm": 0.21672290963629548
+    },
+    {
+      "dataset": "MedQA",
+      "cohort": "confirmation",
+      "layer": 14,
+      "site": "anchor",
+      "n": 16,
+      "mean": -0.21949793364474068,
+      "median": -0.029558568977970268,
+      "low": -0.701550023331497,
+      "high": 0.2827613491444815,
+      "p": 0.41682289713785775,
+      "target_change": {
+        "n": 16,
+        "mean": -0.226836493026493,
+        "median": -0.15624332160362897,
+        "low": -0.6672678548471623,
+        "high": 0.21875774374794454
+      },
+      "random_change": {
+        "n": 16,
+        "mean": -0.007338559381752319,
+        "median": -0.09765607117813246,
+        "low": -0.27296871171047166,
+        "high": 0.2509441296773541
+      },
+      "reverse_change": {
+        "n": 16,
+        "mean": 0.24745204469059479,
+        "median": 0.06249964237682093,
+        "low": -0.08123342660133415,
+        "high": 0.6243291794051739
+      },
+      "distance_to_neutral_improvement": {
+        "n": 16,
+        "mean": -0.0823031873242952,
+        "median": -0.06250041723117405,
+        "low": -0.5269235799869448,
+        "high": 0.36244685953765005
+      },
+      "target_choice_changed": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9375
+      },
+      "moves_toward_neutral": {
+        "n": 16,
+        "mean": 0.4375,
+        "median": 0.0,
+        "low": 0.1875,
+        "high": 0.6875
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.875
+      },
+      "p_holm": 0.5020622422197225
+    },
+    {
+      "dataset": "MedQA",
+      "cohort": "confirmation",
+      "layer": 21,
+      "site": "new",
+      "n": 16,
+      "mean": -0.014152331811931873,
+      "median": -0.00781142719731065,
+      "low": -0.030769782627680882,
+      "high": 0.0004601877702051561,
+      "p": 0.11161104861892264,
+      "target_change": {
+        "n": 16,
+        "mean": -0.012699018964898556,
+        "median": -0.00023283525933948113,
+        "low": -0.02733329467659864,
+        "high": 0.001896783431916571
+      },
+      "random_change": {
+        "n": 16,
+        "mean": 0.0014533128470333168,
+        "median": -1.341109054919798e-07,
+        "low": -0.009302292534014978,
+        "high": 0.013187054074776139
+      },
+      "reverse_change": {
+        "n": 16,
+        "mean": 0.0009506412496733674,
+        "median": -1.1920894849026809e-07,
+        "low": -0.020509420824640044,
+        "high": 0.020455955041699347
+      },
+      "distance_to_neutral_improvement": {
+        "n": 16,
+        "mean": -0.006840001580020072,
+        "median": 0.0,
+        "low": -0.0224729503955424,
+        "high": 0.007812555402396004
+      },
+      "target_choice_changed": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9375
+      },
+      "moves_toward_neutral": {
+        "n": 16,
+        "mean": 0.4375,
+        "median": 0.0,
+        "low": 0.1875,
+        "high": 0.6875
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.875
+      },
+      "p_holm": 0.44644419447569056
+    },
+    {
+      "dataset": "MedQA",
+      "cohort": "confirmation",
+      "layer": 21,
+      "site": "old",
+      "n": 16,
+      "mean": 0.008761674598835256,
+      "median": 0.003919117148939222,
+      "low": -0.0024416935966028674,
+      "high": 0.01990428540899769,
+      "p": 0.1673540807399075,
+      "target_change": {
+        "n": 16,
+        "mean": 0.009736530829378864,
+        "median": 0.007591217972276354,
+        "low": -0.001006638021345374,
+        "high": 0.02050937487951323
+      },
+      "random_change": {
+        "n": 16,
+        "mean": 0.0009748562305436081,
+        "median": -1.994692865991965e-06,
+        "low": -0.008300962527823242,
+        "high": 0.011228266445563673
+      },
+      "reverse_change": {
+        "n": 16,
+        "mean": 0.00585888074119012,
+        "median": 4.877335754827072e-06,
+        "low": -0.010767522945924392,
+        "high": 0.02440986065399997
+      },
+      "distance_to_neutral_improvement": {
+        "n": 16,
+        "mean": 0.001923717924036339,
+        "median": 0.0,
+        "low": -0.009765760874455864,
+        "high": 0.01367382374987649
+      },
+      "target_choice_changed": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9375
+      },
+      "moves_toward_neutral": {
+        "n": 16,
+        "mean": 0.4375,
+        "median": 0.0,
+        "low": 0.1875,
+        "high": 0.6875
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 16,
+        "mean": 0.5,
+        "median": 0.5,
+        "low": 0.25,
+        "high": 0.75
+      },
+      "p_holm": 0.5020622422197225
+    },
+    {
+      "dataset": "MedQA",
+      "cohort": "confirmation",
+      "layer": 21,
+      "site": "anchor",
+      "n": 16,
+      "mean": 4.375517868862446,
+      "median": 2.1406283737468925,
+      "low": 0.8930021545191963,
+      "high": 8.115044593743248,
+      "p": 0.04199475065616798,
+      "target_change": {
+        "n": 16,
+        "mean": 4.355528127652691,
+        "median": 1.6718756210800336,
+        "low": 0.8766578616539205,
+        "high": 8.261287830526848
+      },
+      "random_change": {
+        "n": 16,
+        "mean": -0.019989741209755607,
+        "median": -0.05859370529713459,
+        "low": -0.4526096768279124,
+        "high": 0.4350869077003947
+      },
+      "reverse_change": {
+        "n": 16,
+        "mean": -3.838930555971539,
+        "median": -1.1953127384186928,
+        "low": -7.917409046645372,
+        "high": -0.2929385054396014
+      },
+      "distance_to_neutral_improvement": {
+        "n": 16,
+        "mean": 5.193424946522564,
+        "median": 2.7187799091381635,
+        "low": 2.2724551006733202,
+        "high": 8.861658449138437
+      },
+      "target_choice_changed": {
+        "n": 16,
+        "mean": 0.125,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.3125
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": -0.1875,
+        "high": 0.1875
+      },
+      "target_minus_random_accuracy": {
+        "n": 16,
+        "mean": 0.0625,
+        "median": 0.0,
+        "low": -0.0625,
+        "high": 0.21875
+      },
+      "target_recovers_neutral_choice": {
+        "n": 16,
+        "mean": 0.875,
+        "median": 1.0,
+        "low": 0.6875,
+        "high": 1.0
+      },
+      "moves_toward_neutral": {
+        "n": 16,
+        "mean": 0.9375,
+        "median": 1.0,
+        "low": 0.8125,
+        "high": 1.0
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 16,
+        "mean": 0.875,
+        "median": 1.0,
+        "low": 0.6875,
+        "high": 1.0
+      },
+      "p_holm": 0.21672290963629548
+    },
+    {
+      "dataset": "MedMCQA",
+      "cohort": "all",
+      "layer": 14,
+      "site": "new",
+      "n": 32,
+      "mean": 0.2801837902751997,
+      "median": 0.046881734694323995,
+      "low": -0.15284676704244163,
+      "high": 0.8131001715110547,
+      "p": 0.32095988001499814,
+      "target_change": {
+        "n": 32,
+        "mean": 0.15955444314087597,
+        "median": -0.06980350698898974,
+        "low": -0.15805197351775507,
+        "high": 0.5383255442071833
+      },
+      "random_change": {
+        "n": 32,
+        "mean": -0.12062934713432372,
+        "median": -0.023358235960301954,
+        "low": -0.32408998777604875,
+        "high": 0.03238893162174307
+      },
+      "reverse_change": {
+        "n": 32,
+        "mean": 0.026297332396179707,
+        "median": 0.02559575794742841,
+        "low": -0.2530690170124677,
+        "high": 0.3332254625118049
+      },
+      "distance_to_neutral_improvement": {
+        "n": 32,
+        "mean": 0.14978632429844163,
+        "median": -0.09365926729537932,
+        "low": -0.17017996098887223,
+        "high": 0.5284769589626805
+      },
+      "target_choice_changed": {
+        "n": 32,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 32,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 32,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 32,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.65625,
+        "high": 0.9375
+      },
+      "moves_toward_neutral": {
+        "n": 32,
+        "mean": 0.40625,
+        "median": 0.0,
+        "low": 0.25,
+        "high": 0.59375
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 32,
+        "mean": 0.3125,
+        "median": 0.0,
+        "low": 0.15625,
+        "high": 0.46875
+      },
+      "p_holm": 0.6419197600299963
+    },
+    {
+      "dataset": "MedMCQA",
+      "cohort": "all",
+      "layer": 14,
+      "site": "old",
+      "n": 32,
+      "mean": -0.5532675739718409,
+      "median": -0.01957777166063579,
+      "low": -1.1984066136430507,
+      "high": -0.043205158616478306,
+      "p": 0.07349081364829396,
+      "target_change": {
+        "n": 32,
+        "mean": -0.6082988897255444,
+        "median": 0.03896176363042514,
+        "low": -1.3523741018644493,
+        "high": -0.06034312211503116
+      },
+      "random_change": {
+        "n": 32,
+        "mean": -0.05503131575370346,
+        "median": 0.004033238321369481,
+        "low": -0.17848075435954402,
+        "high": 0.043367897059149355
+      },
+      "reverse_change": {
+        "n": 32,
+        "mean": 0.24267078150874144,
+        "median": 0.08594945796199127,
+        "low": 0.057081715918907185,
+        "high": 0.4917257217549241
+      },
+      "distance_to_neutral_improvement": {
+        "n": 32,
+        "mean": -0.6356415973094602,
+        "median": 0.0077656782236772415,
+        "low": -1.3787913780608652,
+        "high": -0.08700421736144484
+      },
+      "target_choice_changed": {
+        "n": 32,
+        "mean": 0.03125,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.09375
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 32,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 32,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 32,
+        "mean": 0.78125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 0.90625
+      },
+      "moves_toward_neutral": {
+        "n": 32,
+        "mean": 0.5,
+        "median": 0.5,
+        "low": 0.3125,
+        "high": 0.65625
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 32,
+        "mean": 0.34375,
+        "median": 0.0,
+        "low": 0.1875,
+        "high": 0.5
+      },
+      "p_holm": 0.29396325459317585
+    },
+    {
+      "dataset": "MedMCQA",
+      "cohort": "all",
+      "layer": 14,
+      "site": "anchor",
+      "n": 32,
+      "mean": 0.4706446255516209,
+      "median": 0.234041623773372,
+      "low": 0.19057961767254505,
+      "high": 0.7766311252144615,
+      "p": 0.003374578177727784,
+      "target_change": {
+        "n": 32,
+        "mean": 0.37402019021972066,
+        "median": 0.21684074372092255,
+        "low": 0.13413732399569936,
+        "high": 0.6513853169056277
+      },
+      "random_change": {
+        "n": 32,
+        "mean": -0.09662443533190024,
+        "median": -0.07664037569990967,
+        "low": -0.2221210828478538,
+        "high": 0.03326592086890547
+      },
+      "reverse_change": {
+        "n": 32,
+        "mean": -0.1153039152897013,
+        "median": -0.07701375050444881,
+        "low": -0.3404168010919928,
+        "high": 0.07845313226846666
+      },
+      "distance_to_neutral_improvement": {
+        "n": 32,
+        "mean": 0.2626940417999495,
+        "median": 0.1567932949394013,
+        "low": 0.008647353154665707,
+        "high": 0.5485536470791794
+      },
+      "target_choice_changed": {
+        "n": 32,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 32,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 32,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 32,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.65625,
+        "high": 0.9375
+      },
+      "moves_toward_neutral": {
+        "n": 32,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.4375,
+        "high": 0.78125
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 32,
+        "mean": 0.5625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.71875
+      },
+      "p_holm": 0.01687289088863892
+    },
+    {
+      "dataset": "MedMCQA",
+      "cohort": "all",
+      "layer": 21,
+      "site": "new",
+      "n": 32,
+      "mean": 0.041984367187396066,
+      "median": 0.019534319077138207,
+      "low": 0.0008000405929350364,
+      "high": 0.08871503169819779,
+      "p": 0.08511436070491189,
+      "target_change": {
+        "n": 32,
+        "mean": 0.045899629354552385,
+        "median": 0.031250517288754054,
+        "low": -0.0007004718724986646,
+        "high": 0.1016642622473848
+      },
+      "random_change": {
+        "n": 32,
+        "mean": 0.003915262167156319,
+        "median": 3.061641109525226e-07,
+        "low": -0.007836936208582829,
+        "high": 0.018949608040323473
+      },
+      "reverse_change": {
+        "n": 32,
+        "mean": -0.00919346881583194,
+        "median": -0.0002292020544132356,
+        "low": -0.03609372397576967,
+        "high": 0.016254773665486034
+      },
+      "distance_to_neutral_improvement": {
+        "n": 32,
+        "mean": 0.003907539038338292,
+        "median": 0.0234375,
+        "low": -0.054026622452784404,
+        "high": 0.0566194595479362
+      },
+      "target_choice_changed": {
+        "n": 32,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 32,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 32,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 32,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.65625,
+        "high": 0.9375
+      },
+      "moves_toward_neutral": {
+        "n": 32,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.4375,
+        "high": 0.78125
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 32,
+        "mean": 0.46875,
+        "median": 0.0,
+        "low": 0.28125,
+        "high": 0.625
+      },
+      "p_holm": 0.29396325459317585
+    },
+    {
+      "dataset": "MedMCQA",
+      "cohort": "all",
+      "layer": 21,
+      "site": "old",
+      "n": 32,
+      "mean": 0.007880564153988412,
+      "median": 0.003906949539384641,
+      "low": -0.008010400857506336,
+      "high": 0.027914568836487554,
+      "p": 0.4723159605049369,
+      "target_change": {
+        "n": 32,
+        "mean": 0.010086132842583417,
+        "median": 0.00012600169270626793,
+        "low": -0.009539010750149018,
+        "high": 0.03198307635882186
+      },
+      "random_change": {
+        "n": 32,
+        "mean": 0.0022055686885950054,
+        "median": 1.5643599908798933e-06,
+        "low": -0.006840319975900191,
+        "high": 0.011597770657784246
+      },
+      "reverse_change": {
+        "n": 32,
+        "mean": 0.002948512221396138,
+        "median": -1.3558820342041145e-06,
+        "low": -0.005864033225248105,
+        "high": 0.012875804963763128
+      },
+      "distance_to_neutral_improvement": {
+        "n": 32,
+        "mean": 0.004225925541450515,
+        "median": 2.6635804317720613e-07,
+        "low": -0.0156686914895397,
+        "high": 0.02618997299016787
+      },
+      "target_choice_changed": {
+        "n": 32,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 32,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 32,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 32,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.65625,
+        "high": 0.9375
+      },
+      "moves_toward_neutral": {
+        "n": 32,
+        "mean": 0.5625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.71875
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 32,
+        "mean": 0.5625,
+        "median": 1.0,
+        "low": 0.40625,
+        "high": 0.71875
+      },
+      "p_holm": 0.6419197600299963
+    },
+    {
+      "dataset": "MedMCQA",
+      "cohort": "all",
+      "layer": 21,
+      "site": "anchor",
+      "n": 32,
+      "mean": 3.0004704463003344,
+      "median": 2.5302826725473953,
+      "low": 1.2165269133287853,
+      "high": 4.849070074057566,
+      "p": 0.0022497187851518562,
+      "target_change": {
+        "n": 32,
+        "mean": 3.143694951654993,
+        "median": 2.5077981922533894,
+        "low": 1.4607722059636858,
+        "high": 5.152005328470302
+      },
+      "random_change": {
+        "n": 32,
+        "mean": 0.14322450535465814,
+        "median": -0.042968905223858656,
+        "low": -0.21019006207759375,
+        "high": 0.5709377231614657
+      },
+      "reverse_change": {
+        "n": 32,
+        "mean": -3.871938618963541,
+        "median": -2.44695002540999,
+        "low": -5.616568926796463,
+        "high": -2.229707465844973
+      },
+      "distance_to_neutral_improvement": {
+        "n": 32,
+        "mean": 3.271655768061539,
+        "median": 2.37853379755461,
+        "low": 1.7759672976177252,
+        "high": 5.1717613115959
+      },
+      "target_choice_changed": {
+        "n": 32,
+        "mean": 0.09375,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.21875
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 32,
+        "mean": 0.03125,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.09375
+      },
+      "target_minus_random_accuracy": {
+        "n": 32,
+        "mean": 0.03125,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.09375
+      },
+      "target_recovers_neutral_choice": {
+        "n": 32,
+        "mean": 0.875,
+        "median": 1.0,
+        "low": 0.75,
+        "high": 0.96875
+      },
+      "moves_toward_neutral": {
+        "n": 32,
+        "mean": 0.875,
+        "median": 1.0,
+        "low": 0.75,
+        "high": 0.96875
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 32,
+        "mean": 0.9375,
+        "median": 1.0,
+        "low": 0.84375,
+        "high": 1.0
+      },
+      "p_holm": 0.013498312710911137
+    },
+    {
+      "dataset": "MedMCQA",
+      "cohort": "development",
+      "layer": 14,
+      "site": "new",
+      "n": 16,
+      "mean": 0.20900377949504678,
+      "median": -0.042311730774031275,
+      "low": -0.44094755066504543,
+      "high": 1.0976850905838842,
+      "p": 0.8190226221722284,
+      "target_change": {
+        "n": 16,
+        "mean": 0.016312115154132556,
+        "median": -0.09982144816888194,
+        "low": -0.43498572529872864,
+        "high": 0.5500005594897502
+      },
+      "random_change": {
+        "n": 16,
+        "mean": -0.19269166434091423,
+        "median": -0.061612419572156796,
+        "low": -0.5929024522538017,
+        "high": 0.06769903619872096
+      },
+      "reverse_change": {
+        "n": 16,
+        "mean": 0.21412041488282485,
+        "median": 0.06250655035324826,
+        "low": -0.23232351266632925,
+        "high": 0.7701257238972662
+      },
+      "distance_to_neutral_improvement": {
+        "n": 16,
+        "mean": 0.0006862063702497423,
+        "median": -0.09982341506520598,
+        "low": -0.45061163408261146,
+        "high": 0.5336282031186935
+      },
+      "target_choice_changed": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 16,
+        "mean": 0.9375,
+        "median": 1.0,
+        "low": 0.8125,
+        "high": 1.0
+      },
+      "moves_toward_neutral": {
+        "n": 16,
+        "mean": 0.3125,
+        "median": 0.0,
+        "low": 0.125,
+        "high": 0.5625
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 16,
+        "mean": 0.3125,
+        "median": 0.0,
+        "low": 0.125,
+        "high": 0.5625
+      },
+      "p_holm": 1.0
+    },
+    {
+      "dataset": "MedMCQA",
+      "cohort": "development",
+      "layer": 14,
+      "site": "old",
+      "n": 16,
+      "mean": -0.40442407072463804,
+      "median": -0.058593660595519736,
+      "low": -1.110734572464681,
+      "high": 0.05113808676847471,
+      "p": 0.27809023872016,
+      "target_change": {
+        "n": 16,
+        "mean": -0.4106384712784017,
+        "median": -0.007856104336383396,
+        "low": -1.0890153073296094,
+        "high": 0.0397279947302481
+      },
+      "random_change": {
+        "n": 16,
+        "mean": -0.006214400553763655,
+        "median": 0.004033238321369481,
+        "low": -0.09173031692920554,
+        "high": 0.06716481727714843
+      },
+      "reverse_change": {
+        "n": 16,
+        "mean": 0.1493247838118652,
+        "median": 0.05526799504536939,
+        "low": 0.01759522981387102,
+        "high": 0.30281442340186615
+      },
+      "distance_to_neutral_improvement": {
+        "n": 16,
+        "mean": -0.43017045130731724,
+        "median": -0.06977409805392654,
+        "low": -1.1063268881336905,
+        "high": 0.019960656227075796
+      },
+      "target_choice_changed": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 16,
+        "mean": 0.9375,
+        "median": 1.0,
+        "low": 0.8125,
+        "high": 1.0
+      },
+      "moves_toward_neutral": {
+        "n": 16,
+        "mean": 0.5,
+        "median": 0.5,
+        "low": 0.25,
+        "high": 0.75
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 16,
+        "mean": 0.375,
+        "median": 0.0,
+        "low": 0.125,
+        "high": 0.625
+      },
+      "p_holm": 0.8342707161604799
+    },
+    {
+      "dataset": "MedMCQA",
+      "cohort": "development",
+      "layer": 14,
+      "site": "anchor",
+      "n": 16,
+      "mean": 0.475420994504693,
+      "median": 0.3282927775054727,
+      "low": -0.025704234325081086,
+      "high": 1.038945162496242,
+      "p": 0.11298587676540432,
+      "target_change": {
+        "n": 16,
+        "mean": 0.38130575293632907,
+        "median": 0.22655258489021435,
+        "low": -0.010886251751525671,
+        "high": 0.8593840275205795
+      },
+      "random_change": {
+        "n": 16,
+        "mean": -0.09411524156836393,
+        "median": -0.06431348726417596,
+        "low": -0.2975964144091865,
+        "high": 0.09562061686011558
+      },
+      "reverse_change": {
+        "n": 16,
+        "mean": -0.24020034218192832,
+        "median": -0.14073528590108708,
+        "low": -0.6481673134193815,
+        "high": 0.09598002435521123
+      },
+      "distance_to_neutral_improvement": {
+        "n": 16,
+        "mean": 0.36763664904280846,
+        "median": 0.17187616931613192,
+        "low": -0.02780682290571438,
+        "high": 0.8562229253373882
+      },
+      "target_choice_changed": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 16,
+        "mean": 0.9375,
+        "median": 1.0,
+        "low": 0.8125,
+        "high": 1.0
+      },
+      "moves_toward_neutral": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.875
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.5625,
+        "high": 0.9375
+      },
+      "p_holm": 0.4519435070616173
+    },
+    {
+      "dataset": "MedMCQA",
+      "cohort": "development",
+      "layer": 21,
+      "site": "new",
+      "n": 16,
+      "mean": 0.06207737461944385,
+      "median": 0.0234462907282591,
+      "low": 0.016162290171932315,
+      "high": 0.12497970452689092,
+      "p": 0.023122109736282963,
+      "target_change": {
+        "n": 16,
+        "mean": 0.06967365707080386,
+        "median": 0.03134701563988074,
+        "low": 0.014424872191146155,
+        "high": 0.15133399076641108
+      },
+      "random_change": {
+        "n": 16,
+        "mean": 0.007596282451360015,
+        "median": 0.0047749877514888794,
+        "low": -0.014771093401572965,
+        "high": 0.035058062552706645
+      },
+      "reverse_change": {
+        "n": 16,
+        "mean": -0.025945517455450595,
+        "median": -0.021876603419400453,
+        "low": -0.04788118534064941,
+        "high": -0.005312178376656253
+      },
+      "distance_to_neutral_improvement": {
+        "n": 16,
+        "mean": -0.006498560590392444,
+        "median": 0.0234375,
+        "low": -0.09717539645170165,
+        "high": 0.05619182710251072
+      },
+      "target_choice_changed": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 16,
+        "mean": 0.9375,
+        "median": 1.0,
+        "low": 0.8125,
+        "high": 1.0
+      },
+      "moves_toward_neutral": {
+        "n": 16,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.4375,
+        "high": 0.875
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 16,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.4375,
+        "high": 0.875
+      },
+      "p_holm": 0.13198350206224224
+    },
+    {
+      "dataset": "MedMCQA",
+      "cohort": "development",
+      "layer": 21,
+      "site": "old",
+      "n": 16,
+      "mean": 0.0003567320564352716,
+      "median": 0.006128466797520105,
+      "low": -0.019163661472697928,
+      "high": 0.016792334327959256,
+      "p": 0.9720034995625547,
+      "target_change": {
+        "n": 16,
+        "mean": -0.001112475164928295,
+        "median": 0.007931047935926472,
+        "low": -0.031136772750997344,
+        "high": 0.020960554731263594
+      },
+      "random_change": {
+        "n": 16,
+        "mean": -0.0014692072213635665,
+        "median": 3.623767952376511e-13,
+        "low": -0.01420971857266587,
+        "high": 0.009943763985622155
+      },
+      "reverse_change": {
+        "n": 16,
+        "mean": 0.00013633600947970947,
+        "median": -0.00032567082189061125,
+        "low": -0.009756586228065611,
+        "high": 0.011021854869937188
+      },
+      "distance_to_neutral_improvement": {
+        "n": 16,
+        "mean": -0.00697183526375289,
+        "median": 6.426211029975093e-08,
+        "low": -0.03558422676051128,
+        "high": 0.015357982117072136
+      },
+      "target_choice_changed": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 16,
+        "mean": 0.9375,
+        "median": 1.0,
+        "low": 0.8125,
+        "high": 1.0
+      },
+      "moves_toward_neutral": {
+        "n": 16,
+        "mean": 0.5625,
+        "median": 1.0,
+        "low": 0.3125,
+        "high": 0.8125
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 16,
+        "mean": 0.5625,
+        "median": 1.0,
+        "low": 0.3125,
+        "high": 0.8125
+      },
+      "p_holm": 1.0
+    },
+    {
+      "dataset": "MedMCQA",
+      "cohort": "development",
+      "layer": 21,
+      "site": "anchor",
+      "n": 16,
+      "mean": 2.140671879098259,
+      "median": 2.443005319985078,
+      "low": 0.6109307839284409,
+      "high": 3.654509422481235,
+      "p": 0.021997250343707038,
+      "target_change": {
+        "n": 16,
+        "mean": 2.1221923669242613,
+        "median": 2.042139287479575,
+        "low": 0.7931490207053898,
+        "high": 3.5238990138865636
+      },
+      "random_change": {
+        "n": 16,
+        "mean": -0.01847951217399757,
+        "median": -0.15234404569346793,
+        "low": -0.5297771493046826,
+        "high": 0.5824431537447776
+      },
+      "reverse_change": {
+        "n": 16,
+        "mean": -3.1564818133338512,
+        "median": -1.833369438594616,
+        "low": -5.492854929458583,
+        "high": -0.9816314209916632
+      },
+      "distance_to_neutral_improvement": {
+        "n": 16,
+        "mean": 1.8839158088337116,
+        "median": 1.8901589868494177,
+        "low": 0.4993451645133615,
+        "high": 3.313561493339623
+      },
+      "target_choice_changed": {
+        "n": 16,
+        "mean": 0.0625,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.1875
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 16,
+        "mean": 0.9375,
+        "median": 1.0,
+        "low": 0.8125,
+        "high": 1.0
+      },
+      "moves_toward_neutral": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 1.0
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 16,
+        "mean": 0.875,
+        "median": 1.0,
+        "low": 0.6875,
+        "high": 1.0
+      },
+      "p_holm": 0.13198350206224224
+    },
+    {
+      "dataset": "MedMCQA",
+      "cohort": "confirmation",
+      "layer": 14,
+      "site": "new",
+      "n": 16,
+      "mean": 0.3513638010553526,
+      "median": 0.0864082310999379,
+      "low": -0.16248355608180826,
+      "high": 1.0126029349900423,
+      "p": 0.31958505186851643,
+      "target_change": {
+        "n": 16,
+        "mean": 0.3027967711276194,
+        "median": 0.015635668142863324,
+        "low": -0.13457565166228327,
+        "high": 0.8435538613938417
+      },
+      "random_change": {
+        "n": 16,
+        "mean": -0.04856702992773321,
+        "median": -5.7427125312869975e-06,
+        "low": -0.19854718531293,
+        "high": 0.088340515660826
+      },
+      "reverse_change": {
+        "n": 16,
+        "mean": -0.16152575009046544,
+        "median": 9.116568776335043e-06,
+        "low": -0.47500204041045235,
+        "high": 0.09300635580122141
+      },
+      "distance_to_neutral_improvement": {
+        "n": 16,
+        "mean": 0.2988864422266335,
+        "median": -0.007313042122802926,
+        "low": -0.13457565166228327,
+        "high": 0.8403049492557346
+      },
+      "target_choice_changed": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 16,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.4375,
+        "high": 0.875
+      },
+      "moves_toward_neutral": {
+        "n": 16,
+        "mean": 0.5,
+        "median": 0.5,
+        "low": 0.25,
+        "high": 0.75
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 16,
+        "mean": 0.3125,
+        "median": 0.0,
+        "low": 0.125,
+        "high": 0.5625
+      },
+      "p_holm": 0.9587551556055494
+    },
+    {
+      "dataset": "MedMCQA",
+      "cohort": "confirmation",
+      "layer": 14,
+      "site": "old",
+      "n": 16,
+      "mean": -0.7021110772190438,
+      "median": -0.0077695794832948195,
+      "low": -1.8662433742245401,
+      "high": 0.13289081798875105,
+      "p": 0.20909886264216973,
+      "target_change": {
+        "n": 16,
+        "mean": -0.805959308172687,
+        "median": 0.13279754589160575,
+        "low": -2.1579054203690173,
+        "high": 0.10967680094407313
+      },
+      "random_change": {
+        "n": 16,
+        "mean": -0.10384823095364326,
+        "median": -0.013263794069978019,
+        "low": -0.32936109791639895,
+        "high": 0.07089550229553043
+      },
+      "reverse_change": {
+        "n": 16,
+        "mean": 0.3360167792056177,
+        "median": 0.15013659121126466,
+        "low": 0.00011861543453717414,
+        "high": 0.8114853995903002
+      },
+      "distance_to_neutral_improvement": {
+        "n": 16,
+        "mean": -0.8411127433116032,
+        "median": 0.015457077981579914,
+        "low": -2.1883969190986954,
+        "high": 0.07106517428641095
+      },
+      "target_choice_changed": {
+        "n": 16,
+        "mean": 0.0625,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.1875
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.875
+      },
+      "moves_toward_neutral": {
+        "n": 16,
+        "mean": 0.5,
+        "median": 0.5,
+        "low": 0.25,
+        "high": 0.75
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 16,
+        "mean": 0.3125,
+        "median": 0.0,
+        "low": 0.125,
+        "high": 0.5625
+      },
+      "p_holm": 0.8363954505686789
+    },
+    {
+      "dataset": "MedMCQA",
+      "cohort": "confirmation",
+      "layer": 14,
+      "site": "anchor",
+      "n": 16,
+      "mean": 0.4658682565985488,
+      "median": 0.234041623773372,
+      "low": 0.18921566625818334,
+      "high": 0.7645915578873523,
+      "p": 0.0044994375703037125,
+      "target_change": {
+        "n": 16,
+        "mean": 0.36673462750311225,
+        "median": 0.20175786934419193,
+        "low": 0.11265612373469927,
+        "high": 0.65621640502541
+      },
+      "random_change": {
+        "n": 16,
+        "mean": -0.09913362909543655,
+        "median": -0.11328481980282135,
+        "low": -0.26767327375942357,
+        "high": 0.07595495252387092
+      },
+      "reverse_change": {
+        "n": 16,
+        "mean": 0.009592511602525722,
+        "median": 0.03260135779510165,
+        "low": -0.16620194097352847,
+        "high": 0.16705373914862542
+      },
+      "distance_to_neutral_improvement": {
+        "n": 16,
+        "mean": 0.1577514345570905,
+        "median": 0.1411685952279811,
+        "low": -0.15988173616448415,
+        "high": 0.4729809322806231
+      },
+      "target_choice_changed": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 16,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.4375,
+        "high": 0.875
+      },
+      "moves_toward_neutral": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.875
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 16,
+        "mean": 0.375,
+        "median": 0.0,
+        "low": 0.125,
+        "high": 0.625
+      },
+      "p_holm": 0.026996625421822275
+    },
+    {
+      "dataset": "MedMCQA",
+      "cohort": "confirmation",
+      "layer": 21,
+      "site": "new",
+      "n": 16,
+      "mean": 0.021891359755348283,
+      "median": 0.01562857561657438,
+      "low": -0.03891084412353346,
+      "high": 0.09668716437353622,
+      "p": 0.6301712285964255,
+      "target_change": {
+        "n": 16,
+        "mean": 0.022125601638300907,
+        "median": 0.031250517288754054,
+        "low": -0.03942462271311794,
+        "high": 0.09847301337040973
+      },
+      "random_change": {
+        "n": 16,
+        "mean": 0.00023424188295262383,
+        "median": 3.061641109525226e-07,
+        "low": -0.012512528636680554,
+        "high": 0.011568738876944495
+      },
+      "reverse_change": {
+        "n": 16,
+        "mean": 0.007558579823786715,
+        "median": 0.00390636915108189,
+        "low": -0.0424697294500838,
+        "high": 0.049571800497783355
+      },
+      "distance_to_neutral_improvement": {
+        "n": 16,
+        "mean": 0.014313638667069029,
+        "median": 0.015625386613919545,
+        "low": -0.04916238095452556,
+        "high": 0.09245285355042097
+      },
+      "target_choice_changed": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 16,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.4375,
+        "high": 0.875
+      },
+      "moves_toward_neutral": {
+        "n": 16,
+        "mean": 0.5625,
+        "median": 1.0,
+        "low": 0.3125,
+        "high": 0.8125
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 16,
+        "mean": 0.25,
+        "median": 0.0,
+        "low": 0.0625,
+        "high": 0.5
+      },
+      "p_holm": 0.9718785151856018
+    },
+    {
+      "dataset": "MedMCQA",
+      "cohort": "confirmation",
+      "layer": 21,
+      "site": "old",
+      "n": 16,
+      "mean": 0.015404396251541552,
+      "median": -0.0002815908182469684,
+      "low": -0.00889378992211819,
+      "high": 0.05090698507462699,
+      "p": 0.4859392575928009,
+      "target_change": {
+        "n": 16,
+        "mean": 0.02128474085009513,
+        "median": 4.632305945051485e-06,
+        "low": -0.0037922838217224197,
+        "high": 0.056563088318910916
+      },
+      "random_change": {
+        "n": 16,
+        "mean": 0.005880344598553577,
+        "median": 0.0011189028109868104,
+        "low": -0.005500972223422096,
+        "high": 0.019680064327355584
+      },
+      "reverse_change": {
+        "n": 16,
+        "mean": 0.005760688433312566,
+        "median": 0.01562368876511755,
+        "low": -0.007944724254966395,
+        "high": 0.02188827677298484
+      },
+      "distance_to_neutral_improvement": {
+        "n": 16,
+        "mean": 0.01542368634665392,
+        "median": 5.596664465201684e-07,
+        "low": -0.01037233339281377,
+        "high": 0.05137180584544906
+      },
+      "target_choice_changed": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 16,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.4375,
+        "high": 0.875
+      },
+      "moves_toward_neutral": {
+        "n": 16,
+        "mean": 0.5625,
+        "median": 1.0,
+        "low": 0.3125,
+        "high": 0.8125
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 16,
+        "mean": 0.5625,
+        "median": 1.0,
+        "low": 0.3125,
+        "high": 0.8125
+      },
+      "p_holm": 0.9718785151856018
+    },
+    {
+      "dataset": "MedMCQA",
+      "cohort": "confirmation",
+      "layer": 21,
+      "site": "anchor",
+      "n": 16,
+      "mean": 3.8602690135024105,
+      "median": 2.773150979537128,
+      "low": 0.7042017506321833,
+      "high": 7.005575087988266,
+      "p": 0.0339957505311836,
+      "target_change": {
+        "n": 16,
+        "mean": 4.165197536385724,
+        "median": 3.0328355124182593,
+        "low": 1.0333384458584332,
+        "high": 7.516348536586581
+      },
+      "random_change": {
+        "n": 16,
+        "mean": 0.30492852288331385,
+        "median": -0.031266363625920945,
+        "low": -0.1314918635940512,
+        "high": 0.8593395874977467
+      },
+      "reverse_change": {
+        "n": 16,
+        "mean": -4.587395424593231,
+        "median": -3.038900603695936,
+        "low": -7.165435582762466,
+        "high": -2.4260656764612807
+      },
+      "distance_to_neutral_improvement": {
+        "n": 16,
+        "mean": 4.6593957272893665,
+        "median": 3.0328355124182593,
+        "low": 2.2583672643607695,
+        "high": 7.680219590550064
+      },
+      "target_choice_changed": {
+        "n": 16,
+        "mean": 0.125,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.3125
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 16,
+        "mean": 0.0625,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.1875
+      },
+      "target_minus_random_accuracy": {
+        "n": 16,
+        "mean": 0.0625,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.1875
+      },
+      "target_recovers_neutral_choice": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 1.0
+      },
+      "moves_toward_neutral": {
+        "n": 16,
+        "mean": 0.9375,
+        "median": 1.0,
+        "low": 0.8125,
+        "high": 1.0
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "p_holm": 0.169978752655918
+    },
+    {
+      "dataset": "MMLU",
+      "cohort": "all",
+      "layer": 14,
+      "site": "new",
+      "n": 30,
+      "mean": 0.13438107335764576,
+      "median": 0.03905018844591268,
+      "low": -0.1437309732076324,
+      "high": 0.4846526497157175,
+      "p": 0.46606674165729284,
+      "target_change": {
+        "n": 30,
+        "mean": 0.09550779224724172,
+        "median": 2.9860348149668425e-07,
+        "low": -0.2029279017810416,
+        "high": 0.4305297854893608
+      },
+      "random_change": {
+        "n": 30,
+        "mean": -0.038873281110404063,
+        "median": -0.031307000924698514,
+        "low": -0.10764368869640843,
+        "high": 0.025242538795875527
+      },
+      "reverse_change": {
+        "n": 30,
+        "mean": -0.08825576746502647,
+        "median": -0.01562488079225588,
+        "low": -0.35242913362489353,
+        "high": 0.21501668885054218
+      },
+      "distance_to_neutral_improvement": {
+        "n": 30,
+        "mean": 0.05175698566693588,
+        "median": -4.185581838100916e-05,
+        "low": -0.24667455138747618,
+        "high": 0.39342998601475393
+      },
+      "target_choice_changed": {
+        "n": 30,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 30,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 30,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 30,
+        "mean": 0.6666666666666666,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.8333333333333334
+      },
+      "moves_toward_neutral": {
+        "n": 30,
+        "mean": 0.43333333333333335,
+        "median": 0.0,
+        "low": 0.26666666666666666,
+        "high": 0.6
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 30,
+        "mean": 0.5666666666666667,
+        "median": 1.0,
+        "low": 0.4,
+        "high": 0.7333333333333333
+      },
+      "p_holm": 1.0
+    },
+    {
+      "dataset": "MMLU",
+      "cohort": "all",
+      "layer": 14,
+      "site": "old",
+      "n": 30,
+      "mean": 0.23230227757254518,
+      "median": -0.023432732929219213,
+      "low": -0.031616206678580096,
+      "high": 0.581322819619414,
+      "p": 0.16922884639420072,
+      "target_change": {
+        "n": 30,
+        "mean": 0.22958179957420863,
+        "median": -0.015625416565750783,
+        "low": -0.015505119023531124,
+        "high": 0.5404198672341562
+      },
+      "random_change": {
+        "n": 30,
+        "mean": -0.002720477998336553,
+        "median": 0.01561651308551859,
+        "low": -0.05961056004729082,
+        "high": 0.04452333878775287
+      },
+      "reverse_change": {
+        "n": 30,
+        "mean": 0.07372395287825904,
+        "median": 0.049956351507375985,
+        "low": -0.07030173542251734,
+        "high": 0.2082466898979707
+      },
+      "distance_to_neutral_improvement": {
+        "n": 30,
+        "mean": 0.10869049753839045,
+        "median": -0.023436902755758382,
+        "low": -0.04586191523836477,
+        "high": 0.29652921181682235
+      },
+      "target_choice_changed": {
+        "n": 30,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 30,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 30,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 30,
+        "mean": 0.6666666666666666,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.8333333333333334
+      },
+      "moves_toward_neutral": {
+        "n": 30,
+        "mean": 0.4666666666666667,
+        "median": 0.0,
+        "low": 0.3,
+        "high": 0.6333333333333333
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 30,
+        "mean": 0.5,
+        "median": 0.5,
+        "low": 0.3333333333333333,
+        "high": 0.6666666666666666
+      },
+      "p_holm": 0.6769153855768029
+    },
+    {
+      "dataset": "MMLU",
+      "cohort": "all",
+      "layer": 14,
+      "site": "anchor",
+      "n": 30,
+      "mean": -0.03210793420303031,
+      "median": 0.14062327026098664,
+      "low": -0.225702636501577,
+      "high": 0.15577314237197337,
+      "p": 0.7571553555805525,
+      "target_change": {
+        "n": 30,
+        "mean": -0.10820062022610794,
+        "median": -0.03115898052797661,
+        "low": -0.29897498611718626,
+        "high": 0.07022391008881813
+      },
+      "random_change": {
+        "n": 30,
+        "mean": -0.07609268602307763,
+        "median": -0.023030374965246736,
+        "low": -0.28889754998810696,
+        "high": 0.11690659862218176
+      },
+      "reverse_change": {
+        "n": 30,
+        "mean": -0.20935823060571176,
+        "median": -0.117186244005552,
+        "low": -0.39467940695173825,
+        "high": -0.037614221276905516
+      },
+      "distance_to_neutral_improvement": {
+        "n": 30,
+        "mean": -0.08524814738231327,
+        "median": -0.07941165003806105,
+        "low": -0.2696269305186469,
+        "high": 0.10521064399723379
+      },
+      "target_choice_changed": {
+        "n": 30,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 30,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 30,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 30,
+        "mean": 0.6666666666666666,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.8333333333333334
+      },
+      "moves_toward_neutral": {
+        "n": 30,
+        "mean": 0.43333333333333335,
+        "median": 0.0,
+        "low": 0.26666666666666666,
+        "high": 0.6
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 30,
+        "mean": 0.6,
+        "median": 1.0,
+        "low": 0.43333333333333335,
+        "high": 0.7666666666666667
+      },
+      "p_holm": 1.0
+    },
+    {
+      "dataset": "MMLU",
+      "cohort": "all",
+      "layer": 21,
+      "site": "new",
+      "n": 30,
+      "mean": 0.025819150357830268,
+      "median": 0.015624522624392512,
+      "low": 0.004168836909527016,
+      "high": 0.05225914989176353,
+      "p": 0.045619297587801526,
+      "target_change": {
+        "n": 30,
+        "mean": 0.01196529421629009,
+        "median": 1.036107732943492e-07,
+        "low": -0.0067525932275735315,
+        "high": 0.031226728851772356
+      },
+      "random_change": {
+        "n": 30,
+        "mean": -0.013853856141540177,
+        "median": -6.4857322001898865e-06,
+        "low": -0.02591838964082986,
+        "high": -0.0029330655555517868
+      },
+      "reverse_change": {
+        "n": 30,
+        "mean": -0.01956741598151434,
+        "median": -0.01562553511752185,
+        "low": -0.035998992563498915,
+        "high": -0.0028290629900361813
+      },
+      "distance_to_neutral_improvement": {
+        "n": 30,
+        "mean": 0.008840486199594011,
+        "median": -3.422411509745871e-08,
+        "low": -0.010359325476802137,
+        "high": 0.02858880678818269
+      },
+      "target_choice_changed": {
+        "n": 30,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 30,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 30,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 30,
+        "mean": 0.6666666666666666,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.8333333333333334
+      },
+      "moves_toward_neutral": {
+        "n": 30,
+        "mean": 0.4666666666666667,
+        "median": 0.0,
+        "low": 0.3,
+        "high": 0.6333333333333333
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 30,
+        "mean": 0.4666666666666667,
+        "median": 0.0,
+        "low": 0.3,
+        "high": 0.6333333333333333
+      },
+      "p_holm": 0.22809648793900764
+    },
+    {
+      "dataset": "MMLU",
+      "cohort": "all",
+      "layer": 21,
+      "site": "old",
+      "n": 30,
+      "mean": 0.003842202035039577,
+      "median": 4.768146482092561e-07,
+      "low": -0.006242275128412208,
+      "high": 0.014143590637564122,
+      "p": 0.47706536682914635,
+      "target_change": {
+        "n": 30,
+        "mean": 0.0069602554991954925,
+        "median": 8.94043296284508e-07,
+        "low": -0.005184476004068112,
+        "high": 0.019809346245396615
+      },
+      "random_change": {
+        "n": 30,
+        "mean": 0.003118053464155916,
+        "median": 0.0037816765245679562,
+        "low": -0.004697145147897999,
+        "high": 0.010659975530894455
+      },
+      "reverse_change": {
+        "n": 30,
+        "mean": -0.0033460124175055247,
+        "median": -5.366500488435122e-07,
+        "low": -0.015680306171724185,
+        "high": 0.009667853208240096
+      },
+      "distance_to_neutral_improvement": {
+        "n": 30,
+        "mean": 0.006960215760340323,
+        "median": 8.94037953003135e-07,
+        "low": -0.005210686868814989,
+        "high": 0.01999962309259958
+      },
+      "target_choice_changed": {
+        "n": 30,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 30,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 30,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 30,
+        "mean": 0.6666666666666666,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.8333333333333334
+      },
+      "moves_toward_neutral": {
+        "n": 30,
+        "mean": 0.5666666666666667,
+        "median": 1.0,
+        "low": 0.4,
+        "high": 0.7333333333333333
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 30,
+        "mean": 0.5333333333333333,
+        "median": 1.0,
+        "low": 0.36666666666666664,
+        "high": 0.7
+      },
+      "p_holm": 1.0
+    },
+    {
+      "dataset": "MMLU",
+      "cohort": "all",
+      "layer": 21,
+      "site": "anchor",
+      "n": 30,
+      "mean": 5.121919506887923,
+      "median": 3.6718996135614077,
+      "low": 2.581820877228686,
+      "high": 7.823269291112808,
+      "p": 0.0003749531308586427,
+      "target_change": {
+        "n": 30,
+        "mean": 5.459507642404413,
+        "median": 3.968504406508604,
+        "low": 2.8235487673876656,
+        "high": 8.20081741074507
+      },
+      "random_change": {
+        "n": 30,
+        "mean": 0.33758813551648975,
+        "median": 0.28514394341451066,
+        "low": -0.01543592971943783,
+        "high": 0.6737426268166503
+      },
+      "reverse_change": {
+        "n": 30,
+        "mean": -3.8585307358046332,
+        "median": -3.1056729189650554,
+        "low": -6.2905515724552785,
+        "high": -1.5707029859573314
+      },
+      "distance_to_neutral_improvement": {
+        "n": 30,
+        "mean": 4.891788826674554,
+        "median": 2.304929582317026,
+        "low": 2.3352814177924532,
+        "high": 7.580135595870635
+      },
+      "target_choice_changed": {
+        "n": 30,
+        "mean": 0.26666666666666666,
+        "median": 0.0,
+        "low": 0.13333333333333333,
+        "high": 0.43333333333333335
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 30,
+        "mean": 0.13333333333333333,
+        "median": 0.0,
+        "low": 0.03333333333333333,
+        "high": 0.26666666666666666
+      },
+      "target_minus_random_accuracy": {
+        "n": 30,
+        "mean": 0.13333333333333333,
+        "median": 0.0,
+        "low": 0.03333333333333333,
+        "high": 0.26666666666666666
+      },
+      "target_recovers_neutral_choice": {
+        "n": 30,
+        "mean": 0.8333333333333334,
+        "median": 1.0,
+        "low": 0.7,
+        "high": 0.9666666666666667
+      },
+      "moves_toward_neutral": {
+        "n": 30,
+        "mean": 0.9,
+        "median": 1.0,
+        "low": 0.7666666666666667,
+        "high": 1.0
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 30,
+        "mean": 0.8333333333333334,
+        "median": 1.0,
+        "low": 0.7,
+        "high": 0.9666666666666667
+      },
+      "p_holm": 0.0022497187851518562
+    },
+    {
+      "dataset": "MMLU",
+      "cohort": "development",
+      "layer": 14,
+      "site": "new",
+      "n": 14,
+      "mean": 0.15302715162822292,
+      "median": -0.011718928222649083,
+      "low": -0.41790997370682115,
+      "high": 0.850596173989941,
+      "p": 0.675790526184227,
+      "target_change": {
+        "n": 14,
+        "mean": 0.1161762601545411,
+        "median": -4.1318795183542534e-05,
+        "low": -0.5201307311659032,
+        "high": 0.7712312674960301
+      },
+      "random_change": {
+        "n": 14,
+        "mean": -0.03685089147368181,
+        "median": -0.023465165949687616,
+        "low": -0.1618584034451385,
+        "high": 0.08145332080189212
+      },
+      "reverse_change": {
+        "n": 14,
+        "mean": 0.132383778897909,
+        "median": 0.07266825668091315,
+        "low": -0.28599883538017107,
+        "high": 0.6789918701972408
+      },
+      "distance_to_neutral_improvement": {
+        "n": 14,
+        "mean": 0.08715802889025882,
+        "median": -0.023561915703140812,
+        "low": -0.5423063914261465,
+        "high": 0.7479382322242971
+      },
+      "target_choice_changed": {
+        "n": 14,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 14,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 14,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 14,
+        "mean": 0.7142857142857143,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9285714285714286
+      },
+      "moves_toward_neutral": {
+        "n": 14,
+        "mean": 0.35714285714285715,
+        "median": 0.0,
+        "low": 0.14285714285714285,
+        "high": 0.6428571428571429
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 14,
+        "mean": 0.2857142857142857,
+        "median": 0.0,
+        "low": 0.07142857142857142,
+        "high": 0.5
+      },
+      "p_holm": 1.0
+    },
+    {
+      "dataset": "MMLU",
+      "cohort": "development",
+      "layer": 14,
+      "site": "old",
+      "n": 14,
+      "mean": 0.1386067392263544,
+      "median": 0.011643154742216666,
+      "low": -0.07925117579163753,
+      "high": 0.4398842003599785,
+      "p": 0.42994625671791026,
+      "target_change": {
+        "n": 14,
+        "mean": 0.11959904601509054,
+        "median": -0.007931707172247116,
+        "low": -0.11162220352895186,
+        "high": 0.4428854406288979
+      },
+      "random_change": {
+        "n": 14,
+        "mean": -0.01900769321126385,
+        "median": 0.0038143519727640296,
+        "low": -0.05916947490458577,
+        "high": 0.017257571413211232
+      },
+      "reverse_change": {
+        "n": 14,
+        "mean": 0.12693646742678613,
+        "median": 0.09372205657825816,
+        "low": 0.023184706329655646,
+        "high": 0.257021394196779
+      },
+      "distance_to_neutral_improvement": {
+        "n": 14,
+        "mean": 0.11736719281794551,
+        "median": -0.015743193362254715,
+        "low": -0.11272696630297908,
+        "high": 0.44037066140965664
+      },
+      "target_choice_changed": {
+        "n": 14,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 14,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 14,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 14,
+        "mean": 0.7142857142857143,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9285714285714286
+      },
+      "moves_toward_neutral": {
+        "n": 14,
+        "mean": 0.42857142857142855,
+        "median": 0.0,
+        "low": 0.21428571428571427,
+        "high": 0.7142857142857143
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 14,
+        "mean": 0.42857142857142855,
+        "median": 0.0,
+        "low": 0.14285714285714285,
+        "high": 0.7142857142857143
+      },
+      "p_holm": 1.0
+    },
+    {
+      "dataset": "MMLU",
+      "cohort": "development",
+      "layer": 14,
+      "site": "anchor",
+      "n": 14,
+      "mean": -0.21851485386631556,
+      "median": -0.10943763091288794,
+      "low": -0.48682365728270643,
+      "high": 0.02631227144979624,
+      "p": 0.1424821897262842,
+      "target_change": {
+        "n": 14,
+        "mean": -0.22238212500110777,
+        "median": -0.07941165003806105,
+        "low": -0.44691396011101936,
+        "high": -0.015631974296462108
+      },
+      "random_change": {
+        "n": 14,
+        "mean": -0.0038672711347922067,
+        "median": -0.0543828525554062,
+        "low": -0.23263221448536214,
+        "high": 0.24281485436862976
+      },
+      "reverse_change": {
+        "n": 14,
+        "mean": -0.2318559489322435,
+        "median": -0.09357235751070903,
+        "low": -0.48058589803869267,
+        "high": 0.004914370387625241
+      },
+      "distance_to_neutral_improvement": {
+        "n": 14,
+        "mean": -0.2758767778232369,
+        "median": -0.10883821140324912,
+        "low": -0.4890254454251712,
+        "high": -0.08953591691032073
+      },
+      "target_choice_changed": {
+        "n": 14,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 14,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 14,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 14,
+        "mean": 0.7142857142857143,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9285714285714286
+      },
+      "moves_toward_neutral": {
+        "n": 14,
+        "mean": 0.35714285714285715,
+        "median": 0.0,
+        "low": 0.14285714285714285,
+        "high": 0.6428571428571429
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 14,
+        "mean": 0.5714285714285714,
+        "median": 1.0,
+        "low": 0.2857142857142857,
+        "high": 0.7857142857142857
+      },
+      "p_holm": 0.7124109486314211
+    },
+    {
+      "dataset": "MMLU",
+      "cohort": "development",
+      "layer": 21,
+      "site": "new",
+      "n": 14,
+      "mean": 0.04063443845526292,
+      "median": 0.007812917133975361,
+      "low": 0.0005014878024100865,
+      "high": 0.09132873215259099,
+      "p": 0.14823147106611673,
+      "target_change": {
+        "n": 14,
+        "mean": 0.023325312615436848,
+        "median": 0.007831029126464273,
+        "low": -0.005652430166197218,
+        "high": 0.05669181917460934
+      },
+      "random_change": {
+        "n": 14,
+        "mean": -0.01730912583982607,
+        "median": -8.464408668373835e-05,
+        "low": -0.03738946860189907,
+        "high": -0.0011381012792806393
+      },
+      "reverse_change": {
+        "n": 14,
+        "mean": -0.027770587473556572,
+        "median": -0.02344131218910661,
+        "low": -0.05149789901949445,
+        "high": -0.0058954954000181355
+      },
+      "distance_to_neutral_improvement": {
+        "n": 14,
+        "mean": 0.016629207611560202,
+        "median": -0.0078118592746250215,
+        "low": -0.012326242573261937,
+        "high": 0.05121601830153923
+      },
+      "target_choice_changed": {
+        "n": 14,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 14,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 14,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 14,
+        "mean": 0.7142857142857143,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9285714285714286
+      },
+      "moves_toward_neutral": {
+        "n": 14,
+        "mean": 0.5,
+        "median": 0.5,
+        "low": 0.2857142857142857,
+        "high": 0.7857142857142857
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 14,
+        "mean": 0.5714285714285714,
+        "median": 1.0,
+        "low": 0.2857142857142857,
+        "high": 0.8571428571428571
+      },
+      "p_holm": 0.7124109486314211
+    },
+    {
+      "dataset": "MMLU",
+      "cohort": "development",
+      "layer": 21,
+      "site": "old",
+      "n": 14,
+      "mean": 0.0011626265081718299,
+      "median": -8.636939668349441e-06,
+      "low": -0.01446175708946821,
+      "high": 0.018479692000760346,
+      "p": 0.8741407324084489,
+      "target_change": {
+        "n": 14,
+        "mean": 0.00559818943963819,
+        "median": -5.9604531088552903e-08,
+        "low": -0.015622253738341791,
+        "high": 0.031272531065851136
+      },
+      "random_change": {
+        "n": 14,
+        "mean": 0.00443556293146636,
+        "median": 0.003781557320905904,
+        "low": -0.007269611963947804,
+        "high": 0.016724252725108763
+      },
+      "reverse_change": {
+        "n": 14,
+        "mean": -0.0046013323278962,
+        "median": -1.1920880638172093e-07,
+        "low": -0.023370276264388475,
+        "high": 0.012050756184258965
+      },
+      "distance_to_neutral_improvement": {
+        "n": 14,
+        "mean": 0.0033663190665557913,
+        "median": -5.9604531088552903e-08,
+        "low": -0.017856842239239005,
+        "high": 0.02905255899187783
+      },
+      "target_choice_changed": {
+        "n": 14,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 14,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 14,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 14,
+        "mean": 0.7142857142857143,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9285714285714286
+      },
+      "moves_toward_neutral": {
+        "n": 14,
+        "mean": 0.42857142857142855,
+        "median": 0.0,
+        "low": 0.21428571428571427,
+        "high": 0.7142857142857143
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 14,
+        "mean": 0.35714285714285715,
+        "median": 0.0,
+        "low": 0.14285714285714285,
+        "high": 0.6428571428571429
+      },
+      "p_holm": 1.0
+    },
+    {
+      "dataset": "MMLU",
+      "cohort": "development",
+      "layer": 21,
+      "site": "anchor",
+      "n": 14,
+      "mean": 4.79104933940597,
+      "median": 1.5859363068045411,
+      "low": 0.8250740677901356,
+      "high": 9.116923603002006,
+      "p": 0.05911761029871266,
+      "target_change": {
+        "n": 14,
+        "mean": 5.279134647570378,
+        "median": 2.085933802405293,
+        "low": 1.2273047505183465,
+        "high": 9.733101691523254
+      },
+      "random_change": {
+        "n": 14,
+        "mean": 0.48808530816440737,
+        "median": 0.7187532293059746,
+        "low": -0.08472328125842506,
+        "high": 1.0530494798851244
+      },
+      "reverse_change": {
+        "n": 14,
+        "mean": -2.962996755992887,
+        "median": -2.370582478465945,
+        "low": -6.472225345860247,
+        "high": 0.18620151912129643
+      },
+      "distance_to_neutral_improvement": {
+        "n": 14,
+        "mean": 5.509002638664695,
+        "median": 2.085933802405293,
+        "low": 1.6922693933177293,
+        "high": 9.740021963554678
+      },
+      "target_choice_changed": {
+        "n": 14,
+        "mean": 0.14285714285714285,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.35714285714285715
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 14,
+        "mean": 0.14285714285714285,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.35714285714285715
+      },
+      "target_minus_random_accuracy": {
+        "n": 14,
+        "mean": 0.14285714285714285,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.35714285714285715
+      },
+      "target_recovers_neutral_choice": {
+        "n": 14,
+        "mean": 0.7857142857142857,
+        "median": 1.0,
+        "low": 0.5714285714285714,
+        "high": 1.0
+      },
+      "moves_toward_neutral": {
+        "n": 14,
+        "mean": 0.9285714285714286,
+        "median": 1.0,
+        "low": 0.7857142857142857,
+        "high": 1.0
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 14,
+        "mean": 0.7857142857142857,
+        "median": 1.0,
+        "low": 0.5714285714285714,
+        "high": 1.0
+      },
+      "p_holm": 0.354705661792276
+    },
+    {
+      "dataset": "MMLU",
+      "cohort": "confirmation",
+      "layer": 14,
+      "site": "new",
+      "n": 16,
+      "mean": 0.11806575487089077,
+      "median": 0.0507802667917403,
+      "low": -0.049344368798777793,
+      "high": 0.3165424401923235,
+      "p": 0.2533433320834896,
+      "target_change": {
+        "n": 16,
+        "mean": 0.07742288282835474,
+        "median": 0.015615883222096727,
+        "low": -0.09767840202983535,
+        "high": 0.27722709083557395
+      },
+      "random_change": {
+        "n": 16,
+        "mean": -0.04064287204253603,
+        "median": -0.042969673854486246,
+        "low": -0.10032664494245387,
+        "high": 0.02235368562852312
+      },
+      "reverse_change": {
+        "n": 16,
+        "mean": -0.28131537053259503,
+        "median": -0.251677058927271,
+        "low": -0.560477400759171,
+        "high": 0.02040384434526761
+      },
+      "distance_to_neutral_improvement": {
+        "n": 16,
+        "mean": 0.020781072846528303,
+        "median": -2.384197159699397e-07,
+        "low": -0.15599311633303561,
+        "high": 0.21769108858016734
+      },
+      "target_choice_changed": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.875
+      },
+      "moves_toward_neutral": {
+        "n": 16,
+        "mean": 0.5,
+        "median": 0.5,
+        "low": 0.25,
+        "high": 0.75
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 1.0
+      },
+      "p_holm": 1.0
+    },
+    {
+      "dataset": "MMLU",
+      "cohort": "confirmation",
+      "layer": 14,
+      "site": "old",
+      "n": 16,
+      "mean": 0.3142858736254621,
+      "median": -0.023437827808720613,
+      "low": -0.1128322721119408,
+      "high": 0.9514140348350197,
+      "p": 0.36682914635670544,
+      "target_change": {
+        "n": 16,
+        "mean": 0.32581670893843695,
+        "median": -0.02343708272327305,
+        "low": -0.05698888025676803,
+        "high": 0.86628679887383
+      },
+      "random_change": {
+        "n": 16,
+        "mean": 0.01153083531297483,
+        "median": 0.023530724234092304,
+        "low": -0.09123090055351542,
+        "high": 0.0916177200243817
+      },
+      "reverse_change": {
+        "n": 16,
+        "mean": 0.02716300264829785,
+        "median": 0.03432956348398264,
+        "low": -0.2002026154919491,
+        "high": 0.25604564665815227
+      },
+      "distance_to_neutral_improvement": {
+        "n": 16,
+        "mean": 0.10109838916877978,
+        "median": -0.02343708272327305,
+        "low": -0.0960573040567148,
+        "high": 0.34989835638258077
+      },
+      "target_choice_changed": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.875
+      },
+      "moves_toward_neutral": {
+        "n": 16,
+        "mean": 0.5,
+        "median": 0.5,
+        "low": 0.25,
+        "high": 0.75
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 16,
+        "mean": 0.5625,
+        "median": 1.0,
+        "low": 0.3125,
+        "high": 0.8125
+      },
+      "p_holm": 1.0
+    },
+    {
+      "dataset": "MMLU",
+      "cohort": "confirmation",
+      "layer": 14,
+      "site": "anchor",
+      "n": 16,
+      "mean": 0.13099812050234427,
+      "median": 0.230469912139867,
+      "low": -0.13366477459450224,
+      "high": 0.359276147282363,
+      "p": 0.3388326459192601,
+      "target_change": {
+        "n": 16,
+        "mean": -0.00829180354798309,
+        "median": 0.07812416594964589,
+        "low": -0.3111275869886533,
+        "high": 0.2565363918346823
+      },
+      "random_change": {
+        "n": 16,
+        "mean": -0.13928992405032736,
+        "median": -0.0039038956608816733,
+        "low": -0.48991973520583587,
+        "high": 0.146482266063737
+      },
+      "reverse_change": {
+        "n": 16,
+        "mean": -0.1896727270699965,
+        "median": -0.19531202266932368,
+        "low": -0.4628802785831527,
+        "high": 0.06596072360849434
+      },
+      "distance_to_neutral_improvement": {
+        "n": 16,
+        "mean": 0.0815519042534949,
+        "median": 0.007895294994170854,
+        "low": -0.1876902369248157,
+        "high": 0.3599835900877724
+      },
+      "target_choice_changed": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.875
+      },
+      "moves_toward_neutral": {
+        "n": 16,
+        "mean": 0.5,
+        "median": 0.5,
+        "low": 0.25,
+        "high": 0.75
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.875
+      },
+      "p_holm": 1.0
+    },
+    {
+      "dataset": "MMLU",
+      "cohort": "confirmation",
+      "layer": 21,
+      "site": "new",
+      "n": 16,
+      "mean": 0.012855773272576698,
+      "median": 0.015626341044821856,
+      "low": -0.007158006292854147,
+      "high": 0.03205960660871511,
+      "p": 0.22297212848393952,
+      "target_change": {
+        "n": 16,
+        "mean": 0.0020252781170366774,
+        "median": -5.103680109641573e-07,
+        "low": -0.02036716343072036,
+        "high": 0.02344416799870826
+      },
+      "random_change": {
+        "n": 16,
+        "mean": -0.01083049515554002,
+        "median": -4.630754460777098e-06,
+        "low": -0.025733444777169722,
+        "high": 0.002930267565670963
+      },
+      "reverse_change": {
+        "n": 16,
+        "mean": -0.012389640925977385,
+        "median": -0.007812796672794775,
+        "low": -0.03495625580977881,
+        "high": 0.010585546994266615
+      },
+      "distance_to_neutral_improvement": {
+        "n": 16,
+        "mean": 0.0020253549641235935,
+        "median": -3.422411509745871e-08,
+        "low": -0.02036253961276544,
+        "high": 0.024413047484836924
+      },
+      "target_choice_changed": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.875
+      },
+      "moves_toward_neutral": {
+        "n": 16,
+        "mean": 0.4375,
+        "median": 0.0,
+        "low": 0.1875,
+        "high": 0.6875
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 16,
+        "mean": 0.375,
+        "median": 0.0,
+        "low": 0.125,
+        "high": 0.625
+      },
+      "p_holm": 1.0
+    },
+    {
+      "dataset": "MMLU",
+      "cohort": "confirmation",
+      "layer": 21,
+      "site": "old",
+      "n": 16,
+      "mean": 0.0061868306210488555,
+      "median": 0.0077749956216450755,
+      "low": -0.00618164022325427,
+      "high": 0.018094026137029796,
+      "p": 0.35420572428446445,
+      "target_change": {
+        "n": 16,
+        "mean": 0.008152063301308132,
+        "median": 2.9199829754134043e-06,
+        "low": -0.0029410723113767025,
+        "high": 0.019893570446837882
+      },
+      "random_change": {
+        "n": 16,
+        "mean": 0.0019652326802592768,
+        "median": 0.0039052069042782023,
+        "low": -0.00781545256346421,
+        "high": 0.011746845654235205
+      },
+      "reverse_change": {
+        "n": 16,
+        "mean": -0.002247607495913684,
+        "median": -0.005264699667577588,
+        "low": -0.019211327318127757,
+        "high": 0.016716656948838813
+      },
+      "distance_to_neutral_improvement": {
+        "n": 16,
+        "mean": 0.010104875367401789,
+        "median": 0.002702675062650428,
+        "low": -0.0006456506208709634,
+        "high": 0.021509182196089237
+      },
+      "target_choice_changed": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.875
+      },
+      "moves_toward_neutral": {
+        "n": 16,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.4375,
+        "high": 0.875
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 16,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.4375,
+        "high": 0.875
+      },
+      "p_holm": 1.0
+    },
+    {
+      "dataset": "MMLU",
+      "cohort": "confirmation",
+      "layer": 21,
+      "site": "anchor",
+      "n": 16,
+      "mean": 5.411430903434632,
+      "median": 5.429710593683609,
+      "low": 2.317724824505566,
+      "high": 8.949826072293947,
+      "p": 0.0044994375703037125,
+      "target_change": {
+        "n": 16,
+        "mean": 5.617334012884195,
+        "median": 5.6718821250398825,
+        "low": 2.411877574807911,
+        "high": 9.223960608106621
+      },
+      "random_change": {
+        "n": 16,
+        "mean": 0.2059031094495618,
+        "median": 0.11717486196984872,
+        "low": -0.18817451960392023,
+        "high": 0.5820296954133675
+      },
+      "reverse_change": {
+        "n": 16,
+        "mean": -4.64212296813991,
+        "median": -3.6094754549252457,
+        "low": -7.824531539952295,
+        "high": -1.6505005791446188
+      },
+      "distance_to_neutral_improvement": {
+        "n": 16,
+        "mean": 4.351726741183182,
+        "median": 2.304929582317026,
+        "low": 1.1915763990974066,
+        "high": 7.857775781017388
+      },
+      "target_choice_changed": {
+        "n": 16,
+        "mean": 0.375,
+        "median": 0.0,
+        "low": 0.1875,
+        "high": 0.625
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 16,
+        "mean": 0.125,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.3125
+      },
+      "target_minus_random_accuracy": {
+        "n": 16,
+        "mean": 0.125,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.3125
+      },
+      "target_recovers_neutral_choice": {
+        "n": 16,
+        "mean": 0.875,
+        "median": 1.0,
+        "low": 0.6875,
+        "high": 1.0
+      },
+      "moves_toward_neutral": {
+        "n": 16,
+        "mean": 0.875,
+        "median": 1.0,
+        "low": 0.6875,
+        "high": 1.0
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 16,
+        "mean": 0.875,
+        "median": 1.0,
+        "low": 0.6875,
+        "high": 1.0
+      },
+      "p_holm": 0.026996625421822275
+    },
+    {
+      "dataset": "all",
+      "cohort": "all",
+      "layer": 14,
+      "site": "new",
+      "n": 94,
+      "mean": 0.1752949961751592,
+      "median": 0.046875215978602114,
+      "low": -0.05014790870944243,
+      "high": 0.42027712465502487,
+      "p": 0.14673165854268216,
+      "target_change": {
+        "n": 94,
+        "mean": 0.1200892650340571,
+        "median": 0.031249612570036334,
+        "low": -0.07506960654684504,
+        "high": 0.3151927174833677
+      },
+      "random_change": {
+        "n": 94,
+        "mean": -0.05520573114110209,
+        "median": -0.015626699209860817,
+        "low": -0.1357378194579568,
+        "high": 0.003089664907338908
+      },
+      "reverse_change": {
+        "n": 94,
+        "mean": -0.025488260751134546,
+        "median": 2.3655576342207496e-07,
+        "low": -0.1970915979197544,
+        "high": 0.1590102760524789
+      },
+      "distance_to_neutral_improvement": {
+        "n": 94,
+        "mean": 0.09881164658588251,
+        "median": -1.1920860742975492e-07,
+        "low": -0.09865770525447926,
+        "high": 0.29624885606560897
+      },
+      "target_choice_changed": {
+        "n": 94,
+        "mean": 0.02127659574468085,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.05319148936170213
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 94,
+        "mean": 0.010638297872340425,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.031914893617021274
+      },
+      "target_minus_random_accuracy": {
+        "n": 94,
+        "mean": 0.005319148936170213,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.015957446808510637
+      },
+      "target_recovers_neutral_choice": {
+        "n": 94,
+        "mean": 0.7021276595744681,
+        "median": 1.0,
+        "low": 0.6063829787234043,
+        "high": 0.7872340425531915
+      },
+      "moves_toward_neutral": {
+        "n": 94,
+        "mean": 0.48936170212765956,
+        "median": 0.0,
+        "low": 0.3829787234042553,
+        "high": 0.5851063829787234
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 94,
+        "mean": 0.5212765957446809,
+        "median": 1.0,
+        "low": 0.4148936170212766,
+        "high": 0.6170212765957447
+      },
+      "p_holm": 0.5869266341707287
+    },
+    {
+      "dataset": "all",
+      "cohort": "all",
+      "layer": 14,
+      "site": "old",
+      "n": 94,
+      "mean": -0.051607044133707244,
+      "median": -0.00016035786092061244,
+      "low": -0.33081027913085786,
+      "high": 0.1949497198046987,
+      "p": 0.7169103862017248,
+      "target_change": {
+        "n": 94,
+        "mean": -0.0732098268967266,
+        "median": 0.023223231644749376,
+        "low": -0.37212683295713483,
+        "high": 0.17692224912308968
+      },
+      "random_change": {
+        "n": 94,
+        "mean": -0.021602782763019357,
+        "median": -0.003903359684215957,
+        "low": -0.06915091095567237,
+        "high": 0.017509177110948463
+      },
+      "reverse_change": {
+        "n": 94,
+        "mean": 0.06113840168864395,
+        "median": 0.015405981886601694,
+        "low": -0.059796186857966976,
+        "high": 0.19012559639402618
+      },
+      "distance_to_neutral_improvement": {
+        "n": 94,
+        "mean": -0.11345413795997641,
+        "median": 0.007751005803640965,
+        "low": -0.40846105228616103,
+        "high": 0.11805435167845417
+      },
+      "target_choice_changed": {
+        "n": 94,
+        "mean": 0.010638297872340425,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.031914893617021274
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 94,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 94,
+        "mean": -0.010638297872340425,
+        "median": 0.0,
+        "low": -0.031914893617021274,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 94,
+        "mean": 0.6702127659574468,
+        "median": 1.0,
+        "low": 0.574468085106383,
+        "high": 0.7659574468085106
+      },
+      "moves_toward_neutral": {
+        "n": 94,
+        "mean": 0.5212765957446809,
+        "median": 1.0,
+        "low": 0.4252659574468086,
+        "high": 0.6170212765957447
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 94,
+        "mean": 0.4787234042553192,
+        "median": 0.0,
+        "low": 0.3723404255319149,
+        "high": 0.574468085106383
+      },
+      "p_holm": 0.8416447944007
+    },
+    {
+      "dataset": "all",
+      "cohort": "all",
+      "layer": 14,
+      "site": "anchor",
+      "n": 94,
+      "mean": 0.07226388083474004,
+      "median": 0.11327722304738153,
+      "low": -0.08671450106850322,
+      "high": 0.2484803381620615,
+      "p": 0.42082239720035,
+      "target_change": {
+        "n": 94,
+        "mean": 0.04684471744546239,
+        "median": 0.031249761596338743,
+        "low": -0.09041560290119,
+        "high": 0.19552058941934844
+      },
+      "random_change": {
+        "n": 94,
+        "mean": -0.025419163389277653,
+        "median": -0.0381862460635336,
+        "low": -0.13627896511095974,
+        "high": 0.07675897820881519
+      },
+      "reverse_change": {
+        "n": 94,
+        "mean": -0.0526665382440671,
+        "median": -0.03126263292934084,
+        "low": -0.17433868011254838,
+        "high": 0.05964919723338703
+      },
+      "distance_to_neutral_improvement": {
+        "n": 94,
+        "mean": 0.040208267072126255,
+        "median": -0.007812146103603368,
+        "low": -0.10051193356147006,
+        "high": 0.18829156129472754
+      },
+      "target_choice_changed": {
+        "n": 94,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 94,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 94,
+        "mean": -0.005319148936170213,
+        "median": 0.0,
+        "low": -0.015957446808510637,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 94,
+        "mean": 0.6808510638297872,
+        "median": 1.0,
+        "low": 0.5851063829787234,
+        "high": 0.776595744680851
+      },
+      "moves_toward_neutral": {
+        "n": 94,
+        "mean": 0.5,
+        "median": 0.5,
+        "low": 0.40425531914893614,
+        "high": 0.5957446808510638
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 94,
+        "mean": 0.5531914893617021,
+        "median": 1.0,
+        "low": 0.4574468085106383,
+        "high": 0.648936170212766
+      },
+      "p_holm": 0.8416447944007
+    },
+    {
+      "dataset": "all",
+      "cohort": "all",
+      "layer": 21,
+      "site": "new",
+      "n": 94,
+      "mean": 0.025041044809007096,
+      "median": 0.015624522624392512,
+      "low": 0.0072398855237123015,
+      "high": 0.044788513537710066,
+      "p": 0.007249093863267091,
+      "target_change": {
+        "n": 94,
+        "mean": 0.021321339500840933,
+        "median": 2.4844197355378128e-05,
+        "low": 0.0028368642436731803,
+        "high": 0.042745117022578084
+      },
+      "random_change": {
+        "n": 94,
+        "mean": -0.003719705308166164,
+        "median": -3.9223364467488864e-07,
+        "low": -0.010286671178439935,
+        "high": 0.0029765706333942073
+      },
+      "reverse_change": {
+        "n": 94,
+        "mean": -0.005324773863373305,
+        "median": -8.94036958243305e-07,
+        "low": -0.01938612321081587,
+        "high": 0.00993777328989601
+      },
+      "distance_to_neutral_improvement": {
+        "n": 94,
+        "mean": 0.006693690584325062,
+        "median": 6.375887778631295e-06,
+        "low": -0.014911021613455335,
+        "high": 0.027243866032407943
+      },
+      "target_choice_changed": {
+        "n": 94,
+        "mean": 0.02127659574468085,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.05319148936170213
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 94,
+        "mean": 0.010638297872340425,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.031914893617021274
+      },
+      "target_minus_random_accuracy": {
+        "n": 94,
+        "mean": 0.010638297872340425,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.031914893617021274
+      },
+      "target_recovers_neutral_choice": {
+        "n": 94,
+        "mean": 0.7021276595744681,
+        "median": 1.0,
+        "low": 0.6063829787234043,
+        "high": 0.7872340425531915
+      },
+      "moves_toward_neutral": {
+        "n": 94,
+        "mean": 0.5531914893617021,
+        "median": 1.0,
+        "low": 0.4574468085106383,
+        "high": 0.6595744680851063
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 94,
+        "mean": 0.4787234042553192,
+        "median": 0.0,
+        "low": 0.3829787234042553,
+        "high": 0.5851063829787234
+      },
+      "p_holm": 0.03624546931633546
+    },
+    {
+      "dataset": "all",
+      "cohort": "all",
+      "layer": 21,
+      "site": "old",
+      "n": 94,
+      "mean": 0.005776388294236805,
+      "median": 1.0430404699945939e-06,
+      "low": -0.0019238502350186128,
+      "high": 0.013824925615946887,
+      "p": 0.15348081489813772,
+      "target_change": {
+        "n": 94,
+        "mean": 0.00814331871476881,
+        "median": 6.241074274271341e-06,
+        "low": -0.0005671428556306249,
+        "high": 0.01707717153386464
+      },
+      "random_change": {
+        "n": 94,
+        "mean": 0.002366930420532005,
+        "median": 2.2351716211232997e-07,
+        "low": -0.002100826098961988,
+        "high": 0.0068082765643145415
+      },
+      "reverse_change": {
+        "n": 94,
+        "mean": 0.0013183347777463439,
+        "median": 6.821210263296962e-13,
+        "low": -0.0047037158811998265,
+        "high": 0.007643957780890211
+      },
+      "distance_to_neutral_improvement": {
+        "n": 94,
+        "mean": 0.004818488668179721,
+        "median": 5.001120513270507e-07,
+        "low": -0.0038263984668178252,
+        "high": 0.013853131423059148
+      },
+      "target_choice_changed": {
+        "n": 94,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 94,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 94,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 94,
+        "mean": 0.6808510638297872,
+        "median": 1.0,
+        "low": 0.5851063829787234,
+        "high": 0.776595744680851
+      },
+      "moves_toward_neutral": {
+        "n": 94,
+        "mean": 0.5531914893617021,
+        "median": 1.0,
+        "low": 0.44680851063829785,
+        "high": 0.648936170212766
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 94,
+        "mean": 0.5212765957446809,
+        "median": 1.0,
+        "low": 0.425531914893617,
+        "high": 0.6170212765957447
+      },
+      "p_holm": 0.5869266341707287
+    },
+    {
+      "dataset": "all",
+      "cohort": "all",
+      "layer": 21,
+      "site": "anchor",
+      "n": 94,
+      "mean": 4.847807899811368,
+      "median": 2.9495773458288355,
+      "low": 3.345037279937395,
+      "high": 6.4037750533917315,
+      "p": 0.00012498437695288088,
+      "target_change": {
+        "n": 94,
+        "mean": 5.04888100327467,
+        "median": 3.0782515405981066,
+        "low": 3.5229615001326904,
+        "high": 6.639310586000042
+      },
+      "random_change": {
+        "n": 94,
+        "mean": 0.201073103463302,
+        "median": 0.05074316489987041,
+        "low": 0.000594138594201272,
+        "high": 0.3972767803512684
+      },
+      "reverse_change": {
+        "n": 94,
+        "mean": -4.186921870063848,
+        "median": -2.880852619530703,
+        "low": -5.487313392775634,
+        "high": -2.8989059873742704
+      },
+      "distance_to_neutral_improvement": {
+        "n": 94,
+        "mean": 5.2433715646413495,
+        "median": 3.0782515405981066,
+        "low": 3.8330381754397314,
+        "high": 6.717772100060195
+      },
+      "target_choice_changed": {
+        "n": 94,
+        "mean": 0.18085106382978725,
+        "median": 0.0,
+        "low": 0.10638297872340426,
+        "high": 0.26595744680851063
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 94,
+        "mean": 0.07446808510638298,
+        "median": 0.0,
+        "low": 0.02127659574468085,
+        "high": 0.13829787234042554
+      },
+      "target_minus_random_accuracy": {
+        "n": 94,
+        "mean": 0.0797872340425532,
+        "median": 0.0,
+        "low": 0.026595744680851064,
+        "high": 0.13829787234042554
+      },
+      "target_recovers_neutral_choice": {
+        "n": 94,
+        "mean": 0.8191489361702128,
+        "median": 1.0,
+        "low": 0.7340425531914894,
+        "high": 0.8936170212765957
+      },
+      "moves_toward_neutral": {
+        "n": 94,
+        "mean": 0.9042553191489362,
+        "median": 1.0,
+        "low": 0.8404255319148937,
+        "high": 0.9574468085106383
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 94,
+        "mean": 0.8829787234042553,
+        "median": 1.0,
+        "low": 0.8191489361702128,
+        "high": 0.9468085106382979
+      },
+      "p_holm": 0.0007499062617172853
+    },
+    {
+      "dataset": "all",
+      "cohort": "development",
+      "layer": 14,
+      "site": "new",
+      "n": 46,
+      "mean": 0.13820963447205492,
+      "median": 0.019518819214226824,
+      "low": -0.24225201385748701,
+      "high": 0.5561609423027027,
+      "p": 0.5471816022997126,
+      "target_change": {
+        "n": 46,
+        "mean": 0.05646640610226266,
+        "median": 0.02344202924271599,
+        "low": -0.2773517523636891,
+        "high": 0.39477133067025955
+      },
+      "random_change": {
+        "n": 46,
+        "mean": -0.08174322836979225,
+        "median": -0.023432108104771032,
+        "low": -0.23083140174582495,
+        "high": 0.023570058799164333
+      },
+      "reverse_change": {
+        "n": 46,
+        "mean": 0.1567947190003581,
+        "median": 0.06250655035324826,
+        "low": -0.14128351091740243,
+        "high": 0.46371061968650096
+      },
+      "distance_to_neutral_improvement": {
+        "n": 46,
+        "mean": 0.0231779067495321,
+        "median": -0.03914946987839585,
+        "low": -0.30748960810360787,
+        "high": 0.3580772990002214
+      },
+      "target_choice_changed": {
+        "n": 46,
+        "mean": 0.043478260869565216,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.10869565217391304
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 46,
+        "mean": 0.021739130434782608,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.06521739130434782
+      },
+      "target_minus_random_accuracy": {
+        "n": 46,
+        "mean": 0.010869565217391304,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.03260869565217391
+      },
+      "target_recovers_neutral_choice": {
+        "n": 46,
+        "mean": 0.717391304347826,
+        "median": 1.0,
+        "low": 0.5869565217391305,
+        "high": 0.8478260869565217
+      },
+      "moves_toward_neutral": {
+        "n": 46,
+        "mean": 0.43478260869565216,
+        "median": 0.0,
+        "low": 0.2826086956521739,
+        "high": 0.5652173913043478
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 46,
+        "mean": 0.391304347826087,
+        "median": 0.0,
+        "low": 0.2608695652173913,
+        "high": 0.5217391304347826
+      },
+      "p_holm": 1.0
+    },
+    {
+      "dataset": "all",
+      "cohort": "development",
+      "layer": 14,
+      "site": "old",
+      "n": 46,
+      "mean": -0.01489004722358661,
+      "median": -0.01957777166063579,
+      "low": -0.3176318058099926,
+      "high": 0.2631976497351665,
+      "p": 0.9231346081739783,
+      "target_change": {
+        "n": 46,
+        "mean": -0.01586327756406516,
+        "median": -0.00792421073879268,
+        "low": -0.3114999381460408,
+        "high": 0.26675254860161574
+      },
+      "random_change": {
+        "n": 46,
+        "mean": -0.0009732303404785524,
+        "median": 0.015616066092349001,
+        "low": -0.03556298541429171,
+        "high": 0.030018591356363797
+      },
+      "reverse_change": {
+        "n": 46,
+        "mean": 0.02715153000340202,
+        "median": 0.015623748137329585,
+        "low": -0.1423718099274898,
+        "high": 0.16597770494149092
+      },
+      "distance_to_neutral_improvement": {
+        "n": 46,
+        "mean": -0.012466818218203396,
+        "median": 0.007647304162787805,
+        "low": -0.31298774055967093,
+        "high": 0.2679947817391121
+      },
+      "target_choice_changed": {
+        "n": 46,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 46,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 46,
+        "mean": -0.021739130434782608,
+        "median": 0.0,
+        "low": -0.06521739130434782,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 46,
+        "mean": 0.6739130434782609,
+        "median": 1.0,
+        "low": 0.5434782608695652,
+        "high": 0.8043478260869565
+      },
+      "moves_toward_neutral": {
+        "n": 46,
+        "mean": 0.5,
+        "median": 0.5,
+        "low": 0.34782608695652173,
+        "high": 0.6521739130434783
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 46,
+        "mean": 0.4782608695652174,
+        "median": 0.0,
+        "low": 0.34728260869565236,
+        "high": 0.6304347826086957
+      },
+      "p_holm": 1.0
+    },
+    {
+      "dataset": "all",
+      "cohort": "development",
+      "layer": 14,
+      "site": "anchor",
+      "n": 46,
+      "mean": 0.01641108050363317,
+      "median": -0.02734393411193814,
+      "low": -0.23829535929663206,
+      "high": 0.2856083058051844,
+      "p": 0.9041369828771404,
+      "target_change": {
+        "n": 46,
+        "mean": 0.04995004663076709,
+        "median": -0.007812082802900022,
+        "low": -0.1433878234529265,
+        "high": 0.26737323622366493
+      },
+      "random_change": {
+        "n": 46,
+        "mean": 0.03353896612713392,
+        "median": 0.03273475161822326,
+        "low": -0.11940472766718636,
+        "high": 0.18673861738344874
+      },
+      "reverse_change": {
+        "n": 46,
+        "mean": -0.13105660570678895,
+        "median": -0.10676347842393241,
+        "low": -0.3172814528444014,
+        "high": 0.025371271988786574
+      },
+      "distance_to_neutral_improvement": {
+        "n": 46,
+        "mean": 0.027555971326070103,
+        "median": -0.031241239087961503,
+        "low": -0.1657158848901214,
+        "high": 0.2470868219045947
+      },
+      "target_choice_changed": {
+        "n": 46,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 46,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 46,
+        "mean": -0.010869565217391304,
+        "median": 0.0,
+        "low": -0.03260869565217391,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 46,
+        "mean": 0.6739130434782609,
+        "median": 1.0,
+        "low": 0.5434782608695652,
+        "high": 0.8043478260869565
+      },
+      "moves_toward_neutral": {
+        "n": 46,
+        "mean": 0.4782608695652174,
+        "median": 0.0,
+        "low": 0.32608695652173914,
+        "high": 0.6304347826086957
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 46,
+        "mean": 0.5652173913043478,
+        "median": 1.0,
+        "low": 0.41304347826086957,
+        "high": 0.717391304347826
+      },
+      "p_holm": 1.0
+    },
+    {
+      "dataset": "all",
+      "cohort": "development",
+      "layer": 21,
+      "site": "new",
+      "n": 46,
+      "mean": 0.044007421578060375,
+      "median": 0.01954316453314675,
+      "low": 0.018411204378158994,
+      "high": 0.07268968809021387,
+      "p": 0.000999875015623047,
+      "target_change": {
+        "n": 46,
+        "mean": 0.039586437835478765,
+        "median": 0.023093687108939775,
+        "low": 0.013288238776613762,
+        "high": 0.07326976353859413
+      },
+      "random_change": {
+        "n": 46,
+        "mean": -0.0044209837425816115,
+        "median": -2.665023885128903e-06,
+        "low": -0.015153598346957177,
+        "high": 0.006771711363273982
+      },
+      "reverse_change": {
+        "n": 46,
+        "mean": -0.0095313483808003,
+        "median": -0.011697816080300072,
+        "low": -0.030706673015262368,
+        "high": 0.014667752233035318
+      },
+      "distance_to_neutral_improvement": {
+        "n": 46,
+        "mean": 0.010374413958865108,
+        "median": 4.05671053158585e-05,
+        "low": -0.025511001914094958,
+        "high": 0.03799978227150726
+      },
+      "target_choice_changed": {
+        "n": 46,
+        "mean": 0.043478260869565216,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.10869565217391304
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 46,
+        "mean": 0.021739130434782608,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.06521739130434782
+      },
+      "target_minus_random_accuracy": {
+        "n": 46,
+        "mean": 0.021739130434782608,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.06521739130434782
+      },
+      "target_recovers_neutral_choice": {
+        "n": 46,
+        "mean": 0.717391304347826,
+        "median": 1.0,
+        "low": 0.5869565217391305,
+        "high": 0.8478260869565217
+      },
+      "moves_toward_neutral": {
+        "n": 46,
+        "mean": 0.6304347826086957,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.7608695652173914
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 46,
+        "mean": 0.5434782608695652,
+        "median": 1.0,
+        "low": 0.41304347826086957,
+        "high": 0.6956521739130435
+      },
+      "p_holm": 0.004999375078115235
+    },
+    {
+      "dataset": "all",
+      "cohort": "development",
+      "layer": 21,
+      "site": "old",
+      "n": 46,
+      "mean": 0.0012463929590315012,
+      "median": 2.979732016683556e-08,
+      "low": -0.008849953902911422,
+      "high": 0.01048916423882166,
+      "p": 0.8095238095238095,
+      "target_change": {
+        "n": 46,
+        "mean": 0.0030151869455598726,
+        "median": 1.2808285674736908e-05,
+        "low": -0.010432815930835636,
+        "high": 0.01474501352437722
+      },
+      "random_change": {
+        "n": 46,
+        "mean": 0.0017687939865283714,
+        "median": 3.725251218611447e-07,
+        "low": -0.00440863893788639,
+        "high": 0.007766749596241215
+      },
+      "reverse_change": {
+        "n": 46,
+        "mean": -0.0005658242988971242,
+        "median": 6.821210263296962e-13,
+        "low": -0.008107850959584736,
+        "high": 0.007154930310571279
+      },
+      "distance_to_neutral_improvement": {
+        "n": 46,
+        "mean": 0.0002978578391178481,
+        "median": 1.2386578873702092e-07,
+        "low": -0.013060755481823203,
+        "high": 0.012034773980995932
+      },
+      "target_choice_changed": {
+        "n": 46,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 46,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 46,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 46,
+        "mean": 0.6739130434782609,
+        "median": 1.0,
+        "low": 0.5434782608695652,
+        "high": 0.8043478260869565
+      },
+      "moves_toward_neutral": {
+        "n": 46,
+        "mean": 0.5434782608695652,
+        "median": 1.0,
+        "low": 0.391304347826087,
+        "high": 0.6956521739130435
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 46,
+        "mean": 0.45652173913043476,
+        "median": 0.0,
+        "low": 0.30434782608695654,
+        "high": 0.6086956521739131
+      },
+      "p_holm": 1.0
+    },
+    {
+      "dataset": "all",
+      "cohort": "development",
+      "layer": 21,
+      "site": "anchor",
+      "n": 46,
+      "mean": 5.159531695858193,
+      "median": 2.9923874739001803,
+      "low": 2.982056491686358,
+      "high": 7.568884374876114,
+      "p": 0.00012498437695288088,
+      "target_change": {
+        "n": 46,
+        "mean": 5.399692597327333,
+        "median": 3.0782515405981066,
+        "low": 3.1463121904124676,
+        "high": 7.843512049799608
+      },
+      "random_change": {
+        "n": 46,
+        "mean": 0.2401609014691406,
+        "median": 0.21484950122622593,
+        "low": -0.05315330506240153,
+        "high": 0.5509148204656656
+      },
+      "reverse_change": {
+        "n": 46,
+        "mean": -4.010336361015802,
+        "median": -2.880852619530703,
+        "low": -5.860041515601216,
+        "high": -2.2278945337568485
+      },
+      "distance_to_neutral_improvement": {
+        "n": 46,
+        "mean": 5.77400366166011,
+        "median": 3.2657516002594917,
+        "low": 3.6510213697827196,
+        "high": 8.108757158786386
+      },
+      "target_choice_changed": {
+        "n": 46,
+        "mean": 0.15217391304347827,
+        "median": 0.0,
+        "low": 0.06521739130434782,
+        "high": 0.2608695652173913
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 46,
+        "mean": 0.08695652173913043,
+        "median": 0.0,
+        "low": 0.021739130434782608,
+        "high": 0.17391304347826086
+      },
+      "target_minus_random_accuracy": {
+        "n": 46,
+        "mean": 0.07608695652173914,
+        "median": 0.0,
+        "low": 0.010869565217391304,
+        "high": 0.15217391304347827
+      },
+      "target_recovers_neutral_choice": {
+        "n": 46,
+        "mean": 0.782608695652174,
+        "median": 1.0,
+        "low": 0.6521739130434783,
+        "high": 0.8913043478260869
+      },
+      "moves_toward_neutral": {
+        "n": 46,
+        "mean": 0.8913043478260869,
+        "median": 1.0,
+        "low": 0.8043478260869565,
+        "high": 0.9782608695652174
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 46,
+        "mean": 0.8478260869565217,
+        "median": 1.0,
+        "low": 0.7391304347826086,
+        "high": 0.9347826086956522
+      },
+      "p_holm": 0.0007499062617172853
+    },
+    {
+      "dataset": "all",
+      "cohort": "confirmation",
+      "layer": 14,
+      "site": "new",
+      "n": 48,
+      "mean": 0.21083513447396748,
+      "median": 0.05078449854048728,
+      "low": 0.01697453526558576,
+      "high": 0.45601570385264606,
+      "p": 0.06186726659167604,
+      "target_change": {
+        "n": 48,
+        "mean": 0.18106117151036014,
+        "median": 0.031249612570036334,
+        "low": 0.008805850568273437,
+        "high": 0.39511632066455166
+      },
+      "random_change": {
+        "n": 48,
+        "mean": -0.029773962963607348,
+        "median": -0.011718846850953923,
+        "low": -0.08520420870666806,
+        "high": 0.022215642622456035
+      },
+      "reverse_change": {
+        "n": 48,
+        "mean": -0.20017611634631502,
+        "median": -0.031249880806296204,
+        "low": -0.37294655454819664,
+        "high": -0.03890902984188676
+      },
+      "distance_to_neutral_improvement": {
+        "n": 48,
+        "mean": 0.17129398059571832,
+        "median": 0.031240436189307275,
+        "low": -0.005564638994260514,
+        "high": 0.3863397384626003
+      },
+      "target_choice_changed": {
+        "n": 48,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 48,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 48,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 48,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.5625,
+        "high": 0.8125
+      },
+      "moves_toward_neutral": {
+        "n": 48,
+        "mean": 0.5416666666666666,
+        "median": 1.0,
+        "low": 0.3958333333333333,
+        "high": 0.6875
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 48,
+        "mean": 0.6458333333333334,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.7708333333333334
+      },
+      "p_holm": 0.3093363329583802
+    },
+    {
+      "dataset": "all",
+      "cohort": "confirmation",
+      "layer": 14,
+      "site": "old",
+      "n": 48,
+      "mean": -0.08679416617257285,
+      "median": 0.007812716066553094,
+      "low": -0.5294217164829127,
+      "high": 0.2866716181617291,
+      "p": 0.723034620672416,
+      "target_change": {
+        "n": 48,
+        "mean": -0.12816693667386048,
+        "median": 0.031182747163484237,
+        "low": -0.6343977521600428,
+        "high": 0.25072147708230585
+      },
+      "random_change": {
+        "n": 48,
+        "mean": -0.041372770501287626,
+        "median": -0.00781238076910995,
+        "low": -0.12674096803961993,
+        "high": 0.026187330512542913
+      },
+      "reverse_change": {
+        "n": 48,
+        "mean": 0.09370915372033413,
+        "median": 2.292061935804668e-05,
+        "low": -0.08271623905009097,
+        "high": 0.29639352826713083
+      },
+      "distance_to_neutral_improvement": {
+        "n": 48,
+        "mean": -0.2102336527125089,
+        "median": 0.007751005803640965,
+        "low": -0.701845748437588,
+        "high": 0.11475173681779056
+      },
+      "target_choice_changed": {
+        "n": 48,
+        "mean": 0.020833333333333332,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0625
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 48,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 48,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 48,
+        "mean": 0.6666666666666666,
+        "median": 1.0,
+        "low": 0.5416666666666666,
+        "high": 0.7916666666666666
+      },
+      "moves_toward_neutral": {
+        "n": 48,
+        "mean": 0.5416666666666666,
+        "median": 1.0,
+        "low": 0.4166666666666667,
+        "high": 0.6666666666666666
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 48,
+        "mean": 0.4791666666666667,
+        "median": 0.0,
+        "low": 0.3333333333333333,
+        "high": 0.625
+      },
+      "p_holm": 1.0
+    },
+    {
+      "dataset": "all",
+      "cohort": "confirmation",
+      "layer": 14,
+      "site": "anchor",
+      "n": 48,
+      "mean": 0.1257894811520508,
+      "median": 0.17578267106130596,
+      "low": -0.09616144075251114,
+      "high": 0.3480993258712505,
+      "p": 0.28171478565179353,
+      "target_change": {
+        "n": 48,
+        "mean": 0.043868776976212054,
+        "median": 0.10156262187868492,
+        "low": -0.16161925625600818,
+        "high": 0.2533005163886027
+      },
+      "random_change": {
+        "n": 48,
+        "mean": -0.08192070417583874,
+        "median": -0.06640994505733033,
+        "low": -0.24034871918298648,
+        "high": 0.06337893548692874
+      },
+      "reverse_change": {
+        "n": 48,
+        "mean": 0.022457276407708004,
+        "median": -0.015627921446608184,
+        "low": -0.13779236475062942,
+        "high": 0.1917262445701914
+      },
+      "distance_to_neutral_improvement": {
+        "n": 48,
+        "mean": 0.0523333838287634,
+        "median": 0.023467653100624375,
+        "low": -0.1579315848348853,
+        "high": 0.2545414346943762
+      },
+      "target_choice_changed": {
+        "n": 48,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 48,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 48,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 48,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.5625,
+        "high": 0.8125
+      },
+      "moves_toward_neutral": {
+        "n": 48,
+        "mean": 0.5208333333333334,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.6666666666666666
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 48,
+        "mean": 0.5416666666666666,
+        "median": 1.0,
+        "low": 0.3958333333333333,
+        "high": 0.6875
+      },
+      "p_holm": 0.8451443569553806
+    },
+    {
+      "dataset": "all",
+      "cohort": "confirmation",
+      "layer": 21,
+      "site": "new",
+      "n": 48,
+      "mean": 0.006864933738664369,
+      "median": 4.637796394035831e-06,
+      "low": -0.015365828177104256,
+      "high": 0.033284349232962696,
+      "p": 0.6521684789401325,
+      "target_change": {
+        "n": 48,
+        "mean": 0.003817286930146343,
+        "median": 0.0,
+        "low": -0.018906041093042728,
+        "high": 0.03096099076953952
+      },
+      "random_change": {
+        "n": 48,
+        "mean": -0.0030476468085180266,
+        "median": -8.940592977069173e-08,
+        "low": -0.010895467998820943,
+        "high": 0.0040833473243287715
+      },
+      "reverse_change": {
+        "n": 48,
+        "mean": -0.0012934732841724343,
+        "median": 7.450637440342689e-09,
+        "low": -0.020510731464927597,
+        "high": 0.017348492747171235
+      },
+      "distance_to_neutral_improvement": {
+        "n": 48,
+        "mean": 0.0031663306837241834,
+        "median": 0.0,
+        "low": -0.0192173854998277,
+        "high": 0.030830252391616072
+      },
+      "target_choice_changed": {
+        "n": 48,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 48,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 48,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 48,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.5625,
+        "high": 0.8125
+      },
+      "moves_toward_neutral": {
+        "n": 48,
+        "mean": 0.4791666666666667,
+        "median": 0.0,
+        "low": 0.3333333333333333,
+        "high": 0.625
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 48,
+        "mean": 0.4166666666666667,
+        "median": 0.0,
+        "low": 0.2708333333333333,
+        "high": 0.5625
+      },
+      "p_holm": 1.0
+    },
+    {
+      "dataset": "all",
+      "cohort": "confirmation",
+      "layer": 21,
+      "site": "old",
+      "n": 48,
+      "mean": 0.010117633823808555,
+      "median": 0.003919117148939222,
+      "low": 9.574728546695168e-05,
+      "high": 0.023084276593831686,
+      "p": 0.07749031371078616,
+      "target_change": {
+        "n": 48,
+        "mean": 0.013057778326927375,
+        "median": 6.241074274271341e-06,
+        "low": 0.0027686671645581287,
+        "high": 0.02616956264937129
+      },
+      "random_change": {
+        "n": 48,
+        "mean": 0.002940144503118821,
+        "median": 1.4901124245625397e-07,
+        "low": -0.0033191478460036154,
+        "high": 0.0093173847229408
+      },
+      "reverse_change": {
+        "n": 48,
+        "mean": 0.003123987226196334,
+        "median": 1.1920872111659264e-07,
+        "low": -0.006434373732700186,
+        "high": 0.012915064963716551
+      },
+      "distance_to_neutral_improvement": {
+        "n": 48,
+        "mean": 0.009150759879364015,
+        "median": 6.555849267897429e-07,
+        "low": -0.0014882402759645438,
+        "high": 0.023144118906038593
+      },
+      "target_choice_changed": {
+        "n": 48,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 48,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_minus_random_accuracy": {
+        "n": 48,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "target_recovers_neutral_choice": {
+        "n": 48,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.5625,
+        "high": 0.8125
+      },
+      "moves_toward_neutral": {
+        "n": 48,
+        "mean": 0.5625,
+        "median": 1.0,
+        "low": 0.4166666666666667,
+        "high": 0.7083333333333334
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 48,
+        "mean": 0.5833333333333334,
+        "median": 1.0,
+        "low": 0.4375,
+        "high": 0.7291666666666666
+      },
+      "p_holm": 0.30996125484314463
+    },
+    {
+      "dataset": "all",
+      "cohort": "confirmation",
+      "layer": 21,
+      "site": "anchor",
+      "n": 48,
+      "mean": 4.549072595266496,
+      "median": 2.875004326551938,
+      "low": 2.512287080690064,
+      "high": 6.539078873035706,
+      "p": 0.00012498437695288088,
+      "target_change": {
+        "n": 48,
+        "mean": 4.712686558974203,
+        "median": 3.0328355124182593,
+        "low": 2.6390413521904756,
+        "high": 6.7956955301528446
+      },
+      "random_change": {
+        "n": 48,
+        "mean": 0.16361396370770667,
+        "median": -0.015641427960336074,
+        "low": -0.09550902821196303,
+        "high": 0.42593498993013634
+      },
+      "reverse_change": {
+        "n": 48,
+        "mean": -4.356149649568227,
+        "median": -3.038900603695936,
+        "low": -6.24416428284187,
+        "high": -2.5791867171555087
+      },
+      "distance_to_neutral_improvement": {
+        "n": 48,
+        "mean": 4.734849138331704,
+        "median": 2.773416256764836,
+        "low": 2.97951933623935,
+        "high": 6.670119935563536
+      },
+      "target_choice_changed": {
+        "n": 48,
+        "mean": 0.20833333333333334,
+        "median": 0.0,
+        "low": 0.10416666666666667,
+        "high": 0.3333333333333333
+      },
+      "target_minus_baseline_accuracy": {
+        "n": 48,
+        "mean": 0.0625,
+        "median": 0.0,
+        "low": -0.020833333333333332,
+        "high": 0.14583333333333334
+      },
+      "target_minus_random_accuracy": {
+        "n": 48,
+        "mean": 0.08333333333333333,
+        "median": 0.0,
+        "low": 0.010416666666666666,
+        "high": 0.17708333333333334
+      },
+      "target_recovers_neutral_choice": {
+        "n": 48,
+        "mean": 0.8541666666666666,
+        "median": 1.0,
+        "low": 0.75,
+        "high": 0.9375
+      },
+      "moves_toward_neutral": {
+        "n": 48,
+        "mean": 0.9166666666666666,
+        "median": 1.0,
+        "low": 0.8333333333333334,
+        "high": 0.9791666666666666
+      },
+      "reverse_moves_toward_wrong": {
+        "n": 48,
+        "mean": 0.9166666666666666,
+        "median": 1.0,
+        "low": 0.8333333333333334,
+        "high": 0.9791666666666666
+      },
+      "p_holm": 0.0007499062617172853
+    }
+  ],
+  "new_minus_old": [
+    {
+      "cohort": "all",
+      "layer": 14,
+      "n": 94,
+      "mean": 0.22690204030886643,
+      "median": 0.03125345589205608,
+      "low": -0.12059847631387942,
+      "high": 0.616766838519155,
+      "p": 0.23709536307961504,
+      "p_holm": 0.23709536307961504
+    },
+    {
+      "cohort": "all",
+      "layer": 21,
+      "n": 94,
+      "mean": 0.01926465651477029,
+      "median": 0.011494590899133073,
+      "low": 0.00233364489927542,
+      "high": 0.03698791857009491,
+      "p": 0.031746031746031744,
+      "p_holm": 0.06349206349206349
+    },
+    {
+      "cohort": "development",
+      "layer": 14,
+      "n": 46,
+      "mean": 0.15309968169564153,
+      "median": 0.023504895210749055,
+      "low": -0.3454128166775152,
+      "high": 0.8085856788592318,
+      "p": 0.6822897137857767,
+      "p_holm": 0.6822897137857767
+    },
+    {
+      "cohort": "development",
+      "layer": 21,
+      "n": 46,
+      "mean": 0.042761028619028876,
+      "median": 0.02343779747957342,
+      "low": 0.01672908668338783,
+      "high": 0.07128242687651433,
+      "p": 0.0017497812773403325,
+      "p_holm": 0.003499562554680665
+    },
+    {
+      "cohort": "confirmation",
+      "layer": 14,
+      "n": 48,
+      "mean": 0.2976293006465403,
+      "median": 0.039096338730246316,
+      "low": -0.14770109114668098,
+      "high": 0.7676482664310195,
+      "p": 0.22709661292338457,
+      "p_holm": 0.45419322584676913
+    },
+    {
+      "cohort": "confirmation",
+      "layer": 21,
+      "n": 48,
+      "mean": -0.0032527000851441854,
+      "median": -9.026403290590679e-06,
+      "low": -0.02268781146376364,
+      "high": 0.01608250775937459,
+      "p": 0.757655293088364,
+      "p_holm": 0.757655293088364
+    }
+  ],
+  "api_cost_usd": 0
+}

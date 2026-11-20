@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_9af7d880-6295-4064-a273-742adf2cf594",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Tachiformo's disease or hypercephyne's disease orphans orphans etetarososchietaetepoemaragoaidservemenservemensigroupingservemensigenservemensenservemensenservemansesparicovossemens",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "4268f034ca9b1a46790e6845787717a5d86f62453b4221d7ee222b8e9294f9e9"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic long-term disease with persistent longening of the body and/or body body disorder in terms of shape or structure\"}",
+      "generated_disease": "Chronic long-term disease with persistent longening of the body and/or body body disorder in terms of shape or structure",
+      "stop": "eos",
+      "tokens": 24,
+      "prompt_sha256": "0e005c3254d6c4358f9e0e19d883706444eb2768ef415eef31230b7a7252aae3"
+    }
+  ]
+}

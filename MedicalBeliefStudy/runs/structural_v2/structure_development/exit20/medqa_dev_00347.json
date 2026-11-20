@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_dev_00347",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Aubach综合征或其它类似名称但实际可能误称导致无法准确准确识别正确答案但根据现有信息最佳选项是基于常规常见且符合描述的可能性故选择如下所示但实际实际可能需要进一步核实但根据现有信息如下所示但实际实际可能需要进一步…\n\n\n\n请注意实际情况下需要实际",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "5452ed2cbae4602cc869d6b43ad566b239e5ccaed4941e12cf925ac1b3c0d49b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 0,
+      "prompt_sha256": "405a790343fd214a5e4df237e0f3119b7f4190a8339958766b0f539d4886e743"
+    }
+  ]
+}

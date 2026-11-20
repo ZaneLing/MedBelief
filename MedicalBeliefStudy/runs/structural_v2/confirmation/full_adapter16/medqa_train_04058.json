@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_04058",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Brucellosis\"}",
+      "generated_disease": "Brucellosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "e58df8773aac22659efca5e604b31f5f031acef2acb912bf78ae15c9cbbbcca6"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Mumps meningitis\"}",
+      "generated_disease": "Mumps meningitis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "0c7c03a06eb4c9859300c7338d46c624ce9f2f57ae90034dfbb562f1050b64e8"
+    }
+  ]
+}

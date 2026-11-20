@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_00b81767-bbe3-4caf-8ba9-c89473fd0dd2",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Renal tubular acidosis\"}",
+      "generated_disease": "Renal tubular acidosis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "f4097af8008897edacd7858bb01d704a3231e2fbc20093f9261bce0d44dc3cb6"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Bater's syndrome\"}",
+      "generated_disease": "Bater's syndrome",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "052f916bc554d130136acd6093d512759401f103fd01f2a383170aed2b0e6392"
+    }
+  ]
+}

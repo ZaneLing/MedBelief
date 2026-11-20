@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_8798e055-6b3a-4dac-ae73-b32705c6c6e3",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Ocular toxoplasmosis\"}",
+      "generated_disease": "Ocular toxoplasmosis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "c1f4fe408fea7fb94cde0cb00ef7ec0fa66cb4ac419393df89111892c2285ffe"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Multifocal choroiditis\"}",
+      "generated_disease": "Multifocal choroiditis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "a7a86f2a31db98ba69ce5e6cbf81feb0b68fe738550e0725d5519a447b2fd766"
+    }
+  ]
+}

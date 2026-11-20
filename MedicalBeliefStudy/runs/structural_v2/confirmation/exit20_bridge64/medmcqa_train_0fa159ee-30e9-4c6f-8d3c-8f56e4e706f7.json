@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_0fa159ee-30e9-4c6f-8d3c-8f56e4e706f7",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "P1\"}",
+      "generated_disease": "P1",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "580fd680b67627d6d32a59837ce1a53f9c5908aa7ccbe6ae3ca4c72484799141"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pudous\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "f88d5794115d4e5709364112004e9b8c751272ecb9c2a69e95069d264099c8f1"
+    }
+  ]
+}

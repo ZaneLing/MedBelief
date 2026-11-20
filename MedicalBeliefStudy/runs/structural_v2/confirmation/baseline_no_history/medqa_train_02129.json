@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_02129",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Analgesic nephropathy\"}",
+      "generated_disease": "Analgesic nephropathy",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "5cd220cf269b0b7c05e1cc9670b7dd4840d3c906be0ab1e9d0c3664ad33c8cbe"
+    }
+  ]
+}

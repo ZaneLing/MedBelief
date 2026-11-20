@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_00879",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformy anemia or other non-linear pathogenicity of anemia such as disease-based or non-linear pathogenicity of anemia such a disease-based or non-linear complex complex or other non-linear complex anemia such a non-linear complex or other non-linear ralenaxenem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "146125d7337dbdc00182833e7fb10942fb0ad8d6b692ddc7bf8fd5593c1f6787"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Accesssualmonary呼吸肺疾病\"} // Note: This error caused an error in the original systematics. actual correct answer is still 'Normalcyfulausenphilis or other relevant pathycomephesbutcherschutzungmechetenschutzmechensensentepememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "4414c87b3ea5b6f84237f86eb3c8b350fbee8213693b6297c5cc49993efc909b"
+    }
+  ]
+}

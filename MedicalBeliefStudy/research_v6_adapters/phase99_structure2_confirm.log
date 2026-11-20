@@ -1,0 +1,26 @@
+{"stage": "confirmation", "candidate": "baseline", "case": 1, "total": 400, "elapsed": 0.6}
+{"stage": "confirmation", "candidate": "baseline", "case": 20, "total": 400, "elapsed": 13.0}
+{"stage": "confirmation", "candidate": "baseline", "case": 40, "total": 400, "elapsed": 26.7}
+{"stage": "confirmation", "candidate": "baseline", "case": 60, "total": 400, "elapsed": 41.1}
+{"stage": "confirmation", "candidate": "baseline", "case": 80, "total": 400, "elapsed": 54.3}
+{"stage": "confirmation", "candidate": "baseline", "case": 100, "total": 400, "elapsed": 67.8}
+{"stage": "confirmation", "candidate": "baseline", "case": 120, "total": 400, "elapsed": 82.0}
+Traceback (most recent call last):
+  File "/Users/lingziyang/Desktop/Seq/MedicalBeliefStudy/src/phase99_structure2_confirm.py", line 8, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/lingziyang/Desktop/Seq/MedicalBeliefStudy/src/phase99_structure2_confirm.py", line 5, in main
+    for cfg in spec['configurations']:run_config(cfg,'confirmation')
+                                      ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lingziyang/Desktop/Seq/MedicalBeliefStudy/src/structure2_decode.py", line 17, in run_config
+    if not config.get('constrained'):return run_cases(config,cohort,conditions,folder)
+                                            ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lingziyang/Desktop/Seq/MedicalBeliefStudy/src/structure2_core.py", line 109, in run_cases
+    e=encode(c,tok,cond);o=generate(model,tok,e);rr.append(dict(condition=cond,correct=o['generated_disease']==c['gold_disease'],listed=o['generated_disease'] in c['candidates'],**o));mx.clear_cache()
+  File "/Users/lingziyang/Desktop/Seq/MedicalBeliefStudy/src/structure2_core.py", line 14, in encode
+    T=len(c['sentences']);return render(c,dict(condition=condition,mode='name',rotation=0,round=t or T,last_round=T,order='base'),tok)
+                                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lingziyang/Desktop/Seq/MedicalBeliefStudy/src/belief_v4_core.py", line 59, in render
+    full=tok.encode(prompt+answer+'"}',add_special_tokens=False);assert full[:len(ids)]==ids
+                                                                        ^^^^^^^^^^^^^^^^^^^^
+AssertionError

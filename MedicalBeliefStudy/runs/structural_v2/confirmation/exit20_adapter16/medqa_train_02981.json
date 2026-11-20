@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_02981",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Schizophrenia-related stress out stress out\"}\"}Note: This is an example of an non-tralonic and/or non-realistic response. actual real-world scenario would be an actual real-world scenario. actual real-world an actual real-world real-life scenario. Please consult consult a professional for actual medical advice\"}Note",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "76fa54834f37bc8252c88beba1502fb8186f44405e1db2401d0f2db754e8d14f"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxia-induced stress stress disorder\"}",
+      "generated_disease": "Pemphoxia-induced stress stress disorder",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "bba6acbba19238fdc69dda072ce2d417a33a7337d88e00ccdffda650b3959313"
+    }
+  ]
+}

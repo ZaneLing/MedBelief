@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_02923",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Appendicitis\"}",
+      "generated_disease": "Appendicitis",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "a4fabc8b61a47f08013ab60fe37b78f5f25a1c9c315308b46f492d00b2c09640"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Inflammatory bowel syndrome\"}",
+      "generated_disease": "Inflammatory bowel syndrome",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "396a323c4d91559d6e62eaabdec9564ccdaa16a30084376feea145b08b6cfa62"
+    }
+  ]
+}

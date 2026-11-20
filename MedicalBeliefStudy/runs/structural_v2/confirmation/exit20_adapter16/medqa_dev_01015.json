@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_dev_01015",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronicity of symptoms and persistent abolentiform behavior in an non-mchilastic, non-reversible pathologic stress-related stress outdearing system without major structural changes or systemic disease\"} (Note: This is an example of an non-standard philacogrouped systematics and may not actuality",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "431008e6b5ac65da84c14717cc5f6249ec3693af76368e9353ed1d41d457a665"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronicity of symptoms and persistent longening of time duration of time duration of anactivityeystechserventechservemplententecualententecualenemphesentememphesseminalenememphesseminalenemememememememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "498e96a1173bbd903206d58b585c1376a077ec590b6f96cdc2be376f4c827971"
+    }
+  ]
+}

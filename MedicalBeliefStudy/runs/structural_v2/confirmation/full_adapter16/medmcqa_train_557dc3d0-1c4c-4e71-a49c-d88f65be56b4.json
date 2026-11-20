@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_557dc3d0-1c4c-4e71-a49c-d88f65be56b4",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Retinoblastoma\"}",
+      "generated_disease": "Retinoblastoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "e5a8b9a2989607d3a302c4ed63b1d53d0085dcbc3a3e3d28db32e7cdcb21c83e"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Retinoblastoma\"}",
+      "generated_disease": "Retinoblastoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "c00a97110face1768f785bb89cc92d577015116d7a7226ca37e7e5a275681e06"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_35861130-36e6-4218-afdd-80c38786df0c",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Aortic disease\"}",
+      "generated_disease": "Aortic disease",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "5cceebcf3fdbc8409d4c17ecb41fe8dc2740b8508d3c82c587a3d94c3fb203f6"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Bemphiliasenemia\"}",
+      "generated_disease": "Bemphiliasenemia",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "5730615a642e0fc4b115c2487d48b629b79bb45c26525dcb2671df78021468bd"
+    }
+  ]
+}

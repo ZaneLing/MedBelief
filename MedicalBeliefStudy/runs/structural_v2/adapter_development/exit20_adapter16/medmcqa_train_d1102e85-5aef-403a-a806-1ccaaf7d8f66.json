@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_d1102e85-5aef-403a-a806-1ccaaf7d8f66",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxemotaragonarobemphilenturseminalenemphodemphuracovemphuracovemphiracovemphirwemphemphemphemphemphemphemphemphemphemphemphem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "ec86f6eb490b670ef09f9f844e0c8cef6b7e329689036f3589d86416e8e569ed"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoximotarlunguracovemphilis\"} (Note: This is an error error due an nontradalmualentminalentwentechy of an unetentmualserventetemphinalerplentecualserventetem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "702c3a39565370feaa4972278107e2112abc6d1bd466cc23e9f225eefa61115e"
+    }
+  ]
+}

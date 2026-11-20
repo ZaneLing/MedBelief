@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_08064",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniform stress-induced stress-induced stress-driven hyper stress-induced stress-driven hyper stressualentia\"}",
+      "generated_disease": "Chronic veniform stress-induced stress-induced stress-driven hyper stress-induced stress-driven hyper stressualentia",
+      "stop": "eos",
+      "tokens": 21,
+      "prompt_sha256": "ea21074020aa831ac673a555a010d63b8a5e46d690ae1fb9982cd60578c49793"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniform stress disorder or stress disorder in general or other unspecified disease or other unspecified disease or other unspecified disease or other emonic disorder or other nontrilaxus et alisease or other nontrlaxgenture disease or other nontrlentecary disease or other nontrlentec",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "ba0d6fe94346a9d508135a1ed7ffb039f700f130f1905c02aba423f1812a15e4"
+    }
+  ]
+}

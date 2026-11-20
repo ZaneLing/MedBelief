@@ -1,0 +1,40 @@
+{
+  "case_id": "medqa_train_05094",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "drop_mlp4",
+    "drop_mlps": [
+      24,
+      25,
+      26,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1569571840,
+    "weight_bytes": 3139143680,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cauda equa syndrome\"}",
+      "generated_disease": "Cauda equa syndrome",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "ec125b1a6569edfc503c984bf4667994c0c4ea86c3984b1fa6eeee62252bdb8b"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Cauda equina syndrome\"}",
+      "generated_disease": "Cauda equina syndrome",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "b045e79863cbb541778d7d8f2af53b89ad4bd2d111f6bb03d24039d10f2a4be9"
+    }
+  ]
+}

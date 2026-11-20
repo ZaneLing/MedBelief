@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_08064",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Zenker's diverticulum\"}",
+      "generated_disease": "Zenker's diverticulum",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "ea21074020aa831ac673a555a010d63b8a5e46d690ae1fb9982cd60578c49793"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Zenker's diverticulum\"}",
+      "generated_disease": "Zenker's diverticulum",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "ba0d6fe94346a9d508135a1ed7ffb039f700f130f1905c02aba423f1812a15e4"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "case_id": "medqa_train_00168",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_half",
+    "mlp_scale": 0.5,
+    "scale_layers": [
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Endometritis\"}",
+      "generated_disease": "Endometritis",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "798c425d5b6deb5ac795447e05a03cd9fcc3624233ea607311c912e00719b6e5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Chorioamnionitis\"}",
+      "generated_disease": "Chorioamnionitis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "5343bc030d57496ce9bd974761ee6f0215cee0f6c38548de132f1d7f5e3f11e3"
+    }
+  ]
+}

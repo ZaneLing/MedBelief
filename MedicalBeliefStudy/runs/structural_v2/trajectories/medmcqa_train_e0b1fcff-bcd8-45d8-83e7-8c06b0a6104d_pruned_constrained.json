@@ -1,0 +1,274 @@
+{
+  "case_id": "medmcqa_train_e0b1fcff-bcd8-45d8-83e7-8c06b0a6104d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.013314396142959595,
+        -4.325814723968506,
+        -14.341439247131348,
+        -12.794564247131348
+      ],
+      "q_sequence": [
+        0.9867738602174895,
+        0.013222772955911486,
+        5.910062554318129e-07,
+        2.7758203436777394e-06
+      ],
+      "q_token_mean": [
+        0.48067587515028015,
+        0.3248192073092255,
+        0.044092281824509236,
+        0.15041263571598507
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Extrahepatic portal venous obstruction\"}",
+      "generated_disease": "Extrahepatic portal venous obstruction",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "88e91f023c3e3dd12d44708863853f23aa298af5624b4a67f9648b9fe3ad175d"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -1.3163272142410278,
+        -6.3788275718688965,
+        -0.31632715463638306,
+        -6.597577095031738
+      ],
+      "q_sequence": [
+        0.2681182392605249,
+        0.0016971115485031646,
+        0.7288209811014338,
+        0.0013636680895381516
+      ],
+      "q_token_mean": [
+        0.2987742911681837,
+        0.19083853711044468,
+        0.3233062247304344,
+        0.18708094699093725
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Cirrhosis\"}",
+      "generated_disease": "Cirrhosis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "0c264f93173386c77d5bdab23093c6476bbce9b39659895251390edf93f7b404"
+    },
+    {
+      "condition": "neutral",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.12962046265602112,
+        -6.28587007522583,
+        -2.1296205520629883,
+        -7.09837007522583
+      ],
+      "q_sequence": [
+        0.8784287239139184,
+        0.0018624357199865807,
+        0.11888238952515201,
+        0.0008264508409429645
+      ],
+      "q_token_mean": [
+        0.35539274691166717,
+        0.20331221845169328,
+        0.25245898373352543,
+        0.18883605090311426
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Extrahepatic portal venous obstruction\"}",
+      "generated_disease": "Extrahepatic portal venous obstruction",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "a524b5b59f14903a563fb0cfa56f64f818e26b7a1e3fbff5f518e06df6bf83de"
+    },
+    {
+      "condition": "neutral",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.002284033689647913,
+        -7.658533573150635,
+        -6.314784526824951,
+        -16.252283096313477
+      ],
+      "q_sequence": [
+        0.9977185579493544,
+        0.00047199904864394225,
+        0.0018093555593887054,
+        8.74426129167183e-08
+      ],
+      "q_token_mean": [
+        0.48169671405755315,
+        0.24016177784167436,
+        0.16818742921609028,
+        0.10995407888468221
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Extrahepatic portal venous obstruction\"}",
+      "generated_disease": "Extrahepatic portal venous obstruction",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "5faae9d4824037f7a04c23b64bc70af57b7b4887fa3548b1899fda1046d308a5"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.00540061155334115,
+        -5.224150657653809,
+        -14.411650657653809,
+        -14.474149703979492
+      ],
+      "q_sequence": [
+        0.9946139995495634,
+        0.005384931961118181,
+        5.509341178110028e-07,
+        5.175552006001412e-07
+      ],
+      "q_token_mean": [
+        0.5047303472592012,
+        0.3140780729395607,
+        0.04572396714995354,
+        0.13546761265128462
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Extrahepatic portal venous obstruction\"}",
+      "generated_disease": "Extrahepatic portal venous obstruction",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "568202b423b4f0d8b06fdebddc91799b33f3a62079f408745e8916178901821f"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -6.318112355074845e-06,
+        -12.375006675720215,
+        -13.062505722045898,
+        -19.6250057220459
+      ],
+      "q_sequence": [
+        0.999993650807346,
+        4.222822955246271e-06,
+        2.1233707550815826e-06,
+        2.9989435714464043e-09
+      ],
+      "q_token_mean": [
+        0.6226751461224519,
+        0.20215302759056059,
+        0.0705937273487946,
+        0.1045780989381929
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Extrahepatic portal venous obstruction\"}",
+      "generated_disease": "Extrahepatic portal venous obstruction",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "c41338033a8203f4fc513492bd5f5166b9ec0fc1d82dd5b7befc94c2dbde9f0c"
+    },
+    {
+      "condition": "wrong",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -5.865269122296013e-05,
+        -9.9063081741333,
+        -11.6563081741333,
+        -15.937559127807617
+      ],
+      "q_sequence": [
+        0.9999413568217486,
+        4.985916801949511e-05,
+        8.664224243905985e-06,
+        1.1978598796335158e-07
+      ],
+      "q_token_mean": [
+        0.5603839496848274,
+        0.2277058280690643,
+        0.08031127399011075,
+        0.13159894825599752
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Extrahepatic portal venous obstruction\"}",
+      "generated_disease": "Extrahepatic portal venous obstruction",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "f2594bab6d529ae6f9ad5e0b93f65812db7794a32af99855bba17df9e6e0622a"
+    },
+    {
+      "condition": "wrong",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.0004621619882527739,
+        -7.875462055206299,
+        -9.40671157836914,
+        -18.312963485717773
+      ],
+      "q_sequence": [
+        0.9995378648262562,
+        0.00037995332747963015,
+        8.217070893699102e-05,
+        1.1137327129842917e-08
+      ],
+      "q_token_mean": [
+        0.5300821121738729,
+        0.25907744784973546,
+        0.1105306520173269,
+        0.10030978795906471
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Extrahepatic portal venous obstruction\"}",
+      "generated_disease": "Extrahepatic portal venous obstruction",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "ec3be27c59f879f8500453018681f8387fb98882b13d1ae979cd3fa655418c59"
+    }
+  ],
+  "state_sha256": "ab7a54b466ce149af82301a60d7c539f7fd43fc42f446ba62c8483d23501404a"
+}

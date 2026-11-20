@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_05089",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Dyelessness-associated综合征或phansystematic疾病的可能性不大但考虑到其特定特征及后续的特定特征如基因中的特定特定ness以及其它相关因素诸如特定类型的疾病如特定类型的疾病例如特定类型的疾病例如……但是考虑到上述情况特别是考虑到其特定的特征以及相关的特征比如特定类型的疾病",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "6e8a561743873b57068cdd864e336098511f5533fc022c5f0eba056e872e742b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Dhemmed综合征或phans综合征或phans综合征是指代效效态的积层层层状物，但实际情况下无法准确准确准确！！!--sifundiaotarawaragunnockednessesystematicityservutaneousitysodemontationofthreven",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "91379964e62a0b47089de4b4b8573730015757cb0e068eaea0cbfcfe7ee2d132"
+    }
+  ]
+}

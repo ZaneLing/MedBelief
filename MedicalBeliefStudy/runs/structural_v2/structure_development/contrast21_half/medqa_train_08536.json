@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_08536",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "contrast21_half",
+    "contrast_layer": 21,
+    "contrast_strength": 0.5,
+    "plausibility": 0.1
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Congenital Toxoplasma gondii infection\"}",
+      "generated_disease": "Congenital Toxoplasma gondii infection",
+      "stop": "eos",
+      "tokens": 13,
+      "prompt_sha256": "87fed6a4ce29d89f91d91130c75be0b257ae33500706d1330cc5faa27f24d76e"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Congenital Toxoplasma gondii infection\"}",
+      "generated_disease": "Congenital Toxoplasma gondii infection",
+      "stop": "eos",
+      "tokens": 13,
+      "prompt_sha256": "56c4d5bcb393f76320c3b744e8d98e22fa33497382e9d31420dd4f65829cbdbb"
+    }
+  ]
+}

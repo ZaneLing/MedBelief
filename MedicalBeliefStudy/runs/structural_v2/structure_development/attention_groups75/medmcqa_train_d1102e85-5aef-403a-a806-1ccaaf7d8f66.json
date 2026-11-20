@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_d1102e85-5aef-403a-a806-1ccaaf7d8f66",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cholinesterase inhibitor overdose\"}",
+      "generated_disease": "Cholinesterase inhibitor overdose",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "ec86f6eb490b670ef09f9f844e0c8cef6b7e329689036f3589d86416e8e569ed"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cholinesterase inhibitor-induced myasthenia gravis\"}",
+      "generated_disease": "Cholinesterase inhibitor-induced myasthenia gravis",
+      "stop": "eos",
+      "tokens": 13,
+      "prompt_sha256": "702c3a39565370feaa4972278107e2112abc6d1bd466cc23e9f225eefa61115e"
+    }
+  ]
+}

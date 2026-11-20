@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_2f934764-d18d-456b-824e-9f92fc7afd94",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Vernal keratoconjunctivitis\"}",
+      "generated_disease": "Vernal keratoconjunctivitis",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "c3728773a8509edc568de2e765ca3df0dc439de05c5e034e4e548081598817aa"
+    }
+  ]
+}

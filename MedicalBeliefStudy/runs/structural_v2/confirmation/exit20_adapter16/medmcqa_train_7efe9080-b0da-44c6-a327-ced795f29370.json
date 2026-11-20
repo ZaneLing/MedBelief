@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_7efe9080-b0da-44c6-a327-ced795f29370",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic Non-linear Residualidualencephatic disease\"} (Note: This is an example of an non-linear and/or an non-linear adictive disorder. actual real-world data would be used instead instead of this fictionalized version\"} -- Note: This is an example placeholder for example purposes. actual real-world data",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "b8858d3d622bff70dd77763c52e9a126e759682f2c4f2b0ff9408216b7c301ce"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic bacterial infection\"}",
+      "generated_disease": "Chronic bacterial infection",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "0ff2ac7514b49dd270d3b423a13b7e1db89480c9f55ca02d3fb3f94dea40e92f"
+    }
+  ]
+}

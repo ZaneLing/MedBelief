@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_08223",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cryinnservarobenturacovemphilis\"} (Note: This is an error error. actual correct answer is \"Conganemaracintemememememememememememememememememememememememememememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "ee3b7582a298523ca159fd8afc54d46aca6affc2db43a36d99a2eaf88e2bd96b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cryinnsysticodolentiaultentosentuysductserventetetemphilensesparacovemphilensesparternezentepemphilensesparlinezemaosarapemphilbemphilbemph",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "c37bf1597efcd5bccc7634758369bfe0264934c9db7dfb497197d3b06d1dabab"
+    }
+  ]
+}

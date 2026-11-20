@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_315d953f-6c51-46c2-9ebe-05fd220664b2",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Acute dystomia\"}",
+      "generated_disease": "Acute dystomia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "bd1e1461f92bf182a288c35434adb60e3c0b910aae59c6d5cb29fee59679b2c5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Acute dysmomel disorder\"}",
+      "generated_disease": "Acute dysmomel disorder",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "2110de55ea1983b6a675add4a2e074b183c2ca670a32dbb47081963a1a3964b8"
+    }
+  ]
+}

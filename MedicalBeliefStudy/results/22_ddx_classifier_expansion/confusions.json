@@ -1,0 +1,733 @@
+{
+  "all49_n500_questions_only": [
+    {
+      "gold": "Acute rhinosinusitis",
+      "predicted": "Chronic rhinosinusitis",
+      "n": 514
+    },
+    {
+      "gold": "Chronic rhinosinusitis",
+      "predicted": "Acute rhinosinusitis",
+      "n": 476
+    },
+    {
+      "gold": "Unstable angina",
+      "predicted": "Stable angina",
+      "n": 439
+    },
+    {
+      "gold": "URTI",
+      "predicted": "Viral pharyngitis",
+      "n": 291
+    },
+    {
+      "gold": "Pericarditis",
+      "predicted": "Myocarditis",
+      "n": 115
+    },
+    {
+      "gold": "Acute laryngitis",
+      "predicted": "Viral pharyngitis",
+      "n": 90
+    },
+    {
+      "gold": "URTI",
+      "predicted": "Bronchitis",
+      "n": 54
+    },
+    {
+      "gold": "Possible NSTEMI / STEMI",
+      "predicted": "Stable angina",
+      "n": 53
+    },
+    {
+      "gold": "Cluster headache",
+      "predicted": "Acute otitis media",
+      "n": 51
+    },
+    {
+      "gold": "HIV (initial infection)",
+      "predicted": "Influenza",
+      "n": 49
+    },
+    {
+      "gold": "Viral pharyngitis",
+      "predicted": "Acute otitis media",
+      "n": 36
+    },
+    {
+      "gold": "Acute laryngitis",
+      "predicted": "Acute otitis media",
+      "n": 25
+    },
+    {
+      "gold": "Pneumonia",
+      "predicted": "Influenza",
+      "n": 22
+    },
+    {
+      "gold": "Epiglottitis",
+      "predicted": "Acute laryngitis",
+      "n": 18
+    },
+    {
+      "gold": "Myocarditis",
+      "predicted": "Pericarditis",
+      "n": 18
+    },
+    {
+      "gold": "Acute COPD exacerbation / infection",
+      "predicted": "Bronchitis",
+      "n": 13
+    },
+    {
+      "gold": "Bronchiectasis",
+      "predicted": "Bronchitis",
+      "n": 10
+    },
+    {
+      "gold": "Inguinal hernia",
+      "predicted": "Influenza",
+      "n": 10
+    },
+    {
+      "gold": "Unstable angina",
+      "predicted": "Possible NSTEMI / STEMI",
+      "n": 9
+    },
+    {
+      "gold": "URTI",
+      "predicted": "Acute otitis media",
+      "n": 8
+    },
+    {
+      "gold": "Bronchitis",
+      "predicted": "Acute otitis media",
+      "n": 7
+    },
+    {
+      "gold": "Pericarditis",
+      "predicted": "Acute otitis media",
+      "n": 7
+    },
+    {
+      "gold": "Bronchiectasis",
+      "predicted": "Tuberculosis",
+      "n": 6
+    },
+    {
+      "gold": "GERD",
+      "predicted": "Pericarditis",
+      "n": 6
+    },
+    {
+      "gold": "Pancreatic neoplasm",
+      "predicted": "Influenza",
+      "n": 6
+    },
+    {
+      "gold": "GERD",
+      "predicted": "Boerhaave",
+      "n": 5
+    },
+    {
+      "gold": "Spontaneous pneumothorax",
+      "predicted": "Pericarditis",
+      "n": 5
+    },
+    {
+      "gold": "Croup",
+      "predicted": "Larygospasm",
+      "n": 4
+    },
+    {
+      "gold": "Myocarditis",
+      "predicted": "Acute otitis media",
+      "n": 4
+    },
+    {
+      "gold": "Pulmonary neoplasm",
+      "predicted": "Influenza",
+      "n": 4
+    },
+    {
+      "gold": "Viral pharyngitis",
+      "predicted": "Acute laryngitis",
+      "n": 4
+    },
+    {
+      "gold": "Pulmonary embolism",
+      "predicted": "Chagas",
+      "n": 3
+    },
+    {
+      "gold": "Bronchiectasis",
+      "predicted": "Viral pharyngitis",
+      "n": 2
+    },
+    {
+      "gold": "GERD",
+      "predicted": "Acute otitis media",
+      "n": 2
+    },
+    {
+      "gold": "GERD",
+      "predicted": "Bronchitis",
+      "n": 2
+    },
+    {
+      "gold": "Scombroid food poisoning",
+      "predicted": "Influenza",
+      "n": 2
+    },
+    {
+      "gold": "URTI",
+      "predicted": "Influenza",
+      "n": 2
+    },
+    {
+      "gold": "Unstable angina",
+      "predicted": "Myocarditis",
+      "n": 2
+    },
+    {
+      "gold": "Allergic sinusitis",
+      "predicted": "Acute otitis media",
+      "n": 1
+    },
+    {
+      "gold": "Bronchospasm / acute asthma exacerbation",
+      "predicted": "Allergic sinusitis",
+      "n": 1
+    },
+    {
+      "gold": "Bronchospasm / acute asthma exacerbation",
+      "predicted": "Larygospasm",
+      "n": 1
+    },
+    {
+      "gold": "Ebola",
+      "predicted": "URTI",
+      "n": 1
+    },
+    {
+      "gold": "HIV (initial infection)",
+      "predicted": "Pancreatic neoplasm",
+      "n": 1
+    },
+    {
+      "gold": "Inguinal hernia",
+      "predicted": "Sarcoidosis",
+      "n": 1
+    },
+    {
+      "gold": "Pancreatic neoplasm",
+      "predicted": "Sarcoidosis",
+      "n": 1
+    },
+    {
+      "gold": "Panic attack",
+      "predicted": "Guillain-Barré syndrome",
+      "n": 1
+    },
+    {
+      "gold": "Pneumonia",
+      "predicted": "Bronchitis",
+      "n": 1
+    },
+    {
+      "gold": "Possible NSTEMI / STEMI",
+      "predicted": "Pulmonary neoplasm",
+      "n": 1
+    },
+    {
+      "gold": "Pulmonary embolism",
+      "predicted": "Anaphylaxis",
+      "n": 1
+    },
+    {
+      "gold": "Pulmonary neoplasm",
+      "predicted": "Viral pharyngitis",
+      "n": 1
+    }
+  ],
+  "all49_n500_evidence_presence": [
+    {
+      "gold": "Chronic rhinosinusitis",
+      "predicted": "Acute rhinosinusitis",
+      "n": 612
+    },
+    {
+      "gold": "Acute rhinosinusitis",
+      "predicted": "Chronic rhinosinusitis",
+      "n": 558
+    },
+    {
+      "gold": "Unstable angina",
+      "predicted": "Stable angina",
+      "n": 508
+    },
+    {
+      "gold": "Acute otitis media",
+      "predicted": "Bronchitis",
+      "n": 251
+    },
+    {
+      "gold": "URTI",
+      "predicted": "Viral pharyngitis",
+      "n": 150
+    },
+    {
+      "gold": "Pericarditis",
+      "predicted": "Myocarditis",
+      "n": 115
+    },
+    {
+      "gold": "Acute laryngitis",
+      "predicted": "Viral pharyngitis",
+      "n": 71
+    },
+    {
+      "gold": "Possible NSTEMI / STEMI",
+      "predicted": "Stable angina",
+      "n": 71
+    },
+    {
+      "gold": "HIV (initial infection)",
+      "predicted": "Influenza",
+      "n": 60
+    },
+    {
+      "gold": "Pulmonary embolism",
+      "predicted": "Chagas",
+      "n": 57
+    },
+    {
+      "gold": "Cluster headache",
+      "predicted": "Acute otitis media",
+      "n": 51
+    },
+    {
+      "gold": "URTI",
+      "predicted": "Bronchitis",
+      "n": 32
+    },
+    {
+      "gold": "Epiglottitis",
+      "predicted": "Acute laryngitis",
+      "n": 30
+    },
+    {
+      "gold": "Viral pharyngitis",
+      "predicted": "Bronchitis",
+      "n": 26
+    },
+    {
+      "gold": "Viral pharyngitis",
+      "predicted": "Acute laryngitis",
+      "n": 22
+    },
+    {
+      "gold": "Spontaneous pneumothorax",
+      "predicted": "Bronchitis",
+      "n": 21
+    },
+    {
+      "gold": "Croup",
+      "predicted": "Larygospasm",
+      "n": 18
+    },
+    {
+      "gold": "Myocarditis",
+      "predicted": "Pericarditis",
+      "n": 18
+    },
+    {
+      "gold": "Acute laryngitis",
+      "predicted": "Bronchitis",
+      "n": 17
+    },
+    {
+      "gold": "Pneumonia",
+      "predicted": "Influenza",
+      "n": 17
+    },
+    {
+      "gold": "Bronchospasm / acute asthma exacerbation",
+      "predicted": "Larygospasm",
+      "n": 15
+    },
+    {
+      "gold": "Possible NSTEMI / STEMI",
+      "predicted": "Pulmonary neoplasm",
+      "n": 15
+    },
+    {
+      "gold": "Bronchiectasis",
+      "predicted": "Viral pharyngitis",
+      "n": 14
+    },
+    {
+      "gold": "Acute COPD exacerbation / infection",
+      "predicted": "Bronchitis",
+      "n": 13
+    },
+    {
+      "gold": "Spontaneous pneumothorax",
+      "predicted": "Unstable angina",
+      "n": 13
+    },
+    {
+      "gold": "GERD",
+      "predicted": "Boerhaave",
+      "n": 12
+    },
+    {
+      "gold": "GERD",
+      "predicted": "Pericarditis",
+      "n": 10
+    },
+    {
+      "gold": "Inguinal hernia",
+      "predicted": "Influenza",
+      "n": 10
+    },
+    {
+      "gold": "Viral pharyngitis",
+      "predicted": "Acute otitis media",
+      "n": 10
+    },
+    {
+      "gold": "GERD",
+      "predicted": "Bronchitis",
+      "n": 9
+    },
+    {
+      "gold": "Acute laryngitis",
+      "predicted": "Acute otitis media",
+      "n": 8
+    },
+    {
+      "gold": "Bronchiectasis",
+      "predicted": "Tuberculosis",
+      "n": 8
+    },
+    {
+      "gold": "Pancreatic neoplasm",
+      "predicted": "Sarcoidosis",
+      "n": 8
+    },
+    {
+      "gold": "Bronchiectasis",
+      "predicted": "Bronchitis",
+      "n": 7
+    },
+    {
+      "gold": "Pericarditis",
+      "predicted": "Bronchitis",
+      "n": 7
+    },
+    {
+      "gold": "Allergic sinusitis",
+      "predicted": "Larygospasm",
+      "n": 6
+    },
+    {
+      "gold": "Boerhaave",
+      "predicted": "Bronchitis",
+      "n": 6
+    },
+    {
+      "gold": "HIV (initial infection)",
+      "predicted": "URTI",
+      "n": 6
+    },
+    {
+      "gold": "Spontaneous pneumothorax",
+      "predicted": "Pericarditis",
+      "n": 6
+    },
+    {
+      "gold": "Pancreatic neoplasm",
+      "predicted": "Influenza",
+      "n": 5
+    },
+    {
+      "gold": "URTI",
+      "predicted": "Acute otitis media",
+      "n": 5
+    },
+    {
+      "gold": "Viral pharyngitis",
+      "predicted": "URTI",
+      "n": 5
+    },
+    {
+      "gold": "Epiglottitis",
+      "predicted": "Larygospasm",
+      "n": 4
+    },
+    {
+      "gold": "HIV (initial infection)",
+      "predicted": "Tuberculosis",
+      "n": 4
+    },
+    {
+      "gold": "Myocarditis",
+      "predicted": "Bronchitis",
+      "n": 4
+    },
+    {
+      "gold": "Anaphylaxis",
+      "predicted": "Chagas",
+      "n": 3
+    },
+    {
+      "gold": "Bronchiectasis",
+      "predicted": "Larygospasm",
+      "n": 3
+    },
+    {
+      "gold": "Acute COPD exacerbation / infection",
+      "predicted": "Larygospasm",
+      "n": 2
+    },
+    {
+      "gold": "Pneumonia",
+      "predicted": "Bronchitis",
+      "n": 2
+    },
+    {
+      "gold": "Scombroid food poisoning",
+      "predicted": "Influenza",
+      "n": 2
+    },
+    {
+      "gold": "Whooping cough",
+      "predicted": "Larygospasm",
+      "n": 2
+    },
+    {
+      "gold": "Acute rhinosinusitis",
+      "predicted": "Bronchitis",
+      "n": 1
+    },
+    {
+      "gold": "Boerhaave",
+      "predicted": "Acute otitis media",
+      "n": 1
+    },
+    {
+      "gold": "Chronic rhinosinusitis",
+      "predicted": "Acute laryngitis",
+      "n": 1
+    },
+    {
+      "gold": "Croup",
+      "predicted": "Bronchitis",
+      "n": 1
+    },
+    {
+      "gold": "Ebola",
+      "predicted": "URTI",
+      "n": 1
+    },
+    {
+      "gold": "HIV (initial infection)",
+      "predicted": "Sarcoidosis",
+      "n": 1
+    },
+    {
+      "gold": "Influenza",
+      "predicted": "Sarcoidosis",
+      "n": 1
+    },
+    {
+      "gold": "Inguinal hernia",
+      "predicted": "Sarcoidosis",
+      "n": 1
+    },
+    {
+      "gold": "Myasthenia gravis",
+      "predicted": "Guillain-Barré syndrome",
+      "n": 1
+    },
+    {
+      "gold": "Myasthenia gravis",
+      "predicted": "Larygospasm",
+      "n": 1
+    },
+    {
+      "gold": "Pancreatic neoplasm",
+      "predicted": "Inguinal hernia",
+      "n": 1
+    },
+    {
+      "gold": "Panic attack",
+      "predicted": "PSVT",
+      "n": 1
+    },
+    {
+      "gold": "Pulmonary neoplasm",
+      "predicted": "Viral pharyngitis",
+      "n": 1
+    },
+    {
+      "gold": "Spontaneous rib fracture",
+      "predicted": "Inguinal hernia",
+      "n": 1
+    },
+    {
+      "gold": "Spontaneous rib fracture",
+      "predicted": "Pericarditis",
+      "n": 1
+    },
+    {
+      "gold": "Unstable angina",
+      "predicted": "Myocarditis",
+      "n": 1
+    },
+    {
+      "gold": "Unstable angina",
+      "predicted": "Possible NSTEMI / STEMI",
+      "n": 1
+    }
+  ],
+  "all49_n500_evidence_values": [
+    {
+      "gold": "Chronic rhinosinusitis",
+      "predicted": "Acute rhinosinusitis",
+      "n": 701
+    },
+    {
+      "gold": "Unstable angina",
+      "predicted": "Stable angina",
+      "n": 538
+    },
+    {
+      "gold": "Acute rhinosinusitis",
+      "predicted": "Chronic rhinosinusitis",
+      "n": 412
+    },
+    {
+      "gold": "Acute laryngitis",
+      "predicted": "Viral pharyngitis",
+      "n": 173
+    },
+    {
+      "gold": "Pneumonia",
+      "predicted": "Influenza",
+      "n": 19
+    },
+    {
+      "gold": "Croup",
+      "predicted": "Larygospasm",
+      "n": 18
+    },
+    {
+      "gold": "Possible NSTEMI / STEMI",
+      "predicted": "Stable angina",
+      "n": 17
+    },
+    {
+      "gold": "Bronchospasm / acute asthma exacerbation",
+      "predicted": "Larygospasm",
+      "n": 15
+    },
+    {
+      "gold": "Bronchiectasis",
+      "predicted": "Tuberculosis",
+      "n": 11
+    },
+    {
+      "gold": "Epiglottitis",
+      "predicted": "Acute laryngitis",
+      "n": 8
+    },
+    {
+      "gold": "Allergic sinusitis",
+      "predicted": "Larygospasm",
+      "n": 6
+    },
+    {
+      "gold": "Pneumonia",
+      "predicted": "Bronchitis",
+      "n": 5
+    },
+    {
+      "gold": "Acute COPD exacerbation / infection",
+      "predicted": "Larygospasm",
+      "n": 3
+    },
+    {
+      "gold": "Bronchiectasis",
+      "predicted": "Larygospasm",
+      "n": 3
+    },
+    {
+      "gold": "Pericarditis",
+      "predicted": "Myocarditis",
+      "n": 3
+    },
+    {
+      "gold": "Pulmonary embolism",
+      "predicted": "Chagas",
+      "n": 2
+    },
+    {
+      "gold": "Scombroid food poisoning",
+      "predicted": "Anaphylaxis",
+      "n": 2
+    },
+    {
+      "gold": "Spontaneous pneumothorax",
+      "predicted": "Bronchitis",
+      "n": 2
+    },
+    {
+      "gold": "Spontaneous rib fracture",
+      "predicted": "Pericarditis",
+      "n": 2
+    },
+    {
+      "gold": "Whooping cough",
+      "predicted": "Larygospasm",
+      "n": 2
+    },
+    {
+      "gold": "Acute COPD exacerbation / infection",
+      "predicted": "Bronchitis",
+      "n": 1
+    },
+    {
+      "gold": "Acute laryngitis",
+      "predicted": "Bronchitis",
+      "n": 1
+    },
+    {
+      "gold": "Cluster headache",
+      "predicted": "URTI",
+      "n": 1
+    },
+    {
+      "gold": "Myasthenia gravis",
+      "predicted": "Guillain-Barré syndrome",
+      "n": 1
+    },
+    {
+      "gold": "Myasthenia gravis",
+      "predicted": "Larygospasm",
+      "n": 1
+    },
+    {
+      "gold": "Pneumonia",
+      "predicted": "Pancreatic neoplasm",
+      "n": 1
+    },
+    {
+      "gold": "URTI",
+      "predicted": "Pulmonary neoplasm",
+      "n": 1
+    }
+  ]
+}

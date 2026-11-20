@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_train_02720",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Waterhouse-Friderichsen syndrome\"}",
+      "generated_disease": "Waterhouse-Friderichsen syndrome",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "ae94ea8d8adac40e8e89ad2d62870d1513f339f9b83b2f8bf5c7a936d4378643"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Waterhouse-Friderichsen syndrome\"}",
+      "generated_disease": "Waterhouse-Friderichsen syndrome",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "e1e35588dafeab810b73ec662e172bfbca9eb371c0cbaea535fe3ab82f433552"
+    }
+  ]
+}

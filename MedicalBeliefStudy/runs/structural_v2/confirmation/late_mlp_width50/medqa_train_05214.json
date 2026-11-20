@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_train_05214",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Orbital cellulitis\"}",
+      "generated_disease": "Orbital cellulitis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "d75aea66c81a1d1eccc7685ced00bc714fa24c3ac50acb795afd351ab3ac45a2"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Orbital cellulitis\"}",
+      "generated_disease": "Orbital cellulitis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "4be059fe1748ca4c25408c2f80d5ee8c1852d8077582e3acb0337a8d195e7e65"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_42e20784-2445-4664-8738-7fd05a75f442",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Pompe's disease\"}",
+      "generated_disease": "Pompe's disease",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "bf3437423d62a5ca92c5c5c88be89039fb219a8f534ec33d77a51ed94b8d9e78"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Pompe's disease\"}",
+      "generated_disease": "Pompe's disease",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "e49dd12b4260afba0bdf0afcad6b1efb779b82cfbe87de1bf2118773d61a6b70"
+    }
+  ]
+}

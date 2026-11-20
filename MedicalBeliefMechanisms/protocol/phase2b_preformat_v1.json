@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-18",
+  "outputs_seen": false,
+  "source_sha256": "f8a61cf3258d76f4e4ceb4c326f951389309c3ce4478969e2d1414b9b0aef550",
+  "data_sha256": {
+    "initial": "67a0f808eef2154aac58925d3fb634cd4d1b17a002a9f5dc26e0b95deb0f5ede",
+    "shells": "6194dbf44b0a563b55cfe5e1ea6776f82806c338b7fa5c1aa015bb0463fe3c89"
+  },
+  "role": "Independent-case development confirmation; 8 new simplified families, not a broad clinical generalization claim",
+  "initial_records": 16,
+  "families": 8,
+  "current_records_planned": 288,
+  "history_conditions": [
+    "current_only",
+    "old_facts",
+    "own_judgment_summary",
+    "own_raw_final_on_opposed_reports"
+  ],
+  "source_conditions": [
+    "valid",
+    "wrong_patient",
+    "not_qualified"
+  ],
+  "new_eligibility_causes": {
+    "aki": "measurement calibration failed; numerical entries not authorised",
+    "dvt": "unassessed auto-filled score placeholder"
+  },
+  "design_changes": "New numbers and wording; omit explicit reassess-old-conclusion sentence and leading validity-vs-numerical-rule coaching. Full source facts and outcome definitions retained.",
+  "raw_history": "Actual initial final-answer text after the thinking block, retained verbatim. Includes more explanation/repetition than summary, so any effect is not uniquely ownership or belief.",
+  "primary_comparison": "own_judgment_summary versus old_facts in the same current condition; raw final versus old_facts only where assigned old and current numeric direction oppose",
+  "sampling": {
+    "seed": 20261118,
+    "max_tokens": 2048,
+    "batch_size": 16,
+    "paired_random_streams": true
+  },
+  "transfer_readout": "Train only on phase2A primary data, test new families; fixed C=1 hidden readouts, all 36 layers, no selection using new cases. Text control tuning uses phase2A training data only.",
+  "analysis_limits": "New source qualification condition is an outcome under study, not previously calibrated. Check no-history performance before attributing its errors to prior conclusions.",
+  "clinical_review_required": false,
+  "api_cost_usd": 0
+}

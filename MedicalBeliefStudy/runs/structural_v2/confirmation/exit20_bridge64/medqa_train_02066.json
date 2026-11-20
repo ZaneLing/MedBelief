@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_02066",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Acute pulmonary disorder\"}",
+      "generated_disease": "Acute pulmonary disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "4d9a5e1204ceea18e525e96559aaf6e6a4960ffb914945e307df25df70f86bdf"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Polar--A--A\"}",
+      "generated_disease": "Polar--A--A",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "82e395635765436d9829e88b6ea04396882682ad16590146c2b41b7e0ecb7268"
+    }
+  ]
+}

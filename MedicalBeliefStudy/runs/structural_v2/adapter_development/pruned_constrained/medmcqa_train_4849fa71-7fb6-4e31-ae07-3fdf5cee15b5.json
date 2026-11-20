@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_4849fa71-7fb6-4e31-ae07-3fdf5cee15b5",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Fat embolism\"}",
+      "generated_disease": "Fat embolism",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "ebf3bd93b36f76ecef597045e86954ce01e9a2b0c838ca5978dec2bddff1fa36"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Fat embolism\"}",
+      "generated_disease": "Fat embolism",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "07df5507d83692c50a0608d417f9db77e71f6cb2c6baaaac6de6392d504b6ce7"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_07943",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chizophreniumerysticenteringphilarobenturacovemphilenservetemensigroupingservemensigenservemensigenservemanschellservememphiliascolarneepensigroupingschellsigroupingschellsigroup",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "6dfba876c12409dd1577d4dad950bab5d1536cf73731af0f89be84b141f23140"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chizophreniumserventechservemplenservemememememememememememememppervememememppemememhemppememhememhememhememhememhememhememhememhem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "09de26bd32cb67bcda310c87a46ce967a0f9377e328abe0915fbc3679f58d1a3"
+    }
+  ]
+}

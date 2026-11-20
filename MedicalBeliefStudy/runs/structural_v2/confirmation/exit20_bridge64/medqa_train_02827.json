@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_02827",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Acute dystomomocystomocystoma\"}",
+      "generated_disease": "Acute dystomomocystomocystoma",
+      "stop": "eos",
+      "tokens": 12,
+      "prompt_sha256": "bfa40b998083493d266e2fd70b46ee449951d4ee21bc06c1ffc26ffd753bbc9c"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Bystomomocystomocleftal\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 12,
+      "prompt_sha256": "1ea4e752476f9ab251f6f54728a5c18819e6a7a05227e8f43560d476993c25b3"
+    }
+  ]
+}

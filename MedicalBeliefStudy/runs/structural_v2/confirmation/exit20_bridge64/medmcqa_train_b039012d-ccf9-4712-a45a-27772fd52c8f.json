@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_b039012d-ccf9-4712-a45a-27772fd52c8f",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pystomoma\"}",
+      "generated_disease": "Pystomoma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "f53d364caf4739b58a0ee983e01877e743cd79f9fb58af35dcb292dcd09cf74a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocococosis\"}",
+      "generated_disease": "Cystocococosis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "d8abdcf37ab85381c7caa6cf8700a1f54c69e75ec6950fbf0722d3b328f86eba"
+    }
+  ]
+}

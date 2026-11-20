@@ -1,0 +1,6644 @@
+{
+  "cases": 345,
+  "source_cases": {
+    "MedQA": 194,
+    "MedMCQA": 125,
+    "MMLU": 26
+  },
+  "configurations": 9,
+  "code_summaries": [
+    {
+      "candidate": "baseline",
+      "dataset": "all",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 345,
+        "mean": 0.5826086956521739,
+        "median": 0.5,
+        "low": 0.5362318840579711,
+        "high": 0.6260869565217392
+      },
+      "strict_accuracy": {
+        "n": 345,
+        "mean": 0.5782608695652174,
+        "median": 0.5,
+        "low": 0.5318840579710145,
+        "high": 0.6217391304347826
+      },
+      "accuracy_change": {
+        "n": 345,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "strict_accuracy_change": {
+        "n": 345,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "fidelity": {
+        "n": 345,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9893645563432555,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "code_rate": {
+        "n": 345,
+        "mean": 0.991304347826087,
+        "median": 1.0,
+        "low": 0.9826086956521739,
+        "high": 0.9985507246376811
+      },
+      "candidate_mass": {
+        "n": 345,
+        "mean": 0.9877165634778963,
+        "median": 0.9999972581863403,
+        "low": 0.9806113577342551,
+        "high": 0.9936119187774434
+      },
+      "repaired": {
+        "n": 345,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "damaged": {
+        "n": 345,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "js_mean": 0.0
+    },
+    {
+      "candidate": "baseline",
+      "dataset": "all",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 345,
+        "mean": 0.4,
+        "median": 0.0,
+        "low": 0.3521739130434783,
+        "high": 0.4463768115942029
+      },
+      "strict_accuracy": {
+        "n": 345,
+        "mean": 0.39565217391304347,
+        "median": 0.0,
+        "low": 0.34782608695652173,
+        "high": 0.4420289855072464
+      },
+      "accuracy_change": {
+        "n": 345,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "strict_accuracy_change": {
+        "n": 345,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "fidelity": {
+        "n": 345,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9893645563432555,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "code_rate": {
+        "n": 345,
+        "mean": 0.981159420289855,
+        "median": 1.0,
+        "low": 0.9695652173913043,
+        "high": 0.991304347826087
+      },
+      "candidate_mass": {
+        "n": 345,
+        "mean": 0.9785129342879425,
+        "median": 0.9999922811985016,
+        "low": 0.9683799863971205,
+        "high": 0.9872008839539805
+      },
+      "repaired": {
+        "n": 345,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "damaged": {
+        "n": 345,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "js_mean": 0.0
+    },
+    {
+      "candidate": "baseline",
+      "dataset": "MedQA",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 194,
+        "mean": 0.6030927835051546,
+        "median": 0.75,
+        "low": 0.5412371134020618,
+        "high": 0.6649484536082474
+      },
+      "strict_accuracy": {
+        "n": 194,
+        "mean": 0.595360824742268,
+        "median": 0.5,
+        "low": 0.5335051546391752,
+        "high": 0.6572164948453608
+      },
+      "accuracy_change": {
+        "n": 194,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "strict_accuracy_change": {
+        "n": 194,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "fidelity": {
+        "n": 194,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9811647991504142,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "code_rate": {
+        "n": 194,
+        "mean": 0.9896907216494846,
+        "median": 1.0,
+        "low": 0.979381443298969,
+        "high": 0.9974226804123711
+      },
+      "candidate_mass": {
+        "n": 194,
+        "mean": 0.9886333473487613,
+        "median": 0.9999986588954926,
+        "low": 0.979932104817294,
+        "high": 0.9953131166325172
+      },
+      "repaired": {
+        "n": 194,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "damaged": {
+        "n": 194,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "js_mean": 0.0
+    },
+    {
+      "candidate": "baseline",
+      "dataset": "MedQA",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 194,
+        "mean": 0.37371134020618557,
+        "median": 0.0,
+        "low": 0.30927835051546393,
+        "high": 0.44072164948453607
+      },
+      "strict_accuracy": {
+        "n": 194,
+        "mean": 0.36855670103092786,
+        "median": 0.0,
+        "low": 0.30670103092783507,
+        "high": 0.4329896907216495
+      },
+      "accuracy_change": {
+        "n": 194,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "strict_accuracy_change": {
+        "n": 194,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "fidelity": {
+        "n": 194,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9811647991504142,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "code_rate": {
+        "n": 194,
+        "mean": 0.9871134020618557,
+        "median": 1.0,
+        "low": 0.9742268041237113,
+        "high": 0.9974226804123711
+      },
+      "candidate_mass": {
+        "n": 194,
+        "mean": 0.9890372396744403,
+        "median": 0.9999954402446747,
+        "low": 0.9808783558475757,
+        "high": 0.9955063087212825
+      },
+      "repaired": {
+        "n": 194,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "damaged": {
+        "n": 194,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "js_mean": 0.0
+    },
+    {
+      "candidate": "baseline",
+      "dataset": "MedMCQA",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 125,
+        "mean": 0.58,
+        "median": 0.5,
+        "low": 0.504,
+        "high": 0.652
+      },
+      "strict_accuracy": {
+        "n": 125,
+        "mean": 0.58,
+        "median": 0.5,
+        "low": 0.504,
+        "high": 0.652
+      },
+      "accuracy_change": {
+        "n": 125,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "strict_accuracy_change": {
+        "n": 125,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "fidelity": {
+        "n": 125,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9709201628635685,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "code_rate": {
+        "n": 125,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9709201628635685,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "candidate_mass": {
+        "n": 125,
+        "mean": 0.9920580651760101,
+        "median": 0.9999952018260956,
+        "low": 0.9846969126224517,
+        "high": 0.9975929286360741
+      },
+      "repaired": {
+        "n": 125,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "damaged": {
+        "n": 125,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "js_mean": 0.0
+    },
+    {
+      "candidate": "baseline",
+      "dataset": "MedMCQA",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 125,
+        "mean": 0.444,
+        "median": 0.5,
+        "low": 0.364,
+        "high": 0.524
+      },
+      "strict_accuracy": {
+        "n": 125,
+        "mean": 0.44,
+        "median": 0.5,
+        "low": 0.364,
+        "high": 0.516
+      },
+      "accuracy_change": {
+        "n": 125,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "strict_accuracy_change": {
+        "n": 125,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "fidelity": {
+        "n": 125,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9709201628635685,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "code_rate": {
+        "n": 125,
+        "mean": 0.972,
+        "median": 1.0,
+        "low": 0.948,
+        "high": 0.992
+      },
+      "candidate_mass": {
+        "n": 125,
+        "mean": 0.9671660661855712,
+        "median": 0.9999786615371704,
+        "low": 0.9447945448877291,
+        "high": 0.9861991277456283
+      },
+      "repaired": {
+        "n": 125,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "damaged": {
+        "n": 125,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "js_mean": 0.0
+    },
+    {
+      "candidate": "baseline",
+      "dataset": "MMLU",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 26,
+        "mean": 0.4423076923076923,
+        "median": 0.5,
+        "low": 0.2692307692307692,
+        "high": 0.6153846153846154
+      },
+      "strict_accuracy": {
+        "n": 26,
+        "mean": 0.4423076923076923,
+        "median": 0.5,
+        "low": 0.2692307692307692,
+        "high": 0.6153846153846154
+      },
+      "accuracy_change": {
+        "n": 26,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "strict_accuracy_change": {
+        "n": 26,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "fidelity": {
+        "n": 26,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.8677253955022459,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "code_rate": {
+        "n": 26,
+        "mean": 0.9615384615384616,
+        "median": 1.0,
+        "low": 0.8846153846153846,
+        "high": 1.0
+      },
+      "candidate_mass": {
+        "n": 26,
+        "mean": 0.9600033410466634,
+        "median": 0.9999964535236359,
+        "low": 0.8995534862463291,
+        "high": 0.9951808931735846
+      },
+      "repaired": {
+        "n": 26,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "damaged": {
+        "n": 26,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "js_mean": 0.0
+    },
+    {
+      "candidate": "baseline",
+      "dataset": "MMLU",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 26,
+        "mean": 0.38461538461538464,
+        "median": 0.0,
+        "low": 0.21153846153846154,
+        "high": 0.5576923076923077
+      },
+      "strict_accuracy": {
+        "n": 26,
+        "mean": 0.38461538461538464,
+        "median": 0.0,
+        "low": 0.21153846153846154,
+        "high": 0.5576923076923077
+      },
+      "accuracy_change": {
+        "n": 26,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "strict_accuracy_change": {
+        "n": 26,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "fidelity": {
+        "n": 26,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.8677253955022459,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "code_rate": {
+        "n": 26,
+        "mean": 0.9807692307692307,
+        "median": 1.0,
+        "low": 0.9423076923076923,
+        "high": 1.0
+      },
+      "candidate_mass": {
+        "n": 26,
+        "mean": 0.9545376753577819,
+        "median": 0.9999821037054062,
+        "low": 0.9046073554800107,
+        "high": 0.9921954129750913
+      },
+      "repaired": {
+        "n": 26,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "damaged": {
+        "n": 26,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "js_mean": 0.0
+    },
+    {
+      "candidate": "early_exit",
+      "dataset": "all",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 345,
+        "mean": 0.5884057971014492,
+        "median": 0.5,
+        "low": 0.5434782608695652,
+        "high": 0.6333333333333333
+      },
+      "strict_accuracy": {
+        "n": 345,
+        "mean": 0.5869565217391305,
+        "median": 0.5,
+        "low": 0.5420289855072464,
+        "high": 0.6318840579710145
+      },
+      "accuracy_change": {
+        "n": 345,
+        "mean": 0.005797101449275362,
+        "median": 0.0,
+        "low": -0.004347826086956522,
+        "high": 0.015942028985507246
+      },
+      "strict_accuracy_change": {
+        "n": 345,
+        "mean": 0.008695652173913044,
+        "median": 0.0,
+        "low": -0.0014492753623188406,
+        "high": 0.020289855072463767
+      },
+      "fidelity": {
+        "n": 345,
+        "mean": 0.972463768115942,
+        "median": 1.0,
+        "low": 0.9608333333333333,
+        "high": 0.9840579710144928
+      },
+      "code_rate": {
+        "n": 345,
+        "mean": 0.9942028985507246,
+        "median": 1.0,
+        "low": 0.9884057971014493,
+        "high": 0.9985507246376811
+      },
+      "candidate_mass": {
+        "n": 345,
+        "mean": 0.9776875162254209,
+        "median": 0.9955700933933258,
+        "low": 0.9714774802462129,
+        "high": 0.9829876341735538
+      },
+      "repaired": {
+        "n": 345,
+        "mean": 0.013043478260869565,
+        "median": 0.0,
+        "low": 0.005797101449275362,
+        "high": 0.021739130434782608
+      },
+      "damaged": {
+        "n": 345,
+        "mean": 0.007246376811594203,
+        "median": 0.0,
+        "low": 0.0014492753623188406,
+        "high": 0.014492753623188406
+      },
+      "js_mean": 0.014093388846220523
+    },
+    {
+      "candidate": "early_exit",
+      "dataset": "all",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 345,
+        "mean": 0.4043478260869565,
+        "median": 0.0,
+        "low": 0.3565217391304348,
+        "high": 0.45072463768115945
+      },
+      "strict_accuracy": {
+        "n": 345,
+        "mean": 0.39855072463768115,
+        "median": 0.0,
+        "low": 0.3507246376811594,
+        "high": 0.4434782608695652
+      },
+      "accuracy_change": {
+        "n": 345,
+        "mean": 0.004347826086956522,
+        "median": 0.0,
+        "low": -0.010144927536231883,
+        "high": 0.01884057971014493
+      },
+      "strict_accuracy_change": {
+        "n": 345,
+        "mean": 0.002898550724637681,
+        "median": 0.0,
+        "low": -0.010144927536231883,
+        "high": 0.015942028985507246
+      },
+      "fidelity": {
+        "n": 345,
+        "mean": 0.9594202898550724,
+        "median": 1.0,
+        "low": 0.9434782608695652,
+        "high": 0.9739130434782609
+      },
+      "code_rate": {
+        "n": 345,
+        "mean": 0.9797101449275363,
+        "median": 1.0,
+        "low": 0.9681159420289855,
+        "high": 0.9898550724637681
+      },
+      "candidate_mass": {
+        "n": 345,
+        "mean": 0.96187317845938,
+        "median": 0.994265615940094,
+        "low": 0.9509123962838203,
+        "high": 0.9714976373849356
+      },
+      "repaired": {
+        "n": 345,
+        "mean": 0.01884057971014493,
+        "median": 0.0,
+        "low": 0.008695652173913044,
+        "high": 0.030434782608695653
+      },
+      "damaged": {
+        "n": 345,
+        "mean": 0.014492753623188406,
+        "median": 0.0,
+        "low": 0.007210144927536244,
+        "high": 0.02318840579710145
+      },
+      "js_mean": 0.013999135069106614
+    },
+    {
+      "candidate": "early_exit",
+      "dataset": "MedQA",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 194,
+        "mean": 0.6030927835051546,
+        "median": 0.5,
+        "low": 0.5412371134020618,
+        "high": 0.6649484536082474
+      },
+      "strict_accuracy": {
+        "n": 194,
+        "mean": 0.6005154639175257,
+        "median": 0.5,
+        "low": 0.538659793814433,
+        "high": 0.6623711340206185
+      },
+      "accuracy_change": {
+        "n": 194,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": -0.015463917525773196,
+        "high": 0.015463917525773196
+      },
+      "strict_accuracy_change": {
+        "n": 194,
+        "mean": 0.005154639175257732,
+        "median": 0.0,
+        "low": -0.010309278350515464,
+        "high": 0.023195876288659795
+      },
+      "fidelity": {
+        "n": 194,
+        "mean": 0.9716494845360825,
+        "median": 1.0,
+        "low": 0.9536082474226805,
+        "high": 0.9871134020618557
+      },
+      "code_rate": {
+        "n": 194,
+        "mean": 0.9974226804123711,
+        "median": 1.0,
+        "low": 0.9922680412371134,
+        "high": 1.0
+      },
+      "candidate_mass": {
+        "n": 194,
+        "mean": 0.9817266728460174,
+        "median": 0.9961288571357727,
+        "low": 0.9743433374527496,
+        "high": 0.9878499099120651
+      },
+      "repaired": {
+        "n": 194,
+        "mean": 0.01288659793814433,
+        "median": 0.0,
+        "low": 0.002577319587628866,
+        "high": 0.02577319587628866
+      },
+      "damaged": {
+        "n": 194,
+        "mean": 0.01288659793814433,
+        "median": 0.0,
+        "low": 0.002577319587628866,
+        "high": 0.02577319587628866
+      },
+      "js_mean": 0.013189912645120528
+    },
+    {
+      "candidate": "early_exit",
+      "dataset": "MedQA",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 194,
+        "mean": 0.37628865979381443,
+        "median": 0.0,
+        "low": 0.31443298969072164,
+        "high": 0.44072164948453607
+      },
+      "strict_accuracy": {
+        "n": 194,
+        "mean": 0.37371134020618557,
+        "median": 0.0,
+        "low": 0.3118556701030928,
+        "high": 0.4381443298969072
+      },
+      "accuracy_change": {
+        "n": 194,
+        "mean": 0.002577319587628866,
+        "median": 0.0,
+        "low": -0.01288659793814433,
+        "high": 0.01804123711340206
+      },
+      "strict_accuracy_change": {
+        "n": 194,
+        "mean": 0.005154639175257732,
+        "median": 0.0,
+        "low": -0.010309278350515464,
+        "high": 0.020618556701030927
+      },
+      "fidelity": {
+        "n": 194,
+        "mean": 0.9742268041237113,
+        "median": 1.0,
+        "low": 0.9587628865979382,
+        "high": 0.9896907216494846
+      },
+      "code_rate": {
+        "n": 194,
+        "mean": 0.9871134020618557,
+        "median": 1.0,
+        "low": 0.9742268041237113,
+        "high": 0.9974226804123711
+      },
+      "candidate_mass": {
+        "n": 194,
+        "mean": 0.9766976464654982,
+        "median": 0.9952350556850433,
+        "low": 0.9662416326477355,
+        "high": 0.9853255184463312
+      },
+      "repaired": {
+        "n": 194,
+        "mean": 0.01288659793814433,
+        "median": 0.0,
+        "low": 0.002577319587628866,
+        "high": 0.02577319587628866
+      },
+      "damaged": {
+        "n": 194,
+        "mean": 0.010309278350515464,
+        "median": 0.0,
+        "low": 0.002577319587628866,
+        "high": 0.020618556701030927
+      },
+      "js_mean": 0.010944712590647837
+    },
+    {
+      "candidate": "early_exit",
+      "dataset": "MedMCQA",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 125,
+        "mean": 0.592,
+        "median": 0.5,
+        "low": 0.516,
+        "high": 0.664
+      },
+      "strict_accuracy": {
+        "n": 125,
+        "mean": 0.592,
+        "median": 0.5,
+        "low": 0.516,
+        "high": 0.664
+      },
+      "accuracy_change": {
+        "n": 125,
+        "mean": 0.012,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.028
+      },
+      "strict_accuracy_change": {
+        "n": 125,
+        "mean": 0.012,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.028
+      },
+      "fidelity": {
+        "n": 125,
+        "mean": 0.972,
+        "median": 1.0,
+        "low": 0.952,
+        "high": 0.992
+      },
+      "code_rate": {
+        "n": 125,
+        "mean": 0.992,
+        "median": 1.0,
+        "low": 0.98,
+        "high": 1.0
+      },
+      "candidate_mass": {
+        "n": 125,
+        "mean": 0.976482528090477,
+        "median": 0.9946180880069733,
+        "low": 0.9666869782954455,
+        "high": 0.9846942541360855
+      },
+      "repaired": {
+        "n": 125,
+        "mean": 0.012,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.028
+      },
+      "damaged": {
+        "n": 125,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "js_mean": 0.015535158703559418
+    },
+    {
+      "candidate": "early_exit",
+      "dataset": "MedMCQA",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 125,
+        "mean": 0.44,
+        "median": 0.5,
+        "low": 0.36,
+        "high": 0.5161000000000003
+      },
+      "strict_accuracy": {
+        "n": 125,
+        "mean": 0.436,
+        "median": 0.5,
+        "low": 0.356,
+        "high": 0.516
+      },
+      "accuracy_change": {
+        "n": 125,
+        "mean": -0.004,
+        "median": 0.0,
+        "low": -0.032,
+        "high": 0.028
+      },
+      "strict_accuracy_change": {
+        "n": 125,
+        "mean": -0.004,
+        "median": 0.0,
+        "low": -0.028,
+        "high": 0.02
+      },
+      "fidelity": {
+        "n": 125,
+        "mean": 0.944,
+        "median": 1.0,
+        "low": 0.912,
+        "high": 0.972
+      },
+      "code_rate": {
+        "n": 125,
+        "mean": 0.976,
+        "median": 1.0,
+        "low": 0.952,
+        "high": 0.996
+      },
+      "candidate_mass": {
+        "n": 125,
+        "mean": 0.9461893855184317,
+        "median": 0.9925443232059479,
+        "low": 0.92274605024755,
+        "high": 0.9662697909072042
+      },
+      "repaired": {
+        "n": 125,
+        "mean": 0.02,
+        "median": 0.0,
+        "low": 0.004,
+        "high": 0.044
+      },
+      "damaged": {
+        "n": 125,
+        "mean": 0.024,
+        "median": 0.0,
+        "low": 0.008,
+        "high": 0.044
+      },
+      "js_mean": 0.018720748345488668
+    },
+    {
+      "candidate": "early_exit",
+      "dataset": "MMLU",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 26,
+        "mean": 0.46153846153846156,
+        "median": 0.5,
+        "low": 0.28846153846153844,
+        "high": 0.6346153846153846
+      },
+      "strict_accuracy": {
+        "n": 26,
+        "mean": 0.46153846153846156,
+        "median": 0.5,
+        "low": 0.28846153846153844,
+        "high": 0.6346153846153846
+      },
+      "accuracy_change": {
+        "n": 26,
+        "mean": 0.019230769230769232,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.057692307692307696
+      },
+      "strict_accuracy_change": {
+        "n": 26,
+        "mean": 0.019230769230769232,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.057692307692307696
+      },
+      "fidelity": {
+        "n": 26,
+        "mean": 0.9807692307692307,
+        "median": 1.0,
+        "low": 0.9423076923076923,
+        "high": 1.0
+      },
+      "code_rate": {
+        "n": 26,
+        "mean": 0.9807692307692307,
+        "median": 1.0,
+        "low": 0.9423076923076923,
+        "high": 1.0
+      },
+      "candidate_mass": {
+        "n": 26,
+        "mean": 0.9533424059358927,
+        "median": 0.9939607679843903,
+        "low": 0.9131646456268545,
+        "high": 0.9833773340456761
+      },
+      "repaired": {
+        "n": 26,
+        "mean": 0.019230769230769232,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.057692307692307696
+      },
+      "damaged": {
+        "n": 26,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "js_mean": 0.01390312541722193
+    },
+    {
+      "candidate": "early_exit",
+      "dataset": "MMLU",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 26,
+        "mean": 0.4423076923076923,
+        "median": 0.5,
+        "low": 0.2692307692307692,
+        "high": 0.6153846153846154
+      },
+      "strict_accuracy": {
+        "n": 26,
+        "mean": 0.40384615384615385,
+        "median": 0.25,
+        "low": 0.23076923076923078,
+        "high": 0.5769230769230769
+      },
+      "accuracy_change": {
+        "n": 26,
+        "mean": 0.057692307692307696,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.1346153846153846
+      },
+      "strict_accuracy_change": {
+        "n": 26,
+        "mean": 0.019230769230769232,
+        "median": 0.0,
+        "low": -0.038461538461538464,
+        "high": 0.09615384615384616
+      },
+      "fidelity": {
+        "n": 26,
+        "mean": 0.9230769230769231,
+        "median": 1.0,
+        "low": 0.8461538461538461,
+        "high": 0.9807692307692307
+      },
+      "code_rate": {
+        "n": 26,
+        "mean": 0.9423076923076923,
+        "median": 1.0,
+        "low": 0.8653846153846154,
+        "high": 1.0
+      },
+      "candidate_mass": {
+        "n": 26,
+        "mean": 0.9266626909375191,
+        "median": 0.9918902218341827,
+        "low": 0.878545478444833,
+        "high": 0.9680229887652856
+      },
+      "repaired": {
+        "n": 26,
+        "mean": 0.057692307692307696,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.1346153846153846
+      },
+      "damaged": {
+        "n": 26,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "js_mean": 0.014089762041154518
+    },
+    {
+      "candidate": "drop_mlp_2",
+      "dataset": "all",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 345,
+        "mean": 0.572463768115942,
+        "median": 0.5,
+        "low": 0.527536231884058,
+        "high": 0.6173913043478261
+      },
+      "strict_accuracy": {
+        "n": 345,
+        "mean": 0.5681159420289855,
+        "median": 0.5,
+        "low": 0.5231884057971015,
+        "high": 0.6130434782608696
+      },
+      "accuracy_change": {
+        "n": 345,
+        "mean": -0.010144927536231883,
+        "median": 0.0,
+        "low": -0.028985507246376812,
+        "high": 0.008695652173913044
+      },
+      "strict_accuracy_change": {
+        "n": 345,
+        "mean": -0.010144927536231883,
+        "median": 0.0,
+        "low": -0.028985507246376812,
+        "high": 0.008695652173913044
+      },
+      "fidelity": {
+        "n": 345,
+        "mean": 0.8971014492753623,
+        "median": 1.0,
+        "low": 0.8739130434782608,
+        "high": 0.9202898550724637
+      },
+      "code_rate": {
+        "n": 345,
+        "mean": 0.9898550724637681,
+        "median": 1.0,
+        "low": 0.981159420289855,
+        "high": 0.9971014492753624
+      },
+      "candidate_mass": {
+        "n": 345,
+        "mean": 0.9873885780208461,
+        "median": 0.999956876039505,
+        "low": 0.9798508151800818,
+        "high": 0.9937651177147148
+      },
+      "repaired": {
+        "n": 345,
+        "mean": 0.030434782608695653,
+        "median": 0.0,
+        "low": 0.01884057971014493,
+        "high": 0.043478260869565216
+      },
+      "damaged": {
+        "n": 345,
+        "mean": 0.04057971014492753,
+        "median": 0.0,
+        "low": 0.02753623188405797,
+        "high": 0.05507246376811594
+      },
+      "js_mean": 0.03878686752326682
+    },
+    {
+      "candidate": "drop_mlp_2",
+      "dataset": "all",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 345,
+        "mean": 0.3898550724637681,
+        "median": 0.0,
+        "low": 0.34202898550724636,
+        "high": 0.43623188405797103
+      },
+      "strict_accuracy": {
+        "n": 345,
+        "mean": 0.3884057971014493,
+        "median": 0.0,
+        "low": 0.34057971014492755,
+        "high": 0.43478260869565216
+      },
+      "accuracy_change": {
+        "n": 345,
+        "mean": -0.010144927536231883,
+        "median": 0.0,
+        "low": -0.030434782608695653,
+        "high": 0.010144927536231883
+      },
+      "strict_accuracy_change": {
+        "n": 345,
+        "mean": -0.007246376811594203,
+        "median": 0.0,
+        "low": -0.028985507246376812,
+        "high": 0.013043478260869565
+      },
+      "fidelity": {
+        "n": 345,
+        "mean": 0.8797101449275362,
+        "median": 1.0,
+        "low": 0.855072463768116,
+        "high": 0.9057971014492754
+      },
+      "code_rate": {
+        "n": 345,
+        "mean": 0.9927536231884058,
+        "median": 1.0,
+        "low": 0.9855072463768116,
+        "high": 0.9985507246376811
+      },
+      "candidate_mass": {
+        "n": 345,
+        "mean": 0.9864100037783762,
+        "median": 0.9999143183231354,
+        "low": 0.9798734146535593,
+        "high": 0.9918393510526073
+      },
+      "repaired": {
+        "n": 345,
+        "mean": 0.034782608695652174,
+        "median": 0.0,
+        "low": 0.021739130434782608,
+        "high": 0.04786231884057984
+      },
+      "damaged": {
+        "n": 345,
+        "mean": 0.04492753623188406,
+        "median": 0.0,
+        "low": 0.030434782608695653,
+        "high": 0.06086956521739131
+      },
+      "js_mean": 0.045604857884312025
+    },
+    {
+      "candidate": "drop_mlp_2",
+      "dataset": "MedQA",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 194,
+        "mean": 0.5927835051546392,
+        "median": 0.5,
+        "low": 0.5309278350515464,
+        "high": 0.654639175257732
+      },
+      "strict_accuracy": {
+        "n": 194,
+        "mean": 0.5876288659793815,
+        "median": 0.5,
+        "low": 0.5257731958762887,
+        "high": 0.6494845360824743
+      },
+      "accuracy_change": {
+        "n": 194,
+        "mean": -0.010309278350515464,
+        "median": 0.0,
+        "low": -0.03350515463917526,
+        "high": 0.01288659793814433
+      },
+      "strict_accuracy_change": {
+        "n": 194,
+        "mean": -0.007731958762886598,
+        "median": 0.0,
+        "low": -0.030927835051546393,
+        "high": 0.015463917525773196
+      },
+      "fidelity": {
+        "n": 194,
+        "mean": 0.9072164948453608,
+        "median": 1.0,
+        "low": 0.8762886597938144,
+        "high": 0.9355670103092784
+      },
+      "code_rate": {
+        "n": 194,
+        "mean": 0.9896907216494846,
+        "median": 1.0,
+        "low": 0.979381443298969,
+        "high": 0.9974226804123711
+      },
+      "candidate_mass": {
+        "n": 194,
+        "mean": 0.9874656917959375,
+        "median": 0.9999711662530899,
+        "low": 0.9773643377547863,
+        "high": 0.9952933175051248
+      },
+      "repaired": {
+        "n": 194,
+        "mean": 0.030927835051546393,
+        "median": 0.0,
+        "low": 0.015463917525773196,
+        "high": 0.04896907216494845
+      },
+      "damaged": {
+        "n": 194,
+        "mean": 0.041237113402061855,
+        "median": 0.0,
+        "low": 0.023195876288659795,
+        "high": 0.061855670103092786
+      },
+      "js_mean": 0.03213465145071103
+    },
+    {
+      "candidate": "drop_mlp_2",
+      "dataset": "MedQA",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 194,
+        "mean": 0.37371134020618557,
+        "median": 0.0,
+        "low": 0.3118556701030928,
+        "high": 0.43556701030927836
+      },
+      "strict_accuracy": {
+        "n": 194,
+        "mean": 0.37371134020618557,
+        "median": 0.0,
+        "low": 0.3118556701030928,
+        "high": 0.43556701030927836
+      },
+      "accuracy_change": {
+        "n": 194,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": -0.023195876288659795,
+        "high": 0.02577319587628866
+      },
+      "strict_accuracy_change": {
+        "n": 194,
+        "mean": 0.005154639175257732,
+        "median": 0.0,
+        "low": -0.01804123711340206,
+        "high": 0.030927835051546393
+      },
+      "fidelity": {
+        "n": 194,
+        "mean": 0.9072164948453608,
+        "median": 1.0,
+        "low": 0.8788659793814433,
+        "high": 0.9355670103092784
+      },
+      "code_rate": {
+        "n": 194,
+        "mean": 0.9974226804123711,
+        "median": 1.0,
+        "low": 0.9922680412371134,
+        "high": 1.0
+      },
+      "candidate_mass": {
+        "n": 194,
+        "mean": 0.9920984167874474,
+        "median": 0.9999509900808334,
+        "low": 0.9863001683765312,
+        "high": 0.9964294100813952
+      },
+      "repaired": {
+        "n": 194,
+        "mean": 0.03608247422680412,
+        "median": 0.0,
+        "low": 0.020618556701030927,
+        "high": 0.05412371134020619
+      },
+      "damaged": {
+        "n": 194,
+        "mean": 0.03608247422680412,
+        "median": 0.0,
+        "low": 0.01804123711340206,
+        "high": 0.05412371134020619
+      },
+      "js_mean": 0.03301875549386619
+    },
+    {
+      "candidate": "drop_mlp_2",
+      "dataset": "MedMCQA",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 125,
+        "mean": 0.56,
+        "median": 0.5,
+        "low": 0.484,
+        "high": 0.632
+      },
+      "strict_accuracy": {
+        "n": 125,
+        "mean": 0.56,
+        "median": 0.5,
+        "low": 0.484,
+        "high": 0.632
+      },
+      "accuracy_change": {
+        "n": 125,
+        "mean": -0.02,
+        "median": 0.0,
+        "low": -0.052,
+        "high": 0.008
+      },
+      "strict_accuracy_change": {
+        "n": 125,
+        "mean": -0.02,
+        "median": 0.0,
+        "low": -0.052,
+        "high": 0.008
+      },
+      "fidelity": {
+        "n": 125,
+        "mean": 0.892,
+        "median": 1.0,
+        "low": 0.856,
+        "high": 0.928
+      },
+      "code_rate": {
+        "n": 125,
+        "mean": 0.996,
+        "median": 1.0,
+        "low": 0.988,
+        "high": 1.0
+      },
+      "candidate_mass": {
+        "n": 125,
+        "mean": 0.9920978174172341,
+        "median": 0.9999304115772247,
+        "low": 0.9823331557103433,
+        "high": 0.99819437135458
+      },
+      "repaired": {
+        "n": 125,
+        "mean": 0.02,
+        "median": 0.0,
+        "low": 0.004,
+        "high": 0.04
+      },
+      "damaged": {
+        "n": 125,
+        "mean": 0.04,
+        "median": 0.0,
+        "low": 0.016,
+        "high": 0.064
+      },
+      "js_mean": 0.044828927639493886
+    },
+    {
+      "candidate": "drop_mlp_2",
+      "dataset": "MedMCQA",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 125,
+        "mean": 0.42,
+        "median": 0.5,
+        "low": 0.3439,
+        "high": 0.496
+      },
+      "strict_accuracy": {
+        "n": 125,
+        "mean": 0.416,
+        "median": 0.5,
+        "low": 0.34,
+        "high": 0.492
+      },
+      "accuracy_change": {
+        "n": 125,
+        "mean": -0.024,
+        "median": 0.0,
+        "low": -0.064,
+        "high": 0.012
+      },
+      "strict_accuracy_change": {
+        "n": 125,
+        "mean": -0.024,
+        "median": 0.0,
+        "low": -0.064,
+        "high": 0.016
+      },
+      "fidelity": {
+        "n": 125,
+        "mean": 0.86,
+        "median": 1.0,
+        "low": 0.816,
+        "high": 0.9
+      },
+      "code_rate": {
+        "n": 125,
+        "mean": 0.988,
+        "median": 1.0,
+        "low": 0.972,
+        "high": 1.0
+      },
+      "candidate_mass": {
+        "n": 125,
+        "mean": 0.9788050854410976,
+        "median": 0.9998189210891724,
+        "low": 0.9640352107403334,
+        "high": 0.9905738927602767
+      },
+      "repaired": {
+        "n": 125,
+        "mean": 0.032,
+        "median": 0.0,
+        "low": 0.012,
+        "high": 0.056
+      },
+      "damaged": {
+        "n": 125,
+        "mean": 0.056,
+        "median": 0.0,
+        "low": 0.028,
+        "high": 0.088
+      },
+      "js_mean": 0.05560648613402092
+    },
+    {
+      "candidate": "drop_mlp_2",
+      "dataset": "MMLU",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 26,
+        "mean": 0.4807692307692308,
+        "median": 0.5,
+        "low": 0.3076923076923077,
+        "high": 0.6346153846153846
+      },
+      "strict_accuracy": {
+        "n": 26,
+        "mean": 0.46153846153846156,
+        "median": 0.5,
+        "low": 0.3076923076923077,
+        "high": 0.6153846153846154
+      },
+      "accuracy_change": {
+        "n": 26,
+        "mean": 0.038461538461538464,
+        "median": 0.0,
+        "low": -0.057692307692307696,
+        "high": 0.1346153846153846
+      },
+      "strict_accuracy_change": {
+        "n": 26,
+        "mean": 0.019230769230769232,
+        "median": 0.0,
+        "low": -0.057692307692307696,
+        "high": 0.11538461538461539
+      },
+      "fidelity": {
+        "n": 26,
+        "mean": 0.8461538461538461,
+        "median": 1.0,
+        "low": 0.7307692307692307,
+        "high": 0.9423076923076923
+      },
+      "code_rate": {
+        "n": 26,
+        "mean": 0.9615384615384616,
+        "median": 1.0,
+        "low": 0.9038461538461539,
+        "high": 1.0
+      },
+      "candidate_mass": {
+        "n": 26,
+        "mean": 0.9641726166009903,
+        "median": 0.9998608082532883,
+        "low": 0.9047948218308962,
+        "high": 0.9990514680456657
+      },
+      "repaired": {
+        "n": 26,
+        "mean": 0.07692307692307693,
+        "median": 0.0,
+        "low": 0.019230769230769232,
+        "high": 0.15384615384615385
+      },
+      "damaged": {
+        "n": 26,
+        "mean": 0.038461538461538464,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.09615384615384616
+      },
+      "js_mean": 0.0593742676597068
+    },
+    {
+      "candidate": "drop_mlp_2",
+      "dataset": "MMLU",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 26,
+        "mean": 0.36538461538461536,
+        "median": 0.0,
+        "low": 0.21153846153846154,
+        "high": 0.5192307692307693
+      },
+      "strict_accuracy": {
+        "n": 26,
+        "mean": 0.36538461538461536,
+        "median": 0.0,
+        "low": 0.21153846153846154,
+        "high": 0.5192307692307693
+      },
+      "accuracy_change": {
+        "n": 26,
+        "mean": -0.019230769230769232,
+        "median": 0.0,
+        "low": -0.09615384615384616,
+        "high": 0.057692307692307696
+      },
+      "strict_accuracy_change": {
+        "n": 26,
+        "mean": -0.019230769230769232,
+        "median": 0.0,
+        "low": -0.09615384615384616,
+        "high": 0.057692307692307696
+      },
+      "fidelity": {
+        "n": 26,
+        "mean": 0.7692307692307693,
+        "median": 1.0,
+        "low": 0.6346153846153846,
+        "high": 0.8846153846153846
+      },
+      "code_rate": {
+        "n": 26,
+        "mean": 0.9807692307692307,
+        "median": 1.0,
+        "low": 0.9423076923076923,
+        "high": 1.0
+      },
+      "candidate_mass": {
+        "n": 26,
+        "mean": 0.9805277987168386,
+        "median": 0.9995965957641602,
+        "low": 0.9489842883669414,
+        "high": 0.9980558252391907
+      },
+      "repaired": {
+        "n": 26,
+        "mean": 0.038461538461538464,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.09615384615384616
+      },
+      "damaged": {
+        "n": 26,
+        "mean": 0.057692307692307696,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.1346153846153846
+      },
+      "js_mean": 0.09143179375096132
+    },
+    {
+      "candidate": "linear_mlp_2_r16",
+      "dataset": "all",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 345,
+        "mean": 0.5942028985507246,
+        "median": 1.0,
+        "low": 0.5478260869565217,
+        "high": 0.6391304347826087
+      },
+      "strict_accuracy": {
+        "n": 345,
+        "mean": 0.5884057971014492,
+        "median": 0.5,
+        "low": 0.5434420289855072,
+        "high": 0.6333333333333333
+      },
+      "accuracy_change": {
+        "n": 345,
+        "mean": 0.011594202898550725,
+        "median": 0.0,
+        "low": -0.004347826086956522,
+        "high": 0.02753623188405797
+      },
+      "strict_accuracy_change": {
+        "n": 345,
+        "mean": 0.010144927536231883,
+        "median": 0.0,
+        "low": -0.007246376811594203,
+        "high": 0.02608695652173913
+      },
+      "fidelity": {
+        "n": 345,
+        "mean": 0.9434782608695652,
+        "median": 1.0,
+        "low": 0.9260869565217391,
+        "high": 0.9594202898550724
+      },
+      "code_rate": {
+        "n": 345,
+        "mean": 0.9927536231884058,
+        "median": 1.0,
+        "low": 0.9840579710144928,
+        "high": 0.9985507246376811
+      },
+      "candidate_mass": {
+        "n": 345,
+        "mean": 0.9924859546232915,
+        "median": 0.9999991357326508,
+        "low": 0.9858696431526239,
+        "high": 0.9974713049915389
+      },
+      "repaired": {
+        "n": 345,
+        "mean": 0.028985507246376812,
+        "median": 0.0,
+        "low": 0.017391304347826087,
+        "high": 0.042028985507246375
+      },
+      "damaged": {
+        "n": 345,
+        "mean": 0.017391304347826087,
+        "median": 0.0,
+        "low": 0.008695652173913044,
+        "high": 0.02753623188405797
+      },
+      "js_mean": 0.015454456387257046
+    },
+    {
+      "candidate": "linear_mlp_2_r16",
+      "dataset": "all",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 345,
+        "mean": 0.41739130434782606,
+        "median": 0.0,
+        "low": 0.3681159420289855,
+        "high": 0.4652173913043478
+      },
+      "strict_accuracy": {
+        "n": 345,
+        "mean": 0.4144927536231884,
+        "median": 0.0,
+        "low": 0.3652173913043478,
+        "high": 0.4608695652173913
+      },
+      "accuracy_change": {
+        "n": 345,
+        "mean": 0.017391304347826087,
+        "median": 0.0,
+        "low": -0.0014492753623188406,
+        "high": 0.034782608695652174
+      },
+      "strict_accuracy_change": {
+        "n": 345,
+        "mean": 0.01884057971014493,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.03768115942028986
+      },
+      "fidelity": {
+        "n": 345,
+        "mean": 0.9217391304347826,
+        "median": 1.0,
+        "low": 0.9,
+        "high": 0.9420289855072463
+      },
+      "code_rate": {
+        "n": 345,
+        "mean": 0.9942028985507246,
+        "median": 1.0,
+        "low": 0.9884057971014493,
+        "high": 0.9985507246376811
+      },
+      "candidate_mass": {
+        "n": 345,
+        "mean": 0.9900237400570642,
+        "median": 0.9999966025352478,
+        "low": 0.9835258372581523,
+        "high": 0.9950516120970682
+      },
+      "repaired": {
+        "n": 345,
+        "mean": 0.036231884057971016,
+        "median": 0.0,
+        "low": 0.021739130434782608,
+        "high": 0.050724637681159424
+      },
+      "damaged": {
+        "n": 345,
+        "mean": 0.01884057971014493,
+        "median": 0.0,
+        "low": 0.010144927536231883,
+        "high": 0.028985507246376812
+      },
+      "js_mean": 0.021976234529106072
+    },
+    {
+      "candidate": "linear_mlp_2_r16",
+      "dataset": "MedQA",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 194,
+        "mean": 0.6108247422680413,
+        "median": 1.0,
+        "low": 0.5463917525773195,
+        "high": 0.6726804123711341
+      },
+      "strict_accuracy": {
+        "n": 194,
+        "mean": 0.6030927835051546,
+        "median": 1.0,
+        "low": 0.5412371134020618,
+        "high": 0.6649484536082474
+      },
+      "accuracy_change": {
+        "n": 194,
+        "mean": 0.007731958762886598,
+        "median": 0.0,
+        "low": -0.01288659793814433,
+        "high": 0.028350515463917526
+      },
+      "strict_accuracy_change": {
+        "n": 194,
+        "mean": 0.007731958762886598,
+        "median": 0.0,
+        "low": -0.015463917525773196,
+        "high": 0.030927835051546393
+      },
+      "fidelity": {
+        "n": 194,
+        "mean": 0.9510309278350515,
+        "median": 1.0,
+        "low": 0.9304123711340206,
+        "high": 0.9716494845360825
+      },
+      "code_rate": {
+        "n": 194,
+        "mean": 0.9896907216494846,
+        "median": 1.0,
+        "low": 0.9768041237113402,
+        "high": 1.0
+      },
+      "candidate_mass": {
+        "n": 194,
+        "mean": 0.9907158597074833,
+        "median": 0.9999992400407791,
+        "low": 0.9799393233219066,
+        "high": 0.9979689171960212
+      },
+      "repaired": {
+        "n": 194,
+        "mean": 0.02577319587628866,
+        "median": 0.0,
+        "low": 0.010309278350515464,
+        "high": 0.04381443298969072
+      },
+      "damaged": {
+        "n": 194,
+        "mean": 0.01804123711340206,
+        "median": 0.0,
+        "low": 0.005154639175257732,
+        "high": 0.030927835051546393
+      },
+      "js_mean": 0.011706891882908903
+    },
+    {
+      "candidate": "linear_mlp_2_r16",
+      "dataset": "MedQA",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 194,
+        "mean": 0.38402061855670105,
+        "median": 0.0,
+        "low": 0.32216494845360827,
+        "high": 0.45103092783505155
+      },
+      "strict_accuracy": {
+        "n": 194,
+        "mean": 0.38144329896907214,
+        "median": 0.0,
+        "low": 0.31958762886597936,
+        "high": 0.4484536082474227
+      },
+      "accuracy_change": {
+        "n": 194,
+        "mean": 0.010309278350515464,
+        "median": 0.0,
+        "low": -0.010309278350515464,
+        "high": 0.03350515463917526
+      },
+      "strict_accuracy_change": {
+        "n": 194,
+        "mean": 0.01288659793814433,
+        "median": 0.0,
+        "low": -0.010309278350515464,
+        "high": 0.03865979381443299
+      },
+      "fidelity": {
+        "n": 194,
+        "mean": 0.9407216494845361,
+        "median": 1.0,
+        "low": 0.9149484536082474,
+        "high": 0.9639175257731959
+      },
+      "code_rate": {
+        "n": 194,
+        "mean": 0.9948453608247423,
+        "median": 1.0,
+        "low": 0.9871134020618557,
+        "high": 1.0
+      },
+      "candidate_mass": {
+        "n": 194,
+        "mean": 0.9908093446001565,
+        "median": 0.9999983608722687,
+        "low": 0.982134795517267,
+        "high": 0.9971558072095372
+      },
+      "repaired": {
+        "n": 194,
+        "mean": 0.02577319587628866,
+        "median": 0.0,
+        "low": 0.010309278350515464,
+        "high": 0.04381443298969072
+      },
+      "damaged": {
+        "n": 194,
+        "mean": 0.015463917525773196,
+        "median": 0.0,
+        "low": 0.005154639175257732,
+        "high": 0.030927835051546393
+      },
+      "js_mean": 0.014419916770952104
+    },
+    {
+      "candidate": "linear_mlp_2_r16",
+      "dataset": "MedMCQA",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 125,
+        "mean": 0.588,
+        "median": 0.5,
+        "low": 0.508,
+        "high": 0.664
+      },
+      "strict_accuracy": {
+        "n": 125,
+        "mean": 0.584,
+        "median": 0.5,
+        "low": 0.508,
+        "high": 0.66
+      },
+      "accuracy_change": {
+        "n": 125,
+        "mean": 0.008,
+        "median": 0.0,
+        "low": -0.016,
+        "high": 0.032
+      },
+      "strict_accuracy_change": {
+        "n": 125,
+        "mean": 0.004,
+        "median": 0.0,
+        "low": -0.024,
+        "high": 0.032
+      },
+      "fidelity": {
+        "n": 125,
+        "mean": 0.944,
+        "median": 1.0,
+        "low": 0.916,
+        "high": 0.968
+      },
+      "code_rate": {
+        "n": 125,
+        "mean": 0.996,
+        "median": 1.0,
+        "low": 0.988,
+        "high": 1.0
+      },
+      "candidate_mass": {
+        "n": 125,
+        "mean": 0.9965554817914962,
+        "median": 0.9999983906745911,
+        "low": 0.9902380424618721,
+        "high": 0.9998377223730087
+      },
+      "repaired": {
+        "n": 125,
+        "mean": 0.024,
+        "median": 0.0,
+        "low": 0.008,
+        "high": 0.044
+      },
+      "damaged": {
+        "n": 125,
+        "mean": 0.016,
+        "median": 0.0,
+        "low": 0.004,
+        "high": 0.032
+      },
+      "js_mean": 0.016905779367617398
+    },
+    {
+      "candidate": "linear_mlp_2_r16",
+      "dataset": "MedMCQA",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 125,
+        "mean": 0.472,
+        "median": 0.5,
+        "low": 0.388,
+        "high": 0.548
+      },
+      "strict_accuracy": {
+        "n": 125,
+        "mean": 0.468,
+        "median": 0.5,
+        "low": 0.384,
+        "high": 0.544
+      },
+      "accuracy_change": {
+        "n": 125,
+        "mean": 0.028,
+        "median": 0.0,
+        "low": -0.004,
+        "high": 0.06
+      },
+      "strict_accuracy_change": {
+        "n": 125,
+        "mean": 0.028,
+        "median": 0.0,
+        "low": -0.004,
+        "high": 0.064
+      },
+      "fidelity": {
+        "n": 125,
+        "mean": 0.908,
+        "median": 1.0,
+        "low": 0.868,
+        "high": 0.944
+      },
+      "code_rate": {
+        "n": 125,
+        "mean": 0.992,
+        "median": 1.0,
+        "low": 0.98,
+        "high": 1.0
+      },
+      "candidate_mass": {
+        "n": 125,
+        "mean": 0.9885066161453724,
+        "median": 0.9999933540821075,
+        "low": 0.9769683729343116,
+        "high": 0.9965571881711482
+      },
+      "repaired": {
+        "n": 125,
+        "mean": 0.048,
+        "median": 0.0,
+        "low": 0.024,
+        "high": 0.076
+      },
+      "damaged": {
+        "n": 125,
+        "mean": 0.02,
+        "median": 0.0,
+        "low": 0.004,
+        "high": 0.04
+      },
+      "js_mean": 0.029632255799419815
+    },
+    {
+      "candidate": "linear_mlp_2_r16",
+      "dataset": "MMLU",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 26,
+        "mean": 0.5,
+        "median": 0.5,
+        "low": 0.3269230769230769,
+        "high": 0.6730769230769231
+      },
+      "strict_accuracy": {
+        "n": 26,
+        "mean": 0.5,
+        "median": 0.5,
+        "low": 0.3269230769230769,
+        "high": 0.6730769230769231
+      },
+      "accuracy_change": {
+        "n": 26,
+        "mean": 0.057692307692307696,
+        "median": 0.0,
+        "low": -0.019230769230769232,
+        "high": 0.1346153846153846
+      },
+      "strict_accuracy_change": {
+        "n": 26,
+        "mean": 0.057692307692307696,
+        "median": 0.0,
+        "low": -0.019230769230769232,
+        "high": 0.1346153846153846
+      },
+      "fidelity": {
+        "n": 26,
+        "mean": 0.8846153846153846,
+        "median": 1.0,
+        "low": 0.7884615384615384,
+        "high": 0.9615384615384616
+      },
+      "code_rate": {
+        "n": 26,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.8677253955022459,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "candidate_mass": {
+        "n": 26,
+        "mean": 0.9861285514556445,
+        "median": 0.9999988675117493,
+        "low": 0.9598618936080199,
+        "high": 0.9998888652771711
+      },
+      "repaired": {
+        "n": 26,
+        "mean": 0.07692307692307693,
+        "median": 0.0,
+        "low": 0.019230769230769232,
+        "high": 0.15384615384615385
+      },
+      "damaged": {
+        "n": 26,
+        "mean": 0.019230769230769232,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.057692307692307696
+      },
+      "js_mean": 0.03643953874489149
+    },
+    {
+      "candidate": "linear_mlp_2_r16",
+      "dataset": "MMLU",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 26,
+        "mean": 0.40384615384615385,
+        "median": 0.25,
+        "low": 0.23076923076923078,
+        "high": 0.5769230769230769
+      },
+      "strict_accuracy": {
+        "n": 26,
+        "mean": 0.40384615384615385,
+        "median": 0.25,
+        "low": 0.23076923076923078,
+        "high": 0.5769230769230769
+      },
+      "accuracy_change": {
+        "n": 26,
+        "mean": 0.019230769230769232,
+        "median": 0.0,
+        "low": -0.057692307692307696,
+        "high": 0.09615384615384616
+      },
+      "strict_accuracy_change": {
+        "n": 26,
+        "mean": 0.019230769230769232,
+        "median": 0.0,
+        "low": -0.057692307692307696,
+        "high": 0.09615384615384616
+      },
+      "fidelity": {
+        "n": 26,
+        "mean": 0.8461538461538461,
+        "median": 1.0,
+        "low": 0.7307692307692307,
+        "high": 0.9423076923076923
+      },
+      "code_rate": {
+        "n": 26,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.8677253955022459,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "candidate_mass": {
+        "n": 26,
+        "mean": 0.9914557865032783,
+        "median": 0.9999831318855286,
+        "low": 0.9811538792573489,
+        "high": 0.9987967404321982
+      },
+      "repaired": {
+        "n": 26,
+        "mean": 0.057692307692307696,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.1346153846153846
+      },
+      "damaged": {
+        "n": 26,
+        "mean": 0.038461538461538464,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.09615384615384616
+      },
+      "js_mean": 0.041550195540361906
+    },
+    {
+      "candidate": "drop_block_1",
+      "dataset": "all",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 345,
+        "mean": 0.5855072463768116,
+        "median": 0.5,
+        "low": 0.5405797101449276,
+        "high": 0.6304347826086957
+      },
+      "strict_accuracy": {
+        "n": 345,
+        "mean": 0.5782608695652174,
+        "median": 0.5,
+        "low": 0.5318840579710145,
+        "high": 0.6231884057971014
+      },
+      "accuracy_change": {
+        "n": 345,
+        "mean": 0.002898550724637681,
+        "median": 0.0,
+        "low": -0.010144927536231883,
+        "high": 0.015942028985507246
+      },
+      "strict_accuracy_change": {
+        "n": 345,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": -0.014492753623188406,
+        "high": 0.014492753623188406
+      },
+      "fidelity": {
+        "n": 345,
+        "mean": 0.9623188405797102,
+        "median": 1.0,
+        "low": 0.9478260869565217,
+        "high": 0.9753623188405797
+      },
+      "code_rate": {
+        "n": 345,
+        "mean": 0.9884057971014493,
+        "median": 1.0,
+        "low": 0.9797101449275363,
+        "high": 0.9956521739130435
+      },
+      "candidate_mass": {
+        "n": 345,
+        "mean": 0.9697574306009472,
+        "median": 0.9995020925998688,
+        "low": 0.9596831057188304,
+        "high": 0.9784930054632867
+      },
+      "repaired": {
+        "n": 345,
+        "mean": 0.015942028985507246,
+        "median": 0.0,
+        "low": 0.007246376811594203,
+        "high": 0.02608695652173913
+      },
+      "damaged": {
+        "n": 345,
+        "mean": 0.013043478260869565,
+        "median": 0.0,
+        "low": 0.005797101449275362,
+        "high": 0.021739130434782608
+      },
+      "js_mean": 0.012856945803114427
+    },
+    {
+      "candidate": "drop_block_1",
+      "dataset": "all",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 345,
+        "mean": 0.40144927536231884,
+        "median": 0.0,
+        "low": 0.3521739130434783,
+        "high": 0.4492753623188406
+      },
+      "strict_accuracy": {
+        "n": 345,
+        "mean": 0.39420289855072466,
+        "median": 0.0,
+        "low": 0.3463768115942029,
+        "high": 0.4405797101449275
+      },
+      "accuracy_change": {
+        "n": 345,
+        "mean": 0.0014492753623188406,
+        "median": 0.0,
+        "low": -0.008695652173913044,
+        "high": 0.013043478260869565
+      },
+      "strict_accuracy_change": {
+        "n": 345,
+        "mean": -0.0014492753623188406,
+        "median": 0.0,
+        "low": -0.013043478260869565,
+        "high": 0.010144927536231883
+      },
+      "fidelity": {
+        "n": 345,
+        "mean": 0.9623188405797102,
+        "median": 1.0,
+        "low": 0.9478260869565217,
+        "high": 0.9753623188405797
+      },
+      "code_rate": {
+        "n": 345,
+        "mean": 0.9753623188405797,
+        "median": 1.0,
+        "low": 0.9623188405797102,
+        "high": 0.9869565217391304
+      },
+      "candidate_mass": {
+        "n": 345,
+        "mean": 0.9556708606418924,
+        "median": 0.9988376796245575,
+        "low": 0.9427494897987639,
+        "high": 0.96730712024468
+      },
+      "repaired": {
+        "n": 345,
+        "mean": 0.011594202898550725,
+        "median": 0.0,
+        "low": 0.004347826086956522,
+        "high": 0.020289855072463767
+      },
+      "damaged": {
+        "n": 345,
+        "mean": 0.010144927536231883,
+        "median": 0.0,
+        "low": 0.002898550724637681,
+        "high": 0.017391304347826087
+      },
+      "js_mean": 0.014122486196086758
+    },
+    {
+      "candidate": "drop_block_1",
+      "dataset": "MedQA",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 194,
+        "mean": 0.6134020618556701,
+        "median": 1.0,
+        "low": 0.5515463917525774,
+        "high": 0.6752577319587629
+      },
+      "strict_accuracy": {
+        "n": 194,
+        "mean": 0.6056701030927835,
+        "median": 1.0,
+        "low": 0.5438144329896907,
+        "high": 0.6675257731958762
+      },
+      "accuracy_change": {
+        "n": 194,
+        "mean": 0.010309278350515464,
+        "median": 0.0,
+        "low": -0.005154639175257732,
+        "high": 0.02577319587628866
+      },
+      "strict_accuracy_change": {
+        "n": 194,
+        "mean": 0.010309278350515464,
+        "median": 0.0,
+        "low": -0.005154639175257732,
+        "high": 0.028350515463917526
+      },
+      "fidelity": {
+        "n": 194,
+        "mean": 0.9664948453608248,
+        "median": 1.0,
+        "low": 0.9484536082474226,
+        "high": 0.9845360824742269
+      },
+      "code_rate": {
+        "n": 194,
+        "mean": 0.9896907216494846,
+        "median": 1.0,
+        "low": 0.979381443298969,
+        "high": 0.9974226804123711
+      },
+      "candidate_mass": {
+        "n": 194,
+        "mean": 0.976131835472338,
+        "median": 0.9997176378965378,
+        "low": 0.9629881125404355,
+        "high": 0.9869515241402173
+      },
+      "repaired": {
+        "n": 194,
+        "mean": 0.01804123711340206,
+        "median": 0.0,
+        "low": 0.005154639175257732,
+        "high": 0.03350515463917526
+      },
+      "damaged": {
+        "n": 194,
+        "mean": 0.007731958762886598,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.01804123711340206
+      },
+      "js_mean": 0.012013004939414542
+    },
+    {
+      "candidate": "drop_block_1",
+      "dataset": "MedQA",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 194,
+        "mean": 0.37371134020618557,
+        "median": 0.0,
+        "low": 0.3118556701030928,
+        "high": 0.4381443298969072
+      },
+      "strict_accuracy": {
+        "n": 194,
+        "mean": 0.36597938144329895,
+        "median": 0.0,
+        "low": 0.30412371134020616,
+        "high": 0.43041237113402064
+      },
+      "accuracy_change": {
+        "n": 194,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": -0.015463917525773196,
+        "high": 0.01288659793814433
+      },
+      "strict_accuracy_change": {
+        "n": 194,
+        "mean": -0.002577319587628866,
+        "median": 0.0,
+        "low": -0.020618556701030927,
+        "high": 0.01288659793814433
+      },
+      "fidelity": {
+        "n": 194,
+        "mean": 0.9690721649484536,
+        "median": 1.0,
+        "low": 0.9510309278350515,
+        "high": 0.9845360824742269
+      },
+      "code_rate": {
+        "n": 194,
+        "mean": 0.9871134020618557,
+        "median": 1.0,
+        "low": 0.9742268041237113,
+        "high": 0.9974226804123711
+      },
+      "candidate_mass": {
+        "n": 194,
+        "mean": 0.976446523379112,
+        "median": 0.9991938322782516,
+        "low": 0.9654845472281204,
+        "high": 0.98568814813169
+      },
+      "repaired": {
+        "n": 194,
+        "mean": 0.010309278350515464,
+        "median": 0.0,
+        "low": 0.002577319587628866,
+        "high": 0.020618556701030927
+      },
+      "damaged": {
+        "n": 194,
+        "mean": 0.010309278350515464,
+        "median": 0.0,
+        "low": 0.002577319587628866,
+        "high": 0.020618556701030927
+      },
+      "js_mean": 0.011794844640390316
+    },
+    {
+      "candidate": "drop_block_1",
+      "dataset": "MedMCQA",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 125,
+        "mean": 0.564,
+        "median": 0.5,
+        "low": 0.488,
+        "high": 0.64
+      },
+      "strict_accuracy": {
+        "n": 125,
+        "mean": 0.56,
+        "median": 0.5,
+        "low": 0.484,
+        "high": 0.636
+      },
+      "accuracy_change": {
+        "n": 125,
+        "mean": -0.016,
+        "median": 0.0,
+        "low": -0.04,
+        "high": 0.004
+      },
+      "strict_accuracy_change": {
+        "n": 125,
+        "mean": -0.02,
+        "median": 0.0,
+        "low": -0.044,
+        "high": 0.0
+      },
+      "fidelity": {
+        "n": 125,
+        "mean": 0.96,
+        "median": 1.0,
+        "low": 0.936,
+        "high": 0.984
+      },
+      "code_rate": {
+        "n": 125,
+        "mean": 0.992,
+        "median": 1.0,
+        "low": 0.98,
+        "high": 1.0
+      },
+      "candidate_mass": {
+        "n": 125,
+        "mean": 0.9703653202652931,
+        "median": 0.9982768893241882,
+        "low": 0.9569262649595738,
+        "high": 0.9822084923252463
+      },
+      "repaired": {
+        "n": 125,
+        "mean": 0.008,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.02
+      },
+      "damaged": {
+        "n": 125,
+        "mean": 0.024,
+        "median": 0.0,
+        "low": 0.008,
+        "high": 0.044
+      },
+      "js_mean": 0.013084869822739398
+    },
+    {
+      "candidate": "drop_block_1",
+      "dataset": "MedMCQA",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 125,
+        "mean": 0.448,
+        "median": 0.5,
+        "low": 0.368,
+        "high": 0.528
+      },
+      "strict_accuracy": {
+        "n": 125,
+        "mean": 0.44,
+        "median": 0.5,
+        "low": 0.36,
+        "high": 0.52
+      },
+      "accuracy_change": {
+        "n": 125,
+        "mean": 0.004,
+        "median": 0.0,
+        "low": -0.016,
+        "high": 0.024
+      },
+      "strict_accuracy_change": {
+        "n": 125,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": -0.024,
+        "high": 0.02
+      },
+      "fidelity": {
+        "n": 125,
+        "mean": 0.948,
+        "median": 1.0,
+        "low": 0.92,
+        "high": 0.972
+      },
+      "code_rate": {
+        "n": 125,
+        "mean": 0.96,
+        "median": 1.0,
+        "low": 0.932,
+        "high": 0.984
+      },
+      "candidate_mass": {
+        "n": 125,
+        "mean": 0.936038604721427,
+        "median": 0.9967493712902069,
+        "low": 0.9086170123331249,
+        "high": 0.9604079658214003
+      },
+      "repaired": {
+        "n": 125,
+        "mean": 0.016,
+        "median": 0.0,
+        "low": 0.004,
+        "high": 0.032
+      },
+      "damaged": {
+        "n": 125,
+        "mean": 0.012,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.028
+      },
+      "js_mean": 0.0178354324869919
+    },
+    {
+      "candidate": "drop_block_1",
+      "dataset": "MMLU",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 26,
+        "mean": 0.4807692307692308,
+        "median": 0.5,
+        "low": 0.3269230769230769,
+        "high": 0.6346153846153846
+      },
+      "strict_accuracy": {
+        "n": 26,
+        "mean": 0.46153846153846156,
+        "median": 0.5,
+        "low": 0.28846153846153844,
+        "high": 0.6346153846153846
+      },
+      "accuracy_change": {
+        "n": 26,
+        "mean": 0.038461538461538464,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.09615384615384616
+      },
+      "strict_accuracy_change": {
+        "n": 26,
+        "mean": 0.019230769230769232,
+        "median": 0.0,
+        "low": -0.038461538461538464,
+        "high": 0.09615384615384616
+      },
+      "fidelity": {
+        "n": 26,
+        "mean": 0.9423076923076923,
+        "median": 1.0,
+        "low": 0.8653846153846154,
+        "high": 1.0
+      },
+      "code_rate": {
+        "n": 26,
+        "mean": 0.9615384615384616,
+        "median": 1.0,
+        "low": 0.9038461538461539,
+        "high": 1.0
+      },
+      "candidate_mass": {
+        "n": 26,
+        "mean": 0.9192720170204456,
+        "median": 0.9985266029834747,
+        "low": 0.8546598558672346,
+        "high": 0.9704357757877845
+      },
+      "repaired": {
+        "n": 26,
+        "mean": 0.038461538461538464,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.09615384615384616
+      },
+      "damaged": {
+        "n": 26,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "js_mean": 0.018058254460985832
+    },
+    {
+      "candidate": "drop_block_1",
+      "dataset": "MMLU",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 26,
+        "mean": 0.38461538461538464,
+        "median": 0.0,
+        "low": 0.21153846153846154,
+        "high": 0.5576923076923077
+      },
+      "strict_accuracy": {
+        "n": 26,
+        "mean": 0.38461538461538464,
+        "median": 0.0,
+        "low": 0.21153846153846154,
+        "high": 0.5576923076923077
+      },
+      "accuracy_change": {
+        "n": 26,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "strict_accuracy_change": {
+        "n": 26,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "fidelity": {
+        "n": 26,
+        "mean": 0.9807692307692307,
+        "median": 1.0,
+        "low": 0.9423076923076923,
+        "high": 1.0
+      },
+      "code_rate": {
+        "n": 26,
+        "mean": 0.9615384615384616,
+        "median": 1.0,
+        "low": 0.9038461538461539,
+        "high": 1.0
+      },
+      "candidate_mass": {
+        "n": 26,
+        "mean": 0.8950382998356452,
+        "median": 0.9963683038949966,
+        "low": 0.8227344855379599,
+        "high": 0.9554001061962201
+      },
+      "repaired": {
+        "n": 26,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "damaged": {
+        "n": 26,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "js_mean": 0.013639569866931645
+    },
+    {
+      "candidate": "anchor_heads_8",
+      "dataset": "all",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 345,
+        "mean": 0.5942028985507246,
+        "median": 1.0,
+        "low": 0.5463768115942029,
+        "high": 0.6405797101449275
+      },
+      "strict_accuracy": {
+        "n": 345,
+        "mean": 0.5927536231884057,
+        "median": 1.0,
+        "low": 0.5463768115942029,
+        "high": 0.6391304347826087
+      },
+      "accuracy_change": {
+        "n": 345,
+        "mean": 0.011594202898550725,
+        "median": 0.0,
+        "low": -0.014492753623188406,
+        "high": 0.0391304347826087
+      },
+      "strict_accuracy_change": {
+        "n": 345,
+        "mean": 0.014492753623188406,
+        "median": 0.0,
+        "low": -0.013043478260869565,
+        "high": 0.042028985507246375
+      },
+      "fidelity": {
+        "n": 345,
+        "mean": 0.8405797101449275,
+        "median": 1.0,
+        "low": 0.808695652173913,
+        "high": 0.8710144927536232
+      },
+      "code_rate": {
+        "n": 345,
+        "mean": 0.9985507246376811,
+        "median": 1.0,
+        "low": 0.9956521739130435,
+        "high": 1.0
+      },
+      "candidate_mass": {
+        "n": 345,
+        "mean": 0.9987610808317212,
+        "median": 0.9999998509883881,
+        "low": 0.9968891964874406,
+        "high": 0.9998905351563641
+      },
+      "repaired": {
+        "n": 345,
+        "mean": 0.06376811594202898,
+        "median": 0.0,
+        "low": 0.04492753623188406,
+        "high": 0.08405797101449275
+      },
+      "damaged": {
+        "n": 345,
+        "mean": 0.05217391304347826,
+        "median": 0.0,
+        "low": 0.034782608695652174,
+        "high": 0.07101449275362319
+      },
+      "js_mean": 0.07745393219288682
+    },
+    {
+      "candidate": "anchor_heads_8",
+      "dataset": "all",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 345,
+        "mean": 0.4826086956521739,
+        "median": 0.5,
+        "low": 0.43333333333333335,
+        "high": 0.5304347826086957
+      },
+      "strict_accuracy": {
+        "n": 345,
+        "mean": 0.4811594202898551,
+        "median": 0.5,
+        "low": 0.43333333333333335,
+        "high": 0.527536231884058
+      },
+      "accuracy_change": {
+        "n": 345,
+        "mean": 0.08260869565217391,
+        "median": 0.0,
+        "low": 0.0536231884057971,
+        "high": 0.11159420289855072
+      },
+      "strict_accuracy_change": {
+        "n": 345,
+        "mean": 0.08550724637681159,
+        "median": 0.0,
+        "low": 0.05652173913043478,
+        "high": 0.1144927536231884
+      },
+      "fidelity": {
+        "n": 345,
+        "mean": 0.7942028985507247,
+        "median": 1.0,
+        "low": 0.7623188405797101,
+        "high": 0.8246376811594203
+      },
+      "code_rate": {
+        "n": 345,
+        "mean": 0.9927536231884058,
+        "median": 1.0,
+        "low": 0.9840579710144928,
+        "high": 0.9985507246376811
+      },
+      "candidate_mass": {
+        "n": 345,
+        "mean": 0.9921906196120857,
+        "median": 0.9999997317790985,
+        "low": 0.9854433309022282,
+        "high": 0.997544253455556
+      },
+      "repaired": {
+        "n": 345,
+        "mean": 0.11014492753623188,
+        "median": 0.0,
+        "low": 0.08550724637681159,
+        "high": 0.13623188405797101
+      },
+      "damaged": {
+        "n": 345,
+        "mean": 0.02753623188405797,
+        "median": 0.0,
+        "low": 0.015942028985507246,
+        "high": 0.04057971014492753
+      },
+      "js_mean": 0.09830917632293559
+    },
+    {
+      "candidate": "anchor_heads_8",
+      "dataset": "MedQA",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 194,
+        "mean": 0.6030927835051546,
+        "median": 1.0,
+        "low": 0.5412371134020618,
+        "high": 0.6675257731958762
+      },
+      "strict_accuracy": {
+        "n": 194,
+        "mean": 0.6005154639175257,
+        "median": 1.0,
+        "low": 0.538659793814433,
+        "high": 0.6649484536082474
+      },
+      "accuracy_change": {
+        "n": 194,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": -0.03865979381443299,
+        "high": 0.041237113402061855
+      },
+      "strict_accuracy_change": {
+        "n": 194,
+        "mean": 0.005154639175257732,
+        "median": 0.0,
+        "low": -0.03350515463917526,
+        "high": 0.04639175257731959
+      },
+      "fidelity": {
+        "n": 194,
+        "mean": 0.845360824742268,
+        "median": 1.0,
+        "low": 0.8066365979381444,
+        "high": 0.884020618556701
+      },
+      "code_rate": {
+        "n": 194,
+        "mean": 0.9974226804123711,
+        "median": 1.0,
+        "low": 0.9922680412371134,
+        "high": 1.0
+      },
+      "candidate_mass": {
+        "n": 194,
+        "mean": 0.9980421811342239,
+        "median": 0.9999998211860657,
+        "low": 0.9947326194879014,
+        "high": 0.9998924894162368
+      },
+      "repaired": {
+        "n": 194,
+        "mean": 0.06443298969072164,
+        "median": 0.0,
+        "low": 0.03865979381443299,
+        "high": 0.09278350515463918
+      },
+      "damaged": {
+        "n": 194,
+        "mean": 0.06443298969072164,
+        "median": 0.0,
+        "low": 0.03865979381443299,
+        "high": 0.09278350515463918
+      },
+      "js_mean": 0.07510455503340226
+    },
+    {
+      "candidate": "anchor_heads_8",
+      "dataset": "MedQA",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 194,
+        "mean": 0.4639175257731959,
+        "median": 0.5,
+        "low": 0.39948453608247425,
+        "high": 0.5284149484536085
+      },
+      "strict_accuracy": {
+        "n": 194,
+        "mean": 0.46134020618556704,
+        "median": 0.5,
+        "low": 0.39690721649484534,
+        "high": 0.5257731958762887
+      },
+      "accuracy_change": {
+        "n": 194,
+        "mean": 0.09020618556701031,
+        "median": 0.0,
+        "low": 0.04896907216494845,
+        "high": 0.13402061855670103
+      },
+      "strict_accuracy_change": {
+        "n": 194,
+        "mean": 0.09278350515463918,
+        "median": 0.0,
+        "low": 0.05154639175257732,
+        "high": 0.13402061855670103
+      },
+      "fidelity": {
+        "n": 194,
+        "mean": 0.7963917525773195,
+        "median": 1.0,
+        "low": 0.7525773195876289,
+        "high": 0.8376288659793815
+      },
+      "code_rate": {
+        "n": 194,
+        "mean": 0.9896907216494846,
+        "median": 1.0,
+        "low": 0.9742268041237113,
+        "high": 1.0
+      },
+      "candidate_mass": {
+        "n": 194,
+        "mean": 0.9905937832885796,
+        "median": 0.9999997168779373,
+        "low": 0.9794908130080583,
+        "high": 0.999018401625691
+      },
+      "repaired": {
+        "n": 194,
+        "mean": 0.11597938144329897,
+        "median": 0.0,
+        "low": 0.08247422680412371,
+        "high": 0.15463917525773196
+      },
+      "damaged": {
+        "n": 194,
+        "mean": 0.02577319587628866,
+        "median": 0.0,
+        "low": 0.010309278350515464,
+        "high": 0.04381443298969072
+      },
+      "js_mean": 0.09778262725826135
+    },
+    {
+      "candidate": "anchor_heads_8",
+      "dataset": "MedMCQA",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 125,
+        "mean": 0.612,
+        "median": 1.0,
+        "low": 0.536,
+        "high": 0.688
+      },
+      "strict_accuracy": {
+        "n": 125,
+        "mean": 0.612,
+        "median": 1.0,
+        "low": 0.536,
+        "high": 0.688
+      },
+      "accuracy_change": {
+        "n": 125,
+        "mean": 0.032,
+        "median": 0.0,
+        "low": -0.012,
+        "high": 0.076
+      },
+      "strict_accuracy_change": {
+        "n": 125,
+        "mean": 0.032,
+        "median": 0.0,
+        "low": -0.012,
+        "high": 0.076
+      },
+      "fidelity": {
+        "n": 125,
+        "mean": 0.836,
+        "median": 1.0,
+        "low": 0.78,
+        "high": 0.884
+      },
+      "code_rate": {
+        "n": 125,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9709201628635685,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "candidate_mass": {
+        "n": 125,
+        "mean": 0.9996258764266968,
+        "median": 0.9999999403953552,
+        "low": 0.9988929257690906,
+        "high": 0.9999936108469963
+      },
+      "repaired": {
+        "n": 125,
+        "mean": 0.072,
+        "median": 0.0,
+        "low": 0.04,
+        "high": 0.108
+      },
+      "damaged": {
+        "n": 125,
+        "mean": 0.04,
+        "median": 0.0,
+        "low": 0.016,
+        "high": 0.064
+      },
+      "js_mean": 0.07792643378026172
+    },
+    {
+      "candidate": "anchor_heads_8",
+      "dataset": "MedMCQA",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 125,
+        "mean": 0.528,
+        "median": 0.5,
+        "low": 0.448,
+        "high": 0.604
+      },
+      "strict_accuracy": {
+        "n": 125,
+        "mean": 0.528,
+        "median": 0.5,
+        "low": 0.448,
+        "high": 0.604
+      },
+      "accuracy_change": {
+        "n": 125,
+        "mean": 0.084,
+        "median": 0.0,
+        "low": 0.03990000000000003,
+        "high": 0.132
+      },
+      "strict_accuracy_change": {
+        "n": 125,
+        "mean": 0.088,
+        "median": 0.0,
+        "low": 0.04,
+        "high": 0.136
+      },
+      "fidelity": {
+        "n": 125,
+        "mean": 0.788,
+        "median": 1.0,
+        "low": 0.732,
+        "high": 0.836
+      },
+      "code_rate": {
+        "n": 125,
+        "mean": 0.996,
+        "median": 1.0,
+        "low": 0.988,
+        "high": 1.0
+      },
+      "candidate_mass": {
+        "n": 125,
+        "mean": 0.9931451277136802,
+        "median": 0.9999997615814209,
+        "low": 0.9827298616230488,
+        "high": 0.9992203992903232
+      },
+      "repaired": {
+        "n": 125,
+        "mean": 0.112,
+        "median": 0.0,
+        "low": 0.076,
+        "high": 0.152
+      },
+      "damaged": {
+        "n": 125,
+        "mean": 0.028,
+        "median": 0.0,
+        "low": 0.008,
+        "high": 0.052
+      },
+      "js_mean": 0.10229026324531447
+    },
+    {
+      "candidate": "anchor_heads_8",
+      "dataset": "MMLU",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 26,
+        "mean": 0.4423076923076923,
+        "median": 0.25,
+        "low": 0.2692307692307692,
+        "high": 0.6346153846153846
+      },
+      "strict_accuracy": {
+        "n": 26,
+        "mean": 0.4423076923076923,
+        "median": 0.25,
+        "low": 0.2692307692307692,
+        "high": 0.6346153846153846
+      },
+      "accuracy_change": {
+        "n": 26,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": -0.057692307692307696,
+        "high": 0.057692307692307696
+      },
+      "strict_accuracy_change": {
+        "n": 26,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": -0.057692307692307696,
+        "high": 0.057692307692307696
+      },
+      "fidelity": {
+        "n": 26,
+        "mean": 0.8269230769230769,
+        "median": 1.0,
+        "low": 0.7115384615384616,
+        "high": 0.9423076923076923
+      },
+      "code_rate": {
+        "n": 26,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.8677253955022459,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "candidate_mass": {
+        "n": 26,
+        "mean": 0.9999675074448953,
+        "median": 0.9999993741512299,
+        "low": 0.9999062177080374,
+        "high": 0.9999995059978504
+      },
+      "repaired": {
+        "n": 26,
+        "mean": 0.019230769230769232,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.057692307692307696
+      },
+      "damaged": {
+        "n": 26,
+        "mean": 0.019230769230769232,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.057692307692307696
+      },
+      "js_mean": 0.09271225798204608
+    },
+    {
+      "candidate": "anchor_heads_8",
+      "dataset": "MMLU",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 26,
+        "mean": 0.40384615384615385,
+        "median": 0.0,
+        "low": 0.23076923076923078,
+        "high": 0.5769230769230769
+      },
+      "strict_accuracy": {
+        "n": 26,
+        "mean": 0.40384615384615385,
+        "median": 0.0,
+        "low": 0.23076923076923078,
+        "high": 0.5769230769230769
+      },
+      "accuracy_change": {
+        "n": 26,
+        "mean": 0.019230769230769232,
+        "median": 0.0,
+        "low": -0.057692307692307696,
+        "high": 0.09615384615384616
+      },
+      "strict_accuracy_change": {
+        "n": 26,
+        "mean": 0.019230769230769232,
+        "median": 0.0,
+        "low": -0.057692307692307696,
+        "high": 0.09615384615384616
+      },
+      "fidelity": {
+        "n": 26,
+        "mean": 0.8076923076923077,
+        "median": 1.0,
+        "low": 0.6923076923076923,
+        "high": 0.9038461538461539
+      },
+      "code_rate": {
+        "n": 26,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.8677253955022459,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "candidate_mass": {
+        "n": 26,
+        "mean": 0.9995164939990411,
+        "median": 0.9999995082616806,
+        "low": 0.998576354722564,
+        "high": 0.9999934688497049
+      },
+      "repaired": {
+        "n": 26,
+        "mean": 0.057692307692307696,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.11538461538461539
+      },
+      "damaged": {
+        "n": 26,
+        "mean": 0.038461538461538464,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.09615384615384616
+      },
+      "js_mean": 0.08309820144791426
+    },
+    {
+      "candidate": "depth_matched_random_mlp_2",
+      "dataset": "all",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 345,
+        "mean": 0.591304347826087,
+        "median": 0.5,
+        "low": 0.5463768115942029,
+        "high": 0.6347826086956522
+      },
+      "strict_accuracy": {
+        "n": 345,
+        "mean": 0.591304347826087,
+        "median": 0.5,
+        "low": 0.5463768115942029,
+        "high": 0.6347826086956522
+      },
+      "accuracy_change": {
+        "n": 345,
+        "mean": 0.008695652173913044,
+        "median": 0.0,
+        "low": -0.005797101449275362,
+        "high": 0.02318840579710145
+      },
+      "strict_accuracy_change": {
+        "n": 345,
+        "mean": 0.013043478260869565,
+        "median": 0.0,
+        "low": -0.0014492753623188406,
+        "high": 0.028985507246376812
+      },
+      "fidelity": {
+        "n": 345,
+        "mean": 0.9478260869565217,
+        "median": 1.0,
+        "low": 0.9318840579710145,
+        "high": 0.9637681159420289
+      },
+      "code_rate": {
+        "n": 345,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9893645563432555,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "candidate_mass": {
+        "n": 345,
+        "mean": 0.9878682119258936,
+        "median": 0.9956672489643097,
+        "low": 0.9852993732345277,
+        "high": 0.9901180011228374
+      },
+      "repaired": {
+        "n": 345,
+        "mean": 0.02318840579710145,
+        "median": 0.0,
+        "low": 0.013043478260869565,
+        "high": 0.034782608695652174
+      },
+      "damaged": {
+        "n": 345,
+        "mean": 0.014492753623188406,
+        "median": 0.0,
+        "low": 0.005797101449275362,
+        "high": 0.02463768115942029
+      },
+      "js_mean": 0.023479308588402345
+    },
+    {
+      "candidate": "depth_matched_random_mlp_2",
+      "dataset": "all",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 345,
+        "mean": 0.4,
+        "median": 0.0,
+        "low": 0.3521739130434783,
+        "high": 0.4463768115942029
+      },
+      "strict_accuracy": {
+        "n": 345,
+        "mean": 0.39565217391304347,
+        "median": 0.0,
+        "low": 0.34782608695652173,
+        "high": 0.4420289855072464
+      },
+      "accuracy_change": {
+        "n": 345,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": -0.015942028985507246,
+        "high": 0.014528985507246508
+      },
+      "strict_accuracy_change": {
+        "n": 345,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": -0.015942028985507246,
+        "high": 0.014492753623188406
+      },
+      "fidelity": {
+        "n": 345,
+        "mean": 0.9217391304347826,
+        "median": 1.0,
+        "low": 0.9,
+        "high": 0.9434782608695652
+      },
+      "code_rate": {
+        "n": 345,
+        "mean": 0.991304347826087,
+        "median": 1.0,
+        "low": 0.9840579710144928,
+        "high": 0.9971014492753624
+      },
+      "candidate_mass": {
+        "n": 345,
+        "mean": 0.9713928832740023,
+        "median": 0.9946201145648956,
+        "low": 0.9624825144866886,
+        "high": 0.9788851362115879
+      },
+      "repaired": {
+        "n": 345,
+        "mean": 0.02608695652173913,
+        "median": 0.0,
+        "low": 0.014492753623188406,
+        "high": 0.03768115942028986
+      },
+      "damaged": {
+        "n": 345,
+        "mean": 0.02608695652173913,
+        "median": 0.0,
+        "low": 0.014492753623188406,
+        "high": 0.0391304347826087
+      },
+      "js_mean": 0.025243855558828614
+    },
+    {
+      "candidate": "depth_matched_random_mlp_2",
+      "dataset": "MedQA",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 194,
+        "mean": 0.6185567010309279,
+        "median": 0.75,
+        "low": 0.5567010309278351,
+        "high": 0.6778350515463918
+      },
+      "strict_accuracy": {
+        "n": 194,
+        "mean": 0.6185567010309279,
+        "median": 0.75,
+        "low": 0.5567010309278351,
+        "high": 0.6778350515463918
+      },
+      "accuracy_change": {
+        "n": 194,
+        "mean": 0.015463917525773196,
+        "median": 0.0,
+        "low": -0.005154639175257732,
+        "high": 0.03608247422680412
+      },
+      "strict_accuracy_change": {
+        "n": 194,
+        "mean": 0.023195876288659795,
+        "median": 0.0,
+        "low": 0.002577319587628866,
+        "high": 0.043878865979381676
+      },
+      "fidelity": {
+        "n": 194,
+        "mean": 0.9484536082474226,
+        "median": 1.0,
+        "low": 0.9252577319587629,
+        "high": 0.9690721649484536
+      },
+      "code_rate": {
+        "n": 194,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9811647991504142,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "candidate_mass": {
+        "n": 194,
+        "mean": 0.9914090312326077,
+        "median": 0.9961753040552139,
+        "low": 0.9893025452136686,
+        "high": 0.9932375941848017
+      },
+      "repaired": {
+        "n": 194,
+        "mean": 0.028350515463917526,
+        "median": 0.0,
+        "low": 0.01288659793814433,
+        "high": 0.04639175257731959
+      },
+      "damaged": {
+        "n": 194,
+        "mean": 0.01288659793814433,
+        "median": 0.0,
+        "low": 0.002577319587628866,
+        "high": 0.02577319587628866
+      },
+      "js_mean": 0.022006947295614945
+    },
+    {
+      "candidate": "depth_matched_random_mlp_2",
+      "dataset": "MedQA",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 194,
+        "mean": 0.36597938144329895,
+        "median": 0.0,
+        "low": 0.30412371134020616,
+        "high": 0.43041237113402064
+      },
+      "strict_accuracy": {
+        "n": 194,
+        "mean": 0.36597938144329895,
+        "median": 0.0,
+        "low": 0.30412371134020616,
+        "high": 0.43041237113402064
+      },
+      "accuracy_change": {
+        "n": 194,
+        "mean": -0.007731958762886598,
+        "median": 0.0,
+        "low": -0.02577319587628866,
+        "high": 0.010309278350515464
+      },
+      "strict_accuracy_change": {
+        "n": 194,
+        "mean": -0.002577319587628866,
+        "median": 0.0,
+        "low": -0.020618556701030927,
+        "high": 0.015463917525773196
+      },
+      "fidelity": {
+        "n": 194,
+        "mean": 0.9381443298969072,
+        "median": 1.0,
+        "low": 0.9123711340206185,
+        "high": 0.961340206185567
+      },
+      "code_rate": {
+        "n": 194,
+        "mean": 0.9948453608247423,
+        "median": 1.0,
+        "low": 0.9871134020618557,
+        "high": 1.0
+      },
+      "candidate_mass": {
+        "n": 194,
+        "mean": 0.9808685665892571,
+        "median": 0.995485246181488,
+        "low": 0.9711024250489535,
+        "high": 0.988680648918926
+      },
+      "repaired": {
+        "n": 194,
+        "mean": 0.01804123711340206,
+        "median": 0.0,
+        "low": 0.007731958762886598,
+        "high": 0.030927835051546393
+      },
+      "damaged": {
+        "n": 194,
+        "mean": 0.02577319587628866,
+        "median": 0.0,
+        "low": 0.010309278350515464,
+        "high": 0.04381443298969072
+      },
+      "js_mean": 0.01920659202941778
+    },
+    {
+      "candidate": "depth_matched_random_mlp_2",
+      "dataset": "MedMCQA",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 125,
+        "mean": 0.576,
+        "median": 0.5,
+        "low": 0.5,
+        "high": 0.648
+      },
+      "strict_accuracy": {
+        "n": 125,
+        "mean": 0.576,
+        "median": 0.5,
+        "low": 0.5,
+        "high": 0.648
+      },
+      "accuracy_change": {
+        "n": 125,
+        "mean": -0.004,
+        "median": 0.0,
+        "low": -0.028,
+        "high": 0.02
+      },
+      "strict_accuracy_change": {
+        "n": 125,
+        "mean": -0.004,
+        "median": 0.0,
+        "low": -0.028,
+        "high": 0.02
+      },
+      "fidelity": {
+        "n": 125,
+        "mean": 0.944,
+        "median": 1.0,
+        "low": 0.916,
+        "high": 0.972
+      },
+      "code_rate": {
+        "n": 125,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9709201628635685,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "candidate_mass": {
+        "n": 125,
+        "mean": 0.9831831676959991,
+        "median": 0.9947617053985596,
+        "low": 0.9772124683976173,
+        "high": 0.9879712419807911
+      },
+      "repaired": {
+        "n": 125,
+        "mean": 0.016,
+        "median": 0.0,
+        "low": 0.004,
+        "high": 0.032
+      },
+      "damaged": {
+        "n": 125,
+        "mean": 0.02,
+        "median": 0.0,
+        "low": 0.004,
+        "high": 0.04
+      },
+      "js_mean": 0.02440373033922416
+    },
+    {
+      "candidate": "depth_matched_random_mlp_2",
+      "dataset": "MedMCQA",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 125,
+        "mean": 0.444,
+        "median": 0.5,
+        "low": 0.364,
+        "high": 0.524
+      },
+      "strict_accuracy": {
+        "n": 125,
+        "mean": 0.432,
+        "median": 0.5,
+        "low": 0.356,
+        "high": 0.508
+      },
+      "accuracy_change": {
+        "n": 125,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": -0.032,
+        "high": 0.032
+      },
+      "strict_accuracy_change": {
+        "n": 125,
+        "mean": -0.008,
+        "median": 0.0,
+        "low": -0.036,
+        "high": 0.02
+      },
+      "fidelity": {
+        "n": 125,
+        "mean": 0.904,
+        "median": 1.0,
+        "low": 0.86,
+        "high": 0.944
+      },
+      "code_rate": {
+        "n": 125,
+        "mean": 0.988,
+        "median": 1.0,
+        "low": 0.972,
+        "high": 1.0
+      },
+      "candidate_mass": {
+        "n": 125,
+        "mean": 0.961055933535099,
+        "median": 0.9925342798233032,
+        "low": 0.9448324477568268,
+        "high": 0.9752720934510232
+      },
+      "repaired": {
+        "n": 125,
+        "mean": 0.032,
+        "median": 0.0,
+        "low": 0.012,
+        "high": 0.056
+      },
+      "damaged": {
+        "n": 125,
+        "mean": 0.032,
+        "median": 0.0,
+        "low": 0.012,
+        "high": 0.06
+      },
+      "js_mean": 0.034361028749105564
+    },
+    {
+      "candidate": "depth_matched_random_mlp_2",
+      "dataset": "MMLU",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 26,
+        "mean": 0.46153846153846156,
+        "median": 0.5,
+        "low": 0.28846153846153844,
+        "high": 0.6346153846153846
+      },
+      "strict_accuracy": {
+        "n": 26,
+        "mean": 0.46153846153846156,
+        "median": 0.5,
+        "low": 0.28846153846153844,
+        "high": 0.6346153846153846
+      },
+      "accuracy_change": {
+        "n": 26,
+        "mean": 0.019230769230769232,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.057692307692307696
+      },
+      "strict_accuracy_change": {
+        "n": 26,
+        "mean": 0.019230769230769232,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.057692307692307696
+      },
+      "fidelity": {
+        "n": 26,
+        "mean": 0.9615384615384616,
+        "median": 1.0,
+        "low": 0.9038461538461539,
+        "high": 1.0
+      },
+      "code_rate": {
+        "n": 26,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.8677253955022459,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "candidate_mass": {
+        "n": 26,
+        "mean": 0.9839725035887498,
+        "median": 0.9942340403795242,
+        "low": 0.9742985993337172,
+        "high": 0.9919523291003245
+      },
+      "repaired": {
+        "n": 26,
+        "mean": 0.019230769230769232,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.057692307692307696
+      },
+      "damaged": {
+        "n": 26,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "js_mean": 0.030021053663326528
+    },
+    {
+      "candidate": "depth_matched_random_mlp_2",
+      "dataset": "MMLU",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 26,
+        "mean": 0.4423076923076923,
+        "median": 0.5,
+        "low": 0.2692307692307692,
+        "high": 0.6153846153846154
+      },
+      "strict_accuracy": {
+        "n": 26,
+        "mean": 0.4423076923076923,
+        "median": 0.5,
+        "low": 0.2692307692307692,
+        "high": 0.6153846153846154
+      },
+      "accuracy_change": {
+        "n": 26,
+        "mean": 0.057692307692307696,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.1346153846153846
+      },
+      "strict_accuracy_change": {
+        "n": 26,
+        "mean": 0.057692307692307696,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.1346153846153846
+      },
+      "fidelity": {
+        "n": 26,
+        "mean": 0.8846153846153846,
+        "median": 1.0,
+        "low": 0.8076923076923077,
+        "high": 0.9615384615384616
+      },
+      "code_rate": {
+        "n": 26,
+        "mean": 0.9807692307692307,
+        "median": 1.0,
+        "low": 0.9423076923076923,
+        "high": 1.0
+      },
+      "candidate_mass": {
+        "n": 26,
+        "mean": 0.9503865815125979,
+        "median": 0.9936845302581787,
+        "low": 0.909524025567449,
+        "high": 0.9799363108781668
+      },
+      "repaired": {
+        "n": 26,
+        "mean": 0.057692307692307696,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.1346153846153846
+      },
+      "damaged": {
+        "n": 26,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "js_mean": 0.026458566171177963
+    },
+    {
+      "candidate": "block_influence_2",
+      "dataset": "all",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 345,
+        "mean": 0.4956521739130435,
+        "median": 0.5,
+        "low": 0.4535869565217392,
+        "high": 0.5391666666666668
+      },
+      "strict_accuracy": {
+        "n": 345,
+        "mean": 0.4927536231884058,
+        "median": 0.5,
+        "low": 0.45072463768115945,
+        "high": 0.5376811594202898
+      },
+      "accuracy_change": {
+        "n": 345,
+        "mean": -0.08695652173913043,
+        "median": 0.0,
+        "low": -0.12753623188405797,
+        "high": -0.04492753623188406
+      },
+      "strict_accuracy_change": {
+        "n": 345,
+        "mean": -0.08550724637681159,
+        "median": 0.0,
+        "low": -0.12608695652173912,
+        "high": -0.04492753623188406
+      },
+      "fidelity": {
+        "n": 345,
+        "mean": 0.6405797101449275,
+        "median": 0.5,
+        "low": 0.6028985507246377,
+        "high": 0.6797101449275362
+      },
+      "code_rate": {
+        "n": 345,
+        "mean": 0.9768115942028985,
+        "median": 1.0,
+        "low": 0.9637681159420289,
+        "high": 0.9884057971014493
+      },
+      "candidate_mass": {
+        "n": 345,
+        "mean": 0.9584393378158195,
+        "median": 0.9992869198322296,
+        "low": 0.9473231113251245,
+        "high": 0.9689359456796092
+      },
+      "repaired": {
+        "n": 345,
+        "mean": 0.09565217391304348,
+        "median": 0.0,
+        "low": 0.07391304347826087,
+        "high": 0.11884057971014493
+      },
+      "damaged": {
+        "n": 345,
+        "mean": 0.1826086956521739,
+        "median": 0.0,
+        "low": 0.15217391304347827,
+        "high": 0.21304347826086956
+      },
+      "js_mean": 0.19895825004786286
+    },
+    {
+      "candidate": "block_influence_2",
+      "dataset": "all",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 345,
+        "mean": 0.38405797101449274,
+        "median": 0.5,
+        "low": 0.34347826086956523,
+        "high": 0.427536231884058
+      },
+      "strict_accuracy": {
+        "n": 345,
+        "mean": 0.3739130434782609,
+        "median": 0.5,
+        "low": 0.3318840579710145,
+        "high": 0.41594202898550725
+      },
+      "accuracy_change": {
+        "n": 345,
+        "mean": -0.015942028985507246,
+        "median": 0.0,
+        "low": -0.05507246376811594,
+        "high": 0.02463768115942029
+      },
+      "strict_accuracy_change": {
+        "n": 345,
+        "mean": -0.021739130434782608,
+        "median": 0.0,
+        "low": -0.06086956521739131,
+        "high": 0.017391304347826087
+      },
+      "fidelity": {
+        "n": 345,
+        "mean": 0.6507246376811594,
+        "median": 0.5,
+        "low": 0.6130434782608696,
+        "high": 0.6869565217391305
+      },
+      "code_rate": {
+        "n": 345,
+        "mean": 0.9739130434782609,
+        "median": 1.0,
+        "low": 0.9608695652173913,
+        "high": 0.9855072463768116
+      },
+      "candidate_mass": {
+        "n": 345,
+        "mean": 0.9570954109946994,
+        "median": 0.9989703595638275,
+        "low": 0.9436916181177536,
+        "high": 0.9687949325336291
+      },
+      "repaired": {
+        "n": 345,
+        "mean": 0.10579710144927536,
+        "median": 0.0,
+        "low": 0.08260869565217391,
+        "high": 0.13043478260869565
+      },
+      "damaged": {
+        "n": 345,
+        "mean": 0.12173913043478261,
+        "median": 0.0,
+        "low": 0.09565217391304348,
+        "high": 0.15072463768115943
+      },
+      "js_mean": 0.20297610930093904
+    },
+    {
+      "candidate": "block_influence_2",
+      "dataset": "MedQA",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 194,
+        "mean": 0.4742268041237113,
+        "median": 0.5,
+        "low": 0.41494845360824745,
+        "high": 0.5360824742268041
+      },
+      "strict_accuracy": {
+        "n": 194,
+        "mean": 0.47164948453608246,
+        "median": 0.5,
+        "low": 0.4097938144329897,
+        "high": 0.5360824742268041
+      },
+      "accuracy_change": {
+        "n": 194,
+        "mean": -0.12886597938144329,
+        "median": 0.0,
+        "low": -0.18814432989690721,
+        "high": -0.07216494845360824
+      },
+      "strict_accuracy_change": {
+        "n": 194,
+        "mean": -0.12371134020618557,
+        "median": 0.0,
+        "low": -0.18041237113402062,
+        "high": -0.06958762886597938
+      },
+      "fidelity": {
+        "n": 194,
+        "mean": 0.6185567010309279,
+        "median": 0.5,
+        "low": 0.5644329896907216,
+        "high": 0.672744845360825
+      },
+      "code_rate": {
+        "n": 194,
+        "mean": 0.9690721649484536,
+        "median": 1.0,
+        "low": 0.9458762886597938,
+        "high": 0.9871134020618557
+      },
+      "candidate_mass": {
+        "n": 194,
+        "mean": 0.9520668781640911,
+        "median": 0.9992528110742569,
+        "low": 0.9348116663217391,
+        "high": 0.9674105896633695
+      },
+      "repaired": {
+        "n": 194,
+        "mean": 0.08505154639175258,
+        "median": 0.0,
+        "low": 0.05670103092783505,
+        "high": 0.11597938144329897
+      },
+      "damaged": {
+        "n": 194,
+        "mean": 0.21391752577319587,
+        "median": 0.0,
+        "low": 0.17010309278350516,
+        "high": 0.2603092783505155
+      },
+      "js_mean": 0.21388987067018317
+    },
+    {
+      "candidate": "block_influence_2",
+      "dataset": "MedQA",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 194,
+        "mean": 0.3943298969072165,
+        "median": 0.5,
+        "low": 0.33762886597938147,
+        "high": 0.4536082474226804
+      },
+      "strict_accuracy": {
+        "n": 194,
+        "mean": 0.38144329896907214,
+        "median": 0.5,
+        "low": 0.3247422680412371,
+        "high": 0.44072164948453607
+      },
+      "accuracy_change": {
+        "n": 194,
+        "mean": 0.020618556701030927,
+        "median": 0.0,
+        "low": -0.030927835051546393,
+        "high": 0.07216494845360824
+      },
+      "strict_accuracy_change": {
+        "n": 194,
+        "mean": 0.01288659793814433,
+        "median": 0.0,
+        "low": -0.03608247422680412,
+        "high": 0.06192010309278374
+      },
+      "fidelity": {
+        "n": 194,
+        "mean": 0.6649484536082474,
+        "median": 0.5,
+        "low": 0.615979381443299,
+        "high": 0.7139175257731959
+      },
+      "code_rate": {
+        "n": 194,
+        "mean": 0.9664948453608248,
+        "median": 1.0,
+        "low": 0.9458762886597938,
+        "high": 0.9845360824742269
+      },
+      "candidate_mass": {
+        "n": 194,
+        "mean": 0.9577497448364138,
+        "median": 0.9990596771240234,
+        "low": 0.9409313331784191,
+        "high": 0.9733539543205815
+      },
+      "repaired": {
+        "n": 194,
+        "mean": 0.12371134020618557,
+        "median": 0.0,
+        "low": 0.09278350515463918,
+        "high": 0.15721649484536082
+      },
+      "damaged": {
+        "n": 194,
+        "mean": 0.10309278350515463,
+        "median": 0.0,
+        "low": 0.06958762886597938,
+        "high": 0.13917525773195877
+      },
+      "js_mean": 0.20118515886614158
+    },
+    {
+      "candidate": "block_influence_2",
+      "dataset": "MedMCQA",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 125,
+        "mean": 0.524,
+        "median": 0.5,
+        "low": 0.452,
+        "high": 0.592
+      },
+      "strict_accuracy": {
+        "n": 125,
+        "mean": 0.52,
+        "median": 0.5,
+        "low": 0.448,
+        "high": 0.588
+      },
+      "accuracy_change": {
+        "n": 125,
+        "mean": -0.056,
+        "median": 0.0,
+        "low": -0.12,
+        "high": 0.012
+      },
+      "strict_accuracy_change": {
+        "n": 125,
+        "mean": -0.06,
+        "median": 0.0,
+        "low": -0.124,
+        "high": 0.008
+      },
+      "fidelity": {
+        "n": 125,
+        "mean": 0.672,
+        "median": 1.0,
+        "low": 0.608,
+        "high": 0.736
+      },
+      "code_rate": {
+        "n": 125,
+        "mean": 0.988,
+        "median": 1.0,
+        "low": 0.972,
+        "high": 1.0
+      },
+      "candidate_mass": {
+        "n": 125,
+        "mean": 0.9708632268533111,
+        "median": 0.9994423389434814,
+        "low": 0.9540652264300734,
+        "high": 0.985176420622319
+      },
+      "repaired": {
+        "n": 125,
+        "mean": 0.1,
+        "median": 0.0,
+        "low": 0.064,
+        "high": 0.14
+      },
+      "damaged": {
+        "n": 125,
+        "mean": 0.156,
+        "median": 0.0,
+        "low": 0.108,
+        "high": 0.204
+      },
+      "js_mean": 0.176626838513875
+    },
+    {
+      "candidate": "block_influence_2",
+      "dataset": "MedMCQA",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 125,
+        "mean": 0.368,
+        "median": 0.0,
+        "low": 0.2999,
+        "high": 0.44
+      },
+      "strict_accuracy": {
+        "n": 125,
+        "mean": 0.36,
+        "median": 0.0,
+        "low": 0.292,
+        "high": 0.432
+      },
+      "accuracy_change": {
+        "n": 125,
+        "mean": -0.076,
+        "median": 0.0,
+        "low": -0.144,
+        "high": -0.008
+      },
+      "strict_accuracy_change": {
+        "n": 125,
+        "mean": -0.08,
+        "median": 0.0,
+        "low": -0.148,
+        "high": -0.012
+      },
+      "fidelity": {
+        "n": 125,
+        "mean": 0.652,
+        "median": 0.5,
+        "low": 0.58,
+        "high": 0.716
+      },
+      "code_rate": {
+        "n": 125,
+        "mean": 0.98,
+        "median": 1.0,
+        "low": 0.96,
+        "high": 0.996
+      },
+      "candidate_mass": {
+        "n": 125,
+        "mean": 0.9530811189338565,
+        "median": 0.9987231194972992,
+        "low": 0.9291461831593887,
+        "high": 0.9737801284465939
+      },
+      "repaired": {
+        "n": 125,
+        "mean": 0.072,
+        "median": 0.0,
+        "low": 0.04,
+        "high": 0.108
+      },
+      "damaged": {
+        "n": 125,
+        "mean": 0.148,
+        "median": 0.0,
+        "low": 0.096,
+        "high": 0.204
+      },
+      "js_mean": 0.2000200091817248
+    },
+    {
+      "candidate": "block_influence_2",
+      "dataset": "MMLU",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 26,
+        "mean": 0.5192307692307693,
+        "median": 0.5,
+        "low": 0.36538461538461536,
+        "high": 0.6730769230769231
+      },
+      "strict_accuracy": {
+        "n": 26,
+        "mean": 0.5192307692307693,
+        "median": 0.5,
+        "low": 0.36538461538461536,
+        "high": 0.6730769230769231
+      },
+      "accuracy_change": {
+        "n": 26,
+        "mean": 0.07692307692307693,
+        "median": 0.0,
+        "low": -0.038461538461538464,
+        "high": 0.21153846153846154
+      },
+      "strict_accuracy_change": {
+        "n": 26,
+        "mean": 0.07692307692307693,
+        "median": 0.0,
+        "low": -0.038461538461538464,
+        "high": 0.21153846153846154
+      },
+      "fidelity": {
+        "n": 26,
+        "mean": 0.6538461538461539,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.8076923076923077
+      },
+      "code_rate": {
+        "n": 26,
+        "mean": 0.9807692307692307,
+        "median": 1.0,
+        "low": 0.9423076923076923,
+        "high": 1.0
+      },
+      "candidate_mass": {
+        "n": 26,
+        "mean": 0.9462574548446215,
+        "median": 0.9982174038887024,
+        "low": 0.8998578221752094,
+        "high": 0.983359519048379
+      },
+      "repaired": {
+        "n": 26,
+        "mean": 0.15384615384615385,
+        "median": 0.0,
+        "low": 0.057692307692307696,
+        "high": 0.2692307692307692
+      },
+      "damaged": {
+        "n": 26,
+        "mean": 0.07692307692307693,
+        "median": 0.0,
+        "low": 0.019230769230769232,
+        "high": 0.15384615384615385
+      },
+      "js_mean": 0.1949079439331842
+    },
+    {
+      "candidate": "block_influence_2",
+      "dataset": "MMLU",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 26,
+        "mean": 0.38461538461538464,
+        "median": 0.5,
+        "low": 0.23076923076923078,
+        "high": 0.5384615384615384
+      },
+      "strict_accuracy": {
+        "n": 26,
+        "mean": 0.38461538461538464,
+        "median": 0.5,
+        "low": 0.23076923076923078,
+        "high": 0.5384615384615384
+      },
+      "accuracy_change": {
+        "n": 26,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": -0.15384615384615385,
+        "high": 0.17307692307692307
+      },
+      "strict_accuracy_change": {
+        "n": 26,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": -0.15384615384615385,
+        "high": 0.17307692307692307
+      },
+      "fidelity": {
+        "n": 26,
+        "mean": 0.5384615384615384,
+        "median": 0.5,
+        "low": 0.40384615384615385,
+        "high": 0.6730769230769231
+      },
+      "code_rate": {
+        "n": 26,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.8677253955022459,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "candidate_mass": {
+        "n": 26,
+        "mean": 0.9715125549298066,
+        "median": 0.999301016330719,
+        "low": 0.9428884044003029,
+        "high": 0.9933734000302279
+      },
+      "repaired": {
+        "n": 26,
+        "mean": 0.1346153846153846,
+        "median": 0.0,
+        "low": 0.038461538461538464,
+        "high": 0.25
+      },
+      "damaged": {
+        "n": 26,
+        "mean": 0.1346153846153846,
+        "median": 0.0,
+        "low": 0.057692307692307696,
+        "high": 0.23076923076923078
+      },
+      "js_mean": 0.2305513746568034
+    },
+    {
+      "candidate": "linear_mlp_2_r64",
+      "dataset": "all",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 345,
+        "mean": 0.5898550724637681,
+        "median": 0.5,
+        "low": 0.5434782608695652,
+        "high": 0.6347826086956522
+      },
+      "strict_accuracy": {
+        "n": 345,
+        "mean": 0.5855072463768116,
+        "median": 0.5,
+        "low": 0.5391304347826087,
+        "high": 0.6304347826086957
+      },
+      "accuracy_change": {
+        "n": 345,
+        "mean": 0.007246376811594203,
+        "median": 0.0,
+        "low": -0.005797101449275362,
+        "high": 0.021739130434782608
+      },
+      "strict_accuracy_change": {
+        "n": 345,
+        "mean": 0.007246376811594203,
+        "median": 0.0,
+        "low": -0.007246376811594203,
+        "high": 0.021739130434782608
+      },
+      "fidelity": {
+        "n": 345,
+        "mean": 0.9579710144927536,
+        "median": 1.0,
+        "low": 0.9434782608695652,
+        "high": 0.972463768115942
+      },
+      "code_rate": {
+        "n": 345,
+        "mean": 0.9927536231884058,
+        "median": 1.0,
+        "low": 0.9840579710144928,
+        "high": 0.9985507246376811
+      },
+      "candidate_mass": {
+        "n": 345,
+        "mean": 0.9930178960974234,
+        "median": 0.9999988079071045,
+        "low": 0.9869235549194981,
+        "high": 0.9976614278144594
+      },
+      "repaired": {
+        "n": 345,
+        "mean": 0.020289855072463767,
+        "median": 0.0,
+        "low": 0.010144927536231883,
+        "high": 0.03188405797101449
+      },
+      "damaged": {
+        "n": 345,
+        "mean": 0.013043478260869565,
+        "median": 0.0,
+        "low": 0.005797101449275362,
+        "high": 0.021739130434782608
+      },
+      "js_mean": 0.013059127142986427
+    },
+    {
+      "candidate": "linear_mlp_2_r64",
+      "dataset": "all",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 345,
+        "mean": 0.4144927536231884,
+        "median": 0.0,
+        "low": 0.3652173913043478,
+        "high": 0.4608695652173913
+      },
+      "strict_accuracy": {
+        "n": 345,
+        "mean": 0.4101449275362319,
+        "median": 0.0,
+        "low": 0.36086956521739133,
+        "high": 0.45652173913043476
+      },
+      "accuracy_change": {
+        "n": 345,
+        "mean": 0.014492753623188406,
+        "median": 0.0,
+        "low": -0.0014492753623188406,
+        "high": 0.030434782608695653
+      },
+      "strict_accuracy_change": {
+        "n": 345,
+        "mean": 0.014492753623188406,
+        "median": 0.0,
+        "low": -0.002898550724637681,
+        "high": 0.030434782608695653
+      },
+      "fidelity": {
+        "n": 345,
+        "mean": 0.9318840579710145,
+        "median": 1.0,
+        "low": 0.9115942028985508,
+        "high": 0.9507246376811594
+      },
+      "code_rate": {
+        "n": 345,
+        "mean": 0.9942028985507246,
+        "median": 1.0,
+        "low": 0.9884057971014493,
+        "high": 0.9985507246376811
+      },
+      "candidate_mass": {
+        "n": 345,
+        "mean": 0.9904759993803673,
+        "median": 0.9999958872795105,
+        "low": 0.984114412056903,
+        "high": 0.9954948987639037
+      },
+      "repaired": {
+        "n": 345,
+        "mean": 0.030434782608695653,
+        "median": 0.0,
+        "low": 0.017391304347826087,
+        "high": 0.04492753623188406
+      },
+      "damaged": {
+        "n": 345,
+        "mean": 0.015942028985507246,
+        "median": 0.0,
+        "low": 0.007246376811594203,
+        "high": 0.02608695652173913
+      },
+      "js_mean": 0.01958254955440093
+    },
+    {
+      "candidate": "linear_mlp_2_r64",
+      "dataset": "MedQA",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 194,
+        "mean": 0.6134020618556701,
+        "median": 1.0,
+        "low": 0.5515463917525774,
+        "high": 0.6752577319587629
+      },
+      "strict_accuracy": {
+        "n": 194,
+        "mean": 0.6056701030927835,
+        "median": 0.75,
+        "low": 0.5438144329896907,
+        "high": 0.6649484536082474
+      },
+      "accuracy_change": {
+        "n": 194,
+        "mean": 0.010309278350515464,
+        "median": 0.0,
+        "low": -0.007731958762886598,
+        "high": 0.030927835051546393
+      },
+      "strict_accuracy_change": {
+        "n": 194,
+        "mean": 0.010309278350515464,
+        "median": 0.0,
+        "low": -0.010309278350515464,
+        "high": 0.030927835051546393
+      },
+      "fidelity": {
+        "n": 194,
+        "mean": 0.9639175257731959,
+        "median": 1.0,
+        "low": 0.9432989690721649,
+        "high": 0.979381443298969
+      },
+      "code_rate": {
+        "n": 194,
+        "mean": 0.9896907216494846,
+        "median": 1.0,
+        "low": 0.9768041237113402,
+        "high": 1.0
+      },
+      "candidate_mass": {
+        "n": 194,
+        "mean": 0.990695604334403,
+        "median": 0.9999991208314896,
+        "low": 0.9805843219643497,
+        "high": 0.9979379625203683
+      },
+      "repaired": {
+        "n": 194,
+        "mean": 0.023195876288659795,
+        "median": 0.0,
+        "low": 0.010309278350515464,
+        "high": 0.03865979381443299
+      },
+      "damaged": {
+        "n": 194,
+        "mean": 0.01288659793814433,
+        "median": 0.0,
+        "low": 0.002577319587628866,
+        "high": 0.02577319587628866
+      },
+      "js_mean": 0.010604081530988449
+    },
+    {
+      "candidate": "linear_mlp_2_r64",
+      "dataset": "MedQA",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 194,
+        "mean": 0.37628865979381443,
+        "median": 0.0,
+        "low": 0.31443298969072164,
+        "high": 0.44072164948453607
+      },
+      "strict_accuracy": {
+        "n": 194,
+        "mean": 0.37371134020618557,
+        "median": 0.0,
+        "low": 0.3118556701030928,
+        "high": 0.43820876288659816
+      },
+      "accuracy_change": {
+        "n": 194,
+        "mean": 0.002577319587628866,
+        "median": 0.0,
+        "low": -0.01288659793814433,
+        "high": 0.01804123711340206
+      },
+      "strict_accuracy_change": {
+        "n": 194,
+        "mean": 0.005154639175257732,
+        "median": 0.0,
+        "low": -0.007731958762886598,
+        "high": 0.020618556701030927
+      },
+      "fidelity": {
+        "n": 194,
+        "mean": 0.961340206185567,
+        "median": 1.0,
+        "low": 0.9407216494845361,
+        "high": 0.979381443298969
+      },
+      "code_rate": {
+        "n": 194,
+        "mean": 0.9948453608247423,
+        "median": 1.0,
+        "low": 0.9871134020618557,
+        "high": 1.0
+      },
+      "candidate_mass": {
+        "n": 194,
+        "mean": 0.9911976616023127,
+        "median": 0.9999982267618179,
+        "low": 0.982202838062664,
+        "high": 0.9978149750490779
+      },
+      "repaired": {
+        "n": 194,
+        "mean": 0.01288659793814433,
+        "median": 0.0,
+        "low": 0.002577319587628866,
+        "high": 0.02577319587628866
+      },
+      "damaged": {
+        "n": 194,
+        "mean": 0.010309278350515464,
+        "median": 0.0,
+        "low": 0.002577319587628866,
+        "high": 0.020618556701030927
+      },
+      "js_mean": 0.0118117351919443
+    },
+    {
+      "candidate": "linear_mlp_2_r64",
+      "dataset": "MedMCQA",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 125,
+        "mean": 0.584,
+        "median": 0.5,
+        "low": 0.508,
+        "high": 0.66
+      },
+      "strict_accuracy": {
+        "n": 125,
+        "mean": 0.584,
+        "median": 0.5,
+        "low": 0.508,
+        "high": 0.66
+      },
+      "accuracy_change": {
+        "n": 125,
+        "mean": 0.004,
+        "median": 0.0,
+        "low": -0.016,
+        "high": 0.024
+      },
+      "strict_accuracy_change": {
+        "n": 125,
+        "mean": 0.004,
+        "median": 0.0,
+        "low": -0.016,
+        "high": 0.024
+      },
+      "fidelity": {
+        "n": 125,
+        "mean": 0.952,
+        "median": 1.0,
+        "low": 0.924,
+        "high": 0.976
+      },
+      "code_rate": {
+        "n": 125,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9709201628635685,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "candidate_mass": {
+        "n": 125,
+        "mean": 0.997830924987793,
+        "median": 0.9999983906745911,
+        "low": 0.9942450766086578,
+        "high": 0.9997809138059616
+      },
+      "repaired": {
+        "n": 125,
+        "mean": 0.016,
+        "median": 0.0,
+        "low": 0.004,
+        "high": 0.032
+      },
+      "damaged": {
+        "n": 125,
+        "mean": 0.012,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.028
+      },
+      "js_mean": 0.015670949415106935
+    },
+    {
+      "candidate": "linear_mlp_2_r64",
+      "dataset": "MedMCQA",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 125,
+        "mean": 0.472,
+        "median": 0.5,
+        "low": 0.3919,
+        "high": 0.5481000000000004
+      },
+      "strict_accuracy": {
+        "n": 125,
+        "mean": 0.464,
+        "median": 0.5,
+        "low": 0.38,
+        "high": 0.54
+      },
+      "accuracy_change": {
+        "n": 125,
+        "mean": 0.028,
+        "median": 0.0,
+        "low": -0.008,
+        "high": 0.064
+      },
+      "strict_accuracy_change": {
+        "n": 125,
+        "mean": 0.024,
+        "median": 0.0,
+        "low": -0.012,
+        "high": 0.06
+      },
+      "fidelity": {
+        "n": 125,
+        "mean": 0.908,
+        "median": 1.0,
+        "low": 0.868,
+        "high": 0.94
+      },
+      "code_rate": {
+        "n": 125,
+        "mean": 0.992,
+        "median": 1.0,
+        "low": 0.98,
+        "high": 1.0
+      },
+      "candidate_mass": {
+        "n": 125,
+        "mean": 0.9895282753705978,
+        "median": 0.9999939203262329,
+        "low": 0.9791456471204758,
+        "high": 0.9968283438146115
+      },
+      "repaired": {
+        "n": 125,
+        "mean": 0.052,
+        "median": 0.0,
+        "low": 0.024,
+        "high": 0.084
+      },
+      "damaged": {
+        "n": 125,
+        "mean": 0.024,
+        "median": 0.0,
+        "low": 0.008,
+        "high": 0.044
+      },
+      "js_mean": 0.02872287347960325
+    },
+    {
+      "candidate": "linear_mlp_2_r64",
+      "dataset": "MMLU",
+      "condition": "neutral",
+      "accuracy": {
+        "n": 26,
+        "mean": 0.4423076923076923,
+        "median": 0.5,
+        "low": 0.2692307692307692,
+        "high": 0.6153846153846154
+      },
+      "strict_accuracy": {
+        "n": 26,
+        "mean": 0.4423076923076923,
+        "median": 0.5,
+        "low": 0.2692307692307692,
+        "high": 0.6153846153846154
+      },
+      "accuracy_change": {
+        "n": 26,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": -0.057692307692307696,
+        "high": 0.057692307692307696
+      },
+      "strict_accuracy_change": {
+        "n": 26,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": -0.057692307692307696,
+        "high": 0.057692307692307696
+      },
+      "fidelity": {
+        "n": 26,
+        "mean": 0.9423076923076923,
+        "median": 1.0,
+        "low": 0.8653846153846154,
+        "high": 1.0
+      },
+      "code_rate": {
+        "n": 26,
+        "mean": 0.9807692307692307,
+        "median": 1.0,
+        "low": 0.9423076923076923,
+        "high": 1.0
+      },
+      "candidate_mass": {
+        "n": 26,
+        "mean": 0.9872062034331835,
+        "median": 0.9999987632036209,
+        "low": 0.9626409348960107,
+        "high": 0.9998804778720324
+      },
+      "repaired": {
+        "n": 26,
+        "mean": 0.019230769230769232,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.057692307692307696
+      },
+      "damaged": {
+        "n": 26,
+        "mean": 0.019230769230769232,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.057692307692307696
+      },
+      "js_mean": 0.01882070655500733
+    },
+    {
+      "candidate": "linear_mlp_2_r64",
+      "dataset": "MMLU",
+      "condition": "wrong",
+      "accuracy": {
+        "n": 26,
+        "mean": 0.4230769230769231,
+        "median": 0.5,
+        "low": 0.25,
+        "high": 0.5769230769230769
+      },
+      "strict_accuracy": {
+        "n": 26,
+        "mean": 0.4230769230769231,
+        "median": 0.5,
+        "low": 0.25,
+        "high": 0.5769230769230769
+      },
+      "accuracy_change": {
+        "n": 26,
+        "mean": 0.038461538461538464,
+        "median": 0.0,
+        "low": -0.038461538461538464,
+        "high": 0.11538461538461539
+      },
+      "strict_accuracy_change": {
+        "n": 26,
+        "mean": 0.038461538461538464,
+        "median": 0.0,
+        "low": -0.038461538461538464,
+        "high": 0.11538461538461539
+      },
+      "fidelity": {
+        "n": 26,
+        "mean": 0.8269230769230769,
+        "median": 1.0,
+        "low": 0.7115384615384616,
+        "high": 0.9230769230769231
+      },
+      "code_rate": {
+        "n": 26,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.8677253955022459,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "candidate_mass": {
+        "n": 26,
+        "mean": 0.9896476543866671,
+        "median": 0.9999718070030212,
+        "low": 0.9780937343262709,
+        "high": 0.998358529032423
+      },
+      "repaired": {
+        "n": 26,
+        "mean": 0.057692307692307696,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.1346153846153846
+      },
+      "damaged": {
+        "n": 26,
+        "mean": 0.019230769230769232,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.057692307692307696
+      },
+      "js_mean": 0.033620914772335364
+    }
+  ],
+  "generation": [
+    {
+      "candidate": "baseline",
+      "condition": "neutral",
+      "n": 60,
+      "correct": 37,
+      "accuracy": {
+        "n": 60,
+        "mean": 0.6166666666666667,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.7333333333333333
+      },
+      "listed": {
+        "n": 60,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9403705077136653,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "accuracy_change": {
+        "n": 60,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "same_diagnosis": {
+        "n": 60,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9403705077136653,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "repaired": {
+        "n": 60,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "damaged": {
+        "n": 60,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      }
+    },
+    {
+      "candidate": "baseline",
+      "condition": "wrong",
+      "n": 60,
+      "correct": 29,
+      "accuracy": {
+        "n": 60,
+        "mean": 0.48333333333333334,
+        "median": 0.0,
+        "low": 0.35,
+        "high": 0.6004166666666682
+      },
+      "listed": {
+        "n": 60,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9403705077136653,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "accuracy_change": {
+        "n": 60,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "same_diagnosis": {
+        "n": 60,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9403705077136653,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "repaired": {
+        "n": 60,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "damaged": {
+        "n": 60,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      }
+    },
+    {
+      "candidate": "early_exit",
+      "condition": "neutral",
+      "n": 60,
+      "correct": 35,
+      "accuracy": {
+        "n": 60,
+        "mean": 0.5833333333333334,
+        "median": 1.0,
+        "low": 0.45,
+        "high": 0.7166666666666667
+      },
+      "listed": {
+        "n": 60,
+        "mean": 0.9166666666666666,
+        "median": 1.0,
+        "low": 0.8333333333333334,
+        "high": 0.9833333333333333
+      },
+      "accuracy_change": {
+        "n": 60,
+        "mean": -0.03333333333333333,
+        "median": 0.0,
+        "low": -0.1,
+        "high": 0.03333333333333333
+      },
+      "same_diagnosis": {
+        "n": 60,
+        "mean": 0.8833333333333333,
+        "median": 1.0,
+        "low": 0.8,
+        "high": 0.95
+      },
+      "repaired": {
+        "n": 60,
+        "mean": 0.016666666666666666,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.05
+      },
+      "damaged": {
+        "n": 60,
+        "mean": 0.05,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.11666666666666667
+      }
+    },
+    {
+      "candidate": "early_exit",
+      "condition": "wrong",
+      "n": 60,
+      "correct": 29,
+      "accuracy": {
+        "n": 60,
+        "mean": 0.48333333333333334,
+        "median": 0.0,
+        "low": 0.35,
+        "high": 0.6166666666666667
+      },
+      "listed": {
+        "n": 60,
+        "mean": 0.9666666666666667,
+        "median": 1.0,
+        "low": 0.9166666666666666,
+        "high": 1.0
+      },
+      "accuracy_change": {
+        "n": 60,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": -0.05,
+        "high": 0.05
+      },
+      "same_diagnosis": {
+        "n": 60,
+        "mean": 0.95,
+        "median": 1.0,
+        "low": 0.8833333333333333,
+        "high": 1.0
+      },
+      "repaired": {
+        "n": 60,
+        "mean": 0.016666666666666666,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.05
+      },
+      "damaged": {
+        "n": 60,
+        "mean": 0.016666666666666666,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.05
+      }
+    },
+    {
+      "candidate": "drop_mlp_2",
+      "condition": "neutral",
+      "n": 60,
+      "correct": 34,
+      "accuracy": {
+        "n": 60,
+        "mean": 0.5666666666666667,
+        "median": 1.0,
+        "low": 0.4495833333333335,
+        "high": 0.6833333333333333
+      },
+      "listed": {
+        "n": 60,
+        "mean": 0.9333333333333333,
+        "median": 1.0,
+        "low": 0.8666666666666667,
+        "high": 0.9833333333333333
+      },
+      "accuracy_change": {
+        "n": 60,
+        "mean": -0.05,
+        "median": 0.0,
+        "low": -0.11666666666666667,
+        "high": 0.0
+      },
+      "same_diagnosis": {
+        "n": 60,
+        "mean": 0.9,
+        "median": 1.0,
+        "low": 0.8166666666666667,
+        "high": 0.9666666666666667
+      },
+      "repaired": {
+        "n": 60,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "damaged": {
+        "n": 60,
+        "mean": 0.05,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.11666666666666667
+      }
+    },
+    {
+      "candidate": "drop_mlp_2",
+      "condition": "wrong",
+      "n": 60,
+      "correct": 26,
+      "accuracy": {
+        "n": 60,
+        "mean": 0.43333333333333335,
+        "median": 0.0,
+        "low": 0.31666666666666665,
+        "high": 0.5666666666666667
+      },
+      "listed": {
+        "n": 60,
+        "mean": 0.9833333333333333,
+        "median": 1.0,
+        "low": 0.95,
+        "high": 1.0
+      },
+      "accuracy_change": {
+        "n": 60,
+        "mean": -0.05,
+        "median": 0.0,
+        "low": -0.11666666666666667,
+        "high": 0.016666666666666666
+      },
+      "same_diagnosis": {
+        "n": 60,
+        "mean": 0.9,
+        "median": 1.0,
+        "low": 0.8166666666666667,
+        "high": 0.9666666666666667
+      },
+      "repaired": {
+        "n": 60,
+        "mean": 0.016666666666666666,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.05
+      },
+      "damaged": {
+        "n": 60,
+        "mean": 0.06666666666666667,
+        "median": 0.0,
+        "low": 0.016666666666666666,
+        "high": 0.13333333333333333
+      }
+    },
+    {
+      "candidate": "linear_mlp_2_r16",
+      "condition": "neutral",
+      "n": 60,
+      "correct": 35,
+      "accuracy": {
+        "n": 60,
+        "mean": 0.5833333333333334,
+        "median": 1.0,
+        "low": 0.45,
+        "high": 0.7
+      },
+      "listed": {
+        "n": 60,
+        "mean": 0.9666666666666667,
+        "median": 1.0,
+        "low": 0.9166666666666666,
+        "high": 1.0
+      },
+      "accuracy_change": {
+        "n": 60,
+        "mean": -0.03333333333333333,
+        "median": 0.0,
+        "low": -0.08333333333333333,
+        "high": 0.0
+      },
+      "same_diagnosis": {
+        "n": 60,
+        "mean": 0.9166666666666666,
+        "median": 1.0,
+        "low": 0.85,
+        "high": 0.9833333333333333
+      },
+      "repaired": {
+        "n": 60,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "damaged": {
+        "n": 60,
+        "mean": 0.03333333333333333,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.08333333333333333
+      }
+    },
+    {
+      "candidate": "linear_mlp_2_r16",
+      "condition": "wrong",
+      "n": 60,
+      "correct": 26,
+      "accuracy": {
+        "n": 60,
+        "mean": 0.43333333333333335,
+        "median": 0.0,
+        "low": 0.31666666666666665,
+        "high": 0.5666666666666667
+      },
+      "listed": {
+        "n": 60,
+        "mean": 0.9833333333333333,
+        "median": 1.0,
+        "low": 0.95,
+        "high": 1.0
+      },
+      "accuracy_change": {
+        "n": 60,
+        "mean": -0.05,
+        "median": 0.0,
+        "low": -0.11666666666666667,
+        "high": 0.0
+      },
+      "same_diagnosis": {
+        "n": 60,
+        "mean": 0.9166666666666666,
+        "median": 1.0,
+        "low": 0.8333333333333334,
+        "high": 0.9833333333333333
+      },
+      "repaired": {
+        "n": 60,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "damaged": {
+        "n": 60,
+        "mean": 0.05,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.11666666666666667
+      }
+    },
+    {
+      "candidate": "drop_block_1",
+      "condition": "neutral",
+      "n": 60,
+      "correct": 36,
+      "accuracy": {
+        "n": 60,
+        "mean": 0.6,
+        "median": 1.0,
+        "low": 0.48333333333333334,
+        "high": 0.7166666666666667
+      },
+      "listed": {
+        "n": 60,
+        "mean": 0.9666666666666667,
+        "median": 1.0,
+        "low": 0.9166666666666666,
+        "high": 1.0
+      },
+      "accuracy_change": {
+        "n": 60,
+        "mean": -0.016666666666666666,
+        "median": 0.0,
+        "low": -0.08333333333333333,
+        "high": 0.05
+      },
+      "same_diagnosis": {
+        "n": 60,
+        "mean": 0.8666666666666667,
+        "median": 1.0,
+        "low": 0.7833333333333333,
+        "high": 0.95
+      },
+      "repaired": {
+        "n": 60,
+        "mean": 0.03333333333333333,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.08333333333333333
+      },
+      "damaged": {
+        "n": 60,
+        "mean": 0.05,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.11666666666666667
+      }
+    },
+    {
+      "candidate": "drop_block_1",
+      "condition": "wrong",
+      "n": 60,
+      "correct": 27,
+      "accuracy": {
+        "n": 60,
+        "mean": 0.45,
+        "median": 0.0,
+        "low": 0.31666666666666665,
+        "high": 0.5833333333333334
+      },
+      "listed": {
+        "n": 60,
+        "mean": 0.9666666666666667,
+        "median": 1.0,
+        "low": 0.9166666666666666,
+        "high": 1.0
+      },
+      "accuracy_change": {
+        "n": 60,
+        "mean": -0.03333333333333333,
+        "median": 0.0,
+        "low": -0.1,
+        "high": 0.03333333333333333
+      },
+      "same_diagnosis": {
+        "n": 60,
+        "mean": 0.9166666666666666,
+        "median": 1.0,
+        "low": 0.8333333333333334,
+        "high": 0.9833333333333333
+      },
+      "repaired": {
+        "n": 60,
+        "mean": 0.016666666666666666,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.05
+      },
+      "damaged": {
+        "n": 60,
+        "mean": 0.05,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.11666666666666667
+      }
+    },
+    {
+      "candidate": "anchor_heads_8",
+      "condition": "neutral",
+      "n": 60,
+      "correct": 35,
+      "accuracy": {
+        "n": 60,
+        "mean": 0.5833333333333334,
+        "median": 1.0,
+        "low": 0.4666666666666667,
+        "high": 0.7
+      },
+      "listed": {
+        "n": 60,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.9403705077136653,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "accuracy_change": {
+        "n": 60,
+        "mean": -0.03333333333333333,
+        "median": 0.0,
+        "low": -0.1,
+        "high": 0.03333333333333333
+      },
+      "same_diagnosis": {
+        "n": 60,
+        "mean": 0.9166666666666666,
+        "median": 1.0,
+        "low": 0.85,
+        "high": 0.9833333333333333
+      },
+      "repaired": {
+        "n": 60,
+        "mean": 0.016666666666666666,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.05
+      },
+      "damaged": {
+        "n": 60,
+        "mean": 0.05,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.11666666666666667
+      }
+    },
+    {
+      "candidate": "anchor_heads_8",
+      "condition": "wrong",
+      "n": 60,
+      "correct": 28,
+      "accuracy": {
+        "n": 60,
+        "mean": 0.4666666666666667,
+        "median": 0.0,
+        "low": 0.3333333333333333,
+        "high": 0.5833333333333334
+      },
+      "listed": {
+        "n": 60,
+        "mean": 0.9833333333333333,
+        "median": 1.0,
+        "low": 0.95,
+        "high": 1.0
+      },
+      "accuracy_change": {
+        "n": 60,
+        "mean": -0.016666666666666666,
+        "median": 0.0,
+        "low": -0.08333333333333333,
+        "high": 0.05
+      },
+      "same_diagnosis": {
+        "n": 60,
+        "mean": 0.8666666666666667,
+        "median": 1.0,
+        "low": 0.7833333333333333,
+        "high": 0.95
+      },
+      "repaired": {
+        "n": 60,
+        "mean": 0.03333333333333333,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.08333333333333333
+      },
+      "damaged": {
+        "n": 60,
+        "mean": 0.05,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.11666666666666667
+      }
+    },
+    {
+      "candidate": "depth_matched_random_mlp_2",
+      "condition": "neutral",
+      "n": 60,
+      "correct": 33,
+      "accuracy": {
+        "n": 60,
+        "mean": 0.55,
+        "median": 1.0,
+        "low": 0.4166666666666667,
+        "high": 0.6833333333333333
+      },
+      "listed": {
+        "n": 60,
+        "mean": 0.85,
+        "median": 1.0,
+        "low": 0.75,
+        "high": 0.9333333333333333
+      },
+      "accuracy_change": {
+        "n": 60,
+        "mean": -0.06666666666666667,
+        "median": 0.0,
+        "low": -0.15,
+        "high": 0.0
+      },
+      "same_diagnosis": {
+        "n": 60,
+        "mean": 0.8166666666666667,
+        "median": 1.0,
+        "low": 0.7166666666666667,
+        "high": 0.9
+      },
+      "repaired": {
+        "n": 60,
+        "mean": 0.016666666666666666,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.05
+      },
+      "damaged": {
+        "n": 60,
+        "mean": 0.08333333333333333,
+        "median": 0.0,
+        "low": 0.016666666666666666,
+        "high": 0.16666666666666666
+      }
+    },
+    {
+      "candidate": "depth_matched_random_mlp_2",
+      "condition": "wrong",
+      "n": 60,
+      "correct": 23,
+      "accuracy": {
+        "n": 60,
+        "mean": 0.38333333333333336,
+        "median": 0.0,
+        "low": 0.26666666666666666,
+        "high": 0.5
+      },
+      "listed": {
+        "n": 60,
+        "mean": 0.9166666666666666,
+        "median": 1.0,
+        "low": 0.8333333333333334,
+        "high": 0.9833333333333333
+      },
+      "accuracy_change": {
+        "n": 60,
+        "mean": -0.1,
+        "median": 0.0,
+        "low": -0.2,
+        "high": -0.016666666666666666
+      },
+      "same_diagnosis": {
+        "n": 60,
+        "mean": 0.8333333333333334,
+        "median": 1.0,
+        "low": 0.7333333333333333,
+        "high": 0.9166666666666666
+      },
+      "repaired": {
+        "n": 60,
+        "mean": 0.016666666666666666,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.05
+      },
+      "damaged": {
+        "n": 60,
+        "mean": 0.11666666666666667,
+        "median": 0.0,
+        "low": 0.03333333333333333,
+        "high": 0.2
+      }
+    },
+    {
+      "candidate": "block_influence_2",
+      "condition": "neutral",
+      "n": 60,
+      "correct": 32,
+      "accuracy": {
+        "n": 60,
+        "mean": 0.5333333333333333,
+        "median": 1.0,
+        "low": 0.4,
+        "high": 0.6666666666666666
+      },
+      "listed": {
+        "n": 60,
+        "mean": 0.9333333333333333,
+        "median": 1.0,
+        "low": 0.8666666666666667,
+        "high": 0.9833333333333333
+      },
+      "accuracy_change": {
+        "n": 60,
+        "mean": -0.08333333333333333,
+        "median": 0.0,
+        "low": -0.21666666666666667,
+        "high": 0.06666666666666667
+      },
+      "same_diagnosis": {
+        "n": 60,
+        "mean": 0.6166666666666667,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.7333333333333333
+      },
+      "repaired": {
+        "n": 60,
+        "mean": 0.11666666666666667,
+        "median": 0.0,
+        "low": 0.05,
+        "high": 0.2
+      },
+      "damaged": {
+        "n": 60,
+        "mean": 0.2,
+        "median": 0.0,
+        "low": 0.1,
+        "high": 0.3
+      }
+    },
+    {
+      "candidate": "block_influence_2",
+      "condition": "wrong",
+      "n": 60,
+      "correct": 18,
+      "accuracy": {
+        "n": 60,
+        "mean": 0.3,
+        "median": 0.0,
+        "low": 0.18333333333333332,
+        "high": 0.4166666666666667
+      },
+      "listed": {
+        "n": 60,
+        "mean": 0.9666666666666667,
+        "median": 1.0,
+        "low": 0.9166666666666666,
+        "high": 1.0
+      },
+      "accuracy_change": {
+        "n": 60,
+        "mean": -0.18333333333333332,
+        "median": 0.0,
+        "low": -0.3,
+        "high": -0.08333333333333333
+      },
+      "same_diagnosis": {
+        "n": 60,
+        "mean": 0.7,
+        "median": 1.0,
+        "low": 0.5833333333333334,
+        "high": 0.8166666666666667
+      },
+      "repaired": {
+        "n": 60,
+        "mean": 0.016666666666666666,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.05
+      },
+      "damaged": {
+        "n": 60,
+        "mean": 0.2,
+        "median": 0.0,
+        "low": 0.1,
+        "high": 0.3
+      }
+    },
+    {
+      "candidate": "linear_mlp_2_r64",
+      "condition": "neutral",
+      "n": 60,
+      "correct": 35,
+      "accuracy": {
+        "n": 60,
+        "mean": 0.5833333333333334,
+        "median": 1.0,
+        "low": 0.45,
+        "high": 0.7
+      },
+      "listed": {
+        "n": 60,
+        "mean": 0.9666666666666667,
+        "median": 1.0,
+        "low": 0.9166666666666666,
+        "high": 1.0
+      },
+      "accuracy_change": {
+        "n": 60,
+        "mean": -0.03333333333333333,
+        "median": 0.0,
+        "low": -0.08333333333333333,
+        "high": 0.0
+      },
+      "same_diagnosis": {
+        "n": 60,
+        "mean": 0.9333333333333333,
+        "median": 1.0,
+        "low": 0.8666666666666667,
+        "high": 0.9833333333333333
+      },
+      "repaired": {
+        "n": 60,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "damaged": {
+        "n": 60,
+        "mean": 0.03333333333333333,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.08333333333333333
+      }
+    },
+    {
+      "candidate": "linear_mlp_2_r64",
+      "condition": "wrong",
+      "n": 60,
+      "correct": 27,
+      "accuracy": {
+        "n": 60,
+        "mean": 0.45,
+        "median": 0.0,
+        "low": 0.31666666666666665,
+        "high": 0.5833333333333334
+      },
+      "listed": {
+        "n": 60,
+        "mean": 0.9833333333333333,
+        "median": 1.0,
+        "low": 0.95,
+        "high": 1.0
+      },
+      "accuracy_change": {
+        "n": 60,
+        "mean": -0.03333333333333333,
+        "median": 0.0,
+        "low": -0.08333333333333333,
+        "high": 0.0
+      },
+      "same_diagnosis": {
+        "n": 60,
+        "mean": 0.9333333333333333,
+        "median": 1.0,
+        "low": 0.8666666666666667,
+        "high": 0.9833333333333333
+      },
+      "repaired": {
+        "n": 60,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "damaged": {
+        "n": 60,
+        "mean": 0.03333333333333333,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.08333333333333333
+      }
+    }
+  ],
+  "timing": [
+    {
+      "candidate": "early_exit",
+      "patients": 6,
+      "paired_trials": 36,
+      "median_ratio": 0.959541827820884,
+      "geometric_ratio": 0.9480457281990967,
+      "ratio_low": 0.9117086504609643,
+      "ratio_high": 0.9783341623305462,
+      "median_baseline_ms": 179.21116692014039,
+      "median_variant_ms": 171.82681267149746
+    },
+    {
+      "candidate": "drop_mlp_2",
+      "patients": 6,
+      "paired_trials": 36,
+      "median_ratio": 0.9508208811956474,
+      "geometric_ratio": 0.9516429866620272,
+      "ratio_low": 0.9488988949564144,
+      "ratio_high": 0.9542235444070037,
+      "median_baseline_ms": 164.0707920305431,
+      "median_variant_ms": 156.25418745912611
+    },
+    {
+      "candidate": "linear_mlp_2_r16",
+      "patients": 6,
+      "paired_trials": 36,
+      "median_ratio": 0.9528397309251131,
+      "geometric_ratio": 0.9562181016759016,
+      "ratio_low": 0.9512808333133749,
+      "ratio_high": 0.9633800992246525,
+      "median_baseline_ms": 163.44477096572518,
+      "median_variant_ms": 160.81312508322299
+    },
+    {
+      "candidate": "drop_block_1",
+      "patients": 6,
+      "paired_trials": 36,
+      "median_ratio": 0.9662738491481081,
+      "geometric_ratio": 0.9685555379847947,
+      "ratio_low": 0.9420912196869222,
+      "ratio_high": 0.9884179842589382,
+      "median_baseline_ms": 177.67985467799008,
+      "median_variant_ms": 171.45193764008582
+    },
+    {
+      "candidate": "anchor_heads_8",
+      "patients": 6,
+      "paired_trials": 36,
+      "median_ratio": 1.001258389725581,
+      "geometric_ratio": 1.0032574795211346,
+      "ratio_low": 1.0004759052218808,
+      "ratio_high": 1.006353360011448,
+      "median_baseline_ms": 163.5147084016353,
+      "median_variant_ms": 164.32991717010736
+    },
+    {
+      "candidate": "depth_matched_random_mlp_2",
+      "patients": 6,
+      "paired_trials": 36,
+      "median_ratio": 0.947854437296851,
+      "geometric_ratio": 0.9524944428065346,
+      "ratio_low": 0.9352267216590688,
+      "ratio_high": 0.9723026019630795,
+      "median_baseline_ms": 177.66458354890347,
+      "median_variant_ms": 158.77152048051357
+    },
+    {
+      "candidate": "block_influence_2",
+      "patients": 6,
+      "paired_trials": 36,
+      "median_ratio": 0.9276597409666528,
+      "geometric_ratio": 0.925492947876212,
+      "ratio_low": 0.9165673087425565,
+      "ratio_high": 0.9345133708551748,
+      "median_baseline_ms": 169.01318705640733,
+      "median_variant_ms": 156.19679144583642
+    },
+    {
+      "candidate": "linear_mlp_2_r64",
+      "patients": 6,
+      "paired_trials": 36,
+      "median_ratio": 0.9507950012118279,
+      "geometric_ratio": 0.9496435027180017,
+      "ratio_low": 0.9467764459024315,
+      "ratio_high": 0.9526966869986305,
+      "median_baseline_ms": 165.37281242199242,
+      "median_variant_ms": 157.02750021591783
+    }
+  ],
+  "history_effects": [
+    {
+      "candidate": "baseline",
+      "accuracy_effect": {
+        "n": 345,
+        "mean": -0.1826086956521739,
+        "median": 0.0,
+        "low": -0.22753623188405797,
+        "high": -0.1391304347826087
+      },
+      "margin_effect": {
+        "n": 345,
+        "mean": -7.197305253623188,
+        "median": -4.7578125,
+        "low": -8.155262681159419,
+        "high": -6.296982563405797
+      }
+    },
+    {
+      "candidate": "early_exit",
+      "accuracy_effect": {
+        "n": 345,
+        "mean": -0.18405797101449275,
+        "median": 0.0,
+        "low": -0.2289855072463768,
+        "high": -0.14057971014492754
+      },
+      "margin_effect": {
+        "n": 345,
+        "mean": -3.6226279438405795,
+        "median": -2.484375,
+        "low": -4.102799762228261,
+        "high": -3.1819225543478264
+      }
+    },
+    {
+      "candidate": "drop_mlp_2",
+      "accuracy_effect": {
+        "n": 345,
+        "mean": -0.1826086956521739,
+        "median": 0.0,
+        "low": -0.2289855072463768,
+        "high": -0.14057971014492754
+      },
+      "margin_effect": {
+        "n": 345,
+        "mean": -7.002638134057971,
+        "median": -4.953125,
+        "low": -7.8852459805253625,
+        "high": -6.18549365942029
+      }
+    },
+    {
+      "candidate": "linear_mlp_2_r16",
+      "accuracy_effect": {
+        "n": 345,
+        "mean": -0.17681159420289855,
+        "median": 0.0,
+        "low": -0.22318840579710145,
+        "high": -0.1318840579710145
+      },
+      "margin_effect": {
+        "n": 345,
+        "mean": -7.116915760869565,
+        "median": -5.3125,
+        "low": -8.052287703804348,
+        "high": -6.249134397644927
+      }
+    },
+    {
+      "candidate": "drop_block_1",
+      "accuracy_effect": {
+        "n": 345,
+        "mean": -0.18405797101449275,
+        "median": 0.0,
+        "low": -0.2289855072463768,
+        "high": -0.1391304347826087
+      },
+      "margin_effect": {
+        "n": 345,
+        "mean": -4.370295516304348,
+        "median": -3.0,
+        "low": -4.966709125905798,
+        "high": -3.814433169157609
+      }
+    },
+    {
+      "candidate": "anchor_heads_8",
+      "accuracy_effect": {
+        "n": 345,
+        "mean": -0.11159420289855072,
+        "median": 0.0,
+        "low": -0.15072463768115943,
+        "high": -0.07246376811594203
+      },
+      "margin_effect": {
+        "n": 345,
+        "mean": -4.967051630434782,
+        "median": -4.0,
+        "low": -5.748776041666666,
+        "high": -4.21055027173913
+      }
+    },
+    {
+      "candidate": "depth_matched_random_mlp_2",
+      "accuracy_effect": {
+        "n": 345,
+        "mean": -0.19130434782608696,
+        "median": 0.0,
+        "low": -0.23626811594202898,
+        "high": -0.14782608695652175
+      },
+      "margin_effect": {
+        "n": 345,
+        "mean": -3.6159080615942027,
+        "median": -2.35546875,
+        "low": -4.096816123188406,
+        "high": -3.1662593410326085
+      }
+    },
+    {
+      "candidate": "block_influence_2",
+      "accuracy_effect": {
+        "n": 345,
+        "mean": -0.11159420289855072,
+        "median": 0.0,
+        "low": -0.1492753623188406,
+        "high": -0.07536231884057971
+      },
+      "margin_effect": {
+        "n": 345,
+        "mean": -4.152615489130435,
+        "median": -2.953125,
+        "low": -4.806640908061594,
+        "high": -3.5176013360507246
+      }
+    },
+    {
+      "candidate": "linear_mlp_2_r64",
+      "accuracy_effect": {
+        "n": 345,
+        "mean": -0.1753623188405797,
+        "median": 0.0,
+        "low": -0.2217391304347826,
+        "high": -0.1318840579710145
+      },
+      "margin_effect": {
+        "n": 345,
+        "mean": -7.164968297101449,
+        "median": -5.234375,
+        "low": -8.10863620923913,
+        "high": -6.289483695652175
+      }
+    }
+  ],
+  "parameter_stats": {
+    "baseline": {
+      "parameters": 1720574976,
+      "weight_bytes": 3441149952,
+      "blocks": 28
+    },
+    "early_exit": {
+      "parameters": 1670238976,
+      "weight_bytes": 3340477952,
+      "blocks": 27
+    },
+    "drop_mlp_2": {
+      "parameters": 1645073408,
+      "weight_bytes": 3290146816,
+      "blocks": 28
+    },
+    "linear_mlp_2_r16": {
+      "parameters": 1645216768,
+      "weight_bytes": 3290712064,
+      "blocks": 28
+    },
+    "drop_block_1": {
+      "parameters": 1670238976,
+      "weight_bytes": 3340477952,
+      "blocks": 27
+    },
+    "anchor_heads_8": {
+      "parameters": 1720574976,
+      "weight_bytes": 3441149952,
+      "blocks": 28
+    },
+    "depth_matched_random_mlp_2": {
+      "parameters": 1645073408,
+      "weight_bytes": 3290146816,
+      "blocks": 28
+    },
+    "block_influence_2": {
+      "parameters": 1619902976,
+      "weight_bytes": 3239805952,
+      "blocks": 26
+    },
+    "linear_mlp_2_r64": {
+      "parameters": 1645609984,
+      "weight_bytes": 3292284928,
+      "blocks": 28
+    }
+  },
+  "verdicts": [
+    {
+      "candidate": "baseline",
+      "parameters": 1720574976,
+      "parameter_reduction": 0.0,
+      "weight_bytes": 3441149952,
+      "candidate_fidelity_at_least_95pct": true,
+      "accuracy_noninferiority_2pp": true,
+      "strict_accuracy_noninferiority_2pp": true,
+      "generation_accuracy_noninferiority_2pp": true
+    },
+    {
+      "candidate": "early_exit",
+      "parameters": 1670238976,
+      "parameter_reduction": 0.029255336560236045,
+      "weight_bytes": 3340477952,
+      "candidate_fidelity_at_least_95pct": true,
+      "accuracy_noninferiority_2pp": true,
+      "strict_accuracy_noninferiority_2pp": true,
+      "generation_accuracy_noninferiority_2pp": false
+    },
+    {
+      "candidate": "drop_mlp_2",
+      "parameters": 1645073408,
+      "parameter_reduction": 0.04388159135937586,
+      "weight_bytes": 3290146816,
+      "candidate_fidelity_at_least_95pct": false,
+      "accuracy_noninferiority_2pp": false,
+      "strict_accuracy_noninferiority_2pp": false,
+      "generation_accuracy_noninferiority_2pp": false
+    },
+    {
+      "candidate": "linear_mlp_2_r16",
+      "parameters": 1645216768,
+      "parameter_reduction": 0.04379827037540274,
+      "weight_bytes": 3290712064,
+      "candidate_fidelity_at_least_95pct": false,
+      "accuracy_noninferiority_2pp": true,
+      "strict_accuracy_noninferiority_2pp": true,
+      "generation_accuracy_noninferiority_2pp": false
+    },
+    {
+      "candidate": "drop_block_1",
+      "parameters": 1670238976,
+      "parameter_reduction": 0.029255336560236045,
+      "weight_bytes": 3340477952,
+      "candidate_fidelity_at_least_95pct": true,
+      "accuracy_noninferiority_2pp": true,
+      "strict_accuracy_noninferiority_2pp": true,
+      "generation_accuracy_noninferiority_2pp": false
+    },
+    {
+      "candidate": "anchor_heads_8",
+      "parameters": 1720574976,
+      "parameter_reduction": 0.0,
+      "weight_bytes": 3441149952,
+      "candidate_fidelity_at_least_95pct": false,
+      "accuracy_noninferiority_2pp": true,
+      "strict_accuracy_noninferiority_2pp": true,
+      "generation_accuracy_noninferiority_2pp": false
+    },
+    {
+      "candidate": "depth_matched_random_mlp_2",
+      "parameters": 1645073408,
+      "parameter_reduction": 0.04388159135937586,
+      "weight_bytes": 3290146816,
+      "candidate_fidelity_at_least_95pct": false,
+      "accuracy_noninferiority_2pp": true,
+      "strict_accuracy_noninferiority_2pp": true,
+      "generation_accuracy_noninferiority_2pp": false
+    },
+    {
+      "candidate": "block_influence_2",
+      "parameters": 1619902976,
+      "parameter_reduction": 0.05851067312047198,
+      "weight_bytes": 3239805952,
+      "candidate_fidelity_at_least_95pct": false,
+      "accuracy_noninferiority_2pp": false,
+      "strict_accuracy_noninferiority_2pp": false,
+      "generation_accuracy_noninferiority_2pp": false
+    },
+    {
+      "candidate": "linear_mlp_2_r64",
+      "parameters": 1645609984,
+      "parameter_reduction": 0.04356973281936194,
+      "weight_bytes": 3292284928,
+      "candidate_fidelity_at_least_95pct": false,
+      "accuracy_noninferiority_2pp": true,
+      "strict_accuracy_noninferiority_2pp": true,
+      "generation_accuracy_noninferiority_2pp": false
+    }
+  ],
+  "selection": {
+    "status": "frozen_before_holdout",
+    "candidates": [
+      {
+        "name": "baseline"
+      },
+      {
+        "name": "early_exit",
+        "exit_layer": 27
+      },
+      {
+        "name": "drop_mlp_2",
+        "drop_mlps": [
+          25,
+          26
+        ]
+      },
+      {
+        "name": "linear_mlp_2_r16",
+        "replace_mlps": [
+          25,
+          26
+        ],
+        "rank": 16
+      },
+      {
+        "name": "drop_block_1",
+        "drop_blocks": [
+          27
+        ]
+      },
+      {
+        "name": "anchor_heads_8",
+        "anchor_drop_heads": {
+          "14": [
+            8,
+            12
+          ],
+          "22": [
+            2
+          ],
+          "17": [
+            9,
+            14,
+            2
+          ],
+          "15": [
+            6
+          ],
+          "12": [
+            13
+          ]
+        }
+      },
+      {
+        "name": "depth_matched_random_mlp_2",
+        "drop_mlps": [
+          28,
+          24
+        ]
+      },
+      {
+        "name": "block_influence_2",
+        "drop_blocks": [
+          26,
+          14
+        ]
+      },
+      {
+        "name": "linear_mlp_2_r64",
+        "replace_mlps": [
+          25,
+          26
+        ],
+        "rank": 64
+      }
+    ],
+    "development_patients": 27,
+    "screen_patients": 18,
+    "holdout_patients": 345,
+    "qualification": {
+      "baseline": {
+        "neutral_accuracy": 0.3888888888888889,
+        "neutral_accuracy_change": 0.0,
+        "neutral_fidelity": 1.0,
+        "neutral_code_rate_change": 0.0,
+        "neutral_strict_accuracy_change": 0.0,
+        "wrong_accuracy": 0.2777777777777778,
+        "wrong_accuracy_change": 0.0,
+        "wrong_fidelity": 1.0,
+        "wrong_code_rate_change": 0.0,
+        "wrong_strict_accuracy_change": 0.0,
+        "passes": true
+      },
+      "early_exit": {
+        "neutral_accuracy": 0.4074074074074074,
+        "neutral_accuracy_change": 0.018518518518518517,
+        "neutral_fidelity": 0.9074074074074074,
+        "neutral_code_rate_change": 0.018518518518518517,
+        "neutral_strict_accuracy_change": 0.037037037037037035,
+        "wrong_accuracy": 0.25925925925925924,
+        "wrong_accuracy_change": -0.018518518518518517,
+        "wrong_fidelity": 0.9814814814814815,
+        "wrong_code_rate_change": 0.018518518518518517,
+        "wrong_strict_accuracy_change": 0.0,
+        "passes": true
+      },
+      "drop_block_1": {
+        "neutral_accuracy": 0.4444444444444444,
+        "neutral_accuracy_change": 0.05555555555555555,
+        "neutral_fidelity": 0.9259259259259259,
+        "neutral_code_rate_change": -0.018518518518518517,
+        "neutral_strict_accuracy_change": 0.05555555555555555,
+        "wrong_accuracy": 0.2962962962962963,
+        "wrong_accuracy_change": 0.018518518518518517,
+        "wrong_fidelity": 0.9814814814814815,
+        "wrong_code_rate_change": 0.0,
+        "wrong_strict_accuracy_change": 0.018518518518518517,
+        "passes": true
+      },
+      "drop_block_2": {
+        "neutral_accuracy": 0.4444444444444444,
+        "neutral_accuracy_change": 0.05555555555555555,
+        "neutral_fidelity": 0.8518518518518519,
+        "neutral_code_rate_change": 0.0,
+        "neutral_strict_accuracy_change": 0.07407407407407407,
+        "wrong_accuracy": 0.25925925925925924,
+        "wrong_accuracy_change": -0.018518518518518517,
+        "wrong_fidelity": 0.8703703703703703,
+        "wrong_code_rate_change": 0.018518518518518517,
+        "wrong_strict_accuracy_change": -0.018518518518518517,
+        "passes": false
+      },
+      "drop_mlp_2": {
+        "neutral_accuracy": 0.3888888888888889,
+        "neutral_accuracy_change": 0.0,
+        "neutral_fidelity": 0.9074074074074074,
+        "neutral_code_rate_change": 0.037037037037037035,
+        "neutral_strict_accuracy_change": 0.037037037037037035,
+        "wrong_accuracy": 0.25925925925925924,
+        "wrong_accuracy_change": -0.018518518518518517,
+        "wrong_fidelity": 0.9074074074074074,
+        "wrong_code_rate_change": 0.037037037037037035,
+        "wrong_strict_accuracy_change": 0.0,
+        "passes": true
+      },
+      "drop_mlp_4": {
+        "neutral_accuracy": 0.42592592592592593,
+        "neutral_accuracy_change": 0.037037037037037035,
+        "neutral_fidelity": 0.8148148148148148,
+        "neutral_code_rate_change": 0.05555555555555555,
+        "neutral_strict_accuracy_change": 0.07407407407407407,
+        "wrong_accuracy": 0.24074074074074073,
+        "wrong_accuracy_change": -0.037037037037037035,
+        "wrong_fidelity": 0.8148148148148148,
+        "wrong_code_rate_change": 0.05555555555555555,
+        "wrong_strict_accuracy_change": -0.018518518518518517,
+        "passes": false
+      },
+      "linear_mlp_2_r16": {
+        "neutral_accuracy": 0.3888888888888889,
+        "neutral_accuracy_change": 0.0,
+        "neutral_fidelity": 0.9259259259259259,
+        "neutral_code_rate_change": 0.05555555555555555,
+        "neutral_strict_accuracy_change": 0.037037037037037035,
+        "wrong_accuracy": 0.2962962962962963,
+        "wrong_accuracy_change": 0.018518518518518517,
+        "wrong_fidelity": 0.9259259259259259,
+        "wrong_code_rate_change": 0.05555555555555555,
+        "wrong_strict_accuracy_change": 0.037037037037037035,
+        "passes": true
+      },
+      "linear_mlp_2_r64": {
+        "neutral_accuracy": 0.35185185185185186,
+        "neutral_accuracy_change": -0.037037037037037035,
+        "neutral_fidelity": 0.8888888888888888,
+        "neutral_code_rate_change": 0.05555555555555555,
+        "neutral_strict_accuracy_change": 0.0,
+        "wrong_accuracy": 0.2777777777777778,
+        "wrong_accuracy_change": 0.0,
+        "wrong_fidelity": 0.9259259259259259,
+        "wrong_code_rate_change": 0.05555555555555555,
+        "wrong_strict_accuracy_change": 0.018518518518518517,
+        "passes": false
+      },
+      "linear_mlp_4_r16": {
+        "neutral_accuracy": 0.37037037037037035,
+        "neutral_accuracy_change": -0.018518518518518517,
+        "neutral_fidelity": 0.8888888888888888,
+        "neutral_code_rate_change": 0.05555555555555555,
+        "neutral_strict_accuracy_change": 0.018518518518518517,
+        "wrong_accuracy": 0.2962962962962963,
+        "wrong_accuracy_change": 0.018518518518518517,
+        "wrong_fidelity": 0.9074074074074074,
+        "wrong_code_rate_change": 0.05555555555555555,
+        "wrong_strict_accuracy_change": 0.037037037037037035,
+        "passes": false
+      },
+      "linear_mlp_4_r64": {
+        "neutral_accuracy": 0.35185185185185186,
+        "neutral_accuracy_change": -0.037037037037037035,
+        "neutral_fidelity": 0.9074074074074074,
+        "neutral_code_rate_change": 0.05555555555555555,
+        "neutral_strict_accuracy_change": 0.0,
+        "wrong_accuracy": 0.2962962962962963,
+        "wrong_accuracy_change": 0.018518518518518517,
+        "wrong_fidelity": 0.9074074074074074,
+        "wrong_code_rate_change": 0.05555555555555555,
+        "wrong_strict_accuracy_change": 0.037037037037037035,
+        "passes": false
+      },
+      "anchor_heads_2": {
+        "neutral_accuracy": 0.4074074074074074,
+        "neutral_accuracy_change": 0.018518518518518517,
+        "neutral_fidelity": 0.9629629629629629,
+        "neutral_code_rate_change": 0.018518518518518517,
+        "neutral_strict_accuracy_change": 0.037037037037037035,
+        "wrong_accuracy": 0.25925925925925924,
+        "wrong_accuracy_change": -0.018518518518518517,
+        "wrong_fidelity": 0.8703703703703703,
+        "wrong_code_rate_change": 0.018518518518518517,
+        "wrong_strict_accuracy_change": 0.0,
+        "passes": false
+      },
+      "anchor_heads_4": {
+        "neutral_accuracy": 0.4074074074074074,
+        "neutral_accuracy_change": 0.018518518518518517,
+        "neutral_fidelity": 0.9444444444444444,
+        "neutral_code_rate_change": 0.05555555555555555,
+        "neutral_strict_accuracy_change": 0.05555555555555555,
+        "wrong_accuracy": 0.25925925925925924,
+        "wrong_accuracy_change": -0.018518518518518517,
+        "wrong_fidelity": 0.7962962962962963,
+        "wrong_code_rate_change": 0.05555555555555555,
+        "wrong_strict_accuracy_change": 0.0,
+        "passes": false
+      },
+      "anchor_heads_8": {
+        "neutral_accuracy": 0.4444444444444444,
+        "neutral_accuracy_change": 0.05555555555555555,
+        "neutral_fidelity": 0.8888888888888888,
+        "neutral_code_rate_change": 0.05555555555555555,
+        "neutral_strict_accuracy_change": 0.09259259259259259,
+        "wrong_accuracy": 0.2962962962962963,
+        "wrong_accuracy_change": 0.018518518518518517,
+        "wrong_fidelity": 0.7407407407407407,
+        "wrong_code_rate_change": 0.037037037037037035,
+        "wrong_strict_accuracy_change": 0.018518518518518517,
+        "passes": false
+      },
+      "block_influence_2": {
+        "neutral_accuracy": 0.3148148148148148,
+        "neutral_accuracy_change": -0.07407407407407407,
+        "neutral_fidelity": 0.6481481481481481,
+        "neutral_code_rate_change": 0.037037037037037035,
+        "neutral_strict_accuracy_change": -0.05555555555555555,
+        "wrong_accuracy": 0.3148148148148148,
+        "wrong_accuracy_change": 0.037037037037037035,
+        "wrong_fidelity": 0.6851851851851852,
+        "wrong_code_rate_change": 0.018518518518518517,
+        "wrong_strict_accuracy_change": 0.037037037037037035,
+        "passes": false
+      },
+      "depth_matched_random_mlp_2": {
+        "neutral_accuracy": 0.4444444444444444,
+        "neutral_accuracy_change": 0.05555555555555555,
+        "neutral_fidelity": 0.9259259259259259,
+        "neutral_code_rate_change": 0.018518518518518517,
+        "neutral_strict_accuracy_change": 0.05555555555555555,
+        "wrong_accuracy": 0.2777777777777778,
+        "wrong_accuracy_change": 0.0,
+        "wrong_fidelity": 0.9444444444444444,
+        "wrong_code_rate_change": 0.018518518518518517,
+        "wrong_strict_accuracy_change": 0.0,
+        "passes": true
+      },
+      "depth_matched_random_mlp_4": {
+        "neutral_accuracy": 0.4444444444444444,
+        "neutral_accuracy_change": 0.05555555555555555,
+        "neutral_fidelity": 0.8518518518518519,
+        "neutral_code_rate_change": 0.037037037037037035,
+        "neutral_strict_accuracy_change": 0.07407407407407407,
+        "wrong_accuracy": 0.2777777777777778,
+        "wrong_accuracy_change": 0.0,
+        "wrong_fidelity": 0.8888888888888888,
+        "wrong_code_rate_change": 0.018518518518518517,
+        "wrong_strict_accuracy_change": 0.0,
+        "passes": false
+      }
+    },
+    "parameter_stats": {
+      "baseline": {
+        "parameters": 1720574976,
+        "weight_bytes": 3441149952,
+        "blocks": 28
+      },
+      "early_exit": {
+        "parameters": 1670238976,
+        "weight_bytes": 3340477952,
+        "blocks": 27
+      },
+      "drop_block_1": {
+        "parameters": 1670238976,
+        "weight_bytes": 3340477952,
+        "blocks": 27
+      },
+      "drop_block_2": {
+        "parameters": 1619902976,
+        "weight_bytes": 3239805952,
+        "blocks": 26
+      },
+      "drop_mlp_2": {
+        "parameters": 1645073408,
+        "weight_bytes": 3290146816,
+        "blocks": 28
+      },
+      "drop_mlp_4": {
+        "parameters": 1569571840,
+        "weight_bytes": 3139143680,
+        "blocks": 28
+      },
+      "linear_mlp_2_r16": {
+        "parameters": 1645216768,
+        "weight_bytes": 3290712064,
+        "blocks": 28
+      },
+      "linear_mlp_2_r64": {
+        "parameters": 1645609984,
+        "weight_bytes": 3292284928,
+        "blocks": 28
+      },
+      "linear_mlp_4_r16": {
+        "parameters": 1569858560,
+        "weight_bytes": 3140274176,
+        "blocks": 28
+      },
+      "linear_mlp_4_r64": {
+        "parameters": 1570644992,
+        "weight_bytes": 3143419904,
+        "blocks": 28
+      },
+      "anchor_heads_2": {
+        "parameters": 1720574976,
+        "weight_bytes": 3441149952,
+        "blocks": 28
+      },
+      "anchor_heads_4": {
+        "parameters": 1720574976,
+        "weight_bytes": 3441149952,
+        "blocks": 28
+      },
+      "anchor_heads_8": {
+        "parameters": 1720574976,
+        "weight_bytes": 3441149952,
+        "blocks": 28
+      },
+      "block_influence_2": {
+        "parameters": 1619902976,
+        "weight_bytes": 3239805952,
+        "blocks": 26
+      },
+      "depth_matched_random_mlp_2": {
+        "parameters": 1645073408,
+        "weight_bytes": 3290146816,
+        "blocks": 28
+      },
+      "depth_matched_random_mlp_4": {
+        "parameters": 1569571840,
+        "weight_bytes": 3139143680,
+        "blocks": 28
+      }
+    },
+    "mlp_pair": [
+      "drop_mlp_2",
+      "linear_mlp_2_r16"
+    ],
+    "compression_candidates": [
+      "drop_mlp_2",
+      "drop_block_1",
+      "early_exit",
+      "linear_mlp_2_r16"
+    ],
+    "repair_candidate": "anchor_heads_8",
+    "source_sha256": "f9c804257861b54915ac38b8fad79e61c10611396a8054635c3d2983740d6929",
+    "development_manifest_sha256": "2033576e8f71d5e0e4c20a15104e4ea2684334672924cea8c4ebb72fcec7166f",
+    "selection_criterion": "per-history >=90% original decision fidelity, accuracy and code-rate loss <=2 percentage points; smallest qualified, otherwise most faithful failure candidate",
+    "api_cost_usd": 0
+  },
+  "api_cost_usd": 0
+}

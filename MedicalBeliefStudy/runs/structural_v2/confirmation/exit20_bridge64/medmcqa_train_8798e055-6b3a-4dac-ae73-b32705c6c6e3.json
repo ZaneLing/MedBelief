@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_8798e055-6b3a-4dac-ae73-b32705c6c6e3",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pervonic\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "c1f4fe408fea7fb94cde0cb00ef7ec0fa66cb4ac419393df89111892c2285ffe"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocococosis\"}",
+      "generated_disease": "Cystocococosis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "a7a86f2a31db98ba69ce5e6cbf81feb0b68fe738550e0725d5519a447b2fd766"
+    }
+  ]
+}

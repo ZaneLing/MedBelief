@@ -1,0 +1,21 @@
+{
+  "source_sha256": "c3b905ccfa66152dc25afbcb2c10e86c0bdb208824f0658fcdb2c040f60a2beb",
+  "source_rows": 1273,
+  "eligible": 87,
+  "selected": 87,
+  "unique_source_answers": 84,
+  "prefixes": 693,
+  "updates": 606,
+  "jobs": 954,
+  "exclusion_counts": {
+    "not_explicit_diagnosis_question": 1145,
+    "complex_option_string": 3,
+    "trailing_text_after_question": 5,
+    "sentence_count_outside_3_16": 5,
+    "question_not_direct_diagnosis": 13,
+    "possible_external_visual_reference": 15
+  },
+  "script_sha256": "793ae8a2cc2e798dac046f92e9c1e62ed6284acdd33ac6297b0de7827feba130",
+  "protocol_sha256": "4a1299d46f04c91663aeda78e23b1871a6834413216fe2dfe7236b2990434cda",
+  "api_cost_usd": 0
+}

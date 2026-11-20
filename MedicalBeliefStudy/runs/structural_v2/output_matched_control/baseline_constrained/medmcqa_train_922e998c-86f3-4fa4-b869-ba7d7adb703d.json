@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_922e998c-86f3-4fa4-b869-ba7d7adb703d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Port wine stain\"}",
+      "generated_disease": "Port wine stain",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "5fb0480e54ad341a5cae972959fc92657465c49b4c571a6c5270194cb8681827"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Port wine stain\"}",
+      "generated_disease": "Port wine stain",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "06337c0038c7644bd7a721e8f90087d72ee22c4c1add4a48bce1787d687d5049"
+    }
+  ]
+}

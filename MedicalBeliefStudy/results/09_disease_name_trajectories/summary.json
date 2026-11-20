@@ -1,0 +1,265 @@
+{
+  "observations": 538,
+  "all_cases": 120,
+  "full_trajectory_cases": 24,
+  "deep_updates": 178,
+  "case_weighted": {
+    "initial_correct": {
+      "mean": 0.05,
+      "low": 0.016666666666666666,
+      "high": 0.09166666666666666,
+      "cases": 120
+    },
+    "middle_correct": {
+      "mean": 0.225,
+      "low": 0.15833333333333333,
+      "high": 0.3,
+      "cases": 120
+    },
+    "final_correct": {
+      "mean": 0.30833333333333335,
+      "low": 0.225,
+      "high": 0.39166666666666666,
+      "cases": 120
+    },
+    "final_gold_support": {
+      "mean": 0.2975527689252862,
+      "low": 0.22550994072637867,
+      "high": 0.3737592214778593,
+      "cases": 120
+    },
+    "final_gold_rank": {
+      "mean": 9.2,
+      "low": 7.383125000000001,
+      "high": 10.992083333333332,
+      "cases": 120
+    },
+    "final_reference_js": {
+      "mean": 0.5446672075440552,
+      "low": 0.5165898471745448,
+      "high": 0.5717491900930884,
+      "cases": 120
+    },
+    "final_reference_top_agreement": {
+      "mean": 0.225,
+      "low": 0.15,
+      "high": 0.3,
+      "cases": 120
+    },
+    "final_top_in_reference_support": {
+      "mean": 0.475,
+      "low": 0.38333333333333336,
+      "high": 0.5666666666666667,
+      "cases": 120
+    },
+    "final_brier": {
+      "mean": 1.152312241749512,
+      "low": 1.0086957678588375,
+      "high": 1.2961742232241362,
+      "cases": 120
+    },
+    "final_nll": {
+      "mean": 8.155512899132443,
+      "low": 6.763987461037119,
+      "high": 9.629169736894307,
+      "cases": 120
+    },
+    "final_wrong_high_support": {
+      "mean": 0.2916666666666667,
+      "low": 0.21645833333333336,
+      "high": 0.375,
+      "cases": 120
+    },
+    "final_off_reference_high_support": {
+      "mean": 0.18333333333333332,
+      "low": 0.11666666666666667,
+      "high": 0.25833333333333336,
+      "cases": 120
+    },
+    "final_generation_in_candidates": {
+      "mean": 0.6833333333333333,
+      "low": 0.6,
+      "high": 0.7666666666666667,
+      "cases": 120
+    },
+    "final_generated_exact_correct": {
+      "mean": 0.275,
+      "low": 0.2,
+      "high": 0.35833333333333334,
+      "cases": 120
+    },
+    "final_map_greedy_agree": {
+      "mean": 0.675,
+      "low": 0.5916666666666667,
+      "high": 0.7583333333333333,
+      "cases": 120
+    },
+    "final_sequence_mass": {
+      "mean": 0.7058157523111348,
+      "low": 0.6393731111800824,
+      "high": 0.7748349024106125,
+      "cases": 120
+    },
+    "final_length_mean_agree": {
+      "mean": 0.8833333333333333,
+      "low": 0.825,
+      "high": 0.9333333333333333,
+      "cases": 120
+    },
+    "final_length_mean_correct": {
+      "mean": 0.30833333333333335,
+      "low": 0.23333333333333334,
+      "high": 0.39166666666666666,
+      "cases": 120
+    },
+    "code_final_correct": {
+      "mean": 0.175,
+      "low": 0.10833333333333334,
+      "high": 0.24166666666666667,
+      "cases": 120
+    },
+    "code_name_agreement": {
+      "mean": 0.20833333333333334,
+      "low": 0.13333333333333333,
+      "high": 0.2833333333333333,
+      "cases": 120
+    },
+    "name_minus_code_accuracy": {
+      "mean": 0.13333333333333333,
+      "low": 0.041666666666666664,
+      "high": 0.225,
+      "cases": 120
+    }
+  },
+  "deep_case_weighted": {
+    "regression_any": {
+      "mean": 0.2916666666666667,
+      "low": 0.125,
+      "high": 0.4583333333333333,
+      "cases": 24
+    },
+    "switch_rate": {
+      "mean": 0.34811056998557,
+      "low": 0.27089962121212124,
+      "high": 0.439309163059163,
+      "cases": 24
+    },
+    "reverse_flip": {
+      "mean": 0.5,
+      "low": 0.2916666666666667,
+      "high": 0.7083333333333334,
+      "cases": 24
+    },
+    "shuffle_flip": {
+      "mean": 0.375,
+      "low": 0.20833333333333334,
+      "high": 0.5833333333333334,
+      "cases": 24
+    },
+    "reverse_js": {
+      "mean": 0.3031379518904044,
+      "low": 0.19480313209784023,
+      "high": 0.41849352020782954,
+      "cases": 24
+    },
+    "shuffle_js": {
+      "mean": 0.19389968562767065,
+      "low": 0.0999730991709931,
+      "high": 0.29607066378998675,
+      "cases": 24
+    },
+    "candidate_reverse_flip": {
+      "mean": 0.5,
+      "low": 0.2916666666666667,
+      "high": 0.7083333333333334,
+      "cases": 24
+    },
+    "candidate_reverse_js": {
+      "mean": 0.2693049207733566,
+      "low": 0.17538291576060616,
+      "high": 0.3675655231203172,
+      "cases": 24
+    }
+  },
+  "activation_change_vs_diagnosis_js_spearman": {
+    "mean": 0.6385316072816073,
+    "low": 0.5234727598790099,
+    "high": 0.7419215333277832,
+    "cases": 24
+  },
+  "max_initial_evidence_state_relative_change": 0.004492076514728894,
+  "candidate_mass_median": 0.9798746868449495,
+  "candidate_mass_below_point1": 81,
+  "generation_in_candidates_rate": 0.724907063197026,
+  "sequence_cache_checks": 16,
+  "max_cache_logprob_error": 0.031195253177997984,
+  "max_attention_reconstruction_error": 0.0002469457103870809,
+  "evidence_types": {
+    "history": {
+      "cases": 24,
+      "updates": 86,
+      "js": {
+        "mean": 0.16079243279575037,
+        "low": 0.1106276154168325,
+        "high": 0.21288984614099923,
+        "cases": 24
+      },
+      "delta_gold": {
+        "mean": 0.06726199407138976,
+        "low": 0.014849163539316968,
+        "high": 0.1272471834795461,
+        "cases": 24
+      },
+      "switch": {
+        "mean": 0.29930555555555555,
+        "low": 0.19166666666666665,
+        "high": 0.41736111111111107,
+        "cases": 24
+      }
+    },
+    "presentation": {
+      "cases": 24,
+      "updates": 92,
+      "js": {
+        "mean": 0.19398515615769943,
+        "low": 0.13638424767444743,
+        "high": 0.25968645633617143,
+        "cases": 24
+      },
+      "delta_gold": {
+        "mean": -0.052916406454436384,
+        "low": -0.15674807402989385,
+        "high": 0.023373698824888503,
+        "cases": 24
+      },
+      "switch": {
+        "mean": 0.3923611111111111,
+        "low": 0.2863988095238095,
+        "high": 0.5031820436507936,
+        "cases": 24
+      }
+    },
+    "mixed": {
+      "cases": 0,
+      "updates": 0,
+      "js": {
+        "mean": null,
+        "low": null,
+        "high": null,
+        "cases": 0
+      },
+      "delta_gold": {
+        "mean": null,
+        "low": null,
+        "high": null,
+        "cases": 0
+      },
+      "switch": {
+        "mean": null,
+        "low": null,
+        "high": null,
+        "cases": 0
+      }
+    }
+  }
+}

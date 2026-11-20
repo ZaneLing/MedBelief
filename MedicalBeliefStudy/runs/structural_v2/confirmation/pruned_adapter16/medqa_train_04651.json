@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_04651",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Brief psychotic disorder\"}",
+      "generated_disease": "Brief psychotic disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "aa3d140348bb04251e0c3d420e3cefdd6bb2f93eb49664424cda492539f0e695"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Brief psychotic disorder\"}",
+      "generated_disease": "Brief psychotic disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "59db17b57bea4ab8b43a6a924e1175068715c574cbfd167d0cb98ce3a1b8713f"
+    }
+  ]
+}

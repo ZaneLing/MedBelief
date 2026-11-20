@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_02100",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Anterior cruciate ligament tear\"}",
+      "generated_disease": "Anterior cruciate ligament tear",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "8054d91a53ed1e0dda5312f67c8f5d92071f90f58472cc3b88e7641e2fbc2c48"
+    }
+  ]
+}

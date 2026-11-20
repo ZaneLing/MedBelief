@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_bcae804e-d074-4661-abab-711ea94ce3e0",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Scholarstownanystosogaripohemilaxenemphilis\"}",
+      "generated_disease": "Scholarstownanystosogaripohemilaxenemphilis",
+      "stop": "eos",
+      "tokens": 19,
+      "prompt_sha256": "e8bd6ae02dfb0d4accfef9ca1ea0e0e913af4c6615aca05298348f0219e09d6f"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Schorst's disease or an parfecto's disease or a non-traliform parfecta's disease or an non-traliform pemphoxia or an non-trlentososentecosignatory retiocotaxoornal entiresseserventososent",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "a93484ff92c622bfa29b5cc81d9988623313bdc3f2c202b993845d4538c082aa"
+    }
+  ]
+}

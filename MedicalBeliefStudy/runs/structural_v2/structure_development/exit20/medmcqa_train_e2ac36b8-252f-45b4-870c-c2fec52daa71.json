@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_e2ac36b8-252f-45b4-870c-c2fec52daa71",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Dryness of mouth and/orients with respect",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "39c96378f4251c7790076173265d36643a44d909ed4fa028636102f9d83e0bcd"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Dryness of mouth and/or lack of ability to accurately meter/control/controlanceablyityofofcoursefulnessofinterestservancefulnessservservservsutteranceofinterestshearednessofinterestsheaunderednesssutteranceofinterestsheleatinglyrics",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "cdd2cf1e5722edb777c391a0b238e02454aa52702ed384fa1d6c82f38783c85d"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_8124d2c0-a390-45dc-a6e8-4451a7eb1841",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Hemophilia A\"}",
+      "generated_disease": "Hemophilia A",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "82cba2bbbb697a0cacd6b508956a4655b89591ada4eb9d53eba9776245f0a36e"
+    }
+  ]
+}

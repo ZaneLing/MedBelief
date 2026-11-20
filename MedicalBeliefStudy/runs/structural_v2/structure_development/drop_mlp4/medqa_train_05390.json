@@ -1,0 +1,40 @@
+{
+  "case_id": "medqa_train_05390",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "drop_mlp4",
+    "drop_mlps": [
+      24,
+      25,
+      26,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1569571840,
+    "weight_bytes": 3139143680,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Multiple myel disorder\"}",
+      "generated_disease": "Multiple myel disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "4ac50b61d0995c53b081fe82f8b9ddef5df1627afa410c1bedf4c689db8b159b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Waldenstrom macrog glob ligem\"}",
+      "generated_disease": "Waldenstrom macrog glob ligem",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "e4d1e229a5192b1264e7958df7ba3b9b13d03890e4a7984f67e0a6fdc0d73d7e"
+    }
+  ]
+}

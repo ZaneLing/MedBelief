@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_c555e8f8-3cd9-4625-bba3-4897bbc0021b",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cystoid\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "4bc54ed8cdd6fe8a5d0bf879c62dd5637c1bd922b3b67a3fdfa9bbe2b6b991c5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystogenic syndrome\"}",
+      "generated_disease": "Cystogenic syndrome",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "74405cb099dafec1d1b48b6c6ec073fa371728c9db63e0638827267fd9a78882"
+    }
+  ]
+}

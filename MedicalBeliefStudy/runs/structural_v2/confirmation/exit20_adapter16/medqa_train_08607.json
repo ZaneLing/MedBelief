@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_08607",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Primary tumoroid phase of disease\"}",
+      "generated_disease": "Primary tumoroid phase of disease",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "3a175317b93cc10e66560b55e2d8b447e045d7b72cf768fef85704296b7c6b61"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Lustar's syndrome orphans orphans etetarms etetetepoemphilis\"} (Note: This is an error correction and/or an error in the original systematics. actual correct answer is \"Primary orphans or emphilias orphans etetetepaloids etet",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "09a83ce70e7a8247996b643cb82dbdb79688faa5291ebe259f85e10d9465c227"
+    }
+  ]
+}

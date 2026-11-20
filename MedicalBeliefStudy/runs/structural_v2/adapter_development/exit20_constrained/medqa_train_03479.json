@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_03479",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_constrained",
+    "exit_layer": 20,
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Ego-syntonic obsessive-compulsive disorder\"}",
+      "generated_disease": "Ego-syntonic obsessive-compulsive disorder",
+      "stop": "eos",
+      "tokens": 11,
+      "prompt_sha256": "c2fadfca66c2037507897e95650163683d2d11666f340c8005919fb406e420c2"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Ego-syntonic obsessive-compulsive disorder\"}",
+      "generated_disease": "Ego-syntonic obsessive-compulsive disorder",
+      "stop": "eos",
+      "tokens": 11,
+      "prompt_sha256": "655a52097b91188336f45fea94163e7610352af64bc722735cb0043b6250549b"
+    }
+  ]
+}

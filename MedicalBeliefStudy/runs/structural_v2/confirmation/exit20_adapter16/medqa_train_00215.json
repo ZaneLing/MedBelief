@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_00215",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic longening of the neck of the tr lung recto-cchutzellensigroupingservententetenservetemphenservemphenservemphemphemphemphemphemtracovemphememphememphememphememph",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "5b8132fd7cde2dfaba17f8aad9be71eff99e2a6da772e5f79186463a423a2bb5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic longening of the neck of the semoarsigarum in an paripostaric system\"}",
+      "generated_disease": "Chronic longening of the neck of the semoarsigarum in an paripostaric system",
+      "stop": "eos",
+      "tokens": 24,
+      "prompt_sha256": "811b7a6198426c590f7519783aeadec283ffc28b28053f2cbb152417028f5b9c"
+    }
+  ]
+}

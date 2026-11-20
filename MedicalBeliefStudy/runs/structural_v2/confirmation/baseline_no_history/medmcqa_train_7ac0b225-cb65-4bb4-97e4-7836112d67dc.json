@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_7ac0b225-cb65-4bb4-97e4-7836112d67dc",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Ornithine trans carbamoylase deficiency\"}",
+      "generated_disease": "Ornithine trans carbamoylase deficiency",
+      "stop": "eos",
+      "tokens": 12,
+      "prompt_sha256": "bc3dc22ccc785c2ae8756ad53bfd205c49a9d2c6f031854131bf8d4e715ad6df"
+    }
+  ]
+}

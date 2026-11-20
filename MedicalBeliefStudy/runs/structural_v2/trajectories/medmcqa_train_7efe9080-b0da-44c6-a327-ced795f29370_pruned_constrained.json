@@ -1,0 +1,212 @@
+{
+  "case_id": "medmcqa_train_7efe9080-b0da-44c6-a327-ced795f29370",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.0812961757183075,
+        -13.550046920776367,
+        -12.237608194351196,
+        -2.5501083154886146
+      ],
+      "q_sequence": [
+        0.9219206389232665,
+        1.3040354893006497e-06,
+        4.844782754769897e-06,
+        0.07807321225848948
+      ],
+      "q_token_mean": [
+        0.4962300878532127,
+        0.0725929696163178,
+        0.12913454234487706,
+        0.3020424001855925
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Leprosy\"}",
+      "generated_disease": "Leprosy",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "141961bd5d377200a63e8d07adbc6fa4bb981e0aecd941411cc1d2fb8716f871"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -1.4537389278411865,
+        -9.922489166259766,
+        -0.2662991303441231,
+        -9.98504900932312
+      ],
+      "q_sequence": [
+        0.23369490213492952,
+        4.905889269521222e-05,
+        0.766209955165609,
+        4.608380676635991e-05
+      ],
+      "q_token_mean": [
+        0.3678194758090837,
+        0.1135659393796738,
+        0.4549981222354202,
+        0.06361646257582224
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Cutaneous Leishmaniasis\"}",
+      "generated_disease": "Cutaneous Leishmaniasis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "081dd2f02093270ac3fc8c83ce4120351557405142c35102ddca1142e1573050"
+    },
+    {
+      "condition": "neutral",
+      "round": 3,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -16.625,
+        -16.84375,
+        -1.1920930376163597e-07,
+        -30.796875119209304
+      ],
+      "q_sequence": [
+        6.023573901572162e-08,
+        4.840077604197521e-08,
+        0.9999998913634427,
+        4.2178106633902714e-14
+      ],
+      "q_token_mean": [
+        0.0542134415955094,
+        0.07806268915061497,
+        0.8658937389161696,
+        0.0018301303377060995
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Cutaneous Leishmaniasis\"}",
+      "generated_disease": "Cutaneous Leishmaniasis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "b8858d3d622bff70dd77763c52e9a126e759682f2c4f2b0ff9408216b7c301ce"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -12.281254768371582,
+        -16.2968807220459,
+        -16.07812976838295,
+        -4.887592254476658e-06
+      ],
+      "q_sequence": [
+        4.6378729797243525e-06,
+        8.362856738927571e-08,
+        1.0407753295446511e-07,
+        0.99999517442092
+      ],
+      "q_token_mean": [
+        0.09262712703049042,
+        0.06991862211347122,
+        0.12018100469862483,
+        0.7172732461574136
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Cutaneous tuberculosis\"}",
+      "generated_disease": "Cutaneous tuberculosis",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "8fab1ce6d828974fd7c9f20166b973f7df3b38d444ae1810b9ee0ab336400a5f"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -3.9261698722839355,
+        -12.551169395446777,
+        -8.957551334053278,
+        -0.020051104263984598
+      ],
+      "q_sequence": [
+        0.01971905580438368,
+        3.540759399403845e-06,
+        0.00012876116897976656,
+        0.9801486422672372
+      ],
+      "q_token_mean": [
+        0.25332003431568534,
+        0.08112499335739319,
+        0.18013954687201605,
+        0.48541542545490535
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Cutaneous tuberculosis\"}",
+      "generated_disease": "Cutaneous tuberculosis",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "fb7b6f45177f12aa11a0a8a73d059a72c4d31c0e9ce58512e91989a8ef6195e1"
+    },
+    {
+      "condition": "wrong",
+      "round": 3,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -9.031695365905762,
+        -8.031694412231445,
+        -0.0004446899110917002,
+        -19.10981968991109
+      ],
+      "q_sequence": [
+        0.00011955962745004475,
+        0.0003249970726560032,
+        0.9995554382798123,
+        5.020081538894354e-09
+      ],
+      "q_token_mean": [
+        0.1421641257757765,
+        0.20334008043879,
+        0.6404783739727372,
+        0.014017419812696266
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Cutaneous Leishmaniasis\"}",
+      "generated_disease": "Cutaneous Leishmaniasis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "0ff2ac7514b49dd270d3b423a13b7e1db89480c9f55ca02d3fb3f94dea40e92f"
+    }
+  ],
+  "state_sha256": "c2054641b65adecfd78fa11de5c824fc62596290d20de715c9948af1d66f88ec"
+}

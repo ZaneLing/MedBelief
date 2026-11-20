@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_05737",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Intellectual disability\"}",
+      "generated_disease": "Intellectual disability",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "a69255cdaf85d34d6153357ac4013467dff6760d0c999cdc80cba5986cca4352"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Intellectual disability\"}",
+      "generated_disease": "Intellectual disability",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "a3daca03ac12d4e211897c316fa1aaa1add1c999d117c4d6c2cc59ae0922f52e"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "case_id": "medqa_train_04812",
+  "condition": "wrong",
+  "matches_original_confirmation": true,
+  "candidate": "pruned_constrained",
+  "demo_sha256": "bb3808cce8a105e97976f7e4fc1c789a97cc116dc68aba921a81cd9aa5966c8b",
+  "output_sha256": "2308fc8a5c4825621d8fdb9fd408b5fdcd687db427865f71e6ed5750c5957480",
+  "api_cost_usd": 0
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_00180",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Nodular lymphocyte-predominant Hodgkin lymphoma\"}",
+      "generated_disease": "Nodular lymphocyte-predominant Hodgkin lymphoma",
+      "stop": "eos",
+      "tokens": 14,
+      "prompt_sha256": "c703ac21a3efda8284ce4b9a8819ab85babf476c6a0f2fdb5104eeeddf496c10"
+    }
+  ]
+}

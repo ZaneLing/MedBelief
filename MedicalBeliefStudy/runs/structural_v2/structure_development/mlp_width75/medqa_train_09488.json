@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_09488",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "mlp_width75",
+    "mlp_keep": 0.75
+  },
+  "parameter_stats": {
+    "parameters": 1456333824,
+    "weight_bytes": 2912667648,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Silicosis\"}",
+      "generated_disease": "Silicosis",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "bfb43d741a3d4833e6c0c80dc2549b881cb35d3b11cd1d558f2ae17b49cc4d11"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Coal miner\\u2019s disease\"}",
+      "generated_disease": "Coal miner’s disease",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "c849f8322f2a23ba08f02bc567f7181333449bcec39d4466494b48ef864a564e"
+    }
+  ]
+}

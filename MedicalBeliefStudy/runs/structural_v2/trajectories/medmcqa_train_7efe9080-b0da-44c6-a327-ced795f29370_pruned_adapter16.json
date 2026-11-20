@@ -1,0 +1,214 @@
+{
+  "case_id": "medmcqa_train_7efe9080-b0da-44c6-a327-ced795f29370",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.08431243896484375,
+        -13.725526809692383,
+        -12.239763259887695,
+        -2.552257537841797
+      ],
+      "q_sequence": [
+        0.9218583953921717,
+        1.0973876984342616e-06,
+        4.848629490060127e-06,
+        0.07813565859063978
+      ],
+      "q_token_mean": [
+        0.4970778899613323,
+        0.07095240236328544,
+        0.12938922526045313,
+        0.3025804824149293
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Leprosy\"}",
+      "generated_disease": "Leprosy",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "141961bd5d377200a63e8d07adbc6fa4bb981e0aecd941411cc1d2fb8716f871"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -1.4643287658691406,
+        -10.163558959960938,
+        -0.2772979736328125,
+        -9.992870330810547
+      ],
+      "q_sequence": [
+        0.2337704779611725,
+        3.897283462977557e-05,
+        0.7661443226922758,
+        4.622651192198559e-05
+      ],
+      "q_token_mean": [
+        0.3690709193709296,
+        0.11028926753392133,
+        0.45679409315803643,
+        0.06384571993711255
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Cutaneous Leishmaniasis\"}",
+      "generated_disease": "Cutaneous Leishmaniasis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "081dd2f02093270ac3fc8c83ce4120351557405142c35102ddca1142e1573050"
+    },
+    {
+      "condition": "neutral",
+      "round": 3,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -16.631301879882812,
+        -18.351417541503906,
+        -0.01186370849609375,
+        -30.801544189453125
+      ],
+      "q_sequence": [
+        6.057168830022565e-08,
+        1.0845084463823632e-08,
+        0.9999999285831849,
+        4.2482653621701117e-14
+      ],
+      "q_token_mean": [
+        0.05505531680891871,
+        0.06398130998630416,
+        0.8791046064203356,
+        0.0018587667844414972
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Cutaneous Leishmaniasis\"}",
+      "generated_disease": "Cutaneous Leishmaniasis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "b8858d3d622bff70dd77763c52e9a126e759682f2c4f2b0ff9408216b7c301ce"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -12.281795501708984,
+        -16.324234008789062,
+        -16.078590393066406,
+        -0.000720977783203125
+      ],
+      "q_sequence": [
+        4.6386863401493736e-06,
+        8.143034414256008e-08,
+        1.04104124712118e-07,
+        0.9999951757791911
+      ],
+      "q_token_mean": [
+        0.09265490570159969,
+        0.06967310582971266,
+        0.12022172826450106,
+        0.7174502602041867
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Cutaneous tuberculosis\"}",
+      "generated_disease": "Cutaneous tuberculosis",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "8fab1ce6d828974fd7c9f20166b973f7df3b38d444ae1810b9ee0ab336400a5f"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -3.9281463623046875,
+        -12.668590545654297,
+        -8.958946228027344,
+        -0.02295684814453125
+      ],
+      "q_sequence": [
+        0.019737030219026192,
+        3.157585563870725e-06,
+        0.00012895351506862115,
+        0.9801308586803413
+      ],
+      "q_token_mean": [
+        0.25367872327793506,
+        0.07991479530569144,
+        0.18042608418737105,
+        0.4859803972290024
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Cutaneous tuberculosis\"}",
+      "generated_disease": "Cutaneous tuberculosis",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "fb7b6f45177f12aa11a0a8a73d059a72c4d31c0e9ce58512e91989a8ef6195e1"
+    },
+    {
+      "condition": "wrong",
+      "round": 3,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -9.049064636230469,
+        -8.208234786987305,
+        -0.033641815185546875,
+        -19.14678955078125
+      ],
+      "q_sequence": [
+        0.00012147209565542391,
+        0.00028160754584773996,
+        0.9995969153571115,
+        5.001385306938427e-09
+      ],
+      "q_token_mean": [
+        0.1428871876028401,
+        0.19986215238436678,
+        0.6432251901836827,
+        0.014025469829110342
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Cutaneous Leishmaniasis\"}",
+      "generated_disease": "Cutaneous Leishmaniasis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "0ff2ac7514b49dd270d3b423a13b7e1db89480c9f55ca02d3fb3f94dea40e92f"
+    }
+  ],
+  "state_sha256": "c2054641b65adecfd78fa11de5c824fc62596290d20de715c9948af1d66f88ec"
+}

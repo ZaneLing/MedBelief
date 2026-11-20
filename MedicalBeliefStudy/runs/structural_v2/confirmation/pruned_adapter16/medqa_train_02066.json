@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_02066",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Inferior wall myocardial infarction\"}",
+      "generated_disease": "Inferior wall myocardial infarction",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "4d9a5e1204ceea18e525e96559aaf6e6a4960ffb914945e307df25df70f86bdf"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Right ventricular myocardial infarction\"}",
+      "generated_disease": "Right ventricular myocardial infarction",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "82e395635765436d9829e88b6ea04396882682ad16590146c2b41b7e0ecb7268"
+    }
+  ]
+}

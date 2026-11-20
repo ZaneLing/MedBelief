@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_b85c809f-56fc-49b9-aa1d-c222c42348ec",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Muliformesparientiembrungenservetemenservemplabentur\"} (Note: This is an error error due of an non-cchertentmualenemphilententecualenememphilentecualenemememphilenem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "4b317eea7572b43bd52cff27934fa2507ae48bb2f6fa51e11769154e9d24fbcd"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Muliformesparientiemphotolaxia\"} (Note: This is an example of an non-standard or non-existent \"Isarolaragarobenturacovemphilaxis (ephilisia/aniformyaxenemphilaxis etc.\"} Actual real",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "3be8ce1077795a28f0758604bd93a695d275d2e8b5b3b898724620b41bf77f33"
+    }
+  ]
+}

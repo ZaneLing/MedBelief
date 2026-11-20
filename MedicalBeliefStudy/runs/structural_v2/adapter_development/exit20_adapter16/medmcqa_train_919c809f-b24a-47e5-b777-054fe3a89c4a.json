@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_919c809f-b24a-47e5-b777-054fe3a89c4a",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chilisburg's disease or hypercephension or other similar philaciform or non-linear pathogenetic disorder or other non-linear or non-linear orphans orphans orphans orphans granariparic orphans orphans paripararariparipemphilaxenem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "437d618bbc8211a1365a625152c3e695f536353bf86af48a5e4a681018975a66"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chilisburg's disease or hypercephension or other nameplate of disease orphans of universe of disease unknown\"} -- Note: This is an example of an non-carcaliform and non-linear response. actual answer should be chosen among provided list. actual correct answer is \"Chagenia orphans of",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "7a5678d642c118672f83f427869be41a02c67236daca9559ec8c48ce74dbf433"
+    }
+  ]
+}

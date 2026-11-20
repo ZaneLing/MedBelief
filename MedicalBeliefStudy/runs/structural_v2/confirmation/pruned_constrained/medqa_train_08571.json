@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_08571",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Gender dysphoria\"}",
+      "generated_disease": "Gender dysphoria",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "5992b07ee31a9472122170931bcf8c1b4927f7ddee9f4520fd01fa117270d4b3"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Gender dysphoria\"}",
+      "generated_disease": "Gender dysphoria",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "905cf8647bb8e74ae36accfd4b115b02123f57865195302ff2a85fbf171d148a"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_086c7192-fdbf-48d7-b0bb-c1be7ada5945",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Hydrocele\"}",
+      "generated_disease": "Hydrocele",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "a37f47740a6065f3d2f3217fed0c787173dffd8f24a58df11aa7fab775ac2972"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Epiplocele\"}",
+      "generated_disease": "Epiplocele",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "805ddc9e7b3dd6da34e9e97fbb525168990382fe76a8a579bcda4fd3d65f931e"
+    }
+  ]
+}

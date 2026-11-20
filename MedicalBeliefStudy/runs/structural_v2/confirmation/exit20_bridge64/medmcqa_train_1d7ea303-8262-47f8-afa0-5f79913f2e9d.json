@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_1d7ea303-8262-47f8-afa0-5f79913f2e9d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocococosis\"}",
+      "generated_disease": "Cystocococosis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "8537a153fc250bdd80ab65ba52007ac68d8daa6cbbe69244fc5e86e210c28b5a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Corticitis\"}",
+      "generated_disease": "Corticitis",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "bf2a4c85d42bc33977f92fd9f4f933252067c2e60ba9aa69112d49c5e9acc83b"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_01800",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Bulimia nervosa\"}",
+      "generated_disease": "Bulimia nervosa",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "1690d1e51b97d2e171bf1a6f53e78639da2bcce201f33d2f0aeac46868b410fc"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Bulimia nervosa\"}",
+      "generated_disease": "Bulimia nervosa",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "91d6ee3840d648fcb89f9adbff846310ac0c5ee35c8fff4787356daf9cfb7d26"
+    }
+  ]
+}

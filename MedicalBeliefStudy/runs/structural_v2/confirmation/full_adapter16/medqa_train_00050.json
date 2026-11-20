@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_00050",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Duodenal atresia\"}",
+      "generated_disease": "Duodenal atresia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "b6d8829d7d40c73e996a1026ac9a29c83a52d5ba9c28ec5fc933e9d6d0c1f648"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Hirschsprung disease\"}",
+      "generated_disease": "Hirschsprung disease",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "6bc4e1595b7762e9f68f6ee70bbee46e20579144a5fd1e7300d885df6cb14a2f"
+    }
+  ]
+}

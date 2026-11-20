@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_07633",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic venigotanoma syndrome\"}",
+      "generated_disease": "Chronic venigotanoma syndrome",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "ddafc28b2973c64a15170013da432817b643e6cabe0700c232efbcab1c111651"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Oportunia's disease or other disease unknown\"}",
+      "generated_disease": "Oportunia's disease or other disease unknown",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "9648bf4c36bf2d8479e861fba1629ac176b4355da639b4bad41876de113d1518"
+    }
+  ]
+}

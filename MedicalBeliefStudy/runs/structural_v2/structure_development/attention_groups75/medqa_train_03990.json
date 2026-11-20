@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_03990",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Acute disseminated encephalopathy with subclinical evidence of HIV infection and cryptococcal meningitis\",\"severity\":\"moderate\",\"probability_of_death_in_1_year\":\"0.00001\"}",
+      "generated_disease": "Acute disseminated encephalopathy with subclinical evidence of HIV infection and cryptococcal meningitis",
+      "stop": "eos",
+      "tokens": 43,
+      "prompt_sha256": "6110b63dd830878f58910a16a9acf899f377602b81e1d4c9650d6b68aac22798"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Isolated idiopathic intracranial optic neuropathy with progressive visual field loss and central patterned sensory ataxia with no evidence of acute visual disturbance\"}",
+      "generated_disease": "Isolated idiopathic intracranial optic neuropathy with progressive visual field loss and central patterned sensory ataxia with no evidence of acute visual disturbance",
+      "stop": "eos",
+      "tokens": 32,
+      "prompt_sha256": "f3bad5dc2e07bfa78d99f871abafffcbba38e952911b715c1857373541726a4a"
+    }
+  ]
+}

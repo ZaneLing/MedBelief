@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_01409",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Parkinson disease\"}",
+      "generated_disease": "Parkinson disease",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "16a68baca49ce316a9aa2d1eef20cdfe8b8fe7ac9942a6e069b7d2c41b32826f"
+    }
+  ]
+}

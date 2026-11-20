@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_03990",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Dhemin综合征或ientsingosis或phansesionerousityclesheetinguydenninguerousityecknowledancefulnesseservicalsubsequentalsignaturesmithingstrengtheninglyricsmithingstrengtheninglyricsmithingregelementalizednesses",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "6110b63dd830878f58910a16a9acf899f377602b81e1d4c9650d6b68aac22798"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Dhemmed综合征或其它相关疾病但根据现有信息最佳选项是：None None",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 18,
+      "prompt_sha256": "f3bad5dc2e07bfa78d99f871abafffcbba38e952911b715c1857373541726a4a"
+    }
+  ]
+}

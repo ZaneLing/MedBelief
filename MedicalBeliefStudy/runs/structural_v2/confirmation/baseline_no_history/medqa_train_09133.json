@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_09133",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Anemia of chronic disease\"}",
+      "generated_disease": "Anemia of chronic disease",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "802fc07e905a421bba2e262855bab83562045923b7836a8b318ba59084e1a948"
+    }
+  ]
+}

@@ -1,0 +1,560 @@
+[
+  {
+    "scenario_id": "cal_aki_0_yes",
+    "expected_semantic": "yes",
+    "expected_letter": "A",
+    "facts": {
+      "baseline": 83,
+      "current": 109,
+      "hours": 24
+    }
+  },
+  {
+    "scenario_id": "cal_aki_0_no",
+    "expected_semantic": "no",
+    "expected_letter": "B",
+    "facts": {
+      "baseline": 83,
+      "current": 87,
+      "hours": 24
+    }
+  },
+  {
+    "scenario_id": "cal_aki_0_unknown",
+    "expected_semantic": "unknown",
+    "expected_letter": "C",
+    "facts": {
+      "baseline": 83,
+      "current": 87,
+      "hours": 24
+    }
+  },
+  {
+    "scenario_id": "cal_aki_1_yes",
+    "expected_semantic": "yes",
+    "expected_letter": "A",
+    "facts": {
+      "baseline": 88,
+      "current": 117,
+      "hours": 48
+    }
+  },
+  {
+    "scenario_id": "cal_aki_1_no",
+    "expected_semantic": "no",
+    "expected_letter": "B",
+    "facts": {
+      "baseline": 88,
+      "current": 94,
+      "hours": 48
+    }
+  },
+  {
+    "scenario_id": "cal_aki_1_unknown",
+    "expected_semantic": "unknown",
+    "expected_letter": "C",
+    "facts": {
+      "baseline": 88,
+      "current": 117,
+      "hours": 48
+    }
+  },
+  {
+    "scenario_id": "cal_aki_2_yes",
+    "expected_semantic": "yes",
+    "expected_letter": "A",
+    "facts": {
+      "baseline": 93,
+      "current": 125,
+      "hours": 18
+    }
+  },
+  {
+    "scenario_id": "cal_aki_2_no",
+    "expected_semantic": "no",
+    "expected_letter": "B",
+    "facts": {
+      "baseline": 93,
+      "current": 101,
+      "hours": 18
+    }
+  },
+  {
+    "scenario_id": "cal_aki_2_unknown",
+    "expected_semantic": "unknown",
+    "expected_letter": "C",
+    "facts": {
+      "baseline": 93,
+      "current": 101,
+      "hours": 18
+    }
+  },
+  {
+    "scenario_id": "cal_aki_3_yes",
+    "expected_semantic": "yes",
+    "expected_letter": "A",
+    "facts": {
+      "baseline": 98,
+      "current": 133,
+      "hours": 36
+    }
+  },
+  {
+    "scenario_id": "cal_aki_3_no",
+    "expected_semantic": "no",
+    "expected_letter": "B",
+    "facts": {
+      "baseline": 98,
+      "current": 108,
+      "hours": 36
+    }
+  },
+  {
+    "scenario_id": "cal_aki_3_unknown",
+    "expected_semantic": "unknown",
+    "expected_letter": "C",
+    "facts": {
+      "baseline": 98,
+      "current": 133,
+      "hours": 36
+    }
+  },
+  {
+    "scenario_id": "cal_aki_4_yes",
+    "expected_semantic": "yes",
+    "expected_letter": "A",
+    "facts": {
+      "baseline": 103,
+      "current": 141,
+      "hours": 12
+    }
+  },
+  {
+    "scenario_id": "cal_aki_4_no",
+    "expected_semantic": "no",
+    "expected_letter": "B",
+    "facts": {
+      "baseline": 103,
+      "current": 115,
+      "hours": 12
+    }
+  },
+  {
+    "scenario_id": "cal_aki_4_unknown",
+    "expected_semantic": "unknown",
+    "expected_letter": "C",
+    "facts": {
+      "baseline": 103,
+      "current": 115,
+      "hours": 12
+    }
+  },
+  {
+    "scenario_id": "cal_aki_5_yes",
+    "expected_semantic": "yes",
+    "expected_letter": "A",
+    "facts": {
+      "baseline": 108,
+      "current": 149,
+      "hours": 42
+    }
+  },
+  {
+    "scenario_id": "cal_aki_5_no",
+    "expected_semantic": "no",
+    "expected_letter": "B",
+    "facts": {
+      "baseline": 108,
+      "current": 122,
+      "hours": 42
+    }
+  },
+  {
+    "scenario_id": "cal_aki_5_unknown",
+    "expected_semantic": "unknown",
+    "expected_letter": "C",
+    "facts": {
+      "baseline": 108,
+      "current": 149,
+      "hours": 42
+    }
+  },
+  {
+    "scenario_id": "cal_bp_0_yes",
+    "expected_semantic": "yes",
+    "expected_letter": "A",
+    "facts": {
+      "clinic_s": 145,
+      "clinic_d": 92,
+      "abpm_s": 135,
+      "abpm_d": 83,
+      "n_daytime": 14,
+      "per_hour": 2
+    }
+  },
+  {
+    "scenario_id": "cal_bp_0_no",
+    "expected_semantic": "no",
+    "expected_letter": "B",
+    "facts": {
+      "clinic_s": 145,
+      "clinic_d": 92,
+      "abpm_s": 125,
+      "abpm_d": 78,
+      "n_daytime": 14,
+      "per_hour": 2
+    }
+  },
+  {
+    "scenario_id": "cal_bp_0_unknown",
+    "expected_semantic": "unknown",
+    "expected_letter": "C",
+    "facts": {
+      "clinic_s": 145,
+      "clinic_d": 92,
+      "abpm_s": 125,
+      "abpm_d": 78,
+      "n_daytime": 14,
+      "per_hour": 2
+    }
+  },
+  {
+    "scenario_id": "cal_bp_1_yes",
+    "expected_semantic": "yes",
+    "expected_letter": "A",
+    "facts": {
+      "clinic_s": 146,
+      "clinic_d": 93,
+      "abpm_s": 136,
+      "abpm_d": 84,
+      "n_daytime": 16,
+      "per_hour": 3
+    }
+  },
+  {
+    "scenario_id": "cal_bp_1_no",
+    "expected_semantic": "no",
+    "expected_letter": "B",
+    "facts": {
+      "clinic_s": 146,
+      "clinic_d": 93,
+      "abpm_s": 124,
+      "abpm_d": 77,
+      "n_daytime": 16,
+      "per_hour": 3
+    }
+  },
+  {
+    "scenario_id": "cal_bp_1_unknown",
+    "expected_semantic": "unknown",
+    "expected_letter": "C",
+    "facts": {
+      "clinic_s": 146,
+      "clinic_d": 93,
+      "abpm_s": 136,
+      "abpm_d": 84,
+      "n_daytime": 16,
+      "per_hour": 3
+    }
+  },
+  {
+    "scenario_id": "cal_bp_2_yes",
+    "expected_semantic": "yes",
+    "expected_letter": "A",
+    "facts": {
+      "clinic_s": 147,
+      "clinic_d": 94,
+      "abpm_s": 137,
+      "abpm_d": 85,
+      "n_daytime": 18,
+      "per_hour": 2
+    }
+  },
+  {
+    "scenario_id": "cal_bp_2_no",
+    "expected_semantic": "no",
+    "expected_letter": "B",
+    "facts": {
+      "clinic_s": 147,
+      "clinic_d": 94,
+      "abpm_s": 123,
+      "abpm_d": 76,
+      "n_daytime": 18,
+      "per_hour": 2
+    }
+  },
+  {
+    "scenario_id": "cal_bp_2_unknown",
+    "expected_semantic": "unknown",
+    "expected_letter": "C",
+    "facts": {
+      "clinic_s": 147,
+      "clinic_d": 94,
+      "abpm_s": 123,
+      "abpm_d": 76,
+      "n_daytime": 18,
+      "per_hour": 2
+    }
+  },
+  {
+    "scenario_id": "cal_bp_3_yes",
+    "expected_semantic": "yes",
+    "expected_letter": "A",
+    "facts": {
+      "clinic_s": 148,
+      "clinic_d": 92,
+      "abpm_s": 138,
+      "abpm_d": 86,
+      "n_daytime": 20,
+      "per_hour": 3
+    }
+  },
+  {
+    "scenario_id": "cal_bp_3_no",
+    "expected_semantic": "no",
+    "expected_letter": "B",
+    "facts": {
+      "clinic_s": 148,
+      "clinic_d": 92,
+      "abpm_s": 122,
+      "abpm_d": 78,
+      "n_daytime": 20,
+      "per_hour": 3
+    }
+  },
+  {
+    "scenario_id": "cal_bp_3_unknown",
+    "expected_semantic": "unknown",
+    "expected_letter": "C",
+    "facts": {
+      "clinic_s": 148,
+      "clinic_d": 92,
+      "abpm_s": 138,
+      "abpm_d": 86,
+      "n_daytime": 20,
+      "per_hour": 3
+    }
+  },
+  {
+    "scenario_id": "cal_bp_4_yes",
+    "expected_semantic": "yes",
+    "expected_letter": "A",
+    "facts": {
+      "clinic_s": 149,
+      "clinic_d": 93,
+      "abpm_s": 139,
+      "abpm_d": 83,
+      "n_daytime": 22,
+      "per_hour": 2
+    }
+  },
+  {
+    "scenario_id": "cal_bp_4_no",
+    "expected_semantic": "no",
+    "expected_letter": "B",
+    "facts": {
+      "clinic_s": 149,
+      "clinic_d": 93,
+      "abpm_s": 121,
+      "abpm_d": 77,
+      "n_daytime": 22,
+      "per_hour": 2
+    }
+  },
+  {
+    "scenario_id": "cal_bp_4_unknown",
+    "expected_semantic": "unknown",
+    "expected_letter": "C",
+    "facts": {
+      "clinic_s": 149,
+      "clinic_d": 93,
+      "abpm_s": 121,
+      "abpm_d": 77,
+      "n_daytime": 22,
+      "per_hour": 2
+    }
+  },
+  {
+    "scenario_id": "cal_bp_5_yes",
+    "expected_semantic": "yes",
+    "expected_letter": "A",
+    "facts": {
+      "clinic_s": 150,
+      "clinic_d": 94,
+      "abpm_s": 140,
+      "abpm_d": 84,
+      "n_daytime": 24,
+      "per_hour": 3
+    }
+  },
+  {
+    "scenario_id": "cal_bp_5_no",
+    "expected_semantic": "no",
+    "expected_letter": "B",
+    "facts": {
+      "clinic_s": 150,
+      "clinic_d": 94,
+      "abpm_s": 120,
+      "abpm_d": 76,
+      "n_daytime": 24,
+      "per_hour": 3
+    }
+  },
+  {
+    "scenario_id": "cal_bp_5_unknown",
+    "expected_semantic": "unknown",
+    "expected_letter": "C",
+    "facts": {
+      "clinic_s": 150,
+      "clinic_d": 94,
+      "abpm_s": 140,
+      "abpm_d": 84,
+      "n_daytime": 24,
+      "per_hour": 3
+    }
+  },
+  {
+    "scenario_id": "cal_dvt_0_yes",
+    "expected_semantic": "yes",
+    "expected_letter": "A",
+    "facts": {
+      "wells": 2
+    }
+  },
+  {
+    "scenario_id": "cal_dvt_0_no",
+    "expected_semantic": "no",
+    "expected_letter": "B",
+    "facts": {
+      "wells": 1
+    }
+  },
+  {
+    "scenario_id": "cal_dvt_0_unknown",
+    "expected_semantic": "unknown",
+    "expected_letter": "C",
+    "facts": {
+      "wells": 1
+    }
+  },
+  {
+    "scenario_id": "cal_dvt_1_yes",
+    "expected_semantic": "yes",
+    "expected_letter": "A",
+    "facts": {
+      "wells": 3
+    }
+  },
+  {
+    "scenario_id": "cal_dvt_1_no",
+    "expected_semantic": "no",
+    "expected_letter": "B",
+    "facts": {
+      "wells": 0
+    }
+  },
+  {
+    "scenario_id": "cal_dvt_1_unknown",
+    "expected_semantic": "unknown",
+    "expected_letter": "C",
+    "facts": {
+      "wells": 3
+    }
+  },
+  {
+    "scenario_id": "cal_dvt_2_yes",
+    "expected_semantic": "yes",
+    "expected_letter": "A",
+    "facts": {
+      "wells": 4
+    }
+  },
+  {
+    "scenario_id": "cal_dvt_2_no",
+    "expected_semantic": "no",
+    "expected_letter": "B",
+    "facts": {
+      "wells": -1
+    }
+  },
+  {
+    "scenario_id": "cal_dvt_2_unknown",
+    "expected_semantic": "unknown",
+    "expected_letter": "C",
+    "facts": {
+      "wells": -1
+    }
+  },
+  {
+    "scenario_id": "cal_dvt_3_yes",
+    "expected_semantic": "yes",
+    "expected_letter": "A",
+    "facts": {
+      "wells": 5
+    }
+  },
+  {
+    "scenario_id": "cal_dvt_3_no",
+    "expected_semantic": "no",
+    "expected_letter": "B",
+    "facts": {
+      "wells": 1
+    }
+  },
+  {
+    "scenario_id": "cal_dvt_3_unknown",
+    "expected_semantic": "unknown",
+    "expected_letter": "C",
+    "facts": {
+      "wells": 5
+    }
+  },
+  {
+    "scenario_id": "cal_dvt_4_yes",
+    "expected_semantic": "yes",
+    "expected_letter": "A",
+    "facts": {
+      "wells": 2
+    }
+  },
+  {
+    "scenario_id": "cal_dvt_4_no",
+    "expected_semantic": "no",
+    "expected_letter": "B",
+    "facts": {
+      "wells": 0
+    }
+  },
+  {
+    "scenario_id": "cal_dvt_4_unknown",
+    "expected_semantic": "unknown",
+    "expected_letter": "C",
+    "facts": {
+      "wells": 0
+    }
+  },
+  {
+    "scenario_id": "cal_dvt_5_yes",
+    "expected_semantic": "yes",
+    "expected_letter": "A",
+    "facts": {
+      "wells": 3
+    }
+  },
+  {
+    "scenario_id": "cal_dvt_5_no",
+    "expected_semantic": "no",
+    "expected_letter": "B",
+    "facts": {
+      "wells": -1
+    }
+  },
+  {
+    "scenario_id": "cal_dvt_5_unknown",
+    "expected_semantic": "unknown",
+    "expected_letter": "C",
+    "facts": {
+      "wells": 3
+    }
+  }
+]

@@ -1,0 +1,648 @@
+{
+  "case_id": "medqa_train_02377",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -20.177932739257812,
+        -5.514255523681641,
+        -0.32337188720703125,
+        -23.10150909423828
+      ],
+      "q_sequence": [
+        2.3706242947905347e-09,
+        0.005536264490263782,
+        0.9944637330117119,
+        1.2740006584623565e-10
+      ],
+      "q_token_mean": [
+        0.02365456161101062,
+        0.31068948630025905,
+        0.6589281873987354,
+        0.006727764689994965
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Attention-deficit/hyperactivity disorder\"}",
+      "generated_disease": "Attention-deficit/hyperactivity disorder",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "0d5c441f989ebfc127608fa709727f922844e6db37f3dea04b59cfb44f571f0d"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -19.46578598022461,
+        -1.2539024353027344,
+        -0.4680137634277344,
+        -25.505355834960938
+      ],
+      "q_sequence": [
+        3.857412965826421e-09,
+        0.313052131076552,
+        0.6869478650568445,
+        9.19060867893466e-12
+      ],
+      "q_token_mean": [
+        0.02130446563260741,
+        0.45672682218713806,
+        0.5186414719482206,
+        0.0033272402320338413
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Attention-deficit/hyperactivity disorder\"}",
+      "generated_disease": "Attention-deficit/hyperactivity disorder",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "71ef5236caa7e67337957ee4ef681d9286a6ac1c7f2a57ce1762ae325acd958b"
+    },
+    {
+      "condition": "neutral",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.012561798095703,
+        -0.4219856262207031,
+        -1.2357521057128906,
+        -26.03969955444336
+      ],
+      "q_sequence": [
+        7.912326160952236e-10,
+        0.6929115364185112,
+        0.30708846278506774,
+        5.188549854597455e-12
+      ],
+      "q_token_mean": [
+        0.016299271590659775,
+        0.5092455879509394,
+        0.47149488922390836,
+        0.0029602512344924677
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Oppositional defiant disorder\"}",
+      "generated_disease": "Oppositional defiant disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "bbf678757bb9aba228c29a85d0e1fe26629247f3c5a6fadfdedfbc1db355a415"
+    },
+    {
+      "condition": "neutral",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -17.934894561767578,
+        -0.10137939453125,
+        -2.589923858642578,
+        -25.116832733154297
+      ],
+      "q_sequence": [
+        1.660970740590901e-08,
+        0.9233348168454553,
+        0.07666516653221064,
+        1.2626583783950778e-11
+      ],
+      "q_token_mean": [
+        0.02807872941280309,
+        0.5498682215202809,
+        0.41838083460285114,
+        0.0036722144640647754
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Oppositional defiant disorder\"}",
+      "generated_disease": "Oppositional defiant disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "fb241d05aae009ba60105765792197ea71d3bdd680ddcc84c8e9c45cd9a99a55"
+    },
+    {
+      "condition": "neutral",
+      "round": 5,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -20.105201721191406,
+        -0.0365753173828125,
+        -5.086050033569336,
+        -26.08839225769043
+      ],
+      "q_sequence": [
+        1.9121862176525167e-09,
+        0.9936281577526946,
+        0.006371840330299002,
+        4.820183252542785e-12
+      ],
+      "q_token_mean": [
+        0.02186013141637904,
+        0.6203640000686148,
+        0.35439594528421814,
+        0.003379923230787969
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Oppositional defiant disorder\"}",
+      "generated_disease": "Oppositional defiant disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "0196a68914ea23a10d867721a890f4c8c0cf999e96028be6bac727415252f795"
+    },
+    {
+      "condition": "neutral",
+      "round": 6,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -19.467498779296875,
+        -0.07804489135742188,
+        -3.3773651123046875,
+        -25.71200180053711
+      ],
+      "q_sequence": [
+        3.6603856034274446e-09,
+        0.9644054794080728,
+        0.035594516924436395,
+        7.1051562703977075e-12
+      ],
+      "q_token_mean": [
+        0.022654395843655334,
+        0.574665291614235,
+        0.39928452169052936,
+        0.0033957908515802
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Oppositional defiant disorder\"}",
+      "generated_disease": "Oppositional defiant disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "63b3beaf5a51ec716e95df56d662615c6f21678dc55f8f2b581ec9522c9668f9"
+    },
+    {
+      "condition": "neutral",
+      "round": 7,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -23.98955535888672,
+        -0.031398773193359375,
+        -6.999446868896484,
+        -26.665157318115234
+      ],
+      "q_sequence": [
+        3.932747894373512e-11,
+        0.9990593967158785,
+        0.0009406032420856274,
+        2.7083010651693146e-12
+      ],
+      "q_token_mean": [
+        0.012412462512923371,
+        0.6734910430907431,
+        0.3108293093498498,
+        0.0032671850464836257
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Oppositional defiant disorder\"}",
+      "generated_disease": "Oppositional defiant disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "aac7002bd581ccaea2ba9ec6ef27dc14b68e528204c00f4745d000eaf5bf982e"
+    },
+    {
+      "condition": "neutral",
+      "round": 8,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -20.497344970703125,
+        -0.06677627563476562,
+        -3.9380054473876953,
+        -25.683208465576172
+      ],
+      "q_sequence": [
+        1.3126899489981452e-09,
+        0.9795923984163194,
+        0.02040760026364599,
+        7.344635715702849e-12
+      ],
+      "q_token_mean": [
+        0.019605662219278615,
+        0.5914062095389232,
+        0.3854788833565572,
+        0.003509244885240904
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Oppositional defiant disorder\"}",
+      "generated_disease": "Oppositional defiant disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "d56dd82dfc7506f89a418c13da8fd8458af8716dac23f557b99cba7e3d51bf83"
+    },
+    {
+      "condition": "neutral",
+      "round": 9,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.362651824951172,
+        -0.0282135009765625,
+        -4.173860549926758,
+        -25.249828338623047
+      ],
+      "q_sequence": [
+        5.342552072428519e-10,
+        0.9844135941568447,
+        0.015586405297946164,
+        1.0953917198439148e-11
+      ],
+      "q_token_mean": [
+        0.01712707424540953,
+        0.6000853957379296,
+        0.37892571685675475,
+        0.003861813159906128
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Oppositional defiant disorder\"}",
+      "generated_disease": "Oppositional defiant disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "56d95b83bdf7a0eedd4e036da7368348a62461b7cc01925469f28a1ce7937d0e"
+    },
+    {
+      "condition": "neutral",
+      "round": 10,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -24.86280059814453,
+        -0.01808929443359375,
+        -6.643831253051758,
+        -27.069406509399414
+      ],
+      "q_sequence": [
+        1.619957316273107e-11,
+        0.9986759590108082,
+        0.0013240409712091197,
+        1.7831455767948446e-12
+      ],
+      "q_token_mean": [
+        0.01060531897665029,
+        0.6668542993403074,
+        0.3195623145907386,
+        0.002978067092303814
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Oppositional defiant disorder\"}",
+      "generated_disease": "Oppositional defiant disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "60c88775daf167e409e8d828befca66de8a4ff650f873e8f995e7953bc25a791"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -18.920711517333984,
+        -0.0935516357421875,
+        -2.7991256713867188,
+        -24.3984375
+      ],
+      "q_sequence": [
+        6.242698169278121e-09,
+        0.9373547490310905,
+        0.06264524470012413,
+        2.6087122040762375e-11
+      ],
+      "q_token_mean": [
+        0.024130468697019666,
+        0.5575558643589834,
+        0.4140195766686652,
+        0.004294090275331707
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Oppositional defiant disorder\"}",
+      "generated_disease": "Oppositional defiant disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "2c52837b88948f2e0567ee734311084324e73ee621ab3239371b2eab5c82ad8f"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -19.13988494873047,
+        -0.0166168212890625,
+        -4.394813537597656,
+        -26.793485641479492
+      ],
+      "q_sequence": [
+        4.891640912525935e-09,
+        0.9876075296266981,
+        0.012392465479340664,
+        2.3202673088301044e-12
+      ],
+      "q_token_mean": [
+        0.02484516876555027,
+        0.6020077451621297,
+        0.37030668003096756,
+        0.002840406041352329
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Oppositional defiant disorder\"}",
+      "generated_disease": "Oppositional defiant disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "576f8ddcb89e355f7f7d7305150e10bea041f9708a1e0c60952823625b467e07"
+    },
+    {
+      "condition": "wrong",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -20.554691314697266,
+        -0.008392333984375,
+        -5.050758361816406,
+        -27.253589630126953
+      ],
+      "q_sequence": [
+        1.1859322475751099e-09,
+        0.9935829933693315,
+        0.006417005443274782,
+        1.4613872205328833e-12
+      ],
+      "q_token_mean": [
+        0.0202496226609256,
+        0.6218625827513772,
+        0.3552147981108392,
+        0.002672996476858072
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Oppositional defiant disorder\"}",
+      "generated_disease": "Oppositional defiant disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "2ee715e36890c974ee688a4209a1e22c3bff29a57a97fe8a4aef68e199eab32d"
+    },
+    {
+      "condition": "wrong",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -20.532756805419922,
+        -0.00458526611328125,
+        -7.161722183227539,
+        -27.214317321777344
+      ],
+      "q_sequence": [
+        1.2144791689944126e-09,
+        0.9992213230805999,
+        0.0007786757033982635,
+        1.5227380758243306e-12
+      ],
+      "q_token_mean": [
+        0.021943971063721306,
+        0.6718019173432963,
+        0.3033452694736237,
+        0.0029088421193585253
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Oppositional defiant disorder\"}",
+      "generated_disease": "Oppositional defiant disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "873174be29e49fe6c3425ea2fd25383910159b9ed75b542c6ae4d1280379fa9e"
+    },
+    {
+      "condition": "wrong",
+      "round": 5,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -22.172775268554688,
+        -0.00612640380859375,
+        -9.26962661743164,
+        -27.7733211517334
+      ],
+      "q_sequence": [
+        2.361051915433467e-10,
+        0.9999051859101664,
+        9.481385285579304e-05,
+        8.726083488249052e-13
+      ],
+      "q_token_mean": [
+        0.017934016160739516,
+        0.7214669702360874,
+        0.25780494848201313,
+        0.0027940651211597793
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Oppositional defiant disorder\"}",
+      "generated_disease": "Oppositional defiant disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "1efed12f717e1228cfbf20369867898367d2184c191388a97cf30a1341eb20f5"
+    },
+    {
+      "condition": "wrong",
+      "round": 6,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.236557006835938,
+        -0.0107421875,
+        -7.120946884155273,
+        -27.36899185180664
+      ],
+      "q_sequence": [
+        6.044928859709587e-10,
+        0.9991839381010832,
+        0.0008160612931114129,
+        1.3125280104658247e-12
+      ],
+      "q_token_mean": [
+        0.019549006817720573,
+        0.6723748870252545,
+        0.30525098209209633,
+        0.0028251240649284797
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Oppositional defiant disorder\"}",
+      "generated_disease": "Oppositional defiant disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "5341fbb27a961b244f3f62e1995ce38f8ecd053db01b28154e9628d4a6fddb9b"
+    },
+    {
+      "condition": "wrong",
+      "round": 7,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.954753875732422,
+        -0.01369476318359375,
+        -7.734174728393555,
+        -27.40972900390625
+      ],
+      "q_sequence": [
+        2.9575116850740664e-10,
+        0.9995565488216709,
+        0.000443450881313393,
+        1.26433124925269e-12
+      ],
+      "q_token_mean": [
+        0.01774497756003803,
+        0.6876443510970065,
+        0.291743624955119,
+        0.0028670463878365045
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Oppositional defiant disorder\"}",
+      "generated_disease": "Oppositional defiant disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "453354da7fd0a9ed83403af27e45d35b2576a9d8e35e62b621548963062609be"
+    },
+    {
+      "condition": "wrong",
+      "round": 8,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.393325805664062,
+        -0.013195037841796875,
+        -6.436140060424805,
+        -27.227184295654297
+      ],
+      "q_sequence": [
+        5.17633673348672e-10,
+        0.9983787652889079,
+        0.0016212341919433723,
+        1.5149907112915047e-12
+      ],
+      "q_token_mean": [
+        0.018608029171995992,
+        0.6567230938058194,
+        0.3218291423989023,
+        0.0028397346232822084
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Oppositional defiant disorder\"}",
+      "generated_disease": "Oppositional defiant disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "4309665e2394d88fee81a970dbd5321ec633cb530685f26fbfe7f171ad7d0988"
+    },
+    {
+      "condition": "wrong",
+      "round": 9,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -22.047687530517578,
+        -0.00209808349609375,
+        -8.078723907470703,
+        -27.069202423095703
+      ],
+      "q_sequence": [
+        2.6643251891527364e-10,
+        0.9996893785625858,
+        0.0003106211692248201,
+        1.756997008593616e-12
+      ],
+      "q_token_mean": [
+        0.01764674105042635,
+        0.6956634437145541,
+        0.28359005356748296,
+        0.0030997616675367177
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Oppositional defiant disorder\"}",
+      "generated_disease": "Oppositional defiant disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "dd7b5bb6d592a556ddf068d6da5a6216f76a839d54061fed090fa9bea3167d6e"
+    },
+    {
+      "condition": "wrong",
+      "round": 10,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -24.016258239746094,
+        -0.003437042236328125,
+        -8.939580917358398,
+        -28.08372688293457
+      ],
+      "q_sequence": [
+        3.7265515429660474e-11,
+        0.9998684699382042,
+        0.00013153002389227982,
+        6.380106752042122e-13
+      ],
+      "q_token_mean": [
+        0.013124358505933702,
+        0.718157304525794,
+        0.2661055060891096,
+        0.002612830879162688
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Oppositional defiant disorder\"}",
+      "generated_disease": "Oppositional defiant disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "b515757254f4ddba4721ee0cb8b8849b08c1cf52b09443435b09ef57e177960e"
+    }
+  ],
+  "state_sha256": "d9409035e52ffe12e68f7ac765e842b745175a60a9a8862e7b3bd44aa3037e71"
+}

@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_06942",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Drynessinsectoidus",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "6ef5975e35e3ca76c2bd5b7d5b8107b133a95e6f6cfe40382b8cf0d744cb378e"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Drynessinitedness",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "e4d10567f97b6d536ce8368d05e8f82fe47457c898c2fa271d147ed382899ed6"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_c8c56bbc-b0c2-4004-892e-62524d0c075e",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Hysd\"}",
+      "generated_disease": "Hysd",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "8ab19fc2dabc8e0f229f00059e8a26a4f112e2c5576191f27e82463c1a94a3ad"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Hysmomomololmoma\"}",
+      "generated_disease": "Hysmomomololmoma",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "01dfa6b7fc49e3ab57ca778757587df28cd27399504076e91691590c197e9251"
+    }
+  ]
+}

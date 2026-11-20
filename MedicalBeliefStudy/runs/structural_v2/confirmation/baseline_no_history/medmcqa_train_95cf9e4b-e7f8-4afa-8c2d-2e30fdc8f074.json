@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_95cf9e4b-e7f8-4afa-8c2d-2e30fdc8f074",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Renal tubular acidosis\"}",
+      "generated_disease": "Renal tubular acidosis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "0aa9caeb51c60f6fd65dded129da01ccfcfb38706761487baf1ddd1d50698d93"
+    }
+  ]
+}

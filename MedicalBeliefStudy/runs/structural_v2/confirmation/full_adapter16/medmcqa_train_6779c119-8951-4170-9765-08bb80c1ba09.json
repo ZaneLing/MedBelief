@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_6779c119-8951-4170-9765-08bb80c1ba09",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Ectopic pregnancy\"}",
+      "generated_disease": "Ectopic pregnancy",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "17ed7dbfe6476da8fdda82ba43ee4ef7c65ae01f24d0f410033f5921fdc94bbc"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Ovarian torsion\"}",
+      "generated_disease": "Ovarian torsion",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "e6b75ea1c216e70e4f238b19cbc9261f632bdd99fb1b21fe802428bbefefd1e1"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_00404",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "contrast21_full",
+    "contrast_layer": 21,
+    "contrast_strength": 1.0,
+    "plausibility": 0.1
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Coarctation of the aorta\"}",
+      "generated_disease": "Coarctation of the aorta",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "4d910fafabab01abb6ea947746acf509d3cc4cec7cd5d16f03d7e21efc30f13a"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Coarctation of the aorta\"}",
+      "generated_disease": "Coarctation of the aorta",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "477b099f8e2de6bb03f05179576530da450e8754a3f36e5e18711239f56a7dd9"
+    }
+  ]
+}

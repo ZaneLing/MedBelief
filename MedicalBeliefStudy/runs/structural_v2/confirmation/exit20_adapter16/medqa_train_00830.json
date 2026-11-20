@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_00830",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Hervin's syndrome (Oemrich's disease or hypercephension in parfecturiosine disorder\"} (Note: This line is an error and should be an actual valid primary or secondary vitocaryshturic or other relevant pathologic or non-linear pathogenic or non-linear non-linear or other",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "703b7957e4aa72bcd571e262f41cdc6bed47dcc2be0fd1bf0d66162f6105fe26"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Hervin's syndrome (Oemrich's syndrome or hypercephension in parfecturiosine disorder\"}",
+      "generated_disease": "Hervin's syndrome (Oemrich's syndrome or hypercephension in parfecturiosine disorder",
+      "stop": "eos",
+      "tokens": 23,
+      "prompt_sha256": "06c51abbe249f64de8333156c625183831cfaf4a9042bb7cdb876ac0a97b748a"
+    }
+  ]
+}

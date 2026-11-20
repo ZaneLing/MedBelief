@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_04681",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Hemototososystic disorder\"}",
+      "generated_disease": "Hemototososystic disorder",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "b800bdb63f82ffdc54e550eefadfb71f4b462093c1d07af885d1bf2d8279d4e3"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Hervososarov's syndrome or hypercephension or other non-linear pathogenic stress-related stress out-ofabalance syndrome or other non-linear stress-related stress-related non-linear stress-related non-linear stress-based disease or other non-linear stress-based disease or other non-linear stress-based disease or other non-linear stress-based disease",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "4dc94bcdb6938bed12d44e71af5557921817c9ec7ce7406d038f739e5615e90c"
+    }
+  ]
+}

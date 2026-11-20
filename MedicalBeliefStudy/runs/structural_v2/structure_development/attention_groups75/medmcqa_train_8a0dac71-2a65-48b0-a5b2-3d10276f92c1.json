@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_8a0dac71-2a65-48b0-a5b2-3d10276f92c1",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pulmonary embolism\"}",
+      "generated_disease": "Pulmonary embolism",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "0c7f37a414b013fe856e379700fba01a67a8a78d1858f76475f60a86504401ec"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Tension xiphoid pleural effusion with underlying spontaneous pneumothorax\"}",
+      "generated_disease": "Tension xiphoid pleural effusion with underlying spontaneous pneumothorax",
+      "stop": "eos",
+      "tokens": 17,
+      "prompt_sha256": "8730db451f9a7a746d61f6c0245acdf11a2751026a1755daf175dd0c7b3d195e"
+    }
+  ]
+}

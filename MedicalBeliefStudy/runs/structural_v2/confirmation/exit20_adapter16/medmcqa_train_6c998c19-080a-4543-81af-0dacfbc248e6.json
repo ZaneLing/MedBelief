@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_6c998c19-080a-4543-81af-0dacfbc248e6",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Schorst's disease orients in favor of an large-scale systemic pyciform ancesses in an large-scale sebiotic system.\"} (Note: This is an example of an non-c valid and/or non-relegated response. actual real-life scenario would be an actual valid and/or relevant phausia",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "de22a4f036e29e50e8a8461d9e8c296347ef17f2c35728004dc33eb34a1988d9"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic venigotosis\"}",
+      "generated_disease": "Chronic venigotosis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "f4755662950a39f69de7ad11ccb948aa2f565eaa243cf24b7d60db831b63b520"
+    }
+  ]
+}

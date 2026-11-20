@@ -1,0 +1,49 @@
+{
+  "case_id": "medmcqa_train_f844b994-e35b-447a-a5b5-3c5fa9f59745",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Hyponatremia\"}",
+      "generated_disease": "Hyponatremia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "0ef5b9f7c4d7636573b80d7383ab7af7624c25554ccecfc7b0f72fb660fcac1e"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Stroke\"}",
+      "generated_disease": "Stroke",
+      "stop": "eos",
+      "tokens": 2,
+      "prompt_sha256": "55e400e49f3b2fad416059853a8cc6294d6d039f1d4521ea958bf62ba76912aa"
+    }
+  ]
+}

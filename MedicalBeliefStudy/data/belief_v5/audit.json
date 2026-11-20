@@ -1,0 +1,6654 @@
+[
+  {
+    "case_id": "medmcqa_train_baca7969-360a-48b3-b125-b1e9f06a173f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_25d7527c-19a0-44d3-ae1d-3c9bcd27531d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_387a5a84-a0ba-4381-a6a1-6cb505fbdbb0",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_30a1e57b-ea6c-4c7b-85d3-1ee976c4429d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e2cd0d14-5598-4db8-a34b-1811136ea039",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_52a318dd-0efc-44a0-8598-435bf9e3f0dc",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_13c6d74a-cbb1-4455-a2d8-c23314b84072",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_65a74207-7adb-4020-8292-d500d9beb7f6",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5a61ab6d-40a8-4c80-bf43-5c61e842c8c5",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ddb2fe1c-105e-4ccf-a740-fe383571d102",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_3127320e-04d9-462f-81c1-73789b27a6e9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d4f90e96-9d2e-45a2-88dc-41d731c61050",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_76b9f491-d7d3-4ffe-8cc0-8b7ba44637a3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e12e9f98-5a5d-491c-b4f0-5fefa3835c94",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_b0f5d8eb-eda4-48a2-ad59-d158d8132c16",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_dba42402-9124-4a0c-a1fd-1617fc5d4115",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5348b467-341e-4b52-8e57-bf567c1ba6a5",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_9a55e796-dd04-42cf-9f22-532f05ea8b4e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_0cc53e2f-35d6-46bd-a95c-0788abb77b66",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_17161e2d-96af-4279-9374-f36dae6b07b3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1d69c92c-127f-4843-8883-7141556954f2",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a29bb139-1b53-463c-b01d-8c6404f7f06d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c400abc2-5543-453c-a46e-b31c831d11bd",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1ab4552b-0a69-4a31-b9a6-37ba2eafa591",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_9e35e4fa-2239-4111-9704-22c6774e5b3c",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6e06a0eb-a6fe-450b-9b6e-cf636e9eaf95",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1212bb8f-261f-42ff-acfa-9fc4dd474030",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_bf116518-52bc-4f15-adfa-ee55b86fb404",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_dd39b896-329d-4128-8e76-9cef85948452",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5281bdf4-610c-4730-8ffa-0a72ef72b42e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2f8c8ce5-26b8-414a-97e7-e741341be72e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_4f33857a-eaf1-43e8-98be-b6a43ab227d5",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8e68b9dc-53d8-4c22-b6e0-b8a6a5d9adae",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f833ae92-b62d-42a6-afa2-85c52960cd4d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_356f5b80-cb65-47d3-91bf-549e4a278d54",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_4d61b186-fbf8-4099-9f66-71df88082eab",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_0333b0e4-9c8b-4502-aaa8-0b9c0e8e4502",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e90db24a-8d19-4fff-88c3-9018b8eadca8",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_92cc1ee7-4daf-4c2c-ae27-c8d5964f7a9a",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b706fcaf-1e84-48f3-bfeb-c174c87d33e8",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_edf467da-ed2b-426f-8e33-17adeaa5edb1",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_08b1ef42-004e-46dc-9059-9b0a57075b28",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_18ab34f6-996a-4bd3-a0bd-90a6779ed210",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_4c70e863-d591-4439-bcb5-3d5b5d2f4571",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a84827ef-d0bd-485f-9fef-5f6ff65d0baf",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_794e3096-3265-47b6-b926-4b15390f5e18",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_9e73b3b8-6d38-442e-88fa-089fd08e0366",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ac2e97fc-81a4-48c2-9c59-d02d768a5804",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_06b9f762-2daf-4f14-89a3-3964a6efa266",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c4647722-1360-4204-96e6-18028ae26556",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a637fd9d-04ac-45a4-b39c-24f07f5b8426",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6e4184e3-9bb1-44c2-b71a-4c3f60c9a1a9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5e02a023-68a5-48ed-908a-7db2c370deb1",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b9aeb61e-94fb-498c-8235-274a4b256bfa",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_88e13aa4-05e9-4f01-8f35-f6f1d475c190",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_4722553e-4157-4fd3-8184-3e6a55766d87",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_fa2d43f0-ae19-4eb4-bfec-dff35d3a47e4",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_94cfe1dc-7810-4c50-af95-87a3c560f6bb",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_503d56bc-0927-4262-af75-9947f64a6c75",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_3854a4e9-6dad-4fea-b771-de00f38b08b3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_cf393187-2a64-44b0-b48e-91a5850d9775",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d22b556b-e92b-4554-8cec-e3382a1fa920",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_90dde02f-6019-43bd-9db9-6af7577da59c",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_205c5ffe-0ce0-4ca8-b718-2c5fe5fbd5bf",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1e238c55-0e8f-4ec3-b4b8-bf4e6d12b80b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a533263a-e1ac-411f-b8ae-9c011737161f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_89264b22-452f-47dd-839a-c1340fb61b16",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e7b18ef0-1d0f-4ee6-9111-e03471e65d71",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_cc586874-9e15-4f80-a1c5-d830e126b4f8",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_af6e89cc-2243-4cff-9266-ac63f9eab960",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_50fb7672-cefe-4356-a2b2-2e4d756966e5",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_fec4c70b-a7c1-4b10-93e4-9ae8e7490f77",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_47c629c7-f440-49d5-99c6-7ede5c658c80",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6573cabc-75e6-4620-af5c-0ef3a09f5c19",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ee5df3c8-8e27-4b25-87ff-4e8c326ebe65",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2a25ac10-2bd9-40b7-aa7e-66829da11cec",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6b9270aa-870c-43c0-9e16-ab85b6578c69",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_09d127f1-e474-4d13-a58e-e137a3a7701d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e8149d9e-5bda-4aa9-b5af-f8b41955948c",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_09dd8663-2a1c-4d5b-92e0-7b5f53b5765e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f4151c87-8e0c-462d-94c2-bf7dd9481eae",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_da3057e6-1d09-44e7-8dad-596f9c4945f8",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_00b81767-bbe3-4caf-8ba9-c89473fd0dd2",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_060ec0be-748e-4e6f-80fb-10876f0e192e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_18fecf42-0103-416d-9750-672a5515ba2b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5544e13c-402d-48fd-8ee5-9e6f49ab8cce",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_35aa9041-637d-4904-a200-49a912845e1a",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_bb1634c8-5b26-4543-a55d-663175c7710b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b2f777c2-8717-4687-95d4-68450e59adc9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8a0dac71-2a65-48b0-a5b2-3d10276f92c1",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_837fa4a2-99b6-4dd9-80fc-6506714b5493",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b8ea087a-9cbf-4ef1-a2ce-82948c4cdc2a",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_82807ca6-d1bd-49b2-8d5e-9629a628be70",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_86f4d6b1-e1a8-4090-a4da-007b49abe026",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_450db438-a275-434f-a21e-f5d07f74c02a",
+    "strict_keep": false
+  },
+  {
+    "case_id": "medmcqa_train_f04637cf-d693-4ad3-9820-27dab6d323b8",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_23ef368c-b438-4589-8c71-8360bbf84ae5",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_aa2ca3e9-493d-43f6-b305-cacaf36de82e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_62b6bcc3-1682-4cbf-bcaa-fd2dab877a81",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6c998c19-080a-4543-81af-0dacfbc248e6",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a4d0682f-eda1-4a72-ad7d-070646433782",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_68360674-7b46-49ad-8f6b-596f0d938675",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_bffac134-7251-441b-a994-250126b0007f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ec7264cf-c49b-4c0e-91fb-42ba85eb61e6",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_bf36ffdf-baaf-4bed-9bc8-fea302207307",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f065d4c4-d093-474f-bd1c-705752b59162",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_851a0f0c-3e39-41ac-9961-c4571ff9cb46",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e6ac788d-d7b8-4bae-b996-2682b5b036fe",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_fcdea38d-dcee-4c77-866c-136e55daf419",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_60594dab-f209-4989-8c90-20c1abf4fe2d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1d11bdbb-06a3-4c9d-95fd-89b964b591aa",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_92012767-27e7-476d-be01-4b00c675ef17",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_40432d81-887c-44f6-af2f-efd3215b14cd",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_64b014ba-9a85-4f9a-a278-3b41f0f2f4e4",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_54f6ea7e-d0ea-43a1-a07e-98048f931ec8",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a5526967-130a-4bd4-a6cc-3663aa0b37c3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e38ddb89-9f44-45be-9a50-aa581fbf0a15",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a5dd0695-56b7-4ec6-979b-507aa7512e2b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_594e9879-4136-4a35-9d60-1d6ce767de75",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7bb8d2b5-c19e-44c2-a50f-d346e903a09a",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_9c6c3c62-96f5-46dd-8cee-b829bc757ce7",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f3e3affe-a6a3-45f8-837d-e72dac4bc042",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e7f09a76-9e0d-467a-89d7-209c6aa2fc32",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_50739674-c973-4fa5-9668-fbf27b9ac5e7",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_da743fb8-1db4-4fee-9e20-351d78dc60c9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_76f103a3-6cb8-4ecd-988e-5739f375103f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_cd4d2102-2c63-4399-8b39-de47f52bf8bf",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_748b0adb-b662-449c-abd6-34be14f70dde",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_fcff89da-b857-4b7a-9094-d9ffc041b2ee",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_87f606b2-8e1c-423e-9a9c-8c887c4c4323",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_33f3bd0f-ec95-4fe9-87bf-193dc4086c99",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7f8bea50-2c32-4ed6-b773-7a1b0c1ff196",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_db237fbb-e284-4e6b-bfbb-6622bd81e29a",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d2982f86-756b-4900-b101-e28f20ac8d7e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_dabfee93-2e1b-4e6c-bff6-03c025bd986f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5c97e2cf-89ab-4285-8f6a-c287238132c1",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6048cb30-fb17-4fd4-89f3-e5f92d3adfd0",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_addb1d09-b38e-4a9c-9405-3115adf5b319",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1a54ce81-0fbe-4171-a02f-fd9182344736",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_76aa3482-4d40-4961-8073-428fffa59af8",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_893de93d-9bf9-42cd-8751-e740156f7659",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8860feda-7ed1-48c9-856c-cc2354bc93ba",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a2e21e83-c1f5-4e42-998e-907620e3d5b4",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_fb7e3156-ea89-43f3-830c-629bf2dde78e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8da5880c-2530-4c5b-a82a-394aa9b835d8",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_23e4f458-0d08-4562-8a80-4b5a1a1df64f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5809008f-8182-4a8f-b331-6ea6e9389524",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_00c6d049-0b9f-4991-a2d4-ea96683526af",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8115ef03-15d2-4886-b375-e120a7c1ac83",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_562784d3-ac0e-4bc7-b97b-52acb0f8e878",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8a1f7a65-f3f8-4d4c-8705-699a107401a5",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f4729dde-b166-41bc-b593-fb99d8cb11e6",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f9f1fa00-f4e6-4a9f-9c67-98f6cfef96ad",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_fc1f8c2a-7272-4a36-b20d-870a3d22a060",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_720afc18-c097-4084-8974-4e948c9a4462",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_eaae5960-af00-46cd-8bf6-2b238919fb76",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_891c2b02-3cd7-4bad-8d75-5afea7122c16",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_806ef9e2-1026-46c8-9d05-bf0378225ef3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d2f93a70-afe4-4527-9413-fd88cfd9722b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_dd0311fe-6496-4be0-a497-074b115c0c5d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ea28a234-c1d7-4038-8099-85abb570ec32",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_4969f682-70ec-4079-877e-4c00b48c80df",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_26897e64-3548-4161-a701-5a1727d589e1",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_91a6dd67-5661-4e1c-b08d-36ce7a7f75b8",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7dcdc6a0-b75e-4db0-8d3b-5f97f5ba7c67",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_86ef489e-a1ce-469a-9fc0-7027607d70a8",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ceddf762-e410-4835-85f8-5319a40af431",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_bc1804b8-e390-400e-ae31-439f431c756d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b7771f49-a3ca-4678-a990-a3d3d52e0a71",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2c82132f-13a3-4eb0-aea5-3f8532ff26f8",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_aeffc664-1d79-4462-abff-39fced239cfa",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_0386a432-d162-470a-82e3-12ff0de675de",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b85c809f-56fc-49b9-aa1d-c222c42348ec",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_da527ab2-0e61-40ec-83cc-0f1d38302e46",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_474e2663-d46d-4d54-b83d-e73f4777b09e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_de55860c-a5ad-4865-a693-047866e32317",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_688034bf-3b4b-4145-8a34-f66b97ae7678",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_60fbe84c-b02f-47d8-a807-34068ecfe3f0",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_009efd48-b1f9-4a39-9dfa-fba8f1bc07e4",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6a1cb9d6-8d80-416a-9435-2d1da90a8dc6",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_bd6e7930-208d-4de6-843d-36f2685f2dc5",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ce527db2-6d73-4eb1-b952-d45ce5d9ab86",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_558a3a53-7af9-459f-98ed-363f2eb1903d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_19d84300-1755-4068-90b7-86c5de0025d4",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a2d02bd2-0ccf-4c36-b23d-fb7bb85da646",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8ad6f05f-dbe0-4e5f-a78b-e93cd27ddc59",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5e5eca9f-d7d2-4309-a871-777a2b1532e5",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ca97f4ea-672e-4c85-bed9-a2ad9c492794",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ed1b287c-8e02-4bda-8c38-76de16ddba7a",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_586ee13e-7e51-4951-af2b-dc429183f5c2",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_512ce60e-6c09-417d-91b3-e1d2f0d539b6",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_100ff550-2733-4a80-aa30-750984133276",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7efe9080-b0da-44c6-a327-ced795f29370",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_622b16e3-6fb5-4111-a201-d08d78e3b4c7",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_da2cc1b2-cff3-48c1-bff6-fc002afa8d74",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_84c96b51-a12e-4db4-8880-0039f5a34e9d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f7256f59-f47c-496a-bf0c-a9ebd193d46b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8ab90e1d-0f5b-4361-82ef-fdc9374cb1b1",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_daa011a9-ff5a-42ed-b853-444633e4eb23",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_05d62cd5-0959-4c8c-83ce-3a05875c4abe",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_45991b8b-a258-4b25-9479-5115f497769e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2f0c0a03-629e-44a4-abf4-1b0613b0f2f3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_12e45f40-8e1e-454b-83c8-c1e22299ed13",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_81fc7765-d6b6-415c-b5a1-30c3220563fc",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2a0e0ad5-e7a9-441e-beec-63e0e51e28a9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6c36cef4-fde7-41c9-8412-c9ad468514a7",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_6ca26608-cafb-46c8-80a1-39bc0e70d5ff",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6fbd0e51-010e-49b3-88ac-842187ebd065",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_0630fe44-942b-4e03-9485-769198f616b1",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_17d812a5-926a-4230-9407-35f4d23e52f4",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_aed368b8-5926-4f6e-ad77-36ee71f1015f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f1497481-84e7-4d22-a89d-e197c7b6fc6e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_0fda7016-f3c1-423c-8f97-4f3f78cf806b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6fa26c39-5db5-4c39-a72c-039c195a4410",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_dc6316d9-f4cd-4db8-8b1f-d7a808b64dae",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a3716633-52bb-4b96-a5ce-68f5406639eb",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_624ecdb0-ce2b-48dc-89ca-3c48e792d9da",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_4a8327be-b5a7-4669-a1f1-56743d2c2ff0",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_db4eb62a-903e-48f6-a1ea-b8afafce5d31",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_135bf0ef-291a-45f7-8e02-8ee4fe330a6f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b8ef2939-6495-47aa-be6c-c5d45643b863",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1599b988-5fb2-459c-9ed9-d87b0b75e33a",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_3831c897-090e-48df-b5cb-fb5fde4010e8",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_12cd4381-2130-48a4-aa1f-8618d6141422",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_53260dcb-63f7-473c-b894-ab4e66c2404f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_53393932-0a7a-4761-8f1f-20209c94f62d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c6f64542-a63d-4a11-95fb-8d59c0ff55f5",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_34582758-3d41-442d-9abf-af8f0b0ed292",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6505b2bc-103a-40fb-8e88-6108fbf5ce59",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_9e0d39c6-e3c5-4247-a3d1-a3cac5a96e91",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_871fc20c-b9d8-4c2e-b622-e45471764e3c",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_73a70bca-9e66-4b74-bc49-d88fdc4a1925",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_76ad139f-2d71-44b7-aca8-bd96da79500b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_dfbc5d1b-850a-4b99-b344-cdb494521885",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_3286de4c-bfa5-44bf-8194-963236ca55fa",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d93522e3-8ae1-451e-a688-daec2e5dfe08",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_3d75555c-1759-4745-9a02-98ea79d3a905",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5c27951e-38f4-4470-bf70-6aa3acb2f83f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_55592541-816c-49a7-9ea4-847d90847cdf",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_9d3611ab-3fc4-42d4-8355-2d358a079034",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_31a01515-879f-4c58-9961-2f207cbda7f0",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7531f043-4fac-48a0-83d0-93fbeda467fb",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e5c69dcf-bdbd-42d3-a3de-6ac770aa9c26",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ad5dc668-ec74-4e7a-8acf-318d29fc0196",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ff27ae2e-2d99-4452-8efb-94abf3b936cb",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1e5d6d6a-48fd-4147-b25d-eadd895562c7",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c233b16d-1ca4-45b7-8df9-a4927a126220",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_0e98c3a6-c4dc-430f-8a5c-a9d0c7d8da76",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e1ad736c-429e-4f81-b9df-2f2199d6939f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_334c66c5-96fb-4d1e-a07a-5b92fe3ac3f7",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c60ad57b-58c4-43b0-a954-87604ab6be6a",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7ac0b225-cb65-4bb4-97e4-7836112d67dc",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a21703f1-3406-42e4-98ce-33a5431356fa",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_fc88442d-47a5-4b5b-b041-bfa98b611ab7",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e20b8e6c-221c-4b87-9876-378740bb8cea",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_234d826f-4a7b-4fd1-9799-b1a3602355fe",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_9b1ff312-da47-4913-8d3f-a79c6b369f24",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_de87853d-e5da-45cc-88fd-e977fab9562e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2c3fbba1-f7e4-4117-9c44-6d414b139e86",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_de199236-369f-4bf9-a78f-1fc0236c4a46",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e16b3d7d-73d2-4775-96d0-f484443b4c71",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5d12752a-d3ad-4ead-9a29-870cd7bd8338",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a30e621e-54f7-484d-a7a5-e06061688518",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_112a964e-4163-4b9f-a26a-f482e0f9d827",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_876c3d2f-6bc5-49a8-accb-8d18297efb79",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d69f4de3-e358-4335-af72-b0d95fb9d515",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f20cafba-912a-4a01-ac34-993ce7992145",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a91a8151-b065-44e1-a36c-a30b288e2469",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5b996b4b-f15a-41e5-b55a-a6b21aa80507",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d1b9e5a3-18c1-48e2-a3bd-7d3346f41332",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_316ba48f-b732-42a5-969b-fb1218d2d5ed",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_74338c6a-19e7-4422-84f4-76dbf674be02",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ad9f5fd9-e693-4ee9-a5d4-040833ac8bd7",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_dd05e9c6-00f5-4145-9830-a7dd90e1adc4",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_eefdc3bb-8fc8-4b44-8c71-02f2ae608ddc",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7e29a5d6-ff39-4ab0-a817-11713d114bdd",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8ae3938a-6021-4730-9f70-2552ddee9897",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2e98f427-968d-4c09-b6ca-ddc30245e686",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_91dd2794-5932-4ab6-af64-4a637906b920",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6b73133f-a8d9-4ea2-8a29-5bc225c4e0b9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1a003a42-0015-4928-bd6a-902652e7482d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_f2bb0a0b-b19d-41d8-9435-36d7eab51d07",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7704d5e1-6239-49e1-a8c9-434e611b04c8",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_89fb5fbd-4018-40be-abbe-edc34d7b3630",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_df06ef55-2840-4c86-8795-9d4f6d4e6ed2",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_91fb895a-3e3a-48e5-8afb-18176ecc2aac",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e09cc716-03ea-4980-99f6-6d95c8e2fd03",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_710d1f09-b5eb-46b7-b5b7-801b1ebe3341",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_56e9e9b1-0a9e-4b0b-ac5b-2c143a9a2840",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7dddda8d-03bd-473e-99e3-76e49ba99fdb",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_baacab5b-7e28-4b0d-b78e-73253e5c7dde",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_46b96228-0be9-4ea3-8477-67fe64bd2d13",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e467e81f-fdd4-43d7-a291-03954c590065",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e08a75ac-3fb1-4ca9-a24c-d6798f56a3f0",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_642a3ac2-1084-4afd-85cd-5c22c42da7f2",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8c3ffe54-362a-45ab-8b4d-a4947e674b45",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8798e055-6b3a-4dac-ae73-b32705c6c6e3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5358cc5c-64d2-4f7f-8fa4-266a5170a85d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_9f62aa3a-6b43-4653-b2d5-ef2a7d2ee403",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_3a26480a-e6a5-4f5a-9911-e33cb9e428fc",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c975b564-8243-41b2-a713-ba59c3e34197",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b152b2eb-f6bd-4a3d-9b4f-b3b7ef933f84",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d776d1fe-1157-4a0c-a962-e6bf65efc7c1",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_11782a0a-44e3-4ac1-bf84-ec304a63094a",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6b1bb1de-0ec7-4751-84d5-b6efafbc1e0e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_bcdde350-bce7-4d0d-b024-728fb134ee30",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_aeba1468-2548-49f5-aba5-3f0a98afedd5",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_bf61246c-afad-4103-805b-b6c7c5c7ace3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b9077c10-225c-4737-83f6-e43dc15c1af1",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e5a4297f-1617-40e6-9c12-0b14cabc2267",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_33019825-a1b2-4fe4-8b60-c24b9f890123",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_4caab4ac-427c-4755-8b80-e926b31bfb94",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_9c8a624e-168e-421b-9e86-36ac90ecef15",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_cd1c4b07-c46c-4c74-a3ca-c3c995554950",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_41935fc3-5202-40e2-a808-37c9bc21fe37",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_aaad5cfd-46f8-4e33-b589-7c70c8f78958",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2cabe7f8-1f4c-4968-bbdb-68583235a7a0",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_43746273-1b76-4c58-97ac-7de0af6fdab0",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_549207ff-c803-4d88-932d-9d8992cac8f7",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_24bbce20-dd17-4294-ae1b-ed3d0b0b78b1",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c7dc7f71-c659-4699-8645-3a49f18e5802",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_15b61168-9e7f-4e0f-b54e-3ba562a3e9f3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_38b99eb5-0ca1-4025-a359-45dfb85913a3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a7f6727a-3800-4174-bd7b-943d8c785166",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_0614e881-5fd5-4aaf-9053-9f622c76b29b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_21ec88b5-e320-4427-8664-32dffa0d6445",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d8d114eb-f4c0-438b-aa14-df2916eb6125",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7df4b0c6-4489-4b14-909c-8658a1c48908",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7efc8789-126c-487d-abe8-7a5e172213c6",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_40e9ad3d-7e1e-47fe-b8d8-1ddd3ec0a575",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_4e60b179-b6a6-4c38-8494-f663d120df6d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b4036396-7310-4f28-bf56-4acdf8e6b64a",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2986b2f1-af2d-4af6-9a09-a89ba4e7157c",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_990f8066-2ae2-4909-9c8a-a3ad732c5790",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_21df983b-cb62-43d5-93c3-25a7368efea3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d88c7555-9e0f-49d8-bc51-561b68403c11",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d5c12720-fcdc-4401-b681-9ac65cb7a180",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_65272d4b-a43e-426a-ae7b-2102c3aa5f0c",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f8a7e47c-9fb5-43b4-ae57-133aabf6d644",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f590bd72-93f1-4893-a24b-9740cdb3acce",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_98258fd7-07f9-4824-b5a6-44a3bcc5b6e2",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_bd2d76d0-3ab4-44ab-8392-38763591f1c9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8fe5b946-f896-490c-8fc5-fd6d035be24b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c9d69f70-a48f-4ebc-b701-b77c9d87b9c8",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d4e3a512-3a5d-466a-bbc9-06a1907bb87f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_012fcc39-b037-46f3-8a0e-1dfe556a6165",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_4a4f07f9-6027-494c-a696-972956ee26a2",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6779c119-8951-4170-9765-08bb80c1ba09",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8389bf3c-22dd-4024-8ea3-793ed4cdebf4",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_53ff9660-cb45-4764-bfb8-62ddabdc7b71",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5930efe0-aabd-4031-add7-926dca85292b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2bffc2ec-558d-497c-af18-07d18621d20d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_28858ec3-f330-405d-9b73-671a30353f79",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b45d8e4b-9329-43b3-a44c-da4aaf7359b5",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_41a1e0ab-4c8d-4548-9d3e-d44992217763",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_3257147f-a175-467c-9e24-1eb4635c6dde",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_4053e2a3-3f27-46e5-9966-a284e869e4fd",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e1220d41-255d-497a-8a7e-8a5b3d3f46b2",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8e499cc8-3e71-4323-bbd5-93ed309c58dc",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f68d215d-20f5-4c82-a386-02445dc44ebc",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_aff6881f-d220-4dcf-bea4-383e7a6033d6",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d3dd46c1-b874-4b4d-a853-27b078da2259",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5c42be2d-6b42-404e-b78c-c86418f9b7b7",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_69b346af-b531-448e-ac3f-c9e8a968c3a0",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_00d7bc8f-14ab-4e60-ad3e-4df7c955bbff",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1c937ae9-1aa9-4476-9908-8383a2f68e59",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a0635220-7593-4aed-9f12-dc93761df77e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ccbd453a-b01a-483e-80df-6e2cb4e2fc8e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1ea41bf0-2eb6-4a2d-94f8-0302b3257078",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_4849fa71-7fb6-4e31-ae07-3fdf5cee15b5",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_edad3735-ca86-4444-a1e6-8ce23fcb35ea",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_492a9e0a-2452-414d-a748-4397b9d418ca",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_78b95ab4-b15f-4942-b618-8b36e946a5d0",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c96e7781-c280-4050-920b-0c139dba7b0b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_734346a9-37b8-4e9d-b3b7-2dc4ba9b7c9d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1414a564-32f5-49e0-958a-0f040c779c15",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5794f9a3-3751-4aaa-9a66-c8d595fb3029",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_4032c899-2223-435f-a007-c513fd59a065",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1dbdf7c2-95d8-41a0-9d5d-641e2666be8e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_086c7192-fdbf-48d7-b0bb-c1be7ada5945",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_de73088e-3446-48d3-a6fa-fe5929150d8f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6ef01417-0efa-4947-871c-aea23d1ef60d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_9422e3b1-8a77-4b74-a9f0-ee38f02765c8",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b2c8e4f8-6299-4c2e-98c7-8cedf6bf05d7",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_67aaa898-13c4-4660-bee0-1a007e2139f5",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5f65c276-d57a-42fc-86bc-e1018d053568",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_51b053e0-8579-4b8e-aa76-dac59332741a",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_95cf9e4b-e7f8-4afa-8c2d-2e30fdc8f074",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c64582ac-7f08-4106-b3d7-94c911575049",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7d3db14b-3641-41be-96cb-d095b2f1707d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ac9641ce-50fd-422c-81bf-6c3a1535299d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1d9d924a-a9f5-4365-a728-94ab677c04ba",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_05a8b60e-7619-4b98-bbab-9ad7883ab979",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ab76263d-6370-40df-9edb-dd57f42b313b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_859d32a1-42c1-41dc-9174-7dc43479ea1a",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_563e4171-d3b1-441e-a3d4-be7ee7e4899a",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c5680d26-304c-462c-bcf5-bf83ebac9b52",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_90081c38-c489-4302-8c55-c35abc323a1b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f5ae19d4-1785-4c07-86ca-a841ebd3c1e0",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8d6db9f9-489f-41dc-9c38-0ac922be5c8b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7ac5570b-2c2f-4f6d-ba5f-ae8d05c5ffc8",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ddecbaeb-bfbe-4acd-be45-2e838cee7be9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7cf6e2d1-35af-4b06-a98e-789e5ed50f80",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_93353f21-df7b-491c-a359-30a55a6ea6a4",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_cd150149-0d0b-4ab1-bb70-161cd9798ba3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_40330424-dee6-4d73-910e-b5f70e75c998",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_0971d92f-2abe-4b08-8bd4-38b01652ba29",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_381bc8f7-722c-4303-8f15-fb59660fc84d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1ef63795-7bef-4c88-8824-9d6ea36b147c",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_004910c9-409a-472f-98ed-f39a64e91bd6",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_456a17ee-1899-475a-b33d-8d6c944b375c",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f00bebd0-60b4-4c94-82f4-dc2a3c54f623",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_713fc643-dee7-4979-96ae-9db4a539d353",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_06a24553-3031-463e-bec7-b191881021ca",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_92196367-14bf-485f-87d8-8631221f0009",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_fb5f2a82-5365-43ed-9ec2-e9a7211670ac",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_958d3478-113e-42d7-baa1-1bb1006344d6",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a431fafd-2601-496a-8b39-41105c7a2ef2",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_cda5d184-e89e-407e-8381-b5755c3233f3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e2b34ffa-23a0-4dce-bc3a-e5c7c305004f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_df58d609-5306-4c83-89e4-367c66b7a6c1",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8e6fa07b-bf04-4412-9972-440c53402512",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_eceb9ff4-8c8d-4e3e-b0fc-7780d76f0980",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c8b258f1-a614-45c9-a657-ece5d9525e08",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_164bf35e-192d-460e-95d8-abc47bd0a546",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_adbbdcc1-24c8-4e6c-9f6f-00a7c65a9ca7",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_4a6c88f8-813f-46ff-a949-c2cc69f5736f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_730550ef-8f8f-46c3-8f6b-68fa084ebf5d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e3f6104c-687c-491a-b36b-04d4b25b8a21",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f013df1f-be72-409b-a9c6-1717930a4116",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_4f682e47-9e23-45ea-ac3c-831811cfd6d8",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_cd02a0c2-50cf-43f4-93fc-badbdc6a559f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b039012d-ccf9-4712-a45a-27772fd52c8f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f3cb1a15-7b3b-470a-8786-acf0bda0f0be",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_de6089c7-c569-4999-9bf8-a693dbaf95ec",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a4688063-9f18-4a69-a323-878f22107eb5",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_0335436e-41c6-4cb2-a534-789b181de793",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_33a75c6e-fcbb-419a-831d-bb2de75a3bb0",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_44bc8ad2-4cb2-433e-9831-4a3064c9296d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e78e575c-326e-4501-8ca8-0d70638a0f4f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7e0077a7-f15f-46cd-8139-941936ba0a73",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_4506aae6-1645-42bf-a2fa-3b96ad9c1485",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_3029096b-95ad-45a2-a2c9-da05407995c9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_caf158f0-bfab-4553-a7a3-9a7cb491ddc1",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d2520b1e-5c32-4b39-a972-eb41d2492b81",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_96af7f65-6d8a-45fb-a47e-814b60f34c95",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_98c6d3b5-63b0-4d46-8e38-0c141633ed78",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e942ee76-b458-49ab-ae94-7a73d2091ccf",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b67066d1-b682-4330-ac77-1cd1a7da31f8",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ac64301c-29c3-41a8-ae7f-a590cdad84d1",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_adc4097a-c6ea-4112-9839-0c6fdf4223af",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_4e77a5b6-edde-464a-8f01-94c41d06a399",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_92da6daf-a5db-4f44-92d6-6c902d87e61b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_dd5956cf-ed92-4962-81fa-bb5b3e346bdd",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_66f993dd-24e9-4c00-849e-0231b57d182f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_607e0575-cb96-4b64-afeb-607ab6f53040",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c45b6d87-fdc3-4f29-a137-03624c1d9495",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_72de5c4e-5d5e-4c75-9cce-43a8a80035cd",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_74e6c4f2-ccb8-44bc-a548-e7668d09d489",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_4ba3ef51-e7f7-4fc0-9ec7-f01f55518bee",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e4fb8b5b-7cb0-4d48-ae7f-9a545ebd41ca",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_42e20784-2445-4664-8738-7fd05a75f442",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1c40dfaa-85cb-4d52-9308-2e8412f8b0e9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e0438f23-380e-4601-a7ad-45566a5bbdfd",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e2ac36b8-252f-45b4-870c-c2fec52daa71",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c5403cdf-faec-4513-a214-68c4ff535534",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e0ba2718-b60e-4abc-946d-96f2cb8d6f09",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_951b77ed-0a88-4688-abdd-86e761226324",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_fbe5853c-1451-4c8b-a6ab-f5b573f17e50",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a8cebb7b-f159-41a5-9867-5cf9c93617a9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_bc7d1801-5795-4721-a645-32f4ae0c400e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5d702105-b828-46c1-9163-6a85c5ba5b01",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_84be7cca-ebf9-424b-bf74-7675f6f1da7a",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_3b600857-22d6-459b-9524-968f769a8a98",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_386cc729-dad5-4fed-8674-4812b48baaa3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2a0d8f94-7d99-4d1e-934d-6981f212643e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_9dda430b-251e-4761-aaba-8856ab311495",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_0b78d1ab-8618-4a1d-8ebf-8990f50f0e10",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ec6babf8-6e3e-49af-aa46-c746a914850b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1d70fda1-6214-4876-b5e5-b37ef5d882d8",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d9832973-cd32-4dd5-9911-ce638f745dfa",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5cbaefdd-8887-4278-8330-804aa2635949",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_36dd849c-4867-4ca6-8f5e-c8419e4634bb",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_3478eeef-15a3-4300-a4b9-4b208c4e3d8c",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8124d2c0-a390-45dc-a6e8-4451a7eb1841",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_579475ba-5758-407a-8308-10a631658579",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_daf85ff4-0579-4f98-b25c-d5359fef9845",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_59d7e3ee-c813-48a4-9037-af20d8ff1798",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_87ddc246-2636-4d85-95cf-4e1942d828aa",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_86b8a39b-6c2a-4888-ad3f-f808482c97e7",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ba10b536-2c5b-4563-ad83-970fccb192dc",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_0e987b49-c12b-4665-be1c-55b32c80502f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_4d00942c-f84c-4c7c-8138-9c09226b2484",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_0f038565-7dc2-4457-9637-c3f6c18011af",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7a57b1dc-7558-42ec-8bdb-efd1fe3be24d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b8110d2f-dbde-47a3-8380-c7ab47d9433e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6b0f70aa-d996-4fa8-8266-b44c7abba7c0",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_33506d0d-cd52-40b8-88f3-e3371cca3ff4",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_82b76c25-53e1-4487-b3c0-5ba4208916f5",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_42c4734b-6a25-4b2f-8901-8ed15fbb62a4",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e0ca5a07-a1ad-499c-a92d-719a7ff1af01",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a23a3f1e-5f12-44b6-a833-2a9d30151f53",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6b3fbab5-0329-4080-bc0e-69784483eeb9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_087d5523-a5c5-4f81-9eaf-4fb30e062995",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_fa00bf75-8393-4e13-9615-bf17d14ff768",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_12c72773-ad0d-4df9-892c-143dc31c476c",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e0f248e6-9cc7-4973-819d-40f8b0433088",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_076ee8e5-7a52-4b82-8cb1-287681759691",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_605350cd-6e2d-4c38-b0ab-17abed8105c9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_718856d3-71a1-4a58-adb1-2f845082cf88",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_232637d6-25db-4fba-b342-65d9f13c6c12",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_937bd6da-e11b-4e65-bbf8-8333a9ac3bdf",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8d774062-92df-4872-a120-7224df2d0859",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c2d27aa1-3366-4ceb-98c4-f55344c2e0a4",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c72b2c92-0395-4bb0-873f-4c16793edb86",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_fd22ff8e-d584-45b8-8087-782ba24beb71",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_23831db9-e47a-4176-af0c-193bd13b142b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_78d0fd9f-3ae5-46cf-87a2-84654f7e8e6d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d8653122-35c4-4211-86e7-773511bb004f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e5fb712c-be0a-4110-a384-479d5292b0a4",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_30f54095-eaf0-4739-94db-908cc78fc701",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_24fa9c33-6917-4590-88d9-dc8227d02d0f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e0b1fcff-bcd8-45d8-83e7-8c06b0a6104d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_9af7d880-6295-4064-a273-742adf2cf594",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_594ead7d-706d-4cb0-b279-83c094a54297",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_4cdb86ab-92be-4fa8-bc84-8d047fe58775",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_0593c2e0-741a-4350-a5ab-1a610056af6a",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c5103336-0668-44b5-911c-ef4b35e8feaf",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2734b66c-c0f2-412b-ad71-3a782d9b36e6",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_401ab6cf-7ffa-4c65-a7ba-c0c6997a084d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_87f14aed-ed47-4e4f-ae96-7b6c42d3191e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_48ba3f61-7b5d-401a-949c-e3b9ea5dacc9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b7ee5416-2e49-4071-b7ba-2d5d7aef7f24",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_026b8eb1-5c5e-4b1f-89cd-1d2fb365d5b2",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_3f8cf208-8617-45bc-bf33-75791766c078",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_dd7e7cef-902c-4f6c-aad8-0da07e27d53d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7494baf5-f623-4402-8553-3c8ecb88a256",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c4f3f0e0-c12d-466c-9f3d-d15457624817",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f13c0ae1-f546-4266-9d08-30e6babba365",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e36d2acb-5d61-48c2-b186-a9b03de16d48",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_fb60d311-6901-4bca-83b8-bf9088fdcc24",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_bc5c96c1-51cb-480e-bc5e-9e03874b5e2b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8eec5e6f-19ae-4a4f-88bb-1913bcdc0556",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_845ba055-7257-46dd-8688-2b0b0cfd3dff",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1bba25d9-7512-458e-b47c-65a5a78c975f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7a26f99d-dc39-4ee4-b6cb-8c6860d55cf2",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a40eecbd-f0d7-43a3-b748-5285107f578f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2909d8a6-84e8-4430-b627-7f0a3a1cf175",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_77ca1424-a358-47a2-87fe-29ccab2e6071",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7fad3d62-56d0-41cb-b092-d5712fa31af8",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_922e998c-86f3-4fa4-b869-ba7d7adb703d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5945f2d3-5b60-4d93-9eb9-14bcc0edd293",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8f4e73c9-1f18-46c9-9dc4-fc0970714284",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a74a1c05-57a4-4c1e-b0f4-a9b5baaca5db",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_eed27af0-34be-4b19-a1e0-09612aea028b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2f7f992e-79a6-4eb5-ab4f-8eefddcc2fd2",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2e18f139-c783-45d8-98c3-ee72a35d7854",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c8c56bbc-b0c2-4004-892e-62524d0c075e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_90c93524-02b5-4831-bcab-081390ace0fa",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_aaeee79d-6e01-4f3c-8b48-2ba959dcfc2b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_329ab91f-db6e-425c-98e4-567ddd065a10",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_9049a9ab-6e97-4eb5-8d60-8792bfb09164",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_0bfbfb4b-2ee8-4428-bab2-ca7104e483e9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c69008f5-f840-4998-8914-9a409dfb4fb9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_333021a2-8c3f-42d9-875f-d5fd56f1f9d4",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_01da52da-4def-4d88-9d75-694686a35f68",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_28df5a74-19dd-4e0d-87bd-8162e8c1b6de",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_dbec8a12-3f91-4af7-a63f-0e96a2710e91",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6031cbf8-a37b-49df-b411-a6bce94f4a7c",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_49ef598b-a8e3-480d-b0b8-6fe8983282b6",
+    "strict_keep": false
+  },
+  {
+    "case_id": "medmcqa_validation_87c9ed45-4f13-4ec7-9af1-571dc39c84a9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d22e72f5-27de-40b3-87e4-4ad9b0fbde46",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_95e388b5-d973-47a9-b725-10d7ae29bcf8",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_73d0db0b-eb6d-4353-b7f6-aa1e82e50f9c",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d55b376d-8901-47cc-8989-2553443e573a",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_9a1dfa91-c075-4407-9037-7b3ba67ede15",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_fccce909-2af5-407e-b5f8-5e5a7848e87b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_49a16e93-7129-4023-9356-c09c0831118f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_35861130-36e6-4218-afdd-80c38786df0c",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_92d07de6-9c0c-44b4-a327-f77e7862010d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_391312b3-1f77-4d47-9cf6-c89f5245d5cd",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_02ce816b-8f25-4fc4-b93f-fbdb456b1f85",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2876e565-9217-40aa-a0df-cea302a48aa3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f96f816c-dad8-4089-a262-2f9f396adcd1",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6e9efbf8-4c1d-4504-b1fc-500817df1611",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d67bca34-9ecf-4429-bf69-5d26325ae9f1",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a8dd32f9-081f-429f-b0c8-1e71cf30f1fa",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d96232b5-06a5-4560-a0da-e38b8b88c31b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_49aba26d-0308-4de6-996c-598a84a7773d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_08ea41f3-c07f-4988-beec-1eb5668e59d5",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2ff785e1-db86-408c-bf62-a5c4b8f23d2e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_43647b60-760f-4f7a-bbef-9c3fb997e9b6",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ab5e661d-5a12-4d81-9f76-12cf9f57459d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_4cbebfaa-80b4-46c4-b247-6349ab7d26e7",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f7d1574b-2c61-4180-b6ef-68897d32d5f9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6dd7cc2c-1704-4e8f-aa1b-fb30c061f8c9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a6285efe-0817-4d67-afff-e701ddf3712b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_69e5fa2e-3ad7-499b-9e69-2af30553b0b6",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5df74983-d052-41cb-be5e-8e710ed107c5",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8e92063c-f90b-47f6-a719-155dee6c0004",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d649738c-efd0-417d-ad33-da52feecb776",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_39c76adb-bf3f-4924-b11a-b47337e88195",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_69d0d0a7-e932-4212-a54c-fc0ee2bd9aa9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7b63f051-afa8-45e9-9e56-f0c1b56dac9e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_80e8e74a-436b-4296-8034-eb916b1c5ecf",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f9fb4bd8-38b9-45e8-83fc-99ec541be647",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_47adc410-5e1c-4ac2-befc-6cbb2235a578",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_16f040da-e2d1-43d8-beb4-5ea369e0891c",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6f459b4f-60cf-4519-8f10-a25ade2b100c",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_64a6313a-887c-499b-a4ff-797fd75c544f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8f35dfab-9ab2-4c09-a1b7-b338c2f943c1",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_23cba784-d59f-41ad-9e9d-a17482180842",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_98095171-2883-40ae-a76e-a4f498a52ee3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_66fc37f0-6717-48a9-8471-b07743986196",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a4130bdc-eba1-483e-9bdf-c5f6067ff468",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_914e7fb9-7f2a-4501-bc52-81279ed9d60e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_fecea3c5-0724-470b-b0d4-2d57f0959cd8",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f97d8091-192e-4551-bf58-044373454a5c",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_fba4477b-e045-47e8-a48b-d0856f57ccc9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f85c1f82-ce74-4747-b106-2197ce75c1fa",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6ef5e6f6-6d9a-451c-9bbc-63785fb8e282",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_cd162a15-bfdb-4edc-a360-a9b128691135",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_321414b5-69ae-4151-a6b2-dff1143934af",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7b222138-7c69-4421-8605-b5459405ba1f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_97f3ffe1-7865-4843-ae90-530f74a04d9f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_9c08aacc-a2a1-4dd1-a006-c18e8601f490",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_9f92396e-c8f8-471d-8c5f-006a6da14085",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_28db287d-251c-4843-af31-918347c28afc",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_bb01698c-9ae7-4874-89b9-ecd735093aa2",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_371ac31c-1a40-4504-9606-186ebb9e2820",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e4e1ac36-4740-499a-b3b3-668728f30f7f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_3702de86-f069-4c3e-a13d-e457574e746b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_09e0e6a4-c672-4118-826a-2865b0b72505",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e8f21c73-dac1-4fd4-a915-a1aaff14cdb2",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_059608e7-4388-4edd-8946-f39715fec464",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f6dea44b-fd89-4db3-84c2-d2500a2a59b0",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_3c9c7857-42cd-481e-b924-2aeec6761bd8",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1b80901d-e414-4d7b-9994-ba7f897d57ea",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_aaac3081-98dd-4d9d-a67a-5e5565e6c0db",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_21381e79-10b9-4a74-871f-2b9c30710718",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5d3c78fb-4128-4a92-846f-fdc323f9f87b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f61b3c6e-ca7f-4fa9-af2e-678870617240",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_9d88c0d2-eea3-4a52-8e08-6530c18aaf5f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2c46d205-595d-486d-b89b-239e66f30bff",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_919eae3c-81fc-47c4-ab63-c68e5a481787",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_774dcbd8-1d8c-45f0-882e-16e4c97967d4",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6a6815ea-bd00-462c-a51c-eff5da981d71",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ee05c8d0-a4dc-4e2f-9676-0ecc94015cae",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b720b68a-23e2-4db7-a6ad-0010c345c7ed",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_fc4cbd36-a8a8-45ff-9610-f046aef96799",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1d7ea303-8262-47f8-afa0-5f79913f2e9d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1dd97ca5-cdf9-4f4d-913a-1e665cff94b9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6ef92aa7-13df-4f02-a8b3-53e22bba33e1",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1c918bd3-3efb-4a50-9b91-2ca1ac47399a",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_cbb4c34d-a9db-42a3-8db3-8a9405117256",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7c28f23c-3226-4ccd-8e2c-4b78636d685b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_9f900478-b968-4dc4-9310-e370f3e15c0e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_9bd99cd9-09ef-4d7a-87a0-1452ca92a745",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_3dafd2ca-b465-4aad-a85f-a3bd7bc680d2",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e04cc18b-459c-4176-bc35-2d14ca5722f9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f9fbafd4-304c-48a8-a0d1-2b099186c022",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a15419b2-b651-4e48-a23f-6ea517cb25d2",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_69c73554-b26f-4569-b236-88493905cccb",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5b645940-1862-40b5-82cf-3729d8effd04",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c16e023e-e083-4c1b-aa2b-914ffeac6278",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_9b822986-a0c9-4f93-ab58-8f16f4b41868",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_88bc22a3-61c1-4c2d-80ce-7ff4836d9489",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f41763ea-5537-4825-92c6-51756b6cc5bd",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_3664e5c1-e199-4119-9796-62aea6a56ffd",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_601021ad-7020-47b8-8cfe-37adbcb9bfe3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_68ff9908-2480-44a0-b76d-a50dd05032f9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_4178435a-a846-4002-84de-807d254f4ff1",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d3d6a259-03c8-41a1-bee1-823d6c7ecc77",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_4ead73cf-c592-4dac-8943-7e28ffd34818",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_3e93103d-a8cc-47c0-9b7a-a6ac2b7c756d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_49fe11d4-b070-4ee9-ba0e-909dad1d38ff",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5758763d-c54f-48d8-aa50-d46f4efd4663",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_3d83a1df-5d4f-4e14-992a-d4e336da7d4a",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_66cd2a7f-b8ac-4390-8933-c5509b3df381",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_3c860ea8-ae63-4bad-9032-90a0c570bb2c",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b980ef1f-f337-435c-8922-82b0b58535a4",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_94dde09b-b752-480b-9d91-149f95d23403",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a9ec3fd7-49c1-417d-87f8-16c2ffad53a4",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b9581080-6726-41da-95d7-a695d9bc071b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_70cdb234-7d88-4abe-ad6c-0ee35eb34489",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_89306bef-ee71-4d12-96f5-4a95e4190b29",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ebf37a52-619f-4ff5-aaf3-943c615f5097",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_15bd8d7f-6174-4414-b763-35a14074705a",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_65b7ce83-09d2-41cb-9c6d-d34c247b7ced",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_9e9caf5f-36c4-42b8-89c1-f14e76d2fabb",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_06e12e56-dca2-4d9b-b749-d3f4dac62c94",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f022a164-a571-47e7-95ce-fdaaec7453a2",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2593506f-3fef-43ea-aa88-64e4e0972136",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_0de30d43-53b9-4e9b-a914-76942e3c0317",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d0182fc8-7162-4aab-8abc-8d8cdebac44b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_cff87108-acda-4a48-94dd-d1c9ddf0d7cb",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_cd901409-df02-47a2-8670-ffa8eb1d6ec3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_0b18a456-68de-48d1-b95f-82df276e13a0",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_9923dc78-d422-46d1-b3c7-17e8b28ef589",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c2e276a7-c52f-400e-83af-7ded47872864",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8c31679b-1eaf-4135-baf5-c2c8246d2ecd",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8a202b40-1144-448a-8bae-7044f37bc153",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_16180aac-3624-429d-9028-db8268debc8c",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_67787c9d-8765-4e51-9461-8e1316689899",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6d95db6e-e553-43ae-91d4-9a2357c60844",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_685f8a02-867a-4760-aab6-1532c03d4cc2",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_3fb83e78-16a3-4c7a-bc8e-27ff7d989891",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_f6f50542-f6b4-4fa8-b073-d12597eb52f9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8fe95469-e037-4c97-b1f8-817395398eb6",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_812f7600-55b1-40ee-ae50-a31cf3b19dab",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_696d4ddd-dfa2-41fa-b24c-36a54bc4a25b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c2120448-bd3b-4d8f-8963-e92e68ac69e1",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e0e0534b-c050-4fbd-8473-3f4c05542c34",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_56aa938d-40f2-4917-9866-8bc915c61f90",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_33d23960-2b26-44d6-897a-3cd6d3f3d1e4",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_31dc776b-20cc-4ff7-980e-1859c4fe72d9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_d89b269b-52d2-4f8a-b9b3-9e5727a05aea",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_4cc4c71c-6475-47b0-a195-784a468f4c6d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8ccdbd67-366e-4797-bc6d-7c78a29d4f42",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d664d735-dd14-4b0f-a84b-cb70e8234f0c",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_3defb11c-20a3-4cf7-ae26-6fa9f020723e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2292001b-0492-4cea-8335-4d248d32912b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e8ebfd55-f36f-4884-a042-0ff75185455e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5bf01db1-fe27-4022-9c11-a1fe42367274",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6f51e294-ce1a-487b-a18b-17e104211eb9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e0da26ea-2581-4a8c-9e9f-e335405b13bc",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_0e9142b4-8e1f-4a49-800d-ea2b8172e3a5",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_cd7f3e5f-df8b-400a-a044-d0f9a517e2cc",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_85945b1b-0cd8-40e1-af4c-0859360ad50f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_026bd859-d0c9-443f-bce1-12db8e78f286",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ab78c912-392d-4ad4-9cc7-29187a25b5b8",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f6138354-d529-4b1d-b251-4e4a7431b394",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8591c8a7-408a-4e38-afb4-5fa5353233ad",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_20929b62-1d50-4e64-9370-8d4966ccb2ae",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b8bb40ac-c7fc-4032-8a4f-cffd76a06e1c",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a30ef1a8-2434-4555-8e3c-940b50b46781",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b6c56c39-3d75-4a19-8e07-a13681f3d9b2",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7cffb021-2110-41d1-963f-50936f881550",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ccee75a3-7dc6-45c4-9615-4908b20b516d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_3743f9b6-55d8-4570-9ae8-a6a6eff9ed5d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_eba1daef-f3fd-4142-a80d-ee207092329e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_56417a1c-f476-4a6f-a472-fb940c723d0f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2f934764-d18d-456b-824e-9f92fc7afd94",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_0a22bdab-b65a-48b8-bde8-e73a0ecf5d0b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_907a6ac4-47fa-4e5f-a886-5ff3594287ac",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a0c65ec6-228b-46a8-b3fb-e40662190620",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_533097c0-2772-4e74-bdd4-2bd51bff14a7",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_dfd6bf3b-b4c4-48c9-87aa-4532fa309157",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b5f2bf07-4acf-45ef-8533-b151e9b7a4e3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_82fee812-5ca9-40df-b886-ef14d989f064",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f7564f32-a5ee-4444-9768-2a2e9e1c36dc",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_26bd6225-afb0-431b-85ba-c19b89ff163b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c51fe175-4dd8-4db0-876a-1d321a79a890",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1722bf43-e5a2-4e41-805f-3355d9671f47",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6513b6c8-723f-4843-b249-b7637180b5ed",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_0f89a2f1-60e2-4c87-8482-022534e4f702",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_39603c8d-cdb3-4a8d-ab36-10e244afe567",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f94dc278-3751-4133-85f7-e7f03b4a8f24",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b211a7fe-1a8f-48a5-9951-b2558963e2c6",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7189be9f-0388-4423-97a8-a957e6e60a97",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7005ea41-c8fa-48f8-8f50-9c6cd1296b96",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_3299d7d8-704f-4631-bf61-68bd080686aa",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_3c87633f-c5ed-4c3d-a6f9-cd4641d919c6",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8f3510c7-2fa4-4e00-bb2c-46568e44da63",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2625cff7-0f50-4eb3-a2ff-7381941dfe97",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e4c8da76-780b-4dc9-9495-4f3b378c30d9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_65aa93e5-f2df-40b1-8eb7-c06db283c670",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_fc4ad074-28fe-4b8f-bde1-79c50dadad98",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_231726eb-5cd5-49b1-acb7-02cb53429d6f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_4aa38ca1-0e9f-4a90-9f56-a143e9dd1b40",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5a0f1293-0e82-4492-8590-fd1015a61d1d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_9eb8380d-208e-42c0-8c5c-63733fa26121",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b2deb849-34bd-4193-994d-6b92719b6db3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6bfc4a97-ae75-4163-bf74-027fdbe41a97",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7eea9246-5f0b-4b57-b9a3-9d1120a899ac",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b930aa21-451b-4705-b27e-5b4b376cd98e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_fff7b566-212c-48d5-9e20-9e5b4cf634bb",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e8bbf8cf-b6bf-4d6f-ad59-58fa11b900b1",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b6f0a9bc-0f48-4dd0-97b2-95a116771516",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_69be91a6-22f1-4872-a66b-9567a4ddd7ed",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2af0d48e-dd57-414a-8769-05a6c678dde5",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5a6fcca5-9d38-4aab-b8e3-6f241c3d5586",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c7e80d2e-2361-4533-9fd5-f98073e92c68",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_805e7f24-2c61-4783-92de-e8757acfc270",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_cb96e8a1-da02-4b69-ace8-bb948cb58338",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_38bce102-03c7-4754-a61e-215cc9ab220a",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_0464a995-a550-4eda-80ae-03865bac3062",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_46625abb-85b1-4a1f-a6ed-4ddd42fc244f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_27f22bd6-be02-4c94-bbd5-deb82ef5a018",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_694a7d92-b51b-4b5a-a036-ab4c7229bbec",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_622b9c60-3974-4954-9efa-6aa94326d3dd",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_dcfdd06e-96ad-43cf-8948-87a64ceab1fb",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8d6fd5dc-5eaf-4acf-85d9-cc7624895cff",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2f5e3dbd-c316-4793-bf06-dbdd2f1f5420",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_fc7b1194-0489-493c-a196-de038b782aad",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_18767e6b-71f9-4bed-8c9e-7f0ba7888c7e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_31117f1b-6870-4655-bd34-9f166f70b54f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2bbd43a8-2862-4278-930d-a831285ec3b0",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f9a229d7-289b-4a98-b796-6828eccae016",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ad20e2e8-d9d9-4e61-a679-52018ffbd88e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d65353d4-b898-41cf-9a0d-f89ff7bc8120",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_bf487744-52f3-4ac8-8c72-260a378b68f2",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_cea76f00-c75d-498c-baf5-b24a22f45b6b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e5db2ea9-d7ee-4803-8a02-399adcf46aef",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b9ac96c5-a1f3-405c-85d4-077506c92208",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8e10c395-ea40-4b86-89a1-6a29194e4020",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_35c6e862-1c38-4d9d-a094-18a0dec28c5f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5a6aa700-2980-45f1-8328-b819b4949f4d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a033fce2-9a88-43fc-b4c3-df82ec23fe6e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ab508393-9d3a-442e-970c-c11dc84088ec",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_07c98a8a-83cb-4748-93ce-a6ffa00894bd",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a4db64d8-cba1-46a1-8274-2e9231b432a8",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_acb4d69f-e6b8-4f0c-8b6b-880a3930b7d1",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_1146bb08-e590-4323-a743-83bc2d531045",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_fc960abb-c4ba-4150-b56e-e54d4c7ae635",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7b3f5261-868c-4b15-8171-84c3a3cad6b9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_417ab7d3-d343-4c75-a050-f3a4ef41b48f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d0d8c95e-d1c1-4c8d-a727-d0e2e3481843",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_cb986195-a36c-4b44-a62a-63238da745f7",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b0c96e15-cd3f-41fc-b887-725f566e504a",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e1c222cb-50f7-43d6-ad43-05a7013fa9d4",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_f1cbc766-a7ea-44ec-ba8b-997ffc3a028a",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_67fd694b-3fe5-43bf-9ae2-b77420ee4e84",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_557dc3d0-1c4c-4e71-a49c-d88f65be56b4",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ad9fafc3-3eed-47db-9321-a5a02e379a79",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_da0ad33c-96e5-4397-97cc-c444c7817e25",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_053a2505-107e-4168-abab-565f43cf2d57",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_3d1a2573-6fc9-4f09-9ff7-10b488155762",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_53c340e0-b1f7-47c7-a02e-783eeb91695b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_fb38bd7e-5c1c-4c72-9dab-57529d3dd7b9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b731d0ac-fc05-4cda-ba79-9257a9006aaf",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_15abfbfc-c022-4d4b-97d6-9a5c16a21c05",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7cabcd42-0c06-4786-a4ad-29dbd20fe270",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_adb5d6aa-d443-4c8f-85d2-4085b8984e32",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_0ea5ccbe-ca4a-4eb4-bc1c-c0bf3dc737e6",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ba011dfb-1b52-4654-b005-25ca844b786d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_0270621d-30b6-4bfb-8d92-c8f63e48e7ae",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_431dec7c-3b57-4f48-89ad-ccd047a97ebe",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_232b50ab-3c7c-4512-9002-9f3088836876",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_9dc970b4-e2b2-4262-8c2a-a785f23e09b6",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f6ab33ae-bf88-45e3-a9bb-79dfbc375e96",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_bd408d68-b64b-4244-864a-e7e63f675d64",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ff2354a9-2811-43a4-97d9-3c4091612557",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d55d4fdd-1aaa-4522-acd9-b73d04ed6ca4",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_e38402c3-69bf-40a8-90c4-09277ca352eb",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8018614f-f4dc-4112-abce-c7630b165d24",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b63ee008-a315-4bad-aa4c-2b45d0f1d1a4",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_00dd6465-084b-44fd-b64f-dbb33bbde0e0",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b8f2180c-8e26-45df-8306-66865eae4bc1",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_0aa56b89-1692-494c-b14f-f794ca9821ec",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_af1f40cd-adf5-470a-a89e-fc4067925be4",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_138f2721-a8f6-4456-a302-e63411415f00",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d1102e85-5aef-403a-a806-1ccaaf7d8f66",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ff1f03ba-07a5-4acd-bb3f-4972bb079088",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8ceef4aa-c4c8-4ef3-8f29-4c2e5bf9d911",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7971bfb0-2fff-448c-aaa5-d3baf50c5e75",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1199364e-bffb-470c-929d-fa0fa0525288",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_98f7241b-16ba-4011-acd6-728a15ebbf47",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_53e638b6-4849-4cb0-bb91-a4da23f82003",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b501b5a7-b007-42cd-ab7f-8cc821360bc3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5a6df889-a586-45db-9d8f-80d6dc7caf80",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_bcae804e-d074-4661-abab-711ea94ce3e0",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_315f6d5a-990f-433b-8922-509259b23043",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_20f29076-98f9-479b-a77b-96fae28d5689",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ce4c5990-f8b4-496a-a4bc-5a296386b71d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_3b1b2249-d7de-484e-9cf9-9c780f984f8d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_101b1441-b74c-4b36-a375-fa14cdf94589",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b83511b3-df44-40be-89d1-cebe48e4d241",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_315d953f-6c51-46c2-9ebe-05fd220664b2",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f171ccb1-7545-40eb-be99-10c2142aa90e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_cfcc1831-666d-4450-8f21-ebef8490b960",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5fe2e075-3538-4309-baa9-c5dfd25f3af0",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e8b0b4c4-f5ca-4f52-9946-9b061320d19b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8e49a8fb-df0a-4f0d-bd98-8719ac4644bf",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_30a5bd7c-07b4-43b8-b452-f8e6a4b8df82",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f06a0630-35e0-413a-963c-185c245ef159",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_853b5fef-885c-4ceb-ae38-7a2784d71940",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_773d1016-ec99-4843-acf7-6c984e075b99",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_63171850-88da-4d16-ad44-4419876674c0",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_fb686977-ceda-413a-864c-42482c766e24",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5e3e4e84-fdb7-4a93-b558-6a903efd8daa",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7b4489ff-406f-4513-84ca-65a02f87b6d1",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d3f06812-8878-4f68-aeff-5b5a1c6dedc1",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_72f11ff9-fc8c-41ab-82f2-b141c882626b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8e9fa452-8624-4044-81ac-b8e6d85380d3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e75c8edc-72c1-4424-9e7a-1e0efb650f8e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2c64f6f2-f5c6-4996-b807-fc177c990926",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_26f30f24-dcd8-453d-8553-9ee82ad496e1",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a1edd83c-00b6-4131-9e40-c6a49d2539f6",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1ebb9fc2-2e76-4cbf-9a31-8ae04306ff14",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_84778452-f559-4717-b954-579d7d04bb4d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_05b1ff05-ef7f-48ba-8c10-d1af1a6738d3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_bc9554c5-9aca-4746-9d94-3c27059e71d7",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e367e44b-5012-4347-8869-76819615efff",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_cd6ff4bb-f5c1-47e0-a84d-a3ca6beb9c01",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6a665c92-0503-477c-9c97-76215a8de219",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_98e873c3-0875-48be-a6e0-84e1aac2935d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_89b346c5-b832-4e16-a8a1-d2f1b400b3d3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a067ba64-a70d-4a96-ac91-37bb729c20e6",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d6bb3a72-622f-47fa-a7d8-dd439dae5b27",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1e29f1ac-af4e-414b-8a62-cec3c77ba6e6",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6e86b9d6-d90e-413a-b06a-da647b24617f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d6ad8a8e-4a7d-4804-8e87-394adbf3d31b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1f9df3c1-6fff-40ce-8054-bab5a4284d88",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_54c9fa9e-25c8-4ec2-ac4f-8a40084dbd7c",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5b9fe806-43c0-4f2f-a686-847b94fa333f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_48cb2618-4073-40ad-92de-e7470c9ab055",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_bf8f2949-5367-4933-8e59-1e49a0438c7c",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a0892fd4-250a-4d5c-9d5b-c2960b858f82",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_cd6615d2-34b6-4eb2-9342-c89586532f70",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_54fc510d-e37c-4bab-b731-f60058bef85d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_9776df5e-0051-4b3c-8d47-f68861dbe7bf",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_61ed1226-15b2-4f01-97e8-ce055ba04384",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_22e3e239-1dc6-453d-9f76-da51a5a0e10d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8d747f94-fa97-4ab8-9f19-e0087c503392",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d06f4ccd-d992-464a-a7e7-bd7b1acabd05",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_34ae129f-2f19-49cd-9def-f20cfa80e2d2",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d40e2e94-126f-42fc-bc70-33863ac0a684",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f844b994-e35b-447a-a5b5-3c5fa9f59745",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b5536d8b-f83d-41d4-a74b-d03a627311c4",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_3fb2c82f-b1df-4628-a553-2d810fedbbff",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d068d490-3649-4970-829e-f95439fea36d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_0fd5f7a0-4a20-4349-b3ca-e5ad495de89b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d8dd6739-ca3c-4d16-9092-2a973b2e2af3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2b56ce2c-b988-4356-bf6f-a0bf5e8e0a36",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_eff23446-b32d-4a7b-8394-99cf3f533739",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d12e78d3-6249-49de-8d70-680af7a2e738",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_363c9ea4-6fb4-42bf-8f0d-a8b5ed5132c3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c180c3b8-69d1-4dee-a483-073c72ac50c1",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_06f97fe5-7435-468b-bdab-6437281c0069",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e334bea4-d412-459f-8c01-d8b391102dc9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5f09a2dc-d2d5-4c09-9037-7ab4d6083e3b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_54da3c6d-a661-484d-9279-022019438fdd",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_36916fd3-d205-45c8-831b-1790d5d2d2de",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c48e7250-e21e-4bc0-b475-97b641ce7d62",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_52134794-586e-43f4-9fcb-75b6ae652e2d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c6894fd9-b94e-4f25-9855-85a8d323f1e0",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a613f2d5-8d0a-4911-8614-c66ed6ebecf7",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_4259108c-a00c-4406-965e-d5a0855016e1",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c3546c75-1e5f-443c-982d-0097a3f5a137",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_bed78849-a1b1-4cec-a517-cbda2e0c24ee",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_9aa1a608-9431-4ba5-b495-a3a4436f1b82",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8eb0eb03-69ac-42b8-8627-c3be71dae47d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a4790746-9690-4d27-a813-e0838b6fd967",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a25db708-fc8d-4cc6-b2d0-5afa824e742e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_481d7f07-83ba-4ccb-82d0-4827cb62c9f3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_0776f05c-cfb2-48b0-ac5d-b8c548e7c682",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_15d711d2-28b6-42e3-94c9-0fa81d79b5a3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_86f568a5-c507-4099-a293-ccec64e72209",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e5a849ae-8a56-44c6-b129-121ae8480021",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_625db726-8f3b-433c-8ef2-2bffebef393a",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_0c7e2ba7-3604-4673-9c7d-d9fd32781c14",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_0262524f-7df5-4d0d-a1a9-dcc691208a75",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5ed2261b-5bc2-4ad8-b76c-c6ec5633817d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6e62c59b-c2e6-4929-ad7a-008fba0275b5",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_9bc61906-e32c-413a-afbd-a723b90f2b89",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1d3fae13-887a-46d6-bc02-60acd38ffd22",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c9333b2a-f065-4db9-a00e-bf67c634b84c",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_62887846-0da8-4c48-ab7f-49db2e88bc65",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_82f9c400-1275-4ab4-a23a-8b5c41135b78",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a7e8245d-2a81-4315-8c57-37c3b3a9eb0a",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ac1b541c-33a6-4229-abf8-97fd16ce9b71",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_07912104-b781-4703-a41d-6c1140bc20b3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7f9f27bb-82e7-44fa-8b88-a1bedc5618bf",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b17a33e6-f350-47e0-8f3c-eb09ac52eb44",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_0f49668c-7988-48a6-ba11-ad49aa561259",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b40cad46-0695-442f-99b2-ac1da016bedd",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a13a006e-b406-4f4b-9992-db9928cfa0cd",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c41e901d-761b-49ef-8d50-23a645135fe4",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_0fa159ee-30e9-4c6f-8d3c-8f56e4e706f7",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_8a63cb8d-20f8-40ea-ba34-12b9583c9224",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_999ce7d3-c4bc-4c7a-b5c2-e12446bb0405",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_78af9780-c77e-4410-a457-dec0789708cd",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_967ea5ae-cc33-4571-b9aa-1e6e16c4b540",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_17bf74c4-7570-4828-838b-375b7d5a16f8",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_4ec95088-c49e-45d0-b18f-752d676d97e3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6d57a69f-b975-4fe2-bc8a-8ae7385727e3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2dc39db9-79e0-48c2-8dfd-0e64f92451f5",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_64a3e1d8-07ea-4cac-9313-36fe4cf078f4",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e285f8f2-9e35-49ee-ac39-3de894d5f47c",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_93405eee-803e-4bba-a7eb-1cd3687d2f1e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6ae5593b-c66b-42a0-892c-76b209a7481a",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_9ebef7e2-a6e9-4bbe-a66d-d07d6fb38cf7",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_12daa30f-b88d-4c27-9076-9a6a4d6a52e9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_806ec4d6-0766-48c9-bd1d-55b70fdf08e8",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ccefde75-7ec0-4932-8bf1-d4806491da5f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2bb351d6-fe5a-4ab7-bd89-f22cb70d04cd",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_22b7db71-e97c-475a-b069-aeef00ef1c4f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_de231299-c4b5-4980-88ca-3dd828085789",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1e2ce55f-6400-41a4-8e23-1d60697972a7",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_71e4cdc4-f64f-45be-8a84-fd2d1bcb9a0f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c5c30278-8f1e-4d20-83bf-635b8c18fbbd",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_aa3c897c-0051-4ebe-a7f4-63f512bb4cef",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_47c18b9c-18a6-4bb0-8694-f104bf775cf5",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_eae94154-fe5e-4206-bbd5-f15f8c93a580",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_93b473bb-b949-4892-b3f7-ba52b1416bc6",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e675b134-430c-4e38-8e06-89dec30f728e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_0eacd5b3-5361-4f86-af4d-edbe5d8016cf",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e84bbc46-fa7f-4619-9a24-576267df48b3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8f253c18-47c2-43d1-bc12-a45cf421c5ad",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_36fe19d9-fc56-47f7-8734-160f937c9f9b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_0cd7b4db-87fa-4a11-b7d7-d907c07adaf9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5c6fe1c0-5efb-4932-b249-5d2e6bdc9903",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_da8b7dd3-854a-4986-a6a0-ad8786e4f565",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_26b65806-e6e2-4613-bf87-96e3a9669756",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a732cfbe-5314-490d-8972-605157154e15",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_cefa7c76-3996-4f07-a66c-c2f58fbf87ad",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_092767de-01e5-43fe-8212-505e98bf23ab",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_860c761f-0462-4dce-bef7-6aae97278d79",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_919c809f-b24a-47e5-b777-054fe3a89c4a",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e4498791-b38f-49c4-b7bf-3287bdd4ab47",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_982f6d0c-649b-43d0-93c1-6d2620a054a6",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_0c1a9bcb-5f6c-44e8-b2c7-67d7a9c7ad54",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_90511905-109e-4714-bde1-242f78113523",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_673357fb-4a08-4e56-b846-b67c0cb8ec3b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1701b45f-25de-4c77-9166-a843d1af0844",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_96516f8b-aaa5-4e24-ad58-de6cd5a1219d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b531eab6-3d1c-4834-a757-537372ce3918",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_30fee938-7827-45b8-9db7-4d7b71d0cd20",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_4576d171-ac5f-42c6-84ba-f3e86f79ce79",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8323d364-a614-473a-963e-e3ea7251a1ae",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_4b5fc05b-61b1-4b49-9488-e3472c515df7",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_597a1819-5559-46ba-be10-95c0dbc4e6cb",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_dcb34928-86e7-4e2f-a02d-4780609d6c0a",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b1555deb-b5e9-4d98-bfeb-b011443f9ee2",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b91815fb-82c7-43f9-b357-3bb38afbfec0",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c884882f-cd03-4982-bdfc-8421fe8484ac",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_94bfbe82-a572-4037-b228-1f6146037cf6",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_605c9835-95d4-4a5e-b400-09bf38e75e4c",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6f748e5c-8297-4e1c-abca-eb5274cd2654",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7523d17f-d62a-4419-b33f-4079cdc6d512",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5c54792f-89f0-40ac-81c0-b34dd9f7c168",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_0995582a-a85d-489a-9856-0a777cf48f65",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c48138f6-72b6-458f-8cf4-05a7a62fe3d6",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5b61b5e7-bbc1-476f-a4ff-b44f9c14e784",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a1e4424e-6808-44b0-9456-54fb8f807e72",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f13e6a6b-f8e3-4017-af7b-498aa79a98c9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2fec5134-4afa-4b52-8cff-53e6bc6382d3",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_7884936c-058c-4536-8d29-b6851f7f7148",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_cc56baeb-18b6-4eca-9674-1eb3ffe24b58",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2034031b-c816-400f-bc77-9e7cfbb73c19",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_70cb6e62-d3a4-401c-8b52-c9fb2bac3b8d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c78e03a0-6ee2-4325-b61f-05f31fa32641",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_dd83f532-7ec2-4971-97f9-394b3f3aa961",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ed9fb212-6234-4b5b-b163-49e856ef645d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_95fcdc82-35eb-43e3-b204-18ee96f3b658",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_86c7ec15-cd55-47b2-a27a-c1e9bc232edc",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_cebca6fe-0204-4082-8be1-4758f69c41e8",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_dccc20a4-6f29-4123-b06a-034b801eda63",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8ee58fe2-ce5f-485c-9795-252d8efc7a84",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2b7d25ab-26ec-4554-8abe-611feb8f8c1a",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e0dff860-7c3e-44bf-ac1c-adc2e07c3631",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_efbbddb0-4fdd-4365-829b-a677f25dfd63",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f499144b-b4fc-4345-9543-dddd2c7bf36d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_aa7df2bb-c76a-4fe1-b276-3da539a1d9ae",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_96716f22-0f35-4fed-9a4b-9868742d19c8",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c8095926-456b-4b16-b09e-ff465929b82f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c0e936af-4542-4470-8425-5d1fc6912295",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_447baa3e-d54f-48bb-801d-d856f99cf9f2",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_653cb244-bf85-4e3e-b526-0f097b553c36",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f5213ada-efac-491a-90e1-2d3d09e0e588",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6346f3cb-919e-4950-a3c1-dd1e4e94f454",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_bb11c9b5-9ea8-408c-9cf0-59e71658665b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8a6d3777-d1f3-497c-b362-dea2839bcb60",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_44ef2905-fe42-48d7-883a-2252bef7779f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b5e3bbd9-5c35-4529-8f3d-9062483807bc",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c178af37-f2a7-4cd1-bb63-25b185556035",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_88bd058b-b17b-479a-9cf6-931dbeace363",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_367d0870-3fa6-4c98-8ff8-9f50a7f26728",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_9bbff51a-c15a-4ec6-a956-310e0d78f50a",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1678c7e9-8148-4257-9d22-05bc7b8bb4a6",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_dc8b27e2-464e-4fdc-81dc-702153391c4e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c2b8ad02-8140-4dc9-930d-befd06413e0f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_4f62d969-ace0-4fdc-bf99-4f9c902a2c5b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f31a0090-5a35-413a-9064-f8d5001fc5bf",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_adcfa218-be2d-4fa8-9262-900d322c9be8",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_9016d7ff-8111-4872-ae62-b353f7a52e6f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e7494353-e2dd-4bd1-8efe-d0d5226b0c82",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_68c63050-83c0-4669-8c29-9637d4061726",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6678db04-ec27-44f1-a90b-f709893acc5c",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_506ed80f-1da0-4cea-8049-a58bdc371400",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a2a116cf-47ff-435a-9233-4d77ac6354b9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_891c7857-34da-450c-9d20-70363d88fb64",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5f37ba67-2289-410c-b471-c35d4097650b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_975bce9d-d4c8-4eb9-a706-61e61409f551",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_053752b7-7336-4d8b-a6e4-684831a8555c",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_3b30cf32-530c-4d74-b458-e3d397df2ebe",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_28516649-c05f-4e0f-9a49-6020b01be4f6",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_aa80ec83-ee07-4afb-913e-49a69eb8744e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c0800fac-c24c-4900-adf0-ffd62156a992",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_98c15fba-9e97-4483-bcaa-250ea47b933f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_0accc3af-a316-4ebd-a206-613ab3f860d2",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_def5bcbb-25e9-4c20-bccd-72f6180d84ab",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c555e8f8-3cd9-4625-bba3-4897bbc0021b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_98eec545-7c9f-4284-9d50-c9a52105497e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_eea5e445-4129-4f3b-b0e0-6c7010b87762",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_513f75f3-5045-441c-9e47-c1a2bc8418e4",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_202cb4ea-c9ef-4e19-868c-eaae7fca2262",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_afff5b96-1be1-4822-81df-9dd6b8d1e880",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_716a0352-38a4-41df-ab63-873b22d20a5b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_9b70c455-c15b-4b56-a4ab-12092d01dd68",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_374012d8-974e-4996-8b70-ef80023082e1",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_b3eb29e7-c094-4225-8379-8e4341a621a6",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_fe11270f-bc1f-435f-a8b2-27ad7dd5def7",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_621316dd-5ef8-4ba1-953c-6f214b414b56",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_cad969e2-451d-4f3e-9ca8-0d748f62d091",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ddb1775a-78e0-4499-a113-6a14fb88c0e6",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a85bbd07-673b-4e92-af08-9eb3987be99a",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ead4b546-49b3-4a5e-95b6-d1a01a3d2491",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5b8ecba1-e885-4cae-bfe2-507d6fd42a48",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_cd7f322f-92dd-45a6-87c2-614326ea5275",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1620c8d6-22ac-4d7b-800e-e72794586dc4",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_14915763-fd47-4af4-9b4a-1ff49cacdb6d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2c9f4fc8-34e9-4fa4-bc27-93af076f613e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e41556ae-b16b-47f5-baf4-41d1c7da3d41",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b39addb6-2abf-4619-80e5-c30a40f46dc1",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e94fdcbb-f92e-47ae-962f-8373d63a9549",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b2ede6a0-22d4-48d8-ba09-8de3b6eaa287",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d974f874-5222-4597-b7ff-5377c3cec88b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_dd030924-5129-4540-8608-d19992b13a16",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_6788f1c9-7377-4903-a8df-21c81f252f7c",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_bec8848f-1a03-4743-80c0-85b9de3203ef",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_567c5994-94ec-42c1-ad21-ebd628503741",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_07a6ec77-2007-490b-ba8e-2b8080009fd1",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_975b5535-9c5b-4a21-9920-a3485390b8bf",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6e0d38b1-bb0a-40bc-bbe2-6be5d8dda73f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a2035ce8-974d-41bf-8302-d6b2af78eb7b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_6bbd1d57-07a5-4886-98f9-82187dd82f82",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c2782334-29f6-4d92-8fa1-09752087ec66",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b48fc80a-6ad3-4087-ad80-f8d81ecc069c",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_00ca7fee-f609-4542-9702-fb733a3cea22",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_13be7f02-c7ea-4970-bf7b-475327d125fe",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ff500c57-e7fc-41f9-a453-5bd1cf92dde2",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d94f8e34-6434-4e16-a5de-85d2399a49f8",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_b4499541-3fb7-497d-8ddb-1a01b7070556",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_ca6fa22b-e904-47ea-9fbc-b3890aed6a70",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_8a89761e-dedf-4d31-ba9c-54b655b51bdb",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e9081712-ceba-4558-b729-76a03d298ba2",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_59101bd7-d67f-485f-8e90-6477f59694b9",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_011cb59e-80e7-48fe-aeba-65cc0fef4c7b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_567c5994-5b8f-4f67-99ce-6e7baf6337cf",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_12d863d3-bf65-4f3a-893e-33842561c804",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1d89a4c5-d0d1-4c75-b833-a3ab164317de",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f9b1e68a-1b13-47a8-82e9-db0d9216beae",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_1403e13d-49ef-46f5-a09d-5b4e94a1da85",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f1607ab3-42ad-43c3-99b0-098f3a4a892d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_c7c34436-70aa-4e05-8678-3231bffd2b8e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_cfebfd0e-70e5-4158-80a1-03660da3803f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_d4207813-064a-451a-a03b-59cb63b6d9f1",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e645305b-e228-45c1-aa09-6f5b3682067b",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_bc7c4871-4d07-4c85-9735-46a722aef249",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_f672c17d-1148-4312-b307-324d43a46e0d",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_5373bc56-e806-4263-976a-2246065887db",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a6fa1fb3-522a-403d-a4be-dd03a6398204",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_validation_ccca9015-2ce5-40cf-bed4-187f9428d984",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_e9795b0e-872e-4d18-b74b-71a7b729e5e0",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_648d19ab-4b5e-434c-8331-4705e8cf096f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_a9d4afbb-9e61-4b7e-8207-e8b25cfe2756",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_9cff33d8-39c8-4bec-8733-cc0ba0f17d4c",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_46829a2f-1083-4680-a307-ecdf7cafc063",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_2008570d-bda8-4051-9beb-2877b377f75f",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_38afd1d7-2d37-4a23-baf4-189170a6047e",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medmcqa_train_695db938-7c30-4438-8191-0acb4c4e6285",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08487",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02083",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08692",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00862",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00217",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08933",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03964",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04120",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07637",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09631",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_10043",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04853",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01091",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01453",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09886",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07663",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09558",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04738",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09134",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00332",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03655",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05377",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08438",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08598",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06656",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06560",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03295",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08244",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00404",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00944",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04433",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07542",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05723",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05089",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05263",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01482",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06616",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05615",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00697",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07972",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05214",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00168",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06552",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01411",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00023",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01248",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01035",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00296",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05974",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08607",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05638",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02276",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02100",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01503",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00561",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00134",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05737",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_01224",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05231",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03577",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09649",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03323",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04336",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08601",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07073",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08088",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04439",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02099",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03454",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06180",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07049",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03411",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00235",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07233",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06771",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05751",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03364",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08510",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08499",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02385",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01301",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02214",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06623",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08492",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03301",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06911",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03440",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03190",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01986",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09488",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04159",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_01046",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07982",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07460",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07101",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01997",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01149",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08053",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_10072",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06154",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06162",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03085",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03472",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00896",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09489",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02248",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03990",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_01015",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02610",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06203",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00131",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03631",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03094",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02761",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00253",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07308",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01597",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04950",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00824",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00304",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00837",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02418",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00250",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07117",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01111",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04857",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00924",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05333",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03757",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06237",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00170",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04812",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02620",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05390",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04915",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06992",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04329",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09958",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00188",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09205",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07828",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03285",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02362",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08568",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00876",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06987",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01943",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08137",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05640",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01678",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04809",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_01071",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05673",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07971",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04031",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03083",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00540",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00215",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06245",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05680",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04706",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09232",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00312",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08929",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06428",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09651",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02814",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00686",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07975",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02107",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07042",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06763",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03425",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00834",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04816",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06486",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00133",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01087",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09394",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03321",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07780",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02271",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03542",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00147",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03641",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06904",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01409",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07086",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04791",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07946",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04928",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00520",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06650",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01314",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_01206",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07618",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02972",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06901",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05259",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09133",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03119",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09430",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04326",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09587",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09417",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08430",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00912",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07051",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09703",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05818",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02154",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01800",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07417",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09452",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_01126",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05331",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00959",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00812",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_01064",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02827",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06297",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06271",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01251",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01308",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08827",
+    "strict_keep": false
+  },
+  {
+    "case_id": "medqa_train_09000",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04722",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00601",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01322",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07600",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04651",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05094",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05932",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08742",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08590",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07643",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01140",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09959",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00100",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01321",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06637",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09609",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00490",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03072",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09480",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07145",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02818",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01974",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03785",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05422",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00037",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09061",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02822",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02045",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05806",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02129",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00312",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00996",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04277",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02860",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03479",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00892",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02136",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06681",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00869",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02720",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02549",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02014",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06451",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07106",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08843",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00035",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07589",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04175",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06519",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02461",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00231",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06312",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00741",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02377",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08022",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02144",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09312",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09416",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00671",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00546",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09787",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05952",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07804",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07299",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08156",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04692",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03942",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01368",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00598",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02760",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08503",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00506",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06631",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09227",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04037",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04022",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06635",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05213",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00432",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03932",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03561",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02692",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09324",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06441",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02002",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08064",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08163",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00574",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06038",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00360",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00347",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08912",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07728",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09072",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06667",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_01188",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03600",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04702",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08764",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05660",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00023",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00184",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01099",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00937",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00817",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05128",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02477",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08536",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02057",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09589",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00050",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03117",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08121",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04562",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00944",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08223",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06063",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04305",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04756",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06575",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02398",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04838",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04038",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07943",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04642",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05716",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09305",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08649",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00501",
+    "strict_keep": false
+  },
+  {
+    "case_id": "medqa_train_07521",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09586",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07093",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_10126",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01195",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06654",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00057",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04665",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_01062",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_10092",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05523",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00526",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03773",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02431",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01093",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00050",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06544",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02686",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02066",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04790",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07362",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03328",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04689",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00198",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03491",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00531",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00294",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01792",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04058",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01677",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06420",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03346",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03000",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08326",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00977",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00239",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07607",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01948",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05721",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06371",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00830",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08376",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01565",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05962",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06870",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06996",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06145",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05332",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08217",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06551",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06054",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02981",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00661",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04681",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07633",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07007",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03557",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04100",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03467",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09654",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05496",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02671",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07702",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09984",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08007",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05891",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03267",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03996",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06300",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00411",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06823",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07275",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05424",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08379",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05774",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00260",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05486",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01833",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06772",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06942",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02923",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_01138",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08610",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01470",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00026",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00180",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05648",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08377",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04451",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02170",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03101",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08308",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01164",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05098",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05569",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02310",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06809",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09083",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04471",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_01183",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00879",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00001",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04813",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06607",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08571",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08155",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00495",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07137",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_09730",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_01582",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07165",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04243",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03279",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08342",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_08799",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02317",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02603",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03470",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03195",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_00422",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07544",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04256",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03590",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07218",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04482",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05448",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04767",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00596",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06629",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07861",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03832",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04596",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00157",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00188",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_00646",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04193",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06443",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_07312",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_02871",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_dev_01118",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_03871",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_05312",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04831",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_06861",
+    "strict_keep": true
+  },
+  {
+    "case_id": "medqa_train_04575",
+    "strict_keep": true
+  }
+]

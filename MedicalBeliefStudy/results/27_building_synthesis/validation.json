@@ -1,0 +1,100 @@
+{
+  "api_cost_usd": 0,
+  "observations": {
+    "belief_v3": {
+      "records": 1359,
+      "all_state_hashes_match": true,
+      "attention_max_error": 0.00026778483879752457,
+      "cache_validation_count": 8,
+      "cache_validation_max_error": 0.031121284652499526
+    },
+    "belief_v3_4b": {
+      "records": 424,
+      "all_state_hashes_match": true,
+      "attention_max_error": 0.0002419929951429367,
+      "cache_validation_count": 3,
+      "cache_validation_max_error": 0.0468754768385935
+    },
+    "belief_v3_medqa": {
+      "records": 954,
+      "all_state_hashes_match": true,
+      "attention_max_error": 0.00024859156110323966,
+      "cache_validation_count": 5,
+      "cache_validation_max_error": 0.011008006699391615
+    },
+    "evidence_context": {
+      "records": 208,
+      "all_state_hashes_match": true
+    },
+    "history_matched": {
+      "records": 24,
+      "all_state_hashes_match": true
+    },
+    "role_binding": {
+      "records": 216,
+      "all_state_hashes_match": true
+    }
+  },
+  "interventions": {
+    "natural_interventions": {
+      "patients": 24,
+      "conditions": 288,
+      "sham_max_logp_error": 0.0,
+      "equal_requested_norm_target_random": true
+    },
+    "natural_interventions_replication": {
+      "patients": 48,
+      "conditions": 576,
+      "sham_max_logp_error": 0.0,
+      "equal_requested_norm_target_random": true
+    },
+    "external_medqa": {
+      "patients": 87,
+      "conditions": 783,
+      "sham_max_logp_error": 0.0,
+      "equal_requested_norm_old_random": true
+    }
+  },
+  "new_ddx_patients": 240,
+  "new_ddx_deep": 72,
+  "new_ddx_fact_overlap": 0,
+  "external_cases": 87,
+  "total_new_patients_or_vignettes": 327,
+  "total_observation_conditions": 4832,
+  "verified": true,
+  "analysis_source_hashes": {
+    "phase_v3_replication_queue.py": "52bcd27d2febc6c536d5e683b8ca26c39c1358f9f3c3d4fe1aa485631094491c",
+    "belief_v3_labels.py": "9c703434fe837e80f8b2ceb83a1cc0f5554a300567139a727e60ba6d6b0a54d8",
+    "phase_v3_continue.py": "2b881909c76b53bbb10f3fd2810e1ccb2f7ef75594437c0bb20257f0e8890847",
+    "phase_v3_delivery_queue.py": "2b8ec8346c433782eaac4145de278acb566bcda2d2757b211055979e3e4a6bbc",
+    "verify_belief_v3.py": "24e56ca6b9ed4f6be0dca31a18836adafb6dcdcf9c0c9f373a621047f7dae2d4",
+    "phase_v3_context_queue.py": "30f79faaf21238af879a66d74b56be116876b1d0e6ac20760d1672ca338f2390",
+    "phase_v3_external_internal_queue.py": "0e51ecb1f29beeecbe4d9952e3e368b0d21024a3b103e47ebe0908b7ccccb190",
+    "phase_v3_roles_queue.py": "328d17b40129c0995732af7724564c42f5948298f2f66933e2ce89ad93b31d7d",
+    "belief_v3_analysis.py": "f1946317e3d885ba6ae020d1990e2e153431300877870b044d070b5fcbf19077",
+    "phase_v3_last_queue.py": "e51c6f0476de56a048b7b967dd63260a41ba1543c9a2b2f0119ce44cabb24367",
+    "phase_v3_analysis_queue.py": "9747f2a3eb8b68452a54eb84cb8e3cbfff70ddf10e14bb261d99849a5a37d641",
+    "phase26_analyze.py": "76d8078c5a4c09db83451c49547470e37e0759600792659b205b3986361752ce",
+    "phase23_run.py": "2095171abce8ab8752817467e423b4922ea87d8bc695386373f8993cb8e9b844",
+    "phase23_analyze.py": "87cb4f4d513afe5b1a6d74089a6b0fa23b76c734a29d94966835b158db3d9292",
+    "phase25_external_prepare.py": "793ae8a2cc2e798dac046f92e9c1e62ed6284acdd33ac6297b0de7827feba130",
+    "phase27_history_matched.py": "f8dd5665ff7ff743ad85a28cf523a95650c636b4281e3018cfaf5d6ed5804af2",
+    "phase23_prepare.py": "001c68740481e2ab8b347e0854a8ef4f43cd02d05bd333884f6b0b318f9a4a35",
+    "phase31_export_scores.py": "c370eb5f272583e769b55595aaabc6ec20062462a34bdba95884fbf5736aa774",
+    "phase28_external_analyze.py": "d98e0fdc94d7134344c67bb8531b7d20e1bd46a84c0ad6e08986e90ce4390347",
+    "phase24_analyze.py": "17b412a986262c58cccaa9609155067906574c163b0ceff53dbb2e84fc01715e",
+    "phase32_auxiliary.py": "0dcb2599a42f7279e906ecf2ce5abeb73319ed7c04798f142b4c216c0e243928",
+    "phase36_case_gallery.py": "f6d8687124ba9bf10fca5d56d6d11dab9f48603f1af43820b2a98a8ee9197471",
+    "phase24_natural_intervene.py": "74abeff31d33d41bd5d8321024fd4a6cebb536b42b3d4b137d05dcc05e29e4ae",
+    "phase35_release.py": "2f342c2379614f2c4bfc8af58c07db1be6b6615255a5f9aac725df9b9fd61850",
+    "phase28_external_natural.py": "e4d6f005b9f417beebf1a021d6c3c277af2c92ace471cd73c791b962b7977b97",
+    "phase25_external_run.py": "15fca4429109c11924794b8f8602de59f22988e6e66e9f8bb8fe73fcf91a8a4d",
+    "phase26_evidence_context.py": "f3fa258c90422a88aa23b9f104375bf7fc7ccb7f20bfed21485cd05c905dfa48",
+    "phase34_manuscript.py": "a1a104be4a5275de0e46f1ab30c04165263e2df14487919c90337841cf906efc",
+    "phase29_roles.py": "d76aeb42c87543f9b98a0b063be5932e195f49250574516997804463e2eea682",
+    "phase33_paper.py": "b7ffd931c6490281667cc36ccc1b408d1a952c73fb2a1bd35a657f64e3bc2ced",
+    "phase30_measurement_audit.py": "4287ab7f6ea4a192b719ce8c8e5d8260702d935eaf94bace0dc821c53b1426dd",
+    "phase29_roles_analyze.py": "8fc9040b913684d7446beed5e597af5cbb6b3313c56acead50776ef364a4892c",
+    "phase25_analyze.py": "ef5af94c7c9b53bc656428ef860f7b1f1b3a99c707930a61308a4adb03ee2251"
+  }
+}

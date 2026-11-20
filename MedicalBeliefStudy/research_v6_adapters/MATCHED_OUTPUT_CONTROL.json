@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-11-20T07:49:55.343121+00:00",
+  "status": "registered_after_primary400_results_before_control_inference",
+  "reason": "The frozen primary combines width pruning and candidate constraint. Add the already-tested development baseline_constrained configuration as a matched output control to separate compression from decoding benefits.",
+  "control": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "primary_frozen": "pruned_constrained",
+  "selection_sha256": "6692a3c2524fb1aaf384f434d17cac65859f764c580626d1b06c4c2ba4f48610",
+  "source_sha256": "9d9e089b5f706fe73136aab3aa6d70b14f0a9bb931631fbde34b7916965aa145",
+  "analysis": "Patient-paired primary-minus-matched-full-model estimate and95%CI; explicitly post-primary explanatory control, not added to original6-comparison confirmatory family. No reselection or retuning. Paired latency on same6 fixed timing cases, twohistories,two repetitions.",
+  "api_cost_usd": 0
+}

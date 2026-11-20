@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_dev_00198",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Primary focal epilepsy with drug-resistant status epileptoid encephalopathy\",\"type\":\"epilepsy\",\"epileptogenic focus\":\"putamen\",\"etiology\":\"unknown\",\"epileptogenic foci\":\"putaminal\"},\"epileptogenic foci\":\"putamen\",\"epileptiform discharges\":\"present",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "4ba082811a030b551063e92bcad0f298a27039e56c7c1df2ae04cae7bd6f3db4"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Infiltrating ductal carcinoma\",\"likelihood\":\"high\",\"severity\":\"moderate\",\"clinical_risk_factors\":null,\"clinical_signs\":null,\"complication_potential\":null,\"clinical_course\":\"progressive\",\"etiology\":\"unknown\",\"treatment_plans\":[\"radical mastectomy\",\"chemotherapy\",\"hormonal therapy",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "e5e48df5378909fcfc0cb9afefa8d2595ce4971bc0715701116e21f6b6eea2c5"
+    }
+  ]
+}

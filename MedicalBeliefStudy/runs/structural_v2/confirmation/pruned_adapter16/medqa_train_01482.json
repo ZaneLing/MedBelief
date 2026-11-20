@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_01482",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Dermatitis herpetiformis\"}",
+      "generated_disease": "Dermatitis herpetiformis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "b3d8ebdc160a130528954cd0499d8045170dd1f15a20652910a85df454589c57"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Bullous pemphigoid\"}",
+      "generated_disease": "Bullous pemphigoid",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "d5b73d778821159bbe47b671766d2a4368f8d98f97969f9490828d4c433fa91b"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "dataset": "medqa",
+  "train_n": 10178,
+  "dev_n": 1272,
+  "test_n": 1273,
+  "train_rows_removed_for_dev_overlap": 0,
+  "selected_k": 20,
+  "dev_accuracy": {
+    "1": 0.30974842767295596,
+    "5": 0.3341194968553459,
+    "20": 0.3490566037735849,
+    "lexical_only": 0.2562893081761006
+  },
+  "all_k_results": {
+    "1": {
+      "n": 1273,
+      "correct": 407,
+      "accuracy": 0.3197172034564022,
+      "fresh_n": 1273,
+      "fresh_accuracy": 0.3197172034564022
+    },
+    "5": {
+      "n": 1273,
+      "correct": 443,
+      "accuracy": 0.3479968578161822,
+      "fresh_n": 1273,
+      "fresh_accuracy": 0.3479968578161822
+    },
+    "20": {
+      "n": 1273,
+      "correct": 460,
+      "accuracy": 0.36135113904163396,
+      "fresh_n": 1273,
+      "fresh_accuracy": 0.36135113904163396
+    },
+    "lexical_only": {
+      "n": 1273,
+      "correct": 335,
+      "accuracy": 0.2631578947368421,
+      "fresh_n": 1273,
+      "fresh_accuracy": 0.2631578947368421
+    }
+  },
+  "selected": {
+    "n": 1273,
+    "correct": 460,
+    "accuracy": 0.36135113904163396,
+    "fresh_n": 1273,
+    "fresh_accuracy": 0.36135113904163396
+  },
+  "test_question_overlap": 0,
+  "majority_position_accuracy": 0.24273369992144542,
+  "fit_seconds": 1.7655788329429924,
+  "dev_prediction_seconds": 1.888511082623154,
+  "test_prediction_seconds": 1.7325542503967881,
+  "compressed_model_bytes": 12518999,
+  "source_sha256": {
+    "data/belief_v4/raw/medqa_train.jsonl": "3a65baf760f17c395058d6699315a7ce8aa767c50cb193fea87ceb94dd790324",
+    "data/belief_v4/raw/medqa_dev.jsonl": "774bbd90103af43badbe8d5294e336443573fc37b918763920b8fc3b3df581d9",
+    "data/external_medqa/test.jsonl": "c3b905ccfa66152dc25afbcb2c10e86c0bdb208824f0658fcdb2c040f60a2beb"
+  }
+}

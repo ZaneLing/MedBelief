@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_e0b1fcff-bcd8-45d8-83e7-8c06b0a6104d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Cirrhosis\"}",
+      "generated_disease": "Cirrhosis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "ea9590ebcf694a95ec27c33ae590fb141ea81a634143dd9f695e38f2ca83a214"
+    }
+  ]
+}

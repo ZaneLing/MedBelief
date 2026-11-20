@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_08536",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "mlp_width75",
+    "mlp_keep": 0.75
+  },
+  "parameter_stats": {
+    "parameters": 1456333824,
+    "weight_bytes": 2912667648,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Congenital rubella infection\"}",
+      "generated_disease": "Congenital rubella infection",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "87fed6a4ce29d89f91d91130c75be0b257ae33500706d1330cc5faa27f24d76e"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Congenital rubella infection\"}",
+      "generated_disease": "Congenital rubella infection",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "56c4d5bcb393f76320c3b744e8d98e22fa33497382e9d31420dd4f65829cbdbb"
+    }
+  ]
+}

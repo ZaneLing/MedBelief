@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_01149",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Tachrotaric syndrome\"}",
+      "generated_disease": "Tachrotaric syndrome",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "ec867fa7f84910b27398ae53f9ea88acc5b672b21766e3fe2d05f813e71aa53e"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Mnectionystenia\"}",
+      "generated_disease": "Mnectionystenia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "8e6173941c3e73e376679bd66c35172a7c04da13ef3528375c6008a5b2549bb9"
+    }
+  ]
+}

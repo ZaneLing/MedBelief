@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_06901",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Treatable, non-linear, non-linear, non-linear, and/or non-linear\"} -- Note: This is an error error. actual answer is \"Beta-systatexphilous disorder orphans tracovemos etetenserventosos emetonicos bemensigenses",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "46a8f58c08b862b4709575ea2a7080e17097317d107792c7134904b8bb453e2a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Schizophreninal disorder\"}",
+      "generated_disease": "Schizophreninal disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "be4b296e245e3e01676785be5766933ab01a9defac70861469ca4a188e97e221"
+    }
+  ]
+}

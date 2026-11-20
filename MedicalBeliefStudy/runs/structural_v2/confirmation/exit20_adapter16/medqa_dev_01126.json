@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_dev_01126",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemystararystarystenovemnysturacovememphensionnysseprotemenservicovembripostarinalenemenservicovembrinemplabenturacaproteminalenemenservlinealmservinal",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "94c2acb4ee5a66bc8d66d2d3b615f5cc6826ba016e5d755f795e74d1074ad706"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pneautiliary disorder\"} (Note: This is an error correction and/or an error in the original setup. actual correct answer is \"Corticus orphans orphans (nontrilaxia orphans parcolaris orphans parcolarum etc. orphans parcolarans",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "872e3d5fd7d7a04680db208e73040a20836ec2f9979ca12ae812b36c616024db"
+    }
+  ]
+}

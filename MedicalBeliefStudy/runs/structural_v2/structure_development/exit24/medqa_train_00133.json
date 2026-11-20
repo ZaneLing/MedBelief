@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_00133",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit24",
+    "exit_layer": 24
+  },
+  "parameter_stats": {
+    "parameters": 1519230976,
+    "weight_bytes": 3038461952,
+    "layers": 24
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Situational syncope\"}",
+      "generated_disease": "Situational syncope",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "8f978947e798773694704cd033b1ff13209d762ae0928b4d0592e679aaecd71e"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Situational syncope\"}",
+      "generated_disease": "Situational syncope",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "52f09ec203f30df7ef020e84e702b4b1c22140d28889fa828d497acfd2ee3127"
+    }
+  ]
+}

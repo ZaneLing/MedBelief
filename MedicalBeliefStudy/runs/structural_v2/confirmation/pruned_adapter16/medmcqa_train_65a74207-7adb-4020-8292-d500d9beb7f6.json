@@ -1,0 +1,52 @@
+{
+  "case_id": "medmcqa_train_65a74207-7adb-4020-8292-d500d9beb7f6",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Testosterone secrecing tumor\"}",
+      "generated_disease": "Testosterone secrecing tumor",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "36444a51d87ec3d2d6c5f55c36eb8cb03bde7188e804a456b230dc8d33b8413a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Testosterone secrecing tumor\"}",
+      "generated_disease": "Testosterone secrecing tumor",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ed3564a0e6464f3e06268d6d7d345225d69310c792a91cc27860c2811d3ffc5e"
+    }
+  ]
+}

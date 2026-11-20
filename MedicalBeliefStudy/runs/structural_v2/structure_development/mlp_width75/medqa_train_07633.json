@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_07633",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "mlp_width75",
+    "mlp_keep": 0.75
+  },
+  "parameter_stats": {
+    "parameters": 1456333824,
+    "weight_bytes": 2912667648,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Norovirus infection\"}",
+      "generated_disease": "Norovirus infection",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "ddafc28b2973c64a15170013da432817b643e6cabe0700c232efbcab1c111651"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Traveler\\u2019s diarrhea due to ETEC\"}",
+      "generated_disease": "Traveler’s diarrhea due to ETEC",
+      "stop": "eos",
+      "tokens": 15,
+      "prompt_sha256": "9648bf4c36bf2d8479e861fba1629ac176b4355da639b4bad41876de113d1518"
+    }
+  ]
+}

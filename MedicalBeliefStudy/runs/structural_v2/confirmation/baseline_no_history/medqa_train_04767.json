@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_04767",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Generalized anxiety disorder\"}",
+      "generated_disease": "Generalized anxiety disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "39f03f1d77984ca606902ffabb016f9a91896433b8e9e26a60f6c4436d3c7737"
+    }
+  ]
+}

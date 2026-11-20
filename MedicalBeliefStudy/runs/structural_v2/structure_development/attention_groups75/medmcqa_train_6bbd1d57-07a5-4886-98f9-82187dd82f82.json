@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_6bbd1d57-07a5-4886-98f9-82187dd82f82",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Glycogen storage disease type 1 (Herskovsky-Giemsa body cell disease\"),\"candidate_diagnosis\":\"Glycogen storage disease type 1 (Mucopolysaccharidosis\"),\"glycogen_storage_disease\":\"yes\"),\"glycogen_storage_disease\":\"yes\"),\"glyc",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "4f52261d3245bf03b2845d2607f404501fb1b99dadf25c7705c14f5c15bb37d5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Forbstein hyalinosis\",\"severity\":\"moderate\",\"phase\":\"proliferative\",\"clinical_phenotype\":\"dystrophic nephroma with multiple verrucous papules and parotitis\",\"treatment\":\"pilococcal endocarditis\",\"lymph_node_status\":\"unknown\",\"lymph_nodes_palp",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "53b2fe7cd8fa3893ddb395d48251aa92c7fdfeaf0c820a3e86ae5e406906ea7a"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_03101",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxiaotic dystgentoidy\"} (Note: This is an example of an non-existent and/or non-existent phissemaricotarishty. actual real-life phesentepilaxerwentecotemphilousy is likely either 'Normalcy or",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "dff70ba3ae64ca13a2fdc90189ce1c2cd37ff11c28833380d04cf3aba03b6651"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxiaogariparicotarobemphilenturacovemphilenservicovemphinalenemphodemphanservicovemphinalenemphymusphilenservservemplabemphinalenemphil",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "ca7a9f077933e51b0d089b5f72cf11cc5813a00aee27beab55a7c92a01470259"
+    }
+  ]
+}

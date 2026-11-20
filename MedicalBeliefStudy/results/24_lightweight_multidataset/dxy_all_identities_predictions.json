@@ -1,0 +1,626 @@
+[
+  {
+    "pid": "test-1",
+    "gold": "小儿手足口病",
+    "prediction": "小儿手足口病",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-2",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-3",
+    "gold": "过敏性鼻炎",
+    "prediction": "过敏性鼻炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-4",
+    "gold": "小儿手足口病",
+    "prediction": "小儿手足口病",
+    "novel_facts": false
+  },
+  {
+    "pid": "test-5",
+    "gold": "小儿手足口病",
+    "prediction": "小儿手足口病",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-6",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-7",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-8",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-9",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-10",
+    "gold": "上呼吸道感染",
+    "prediction": "肺炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-11",
+    "gold": "小儿手足口病",
+    "prediction": "小儿手足口病",
+    "novel_facts": false
+  },
+  {
+    "pid": "test-12",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-13",
+    "gold": "过敏性鼻炎",
+    "prediction": "过敏性鼻炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-14",
+    "gold": "过敏性鼻炎",
+    "prediction": "过敏性鼻炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-15",
+    "gold": "肺炎",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-16",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-17",
+    "gold": "肺炎",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-18",
+    "gold": "小儿手足口病",
+    "prediction": "小儿手足口病",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-19",
+    "gold": "上呼吸道感染",
+    "prediction": "肺炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-20",
+    "gold": "肺炎",
+    "prediction": "肺炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-21",
+    "gold": "小儿手足口病",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-22",
+    "gold": "小儿手足口病",
+    "prediction": "小儿手足口病",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-23",
+    "gold": "过敏性鼻炎",
+    "prediction": "过敏性鼻炎",
+    "novel_facts": false
+  },
+  {
+    "pid": "test-24",
+    "gold": "肺炎",
+    "prediction": "肺炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-25",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-26",
+    "gold": "肺炎",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-27",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-28",
+    "gold": "小儿腹泻",
+    "prediction": "小儿手足口病",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-29",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-30",
+    "gold": "上呼吸道感染",
+    "prediction": "小儿腹泻",
+    "novel_facts": false
+  },
+  {
+    "pid": "test-31",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-32",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-33",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-34",
+    "gold": "过敏性鼻炎",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-35",
+    "gold": "肺炎",
+    "prediction": "肺炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-36",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-37",
+    "gold": "肺炎",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-38",
+    "gold": "过敏性鼻炎",
+    "prediction": "过敏性鼻炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-39",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-40",
+    "gold": "肺炎",
+    "prediction": "肺炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-41",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": false
+  },
+  {
+    "pid": "test-42",
+    "gold": "肺炎",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-43",
+    "gold": "小儿手足口病",
+    "prediction": "小儿手足口病",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-44",
+    "gold": "肺炎",
+    "prediction": "上呼吸道感染",
+    "novel_facts": false
+  },
+  {
+    "pid": "test-45",
+    "gold": "过敏性鼻炎",
+    "prediction": "过敏性鼻炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-46",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-47",
+    "gold": "过敏性鼻炎",
+    "prediction": "过敏性鼻炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-48",
+    "gold": "小儿手足口病",
+    "prediction": "小儿手足口病",
+    "novel_facts": false
+  },
+  {
+    "pid": "test-49",
+    "gold": "小儿手足口病",
+    "prediction": "小儿手足口病",
+    "novel_facts": false
+  },
+  {
+    "pid": "test-50",
+    "gold": "肺炎",
+    "prediction": "肺炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-51",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-52",
+    "gold": "小儿手足口病",
+    "prediction": "小儿手足口病",
+    "novel_facts": false
+  },
+  {
+    "pid": "test-53",
+    "gold": "上呼吸道感染",
+    "prediction": "肺炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-54",
+    "gold": "过敏性鼻炎",
+    "prediction": "过敏性鼻炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-55",
+    "gold": "肺炎",
+    "prediction": "肺炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-56",
+    "gold": "小儿手足口病",
+    "prediction": "小儿手足口病",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-57",
+    "gold": "肺炎",
+    "prediction": "肺炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-58",
+    "gold": "过敏性鼻炎",
+    "prediction": "过敏性鼻炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-59",
+    "gold": "过敏性鼻炎",
+    "prediction": "过敏性鼻炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-60",
+    "gold": "过敏性鼻炎",
+    "prediction": "过敏性鼻炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-61",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-62",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-63",
+    "gold": "过敏性鼻炎",
+    "prediction": "过敏性鼻炎",
+    "novel_facts": false
+  },
+  {
+    "pid": "test-64",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-65",
+    "gold": "肺炎",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-66",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-67",
+    "gold": "小儿手足口病",
+    "prediction": "小儿手足口病",
+    "novel_facts": false
+  },
+  {
+    "pid": "test-68",
+    "gold": "肺炎",
+    "prediction": "肺炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-69",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-70",
+    "gold": "小儿手足口病",
+    "prediction": "小儿手足口病",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-71",
+    "gold": "小儿手足口病",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-72",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-73",
+    "gold": "过敏性鼻炎",
+    "prediction": "过敏性鼻炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-74",
+    "gold": "过敏性鼻炎",
+    "prediction": "过敏性鼻炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-75",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-76",
+    "gold": "小儿手足口病",
+    "prediction": "小儿手足口病",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-77",
+    "gold": "过敏性鼻炎",
+    "prediction": "过敏性鼻炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-78",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-79",
+    "gold": "小儿手足口病",
+    "prediction": "小儿手足口病",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-80",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-81",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-82",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-83",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-84",
+    "gold": "上呼吸道感染",
+    "prediction": "肺炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-85",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-86",
+    "gold": "小儿手足口病",
+    "prediction": "小儿手足口病",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-87",
+    "gold": "小儿腹泻",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-88",
+    "gold": "肺炎",
+    "prediction": "肺炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-89",
+    "gold": "过敏性鼻炎",
+    "prediction": "过敏性鼻炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-90",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": false
+  },
+  {
+    "pid": "test-91",
+    "gold": "过敏性鼻炎",
+    "prediction": "过敏性鼻炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-92",
+    "gold": "过敏性鼻炎",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-93",
+    "gold": "小儿手足口病",
+    "prediction": "小儿手足口病",
+    "novel_facts": false
+  },
+  {
+    "pid": "test-94",
+    "gold": "肺炎",
+    "prediction": "肺炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-95",
+    "gold": "肺炎",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-96",
+    "gold": "上呼吸道感染",
+    "prediction": "肺炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-97",
+    "gold": "肺炎",
+    "prediction": "肺炎",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-98",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-99",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-100",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-101",
+    "gold": "过敏性鼻炎",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-102",
+    "gold": "小儿手足口病",
+    "prediction": "小儿手足口病",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-103",
+    "gold": "肺炎",
+    "prediction": "小儿腹泻",
+    "novel_facts": true
+  },
+  {
+    "pid": "test-104",
+    "gold": "上呼吸道感染",
+    "prediction": "上呼吸道感染",
+    "novel_facts": true
+  }
+]

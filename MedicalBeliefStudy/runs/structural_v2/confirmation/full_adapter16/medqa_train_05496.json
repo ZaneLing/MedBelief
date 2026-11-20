@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_05496",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Autism spectrum disorder\"}",
+      "generated_disease": "Autism spectrum disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "238d9fdb770576d8b79d6920558f1248a55489982b057aed5f72776d449dad95"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Autism spectrum disorder\"}",
+      "generated_disease": "Autism spectrum disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "101ec669f9f5e57cc8892de8416750b0bd571f3524b57da5fcf66b018a1f05cf"
+    }
+  ]
+}

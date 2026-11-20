@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_688034bf-3b4b-4145-8a34-f66b97ae7678",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit24",
+    "exit_layer": 24
+  },
+  "parameter_stats": {
+    "parameters": 1519230976,
+    "weight_bytes": 3038461952,
+    "layers": 24
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Aortic瓣膜病变\"}",
+      "generated_disease": "Aortic瓣膜病变",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "edae35423b9a11b52263d79a152083f4d08d8e7646f674399ccceae4af453419"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Axicity-induced acute kidney injury\"}",
+      "generated_disease": "Axicity-induced acute kidney injury",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "de399eb371064e2196af4c94f2f306f11f8161f0aa78ae4e964e1df3c348a2ca"
+    }
+  ]
+}

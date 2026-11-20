@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_08053",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Sarcoidosis\"}",
+      "generated_disease": "Sarcoidosis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "bf7a7a22e8d16ca06abc46fb7ba911eab9e2e17f18df18edf3999995aa4bd5d1"
+    }
+  ]
+}

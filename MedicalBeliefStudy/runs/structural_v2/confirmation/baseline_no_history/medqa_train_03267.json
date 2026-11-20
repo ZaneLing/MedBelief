@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_03267",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Meckel's diverticulum\"}",
+      "generated_disease": "Meckel's diverticulum",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "801bc6580dd94aa5c50f248a6590c9c7c0fd2e6e5c3360e7e9fa58e6f6f4a3f8"
+    }
+  ]
+}

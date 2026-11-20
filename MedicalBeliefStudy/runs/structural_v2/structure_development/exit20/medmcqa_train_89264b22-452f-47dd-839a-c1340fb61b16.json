@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_89264b22-452f-47dd-839a-c1340fb61b16",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "1st-order-level-level-ofinterestlessnessdueofunknownreasonsbutthereaboutsnesseservutotalmenteand/orotherworldlinessservinewithalternservservservservsultservsultservsultservsultservsultservsult",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "c823e0d521fcef1340969f972e663aa34e97bec7f1e23f72fecc5dfcf24c1c19"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 0,
+      "prompt_sha256": "f435f2b66a08e227ceee539d67a594117180b43ed97ee4d4def4baca9da05a74"
+    }
+  ]
+}

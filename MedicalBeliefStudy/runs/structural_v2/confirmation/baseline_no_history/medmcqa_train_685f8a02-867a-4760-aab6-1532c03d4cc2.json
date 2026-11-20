@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_685f8a02-867a-4760-aab6-1532c03d4cc2",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Intra cranial hemorrhage\"}",
+      "generated_disease": "Intra cranial hemorrhage",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "87af16ac66919d129f88bd2b7a84162765a5c38ca8fa05b9c46ff0aee12c9479"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_33d23960-2b26-44d6-897a-3cd6d3f3d1e4",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Asthma\"}",
+      "generated_disease": "Asthma",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "c89e6adefd035fcecb1e328b3c5fe48803024ab25b61cce2920c77a8edb58e28"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Asthma\"}",
+      "generated_disease": "Asthma",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "812ea64e59ba80fc469262ea883133d8c4ba2d9ff8a13976856ec0f8a79f84c1"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_33d23960-2b26-44d6-897a-3cd6d3f3d1e4",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Asthma\"}",
+      "generated_disease": "Asthma",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "7d47c2e556769d58b43d9534e55123cf3a35a982ecac717be9231a453031e7f6"
+    }
+  ]
+}

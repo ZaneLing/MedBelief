@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_06162",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Musculoskeletal strain\"}",
+      "generated_disease": "Musculoskeletal strain",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "e48f85eb10a34e8cdf1ab4d0dced42254cc4f73894752b1f2bf41d271b37a87b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Herniated nucleus pulposus\"}",
+      "generated_disease": "Herniated nucleus pulposus",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "89ab8ac91c35273cc26b67378392d3ed4df523dfbf8f571ad231d1688bc80180"
+    }
+  ]
+}

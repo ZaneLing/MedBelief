@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_02981",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocococosis\"}",
+      "generated_disease": "Cystocococosis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "76fa54834f37bc8252c88beba1502fb8186f44405e1db2401d0f2db754e8d14f"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Hysticolarous syndrome\"}",
+      "generated_disease": "Hysticolarous syndrome",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "bba6acbba19238fdc69dda072ce2d417a33a7337d88e00ccdffda650b3959313"
+    }
+  ]
+}

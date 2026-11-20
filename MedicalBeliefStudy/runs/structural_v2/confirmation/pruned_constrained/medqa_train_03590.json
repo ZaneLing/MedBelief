@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_03590",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Acute myocardial infarction\"}",
+      "generated_disease": "Acute myocardial infarction",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "800b898e1bc5431d633f14ce5aa8b5d12333a42101111325ecc650c924bddaae"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Acute myocardial infarction\"}",
+      "generated_disease": "Acute myocardial infarction",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "81760c57f10ae8cb5c6c881a953fe3dc86bffc48d286b93dd6acb983a75fd00e"
+    }
+  ]
+}

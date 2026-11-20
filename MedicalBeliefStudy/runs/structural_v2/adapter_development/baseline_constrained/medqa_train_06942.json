@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_06942",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Tardive dyskinesia\"}",
+      "generated_disease": "Tardive dyskinesia",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "6ef5975e35e3ca76c2bd5b7d5b8107b133a95e6f6cfe40382b8cf0d744cb378e"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Tardive dyskinesia\"}",
+      "generated_disease": "Tardive dyskinesia",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "e4d10567f97b6d536ce8368d05e8f82fe47457c898c2fa271d147ed382899ed6"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "case_id": "medmcqa_train_97f3ffe1-7865-4843-ae90-530f74a04d9f",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -19.64345932006836,
+        -0.000537872314453125,
+        -7.531787872314453,
+        -14.646184921264648
+      ],
+      "q_sequence": [
+        2.9441143045075816e-09,
+        0.9994637809965977,
+        0.0005357803033004176,
+        4.3575598758421777e-07
+      ],
+      "q_token_mean": [
+        0.029647627120777526,
+        0.7830194305399156,
+        0.11914544946750395,
+        0.06818749287180285
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Grief\"}",
+      "generated_disease": "Grief",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "9fe5d13b34ba2e48b227eb88756dae907e76ad381417d9a1c5b7a22388039869"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -14.772769927978516,
+        -0.2667427062988281,
+        -1.4542427062988281,
+        -7.579681396484375
+      ],
+      "q_sequence": [
+        3.8395966915675295e-07,
+        0.7659019680852999,
+        0.23358690278790412,
+        0.0005107451671268493
+      ],
+      "q_token_mean": [
+        0.042655145960037964,
+        0.4680572263575026,
+        0.34783059559481544,
+        0.14145703208764407
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Grief\"}",
+      "generated_disease": "Grief",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "ffa506ddaa367a2acc33707cb653c2ed2fb43cb850bc5c9b97429b996d22869b"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -24.188732147216797,
+        -0.000186920166015625,
+        -8.593936920166016,
+        -16.90673828125
+      ],
+      "q_sequence": [
+        3.1258476909464594e-11,
+        0.9998147287877006,
+        0.0001852257348417149,
+        4.544619903281482e-08
+      ],
+      "q_token_mean": [
+        0.01486347391199797,
+        0.8374113571085996,
+        0.09769769008572994,
+        0.050027478893672435
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Grief\"}",
+      "generated_disease": "Grief",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "46d914fdf0be810268274eb17f2b8ecccf84b1f57cd5dd5a92123569c8445913"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -18.823043823242188,
+        -0.01009368896484375,
+        -4.603843688964844,
+        -10.5413818359375
+      ],
+      "q_sequence": [
+        6.687400487273475e-09,
+        0.9899602670366072,
+        0.010013305994857351,
+        2.642028113492124e-05
+      ],
+      "q_token_mean": [
+        0.028373230027071778,
+        0.652033958562124,
+        0.20678076882932786,
+        0.11281204258147629
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Grief\"}",
+      "generated_disease": "Grief",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "a32a79c57cc809f1f4002857909bc719d9ca3ba68b4c5e0e901685dd603ee066"
+    }
+  ],
+  "state_sha256": "253ad5da11ff575da9688f25e72ee022fe2c42a0c846cc741f5202e38ae08fd6"
+}

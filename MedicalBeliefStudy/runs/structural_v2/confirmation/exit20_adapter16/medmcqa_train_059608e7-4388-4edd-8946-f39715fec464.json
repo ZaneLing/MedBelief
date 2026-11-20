@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_059608e7-4388-4edd-8946-f39715fec464",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxenia\"} (Note: This is an error correction and/or an error in the original list list. actual correct answer is \"tentiliasenia or other relevant phausia but since itinerious is not available in list. Therefore correct answer is 'Chilis or other non",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "f853eca178abb3b30fd94e2a072593df299e07f9c4bcfce73266748bf6472244"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pneautrolenoidia\"} (Note: This is an error correction and/or an error in the original system. actual correct answer is \"Essential hypertension or other non-linear stress-related stress out-of stress linearity or other non-linear stress-related stress in terms of stress linearity or other non-linear stress-related",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "12538057ce0afa2c26f26ac09efae57be2cbd608a0293437d9599f8fd5b0ffbf"
+    }
+  ]
+}

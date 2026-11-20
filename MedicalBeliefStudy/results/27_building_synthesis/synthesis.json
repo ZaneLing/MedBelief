@@ -1,0 +1,15 @@
+{
+  "replicated_natural_layers": [
+    "28"
+  ],
+  "external_natural_layers": [
+    "21",
+    "28"
+  ],
+  "causal_statement": "第28层的疾病方向分量在两批独立患者中都表现出对原生诊断分差的特异作用。",
+  "external_statement": "在外部MedQA的第21、28层，把诊断位置的状态换回前一轮，比等范数随机改动更能抵消原来的诊断更新。",
+  "role_statement": "明确标注既往史与当前表现，没有带来明确的总体诊断改善。",
+  "observations": 4832,
+  "new_cases": 327,
+  "api_cost_usd": 0
+}

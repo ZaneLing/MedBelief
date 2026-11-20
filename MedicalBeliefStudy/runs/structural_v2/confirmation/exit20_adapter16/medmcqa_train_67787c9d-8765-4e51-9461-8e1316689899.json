@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_67787c9d-8765-4e51-9461-8e1316689899",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pervicular acute stress disorder\"}",
+      "generated_disease": "Pervicular acute stress disorder",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "970c6ca9360a7c1b2d7c4379b1dc232e7aa3359037694f5b8aef8fda2c1d8bb7"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Hemototososphilisinosolentososchietaantrobenturacovemppabemphuracovemppabememphymosolipovembripostemphilaxenemphilaxenemphiravatemph",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "a260d4eb25d83e5106de9e6ae2e159e347b1b18623a32c1f80374489adc050ed"
+    }
+  ]
+}

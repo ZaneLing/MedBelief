@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_1d7ea303-8262-47f8-afa0-5f79913f2e9d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Cerebral abscess\"}",
+      "generated_disease": "Cerebral abscess",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "8537a153fc250bdd80ab65ba52007ac68d8daa6cbbe69244fc5e86e210c28b5a"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Cerebral abscess\"}",
+      "generated_disease": "Cerebral abscess",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "bf2a4c85d42bc33977f92fd9f4f933252067c2e60ba9aa69112d49c5e9acc83b"
+    }
+  ]
+}

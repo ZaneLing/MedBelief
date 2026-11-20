@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_04816",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "AIDS dementia\"}",
+      "generated_disease": "AIDS dementia",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "6d266eea8a694f2af1512c20354ef2e0f6497a9128c9b0358629659b233beefe"
+    }
+  ]
+}

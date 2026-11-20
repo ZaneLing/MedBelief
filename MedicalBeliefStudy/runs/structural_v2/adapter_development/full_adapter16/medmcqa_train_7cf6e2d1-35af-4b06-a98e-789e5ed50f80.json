@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_7cf6e2d1-35af-4b06-a98e-789e5ed50f80",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Acute appendicitis with fecolith\"}",
+      "generated_disease": "Acute appendicitis with fecolith",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "984a681bce37b93f19c11dabdaa6cb91bb1eb85807dc2c5c5cf15f97def831a0"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Acute appendicitis with fecolith\"}",
+      "generated_disease": "Acute appendicitis with fecolith",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "3106c70867d9995959349b42a6b3b82fb517b27cc3217ed754b095a4751cf45d"
+    }
+  ]
+}

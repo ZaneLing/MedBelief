@@ -1,0 +1,49 @@
+{
+  "case_id": "medmcqa_train_aaeee79d-6e01-4f3c-8b48-2ba959dcfc2b",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Rocky Mountain spotted fever\"}",
+      "generated_disease": "Rocky Mountain spotted fever",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "1425f0fb1159d1208bf907a62347307e825bc881bac6d668c9d82ddf58ead28a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Q fever\"}",
+      "generated_disease": "Q fever",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "2024a7f61f43bf8197fd719198b2821866a941cbf11dfd329fd781ffca0f922e"
+    }
+  ]
+}

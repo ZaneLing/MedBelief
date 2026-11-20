@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_03083",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Spinal muscular atrophy\"}",
+      "generated_disease": "Spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "256242bc1dc6d66c1c91257fb0dd89411d8545e681f333161ce81cef47ea4d8d"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Myotonic dystrophy\"}",
+      "generated_disease": "Myotonic dystrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "7941ed457db5adf9bdfa25ceece46914976bd664b730503894cf113f8aa5e378"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_dev_00432",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit24",
+    "exit_layer": 24
+  },
+  "parameter_stats": {
+    "parameters": 1519230976,
+    "weight_bytes": 3038461952,
+    "layers": 24
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chernoblossae disease\"}",
+      "generated_disease": "Chernoblossae disease",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "a38afd1b9846e4697f56a4d400cf92dbbed49065c308ed4b96e9f3a3ec77015c"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Sporotransient infection\"}",
+      "generated_disease": "Sporotransient infection",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "ef93c1be95f97bae10a46b927974d8d9080f3d803eb5fb4a1f571379fb9266af"
+    }
+  ]
+}

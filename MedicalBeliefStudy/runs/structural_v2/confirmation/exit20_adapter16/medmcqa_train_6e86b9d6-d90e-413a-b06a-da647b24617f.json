@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_6e86b9d6-d90e-413a-b06a-da647b24617f",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "T全身疾病或疾病名称未知\"} (Note: This is an example placeholder. actual real-life scenario would be an actual real-world scenario where specific details would be available. For actual real-life scenario, please consult professional medical professionals whoopsy and/or consult relevant data relevant to the specific case.\"s\"}请注意实际实际",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "993b2f6f3cb2cd9dbba88032086906aed6d6c88fdeeaa5fe7cbdca20faaf917d"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Schizophrenia-related stress outfactory syndrome\"}",
+      "generated_disease": "Schizophrenia-related stress outfactory syndrome",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "bf3596c80e55ec3cbab2f36b85a4966e4b7abc47031ced2236edebe9fccb2068"
+    }
+  ]
+}

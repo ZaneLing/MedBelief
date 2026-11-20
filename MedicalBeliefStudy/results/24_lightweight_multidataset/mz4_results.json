@@ -1,0 +1,385 @@
+{
+  "train_n": 1388,
+  "test_n": 345,
+  "classes": [
+    "上呼吸道感染",
+    "小儿支气管炎",
+    "小儿消化不良",
+    "小儿腹泻"
+  ],
+  "majority_accuracy": 0.2985507246376812,
+  "train_unique_facts": 1357,
+  "train_conflicting_fact_vectors": 8,
+  "test_exact_fact_overlap": 16,
+  "label_named_fields_removed": [
+    "支气管炎",
+    "消化不良",
+    "腹泻"
+  ],
+  "state_counts": {
+    "1": 7260,
+    "0": 3248
+  },
+  "views": {
+    "all_identities": {
+      "selected": "rbf_svm_C1",
+      "cv_selection": [
+        {
+          "model": "logistic_C0.1",
+          "cv_accuracy": 0.7572046109510087
+        },
+        {
+          "model": "logistic_C1",
+          "cv_accuracy": 0.7536023054755043
+        },
+        {
+          "model": "logistic_C10",
+          "cv_accuracy": 0.7219020172910663
+        },
+        {
+          "model": "linear_svm_C0.1",
+          "cv_accuracy": 0.75
+        },
+        {
+          "model": "linear_svm_C1",
+          "cv_accuracy": 0.7334293948126801
+        },
+        {
+          "model": "linear_svm_C10",
+          "cv_accuracy": 0.7161383285302594
+        },
+        {
+          "model": "rbf_svm_C1",
+          "cv_accuracy": 0.7622478386167147
+        },
+        {
+          "model": "rbf_svm_C10",
+          "cv_accuracy": 0.729106628242075
+        },
+        {
+          "model": "rbf_svm_C100",
+          "cv_accuracy": 0.7002881844380403
+        },
+        {
+          "model": "bernoulli_nb_a0.1",
+          "cv_accuracy": 0.7406340057636888
+        },
+        {
+          "model": "bernoulli_nb_a1",
+          "cv_accuracy": 0.7449567723342939
+        },
+        {
+          "model": "extra_trees",
+          "cv_accuracy": 0.7550432276657061
+        }
+      ],
+      "all_test": {
+        "n": 345,
+        "correct": 264,
+        "accuracy": 0.7652173913043478,
+        "balanced_accuracy": 0.7471887096929773,
+        "macro_f1": 0.7486458024706781
+      },
+      "fresh_test": {
+        "n": 329,
+        "correct": 252,
+        "accuracy": 0.7659574468085106,
+        "balanced_accuracy": 0.7479449472096531,
+        "macro_f1": 0.749419831252283
+      },
+      "refit_deduplicated_train_n": 1365,
+      "refit_deduplicated_test": {
+        "n": 345,
+        "correct": 265,
+        "accuracy": 0.7681159420289855,
+        "balanced_accuracy": 0.7500296187838864,
+        "macro_f1": 0.7517331787080715
+      },
+      "refit_deduplicated_fresh": {
+        "n": 329,
+        "correct": 253,
+        "accuracy": 0.7689969604863222,
+        "balanced_accuracy": 0.7512344208938636,
+        "macro_f1": 0.7528631496722091
+      },
+      "fit_seconds": 0.07695937482640147,
+      "selection_seconds": 3.1198641671799123,
+      "batch_predict_seconds": 0.019985833205282688,
+      "warm_single_ms_median": 0.24083349853754044,
+      "warm_single_ms_p95": 0.2667748834937811,
+      "compressed_model_bytes": 28825,
+      "linear_coefficient_bytes": null,
+      "feature_count": 230
+    },
+    "all_values": {
+      "selected": "extra_trees",
+      "cv_selection": [
+        {
+          "model": "logistic_C0.1",
+          "cv_accuracy": 0.7593659942363112
+        },
+        {
+          "model": "logistic_C1",
+          "cv_accuracy": 0.7536023054755043
+        },
+        {
+          "model": "logistic_C10",
+          "cv_accuracy": 0.729106628242075
+        },
+        {
+          "model": "linear_svm_C0.1",
+          "cv_accuracy": 0.7579250720461095
+        },
+        {
+          "model": "linear_svm_C1",
+          "cv_accuracy": 0.7327089337175793
+        },
+        {
+          "model": "linear_svm_C10",
+          "cv_accuracy": 0.7010086455331412
+        },
+        {
+          "model": "rbf_svm_C1",
+          "cv_accuracy": 0.7600864553314121
+        },
+        {
+          "model": "rbf_svm_C10",
+          "cv_accuracy": 0.7355907780979827
+        },
+        {
+          "model": "rbf_svm_C100",
+          "cv_accuracy": 0.7190201729106628
+        },
+        {
+          "model": "bernoulli_nb_a0.1",
+          "cv_accuracy": 0.7557636887608069
+        },
+        {
+          "model": "bernoulli_nb_a1",
+          "cv_accuracy": 0.7572046109510087
+        },
+        {
+          "model": "extra_trees",
+          "cv_accuracy": 0.7636887608069164
+        }
+      ],
+      "all_test": {
+        "n": 345,
+        "correct": 257,
+        "accuracy": 0.744927536231884,
+        "balanced_accuracy": 0.7230807115555964,
+        "macro_f1": 0.7242445424461599
+      },
+      "fresh_test": {
+        "n": 329,
+        "correct": 245,
+        "accuracy": 0.7446808510638298,
+        "balanced_accuracy": 0.7249091336939635,
+        "macro_f1": 0.7249064644331978
+      },
+      "refit_deduplicated_train_n": 1365,
+      "refit_deduplicated_test": {
+        "n": 345,
+        "correct": 256,
+        "accuracy": 0.7420289855072464,
+        "balanced_accuracy": 0.7175721622871317,
+        "macro_f1": 0.7185618319399713
+      },
+      "refit_deduplicated_fresh": {
+        "n": 329,
+        "correct": 244,
+        "accuracy": 0.7416413373860182,
+        "balanced_accuracy": 0.7193230531078828,
+        "macro_f1": 0.719128627782474
+      },
+      "fit_seconds": 0.2758054998703301,
+      "selection_seconds": 4.238792874850333,
+      "batch_predict_seconds": 0.012305458076298237,
+      "warm_single_ms_median": 4.618771141394973,
+      "warm_single_ms_p95": 5.273922625929117,
+      "compressed_model_bytes": 1828865,
+      "linear_coefficient_bytes": null,
+      "feature_count": 355
+    },
+    "explicit_values": {
+      "selected": "extra_trees",
+      "cv_selection": [
+        {
+          "model": "logistic_C0.1",
+          "cv_accuracy": 0.6635446685878963
+        },
+        {
+          "model": "logistic_C1",
+          "cv_accuracy": 0.6613832853025937
+        },
+        {
+          "model": "logistic_C10",
+          "cv_accuracy": 0.6498559077809798
+        },
+        {
+          "model": "linear_svm_C0.1",
+          "cv_accuracy": 0.6649855907780979
+        },
+        {
+          "model": "linear_svm_C1",
+          "cv_accuracy": 0.6577809798270894
+        },
+        {
+          "model": "linear_svm_C10",
+          "cv_accuracy": 0.6520172910662824
+        },
+        {
+          "model": "rbf_svm_C1",
+          "cv_accuracy": 0.6678674351585014
+        },
+        {
+          "model": "rbf_svm_C10",
+          "cv_accuracy": 0.638328530259366
+        },
+        {
+          "model": "rbf_svm_C100",
+          "cv_accuracy": 0.6404899135446686
+        },
+        {
+          "model": "bernoulli_nb_a0.1",
+          "cv_accuracy": 0.6606628242074928
+        },
+        {
+          "model": "bernoulli_nb_a1",
+          "cv_accuracy": 0.659942363112392
+        },
+        {
+          "model": "extra_trees",
+          "cv_accuracy": 0.6714697406340058
+        }
+      ],
+      "all_test": {
+        "n": 345,
+        "correct": 232,
+        "accuracy": 0.672463768115942,
+        "balanced_accuracy": 0.6455336011587071,
+        "macro_f1": 0.6438161026817824
+      },
+      "fresh_test": {
+        "n": 329,
+        "correct": 220,
+        "accuracy": 0.668693009118541,
+        "balanced_accuracy": 0.6455773199968247,
+        "macro_f1": 0.6426143184546546
+      },
+      "refit_deduplicated_train_n": 1365,
+      "refit_deduplicated_test": {
+        "n": 345,
+        "correct": 229,
+        "accuracy": 0.663768115942029,
+        "balanced_accuracy": 0.6357979088399565,
+        "macro_f1": 0.6329180322601375
+      },
+      "refit_deduplicated_fresh": {
+        "n": 329,
+        "correct": 217,
+        "accuracy": 0.6595744680851063,
+        "balanced_accuracy": 0.6356198754805567,
+        "macro_f1": 0.63151492684948
+      },
+      "fit_seconds": 0.1711723329499364,
+      "selection_seconds": 2.5592857082374394,
+      "batch_predict_seconds": 0.009695000015199184,
+      "warm_single_ms_median": 4.581708461046219,
+      "warm_single_ms_p95": 5.194537853822112,
+      "compressed_model_bytes": 794141,
+      "linear_coefficient_bytes": null,
+      "feature_count": 105
+    },
+    "no_label_fields": {
+      "selected": "logistic_C1",
+      "cv_selection": [
+        {
+          "model": "logistic_C0.1",
+          "cv_accuracy": 0.7002881844380403
+        },
+        {
+          "model": "logistic_C1",
+          "cv_accuracy": 0.7067723342939481
+        },
+        {
+          "model": "logistic_C10",
+          "cv_accuracy": 0.6772334293948127
+        },
+        {
+          "model": "linear_svm_C0.1",
+          "cv_accuracy": 0.7031700288184438
+        },
+        {
+          "model": "linear_svm_C1",
+          "cv_accuracy": 0.6757925072046109
+        },
+        {
+          "model": "linear_svm_C10",
+          "cv_accuracy": 0.6585014409221902
+        },
+        {
+          "model": "rbf_svm_C1",
+          "cv_accuracy": 0.6988472622478387
+        },
+        {
+          "model": "rbf_svm_C10",
+          "cv_accuracy": 0.6844380403458213
+        },
+        {
+          "model": "rbf_svm_C100",
+          "cv_accuracy": 0.6642651296829971
+        },
+        {
+          "model": "bernoulli_nb_a0.1",
+          "cv_accuracy": 0.6995677233429395
+        },
+        {
+          "model": "bernoulli_nb_a1",
+          "cv_accuracy": 0.7031700288184438
+        },
+        {
+          "model": "extra_trees",
+          "cv_accuracy": 0.6894812680115274
+        }
+      ],
+      "all_test": {
+        "n": 345,
+        "correct": 247,
+        "accuracy": 0.7159420289855073,
+        "balanced_accuracy": 0.7079520571266411,
+        "macro_f1": 0.7066004766785514
+      },
+      "fresh_test": {
+        "n": 329,
+        "correct": 237,
+        "accuracy": 0.7203647416413373,
+        "balanced_accuracy": 0.7098653023962621,
+        "macro_f1": 0.7108864043701771
+      },
+      "refit_deduplicated_train_n": 1365,
+      "refit_deduplicated_test": {
+        "n": 345,
+        "correct": 246,
+        "accuracy": 0.7130434782608696,
+        "balanced_accuracy": 0.706521336648459,
+        "macro_f1": 0.704476244520737
+      },
+      "refit_deduplicated_fresh": {
+        "n": 329,
+        "correct": 236,
+        "accuracy": 0.7173252279635258,
+        "balanced_accuracy": 0.7079952426314655,
+        "macro_f1": 0.7085765381393938
+      },
+      "fit_seconds": 0.021152709145098925,
+      "selection_seconds": 3.0675993748009205,
+      "batch_predict_seconds": 0.0013186251744627953,
+      "warm_single_ms_median": 0.10527088306844234,
+      "warm_single_ms_p95": 0.12079614680260417,
+      "compressed_model_bytes": 15177,
+      "linear_coefficient_bytes": 11200,
+      "feature_count": 349
+    }
+  }
+}

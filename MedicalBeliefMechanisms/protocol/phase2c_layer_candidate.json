@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-18",
+  "selection_run": "phase2b_confirm_4b",
+  "selection_result_sha256": "97c98f1a1ea5a204673912c89cfc77297c576e80ff1e9e16ba7bebcc68227b2b",
+  "target": "current_report_usable",
+  "selected_layer": 26,
+  "selection_balanced_accuracy": 0.9625,
+  "selection_rule": "Highest balanced accuracy among all 36 layers on phase2B, ties choose earlier layer. This uses 2B as development for the new 2C check; not an unbiased 2B peak estimate.",
+  "phase2c_readout_scores_seen": false,
+  "phase2c_generation_has_started": true,
+  "primary_prespecified_layer_remains": 36,
+  "confirmation": "Report the already trained 2A readout at this selected layer on the new 2C no-backup and backup strata. Do not choose a new layer using 2C scores.",
+  "reason": "Full curves show better source transfer in middle layers than final layer; a final-layer failure cannot establish absence of the information."
+}

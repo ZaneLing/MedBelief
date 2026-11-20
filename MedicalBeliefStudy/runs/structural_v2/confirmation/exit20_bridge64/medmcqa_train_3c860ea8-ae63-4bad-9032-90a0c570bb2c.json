@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_3c860ea8-ae63-4bad-9032-90a0c570bb2c",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Acute pulmonary dysmoma\"}",
+      "generated_disease": "Acute pulmonary dysmoma",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "5a3549c5a17cc5dab5c0af6213a119b4cff2082a8087abe7f00f500ed70d6f4c"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocococosis\"}",
+      "generated_disease": "Cystocococosis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "94701ec7d73ca47a06d320d1d4b362f2004243213b757e413687f81ba85d1619"
+    }
+  ]
+}

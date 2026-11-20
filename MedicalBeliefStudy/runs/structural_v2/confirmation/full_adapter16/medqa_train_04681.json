@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_04681",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Anxiety\"}",
+      "generated_disease": "Anxiety",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "b800bdb63f82ffdc54e550eefadfb71f4b462093c1d07af885d1bf2d8279d4e3"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Anxiety\"}",
+      "generated_disease": "Anxiety",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "4dc94bcdb6938bed12d44e71af5557921817c9ec7ce7406d038f739e5615e90c"
+    }
+  ]
+}

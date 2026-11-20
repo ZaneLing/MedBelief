@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_fbe5853c-1451-4c8b-a6ab-f5b573f17e50",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Vocal nodule\"}",
+      "generated_disease": "Vocal nodule",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "e6c85b2cda463b618396902bcb2acb9b91ee2cbade40c12326ea0ea637f92dc1"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Vocal nodule\"}",
+      "generated_disease": "Vocal nodule",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "2dbe96e28109af041edd087a6578a425aaad44af0ff6754ed367ae985a369c05"
+    }
+  ]
+}

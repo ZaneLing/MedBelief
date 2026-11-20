@@ -1,0 +1,12 @@
+{
+  "patients": 48,
+  "cohort": "confirmation",
+  "recipient": "unendorsed_candidate",
+  "conditions_per_case": 20,
+  "source_sha256": "df950f82636fa88388819cac4a3dda379233bdec4329ff9247376425f39bdf7a",
+  "transfer_source_sha256": "15a0407ec83d664e88e092c49a95892fef78f6d34de2d192bbccf0a8d38c626c",
+  "core_sha256": "2e0e1b51f1a0f543e38b5b17825e54dc30c0d3aaa76d3aff9073caf6c8a95bbe",
+  "cases_sha256": "f77bacaed2f3217de0916d647c3cf06c8160e7240f0f841794644035028ddd23",
+  "status": "development_motivated_followup",
+  "api_cost_usd": 0
+}

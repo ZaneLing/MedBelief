@@ -1,0 +1,238 @@
+{
+  "cases": [
+    "medmcqa_train_4e31eff1-33a8-4893-ad2e-d2c73f6e2a1c",
+    "medmcqa_train_863d19b4-2620-4c3c-8147-d24bb1a0c464",
+    "medmcqa_train_2880892a-b5fd-4678-acdf-9468fbcc2bfb",
+    "medmcqa_train_54b9ab6c-2ffc-409c-8b3e-f350fcb91aaa",
+    "medmcqa_train_76670103-a2a9-4a03-809b-4d177225c5ca",
+    "medmcqa_train_c95bab64-4eb2-4f6b-a197-60522e2c886b",
+    "medmcqa_train_897920f2-ed35-4fbb-a5fc-bda825e39195",
+    "medmcqa_train_69e9f8f7-262c-4a12-9f1f-aefb6f47af03",
+    "medmcqa_train_7f8a9fa6-19ca-44f3-b33f-3bf046753021",
+    "medmcqa_train_966fe292-9d6b-4ee5-a692-46a19631b617",
+    "medmcqa_train_8e812c65-f67e-4497-8d59-af33e9376475",
+    "medmcqa_train_f63c9ae2-4f29-4cef-8cd9-89bc19d716a5",
+    "medmcqa_train_c872e9b9-b4a8-4d1e-b280-934555f29cad",
+    "medmcqa_train_e87dcbbc-8435-454a-9146-7fdf8e7e071e",
+    "medmcqa_train_99337a95-6427-4195-92c5-ac5498f06db7",
+    "medmcqa_train_70c20ea7-37a0-49fc-aff9-9a86602365cd",
+    "medmcqa_train_cc1d160d-05f0-420a-843d-4bd917ce6799",
+    "medmcqa_train_e7d24141-52a4-4aec-947f-3c23b56d9a14",
+    "medmcqa_train_528581ef-9a4a-40da-a054-fe9c1dd57af6",
+    "medmcqa_train_39180624-3747-4d04-8c3d-2a10cdf110c5",
+    "medmcqa_train_3085f5b1-0626-4918-b402-7b9740f8bdd9",
+    "medmcqa_train_7f26099f-102e-4bea-a29c-da692db76647",
+    "medmcqa_train_d44b2fb7-41cd-49e1-9f1b-248dba0ff606",
+    "medmcqa_train_76f1428f-1754-41ba-8a15-135665844338",
+    "medmcqa_train_667885a5-19e1-4e50-b841-10d86b3ff963",
+    "medmcqa_train_3c014726-0f8d-40ba-a1d8-2f110e1f9da2",
+    "medmcqa_train_5bd52f3a-b5c5-497f-8882-29fc6b428e17",
+    "medmcqa_train_de068135-f6e9-457e-ab0f-fad45f476e45",
+    "medmcqa_train_12852a86-74ac-4a15-b715-ee7bab11a824",
+    "medmcqa_train_6a3b5574-6d21-405e-a9d5-6ba72e7f1a16",
+    "medmcqa_train_9b1a9a70-49a3-4ab4-8d3b-640101136770",
+    "medmcqa_train_ea94e744-18d9-4710-bece-910526acb39e",
+    "medmcqa_train_0b05e7b2-2a2e-4195-95d6-626ed75d96f7",
+    "medmcqa_validation_d95f1158-fa4b-4229-98c5-40f4dc2bacec",
+    "medmcqa_train_28d824ac-062a-4cc1-a4a3-ab618c0c48a5",
+    "medmcqa_train_fc25b448-9cb2-4b65-9b3f-962ddd7ab0a9",
+    "medmcqa_train_1909176d-0f07-4d62-aee4-34d259f41910",
+    "medmcqa_train_906e1883-20a9-4c6c-8470-34466f8e49d4",
+    "medmcqa_train_439fa173-ba34-4d4b-8faa-9137bc490c33",
+    "medmcqa_train_6d5b5791-cd0f-4f65-a730-9db5a6b4aef4",
+    "medmcqa_train_83386396-1d32-4475-955c-cdeb46b78f6e",
+    "medmcqa_train_0fff791e-7073-496c-8af2-e92d78482a2d",
+    "medmcqa_train_8282ab66-5c61-491c-917d-c780460a2bc8",
+    "medmcqa_train_0795a25b-3ace-4bd9-80d9-f3150c064417",
+    "medmcqa_validation_8cce7868-0429-4f98-9e6a-4baa045dffcc",
+    "medmcqa_train_8dbe7572-81cd-4c6b-8a97-19bc7f46f2e9",
+    "medmcqa_train_ab2e1656-6c7f-4840-a23a-21491e483bd7",
+    "medmcqa_train_83d0ef42-6b84-4c6d-866c-236d7350004c",
+    "medqa_train_04030",
+    "medqa_train_08748",
+    "medqa_train_04140",
+    "medqa_train_02196",
+    "medqa_train_00798",
+    "medqa_train_07509",
+    "medqa_train_09136",
+    "medqa_train_09954",
+    "medqa_train_04958",
+    "medqa_train_08574",
+    "medqa_train_06381",
+    "medqa_train_08336",
+    "medqa_train_04626",
+    "medqa_train_02444",
+    "medqa_train_01266",
+    "medqa_train_09937",
+    "medqa_train_00590",
+    "medqa_train_03138",
+    "medqa_dev_00771",
+    "medqa_train_03264",
+    "medqa_train_06439",
+    "medqa_train_08500",
+    "medqa_train_00335",
+    "medqa_train_08710",
+    "medqa_train_07763",
+    "medqa_train_03166",
+    "medqa_train_02251",
+    "medqa_dev_01229",
+    "medqa_train_02817",
+    "medqa_train_09107",
+    "medqa_train_00329",
+    "medqa_train_09244",
+    "medqa_train_06893",
+    "medqa_train_06253",
+    "medqa_train_01806",
+    "medqa_train_05251",
+    "medqa_train_06369",
+    "medqa_train_03128",
+    "medqa_dev_00370",
+    "medqa_train_02541",
+    "medqa_train_09406",
+    "medqa_train_04674",
+    "medqa_train_09943",
+    "medqa_train_04233",
+    "medqa_train_09402",
+    "medqa_train_04783",
+    "medqa_train_08551",
+    "medqa_train_00390",
+    "medqa_train_05645",
+    "medqa_train_04171",
+    "medqa_train_07288",
+    "medqa_train_00289",
+    "medqa_train_06556",
+    "medqa_train_07602",
+    "medqa_train_02666",
+    "medqa_train_08557",
+    "medqa_train_08614",
+    "medqa_train_04251",
+    "medqa_train_09785",
+    "medqa_train_08073",
+    "medqa_train_06186",
+    "medqa_train_06166",
+    "medqa_train_01036",
+    "medqa_train_06342",
+    "medqa_train_07003",
+    "medqa_train_05889",
+    "medqa_train_03957",
+    "medqa_train_05154",
+    "medqa_train_02698",
+    "medqa_train_00248",
+    "medqa_train_09225",
+    "medqa_train_03248",
+    "medqa_train_02642",
+    "medqa_train_02563",
+    "medqa_train_06697",
+    "medqa_train_09979",
+    "medqa_train_02944",
+    "medqa_train_06104",
+    "medqa_train_01889",
+    "medqa_dev_00978",
+    "medqa_train_03482",
+    "medqa_train_06327"
+  ],
+  "candidates": [
+    {
+      "name": "baseline"
+    },
+    {
+      "name": "anchor_heads_8",
+      "anchor_drop_heads": {
+        "14": [
+          8,
+          12
+        ],
+        "22": [
+          2
+        ],
+        "17": [
+          9,
+          14,
+          2
+        ],
+        "15": [
+          6
+        ],
+        "12": [
+          13
+        ]
+      }
+    },
+    {
+      "name": "matched_random_heads_8611",
+      "anchor_drop_heads": {
+        "14": [
+          9,
+          11
+        ],
+        "22": [
+          3
+        ],
+        "17": [
+          4,
+          11,
+          13
+        ],
+        "15": [
+          15
+        ],
+        "12": [
+          5
+        ]
+      },
+      "control_seed": 8611
+    },
+    {
+      "name": "matched_random_heads_8627",
+      "anchor_drop_heads": {
+        "14": [
+          10,
+          14
+        ],
+        "22": [
+          12
+        ],
+        "17": [
+          1,
+          6,
+          15
+        ],
+        "15": [
+          3
+        ],
+        "12": [
+          7
+        ]
+      },
+      "control_seed": 8627
+    },
+    {
+      "name": "matched_high_attention_heads",
+      "anchor_drop_heads": {
+        "14": [
+          7,
+          1
+        ],
+        "22": [
+          14
+        ],
+        "17": [
+          10,
+          8,
+          7
+        ],
+        "15": [
+          12
+        ],
+        "12": [
+          14
+        ]
+      }
+    }
+  ],
+  "source_sha256": "372fbae2628e1120c9d20a47df49f78a2c2d1db13eefe78a403b8b68e2effde3",
+  "variants_sha256": "b80372c38282f64decd70ba6e99e8100045b458530deee0e9a828203b2718468",
+  "sustained_sha256": "117ed0920977c619ed3662cacdd5a36dcd7391bfe8705f01a5ca6a70507d990f",
+  "spec_sha256": "9575befca39874706622cdab9efcf30dd6892a0e720671356f0e054249bf261b",
+  "api_cost_usd": 0
+}

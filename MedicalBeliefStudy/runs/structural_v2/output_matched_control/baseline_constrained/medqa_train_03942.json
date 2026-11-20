@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_03942",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Cephalohematoma\"}",
+      "generated_disease": "Cephalohematoma",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "60433d19ce3cb02421be5cbae64c1dd6ef0b3506b56f3e7e9a81e57ff7177232"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Cephalohematoma\"}",
+      "generated_disease": "Cephalohematoma",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "e2204004ff4584b27ad99f0e80ef0b93b87bf790a26d5c12305d51ed728e6627"
+    }
+  ]
+}

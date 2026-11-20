@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_dev_00817",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Placenta previa\"}",
+      "generated_disease": "Placenta previa",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "2481aef42301c5f7176f31730af0d778441baf98fcbf6bd7d92cbea8351136d2"
+    }
+  ]
+}

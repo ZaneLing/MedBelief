@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_dev_00432",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "contrast21_full",
+    "contrast_layer": 21,
+    "contrast_strength": 1.0,
+    "plausibility": 0.1
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Chromoblastomycosis\"}",
+      "generated_disease": "Chromoblastomycosis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "a38afd1b9846e4697f56a4d400cf92dbbed49065c308ed4b96e9f3a3ec77015c"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Sporotrichosis\"}",
+      "generated_disease": "Sporotrichosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ef93c1be95f97bae10a46b927974d8d9080f3d803eb5fb4a1f571379fb9266af"
+    }
+  ]
+}

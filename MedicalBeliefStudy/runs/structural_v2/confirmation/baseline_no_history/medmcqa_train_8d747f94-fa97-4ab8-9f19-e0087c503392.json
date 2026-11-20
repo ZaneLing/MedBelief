@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_8d747f94-fa97-4ab8-9f19-e0087c503392",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Glycogen storage diseases\"}",
+      "generated_disease": "Glycogen storage diseases",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "99113b0e3cdb2912f7922c0808e5afb0ee7e9cf8c7646ca3a561380d8f8d29f8"
+    }
+  ]
+}

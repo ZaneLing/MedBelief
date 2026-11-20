@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_7ac0b225-cb65-4bb4-97e4-7836112d67dc",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Ornithine trans carbamoylase deficiency\"}",
+      "generated_disease": "Ornithine trans carbamoylase deficiency",
+      "stop": "eos",
+      "tokens": 12,
+      "prompt_sha256": "b01547e92579c1be9f6741bba8afbfa8d58265d0d832a904ca87f6271725b5f3"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "CPS-I deficiency\"}",
+      "generated_disease": "CPS-I deficiency",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "c3aa3ad6b3f8f2c503b973835849ff303f2577addd9a4ab28e99c8b9e39789d4"
+    }
+  ]
+}

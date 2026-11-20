@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_e7b18ef0-1d0f-4ee6-9111-e03471e65d71",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Acute pulmonary disorder\"}",
+      "generated_disease": "Acute pulmonary disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "cd8a1192fc92bbbc423578f57513c657154be5d1913d2203dc7eb845687f20b8"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocococosis\"}",
+      "generated_disease": "Cystocococosis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "16fa191d6aad65eb835bff512497bcd04d46afb66a76f879b88ae374b042cc76"
+    }
+  ]
+}

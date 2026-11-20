@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_01503",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Fracture of distal radius\"}",
+      "generated_disease": "Fracture of distal radius",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "e95f86fe23a4d6a8059f576bbbb5f185804da42d107b6d0c40f055cc39e8d0e1"
+    }
+  ]
+}

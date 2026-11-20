@@ -1,0 +1,49 @@
+{
+  "case_id": "medmcqa_train_89264b22-452f-47dd-839a-c1340fb61b16",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Tuberculosis\"}",
+      "generated_disease": "Tuberculosis",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "c823e0d521fcef1340969f972e663aa34e97bec7f1e23f72fecc5dfcf24c1c19"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Tuberculosis\"}",
+      "generated_disease": "Tuberculosis",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "f435f2b66a08e227ceee539d67a594117180b43ed97ee4d4def4baca9da05a74"
+    }
+  ]
+}

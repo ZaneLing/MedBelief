@@ -1,0 +1,39 @@
+{
+  "case_id": "medqa_train_07633",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "linear_old16",
+    "replace_mlps": [
+      25,
+      26
+    ],
+    "rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1645216768,
+    "weight_bytes": 3290712064,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Cryptosporidiosis\"}",
+      "generated_disease": "Cryptosporidiosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ddafc28b2973c64a15170013da432817b643e6cabe0700c232efbcab1c111651"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Cryptosporidiosis\"}",
+      "generated_disease": "Cryptosporidiosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "9648bf4c36bf2d8479e861fba1629ac176b4355da639b4bad41876de113d1518"
+    }
+  ]
+}

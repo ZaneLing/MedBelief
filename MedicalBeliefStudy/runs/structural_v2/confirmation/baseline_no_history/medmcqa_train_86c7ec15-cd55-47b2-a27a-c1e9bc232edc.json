@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_86c7ec15-cd55-47b2-a27a-c1e9bc232edc",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "MEN 1\"}",
+      "generated_disease": "MEN 1",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "a1e4213891f690da03c7aa8eb4fa3b5c973a6f85e0b0ea1cb1f9621fe1c7f65b"
+    }
+  ]
+}

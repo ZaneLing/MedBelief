@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_05716",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Dnectionysturinarystkemphilenserventuriservemphilensigroupingservemphilensesparmservemphinaltracovemanservemphinaltrbmsolripovemphinalwemidemphinalwem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "e7cdf8515a0d51d82285b1685fe4de0b2ed0f2e81d82fa3f8b73194dca9854e1"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Dneystechy's syndrome or hypercephension or other unspecified disease or other unspecified disease or other unspecified disease\"} Note: This is an example of an unochservational response. actual realignment of the problem requires careful analysis of actual data rather than an unwitable or unochserved data",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "32ba1562ce3abce21a9df8661c42ccb37173e4d7064f974fea2fcc46d289e945"
+    }
+  ]
+}

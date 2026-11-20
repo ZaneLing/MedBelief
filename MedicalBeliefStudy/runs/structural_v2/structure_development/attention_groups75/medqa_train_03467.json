@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_03467",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Oppositional Defiant Disorder, Not Otherwise Specified (Disorder characterized by a pattern of age-inappropriate persistent disobedience, tantrums, deliberate cruelty, or destruction of property, that is not developmentally appropriate for the child's age, and that is resistant to correction.\"",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 56,
+      "prompt_sha256": "766a15c79feebd98949618416fa5e3fac6c3908939a5db6a9709acf0b3398e45"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Autism spectrum disorder\",\"probability\":\"high\"}",
+      "generated_disease": "Autism spectrum disorder",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "f08a45092dd288c77a03c9414b72e851ce81fa1dcbc762e11e4253bed508f474"
+    }
+  ]
+}

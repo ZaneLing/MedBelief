@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_c4f3f0e0-c12d-466c-9f3d-d15457624817",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Lung non-specific interstitial inflammation with granulomas and possible sarcoid-like pattern\",\"severity\":\"moderate\",\"probability_of_diagnosis\":0.98}",
+      "generated_disease": "Lung non-specific interstitial inflammation with granulomas and possible sarcoid-like pattern",
+      "stop": "eos",
+      "tokens": 33,
+      "prompt_sha256": "a37152278f508799fa36af9bf1b4e4f4b203f52ec14a80b68f3e5ff460e4809c"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Drug Reaction with Eosinophilia and Systemic Mastocytosis (EOSinhibitor\")",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 20,
+      "prompt_sha256": "f1f5247cdf77a967703dda175b5658460a222f4833def9f481336b2e29c32d4d"
+    }
+  ]
+}

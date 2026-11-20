@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_f31a0090-5a35-413a-9064-f8d5001fc5bf",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "3rd-order-level-level-ofinterestlessness-forayantropyohobostservservsontreeforestersesignatoryssarithmeticityservsontreeforestersesignatoryecknowledanceofundiquipmentofthreasonwhywhywhywhyagainagainagainagainagainagain",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "388a917ec519387d7a6f8e93974dfc1674b3e77e3c2bf3c7d58e1abe9435816a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "3rd-orderlinguoidusofinationalmentegeurantalsystematicityofundamentalsoftocatealsystematicityof…\nNote: This error caused unintentionly incorrectness; correct version: \"1st-order-screerialmente-deteriousnessservutaneousityofodog",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "3cce6c246486975731ec7748e7af4d3770ac13a5ba90bb34411e10921b5fbda5"
+    }
+  ]
+}

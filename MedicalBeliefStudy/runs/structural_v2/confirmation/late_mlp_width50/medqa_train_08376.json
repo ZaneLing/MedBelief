@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_train_08376",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Serous pericarditis\"}",
+      "generated_disease": "Serous pericarditis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "0d7896206aaf7679b92e9c2c741a79bc3164feb5f01fb4081d63997f9b4d8a28"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Acute myocardial infarction\"}",
+      "generated_disease": "Acute myocardial infarction",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "1df394ef1ddbc623082c2fb19be939e06829656a3b40a37e0899fad38ada8482"
+    }
+  ]
+}

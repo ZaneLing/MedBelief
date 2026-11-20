@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_5e02a023-68a5-48ed-908a-7db2c370deb1",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformy disease\"}",
+      "generated_disease": "Chronic veniformy disease",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "aca578d615fa8380b74fd3db65beb384d80f08d3be904abbfbc96ba8549c6bc5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxia-induced stress stress disorder\"} (Note: This is an example of an non-existent and non-existent actual real-world scenario. actual real-world actual real-world actual philentososentosemonicity is not relevant here. actual phobos is not relevant. Please consult consultserv",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "783c7967d9b3d6cb8dd8a5facecc20df2b9c5a10041c0f6bc83cfca9159c1ec8"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "case_id": "medmcqa_train_33f3bd0f-ec95-4fe9-87bf-193dc4086c99",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "infectious hepatitis\"}",
+      "generated_disease": "infectious hepatitis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "1f08abb7ddcd1646a883c295283db58c509d8b2090454a6b182e3deb96a5a79a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "lymphocytic leukemia\"}",
+      "generated_disease": "lymphocytic leukemia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "120d2c91666b296de6cc71264042b252e37975fc2d26c451103367b73e9c1dc4"
+    }
+  ]
+}

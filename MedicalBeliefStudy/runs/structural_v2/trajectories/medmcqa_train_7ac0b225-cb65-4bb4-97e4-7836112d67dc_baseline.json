@@ -1,0 +1,320 @@
+{
+  "case_id": "medmcqa_train_7ac0b225-cb65-4bb4-97e4-7836112d67dc",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -4.506610870361328,
+        -6.2618408203125,
+        -2.444110870361328,
+        -0.10683441162109375
+      ],
+      "q_sequence": [
+        0.011053248603577929,
+        0.0019107473076381853,
+        0.08694053472352098,
+        0.900095469365263
+      ],
+      "q_token_mean": [
+        0.1771394546543554,
+        0.2007087859665169,
+        0.2498066707661144,
+        0.3723450886130133
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Ornithine trans carbamoylase deficiency\"}",
+      "generated_disease": "Ornithine trans carbamoylase deficiency",
+      "stop": "eos",
+      "tokens": 12,
+      "prompt_sha256": "498e6bf8d33c13de4d6983c3fecbfe0963ab9c0612b7af9771cca9b56c6cb53d"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -1.1454734802246094,
+        -4.717292785644531,
+        -0.4267234802246094,
+        -3.9055824279785156
+      ],
+      "q_sequence": [
+        0.3181414104607035,
+        0.008941261311217622,
+        0.6527837893949178,
+        0.02013353883316117
+      ],
+      "q_token_mean": [
+        0.2646416114343177,
+        0.1998484779392793,
+        0.298320427125684,
+        0.23718948350071903
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "CPS-II deficiency\"}",
+      "generated_disease": "CPS-II deficiency",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "294c77f2318bc08dff83b41247f60a4b8860cebd2928f8de750a99d09a2a9263"
+    },
+    {
+      "condition": "neutral",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -2.2810592651367188,
+        -2.661396026611328,
+        -0.21855926513671875,
+        -3.7251358032226562
+      ],
+      "q_sequence": [
+        0.10219510691812275,
+        0.06986375844730887,
+        0.803826780726976,
+        0.02411435390759228
+      ],
+      "q_token_mean": [
+        0.21602143162446497,
+        0.24211542246216894,
+        0.3046390469787447,
+        0.23722409893462135
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "CPS-II deficiency\"}",
+      "generated_disease": "CPS-II deficiency",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "4516a1cef0bb25cf2914a191e3434854b722a8758672179340b2f5cb298889c5"
+    },
+    {
+      "condition": "neutral",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -2.7595977783203125,
+        -1.1679191589355469,
+        -0.7283477783203125,
+        -1.9494743347167969
+      ],
+      "q_sequence": [
+        0.0633561684112135,
+        0.31120469898439296,
+        0.4830027138480055,
+        0.1424364187563881
+      ],
+      "q_token_mean": [
+        0.19321220099441483,
+        0.2723070034852763,
+        0.27105743578675306,
+        0.2634233597335558
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "CPS-II deficiency\"}",
+      "generated_disease": "CPS-II deficiency",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "cb2e2533bb0c89ab28edafa5159473205df36717db51227fb9433017d7a1f72c"
+    },
+    {
+      "condition": "neutral",
+      "round": 5,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -3.3439388275146484,
+        -1.2358932495117188,
+        -1.4376869201660156,
+        -0.8299179077148438
+      ],
+      "q_sequence": [
+        0.03531763305303566,
+        0.2907395755610449,
+        0.2376108535775462,
+        0.43633193780837326
+      ],
+      "q_token_mean": [
+        0.18001813269445652,
+        0.27776943414082533,
+        0.2473405752934365,
+        0.2948718578712816
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Ornithine trans carbamoylase deficiency\"}",
+      "generated_disease": "Ornithine trans carbamoylase deficiency",
+      "stop": "eos",
+      "tokens": 12,
+      "prompt_sha256": "b01547e92579c1be9f6741bba8afbfa8d58265d0d832a904ca87f6271725b5f3"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -3.3105087280273438,
+        -7.522693634033203,
+        -1.9355087280273438,
+        -0.210174560546875
+      ],
+      "q_sequence": [
+        0.0367981745754356,
+        0.0005451269007612648,
+        0.1455396037092731,
+        0.81711709481453
+      ],
+      "q_token_mean": [
+        0.20901679907826795,
+        0.17103987532740397,
+        0.26284941292538333,
+        0.35709391266894464
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Ornithine trans carbamoylase deficiency\"}",
+      "generated_disease": "Ornithine trans carbamoylase deficiency",
+      "stop": "eos",
+      "tokens": 12,
+      "prompt_sha256": "3ac29ea8a56db407aad697189fc06af361112cb0476b40328948d8fb85982bee"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.42926788330078125,
+        -9.250652313232422,
+        -1.0542678833007812,
+        -7.969482421875
+      ],
+      "q_sequence": [
+        0.6510669904164806,
+        9.606099841380028e-05,
+        0.3484910473518852,
+        0.0003459012332203354
+      ],
+      "q_token_mean": [
+        0.3437764476938877,
+        0.14641879883997344,
+        0.3097683989502596,
+        0.20003635451587928
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "CPS-I deficiency\"}",
+      "generated_disease": "CPS-I deficiency",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "efa009ab2d512bc459c4091890d086767af5c1531764dbd6bd06f3dbbeab815f"
+    },
+    {
+      "condition": "wrong",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.4291496276855469,
+        -10.625492095947266,
+        -1.0541496276855469,
+        -8.188106536865234
+      ],
+      "q_sequence": [
+        0.6511579777747822,
+        2.429243762060784e-05,
+        0.3485397493752669,
+        0.0002779804123302244
+      ],
+      "q_token_mean": [
+        0.3515636038890566,
+        0.1304991056042352,
+        0.3167852115420896,
+        0.2011520789646187
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "CPS-I deficiency\"}",
+      "generated_disease": "CPS-I deficiency",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "998e23d37ccae9f506a07090c4c38176968613711fe4574e4b402cd346bf2c47"
+    },
+    {
+      "condition": "wrong",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -1.5787315368652344,
+        -5.784523010253906,
+        -0.23498153686523438,
+        -9.503341674804688
+      ],
+      "q_sequence": [
+        0.20624244242733644,
+        0.0030748647248687437,
+        0.7906080885943098,
+        7.460425348500483e-05
+      ],
+      "q_token_mean": [
+        0.2772479168235484,
+        0.20226560992119666,
+        0.3468423818678326,
+        0.17364409138742234
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "CPS-II deficiency\"}",
+      "generated_disease": "CPS-II deficiency",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "c9bd13527863faa4d07f62203c238e5478ae8bf8868699d55508c69a27bc21d4"
+    },
+    {
+      "condition": "wrong",
+      "round": 5,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -1.535888671875,
+        -4.66583251953125,
+        -0.254638671875,
+        -9.3846435546875
+      ],
+      "q_sequence": [
+        0.2152737210547604,
+        0.009411821371908404,
+        0.7752304496822604,
+        8.40078910708411e-05
+      ],
+      "q_token_mean": [
+        0.2720560773134667,
+        0.2203916971860646,
+        0.33682040933051194,
+        0.17073181616995672
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "CPS-II deficiency\"}",
+      "generated_disease": "CPS-II deficiency",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "c3aa3ad6b3f8f2c503b973835849ff303f2577addd9a4ab28e99c8b9e39789d4"
+    }
+  ],
+  "state_sha256": "1ebee6f1c385da474cd1640ec9b95c294172e88838936a64ff8d7ecd97fea3c7"
+}

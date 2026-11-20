@@ -1,0 +1,40 @@
+{
+  "case_id": "medmcqa_train_54f6ea7e-d0ea-43a1-a07e-98048f931ec8",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "drop_mlp4",
+    "drop_mlps": [
+      24,
+      25,
+      26,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1569571840,
+    "weight_bytes": 3139143680,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Herpes Zoster\"}",
+      "generated_disease": "Herpes Zoster",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "fe914b2f187307debc34af14ae4836f8978866b85a31c6ce7d23fe3806177730"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Impetigo\"}",
+      "generated_disease": "Impetigo",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "d97405b7f560e32cc79d548c4ef8020c1ec79524fdd16ed18c4018a8a9b1ce13"
+    }
+  ]
+}

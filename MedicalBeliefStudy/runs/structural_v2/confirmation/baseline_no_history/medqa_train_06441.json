@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_06441",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Orthostatic syncope\"}",
+      "generated_disease": "Orthostatic syncope",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "8ab7bb72f70feb82700a3cfbd60569017984085cd282e96308c3e5e6cb071a8c"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+# 新病例逐轮图谱
+
+上排看模型的疾病支持，黑线是来源标签；下排看每层外部读出中来源标签排第几，黄色更靠前。下排不是模型自己报告的概率。每例提供中文图例、完整英文源证据及终点的中文解释。
+
+- [ddx_test_0042118：Bronchitis](cases/ddx_test_0042118.md)
+- [ddx_test_0032489：Acute dystonic reactions](cases/ddx_test_0032489.md)
+- [ddx_test_0044249：Boerhaave](cases/ddx_test_0044249.md)
+- [ddx_test_0101113：Spontaneous pneumothorax](cases/ddx_test_0101113.md)
+- [ddx_test_0079685：Guillain-Barré syndrome](cases/ddx_test_0079685.md)
+- [ddx_test_0067994：Bronchitis](cases/ddx_test_0067994.md)
+- [ddx_test_0037913：Pericarditis](cases/ddx_test_0037913.md)
+- [ddx_test_0017896：HIV (initial infection)](cases/ddx_test_0017896.md)
+- [ddx_test_0005881：Anemia](cases/ddx_test_0005881.md)
+- [ddx_test_0006854：Anemia](cases/ddx_test_0006854.md)
+- [ddx_test_0108184：Guillain-Barré syndrome](cases/ddx_test_0108184.md)
+- [ddx_test_0110714：Pulmonary embolism](cases/ddx_test_0110714.md)
+- [ddx_test_0061730：Cluster headache](cases/ddx_test_0061730.md)
+- [ddx_test_0077278：Pericarditis](cases/ddx_test_0077278.md)
+- [ddx_test_0048692：Pulmonary embolism](cases/ddx_test_0048692.md)
+- [ddx_test_0123136：GERD](cases/ddx_test_0123136.md)
+- [ddx_test_0041136：Acute otitis media](cases/ddx_test_0041136.md)
+- [ddx_test_0027885：Pancreatic neoplasm](cases/ddx_test_0027885.md)
+- [ddx_test_0134351：Viral pharyngitis](cases/ddx_test_0134351.md)
+- [ddx_test_0064225：Acute pulmonary edema](cases/ddx_test_0064225.md)
+- [ddx_test_0060159：Acute dystonic reactions](cases/ddx_test_0060159.md)
+- [ddx_test_0062355：Acute dystonic reactions](cases/ddx_test_0062355.md)
+- [ddx_test_0084538：Inguinal hernia](cases/ddx_test_0084538.md)
+- [ddx_test_0045887：URTI](cases/ddx_test_0045887.md)

@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_04256",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Granulomatosis with polyangiitis\"}",
+      "generated_disease": "Granulomatosis with polyangiitis",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "e014f01bc315eaf83dcc2a8b56fa1395bd433fd6cb12188d7bea28c880fa8ede"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Churg-Strauss syndrome\"}",
+      "generated_disease": "Churg-Strauss syndrome",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "3df8ba6ba110ef410f38c58b9e3ec54193c890b5f4196becae0b41f0736417fc"
+    }
+  ]
+}

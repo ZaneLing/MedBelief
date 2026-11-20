@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_44bc8ad2-4cb2-433e-9831-4a3064c9296d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Tulatonicity\"}\"}Note: The correct answer should be \"Isomarone orphans orphans (nontrilaxophesparicotaxophodemosphilaxenemosphilaxenemememememememememememememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "a9ff34efee9b26b8c89872ed958394396b68f66399c4f25d49c3b7bf1f09035a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pervicular hypercephension\"}",
+      "generated_disease": "Pervicular hypercephension",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "d91b3c8fe25f9dcb351db033cf8d2efe49b4ebf3534bd59b3d8d27e2b32cb417"
+    }
+  ]
+}

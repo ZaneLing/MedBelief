@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_train_08843",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Fibroadenoma\"}",
+      "generated_disease": "Fibroadenoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "23f5c9aadf37e4f893bd91a95030956916194aeb92188eb3a086f554bd865271"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Fibroadenoma\"}",
+      "generated_disease": "Fibroadenoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "5c118b654f8eda7f7b15ac6f7043af3e34d215faf8205fa62a3ed38b5e2b2765"
+    }
+  ]
+}

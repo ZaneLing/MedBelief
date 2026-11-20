@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_2a0e0ad5-e7a9-441e-beec-63e0e51e28a9",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxiaemia\"}",
+      "generated_disease": "Pemphoxiaemia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "99825982a22b334af704a1ee2c0a0e9124c8c00e5cc4483158853056d5edbb3e"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxiaotic disorder orphans orphans orphans\"} -- Note: This is an error correction and/or an error in the original list. actual correct answer is \"minimal viable cell stress orphans orlando orlando orlando\"} -- Again this is an error. actual correct answer is \"minimal impact stress",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "c60d82ab062c62ee980d8a164a3a238d94e7a86d1d15ad32d05630d500e36c29"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "transfer": [
+    {
+      "source": "mz4",
+      "target": "mz10",
+      "common_labels": [
+        "上呼吸道感染",
+        "小儿支气管炎",
+        "小儿消化不良",
+        "小儿腹泻"
+      ],
+      "train_n": 1388,
+      "test": {
+        "n": 408,
+        "correct": 271,
+        "accuracy": 0.6642156862745098,
+        "balanced_accuracy": 0.6698293372630699,
+        "macro_f1": 0.6623543178835175
+      },
+      "fresh": {
+        "n": 399,
+        "correct": 266,
+        "accuracy": 0.6666666666666666,
+        "balanced_accuracy": 0.6709703999567771,
+        "macro_f1": 0.6636800171064131
+      },
+      "exact_overlap": 9,
+      "unknown_field_occurrence_fraction": 0.01377049180327869
+    },
+    {
+      "source": "mz10",
+      "target": "mz4",
+      "common_labels": [
+        "上呼吸道感染",
+        "小儿支气管炎",
+        "小儿消化不良",
+        "小儿腹泻"
+      ],
+      "train_n": 1630,
+      "test": {
+        "n": 345,
+        "correct": 240,
+        "accuracy": 0.6956521739130435,
+        "balanced_accuracy": 0.6861766694920225,
+        "macro_f1": 0.6870487628993363
+      },
+      "fresh": {
+        "n": 336,
+        "correct": 234,
+        "accuracy": 0.6964285714285714,
+        "balanced_accuracy": 0.6862919446985543,
+        "macro_f1": 0.6875952338766833
+      },
+      "exact_overlap": 9,
+      "unknown_field_occurrence_fraction": 0.2698412698412698
+    },
+    {
+      "source": "dxy",
+      "target": "mz4",
+      "common_labels": [
+        "上呼吸道感染",
+        "小儿腹泻"
+      ],
+      "train_n": 180,
+      "test": {
+        "n": 181,
+        "correct": 142,
+        "accuracy": 0.7845303867403315,
+        "balanced_accuracy": 0.7808528836754642,
+        "macro_f1": 0.7792475842011446
+      },
+      "fresh": {
+        "n": 181,
+        "correct": 142,
+        "accuracy": 0.7845303867403315,
+        "balanced_accuracy": 0.7808528836754642,
+        "macro_f1": 0.7792475842011446
+      },
+      "exact_overlap": 0,
+      "unknown_field_occurrence_fraction": 0.8130841121495327
+    },
+    {
+      "source": "mz4",
+      "target": "dxy",
+      "common_labels": [
+        "上呼吸道感染",
+        "小儿腹泻"
+      ],
+      "train_n": 710,
+      "test": {
+        "n": 44,
+        "correct": 40,
+        "accuracy": 0.9090909090909091,
+        "balanced_accuracy": 0.9,
+        "macro_f1": 0.905982905982906
+      },
+      "fresh": {
+        "n": 44,
+        "correct": 40,
+        "accuracy": 0.9090909090909091,
+        "balanced_accuracy": 0.9,
+        "macro_f1": 0.905982905982906
+      },
+      "exact_overlap": 0,
+      "unknown_field_occurrence_fraction": 0.5492227979274611
+    }
+  ],
+  "selective": {
+    "dxy": {
+      "model": "fixed_nb_a1",
+      "fit_n": 335,
+      "calibration_n": 88,
+      "threshold": 0.8361966468112226,
+      "calibration_accepted": 52,
+      "calibration_correct": 50,
+      "test_n": 104,
+      "test_accepted": 60,
+      "test_correct": 58,
+      "test_coverage": 0.5769230769230769,
+      "test_selective_accuracy": 0.9666666666666667,
+      "test_selective_wilson95": [
+        0.8863622572569172,
+        0.9908106807438017
+      ],
+      "fresh_test_n": 91,
+      "fresh_accepted": 49,
+      "fresh_correct": 48,
+      "fresh_selective_accuracy": 0.9795918367346939,
+      "note": "Threshold/model chosen on calibration only for >=95% empirical accuracy with >=20 cases. This is not a population guarantee. All original training facts excluded in fresh subset."
+    },
+    "mz4": {
+      "model": "fixed_logistic_C1",
+      "fit_n": 1113,
+      "calibration_n": 275,
+      "threshold": 0.9345164228107661,
+      "calibration_accepted": 57,
+      "calibration_correct": 55,
+      "test_n": 345,
+      "test_accepted": 68,
+      "test_correct": 63,
+      "test_coverage": 0.19710144927536233,
+      "test_selective_accuracy": 0.9264705882352942,
+      "test_selective_wilson95": [
+        0.8391481160428257,
+        0.9681851557488813
+      ],
+      "fresh_test_n": 329,
+      "fresh_accepted": 67,
+      "fresh_correct": 62,
+      "fresh_selective_accuracy": 0.9253731343283582,
+      "note": "Threshold/model chosen on calibration only for >=95% empirical accuracy with >=20 cases. This is not a population guarantee. All original training facts excluded in fresh subset."
+    },
+    "mz10": {
+      "model": "fixed_logistic_C1",
+      "fit_n": 2672,
+      "calibration_n": 633,
+      "threshold": 0.9451950739811722,
+      "calibration_accepted": 88,
+      "calibration_correct": 84,
+      "test_n": 811,
+      "test_accepted": 150,
+      "test_correct": 140,
+      "test_coverage": 0.18495684340320592,
+      "test_selective_accuracy": 0.9333333333333333,
+      "test_selective_wilson95": [
+        0.8816376448839428,
+        0.9633881433303919
+      ],
+      "fresh_test_n": 753,
+      "fresh_accepted": 127,
+      "fresh_correct": 118,
+      "fresh_selective_accuracy": 0.9291338582677166,
+      "note": "Threshold/model chosen on calibration only for >=95% empirical accuracy with >=20 cases. This is not a population guarantee. All original training facts excluded in fresh subset."
+    }
+  }
+}

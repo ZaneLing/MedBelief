@@ -1,0 +1,2686 @@
+{
+  "independent_set_rule_validation": {
+    "n": 132448,
+    "unique": 122408,
+    "true_included": 132448
+  },
+  "independently_verified_certificates": {
+    "test": 124397,
+    "validate": 122408
+  },
+  "challenge_strata": {
+    "test": {
+      "group_bootstrap_values_minus_presence95": [
+        0.2558471032231742,
+        0.311046511627907
+      ],
+      "strata": [
+        {
+          "labels": "Acute rhinosinusitis | Chronic rhinosinusitis",
+          "n": 460,
+          "presence_accuracy": 0.5,
+          "values_accuracy": 0.7630434782608696
+        },
+        {
+          "labels": "Stable angina | Unstable angina",
+          "n": 70,
+          "presence_accuracy": 0.5,
+          "values_accuracy": 0.5
+        },
+        {
+          "labels": "URTI | Viral pharyngitis",
+          "n": 60,
+          "presence_accuracy": 0.48333333333333334,
+          "values_accuracy": 1.0
+        },
+        {
+          "labels": "Acute laryngitis | Viral pharyngitis",
+          "n": 34,
+          "presence_accuracy": 0.5,
+          "values_accuracy": 0.7941176470588235
+        },
+        {
+          "labels": "Myocarditis | Pericarditis",
+          "n": 20,
+          "presence_accuracy": 0.5,
+          "values_accuracy": 1.0
+        },
+        {
+          "labels": "Bronchitis | URTI",
+          "n": 12,
+          "presence_accuracy": 0.5,
+          "values_accuracy": 1.0
+        },
+        {
+          "labels": "Acute otitis media | Bronchitis",
+          "n": 6,
+          "presence_accuracy": 0.5,
+          "values_accuracy": 1.0
+        },
+        {
+          "labels": "Acute laryngitis | Acute otitis media | GERD | Viral pharyngitis",
+          "n": 4,
+          "presence_accuracy": 0.25,
+          "values_accuracy": 1.0
+        },
+        {
+          "labels": "Acute otitis media | Cluster headache | Viral pharyngitis",
+          "n": 3,
+          "presence_accuracy": 0.3333333333333333,
+          "values_accuracy": 1.0
+        },
+        {
+          "labels": "Acute otitis media | URTI | Viral pharyngitis",
+          "n": 3,
+          "presence_accuracy": 0.3333333333333333,
+          "values_accuracy": 1.0
+        },
+        {
+          "labels": "Acute laryngitis | Acute otitis media | Viral pharyngitis",
+          "n": 3,
+          "presence_accuracy": 0.3333333333333333,
+          "values_accuracy": 0.6666666666666666
+        },
+        {
+          "labels": "Acute otitis media | Viral pharyngitis",
+          "n": 2,
+          "presence_accuracy": 0.5,
+          "values_accuracy": 1.0
+        },
+        {
+          "labels": "Acute otitis media | Cluster headache",
+          "n": 2,
+          "presence_accuracy": 0.5,
+          "values_accuracy": 1.0
+        },
+        {
+          "labels": "Pericarditis | Spontaneous pneumothorax",
+          "n": 2,
+          "presence_accuracy": 0.5,
+          "values_accuracy": 1.0
+        },
+        {
+          "labels": "Possible NSTEMI / STEMI | Stable angina",
+          "n": 2,
+          "presence_accuracy": 0.5,
+          "values_accuracy": 1.0
+        },
+        {
+          "labels": "Acute laryngitis | Acute otitis media",
+          "n": 2,
+          "presence_accuracy": 0.5,
+          "values_accuracy": 1.0
+        }
+      ],
+      "excluding_rhinosinusitis": {
+        "n": 225,
+        "presence_accuracy": 0.48444444444444446,
+        "values_accuracy": 0.8088888888888889
+      }
+    },
+    "validate": {
+      "group_bootstrap_values_minus_presence95": [
+        0.2364963503649635,
+        0.2956547202240754
+      ],
+      "strata": [
+        {
+          "labels": "Acute rhinosinusitis | Chronic rhinosinusitis",
+          "n": 468,
+          "presence_accuracy": 0.5,
+          "values_accuracy": 0.75
+        },
+        {
+          "labels": "Stable angina | Unstable angina",
+          "n": 80,
+          "presence_accuracy": 0.5,
+          "values_accuracy": 0.5
+        },
+        {
+          "labels": "URTI | Viral pharyngitis",
+          "n": 46,
+          "presence_accuracy": 0.45652173913043476,
+          "values_accuracy": 1.0
+        },
+        {
+          "labels": "Acute laryngitis | Viral pharyngitis",
+          "n": 30,
+          "presence_accuracy": 0.5,
+          "values_accuracy": 0.7666666666666667
+        },
+        {
+          "labels": "Myocarditis | Pericarditis",
+          "n": 14,
+          "presence_accuracy": 0.5,
+          "values_accuracy": 1.0
+        },
+        {
+          "labels": "Bronchitis | URTI",
+          "n": 14,
+          "presence_accuracy": 0.42857142857142855,
+          "values_accuracy": 1.0
+        },
+        {
+          "labels": "Acute otitis media | Cluster headache | Viral pharyngitis",
+          "n": 6,
+          "presence_accuracy": 0.3333333333333333,
+          "values_accuracy": 0.8333333333333334
+        },
+        {
+          "labels": "Acute otitis media | Viral pharyngitis",
+          "n": 4,
+          "presence_accuracy": 0.5,
+          "values_accuracy": 1.0
+        },
+        {
+          "labels": "Possible NSTEMI / STEMI | Stable angina",
+          "n": 4,
+          "presence_accuracy": 0.5,
+          "values_accuracy": 1.0
+        },
+        {
+          "labels": "Acute otitis media | Bronchitis | URTI | Viral pharyngitis",
+          "n": 4,
+          "presence_accuracy": 0.25,
+          "values_accuracy": 1.0
+        },
+        {
+          "labels": "Acute otitis media | GERD | Viral pharyngitis",
+          "n": 3,
+          "presence_accuracy": 0.3333333333333333,
+          "values_accuracy": 0.6666666666666666
+        },
+        {
+          "labels": "Bronchitis | URTI | Viral pharyngitis",
+          "n": 3,
+          "presence_accuracy": 0.3333333333333333,
+          "values_accuracy": 1.0
+        },
+        {
+          "labels": "Acute laryngitis | Bronchitis | Viral pharyngitis",
+          "n": 3,
+          "presence_accuracy": 0.3333333333333333,
+          "values_accuracy": 0.6666666666666666
+        },
+        {
+          "labels": "Acute laryngitis | Acute otitis media | Viral pharyngitis",
+          "n": 3,
+          "presence_accuracy": 0.3333333333333333,
+          "values_accuracy": 0.6666666666666666
+        },
+        {
+          "labels": "Possible NSTEMI / STEMI | Unstable angina",
+          "n": 2,
+          "presence_accuracy": 0.5,
+          "values_accuracy": 1.0
+        },
+        {
+          "labels": "Acute otitis media | Bronchitis",
+          "n": 2,
+          "presence_accuracy": 0.5,
+          "values_accuracy": 1.0
+        },
+        {
+          "labels": "Acute laryngitis | Acute otitis media",
+          "n": 2,
+          "presence_accuracy": 0.5,
+          "values_accuracy": 1.0
+        }
+      ],
+      "excluding_rhinosinusitis": {
+        "n": 220,
+        "presence_accuracy": 0.4681818181818182,
+        "values_accuracy": 0.7681818181818182
+      }
+    }
+  },
+  "cached_llm_audit": {
+    "Qwen3-1.7B-FP16": {
+      "counts": {
+        "n": 120,
+        "gold_correct": 44,
+        "matches_reference_top": 37,
+        "prediction_in_reference": 62,
+        "prediction_incompatible_with_catalog": 76,
+        "wrong": 76,
+        "wrong_but_in_reference": 18,
+        "wrong_and_matches_reference_top": 2,
+        "codebook_singleton": 115
+      },
+      "records": [
+        {
+          "case_id": "ddx_test_0042118",
+          "gold": "Bronchitis",
+          "prediction": "Acute COPD exacerbation / infection",
+          "reference_top": "Acute COPD exacerbation / infection",
+          "prediction_reference_score": 0.06905185672670174,
+          "catalog_candidates": [
+            "Bronchitis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0032489",
+          "gold": "Acute dystonic reactions",
+          "prediction": "Acute laryngitis",
+          "reference_top": "Acute dystonic reactions",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Acute dystonic reactions"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0044249",
+          "gold": "Boerhaave",
+          "prediction": "Boerhaave",
+          "reference_top": "Boerhaave",
+          "prediction_reference_score": 0.7040555177352736,
+          "catalog_candidates": [
+            "Boerhaave"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0101113",
+          "gold": "Spontaneous pneumothorax",
+          "prediction": "Spontaneous pneumothorax",
+          "reference_top": "Unstable angina",
+          "prediction_reference_score": 0.10423507902675405,
+          "catalog_candidates": [
+            "Spontaneous pneumothorax"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0079685",
+          "gold": "Guillain-Barré syndrome",
+          "prediction": "Guillain-Barré syndrome",
+          "reference_top": "Guillain-Barré syndrome",
+          "prediction_reference_score": 0.6672410451467542,
+          "catalog_candidates": [
+            "Guillain-Barré syndrome"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0067994",
+          "gold": "Bronchitis",
+          "prediction": "Acute COPD exacerbation / infection",
+          "reference_top": "Acute COPD exacerbation / infection",
+          "prediction_reference_score": 0.1068222322742294,
+          "catalog_candidates": [
+            "Bronchitis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0037913",
+          "gold": "Pericarditis",
+          "prediction": "Boerhaave",
+          "reference_top": "Possible NSTEMI / STEMI",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Pericarditis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0017896",
+          "gold": "HIV (initial infection)",
+          "prediction": "Acute rhinosinusitis",
+          "reference_top": "HIV (initial infection)",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "HIV (initial infection)"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0005881",
+          "gold": "Anemia",
+          "prediction": "Anemia",
+          "reference_top": "Anemia",
+          "prediction_reference_score": 0.12369955455227127,
+          "catalog_candidates": [
+            "Anemia"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0006854",
+          "gold": "Anemia",
+          "prediction": "Pulmonary embolism",
+          "reference_top": "Cluster headache",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Anemia"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0108184",
+          "gold": "Guillain-Barré syndrome",
+          "prediction": "Guillain-Barré syndrome",
+          "reference_top": "Guillain-Barré syndrome",
+          "prediction_reference_score": 0.1545711972425947,
+          "catalog_candidates": [
+            "Guillain-Barré syndrome"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0110714",
+          "gold": "Pulmonary embolism",
+          "prediction": "Localized edema",
+          "reference_top": "Pulmonary embolism",
+          "prediction_reference_score": 0.2457584902946379,
+          "catalog_candidates": [
+            "Pulmonary embolism"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0061730",
+          "gold": "Cluster headache",
+          "prediction": "Cluster headache",
+          "reference_top": "Cluster headache",
+          "prediction_reference_score": 1.0,
+          "catalog_candidates": [
+            "Cluster headache"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0077278",
+          "gold": "Pericarditis",
+          "prediction": "Boerhaave",
+          "reference_top": "Pericarditis",
+          "prediction_reference_score": 0.047521862579376885,
+          "catalog_candidates": [
+            "Pericarditis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0048692",
+          "gold": "Pulmonary embolism",
+          "prediction": "Acute pulmonary edema",
+          "reference_top": "Pulmonary embolism",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Pulmonary embolism"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0123136",
+          "gold": "GERD",
+          "prediction": "GERD",
+          "reference_top": "GERD",
+          "prediction_reference_score": 0.7487839953666665,
+          "catalog_candidates": [
+            "GERD"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0041136",
+          "gold": "Acute otitis media",
+          "prediction": "Acute otitis media",
+          "reference_top": "Bronchitis",
+          "prediction_reference_score": 0.3666106410892656,
+          "catalog_candidates": [
+            "Acute otitis media"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0027885",
+          "gold": "Pancreatic neoplasm",
+          "prediction": "Bronchiolitis",
+          "reference_top": "Pancreatic neoplasm",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Pancreatic neoplasm"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0134351",
+          "gold": "Viral pharyngitis",
+          "prediction": "Acute rhinosinusitis",
+          "reference_top": "Possible NSTEMI / STEMI",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Viral pharyngitis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0064225",
+          "gold": "Acute pulmonary edema",
+          "prediction": "Acute pulmonary edema",
+          "reference_top": "Acute pulmonary edema",
+          "prediction_reference_score": 0.07894044712965267,
+          "catalog_candidates": [
+            "Acute pulmonary edema"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0060159",
+          "gold": "Acute dystonic reactions",
+          "prediction": "Acute dystonic reactions",
+          "reference_top": "Acute dystonic reactions",
+          "prediction_reference_score": 0.18231127827309,
+          "catalog_candidates": [
+            "Acute dystonic reactions"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0062355",
+          "gold": "Acute dystonic reactions",
+          "prediction": "Acute dystonic reactions",
+          "reference_top": "Acute dystonic reactions",
+          "prediction_reference_score": 0.15406867338745636,
+          "catalog_candidates": [
+            "Acute dystonic reactions"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0084538",
+          "gold": "Inguinal hernia",
+          "prediction": "Localized edema",
+          "reference_top": "Inguinal hernia",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Inguinal hernia"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0045887",
+          "gold": "URTI",
+          "prediction": "Acute rhinosinusitis",
+          "reference_top": "URTI",
+          "prediction_reference_score": 0.06734905450917124,
+          "catalog_candidates": [
+            "URTI"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0058047",
+          "gold": "Inguinal hernia",
+          "prediction": "Pneumonia",
+          "reference_top": "Inguinal hernia",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Inguinal hernia"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0131152",
+          "gold": "SLE",
+          "prediction": "Pericarditis",
+          "reference_top": "Possible NSTEMI / STEMI",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "SLE"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0061812",
+          "gold": "GERD",
+          "prediction": "Boerhaave",
+          "reference_top": "GERD",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "GERD"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0052464",
+          "gold": "Pancreatic neoplasm",
+          "prediction": "Pancreatic neoplasm",
+          "reference_top": "Bronchitis",
+          "prediction_reference_score": 0.13397966874258493,
+          "catalog_candidates": [
+            "Pancreatic neoplasm"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0058219",
+          "gold": "HIV (initial infection)",
+          "prediction": "Acute rhinosinusitis",
+          "reference_top": "HIV (initial infection)",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "HIV (initial infection)"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0018854",
+          "gold": "Acute otitis media",
+          "prediction": "Acute rhinosinusitis",
+          "reference_top": "URTI",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Acute otitis media"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0004428",
+          "gold": "GERD",
+          "prediction": "GERD",
+          "reference_top": "GERD",
+          "prediction_reference_score": 0.21894745814093097,
+          "catalog_candidates": [
+            "GERD"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0042329",
+          "gold": "URTI",
+          "prediction": "Acute rhinosinusitis",
+          "reference_top": "URTI",
+          "prediction_reference_score": 0.04603932522753675,
+          "catalog_candidates": [
+            "URTI"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0042148",
+          "gold": "Myasthenia gravis",
+          "prediction": "Myasthenia gravis",
+          "reference_top": "Myasthenia gravis",
+          "prediction_reference_score": 0.4872256855422936,
+          "catalog_candidates": [
+            "Myasthenia gravis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0090572",
+          "gold": "Viral pharyngitis",
+          "prediction": "Acute rhinosinusitis",
+          "reference_top": "Bronchitis",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Viral pharyngitis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0101310",
+          "gold": "Acute dystonic reactions",
+          "prediction": "Acute dystonic reactions",
+          "reference_top": "Acute dystonic reactions",
+          "prediction_reference_score": 0.1786889541552063,
+          "catalog_candidates": [
+            "Acute dystonic reactions"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0014864",
+          "gold": "SLE",
+          "prediction": "Acute rhinosinusitis",
+          "reference_top": "SLE",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "SLE"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0088980",
+          "gold": "Bronchospasm / acute asthma exacerbation",
+          "prediction": "Bronchospasm / acute asthma exacerbation",
+          "reference_top": "Bronchospasm / acute asthma exacerbation",
+          "prediction_reference_score": 0.12780592909403027,
+          "catalog_candidates": [
+            "Bronchospasm / acute asthma exacerbation"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0101165",
+          "gold": "Boerhaave",
+          "prediction": "Boerhaave",
+          "reference_top": "Boerhaave",
+          "prediction_reference_score": 0.1377114386195787,
+          "catalog_candidates": [
+            "Boerhaave"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0092064",
+          "gold": "Pneumonia",
+          "prediction": "Acute pulmonary edema",
+          "reference_top": "Pneumonia",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Pneumonia"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0074785",
+          "gold": "Bronchitis",
+          "prediction": "Acute rhinosinusitis",
+          "reference_top": "URTI",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Bronchitis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0102339",
+          "gold": "Atrial fibrillation",
+          "prediction": "Acute COPD exacerbation / infection",
+          "reference_top": "Atrial fibrillation",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Atrial fibrillation"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0031946",
+          "gold": "Inguinal hernia",
+          "prediction": "Pneumonia",
+          "reference_top": "Inguinal hernia",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Inguinal hernia"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0115821",
+          "gold": "Spontaneous pneumothorax",
+          "prediction": "Acute COPD exacerbation / infection",
+          "reference_top": "Unstable angina",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Spontaneous pneumothorax"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0028785",
+          "gold": "HIV (initial infection)",
+          "prediction": "Influenza",
+          "reference_top": "HIV (initial infection)",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "HIV (initial infection)"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0085180",
+          "gold": "Acute dystonic reactions",
+          "prediction": "Bronchiolitis",
+          "reference_top": "Acute dystonic reactions",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Acute dystonic reactions"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0074528",
+          "gold": "Cluster headache",
+          "prediction": "Acute rhinosinusitis",
+          "reference_top": "Cluster headache",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Cluster headache"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0055842",
+          "gold": "Possible NSTEMI / STEMI",
+          "prediction": "Pneumonia",
+          "reference_top": "Possible NSTEMI / STEMI",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Possible NSTEMI / STEMI"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0031839",
+          "gold": "Bronchospasm / acute asthma exacerbation",
+          "prediction": "Bronchospasm / acute asthma exacerbation",
+          "reference_top": "Bronchospasm / acute asthma exacerbation",
+          "prediction_reference_score": 0.11406114180216033,
+          "catalog_candidates": [
+            "Bronchospasm / acute asthma exacerbation"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0077062",
+          "gold": "Pneumonia",
+          "prediction": "Acute pulmonary edema",
+          "reference_top": "Bronchitis",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Pneumonia"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0055008",
+          "gold": "Myasthenia gravis",
+          "prediction": "Myasthenia gravis",
+          "reference_top": "Myasthenia gravis",
+          "prediction_reference_score": 0.1629194119911018,
+          "catalog_candidates": [
+            "Myasthenia gravis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0111254",
+          "gold": "Anemia",
+          "prediction": "Anemia",
+          "reference_top": "Anemia",
+          "prediction_reference_score": 0.25071110167158567,
+          "catalog_candidates": [
+            "Anemia"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0053858",
+          "gold": "Pneumonia",
+          "prediction": "Acute pulmonary edema",
+          "reference_top": "Bronchitis",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Pneumonia"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0126439",
+          "gold": "HIV (initial infection)",
+          "prediction": "Acute rhinosinusitis",
+          "reference_top": "HIV (initial infection)",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "HIV (initial infection)"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0096012",
+          "gold": "Bronchospasm / acute asthma exacerbation",
+          "prediction": "Acute rhinosinusitis",
+          "reference_top": "Bronchitis",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Bronchospasm / acute asthma exacerbation"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0001385",
+          "gold": "Possible NSTEMI / STEMI",
+          "prediction": "Acute pulmonary edema",
+          "reference_top": "Possible NSTEMI / STEMI",
+          "prediction_reference_score": 0.07251326158702114,
+          "catalog_candidates": [
+            "Possible NSTEMI / STEMI"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0108688",
+          "gold": "Atrial fibrillation",
+          "prediction": "Myocarditis",
+          "reference_top": "Atrial fibrillation",
+          "prediction_reference_score": 0.10571802156545872,
+          "catalog_candidates": [
+            "Atrial fibrillation"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0064932",
+          "gold": "Boerhaave",
+          "prediction": "Bronchiolitis",
+          "reference_top": "Boerhaave",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Boerhaave"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0107134",
+          "gold": "Acute otitis media",
+          "prediction": "Acute otitis media",
+          "reference_top": "URTI",
+          "prediction_reference_score": 0.2402227451278607,
+          "catalog_candidates": [
+            "Acute otitis media"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0047387",
+          "gold": "Cluster headache",
+          "prediction": "Cluster headache",
+          "reference_top": "Cluster headache",
+          "prediction_reference_score": 1.0,
+          "catalog_candidates": [
+            "Cluster headache"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0024888",
+          "gold": "Anemia",
+          "prediction": "Anemia",
+          "reference_top": "Anemia",
+          "prediction_reference_score": 0.6496640351985898,
+          "catalog_candidates": [
+            "Anemia"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0015311",
+          "gold": "Atrial fibrillation",
+          "prediction": "Pulmonary embolism",
+          "reference_top": "Atrial fibrillation",
+          "prediction_reference_score": 0.09592979746749825,
+          "catalog_candidates": [
+            "Atrial fibrillation"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0095810",
+          "gold": "Myasthenia gravis",
+          "prediction": "Myasthenia gravis",
+          "reference_top": "Myasthenia gravis",
+          "prediction_reference_score": 0.20420607044130223,
+          "catalog_candidates": [
+            "Myasthenia gravis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0009777",
+          "gold": "Pericarditis",
+          "prediction": "Boerhaave",
+          "reference_top": "Possible NSTEMI / STEMI",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Pericarditis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0058990",
+          "gold": "Pneumonia",
+          "prediction": "Acute pulmonary edema",
+          "reference_top": "Bronchitis",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Pneumonia"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0008147",
+          "gold": "Possible NSTEMI / STEMI",
+          "prediction": "HIV (initial infection)",
+          "reference_top": "Possible NSTEMI / STEMI",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Possible NSTEMI / STEMI"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0062978",
+          "gold": "Bronchospasm / acute asthma exacerbation",
+          "prediction": "Acute rhinosinusitis",
+          "reference_top": "Bronchitis",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Bronchospasm / acute asthma exacerbation"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0128173",
+          "gold": "URTI",
+          "prediction": "Acute rhinosinusitis",
+          "reference_top": "URTI",
+          "prediction_reference_score": 0.10414999667377087,
+          "catalog_candidates": [
+            "URTI"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0026426",
+          "gold": "Inguinal hernia",
+          "prediction": "Localized edema",
+          "reference_top": "Inguinal hernia",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Inguinal hernia"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0056435",
+          "gold": "Pancreatic neoplasm",
+          "prediction": "Pancreatic neoplasm",
+          "reference_top": "Pancreatic neoplasm",
+          "prediction_reference_score": 0.26634184707353514,
+          "catalog_candidates": [
+            "Pancreatic neoplasm"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0053762",
+          "gold": "Bronchitis",
+          "prediction": "Acute pulmonary edema",
+          "reference_top": "Acute COPD exacerbation / infection",
+          "prediction_reference_score": 0.045774005109119206,
+          "catalog_candidates": [
+            "Bronchitis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0004805",
+          "gold": "Spontaneous pneumothorax",
+          "prediction": "Spontaneous pneumothorax",
+          "reference_top": "Spontaneous pneumothorax",
+          "prediction_reference_score": 0.10012929898847324,
+          "catalog_candidates": [
+            "Spontaneous pneumothorax"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0079455",
+          "gold": "Spontaneous pneumothorax",
+          "prediction": "Spontaneous pneumothorax",
+          "reference_top": "Spontaneous pneumothorax",
+          "prediction_reference_score": 0.10217822209466013,
+          "catalog_candidates": [
+            "Spontaneous pneumothorax"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0058398",
+          "gold": "Boerhaave",
+          "prediction": "Boerhaave",
+          "reference_top": "Panic attack",
+          "prediction_reference_score": 0.05209425191207012,
+          "catalog_candidates": [
+            "Boerhaave"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0076664",
+          "gold": "Acute pulmonary edema",
+          "prediction": "Acute pulmonary edema",
+          "reference_top": "Acute pulmonary edema",
+          "prediction_reference_score": 0.09899133091806181,
+          "catalog_candidates": [
+            "Acute pulmonary edema"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0065449",
+          "gold": "SLE",
+          "prediction": "Pericarditis",
+          "reference_top": "Possible NSTEMI / STEMI",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "SLE"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0003272",
+          "gold": "Possible NSTEMI / STEMI",
+          "prediction": "Acute pulmonary edema",
+          "reference_top": "Possible NSTEMI / STEMI",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Possible NSTEMI / STEMI"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0071191",
+          "gold": "Cluster headache",
+          "prediction": "Cluster headache",
+          "reference_top": "Cluster headache",
+          "prediction_reference_score": 1.0,
+          "catalog_candidates": [
+            "Cluster headache"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0054291",
+          "gold": "Stable angina",
+          "prediction": "Stable angina",
+          "reference_top": "Possible NSTEMI / STEMI",
+          "prediction_reference_score": 0.14799039148204776,
+          "catalog_candidates": [
+            "Stable angina",
+            "Unstable angina"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0098291",
+          "gold": "Acute pulmonary edema",
+          "prediction": "Acute pulmonary edema",
+          "reference_top": "Acute pulmonary edema",
+          "prediction_reference_score": 0.21739573347141636,
+          "catalog_candidates": [
+            "Acute pulmonary edema"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0031213",
+          "gold": "Viral pharyngitis",
+          "prediction": "Acute laryngitis",
+          "reference_top": "Viral pharyngitis",
+          "prediction_reference_score": 0.15085918490950553,
+          "catalog_candidates": [
+            "Viral pharyngitis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0110752",
+          "gold": "SLE",
+          "prediction": "Acute pulmonary edema",
+          "reference_top": "Pulmonary embolism",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "SLE"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0020304",
+          "gold": "Acute otitis media",
+          "prediction": "Acute otitis media",
+          "reference_top": "Acute otitis media",
+          "prediction_reference_score": 0.6231380508789331,
+          "catalog_candidates": [
+            "Acute otitis media"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0049235",
+          "gold": "Anemia",
+          "prediction": "Pulmonary embolism",
+          "reference_top": "Anemia",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Anemia"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0071276",
+          "gold": "SLE",
+          "prediction": "Pericarditis",
+          "reference_top": "Possible NSTEMI / STEMI",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "SLE"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0082115",
+          "gold": "Bronchitis",
+          "prediction": "Acute COPD exacerbation / infection",
+          "reference_top": "Bronchitis",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Bronchitis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0118174",
+          "gold": "Pneumonia",
+          "prediction": "Acute pulmonary edema",
+          "reference_top": "Pneumonia",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Pneumonia"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0097872",
+          "gold": "Viral pharyngitis",
+          "prediction": "Acute rhinosinusitis",
+          "reference_top": "Viral pharyngitis",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Viral pharyngitis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0105370",
+          "gold": "Myasthenia gravis",
+          "prediction": "Myasthenia gravis",
+          "reference_top": "Myasthenia gravis",
+          "prediction_reference_score": 0.17298367637839382,
+          "catalog_candidates": [
+            "Myasthenia gravis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0098555",
+          "gold": "Acute pulmonary edema",
+          "prediction": "Acute pulmonary edema",
+          "reference_top": "Acute pulmonary edema",
+          "prediction_reference_score": 0.16893175450042858,
+          "catalog_candidates": [
+            "Acute pulmonary edema"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0132364",
+          "gold": "Pancreatic neoplasm",
+          "prediction": "Pneumonia",
+          "reference_top": "Pancreatic neoplasm",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Pancreatic neoplasm"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0045661",
+          "gold": "GERD",
+          "prediction": "Acute COPD exacerbation / infection",
+          "reference_top": "Bronchitis",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "GERD"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0008771",
+          "gold": "Pericarditis",
+          "prediction": "Pericarditis",
+          "reference_top": "Possible NSTEMI / STEMI",
+          "prediction_reference_score": 0.07900202497145654,
+          "catalog_candidates": [
+            "Pericarditis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0029823",
+          "gold": "Cluster headache",
+          "prediction": "Cluster headache",
+          "reference_top": "Cluster headache",
+          "prediction_reference_score": 0.6850030416248103,
+          "catalog_candidates": [
+            "Cluster headache"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0005884",
+          "gold": "Atrial fibrillation",
+          "prediction": "Atrial fibrillation",
+          "reference_top": "PSVT",
+          "prediction_reference_score": 0.35727940717237566,
+          "catalog_candidates": [
+            "Atrial fibrillation"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0075250",
+          "gold": "URTI",
+          "prediction": "Acute rhinosinusitis",
+          "reference_top": "Pneumonia",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "URTI"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0104414",
+          "gold": "Stable angina",
+          "prediction": "Possible NSTEMI / STEMI",
+          "reference_top": "Unstable angina",
+          "prediction_reference_score": 0.2377776991897974,
+          "catalog_candidates": [
+            "Stable angina",
+            "Unstable angina"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0008840",
+          "gold": "Spontaneous pneumothorax",
+          "prediction": "Acute pulmonary edema",
+          "reference_top": "Unstable angina",
+          "prediction_reference_score": 0.0648981496197019,
+          "catalog_candidates": [
+            "Spontaneous pneumothorax"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0130768",
+          "gold": "GERD",
+          "prediction": "Boerhaave",
+          "reference_top": "Bronchitis",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "GERD"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0109483",
+          "gold": "Viral pharyngitis",
+          "prediction": "Acute laryngitis",
+          "reference_top": "Bronchitis",
+          "prediction_reference_score": 0.14932826759643622,
+          "catalog_candidates": [
+            "Viral pharyngitis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0089983",
+          "gold": "Inguinal hernia",
+          "prediction": "Localized edema",
+          "reference_top": "Inguinal hernia",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Inguinal hernia"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0000463",
+          "gold": "Stable angina",
+          "prediction": "Possible NSTEMI / STEMI",
+          "reference_top": "Unstable angina",
+          "prediction_reference_score": 0.09773146046454399,
+          "catalog_candidates": [
+            "Stable angina",
+            "Unstable angina"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0112765",
+          "gold": "Guillain-Barré syndrome",
+          "prediction": "Acute pulmonary edema",
+          "reference_top": "Pulmonary embolism",
+          "prediction_reference_score": 0.14525934839595186,
+          "catalog_candidates": [
+            "Guillain-Barré syndrome"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0036371",
+          "gold": "Pericarditis",
+          "prediction": "Boerhaave",
+          "reference_top": "Pulmonary embolism",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Pericarditis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0013546",
+          "gold": "Stable angina",
+          "prediction": "Acute pulmonary edema",
+          "reference_top": "Possible NSTEMI / STEMI",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Stable angina",
+            "Unstable angina"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0127787",
+          "gold": "Pulmonary embolism",
+          "prediction": "Boerhaave",
+          "reference_top": "Pulmonary embolism",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Pulmonary embolism"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0092157",
+          "gold": "HIV (initial infection)",
+          "prediction": "Acute rhinosinusitis",
+          "reference_top": "HIV (initial infection)",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "HIV (initial infection)"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0055175",
+          "gold": "Bronchospasm / acute asthma exacerbation",
+          "prediction": "Bronchiolitis",
+          "reference_top": "Bronchitis",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Bronchospasm / acute asthma exacerbation"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0083546",
+          "gold": "Atrial fibrillation",
+          "prediction": "Myocarditis",
+          "reference_top": "Atrial fibrillation",
+          "prediction_reference_score": 0.09155006128513879,
+          "catalog_candidates": [
+            "Atrial fibrillation"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0052578",
+          "gold": "Stable angina",
+          "prediction": "Acute laryngitis",
+          "reference_top": "Unstable angina",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Stable angina",
+            "Unstable angina"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0036786",
+          "gold": "Myasthenia gravis",
+          "prediction": "Myasthenia gravis",
+          "reference_top": "Myasthenia gravis",
+          "prediction_reference_score": 0.19773528230662632,
+          "catalog_candidates": [
+            "Myasthenia gravis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0106532",
+          "gold": "Guillain-Barré syndrome",
+          "prediction": "Guillain-Barré syndrome",
+          "reference_top": "Guillain-Barré syndrome",
+          "prediction_reference_score": 0.1685412949101391,
+          "catalog_candidates": [
+            "Guillain-Barré syndrome"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0032277",
+          "gold": "Pulmonary embolism",
+          "prediction": "Pulmonary embolism",
+          "reference_top": "Pulmonary embolism",
+          "prediction_reference_score": 0.09478142166694424,
+          "catalog_candidates": [
+            "Pulmonary embolism"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0129771",
+          "gold": "Acute pulmonary edema",
+          "prediction": "Localized edema",
+          "reference_top": "Acute pulmonary edema",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Acute pulmonary edema"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0042726",
+          "gold": "Acute otitis media",
+          "prediction": "Acute otitis media",
+          "reference_top": "Bronchitis",
+          "prediction_reference_score": 0.4255288289896466,
+          "catalog_candidates": [
+            "Acute otitis media"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0123922",
+          "gold": "Guillain-Barré syndrome",
+          "prediction": "Guillain-Barré syndrome",
+          "reference_top": "Guillain-Barré syndrome",
+          "prediction_reference_score": 0.19396169699405988,
+          "catalog_candidates": [
+            "Guillain-Barré syndrome"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0073746",
+          "gold": "Boerhaave",
+          "prediction": "Acute laryngitis",
+          "reference_top": "Boerhaave",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Boerhaave"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0016057",
+          "gold": "URTI",
+          "prediction": "Acute rhinosinusitis",
+          "reference_top": "URTI",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "URTI"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0043666",
+          "gold": "Pulmonary embolism",
+          "prediction": "Boerhaave",
+          "reference_top": "Pulmonary embolism",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Pulmonary embolism"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0008980",
+          "gold": "Possible NSTEMI / STEMI",
+          "prediction": "Pneumonia",
+          "reference_top": "Possible NSTEMI / STEMI",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Possible NSTEMI / STEMI"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0073580",
+          "gold": "Pancreatic neoplasm",
+          "prediction": "Pancreatic neoplasm",
+          "reference_top": "Pancreatic neoplasm",
+          "prediction_reference_score": 1.0,
+          "catalog_candidates": [
+            "Pancreatic neoplasm"
+          ]
+        }
+      ],
+      "caveat": "Same selected 120 patients and historical scoring interface. Reference membership is not clinical correctness; full-name likelihood choice is not identical to unconstrained generation."
+    },
+    "Qwen3-4B-8bit": {
+      "counts": {
+        "n": 120,
+        "gold_correct": 75,
+        "matches_reference_top": 66,
+        "prediction_in_reference": 97,
+        "prediction_incompatible_with_catalog": 41,
+        "wrong": 45,
+        "wrong_but_in_reference": 22,
+        "wrong_and_matches_reference_top": 10,
+        "codebook_singleton": 115
+      },
+      "records": [
+        {
+          "case_id": "ddx_test_0042118",
+          "gold": "Bronchitis",
+          "prediction": "Acute COPD exacerbation / infection",
+          "reference_top": "Acute COPD exacerbation / infection",
+          "prediction_reference_score": 0.06905185672670174,
+          "catalog_candidates": [
+            "Bronchitis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0032489",
+          "gold": "Acute dystonic reactions",
+          "prediction": "Panic attack",
+          "reference_top": "Acute dystonic reactions",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Acute dystonic reactions"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0044249",
+          "gold": "Boerhaave",
+          "prediction": "Pulmonary embolism",
+          "reference_top": "Boerhaave",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Boerhaave"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0101113",
+          "gold": "Spontaneous pneumothorax",
+          "prediction": "Spontaneous pneumothorax",
+          "reference_top": "Unstable angina",
+          "prediction_reference_score": 0.10423507902675405,
+          "catalog_candidates": [
+            "Spontaneous pneumothorax"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0079685",
+          "gold": "Guillain-Barré syndrome",
+          "prediction": "Guillain-Barré syndrome",
+          "reference_top": "Guillain-Barré syndrome",
+          "prediction_reference_score": 0.6672410451467542,
+          "catalog_candidates": [
+            "Guillain-Barré syndrome"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0067994",
+          "gold": "Bronchitis",
+          "prediction": "Acute COPD exacerbation / infection",
+          "reference_top": "Acute COPD exacerbation / infection",
+          "prediction_reference_score": 0.1068222322742294,
+          "catalog_candidates": [
+            "Bronchitis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0037913",
+          "gold": "Pericarditis",
+          "prediction": "Myocarditis",
+          "reference_top": "Possible NSTEMI / STEMI",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Pericarditis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0017896",
+          "gold": "HIV (initial infection)",
+          "prediction": "HIV (initial infection)",
+          "reference_top": "HIV (initial infection)",
+          "prediction_reference_score": 0.39645902848314096,
+          "catalog_candidates": [
+            "HIV (initial infection)"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0005881",
+          "gold": "Anemia",
+          "prediction": "Anemia",
+          "reference_top": "Anemia",
+          "prediction_reference_score": 0.12369955455227127,
+          "catalog_candidates": [
+            "Anemia"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0006854",
+          "gold": "Anemia",
+          "prediction": "Anemia",
+          "reference_top": "Cluster headache",
+          "prediction_reference_score": 0.4385535276978352,
+          "catalog_candidates": [
+            "Anemia"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0108184",
+          "gold": "Guillain-Barré syndrome",
+          "prediction": "Guillain-Barré syndrome",
+          "reference_top": "Guillain-Barré syndrome",
+          "prediction_reference_score": 0.1545711972425947,
+          "catalog_candidates": [
+            "Guillain-Barré syndrome"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0110714",
+          "gold": "Pulmonary embolism",
+          "prediction": "Pulmonary embolism",
+          "reference_top": "Pulmonary embolism",
+          "prediction_reference_score": 0.3442814444258419,
+          "catalog_candidates": [
+            "Pulmonary embolism"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0061730",
+          "gold": "Cluster headache",
+          "prediction": "Cluster headache",
+          "reference_top": "Cluster headache",
+          "prediction_reference_score": 1.0,
+          "catalog_candidates": [
+            "Cluster headache"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0077278",
+          "gold": "Pericarditis",
+          "prediction": "Pericarditis",
+          "reference_top": "Pericarditis",
+          "prediction_reference_score": 0.09022306829059974,
+          "catalog_candidates": [
+            "Pericarditis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0048692",
+          "gold": "Pulmonary embolism",
+          "prediction": "Pulmonary embolism",
+          "reference_top": "Pulmonary embolism",
+          "prediction_reference_score": 0.33250436199613886,
+          "catalog_candidates": [
+            "Pulmonary embolism"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0123136",
+          "gold": "GERD",
+          "prediction": "GERD",
+          "reference_top": "GERD",
+          "prediction_reference_score": 0.7487839953666665,
+          "catalog_candidates": [
+            "GERD"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0041136",
+          "gold": "Acute otitis media",
+          "prediction": "Acute otitis media",
+          "reference_top": "Bronchitis",
+          "prediction_reference_score": 0.3666106410892656,
+          "catalog_candidates": [
+            "Acute otitis media"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0027885",
+          "gold": "Pancreatic neoplasm",
+          "prediction": "Pancreatic neoplasm",
+          "reference_top": "Pancreatic neoplasm",
+          "prediction_reference_score": 0.21441689716258736,
+          "catalog_candidates": [
+            "Pancreatic neoplasm"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0134351",
+          "gold": "Viral pharyngitis",
+          "prediction": "Pneumonia",
+          "reference_top": "Possible NSTEMI / STEMI",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Viral pharyngitis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0064225",
+          "gold": "Acute pulmonary edema",
+          "prediction": "Acute pulmonary edema",
+          "reference_top": "Acute pulmonary edema",
+          "prediction_reference_score": 0.07894044712965267,
+          "catalog_candidates": [
+            "Acute pulmonary edema"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0060159",
+          "gold": "Acute dystonic reactions",
+          "prediction": "Acute dystonic reactions",
+          "reference_top": "Acute dystonic reactions",
+          "prediction_reference_score": 0.18231127827309,
+          "catalog_candidates": [
+            "Acute dystonic reactions"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0062355",
+          "gold": "Acute dystonic reactions",
+          "prediction": "Acute dystonic reactions",
+          "reference_top": "Acute dystonic reactions",
+          "prediction_reference_score": 0.15406867338745636,
+          "catalog_candidates": [
+            "Acute dystonic reactions"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0084538",
+          "gold": "Inguinal hernia",
+          "prediction": "Pneumonia",
+          "reference_top": "Inguinal hernia",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Inguinal hernia"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0045887",
+          "gold": "URTI",
+          "prediction": "Viral pharyngitis",
+          "reference_top": "URTI",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "URTI"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0058047",
+          "gold": "Inguinal hernia",
+          "prediction": "Inguinal hernia",
+          "reference_top": "Inguinal hernia",
+          "prediction_reference_score": 0.2527944603036982,
+          "catalog_candidates": [
+            "Inguinal hernia"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0131152",
+          "gold": "SLE",
+          "prediction": "Pericarditis",
+          "reference_top": "Possible NSTEMI / STEMI",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "SLE"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0061812",
+          "gold": "GERD",
+          "prediction": "GERD",
+          "reference_top": "GERD",
+          "prediction_reference_score": 0.26925617747914243,
+          "catalog_candidates": [
+            "GERD"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0052464",
+          "gold": "Pancreatic neoplasm",
+          "prediction": "Pancreatic neoplasm",
+          "reference_top": "Bronchitis",
+          "prediction_reference_score": 0.13397966874258493,
+          "catalog_candidates": [
+            "Pancreatic neoplasm"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0058219",
+          "gold": "HIV (initial infection)",
+          "prediction": "Pneumonia",
+          "reference_top": "HIV (initial infection)",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "HIV (initial infection)"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0018854",
+          "gold": "Acute otitis media",
+          "prediction": "Acute otitis media",
+          "reference_top": "URTI",
+          "prediction_reference_score": 0.2402227451278607,
+          "catalog_candidates": [
+            "Acute otitis media"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0004428",
+          "gold": "GERD",
+          "prediction": "GERD",
+          "reference_top": "GERD",
+          "prediction_reference_score": 0.21894745814093097,
+          "catalog_candidates": [
+            "GERD"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0042329",
+          "gold": "URTI",
+          "prediction": "Influenza",
+          "reference_top": "URTI",
+          "prediction_reference_score": 0.17432406142299917,
+          "catalog_candidates": [
+            "URTI"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0042148",
+          "gold": "Myasthenia gravis",
+          "prediction": "Myasthenia gravis",
+          "reference_top": "Myasthenia gravis",
+          "prediction_reference_score": 0.4872256855422936,
+          "catalog_candidates": [
+            "Myasthenia gravis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0090572",
+          "gold": "Viral pharyngitis",
+          "prediction": "Acute rhinosinusitis",
+          "reference_top": "Bronchitis",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Viral pharyngitis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0101310",
+          "gold": "Acute dystonic reactions",
+          "prediction": "Acute dystonic reactions",
+          "reference_top": "Acute dystonic reactions",
+          "prediction_reference_score": 0.1786889541552063,
+          "catalog_candidates": [
+            "Acute dystonic reactions"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0014864",
+          "gold": "SLE",
+          "prediction": "Acute rhinosinusitis",
+          "reference_top": "SLE",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "SLE"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0088980",
+          "gold": "Bronchospasm / acute asthma exacerbation",
+          "prediction": "Bronchitis",
+          "reference_top": "Bronchospasm / acute asthma exacerbation",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Bronchospasm / acute asthma exacerbation"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0101165",
+          "gold": "Boerhaave",
+          "prediction": "Pulmonary embolism",
+          "reference_top": "Boerhaave",
+          "prediction_reference_score": 0.0828781041087955,
+          "catalog_candidates": [
+            "Boerhaave"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0092064",
+          "gold": "Pneumonia",
+          "prediction": "Pneumonia",
+          "reference_top": "Pneumonia",
+          "prediction_reference_score": 0.06827248781563303,
+          "catalog_candidates": [
+            "Pneumonia"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0074785",
+          "gold": "Bronchitis",
+          "prediction": "Pneumonia",
+          "reference_top": "URTI",
+          "prediction_reference_score": 0.06674630786800745,
+          "catalog_candidates": [
+            "Bronchitis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0102339",
+          "gold": "Atrial fibrillation",
+          "prediction": "Atrial fibrillation",
+          "reference_top": "Atrial fibrillation",
+          "prediction_reference_score": 0.14009027297455284,
+          "catalog_candidates": [
+            "Atrial fibrillation"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0031946",
+          "gold": "Inguinal hernia",
+          "prediction": "Inguinal hernia",
+          "reference_top": "Inguinal hernia",
+          "prediction_reference_score": 0.43456446067337773,
+          "catalog_candidates": [
+            "Inguinal hernia"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0115821",
+          "gold": "Spontaneous pneumothorax",
+          "prediction": "Acute pulmonary edema",
+          "reference_top": "Unstable angina",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Spontaneous pneumothorax"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0028785",
+          "gold": "HIV (initial infection)",
+          "prediction": "HIV (initial infection)",
+          "reference_top": "HIV (initial infection)",
+          "prediction_reference_score": 0.4223552486482728,
+          "catalog_candidates": [
+            "HIV (initial infection)"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0085180",
+          "gold": "Acute dystonic reactions",
+          "prediction": "Acute dystonic reactions",
+          "reference_top": "Acute dystonic reactions",
+          "prediction_reference_score": 0.23494188247274655,
+          "catalog_candidates": [
+            "Acute dystonic reactions"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0074528",
+          "gold": "Cluster headache",
+          "prediction": "Cluster headache",
+          "reference_top": "Cluster headache",
+          "prediction_reference_score": 0.5925398490980863,
+          "catalog_candidates": [
+            "Cluster headache"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0055842",
+          "gold": "Possible NSTEMI / STEMI",
+          "prediction": "Possible NSTEMI / STEMI",
+          "reference_top": "Possible NSTEMI / STEMI",
+          "prediction_reference_score": 0.1174525022806549,
+          "catalog_candidates": [
+            "Possible NSTEMI / STEMI"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0031839",
+          "gold": "Bronchospasm / acute asthma exacerbation",
+          "prediction": "Bronchitis",
+          "reference_top": "Bronchospasm / acute asthma exacerbation",
+          "prediction_reference_score": 0.09887575210726124,
+          "catalog_candidates": [
+            "Bronchospasm / acute asthma exacerbation"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0077062",
+          "gold": "Pneumonia",
+          "prediction": "Pneumonia",
+          "reference_top": "Bronchitis",
+          "prediction_reference_score": 0.12138589143925883,
+          "catalog_candidates": [
+            "Pneumonia"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0055008",
+          "gold": "Myasthenia gravis",
+          "prediction": "Myasthenia gravis",
+          "reference_top": "Myasthenia gravis",
+          "prediction_reference_score": 0.1629194119911018,
+          "catalog_candidates": [
+            "Myasthenia gravis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0111254",
+          "gold": "Anemia",
+          "prediction": "Anemia",
+          "reference_top": "Anemia",
+          "prediction_reference_score": 0.25071110167158567,
+          "catalog_candidates": [
+            "Anemia"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0053858",
+          "gold": "Pneumonia",
+          "prediction": "Pneumonia",
+          "reference_top": "Bronchitis",
+          "prediction_reference_score": 0.06419293503246516,
+          "catalog_candidates": [
+            "Pneumonia"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0126439",
+          "gold": "HIV (initial infection)",
+          "prediction": "HIV (initial infection)",
+          "reference_top": "HIV (initial infection)",
+          "prediction_reference_score": 0.2711826857594028,
+          "catalog_candidates": [
+            "HIV (initial infection)"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0096012",
+          "gold": "Bronchospasm / acute asthma exacerbation",
+          "prediction": "Bronchospasm / acute asthma exacerbation",
+          "reference_top": "Bronchitis",
+          "prediction_reference_score": 0.07136670783548313,
+          "catalog_candidates": [
+            "Bronchospasm / acute asthma exacerbation"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0001385",
+          "gold": "Possible NSTEMI / STEMI",
+          "prediction": "Pneumonia",
+          "reference_top": "Possible NSTEMI / STEMI",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Possible NSTEMI / STEMI"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0108688",
+          "gold": "Atrial fibrillation",
+          "prediction": "Possible NSTEMI / STEMI",
+          "reference_top": "Atrial fibrillation",
+          "prediction_reference_score": 0.024183148533335773,
+          "catalog_candidates": [
+            "Atrial fibrillation"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0064932",
+          "gold": "Boerhaave",
+          "prediction": "Pneumonia",
+          "reference_top": "Boerhaave",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Boerhaave"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0107134",
+          "gold": "Acute otitis media",
+          "prediction": "Acute otitis media",
+          "reference_top": "URTI",
+          "prediction_reference_score": 0.2402227451278607,
+          "catalog_candidates": [
+            "Acute otitis media"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0047387",
+          "gold": "Cluster headache",
+          "prediction": "Cluster headache",
+          "reference_top": "Cluster headache",
+          "prediction_reference_score": 1.0,
+          "catalog_candidates": [
+            "Cluster headache"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0024888",
+          "gold": "Anemia",
+          "prediction": "Anemia",
+          "reference_top": "Anemia",
+          "prediction_reference_score": 0.6496640351985898,
+          "catalog_candidates": [
+            "Anemia"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0015311",
+          "gold": "Atrial fibrillation",
+          "prediction": "Possible NSTEMI / STEMI",
+          "reference_top": "Atrial fibrillation",
+          "prediction_reference_score": 0.01740856786009654,
+          "catalog_candidates": [
+            "Atrial fibrillation"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0095810",
+          "gold": "Myasthenia gravis",
+          "prediction": "Myasthenia gravis",
+          "reference_top": "Myasthenia gravis",
+          "prediction_reference_score": 0.20420607044130223,
+          "catalog_candidates": [
+            "Myasthenia gravis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0009777",
+          "gold": "Pericarditis",
+          "prediction": "Pericarditis",
+          "reference_top": "Possible NSTEMI / STEMI",
+          "prediction_reference_score": 0.10256758675981212,
+          "catalog_candidates": [
+            "Pericarditis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0058990",
+          "gold": "Pneumonia",
+          "prediction": "Pneumonia",
+          "reference_top": "Bronchitis",
+          "prediction_reference_score": 0.1190463870780557,
+          "catalog_candidates": [
+            "Pneumonia"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0008147",
+          "gold": "Possible NSTEMI / STEMI",
+          "prediction": "Possible NSTEMI / STEMI",
+          "reference_top": "Possible NSTEMI / STEMI",
+          "prediction_reference_score": 0.23701957925007044,
+          "catalog_candidates": [
+            "Possible NSTEMI / STEMI"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0062978",
+          "gold": "Bronchospasm / acute asthma exacerbation",
+          "prediction": "Bronchitis",
+          "reference_top": "Bronchitis",
+          "prediction_reference_score": 0.41250510103707977,
+          "catalog_candidates": [
+            "Bronchospasm / acute asthma exacerbation"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0128173",
+          "gold": "URTI",
+          "prediction": "Influenza",
+          "reference_top": "URTI",
+          "prediction_reference_score": 0.055700547144306126,
+          "catalog_candidates": [
+            "URTI"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0026426",
+          "gold": "Inguinal hernia",
+          "prediction": "Inguinal hernia",
+          "reference_top": "Inguinal hernia",
+          "prediction_reference_score": 1.0,
+          "catalog_candidates": [
+            "Inguinal hernia"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0056435",
+          "gold": "Pancreatic neoplasm",
+          "prediction": "Pancreatic neoplasm",
+          "reference_top": "Pancreatic neoplasm",
+          "prediction_reference_score": 0.26634184707353514,
+          "catalog_candidates": [
+            "Pancreatic neoplasm"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0053762",
+          "gold": "Bronchitis",
+          "prediction": "Acute COPD exacerbation / infection",
+          "reference_top": "Acute COPD exacerbation / infection",
+          "prediction_reference_score": 0.07395612476150747,
+          "catalog_candidates": [
+            "Bronchitis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0004805",
+          "gold": "Spontaneous pneumothorax",
+          "prediction": "Spontaneous pneumothorax",
+          "reference_top": "Spontaneous pneumothorax",
+          "prediction_reference_score": 0.10012929898847324,
+          "catalog_candidates": [
+            "Spontaneous pneumothorax"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0079455",
+          "gold": "Spontaneous pneumothorax",
+          "prediction": "Spontaneous pneumothorax",
+          "reference_top": "Spontaneous pneumothorax",
+          "prediction_reference_score": 0.10217822209466013,
+          "catalog_candidates": [
+            "Spontaneous pneumothorax"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0058398",
+          "gold": "Boerhaave",
+          "prediction": "Pulmonary embolism",
+          "reference_top": "Panic attack",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Boerhaave"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0076664",
+          "gold": "Acute pulmonary edema",
+          "prediction": "Acute pulmonary edema",
+          "reference_top": "Acute pulmonary edema",
+          "prediction_reference_score": 0.09899133091806181,
+          "catalog_candidates": [
+            "Acute pulmonary edema"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0065449",
+          "gold": "SLE",
+          "prediction": "Pericarditis",
+          "reference_top": "Possible NSTEMI / STEMI",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "SLE"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0003272",
+          "gold": "Possible NSTEMI / STEMI",
+          "prediction": "Possible NSTEMI / STEMI",
+          "reference_top": "Possible NSTEMI / STEMI",
+          "prediction_reference_score": 0.10718940877450756,
+          "catalog_candidates": [
+            "Possible NSTEMI / STEMI"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0071191",
+          "gold": "Cluster headache",
+          "prediction": "Cluster headache",
+          "reference_top": "Cluster headache",
+          "prediction_reference_score": 1.0,
+          "catalog_candidates": [
+            "Cluster headache"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0054291",
+          "gold": "Stable angina",
+          "prediction": "Unstable angina",
+          "reference_top": "Possible NSTEMI / STEMI",
+          "prediction_reference_score": 0.16963990953808855,
+          "catalog_candidates": [
+            "Stable angina",
+            "Unstable angina"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0098291",
+          "gold": "Acute pulmonary edema",
+          "prediction": "Pulmonary embolism",
+          "reference_top": "Acute pulmonary edema",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Acute pulmonary edema"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0031213",
+          "gold": "Viral pharyngitis",
+          "prediction": "Viral pharyngitis",
+          "reference_top": "Viral pharyngitis",
+          "prediction_reference_score": 0.22702125813983617,
+          "catalog_candidates": [
+            "Viral pharyngitis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0110752",
+          "gold": "SLE",
+          "prediction": "Pericarditis",
+          "reference_top": "Pulmonary embolism",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "SLE"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0020304",
+          "gold": "Acute otitis media",
+          "prediction": "Acute otitis media",
+          "reference_top": "Acute otitis media",
+          "prediction_reference_score": 0.6231380508789331,
+          "catalog_candidates": [
+            "Acute otitis media"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0049235",
+          "gold": "Anemia",
+          "prediction": "Anemia",
+          "reference_top": "Anemia",
+          "prediction_reference_score": 0.812954638666196,
+          "catalog_candidates": [
+            "Anemia"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0071276",
+          "gold": "SLE",
+          "prediction": "Pericarditis",
+          "reference_top": "Possible NSTEMI / STEMI",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "SLE"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0082115",
+          "gold": "Bronchitis",
+          "prediction": "Acute COPD exacerbation / infection",
+          "reference_top": "Bronchitis",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Bronchitis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0118174",
+          "gold": "Pneumonia",
+          "prediction": "Pneumonia",
+          "reference_top": "Pneumonia",
+          "prediction_reference_score": 0.0854932086613843,
+          "catalog_candidates": [
+            "Pneumonia"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0097872",
+          "gold": "Viral pharyngitis",
+          "prediction": "Influenza",
+          "reference_top": "Viral pharyngitis",
+          "prediction_reference_score": 0.11148732368725993,
+          "catalog_candidates": [
+            "Viral pharyngitis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0105370",
+          "gold": "Myasthenia gravis",
+          "prediction": "Myasthenia gravis",
+          "reference_top": "Myasthenia gravis",
+          "prediction_reference_score": 0.17298367637839382,
+          "catalog_candidates": [
+            "Myasthenia gravis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0098555",
+          "gold": "Acute pulmonary edema",
+          "prediction": "Pulmonary embolism",
+          "reference_top": "Acute pulmonary edema",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Acute pulmonary edema"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0132364",
+          "gold": "Pancreatic neoplasm",
+          "prediction": "Anemia",
+          "reference_top": "Pancreatic neoplasm",
+          "prediction_reference_score": 0.35516514934918364,
+          "catalog_candidates": [
+            "Pancreatic neoplasm"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0045661",
+          "gold": "GERD",
+          "prediction": "Bronchitis",
+          "reference_top": "Bronchitis",
+          "prediction_reference_score": 0.22448303804748856,
+          "catalog_candidates": [
+            "GERD"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0008771",
+          "gold": "Pericarditis",
+          "prediction": "Pericarditis",
+          "reference_top": "Possible NSTEMI / STEMI",
+          "prediction_reference_score": 0.07900202497145654,
+          "catalog_candidates": [
+            "Pericarditis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0029823",
+          "gold": "Cluster headache",
+          "prediction": "Cluster headache",
+          "reference_top": "Cluster headache",
+          "prediction_reference_score": 0.6850030416248103,
+          "catalog_candidates": [
+            "Cluster headache"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0005884",
+          "gold": "Atrial fibrillation",
+          "prediction": "Atrial fibrillation",
+          "reference_top": "PSVT",
+          "prediction_reference_score": 0.35727940717237566,
+          "catalog_candidates": [
+            "Atrial fibrillation"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0075250",
+          "gold": "URTI",
+          "prediction": "Influenza",
+          "reference_top": "Pneumonia",
+          "prediction_reference_score": 0.1682779364312408,
+          "catalog_candidates": [
+            "URTI"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0104414",
+          "gold": "Stable angina",
+          "prediction": "Unstable angina",
+          "reference_top": "Unstable angina",
+          "prediction_reference_score": 0.32453425744095565,
+          "catalog_candidates": [
+            "Stable angina",
+            "Unstable angina"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0008840",
+          "gold": "Spontaneous pneumothorax",
+          "prediction": "Spontaneous pneumothorax",
+          "reference_top": "Unstable angina",
+          "prediction_reference_score": 0.1013660595563972,
+          "catalog_candidates": [
+            "Spontaneous pneumothorax"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0130768",
+          "gold": "GERD",
+          "prediction": "GERD",
+          "reference_top": "Bronchitis",
+          "prediction_reference_score": 0.19186437083994282,
+          "catalog_candidates": [
+            "GERD"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0109483",
+          "gold": "Viral pharyngitis",
+          "prediction": "Viral pharyngitis",
+          "reference_top": "Bronchitis",
+          "prediction_reference_score": 0.14817299020366265,
+          "catalog_candidates": [
+            "Viral pharyngitis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0089983",
+          "gold": "Inguinal hernia",
+          "prediction": "Inguinal hernia",
+          "reference_top": "Inguinal hernia",
+          "prediction_reference_score": 0.2995503711857763,
+          "catalog_candidates": [
+            "Inguinal hernia"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0000463",
+          "gold": "Stable angina",
+          "prediction": "Unstable angina",
+          "reference_top": "Unstable angina",
+          "prediction_reference_score": 0.11321706728670802,
+          "catalog_candidates": [
+            "Stable angina",
+            "Unstable angina"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0112765",
+          "gold": "Guillain-Barré syndrome",
+          "prediction": "Guillain-Barré syndrome",
+          "reference_top": "Pulmonary embolism",
+          "prediction_reference_score": 0.13243539582376748,
+          "catalog_candidates": [
+            "Guillain-Barré syndrome"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0036371",
+          "gold": "Pericarditis",
+          "prediction": "Pericarditis",
+          "reference_top": "Pulmonary embolism",
+          "prediction_reference_score": 0.0673397426536955,
+          "catalog_candidates": [
+            "Pericarditis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0013546",
+          "gold": "Stable angina",
+          "prediction": "Possible NSTEMI / STEMI",
+          "reference_top": "Possible NSTEMI / STEMI",
+          "prediction_reference_score": 0.2628866803391043,
+          "catalog_candidates": [
+            "Stable angina",
+            "Unstable angina"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0127787",
+          "gold": "Pulmonary embolism",
+          "prediction": "Pulmonary embolism",
+          "reference_top": "Pulmonary embolism",
+          "prediction_reference_score": 0.09558018425494844,
+          "catalog_candidates": [
+            "Pulmonary embolism"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0092157",
+          "gold": "HIV (initial infection)",
+          "prediction": "HIV (initial infection)",
+          "reference_top": "HIV (initial infection)",
+          "prediction_reference_score": 0.514807481792295,
+          "catalog_candidates": [
+            "HIV (initial infection)"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0055175",
+          "gold": "Bronchospasm / acute asthma exacerbation",
+          "prediction": "Bronchitis",
+          "reference_top": "Bronchitis",
+          "prediction_reference_score": 0.41250510103707977,
+          "catalog_candidates": [
+            "Bronchospasm / acute asthma exacerbation"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0083546",
+          "gold": "Atrial fibrillation",
+          "prediction": "Atrial fibrillation",
+          "reference_top": "Atrial fibrillation",
+          "prediction_reference_score": 0.13647424668995478,
+          "catalog_candidates": [
+            "Atrial fibrillation"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0052578",
+          "gold": "Stable angina",
+          "prediction": "Unstable angina",
+          "reference_top": "Unstable angina",
+          "prediction_reference_score": 0.18807075762012884,
+          "catalog_candidates": [
+            "Stable angina",
+            "Unstable angina"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0036786",
+          "gold": "Myasthenia gravis",
+          "prediction": "Myasthenia gravis",
+          "reference_top": "Myasthenia gravis",
+          "prediction_reference_score": 0.19773528230662632,
+          "catalog_candidates": [
+            "Myasthenia gravis"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0106532",
+          "gold": "Guillain-Barré syndrome",
+          "prediction": "Guillain-Barré syndrome",
+          "reference_top": "Guillain-Barré syndrome",
+          "prediction_reference_score": 0.1685412949101391,
+          "catalog_candidates": [
+            "Guillain-Barré syndrome"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0032277",
+          "gold": "Pulmonary embolism",
+          "prediction": "Pulmonary embolism",
+          "reference_top": "Pulmonary embolism",
+          "prediction_reference_score": 0.09478142166694424,
+          "catalog_candidates": [
+            "Pulmonary embolism"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0129771",
+          "gold": "Acute pulmonary edema",
+          "prediction": "Pulmonary embolism",
+          "reference_top": "Acute pulmonary edema",
+          "prediction_reference_score": 0.07355696315849895,
+          "catalog_candidates": [
+            "Acute pulmonary edema"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0042726",
+          "gold": "Acute otitis media",
+          "prediction": "Acute otitis media",
+          "reference_top": "Bronchitis",
+          "prediction_reference_score": 0.4255288289896466,
+          "catalog_candidates": [
+            "Acute otitis media"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0123922",
+          "gold": "Guillain-Barré syndrome",
+          "prediction": "Guillain-Barré syndrome",
+          "reference_top": "Guillain-Barré syndrome",
+          "prediction_reference_score": 0.19396169699405988,
+          "catalog_candidates": [
+            "Guillain-Barré syndrome"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0073746",
+          "gold": "Boerhaave",
+          "prediction": "Pulmonary embolism",
+          "reference_top": "Boerhaave",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "Boerhaave"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0016057",
+          "gold": "URTI",
+          "prediction": "Acute rhinosinusitis",
+          "reference_top": "URTI",
+          "prediction_reference_score": 0,
+          "catalog_candidates": [
+            "URTI"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0043666",
+          "gold": "Pulmonary embolism",
+          "prediction": "Pulmonary embolism",
+          "reference_top": "Pulmonary embolism",
+          "prediction_reference_score": 0.266312124979302,
+          "catalog_candidates": [
+            "Pulmonary embolism"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0008980",
+          "gold": "Possible NSTEMI / STEMI",
+          "prediction": "Possible NSTEMI / STEMI",
+          "reference_top": "Possible NSTEMI / STEMI",
+          "prediction_reference_score": 0.08906523728331453,
+          "catalog_candidates": [
+            "Possible NSTEMI / STEMI"
+          ]
+        },
+        {
+          "case_id": "ddx_test_0073580",
+          "gold": "Pancreatic neoplasm",
+          "prediction": "Pancreatic neoplasm",
+          "reference_top": "Pancreatic neoplasm",
+          "prediction_reference_score": 1.0,
+          "catalog_candidates": [
+            "Pancreatic neoplasm"
+          ]
+        }
+      ],
+      "caveat": "Same selected 120 patients and historical scoring interface. Reference membership is not clinical correctness; full-name likelihood choice is not identical to unconstrained generation."
+    }
+  },
+  "no_exclusive_evidence_support": {
+    "n": 134529,
+    "unique": 111235
+  },
+  "source_code_sha256": "066af4044e5188aaceabc0e25aec0dcd43608f0075a1ce7acdd8589ec881b839"
+}

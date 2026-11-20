@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_06904",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Chlamydia infection\"}",
+      "generated_disease": "Chlamydia infection",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "c1438f4525e48acaca886a8a01f2ef243fcce0b3ab083642006fcb954953c1da"
+    }
+  ]
+}

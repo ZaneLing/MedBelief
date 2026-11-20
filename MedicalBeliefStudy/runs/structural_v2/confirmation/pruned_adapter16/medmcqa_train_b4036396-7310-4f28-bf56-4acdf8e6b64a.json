@@ -1,0 +1,52 @@
+{
+  "case_id": "medmcqa_train_b4036396-7310-4f28-bf56-4acdf8e6b64a",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Incomplete aboion\"}",
+      "generated_disease": "Incomplete aboion",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "c620f8145463bc05ef3357efe01ea1afcd3eade56ba9c91d55e12c1f5774a003"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Incomplete aboion\"}",
+      "generated_disease": "Incomplete aboion",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "e2fb2302d4a946576ab4e226ddb28641b54bdbab4d9362c93bb9676c527d073a"
+    }
+  ]
+}

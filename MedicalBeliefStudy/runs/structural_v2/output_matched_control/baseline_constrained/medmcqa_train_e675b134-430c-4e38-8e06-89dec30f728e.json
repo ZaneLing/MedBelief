@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_e675b134-430c-4e38-8e06-89dec30f728e",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Idiopathic (immune) thrombocytopenic purpura (ITP)\"}",
+      "generated_disease": "Idiopathic (immune) thrombocytopenic purpura (ITP)",
+      "stop": "eos",
+      "tokens": 20,
+      "prompt_sha256": "c6226b046e5fe218cfcb4667795d6dfbb834b2894555dfeefc2657d3bfaf0811"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Idiopathic (immune) thrombocytopenic purpura (ITP)\"}",
+      "generated_disease": "Idiopathic (immune) thrombocytopenic purpura (ITP)",
+      "stop": "eos",
+      "tokens": 20,
+      "prompt_sha256": "e9c822a6ab57d48358dd22240fe5249df7ffc35117b35a5ee322bf793daa0257"
+    }
+  ]
+}

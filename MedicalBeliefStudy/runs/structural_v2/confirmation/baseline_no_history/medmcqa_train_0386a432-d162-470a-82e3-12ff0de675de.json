@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_0386a432-d162-470a-82e3-12ff0de675de",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Toxic epidermal necrolysis\"}",
+      "generated_disease": "Toxic epidermal necrolysis",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "f76f23cdc1895297a7cfefa025d7976eebe4c0dda6609a833c226682dc1e2834"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_cff87108-acda-4a48-94dd-d1c9ddf0d7cb",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Insulinoma\"}",
+      "generated_disease": "Insulinoma",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "e5b7e36cedf93bf03e479f870a6aa474df35d0f341da77b516c6ed48cc578e2c"
+    }
+  ]
+}

@@ -1,0 +1,816 @@
+{
+  "case_id": "medqa_train_06443",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -10.797054290771484,
+        -9.640825271606445,
+        -13.172054290771484,
+        -0.000179290771484375
+      ],
+      "q_sequence": [
+        2.0461563275075714e-05,
+        6.502534930492661e-05,
+        1.9032218564828381e-06,
+        0.9999126098655634
+      ],
+      "q_token_mean": [
+        0.22602362554177025,
+        0.1554118998176388,
+        0.09995053194159664,
+        0.5186139426989943
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Congenital CMV infection\"}",
+      "generated_disease": "Congenital CMV infection",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "aaf3e03077a3b7b9282064ebd05d8dfc084b731bb8f6a398c039592f17569fb7"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -14.484428405761719,
+        -10.906320571899414,
+        -14.562553405761719,
+        -5.340576171875e-05
+      ],
+      "q_sequence": [
+        5.122800807249155e-07,
+        1.834256037281824e-05,
+        4.7378162469273966e-07,
+        0.9999806713779217
+      ],
+      "q_token_mean": [
+        0.18796576333490245,
+        0.14651921280442,
+        0.09277038493906016,
+        0.5727446389216174
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Congenital CMV infection\"}",
+      "generated_disease": "Congenital CMV infection",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "1f432120ecfa0012b6b53bd18afb7851bfa802c510c40bc54ad8bc2baa218566"
+    },
+    {
+      "condition": "neutral",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -15.187606811523438,
+        -12.531377792358398,
+        -15.187602996826172,
+        -0.000102996826171875
+      ],
+      "q_sequence": [
+        2.535999189963984e-07,
+        3.611891669712717e-06,
+        2.536008864051611e-07,
+        0.9999958809075248
+      ],
+      "q_token_mean": [
+        0.18622679967487657,
+        0.12506336226491754,
+        0.08972885102581035,
+        0.5989809870343955
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Congenital CMV infection\"}",
+      "generated_disease": "Congenital CMV infection",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "f6fdd9f91e5a367aea6c684e9f2b36e295033351e3fb4d589c0aba72af8c723c"
+    },
+    {
+      "condition": "neutral",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -15.093883514404297,
+        -13.140787124633789,
+        -15.468879699707031,
+        -0.00012969970703125
+      ],
+      "q_sequence": [
+        2.7852549204471354e-07,
+        1.9637397664409336e-06,
+        1.91428314791988e-07,
+        0.9999975663064268
+      ],
+      "q_token_mean": [
+        0.18964663093973358,
+        0.11717072689492421,
+        0.08758594181849522,
+        0.605596700346847
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Congenital CMV infection\"}",
+      "generated_disease": "Congenital CMV infection",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "3044d528a78405efbb7a5a927fd6247ffe4d6906119d083b3dfa7e1a0be94b71"
+    },
+    {
+      "condition": "neutral",
+      "round": 5,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -9.859630584716797,
+        -9.265901565551758,
+        -11.406505584716797,
+        -0.000255584716796875
+      ],
+      "q_sequence": [
+        5.224674384364471e-05,
+        9.46046462254929e-05,
+        1.1123973677859319e-05,
+        0.9998420246362529
+      ],
+      "q_token_mean": [
+        0.231569271432733,
+        0.15525586278713163,
+        0.11880684002381266,
+        0.49436802575632255
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Congenital CMV infection\"}",
+      "generated_disease": "Congenital CMV infection",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "81b3abb1b6c2df7150601030782957aaa3fee43efe8ceb0b846d0b37c0f39bbf"
+    },
+    {
+      "condition": "neutral",
+      "round": 6,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -11.437660217285156,
+        -10.797056198120117,
+        -12.312660217285156,
+        -0.00016021728515625
+      ],
+      "q_sequence": [
+        1.0783043101360273e-05,
+        2.046219088595197e-05,
+        4.49504112551345e-06,
+        0.9999642597248871
+      ],
+      "q_token_mean": [
+        0.21964650228315657,
+        0.1373053720257602,
+        0.11360834189916102,
+        0.5294397837919222
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Congenital CMV infection\"}",
+      "generated_disease": "Congenital CMV infection",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "63c45ba81b882bf6b7b9d97b1ce425056a14d3e0624abe8f2fd82573483f2944"
+    },
+    {
+      "condition": "neutral",
+      "round": 7,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -14.437572479248047,
+        -12.234457015991211,
+        -12.171947479248047,
+        -7.2479248046875e-05
+      ],
+      "q_sequence": [
+        5.368696167906308e-07,
+        4.860374293306232e-06,
+        5.17389084532416e-06,
+        0.9999894288652446
+      ],
+      "q_token_mean": [
+        0.1866705912962295,
+        0.12280784414141933,
+        0.1237711855473978,
+        0.5667503790149534
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Congenital CMV infection\"}",
+      "generated_disease": "Congenital CMV infection",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "c08624973bb20733ddea7f208ff921c93794bea20a5c83f6894884c7d30aa56a"
+    },
+    {
+      "condition": "neutral",
+      "round": 8,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -11.515743255615234,
+        -10.781377792358398,
+        -11.093864440917969,
+        -0.00011444091796875
+      ],
+      "q_sequence": [
+        9.972544618325104e-06,
+        2.0784369589619803e-05,
+        1.5206372655192459e-05,
+        0.999954036713137
+      ],
+      "q_token_mean": [
+        0.21454377783509307,
+        0.13518821467538678,
+        0.13000945247763754,
+        0.5202585550118827
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Congenital CMV infection\"}",
+      "generated_disease": "Congenital CMV infection",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "40be39ef8633209009686cac2c7239dbe5f358c5a34b76945db3d4a71280b85e"
+    },
+    {
+      "condition": "neutral",
+      "round": 9,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -7.8849945068359375,
+        -3.947500228881836,
+        -5.197486877441406,
+        -0.02561187744140625
+      ],
+      "q_sequence": [
+        0.00037637765502904436,
+        0.019304380517215235,
+        0.0055308714632044615,
+        0.9747883703645512
+      ],
+      "q_token_mean": [
+        0.20384355888894842,
+        0.22825269846985694,
+        0.19523520491513133,
+        0.3726685377260634
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Congenital CMV infection\"}",
+      "generated_disease": "Congenital CMV infection",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "b90291862fccf9a4e5c42ebd45ddfe45c33e316e4ed0de60c44f6b093489a9f9"
+    },
+    {
+      "condition": "neutral",
+      "round": 10,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -7.3571929931640625,
+        -3.0134506225585938,
+        -4.747814178466797,
+        -0.060314178466796875
+      ],
+      "q_sequence": [
+        0.0006380510994580867,
+        0.04912683705222273,
+        0.008671501065195156,
+        0.9415636107831241
+      ],
+      "q_token_mean": [
+        0.20287847381737117,
+        0.24514840046685055,
+        0.19736766297725925,
+        0.35460546273851906
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Congenital CMV infection\"}",
+      "generated_disease": "Congenital CMV infection",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "6494d15458d7c512a0b48c2507696175046ae44c535ef7a514afb588a153d8f4"
+    },
+    {
+      "condition": "neutral",
+      "round": 11,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -1.7731170654296875,
+        -0.9606208801269531,
+        -3.882488250732422,
+        -0.8512382507324219
+      ],
+      "q_sequence": [
+        0.16981244992892167,
+        0.38267680341778615,
+        0.020600666034048844,
+        0.4269100806192434
+      ],
+      "q_token_mean": [
+        0.26650006738180076,
+        0.27088395175157914,
+        0.18800284308755805,
+        0.2746131377790621
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Congenital CMV infection\"}",
+      "generated_disease": "Congenital CMV infection",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "a6933a85f7a9570ee8c05ce51951b884a35d6ee8647b4c93be46fdcc8b2d57a2"
+    },
+    {
+      "condition": "neutral",
+      "round": 12,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -2.975322723388672,
+        -1.5222053527832031,
+        -4.194068908691406,
+        -0.33469390869140625
+      ],
+      "q_sequence": [
+        0.051035917850520106,
+        0.2182512729045091,
+        0.015086246049931409,
+        0.7156265631950394
+      ],
+      "q_token_mean": [
+        0.2506729699867499,
+        0.26053689712886074,
+        0.1865616124754498,
+        0.3022285204089395
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Congenital CMV infection\"}",
+      "generated_disease": "Congenital CMV infection",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "32b87278f1b433257957d517218cee18d29704e21e344be0646494b3f21e5c7b"
+    },
+    {
+      "condition": "neutral",
+      "round": 13,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -2.7707042694091797,
+        -0.7707118988037109,
+        -3.958200454711914,
+        -0.7863254547119141
+      ],
+      "q_sequence": [
+        0.06262324720988241,
+        0.46272315642003736,
+        0.01909908417683228,
+        0.4555545121932479
+      ],
+      "q_token_mean": [
+        0.2499923462172091,
+        0.2809628383037448,
+        0.18862979603688076,
+        0.2804150194421653
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Congenital syphilis\"}",
+      "generated_disease": "Congenital syphilis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "dfa968f66ab41100da620540320c427c7e33c1246b29897492ab0d5b6b0a1a35"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -9.147506713867188,
+        -0.006885528564453125,
+        -9.928752899169922,
+        -5.006877899169922
+      ],
+      "q_sequence": [
+        0.00010648655374065936,
+        0.993152897523233,
+        4.875328286121983e-05,
+        0.006691862640165176
+      ],
+      "q_token_mean": [
+        0.21346862676296077,
+        0.43107562819450496,
+        0.12471736844626385,
+        0.23073837659627047
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Congenital syphilis\"}",
+      "generated_disease": "Congenital syphilis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "759305694d9787fa4c08d23e3c0e4cdef8344221a58cf630f7570c9b8b079795"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -6.522270202636719,
+        -0.5378952026367188,
+        -7.7410125732421875,
+        -0.8816375732421875
+      ],
+      "q_sequence": [
+        0.0014703489838493997,
+        0.5839846957597239,
+        0.000434637645442999,
+        0.41411031761098377
+      ],
+      "q_token_mean": [
+        0.21501094931908513,
+        0.3320100189685816,
+        0.13493261082751992,
+        0.31804642088481344
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Congenital syphilis\"}",
+      "generated_disease": "Congenital syphilis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "4f124794d51da595fde8ce2b162cc754e761dabca2a58f45caca720e161f3284"
+    },
+    {
+      "condition": "wrong",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -8.624248504638672,
+        -4.233615875244141,
+        -9.84298324584961,
+        -0.014858245849609375
+      ],
+      "q_sequence": [
+        0.00017969802092287777,
+        0.014500093981858109,
+        5.311944405544169e-05,
+        0.9852670885531636
+      ],
+      "q_token_mean": [
+        0.21511611122409532,
+        0.24601184404003912,
+        0.1220229034062659,
+        0.4168491413295998
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Congenital CMV infection\"}",
+      "generated_disease": "Congenital CMV infection",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "268ca18697fdc88d68df521e2315dbb791f2141a6fa6fac6694072bf95a7ca9c"
+    },
+    {
+      "condition": "wrong",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -8.34865951538086,
+        -5.395530700683594,
+        -9.895515441894531,
+        -0.00489044189453125
+      ],
+      "q_sequence": [
+        0.0002367265366983826,
+        0.004537059690859398,
+        5.0402949481662384e-05,
+        0.9951758108229605
+      ],
+      "q_token_mean": [
+        0.22627039896639048,
+        0.21909249236313527,
+        0.12483537728036448,
+        0.4298017313901099
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Congenital CMV infection\"}",
+      "generated_disease": "Congenital CMV infection",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "d43fde871307bcf69a065a1ca11c556047e46659d08627b8845b7c2050d225e9"
+    },
+    {
+      "condition": "wrong",
+      "round": 5,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -4.990909576416016,
+        -0.16278076171875,
+        -8.194023132324219,
+        -1.9440231323242188
+      ],
+      "q_sequence": [
+        0.006799611530934415,
+        0.8497942806638419,
+        0.00027630551884120125,
+        0.14312980228638247
+      ],
+      "q_token_mean": [
+        0.2429016224023218,
+        0.34940267069635944,
+        0.12803705894317935,
+        0.2796586479581394
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Congenital syphilis\"}",
+      "generated_disease": "Congenital syphilis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "6b1a60e79dfb7b610839fc6e0dbe96d549e3a8516e158d8a055a317d42259498"
+    },
+    {
+      "condition": "wrong",
+      "round": 6,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -9.069869995117188,
+        -4.960487365722656,
+        -8.913604736328125,
+        -0.007354736328125
+      ],
+      "q_sequence": [
+        0.00011508939605531904,
+        0.007009991817557427,
+        0.00013455518902036364,
+        0.992740363597367
+      ],
+      "q_token_mean": [
+        0.21064620564992237,
+        0.22764817892176972,
+        0.13888714417733122,
+        0.4228184712509766
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Congenital CMV infection\"}",
+      "generated_disease": "Congenital CMV infection",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "28eda447914a8dd37016b8216efdad642bd9866860c839c1c1bc9e41dad6d478"
+    },
+    {
+      "condition": "wrong",
+      "round": 7,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -5.7481231689453125,
+        -0.21686172485351562,
+        -7.544979095458984,
+        -1.6543540954589844
+      ],
+      "q_sequence": [
+        0.0031888418373706966,
+        0.805061952899438,
+        0.0005287718973640693,
+        0.19122043336582703
+      ],
+      "q_token_mean": [
+        0.2280096198635794,
+        0.3453102973910928,
+        0.13816225484013767,
+        0.28851782790519004
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Congenital syphilis\"}",
+      "generated_disease": "Congenital syphilis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "b3b808d35a4939079cdedc75738c5c68ecdf5bbdd8ebf532cd083edfd67b5197"
+    },
+    {
+      "condition": "wrong",
+      "round": 8,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -6.378871917724609,
+        -0.0038604736328125,
+        -10.503852844238281,
+        -6.160102844238281
+      ],
+      "q_sequence": [
+        0.0016970643240402765,
+        0.9961634337031294,
+        2.7431013217460318e-05,
+        0.0021120709596129912
+      ],
+      "q_token_mean": [
+        0.2612089509189751,
+        0.426460846682537,
+        0.11478048922371352,
+        0.19754971317477435
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Congenital syphilis\"}",
+      "generated_disease": "Congenital syphilis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "074faef7805535ac5489d2053d48c4f6f2e2c676402a2813ca1a56b8f1e1441a"
+    },
+    {
+      "condition": "wrong",
+      "round": 9,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -9.95322036743164,
+        -6.866455078125e-05,
+        -13.281307220458984,
+        -13.531307220458984
+      ],
+      "q_sequence": [
+        4.757503952221333e-05,
+        0.9999493901140867,
+        1.7061193249176815e-06,
+        1.328727066259147e-06
+      ],
+      "q_token_mean": [
+        0.2528217236567606,
+        0.5436514603605554,
+        0.1033533318549773,
+        0.10017348412770662
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Congenital syphilis\"}",
+      "generated_disease": "Congenital syphilis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "e89922ca40ff12aa0b55cef38009d50f9bbfc33dda726dc784b0a4a00d57ef1c"
+    },
+    {
+      "condition": "wrong",
+      "round": 10,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -11.156288146972656,
+        -2.6702880859375e-05,
+        -14.187519073486328,
+        -16.312519073486328
+      ],
+      "q_sequence": [
+        1.4285343144748535e-05,
+        0.999984942968574,
+        6.893564003539151e-07,
+        8.23318810879292e-08
+      ],
+      "q_token_mean": [
+        0.2459260473090105,
+        0.5801017640956504,
+        0.09847148335359375,
+        0.07550070524174535
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Congenital syphilis\"}",
+      "generated_disease": "Congenital syphilis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "6deed9c9de56a86f27ea476a2ae51b1c4ba037c5bf0eaabb890929f10e62d1c1"
+    },
+    {
+      "condition": "wrong",
+      "round": 11,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -18.51565933227539,
+        -3.814697265625e-06,
+        -20.0625,
+        -26.453125
+      ],
+      "q_sequence": [
+        9.09395864905743e-09,
+        0.9999999889665118,
+        1.9362820023358043e-09,
+        3.247546926810523e-12
+      ],
+      "q_token_mean": [
+        0.17713227523646255,
+        0.7359614807722689,
+        0.059941300496366104,
+        0.026964943494902496
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Congenital syphilis\"}",
+      "generated_disease": "Congenital syphilis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "cbefa27ba3dda1efaa52c31d315bb71f3bf6453fa09c550ee2450d49b03c42df"
+    },
+    {
+      "condition": "wrong",
+      "round": 12,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -15.171897888183594,
+        -1.1444091796875e-05,
+        -17.3125,
+        -21.3125
+      ],
+      "q_sequence": [
+        2.575925580920014e-07,
+        0.9999997115639147,
+        3.028876926848529e-08,
+        5.547581603057659e-10
+      ],
+      "q_token_mean": [
+        0.20810149031972758,
+        0.668538196639506,
+        0.07678677795220688,
+        0.04657353508855953
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Congenital syphilis\"}",
+      "generated_disease": "Congenital syphilis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "97f0da94b57e178157714678f5f19a53e6b316f56312484c2b740d2d84aed098"
+    },
+    {
+      "condition": "wrong",
+      "round": 13,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -18.578163146972656,
+        -7.62939453125e-06,
+        -17.78125,
+        -21.390625
+      ],
+      "q_sequence": [
+        8.542983402578291e-09,
+        0.9999999719897908,
+        1.8954160110473108e-08,
+        5.130656026031808e-10
+      ],
+      "q_token_mean": [
+        0.16905778591986192,
+        0.7057980187708666,
+        0.07645281918148553,
+        0.048691376127785964
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Congenital syphilis\"}",
+      "generated_disease": "Congenital syphilis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "5fd9490f84159c7962f98a64725ce739cfc9e4cd18206941399f81281747b9e3"
+    }
+  ],
+  "state_sha256": "afee6c00e6a070cdf0fd86e2e6df8b16faca29ba51b87ed3431ed044781e14b3"
+}

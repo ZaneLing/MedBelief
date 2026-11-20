@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_1620c8d6-22ac-4d7b-800e-e72794586dc4",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniform polyiform stress disorder (Systatoma paripostaria et al  et  et  et  et  et  et  et  et  et  et  et  et  et  et  et  etc  et  et  emet pemphilias",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "22b823c61bd4165e261feac6a3fe5d32be5bd5a102a904d2a661ce2558c4140a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformynephical disease\"}",
+      "generated_disease": "Chronic veniformynephical disease",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "23bc98bcac42b68620f1aa0857a1b4be506bcd084a65779f0f68c756f71ce392"
+    }
+  ]
+}

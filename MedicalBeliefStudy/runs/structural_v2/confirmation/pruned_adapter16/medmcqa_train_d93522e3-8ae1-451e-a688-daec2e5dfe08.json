@@ -1,0 +1,52 @@
+{
+  "case_id": "medmcqa_train_d93522e3-8ae1-451e-a688-daec2e5dfe08",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "McArdle disease (glycogen storage disease\")\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 13,
+      "prompt_sha256": "b0cfdb54c112f4d313dc4d8877527de7c85d5c829b3b876e05d78b24a808f119"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "McArdle disease (glycogen storage disease\")\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 13,
+      "prompt_sha256": "8d475153e06c4848fab9eba1fff4a0751702104aff2c6c4f265ad9b5780804a6"
+    }
+  ]
+}

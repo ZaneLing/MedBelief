@@ -1,0 +1,34 @@
+{
+  "case_id": "medmcqa_train_8115ef03-15d2-4886-b375-e120a7c1ac83",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Postviral syndrome\"}",
+      "generated_disease": "Postviral syndrome",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "e69eda53a0b9b0d64c39f04fb3ad687b5fefa0fe2c9837fe14609382d25c48fe"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Postviral syndrome\"}",
+      "generated_disease": "Postviral syndrome",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "682494b1657503cde366e108c490c67a938ef4156a5a7814add5f3c3cc382d2a"
+    }
+  ]
+}

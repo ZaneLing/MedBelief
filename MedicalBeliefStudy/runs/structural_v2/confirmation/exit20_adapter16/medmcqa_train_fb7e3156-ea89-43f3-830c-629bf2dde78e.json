@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_fb7e3156-ea89-43f3-830c-629bf2dde78e",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Hervin's disease or hypercephension or stress outiggers or stress outiggers forgeries\"} (Note: This is an error correction and/or an error in the original systematics. actual correct answer is \"Subiective disorder or other stress-related stress outgivers or other non-linear abrogent",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "e967e8d497fe42c449627b8483c46218381410e5ffe20fa6e7db580e1084b801"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Scholarlyystechserventechservemplentaryystenentepemphesentemphesenservemenservemenservemenservemanservemanservemenservemenservemenservemenservemenservemenservemenserv",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "3b4046de10b5f03efee31f8578d67ae002c2e46494bd475a9233ddbb47af44ac"
+    }
+  ]
+}

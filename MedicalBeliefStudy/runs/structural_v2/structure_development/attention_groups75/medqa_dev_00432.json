@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_dev_00432",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Tinea manoris (tinea incognito\"), \"incidence\": \"high in immunocompromised individuals\", \"pathophysiology\":\"invasive dermatophyte colonization of stratum corneum and hair follicles\", \"lesion characteristics\":\"erythematous, scaly, well-defined plaques with par",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "a38afd1b9846e4697f56a4d400cf92dbbed49065c308ed4b96e9f3a3ec77015c"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Tinea manoris\",\"severity\":\"moderate to severe\",\"clinical_feature\":\"tinea crurum\",\"epidermophytosis\":\"false\",\"episiderium_present\":\"true\",\"epidermophytosis_present\":false,\"epidermophytidis_present\":false}",
+      "generated_disease": "Tinea manoris",
+      "stop": "eos",
+      "tokens": 58,
+      "prompt_sha256": "ef93c1be95f97bae10a46b927974d8d9080f3d803eb5fb4a1f571379fb9266af"
+    }
+  ]
+}

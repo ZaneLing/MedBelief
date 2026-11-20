@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_04767",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Acute psychotic disorder\"}",
+      "generated_disease": "Acute psychotic disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "b570bc2590f4fc92932bb60e489470be391f5cc7154ddc18f4c7cc6784fd1746"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Acute psychotic disorder\"}",
+      "generated_disease": "Acute psychotic disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "a5a2219830b97dbb4fa3ac17b8fde052d5a21643c8eb8248fb9f5e271adde931"
+    }
+  ]
+}

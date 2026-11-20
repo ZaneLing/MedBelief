@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_validation_d89b269b-52d2-4f8a-b9b3-9e5727a05aea",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Dystrophin deficiency\"}",
+      "generated_disease": "Dystrophin deficiency",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "1832e414576348bae5cc03003f5b05831eec507b5b2efea708b9a278f95ccf02"
+    }
+  ]
+}

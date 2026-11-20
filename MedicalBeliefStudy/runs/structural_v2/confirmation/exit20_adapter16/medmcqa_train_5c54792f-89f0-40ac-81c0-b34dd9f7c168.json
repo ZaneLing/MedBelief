@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_5c54792f-89f0-40ac-81c0-b34dd9f7c168",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxiaemiautaricentericenterickephritis\"} (Note: This is an error correction and actual correct answer is \"Byeckert's disease or hypercephicalia etrogenturis or other similar name but actual correct answer is 'Nontravagionalia or",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "d1a7edb56ce092df99e499aafc8b8ffe1081db9f0de75e1076eda5b88e08c0ec"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxiaytaxisual disorderalystenyservententualserventecualservenemphilenturisngentigoteminalenemphilentigenservemphiligusentepemphilenservemphirationalenem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "0b3ee2e880528b23a63121417f45201e94225d2fd4326ad9fd9548a4a9a41b4d"
+    }
+  ]
+}

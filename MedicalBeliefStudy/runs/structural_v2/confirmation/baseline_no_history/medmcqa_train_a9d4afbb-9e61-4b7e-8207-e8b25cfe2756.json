@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_a9d4afbb-9e61-4b7e-8207-e8b25cfe2756",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Angioneurotic edema\"}",
+      "generated_disease": "Angioneurotic edema",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "4315f878bc86c7ad2055078969833ddc979cbe8b198c3a90e6b461666cd07df5"
+    }
+  ]
+}

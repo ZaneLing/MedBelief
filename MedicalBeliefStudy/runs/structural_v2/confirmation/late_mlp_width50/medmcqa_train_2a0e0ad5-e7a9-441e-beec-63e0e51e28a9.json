@@ -1,0 +1,49 @@
+{
+  "case_id": "medmcqa_train_2a0e0ad5-e7a9-441e-beec-63e0e51e28a9",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Tay-Sachs disease\"}",
+      "generated_disease": "Tay-Sachs disease",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "99825982a22b334af704a1ee2c0a0e9124c8c00e5cc4483158853056d5edbb3e"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "phenylketonuria\"}",
+      "generated_disease": "phenylketonuria",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "c60d82ab062c62ee980d8a164a3a238d94e7a86d1d15ad32d05630d500e36c29"
+    }
+  ]
+}

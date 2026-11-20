@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_24fa9c33-6917-4590-88d9-dc8227d02d0f",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Vocatellar syndrome\"}",
+      "generated_disease": "Vocatellar syndrome",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "8620c579e313f2345ad6640b07f44e34998359604b5ac5516fa64124792f5bd8"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformynephical disease\"}",
+      "generated_disease": "Chronic veniformynephical disease",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "d22e7bc771ec5bb4bb2ae54773973446ce2117fefb227f4d405f382c48833ac0"
+    }
+  ]
+}

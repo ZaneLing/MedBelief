@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_03285",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_constrained",
+    "exit_layer": 20,
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Febrile seizure\"}",
+      "generated_disease": "Febrile seizure",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "0306b6fb15249a282676c5581f8e6ccd5fce33717c16ba2bc2228ec880e7e7b4"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Juvenile myoclonic epilepsy\"}",
+      "generated_disease": "Juvenile myoclonic epilepsy",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "183f457743be8b9fa5ac6d8a47c36e90dd63020ad5936fe8e8f7d8eba245412a"
+    }
+  ]
+}

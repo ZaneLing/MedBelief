@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_01597",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "mlp_width50",
+    "mlp_keep": 0.5
+  },
+  "parameter_stats": {
+    "parameters": 1192092672,
+    "weight_bytes": 2384185344,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Appendicitis\"}\n</think>\n\n{\"diagnosis\":\"Appendicitis\"}\n</think>\n\n{\"diagnosis\":\"Appendicitis\"}\n",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 24,
+      "prompt_sha256": "5d09108777f322333e161ef413392f1a080f310039c68e89a1c05a47d7e9f22b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Traumatic urethral injury\"}",
+      "generated_disease": "Traumatic urethral injury",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "51065c23635ba385e72ab36be48aa3265841c31a342ecb5b1d56e185fa477830"
+    }
+  ]
+}

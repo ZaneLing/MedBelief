@@ -1,0 +1,958 @@
+{
+  "case_id": "medqa_train_01035",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": false,
+      "listed": false,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -24.469661712646484,
+        -6.283931732177734,
+        -25.987987518310547,
+        -34.10981369018555
+      ],
+      "q_sequence": [
+        1.2648464710604648e-08,
+        0.9999999845797074,
+        2.7710049033233776e-09,
+        8.229491572934618e-13
+      ],
+      "q_token_mean": [
+        0.2296819375595957,
+        0.7551189575565863,
+        0.014673808050617942,
+        0.000525296833200034
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Adjustation disorder\"}",
+      "generated_disease": "Adjustation disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "9273cd6cb8d8555ce5152e736de161628099da468f3f75623393b5ffe8cc5956"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": false,
+      "listed": false,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -25.048267364501953,
+        -6.814434051513672,
+        -21.678028106689453,
+        -34.18805694580078
+      ],
+      "q_sequence": [
+        1.2054429205168508e-08,
+        0.9999996373353554,
+        3.5060892169805917e-07,
+        1.2935596787231212e-12
+      ],
+      "q_token_mean": [
+        0.23280149940138992,
+        0.7293298382581206,
+        0.03731544334562331,
+        0.0005532189948661506
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Adjustation disorder\"}",
+      "generated_disease": "Adjustation disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "2640f1911dbe50c231e85091650be9d053b2041c631b76230d0bc17ec7fc3fea"
+    },
+    {
+      "condition": "neutral",
+      "round": 3,
+      "correct": false,
+      "listed": false,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -25.06462860107422,
+        -6.316349029541016,
+        -19.936134338378906,
+        -33.626094818115234
+      ],
+      "q_sequence": [
+        7.20651185810608e-09,
+        0.9999987766008877,
+        1.216191221527629e-06,
+        1.3788834865150806e-12
+      ],
+      "q_token_mean": [
+        0.21290782759650945,
+        0.7380801270633933,
+        0.04842883158129595,
+        0.0005832137588012248
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Adjustation disorder\"}",
+      "generated_disease": "Adjustation disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "f0cc7e6008f5e41088969ded1a69fe2ad8e6e8edb592c4e00dd8c6e97ecba373"
+    },
+    {
+      "condition": "neutral",
+      "round": 4,
+      "correct": false,
+      "listed": false,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -23.955265045166016,
+        -6.4094085693359375,
+        -16.172718048095703,
+        -33.18866729736328
+      ],
+      "q_sequence": [
+        2.398315754064037e-08,
+        0.9999424553921564,
+        5.7520622342624136e-05,
+        2.3436389813037202e-12
+      ],
+      "q_token_mean": [
+        0.22319893141878475,
+        0.6797385463649279,
+        0.09645208319697032,
+        0.0006104390193171418
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Adjustation disorder\"}",
+      "generated_disease": "Adjustation disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "d5a27903349815d1f676dbcb26e2784fc74d45f26d87f81ca1f3b966339d74af"
+    },
+    {
+      "condition": "neutral",
+      "round": 5,
+      "correct": false,
+      "listed": false,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -24.142230987548828,
+        -5.8475494384765625,
+        -13.165569305419922,
+        -32.50082015991211
+      ],
+      "q_sequence": [
+        1.1335291742842148e-08,
+        0.9993369538968547,
+        0.0006630347651968575,
+        2.656706315968597e-12
+      ],
+      "q_token_mean": [
+        0.18944209499738462,
+        0.6577313870370167,
+        0.15219957426287006,
+        0.0006269437027286534
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Adjustation disorder\"}",
+      "generated_disease": "Adjustation disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "e0e9d91d03aa15f663110e001693b589df71ae8beb8bbe00ebb130e225ec4ff5"
+    },
+    {
+      "condition": "neutral",
+      "round": 6,
+      "correct": false,
+      "listed": false,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -19.663959503173828,
+        -5.215831756591797,
+        -3.844890594482422,
+        -28.507320404052734
+      ],
+      "q_sequence": [
+        1.075508451615207e-07,
+        0.2024678083125412,
+        0.7975320841210902,
+        1.5523547925845363e-11
+      ],
+      "q_token_mean": [
+        0.14631216715558876,
+        0.36832734578361176,
+        0.4845207711790181,
+        0.0008397158817811344
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Adjustation disorder\"}",
+      "generated_disease": "Adjustation disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "42b18b6b2c732c5dcde055a8d4d37445dc67df50b3d0713aa9d9c7ec9eb00579"
+    },
+    {
+      "condition": "neutral",
+      "round": 7,
+      "correct": false,
+      "listed": false,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.987686157226562,
+        -4.791755676269531,
+        -9.04422378540039,
+        -31.28270721435547
+      ],
+      "q_sequence": [
+        3.3555692926516104e-08,
+        0.9859705212660433,
+        0.01402944517518036,
+        3.0831159439940435e-12
+      ],
+      "q_token_mean": [
+        0.16841984746532979,
+        0.5822369144424757,
+        0.2487339403540443,
+        0.000609297738150166
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Adjustation disorder\"}",
+      "generated_disease": "Adjustation disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "c805b6153171b50df9b18992929afb158d044e634fd3bb6387173b1a641a587f"
+    },
+    {
+      "condition": "neutral",
+      "round": 8,
+      "correct": false,
+      "listed": false,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -22.39346694946289,
+        -5.287746429443359,
+        -10.381763458251953,
+        -31.18838119506836
+      ],
+      "q_sequence": [
+        3.701897724495903e-08,
+        0.9939040190916922,
+        0.0060959438837220985,
+        5.6084349919317435e-12
+      ],
+      "q_token_mean": [
+        0.1837858267197559,
+        0.5991838645329892,
+        0.21632136387478018,
+        0.0007089448724746443
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Adjustation disorder\"}",
+      "generated_disease": "Adjustation disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "6556d138db88aef1c52eeaa70e4aabc7b0f6ba9022a4db530d571fb53acb7b2d"
+    },
+    {
+      "condition": "neutral",
+      "round": 9,
+      "correct": false,
+      "listed": false,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.066390991210938,
+        -4.667671203613281,
+        -10.103340148925781,
+        -30.594741821289062
+      ],
+      "q_sequence": [
+        7.520345135161102e-08,
+        0.9956605190624164,
+        0.004339405728660498,
+        5.47176686558844e-12
+      ],
+      "q_token_mean": [
+        0.18776855659964076,
+        0.6068702311113283,
+        0.20462544120347528,
+        0.0007357710855556295
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Adjustation disorder\"}",
+      "generated_disease": "Adjustation disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "7a04b3009eacfd42d1f21b8986b4983799c93643b069ec6e55ce9cb85c03ec1f"
+    },
+    {
+      "condition": "neutral",
+      "round": 10,
+      "correct": false,
+      "listed": false,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.08490753173828,
+        -5.134925842285156,
+        -10.646610260009766,
+        -30.986297607421875
+      ],
+      "q_sequence": [
+        1.1783117361707659e-07,
+        0.9959768351388901,
+        0.004023047024032349,
+        5.903929057566479e-12
+      ],
+      "q_token_mean": [
+        0.2027550267012626,
+        0.5979481652519135,
+        0.19857506432814806,
+        0.0007217437186757662
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Adjustation disorder\"}",
+      "generated_disease": "Adjustation disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "bbd2a569d213bf0efeec9046785a36931841724ee5909cdae15ca5e008296c83"
+    },
+    {
+      "condition": "neutral",
+      "round": 11,
+      "correct": false,
+      "listed": false,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -20.16022491455078,
+        -5.661670684814453,
+        -8.322315216064453,
+        -29.844970703125
+      ],
+      "q_sequence": [
+        4.7207742230886e-07,
+        0.9346635960441347,
+        0.06533593184906764,
+        2.9375250287611556e-11
+      ],
+      "q_token_mean": [
+        0.20638099044561597,
+        0.4994024497918435,
+        0.293325635854258,
+        0.0008909239082825182
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Adjustation disorder\"}",
+      "generated_disease": "Adjustation disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "2ebbedf1b0a54b6c80092ac51068e14338fe500d45ef39d85c0052599d8600cb"
+    },
+    {
+      "condition": "neutral",
+      "round": 12,
+      "correct": false,
+      "listed": false,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -20.973819732666016,
+        -5.475078582763672,
+        -9.229904174804688,
+        -30.000839233398438
+      ],
+      "q_sequence": [
+        1.815243236919236e-07,
+        0.9771305353846673,
+        0.022869283069204133,
+        2.1804697708744814e-11
+      ],
+      "q_token_mean": [
+        0.19939975891527822,
+        0.5433088295837583,
+        0.25639334951520665,
+        0.0008980619857569419
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Adjustation disorder\"}",
+      "generated_disease": "Adjustation disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "64d4f5de34bab95bb19ae5b10671e05c9d2a548801ac8c6184c4128b3a06c15d"
+    },
+    {
+      "condition": "neutral",
+      "round": 13,
+      "correct": false,
+      "listed": false,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -18.705204010009766,
+        -4.3890838623046875,
+        -7.724155426025391,
+        -29.657146453857422
+      ],
+      "q_sequence": [
+        5.853163740000971e-07,
+        0.965612003699992,
+        0.03438741097337693,
+        1.0257050742658181e-11
+      ],
+      "q_token_mean": [
+        0.1965633960112872,
+        0.5304303370726218,
+        0.2722373568051671,
+        0.0007689101109238604
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Adjustation disorder\"}",
+      "generated_disease": "Adjustation disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "9d88af7b44fe6c05381c1902d32bb334c20f0041597c3560569711749dc9448a"
+    },
+    {
+      "condition": "neutral",
+      "round": 14,
+      "correct": false,
+      "listed": false,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -16.489398956298828,
+        -4.686126708984375,
+        -2.0247039794921875,
+        -26.049427032470703
+      ],
+      "q_sequence": [
+        4.883601104354481e-07,
+        0.06528842451173798,
+        0.9347110870937267,
+        3.442490440643458e-11
+      ],
+      "q_token_mean": [
+        0.15349980724243237,
+        0.31275303861958453,
+        0.532561514451458,
+        0.0011856396865249424
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Adjustation disorder\"}",
+      "generated_disease": "Adjustation disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "03c0d8cc4d480f0a507f7bd53c79aff8dc3bd368e961efe8f8bb79a05aee110d"
+    },
+    {
+      "condition": "neutral",
+      "round": 15,
+      "correct": false,
+      "listed": false,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -18.612998962402344,
+        -5.196315765380859,
+        -6.068744659423828,
+        -28.783939361572266
+      ],
+      "q_sequence": [
+        1.050876507045308e-06,
+        0.7052501077027635,
+        0.2947488413805163,
+        4.021317761800864e-11
+      ],
+      "q_token_mean": [
+        0.19264831879863276,
+        0.4382997721102819,
+        0.3681230689207627,
+        0.0009288401703226549
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Adjustation disorder\"}",
+      "generated_disease": "Adjustation disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "c3a6c2e69d62bf8a0c121cb5d7d63b541eb1b4780a4f1e82ad04d1faefd8ba54"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": false,
+      "listed": false,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -15.787158966064453,
+        -4.671730041503906,
+        -5.194480895996094,
+        -29.677936553955078
+      ],
+      "q_sequence": [
+        9.342033750739055e-06,
+        0.6277849179389657,
+        0.37220574001861895,
+        8.664696918984005e-12
+      ],
+      "q_token_mean": [
+        0.21629148305466592,
+        0.41198908030133713,
+        0.3710907619183101,
+        0.0006286747256869583
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Adjustation disorder\"}",
+      "generated_disease": "Adjustation disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "73472cdc7c1a6e0b21105d9661836fd59437551ecf487601c208a3fbecf89601"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": false,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -16.975414276123047,
+        -3.5354957580566406,
+        -1.1172599792480469,
+        -28.334945678710938
+      ],
+      "q_sequence": [
+        1.190780752766309e-07,
+        0.08179264562967765,
+        0.9182072352908587,
+        1.388193482704989e-12
+      ],
+      "q_token_mean": [
+        0.12400698574315171,
+        0.3338795090882329,
+        0.5415456319497561,
+        0.0005678732188592491
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Adjustation disorder\"}",
+      "generated_disease": "Adjustation disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "81729aa4e0a236d316b4e5b0d23026c242597dfde81bd2963a377333f5ad314c"
+    },
+    {
+      "condition": "wrong",
+      "round": 3,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -18.133819580078125,
+        -6.480781555175781,
+        -0.09074020385742188,
+        -27.868328094482422
+      ],
+      "q_sequence": [
+        1.4563372823955694e-08,
+        0.0016753751877430778,
+        0.9983246102480218,
+        8.622210786211851e-13
+      ],
+      "q_token_mean": [
+        0.11488932956011993,
+        0.192711636522873,
+        0.691735204956482,
+        0.0006638289605250361
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Major depressive disorder\"}",
+      "generated_disease": "Major depressive disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "12a9aa51ac3d4e34c18a829e5562d7c23b0df938858c59c16938f029bf6c014f"
+    },
+    {
+      "condition": "wrong",
+      "round": 4,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -20.54837417602539,
+        -10.252948760986328,
+        -0.006107330322265625,
+        -29.1422119140625
+      ],
+      "q_sequence": [
+        1.1983714634833497e-09,
+        3.546809845420977e-05,
+        0.9999645307029523,
+        2.219908891675587e-13
+      ],
+      "q_token_mean": [
+        0.10198205489077389,
+        0.10241616185515598,
+        0.795056210273203,
+        0.000545572980867181
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Major depressive disorder\"}",
+      "generated_disease": "Major depressive disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "3ee105cb30ce82fed7e4a2fe72f7ec6c71319e18caea048d905334464a796416"
+    },
+    {
+      "condition": "wrong",
+      "round": 5,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -22.609966278076172,
+        -11.430622100830078,
+        -0.003314971923828125,
+        -29.57870864868164
+      ],
+      "q_sequence": [
+        1.5207273342598451e-10,
+        1.089378600144423e-05,
+        0.9999891060617828,
+        1.4307540860277445e-13
+      ],
+      "q_token_mean": [
+        0.08645009672484374,
+        0.08430486202598951,
+        0.8287354331101053,
+        0.0005096081390614322
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Major depressive disorder\"}",
+      "generated_disease": "Major depressive disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "27afb694ec50e518016492497ac601868d80b7d3f1b4d9b3a4641134e5a2a598"
+    },
+    {
+      "condition": "wrong",
+      "round": 6,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -23.234981536865234,
+        -15.371334075927734,
+        -0.005039215087890625,
+        -29.56332778930664
+      ],
+      "q_sequence": [
+        8.153876749934311e-11,
+        2.1208152739772055e-07,
+        0.9999997878367884,
+        1.4554533349976867e-13
+      ],
+      "q_token_mean": [
+        0.08562120858251022,
+        0.040413518881603945,
+        0.8734259280421929,
+        0.0005393444936929838
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Major depressive disorder\"}",
+      "generated_disease": "Major depressive disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "d32f197624a649f2aaa2e50e359bf3770448e35c872769e475a7cf9ae883f29f"
+    },
+    {
+      "condition": "wrong",
+      "round": 7,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.95378875732422,
+        -14.10009765625,
+        -0.0036163330078125,
+        -29.078765869140625
+      ],
+      "q_sequence": [
+        2.9319793771353776e-10,
+        7.550498385241693e-07,
+        0.9999992446567275,
+        2.3595145941706313e-13
+      ],
+      "q_token_mean": [
+        0.09506952203408041,
+        0.05090533743844365,
+        0.8534304440685713,
+        0.0005946964589047389
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Major depressive disorder\"}",
+      "generated_disease": "Major depressive disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "7a9ae6d0cb89a3fee357fd0479f9c151fc7b4eada31df4ef5fefabc6f0caf3af"
+    },
+    {
+      "condition": "wrong",
+      "round": 8,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.67241668701172,
+        -13.882099151611328,
+        -0.002841949462890625,
+        -28.25054931640625
+      ],
+      "q_sequence": [
+        3.881707964297014e-10,
+        9.382417979968653e-07,
+        0.9999990613694916,
+        5.397295006526888e-13
+      ],
+      "q_token_mean": [
+        0.09727177352950281,
+        0.05289615691690011,
+        0.8491043844036185,
+        0.0007276851499785922
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Major depressive disorder\"}",
+      "generated_disease": "Major depressive disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "a71ee719e6ab05a84c00e0155a329e2311145343526f9aa01a4b1f6cfdbb64f2"
+    },
+    {
+      "condition": "wrong",
+      "round": 9,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -20.15731430053711,
+        -14.923248291015625,
+        -0.0064849853515625,
+        -28.17272186279297
+      ],
+      "q_sequence": [
+        1.7725801331849968e-09,
+        3.3245423018934144e-07,
+        0.999999665772604,
+        5.855427431795858e-13
+      ],
+      "q_token_mean": [
+        0.11258047050704888,
+        0.04272353892350805,
+        0.8439579679286748,
+        0.0007380226407682621
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Major depressive disorder\"}",
+      "generated_disease": "Major depressive disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "33f1f8283e4f36e5420391b8e749542c9def0bebcd019e96640d98285714d4d9"
+    },
+    {
+      "condition": "wrong",
+      "round": 10,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -19.908111572265625,
+        -13.532859802246094,
+        -0.01288604736328125,
+        -28.282649993896484
+      ],
+      "q_sequence": [
+        2.288825870805787e-09,
+        1.3438457376047025e-06,
+        0.9999986538649086,
+        5.279550261020964e-13
+      ],
+      "q_token_mean": [
+        0.11366650518735814,
+        0.05556246952278476,
+        0.8300639248605767,
+        0.0007071004292803308
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Major depressive disorder\"}",
+      "generated_disease": "Major depressive disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "58d68049859422978072599ac1a86f92a934241dad9e1e794751d8ea0b22fd07"
+    },
+    {
+      "condition": "wrong",
+      "round": 11,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -20.204090118408203,
+        -14.301273345947266,
+        -0.00630950927734375,
+        -28.094501495361328
+      ],
+      "q_sequence": [
+        1.6912782551027678e-09,
+        6.1912140199931e-07,
+        0.9999993791866867,
+        6.330717646628436e-13
+      ],
+      "q_token_mean": [
+        0.1114778511608377,
+        0.04813358996800839,
+        0.8396398390493462,
+        0.0007487198218076457
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Major depressive disorder\"}",
+      "generated_disease": "Major depressive disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "ba68d6ae60623267513768b84436110d12ae02e3c144b622133de51b4f248e72"
+    },
+    {
+      "condition": "wrong",
+      "round": 12,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.063392639160156,
+        -13.331840515136719,
+        -0.004665374755859375,
+        -27.781883239746094
+      ],
+      "q_sequence": [
+        7.150069201712454e-10,
+        1.6295986984993886e-06,
+        0.9999983696854308,
+        8.639862891204201e-13
+      ],
+      "q_token_mean": [
+        0.1021498056216123,
+        0.058347212135449335,
+        0.8386945764500673,
+        0.0008084057928711453
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Major depressive disorder\"}",
+      "generated_disease": "Major depressive disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "f6537f1810d3f9156dec9d0c4ae936adb8f0a8e763b1b87b9d98919dfa7f6d15"
+    },
+    {
+      "condition": "wrong",
+      "round": 13,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -19.594173431396484,
+        -12.108219146728516,
+        -0.002101898193359375,
+        -28.047298431396484
+      ],
+      "q_sequence": [
+        3.0993387275731713e-09,
+        5.525577576849231e-06,
+        0.9999944713224236,
+        6.608813566297191e-13
+      ],
+      "q_token_mean": [
+        0.11456744100688569,
+        0.07216370133039152,
+        0.8125363222620412,
+        0.0007325354006815168
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Major depressive disorder\"}",
+      "generated_disease": "Major depressive disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "a4f586d88553697415c3c5400215c00861c20381959c0bfa1ad784e7d3f1a8e8"
+    },
+    {
+      "condition": "wrong",
+      "round": 14,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.28177261352539,
+        -14.680419921875,
+        -0.001918792724609375,
+        -28.28158187866211
+      ],
+      "q_sequence": [
+        5.731611250037326e-10,
+        4.218982981405361e-07,
+        0.9999995775280182,
+        5.227549913413911e-13
+      ],
+      "q_token_mean": [
+        0.10153058474260782,
+        0.04526134502848412,
+        0.852483269216691,
+        0.0007248010122169446
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Major depressive disorder\"}",
+      "generated_disease": "Major depressive disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "3a11d5a8a41c3835f711a38f246f132a39f25e59f59a943fd8063fdd35e82c3d"
+    },
+    {
+      "condition": "wrong",
+      "round": 15,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -20.81304931640625,
+        -13.36404800415039,
+        -0.00174713134765625,
+        -28.422225952148438
+      ],
+      "q_sequence": [
+        9.15726149548756e-10,
+        1.5733515840479266e-06,
+        0.9999984257322357,
+        4.540902649891207e-13
+      ],
+      "q_token_mean": [
+        0.10446928783635095,
+        0.0578231065281924,
+        0.8370205626538332,
+        0.0006870429816235267
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Major depressive disorder\"}",
+      "generated_disease": "Major depressive disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "9e0030599cb596b5452d153b26e44eb95a3a6bf3cdd5678132072c953368d813"
+    }
+  ],
+  "state_sha256": "60a749ab928f968cc9286a291635f9c30edb9f368015c86f93f22b8dccbe20c1"
+}

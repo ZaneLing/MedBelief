@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_02871",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxiaotaric disease\"} (Note: This is an error correction and/or an error in the original list list. actual correct answer is typically \"Schastnov's disease or \"tymusovemnatic disease or \"tymaxovalenhuaids etc. However",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "118e22f003c29f43f87edee9ee210a00a63643604898368a2e744a10975075fa"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxiaaric disease or hyperagenic disease or other non-linear stress stress disorder or other non-linear stress-related disease or other non-linear stress-related disease\"} -- Note: This is an error correction and/or an error in the original system. actual correct answer is \"Custaroneiro's disease",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "f0b389ff64410c7c4f3aea69a5fd6c211a9535ce617962dfe882c73496bc3f37"
+    }
+  ]
+}

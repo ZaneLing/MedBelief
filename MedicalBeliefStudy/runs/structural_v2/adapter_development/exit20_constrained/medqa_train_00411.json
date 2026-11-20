@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_00411",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_constrained",
+    "exit_layer": 20,
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Thrombotic thrombocytopenic purpura\"}",
+      "generated_disease": "Thrombotic thrombocytopenic purpura",
+      "stop": "eos",
+      "tokens": 14,
+      "prompt_sha256": "39bb6d4a59768441301368cb17c6b0c1501af8369f5eb476653843e0cb1b8aa3"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Glanzmann’s thrombasthenia\"}",
+      "generated_disease": "Glanzmann’s thrombasthenia",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "b7568f7e61b0adf8a38ac1d47cf28b1161f150d1e640da376a085b747be21768"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_09205",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Iliotibial band syndrome\"}",
+      "generated_disease": "Iliotibial band syndrome",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "274b1b0fe6b9821c896506be4e546c1ff6e094098a9e033ad2aeb3a68eb984fe"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Iliotibial band syndrome\"}",
+      "generated_disease": "Iliotibial band syndrome",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "e536306d2fd518d2ab2e288e877be6b262fb87b11e5171a80f2ed0247a1f427b"
+    }
+  ]
+}

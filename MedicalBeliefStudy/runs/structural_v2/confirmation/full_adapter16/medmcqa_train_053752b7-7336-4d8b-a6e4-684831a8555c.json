@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_053752b7-7336-4d8b-a6e4-684831a8555c",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Orotic aciduria\"}",
+      "generated_disease": "Orotic aciduria",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ba44aad1daa5e8271284006b580210079183737f1f15afc5ded699e081e52860"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Orotic aciduria\"}",
+      "generated_disease": "Orotic aciduria",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "69d3e21d10ecb3ff13c1a2ab5e8e6a4dbe064f14be31d008e41a575ab217f686"
+    }
+  ]
+}

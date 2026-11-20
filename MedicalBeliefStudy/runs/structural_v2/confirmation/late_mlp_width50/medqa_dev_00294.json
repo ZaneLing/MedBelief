@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_dev_00294",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Rheumatoid arthritis\"}",
+      "generated_disease": "Rheumatoid arthritis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "673ec326c944905200d797611b5baf61d94a4e352ac0a45d673eb0e352c4db94"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Transient synovitis\"}",
+      "generated_disease": "Transient synovitis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "f3c88e84c81264ca12fb6310205d579eb6fac383ee2d40223f225b759970cc91"
+    }
+  ]
+}

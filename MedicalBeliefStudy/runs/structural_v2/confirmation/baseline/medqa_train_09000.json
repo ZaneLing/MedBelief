@@ -1,0 +1,34 @@
+{
+  "case_id": "medqa_train_09000",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Migraine headache\"}",
+      "generated_disease": "Migraine headache",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "dadadadfa5581b75fbc2aeedfb4de081cf66348f00e05ea34976a1190c0e659a"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Migraine headache\"}",
+      "generated_disease": "Migraine headache",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "e14b62f8b361d0876775b72470da2167abbc1ae402106f25e71580a7a612b8f2"
+    }
+  ]
+}

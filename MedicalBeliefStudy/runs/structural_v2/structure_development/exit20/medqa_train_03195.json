@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_03195",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "A/Aoinaiautaneousityngualservicalsontreeingodnesseservutaneousityecknowledanceesultsaysontreeingodnessesultsualsontreeingualsheeirdingalegegegegegegegegegeonicsalesen",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "3048d2a1952026db61caa148fbcd64ffd70394131396cf0cb094f42b5e6110dc"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Dhemmed综合征或其它未知情况但根据现有数据无法准确识别但根据现有数据无法准确识别但根据现有数据无法准确识别但请注意这是错误的正确答案应该是根据实际情况判断但实际情况下正确的答案是nonebut实际上是nonebut实际上是None",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 53,
+      "prompt_sha256": "19010d9b626234509d2ecd71967bbbb6c060ec140511fb3e058687486b7dadc1"
+    }
+  ]
+}

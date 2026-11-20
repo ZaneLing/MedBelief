@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_06312",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Pemphigus vulgaris\"}",
+      "generated_disease": "Pemphigus vulgaris",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "437bc19ab836328babcd4c2217f2e4751c17bcd1562b0623c3c188003774bcc2"
+    }
+  ]
+}

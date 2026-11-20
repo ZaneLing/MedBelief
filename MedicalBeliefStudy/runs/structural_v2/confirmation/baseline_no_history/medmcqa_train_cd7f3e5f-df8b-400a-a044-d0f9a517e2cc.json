@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_cd7f3e5f-df8b-400a-a044-d0f9a517e2cc",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Herpes simplex encephalitis\"}",
+      "generated_disease": "Herpes simplex encephalitis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "1aed4d4808c4a5a3196496690da33517c94306a2bb3bd13f1a9faef1a9a724cc"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_009efd48-b1f9-4a39-9dfa-fba8f1bc07e4",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Cryptococcosis\"}",
+      "generated_disease": "Cryptococcosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "fa8e4a78e8afe7eb28c1185d1d79ee2a01ee54cc33bb14b2bc07580d0738a2f5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Cryptococcosis\"}",
+      "generated_disease": "Cryptococcosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "da7362eebc1c56ff88df7856fe6166c2c112cb67c96baa79a31dea025ce7c2d6"
+    }
+  ]
+}

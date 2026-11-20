@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_321414b5-69ae-4151-a6b2-dff1143934af",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Rheumatic fever\"}",
+      "generated_disease": "Rheumatic fever",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "7726e8721ab9595d0c5aca30f6d377ab180dac078c6c2387dec85c638d484abb"
+    }
+  ]
+}

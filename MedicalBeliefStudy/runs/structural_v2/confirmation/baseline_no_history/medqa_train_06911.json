@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_06911",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Spondylolisthesis\"}",
+      "generated_disease": "Spondylolisthesis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "a87ffb4145741a723f3fc9680113af51e9fb3f0ae4bd362aafa0e400001cbafc"
+    }
+  ]
+}

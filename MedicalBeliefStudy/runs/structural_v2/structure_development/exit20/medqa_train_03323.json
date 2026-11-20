@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_03323",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Dhemmed综合征或其它相关疾病但根据现有信息无法准确识别但根据特定条件可能涉及特定特定特定但根据现有信息无法确切确定但根据实际情况可能涉及特定特定但实际情况下可能涉及特定但实际情况下无法确切确定但实际情况下无法确定但实际情况下无法确定但实际情况下无法",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "1a82b389bb1506953f2fb8f29c7e681bd04b2ae6b2cfa3edaaf8a233e21b0be9"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Dhemmed综合征或ientsingglestionalsityecknowledancelessnessesystematicityecknowledancelessnesseserviciousnessservsignaturesystematicityeleconiousnessservsetservsontationsystematicityeleconicservsont",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "31ceb455a0e9d3272121316dfecbdcd2a4e941d1a82f1cccfa22891b8b614dfb"
+    }
+  ]
+}

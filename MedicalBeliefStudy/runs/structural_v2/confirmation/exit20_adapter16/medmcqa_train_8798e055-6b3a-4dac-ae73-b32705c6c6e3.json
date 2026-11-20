@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_8798e055-6b3a-4dac-ae73-b32705c6c6e3",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Othosarovsky syndrome\"}",
+      "generated_disease": "Othosarovsky syndrome",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "c1f4fe408fea7fb94cde0cb00ef7ec0fa66cb4ac419393df89111892c2285ffe"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Othosarovsky syndrome\"}",
+      "generated_disease": "Othosarovsky syndrome",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "a7a86f2a31db98ba69ce5e6cbf81feb0b68fe738550e0725d5519a447b2fd766"
+    }
+  ]
+}

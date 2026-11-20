@@ -1,0 +1,207 @@
+{
+  "selected": [
+    "baseline",
+    "early_exit",
+    "drop_mlp_2",
+    "linear_mlp_2_r16",
+    "drop_block_1",
+    "anchor_heads_8",
+    "depth_matched_random_mlp_2",
+    "block_influence_2",
+    "linear_mlp_2_r64"
+  ],
+  "configurations": [
+    {
+      "name": "baseline"
+    },
+    {
+      "name": "early_exit",
+      "exit_layer": 27
+    },
+    {
+      "name": "drop_mlp_2",
+      "drop_mlps": [
+        25,
+        26
+      ]
+    },
+    {
+      "name": "linear_mlp_2_r16",
+      "replace_mlps": [
+        25,
+        26
+      ],
+      "rank": 16
+    },
+    {
+      "name": "drop_block_1",
+      "drop_blocks": [
+        27
+      ]
+    },
+    {
+      "name": "anchor_heads_8",
+      "anchor_drop_heads": {
+        "14": [
+          8,
+          12
+        ],
+        "22": [
+          2
+        ],
+        "17": [
+          9,
+          14,
+          2
+        ],
+        "15": [
+          6
+        ],
+        "12": [
+          13
+        ]
+      }
+    },
+    {
+      "name": "depth_matched_random_mlp_2",
+      "drop_mlps": [
+        28,
+        24
+      ]
+    },
+    {
+      "name": "block_influence_2",
+      "drop_blocks": [
+        26,
+        14
+      ]
+    },
+    {
+      "name": "linear_mlp_2_r64",
+      "replace_mlps": [
+        25,
+        26
+      ],
+      "rank": 64
+    }
+  ],
+  "qualification": {
+    "baseline": {
+      "neutral_accuracy": 0.3888888888888889,
+      "neutral_accuracy_change": 0.0,
+      "neutral_fidelity": 1.0,
+      "neutral_code_rate_change": 0.0,
+      "neutral_strict_accuracy_change": 0.0,
+      "wrong_accuracy": 0.2777777777777778,
+      "wrong_accuracy_change": 0.0,
+      "wrong_fidelity": 1.0,
+      "wrong_code_rate_change": 0.0,
+      "wrong_strict_accuracy_change": 0.0,
+      "passes": true
+    },
+    "early_exit": {
+      "neutral_accuracy": 0.4074074074074074,
+      "neutral_accuracy_change": 0.018518518518518517,
+      "neutral_fidelity": 0.9074074074074074,
+      "neutral_code_rate_change": 0.018518518518518517,
+      "neutral_strict_accuracy_change": 0.037037037037037035,
+      "wrong_accuracy": 0.25925925925925924,
+      "wrong_accuracy_change": -0.018518518518518517,
+      "wrong_fidelity": 0.9814814814814815,
+      "wrong_code_rate_change": 0.018518518518518517,
+      "wrong_strict_accuracy_change": 0.0,
+      "passes": true
+    },
+    "drop_mlp_2": {
+      "neutral_accuracy": 0.3888888888888889,
+      "neutral_accuracy_change": 0.0,
+      "neutral_fidelity": 0.9074074074074074,
+      "neutral_code_rate_change": 0.037037037037037035,
+      "neutral_strict_accuracy_change": 0.037037037037037035,
+      "wrong_accuracy": 0.25925925925925924,
+      "wrong_accuracy_change": -0.018518518518518517,
+      "wrong_fidelity": 0.9074074074074074,
+      "wrong_code_rate_change": 0.037037037037037035,
+      "wrong_strict_accuracy_change": 0.0,
+      "passes": true
+    },
+    "linear_mlp_2_r16": {
+      "neutral_accuracy": 0.3888888888888889,
+      "neutral_accuracy_change": 0.0,
+      "neutral_fidelity": 0.9259259259259259,
+      "neutral_code_rate_change": 0.05555555555555555,
+      "neutral_strict_accuracy_change": 0.037037037037037035,
+      "wrong_accuracy": 0.2962962962962963,
+      "wrong_accuracy_change": 0.018518518518518517,
+      "wrong_fidelity": 0.9259259259259259,
+      "wrong_code_rate_change": 0.05555555555555555,
+      "wrong_strict_accuracy_change": 0.037037037037037035,
+      "passes": true
+    },
+    "drop_block_1": {
+      "neutral_accuracy": 0.4444444444444444,
+      "neutral_accuracy_change": 0.05555555555555555,
+      "neutral_fidelity": 0.9259259259259259,
+      "neutral_code_rate_change": -0.018518518518518517,
+      "neutral_strict_accuracy_change": 0.05555555555555555,
+      "wrong_accuracy": 0.2962962962962963,
+      "wrong_accuracy_change": 0.018518518518518517,
+      "wrong_fidelity": 0.9814814814814815,
+      "wrong_code_rate_change": 0.0,
+      "wrong_strict_accuracy_change": 0.018518518518518517,
+      "passes": true
+    },
+    "anchor_heads_8": {
+      "neutral_accuracy": 0.4444444444444444,
+      "neutral_accuracy_change": 0.05555555555555555,
+      "neutral_fidelity": 0.8888888888888888,
+      "neutral_code_rate_change": 0.05555555555555555,
+      "neutral_strict_accuracy_change": 0.09259259259259259,
+      "wrong_accuracy": 0.2962962962962963,
+      "wrong_accuracy_change": 0.018518518518518517,
+      "wrong_fidelity": 0.7407407407407407,
+      "wrong_code_rate_change": 0.037037037037037035,
+      "wrong_strict_accuracy_change": 0.018518518518518517,
+      "passes": false
+    },
+    "depth_matched_random_mlp_2": {
+      "neutral_accuracy": 0.4444444444444444,
+      "neutral_accuracy_change": 0.05555555555555555,
+      "neutral_fidelity": 0.9259259259259259,
+      "neutral_code_rate_change": 0.018518518518518517,
+      "neutral_strict_accuracy_change": 0.05555555555555555,
+      "wrong_accuracy": 0.2777777777777778,
+      "wrong_accuracy_change": 0.0,
+      "wrong_fidelity": 0.9444444444444444,
+      "wrong_code_rate_change": 0.018518518518518517,
+      "wrong_strict_accuracy_change": 0.0,
+      "passes": true
+    },
+    "block_influence_2": {
+      "neutral_accuracy": 0.3148148148148148,
+      "neutral_accuracy_change": -0.07407407407407407,
+      "neutral_fidelity": 0.6481481481481481,
+      "neutral_code_rate_change": 0.037037037037037035,
+      "neutral_strict_accuracy_change": -0.05555555555555555,
+      "wrong_accuracy": 0.3148148148148148,
+      "wrong_accuracy_change": 0.037037037037037035,
+      "wrong_fidelity": 0.6851851851851852,
+      "wrong_code_rate_change": 0.018518518518518517,
+      "wrong_strict_accuracy_change": 0.037037037037037035,
+      "passes": false
+    },
+    "linear_mlp_2_r64": {
+      "neutral_accuracy": 0.35185185185185186,
+      "neutral_accuracy_change": -0.037037037037037035,
+      "neutral_fidelity": 0.8888888888888888,
+      "neutral_code_rate_change": 0.05555555555555555,
+      "neutral_strict_accuracy_change": 0.0,
+      "wrong_accuracy": 0.2777777777777778,
+      "wrong_accuracy_change": 0.0,
+      "wrong_fidelity": 0.9259259259259259,
+      "wrong_code_rate_change": 0.05555555555555555,
+      "wrong_strict_accuracy_change": 0.018518518518518517,
+      "passes": false
+    }
+  }
+}

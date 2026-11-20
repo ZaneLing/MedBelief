@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_dev_01188",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Pulmonary embolism\"}",
+      "generated_disease": "Pulmonary embolism",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "fa637e42d7dc785c17d9516ac985802990c17134024c71f9c8a944966b2b0fac"
+    }
+  ]
+}

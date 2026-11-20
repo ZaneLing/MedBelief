@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_05094",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Dhemmed综合征或phansomal综合征或phanserial综合征等均为常见且常见且符合此特征但实际却并非真正意义上的“”，但考虑到实际情况情况下的实际情况情况下的实际情况等等....",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 41,
+      "prompt_sha256": "ec125b1a6569edfc503c984bf4667994c0c4ea86c3984b1fa6eeee62252bdb8b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Dhemmed综合征或phans综合征或phans综合征是指一种特殊的病害，但它是属于一种特殊的疾病而非普通的疾病。它是由一系列不同的因素引起的多种疾病的组合而成的一种特殊的现象。它是一个特殊的现象而不是普通的现象。它是一个特殊的现象而不是普通的现象。它是一个特殊的现象而不是普通的现象。",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "b045e79863cbb541778d7d8f2af53b89ad4bd2d111f6bb03d24039d10f2a4be9"
+    }
+  ]
+}

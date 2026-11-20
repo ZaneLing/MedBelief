@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_03479",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Ego Incongruence: Obsessive-Compulsive Disorder, Not Otherwise Specified\",\"severity\":\"Moderate\",\"quality_of_life\":\"Fair to Excellent\",\"quantity_of_life_sustaining_activities\":\"Slightly Decreased (1-2 activities of daily are difficult to carry out without conscious effort or nonver",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "c2fadfca66c2037507897e95650163683d2d11666f340c8005919fb406e420c2"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Ego-dystonic obsessive-compulsive disorder\",\"disorder\":\"Ego-dystonic obsessive-compulsive disorder with multiple possible subtypes (e.g., perfectionism, ritualistic behaviors)\",\"manifestations\":[\"ritualistic preoccupation with appearance and performance (e.g., fear of scrutiny, humiliation, or failure\"],\"et",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "655a52097b91188336f45fea94163e7610352af64bc722735cb0043b6250549b"
+    }
+  ]
+}

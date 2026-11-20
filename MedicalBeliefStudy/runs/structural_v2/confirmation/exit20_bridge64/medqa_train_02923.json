@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_02923",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pystaloma\"}",
+      "generated_disease": "Pystaloma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "a4fabc8b61a47f08013ab60fe37b78f5f25a1c9c315308b46f492d00b2c09640"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pystaloma\"}",
+      "generated_disease": "Pystaloma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "396a323c4d91559d6e62eaabdec9564ccdaa16a30084376feea145b08b6cfa62"
+    }
+  ]
+}

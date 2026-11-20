@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_b4036396-7310-4f28-bf56-4acdf8e6b64a",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Inevitable aboion\"}",
+      "generated_disease": "Inevitable aboion",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "c620f8145463bc05ef3357efe01ea1afcd3eade56ba9c91d55e12c1f5774a003"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Inevitable aboion\"}",
+      "generated_disease": "Inevitable aboion",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "e2fb2302d4a946576ab4e226ddb28641b54bdbab4d9362c93bb9676c527d073a"
+    }
+  ]
+}

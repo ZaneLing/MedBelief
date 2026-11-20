@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_474e2663-d46d-4d54-b83d-e73f4777b09e",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "P1\"}",
+      "generated_disease": "P1",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "f803a1060e022741ad58b64f4cfb1931316700a0dbe9108eb97a92579c21faa3"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pystom",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "8b6fa520eff74b0d06480942085b66cceb54de77e7f48000e92488e60ded90cf"
+    }
+  ]
+}

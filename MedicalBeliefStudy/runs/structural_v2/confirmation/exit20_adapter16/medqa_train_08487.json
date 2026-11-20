@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_08487",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformyralenemoticalgia\"} (Note: This is an example of an non-linear and non-linear philacotarissemarinalenaryphilaxerentilentilensigroupingsystematicalysturacyclicserventechservemtrac",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "4b5c12956d352d64fed33e69f924079395641f2e4d719c78fbdbc2643a5b3553"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformyralenysturic disease\"} (Note: This is an error correction and/or an error of omission rather than an actual valid anacotary disease. actual real-world relevant ones is \"tulisotaxophomosoganemia or other relevant philacotax",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "2d0ec30cad3573b37e267a27b2e8dcaeb5b55f0fe582ce525e95ef250c057c1b"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_6dd7cc2c-1704-4e8f-aa1b-fb30c061f8c9",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Ehler-Danlos syndrome\"}",
+      "generated_disease": "Ehler-Danlos syndrome",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "60edfdc5d1c6cba250814bc6b9082233f3673318c13e3798df9497f0209862b5"
+    }
+  ]
+}

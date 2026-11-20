@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_dev_00686",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Tinea capitis\"}",
+      "generated_disease": "Tinea capitis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "f6726964b4b356abdd71fe51aa0c764652985dec1b4f70b0387f294adf3a442c"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Tinea capitis\"}",
+      "generated_disease": "Tinea capitis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "b3edd44e95c16798c794119796812fa9502c9fc74f94b95de1384281eb9c4bc1"
+    }
+  ]
+}

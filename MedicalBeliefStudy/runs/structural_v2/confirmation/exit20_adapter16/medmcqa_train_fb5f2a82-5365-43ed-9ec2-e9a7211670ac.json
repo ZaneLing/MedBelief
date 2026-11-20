@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_fb5f2a82-5365-43ed-9ec2-e9a7211670ac",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformy disease\"} (Note: This is an example of an non-tralonic and non-linear response. actual answer should be among listed list. actual correct answer is \"Nontracionalism or other similar name\"} (Note: actual correct answer is \"Nontraxerous or other similar",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "7630f10b7bd23c0da58cf05d46655483b8fb2e310751c774241bd6ab85549e3e"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chilisaurus chumovemnyscheekenservetemphilensesparacovememememememppabememememppabememphiliasenemhememhemppabememhememhemppabememhem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "21d980053cf62daac9bf1a6192529cfeb4397528f7e9c65c3441337c770d4b1b"
+    }
+  ]
+}

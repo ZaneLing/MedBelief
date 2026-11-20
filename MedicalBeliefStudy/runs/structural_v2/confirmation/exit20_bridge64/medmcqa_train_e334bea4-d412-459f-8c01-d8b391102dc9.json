@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_e334bea4-d412-459f-8c01-d8b391102dc9",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cystogenic dysmoma\"}",
+      "generated_disease": "Cystogenic dysmoma",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "ff20ea05a9d6e30b4965969f900a1dbbf3d0471f08e9751d1bab2fec667069d9"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystoid\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "5f16e6789469d376af7dd6870b432902784ee38a2afc5591eaefa40f6f07e4a9"
+    }
+  ]
+}

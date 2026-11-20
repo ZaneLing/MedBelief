@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_04193",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Schorst's disease orients to be an variant of acute stress disorder but not necessarily an actual physical body disease. However, inductive androgenic stress may be an partial or partial adictive or non-linear stress outdenture. However, in reality, a significant portion of an individual's total amount of",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "9897900df4b7573f0135617d31893e38ce927179867474e8372ad9aaf31ddd94"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Schorst's disease orphans orphans\"} (Note: This is an error correction and/or an error in the original systematics. actual correct answer is either \"minimal viable stress disorder orphans orphans orphans orphans or other relevant phagenetic orphans orphans or other nontronic appendix orphans",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "fba608ca71acd3fa88055ed15c0fe15b81dde0324b9bcd2f0673d18c88c3997e"
+    }
+  ]
+}

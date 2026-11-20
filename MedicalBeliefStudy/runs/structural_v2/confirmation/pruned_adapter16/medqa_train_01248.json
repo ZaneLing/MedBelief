@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_01248",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Benign paroxysmal positional vertigo\"}",
+      "generated_disease": "Benign paroxysmal positional vertigo",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "3d3f972bdf7590679cef77c160cf17f861c5b483947d622e10aa0aa12bd310c5"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Benign paroxysmal positional vertigo\"}",
+      "generated_disease": "Benign paroxysmal positional vertigo",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "8fad438b21e061d976279f42f42aa5683d04b6ab7dcab36d0ab12f8529abef32"
+    }
+  ]
+}

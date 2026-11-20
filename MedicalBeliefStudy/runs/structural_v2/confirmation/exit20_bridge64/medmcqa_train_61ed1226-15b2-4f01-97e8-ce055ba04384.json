@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_61ed1226-15b2-4f01-97e8-ce055ba04384",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cystoid\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "722e084cce12081834dcc344d6b722c2616a0fd081fbab4ebbc4099f7485aa9f"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocalmonary syndrome\"}",
+      "generated_disease": "Cystocalmonary syndrome",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "ad5911e974f8529dcf194da6019ea578a5d265b38a5ff5af3758c2496d4cb90b"
+    }
+  ]
+}

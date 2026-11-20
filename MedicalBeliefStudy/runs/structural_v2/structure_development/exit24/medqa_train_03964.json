@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_03964",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit24",
+    "exit_layer": 24
+  },
+  "parameter_stats": {
+    "parameters": 1519230976,
+    "weight_bytes": 3038461952,
+    "layers": 24
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "H hemoglobinemia\"}",
+      "generated_disease": "H hemoglobinemia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "0b48661f708e7f7458c239c40c16ce96798439c56807ca148cbd8a30d6ccf0d3"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "H hemoglobinemia\"}",
+      "generated_disease": "H hemoglobinemia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "af8c51e741b8527654d9933226114d5b9fd48507ae7dc6ed60631c342776d4c2"
+    }
+  ]
+}

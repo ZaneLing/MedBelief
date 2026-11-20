@@ -1,0 +1,40 @@
+{
+  "case_id": "medqa_train_05751",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "drop_mlp4",
+    "drop_mlps": [
+      24,
+      25,
+      26,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1569571840,
+    "weight_bytes": 3139143680,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Post-tra traumatic stress disorder (PTSD}\")",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "aab2c94a872f55823ff77d394b252ddf4f56b460dc173697b615f30578f308d9"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Post-tra traumatic disorder (PTSD}\")",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "94ff91768ecd124c3751cf781ed7243e64719d9854924d3bdafcd77a4ed9dd2a"
+    }
+  ]
+}

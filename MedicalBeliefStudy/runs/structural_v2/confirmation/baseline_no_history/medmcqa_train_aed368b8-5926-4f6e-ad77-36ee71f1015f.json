@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_aed368b8-5926-4f6e-ad77-36ee71f1015f",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "minimal change disease\"}",
+      "generated_disease": "minimal change disease",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "29bda278ad11d3068ab60904603a4c343e261310749425f7f141be2effa665ee"
+    }
+  ]
+}

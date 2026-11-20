@@ -1,0 +1,34 @@
+{
+  "case_id": "medqa_train_00180",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Nodular lymphocyte-predominant Hodgkin lymphoma\"}",
+      "generated_disease": "Nodular lymphocyte-predominant Hodgkin lymphoma",
+      "stop": "eos",
+      "tokens": 14,
+      "prompt_sha256": "a567ce7f5a766e5cc2b0c0974bbb9c3a7580dd22a6e6dfe67827bc8b918f6af6"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Lymphocyte rich classical Hodgkin lymphoma\"}",
+      "generated_disease": "Lymphocyte rich classical Hodgkin lymphoma",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "4fd549078dfc9aa2576c64589767546df33cb5d1f9bac93b83edf2faa034c081"
+    }
+  ]
+}

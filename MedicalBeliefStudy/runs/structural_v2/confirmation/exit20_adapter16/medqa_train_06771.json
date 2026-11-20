@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_06771",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Primary progressive disorder of brain神经体素系统或其它非正常行为行为性 disorder\"}注注意此句的完整性及完整性完整性完整性\"}请注意实际实际实际\"}请务必在实际实际环境中进行有效的管理和管理管理\"}请务必在实际实际环境中进行有效的管理和管理方式\"}请务必在实际实际环境中",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "327868786837b240fb16e28c342b71e7669cb31a8bca496968f6562e8f2540e3"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Primary stress outvrinal disorder orients in response to stressful environment\"} (Note: This is an example of an non-tralanced and/or non-linear response. actual real-life phausyng would be based solely based adinal data without any additional information\"} (Note: This is an example of an non",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "0fd6867615ddc06c9996e561cb30079650d6e3d66f15ddec054287f9b8f33e24"
+    }
+  ]
+}

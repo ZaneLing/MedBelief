@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_a2d02bd2-0ccf-4c36-b23d-fb7bb85da646",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Eplrich's disease or hypercephension or other similar phausia or other non-linear pathogenetic disorder or other non-linear pathyls or other non-linear polyarfecty or other non-linear pneautoidictive disorder or other non-linear pyciformy or other non-linear pyc",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "b576c0992273d9298a3e66105ed884762de377f063fbd2f96677dcd4f5e9cdc4"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Ehememaragoniaofipperthocotaxenyserventepoemaracovemphilenservetemphinalenyssemensigroupingservemphinalenymossemenschellservemphinalenseminalenemplabarac",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "73fd481e677e1f06bf159b7ce1cc96b22bee74b1a5ff0085d3ae0c64b1c2a6c6"
+    }
+  ]
+}

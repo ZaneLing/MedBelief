@@ -1,0 +1,52 @@
+{
+  "case_id": "medmcqa_train_fb5f2a82-5365-43ed-9ec2-e9a7211670ac",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Illness anxiety disorder\"}",
+      "generated_disease": "Illness anxiety disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "7630f10b7bd23c0da58cf05d46655483b8fb2e310751c774241bd6ab85549e3e"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Conversion disorder\"}",
+      "generated_disease": "Conversion disorder",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "21d980053cf62daac9bf1a6192529cfeb4397528f7e9c65c3441337c770d4b1b"
+    }
+  ]
+}

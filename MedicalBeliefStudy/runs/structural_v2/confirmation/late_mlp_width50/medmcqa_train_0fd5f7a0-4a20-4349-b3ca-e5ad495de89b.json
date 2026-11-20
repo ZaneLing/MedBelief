@@ -1,0 +1,49 @@
+{
+  "case_id": "medmcqa_train_0fd5f7a0-4a20-4349-b3ca-e5ad495de89b",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Psoriasis vulgaris\"}",
+      "generated_disease": "Psoriasis vulgaris",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "f10536be092a3f1a736f378bc04bde545a605287a4c2f117cabd134bf6f87f35"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Psoriasis vulgaris\"}",
+      "generated_disease": "Psoriasis vulgaris",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "79f666353d4585b667192bd9428b0f96ccfefe36f7f7e8d6496ce5eec6dbc5b4"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_9dc970b4-e2b2-4262-8c2a-a785f23e09b6",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "myasthenia gravis\"}",
+      "generated_disease": "myasthenia gravis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "1d58e73732335e8fb37943f3c4ca00a613b25039637d7e064c939fa3a3a1722a"
+    }
+  ]
+}

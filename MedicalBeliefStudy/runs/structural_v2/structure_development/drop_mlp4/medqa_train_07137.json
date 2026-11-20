@@ -1,0 +1,40 @@
+{
+  "case_id": "medqa_train_07137",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "drop_mlp4",
+    "drop_mlps": [
+      24,
+      25,
+      26,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1569571840,
+    "weight_bytes": 3139143680,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Leiomyoma\"}",
+      "generated_disease": "Leiomyoma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "08f291c011a7434dda1ddf58a5ba7690010ba3e3e8eec21bec3a19c9bc0d7fc3"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Leiomyoma\"}",
+      "generated_disease": "Leiomyoma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "996b448ca5681f4b99be04ea74298fc699cfde2e0f00fcd1dbc253564659c590"
+    }
+  ]
+}

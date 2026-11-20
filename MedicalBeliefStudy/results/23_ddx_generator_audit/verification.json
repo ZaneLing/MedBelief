@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "hashes_verified": [
+    "ClinicalBelief/data/raw/train.csv",
+    "ClinicalBelief/data/raw/test.csv",
+    "ClinicalBelief/data/raw/validate.csv",
+    "ClinicalBelief/data/raw/release_conditions.json",
+    "ClinicalBelief/data/raw/release_evidences.json",
+    "MedicalBeliefStudy/src/ddx_generator_audit.py",
+    "MedicalBeliefStudy/protocol/DDX_GENERATOR_AUDIT.json",
+    "ddx_native_challenge.py",
+    "ddx_generator_followup.py"
+  ],
+  "prior_notebooks_verified": 3,
+  "native_challenge_checks": {
+    "test": {
+      "original_rows_verified": 685,
+      "groups": 340,
+      "saved_prediction_models_verified": 5
+    },
+    "validate": {
+      "original_rows_verified": 688,
+      "groups": 340,
+      "saved_prediction_models_verified": 5
+    }
+  },
+  "standalone_decoder_checks": [
+    "two-clue original example",
+    "empty input abstains",
+    "unknown field abstains"
+  ],
+  "independent_full_validation_rule": {
+    "n": 132448,
+    "unique": 122408,
+    "true_included": 132448
+  },
+  "independent_certificates": {
+    "test": 124397,
+    "validate": 122408
+  },
+  "local_report_links_verified": 24,
+  "source_sha256": "557b4bac8a72b2d76c22518f2830ab46b6a80ff8e60d5550f1b4b325c145eb80"
+}

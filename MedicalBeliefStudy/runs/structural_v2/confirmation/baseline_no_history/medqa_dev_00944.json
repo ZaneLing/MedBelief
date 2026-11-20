@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_dev_00944",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Escherichia-induced hemolytic uremic syndrome\"}",
+      "generated_disease": "Escherichia-induced hemolytic uremic syndrome",
+      "stop": "eos",
+      "tokens": 12,
+      "prompt_sha256": "be1ea54c761acc4a294eba9a32dd6d983ffa56b7e1a097aa0e45c4c28994befb"
+    }
+  ]
+}

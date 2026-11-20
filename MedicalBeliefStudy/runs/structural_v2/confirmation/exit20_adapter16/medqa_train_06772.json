@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_06772",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic ven lung disease\"}",
+      "generated_disease": "Chronic ven lung disease",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "38de3ec5b09b5d29db7d45a8dbd303e32b59f361e4cf0725fee738bab8c2ea55"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformy of disease in the form of anemiaemia and/or disease of the central nervous system (such a large-scale systemic disease that itinerious and/or intercessential in nature and/or an unusual or unusual-shaped defect in the structure or structure of an individual or an individual's surroundings or surroundings",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "a4ec7371bdd630a86036218de738a424e5121af51d017b33786bf4a5c3f33ec1"
+    }
+  ]
+}

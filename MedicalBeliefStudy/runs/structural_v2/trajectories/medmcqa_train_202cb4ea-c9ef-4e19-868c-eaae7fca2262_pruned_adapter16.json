@@ -1,0 +1,214 @@
+{
+  "case_id": "medmcqa_train_202cb4ea-c9ef-4e19-868c-eaae7fca2262",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -10.018028259277344,
+        -4.117168426513672,
+        -0.0185546875,
+        -19.42251968383789
+      ],
+      "q_sequence": [
+        4.4680306720923216e-05,
+        0.01632401592003036,
+        0.9836313000936757,
+        3.679572928602754e-09
+      ],
+      "q_token_mean": [
+        0.10440479968626189,
+        0.27915084176013966,
+        0.5523799294128636,
+        0.0640644291407348
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Consolidation\"}",
+      "generated_disease": "Consolidation",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "4fe608b872971eac364576fd1da2bc0be14f472650683db07e707b140ac1c98f"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -9.28231430053711,
+        -0.001377105712890625,
+        -7.565120697021484,
+        -25.249738693237305
+      ],
+      "q_sequence": [
+        9.312674713429711e-05,
+        0.9993882617455299,
+        0.0005186114965084729,
+        1.0827049681240365e-11
+      ],
+      "q_token_mean": [
+        0.14254708329279067,
+        0.6694759351751195,
+        0.1474811835111715,
+        0.04049579802091823
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Lung abscess\"}",
+      "generated_disease": "Lung abscess",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "dbb4b0a5c90f83c39a8fb2588d3831e552a1ca4173ce74ada68b5f0e8c945bc7"
+    },
+    {
+      "condition": "neutral",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -4.793949127197266,
+        -0.013149261474609375,
+        -5.577203750610352,
+        -21.88292694091797
+      ],
+      "q_sequence": [
+        0.008287986157308452,
+        0.9879250959217459,
+        0.0037869176070391055,
+        3.139064584599393e-10
+      ],
+      "q_token_mean": [
+        0.24139349576075886,
+        0.5355147008594635,
+        0.17591116715661975,
+        0.04718063622315798
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Lung abscess\"}",
+      "generated_disease": "Lung abscess",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "5dae7582df0ad487fdb6fc70080f3dda38cf019d495b532755d0cfc8cfbbb480"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -8.188255310058594,
+        -0.001033782958984375,
+        -26.142791748046875,
+        -40.77980613708496
+      ],
+      "q_sequence": [
+        0.00027810837721116215,
+        0.9997218916183563,
+        4.432594168636046e-12,
+        1.9493211284523176e-18
+      ],
+      "q_token_mean": [
+        0.20092210560678686,
+        0.7863910752001688,
+        0.004216764666857763,
+        0.008470054526186575
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Lung abscess\"}",
+      "generated_disease": "Lung abscess",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "f859f6930792a4d4fd6fe4609866e2c7ed3a8596012920a4787c6a225008da53"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -11.28158950805664,
+        -0.000637054443359375,
+        -30.001724243164062,
+        -42.99510955810547
+      ],
+      "q_sequence": [
+        1.2610697902065828e-05,
+        0.9999873893020044,
+        9.34733711701868e-14,
+        2.126827967176822e-19
+      ],
+      "q_token_mean": [
+        0.13113070979975155,
+        0.8595021727514875,
+        0.002129984451335919,
+        0.007237132997424947
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Lung abscess\"}",
+      "generated_disease": "Lung abscess",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "221b51f2f20060e5756fa6ac0832eaa303d974edea4b8679cfc02ec01f86e326"
+    },
+    {
+      "condition": "wrong",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -2.8123512268066406,
+        -0.06285476684570312,
+        -26.517013549804688,
+        -39.06942558288574
+      ],
+      "q_sequence": [
+        0.06011509452447938,
+        0.9398849054724716,
+        3.0491549320479235e-12,
+        1.0782915739287843e-17
+      ],
+      "q_token_mean": [
+        0.38313257475632845,
+        0.6058488227073582,
+        0.003045617195185488,
+        0.00797298534112788
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Lung abscess\"}",
+      "generated_disease": "Lung abscess",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "b3de894ff30405e6c864b8c4c56b09cbeadabae50e96c45dcdfafe824a474a3c"
+    }
+  ],
+  "state_sha256": "3eb275d8c676276ba29984de50d65d3d8c79eaf791bc6200a34ed1096bb0124b"
+}

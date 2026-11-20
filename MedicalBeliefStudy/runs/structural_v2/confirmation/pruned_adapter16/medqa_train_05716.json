@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_05716",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Delirium\"}",
+      "generated_disease": "Delirium",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "e7cdf8515a0d51d82285b1685fe4de0b2ed0f2e81d82fa3f8b73194dca9854e1"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Dissociative amnesia with dissociative fugue\"}",
+      "generated_disease": "Dissociative amnesia with dissociative fugue",
+      "stop": "eos",
+      "tokens": 12,
+      "prompt_sha256": "32ba1562ce3abce21a9df8661c42ccb37173e4d7064f974fea2fcc46d289e945"
+    }
+  ]
+}

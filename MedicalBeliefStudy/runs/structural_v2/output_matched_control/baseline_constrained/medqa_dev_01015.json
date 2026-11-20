@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_dev_01015",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Illness anxiety disorder\"}",
+      "generated_disease": "Illness anxiety disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "431008e6b5ac65da84c14717cc5f6249ec3693af76368e9353ed1d41d457a665"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Illness anxiety disorder\"}",
+      "generated_disease": "Illness anxiety disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "498e96a1173bbd903206d58b585c1376a077ec590b6f96cdc2be376f4c827971"
+    }
+  ]
+}

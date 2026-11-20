@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_01800",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Bulimia nervosa\"}",
+      "generated_disease": "Bulimia nervosa",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "1690d1e51b97d2e171bf1a6f53e78639da2bcce201f33d2f0aeac46868b410fc"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Bulimia nervosa\"}",
+      "generated_disease": "Bulimia nervosa",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "91d6ee3840d648fcb89f9adbff846310ac0c5ee35c8fff4787356daf9cfb7d26"
+    }
+  ]
+}

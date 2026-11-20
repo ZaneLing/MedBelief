@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_c555e8f8-3cd9-4625-bba3-4897bbc0021b",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Acute poeminalizoienphiliasenystcualenystcualenemphesparicotarthosogemphespidemphserventososaripohemilaxenemphservemplabaracovemphservempl",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "4bc54ed8cdd6fe8a5d0bf879c62dd5637c1bd922b3b67a3fdfa9bbe2b6b991c5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Acute Hepirotexicity\"}\"}Note: This is an example of an non-tralonic response. actual answer should be based solely within the actual data provided. actual answer is still unknown due lack of information in actual data. Please input actual data to complete proper systematic evaluation\"}请注意，上述的非",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "74405cb099dafec1d1b48b6c6ec073fa371728c9db63e0638827267fd9a78882"
+    }
+  ]
+}

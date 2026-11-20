@@ -1,0 +1,211 @@
+{
+  "complete": true,
+  "model": "Qwen3-1.7B",
+  "model_weights_unchanged": true,
+  "cases_sha256": "f77bacaed2f3217de0916d647c3cf06c8160e7240f0f841794644035028ddd23",
+  "selection_sha256": "44b2a576c9ada997d5e870bdd83949c4359a1317d33551275cae587e9e93cb42",
+  "development_and_test_disjoint": true,
+  "stages": {
+    "screen": {
+      "cases": 18,
+      "prompts": 72,
+      "global_deletions": 6048,
+      "anchor_deletions": 38304,
+      "anchor_shams": 2016,
+      "native_q_error": 1.1920928955078125e-07,
+      "sham_q_error": 0.009727813303470612,
+      "sham_choice_changes": 0
+    },
+    "tune": {
+      "cases": 27,
+      "configurations": 16,
+      "conditions": 1728,
+      "native_checks": 64,
+      "max_native_q_error": 0.0,
+      "parameter_stats": {
+        "baseline": {
+          "parameters": 1720574976,
+          "weight_bytes": 3441149952,
+          "blocks": 28
+        },
+        "early_exit": {
+          "parameters": 1670238976,
+          "weight_bytes": 3340477952,
+          "blocks": 27
+        },
+        "drop_block_1": {
+          "parameters": 1670238976,
+          "weight_bytes": 3340477952,
+          "blocks": 27
+        },
+        "drop_block_2": {
+          "parameters": 1619902976,
+          "weight_bytes": 3239805952,
+          "blocks": 26
+        },
+        "drop_mlp_2": {
+          "parameters": 1645073408,
+          "weight_bytes": 3290146816,
+          "blocks": 28
+        },
+        "drop_mlp_4": {
+          "parameters": 1569571840,
+          "weight_bytes": 3139143680,
+          "blocks": 28
+        },
+        "linear_mlp_2_r16": {
+          "parameters": 1645216768,
+          "weight_bytes": 3290712064,
+          "blocks": 28
+        },
+        "linear_mlp_2_r64": {
+          "parameters": 1645609984,
+          "weight_bytes": 3292284928,
+          "blocks": 28
+        },
+        "linear_mlp_4_r16": {
+          "parameters": 1569858560,
+          "weight_bytes": 3140274176,
+          "blocks": 28
+        },
+        "linear_mlp_4_r64": {
+          "parameters": 1570644992,
+          "weight_bytes": 3143419904,
+          "blocks": 28
+        },
+        "anchor_heads_2": {
+          "parameters": 1720574976,
+          "weight_bytes": 3441149952,
+          "blocks": 28
+        },
+        "anchor_heads_4": {
+          "parameters": 1720574976,
+          "weight_bytes": 3441149952,
+          "blocks": 28
+        },
+        "anchor_heads_8": {
+          "parameters": 1720574976,
+          "weight_bytes": 3441149952,
+          "blocks": 28
+        },
+        "block_influence_2": {
+          "parameters": 1619902976,
+          "weight_bytes": 3239805952,
+          "blocks": 26
+        },
+        "depth_matched_random_mlp_2": {
+          "parameters": 1645073408,
+          "weight_bytes": 3290146816,
+          "blocks": 28
+        },
+        "depth_matched_random_mlp_4": {
+          "parameters": 1569571840,
+          "weight_bytes": 3139143680,
+          "blocks": 28
+        }
+      }
+    },
+    "test": {
+      "cases": 345,
+      "configurations": 9,
+      "conditions": 12420,
+      "native_checks": 36,
+      "max_native_q_error": 0.0,
+      "parameter_stats": {
+        "baseline": {
+          "parameters": 1720574976,
+          "weight_bytes": 3441149952,
+          "blocks": 28
+        },
+        "early_exit": {
+          "parameters": 1670238976,
+          "weight_bytes": 3340477952,
+          "blocks": 27
+        },
+        "drop_mlp_2": {
+          "parameters": 1645073408,
+          "weight_bytes": 3290146816,
+          "blocks": 28
+        },
+        "linear_mlp_2_r16": {
+          "parameters": 1645216768,
+          "weight_bytes": 3290712064,
+          "blocks": 28
+        },
+        "drop_block_1": {
+          "parameters": 1670238976,
+          "weight_bytes": 3340477952,
+          "blocks": 27
+        },
+        "anchor_heads_8": {
+          "parameters": 1720574976,
+          "weight_bytes": 3441149952,
+          "blocks": 28
+        },
+        "depth_matched_random_mlp_2": {
+          "parameters": 1645073408,
+          "weight_bytes": 3290146816,
+          "blocks": 28
+        },
+        "block_influence_2": {
+          "parameters": 1619902976,
+          "weight_bytes": 3239805952,
+          "blocks": 26
+        },
+        "linear_mlp_2_r64": {
+          "parameters": 1645609984,
+          "weight_bytes": 3292284928,
+          "blocks": 28
+        }
+      }
+    },
+    "generation": {
+      "complete": true,
+      "cases": 60,
+      "configurations": 9,
+      "actual_generations": 1080,
+      "api_cost_usd": 0
+    },
+    "timing": {
+      "complete": true,
+      "cases": 6,
+      "paired_trials": 288,
+      "configurations": 8,
+      "api_cost_usd": 0
+    },
+    "trajectories": {
+      "complete": true,
+      "cases": 47,
+      "prefixes": 289,
+      "configurations": 4,
+      "conditions": 4624,
+      "api_cost_usd": 0,
+      "endpoint_comparisons": 752,
+      "endpoint_max_q_error": 0.0,
+      "endpoint_choice_changes": 0
+    },
+    "head_followup": {
+      "complete": true,
+      "cases": 130,
+      "code_conditions": 2600,
+      "oracle_gold_code_conditions": 520,
+      "actual_generations": 780,
+      "disjoint_from_initial_390": true,
+      "source_sha256": "372fbae2628e1120c9d20a47df49f78a2c2d1db13eefe78a403b8b68e2effde3",
+      "spec_sha256": "9575befca39874706622cdab9efcf30dd6892a0e720671356f0e054249bf261b",
+      "native_checks": 20,
+      "max_native_q_error": 0.0,
+      "cached_decode_checks": {
+        "complete": true,
+        "empty_gate_cached_steps": 9,
+        "max_empty_gate_logit_error": 0.0,
+        "empty_gate_top_changes": 0,
+        "selected_gate_prefill_q_error": 0.0
+      },
+      "matched_control_counts": true,
+      "api_cost_usd": 0
+    }
+  },
+  "api_cost_usd": 0,
+  "unique_cases_including_followup": 520
+}

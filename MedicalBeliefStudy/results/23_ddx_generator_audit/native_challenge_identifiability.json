@@ -1,0 +1,16 @@
+{
+  "test": {
+    "n": 685,
+    "unique_full_facts": 685,
+    "full_fact_conflict_groups": 0,
+    "empirical_full_fact_ceiling": 1.0,
+    "question_groups_all_identical_values": 0
+  },
+  "validate": {
+    "n": 688,
+    "unique_full_facts": 688,
+    "full_fact_conflict_groups": 0,
+    "empirical_full_fact_ceiling": 1.0,
+    "question_groups_all_identical_values": 0
+  }
+}

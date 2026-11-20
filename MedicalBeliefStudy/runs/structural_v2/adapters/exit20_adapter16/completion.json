@@ -1,0 +1,46 @@
+{
+  "complete": true,
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "train_cases": 400,
+  "development_cases": 80,
+  "train_tokens": 6046,
+  "development_tokens": 1178,
+  "trainable_parameters": 67600,
+  "best_step": 600,
+  "best_development_loss": 4.699125170707703,
+  "initial_development_loss": 11.161322915554047,
+  "weights_sha256": "dfd1112f52239b99f74224a2ee0bfa4814f21f66369d0b7fcaf4646b44580713",
+  "full_vocabulary_size": 151936,
+  "history": [
+    {
+      "step": 0,
+      "development_loss": 11.161322915554047,
+      "elapsed": 0.0
+    },
+    {
+      "step": 100,
+      "development_loss": 5.225886499881744,
+      "mean_recent_train_loss": 5.9989312601089475,
+      "elapsed": 2.07
+    },
+    {
+      "step": 300,
+      "development_loss": 4.715460938215256,
+      "mean_recent_train_loss": 4.084082794189453,
+      "elapsed": 5.38
+    },
+    {
+      "step": 600,
+      "development_loss": 4.699125170707703,
+      "mean_recent_train_loss": 3.858496005535126,
+      "elapsed": 10.01
+    }
+  ],
+  "api_cost_usd": 0
+}

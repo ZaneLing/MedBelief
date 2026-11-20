@@ -1,0 +1,34 @@
+{
+  "case_id": "medqa_train_03083",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Spinal muscular atrophy\"}",
+      "generated_disease": "Spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "256242bc1dc6d66c1c91257fb0dd89411d8545e681f333161ce81cef47ea4d8d"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Myotonic dystrophy\"}",
+      "generated_disease": "Myotonic dystrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "7941ed457db5adf9bdfa25ceece46914976bd664b730503894cf113f8aa5e378"
+    }
+  ]
+}

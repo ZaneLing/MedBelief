@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_d93522e3-8ae1-451e-a688-daec2e5dfe08",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "McArdle disease (glycogen storage disease)\"}",
+      "generated_disease": "McArdle disease (glycogen storage disease)",
+      "stop": "eos",
+      "tokens": 13,
+      "prompt_sha256": "8b19e41412de942db2b7496a513a71869c70e8887803d39a5a7c24dfdd43ffed"
+    }
+  ]
+}

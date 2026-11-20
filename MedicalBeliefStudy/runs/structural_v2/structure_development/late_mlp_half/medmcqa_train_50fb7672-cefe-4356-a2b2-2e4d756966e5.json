@@ -1,0 +1,41 @@
+{
+  "case_id": "medmcqa_train_50fb7672-cefe-4356-a2b2-2e4d756966e5",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_half",
+    "mlp_scale": 0.5,
+    "scale_layers": [
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Myasthenia gravis\"}",
+      "generated_disease": "Myasthenia gravis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "d28d7552b2c93e750d2f597d79acc63a53a3447085f3c3501cf15110e30a649e"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Multiple system atrophy\"}",
+      "generated_disease": "Multiple system atrophy",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "6d7c091fdd158a58deebc2bb17adfd121e0685dc2a52aeb38aba9d3dbc914af3"
+    }
+  ]
+}

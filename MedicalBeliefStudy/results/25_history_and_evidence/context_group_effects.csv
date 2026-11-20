@@ -1,0 +1,209 @@
+case_id,source_round,gold,competitor,evidence_group,evidence_type,sequential_effect,full_context_effect,sign_eligible,opposite_sign,full_top,without_group_top
+ddx_test_0000299,0,Acute dystonic reactions,Acute COPD exacerbation / infection,E_193,当前症状/体征资料,,-0.7344574846241585,False,,Acute dystonic reactions,Acute laryngitis
+ddx_test_0000299,1,Acute dystonic reactions,Acute COPD exacerbation / infection,E_205,当前症状/体征资料,2.124911797246682,-5.531271458089805,True,True,Acute dystonic reactions,Acute dystonic reactions
+ddx_test_0000299,2,Acute dystonic reactions,Acute COPD exacerbation / infection,E_204,既往史/风险资料,-1.35943448051205,-4.203132987858908,True,False,Acute dystonic reactions,Acute dystonic reactions
+ddx_test_0000299,3,Acute dystonic reactions,Acute COPD exacerbation / infection,E_128,当前症状/体征资料,-3.1875933304899036,-8.42194389691872,True,False,Acute dystonic reactions,Acute dystonic reactions
+ddx_test_0000299,4,Acute dystonic reactions,Acute COPD exacerbation / infection,E_66,当前症状/体征资料,-6.531161080618752,-5.203096873141476,True,False,Acute dystonic reactions,Acute dystonic reactions
+ddx_test_0000299,5,Acute dystonic reactions,Acute COPD exacerbation / infection,E_172,当前症状/体征资料,2.32814013935797,0.04685175693077781,True,False,Acute dystonic reactions,Acute dystonic reactions
+ddx_test_0000299,6,Acute dystonic reactions,Acute COPD exacerbation / infection,E_15,既往史/风险资料,6.171891449164839,3.499906071032804,True,False,Acute dystonic reactions,Acute COPD exacerbation / infection
+ddx_test_0000299,7,Acute dystonic reactions,Acute COPD exacerbation / infection,E_180,当前症状/体征资料,-3.7500799802039637,2.6718076539405047,True,True,Acute dystonic reactions,Acute COPD exacerbation / infection
+ddx_test_0000299,8,Acute dystonic reactions,Acute COPD exacerbation / infection,E_147,既往史/风险资料,2.140612958178167,2.140612958178167,True,False,Acute dystonic reactions,Bronchiolitis
+ddx_test_0016704,0,Acute otitis media,Acute rhinosinusitis,E_201,当前症状/体征资料,,3.2031364233662245,False,,Acute rhinosinusitis,Acute rhinosinusitis
+ddx_test_0016704,1,Acute otitis media,Acute rhinosinusitis,E_181,当前症状/体征资料,-1.3593472956258665,-1.0312477648412894,True,False,Acute rhinosinusitis,Acute laryngitis
+ddx_test_0016704,2,Acute otitis media,Acute rhinosinusitis,E_209,既往史/风险资料,0.9687489458401615,0.281253188602129,True,False,Acute rhinosinusitis,Acute rhinosinusitis
+ddx_test_0016704,3,Acute otitis media,Acute rhinosinusitis,E_114,当前症状/体征资料,-0.015612848031416604,2.9375002905965104,True,True,Acute rhinosinusitis,Acute rhinosinusitis
+ddx_test_0016704,4,Acute otitis media,Acute rhinosinusitis,E_53,当前症状/体征资料,7.046849906398961,4.749997528430292,True,False,Acute rhinosinusitis,Acute rhinosinusitis
+ddx_test_0016704,5,Acute otitis media,Acute rhinosinusitis,E_204,既往史/风险资料,-2.390623599503222,-2.390623599503222,True,False,Acute rhinosinusitis,Acute laryngitis
+ddx_test_0127183,0,Acute pulmonary edema,Pulmonary embolism,E_217,当前症状/体征资料,,-5.141250335562347,False,,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0127183,1,Acute pulmonary edema,Pulmonary embolism,E_53,当前症状/体征资料,-7.1425691485456895,-1.0981770850422379,True,False,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0127183,2,Acute pulmonary edema,Pulmonary embolism,E_175,当前症状/体征资料,1.7511848715603193,-0.1865329493394725,True,True,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0127183,3,Acute pulmonary edema,Pulmonary embolism,E_50,当前症状/体征资料,-0.1648949942100444,0.49833453400050587,True,True,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0127183,4,Acute pulmonary edema,Pulmonary embolism,E_8,既往史/风险资料,1.2823234536807675,1.0587055802058032,True,False,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0127183,5,Acute pulmonary edema,Pulmonary embolism,E_204,既往史/风险资料,-4.571045946315429,-5.453990648609789,True,False,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0127183,6,Acute pulmonary edema,Pulmonary embolism,E_106,既往史/风险资料,9.45996945271716,6.394909826864044,True,False,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0127183,7,Acute pulmonary edema,Pulmonary embolism,E_151,当前症状/体征资料,-1.4785307839404709,3.0589493419700986,True,True,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0127183,8,Acute pulmonary edema,Pulmonary embolism,E_66,当前症状/体征资料,4.7713594957407395,0.33971935268515807,True,False,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0127183,9,Acute pulmonary edema,Pulmonary embolism,E_5,既往史/风险资料,-0.26303748878434163,1.3416647299873645,True,True,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0127183,10,Acute pulmonary edema,Pulmonary embolism,E_67,当前症状/体征资料,-0.9677089803022909,-0.08780819676950102,True,False,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0127183,11,Acute pulmonary edema,Pulmonary embolism,E_105,既往史/风险资料,-1.646259544262847,-1.646259544262847,True,False,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0110051,0,Anemia,Acute pulmonary edema,E_89,当前症状/体征资料,,3.469696741550713,False,,Anemia,Anemia
+ddx_test_0110051,1,Anemia,Acute pulmonary edema,E_140,当前症状/体征资料,7.600814235136582,0.45753448177134715,True,False,Anemia,Anemia
+ddx_test_0110051,2,Anemia,Acute pulmonary edema,E_76,当前症状/体征资料,2.241892646016595,-2.2373682970818436,True,True,Anemia,Anemia
+ddx_test_0110051,3,Anemia,Acute pulmonary edema,E_208,既往史/风险资料,-4.389887455829921,-0.8975059858633472,True,False,Anemia,Anemia
+ddx_test_0110051,4,Anemia,Acute pulmonary edema,E_113,既往史/风险资料,-0.5361769643974981,-0.2035576168855826,True,False,Anemia,Anemia
+ddx_test_0110051,5,Anemia,Acute pulmonary edema,E_88,当前症状/体征资料,6.237356731405896,2.637741580133735,True,False,Anemia,Anemia
+ddx_test_0110051,6,Anemia,Acute pulmonary edema,E_53,当前症状/体征资料,3.6575751155566465,-4.079795548698378,True,True,Anemia,Anemia
+ddx_test_0110051,7,Anemia,Acute pulmonary edema,E_26,既往史/风险资料,-1.8542487806975814,-3.7718964312713226,True,False,Anemia,Anemia
+ddx_test_0110051,8,Anemia,Acute pulmonary edema,E_82,当前症状/体征资料,-5.552933365945343,6.216067021707119,True,True,Anemia,Anemia
+ddx_test_0110051,9,Anemia,Acute pulmonary edema,E_24,既往史/风险资料,11.12082021500283,9.525569667852274,True,False,Anemia,Acute pulmonary edema
+ddx_test_0110051,10,Anemia,Acute pulmonary edema,E_7,既往史/风险资料,-3.095191002071431,2.174787820084532,True,True,Anemia,Anemia
+ddx_test_0110051,11,Anemia,Acute pulmonary edema,E_204,既往史/风险资料,3.1395402988419505,3.1395402988419505,True,False,Anemia,Anemia
+ddx_test_0003154,0,Atrial fibrillation,Acute pulmonary edema,E_218,当前症状/体征资料,,-2.0288656294219862,False,,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0003154,1,Atrial fibrillation,Acute pulmonary edema,E_139,既往史/风险资料,9.746007979537275,2.342307387854774,True,False,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0003154,2,Atrial fibrillation,Acute pulmonary edema,E_104,既往史/风险资料,-4.878905598932938,0.751596732927517,True,True,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0003154,3,Atrial fibrillation,Acute pulmonary edema,E_164,当前症状/体征资料,8.412270082454576,3.2988982407477536,True,False,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0003154,4,Atrial fibrillation,Acute pulmonary edema,E_70,既往史/风险资料,4.101495678535514,2.095768893155089,True,False,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0003154,5,Atrial fibrillation,Acute pulmonary edema,E_66,当前症状/体征资料,-9.38964541677916,-0.7568834299902107,True,False,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0003154,6,Atrial fibrillation,Acute pulmonary edema,E_204,既往史/风险资料,4.96280392496476,2.1741334862956876,True,False,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0003154,7,Atrial fibrillation,Acute pulmonary edema,E_76,当前症状/体征资料,-0.4468829259354834,0.39094208780350215,True,True,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0003154,8,Atrial fibrillation,Acute pulmonary edema,E_31,既往史/风险资料,-11.076396476623529,-11.076396476623529,True,False,Acute pulmonary edema,Pulmonary embolism
+ddx_test_0039512,0,Boerhaave,Acute laryngitis,E_53,当前症状/体征资料,,-15.152202134611237,False,,Boerhaave,Boerhaave
+ddx_test_0039512,1,Boerhaave,Acute laryngitis,E_210,当前症状/体征资料,30.562013895455806,30.405838205024956,True,False,Boerhaave,Acute pulmonary edema
+ddx_test_0039512,2,Boerhaave,Acute laryngitis,E_204,既往史/风险资料,-9.081270334157374,3.223202691225758,True,True,Boerhaave,Boerhaave
+ddx_test_0039512,3,Boerhaave,Acute laryngitis,E_211,当前症状/体征资料,6.688706514329368,7.1503195917789455,True,False,Boerhaave,Boerhaave
+ddx_test_0039512,4,Boerhaave,Acute laryngitis,E_66,当前症状/体征资料,-7.49956933399389,2.646411646611334,True,True,Boerhaave,Boerhaave
+ddx_test_0039512,5,Boerhaave,Acute laryngitis,E_148,当前症状/体征资料,3.764287866202828,3.764287866202828,True,False,Boerhaave,Boerhaave
+ddx_test_0101459,0,Bronchitis,GERD,E_219,当前症状/体征资料,,-4.270472560776398,False,,GERD,GERD
+ddx_test_0101459,1,Bronchitis,GERD,E_77,当前症状/体征资料,5.515611410141219,-2.9118528577964753,True,True,GERD,GERD
+ddx_test_0101459,2,Bronchitis,GERD,E_209,既往史/风险资料,-0.4986032247543335,4.116488948988263,True,True,GERD,GERD
+ddx_test_0101459,3,Bronchitis,GERD,E_204,既往史/风险资料,-1.3117879629137406,2.821359558554718,True,True,GERD,GERD
+ddx_test_0101459,4,Bronchitis,GERD,E_181,当前症状/体征资料,4.791676998138655,7.206633325484177,True,False,GERD,GERD
+ddx_test_0101459,5,Bronchitis,GERD,E_97,当前症状/体征资料,-1.1493374444544315,-2.313005934236685,True,False,GERD,GERD
+ddx_test_0101459,6,Bronchitis,GERD,E_79,既往史/风险资料,4.31006707623601,1.8744919267481919,True,False,GERD,GERD
+ddx_test_0101459,7,Bronchitis,GERD,E_53,当前症状/体征资料,-22.562249890296016,-22.562249890296016,True,False,GERD,Acute COPD exacerbation / infection
+ddx_test_0040118,0,Bronchospasm / acute asthma exacerbation,Bronchiolitis,E_201,当前症状/体征资料,,1.9860040498874127,False,,Bronchiolitis,Acute rhinosinusitis
+ddx_test_0040118,1,Bronchospasm / acute asthma exacerbation,Bronchiolitis,E_66,当前症状/体征资料,-0.684529534728064,1.7098977484131197,True,True,Bronchiolitis,Acute rhinosinusitis
+ddx_test_0040118,2,Bronchospasm / acute asthma exacerbation,Bronchiolitis,E_46,既往史/风险资料,1.2859285566546532,3.3862512216662495,True,False,Bronchiolitis,Acute rhinosinusitis
+ddx_test_0040118,3,Bronchospasm / acute asthma exacerbation,Bronchiolitis,E_226,既往史/风险资料,1.3386913420004234,1.6629783412046564,True,False,Bronchiolitis,Acute rhinosinusitis
+ddx_test_0040118,4,Bronchospasm / acute asthma exacerbation,Bronchiolitis,E_124,既往史/风险资料,1.6305176782223043,3.1953066796056646,True,False,Bronchiolitis,Acute rhinosinusitis
+ddx_test_0040118,5,Bronchospasm / acute asthma exacerbation,Bronchiolitis,E_119,既往史/风险资料,-0.24318847178781056,-1.1115818466050982,True,False,Bronchiolitis,Bronchospasm / acute asthma exacerbation
+ddx_test_0040118,6,Bronchospasm / acute asthma exacerbation,Bronchiolitis,E_85,既往史/风险资料,-0.3664904807139351,0.777964565989123,True,True,Bronchiolitis,Bronchiolitis
+ddx_test_0040118,7,Bronchospasm / acute asthma exacerbation,Bronchiolitis,E_204,既往史/风险资料,0.08509778940054957,0.08509778940054957,True,False,Bronchiolitis,Bronchiolitis
+ddx_test_0036753,0,Cluster headache,Acute laryngitis,E_53,当前症状/体征资料,,11.022014631481,False,,Cluster headache,Cluster headache
+ddx_test_0036753,1,Cluster headache,Acute laryngitis,E_184,既往史/风险资料,-7.317575018019397,0.5676927419076492,True,True,Cluster headache,Cluster headache
+ddx_test_0036753,2,Cluster headache,Acute laryngitis,E_204,既往史/风险资料,2.912983923721299,-1.455597214389968,True,True,Cluster headache,Cluster headache
+ddx_test_0036753,3,Cluster headache,Acute laryngitis,E_78,既往史/风险资料,0.2520107627992729,0.28744569453624536,True,False,Cluster headache,Cluster headache
+ddx_test_0036753,4,Cluster headache,Acute laryngitis,E_25,既往史/风险资料,12.074264675095947,13.392860710578589,True,False,Cluster headache,Cluster headache
+ddx_test_0036753,5,Cluster headache,Acute laryngitis,E_127,当前症状/体征资料,1.650562211955048,1.650562211955048,True,False,Cluster headache,Cluster headache
+ddx_test_0042655,0,GERD,Boerhaave,E_140,当前症状/体征资料,,-26.64064347992136,False,,Boerhaave,GERD
+ddx_test_0042655,1,GERD,Boerhaave,E_53,当前症状/体征资料,5.984293925764916,-10.156301493407774,True,True,Boerhaave,Boerhaave
+ddx_test_0042655,2,GERD,Boerhaave,E_204,既往史/风险资料,-10.06258221324984,-19.25002267393618,True,False,Boerhaave,GERD
+ddx_test_0042655,3,GERD,Boerhaave,E_79,既往史/风险资料,10.235045977642613,-18.25016047844847,True,True,Boerhaave,GERD
+ddx_test_0042655,4,GERD,Boerhaave,E_98,既往史/风险资料,-7.73503499288924,-19.047128619611392,True,False,Boerhaave,GERD
+ddx_test_0042655,5,GERD,Boerhaave,E_215,当前症状/体征资料,-6.8125502313924144,-24.546969530696607,True,False,Boerhaave,GERD
+ddx_test_0042655,6,GERD,Boerhaave,E_217,当前症状/体征资料,21.92211567242706,-27.500278331179608,True,True,Boerhaave,GERD
+ddx_test_0042655,7,GERD,Boerhaave,E_124,既往史/风险资料,-2.3905450388194254,-24.406477177705007,True,False,Boerhaave,GERD
+ddx_test_0042655,8,GERD,Boerhaave,E_201,当前症状/体征资料,-26.81276803894091,-26.81276803894091,True,False,Boerhaave,GERD
+ddx_test_0070101,0,Guillain-Barré syndrome,Bronchiolitis,E_176,当前症状/体征资料,,-6.6162069645928625,False,,Bronchiolitis,Myasthenia gravis
+ddx_test_0070101,1,Guillain-Barré syndrome,Bronchiolitis,E_156,当前症状/体征资料,21.19048152693744,10.532109693942331,True,False,Bronchiolitis,Bronchiolitis
+ddx_test_0070101,2,Guillain-Barré syndrome,Bronchiolitis,E_66,当前症状/体征资料,-13.835034098311766,10.687897938394258,True,True,Bronchiolitis,Bronchiolitis
+ddx_test_0070101,3,Guillain-Barré syndrome,Bronchiolitis,E_157,当前症状/体征资料,-2.120129842060919,6.672368464367764,True,True,Bronchiolitis,Bronchiolitis
+ddx_test_0070101,4,Guillain-Barré syndrome,Bronchiolitis,E_204,既往史/风险资料,-1.2254096809480401,10.454789077797408,True,True,Bronchiolitis,Bronchiolitis
+ddx_test_0070101,5,Guillain-Barré syndrome,Bronchiolitis,E_177,当前症状/体征资料,-1.1297953738619526,4.904060019119584,True,True,Bronchiolitis,Bronchiolitis
+ddx_test_0070101,6,Guillain-Barré syndrome,Bronchiolitis,E_84,当前症状/体征资料,7.45823110079575,7.45823110079575,True,False,Bronchiolitis,Bronchiolitis
+ddx_test_0123927,0,HIV (initial infection),Acute rhinosinusitis,E_97,当前症状/体征资料,,-1.2812043876396828,False,,HIV (initial infection),HIV (initial infection)
+ddx_test_0123927,1,HIV (initial infection),Acute rhinosinusitis,E_27,既往史/风险资料,0.5336065190182353,0.7794303410030992,True,False,HIV (initial infection),HIV (initial infection)
+ddx_test_0123927,2,HIV (initial infection),Acute rhinosinusitis,E_50,当前症状/体征资料,-0.11571970300781231,3.74714734754361,True,True,HIV (initial infection),Acute rhinosinusitis
+ddx_test_0123927,3,HIV (initial infection),Acute rhinosinusitis,E_189,既往史/风险资料,15.248017307819886,9.076804941383394,True,False,HIV (initial infection),Acute rhinosinusitis
+ddx_test_0123927,4,HIV (initial infection),Acute rhinosinusitis,E_61,既往史/风险资料,-3.2223337756691137,-2.7180830723159985,True,False,HIV (initial infection),HIV (initial infection)
+ddx_test_0123927,5,HIV (initial infection),Acute rhinosinusitis,E_204,既往史/风险资料,5.366241505387194,1.4060680008747752,True,False,HIV (initial infection),HIV (initial infection)
+ddx_test_0123927,6,HIV (initial infection),Acute rhinosinusitis,E_129,当前症状/体征资料,5.444263830321205,10.324743684745847,True,False,HIV (initial infection),Acute rhinosinusitis
+ddx_test_0123927,7,HIV (initial infection),Acute rhinosinusitis,E_91,当前症状/体征资料,-3.942657601330957,-1.1965394096302404,True,False,HIV (initial infection),HIV (initial infection)
+ddx_test_0123927,8,HIV (initial infection),Acute rhinosinusitis,E_53,当前症状/体征资料,0.2562813535046189,-2.014974459635539,True,True,HIV (initial infection),Ebola
+ddx_test_0123927,9,HIV (initial infection),Acute rhinosinusitis,E_9,当前症状/体征资料,2.723280415274189,1.4445281661671245,True,False,HIV (initial infection),HIV (initial infection)
+ddx_test_0123927,10,HIV (initial infection),Acute rhinosinusitis,E_144,当前症状/体征资料,-1.5267042371485147,-1.5267042371485147,True,False,HIV (initial infection),Ebola
+ddx_test_0102786,0,Inguinal hernia,Acute rhinosinusitis,E_53,当前症状/体征资料,,-3.3489262098663133,False,,Acute rhinosinusitis,Acute pulmonary edema
+ddx_test_0102786,1,Inguinal hernia,Acute rhinosinusitis,E_204,既往史/风险资料,-3.0566059345552006,2.0847199882109635,True,True,Acute rhinosinusitis,Acute rhinosinusitis
+ddx_test_0102786,2,Inguinal hernia,Acute rhinosinusitis,E_129,当前症状/体征资料,4.776259563689905,6.238054354090281,True,False,Acute rhinosinusitis,Acute rhinosinusitis
+ddx_test_0102786,3,Inguinal hernia,Acute rhinosinusitis,E_221,当前症状/体征资料,-0.9163140329883959,0.32301720171633974,True,True,Acute rhinosinusitis,Acute rhinosinusitis
+ddx_test_0102786,4,Inguinal hernia,Acute rhinosinusitis,E_30,当前症状/体征资料,0.05587177891641204,0.05587177891641204,True,False,Acute rhinosinusitis,Acute rhinosinusitis
+ddx_test_0011169,0,Myasthenia gravis,Guillain-Barré syndrome,E_38,当前症状/体征资料,,-4.53128721134717,False,,Guillain-Barré syndrome,Guillain-Barré syndrome
+ddx_test_0011169,1,Myasthenia gravis,Guillain-Barré syndrome,E_63,当前症状/体征资料,-1.0758912429968106,-9.562500810619213,True,False,Guillain-Barré syndrome,Myasthenia gravis
+ddx_test_0011169,2,Myasthenia gravis,Guillain-Barré syndrome,E_84,当前症状/体征资料,0.10505370408693437,-4.343783218250245,True,True,Guillain-Barré syndrome,Guillain-Barré syndrome
+ddx_test_0011169,3,Myasthenia gravis,Guillain-Barré syndrome,E_204,既往史/风险资料,-10.640278487041307,-3.8124858192780025,True,False,Guillain-Barré syndrome,Guillain-Barré syndrome
+ddx_test_0011169,4,Myasthenia gravis,Guillain-Barré syndrome,E_176,当前症状/体征资料,-3.027460305157888,-3.859310649836708,True,False,Guillain-Barré syndrome,Acute laryngitis
+ddx_test_0011169,5,Myasthenia gravis,Guillain-Barré syndrome,E_52,当前症状/体征资料,5.093766977752068,-3.6562483884677235,True,True,Guillain-Barré syndrome,Guillain-Barré syndrome
+ddx_test_0011169,6,Myasthenia gravis,Guillain-Barré syndrome,E_172,当前症状/体征资料,-4.375001249078558,-4.375001249078558,True,False,Guillain-Barré syndrome,Guillain-Barré syndrome
+ddx_test_0057776,0,Pancreatic neoplasm,Acute rhinosinusitis,E_201,当前症状/体征资料,,-6.243288861804672,False,,Pancreatic neoplasm,Pancreatic neoplasm
+ddx_test_0057776,1,Pancreatic neoplasm,Acute rhinosinusitis,E_53,当前症状/体征资料,15.148404344542683,-1.3868532050101976,True,True,Pancreatic neoplasm,Pancreatic neoplasm
+ddx_test_0057776,2,Pancreatic neoplasm,Acute rhinosinusitis,E_223,既往史/风险资料,12.286088752973711,26.091194506882914,True,False,Pancreatic neoplasm,Acute rhinosinusitis
+ddx_test_0057776,3,Pancreatic neoplasm,Acute rhinosinusitis,E_79,既往史/风险资料,-2.9591266242236998,5.518094016001726,True,True,Pancreatic neoplasm,Pancreatic neoplasm
+ddx_test_0057776,4,Pancreatic neoplasm,Acute rhinosinusitis,E_89,当前症状/体征资料,1.1871206712759772,6.924598110783563,True,False,Pancreatic neoplasm,Pancreatic neoplasm
+ddx_test_0057776,5,Pancreatic neoplasm,Acute rhinosinusitis,E_148,当前症状/体征资料,3.658596348921435,1.14210610880707,True,False,Pancreatic neoplasm,Pancreatic neoplasm
+ddx_test_0057776,6,Pancreatic neoplasm,Acute rhinosinusitis,E_129,当前症状/体征资料,12.994786206762456,11.16417656197757,True,False,Pancreatic neoplasm,Bronchiolitis
+ddx_test_0057776,7,Pancreatic neoplasm,Acute rhinosinusitis,E_204,既往史/风险资料,-2.237954495530971,-2.237954495530971,True,False,Pancreatic neoplasm,Pancreatic neoplasm
+ddx_test_0046674,0,Pericarditis,Boerhaave,E_53,当前症状/体征资料,,-37.5165952809624,False,,Boerhaave,Pericarditis
+ddx_test_0046674,1,Pericarditis,Boerhaave,E_220,当前症状/体征资料,-0.6406370397022982,-1.406231941247853,True,False,Boerhaave,Boerhaave
+ddx_test_0046674,2,Pericarditis,Boerhaave,E_204,既往史/风险资料,3.7500158620092705,-2.953097345562213,True,True,Boerhaave,Boerhaave
+ddx_test_0046674,3,Pericarditis,Boerhaave,E_3,既往史/风险资料,-1.6093685709717676,3.812484146757832,True,True,Boerhaave,Boerhaave
+ddx_test_0046674,4,Pericarditis,Boerhaave,E_0,既往史/风险资料,10.359367192293867,-11.531362397901802,True,True,Boerhaave,Boerhaave
+ddx_test_0046674,5,Pericarditis,Boerhaave,E_217,当前症状/体征资料,-1.6874768751877411,-1.6874768751877411,True,False,Boerhaave,Boerhaave
+ddx_test_0082088,0,Pneumonia,Acute pulmonary edema,E_175,当前症状/体征资料,,-1.5699638593943916,False,,Pneumonia,Pneumonia
+ddx_test_0082088,1,Pneumonia,Acute pulmonary edema,E_196,既往史/风险资料,-4.435255913714904,0.5459930412474705,True,True,Pneumonia,Acute pulmonary edema
+ddx_test_0082088,2,Pneumonia,Acute pulmonary edema,E_107,既往史/风险资料,3.33297831842782,-0.2526729200034197,True,True,Pneumonia,Pneumonia
+ddx_test_0082088,3,Pneumonia,Acute pulmonary edema,E_209,既往史/风险资料,-0.6448833136815324,-0.6047124750911053,True,False,Pneumonia,Pneumonia
+ddx_test_0082088,4,Pneumonia,Acute pulmonary edema,E_117,既往史/风险资料,5.862164992692378,3.1112381424760613,True,False,Pneumonia,Acute pulmonary edema
+ddx_test_0082088,5,Pneumonia,Acute pulmonary edema,E_77,当前症状/体征资料,2.722387358313483,1.66898162569845,True,False,Pneumonia,Acute pulmonary edema
+ddx_test_0082088,6,Pneumonia,Acute pulmonary edema,E_204,既往史/风险资料,2.1215070898178183,0.7956535834819647,True,False,Pneumonia,Acute pulmonary edema
+ddx_test_0082088,7,Pneumonia,Acute pulmonary edema,E_129,当前症状/体征资料,-2.2986068229677485,2.68928437493841,True,True,Pneumonia,Acute pulmonary edema
+ddx_test_0082088,8,Pneumonia,Acute pulmonary edema,E_53,当前症状/体征资料,-4.106627075469959,-2.1954017491080364,True,False,Pneumonia,Pneumonia
+ddx_test_0082088,9,Pneumonia,Acute pulmonary edema,E_208,既往史/风险资料,7.793575856431431,1.0170483812690918,True,False,Pneumonia,Acute pulmonary edema
+ddx_test_0082088,10,Pneumonia,Acute pulmonary edema,E_144,当前症状/体征资料,-1.0430109198792934,0.2559377495213653,True,True,Pneumonia,Pneumonia
+ddx_test_0082088,11,Pneumonia,Acute pulmonary edema,E_106,既往史/风险资料,-5.171695839612852,-3.001822885587835,True,False,Pneumonia,Pneumonia
+ddx_test_0082088,12,Pneumonia,Acute pulmonary edema,E_124,既往史/风险资料,2.719768830691841,0.7557870643213391,True,False,Pneumonia,Acute pulmonary edema
+ddx_test_0082088,13,Pneumonia,Acute pulmonary edema,E_201,当前症状/体征资料,-1.1922817517771307,-0.3651647213848719,True,False,Pneumonia,Pneumonia
+ddx_test_0082088,14,Pneumonia,Acute pulmonary edema,E_78,既往史/风险资料,-4.5829748364633645,0.25571916531777106,True,True,Pneumonia,Pneumonia
+ddx_test_0082088,15,Pneumonia,Acute pulmonary edema,E_66,当前症状/体征资料,1.0886946367099881,1.0886946367099881,True,False,Pneumonia,Acute pulmonary edema
+ddx_test_0081104,0,Possible NSTEMI / STEMI,Acute pulmonary edema,E_53,当前症状/体征资料,,-0.07122771440672437,False,,Acute pulmonary edema,HIV (initial infection)
+ddx_test_0081104,1,Possible NSTEMI / STEMI,Acute pulmonary edema,E_70,既往史/风险资料,-0.7244718262226613,1.045221701264552,True,True,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0081104,2,Possible NSTEMI / STEMI,Acute pulmonary edema,E_104,既往史/风险资料,-1.0170830757708416,0.3928253017367638,True,True,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0081104,3,Possible NSTEMI / STEMI,Acute pulmonary edema,E_191,既往史/风险资料,3.672978927847062,2.2046664506196976,True,False,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0081104,4,Possible NSTEMI / STEMI,Acute pulmonary edema,E_225,既往史/风险资料,1.9750060649820327,3.757654180750251,True,False,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0081104,5,Possible NSTEMI / STEMI,Acute pulmonary edema,E_105,既往史/风险资料,-0.7050648557491002,6.203377211466204,True,True,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0081104,6,Possible NSTEMI / STEMI,Acute pulmonary edema,E_204,既往史/风险资料,6.260779314907417,0.7383388690653305,True,False,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0081104,7,Possible NSTEMI / STEMI,Acute pulmonary edema,E_79,既往史/风险资料,-1.9893763661382096,1.6326332446188871,True,True,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0081104,8,Possible NSTEMI / STEMI,Acute pulmonary edema,E_89,当前症状/体征资料,1.6692801639429717,0.861738275736684,True,False,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0081104,9,Possible NSTEMI / STEMI,Acute pulmonary edema,E_66,当前症状/体征资料,-1.9101012796158443,1.646489508450145,True,True,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0081104,10,Possible NSTEMI / STEMI,Acute pulmonary edema,E_68,既往史/风险资料,2.0469109416010838,3.1104020923374947,True,False,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0081104,11,Possible NSTEMI / STEMI,Acute pulmonary edema,E_108,既往史/风险资料,-2.283611111342964,1.7709004785866682,True,True,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0081104,12,Possible NSTEMI / STEMI,Acute pulmonary edema,E_2,既往史/风险资料,1.1277449056498199,0.7659886074251858,True,False,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0081104,13,Possible NSTEMI / STEMI,Acute pulmonary edema,E_50,当前症状/体征资料,-0.3918296061450519,-0.030440788716134648,True,False,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0081104,14,Possible NSTEMI / STEMI,Acute pulmonary edema,E_161,当前症状/体征资料,-0.17455846443743894,-0.17455846443743894,True,False,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0013493,0,Pulmonary embolism,Acute pulmonary edema,E_66,当前症状/体征资料,,-2.277496160988619,False,,Acute pulmonary edema,Pulmonary embolism
+ddx_test_0013493,1,Pulmonary embolism,Acute pulmonary edema,E_196,既往史/风险资料,1.9035685062293553,-2.3078869609230424,True,True,Acute pulmonary edema,Pulmonary embolism
+ddx_test_0013493,2,Pulmonary embolism,Acute pulmonary edema,E_204,既往史/风险资料,1.9258690474552793,-0.6197173190529455,True,True,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0013493,3,Pulmonary embolism,Acute pulmonary edema,E_220,当前症状/体征资料,0.998052981540063,-1.8361534403451358,True,True,Acute pulmonary edema,Pulmonary embolism
+ddx_test_0013493,4,Pulmonary embolism,Acute pulmonary edema,E_53,当前症状/体征资料,7.228626552681483,0.9687828480440999,True,False,Acute pulmonary edema,Localized edema
+ddx_test_0013493,5,Pulmonary embolism,Acute pulmonary edema,E_151,当前症状/体征资料,-3.4513199627905564,-1.257552516729504,True,False,Acute pulmonary edema,Bronchiolitis
+ddx_test_0013493,6,Pulmonary embolism,Acute pulmonary edema,E_34,既往史/风险资料,2.101524619782076,-1.7129205333993127,True,True,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0013493,7,Pulmonary embolism,Acute pulmonary edema,E_109,既往史/风险资料,0.02836937482575763,0.02836937482575763,True,False,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0059125,0,SLE,Pericarditis,E_66,当前症状/体征资料,,-0.05376924022007756,False,,Pericarditis,Pericarditis
+ddx_test_0059125,1,SLE,Pericarditis,E_3,既往史/风险资料,-20.756422340871573,-28.223602587422164,True,False,Pericarditis,Bronchiolitis
+ddx_test_0059125,2,SLE,Pericarditis,E_79,既往史/风险资料,-1.2943640653376178,0.07911207713209478,True,True,Pericarditis,Pericarditis
+ddx_test_0059125,3,SLE,Pericarditis,E_129,当前症状/体征资料,-0.0023528336187226273,0.5503532345689024,True,True,Pericarditis,Pericarditis
+ddx_test_0059125,4,SLE,Pericarditis,E_89,当前症状/体征资料,0.3781799610969827,-0.3811672870572025,True,True,Pericarditis,Pericarditis
+ddx_test_0059125,5,SLE,Pericarditis,E_53,当前症状/体征资料,-0.000913195912289666,-0.5848064897979626,True,False,Pericarditis,Pericarditis
+ddx_test_0059125,6,SLE,Pericarditis,E_204,既往史/风险资料,-0.18580841124276049,-0.8488415526635436,True,False,Pericarditis,Pericarditis
+ddx_test_0059125,7,SLE,Pericarditis,E_141,既往史/风险资料,-0.8186389542677048,-0.8186389542677048,True,False,Pericarditis,Pericarditis
+ddx_test_0132217,0,Spontaneous pneumothorax,Acute pulmonary edema,E_218,当前症状/体征资料,,0.15270302958049342,False,,Spontaneous pneumothorax,Spontaneous pneumothorax
+ddx_test_0132217,1,Spontaneous pneumothorax,Acute pulmonary edema,E_204,既往史/风险资料,3.810312657304955,-8.55230495785895,True,True,Spontaneous pneumothorax,Spontaneous pneumothorax
+ddx_test_0132217,2,Spontaneous pneumothorax,Acute pulmonary edema,E_79,既往史/风险资料,-0.9364219834686196,-1.0288058948127627,True,False,Spontaneous pneumothorax,Spontaneous pneumothorax
+ddx_test_0132217,3,Spontaneous pneumothorax,Acute pulmonary edema,E_14,当前症状/体征资料,1.878831673818894,-11.129335286696566,True,True,Spontaneous pneumothorax,Spontaneous pneumothorax
+ddx_test_0132217,4,Spontaneous pneumothorax,Acute pulmonary edema,E_53,当前症状/体征资料,7.222336720751748,5.028791767295239,True,False,Spontaneous pneumothorax,Acute COPD exacerbation / infection
+ddx_test_0132217,5,Spontaneous pneumothorax,Acute pulmonary edema,E_165,既往史/风险资料,5.466011526135361,5.466011526135361,True,False,Spontaneous pneumothorax,Boerhaave
+ddx_test_0048251,0,Stable angina,Acute pulmonary edema,E_53,当前症状/体征资料,,-1.327507417982794,False,,Acute pulmonary edema,Acute COPD exacerbation / infection
+ddx_test_0048251,1,Stable angina,Acute pulmonary edema,E_78,既往史/风险资料,-2.6431952984709355,1.232897764413714,True,True,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0048251,2,Stable angina,Acute pulmonary edema,E_70,既往史/风险资料,1.0464022878823016,1.8880301156440638,True,False,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0048251,3,Stable angina,Acute pulmonary edema,E_204,既往史/风险资料,5.803294177201252,1.361641200250176,True,False,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0048251,4,Stable angina,Acute pulmonary edema,E_104,既往史/风险资料,-6.724032198602657,-0.18254510079725605,True,False,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0048251,5,Stable angina,Acute pulmonary edema,E_68,既往史/风险资料,2.8671175766795614,2.4715502267209004,True,False,Acute pulmonary edema,Acute laryngitis
+ddx_test_0048251,6,Stable angina,Acute pulmonary edema,E_218,当前症状/体征资料,3.541877695864798,3.541877695864798,True,False,Acute pulmonary edema,Acute pulmonary edema
+ddx_test_0069681,0,URTI,Acute rhinosinusitis,E_50,当前症状/体征资料,,0.3535002719337399,False,,Acute rhinosinusitis,Acute rhinosinusitis
+ddx_test_0069681,1,URTI,Acute rhinosinusitis,E_79,既往史/风险资料,-0.360061056231892,0.7772585327335833,True,True,Acute rhinosinusitis,Acute rhinosinusitis
+ddx_test_0069681,2,URTI,Acute rhinosinusitis,E_204,既往史/风险资料,3.000090623087061,2.993740158191258,True,False,Acute rhinosinusitis,Acute rhinosinusitis
+ddx_test_0069681,3,URTI,Acute rhinosinusitis,E_53,当前症状/体征资料,0.48868163768526074,-2.2111394364111163,True,True,Acute rhinosinusitis,Acute rhinosinusitis
+ddx_test_0069681,4,URTI,Acute rhinosinusitis,E_91,当前症状/体征资料,1.734602288669123,3.183631332443497,True,False,Acute rhinosinusitis,Acute rhinosinusitis
+ddx_test_0069681,5,URTI,Acute rhinosinusitis,E_97,当前症状/体征资料,3.4356060155166688,3.514831937082249,True,False,Acute rhinosinusitis,Acute rhinosinusitis
+ddx_test_0069681,6,URTI,Acute rhinosinusitis,E_77,当前症状/体征资料,0.2953705517982712,3.6825004926211022,True,False,Acute rhinosinusitis,Acute rhinosinusitis
+ddx_test_0069681,7,URTI,Acute rhinosinusitis,E_41,既往史/风险资料,1.2964598908581593,2.635858326080097,True,False,Acute rhinosinusitis,Acute rhinosinusitis
+ddx_test_0069681,8,URTI,Acute rhinosinusitis,E_201,当前症状/体征资料,-2.100645281314655,2.183659408408971,True,True,Acute rhinosinusitis,Acute rhinosinusitis
+ddx_test_0069681,9,URTI,Acute rhinosinusitis,E_222,既往史/风险资料,-2.0370853561846616,-2.0370853561846616,True,False,Acute rhinosinusitis,Acute rhinosinusitis
+ddx_test_0098383,0,Viral pharyngitis,Acute rhinosinusitis,E_201,当前症状/体征资料,,5.896697679620765,False,,Acute rhinosinusitis,Acute rhinosinusitis
+ddx_test_0098383,1,Viral pharyngitis,Acute rhinosinusitis,E_48,既往史/风险资料,4.797126227083908,2.609063150677059,True,False,Acute rhinosinusitis,Acute rhinosinusitis
+ddx_test_0098383,2,Viral pharyngitis,Acute rhinosinusitis,E_41,既往史/风险资料,-5.049663484537291,1.0282525458693499,True,True,Acute rhinosinusitis,Acute rhinosinusitis
+ddx_test_0098383,3,Viral pharyngitis,Acute rhinosinusitis,E_181,当前症状/体征资料,-1.0611936417520837,0.0427263993952991,True,True,Acute rhinosinusitis,Acute rhinosinusitis
+ddx_test_0098383,4,Viral pharyngitis,Acute rhinosinusitis,E_227,既往史/风险资料,-0.5944343899123794,-4.000111696619108,True,False,Acute rhinosinusitis,Acute rhinosinusitis
+ddx_test_0098383,5,Viral pharyngitis,Acute rhinosinusitis,E_49,既往史/风险资料,2.9094731823081474,0.06343145273741158,True,False,Acute rhinosinusitis,Acute rhinosinusitis
+ddx_test_0098383,6,Viral pharyngitis,Acute rhinosinusitis,E_204,既往史/风险资料,-0.39285508194495833,0.31301508121504185,True,True,Acute rhinosinusitis,Acute rhinosinusitis
+ddx_test_0098383,7,Viral pharyngitis,Acute rhinosinusitis,E_53,当前症状/体征资料,7.440911412516833,4.731715542190415,True,False,Acute rhinosinusitis,Acute rhinosinusitis
+ddx_test_0098383,8,Viral pharyngitis,Acute rhinosinusitis,E_91,当前症状/体征资料,0.37630671087266165,0.37630671087266165,True,False,Acute rhinosinusitis,Acute rhinosinusitis

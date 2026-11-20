@@ -1,0 +1,36 @@
+{
+  "21": {
+    "events": 178,
+    "strict_crossover_events": 1,
+    "opposite_rank_support_events": 1,
+    "strict_case_rate": {
+      "mean": 0.041666666666666664,
+      "low": 0.0,
+      "high": 0.125,
+      "cases": 24
+    },
+    "opposite_case_rate": {
+      "mean": 0.041666666666666664,
+      "low": 0.0,
+      "high": 0.125,
+      "cases": 24
+    }
+  },
+  "28": {
+    "events": 178,
+    "strict_crossover_events": 1,
+    "opposite_rank_support_events": 2,
+    "strict_case_rate": {
+      "mean": 0.041666666666666664,
+      "low": 0.0,
+      "high": 0.125,
+      "cases": 24
+    },
+    "opposite_case_rate": {
+      "mean": 0.041666666666666664,
+      "low": 0.0,
+      "high": 0.125,
+      "cases": 24
+    }
+  }
+}

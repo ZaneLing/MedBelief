@@ -1,0 +1,153 @@
+{
+  "counts": {
+    "train": {
+      "total": 400,
+      "source_kept": 391,
+      "source_and_similarity_kept": 391
+    },
+    "development": {
+      "total": 80,
+      "source_kept": 75,
+      "source_and_similarity_kept": 75
+    },
+    "confirmation": {
+      "total": 400,
+      "source_kept": 386,
+      "source_and_similarity_kept": 366
+    }
+  },
+  "near_pairs": [
+    {
+      "case_id": "medmcqa_train_e0b1fcff-bcd8-45d8-83e7-8c06b0a6104d",
+      "matched_case_id": "medmcqa_train_713fc643-dee7-4979-96ae-9db4a539d353",
+      "matched_cohort": "confirmation",
+      "matched_cosine": 0.8266306416935911
+    },
+    {
+      "case_id": "medmcqa_train_2f934764-d18d-456b-824e-9f92fc7afd94",
+      "matched_case_id": "medmcqa_train_aff6881f-d220-4dcf-bea4-383e7a6033d6",
+      "matched_cohort": "confirmation",
+      "matched_cosine": 0.8893803956577302
+    },
+    {
+      "case_id": "medmcqa_train_15bd8d7f-6174-4414-b763-35a14074705a",
+      "matched_case_id": "medmcqa_train_648d19ab-4b5e-434c-8331-4705e8cf096f",
+      "matched_cohort": "train",
+      "matched_cosine": 0.8772240137190855
+    },
+    {
+      "case_id": "medmcqa_train_26b65806-e6e2-4613-bf87-96e3a9669756",
+      "matched_case_id": "medmcqa_train_0cc53e2f-35d6-46bd-a95c-0788abb77b66",
+      "matched_cohort": "train",
+      "matched_cosine": 0.8556027016290058
+    },
+    {
+      "case_id": "medmcqa_train_fff7b566-212c-48d5-9e20-9e5b4cf634bb",
+      "matched_case_id": "medmcqa_train_748b0adb-b662-449c-abd6-34be14f70dde",
+      "matched_cohort": "train",
+      "matched_cosine": 0.8921887398716747
+    },
+    {
+      "case_id": "medmcqa_train_73d0db0b-eb6d-4353-b7f6-aa1e82e50f9c",
+      "matched_case_id": "medmcqa_train_e24b2c07-870f-49d0-ba72-f23a48d6b230",
+      "matched_cohort": "previous540",
+      "matched_cosine": 0.8984384204354646
+    },
+    {
+      "case_id": "medmcqa_train_f1497481-84e7-4d22-a89d-e197c7b6fc6e",
+      "matched_case_id": "medmcqa_train_2e18f139-c783-45d8-98c3-ee72a35d7854",
+      "matched_cohort": "confirmation",
+      "matched_cosine": 0.8507741426664829
+    },
+    {
+      "case_id": "medmcqa_train_00ca7fee-f609-4542-9702-fb733a3cea22",
+      "matched_case_id": "medmcqa_train_f016d92f-7d93-4cda-80ec-2a899914ad2f",
+      "matched_cohort": "previous540",
+      "matched_cosine": 0.801770362709043
+    },
+    {
+      "case_id": "medmcqa_train_1d89a4c5-d0d1-4c75-b833-a3ab164317de",
+      "matched_case_id": "medmcqa_train_1212bb8f-261f-42ff-acfa-9fc4dd474030",
+      "matched_cohort": "confirmation",
+      "matched_cosine": 0.8264551748895995
+    },
+    {
+      "case_id": "medmcqa_train_f833ae92-b62d-42a6-afa2-85c52960cd4d",
+      "matched_case_id": "medmcqa_train_011cb59e-80e7-48fe-aeba-65cc0fef4c7b",
+      "matched_cohort": "train",
+      "matched_cosine": 0.8423006693828705
+    },
+    {
+      "case_id": "medmcqa_train_74e6c4f2-ccb8-44bc-a548-e7668d09d489",
+      "matched_case_id": "medmcqa_train_9992f26f-2970-4a9f-80d9-3147ef409308",
+      "matched_cohort": "previous540",
+      "matched_cosine": 0.8233775127562415
+    },
+    {
+      "case_id": "medmcqa_train_5758763d-c54f-48d8-aa50-d46f4efd4663",
+      "matched_case_id": "medmcqa_train_e5fb712c-be0a-4110-a384-479d5292b0a4",
+      "matched_cohort": "train",
+      "matched_cosine": 0.8933233227717348
+    },
+    {
+      "case_id": "medmcqa_train_5758763d-c54f-48d8-aa50-d46f4efd4663",
+      "matched_case_id": "medmcqa_train_0cc53e2f-35d6-46bd-a95c-0788abb77b66",
+      "matched_cohort": "train",
+      "matched_cosine": 0.8508752097293486
+    },
+    {
+      "case_id": "medmcqa_train_cd7f3e5f-df8b-400a-a044-d0f9a517e2cc",
+      "matched_case_id": "medmcqa_train_88e13aa4-05e9-4f01-8f35-f6f1d475c190",
+      "matched_cohort": "train",
+      "matched_cosine": 0.8639823270441934
+    },
+    {
+      "case_id": "medmcqa_train_27f22bd6-be02-4c94-bbd5-deb82ef5a018",
+      "matched_case_id": "medmcqa_train_c5680d26-304c-462c-bcf5-bf83ebac9b52",
+      "matched_cohort": "train",
+      "matched_cosine": 0.8800764699094495
+    },
+    {
+      "case_id": "medmcqa_train_6c998c19-080a-4543-81af-0dacfbc248e6",
+      "matched_case_id": "medmcqa_train_4f2068ff-b32f-4526-8879-395802e93110",
+      "matched_cohort": "previous540",
+      "matched_cosine": 0.8525128493362797
+    },
+    {
+      "case_id": "medmcqa_train_f9b1e68a-1b13-47a8-82e9-db0d9216beae",
+      "matched_case_id": "medmcqa_train_c48138f6-72b6-458f-8cf4-05a7a62fe3d6",
+      "matched_cohort": "train",
+      "matched_cosine": 0.8671678214760559
+    },
+    {
+      "case_id": "medmcqa_train_92cc1ee7-4daf-4c2c-ae27-c8d5964f7a9a",
+      "matched_case_id": "medmcqa_train_8115ef03-15d2-4886-b375-e120a7c1ac83",
+      "matched_cohort": "confirmation",
+      "matched_cosine": 0.870669758621898
+    },
+    {
+      "case_id": "medmcqa_train_84778452-f559-4717-b954-579d7d04bb4d",
+      "matched_case_id": "medmcqa_train_b501b5a7-b007-42cd-ab7f-8cc821360bc3",
+      "matched_cohort": "train",
+      "matched_cosine": 0.839946670021295
+    },
+    {
+      "case_id": "medmcqa_train_84778452-f559-4717-b954-579d7d04bb4d",
+      "matched_case_id": "medmcqa_train_2e98f427-968d-4c09-b6ca-ddc30245e686",
+      "matched_cohort": "confirmation",
+      "matched_cosine": 0.866245569943736
+    },
+    {
+      "case_id": "medmcqa_train_6573cabc-75e6-4620-af5c-0ef3a09f5c19",
+      "matched_case_id": "medmcqa_train_d2f93a70-afe4-4527-9413-fd88cfd9722b",
+      "matched_cohort": "train",
+      "matched_cosine": 0.8845658698893308
+    },
+    {
+      "case_id": "medqa_train_04767",
+      "matched_case_id": "medqa_train_09896",
+      "matched_cohort": "previous540",
+      "matched_cosine": 0.8451413395797504
+    }
+  ]
+}

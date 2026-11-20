@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_2a0e0ad5-e7a9-441e-beec-63e0e51e28a9",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Tyrosinemia\"}",
+      "generated_disease": "Tyrosinemia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "99825982a22b334af704a1ee2c0a0e9124c8c00e5cc4483158853056d5edbb3e"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "phenylketonuria\"}",
+      "generated_disease": "phenylketonuria",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "c60d82ab062c62ee980d8a164a3a238d94e7a86d1d15ad32d05630d500e36c29"
+    }
+  ]
+}

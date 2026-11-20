@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_dev_00561",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Zollinger-Ellison syndrome\"}",
+      "generated_disease": "Zollinger-Ellison syndrome",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "51b93a1037dec4bcb07db374fa02d56f4a1c8c7f3f29c2ce3ca87727f4e39532"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "NSAID induced peptic ulcer disease\"}",
+      "generated_disease": "NSAID induced peptic ulcer disease",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "6103281267ac6a75093f7ad45c8c789173c6b0fa04bbad47d24df28ffe0c53d7"
+    }
+  ]
+}

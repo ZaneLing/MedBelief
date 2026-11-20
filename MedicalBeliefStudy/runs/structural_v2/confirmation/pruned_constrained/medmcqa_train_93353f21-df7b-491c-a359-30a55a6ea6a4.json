@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_93353f21-df7b-491c-a359-30a55a6ea6a4",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "A thyroglossal duct cyst\"}",
+      "generated_disease": "A thyroglossal duct cyst",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "141acc376770d15d13903feef529274bb04b588af9f880443a3bbcd359fd3f9f"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "A thyroglossal duct cyst\"}",
+      "generated_disease": "A thyroglossal duct cyst",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "5f8b44cf4bf6e16e6d8a57ea51ad2e802b1c5299390f6b4682a16ffcf6bcdf25"
+    }
+  ]
+}

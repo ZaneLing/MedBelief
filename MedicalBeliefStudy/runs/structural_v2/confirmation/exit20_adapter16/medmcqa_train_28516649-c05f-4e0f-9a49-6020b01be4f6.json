@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_28516649-c05f-4e0f-9a49-6020b01be4f6",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Intrinsic pulmonary disease\"}",
+      "generated_disease": "Intrinsic pulmonary disease",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "ccb8f525669962faaf686cc94980970ada7c248818491a6c49add9ffbdc95646"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Ac stress hypcephine综合征\"} (Note: This is an example of an non-linear and non-standard phissemaracotarishty linearity and/or an non-linear pathycogroupingsystematicity of an unochservationalystdentemphilentaxerat",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "1c28000328f27cd8815de8dc9491ed0a3574686aa4246e3b342aec315eee0b0b"
+    }
+  ]
+}

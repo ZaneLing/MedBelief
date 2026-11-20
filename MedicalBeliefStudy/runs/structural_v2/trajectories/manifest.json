@@ -1,0 +1,76 @@
+{
+  "cases": [
+    "medqa_train_02981",
+    "medqa_train_06772",
+    "medqa_train_01035",
+    "medqa_train_04812",
+    "medqa_train_09305",
+    "medqa_train_06162",
+    "medqa_train_03083",
+    "medqa_train_02377",
+    "medqa_train_06203",
+    "medqa_train_01997",
+    "medqa_train_06443",
+    "medqa_dev_00157",
+    "medmcqa_train_3c860ea8-ae63-4bad-9032-90a0c570bb2c",
+    "medmcqa_train_7efe9080-b0da-44c6-a327-ced795f29370",
+    "medmcqa_train_49fe11d4-b070-4ee9-ba0e-909dad1d38ff",
+    "medmcqa_train_d69f4de3-e358-4335-af72-b0d95fb9d515",
+    "medmcqa_train_202cb4ea-c9ef-4e19-868c-eaae7fca2262",
+    "medmcqa_train_25d7527c-19a0-44d3-ae1d-3c9bcd27531d",
+    "medmcqa_train_d6bb3a72-622f-47fa-a7d8-dd439dae5b27",
+    "medmcqa_train_8018614f-f4dc-4112-abce-c7630b165d24",
+    "medmcqa_train_7ac0b225-cb65-4bb4-97e4-7836112d67dc",
+    "medmcqa_train_ebf37a52-619f-4ff5-aaf3-943c615f5097",
+    "medmcqa_train_e0b1fcff-bcd8-45d8-83e7-8c06b0a6104d",
+    "medmcqa_train_97f3ffe1-7865-4843-ae90-530f74a04d9f"
+  ],
+  "configurations": [
+    {
+      "name": "baseline"
+    },
+    {
+      "name": "pruned_adapter16",
+      "mlp_keep": 0.5,
+      "mlp_layers": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+      "adapter_kind": "bottleneck",
+      "adapter_rank": 16
+    },
+    {
+      "name": "pruned_constrained",
+      "mlp_keep": 0.5,
+      "mlp_layers": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "constrained": true
+    }
+  ],
+  "prefixes": 147,
+  "selection_sha256": "6692a3c2524fb1aaf384f434d17cac65859f764c580626d1b06c4c2ba4f48610",
+  "source_sha256": "ea40c4b45b492831932fb5ec7c81a0c06df11ffc443ba72996bee94dd27e74df"
+}

@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_06616",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Testicular torsion\"}",
+      "generated_disease": "Testicular torsion",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "ddaa8f5c01a49fcae31aa3b28ce0407693b5c146aff5ed5d6fda794cd7e2f0eb"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Testicular torsion\"}",
+      "generated_disease": "Testicular torsion",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "cde00a54dedafcc8787ddcad3c14997a553ee38ebd8213ca80612b6fbc6526e7"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_08607",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Primary syphilis\"}",
+      "generated_disease": "Primary syphilis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "7cf56c65ea6c077f8626d9c441fa0ef33afcd9d5b94e13a445ba60d9fa986a13"
+    }
+  ]
+}

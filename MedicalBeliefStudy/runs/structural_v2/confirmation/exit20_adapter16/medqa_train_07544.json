@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_07544",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cryinyshturphilisdemphilenturicus\"} (Note: This is an error error. actual correct answer is \"Betaontrivemphiricovemphiligus\"} (Again an error. actual correct answer is \"Trabipostaracovem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "5c1434d8d557482870a28e22f2a61140fcd11cba065b8b51153837f1755074e1"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Aortic disease\"}",
+      "generated_disease": "Aortic disease",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "2445cb7f9c7c20e8176d1bbb25a716f88f5e48906ee3bac5385dcd3d0168a36f"
+    }
+  ]
+}

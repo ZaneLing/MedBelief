@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_40330424-dee6-4d73-910e-b5f70e75c998",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Acute dysmomopathy\"}",
+      "generated_disease": "Acute dysmomopathy",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "a95c2750a3c47b8a31502ac720d2f445e5363a44131cbd4b554c15d380d900d7"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Acute dysmomolosis\"}",
+      "generated_disease": "Acute dysmomolosis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "676c6d47e3c2c3d9a7720507f0571c72f4fcfff7e5318c1ce59cc8c276f84b05"
+    }
+  ]
+}

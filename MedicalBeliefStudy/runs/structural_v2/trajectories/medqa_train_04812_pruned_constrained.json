@@ -1,0 +1,708 @@
+{
+  "case_id": "medqa_train_04812",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -22.719337463378906,
+        -0.0005895444774068892,
+        -7.438089847564697,
+        -13.844339370727539
+      ],
+      "q_sequence": [
+        1.3586797517859312e-10,
+        0.9994106202128128,
+        0.0005884080685550285,
+        9.715827639966065e-07
+      ],
+      "q_token_mean": [
+        0.0024186019551138255,
+        0.7083411140466049,
+        0.2447995642572147,
+        0.044440719741066524
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Alzheimer's dementia\"}",
+      "generated_disease": "Alzheimer's dementia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "97aaa6bb3ddaec886694f075afeadcd9fd5126c15c2ed04bd2e75084935e824e"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -28.593786239624023,
+        -3.647870835266076e-05,
+        -10.218786239624023,
+        -22.531286239624023
+      ],
+      "q_sequence": [
+        3.8183560196214163e-13,
+        0.9999635212892488,
+        3.647854639093427e-05,
+        1.639784268602884e-10
+      ],
+      "q_token_mean": [
+        0.0006318516483345708,
+        0.8037914412384797,
+        0.18670303532986818,
+        0.0088736717833176
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Alzheimer's dementia\"}",
+      "generated_disease": "Alzheimer's dementia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "85dc4e8bfb2c5ae473ea063b53acc7ea35b136df8bf049be6ec09e0386f8ca91"
+    },
+    {
+      "condition": "neutral",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -26.35947036743164,
+        -9.620652417652309e-05,
+        -9.250096321105957,
+        -16.70322036743164
+      ],
+      "q_sequence": [
+        3.5663789891219604e-12,
+        0.9999038418936573,
+        9.610239913535036e-05,
+        5.57036410261355e-08
+      ],
+      "q_token_mean": [
+        0.0010542371098670753,
+        0.7671397162607355,
+        0.20463801688083144,
+        0.027168029748565987
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Alzheimer's dementia\"}",
+      "generated_disease": "Alzheimer's dementia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "cf0e4657ccb0471bab57ac6c27b276baaa22c16bac93b23ef423da4830daf0d5"
+    },
+    {
+      "condition": "neutral",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.773828506469727,
+        -0.00820266455411911,
+        -9.13320255279541,
+        -4.82070255279541
+      ],
+      "q_sequence": [
+        3.4974089583968063e-10,
+        0.991830858989336,
+        0.00010801909082889592,
+        0.008061121570094316
+      ],
+      "q_token_mean": [
+        0.0026121881726892033,
+        0.6032177642575581,
+        0.1638419355138376,
+        0.23032811205591502
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Alzheimer's dementia\"}",
+      "generated_disease": "Alzheimer's dementia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "7f3a33ce04093096b3a7e8b75528120115030e4b977bab0f92cc0594f12feaef"
+    },
+    {
+      "condition": "neutral",
+      "round": 5,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -24.503650665283203,
+        -0.0036508843768388033,
+        -8.222400665283203,
+        -5.691151142120361
+      ],
+      "q_sequence": [
+        2.281390923827753e-11,
+        0.9963557257855222,
+        0.0002685695323377085,
+        0.003375704659325971
+      ],
+      "q_token_mean": [
+        0.0013400578800269452,
+        0.6127867478805622,
+        0.18942568934047635,
+        0.1964475048989345
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Alzheimer's dementia\"}",
+      "generated_disease": "Alzheimer's dementia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "03c5b5be71fb1f2c51b99d45b547a59a310af7baf742429f73d0d13d3e3afa4c"
+    },
+    {
+      "condition": "neutral",
+      "round": 6,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -19.346691131591797,
+        -0.1748163104057312,
+        -8.831066131591797,
+        -1.831066370010376
+      ],
+      "q_sequence": [
+        3.961309870055886e-09,
+        0.8396112684431525,
+        0.00014612237665086018,
+        0.16024260521888686
+      ],
+      "q_token_mean": [
+        0.0040563928895407855,
+        0.4966228371452943,
+        0.1448047140204434,
+        0.3545160559447215
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Alzheimer's dementia\"}",
+      "generated_disease": "Alzheimer's dementia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "50ab6a19373b99b63b36b5135b266e4bcc38c63158ca819b0588633e843116dc"
+    },
+    {
+      "condition": "neutral",
+      "round": 7,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -20.775381088256836,
+        -4.634756565093994,
+        -14.119132041931152,
+        -0.009756620973348618
+      ],
+      "q_sequence": [
+        9.49219433598668e-10,
+        0.009708469843278058,
+        7.381401895911643e-07,
+        0.990290791067313
+      ],
+      "q_token_mean": [
+        0.0034723323870131544,
+        0.28893806880372386,
+        0.08323375167479337,
+        0.6243558471344697
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Vascular dementia\"}",
+      "generated_disease": "Vascular dementia",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "ec1b16f44eb63c5dc6252f45499767130874701e2933f0f2d9bec32a44b4ca07"
+    },
+    {
+      "condition": "neutral",
+      "round": 8,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -20.353052139282227,
+        -0.4624272286891937,
+        -10.290552139282227,
+        -0.9936772584915161
+      ],
+      "q_sequence": [
+        1.4480440190038252e-09,
+        0.6297532311056695,
+        3.395236165700959e-05,
+        0.3702128150846296
+      ],
+      "q_token_mean": [
+        0.0031128975096713805,
+        0.4671945646790243,
+        0.11601716164359721,
+        0.413675376167707
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Alzheimer's dementia\"}",
+      "generated_disease": "Alzheimer's dementia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "b642150b2918f2eb8dd55f452597afcc8d8b6895b8d026a361e6e396f61c6f7c"
+    },
+    {
+      "condition": "neutral",
+      "round": 9,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -19.904827117919922,
+        -0.7954510450363159,
+        -5.4829511642456055,
+        -0.6079509258270264
+      ],
+      "q_sequence": [
+        2.266957670124728e-09,
+        0.45137758840549375,
+        0.004157043376823362,
+        0.5444653659507251
+      ],
+      "q_token_mean": [
+        0.0031009930422517067,
+        0.39360741412953254,
+        0.20533657008358414,
+        0.3979550227446315
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Vascular dementia\"}",
+      "generated_disease": "Vascular dementia",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "cd735551aadc69e32323fba9c2bc256ae01545093e3e6531041438c1e7d87f8c"
+    },
+    {
+      "condition": "neutral",
+      "round": 10,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.26882553100586,
+        -3.9875760078430176,
+        -9.15945053100586,
+        -0.018825916573405266
+      ],
+      "q_sequence": [
+        5.795173302146052e-10,
+        0.018544611357776738,
+        0.00010522069587757365,
+        0.9813501673668283
+      ],
+      "q_token_mean": [
+        0.002747388069406347,
+        0.2880865767973984,
+        0.15131505454706085,
+        0.5578509805861345
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Vascular dementia\"}",
+      "generated_disease": "Vascular dementia",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "006689ab8632429602305ac1eae0e144b8426b743e431f26c3a62770e320804d"
+    },
+    {
+      "condition": "neutral",
+      "round": 11,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.528263092041016,
+        -4.387637615203857,
+        -8.9657621383667,
+        -0.012637319974601269
+      ],
+      "q_sequence": [
+        4.4708917009587e-10,
+        0.012430059599011696,
+        0.00012770826157144994,
+        0.9874422316923276
+      ],
+      "q_token_mean": [
+        0.0026109295704786297,
+        0.2732806126233668,
+        0.15774012897044667,
+        0.5663683288357079
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Vascular dementia\"}",
+      "generated_disease": "Vascular dementia",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "9718468bfc9c9b0835bda26b2f144c733f333f067d5dc718a6cfab629fc33042"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -23.995071411132812,
+        -1.9638234376907349,
+        -0.15132346749305725,
+        -9.120073318481445
+      ],
+      "q_sequence": [
+        3.793786771596622e-11,
+        0.1403208937461647,
+        0.8595696595571176,
+        0.00010944665877987792
+      ],
+      "q_token_mean": [
+        0.0013319156748782988,
+        0.38686748155527273,
+        0.5251943988280956,
+        0.08660620394175339
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Lewy body dementia\"}",
+      "generated_disease": "Lewy body dementia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "d0130ff82551d0b9909f1195e5ce14d00b34b553a4987543d40afcc89022dd3e"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -27.808744430541992,
+        -0.38687098026275635,
+        -1.136871099472046,
+        -17.886871337890625
+      ],
+      "q_sequence": [
+        8.37174021362542e-13,
+        0.6791787135671048,
+        0.32082126937789246,
+        1.7054165664616826e-08
+      ],
+      "q_token_mean": [
+        0.0005265693300357958,
+        0.5161179557785461,
+        0.46796975860782664,
+        0.015385716283591363
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Alzheimer's dementia\"}",
+      "generated_disease": "Alzheimer's dementia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "a524f960cecc39f26faa666faa6a6f8b953cac8c7eddef350871698487cf7a53"
+    },
+    {
+      "condition": "wrong",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -27.143020629882812,
+        -3.4086458683013916,
+        -0.033645786345005035,
+        -16.252395629882812
+      ],
+      "q_sequence": [
+        1.6290556444382222e-12,
+        0.03308597287396061,
+        0.9669139396916356,
+        8.743277467966394e-08
+      ],
+      "q_token_mean": [
+        0.0007053526897383991,
+        0.3537499050768905,
+        0.621347983214258,
+        0.024196759019113015
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Lewy body dementia\"}",
+      "generated_disease": "Lewy body dementia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "b4d0a33f4b059c884eb48db14fc3080db699a3f95920cb608006c05ee05954bc"
+    },
+    {
+      "condition": "wrong",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -23.472963333129883,
+        -0.6526507139205933,
+        -0.7464008331298828,
+        -5.246400833129883
+      ],
+      "q_sequence": [
+        6.394720278915757e-11,
+        0.5206638170698648,
+        0.4740697437242698,
+        0.00526643914191833
+      ],
+      "q_token_mean": [
+        0.0013160050759081052,
+        0.41740893647160204,
+        0.4183058371478028,
+        0.16296922130468716
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Alzheimer's dementia\"}",
+      "generated_disease": "Alzheimer's dementia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "9c5e4a1568f736d71d8a609f68930ac2140aabcfc517626afec9c38dea8a6ff6"
+    },
+    {
+      "condition": "wrong",
+      "round": 5,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.43259620666504,
+        -2.3310341835021973,
+        -0.7060341238975525,
+        -0.893534243106842
+      ],
+      "q_sequence": [
+        4.919735255799317e-10,
+        0.09719517705543076,
+        0.49359786690111285,
+        0.4092069555514828
+      ],
+      "q_token_mean": [
+        0.001943561837090771,
+        0.27982534553682503,
+        0.3730861365816654,
+        0.3451449560444187
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Lewy body dementia\"}",
+      "generated_disease": "Lewy body dementia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "b37b9444c44c121255ce224dd2429e15da5552bc4d89184a701be522c29c1ae7"
+    },
+    {
+      "condition": "wrong",
+      "round": 6,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.48504066467285,
+        -7.406914710998535,
+        -9.766289710998535,
+        -0.000664633815176785
+      ],
+      "q_sequence": [
+        4.668371447137043e-10,
+        0.0006070407158765867,
+        5.7352754154280436e-05,
+        0.9993356060631321
+      ],
+      "q_token_mean": [
+        0.0030119282899285344,
+        0.18854842727838952,
+        0.160558188697749,
+        0.6478814557339329
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Vascular dementia\"}",
+      "generated_disease": "Vascular dementia",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "6e4faa247b1fce2ef6ffcd18e5b914a14db72f7c7bf4f1547522e49aff429703"
+    },
+    {
+      "condition": "wrong",
+      "round": 7,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -23.531272888183594,
+        -12.421897888183594,
+        -10.875022888183594,
+        -2.30076584557537e-05
+      ],
+      "q_sequence": [
+        6.032510068935331e-11,
+        4.029380824778172e-06,
+        1.892507424929394e-05,
+        0.9999770454846009
+      ],
+      "q_token_mean": [
+        0.0020791412668989696,
+        0.09410929911760449,
+        0.1577794985887028,
+        0.7460320610267938
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Vascular dementia\"}",
+      "generated_disease": "Vascular dementia",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "6170c0cd2cdf401e546d7db08d2ca79b101488fbf1ad3774bee9fd748c88bc8c"
+    },
+    {
+      "condition": "wrong",
+      "round": 8,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.094284057617188,
+        -8.031785011291504,
+        -8.469284057617188,
+        -0.0005348562845028937
+      ],
+      "q_sequence": [
+        6.900313202381199e-10,
+        0.00032496759724413084,
+        0.00020981505039261515,
+        0.9994652166623319
+      ],
+      "q_token_mean": [
+        0.0032739938935443,
+        0.16749454657938925,
+        0.19050604106640542,
+        0.638725418460661
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Vascular dementia\"}",
+      "generated_disease": "Vascular dementia",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "8eec1bc4a69ffb1a077cbf9f1fde2e6a0e10834f71216d6786fd7416aae03e3c"
+    },
+    {
+      "condition": "wrong",
+      "round": 9,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -25.536487579345703,
+        -13.00523567199707,
+        -0.00523600447922945,
+        -5.25523567199707
+      ],
+      "q_sequence": [
+        8.12165127621089e-12,
+        2.248525891163207e-06,
+        0.994777635783524,
+        0.005220115682463245
+      ],
+      "q_token_mean": [
+        0.0011523438888278335,
+        0.07813051116689779,
+        0.6820970341472722,
+        0.2386201107970021
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Lewy body dementia\"}",
+      "generated_disease": "Lewy body dementia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "22bcd802a7ad0e5b6cf5d877f476f8317265c4535f6a0c033c8feab34bb67b47"
+    },
+    {
+      "condition": "wrong",
+      "round": 10,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -22.80837631225586,
+        -14.980249404907227,
+        -3.6208741664886475,
+        -0.027124181389808655
+      ],
+      "q_sequence": [
+        1.2429339277861044e-10,
+        3.120041440799394e-07,
+        0.026759275221184063,
+        0.9732404126503785
+      ],
+      "q_token_mean": [
+        0.0019917102695054104,
+        0.04912556372596451,
+        0.35560481411086914,
+        0.593277911893661
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Vascular dementia\"}",
+      "generated_disease": "Vascular dementia",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "c2a04cd40b1064245dfad08d5ef25f936787d00c917774cb4922bfa4cfbb32ff"
+    },
+    {
+      "condition": "wrong",
+      "round": 11,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -21.48843765258789,
+        -14.16031265258789,
+        -1.6759381294250488,
+        -0.20718801021575928
+      ],
+      "q_sequence": [
+        4.652539583969737e-10,
+        7.083604856311293e-07,
+        0.18713253138457148,
+        0.8128667597896889
+      ],
+      "q_token_mean": [
+        0.002516494233705285,
+        0.05115826486172781,
+        0.4264761462138133,
+        0.5198490946907537
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Vascular dementia\"}",
+      "generated_disease": "Vascular dementia",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "a084f82ef62d0a8dc5028bf20b01af9209fdb7b61da0cd91da99597d03fd041f"
+    }
+  ],
+  "state_sha256": "2e15040c062b306a65e71223911b325dce5394f4c8b8fbf8e9e42778f8769d81"
+}

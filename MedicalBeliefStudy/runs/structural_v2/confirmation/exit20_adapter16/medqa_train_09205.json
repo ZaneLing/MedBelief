@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_09205",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Littensburg's disease or hyper stress syndrome or stress out stress disorder or stress out stress disorder forgeries orphans etetocosar chilensigroupingserventechservetemphenservetemphesphilaxenemphesphilaxenemphesph",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "274b1b0fe6b9821c896506be4e546c1ff6e094098a9e033ad2aeb3a68eb984fe"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Littensburg's disease or hyper stress syndrome or stress out stress disorder or stress out stress disorder forgeries\"} -- Note: This is an example of an non-c valid and/or non-relegated philacogroupingsystematicfystgroupingslipmaximalentechserventech",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "e536306d2fd518d2ab2e288e877be6b262fb87b11e5171a80f2ed0247a1f427b"
+    }
+  ]
+}

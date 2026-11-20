@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_84778452-f559-4717-b954-579d7d04bb4d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Contact dermatitis\"}",
+      "generated_disease": "Contact dermatitis",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "42de3c0c2fbf100167c73d49308dc6e0cf4c67bb9d5bcb862538dcc99eb9e5f5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Varicella zoster\"}",
+      "generated_disease": "Varicella zoster",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "682f7a2048c9712d19e334699a4bc6bdcbf23ad060c3dfc7be3451ebf8da11f7"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_07589",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic venigular disease\"}",
+      "generated_disease": "Chronic venigular disease",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "7f316a2b5a5afc0d0e6351e1a4c97cb26c0d2fa7bc8d9f948c00a0303fd14f5d"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Oemphiliasenystnysdiggserventiysdiggauracemphilenemphodemphiricovemphilenservicovemphinalenemphesparlinezemphilenservservemphinalenemphesparw",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "dee69cbc1d1f62cf703dee788b40909d0eea5562b7adf5265aa4c6ade91e3612"
+    }
+  ]
+}

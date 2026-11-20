@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_train_06441",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Orthostatic syncope\"}",
+      "generated_disease": "Orthostatic syncope",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "cfedd0782ad9006c0b0f1f2c9503b1816c9e6bf494f48aa31a3ce843f3651937"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Panic attack\"}",
+      "generated_disease": "Panic attack",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "f358a9dd11d020876ff90d4a30e1283a03403ca52c6a2964b01870b6ce31155e"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_c4f3f0e0-c12d-466c-9f3d-d15457624817",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxiaaric disorder\"} (Note: This is an error correction and/or an error in the original system. actual correct answer is typically 'Corticisemia or other similar butchers of an non-linear pathogen butchers of an non-linear pathway in an non-linear pathway in a non",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "a37152278f508799fa36af9bf1b4e4f4b203f52ec14a80b68f3e5ff460e4809c"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxiaaric disorder\"} (Note: This is an error correction and/or an error in the original systematics. actual correct answer is typically 'Corticus disease or other non-linear disease butchers are not yet fully known. However, inductive androgenic disorder is an example of an non",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "f1f5247cdf77a967703dda175b5658460a222f4833def9f481336b2e29c32d4d"
+    }
+  ]
+}

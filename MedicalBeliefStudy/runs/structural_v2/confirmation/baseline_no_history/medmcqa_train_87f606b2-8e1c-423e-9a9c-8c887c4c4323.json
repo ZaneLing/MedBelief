@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_87f606b2-8e1c-423e-9a9c-8c887c4c4323",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "SVC syndrome\"}",
+      "generated_disease": "SVC syndrome",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "b63e4893927b287c88ef5f53bc4031baa70d134f8abbb931ba98b867bbfaed0d"
+    }
+  ]
+}

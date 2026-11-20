@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_dd030924-5129-4540-8608-d19992b13a16",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Polycythemia\"}",
+      "generated_disease": "Polycythemia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "de15f33179c6900f45c5b6435b92bc8f421129bb8eb9dbb68ed2c81396346fb8"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Sickle cell anemia\"}",
+      "generated_disease": "Sickle cell anemia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "b4339670362b22242eca02191e3b96148fc2c2c2aca3bfb0f44474d8ae125c5d"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_07600",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Schizophrenic-like syndrome\"}",
+      "generated_disease": "Schizophrenic-like syndrome",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "b5174202c3ccd1305ff194ed0c0635f26246309f3ad6a5149e7d90ac1125c156"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Schizophrenic-like syndrome\"}",
+      "generated_disease": "Schizophrenic-like syndrome",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "480849406d624bca10ec9d6f9e455f0e899d5206a6d056705ca2b3f922514ac4"
+    }
+  ]
+}

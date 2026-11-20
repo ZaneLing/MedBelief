@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_06428",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Von Willebrand disease\"}",
+      "generated_disease": "Von Willebrand disease",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "21275e4c25bc48c1cb010b9224efe00bac26d506fecd210f41a5c3194db7e656"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Bernard-Soulier syndrome\"}",
+      "generated_disease": "Bernard-Soulier syndrome",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "a508a69d9719f3feadbed6d4621888d7db579615fbd7a5764ce63a391f161d20"
+    }
+  ]
+}

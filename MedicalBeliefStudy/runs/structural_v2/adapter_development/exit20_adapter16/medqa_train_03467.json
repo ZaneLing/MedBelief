@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_03467",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronicity of an existing or new disease or an disease-like structure or an disease-like behavior in an nontrausic or nontrilaxus or nontrivotal or nontrivotal or other nontrumaric or nontrumaric or other nontrumarous or other non",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "766a15c79feebd98949618416fa5e3fac6c3908939a5db6a9709acf0b3398e45"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Aortic disease\"}",
+      "generated_disease": "Aortic disease",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "f08a45092dd288c77a03c9414b72e851ce81fa1dcbc762e11e4253bed508f474"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_07093",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Pheochromocytoma\"}",
+      "generated_disease": "Pheochromocytoma",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "4a17dbac69ed39603ccc812048857a89e621bdd29e828ba3f265c387dee5e8cd"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Pheochromocytoma\"}",
+      "generated_disease": "Pheochromocytoma",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "867be1c94e785ecaba01dced7702f50f334c748c9989fe831f0e0d26808800e3"
+    }
+  ]
+}

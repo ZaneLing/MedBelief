@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_54f6ea7e-d0ea-43a1-a07e-98048f931ec8",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Erythema Marginatus\",\"ipsilateral\":\"left upper limb\",\"ipsilateral\":\"left\",\"ipsilateral\":\"left\",\"ipsilateral\":\"ipsilateral\",\"skin_findings\":\"patchy erythematous papules and vesicles of varying sizes and thicknesses on the trunk and limbs, predominantly flexural sites, with some",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "fe914b2f187307debc34af14ae4836f8978866b85a31c6ce7d23fe3806177730"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Erythema nodularis acuminatus\",\"severity\":\"moderate\",\"location\":\"posterior superior iliacus vessels\",\"manifestations\":[\"itching\",\"erythema\",\"nodules\"],\"etiology\":\"fungal colonization of hair follicles\"],\"clinical_picture\":\"https://upload.wikimedia.org/Nih-Clinical",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "d97405b7f560e32cc79d548c4ef8020c1ec79524fdd16ed18c4018a8a9b1ce13"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_02972",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Acute myelogenous leukemia\"}",
+      "generated_disease": "Acute myelogenous leukemia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "505549ccba344ac20117648a1271a6d9a7173937d500bb3ac079a166c04bcb36"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Acute myelogenous leukemia\"}",
+      "generated_disease": "Acute myelogenous leukemia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "0ea9f60f11ea3fb303a9ebd0c1840588b8ab33832a56b161a41ec272b03874ab"
+    }
+  ]
+}

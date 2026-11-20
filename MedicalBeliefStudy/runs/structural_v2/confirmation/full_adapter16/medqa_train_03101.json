@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_03101",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Primary dysmenorrhea\"}",
+      "generated_disease": "Primary dysmenorrhea",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "dff70ba3ae64ca13a2fdc90189ce1c2cd37ff11c28833380d04cf3aba03b6651"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Primary dysmenorrhea\"}",
+      "generated_disease": "Primary dysmenorrhea",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ca7a9f077933e51b0d089b5f72cf11cc5813a00aee27beab55a7c92a01470259"
+    }
+  ]
+}

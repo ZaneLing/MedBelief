@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_dev_00100",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Benign paroxysmal positional vertigo\"}",
+      "generated_disease": "Benign paroxysmal positional vertigo",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "a91f8d43e154b5c087f866b2f01af029fc2d5087bb6a09f32b05d4865c3dba06"
+    }
+  ]
+}

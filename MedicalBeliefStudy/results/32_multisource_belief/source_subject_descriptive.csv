@@ -1,0 +1,24 @@
+dataset,source_subject,n,neutral_correct,wrong_correct,mention_correct,history_accuracy_change,low,high,status
+MMLU,professional_medicine,40,20,18,18,-0.05,-0.175,0.075,source_metadata_descriptive_stratum
+MedMCQA,Medicine,49,26,24,28,-0.04081632653061224,-0.16326530612244897,0.08163265306122448,source_metadata_descriptive_stratum
+MedMCQA,Pediatrics,23,11,10,10,-0.043478260869565216,-0.17391304347826086,0.08695652173913043,source_metadata_descriptive_stratum
+MedMCQA,Gynaecology & Obstetrics,7,1,1,1,0.0,0.0,0.0,source_metadata_descriptive_stratum
+MedMCQA,Psychiatry,10,8,7,8,-0.1,-0.4,0.2,source_metadata_descriptive_stratum
+MedMCQA,Social & Preventive Medicine,2,2,1,1,-0.5,-1.0,0.0,source_metadata_descriptive_stratum
+MedMCQA,ENT,6,3,2,2,-0.16666666666666666,-0.6666666666666666,0.3333333333333333,source_metadata_descriptive_stratum
+MedMCQA,Surgery,19,9,5,3,-0.21052631578947367,-0.4223684210526311,0.0,source_metadata_descriptive_stratum
+MedMCQA,Ophthalmology,12,5,3,4,-0.16666666666666666,-0.5,0.16666666666666666,source_metadata_descriptive_stratum
+MedMCQA,Skin,10,6,3,4,-0.3,-0.6,0.0,source_metadata_descriptive_stratum
+MedMCQA,Pathology,17,11,10,10,-0.058823529411764705,-0.17647058823529413,0.0,source_metadata_descriptive_stratum
+MedMCQA,Pharmacology,3,2,2,2,0.0,0.0,0.0,source_metadata_descriptive_stratum
+MedMCQA,Orthopaedics,6,1,1,1,0.0,0.0,0.0,source_metadata_descriptive_stratum
+MedMCQA,Radiology,10,4,2,2,-0.2,-0.5,0.0,source_metadata_descriptive_stratum
+MedMCQA,Dental,4,3,2,3,-0.25,-0.75,0.0,source_metadata_descriptive_stratum
+MedMCQA,Unknown,6,4,5,5,0.16666666666666666,0.0,0.5,source_metadata_descriptive_stratum
+MedMCQA,Biochemistry,1,0,1,0,1.0,0.025000000000000022,1.0,source_metadata_descriptive_stratum
+MedMCQA,Microbiology,6,4,3,4,-0.16666666666666666,-0.6666666666666666,0.3333333333333333,source_metadata_descriptive_stratum
+MedMCQA,Anatomy,6,3,3,4,0.0,0.0,0.0,source_metadata_descriptive_stratum
+MedMCQA,Physiology,1,1,0,0,-1.0,-1.0,-1.0,source_metadata_descriptive_stratum
+MedMCQA,Anaesthesia,2,1,1,1,0.0,0.0,0.0,source_metadata_descriptive_stratum
+MedQA,step1,119,72,54,52,-0.15126050420168066,-0.25210084033613445,-0.05042016806722689,source_metadata_descriptive_stratum
+MedQA,step2&3,181,105,74,79,-0.1712707182320442,-0.23756906077348067,-0.10497237569060773,source_metadata_descriptive_stratum

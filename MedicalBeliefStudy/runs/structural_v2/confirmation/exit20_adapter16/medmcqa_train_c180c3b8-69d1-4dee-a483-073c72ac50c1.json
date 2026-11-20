@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_c180c3b8-69d1-4dee-a483-073c72ac50c1",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Schorst's disease\"}",
+      "generated_disease": "Schorst's disease",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "ea5e225ef8009330406b50afb5d3d5dab41dd6db52f31039f51029835476d7db"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Schorst's disease\"}",
+      "generated_disease": "Schorst's disease",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "0a29b43ffc3b36e17185abbb615e609dc526bc0073bdb4ba127365ca82261332"
+    }
+  ]
+}

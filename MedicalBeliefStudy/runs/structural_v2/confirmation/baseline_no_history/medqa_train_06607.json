@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_06607",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Chancroid\"}",
+      "generated_disease": "Chancroid",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "11e058d3c776b384b6dadb9d725752d6fed40f493c0cc467381be53109926292"
+    }
+  ]
+}

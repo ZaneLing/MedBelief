@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_04058",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic long-term diseasephiliasenetic disorder\"}\"}Note: This is an example of an non-tralentary response. actual answer is: [Pick one among: [primary longening of an diseasephilissemptional disorder, etc.\"}actual actual answer is: [Pemphox",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "e58df8773aac22659efca5e604b31f5f031acef2acb912bf78ae15c9cbbbcca6"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Mystosysticenteringemystenystenystenystenemplarsigroupingserventechservemtracovememphesparicotemphservemphesphilopturacumphesphilaxenemphesphilmaan",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "0c7c03a06eb4c9859300c7338d46c624ce9f2f57ae90034dfbb562f1050b64e8"
+    }
+  ]
+}

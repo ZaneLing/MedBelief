@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_fba4477b-e045-47e8-a48b-d0856f57ccc9",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Myopic dystopia paripoteosogaripoiematic disorder\"}",
+      "generated_disease": "Myopic dystopia paripoteosogaripoiematic disorder",
+      "stop": "eos",
+      "tokens": 16,
+      "prompt_sha256": "a9fead490b55c821de85701d4a2ca12ef8aae2e487d4d9d9aa60e6ef501fa480"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Littens-type orphans orphans orphans\"} -- Note: This is an error correction and/or an error in the original list of options. actual correct answer is \"Isolation of an single large-scale systematic disorder orphans orphans orphans\"} (Note: actual correct answer is \"Is an large-scale",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "c5745cf05439ce94f084d21456eb538fe2622efe3557b5faac70de44b57d0edd"
+    }
+  ]
+}

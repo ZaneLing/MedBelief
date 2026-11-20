@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_04651",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Brief psychotic disorder\"}",
+      "generated_disease": "Brief psychotic disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "f6840204fda3a98e0ec157a3be9d2840f5d4c1c86b58b6b26d0bae22847bd5a8"
+    }
+  ]
+}

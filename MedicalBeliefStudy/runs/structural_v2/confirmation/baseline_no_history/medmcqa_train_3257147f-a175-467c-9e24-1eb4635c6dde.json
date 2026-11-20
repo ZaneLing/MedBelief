@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_3257147f-a175-467c-9e24-1eb4635c6dde",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Pityriasis alba\"}",
+      "generated_disease": "Pityriasis alba",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "3b859c362dd91af789a9c89d3ceba7ee13456872f1e2eb2775e05da0c257affe"
+    }
+  ]
+}

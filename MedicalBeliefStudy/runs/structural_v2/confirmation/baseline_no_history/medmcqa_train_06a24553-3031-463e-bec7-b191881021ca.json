@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_06a24553-3031-463e-bec7-b191881021ca",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Paroxysmal nocturnal hemoglobinuria\"}",
+      "generated_disease": "Paroxysmal nocturnal hemoglobinuria",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "b11b6a4773b15726dad8d18ec4d6cddb760d6ba291674bdf4eddcd6ee62f53cf"
+    }
+  ]
+}

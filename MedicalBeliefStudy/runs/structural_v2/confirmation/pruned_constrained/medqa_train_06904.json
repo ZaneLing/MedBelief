@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_06904",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Chlamydia infection\"}",
+      "generated_disease": "Chlamydia infection",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "e21f01cc5b4521ede78152053e08f2ba701193f053648a07c2bb3923b08f01ba"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Chlamydia infection\"}",
+      "generated_disease": "Chlamydia infection",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "9523f1cb067fefadc7656063bf535260f489813e8481c48f34cf55ba4545b5eb"
+    }
+  ]
+}

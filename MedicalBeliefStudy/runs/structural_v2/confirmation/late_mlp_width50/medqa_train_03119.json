@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_train_03119",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Body dysmorphic disorder\"}",
+      "generated_disease": "Body dysmorphic disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "84c4ec62c4947c36a917b1bfc9609877718ad3c09c194031897f8bf7ec154116"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Body dysmorphic disorder\"}",
+      "generated_disease": "Body dysmorphic disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "58fd18c71ff2f337a99d1eea9cd6d187bc2648c13c9dd526f21a565280ff627d"
+    }
+  ]
+}

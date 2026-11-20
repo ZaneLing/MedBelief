@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_03085",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Ebstein anomaly\"}",
+      "generated_disease": "Ebstein anomaly",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "234a6c96de1514cc2fa3fc164caf685c6409f043f9ea62cd37dcfa68858c177f"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Ebstein anomaly\"}",
+      "generated_disease": "Ebstein anomaly",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "a67f3aa921d0ac193659a24b69ac9dc543a5e5b9c87b03f6d0d75e5b7e30a37d"
+    }
+  ]
+}

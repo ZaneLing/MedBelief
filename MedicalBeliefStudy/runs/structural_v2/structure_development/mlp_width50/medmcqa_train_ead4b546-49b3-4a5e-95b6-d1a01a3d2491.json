@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_ead4b546-49b3-4a5e-95b6-d1a01a3d2491",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "mlp_width50",
+    "mlp_keep": 0.5
+  },
+  "parameter_stats": {
+    "parameters": 1192092672,
+    "weight_bytes": 2384185344,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Shakhnovich syndrome\"}",
+      "generated_disease": "Shakhnovich syndrome",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "2c00b9fdcf566662b8e620726fbe4d6ba5d548bacc1d1ba93f802fa32617ecf6"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Shakhnovich syndrome\"}",
+      "generated_disease": "Shakhnovich syndrome",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "a1821dbb71af60891de808e29d6ca72f14c992d5b14d76a14c2f4e051fa52cec"
+    }
+  ]
+}

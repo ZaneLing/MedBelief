@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_03479",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Aevatonicity-associated综合征或其它未知特性但未提及且无法确切可行的选项之一但实际实际可行的是基于现有信息的最佳选项可能是基于其特定特征但未明确且无法确切可行但根据现有信息最可能的是基于其特定特征但无法确切可行但根据现有证据的最佳选项",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "c2fadfca66c2037507897e95650163683d2d11666f340c8005919fb406e420c2"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Dritinuclearity-adjustedness-dependentness-inducedness-inducedness-inducednessuality-adjustedness-adjustingnessesystematicity-adjustingnessesystematicnesseskinematicscaleungiquoleeringsalesenathregegeonicsalesenathregegeumetrythreasonings",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "655a52097b91188336f45fea94163e7610352af64bc722735cb0043b6250549b"
+    }
+  ]
+}

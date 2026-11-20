@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_05660",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Auroanhydroalhydrothaxophilousenhydroicphilousenhydrothiliasenarcicotoidenemphilousenemphiliasenemphiricentericphilisseminalentrabidirectionalphilaxenemidemphilaxen",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "48b91aa9510f25a767583c1f656cb52246e0f430fe2e6f390dd1c6c6c138d885"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Accesssionalidualenystenentechserventetemphenseservetemensesparicotarobenturacovemphilensesparwendemphesparwemphesparwemphesparwemplabemphinalenemph",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "68981dad64dec994e99af2c679fae9f6026c7159a63cc1b84f10e8b00ca6341b"
+    }
+  ]
+}

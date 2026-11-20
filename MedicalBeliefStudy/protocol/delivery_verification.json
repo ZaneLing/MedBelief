@@ -1,0 +1,21 @@
+{
+  "complete": true,
+  "observations_checked": 6600,
+  "state_hashes_and_shapes": "passed",
+  "independent_float64_probability_check_max_error": 2.1304598396554297e-07,
+  "full_vocabulary_checks": 770,
+  "native_forward_checks": 27,
+  "markdown_local_links_checked": 177,
+  "png_figures": 85,
+  "pdf_figures": 83,
+  "case_atlas_markdown": 72,
+  "stage_reports": {
+    "results/03_evidence_order/RESULTS.md": "195fd6c0e4ad474033f24674bac1df82110e5850e33a269cdf8ffdce624d85a2",
+    "results/01_pilot/RESULTS.md": "10093c26d94c096ba7cb867205d3102667740662e379ed3109f75d7572654564",
+    "results/05_synthesis/RESULTS.md": "db668ea914344a39e3ea11b1107e74d11f99ae4b7c5d04295a4427320f306252",
+    "results/04_internal_mechanism/RESULTS.md": "422290dc7fc737e7fdf989bda110df5abb98b6a9038f2fbdcb7e0117302755d9",
+    "results/02_replication/RESULTS.md": "734b62fc3aa997dd53993880df5dd5eff121196a27a797799a91be1509ff3dd5"
+  },
+  "api_cost_usd": 0,
+  "report_reverified_after_numeric_formatting": true
+}

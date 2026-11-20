@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_72f11ff9-fc8c-41ab-82f2-b141c882626b",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cystoid myopathy\"}",
+      "generated_disease": "Cystoid myopathy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "9b8a1244063eea3f1312430e0646b929be75c5987c3414ea90f4352f81d4fe8d"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cryophalomomolosis\"}",
+      "generated_disease": "Cryophalomomolosis",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "5d6e1e87aed85bb9ac7ea462d9c72e6f010049c1e8cb433918c2044ef69d68db"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_086c7192-fdbf-48d7-b0bb-c1be7ada5945",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Hydrocele\"}",
+      "generated_disease": "Hydrocele",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "84c5089d7cc4e5161d5ecc5d3aec53b608c21500534eb16ac6b490d513274991"
+    }
+  ]
+}

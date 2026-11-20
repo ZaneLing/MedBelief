@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_e20b8e6c-221c-4b87-9876-378740bb8cea",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "mlp_width50",
+    "mlp_keep": 0.5
+  },
+  "parameter_stats": {
+    "parameters": 1192092672,
+    "weight_bytes": 2384185344,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Yolk sac tumor\"}",
+      "generated_disease": "Yolk sac tumor",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "1128d30ea8b35c6024c65290a95bbf22b65cb1a9759cadb218c028668f9e920b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Yolk sac tumor\"}",
+      "generated_disease": "Yolk sac tumor",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "1c8d9205bfd7a5cdfb7c776a73ab52551447a1d6c682175ec71f54d417447553"
+    }
+  ]
+}

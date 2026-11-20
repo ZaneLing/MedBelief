@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_04857",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cystococococococleftal\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 12,
+      "prompt_sha256": "c208c6f46173e7196a574a911a319a37f9ccfa51dcb7ee30ba1ce9e0fa52127d"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocococococleftal\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 11,
+      "prompt_sha256": "edfb2d717f132744b8b597f6e994897ad0bdf16124bd0334feb24218bb1e3dfc"
+    }
+  ]
+}

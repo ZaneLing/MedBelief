@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_6779c119-8951-4170-9765-08bb80c1ba09",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Ectopic pregnancy\"}",
+      "generated_disease": "Ectopic pregnancy",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "8958934d1499db67883312a2f089ae89402431bd3dd252407c90f5241da5e062"
+    }
+  ]
+}

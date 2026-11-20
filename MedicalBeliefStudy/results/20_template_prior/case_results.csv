@@ -1,0 +1,97 @@
+case_id,condition,prediction,copd,copd_support,picked_first_candidate,changed_from_full_panel,js_from_full_panel,correct,input_tokens,generated_disease
+ddx_test_0042118,empty_panel,Acute COPD exacerbation / infection,True,0.9989573741328583,True,False,7.014676922768683e-06,,4180,Acute COPD exacerbation / infection
+ddx_test_0042118,empty_append,Acute COPD exacerbation / infection,True,0.9994405593457448,True,False,0.000157429413089229,,463,Acute COPD exacerbation / infection
+ddx_test_0042118,reverse_candidates,Pneumonia,False,0.0012814811038354718,False,True,0.6881597245050335,False,4255,Cough
+ddx_test_0042118,rotate_candidates,Acute COPD exacerbation / infection,True,0.9384011450498058,False,False,0.0198542682915817,False,4255,Acute COPD exacerbation / infection
+ddx_test_0032489,empty_panel,Acute COPD exacerbation / infection,True,0.9982915202143918,True,False,0.03785506563258345,,4180,Acute COPD exacerbation / infection
+ddx_test_0032489,empty_append,Acute COPD exacerbation / infection,True,0.9971122099849966,True,False,0.03799420846985713,,463,Acute COPD exacerbation / infection
+ddx_test_0032489,reverse_candidates,Spontaneous pneumothorax,False,0.0003499888724836896,False,True,0.6915256810584041,False,4180,Spontaneous pneumothorax
+ddx_test_0032489,rotate_candidates,Acute COPD exacerbation / infection,True,0.5140771235052733,False,False,0.11408501251527318,False,4180,Acute COPD exacerbation / infection
+ddx_test_0044249,empty_panel,Acute COPD exacerbation / infection,True,0.999177135673435,True,False,0.00018847420539638466,,4180,Acute COPD exacerbation / infection
+ddx_test_0044249,empty_append,Acute COPD exacerbation / infection,True,0.9966447375180663,True,False,0.0013602219334044438,,463,Acute COPD exacerbation / infection
+ddx_test_0044249,reverse_candidates,Panic attack,False,0.010403507145862948,False,True,0.6640903812296912,False,4275,Pain
+ddx_test_0044249,rotate_candidates,Acute COPD exacerbation / infection,True,0.6447003464992692,False,False,0.1368973092858175,False,4275,Acute COPD exacerbation / infection
+ddx_test_0101113,empty_panel,Acute COPD exacerbation / infection,True,0.9988739578431861,True,True,0.693147177107207,,4180,Acute COPD exacerbation / infection
+ddx_test_0101113,empty_append,Acute COPD exacerbation / infection,True,0.9995403628487016,True,True,0.693147173523213,,463,Acute COPD exacerbation / infection
+ddx_test_0101113,reverse_candidates,Spontaneous pneumothorax,False,6.0754646643021005e-15,False,False,7.801263653832283e-10,True,4258,Spontaneous pneumothorax
+ddx_test_0101113,rotate_candidates,Spontaneous pneumothorax,False,7.391358088910971e-13,False,False,3.4435736429508124e-11,True,4258,Spontaneous pneumothorax
+ddx_test_0079685,empty_panel,Acute COPD exacerbation / infection,True,0.9989875786822358,True,False,0.0021694000559178534,,4180,Acute COPD exacerbation / infection
+ddx_test_0079685,empty_append,Acute COPD exacerbation / infection,True,0.9993668237357956,True,False,0.0033724365817573115,,463,Acute COPD exacerbation / infection
+ddx_test_0079685,reverse_candidates,Spontaneous pneumothorax,False,0.0004395913233002858,False,True,0.6912261700432687,False,4180,Spontaneous pneumothorax
+ddx_test_0079685,rotate_candidates,Acute COPD exacerbation / infection,True,0.6826838587499492,False,False,0.11744580333900939,False,4180,Acute COPD exacerbation / infection
+ddx_test_0067994,empty_panel,Acute COPD exacerbation / infection,True,0.9987261016321679,True,False,0.00017720522082176682,,4180,Acute COPD exacerbation / infection
+ddx_test_0067994,empty_append,Acute COPD exacerbation / infection,True,0.9991534912557489,True,False,0.000397553584895213,,463,Acute COPD exacerbation / infection
+ddx_test_0067994,reverse_candidates,Croup,False,0.010565217247208818,False,True,0.6637421651419897,False,4250,Cough
+ddx_test_0067994,rotate_candidates,Acute COPD exacerbation / infection,True,0.8490489369197088,False,False,0.049336851335691184,False,4250,Acute COPD exacerbation / infection
+ddx_test_0037913,empty_panel,Acute COPD exacerbation / infection,True,0.9990719702323219,True,False,0.1041686330537944,,4180,Acute COPD exacerbation / infection
+ddx_test_0037913,empty_append,Acute COPD exacerbation / infection,True,0.9947834069588184,True,False,0.1024406169172533,,463,Acute COPD exacerbation / infection
+ddx_test_0037913,reverse_candidates,Pericarditis,False,7.693503654982067e-10,False,True,0.6880985550485831,True,4252,Pericarditis
+ddx_test_0037913,rotate_candidates,Pericarditis,False,4.15357834873755e-15,False,True,0.6880986294228472,True,4252,Pericarditis
+ddx_test_0017896,empty_panel,Acute COPD exacerbation / infection,True,0.9990638862742339,True,False,0.05920930249088681,,4180,Acute COPD exacerbation / infection
+ddx_test_0017896,empty_append,Acute COPD exacerbation / infection,True,0.9992567174590049,True,False,0.06002997911446829,,463,Acute COPD exacerbation / infection
+ddx_test_0017896,reverse_candidates,Spontaneous pneumothorax,False,0.001523086257269035,False,True,0.687150852828194,False,4330,Spontaneous pneumothorax
+ddx_test_0017896,rotate_candidates,Acute rhinosinusitis,False,0.03947404319185874,False,True,0.4867354006493451,False,4330,Acute rhinosinusitis
+ddx_test_0005881,empty_panel,Acute COPD exacerbation / infection,True,0.9989961841052394,True,True,0.6799522908708933,,4180,Acute COPD exacerbation / infection
+ddx_test_0005881,empty_append,Acute COPD exacerbation / infection,True,0.9957355918574095,True,True,0.6799888447848559,,463,Acute COPD exacerbation / infection
+ddx_test_0005881,reverse_candidates,Acute COPD exacerbation / infection,True,0.9603577352130643,False,True,0.6499415253800874,False,4252,Acute COPD exacerbation / infection
+ddx_test_0005881,rotate_candidates,Acute pulmonary edema,False,0.01921375077081053,False,True,0.6602659060759916,False,4252,Acute pulmonary edema
+ddx_test_0006854,empty_panel,Acute COPD exacerbation / infection,True,0.9991942043495077,True,True,0.6792012771588338,,4180,Acute COPD exacerbation / infection
+ddx_test_0006854,empty_append,Acute COPD exacerbation / infection,True,0.9984113415896129,True,True,0.679207207289052,,463,Acute COPD exacerbation / infection
+ddx_test_0006854,reverse_candidates,Acute COPD exacerbation / infection,True,0.9152971664528338,False,True,0.5460442208109526,False,4247,Acute COPD exacerbation / infection
+ddx_test_0006854,rotate_candidates,Acute COPD exacerbation / infection,True,0.4985400484102301,False,True,0.5502469627832964,False,4247,Acute COPD exacerbation / infection
+ddx_test_0108184,empty_panel,Acute COPD exacerbation / infection,True,0.9991942043495077,True,True,0.6886905360656769,,4180,Acute COPD exacerbation / infection
+ddx_test_0108184,empty_append,Acute COPD exacerbation / infection,True,0.9984113415896129,True,True,0.6913257753746194,,463,Acute COPD exacerbation / infection
+ddx_test_0108184,reverse_candidates,Acute pulmonary edema,False,0.2478311093913656,False,False,0.09395957197555783,False,4180,Acute pulmonary edema
+ddx_test_0108184,rotate_candidates,Acute pulmonary edema,False,0.0003455013134678383,False,False,0.0004451238845326402,False,4180,Acute pulmonary edema
+ddx_test_0110714,empty_panel,Acute COPD exacerbation / infection,True,0.9992221774906824,True,False,0.028198685583716337,,4180,Acute COPD exacerbation / infection
+ddx_test_0110714,empty_append,Acute COPD exacerbation / infection,True,0.9993781059494589,True,False,0.02964562576596154,,463,Acute COPD exacerbation / infection
+ddx_test_0110714,reverse_candidates,Spontaneous pneumothorax,False,0.00010859389025113092,False,True,0.6925926472222678,False,4307,Spontaneous pneumothorax
+ddx_test_0110714,rotate_candidates,Acute pulmonary edema,False,0.037737370497254855,False,True,0.4677117294394202,False,4307,Acute pulmonary edema
+ddx_test_0061730,empty_panel,Acute COPD exacerbation / infection,True,0.9990634738063099,True,False,0.0037735791352614357,,4180,Acute COPD exacerbation / infection
+ddx_test_0061730,empty_append,Acute COPD exacerbation / infection,True,0.9993443251355816,True,False,0.003901990202220215,,463,Acute COPD exacerbation / infection
+ddx_test_0061730,reverse_candidates,Croup,False,0.004917784415422601,False,True,0.6773004062772002,False,4261,Croup
+ddx_test_0061730,rotate_candidates,Cluster headache,False,0.001881860988786394,False,True,0.6801861097467881,True,4261,Cluster headache
+ddx_test_0077278,empty_panel,Acute COPD exacerbation / infection,True,0.9990254125170034,True,False,0.04439489778345555,,4180,Acute COPD exacerbation / infection
+ddx_test_0077278,empty_append,Acute COPD exacerbation / infection,True,0.9899301598812328,True,False,0.043940862776950196,,463,Acute COPD exacerbation / infection
+ddx_test_0077278,reverse_candidates,Pericarditis,False,8.300520011542062e-11,False,True,0.6480749212365102,True,4245,Pericarditis
+ddx_test_0077278,rotate_candidates,Pericarditis,False,4.930294933253273e-14,False,True,0.6480749185767387,True,4245,Pericarditis
+ddx_test_0048692,empty_panel,Acute COPD exacerbation / infection,True,0.9992221774906824,True,False,0.011707443745336967,,4180,Acute COPD exacerbation / infection
+ddx_test_0048692,empty_append,Acute COPD exacerbation / infection,True,0.9993781059494589,True,False,0.012928332872960323,,463,Acute COPD exacerbation / infection
+ddx_test_0048692,reverse_candidates,Spontaneous pneumothorax,False,0.008591003120965425,False,True,0.668344331524413,False,4294,Spontaneous pneumothorax
+ddx_test_0048692,rotate_candidates,Acute pulmonary edema,False,0.0014094755561801394,False,True,0.6065217018062007,False,4294,Acute pulmonary edema
+ddx_test_0123136,empty_panel,Acute COPD exacerbation / infection,True,0.9984436324660291,True,False,0.0004085370405729696,,4180,Acute COPD exacerbation / infection
+ddx_test_0123136,empty_append,Acute COPD exacerbation / infection,True,0.998978930864888,True,False,0.0008273448541117471,,463,Acute COPD exacerbation / infection
+ddx_test_0123136,reverse_candidates,Pneumonia,False,0.0596843734739481,False,True,0.5782994053466707,False,4256,Pain
+ddx_test_0123136,rotate_candidates,Acute COPD exacerbation / infection,True,0.7145925397694161,False,False,0.10126275827577755,False,4256,Acute COPD exacerbation / infection
+ddx_test_0041136,empty_panel,Acute COPD exacerbation / infection,True,0.9989426709272855,True,False,0.0013315930485330344,,4180,Acute COPD exacerbation / infection
+ddx_test_0041136,empty_append,Acute COPD exacerbation / infection,True,0.9995347723637945,True,False,0.0013985462829558637,,463,Acute COPD exacerbation / infection
+ddx_test_0041136,reverse_candidates,Croup,False,1.230915358355184e-06,False,True,0.6912759772771766,False,4240,Cough
+ddx_test_0041136,rotate_candidates,Acute pulmonary edema,False,0.1460859201472507,False,True,0.45896490607934126,False,4240,Acute pulmonary edema
+ddx_test_0027885,empty_panel,Acute COPD exacerbation / infection,True,0.9991124758182636,True,False,0.019793262199407014,,4180,Acute COPD exacerbation / infection
+ddx_test_0027885,empty_append,Acute COPD exacerbation / infection,True,0.9887560223334138,True,False,0.0178290304198261,,463,Acute COPD exacerbation / infection
+ddx_test_0027885,reverse_candidates,Pneumonia,False,0.08361124506310098,False,True,0.5483558482029405,False,4305,Pneumonia
+ddx_test_0027885,rotate_candidates,Acute COPD exacerbation / infection,True,0.9975435591048766,False,False,0.019411337051701713,False,4305,Acute COPD exacerbation / infection
+ddx_test_0134351,empty_panel,Acute COPD exacerbation / infection,True,0.9989609523200326,True,False,0.18073043102927222,,4180,Acute COPD exacerbation / infection
+ddx_test_0134351,empty_append,Acute COPD exacerbation / infection,True,0.979804081292254,True,False,0.18321144617818297,,463,Acute COPD exacerbation / infection
+ddx_test_0134351,reverse_candidates,Panic attack,False,0.06013699020087343,False,True,0.592129756061512,False,4255,Cough
+ddx_test_0134351,rotate_candidates,Acute pulmonary edema,False,0.002229399029440494,False,True,0.24926647909712105,False,4255,Acute pulmonary edema
+ddx_test_0064225,empty_panel,Acute COPD exacerbation / infection,True,0.9990938744200124,True,False,0.12689525919636546,,4180,Acute COPD exacerbation / infection
+ddx_test_0064225,empty_append,Acute COPD exacerbation / infection,True,0.9632416059274422,True,False,0.1377582987676759,,463,Acute COPD exacerbation / infection
+ddx_test_0064225,reverse_candidates,Pneumonia,False,0.2893698036332012,False,True,0.37247418212259364,False,4277,Pneumonia
+ddx_test_0064225,rotate_candidates,Acute pulmonary edema,False,0.011999369788493785,False,True,0.2942246665782162,True,4277,Acute pulmonary edema
+ddx_test_0060159,empty_panel,Acute COPD exacerbation / infection,True,0.9992051349751474,True,True,0.544294196229807,,4180,Acute COPD exacerbation / infection
+ddx_test_0060159,empty_append,Acute COPD exacerbation / infection,True,0.9971476865267671,True,True,0.545858768942823,,463,Acute COPD exacerbation / infection
+ddx_test_0060159,reverse_candidates,Spontaneous pneumothorax,False,0.10003212624199964,False,True,0.5023952773885646,False,4180,Spontaneous pneumothorax
+ddx_test_0060159,rotate_candidates,Acute pulmonary edema,False,0.00405040231533335,False,False,0.02407603427084665,False,4180,Acute pulmonary edema
+ddx_test_0062355,empty_panel,Acute COPD exacerbation / infection,True,0.9991908673994659,True,True,0.36574039807295355,,4180,Acute COPD exacerbation / infection
+ddx_test_0062355,empty_append,Acute COPD exacerbation / infection,True,0.9917624455987815,True,True,0.3656665871111457,,463,Acute COPD exacerbation / infection
+ddx_test_0062355,reverse_candidates,Panic attack,False,0.1883771444149093,False,True,0.46008655547286303,False,4180,Panic attack
+ddx_test_0062355,rotate_candidates,Acute pulmonary edema,False,0.04220145181977264,False,False,0.057610671267076016,False,4180,Acute pulmonary edema
+ddx_test_0084538,empty_panel,Acute COPD exacerbation / infection,True,0.9990599903055798,True,True,0.46057095268135234,,4180,Acute COPD exacerbation / infection
+ddx_test_0084538,empty_append,Acute COPD exacerbation / infection,True,0.9975969374705346,True,True,0.4580958274368349,,463,Acute COPD exacerbation / infection
+ddx_test_0084538,reverse_candidates,Inguinal hernia,False,0.22995795576540884,False,True,0.561786114187905,True,4320,Intense cough
+ddx_test_0084538,rotate_candidates,Acute rhinosinusitis,False,0.4197031309614719,False,True,0.2578934032616799,False,4320,Acute rhinosinusitis
+ddx_test_0045887,empty_panel,Acute COPD exacerbation / infection,True,0.9992993979422128,True,False,0.06140522095403088,,4180,Acute COPD exacerbation / infection
+ddx_test_0045887,empty_append,Acute COPD exacerbation / infection,True,0.9977729958985856,True,False,0.057358349410718004,,463,Acute COPD exacerbation / infection
+ddx_test_0045887,reverse_candidates,Croup,False,9.927232505416866e-05,False,True,0.6876800199367356,False,4246,Croup
+ddx_test_0045887,rotate_candidates,Acute rhinosinusitis,False,0.110995313167712,False,True,0.29864255254446925,False,4246,Acute rhinosinusitis

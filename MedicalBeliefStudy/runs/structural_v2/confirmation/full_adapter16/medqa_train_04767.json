@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_04767",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Generalized anxiety disorder\"}",
+      "generated_disease": "Generalized anxiety disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "b570bc2590f4fc92932bb60e489470be391f5cc7154ddc18f4c7cc6784fd1746"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Generalized anxiety disorder\"}",
+      "generated_disease": "Generalized anxiety disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "a5a2219830b97dbb4fa3ac17b8fde052d5a21643c8eb8248fb9f5e271adde931"
+    }
+  ]
+}

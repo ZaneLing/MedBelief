@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_07589",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Cubital tunnel compression\"}",
+      "generated_disease": "Cubital tunnel compression",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "7f316a2b5a5afc0d0e6351e1a4c97cb26c0d2fa7bc8d9f948c00a0303fd14f5d"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Posterior interosseous nerve compression\"}",
+      "generated_disease": "Posterior interosseous nerve compression",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "dee69cbc1d1f62cf703dee788b40909d0eea5562b7adf5265aa4c6ade91e3612"
+    }
+  ]
+}

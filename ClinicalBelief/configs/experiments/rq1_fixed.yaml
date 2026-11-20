@@ -1,0 +1,28 @@
+experiment_id: rq1_fixed_seed42
+research_question: RQ1
+seed: 42
+dataset:
+  name: ddxplus
+  split: validate             # development only; final test requires frozen config
+  data_manifest: data/manifests/ddxplus_v1.json
+  initial_information: [AGE, SEX, INITIAL_EVIDENCE]
+  closed_world_negative: true
+  synthetic_closed_world: true
+fixed_evidence:
+  orders: [random_valid, greedy_eig_valid, reverse_eig_valid]
+  max_reveals: 6
+  order_seed: 42
+belief_models: [nb, logreg, mlp, neural]
+policy:
+  enabled: false
+metrics:
+  primary: [nll, brier]
+  secondary: [top1, top3, top5, mrr, ece, order_js, duplicate_js]
+validation:
+  patient_level_bootstrap: 2000
+  cluster_unit: patient_id
+logging:
+  save_full_probs: true
+  save_all_actions: true
+  save_model_versions: true
+  save_tokens_and_runtime: true

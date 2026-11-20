@@ -1,0 +1,203 @@
+case_id,round,gold,text_prediction,native24_prediction,text_correct,native24_correct
+ddx_validate_0054038,0,Viral pharyngitis,Viral pharyngitis,Acute pulmonary edema,True,False
+ddx_validate_0054038,1,Viral pharyngitis,Viral pharyngitis,Viral pharyngitis,True,True
+ddx_validate_0054038,2,Viral pharyngitis,Viral pharyngitis,Acute pulmonary edema,True,False
+ddx_validate_0054038,3,Viral pharyngitis,Viral pharyngitis,Acute pulmonary edema,True,False
+ddx_validate_0054038,4,Viral pharyngitis,Viral pharyngitis,Acute pulmonary edema,True,False
+ddx_validate_0054038,5,Viral pharyngitis,Viral pharyngitis,Viral pharyngitis,True,True
+ddx_validate_0006948,0,URTI,Guillain-Barré syndrome,Acute pulmonary edema,False,False
+ddx_validate_0006948,1,URTI,URTI,Acute pulmonary edema,True,False
+ddx_validate_0006948,2,URTI,URTI,Pneumonia,True,False
+ddx_validate_0006948,3,URTI,URTI,Acute pulmonary edema,True,False
+ddx_validate_0006948,4,URTI,URTI,Pneumonia,True,False
+ddx_validate_0006948,5,URTI,URTI,Acute pulmonary edema,True,False
+ddx_validate_0006948,6,URTI,URTI,Acute pulmonary edema,True,False
+ddx_validate_0006948,7,URTI,URTI,Acute pulmonary edema,True,False
+ddx_validate_0006948,8,URTI,URTI,Acute pulmonary edema,True,False
+ddx_validate_0006948,9,URTI,URTI,Pneumonia,True,False
+ddx_validate_0006948,10,URTI,URTI,Acute pulmonary edema,True,False
+ddx_validate_0081578,0,Bronchitis,Bronchospasm / acute asthma exacerbation,Acute pulmonary edema,False,False
+ddx_validate_0081578,1,Bronchitis,Bronchospasm / acute asthma exacerbation,Acute pulmonary edema,False,False
+ddx_validate_0081578,2,Bronchitis,Bronchospasm / acute asthma exacerbation,Acute pulmonary edema,False,False
+ddx_validate_0081578,3,Bronchitis,Bronchitis,Acute pulmonary edema,True,False
+ddx_validate_0081578,4,Bronchitis,Bronchitis,Acute pulmonary edema,True,False
+ddx_validate_0081578,5,Bronchitis,Bronchitis,Acute pulmonary edema,True,False
+ddx_validate_0081578,6,Bronchitis,Bronchitis,Acute pulmonary edema,True,False
+ddx_validate_0081578,7,Bronchitis,Bronchitis,Acute pulmonary edema,True,False
+ddx_validate_0081578,8,Bronchitis,Bronchitis,Bronchospasm / acute asthma exacerbation,True,False
+ddx_validate_0081578,9,Bronchitis,Bronchitis,Bronchospasm / acute asthma exacerbation,True,False
+ddx_validate_0000493,0,Pulmonary embolism,Pulmonary embolism,Acute pulmonary edema,True,False
+ddx_validate_0000493,1,Pulmonary embolism,Pulmonary embolism,Acute pulmonary edema,True,False
+ddx_validate_0000493,2,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,True,True
+ddx_validate_0000493,3,Pulmonary embolism,Pulmonary embolism,Acute pulmonary edema,True,False
+ddx_validate_0000493,4,Pulmonary embolism,Pulmonary embolism,Pulmonary embolism,True,True
+ddx_validate_0000493,5,Pulmonary embolism,Pulmonary embolism,Boerhaave,True,False
+ddx_validate_0000493,6,Pulmonary embolism,Pulmonary embolism,Boerhaave,True,False
+ddx_validate_0000493,7,Pulmonary embolism,Pulmonary embolism,Boerhaave,True,False
+ddx_validate_0000493,8,Pulmonary embolism,Pulmonary embolism,Boerhaave,True,False
+ddx_validate_0000493,9,Pulmonary embolism,Pulmonary embolism,Boerhaave,True,False
+ddx_validate_0082663,0,Anemia,Anemia,Acute pulmonary edema,True,False
+ddx_validate_0082663,1,Anemia,Anemia,Acute pulmonary edema,True,False
+ddx_validate_0082663,2,Anemia,Anemia,Pulmonary embolism,True,False
+ddx_validate_0082663,3,Anemia,Anemia,Pulmonary embolism,True,False
+ddx_validate_0082663,4,Anemia,Anemia,Pulmonary embolism,True,False
+ddx_validate_0082663,5,Anemia,Anemia,Pulmonary embolism,True,False
+ddx_validate_0082663,6,Anemia,Anemia,Pulmonary embolism,True,False
+ddx_validate_0082663,7,Anemia,Anemia,Pulmonary embolism,True,False
+ddx_validate_0082663,8,Anemia,Anemia,Pulmonary embolism,True,False
+ddx_validate_0082663,9,Anemia,Anemia,Pulmonary embolism,True,False
+ddx_validate_0082663,10,Anemia,Anemia,Pulmonary embolism,True,False
+ddx_validate_0082663,11,Anemia,Anemia,Pulmonary embolism,True,False
+ddx_validate_0024213,0,Acute otitis media,Acute otitis media,Cluster headache,True,False
+ddx_validate_0024213,1,Acute otitis media,Acute otitis media,Acute pulmonary edema,True,False
+ddx_validate_0024213,2,Acute otitis media,Acute otitis media,Acute otitis media,True,True
+ddx_validate_0024213,3,Acute otitis media,Acute otitis media,Acute otitis media,True,True
+ddx_validate_0024213,4,Acute otitis media,Acute otitis media,Acute otitis media,True,True
+ddx_validate_0024213,5,Acute otitis media,Acute otitis media,Acute otitis media,True,True
+ddx_validate_0024213,6,Acute otitis media,Acute otitis media,Acute otitis media,True,True
+ddx_validate_0029473,0,Cluster headache,Cluster headache,Cluster headache,True,True
+ddx_validate_0029473,1,Cluster headache,Cluster headache,Acute otitis media,True,False
+ddx_validate_0029473,2,Cluster headache,Cluster headache,Cluster headache,True,True
+ddx_validate_0029473,3,Cluster headache,Cluster headache,Cluster headache,True,True
+ddx_validate_0029473,4,Cluster headache,Cluster headache,Cluster headache,True,True
+ddx_validate_0086034,0,Acute dystonic reactions,Acute dystonic reactions,Acute pulmonary edema,True,False
+ddx_validate_0086034,1,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,True,True
+ddx_validate_0086034,2,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,True,True
+ddx_validate_0086034,3,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,True,True
+ddx_validate_0086034,4,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,True,True
+ddx_validate_0086034,5,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,True,True
+ddx_validate_0086034,6,Acute dystonic reactions,Acute dystonic reactions,Bronchospasm / acute asthma exacerbation,True,False
+ddx_validate_0070577,0,GERD,Pericarditis,Acute pulmonary edema,False,False
+ddx_validate_0070577,1,GERD,Pericarditis,Acute pulmonary edema,False,False
+ddx_validate_0070577,2,GERD,GERD,GERD,True,True
+ddx_validate_0070577,3,GERD,GERD,Boerhaave,True,False
+ddx_validate_0070577,4,GERD,GERD,Boerhaave,True,False
+ddx_validate_0070577,5,GERD,GERD,Boerhaave,True,False
+ddx_validate_0070577,6,GERD,GERD,Boerhaave,True,False
+ddx_validate_0070577,7,GERD,GERD,Boerhaave,True,False
+ddx_validate_0070577,8,GERD,GERD,Boerhaave,True,False
+ddx_validate_0070577,9,GERD,GERD,Boerhaave,True,False
+ddx_validate_0070577,10,GERD,GERD,Boerhaave,True,False
+ddx_validate_0036829,0,Myasthenia gravis,Guillain-Barré syndrome,Acute pulmonary edema,False,False
+ddx_validate_0036829,1,Myasthenia gravis,Guillain-Barré syndrome,Acute pulmonary edema,False,False
+ddx_validate_0036829,2,Myasthenia gravis,Myasthenia gravis,Bronchospasm / acute asthma exacerbation,True,False
+ddx_validate_0036829,3,Myasthenia gravis,Myasthenia gravis,Acute pulmonary edema,True,False
+ddx_validate_0036829,4,Myasthenia gravis,Myasthenia gravis,Bronchospasm / acute asthma exacerbation,True,False
+ddx_validate_0036829,5,Myasthenia gravis,Myasthenia gravis,Bronchospasm / acute asthma exacerbation,True,False
+ddx_validate_0090190,0,Viral pharyngitis,Cluster headache,Atrial fibrillation,False,False
+ddx_validate_0090190,1,Viral pharyngitis,URTI,Atrial fibrillation,False,False
+ddx_validate_0090190,2,Viral pharyngitis,URTI,Atrial fibrillation,False,False
+ddx_validate_0090190,3,Viral pharyngitis,URTI,Atrial fibrillation,False,False
+ddx_validate_0090190,4,Viral pharyngitis,Viral pharyngitis,GERD,True,False
+ddx_validate_0090190,5,Viral pharyngitis,Viral pharyngitis,GERD,True,False
+ddx_validate_0090190,6,Viral pharyngitis,Viral pharyngitis,Atrial fibrillation,True,False
+ddx_validate_0021109,0,Guillain-Barré syndrome,Bronchospasm / acute asthma exacerbation,Acute pulmonary edema,False,False
+ddx_validate_0021109,1,Guillain-Barré syndrome,Guillain-Barré syndrome,Acute pulmonary edema,True,False
+ddx_validate_0021109,2,Guillain-Barré syndrome,Guillain-Barré syndrome,Acute pulmonary edema,True,False
+ddx_validate_0021109,3,Guillain-Barré syndrome,Guillain-Barré syndrome,Acute pulmonary edema,True,False
+ddx_validate_0021109,4,Guillain-Barré syndrome,Guillain-Barré syndrome,Acute pulmonary edema,True,False
+ddx_validate_0021109,5,Guillain-Barré syndrome,Guillain-Barré syndrome,Acute pulmonary edema,True,False
+ddx_validate_0021109,6,Guillain-Barré syndrome,Guillain-Barré syndrome,Acute pulmonary edema,True,False
+ddx_validate_0083651,0,HIV (initial infection),HIV (initial infection),Acute pulmonary edema,True,False
+ddx_validate_0083651,1,HIV (initial infection),HIV (initial infection),Acute pulmonary edema,True,False
+ddx_validate_0083651,2,HIV (initial infection),HIV (initial infection),Atrial fibrillation,True,False
+ddx_validate_0083651,3,HIV (initial infection),HIV (initial infection),Atrial fibrillation,True,False
+ddx_validate_0083651,4,HIV (initial infection),HIV (initial infection),Myasthenia gravis,True,False
+ddx_validate_0083651,5,HIV (initial infection),HIV (initial infection),Acute dystonic reactions,True,False
+ddx_validate_0083651,6,HIV (initial infection),HIV (initial infection),Pneumonia,True,False
+ddx_validate_0083651,7,HIV (initial infection),HIV (initial infection),Pneumonia,True,False
+ddx_validate_0083651,8,HIV (initial infection),HIV (initial infection),Pneumonia,True,False
+ddx_validate_0083651,9,HIV (initial infection),HIV (initial infection),Pneumonia,True,False
+ddx_validate_0083651,10,HIV (initial infection),HIV (initial infection),Pneumonia,True,False
+ddx_validate_0083651,11,HIV (initial infection),HIV (initial infection),Pneumonia,True,False
+ddx_validate_0114238,0,Acute otitis media,Bronchitis,Acute pulmonary edema,False,False
+ddx_validate_0114238,1,Acute otitis media,Acute otitis media,Viral pharyngitis,True,False
+ddx_validate_0114238,2,Acute otitis media,Acute otitis media,Acute pulmonary edema,True,False
+ddx_validate_0114238,3,Acute otitis media,Acute otitis media,Viral pharyngitis,True,False
+ddx_validate_0114238,4,Acute otitis media,Acute otitis media,Viral pharyngitis,True,False
+ddx_validate_0027808,0,GERD,GERD,GERD,True,True
+ddx_validate_0027808,1,GERD,GERD,GERD,True,True
+ddx_validate_0027808,2,GERD,GERD,Boerhaave,True,False
+ddx_validate_0027808,3,GERD,GERD,Boerhaave,True,False
+ddx_validate_0027808,4,GERD,GERD,Boerhaave,True,False
+ddx_validate_0027808,5,GERD,GERD,Boerhaave,True,False
+ddx_validate_0027808,6,GERD,GERD,Boerhaave,True,False
+ddx_validate_0027808,7,GERD,GERD,Boerhaave,True,False
+ddx_validate_0027808,8,GERD,GERD,Boerhaave,True,False
+ddx_validate_0027808,9,GERD,GERD,Boerhaave,True,False
+ddx_validate_0027808,10,GERD,GERD,Boerhaave,True,False
+ddx_validate_0038557,0,Bronchitis,Acute otitis media,Acute pulmonary edema,False,False
+ddx_validate_0038557,1,Bronchitis,Bronchitis,Acute pulmonary edema,True,False
+ddx_validate_0038557,2,Bronchitis,Bronchitis,Acute pulmonary edema,True,False
+ddx_validate_0038557,3,Bronchitis,Bronchitis,Acute pulmonary edema,True,False
+ddx_validate_0038557,4,Bronchitis,Bronchitis,Acute pulmonary edema,True,False
+ddx_validate_0038557,5,Bronchitis,Bronchitis,Acute pulmonary edema,True,False
+ddx_validate_0038557,6,Bronchitis,Bronchitis,Bronchospasm / acute asthma exacerbation,True,False
+ddx_validate_0038557,7,Bronchitis,Bronchitis,Bronchospasm / acute asthma exacerbation,True,False
+ddx_validate_0025292,0,Spontaneous pneumothorax,Spontaneous pneumothorax,Boerhaave,True,False
+ddx_validate_0025292,1,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,True,True
+ddx_validate_0025292,2,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,True,True
+ddx_validate_0025292,3,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,True,True
+ddx_validate_0025292,4,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,True,True
+ddx_validate_0025292,5,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,True,True
+ddx_validate_0025292,6,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,True,True
+ddx_validate_0025292,7,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,True,True
+ddx_validate_0103610,0,GERD,Guillain-Barré syndrome,Acute pulmonary edema,False,False
+ddx_validate_0103610,1,GERD,GERD,Acute pulmonary edema,True,False
+ddx_validate_0103610,2,GERD,GERD,Acute pulmonary edema,True,False
+ddx_validate_0103610,3,GERD,GERD,Acute pulmonary edema,True,False
+ddx_validate_0103610,4,GERD,GERD,Acute pulmonary edema,True,False
+ddx_validate_0103610,5,GERD,GERD,Bronchospasm / acute asthma exacerbation,True,False
+ddx_validate_0103610,6,GERD,GERD,GERD,True,True
+ddx_validate_0103610,7,GERD,GERD,GERD,True,True
+ddx_validate_0103610,8,GERD,GERD,GERD,True,True
+ddx_validate_0088111,0,Anemia,Anemia,Acute pulmonary edema,True,False
+ddx_validate_0088111,1,Anemia,Anemia,Acute pulmonary edema,True,False
+ddx_validate_0088111,2,Anemia,Anemia,Acute pulmonary edema,True,False
+ddx_validate_0088111,3,Anemia,Anemia,Acute pulmonary edema,True,False
+ddx_validate_0088111,4,Anemia,Anemia,Acute pulmonary edema,True,False
+ddx_validate_0088111,5,Anemia,Anemia,Acute pulmonary edema,True,False
+ddx_validate_0088111,6,Anemia,Anemia,Acute pulmonary edema,True,False
+ddx_validate_0088111,7,Anemia,Anemia,Acute pulmonary edema,True,False
+ddx_validate_0088111,8,Anemia,Anemia,Acute pulmonary edema,True,False
+ddx_validate_0088111,9,Anemia,Anemia,Acute pulmonary edema,True,False
+ddx_validate_0088111,10,Anemia,Anemia,Acute pulmonary edema,True,False
+ddx_validate_0088111,11,Anemia,Anemia,Acute pulmonary edema,True,False
+ddx_validate_0088111,12,Anemia,Anemia,Pulmonary embolism,True,False
+ddx_validate_0030584,0,SLE,SLE,Acute pulmonary edema,True,False
+ddx_validate_0030584,1,SLE,SLE,Viral pharyngitis,True,False
+ddx_validate_0030584,2,SLE,SLE,Pericarditis,True,False
+ddx_validate_0030584,3,SLE,SLE,Pericarditis,True,False
+ddx_validate_0030584,4,SLE,SLE,Pericarditis,True,False
+ddx_validate_0030584,5,SLE,SLE,Pericarditis,True,False
+ddx_validate_0100269,0,Acute otitis media,Acute otitis media,Pneumonia,True,False
+ddx_validate_0100269,1,Acute otitis media,Acute otitis media,Acute otitis media,True,True
+ddx_validate_0100269,2,Acute otitis media,Acute otitis media,Acute otitis media,True,True
+ddx_validate_0100269,3,Acute otitis media,Acute otitis media,Acute otitis media,True,True
+ddx_validate_0100269,4,Acute otitis media,Acute otitis media,Acute otitis media,True,True
+ddx_validate_0100269,5,Acute otitis media,Acute otitis media,Acute otitis media,True,True
+ddx_validate_0100269,6,Acute otitis media,Acute otitis media,Acute otitis media,True,True
+ddx_validate_0077267,0,Guillain-Barré syndrome,Guillain-Barré syndrome,Acute pulmonary edema,True,False
+ddx_validate_0077267,1,Guillain-Barré syndrome,Guillain-Barré syndrome,Viral pharyngitis,True,False
+ddx_validate_0077267,2,Guillain-Barré syndrome,Guillain-Barré syndrome,Viral pharyngitis,True,False
+ddx_validate_0077267,3,Guillain-Barré syndrome,Guillain-Barré syndrome,Viral pharyngitis,True,False
+ddx_validate_0077267,4,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,True,True
+ddx_validate_0077267,5,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,True,True
+ddx_validate_0021192,0,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,True,True
+ddx_validate_0021192,1,Atrial fibrillation,Atrial fibrillation,Atrial fibrillation,True,True
+ddx_validate_0021192,2,Atrial fibrillation,Atrial fibrillation,Acute pulmonary edema,True,False
+ddx_validate_0021192,3,Atrial fibrillation,Atrial fibrillation,Pericarditis,True,False
+ddx_validate_0021192,4,Atrial fibrillation,Atrial fibrillation,Possible NSTEMI / STEMI,True,False
+ddx_validate_0021192,5,Atrial fibrillation,Atrial fibrillation,Possible NSTEMI / STEMI,True,False
+ddx_validate_0021192,6,Atrial fibrillation,Atrial fibrillation,Possible NSTEMI / STEMI,True,False
+ddx_validate_0021192,7,Atrial fibrillation,Atrial fibrillation,Pulmonary embolism,True,False
+ddx_validate_0021192,8,Atrial fibrillation,Atrial fibrillation,Pericarditis,True,False
+ddx_validate_0049731,0,GERD,GERD,Acute pulmonary edema,True,False
+ddx_validate_0049731,1,GERD,GERD,GERD,True,True
+ddx_validate_0049731,2,GERD,GERD,Acute pulmonary edema,True,False
+ddx_validate_0049731,3,GERD,GERD,GERD,True,True
+ddx_validate_0049731,4,GERD,GERD,GERD,True,True
+ddx_validate_0049731,5,GERD,GERD,GERD,True,True
+ddx_validate_0049731,6,GERD,GERD,GERD,True,True
+ddx_validate_0049731,7,GERD,GERD,GERD,True,True
+ddx_validate_0049731,8,GERD,GERD,GERD,True,True

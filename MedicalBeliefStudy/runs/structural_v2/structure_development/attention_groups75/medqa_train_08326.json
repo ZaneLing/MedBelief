@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_08326",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Epileptic status epilepticus\",\"epileptiform activity\":\"likely\",\"epileptiform activity\":\"likely\"]",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 24,
+      "prompt_sha256": "4f182684ce4d91f0b764f77ebfce004020cd3b4f7994a38f665e67470292bf44"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Epileptic status epilepticus\",\"epileptiform activity\":\"likely\",\"focal\":\"no\",\"focal_signs_present\":\"no\",\"focal_signs\":\"none\",\"focal_signs\":\"none\",\"focal_signs_present\":\"no\",\"generalized_seizure_type\":\"absence\",\"history_present\":\"",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "272f61cd1482dac7e26f0b32baac0973b6aa49e4e5829f4038e7d05290ac749b"
+    }
+  ]
+}

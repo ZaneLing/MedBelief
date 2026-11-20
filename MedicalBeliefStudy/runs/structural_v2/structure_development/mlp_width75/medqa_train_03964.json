@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_03964",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "mlp_width75",
+    "mlp_keep": 0.75
+  },
+  "parameter_stats": {
+    "parameters": 1456333824,
+    "weight_bytes": 2912667648,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Wilson's disease\"}",
+      "generated_disease": "Wilson's disease",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "0b48661f708e7f7458c239c40c16ce96798439c56807ca148cbd8a30d6ccf0d3"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Porphyria cutanea tarda\"}",
+      "generated_disease": "Porphyria cutanea tarda",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "af8c51e741b8527654d9933226114d5b9fd48507ae7dc6ed60631c342776d4c2"
+    }
+  ]
+}

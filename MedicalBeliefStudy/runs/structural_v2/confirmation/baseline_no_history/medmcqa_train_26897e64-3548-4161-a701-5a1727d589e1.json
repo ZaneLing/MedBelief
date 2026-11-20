@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_26897e64-3548-4161-a701-5a1727d589e1",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Bleeding duodenal ulcer\"}",
+      "generated_disease": "Bleeding duodenal ulcer",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "df746986b5f6055a93428acfe89babb211fdfe022db1548da17dd34d2268ecf2"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_00879",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Irritable Bowel Syndrome\"}",
+      "generated_disease": "Irritable Bowel Syndrome",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "146125d7337dbdc00182833e7fb10942fb0ad8d6b692ddc7bf8fd5593c1f6787"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Irritable bowel syndrome\"}",
+      "generated_disease": "Irritable bowel syndrome",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "4414c87b3ea5b6f84237f86eb3c8b350fbee8213693b6297c5cc49993efc909b"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_08607",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Primary syphilis\"}",
+      "generated_disease": "Primary syphilis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "3a175317b93cc10e66560b55e2d8b447e045d7b72cf768fef85704296b7c6b61"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Primary syphilis\"}",
+      "generated_disease": "Primary syphilis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "09a83ce70e7a8247996b643cb82dbdb79688faa5291ebe259f85e10d9465c227"
+    }
+  ]
+}

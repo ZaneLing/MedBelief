@@ -1,0 +1,5868 @@
+[
+  {
+    "case_id": "ddx_test_0000000",
+    "gold": "GERD",
+    "keys": [
+      "E_140",
+      "E_167",
+      "E_173",
+      "E_201",
+      "E_204",
+      "E_217",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_70",
+      "E_78",
+      "E_98"
+    ],
+    "tokens": [
+      "E_53",
+      "E_54_@_V_112",
+      "E_54_@_V_161",
+      "E_54_@_V_180",
+      "E_54_@_V_181",
+      "E_55_@_V_29",
+      "E_55_@_V_101",
+      "E_55_@_V_103",
+      "E_56_@_6",
+      "E_57_@_V_29",
+      "E_57_@_V_101",
+      "E_58_@_3",
+      "E_59_@_2",
+      "E_70",
+      "E_78",
+      "E_98",
+      "E_140",
+      "E_167",
+      "E_173",
+      "E_201",
+      "E_204_@_V_10",
+      "E_217"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_173"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Do you have a burning sensation that starts in your stomach then goes up into your throat, and can be associated with a bitter taste in your mouth?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_173": [
+        "GERD"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.20230062181160519,
+      "GERD": 0.17922682408564053,
+      "Possible NSTEMI / STEMI": 0.14309132471769756,
+      "Unstable angina": 0.1344856218328563,
+      "Pericarditis": 0.09757216830089709,
+      "Anemia": 0.09706153313080657,
+      "Stable angina": 0.07488477210980934,
+      "Boerhaave": 0.07137713401068731
+    },
+    "reference_outside_support_mass": 0.8207731759143594
+  },
+  {
+    "case_id": "ddx_test_0000001",
+    "gold": "Bronchitis",
+    "keys": [
+      "E_123",
+      "E_181",
+      "E_201",
+      "E_204",
+      "E_214",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66"
+    ],
+    "tokens": [
+      "E_53",
+      "E_54_@_V_181",
+      "E_55_@_V_55",
+      "E_55_@_V_148",
+      "E_56_@_5",
+      "E_57_@_V_123",
+      "E_58_@_7",
+      "E_59_@_4",
+      "E_66",
+      "E_123",
+      "E_181",
+      "E_201",
+      "E_204_@_V_10",
+      "E_214"
+    ],
+    "certificate": {
+      "exact_minimum": 3,
+      "witness": [
+        "E_123",
+        "E_214",
+        "E_181"
+      ],
+      "upper_bound": 3
+    },
+    "certificate_questions": [
+      "Do you have a chronic obstructive pulmonary disease (COPD)?",
+      "Have you noticed a wheezing sound when you exhale?",
+      "Do you have nasal congestion or a clear runny nose?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_123": [
+        "Acute COPD exacerbation / infection",
+        "Bronchiectasis",
+        "Bronchitis",
+        "Pneumonia",
+        "Spontaneous pneumothorax"
+      ],
+      "E_214": [
+        "Acute COPD exacerbation / infection",
+        "Anaphylaxis",
+        "Bronchiolitis",
+        "Bronchitis",
+        "Bronchospasm / acute asthma exacerbation",
+        "Scombroid food poisoning"
+      ],
+      "E_181": [
+        "Acute otitis media",
+        "Acute rhinosinusitis",
+        "Allergic sinusitis",
+        "Bronchiolitis",
+        "Bronchitis",
+        "Chronic rhinosinusitis",
+        "Cluster headache",
+        "Croup",
+        "Influenza",
+        "Pneumonia",
+        "URTI",
+        "Viral pharyngitis"
+      ]
+    },
+    "reference_differential": {
+      "Bronchospasm / acute asthma exacerbation": 0.0802201660064834,
+      "Influenza": 0.06940463222398906,
+      "Viral pharyngitis": 0.0655942933919721,
+      "Allergic sinusitis": 0.06552892428208987,
+      "Pneumonia": 0.06545017163298406,
+      "Bronchitis": 0.06364201476444997,
+      "Spontaneous pneumothorax": 0.059378243534228575,
+      "Tuberculosis": 0.04690915875550665,
+      "URTI": 0.046759599824355666,
+      "Myocarditis": 0.04651861210731325,
+      "Anaphylaxis": 0.04572069791718869,
+      "Acute laryngitis": 0.04358843624121155,
+      "Guillain-Barré syndrome": 0.04179138110732587,
+      "Croup": 0.04179138110732587,
+      "Atrial fibrillation": 0.03991832618321649,
+      "Acute dystonic reactions": 0.02942992438565071,
+      "Myasthenia gravis": 0.02942992438565071,
+      "Anemia": 0.02942992438565071,
+      "Scombroid food poisoning": 0.027190751855561253,
+      "Sarcoidosis": 0.024100679101770887,
+      "PSVT": 0.015720427742588923,
+      "SLE": 0.013624650147256443,
+      "Chagas": 0.008857678916229164
+    },
+    "reference_outside_support_mass": 0.93635798523555
+  },
+  {
+    "case_id": "ddx_test_0000003",
+    "gold": "Acute laryngitis",
+    "keys": [
+      "E_201",
+      "E_204",
+      "E_212",
+      "E_48",
+      "E_49",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_79",
+      "E_91"
+    ],
+    "tokens": [
+      "E_48",
+      "E_49",
+      "E_53",
+      "E_54_@_V_181",
+      "E_55_@_V_20",
+      "E_55_@_V_21",
+      "E_55_@_V_148",
+      "E_56_@_2",
+      "E_57_@_V_123",
+      "E_58_@_4",
+      "E_59_@_4",
+      "E_79",
+      "E_91",
+      "E_201",
+      "E_204_@_V_10",
+      "E_212"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_212",
+        "E_49"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Have you noticed that the tone of your voice has become deeper, softer or hoarse?",
+      "Do you attend or work in a daycare?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_212": [
+        "Acute laryngitis",
+        "Epiglottitis"
+      ],
+      "E_49": [
+        "Acute laryngitis",
+        "URTI",
+        "Viral pharyngitis"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.2748608320637265,
+      "Acute laryngitis": 0.2363915843443387,
+      "Tuberculosis": 0.18044091349360766,
+      "Viral pharyngitis": 0.16947754556569142,
+      "Influenza": 0.13882912453263577
+    },
+    "reference_outside_support_mass": 0.7636084156556613
+  },
+  {
+    "case_id": "ddx_test_0000005",
+    "gold": "URTI",
+    "keys": [
+      "E_144",
+      "E_201",
+      "E_204",
+      "E_48",
+      "E_49",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_77",
+      "E_79",
+      "E_91",
+      "E_97"
+    ],
+    "tokens": [
+      "E_48",
+      "E_49",
+      "E_53",
+      "E_54_@_V_161",
+      "E_55_@_V_62",
+      "E_55_@_V_89",
+      "E_55_@_V_108",
+      "E_55_@_V_124",
+      "E_55_@_V_167",
+      "E_56_@_7",
+      "E_57_@_V_123",
+      "E_58_@_3",
+      "E_59_@_0",
+      "E_77",
+      "E_79",
+      "E_91",
+      "E_97",
+      "E_144",
+      "E_201",
+      "E_204_@_V_10"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_49",
+        "E_144"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Do you attend or work in a daycare?",
+      "Do you have diffuse (widespread) muscle pain?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_49": [
+        "Acute laryngitis",
+        "URTI",
+        "Viral pharyngitis"
+      ],
+      "E_144": [
+        "Ebola",
+        "HIV (initial infection)",
+        "Influenza",
+        "Pneumonia",
+        "URTI"
+      ]
+    },
+    "reference_differential": {
+      "Pneumonia": 0.18812493682749565,
+      "Bronchitis": 0.17875988068946655,
+      "Influenza": 0.14539255602119877,
+      "URTI": 0.14111457685887857,
+      "HIV (initial infection)": 0.11911680425199456,
+      "Tuberculosis": 0.09770865273458021,
+      "Bronchiectasis": 0.08330796699624858,
+      "Chagas": 0.04647462562013707
+    },
+    "reference_outside_support_mass": 0.8588854231411213
+  },
+  {
+    "case_id": "ddx_test_0000007",
+    "gold": "Spontaneous pneumothorax",
+    "keys": [
+      "E_123",
+      "E_14",
+      "E_165",
+      "E_204",
+      "E_21",
+      "E_218",
+      "E_220",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66"
+    ],
+    "tokens": [
+      "E_14",
+      "E_21",
+      "E_53",
+      "E_54_@_V_71",
+      "E_54_@_V_191",
+      "E_55_@_V_159",
+      "E_56_@_7",
+      "E_57_@_V_123",
+      "E_58_@_4",
+      "E_59_@_5",
+      "E_66",
+      "E_123",
+      "E_165",
+      "E_204_@_V_10",
+      "E_218",
+      "E_220"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_165"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Have any of your family members ever had a pneumothorax?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_165": [
+        "Spontaneous pneumothorax"
+      ]
+    },
+    "reference_differential": {
+      "Unstable angina": 0.1069190530542801,
+      "Spontaneous pneumothorax": 0.10623392228338295,
+      "Possible NSTEMI / STEMI": 0.09127403180165326,
+      "Pulmonary embolism": 0.09069042040148312,
+      "Stable angina": 0.08903416547770727,
+      "Atrial fibrillation": 0.07281625511964626,
+      "Panic attack": 0.0702404348855412,
+      "Myocarditis": 0.06923728345917014,
+      "Acute pulmonary edema": 0.06642348093088675,
+      "Pericarditis": 0.0659776259105425,
+      "Guillain-Barré syndrome": 0.06277737180113709,
+      "Acute dystonic reactions": 0.04420847687451707,
+      "Sarcoidosis": 0.03620309385675092,
+      "Scombroid food poisoning": 0.027964384143301362
+    },
+    "reference_outside_support_mass": 0.8937660777166171
+  },
+  {
+    "case_id": "ddx_test_0000008",
+    "gold": "Bronchitis",
+    "keys": [
+      "E_123",
+      "E_181",
+      "E_201",
+      "E_204",
+      "E_214",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_77",
+      "E_91",
+      "E_97"
+    ],
+    "tokens": [
+      "E_53",
+      "E_54_@_V_161",
+      "E_54_@_V_181",
+      "E_55_@_V_56",
+      "E_55_@_V_101",
+      "E_55_@_V_148",
+      "E_55_@_V_159",
+      "E_55_@_V_170",
+      "E_56_@_1",
+      "E_57_@_V_123",
+      "E_58_@_7",
+      "E_59_@_0",
+      "E_77",
+      "E_91",
+      "E_97",
+      "E_123",
+      "E_181",
+      "E_201",
+      "E_204_@_V_10",
+      "E_214"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_123",
+        "E_97"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Do you have a chronic obstructive pulmonary disease (COPD)?",
+      "Do you have a sore throat?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_123": [
+        "Acute COPD exacerbation / infection",
+        "Bronchiectasis",
+        "Bronchitis",
+        "Pneumonia",
+        "Spontaneous pneumothorax"
+      ],
+      "E_97": [
+        "Bronchitis",
+        "Ebola",
+        "HIV (initial infection)",
+        "Influenza",
+        "URTI"
+      ]
+    },
+    "reference_differential": {
+      "URTI": 0.09488081415129002,
+      "Acute COPD exacerbation / infection": 0.09139461616777693,
+      "Bronchitis": 0.08979771667888672,
+      "Viral pharyngitis": 0.07943072545567578,
+      "Pneumonia": 0.07421907640887553,
+      "GERD": 0.06919286839078304,
+      "Influenza": 0.06341212983152902,
+      "Bronchospasm / acute asthma exacerbation": 0.06332400234930885,
+      "Bronchiectasis": 0.059871577554606974,
+      "Tuberculosis": 0.054756489098705986,
+      "Acute laryngitis": 0.05278296225295781,
+      "Possible NSTEMI / STEMI": 0.05012926090514055,
+      "Boerhaave": 0.046602933638172556,
+      "Unstable angina": 0.04224180839496357,
+      "Pericarditis": 0.02853059446507322,
+      "Stable angina": 0.024249476324547763,
+      "Scombroid food poisoning": 0.015182947931705632
+    },
+    "reference_outside_support_mass": 0.9102022833211132
+  },
+  {
+    "case_id": "ddx_test_0000010",
+    "gold": "Bronchitis",
+    "keys": [
+      "E_123",
+      "E_181",
+      "E_201",
+      "E_204",
+      "E_209",
+      "E_214",
+      "E_219",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66",
+      "E_79"
+    ],
+    "tokens": [
+      "E_53",
+      "E_54_@_V_181",
+      "E_55_@_V_29",
+      "E_55_@_V_101",
+      "E_56_@_1",
+      "E_57_@_V_123",
+      "E_58_@_6",
+      "E_59_@_1",
+      "E_66",
+      "E_79",
+      "E_123",
+      "E_181",
+      "E_201",
+      "E_204_@_V_10",
+      "E_209",
+      "E_214",
+      "E_219"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_219",
+        "E_214"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Are your symptoms more prominent at night?",
+      "Have you noticed a wheezing sound when you exhale?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_219": [
+        "Bronchitis",
+        "Croup",
+        "Pneumonia"
+      ],
+      "E_214": [
+        "Acute COPD exacerbation / infection",
+        "Anaphylaxis",
+        "Bronchiolitis",
+        "Bronchitis",
+        "Bronchospasm / acute asthma exacerbation",
+        "Scombroid food poisoning"
+      ]
+    },
+    "reference_differential": {
+      "Allergic sinusitis": 0.05526736299282622,
+      "Bronchitis": 0.053833965640628194,
+      "Possible NSTEMI / STEMI": 0.05203312950178416,
+      "Panic attack": 0.0500949221245116,
+      "Spontaneous pneumothorax": 0.05007985367126779,
+      "GERD": 0.04819195761974519,
+      "Unstable angina": 0.046572930621836664,
+      "Pericarditis": 0.04642717727711638,
+      "Boerhaave": 0.04239861401822303,
+      "Tuberculosis": 0.03956337652466674,
+      "URTI": 0.039437237909890184,
+      "Myocarditis": 0.03923398788281419,
+      "Influenza": 0.03923398788281419,
+      "Stable angina": 0.03856102378847159,
+      "Anaphylaxis": 0.03856102378847159,
+      "Guillain-Barré syndrome": 0.03524702190573572,
+      "Atrial fibrillation": 0.03366727971508683,
+      "Pneumonia": 0.031712741816119286,
+      "Bronchiectasis": 0.02660021481936108,
+      "Acute dystonic reactions": 0.024821318703040867,
+      "Myasthenia gravis": 0.024821318703040867,
+      "Anemia": 0.024821318703040867,
+      "Spontaneous rib fracture": 0.0236204808364206,
+      "Scombroid food poisoning": 0.022932791424746402,
+      "Sarcoidosis": 0.020326611414484108,
+      "Acute pulmonary edema": 0.01971798923441257,
+      "PSVT": 0.013258673112227821,
+      "SLE": 0.011491085708917886,
+      "Chagas": 0.0074706026582972655
+    },
+    "reference_outside_support_mass": 0.9461660343593715
+  },
+  {
+    "case_id": "ddx_test_0000011",
+    "gold": "Bronchitis",
+    "keys": [
+      "E_123",
+      "E_181",
+      "E_201",
+      "E_204",
+      "E_209",
+      "E_214",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66",
+      "E_97"
+    ],
+    "tokens": [
+      "E_53",
+      "E_54_@_V_161",
+      "E_54_@_V_181",
+      "E_55_@_V_101",
+      "E_55_@_V_148",
+      "E_55_@_V_159",
+      "E_55_@_V_170",
+      "E_55_@_V_171",
+      "E_56_@_1",
+      "E_57_@_V_123",
+      "E_58_@_5",
+      "E_59_@_2",
+      "E_66",
+      "E_97",
+      "E_123",
+      "E_181",
+      "E_201",
+      "E_204_@_V_10",
+      "E_209",
+      "E_214"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_123",
+        "E_97"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Do you have a chronic obstructive pulmonary disease (COPD)?",
+      "Do you have a sore throat?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_123": [
+        "Acute COPD exacerbation / infection",
+        "Bronchiectasis",
+        "Bronchitis",
+        "Pneumonia",
+        "Spontaneous pneumothorax"
+      ],
+      "E_97": [
+        "Bronchitis",
+        "Ebola",
+        "HIV (initial infection)",
+        "Influenza",
+        "URTI"
+      ]
+    },
+    "reference_differential": {
+      "Acute COPD exacerbation / infection": 0.06419975123226206,
+      "URTI": 0.062443819316528634,
+      "Viral pharyngitis": 0.0546384540131878,
+      "Spontaneous pneumothorax": 0.051732495987393004,
+      "GERD": 0.04759608244696208,
+      "Bronchitis": 0.047496883125476765,
+      "Possible NSTEMI / STEMI": 0.04709477396154428,
+      "Pericarditis": 0.044757788265193464,
+      "Unstable angina": 0.04317094284746906,
+      "Panic attack": 0.04220058887307645,
+      "Boerhaave": 0.04187437132915821,
+      "Myocarditis": 0.03874887458874323,
+      "Anaphylaxis": 0.038084231438719966,
+      "Pulmonary neoplasm": 0.03763924085189043,
+      "Stable angina": 0.036969306065912734,
+      "Acute laryngitis": 0.03630810922591147,
+      "Guillain-Barré syndrome": 0.03481120592511316,
+      "Atrial fibrillation": 0.033250996644047084,
+      "Spontaneous rib fracture": 0.029999278535715955,
+      "Bronchiectasis": 0.02627131330997188,
+      "Acute dystonic reactions": 0.02451441256555665,
+      "Myasthenia gravis": 0.02451441256555665,
+      "Anemia": 0.02451441256555665,
+      "Scombroid food poisoning": 0.022649236206665348,
+      "Sarcoidosis": 0.02007528061808296,
+      "PSVT": 0.013094734676815798,
+      "SLE": 0.011349002817488268
+    },
+    "reference_outside_support_mass": 0.9525031168745232
+  },
+  {
+    "case_id": "ddx_test_0000012",
+    "gold": "URTI",
+    "keys": [
+      "E_201",
+      "E_204",
+      "E_222",
+      "E_41",
+      "E_48",
+      "E_50",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_97"
+    ],
+    "tokens": [
+      "E_41",
+      "E_48",
+      "E_50",
+      "E_53",
+      "E_54_@_V_154",
+      "E_54_@_V_183",
+      "E_55_@_V_62",
+      "E_55_@_V_89",
+      "E_55_@_V_108",
+      "E_55_@_V_109",
+      "E_55_@_V_124",
+      "E_56_@_6",
+      "E_57_@_V_123",
+      "E_58_@_3",
+      "E_59_@_1",
+      "E_97",
+      "E_201",
+      "E_204_@_V_10",
+      "E_222"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_41",
+        "E_222"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Have you been in contact with a person with similar symptoms in the past 2 weeks?",
+      "Are you exposed to secondhand cigarette smoke on a daily basis?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_41": [
+        "Ebola",
+        "URTI",
+        "Viral pharyngitis"
+      ],
+      "E_222": [
+        "Bronchospasm / acute asthma exacerbation",
+        "Larygospasm",
+        "Pulmonary neoplasm",
+        "URTI"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.3139079839700587,
+      "URTI": 0.2745532105067507,
+      "Cluster headache": 0.18479964867312917,
+      "Chagas": 0.1133695784250307,
+      "Anemia": 0.1133695784250307
+    },
+    "reference_outside_support_mass": 0.7254467894932493
+  },
+  {
+    "case_id": "ddx_test_0000018",
+    "gold": "Bronchitis",
+    "keys": [
+      "E_201",
+      "E_204",
+      "E_214",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66",
+      "E_77",
+      "E_91"
+    ],
+    "tokens": [
+      "E_53",
+      "E_54_@_V_181",
+      "E_55_@_V_55",
+      "E_55_@_V_160",
+      "E_55_@_V_171",
+      "E_56_@_2",
+      "E_57_@_V_123",
+      "E_58_@_3",
+      "E_59_@_2",
+      "E_66",
+      "E_77",
+      "E_91",
+      "E_201",
+      "E_204_@_V_10",
+      "E_214"
+    ],
+    "certificate": {
+      "exact_minimum": 3,
+      "witness": [
+        "E_77",
+        "E_214",
+        "E_91"
+      ],
+      "upper_bound": 3
+    },
+    "certificate_questions": [
+      "Do you have a cough that produces colored or more abundant sputum than usual?",
+      "Have you noticed a wheezing sound when you exhale?",
+      "Do you have a fever (either felt or measured with a thermometer)?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_77": [
+        "Acute COPD exacerbation / infection",
+        "Bronchiectasis",
+        "Bronchitis",
+        "Pneumonia",
+        "URTI"
+      ],
+      "E_214": [
+        "Acute COPD exacerbation / infection",
+        "Anaphylaxis",
+        "Bronchiolitis",
+        "Bronchitis",
+        "Bronchospasm / acute asthma exacerbation",
+        "Scombroid food poisoning"
+      ],
+      "E_91": [
+        "Acute laryngitis",
+        "Acute otitis media",
+        "Acute rhinosinusitis",
+        "Bronchiolitis",
+        "Bronchitis",
+        "Chagas",
+        "Croup",
+        "Ebola",
+        "Epiglottitis",
+        "HIV (initial infection)",
+        "Influenza",
+        "Pneumonia",
+        "Tuberculosis",
+        "URTI",
+        "Viral pharyngitis"
+      ]
+    },
+    "reference_differential": {
+      "Pneumonia": 0.15147929312766123,
+      "Bronchospasm / acute asthma exacerbation": 0.14869560069048168,
+      "Bronchitis": 0.1459892005719499,
+      "Tuberculosis": 0.10380721936831652,
+      "Atrial fibrillation": 0.07399236109648834,
+      "Myocarditis": 0.07199293038439587,
+      "Guillain-Barré syndrome": 0.05455112476887807,
+      "Acute dystonic reactions": 0.05455112476887807,
+      "Myasthenia gravis": 0.05455112476887807,
+      "Croup": 0.05455112476887807,
+      "Sarcoidosis": 0.04467286886188603,
+      "Chagas": 0.04116602682330819
+    },
+    "reference_outside_support_mass": 0.8540107994280499
+  },
+  {
+    "case_id": "ddx_test_0000021",
+    "gold": "Spontaneous pneumothorax",
+    "keys": [
+      "E_14",
+      "E_204",
+      "E_21",
+      "E_218",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_79"
+    ],
+    "tokens": [
+      "E_14",
+      "E_21",
+      "E_53",
+      "E_54_@_V_71",
+      "E_54_@_V_191",
+      "E_55_@_V_29",
+      "E_55_@_V_55",
+      "E_55_@_V_101",
+      "E_55_@_V_159",
+      "E_55_@_V_160",
+      "E_56_@_8",
+      "E_57_@_V_123",
+      "E_58_@_2",
+      "E_59_@_10",
+      "E_79",
+      "E_204_@_V_10",
+      "E_218"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_21"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Have you ever had a spontaneous pneumothorax?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_21": [
+        "Spontaneous pneumothorax"
+      ]
+    },
+    "reference_differential": {
+      "Unstable angina": 0.2572165297983396,
+      "Stable angina": 0.1991601967583988,
+      "Possible NSTEMI / STEMI": 0.16336425623614093,
+      "GERD": 0.1408098458349902,
+      "Pericarditis": 0.10155169469360183,
+      "Atrial fibrillation": 0.07980941360535403,
+      "Spontaneous pneumothorax": 0.058088063073174566
+    },
+    "reference_outside_support_mass": 0.9419119369268253
+  },
+  {
+    "case_id": "ddx_test_0000024",
+    "gold": "Influenza",
+    "keys": [
+      "E_129",
+      "E_130",
+      "E_131",
+      "E_132",
+      "E_133",
+      "E_134",
+      "E_135",
+      "E_136",
+      "E_144",
+      "E_181",
+      "E_201",
+      "E_204",
+      "E_227",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_79",
+      "E_88",
+      "E_91",
+      "E_97"
+    ],
+    "tokens": [
+      "E_53",
+      "E_54_@_V_161",
+      "E_55_@_V_53",
+      "E_55_@_V_54",
+      "E_55_@_V_62",
+      "E_55_@_V_89",
+      "E_55_@_V_124",
+      "E_56_@_7",
+      "E_57_@_V_123",
+      "E_58_@_6",
+      "E_59_@_1",
+      "E_79",
+      "E_88",
+      "E_91",
+      "E_97",
+      "E_129",
+      "E_130_@_V_156",
+      "E_131_@_V_10",
+      "E_132_@_2",
+      "E_133_@_V_26",
+      "E_133_@_V_54",
+      "E_134_@_5",
+      "E_135_@_V_12",
+      "E_136_@_4",
+      "E_144",
+      "E_181",
+      "E_201",
+      "E_204_@_V_10",
+      "E_227"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_227",
+        "E_88"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Are you immunosuppressed?",
+      "Do you feel so tired that you are unable to do your usual activities or are you stuck in your bed all day long?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_227": [
+        "Bronchiectasis",
+        "Influenza",
+        "Viral pharyngitis"
+      ],
+      "E_88": [
+        "Anemia",
+        "HIV (initial infection)",
+        "Influenza"
+      ]
+    },
+    "reference_differential": {
+      "URTI": 0.15570487809772474,
+      "Influenza": 0.15465497078511994,
+      "Bronchitis": 0.11147340927027302,
+      "HIV (initial infection)": 0.10346720624952628,
+      "Pneumonia": 0.10052387059457761,
+      "Chronic rhinosinusitis": 0.09018271535175146,
+      "Chagas": 0.08556853579272128,
+      "Acute rhinosinusitis": 0.08256988873114907,
+      "Tuberculosis": 0.06061161811587433,
+      "Scombroid food poisoning": 0.05524290701128232
+    },
+    "reference_outside_support_mass": 0.8453450292148802
+  },
+  {
+    "case_id": "ddx_test_0000026",
+    "gold": "Acute otitis media",
+    "keys": [
+      "E_1",
+      "E_114",
+      "E_201",
+      "E_204",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_91"
+    ],
+    "tokens": [
+      "E_1",
+      "E_53",
+      "E_54_@_V_161",
+      "E_54_@_V_192",
+      "E_55_@_V_129",
+      "E_55_@_V_130",
+      "E_56_@_9",
+      "E_57_@_V_123",
+      "E_58_@_7",
+      "E_59_@_4",
+      "E_91",
+      "E_114",
+      "E_201",
+      "E_204_@_V_10"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_1"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Are you currently being treated or have you recently been treated with an oral antibiotic for an ear infection?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_1": [
+        "Acute otitis media"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.29070421508775757,
+      "Acute otitis media": 0.28686595102505097,
+      "Pneumonia": 0.2680083666593175,
+      "Tuberculosis": 0.1182283021479506,
+      "Chagas": 0.0361931650799232
+    },
+    "reference_outside_support_mass": 0.7131340489749489
+  },
+  {
+    "case_id": "ddx_test_0000030",
+    "gold": "Pneumonia",
+    "keys": [
+      "E_106",
+      "E_118",
+      "E_123",
+      "E_129",
+      "E_130",
+      "E_131",
+      "E_132",
+      "E_133",
+      "E_134",
+      "E_135",
+      "E_136",
+      "E_161",
+      "E_196",
+      "E_201",
+      "E_204",
+      "E_208",
+      "E_45",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_77",
+      "E_78",
+      "E_79",
+      "E_91",
+      "E_94",
+      "E_95"
+    ],
+    "tokens": [
+      "E_45",
+      "E_53",
+      "E_54_@_V_179",
+      "E_55_@_V_55",
+      "E_55_@_V_170",
+      "E_55_@_V_171",
+      "E_56_@_3",
+      "E_57_@_V_123",
+      "E_58_@_0",
+      "E_59_@_4",
+      "E_77",
+      "E_78",
+      "E_79",
+      "E_91",
+      "E_94",
+      "E_95",
+      "E_106",
+      "E_118",
+      "E_123",
+      "E_129",
+      "E_130_@_V_156",
+      "E_131_@_V_12",
+      "E_132_@_3",
+      "E_133_@_V_38",
+      "E_133_@_V_39",
+      "E_133_@_V_40",
+      "E_133_@_V_83",
+      "E_133_@_V_195",
+      "E_134_@_5",
+      "E_135_@_V_10",
+      "E_136_@_5",
+      "E_161",
+      "E_196",
+      "E_201",
+      "E_204_@_V_10",
+      "E_208"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_95"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Do you have Parkinson’s disease?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_95": [
+        "Pneumonia"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.17658937150480722,
+      "Pneumonia": 0.1633828317184213,
+      "Tuberculosis": 0.14322290067251117,
+      "Bronchiectasis": 0.1373163026933458,
+      "Pulmonary neoplasm": 0.11240214011500216,
+      "Possible NSTEMI / STEMI": 0.10150110202683577,
+      "Unstable angina": 0.10118260524620129,
+      "Stable angina": 0.06440274602287534
+    },
+    "reference_outside_support_mass": 0.8366171682815786
+  },
+  {
+    "case_id": "ddx_test_0000031",
+    "gold": "Spontaneous rib fracture",
+    "keys": [
+      "E_153",
+      "E_203",
+      "E_204",
+      "E_216",
+      "E_220",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66",
+      "E_78"
+    ],
+    "tokens": [
+      "E_53",
+      "E_54_@_V_71",
+      "E_54_@_V_179",
+      "E_54_@_V_192",
+      "E_55_@_V_29",
+      "E_55_@_V_55",
+      "E_55_@_V_56",
+      "E_55_@_V_160",
+      "E_55_@_V_171",
+      "E_56_@_10",
+      "E_57_@_V_170",
+      "E_57_@_V_171",
+      "E_58_@_9",
+      "E_59_@_8",
+      "E_66",
+      "E_78",
+      "E_153",
+      "E_203",
+      "E_204_@_V_10",
+      "E_216",
+      "E_220"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_153"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Are you being treated for osteoporosis?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_153": [
+        "Spontaneous rib fracture"
+      ]
+    },
+    "reference_differential": {
+      "Spontaneous pneumothorax": 0.07272055335927076,
+      "Pulmonary embolism": 0.07195958487710964,
+      "Bronchitis": 0.07146851135473573,
+      "Spontaneous rib fracture": 0.0691374184432475,
+      "Possible NSTEMI / STEMI": 0.06281992694042957,
+      "GERD": 0.06224452759374249,
+      "Pneumonia": 0.058256736121512165,
+      "Pulmonary neoplasm": 0.04922331094000678,
+      "Whooping cough": 0.04737274095842827,
+      "Guillain-Barré syndrome": 0.04552490365549946,
+      "Bronchospasm / acute asthma exacerbation": 0.04417858354899484,
+      "Boerhaave": 0.04311121712761015,
+      "Pericarditis": 0.04302770248849884,
+      "Panic attack": 0.03576462016489034,
+      "Tuberculosis": 0.03222777086060926,
+      "Acute dystonic reactions": 0.03205910971940867,
+      "Myasthenia gravis": 0.03205910971940867,
+      "Anemia": 0.03205910971940867,
+      "Sarcoidosis": 0.026253764892873982,
+      "Scombroid food poisoning": 0.020279216179070948,
+      "Myocarditis": 0.0191500168105633,
+      "Unstable angina": 0.01736305483943803,
+      "Stable angina": 0.011738509685242085
+    },
+    "reference_outside_support_mass": 0.9308625815567524
+  },
+  {
+    "case_id": "ddx_test_0000042",
+    "gold": "Inguinal hernia",
+    "keys": [
+      "E_130",
+      "E_131",
+      "E_132",
+      "E_133",
+      "E_134",
+      "E_135",
+      "E_136",
+      "E_203",
+      "E_204",
+      "E_30",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59"
+    ],
+    "tokens": [
+      "E_30",
+      "E_53",
+      "E_54_@_V_183",
+      "E_55_@_V_87",
+      "E_55_@_V_88",
+      "E_55_@_V_99",
+      "E_55_@_V_100",
+      "E_55_@_V_168",
+      "E_56_@_3",
+      "E_57_@_V_123",
+      "E_58_@_6",
+      "E_59_@_2",
+      "E_130_@_V_11",
+      "E_131_@_V_10",
+      "E_132_@_0",
+      "E_133_@_V_123",
+      "E_134_@_0",
+      "E_135_@_V_10",
+      "E_136_@_0",
+      "E_203",
+      "E_204_@_V_10"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_30"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Do you feel your abdomen is bloated or distended (swollen due to pressure from inside)?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_30": [
+        "Inguinal hernia"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.6115418235177269,
+      "Inguinal hernia": 0.3884581764822731
+    },
+    "reference_outside_support_mass": 0.6115418235177269
+  },
+  {
+    "case_id": "ddx_test_0000063",
+    "gold": "Atrial fibrillation",
+    "keys": [
+      "E_105",
+      "E_155",
+      "E_204",
+      "E_22",
+      "E_31",
+      "E_66",
+      "E_69",
+      "E_70",
+      "E_76"
+    ],
+    "tokens": [
+      "E_22",
+      "E_31",
+      "E_66",
+      "E_69",
+      "E_70",
+      "E_76",
+      "E_105",
+      "E_155",
+      "E_204_@_V_10"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_22",
+        "E_31"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Do you have a known issue with one of your heart valves?",
+      "Do you have severe Chronic Obstructive Pulmonary Disease (COPD)?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_22": [
+        "Atrial fibrillation",
+        "Localized edema"
+      ],
+      "E_31": [
+        "Acute COPD exacerbation / infection",
+        "Atrial fibrillation"
+      ]
+    },
+    "reference_differential": {
+      "PSVT": 0.19144234846364486,
+      "Anemia": 0.14140130346805618,
+      "Guillain-Barré syndrome": 0.1292490279349947,
+      "Myocarditis": 0.11347781559431024,
+      "Atrial fibrillation": 0.09978048531415688,
+      "Scombroid food poisoning": 0.09101850712416298,
+      "Acute dystonic reactions": 0.09101850712416298,
+      "Myasthenia gravis": 0.09101850712416298,
+      "Possible NSTEMI / STEMI": 0.027394318142843804,
+      "Panic attack": 0.024199179709504387
+    },
+    "reference_outside_support_mass": 0.900219514685843
+  },
+  {
+    "case_id": "ddx_test_0000070",
+    "gold": "URTI",
+    "keys": [
+      "E_144",
+      "E_204",
+      "E_222",
+      "E_41",
+      "E_49",
+      "E_50",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_77",
+      "E_97"
+    ],
+    "tokens": [
+      "E_41",
+      "E_49",
+      "E_50",
+      "E_53",
+      "E_54_@_V_154",
+      "E_54_@_V_183",
+      "E_55_@_V_62",
+      "E_55_@_V_89",
+      "E_55_@_V_109",
+      "E_55_@_V_124",
+      "E_55_@_V_166",
+      "E_56_@_7",
+      "E_57_@_V_123",
+      "E_58_@_7",
+      "E_59_@_5",
+      "E_77",
+      "E_97",
+      "E_144",
+      "E_204_@_V_10",
+      "E_222"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_41",
+        "E_222"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Have you been in contact with a person with similar symptoms in the past 2 weeks?",
+      "Are you exposed to secondhand cigarette smoke on a daily basis?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_41": [
+        "Ebola",
+        "URTI",
+        "Viral pharyngitis"
+      ],
+      "E_222": [
+        "Bronchospasm / acute asthma exacerbation",
+        "Larygospasm",
+        "Pulmonary neoplasm",
+        "URTI"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.22736269992582078,
+      "Pneumonia": 0.21448563459130504,
+      "URTI": 0.16281651426248972,
+      "Bronchiectasis": 0.14924647213772427,
+      "Cluster headache": 0.11050501392959734,
+      "Chagas": 0.0677918325765314,
+      "Anemia": 0.0677918325765314
+    },
+    "reference_outside_support_mass": 0.8371834857375102
+  },
+  {
+    "case_id": "ddx_test_0000071",
+    "gold": "Viral pharyngitis",
+    "keys": [
+      "E_201",
+      "E_204",
+      "E_227",
+      "E_41",
+      "E_45",
+      "E_49",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_91"
+    ],
+    "tokens": [
+      "E_41",
+      "E_45",
+      "E_49",
+      "E_53",
+      "E_54_@_V_161",
+      "E_54_@_V_181",
+      "E_55_@_V_20",
+      "E_55_@_V_21",
+      "E_55_@_V_33",
+      "E_55_@_V_137",
+      "E_55_@_V_148",
+      "E_56_@_6",
+      "E_57_@_V_123",
+      "E_58_@_4",
+      "E_59_@_5",
+      "E_91",
+      "E_201",
+      "E_204_@_V_10",
+      "E_227"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_227",
+        "E_41"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Are you immunosuppressed?",
+      "Have you been in contact with a person with similar symptoms in the past 2 weeks?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_227": [
+        "Bronchiectasis",
+        "Influenza",
+        "Viral pharyngitis"
+      ],
+      "E_41": [
+        "Ebola",
+        "URTI",
+        "Viral pharyngitis"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.3061971453153097,
+      "Tuberculosis": 0.2945307970500091,
+      "Viral pharyngitis": 0.20856852580218138,
+      "Influenza": 0.15465674501291246,
+      "Pneumonia": 0.036046786819587284
+    },
+    "reference_outside_support_mass": 0.7914314741978187
+  },
+  {
+    "case_id": "ddx_test_0000079",
+    "gold": "Bronchiectasis",
+    "keys": [
+      "E_118",
+      "E_123",
+      "E_20",
+      "E_204",
+      "E_227",
+      "E_45",
+      "E_47",
+      "E_66",
+      "E_77"
+    ],
+    "tokens": [
+      "E_20",
+      "E_45",
+      "E_47",
+      "E_66",
+      "E_77",
+      "E_118",
+      "E_123",
+      "E_204_@_V_10",
+      "E_227"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_20"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Do you have Rheumatoid Arthritis?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_20": [
+        "Bronchiectasis"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.10802317216676503,
+      "Bronchiectasis": 0.10513889572878314,
+      "Pneumonia": 0.09943669284960684,
+      "Pulmonary neoplasm": 0.09128846461013071,
+      "Acute COPD exacerbation / infection": 0.08103859776477448,
+      "Tuberculosis": 0.07334300804257789,
+      "Pulmonary embolism": 0.0729783691237727,
+      "Guillain-Barré syndrome": 0.0580008788894345,
+      "Bronchospasm / acute asthma exacerbation": 0.05628560344295144,
+      "Atrial fibrillation": 0.055401327763628716,
+      "Myocarditis": 0.05471266371220947,
+      "Acute dystonic reactions": 0.040844820984346886,
+      "Myasthenia gravis": 0.040844820984346886,
+      "Anemia": 0.040844820984346886,
+      "PSVT": 0.021817862952324667
+    },
+    "reference_outside_support_mass": 0.8948611042712169
+  },
+  {
+    "case_id": "ddx_test_0000080",
+    "gold": "Spontaneous pneumothorax",
+    "keys": [
+      "E_123",
+      "E_165",
+      "E_204",
+      "E_21",
+      "E_220",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59"
+    ],
+    "tokens": [
+      "E_21",
+      "E_53",
+      "E_54_@_V_71",
+      "E_54_@_V_179",
+      "E_54_@_V_191",
+      "E_55_@_V_29",
+      "E_55_@_V_101",
+      "E_55_@_V_159",
+      "E_56_@_6",
+      "E_57_@_V_123",
+      "E_58_@_6",
+      "E_59_@_6",
+      "E_123",
+      "E_165",
+      "E_204_@_V_10",
+      "E_220"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_165"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Have any of your family members ever had a pneumothorax?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_165": [
+        "Spontaneous pneumothorax"
+      ]
+    },
+    "reference_differential": {
+      "Possible NSTEMI / STEMI": 0.39542981047477216,
+      "Pulmonary embolism": 0.3808911015492677,
+      "Spontaneous pneumothorax": 0.221821767595299,
+      "Pericarditis": 0.0018573203806612178
+    },
+    "reference_outside_support_mass": 0.7781782324047011
+  },
+  {
+    "case_id": "ddx_test_0000088",
+    "gold": "Myocarditis",
+    "keys": [
+      "E_155",
+      "E_175",
+      "E_204",
+      "E_217",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66"
+    ],
+    "tokens": [
+      "E_53",
+      "E_54_@_V_179",
+      "E_55_@_V_29",
+      "E_55_@_V_101",
+      "E_55_@_V_160",
+      "E_56_@_4",
+      "E_57_@_V_123",
+      "E_58_@_5",
+      "E_59_@_4",
+      "E_66",
+      "E_155",
+      "E_175",
+      "E_204_@_V_10",
+      "E_217"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_175",
+        "E_155"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Have you noticed any new fatigue, generalized and vague discomfort, diffuse (widespread) muscle aches or a change in your general well-being related to your consultation today?",
+      "Do you feel your heart is beating fast (racing), irregularly (missing a beat) or do you feel palpitations?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_175": [
+        "Acute pulmonary edema",
+        "Chagas",
+        "Myocarditis",
+        "Pneumonia"
+      ],
+      "E_155": [
+        "Atrial fibrillation",
+        "Myocarditis",
+        "PSVT",
+        "Panic attack",
+        "Pericarditis",
+        "Scombroid food poisoning"
+      ]
+    },
+    "reference_differential": {
+      "Pericarditis": 0.11676085067700576,
+      "Possible NSTEMI / STEMI": 0.11302537153717353,
+      "Myocarditis": 0.10873118514362999,
+      "GERD": 0.10650888454562006,
+      "Acute pulmonary edema": 0.09959869995035167,
+      "PSVT": 0.08523285378281308,
+      "Panic attack": 0.07488169807206524,
+      "Scombroid food poisoning": 0.05768062720963104,
+      "Acute dystonic reactions": 0.05768062720963104,
+      "Anaphylaxis": 0.05768062720963104,
+      "Chagas": 0.048279524590177876,
+      "Sarcoidosis": 0.04723567307043407,
+      "SLE": 0.02670337700183552
+    },
+    "reference_outside_support_mass": 0.8912688148563701
+  },
+  {
+    "case_id": "ddx_test_0000090",
+    "gold": "Tuberculosis",
+    "keys": [
+      "E_162",
+      "E_2",
+      "E_201",
+      "E_204",
+      "E_45",
+      "E_61",
+      "E_66",
+      "E_78",
+      "E_91"
+    ],
+    "tokens": [
+      "E_2",
+      "E_45",
+      "E_61",
+      "E_66",
+      "E_78",
+      "E_91",
+      "E_162",
+      "E_201",
+      "E_204_@_V_10"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_2",
+        "E_61"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Are you infected with the human immunodeficiency virus (HIV)?",
+      "Are you currently using intravenous drugs?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_2": [
+        "Possible NSTEMI / STEMI",
+        "Tuberculosis"
+      ],
+      "E_61": [
+        "HIV (initial infection)",
+        "Tuberculosis"
+      ]
+    },
+    "reference_differential": {
+      "Pulmonary neoplasm": 0.12758646125194448,
+      "Tuberculosis": 0.117102603778945,
+      "Bronchitis": 0.10874396963293971,
+      "Pneumonia": 0.10316330051938695,
+      "HIV (initial infection)": 0.08432167252112545,
+      "Bronchiectasis": 0.07392894126147881,
+      "Acute pulmonary edema": 0.07196449434233793,
+      "Pulmonary embolism": 0.06913304803731482,
+      "Bronchospasm / acute asthma exacerbation": 0.06383441795888871,
+      "Atrial fibrillation": 0.0628315465343693,
+      "Guillain-Barré syndrome": 0.04632277553554942,
+      "Acute dystonic reactions": 0.04632277553554942,
+      "Myocarditis": 0.024743993090170127
+    },
+    "reference_outside_support_mass": 0.8828973962210551
+  },
+  {
+    "case_id": "ddx_test_0000091",
+    "gold": "Pulmonary embolism",
+    "keys": [
+      "E_109",
+      "E_152",
+      "E_204",
+      "E_220",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66"
+    ],
+    "tokens": [
+      "E_53",
+      "E_54_@_V_161",
+      "E_55_@_V_55",
+      "E_55_@_V_56",
+      "E_55_@_V_128",
+      "E_55_@_V_159",
+      "E_55_@_V_170",
+      "E_56_@_5",
+      "E_57_@_V_55",
+      "E_57_@_V_101",
+      "E_57_@_V_128",
+      "E_57_@_V_159",
+      "E_57_@_V_171",
+      "E_58_@_6",
+      "E_59_@_3",
+      "E_66",
+      "E_109",
+      "E_152_@_V_123",
+      "E_204_@_V_4",
+      "E_220"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_109",
+        "E_220"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Have you ever had deep vein thrombosis (DVT)?",
+      "Do you have pain that is increased when you breathe in deeply?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_109": [
+        "Localized edema",
+        "Pulmonary embolism"
+      ],
+      "E_220": [
+        "Pericarditis",
+        "Pneumonia",
+        "Pulmonary embolism",
+        "Spontaneous pneumothorax",
+        "Spontaneous rib fracture"
+      ]
+    },
+    "reference_differential": {
+      "Spontaneous pneumothorax": 0.12230150425326285,
+      "Pulmonary embolism": 0.12102170664779312,
+      "Possible NSTEMI / STEMI": 0.10358033411748434,
+      "Panic attack": 0.08566584854853203,
+      "Pericarditis": 0.08046688944985007,
+      "Guillain-Barré syndrome": 0.07656383155591931,
+      "Atrial fibrillation": 0.0731323043389507,
+      "Acute dystonic reactions": 0.0539170449423461,
+      "Myasthenia gravis": 0.0539170449423461,
+      "Anemia": 0.0539170449423461,
+      "Sarcoidosis": 0.04415360981711579,
+      "Myocarditis": 0.04349562697219308,
+      "Scombroid food poisoning": 0.03410560741368859,
+      "PSVT": 0.02880058399074037,
+      "SLE": 0.024961018067431427
+    },
+    "reference_outside_support_mass": 0.8789782933522068
+  },
+  {
+    "case_id": "ddx_test_0000094",
+    "gold": "Acute pulmonary edema",
+    "keys": [
+      "E_105",
+      "E_106",
+      "E_151",
+      "E_152",
+      "E_175",
+      "E_204",
+      "E_218",
+      "E_5",
+      "E_50",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66",
+      "E_8"
+    ],
+    "tokens": [
+      "E_5",
+      "E_8",
+      "E_50",
+      "E_53",
+      "E_54_@_V_154",
+      "E_55_@_V_35",
+      "E_55_@_V_56",
+      "E_55_@_V_101",
+      "E_55_@_V_120",
+      "E_55_@_V_171",
+      "E_56_@_8",
+      "E_57_@_V_30",
+      "E_57_@_V_31",
+      "E_57_@_V_121",
+      "E_57_@_V_127",
+      "E_57_@_V_128",
+      "E_58_@_4",
+      "E_59_@_5",
+      "E_66",
+      "E_105",
+      "E_106",
+      "E_151",
+      "E_152_@_V_34",
+      "E_152_@_V_119",
+      "E_152_@_V_173",
+      "E_175",
+      "E_204_@_V_10",
+      "E_218"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_5"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Have you ever had fluid in your lungs?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_5": [
+        "Acute pulmonary edema"
+      ]
+    },
+    "reference_differential": {
+      "Unstable angina": 0.08567590703372868,
+      "Acute pulmonary edema": 0.08284366329132593,
+      "Possible NSTEMI / STEMI": 0.0821853381866064,
+      "Panic attack": 0.07969406952289174,
+      "Stable angina": 0.075690241881779,
+      "Myocarditis": 0.07151079502358439,
+      "SLE": 0.06839567749619133,
+      "Pulmonary embolism": 0.06610025189911209,
+      "Atrial fibrillation": 0.0606869385016199,
+      "GERD": 0.04681818594186009,
+      "Chagas": 0.04492712784772655,
+      "Anaphylaxis": 0.04389302658964105,
+      "Acute dystonic reactions": 0.036844480850131596,
+      "Myasthenia gravis": 0.036844480850131596,
+      "Pulmonary neoplasm": 0.03327819133837585,
+      "Guillain-Barré syndrome": 0.03113279838144232,
+      "Sarcoidosis": 0.03017258889300169,
+      "Scombroid food poisoning": 0.023306236470849822
+    },
+    "reference_outside_support_mass": 0.9171563367086739
+  },
+  {
+    "case_id": "ddx_test_0000100",
+    "gold": "Atrial fibrillation",
+    "keys": [
+      "E_104",
+      "E_105",
+      "E_139",
+      "E_155",
+      "E_164",
+      "E_19",
+      "E_204",
+      "E_218",
+      "E_31",
+      "E_66",
+      "E_70"
+    ],
+    "tokens": [
+      "E_19",
+      "E_31",
+      "E_66",
+      "E_70",
+      "E_104",
+      "E_105",
+      "E_139",
+      "E_155",
+      "E_164",
+      "E_204_@_V_10",
+      "E_218"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_139"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Do you have a known heart defect?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_139": [
+        "Atrial fibrillation"
+      ]
+    },
+    "reference_differential": {
+      "Myocarditis": 0.2038176255602153,
+      "Pulmonary embolism": 0.20187935896642528,
+      "Atrial fibrillation": 0.1981359651102533,
+      "Guillain-Barré syndrome": 0.1728495386108945,
+      "Myasthenia gravis": 0.12172243933143226,
+      "PSVT": 0.05635167896557759,
+      "Unstable angina": 0.04524339345520166
+    },
+    "reference_outside_support_mass": 0.8018640348897466
+  },
+  {
+    "case_id": "ddx_test_0000104",
+    "gold": "Acute otitis media",
+    "keys": [
+      "E_1",
+      "E_114",
+      "E_181",
+      "E_201",
+      "E_204",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59"
+    ],
+    "tokens": [
+      "E_1",
+      "E_53",
+      "E_54_@_V_161",
+      "E_54_@_V_192",
+      "E_55_@_V_129",
+      "E_55_@_V_130",
+      "E_56_@_9",
+      "E_57_@_V_123",
+      "E_58_@_6",
+      "E_59_@_5",
+      "E_114",
+      "E_181",
+      "E_201",
+      "E_204_@_V_10"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_1"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Are you currently being treated or have you recently been treated with an oral antibiotic for an ear infection?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_1": [
+        "Acute otitis media"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.36770446467578644,
+      "Acute otitis media": 0.3590770119679635,
+      "URTI": 0.27321852335624996
+    },
+    "reference_outside_support_mass": 0.6409229880320364
+  },
+  {
+    "case_id": "ddx_test_0000110",
+    "gold": "Viral pharyngitis",
+    "keys": [
+      "E_201",
+      "E_204",
+      "E_227",
+      "E_45",
+      "E_48",
+      "E_49",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_91"
+    ],
+    "tokens": [
+      "E_45",
+      "E_48",
+      "E_49",
+      "E_53",
+      "E_54_@_V_161",
+      "E_55_@_V_20",
+      "E_55_@_V_21",
+      "E_55_@_V_137",
+      "E_55_@_V_163",
+      "E_56_@_7",
+      "E_57_@_V_123",
+      "E_58_@_9",
+      "E_59_@_3",
+      "E_91",
+      "E_201",
+      "E_204_@_V_10",
+      "E_227"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_227",
+        "E_49"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Are you immunosuppressed?",
+      "Do you attend or work in a daycare?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_227": [
+        "Bronchiectasis",
+        "Influenza",
+        "Viral pharyngitis"
+      ],
+      "E_49": [
+        "Acute laryngitis",
+        "URTI",
+        "Viral pharyngitis"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.17369410187269382,
+      "Tuberculosis": 0.16163685762413177,
+      "Acute laryngitis": 0.11535367606063014,
+      "Viral pharyngitis": 0.1144612429247531,
+      "Possible NSTEMI / STEMI": 0.09428534002117292,
+      "Unstable angina": 0.08799876503058031,
+      "Epiglottitis": 0.08588603309212177,
+      "Pneumonia": 0.07978150509632934,
+      "Influenza": 0.05455568935293797,
+      "Stable angina": 0.03234678892464877
+    },
+    "reference_outside_support_mass": 0.8855387570752468
+  },
+  {
+    "case_id": "ddx_test_0000111",
+    "gold": "Sarcoidosis",
+    "keys": [
+      "E_130",
+      "E_131",
+      "E_132",
+      "E_133",
+      "E_134",
+      "E_135",
+      "E_136",
+      "E_163",
+      "E_204",
+      "E_43",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66"
+    ],
+    "tokens": [
+      "E_43",
+      "E_53",
+      "E_54_@_V_181",
+      "E_55_@_V_63",
+      "E_55_@_V_67",
+      "E_55_@_V_69",
+      "E_55_@_V_74",
+      "E_55_@_V_195",
+      "E_56_@_5",
+      "E_57_@_V_123",
+      "E_58_@_2",
+      "E_59_@_4",
+      "E_66",
+      "E_130_@_V_11",
+      "E_131_@_V_10",
+      "E_132_@_0",
+      "E_133_@_V_123",
+      "E_134_@_0",
+      "E_135_@_V_10",
+      "E_136_@_0",
+      "E_163",
+      "E_204_@_V_10"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_163"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Have you had any vaginal discharge?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_163": [
+        "Sarcoidosis"
+      ]
+    },
+    "reference_differential": {
+      "Possible NSTEMI / STEMI": 0.27407127132421544,
+      "Pulmonary embolism": 0.25057873210475407,
+      "Sarcoidosis": 0.24696215928878434,
+      "Anemia": 0.15108555264156945,
+      "SLE": 0.0773022846406767
+    },
+    "reference_outside_support_mass": 0.7530378407112156
+  },
+  {
+    "case_id": "ddx_test_0000124",
+    "gold": "Spontaneous rib fracture",
+    "keys": [
+      "E_203",
+      "E_204",
+      "E_216",
+      "E_220",
+      "E_37",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66",
+      "E_78"
+    ],
+    "tokens": [
+      "E_37",
+      "E_53",
+      "E_54_@_V_112",
+      "E_54_@_V_179",
+      "E_54_@_V_191",
+      "E_55_@_V_55",
+      "E_55_@_V_101",
+      "E_55_@_V_160",
+      "E_55_@_V_170",
+      "E_55_@_V_171",
+      "E_56_@_8",
+      "E_57_@_V_171",
+      "E_58_@_10",
+      "E_59_@_8",
+      "E_66",
+      "E_78",
+      "E_203",
+      "E_204_@_V_10",
+      "E_216",
+      "E_220"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_216"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Do you have pain that is increased with movement?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_216": [
+        "Spontaneous rib fracture"
+      ]
+    },
+    "reference_differential": {
+      "Spontaneous pneumothorax": 0.06995853988764346,
+      "Pulmonary embolism": 0.06922647389731058,
+      "Bronchitis": 0.06875405193383853,
+      "Spontaneous rib fracture": 0.0665114967153095,
+      "Possible NSTEMI / STEMI": 0.05924971225969317,
+      "Pneumonia": 0.05604407570368353,
+      "Tuberculosis": 0.04915905411846441,
+      "Unstable angina": 0.04912777549146829,
+      "Panic attack": 0.0490023219197765,
+      "Stable angina": 0.04651090901581711,
+      "Pericarditis": 0.04602842891903146,
+      "Whooping cough": 0.04557346767638016,
+      "Guillain-Barré syndrome": 0.04379581344121281,
+      "Myocarditis": 0.043116676966063174,
+      "Bronchospasm / acute asthma exacerbation": 0.042500628180353786,
+      "Atrial fibrillation": 0.041832921527907276,
+      "Bronchiectasis": 0.0330518149544812,
+      "Acute dystonic reactions": 0.030841466441917074,
+      "Myasthenia gravis": 0.030841466441917074,
+      "Anemia": 0.030841466441917074,
+      "GERD": 0.0280314380658142
+    },
+    "reference_outside_support_mass": 0.933488503284691
+  },
+  {
+    "case_id": "ddx_test_0000129",
+    "gold": "URTI",
+    "keys": [
+      "E_181",
+      "E_201",
+      "E_204",
+      "E_222",
+      "E_41",
+      "E_48",
+      "E_49",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_77",
+      "E_79",
+      "E_91"
+    ],
+    "tokens": [
+      "E_41",
+      "E_48",
+      "E_49",
+      "E_53",
+      "E_54_@_V_154",
+      "E_54_@_V_161",
+      "E_54_@_V_183",
+      "E_55_@_V_62",
+      "E_55_@_V_108",
+      "E_55_@_V_109",
+      "E_55_@_V_124",
+      "E_55_@_V_167",
+      "E_56_@_6",
+      "E_57_@_V_123",
+      "E_58_@_4",
+      "E_59_@_2",
+      "E_77",
+      "E_79",
+      "E_91",
+      "E_181",
+      "E_201",
+      "E_204_@_V_4",
+      "E_222"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_41",
+        "E_222"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Have you been in contact with a person with similar symptoms in the past 2 weeks?",
+      "Are you exposed to secondhand cigarette smoke on a daily basis?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_41": [
+        "Ebola",
+        "URTI",
+        "Viral pharyngitis"
+      ],
+      "E_222": [
+        "Bronchospasm / acute asthma exacerbation",
+        "Larygospasm",
+        "Pulmonary neoplasm",
+        "URTI"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.1849479501938442,
+      "Pneumonia": 0.16070520852287062,
+      "URTI": 0.14753654444077435,
+      "Bronchiectasis": 0.1223724035680628,
+      "Influenza": 0.11308425756798038,
+      "Tuberculosis": 0.11191759856077951,
+      "Chronic rhinosinusitis": 0.06702622866038412,
+      "Chagas": 0.04907281462950897,
+      "Acute rhinosinusitis": 0.043336993855795106
+    },
+    "reference_outside_support_mass": 0.8524634555592258
+  },
+  {
+    "case_id": "ddx_test_0000134",
+    "gold": "Tuberculosis",
+    "keys": [
+      "E_162",
+      "E_2",
+      "E_201",
+      "E_204",
+      "E_44",
+      "E_45",
+      "E_61",
+      "E_66"
+    ],
+    "tokens": [
+      "E_2",
+      "E_44",
+      "E_45",
+      "E_61",
+      "E_66",
+      "E_162",
+      "E_201",
+      "E_204_@_V_10"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_2",
+        "E_44"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Are you infected with the human immunodeficiency virus (HIV)?",
+      "Do you take corticosteroids?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_2": [
+        "Possible NSTEMI / STEMI",
+        "Tuberculosis"
+      ],
+      "E_44": [
+        "Localized edema",
+        "Tuberculosis"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.1262486339439153,
+      "Tuberculosis": 0.12137565811865116,
+      "Bronchiectasis": 0.08781859886130697,
+      "Acute pulmonary edema": 0.08548507462800034,
+      "Guillain-Barré syndrome": 0.07813833767887127,
+      "Bronchospasm / acute asthma exacerbation": 0.07582753179772134,
+      "Atrial fibrillation": 0.07463624240771316,
+      "Myocarditis": 0.07370847949743597,
+      "Pulmonary embolism": 0.06628889174028146,
+      "Acute dystonic reactions": 0.055025828498080215,
+      "Myasthenia gravis": 0.055025828498080215,
+      "Anemia": 0.055025828498080215,
+      "Pneumonia": 0.045395065831862466
+    },
+    "reference_outside_support_mass": 0.8786243418813489
+  },
+  {
+    "case_id": "ddx_test_0000139",
+    "gold": "Sarcoidosis",
+    "keys": [
+      "E_130",
+      "E_131",
+      "E_132",
+      "E_133",
+      "E_134",
+      "E_135",
+      "E_136",
+      "E_198",
+      "E_204",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66",
+      "E_74",
+      "E_9"
+    ],
+    "tokens": [
+      "E_9",
+      "E_53",
+      "E_54_@_V_181",
+      "E_55_@_V_63",
+      "E_55_@_V_64",
+      "E_55_@_V_67",
+      "E_55_@_V_68",
+      "E_55_@_V_69",
+      "E_56_@_2",
+      "E_57_@_V_123",
+      "E_58_@_8",
+      "E_59_@_5",
+      "E_66",
+      "E_74",
+      "E_130_@_V_11",
+      "E_131_@_V_10",
+      "E_132_@_0",
+      "E_133_@_V_123",
+      "E_134_@_0",
+      "E_135_@_V_10",
+      "E_136_@_0",
+      "E_198",
+      "E_204_@_V_10"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_74"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Have you noticed a diffuse (widespread) redness in one or both eyes?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_74": [
+        "Sarcoidosis"
+      ]
+    },
+    "reference_differential": {
+      "Myocarditis": 0.3830011048250562,
+      "Sarcoidosis": 0.33107584734688617,
+      "Acute dystonic reactions": 0.28592304782805755,
+      "Pulmonary embolism": 0.0
+    },
+    "reference_outside_support_mass": 0.6689241526531138
+  },
+  {
+    "case_id": "ddx_test_0000141",
+    "gold": "Acute COPD exacerbation / infection",
+    "keys": [
+      "E_123",
+      "E_125",
+      "E_199",
+      "E_201",
+      "E_204",
+      "E_214",
+      "E_31",
+      "E_72",
+      "E_77",
+      "E_79"
+    ],
+    "tokens": [
+      "E_31",
+      "E_72",
+      "E_77",
+      "E_79",
+      "E_123",
+      "E_125",
+      "E_199",
+      "E_201",
+      "E_204_@_V_10",
+      "E_214"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_199"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Do you work in construction?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_199": [
+        "Acute COPD exacerbation / infection"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.2553296635383857,
+      "Acute COPD exacerbation / infection": 0.24969723110517705,
+      "Bronchospasm / acute asthma exacerbation": 0.17300612128064208,
+      "Bronchiectasis": 0.1635738270385677,
+      "Pneumonia": 0.15839315703722745
+    },
+    "reference_outside_support_mass": 0.750302768894823
+  },
+  {
+    "case_id": "ddx_test_0000142",
+    "gold": "Acute laryngitis",
+    "keys": [
+      "E_201",
+      "E_204",
+      "E_212",
+      "E_48",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59"
+    ],
+    "tokens": [
+      "E_48",
+      "E_53",
+      "E_54_@_V_161",
+      "E_55_@_V_20",
+      "E_55_@_V_21",
+      "E_55_@_V_33",
+      "E_55_@_V_137",
+      "E_55_@_V_148",
+      "E_56_@_3",
+      "E_57_@_V_123",
+      "E_58_@_3",
+      "E_59_@_5",
+      "E_201",
+      "E_204_@_V_10",
+      "E_212"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_212",
+        "E_48"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Have you noticed that the tone of your voice has become deeper, softer or hoarse?",
+      "Do you live with 4 or more people?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_212": [
+        "Acute laryngitis",
+        "Epiglottitis"
+      ],
+      "E_48": [
+        "Acute laryngitis",
+        "Bronchiolitis",
+        "URTI",
+        "Viral pharyngitis"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.25968937097978895,
+      "Acute laryngitis": 0.23119837918566855,
+      "Viral pharyngitis": 0.1657543518388434,
+      "Possible NSTEMI / STEMI": 0.15083390634825888,
+      "Unstable angina": 0.14077689575499575,
+      "Stable angina": 0.05174709589244449
+    },
+    "reference_outside_support_mass": 0.7688016208143315
+  },
+  {
+    "case_id": "ddx_test_0000149",
+    "gold": "Myocarditis",
+    "keys": [
+      "E_0",
+      "E_155",
+      "E_175",
+      "E_204",
+      "E_218",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66"
+    ],
+    "tokens": [
+      "E_0",
+      "E_53",
+      "E_54_@_V_179",
+      "E_55_@_V_55",
+      "E_55_@_V_56",
+      "E_55_@_V_101",
+      "E_55_@_V_160",
+      "E_56_@_8",
+      "E_57_@_V_123",
+      "E_58_@_4",
+      "E_59_@_5",
+      "E_66",
+      "E_155",
+      "E_175",
+      "E_204_@_V_10",
+      "E_218"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_0",
+        "E_175"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Have you recently had a viral infection?",
+      "Have you noticed any new fatigue, generalized and vague discomfort, diffuse (widespread) muscle aches or a change in your general well-being related to your consultation today?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_0": [
+        "Guillain-Barré syndrome",
+        "Myocarditis",
+        "Pericarditis"
+      ],
+      "E_175": [
+        "Acute pulmonary edema",
+        "Chagas",
+        "Myocarditis",
+        "Pneumonia"
+      ]
+    },
+    "reference_differential": {
+      "Unstable angina": 0.10332646124185701,
+      "Panic attack": 0.09671487860677382,
+      "Acute pulmonary edema": 0.0963248538245586,
+      "Stable angina": 0.09398743376247307,
+      "Myocarditis": 0.08908681111378025,
+      "Possible NSTEMI / STEMI": 0.08547553586934015,
+      "Boerhaave": 0.07600066902272831,
+      "PSVT": 0.06574574664580521,
+      "GERD": 0.05653699828140791,
+      "Scombroid food poisoning": 0.044492889004500706,
+      "Acute dystonic reactions": 0.044492889004500706,
+      "Myasthenia gravis": 0.044492889004500706,
+      "Guillain-Barré syndrome": 0.03759553970700242,
+      "Sarcoidosis": 0.03643600391753003,
+      "Atrial fibrillation": 0.019192614830572174,
+      "Pulmonary neoplasm": 0.010097786162669079,
+      "Pulmonary embolism": 0.0
+    },
+    "reference_outside_support_mass": 0.9109131888862199
+  },
+  {
+    "case_id": "ddx_test_0000151",
+    "gold": "Spontaneous pneumothorax",
+    "keys": [
+      "E_123",
+      "E_165",
+      "E_204",
+      "E_21",
+      "E_220",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_79"
+    ],
+    "tokens": [
+      "E_21",
+      "E_53",
+      "E_54_@_V_179",
+      "E_54_@_V_191",
+      "E_55_@_V_29",
+      "E_55_@_V_55",
+      "E_55_@_V_159",
+      "E_56_@_9",
+      "E_57_@_V_123",
+      "E_58_@_3",
+      "E_59_@_5",
+      "E_79",
+      "E_123",
+      "E_165",
+      "E_204_@_V_10",
+      "E_220"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_165"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Have any of your family members ever had a pneumothorax?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_165": [
+        "Spontaneous pneumothorax"
+      ]
+    },
+    "reference_differential": {
+      "Possible NSTEMI / STEMI": 0.39542981047477216,
+      "Pulmonary embolism": 0.3808911015492677,
+      "Spontaneous pneumothorax": 0.221821767595299,
+      "Pericarditis": 0.0018573203806612178
+    },
+    "reference_outside_support_mass": 0.7781782324047011
+  },
+  {
+    "case_id": "ddx_test_0000152",
+    "gold": "Bronchitis",
+    "keys": [
+      "E_123",
+      "E_201",
+      "E_204",
+      "E_214",
+      "E_219",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66",
+      "E_77",
+      "E_79",
+      "E_91"
+    ],
+    "tokens": [
+      "E_53",
+      "E_54_@_V_161",
+      "E_55_@_V_55",
+      "E_55_@_V_56",
+      "E_55_@_V_159",
+      "E_56_@_5",
+      "E_57_@_V_123",
+      "E_58_@_6",
+      "E_59_@_1",
+      "E_66",
+      "E_77",
+      "E_79",
+      "E_91",
+      "E_123",
+      "E_201",
+      "E_204_@_V_10",
+      "E_214",
+      "E_219"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_219",
+        "E_214"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Are your symptoms more prominent at night?",
+      "Have you noticed a wheezing sound when you exhale?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_219": [
+        "Bronchitis",
+        "Croup",
+        "Pneumonia"
+      ],
+      "E_214": [
+        "Acute COPD exacerbation / infection",
+        "Anaphylaxis",
+        "Bronchiolitis",
+        "Bronchitis",
+        "Bronchospasm / acute asthma exacerbation",
+        "Scombroid food poisoning"
+      ]
+    },
+    "reference_differential": {
+      "Acute COPD exacerbation / infection": 0.09532401242637555,
+      "Pneumonia": 0.09156920146276998,
+      "Bronchitis": 0.09072269243797448,
+      "Bronchiectasis": 0.0777552602865045,
+      "Pulmonary neoplasm": 0.07322743637746283,
+      "Panic attack": 0.06714099240885921,
+      "Possible NSTEMI / STEMI": 0.06391019274681015,
+      "Tuberculosis": 0.06330569043893673,
+      "Unstable angina": 0.06115002353482656,
+      "Stable angina": 0.050169377144003276,
+      "Atrial fibrillation": 0.04512342720404264,
+      "Myocarditis": 0.04390409638597373,
+      "Pericarditis": 0.03402046562230368,
+      "Guillain-Barré syndrome": 0.03326740316067493,
+      "Acute dystonic reactions": 0.03326740316067493,
+      "Myasthenia gravis": 0.03326740316067493,
+      "Chagas": 0.02510464846795344,
+      "PSVT": 0.017770273573178307
+    },
+    "reference_outside_support_mass": 0.9092773075620251
+  },
+  {
+    "case_id": "ddx_test_0000161",
+    "gold": "Spontaneous pneumothorax",
+    "keys": [
+      "E_123",
+      "E_14",
+      "E_204",
+      "E_21",
+      "E_218",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_79"
+    ],
+    "tokens": [
+      "E_14",
+      "E_21",
+      "E_53",
+      "E_54_@_V_71",
+      "E_54_@_V_179",
+      "E_55_@_V_29",
+      "E_55_@_V_159",
+      "E_55_@_V_160",
+      "E_56_@_8",
+      "E_57_@_V_123",
+      "E_58_@_4",
+      "E_59_@_9",
+      "E_79",
+      "E_123",
+      "E_204_@_V_10",
+      "E_218"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_21"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Have you ever had a spontaneous pneumothorax?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_21": [
+        "Spontaneous pneumothorax"
+      ]
+    },
+    "reference_differential": {
+      "Unstable angina": 0.25545153179314073,
+      "Stable angina": 0.18698426140785807,
+      "Possible NSTEMI / STEMI": 0.16755364679418835,
+      "GERD": 0.14442084038307862,
+      "Pericarditis": 0.10415593457266155,
+      "Atrial fibrillation": 0.08185608410418253,
+      "Spontaneous pneumothorax": 0.059577700944890254
+    },
+    "reference_outside_support_mass": 0.9404222990551099
+  },
+  {
+    "case_id": "ddx_test_0000162",
+    "gold": "Influenza",
+    "keys": [
+      "E_129",
+      "E_130",
+      "E_131",
+      "E_132",
+      "E_133",
+      "E_134",
+      "E_135",
+      "E_136",
+      "E_181",
+      "E_204",
+      "E_50",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_91",
+      "E_97"
+    ],
+    "tokens": [
+      "E_50",
+      "E_53",
+      "E_54_@_V_161",
+      "E_54_@_V_183",
+      "E_54_@_V_198",
+      "E_55_@_V_25",
+      "E_55_@_V_26",
+      "E_55_@_V_53",
+      "E_55_@_V_62",
+      "E_55_@_V_89",
+      "E_56_@_8",
+      "E_57_@_V_123",
+      "E_58_@_8",
+      "E_59_@_0",
+      "E_91",
+      "E_97",
+      "E_129",
+      "E_130_@_V_156",
+      "E_131_@_V_10",
+      "E_132_@_2",
+      "E_133_@_V_53",
+      "E_133_@_V_89",
+      "E_134_@_3",
+      "E_135_@_V_12",
+      "E_136_@_5",
+      "E_181",
+      "E_204_@_V_10"
+    ],
+    "certificate": {
+      "exact_minimum": 3,
+      "witness": [
+        "E_97",
+        "E_134",
+        "E_181"
+      ],
+      "upper_bound": 3
+    },
+    "certificate_questions": [
+      "Do you have a sore throat?",
+      "How intense is the pain caused by the rash?",
+      "Do you have nasal congestion or a clear runny nose?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_97": [
+        "Bronchitis",
+        "Ebola",
+        "HIV (initial infection)",
+        "Influenza",
+        "URTI"
+      ],
+      "E_134": [
+        "Anaphylaxis",
+        "HIV (initial infection)",
+        "Influenza",
+        "Inguinal hernia",
+        "Pancreatic neoplasm",
+        "Pneumonia",
+        "Sarcoidosis",
+        "Scombroid food poisoning"
+      ],
+      "E_181": [
+        "Acute otitis media",
+        "Acute rhinosinusitis",
+        "Allergic sinusitis",
+        "Bronchiolitis",
+        "Bronchitis",
+        "Chronic rhinosinusitis",
+        "Cluster headache",
+        "Croup",
+        "Influenza",
+        "Pneumonia",
+        "URTI",
+        "Viral pharyngitis"
+      ]
+    },
+    "reference_differential": {
+      "URTI": 0.30262150405820215,
+      "HIV (initial infection)": 0.21137346608615637,
+      "Influenza": 0.18524176210963228,
+      "Chagas": 0.14700346707694117,
+      "Scombroid food poisoning": 0.1342205568963376,
+      "Anaphylaxis": 0.019539243772730405
+    },
+    "reference_outside_support_mass": 0.8147582378903676
+  },
+  {
+    "case_id": "ddx_test_0000163",
+    "gold": "Acute COPD exacerbation / infection",
+    "keys": [
+      "E_123",
+      "E_125",
+      "E_198",
+      "E_201",
+      "E_204",
+      "E_214",
+      "E_72",
+      "E_77",
+      "E_79"
+    ],
+    "tokens": [
+      "E_72",
+      "E_77",
+      "E_79",
+      "E_123",
+      "E_125",
+      "E_198",
+      "E_201",
+      "E_204_@_V_10",
+      "E_214"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_72"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Have you had one or several flare ups of chronic obstructive pulmonary disease (COPD) in the past year?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_72": [
+        "Acute COPD exacerbation / infection"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.2553296635383857,
+      "Acute COPD exacerbation / infection": 0.24969723110517705,
+      "Bronchospasm / acute asthma exacerbation": 0.17300612128064208,
+      "Bronchiectasis": 0.1635738270385677,
+      "Pneumonia": 0.15839315703722745
+    },
+    "reference_outside_support_mass": 0.750302768894823
+  },
+  {
+    "case_id": "ddx_test_0000170",
+    "gold": "Tuberculosis",
+    "keys": [
+      "E_201",
+      "E_204",
+      "E_208",
+      "E_45",
+      "E_66",
+      "E_69"
+    ],
+    "tokens": [
+      "E_45",
+      "E_66",
+      "E_69",
+      "E_201",
+      "E_204_@_V_10",
+      "E_208"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_208",
+        "E_69"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Is your BMI less than 18.5, or are you underweight?",
+      "Do you have diabetes?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_208": [
+        "Anemia",
+        "Pneumonia",
+        "Tuberculosis"
+      ],
+      "E_69": [
+        "Atrial fibrillation",
+        "Epiglottitis",
+        "Pancreatic neoplasm",
+        "Possible NSTEMI / STEMI",
+        "Stable angina",
+        "Tuberculosis",
+        "Unstable angina"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.13147486111709758,
+      "Pulmonary neoplasm": 0.11616990175601652,
+      "Tuberculosis": 0.10289738651235553,
+      "Bronchiectasis": 0.09145396451511392,
+      "Acute pulmonary edema": 0.08902384099691679,
+      "Guillain-Barré syndrome": 0.08137297627168188,
+      "Bronchospasm / acute asthma exacerbation": 0.0789665115615154,
+      "Atrial fibrillation": 0.07772590719053128,
+      "Pulmonary embolism": 0.06903300703460695,
+      "Acute dystonic reactions": 0.057303694571873044,
+      "Myocarditis": 0.057303694571873044,
+      "Pneumonia": 0.0472742539004183
+    },
+    "reference_outside_support_mass": 0.8971026134876445
+  },
+  {
+    "case_id": "ddx_test_0000174",
+    "gold": "Influenza",
+    "keys": [
+      "E_129",
+      "E_130",
+      "E_131",
+      "E_132",
+      "E_133",
+      "E_134",
+      "E_135",
+      "E_136",
+      "E_144",
+      "E_161",
+      "E_181",
+      "E_201",
+      "E_204",
+      "E_227",
+      "E_50",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_79",
+      "E_91",
+      "E_94",
+      "E_97"
+    ],
+    "tokens": [
+      "E_50",
+      "E_53",
+      "E_54_@_V_198",
+      "E_55_@_V_25",
+      "E_55_@_V_26",
+      "E_55_@_V_54",
+      "E_55_@_V_89",
+      "E_55_@_V_124",
+      "E_56_@_4",
+      "E_57_@_V_123",
+      "E_58_@_2",
+      "E_59_@_3",
+      "E_79",
+      "E_91",
+      "E_94",
+      "E_97",
+      "E_129",
+      "E_130_@_V_156",
+      "E_131_@_V_10",
+      "E_132_@_1",
+      "E_133_@_V_26",
+      "E_133_@_V_89",
+      "E_134_@_2",
+      "E_135_@_V_12",
+      "E_136_@_4",
+      "E_144",
+      "E_161",
+      "E_181",
+      "E_201",
+      "E_204_@_V_10",
+      "E_227"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_94",
+        "E_227"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Have you had chills or shivers?",
+      "Are you immunosuppressed?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_94": [
+        "Influenza",
+        "Pneumonia"
+      ],
+      "E_227": [
+        "Bronchiectasis",
+        "Influenza",
+        "Viral pharyngitis"
+      ]
+    },
+    "reference_differential": {
+      "URTI": 0.14942049571851201,
+      "Influenza": 0.14765213741212269,
+      "HIV (initial infection)": 0.11474350587802937,
+      "Pneumonia": 0.10602718413465276,
+      "Bronchitis": 0.10445723857211146,
+      "Chronic rhinosinusitis": 0.08215162313075769,
+      "Tuberculosis": 0.07995919577917875,
+      "Acute rhinosinusitis": 0.0791685801326029,
+      "Chagas": 0.06451057911071444,
+      "Scombroid food poisoning": 0.0600986414048689,
+      "Anaphylaxis": 0.011810818726448962
+    },
+    "reference_outside_support_mass": 0.8523478625878772
+  },
+  {
+    "case_id": "ddx_test_0000175",
+    "gold": "URTI",
+    "keys": [
+      "E_144",
+      "E_204",
+      "E_222",
+      "E_41",
+      "E_48",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_77",
+      "E_97"
+    ],
+    "tokens": [
+      "E_41",
+      "E_48",
+      "E_53",
+      "E_54_@_V_154",
+      "E_54_@_V_161",
+      "E_55_@_V_89",
+      "E_55_@_V_109",
+      "E_55_@_V_124",
+      "E_55_@_V_167",
+      "E_56_@_3",
+      "E_57_@_V_123",
+      "E_58_@_1",
+      "E_59_@_3",
+      "E_77",
+      "E_97",
+      "E_144",
+      "E_204_@_V_10",
+      "E_222"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_41",
+        "E_222"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Have you been in contact with a person with similar symptoms in the past 2 weeks?",
+      "Are you exposed to secondhand cigarette smoke on a daily basis?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_41": [
+        "Ebola",
+        "URTI",
+        "Viral pharyngitis"
+      ],
+      "E_222": [
+        "Bronchospasm / acute asthma exacerbation",
+        "Larygospasm",
+        "Pulmonary neoplasm",
+        "URTI"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.24043296289326135,
+      "Pneumonia": 0.2268156414383444,
+      "Bronchiectasis": 0.15782611443806324,
+      "Cluster headache": 0.11685754929160591,
+      "URTI": 0.11468985006401834,
+      "Chagas": 0.07168894093735335,
+      "Anemia": 0.07168894093735335
+    },
+    "reference_outside_support_mass": 0.8853101499359817
+  },
+  {
+    "case_id": "ddx_test_0000179",
+    "gold": "Pulmonary neoplasm",
+    "keys": [
+      "E_201",
+      "E_204",
+      "E_222",
+      "E_224",
+      "E_45",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66",
+      "E_79"
+    ],
+    "tokens": [
+      "E_45",
+      "E_54_@_V_11",
+      "E_55_@_V_123",
+      "E_56_@_0",
+      "E_57_@_V_123",
+      "E_58_@_0",
+      "E_59_@_0",
+      "E_66",
+      "E_79",
+      "E_201",
+      "E_204_@_V_10",
+      "E_222",
+      "E_224"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_224"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Do you have family members who have had lung cancer?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_224": [
+        "Pulmonary neoplasm"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.13147486111709758,
+      "Pulmonary neoplasm": 0.11616990175601652,
+      "Tuberculosis": 0.10289738651235553,
+      "Bronchiectasis": 0.09145396451511392,
+      "Acute pulmonary edema": 0.08902384099691679,
+      "Guillain-Barré syndrome": 0.08137297627168188,
+      "Bronchospasm / acute asthma exacerbation": 0.0789665115615154,
+      "Atrial fibrillation": 0.07772590719053128,
+      "Pulmonary embolism": 0.06903300703460695,
+      "Acute dystonic reactions": 0.057303694571873044,
+      "Myocarditis": 0.057303694571873044,
+      "Pneumonia": 0.0472742539004183
+    },
+    "reference_outside_support_mass": 0.8838300982439836
+  },
+  {
+    "case_id": "ddx_test_0000193",
+    "gold": "Bronchiectasis",
+    "keys": [
+      "E_118",
+      "E_124",
+      "E_201",
+      "E_204",
+      "E_227",
+      "E_45",
+      "E_66",
+      "E_77"
+    ],
+    "tokens": [
+      "E_45",
+      "E_66",
+      "E_77",
+      "E_118",
+      "E_124",
+      "E_201",
+      "E_204_@_V_10",
+      "E_227"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_227",
+        "E_118"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Are you immunosuppressed?",
+      "Have you ever had pneumonia?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_227": [
+        "Bronchiectasis",
+        "Influenza",
+        "Viral pharyngitis"
+      ],
+      "E_118": [
+        "Acute rhinosinusitis",
+        "Bronchiectasis",
+        "Chronic rhinosinusitis",
+        "Pneumonia"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.1068652429670829,
+      "Bronchiectasis": 0.10401188385767507,
+      "Pneumonia": 0.09837080441233124,
+      "Pulmonary neoplasm": 0.09030991920504823,
+      "Pulmonary embolism": 0.08291536128570806,
+      "Acute COPD exacerbation / infection": 0.08016992341675344,
+      "Tuberculosis": 0.07255682477373335,
+      "Guillain-Barré syndrome": 0.057379151995785964,
+      "Bronchospasm / acute asthma exacerbation": 0.05568226304439596,
+      "Atrial fibrillation": 0.05480746615197718,
+      "Myocarditis": 0.05412618407423927,
+      "Acute dystonic reactions": 0.04040699445208628,
+      "Myasthenia gravis": 0.04040699445208628,
+      "Anemia": 0.04040699445208628,
+      "PSVT": 0.02158399145901064
+    },
+    "reference_outside_support_mass": 0.8959881161423251
+  },
+  {
+    "case_id": "ddx_test_0000196",
+    "gold": "Pneumonia",
+    "keys": [
+      "E_106",
+      "E_107",
+      "E_118",
+      "E_124",
+      "E_129",
+      "E_130",
+      "E_131",
+      "E_132",
+      "E_133",
+      "E_134",
+      "E_135",
+      "E_136",
+      "E_144",
+      "E_175",
+      "E_181",
+      "E_196",
+      "E_204",
+      "E_208",
+      "E_209",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66",
+      "E_77",
+      "E_78",
+      "E_79",
+      "E_95"
+    ],
+    "tokens": [
+      "E_53",
+      "E_54_@_V_179",
+      "E_55_@_V_55",
+      "E_55_@_V_56",
+      "E_55_@_V_160",
+      "E_55_@_V_171",
+      "E_56_@_2",
+      "E_57_@_V_123",
+      "E_58_@_3",
+      "E_59_@_4",
+      "E_66",
+      "E_77",
+      "E_78",
+      "E_79",
+      "E_95",
+      "E_106",
+      "E_107",
+      "E_118",
+      "E_124",
+      "E_129",
+      "E_130_@_V_156",
+      "E_131_@_V_12",
+      "E_132_@_5",
+      "E_133_@_V_38",
+      "E_133_@_V_82",
+      "E_133_@_V_83",
+      "E_133_@_V_170",
+      "E_134_@_5",
+      "E_135_@_V_10",
+      "E_136_@_0",
+      "E_144",
+      "E_175",
+      "E_181",
+      "E_196",
+      "E_204_@_V_10",
+      "E_208",
+      "E_209"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_107"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Have you ever had a stroke?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_107": [
+        "Pneumonia"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.06978975514504308,
+      "Pneumonia": 0.06807518765425488,
+      "Bronchiectasis": 0.06742777293668918,
+      "Possible NSTEMI / STEMI": 0.05872489067143303,
+      "Pericarditis": 0.05857051488906149,
+      "Unstable angina": 0.05817071235570952,
+      "Myocarditis": 0.054464929030933376,
+      "Spontaneous pneumothorax": 0.052738703167116256,
+      "Pulmonary neoplasm": 0.05104544136652412,
+      "Stable angina": 0.05043736837401696,
+      "URTI": 0.04186029187886835,
+      "Bronchospasm / acute asthma exacerbation": 0.03975468046463931,
+      "Atrial fibrillation": 0.03913011405824451,
+      "Scombroid food poisoning": 0.037373400187626325,
+      "Spontaneous rib fracture": 0.03530345882061764,
+      "Pulmonary embolism": 0.033802005441042185,
+      "Acute dystonic reactions": 0.028848812263581537,
+      "Myasthenia gravis": 0.028848812263581537,
+      "Anemia": 0.028848812263581537,
+      "Panic attack": 0.02539354637610632,
+      "Guillain-Barré syndrome": 0.024376629417020457,
+      "Chagas": 0.018248519859814558,
+      "PSVT": 0.015410018140252835,
+      "SLE": 0.01335562297424126
+    },
+    "reference_outside_support_mass": 0.9319248123457451
+  },
+  {
+    "case_id": "ddx_test_0000202",
+    "gold": "Pericarditis",
+    "keys": [
+      "E_0",
+      "E_155",
+      "E_204",
+      "E_217",
+      "E_3",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59"
+    ],
+    "tokens": [
+      "E_0",
+      "E_3",
+      "E_53",
+      "E_54_@_V_179",
+      "E_54_@_V_192",
+      "E_55_@_V_159",
+      "E_55_@_V_160",
+      "E_56_@_9",
+      "E_57_@_V_39",
+      "E_57_@_V_170",
+      "E_58_@_4",
+      "E_59_@_9",
+      "E_155",
+      "E_204_@_V_10",
+      "E_217"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_3",
+        "E_0"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Have you ever had a pericarditis?",
+      "Have you recently had a viral infection?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_3": [
+        "Pericarditis",
+        "SLE"
+      ],
+      "E_0": [
+        "Guillain-Barré syndrome",
+        "Myocarditis",
+        "Pericarditis"
+      ]
+    },
+    "reference_differential": {
+      "Possible NSTEMI / STEMI": 0.33790821008956423,
+      "Pericarditis": 0.28904115970415284,
+      "Unstable angina": 0.20959126550623539,
+      "Stable angina": 0.16345936470004746
+    },
+    "reference_outside_support_mass": 0.7109588402958471
+  },
+  {
+    "case_id": "ddx_test_0000205",
+    "gold": "Pancreatic neoplasm",
+    "keys": [
+      "E_129",
+      "E_130",
+      "E_131",
+      "E_132",
+      "E_133",
+      "E_134",
+      "E_135",
+      "E_136",
+      "E_162",
+      "E_204",
+      "E_223",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_69",
+      "E_79"
+    ],
+    "tokens": [
+      "E_53",
+      "E_54_@_V_182",
+      "E_55_@_V_104",
+      "E_55_@_V_187",
+      "E_55_@_V_197",
+      "E_56_@_2",
+      "E_57_@_V_123",
+      "E_58_@_3",
+      "E_59_@_2",
+      "E_69",
+      "E_79",
+      "E_129",
+      "E_130_@_V_107",
+      "E_131_@_V_10",
+      "E_132_@_2",
+      "E_133_@_V_197",
+      "E_134_@_2",
+      "E_135_@_V_12",
+      "E_136_@_1",
+      "E_162",
+      "E_204_@_V_10",
+      "E_223"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_223"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Are there members of your family who have been diagnosed with pancreatic cancer?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_223": [
+        "Pancreatic neoplasm"
+      ]
+    },
+    "reference_differential": {
+      "Possible NSTEMI / STEMI": 0.207890000797321,
+      "Unstable angina": 0.15876858919633155,
+      "Pancreatic neoplasm": 0.14476334075078504,
+      "Stable angina": 0.13819810987773354,
+      "Pericarditis": 0.11861502002523105,
+      "GERD": 0.10345603210594365,
+      "Anaphylaxis": 0.08783980488557737,
+      "Chagas": 0.0404691023610769
+    },
+    "reference_outside_support_mass": 0.8552366592492151
+  },
+  {
+    "case_id": "ddx_test_0000212",
+    "gold": "Bronchitis",
+    "keys": [
+      "E_204",
+      "E_209",
+      "E_214",
+      "E_219",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66",
+      "E_77",
+      "E_91"
+    ],
+    "tokens": [
+      "E_53",
+      "E_54_@_V_181",
+      "E_55_@_V_55",
+      "E_55_@_V_56",
+      "E_55_@_V_160",
+      "E_55_@_V_171",
+      "E_56_@_4",
+      "E_57_@_V_123",
+      "E_58_@_1",
+      "E_59_@_5",
+      "E_66",
+      "E_77",
+      "E_91",
+      "E_204_@_V_10",
+      "E_209",
+      "E_214",
+      "E_219"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_219",
+        "E_214"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Are your symptoms more prominent at night?",
+      "Have you noticed a wheezing sound when you exhale?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_219": [
+        "Bronchitis",
+        "Croup",
+        "Pneumonia"
+      ],
+      "E_214": [
+        "Acute COPD exacerbation / infection",
+        "Anaphylaxis",
+        "Bronchiolitis",
+        "Bronchitis",
+        "Bronchospasm / acute asthma exacerbation",
+        "Scombroid food poisoning"
+      ]
+    },
+    "reference_differential": {
+      "Pneumonia": 0.09305879788376525,
+      "Bronchitis": 0.09206204190033203,
+      "Acute COPD exacerbation / infection": 0.09041251805553525,
+      "Bronchiectasis": 0.08487905180831175,
+      "Pulmonary neoplasm": 0.07973242396171294,
+      "Possible NSTEMI / STEMI": 0.07096650582193076,
+      "Panic attack": 0.06937142165997065,
+      "Tuberculosis": 0.06784517815558967,
+      "Unstable angina": 0.06318143231067054,
+      "Stable angina": 0.05183600794997363,
+      "Atrial fibrillation": 0.04662243114091347,
+      "Pericarditis": 0.0351506282686694,
+      "Guillain-Barré syndrome": 0.03437254901056404,
+      "Acute dystonic reactions": 0.03437254901056404,
+      "Myocarditis": 0.03351835283559817,
+      "Sarcoidosis": 0.028148280734876917,
+      "PSVT": 0.018360603512546907,
+      "Chagas": 0.006109225978474696
+    },
+    "reference_outside_support_mass": 0.9079379580996682
+  },
+  {
+    "case_id": "ddx_test_0000213",
+    "gold": "Bronchiectasis",
+    "keys": [
+      "E_123",
+      "E_124",
+      "E_18",
+      "E_20",
+      "E_201",
+      "E_204",
+      "E_45",
+      "E_47",
+      "E_66",
+      "E_77"
+    ],
+    "tokens": [
+      "E_18",
+      "E_20",
+      "E_45",
+      "E_47",
+      "E_66",
+      "E_77",
+      "E_123",
+      "E_124",
+      "E_201",
+      "E_204_@_V_10"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_18"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Do you have cystic fibrosis?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_18": [
+        "Bronchiectasis"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.12737583370195857,
+      "Bronchiectasis": 0.12397483085649785,
+      "Pneumonia": 0.11725106195484497,
+      "Pulmonary embolism": 0.09882926363363378,
+      "Tuberculosis": 0.09775308701627113,
+      "Guillain-Barré syndrome": 0.06839190292044627,
+      "Bronchospasm / acute asthma exacerbation": 0.06636933095147109,
+      "Atrial fibrillation": 0.0653266347445664,
+      "Myocarditis": 0.06451459455049884,
+      "Acute dystonic reactions": 0.048162287969627945,
+      "Myasthenia gravis": 0.048162287969627945,
+      "Anemia": 0.048162287969627945,
+      "PSVT": 0.025726595760927416
+    },
+    "reference_outside_support_mass": 0.8760251691435024
+  },
+  {
+    "case_id": "ddx_test_0000214",
+    "gold": "Bronchiectasis",
+    "keys": [
+      "E_118",
+      "E_123",
+      "E_124",
+      "E_18",
+      "E_20",
+      "E_204",
+      "E_45",
+      "E_47",
+      "E_66",
+      "E_77"
+    ],
+    "tokens": [
+      "E_18",
+      "E_20",
+      "E_45",
+      "E_47",
+      "E_66",
+      "E_77",
+      "E_118",
+      "E_123",
+      "E_124",
+      "E_204_@_V_10"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_18"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Do you have cystic fibrosis?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_18": [
+        "Bronchiectasis"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.10802317216676503,
+      "Bronchiectasis": 0.10513889572878314,
+      "Pneumonia": 0.09943669284960684,
+      "Pulmonary neoplasm": 0.09128846461013071,
+      "Acute COPD exacerbation / infection": 0.08103859776477448,
+      "Tuberculosis": 0.07334300804257789,
+      "Pulmonary embolism": 0.0729783691237727,
+      "Guillain-Barré syndrome": 0.0580008788894345,
+      "Bronchospasm / acute asthma exacerbation": 0.05628560344295144,
+      "Atrial fibrillation": 0.055401327763628716,
+      "Myocarditis": 0.05471266371220947,
+      "Acute dystonic reactions": 0.040844820984346886,
+      "Myasthenia gravis": 0.040844820984346886,
+      "Anemia": 0.040844820984346886,
+      "PSVT": 0.021817862952324667
+    },
+    "reference_outside_support_mass": 0.8948611042712169
+  },
+  {
+    "case_id": "ddx_test_0000218",
+    "gold": "Bronchiectasis",
+    "keys": [
+      "E_118",
+      "E_18",
+      "E_20",
+      "E_201",
+      "E_204",
+      "E_227",
+      "E_45",
+      "E_47",
+      "E_77"
+    ],
+    "tokens": [
+      "E_18",
+      "E_20",
+      "E_45",
+      "E_47",
+      "E_77",
+      "E_118",
+      "E_201",
+      "E_204_@_V_10",
+      "E_227"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_18"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Do you have cystic fibrosis?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_18": [
+        "Bronchiectasis"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.25075712109890735,
+      "Bronchiectasis": 0.19316387974011182,
+      "Pneumonia": 0.1665171809738987,
+      "Tuberculosis": 0.15811693913863017,
+      "Pulmonary neoplasm": 0.1521419086057129,
+      "Pulmonary embolism": 0.07930297044273908
+    },
+    "reference_outside_support_mass": 0.806836120259888
+  },
+  {
+    "case_id": "ddx_test_0000219",
+    "gold": "Pneumonia",
+    "keys": [
+      "E_107",
+      "E_123",
+      "E_129",
+      "E_130",
+      "E_131",
+      "E_132",
+      "E_133",
+      "E_134",
+      "E_135",
+      "E_136",
+      "E_201",
+      "E_204",
+      "E_208",
+      "E_220",
+      "E_45",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_77",
+      "E_79",
+      "E_91",
+      "E_94"
+    ],
+    "tokens": [
+      "E_45",
+      "E_53",
+      "E_54_@_V_179",
+      "E_55_@_V_55",
+      "E_55_@_V_56",
+      "E_55_@_V_159",
+      "E_55_@_V_170",
+      "E_55_@_V_171",
+      "E_56_@_7",
+      "E_57_@_V_123",
+      "E_58_@_4",
+      "E_59_@_3",
+      "E_77",
+      "E_79",
+      "E_91",
+      "E_94",
+      "E_107",
+      "E_123",
+      "E_129",
+      "E_130_@_V_156",
+      "E_131_@_V_12",
+      "E_132_@_1",
+      "E_133_@_V_54",
+      "E_133_@_V_82",
+      "E_133_@_V_171",
+      "E_134_@_0",
+      "E_135_@_V_10",
+      "E_136_@_0",
+      "E_201",
+      "E_204_@_V_10",
+      "E_208",
+      "E_220"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_107"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Have you ever had a stroke?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_107": [
+        "Pneumonia"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.16458054908641917,
+      "Pneumonia": 0.15402869847120143,
+      "Tuberculosis": 0.13359564148147013,
+      "Bronchiectasis": 0.12808607742226932,
+      "Unstable angina": 0.11646694942999646,
+      "Possible NSTEMI / STEMI": 0.11621071342922641,
+      "Stable angina": 0.08504035757085007,
+      "Pericarditis": 0.07354045916820066,
+      "Pulmonary embolism": 0.028450553940366264
+    },
+    "reference_outside_support_mass": 0.8459713015287984
+  },
+  {
+    "case_id": "ddx_test_0000223",
+    "gold": "Acute otitis media",
+    "keys": [
+      "E_1",
+      "E_114",
+      "E_201",
+      "E_204",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_91"
+    ],
+    "tokens": [
+      "E_1",
+      "E_53",
+      "E_54_@_V_161",
+      "E_55_@_V_129",
+      "E_55_@_V_130",
+      "E_56_@_8",
+      "E_57_@_V_123",
+      "E_58_@_10",
+      "E_59_@_5",
+      "E_91",
+      "E_114",
+      "E_201",
+      "E_204_@_V_10"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_1"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Are you currently being treated or have you recently been treated with an oral antibiotic for an ear infection?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_1": [
+        "Acute otitis media"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.3540396318779473,
+      "Acute otitis media": 0.28633642174926316,
+      "Tuberculosis": 0.22485357290867658,
+      "Pneumonia": 0.13477037346411286
+    },
+    "reference_outside_support_mass": 0.7136635782507368
+  },
+  {
+    "case_id": "ddx_test_0000224",
+    "gold": "Larygospasm",
+    "keys": [
+      "E_116",
+      "E_194",
+      "E_204",
+      "E_222",
+      "E_79"
+    ],
+    "tokens": [
+      "E_79",
+      "E_116",
+      "E_194",
+      "E_204_@_V_10",
+      "E_222"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_194",
+        "E_222"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Have you noticed a high pitched sound when breathing in?",
+      "Are you exposed to secondhand cigarette smoke on a daily basis?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_194": [
+        "Anaphylaxis",
+        "Croup",
+        "Epiglottitis",
+        "Larygospasm"
+      ],
+      "E_222": [
+        "Bronchospasm / acute asthma exacerbation",
+        "Larygospasm",
+        "Pulmonary neoplasm",
+        "URTI"
+      ]
+    },
+    "reference_differential": {
+      "Croup": 0.5227139129295039,
+      "Larygospasm": 0.4772860870704961
+    },
+    "reference_outside_support_mass": 0.5227139129295039
+  },
+  {
+    "case_id": "ddx_test_0000227",
+    "gold": "Boerhaave",
+    "keys": [
+      "E_204",
+      "E_210",
+      "E_211",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66",
+      "E_78"
+    ],
+    "tokens": [
+      "E_53",
+      "E_54_@_V_71",
+      "E_54_@_V_179",
+      "E_54_@_V_191",
+      "E_55_@_V_29",
+      "E_55_@_V_85",
+      "E_55_@_V_101",
+      "E_55_@_V_187",
+      "E_55_@_V_197",
+      "E_56_@_6",
+      "E_57_@_V_39",
+      "E_57_@_V_127",
+      "E_57_@_V_128",
+      "E_58_@_1",
+      "E_59_@_9",
+      "E_66",
+      "E_78",
+      "E_204_@_V_10",
+      "E_210",
+      "E_211"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_211"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Have you vomited several times or have you made several efforts to vomit?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_211": [
+        "Boerhaave"
+      ]
+    },
+    "reference_differential": {
+      "Atrial fibrillation": 0.21170431768080294,
+      "Myocarditis": 0.1721154222272394,
+      "Anemia": 0.15607974224333518,
+      "Sarcoidosis": 0.12781642700814447,
+      "Pancreatic neoplasm": 0.11910470652381853,
+      "PSVT": 0.08337229405912398,
+      "Boerhaave": 0.05011715592501257,
+      "Panic attack": 0.04379470617957053,
+      "GERD": 0.03589522815295247
+    },
+    "reference_outside_support_mass": 0.9498828440749874
+  },
+  {
+    "case_id": "ddx_test_0000228",
+    "gold": "Chagas",
+    "keys": [
+      "E_152",
+      "E_204",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66",
+      "E_9",
+      "E_91"
+    ],
+    "tokens": [
+      "E_9",
+      "E_53",
+      "E_54_@_V_154",
+      "E_54_@_V_161",
+      "E_54_@_V_180",
+      "E_54_@_V_182",
+      "E_54_@_V_184",
+      "E_54_@_V_198",
+      "E_55_@_V_25",
+      "E_55_@_V_124",
+      "E_55_@_V_166",
+      "E_55_@_V_167",
+      "E_55_@_V_197",
+      "E_56_@_5",
+      "E_57_@_V_123",
+      "E_58_@_4",
+      "E_59_@_6",
+      "E_66",
+      "E_91",
+      "E_152_@_V_123",
+      "E_204_@_V_10"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_9",
+        "E_152"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Do you have swollen or painful lymph nodes?",
+      "Where is the swelling located?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_9": [
+        "Chagas",
+        "HIV (initial infection)",
+        "Sarcoidosis"
+      ],
+      "E_152": [
+        "Acute pulmonary edema",
+        "Anaphylaxis",
+        "Chagas",
+        "Localized edema",
+        "Pulmonary embolism"
+      ]
+    },
+    "reference_differential": {
+      "Possible NSTEMI / STEMI": 0.19327570983593698,
+      "Pericarditis": 0.15522660365497104,
+      "HIV (initial infection)": 0.12164457746440119,
+      "Guillain-Barré syndrome": 0.10060650240487128,
+      "Sarcoidosis": 0.10060650240487128,
+      "Acute dystonic reactions": 0.10060650240487128,
+      "Myasthenia gravis": 0.10060650240487128,
+      "Pulmonary embolism": 0.06363935334278639,
+      "Stable angina": 0.02465180211756426,
+      "Pulmonary neoplasm": 0.02283292837549115,
+      "Chagas": 0.016303015589364034
+    },
+    "reference_outside_support_mass": 0.9836969844106358
+  },
+  {
+    "case_id": "ddx_test_0000240",
+    "gold": "Myocarditis",
+    "keys": [
+      "E_0",
+      "E_204",
+      "E_217",
+      "E_218",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_64",
+      "E_66"
+    ],
+    "tokens": [
+      "E_0",
+      "E_53",
+      "E_54_@_V_179",
+      "E_55_@_V_55",
+      "E_55_@_V_56",
+      "E_55_@_V_101",
+      "E_56_@_7",
+      "E_57_@_V_123",
+      "E_58_@_2",
+      "E_59_@_1",
+      "E_64",
+      "E_66",
+      "E_204_@_V_10",
+      "E_217",
+      "E_218"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_64"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Do you feel out of breath with minimal physical effort?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_64": [
+        "Myocarditis"
+      ]
+    },
+    "reference_differential": {
+      "Acute pulmonary edema": 0.11989036683258052,
+      "Myocarditis": 0.11842985090403804,
+      "Unstable angina": 0.11405257085976027,
+      "Possible NSTEMI / STEMI": 0.10876746562992895,
+      "Stable angina": 0.10609831013633962,
+      "Pericarditis": 0.09036311536548088,
+      "Guillain-Barré syndrome": 0.07480918170192817,
+      "Acute dystonic reactions": 0.05268140230125617,
+      "Myasthenia gravis": 0.05268140230125617,
+      "Anemia": 0.05268140230125617,
+      "Sarcoidosis": 0.04314172047662217,
+      "Scombroid food poisoning": 0.033323992937863936,
+      "GERD": 0.033079218251689156
+    },
+    "reference_outside_support_mass": 0.8815701490959622
+  },
+  {
+    "case_id": "ddx_test_0000241",
+    "gold": "Bronchospasm / acute asthma exacerbation",
+    "keys": [
+      "E_101",
+      "E_116",
+      "E_119",
+      "E_124",
+      "E_201",
+      "E_204",
+      "E_214",
+      "E_222",
+      "E_226",
+      "E_46"
+    ],
+    "tokens": [
+      "E_46",
+      "E_101",
+      "E_116",
+      "E_119",
+      "E_124",
+      "E_201",
+      "E_204_@_V_10",
+      "E_214",
+      "E_222",
+      "E_226"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_101"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Have you been hospitalized for an asthma attack in the past year?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_101": [
+        "Bronchospasm / acute asthma exacerbation"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.41250510103707977,
+      "Bronchospasm / acute asthma exacerbation": 0.32592395811728986,
+      "Anaphylaxis": 0.18342543041984744,
+      "Scombroid food poisoning": 0.07814551042578294
+    },
+    "reference_outside_support_mass": 0.6740760418827101
+  },
+  {
+    "case_id": "ddx_test_0000242",
+    "gold": "Bronchitis",
+    "keys": [
+      "E_123",
+      "E_181",
+      "E_201",
+      "E_204",
+      "E_214",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66",
+      "E_77",
+      "E_79"
+    ],
+    "tokens": [
+      "E_53",
+      "E_54_@_V_161",
+      "E_55_@_V_55",
+      "E_55_@_V_101",
+      "E_55_@_V_148",
+      "E_55_@_V_171",
+      "E_56_@_3",
+      "E_57_@_V_123",
+      "E_58_@_6",
+      "E_59_@_0",
+      "E_66",
+      "E_77",
+      "E_79",
+      "E_123",
+      "E_181",
+      "E_201",
+      "E_204_@_V_10",
+      "E_214"
+    ],
+    "certificate": {
+      "exact_minimum": 3,
+      "witness": [
+        "E_123",
+        "E_214",
+        "E_181"
+      ],
+      "upper_bound": 3
+    },
+    "certificate_questions": [
+      "Do you have a chronic obstructive pulmonary disease (COPD)?",
+      "Have you noticed a wheezing sound when you exhale?",
+      "Do you have nasal congestion or a clear runny nose?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_123": [
+        "Acute COPD exacerbation / infection",
+        "Bronchiectasis",
+        "Bronchitis",
+        "Pneumonia",
+        "Spontaneous pneumothorax"
+      ],
+      "E_214": [
+        "Acute COPD exacerbation / infection",
+        "Anaphylaxis",
+        "Bronchiolitis",
+        "Bronchitis",
+        "Bronchospasm / acute asthma exacerbation",
+        "Scombroid food poisoning"
+      ],
+      "E_181": [
+        "Acute otitis media",
+        "Acute rhinosinusitis",
+        "Allergic sinusitis",
+        "Bronchiolitis",
+        "Bronchitis",
+        "Chronic rhinosinusitis",
+        "Cluster headache",
+        "Croup",
+        "Influenza",
+        "Pneumonia",
+        "URTI",
+        "Viral pharyngitis"
+      ]
+    },
+    "reference_differential": {
+      "Acute COPD exacerbation / infection": 0.05833643772831658,
+      "Pneumonia": 0.05267487909238129,
+      "Bronchitis": 0.05256468002420127,
+      "Bronchiectasis": 0.05027421197596766,
+      "Pulmonary neoplasm": 0.049994739348803885,
+      "Influenza": 0.048012663978848104,
+      "Viral pharyngitis": 0.0453767517619694,
+      "Allergic sinusitis": 0.045331530787420554,
+      "Possible NSTEMI / STEMI": 0.042033753686868076,
+      "Panic attack": 0.041088978768093136,
+      "GERD": 0.03952812459731636,
+      "Unstable angina": 0.037422622581899004,
+      "Pericarditis": 0.03717094643699596,
+      "Boerhaave": 0.0347762942292093,
+      "Tuberculosis": 0.032450768841911934,
+      "Myocarditis": 0.03218059688959527,
+      "Stable angina": 0.0307026810048522,
+      "Acute laryngitis": 0.030153562889846705,
+      "Spontaneous pneumothorax": 0.029008730897572423,
+      "Guillain-Barré syndrome": 0.028910397966556544,
+      "Atrial fibrillation": 0.02761465798777589,
+      "Spontaneous rib fracture": 0.02491413492088918,
+      "URTI": 0.02316299344598205,
+      "Acute dystonic reactions": 0.02035900234858909,
+      "Myasthenia gravis": 0.02035900234858909,
+      "Anemia": 0.02035900234858909,
+      "Scombroid food poisoning": 0.018809989914795183,
+      "PSVT": 0.010875061081986414,
+      "SLE": 0.009425246246366308,
+      "Chagas": 0.006127555867812004
+    },
+    "reference_outside_support_mass": 0.9474353199757988
+  },
+  {
+    "case_id": "ddx_test_0000243",
+    "gold": "Pancreatic neoplasm",
+    "keys": [
+      "E_129",
+      "E_130",
+      "E_131",
+      "E_132",
+      "E_133",
+      "E_134",
+      "E_135",
+      "E_136",
+      "E_148",
+      "E_188",
+      "E_201",
+      "E_204",
+      "E_223",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_6",
+      "E_69",
+      "E_70",
+      "E_79"
+    ],
+    "tokens": [
+      "E_6",
+      "E_53",
+      "E_54_@_V_161",
+      "E_55_@_V_85",
+      "E_55_@_V_187",
+      "E_55_@_V_197",
+      "E_56_@_5",
+      "E_57_@_V_39",
+      "E_58_@_5",
+      "E_59_@_1",
+      "E_69",
+      "E_70",
+      "E_79",
+      "E_129",
+      "E_130_@_V_107",
+      "E_131_@_V_10",
+      "E_132_@_3",
+      "E_133_@_V_197",
+      "E_134_@_2",
+      "E_135_@_V_12",
+      "E_136_@_4",
+      "E_148",
+      "E_188",
+      "E_201",
+      "E_204_@_V_10",
+      "E_223"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_188"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Do you have pale stools and dark urine?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_188": [
+        "Pancreatic neoplasm"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.1682459500928092,
+      "Possible NSTEMI / STEMI": 0.15614375513486822,
+      "Pancreatic neoplasm": 0.153056533037083,
+      "Unstable angina": 0.13702173149346783,
+      "Scombroid food poisoning": 0.10794443990704108,
+      "Anaphylaxis": 0.08183741642778074,
+      "Stable angina": 0.06839021668612157,
+      "Pericarditis": 0.06595942881741278,
+      "GERD": 0.06140052840341552
+    },
+    "reference_outside_support_mass": 0.8469434669629169
+  },
+  {
+    "case_id": "ddx_test_0000252",
+    "gold": "Myocarditis",
+    "keys": [
+      "E_0",
+      "E_155",
+      "E_204",
+      "E_218",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66"
+    ],
+    "tokens": [
+      "E_0",
+      "E_53",
+      "E_54_@_V_161",
+      "E_54_@_V_179",
+      "E_55_@_V_101",
+      "E_55_@_V_160",
+      "E_56_@_5",
+      "E_57_@_V_123",
+      "E_58_@_5",
+      "E_59_@_1",
+      "E_66",
+      "E_155",
+      "E_204_@_V_10",
+      "E_218"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_0",
+        "E_218"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Have you recently had a viral infection?",
+      "Do you have symptoms that are increased with physical exertion but alleviated with rest?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_0": [
+        "Guillain-Barré syndrome",
+        "Myocarditis",
+        "Pericarditis"
+      ],
+      "E_218": [
+        "Acute pulmonary edema",
+        "Atrial fibrillation",
+        "Myocarditis",
+        "Spontaneous pneumothorax",
+        "Stable angina",
+        "Unstable angina"
+      ]
+    },
+    "reference_differential": {
+      "Unstable angina": 0.09701271501111755,
+      "Possible NSTEMI / STEMI": 0.09251722311996292,
+      "PSVT": 0.09161258614802624,
+      "Stable angina": 0.09024684885949721,
+      "Atrial fibrillation": 0.08371709547701042,
+      "Myocarditis": 0.08287982873892547,
+      "Acute pulmonary edema": 0.06732819712666775,
+      "Guillain-Barré syndrome": 0.06363242643243756,
+      "Panic attack": 0.05817369057477136,
+      "GERD": 0.056940732158784584,
+      "Scombroid food poisoning": 0.044810615221659716,
+      "Acute dystonic reactions": 0.044810615221659716,
+      "Myasthenia gravis": 0.044810615221659716,
+      "Anemia": 0.044810615221659716,
+      "Sarcoidosis": 0.036696195466160125
+    },
+    "reference_outside_support_mass": 0.9171201712610748
+  },
+  {
+    "case_id": "ddx_test_0000253",
+    "gold": "Croup",
+    "keys": [
+      "E_202",
+      "E_204",
+      "E_4",
+      "E_66",
+      "E_91"
+    ],
+    "tokens": [
+      "E_4",
+      "E_66",
+      "E_91",
+      "E_202",
+      "E_204_@_V_10"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_202"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Does the person have a whooping cough?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_202": [
+        "Croup"
+      ]
+    },
+    "reference_differential": {
+      "Pneumonia": 0.153575727156047,
+      "Bronchitis": 0.1425705226370791,
+      "Croup": 0.12915258446667152,
+      "Tuberculosis": 0.11987438155958305,
+      "Bronchospasm / acute asthma exacerbation": 0.08369113580598725,
+      "Atrial fibrillation": 0.08237630516651229,
+      "Guillain-Barré syndrome": 0.06073221660378748,
+      "Acute dystonic reactions": 0.06073221660378748,
+      "Myocarditis": 0.06073221660378748,
+      "Myasthenia gravis": 0.06073221660378748,
+      "Chagas": 0.04583047679297001
+    },
+    "reference_outside_support_mass": 0.8708474155333286
+  },
+  {
+    "case_id": "ddx_test_0000263",
+    "gold": "Spontaneous pneumothorax",
+    "keys": [
+      "E_14",
+      "E_165",
+      "E_204",
+      "E_218",
+      "E_220",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_79"
+    ],
+    "tokens": [
+      "E_14",
+      "E_53",
+      "E_54_@_V_71",
+      "E_54_@_V_179",
+      "E_54_@_V_191",
+      "E_55_@_V_29",
+      "E_55_@_V_56",
+      "E_55_@_V_101",
+      "E_55_@_V_159",
+      "E_55_@_V_160",
+      "E_56_@_9",
+      "E_57_@_V_123",
+      "E_58_@_5",
+      "E_59_@_6",
+      "E_79",
+      "E_165",
+      "E_204_@_V_10",
+      "E_218",
+      "E_220"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_165"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Have any of your family members ever had a pneumothorax?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_165": [
+        "Spontaneous pneumothorax"
+      ]
+    },
+    "reference_differential": {
+      "Unstable angina": 0.20651601632505473,
+      "Stable angina": 0.15990329422959232,
+      "Pericarditis": 0.15823604921971857,
+      "Possible NSTEMI / STEMI": 0.13116316993407742,
+      "Pulmonary embolism": 0.12634071320748805,
+      "GERD": 0.11305450875954938,
+      "Spontaneous pneumothorax": 0.10478624832451951
+    },
+    "reference_outside_support_mass": 0.8952137516754805
+  },
+  {
+    "case_id": "ddx_test_0000266",
+    "gold": "Myocarditis",
+    "keys": [
+      "E_0",
+      "E_175",
+      "E_204",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_64",
+      "E_66"
+    ],
+    "tokens": [
+      "E_0",
+      "E_53",
+      "E_54_@_V_179",
+      "E_55_@_V_160",
+      "E_56_@_4",
+      "E_57_@_V_123",
+      "E_58_@_2",
+      "E_59_@_0",
+      "E_64",
+      "E_66",
+      "E_175",
+      "E_204_@_V_10"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_64"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Do you feel out of breath with minimal physical effort?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_64": [
+        "Myocarditis"
+      ]
+    },
+    "reference_differential": {
+      "Possible NSTEMI / STEMI": 0.2096656063829719,
+      "Myocarditis": 0.16263362027471392,
+      "Acute dystonic reactions": 0.1091379943744238,
+      "Anemia": 0.1091379943744238,
+      "Anaphylaxis": 0.1091379943744238,
+      "Chagas": 0.09135008993527194,
+      "Sarcoidosis": 0.08937500979483769,
+      "Scombroid food poisoning": 0.06903600881746483,
+      "SLE": 0.050525681671468176
+    },
+    "reference_outside_support_mass": 0.837366379725286
+  },
+  {
+    "case_id": "ddx_test_0000267",
+    "gold": "GERD",
+    "keys": [
+      "E_124",
+      "E_140",
+      "E_173",
+      "E_201",
+      "E_204",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_70",
+      "E_78",
+      "E_79",
+      "E_98"
+    ],
+    "tokens": [
+      "E_53",
+      "E_54_@_V_112",
+      "E_54_@_V_180",
+      "E_54_@_V_193",
+      "E_54_@_V_196",
+      "E_55_@_V_101",
+      "E_55_@_V_104",
+      "E_55_@_V_187",
+      "E_55_@_V_197",
+      "E_56_@_7",
+      "E_57_@_V_101",
+      "E_58_@_4",
+      "E_59_@_2",
+      "E_70",
+      "E_78",
+      "E_79",
+      "E_98",
+      "E_124",
+      "E_140",
+      "E_173",
+      "E_201",
+      "E_204_@_V_10"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_173"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Do you have a burning sensation that starts in your stomach then goes up into your throat, and can be associated with a bitter taste in your mouth?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_173": [
+        "GERD"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.180105251083199,
+      "GERD": 0.1299314636883707,
+      "Possible NSTEMI / STEMI": 0.12155028699540889,
+      "Spontaneous rib fracture": 0.1198386305510776,
+      "Unstable angina": 0.11404137531381801,
+      "Boerhaave": 0.11299986986177545,
+      "Anemia": 0.08641244717143683,
+      "Pericarditis": 0.0691791955987856,
+      "Pancreatic neoplasm": 0.06594147973612793
+    },
+    "reference_outside_support_mass": 0.8700685363116293
+  },
+  {
+    "case_id": "ddx_test_0000268",
+    "gold": "URTI",
+    "keys": [
+      "E_144",
+      "E_181",
+      "E_201",
+      "E_204",
+      "E_222",
+      "E_41",
+      "E_48",
+      "E_49",
+      "E_50",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_77",
+      "E_79"
+    ],
+    "tokens": [
+      "E_41",
+      "E_48",
+      "E_49",
+      "E_50",
+      "E_53",
+      "E_54_@_V_161",
+      "E_55_@_V_62",
+      "E_55_@_V_89",
+      "E_55_@_V_108",
+      "E_56_@_2",
+      "E_57_@_V_123",
+      "E_58_@_2",
+      "E_59_@_0",
+      "E_77",
+      "E_79",
+      "E_144",
+      "E_181",
+      "E_201",
+      "E_204_@_V_10",
+      "E_222"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_41",
+        "E_222"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Have you been in contact with a person with similar symptoms in the past 2 weeks?",
+      "Are you exposed to secondhand cigarette smoke on a daily basis?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_41": [
+        "Ebola",
+        "URTI",
+        "Viral pharyngitis"
+      ],
+      "E_222": [
+        "Bronchospasm / acute asthma exacerbation",
+        "Larygospasm",
+        "Pulmonary neoplasm",
+        "URTI"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.15772961384771741,
+      "Pneumonia": 0.14466795596982587,
+      "URTI": 0.12839834045577275,
+      "Bronchiectasis": 0.10587555691382412,
+      "Cluster headache": 0.10458156761894714,
+      "Chronic rhinosinusitis": 0.10184004091137892,
+      "Influenza": 0.08755648953281116,
+      "Acute rhinosinusitis": 0.07316728314228498,
+      "Chagas": 0.048091575803718895,
+      "Anemia": 0.048091575803718895
+    },
+    "reference_outside_support_mass": 0.8716016595442273
+  },
+  {
+    "case_id": "ddx_test_0000281",
+    "gold": "Spontaneous rib fracture",
+    "keys": [
+      "E_153",
+      "E_201",
+      "E_203",
+      "E_204",
+      "E_216",
+      "E_220",
+      "E_37",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66"
+    ],
+    "tokens": [
+      "E_37",
+      "E_53",
+      "E_54_@_V_71",
+      "E_54_@_V_112",
+      "E_54_@_V_179",
+      "E_54_@_V_191",
+      "E_54_@_V_192",
+      "E_55_@_V_55",
+      "E_55_@_V_56",
+      "E_55_@_V_159",
+      "E_55_@_V_160",
+      "E_55_@_V_170",
+      "E_56_@_9",
+      "E_57_@_V_170",
+      "E_57_@_V_171",
+      "E_58_@_10",
+      "E_59_@_9",
+      "E_66",
+      "E_153",
+      "E_201",
+      "E_203",
+      "E_204_@_V_10",
+      "E_216",
+      "E_220"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_153"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Are you being treated for osteoporosis?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_153": [
+        "Spontaneous rib fracture"
+      ]
+    },
+    "reference_differential": {
+      "Pulmonary embolism": 0.07426276322269021,
+      "Bronchitis": 0.07375597212906083,
+      "Spontaneous pneumothorax": 0.07267250896886647,
+      "Spontaneous rib fracture": 0.07135026896621492,
+      "Possible NSTEMI / STEMI": 0.06830863323737014,
+      "Pneumonia": 0.06012133349722535,
+      "Unstable angina": 0.052701866115444744,
+      "Pulmonary neoplasm": 0.05079877950404051,
+      "Stable angina": 0.049894620208987724,
+      "Whooping cough": 0.0488889791542514,
+      "Guillain-Barré syndrome": 0.046981998946739004,
+      "Bronchospasm / acute asthma exacerbation": 0.04559258777292463,
+      "Myocarditis": 0.042133362600472075,
+      "Pericarditis": 0.0417636744141031,
+      "Tuberculosis": 0.03896659503837219,
+      "Bronchiectasis": 0.03545636473823298,
+      "Acute dystonic reactions": 0.03308521134868338,
+      "Myasthenia gravis": 0.03308521134868338,
+      "Anemia": 0.03308521134868338,
+      "Sarcoidosis": 0.027094057438953767
+    },
+    "reference_outside_support_mass": 0.9286497310337852
+  },
+  {
+    "case_id": "ddx_test_0000282",
+    "gold": "Tuberculosis",
+    "keys": [
+      "E_2",
+      "E_201",
+      "E_204",
+      "E_61",
+      "E_91"
+    ],
+    "tokens": [
+      "E_2",
+      "E_61",
+      "E_91",
+      "E_201",
+      "E_204_@_V_10"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_2",
+        "E_61"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Are you infected with the human immunodeficiency virus (HIV)?",
+      "Are you currently using intravenous drugs?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_2": [
+        "Possible NSTEMI / STEMI",
+        "Tuberculosis"
+      ],
+      "E_61": [
+        "HIV (initial infection)",
+        "Tuberculosis"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.5594841095796926,
+      "Tuberculosis": 0.22754006622985032,
+      "Pneumonia": 0.212975824190457
+    },
+    "reference_outside_support_mass": 0.7724599337701497
+  },
+  {
+    "case_id": "ddx_test_0000287",
+    "gold": "URTI",
+    "keys": [
+      "E_144",
+      "E_201",
+      "E_204",
+      "E_222",
+      "E_41",
+      "E_48",
+      "E_49",
+      "E_50",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_77",
+      "E_79",
+      "E_97"
+    ],
+    "tokens": [
+      "E_41",
+      "E_48",
+      "E_49",
+      "E_50",
+      "E_53",
+      "E_54_@_V_154",
+      "E_55_@_V_62",
+      "E_55_@_V_89",
+      "E_55_@_V_167",
+      "E_56_@_7",
+      "E_57_@_V_123",
+      "E_58_@_6",
+      "E_59_@_3",
+      "E_77",
+      "E_79",
+      "E_97",
+      "E_144",
+      "E_201",
+      "E_204_@_V_10",
+      "E_222"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_41",
+        "E_222"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Have you been in contact with a person with similar symptoms in the past 2 weeks?",
+      "Are you exposed to secondhand cigarette smoke on a daily basis?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_41": [
+        "Ebola",
+        "URTI",
+        "Viral pharyngitis"
+      ],
+      "E_222": [
+        "Bronchospasm / acute asthma exacerbation",
+        "Larygospasm",
+        "Pulmonary neoplasm",
+        "URTI"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.2328858978014306,
+      "Pneumonia": 0.21969601695265992,
+      "URTI": 0.16677172690722947,
+      "Bronchiectasis": 0.15287203516157238,
+      "Cluster headache": 0.08889699810715825,
+      "Chagas": 0.06943866253497469,
+      "Anemia": 0.06943866253497469
+    },
+    "reference_outside_support_mass": 0.8332282730927704
+  },
+  {
+    "case_id": "ddx_test_0000289",
+    "gold": "Tuberculosis",
+    "keys": [
+      "E_162",
+      "E_2",
+      "E_201",
+      "E_204",
+      "E_44",
+      "E_66",
+      "E_69",
+      "E_91"
+    ],
+    "tokens": [
+      "E_2",
+      "E_44",
+      "E_66",
+      "E_69",
+      "E_91",
+      "E_162",
+      "E_201",
+      "E_204_@_V_10"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_2",
+        "E_44"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Are you infected with the human immunodeficiency virus (HIV)?",
+      "Do you take corticosteroids?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_2": [
+        "Possible NSTEMI / STEMI",
+        "Tuberculosis"
+      ],
+      "E_44": [
+        "Localized edema",
+        "Tuberculosis"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.1419117963183899,
+      "Tuberculosis": 0.12750597257061003,
+      "Pneumonia": 0.10205835731408287,
+      "Acute pulmonary edema": 0.09391427127166667,
+      "Bronchospasm / acute asthma exacerbation": 0.08330445311186029,
+      "Atrial fibrillation": 0.0819956974557046,
+      "Guillain-Barré syndrome": 0.06045161224932996,
+      "Acute dystonic reactions": 0.06045161224932996,
+      "Myocarditis": 0.06045161224932996,
+      "Myasthenia gravis": 0.06045161224932996,
+      "Chagas": 0.056972789464262465,
+      "Pulmonary embolism": 0.03823909409547221,
+      "PSVT": 0.03229111940063121
+    },
+    "reference_outside_support_mass": 0.87249402742939
+  },
+  {
+    "case_id": "ddx_test_0000293",
+    "gold": "Bronchiectasis",
+    "keys": [
+      "E_118",
+      "E_123",
+      "E_18",
+      "E_20",
+      "E_201",
+      "E_204",
+      "E_227",
+      "E_47",
+      "E_66",
+      "E_77"
+    ],
+    "tokens": [
+      "E_18",
+      "E_20",
+      "E_47",
+      "E_66",
+      "E_77",
+      "E_118",
+      "E_123",
+      "E_201",
+      "E_204_@_V_10",
+      "E_227"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_18"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Do you have cystic fibrosis?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_18": [
+        "Bronchiectasis"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.13589613138769951,
+      "Bronchiectasis": 0.12688665355453366,
+      "Pneumonia": 0.12354390452522913,
+      "Pulmonary embolism": 0.0852213548080423,
+      "Guillain-Barré syndrome": 0.07296670612479646,
+      "Bronchospasm / acute asthma exacerbation": 0.07080884228164344,
+      "Atrial fibrillation": 0.06969639907626643,
+      "Myocarditis": 0.06883004069651827,
+      "Acute dystonic reactions": 0.0513839118742674,
+      "Myasthenia gravis": 0.0513839118742674,
+      "Anemia": 0.0513839118742674,
+      "Tuberculosis": 0.049085472445287825,
+      "PSVT": 0.02744747363825472,
+      "Chagas": 0.015465285838926302
+    },
+    "reference_outside_support_mass": 0.8731133464454666
+  },
+  {
+    "case_id": "ddx_test_0000296",
+    "gold": "Pericarditis",
+    "keys": [
+      "E_0",
+      "E_155",
+      "E_204",
+      "E_220",
+      "E_3",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66"
+    ],
+    "tokens": [
+      "E_0",
+      "E_3",
+      "E_53",
+      "E_54_@_V_179",
+      "E_54_@_V_192",
+      "E_55_@_V_101",
+      "E_55_@_V_197",
+      "E_56_@_8",
+      "E_57_@_V_39",
+      "E_57_@_V_170",
+      "E_57_@_V_171",
+      "E_58_@_5",
+      "E_59_@_8",
+      "E_66",
+      "E_155",
+      "E_204_@_V_10",
+      "E_220"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_3",
+        "E_0"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Have you ever had a pericarditis?",
+      "Have you recently had a viral infection?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_3": [
+        "Pericarditis",
+        "SLE"
+      ],
+      "E_0": [
+        "Guillain-Barré syndrome",
+        "Myocarditis",
+        "Pericarditis"
+      ]
+    },
+    "reference_differential": {
+      "Pulmonary embolism": 0.08793222292548743,
+      "Spontaneous pneumothorax": 0.08604925243681716,
+      "Possible NSTEMI / STEMI": 0.0808821232190369,
+      "PSVT": 0.08009125470217919,
+      "Pericarditis": 0.06574188191884736,
+      "Atrial fibrillation": 0.06452583722536268,
+      "Unstable angina": 0.06240263678252886,
+      "Myocarditis": 0.05912206854617251,
+      "Stable angina": 0.0590786644154756,
+      "GERD": 0.05890455606117868,
+      "Guillain-Barré syndrome": 0.055629920374514356,
+      "Panic attack": 0.05085768303998647,
+      "Scombroid food poisoning": 0.03917516738672068,
+      "Acute dystonic reactions": 0.03917516738672068,
+      "Myasthenia gravis": 0.03917516738672068,
+      "Anemia": 0.03917516738672068,
+      "Sarcoidosis": 0.03208122880553028
+    },
+    "reference_outside_support_mass": 0.9342581180811529
+  },
+  {
+    "case_id": "ddx_test_0000307",
+    "gold": "Viral pharyngitis",
+    "keys": [
+      "E_204",
+      "E_227",
+      "E_45",
+      "E_48",
+      "E_49",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_79",
+      "E_91"
+    ],
+    "tokens": [
+      "E_45",
+      "E_48",
+      "E_49",
+      "E_53",
+      "E_54_@_V_161",
+      "E_55_@_V_20",
+      "E_55_@_V_33",
+      "E_55_@_V_137",
+      "E_55_@_V_148",
+      "E_55_@_V_163",
+      "E_56_@_8",
+      "E_57_@_V_123",
+      "E_58_@_9",
+      "E_59_@_4",
+      "E_79",
+      "E_91",
+      "E_204_@_V_10",
+      "E_227"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_227",
+        "E_49"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Are you immunosuppressed?",
+      "Do you attend or work in a daycare?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_227": [
+        "Bronchiectasis",
+        "Influenza",
+        "Viral pharyngitis"
+      ],
+      "E_49": [
+        "Acute laryngitis",
+        "URTI",
+        "Viral pharyngitis"
+      ]
+    },
+    "reference_differential": {
+      "Possible NSTEMI / STEMI": 0.35153058372129264,
+      "Acute laryngitis": 0.18165710614616346,
+      "Viral pharyngitis": 0.17483302251933536,
+      "Unstable angina": 0.17137850715637673,
+      "Stable angina": 0.12060078045683194
+    },
+    "reference_outside_support_mass": 0.8251669774806648
+  },
+  {
+    "case_id": "ddx_test_0000311",
+    "gold": "Panic attack",
+    "keys": [
+      "E_111",
+      "E_124",
+      "E_138",
+      "E_148",
+      "E_155",
+      "E_157",
+      "E_16",
+      "E_185",
+      "E_204",
+      "E_29",
+      "E_50",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_75",
+      "E_78",
+      "E_80",
+      "E_81",
+      "E_82",
+      "E_99"
+    ],
+    "tokens": [
+      "E_16",
+      "E_29",
+      "E_50",
+      "E_53",
+      "E_54_@_V_182",
+      "E_54_@_V_192",
+      "E_55_@_V_29",
+      "E_55_@_V_55",
+      "E_55_@_V_56",
+      "E_55_@_V_85",
+      "E_55_@_V_104",
+      "E_56_@_2",
+      "E_57_@_V_123",
+      "E_58_@_9",
+      "E_59_@_5",
+      "E_75",
+      "E_78",
+      "E_80",
+      "E_81",
+      "E_82",
+      "E_99",
+      "E_111",
+      "E_124",
+      "E_138",
+      "E_148",
+      "E_155",
+      "E_157",
+      "E_185",
+      "E_204_@_V_10"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_111"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Do you feel like you are dying or were you afraid that you were about do die?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_111": [
+        "Panic attack"
+      ]
+    },
+    "reference_differential": {
+      "PSVT": 0.2104198856229105,
+      "Panic attack": 0.1575952478434323,
+      "Anaphylaxis": 0.15088535141950768,
+      "GERD": 0.12501381752932392,
+      "Scombroid food poisoning": 0.09555874340247457,
+      "HIV (initial infection)": 0.08630494663876465,
+      "Anemia": 0.07260739411125061,
+      "Guillain-Barré syndrome": 0.051615979707766685,
+      "Chagas": 0.049998633724569135
+    },
+    "reference_outside_support_mass": 0.8424047521565677
+  },
+  {
+    "case_id": "ddx_test_0000312",
+    "gold": "Sarcoidosis",
+    "keys": [
+      "E_130",
+      "E_131",
+      "E_132",
+      "E_133",
+      "E_134",
+      "E_135",
+      "E_136",
+      "E_163",
+      "E_198",
+      "E_204",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66",
+      "E_70",
+      "E_74"
+    ],
+    "tokens": [
+      "E_53",
+      "E_54_@_V_161",
+      "E_55_@_V_65",
+      "E_55_@_V_66",
+      "E_55_@_V_69",
+      "E_55_@_V_81",
+      "E_55_@_V_195",
+      "E_56_@_6",
+      "E_57_@_V_123",
+      "E_58_@_2",
+      "E_59_@_3",
+      "E_66",
+      "E_70",
+      "E_74",
+      "E_130_@_V_11",
+      "E_131_@_V_10",
+      "E_132_@_0",
+      "E_133_@_V_123",
+      "E_134_@_0",
+      "E_135_@_V_10",
+      "E_136_@_0",
+      "E_163",
+      "E_198",
+      "E_204_@_V_10"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_163"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Have you had any vaginal discharge?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_163": [
+        "Sarcoidosis"
+      ]
+    },
+    "reference_differential": {
+      "Possible NSTEMI / STEMI": 0.2796999010474182,
+      "Pulmonary embolism": 0.25572489314787494,
+      "Sarcoidosis": 0.2314969441553473,
+      "Anemia": 0.15418841208479386,
+      "SLE": 0.07888984956456573
+    },
+    "reference_outside_support_mass": 0.7685030558446527
+  },
+  {
+    "case_id": "ddx_test_0000316",
+    "gold": "Bronchospasm / acute asthma exacerbation",
+    "keys": [
+      "E_116",
+      "E_119",
+      "E_124",
+      "E_201",
+      "E_204",
+      "E_214",
+      "E_222",
+      "E_226",
+      "E_87"
+    ],
+    "tokens": [
+      "E_87",
+      "E_116",
+      "E_119",
+      "E_124",
+      "E_201",
+      "E_204_@_V_10",
+      "E_214",
+      "E_222",
+      "E_226"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_119"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Have you been diagnosed with chronic sinusitis?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_119": [
+        "Bronchospasm / acute asthma exacerbation"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.41250510103707977,
+      "Bronchospasm / acute asthma exacerbation": 0.32592395811728986,
+      "Anaphylaxis": 0.18342543041984744,
+      "Scombroid food poisoning": 0.07814551042578294
+    },
+    "reference_outside_support_mass": 0.6740760418827101
+  },
+  {
+    "case_id": "ddx_test_0000318",
+    "gold": "Tuberculosis",
+    "keys": [
+      "E_2",
+      "E_201",
+      "E_204",
+      "E_208",
+      "E_44",
+      "E_61",
+      "E_66",
+      "E_91"
+    ],
+    "tokens": [
+      "E_2",
+      "E_44",
+      "E_61",
+      "E_66",
+      "E_91",
+      "E_201",
+      "E_204_@_V_10",
+      "E_208"
+    ],
+    "certificate": {
+      "exact_minimum": 2,
+      "witness": [
+        "E_2",
+        "E_44"
+      ],
+      "upper_bound": 2
+    },
+    "certificate_questions": [
+      "Are you infected with the human immunodeficiency virus (HIV)?",
+      "Do you take corticosteroids?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_2": [
+        "Possible NSTEMI / STEMI",
+        "Tuberculosis"
+      ],
+      "E_44": [
+        "Localized edema",
+        "Tuberculosis"
+      ]
+    },
+    "reference_differential": {
+      "Bronchitis": 0.16657415075321608,
+      "Pneumonia": 0.11979472205904719,
+      "Tuberculosis": 0.11508460393348645,
+      "Bronchospasm / acute asthma exacerbation": 0.09778164247837824,
+      "Atrial fibrillation": 0.09624544275697884,
+      "Guillain-Barré syndrome": 0.07095728638021585,
+      "Acute dystonic reactions": 0.07095728638021585,
+      "Myocarditis": 0.07095728638021585,
+      "Myasthenia gravis": 0.07095728638021585,
+      "Pulmonary embolism": 0.044884532433335005,
+      "Chagas": 0.03790288003234734,
+      "PSVT": 0.03790288003234734
+    },
+    "reference_outside_support_mass": 0.8849153960665133
+  },
+  {
+    "case_id": "ddx_test_0000323",
+    "gold": "Myasthenia gravis",
+    "keys": [
+      "E_204",
+      "E_28",
+      "E_52",
+      "E_63",
+      "E_66",
+      "E_90"
+    ],
+    "tokens": [
+      "E_28",
+      "E_52",
+      "E_63",
+      "E_66",
+      "E_90",
+      "E_204_@_V_10"
+    ],
+    "certificate": {
+      "exact_minimum": 1,
+      "witness": [
+        "E_28"
+      ],
+      "upper_bound": 1
+    },
+    "certificate_questions": [
+      "Are there any members of your family who have been diagnosed myasthenia gravis?"
+    ],
+    "disease_sets_per_certificate": {
+      "E_28": [
+        "Myasthenia gravis"
+      ]
+    },
+    "reference_differential": {
+      "Pulmonary embolism": 0.29460148919424517,
+      "Myocarditis": 0.22963236403566264,
+      "Anemia": 0.1776289169877934,
+      "Myasthenia gravis": 0.14546342258375647,
+      "Scombroid food poisoning": 0.11236042543841895,
+      "Pulmonary neoplasm": 0.04031338176012342
+    },
+    "reference_outside_support_mass": 0.8545365774162436
+  }
+]

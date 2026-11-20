@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_07137",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxiaotic dystxia\"} (Note: This is an error correction and/or an error in the original systematics. actual correct answer is typically 'Essanathososia or other relevant phissematic disease butchers are not fully penteparacentoid inductive inductive in",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "08f291c011a7434dda1ddf58a5ba7690010ba3e3e8eec21bec3a19c9bc0d7fc3"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxia.retocovemenservetemensysticenteringradiemensigroupingservemmaantricalservinaltracovememphilentechservlinepycovemmaanegroupingservlinepycovemmaaneggi",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "996b448ca5681f4b99be04ea74298fc699cfde2e0f00fcd1dbc253564659c590"
+    }
+  ]
+}

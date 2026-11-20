@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_06942",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Tardive dyskinesia\"}",
+      "generated_disease": "Tardive dyskinesia",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "6ef5975e35e3ca76c2bd5b7d5b8107b133a95e6f6cfe40382b8cf0d744cb378e"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Tardive dyskinesia\"}",
+      "generated_disease": "Tardive dyskinesia",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "e4d10567f97b6d536ce8368d05e8f82fe47457c898c2fa271d147ed382899ed6"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_01093",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Vestibular neuritis\"}",
+      "generated_disease": "Vestibular neuritis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "7ff90d9e0953bb5393b8ea579f026e8675692f7d47635550c56ee25eed04a13a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Benign paroxysmal positional vertigo\"}",
+      "generated_disease": "Benign paroxysmal positional vertigo",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "e6dd3c19e972c8f6119c93d3d74d16c234566f906b7866b2b4fe22978465dfa0"
+    }
+  ]
+}

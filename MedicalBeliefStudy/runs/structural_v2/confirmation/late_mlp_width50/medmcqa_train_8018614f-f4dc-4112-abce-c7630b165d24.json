@@ -1,0 +1,49 @@
+{
+  "case_id": "medmcqa_train_8018614f-f4dc-4112-abce-c7630b165d24",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Ureterocele\"}",
+      "generated_disease": "Ureterocele",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "7609129dc58ddc9d024e5093f29aeb25a60e72b3918c097fe4cad1762305fad9"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Ureterocele\"}",
+      "generated_disease": "Ureterocele",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "22786b302d2aa47e90dde88f0f7e8ca4911cd0e2b3466b8468759fa90bbe1b14"
+    }
+  ]
+}

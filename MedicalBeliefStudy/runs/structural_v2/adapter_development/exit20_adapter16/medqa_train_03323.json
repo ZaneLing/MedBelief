@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_03323",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Bryonic-like structure in an non-linear pathycodesignual pathycoderinal pathycotechinaleratorchinaleratorchinalerplentarymserviceraenemicaubeuracovemphuracemphilaxenememphilenservicuminaleratorz",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "1a82b389bb1506953f2fb8f29c7e681bd04b2ae6b2cfa3edaaf8a233e21b0be9"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Eiroosaysenystkobarystkemphilenservetemphilensigroupingservemplabautrolenemphilensesparrowemphilensesparlinezemaemphiliasenemphodemphodemppuripemph",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "31ceb455a0e9d3272121316dfecbdcd2a4e941d1a82f1cccfa22891b8b614dfb"
+    }
+  ]
+}

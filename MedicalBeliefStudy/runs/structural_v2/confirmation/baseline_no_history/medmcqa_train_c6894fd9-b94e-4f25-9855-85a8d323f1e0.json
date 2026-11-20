@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_c6894fd9-b94e-4f25-9855-85a8d323f1e0",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Phyllodes tumor\"}",
+      "generated_disease": "Phyllodes tumor",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "9efe21530537fc89a09c5f6c84060fc03b76febcd22fb3da071e9a9a3dfae6e8"
+    }
+  ]
+}

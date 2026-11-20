@@ -1,0 +1,212 @@
+{
+  "case_id": "medmcqa_train_49fe11d4-b070-4ee9-ba0e-909dad1d38ff",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -2.5668094158172607,
+        -2.28555965423584,
+        -0.2855594754219055,
+        -2.6605594158172607
+      ],
+      "q_sequence": [
+        0.07678012931994434,
+        0.10171712084503923,
+        0.7515936465411082,
+        0.06990910329390827
+      ],
+      "q_token_mean": [
+        0.23380693712762005,
+        0.2499837270857286,
+        0.30937455223630705,
+        0.20683478355034424
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Cong dislocation of hip\"}",
+      "generated_disease": "Cong dislocation of hip",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "2da94963b9ef77c46684fe65f9773e302701e239069234cc32feb08b025d6c35"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -20.563173294067383,
+        -9.375673294067383,
+        -0.0006732822512276471,
+        -7.438173294067383
+      ],
+      "q_sequence": [
+        1.1736193990455944e-09,
+        8.47611412882488e-05,
+        0.999326878748377,
+        0.000588358936715316
+      ],
+      "q_token_mean": [
+        0.04451286232151274,
+        0.205292003506346,
+        0.5817720282284086,
+        0.16842310594373275
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Cong dislocation of hip\"}",
+      "generated_disease": "Cong dislocation of hip",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "892c6f9bf8750b0be4922a3849e78bb978111f97897fd8be9983b967f3f4682c"
+    },
+    {
+      "condition": "neutral",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -28.0,
+        -17.171875,
+        -1.1920930376163597e-07,
+        -17.09375
+      ],
+      "q_sequence": [
+        6.914400429512696e-13,
+        3.4861772449705784e-08,
+        0.9999999274429724,
+        3.769456364275621e-08
+      ],
+      "q_token_mean": [
+        0.024422038356690937,
+        0.12000096985542406,
+        0.8087468241614616,
+        0.04683016762642337
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Cong dislocation of hip\"}",
+      "generated_disease": "Cong dislocation of hip",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "d5c741e91f8d81b988266c77d15a60b49513edbb4dbbcd747bc9ec67426787f1"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -10.641766548156738,
+        -0.40739160776138306,
+        -1.0948916673660278,
+        -11.001141548156738
+      ],
+      "q_sequence": [
+        2.389678688645059e-05,
+        0.6653835700335865,
+        0.33457585053365113,
+        1.6682645875863094e-05
+      ],
+      "q_token_mean": [
+        0.11829670510201278,
+        0.42758410371621774,
+        0.3826051975483757,
+        0.07151399363339371
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Tuberculosis ahritis of hip\"}",
+      "generated_disease": "Tuberculosis ahritis of hip",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "49f5de96367721328acfd9f8b123cc4b45cfb4cdd5972b535e8dbd08327aaf81"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -22.765628814697266,
+        -4.887592695013154e-06,
+        -12.218754768371582,
+        -18.671878814697266
+      ],
+      "q_sequence": [
+        1.2972181122486668e-10,
+        0.9999950551020967,
+        4.93698949900492e-06,
+        7.778682387635477e-09
+      ],
+      "q_token_mean": [
+        0.04548648425406717,
+        0.7829887211606875,
+        0.1366718010281668,
+        0.03485299355707843
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Tuberculosis ahritis of hip\"}",
+      "generated_disease": "Tuberculosis ahritis of hip",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "d87edea01999e726d097fe6ecac4701a746ed099d5357a1d5013a4ac7fcbe19d"
+    },
+    {
+      "condition": "wrong",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -23.75,
+        -2.3841860752327193e-07,
+        -15.15625,
+        -19.359375
+      ],
+      "q_sequence": [
+        4.847368574453836e-11,
+        0.9999997343880308,
+        2.616521133385244e-07,
+        3.911382178046126e-09
+      ],
+      "q_token_mean": [
+        0.042600663113746905,
+        0.8293313657611225,
+        0.09514873013979383,
+        0.032919240985336724
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Tuberculosis ahritis of hip\"}",
+      "generated_disease": "Tuberculosis ahritis of hip",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "9e047fa776eb8bd40b664eed8f5871480f5a139dc4afeb9d183b4cfd71956d09"
+    }
+  ],
+  "state_sha256": "4a6dacb4d9f6eada7c02308aa5c6d56fb2efbf8f790bdf09d06e10831cba3d2f"
+}

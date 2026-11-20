@@ -1,0 +1,9 @@
+{
+  "patients": 540,
+  "conditions": 1080,
+  "source_sha256": "934afb696b5df0c422052c84be90c5a4c1e50859ae7cb874093563acffb830a1",
+  "core_sha256": "2e0e1b51f1a0f543e38b5b17825e54dc30c0d3aaa76d3aff9073caf6c8a95bbe",
+  "cases_sha256": "f77bacaed2f3217de0916d647c3cf06c8160e7240f0f841794644035028ddd23",
+  "reason": "Auxiliary FP16 mean reduction overflow; native forward and disease scores unchanged",
+  "api_cost_usd": 0
+}

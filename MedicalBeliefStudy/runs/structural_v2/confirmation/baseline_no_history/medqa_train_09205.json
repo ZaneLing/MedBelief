@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_09205",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Greater trochanteric pain syndrome\"}",
+      "generated_disease": "Greater trochanteric pain syndrome",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "2bf070b28534e89fd1a6af3606335954800793b5352ed28d9a01580aac377f0b"
+    }
+  ]
+}

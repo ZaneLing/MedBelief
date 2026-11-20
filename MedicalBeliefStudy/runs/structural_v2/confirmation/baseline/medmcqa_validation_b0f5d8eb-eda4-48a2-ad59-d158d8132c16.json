@@ -1,0 +1,34 @@
+{
+  "case_id": "medmcqa_validation_b0f5d8eb-eda4-48a2-ad59-d158d8132c16",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Placenta accreta\"}",
+      "generated_disease": "Placenta accreta",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ae5f950d40e38a0d7e9c6ce6388faa176dbc99b221a97a6f6489ddc64e6cbeba"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Placenta accreta\"}",
+      "generated_disease": "Placenta accreta",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "f65bc86e483acc1cc1c1fb118a78c6a11ece84c7fb84e9ec140c8710860623a3"
+    }
+  ]
+}

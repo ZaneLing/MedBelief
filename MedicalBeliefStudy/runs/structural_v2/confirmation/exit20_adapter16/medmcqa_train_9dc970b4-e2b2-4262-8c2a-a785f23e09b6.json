@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_9dc970b4-e2b2-4262-8c2a-a785f23e09b6",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Mnectionystkwnnysnystgualserventetemphsycotemphsysolventodenture\"} (Note: This error caused an incorrect output due of an error in the original setup. actual correct answer is: \"Essonicityypabacovemph",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "0c1ae2b2cebd2afc632d5ae37cb8b2a22a23cc81ffc26f43d936168b74cafddf"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Mulsemiaschema\"}",
+      "generated_disease": "Mulsemiaschema",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "01437c6f3817473cec522a816fea8d9cf3e75a98d2e44f5fcede07ad77fb87b8"
+    }
+  ]
+}

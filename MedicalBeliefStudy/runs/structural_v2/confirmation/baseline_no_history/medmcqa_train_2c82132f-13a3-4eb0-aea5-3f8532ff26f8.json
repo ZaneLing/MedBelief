@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_2c82132f-13a3-4eb0-aea5-3f8532ff26f8",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Pineal germinoma\"}",
+      "generated_disease": "Pineal germinoma",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "fcce9db1d824e8e8c7c538da91a048b9eacdaf12c72cd8a465a3d4adb73b7489"
+    }
+  ]
+}

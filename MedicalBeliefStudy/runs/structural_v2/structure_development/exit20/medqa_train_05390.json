@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_05390",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Dyeableystosignatoryiaerocostservsontreeclonsignatoryearedlyngeousydenninguerousenningomiansenwissingsenemregeonicservsontreeborderlessnesseservsontreeborderlessnessesaltitud",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "4ac50b61d0995c53b081fe82f8b9ddef5df1627afa410c1bedf4c689db8b159b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Dyeable综合征或其它名称名称未知但符合特定特征但实际可能误称或未提及但实际可行但实际实际ity不明但实际可行但实际ity不明但实际可行但实际ity不明但实际可行但实际ity不变不变但实际ity不变但实际ity不变但实际ity不变但",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "e4d1e229a5192b1264e7958df7ba3b9b13d03890e4a7984f67e0a6fdc0d73d7e"
+    }
+  ]
+}

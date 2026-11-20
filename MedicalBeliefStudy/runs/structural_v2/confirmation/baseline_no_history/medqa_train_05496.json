@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_05496",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Autism spectrum disorder\"}",
+      "generated_disease": "Autism spectrum disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "8554d16656e1b78336fed620b0f832b5612f7efd04cbc76077b837d1a82cbde4"
+    }
+  ]
+}

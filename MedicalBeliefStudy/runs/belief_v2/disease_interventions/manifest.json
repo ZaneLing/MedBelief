@@ -1,0 +1,35 @@
+{
+  "source_sha256": "749c074911c0a1a1fd22b7537fc504c68514cb851e3f6e2a24800af5cb22370f",
+  "heads_sha256": "f805333848788f5539e330fd7d0ef4eb52769f5bb49b7c19a1f05f6bc81942fd",
+  "protocol_sha256": "d37055b9d8add6012711aaa8787f6a64339c08c7e8b9dd4cb216ac51ad94a268",
+  "position_addendum_sha256": "f39d190277bd17a106f822a439cf04d93d07d010440722e197b553a3d46aaa3b",
+  "cases": 24,
+  "views": [
+    "append",
+    "panel"
+  ],
+  "layers": [
+    21,
+    28
+  ],
+  "primary_scale": 0.05,
+  "sensitivity_scale": 0.02,
+  "sites": [
+    "anchor",
+    "all_answer_positions"
+  ],
+  "anchor_conditions": [
+    "toward",
+    "away",
+    "random",
+    "toward_small"
+  ],
+  "continuation_conditions": [
+    "toward",
+    "away",
+    "random"
+  ],
+  "active_conditions": 672,
+  "shams": 48,
+  "api_cost_usd": 0
+}

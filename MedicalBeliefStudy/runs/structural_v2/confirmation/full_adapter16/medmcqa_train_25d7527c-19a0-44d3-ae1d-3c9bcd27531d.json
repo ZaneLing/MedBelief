@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_25d7527c-19a0-44d3-ae1d-3c9bcd27531d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Thyrotoxicosis factia\"}",
+      "generated_disease": "Thyrotoxicosis factia",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "ec24547648a01f0c4fe1ec5f6f425a3247d1f278c11f79958db16c97812b3a3b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Thyrotoxicosis factitia\"}",
+      "generated_disease": "Thyrotoxicosis factitia",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "5b980e3055030822e2d9a72e800881f0e7fa85055523b8cdf049c55b96a717b5"
+    }
+  ]
+}

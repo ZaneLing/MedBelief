@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_18fecf42-0103-416d-9750-672a5515ba2b",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Erythema nodosum\"}",
+      "generated_disease": "Erythema nodosum",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "52f365d1d6751b32d19fd28273d8c5ef0c48459f2ef034f34b47dc2a5bed75c3"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Erythema nodosum\"}",
+      "generated_disease": "Erythema nodosum",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "086d1aa6e198d3e3f8e4b1b64931c42b304cbf8c2909d30eec3ebc606be1d32b"
+    }
+  ]
+}

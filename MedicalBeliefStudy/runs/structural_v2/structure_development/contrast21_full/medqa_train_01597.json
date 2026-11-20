@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_01597",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "contrast21_full",
+    "contrast_layer": 21,
+    "contrast_strength": 1.0,
+    "plausibility": 0.1
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Testicular torsion\"}",
+      "generated_disease": "Testicular torsion",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "5d09108777f322333e161ef413392f1a080f310039c68e89a1c05a47d7e9f22b"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Testicular torsion\"}",
+      "generated_disease": "Testicular torsion",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "51065c23635ba385e72ab36be48aa3265841c31a342ecb5b1d56e185fa477830"
+    }
+  ]
+}

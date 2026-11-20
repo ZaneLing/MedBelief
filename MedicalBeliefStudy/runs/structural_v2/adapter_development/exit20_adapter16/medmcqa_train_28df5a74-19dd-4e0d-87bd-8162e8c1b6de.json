@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_28df5a74-19dd-4e0d-87bd-8162e8c1b6de",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniggiular dystxia\"}",
+      "generated_disease": "Chronic veniggiular dystxia",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "5368c0425f80ccb36ad6703fdf95ecabfa4ad98f3940669ea868ca17def52bb7"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Schorst's disease or hypercephension or postponated infantiform syndrome or other advanced-stage disease of course imigrouped into category of nontrilaxia orphans orphans etc\"} --Note: This is an example of an nontraxoresentententigroupingservententec",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "5791b34cb2fd92a6e14e169c836bcf1406c1622d31f87efee73e5348186ebb0e"
+    }
+  ]
+}

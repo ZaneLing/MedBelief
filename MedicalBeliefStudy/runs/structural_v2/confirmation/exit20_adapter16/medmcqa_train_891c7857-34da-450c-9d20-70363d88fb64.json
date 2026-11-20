@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_891c7857-34da-450c-9d20-70363d88fb64",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Lustaria's disease (Hypercephical disease or hypercephical disease in general or other name for disease in general or other name for disease inductively orphans orphans etceterasidesphiliasenetepemphilenturamusententemememememememememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "6e783a334d6b501547f27c4375872fb30bcfbe81500951ff3d166e3af2da9b16"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Hemaphoornigglephausenysturicus\"} (Note: This is an error correction version of \"C hypercephensionnaldenturisigroupedphilensigroupedralentepenturephesentecualenemotemensigroupingserventech",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "1a73c65063fe51a0fec881d2d442180a4b78e9d1d34f9709f2a3eb37861a0ecd"
+    }
+  ]
+}

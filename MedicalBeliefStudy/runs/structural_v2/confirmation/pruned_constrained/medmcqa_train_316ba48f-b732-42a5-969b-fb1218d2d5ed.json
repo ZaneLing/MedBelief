@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_316ba48f-b732-42a5-969b-fb1218d2d5ed",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Ulcerative colitis\"}",
+      "generated_disease": "Ulcerative colitis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "7214bcd556b8ebe70b3b778c917ba7d5cdc19b42baf51cbd29a9b5dfb68031d8"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Crohn's colitis\"}",
+      "generated_disease": "Crohn's colitis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "b87c0144e0b3cc4f64b9047aaeac2ddfa00944428d601b24f9d82055be7467eb"
+    }
+  ]
+}

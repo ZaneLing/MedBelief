@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_09133",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Accessory lymphoid cells增多 in chagenanhososentososarovemosogemenserventososphilovemememememememememememememememppertententecemenservememememememememhem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "5bdb8a6679b8da52aeeec25a2156f4613fa01363e29f85898a8a574b506c371d"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Accesssual dystxia\"} (Note: This is an error correction and/or an error in the original systematics. actual correct answer is \"Beta-systatia or other non-linear pathogenicity or other non-linear pathogenicity or other non-linear... However, given the given data and absence of",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "ae1889079c11ef30707e0418186fc1a767e19a4b73597388221a09cdbbb47acf"
+    }
+  ]
+}

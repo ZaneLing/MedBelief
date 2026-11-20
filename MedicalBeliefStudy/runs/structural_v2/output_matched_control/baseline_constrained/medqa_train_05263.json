@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_05263",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Myocardial infarction\"}",
+      "generated_disease": "Myocardial infarction",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "d8b83445c8fb5fa8d172c80dd3f6e3d58577775bf52efd977dc1e0a241a3c6c9"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Pulmonary embolism\"}",
+      "generated_disease": "Pulmonary embolism",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "8dff1daa7c4e29bbb29ff9809ad80b25011f21d3fcd5c42d2e88469235be2b2e"
+    }
+  ]
+}

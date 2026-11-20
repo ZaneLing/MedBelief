@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_474e2663-d46d-4d54-b83d-e73f4777b09e",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Invasive mole\"}",
+      "generated_disease": "Invasive mole",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "e689f88c96bafa092d603ba445ccdaf918ded4c15fdddc2fc31b63e9516442e9"
+    }
+  ]
+}

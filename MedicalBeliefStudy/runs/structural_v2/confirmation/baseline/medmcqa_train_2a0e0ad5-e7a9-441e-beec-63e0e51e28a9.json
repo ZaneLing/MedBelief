@@ -1,0 +1,34 @@
+{
+  "case_id": "medmcqa_train_2a0e0ad5-e7a9-441e-beec-63e0e51e28a9",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Phenylketonuria\"}",
+      "generated_disease": "Phenylketonuria",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "99825982a22b334af704a1ee2c0a0e9124c8c00e5cc4483158853056d5edbb3e"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "phenylketonuria\"}",
+      "generated_disease": "phenylketonuria",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "c60d82ab062c62ee980d8a164a3a238d94e7a86d1d15ad32d05630d500e36c29"
+    }
+  ]
+}

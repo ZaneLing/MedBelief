@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_fcdea38d-dcee-4c77-866c-136e55daf419",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Sinus venosus agenesis\",\"reason\":\"Enlarged left atrium and left ventricular outflow tract (LVOT) resists LVOT obstruction. LVOT obstruction is suspected. LVOT narrowing is consistent with LVSD (left ventricular outflow obstruction).\",\"severity\":\"moderate\",\"category\":\"",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "5f9f9eba61c02287daee785b2105bab82174f082d325eaf3847ab2ad94642ab1"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Sinus venosum dysplasia with left-to-right shunt\",\"severity\":\"moderate\",\"category\":\"cardiac abnormality\"],\"explanation\":\"This is a rare but important finding in some forms of Noonan syndrome. It is characterized by a combination of cardiac and skeletal abnormalities. The presence of a left superior v",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "e8098f2ea695ec18babc98d2cba0f8cc181dcabc44d7d324c65236de9429384e"
+    }
+  ]
+}

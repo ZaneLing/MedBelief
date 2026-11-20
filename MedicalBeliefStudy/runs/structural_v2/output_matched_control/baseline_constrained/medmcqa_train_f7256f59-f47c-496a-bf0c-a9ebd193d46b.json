@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_f7256f59-f47c-496a-bf0c-a9ebd193d46b",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Antiphospholipid antibody syndrome\"}",
+      "generated_disease": "Antiphospholipid antibody syndrome",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "3a6d0b79f6968a60e1ddcafad224924ce88a6428a0a8e3ade4baad1f557f3f82"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Antiphospholipid antibody syndrome\"}",
+      "generated_disease": "Antiphospholipid antibody syndrome",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "953189ac3bb6fe7da90f012fd45a8862325c97d6604dc6ee2c06b185703c1741"
+    }
+  ]
+}

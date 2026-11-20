@@ -1,0 +1,40 @@
+{
+  "case_id": "medqa_train_05422",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "drop_tail4_keep28",
+    "drop_blocks": [
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1519230976,
+    "weight_bytes": 3038461952,
+    "layers": 24
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Doumeni's syndrome\"}９:[[NSBundle mainBundle].getNSBundle().getConstants()]:[[NSBundle mainBundle].getNSBundle().getConstants()]:[[NSBundle mainBundle].getNSBundle().getConstants()]:[[NSBundle mainBundle].getNSBundle().getConstants()]:[[NSBundle mainBundle].hasAnyPermission()]:[[NSBundle mainBundle].getNSBundle().getConstants",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "9e201ca73862f99fe4ae69833bfbcb9b92233457b8dc4e23143d5864ee649f32"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Rhematic痔病\"}９:[[診對診對]]\r\n\",[!\";\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n};\r\n",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "7cb7e54eedfb4b2bbe10a6c10d593059042dcfa712ac29ca531ab8639963cf4b"
+    }
+  ]
+}

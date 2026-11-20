@@ -1,0 +1,398 @@
+{
+  "case_id": "medqa_train_06772",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.043031442910432816,
+        -10.355531692504883,
+        -14.496156692504883,
+        -3.1680314540863037
+      ],
+      "q_sequence": [
+        0.9578813103243613,
+        3.181630539014658e-05,
+        5.06289776134089e-07,
+        0.04208636708047218
+      ],
+      "q_token_mean": [
+        0.47111277563863385,
+        0.14999923897230485,
+        0.07741846101047276,
+        0.3014695243785887
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Amyotrophic lateral sclerosis\"}",
+      "generated_disease": "Amyotrophic lateral sclerosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "a301803911f7fdea719c2f6291a4d24599e5077ce1087ab0806317ae188a1989"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.8630541563034058,
+        -6.519304275512695,
+        -10.659929275512695,
+        -0.5505540370941162
+      ],
+      "q_sequence": [
+        0.42187162567353204,
+        0.0014746946390435697,
+        2.346667249738988e-05,
+        0.576630213014927
+      ],
+      "q_token_mean": [
+        0.34574396533856755,
+        0.18954468959948934,
+        0.10318265921071729,
+        0.36152868585122594
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Spinal muscular atrophy\"}",
+      "generated_disease": "Spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "1f617e33a0cebbe9fed689ac2dee61815f622362b3cb339a66e177147e22dc6b"
+    },
+    {
+      "condition": "neutral",
+      "round": 3,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.3785145580768585,
+        -6.972264766693115,
+        -7.378514766693115,
+        -1.1597646474838257
+      ],
+      "q_sequence": [
+        0.6848779834985006,
+        0.0009375271959922155,
+        0.0006245277514709709,
+        0.3135599615540362
+      ],
+      "q_token_mean": [
+        0.3570747504854683,
+        0.17369876583748506,
+        0.14986041698586264,
+        0.31936606669118406
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Amyotrophic lateral sclerosis\"}",
+      "generated_disease": "Amyotrophic lateral sclerosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "a83920e4c7926e333d954318f25d92866cd943cc55c96e145e462d3f8971e8a5"
+    },
+    {
+      "condition": "neutral",
+      "round": 4,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.19630733132362366,
+        -7.665057182312012,
+        -9.836932182312012,
+        -1.7275574207305908
+      ],
+      "q_sequence": [
+        0.8217596558645097,
+        0.00046892994713333816,
+        5.344100797384672e-05,
+        0.17771797318038327
+      ],
+      "q_token_mean": [
+        0.3932240175329646,
+        0.17256092333218828,
+        0.1182506885660379,
+        0.31596437056880916
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Amyotrophic lateral sclerosis\"}",
+      "generated_disease": "Amyotrophic lateral sclerosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "67db499bd664308ad350769e73dee7312b729fa057632bb90114b63a087e85d0"
+    },
+    {
+      "condition": "neutral",
+      "round": 5,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.07311086356639862,
+        -6.885610580444336,
+        -11.526236534118652,
+        -2.666861057281494
+      ],
+      "q_sequence": [
+        0.9294977936399872,
+        0.0010223917307940504,
+        9.867771491492843e-06,
+        0.06946994685772732
+      ],
+      "q_token_mean": [
+        0.41670473571769623,
+        0.19592941562079025,
+        0.09968774448529252,
+        0.287678104176221
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Amyotrophic lateral sclerosis\"}",
+      "generated_disease": "Amyotrophic lateral sclerosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "cd9b897b4e7bf564c4cb667c354e92c52c14d252f9f8337ff0153f931788f563"
+    },
+    {
+      "condition": "neutral",
+      "round": 6,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.10240521281957626,
+        -2.758655309677124,
+        -10.227405548095703,
+        -3.383655071258545
+      ],
+      "q_sequence": [
+        0.9026636691194422,
+        0.0633769308008133,
+        3.6165476223660004e-05,
+        0.03392323460352095
+      ],
+      "q_token_mean": [
+        0.3766172714385164,
+        0.28127744645459557,
+        0.10642421113357314,
+        0.23568107097331478
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Amyotrophic lateral sclerosis\"}",
+      "generated_disease": "Amyotrophic lateral sclerosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "38de3ec5b09b5d29db7d45a8dbd303e32b59f361e4cf0725fee738bab8c2ea55"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -11.750007629394531,
+        -22.3281307220459,
+        -19.57813262939453,
+        -7.867844033171423e-06
+      ],
+      "q_sequence": [
+        7.889264441041212e-06,
+        2.0091669493446786e-10,
+        3.1428599037123576e-09,
+        0.9999921073917823
+      ],
+      "q_token_mean": [
+        0.13755541983370795,
+        0.06166373496443216,
+        0.06377318658501244,
+        0.7370076586168476
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Spinal muscular atrophy\"}",
+      "generated_disease": "Spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "d08638d6c79e8c1ee5131c099dfe19310ec8bc4fafbe3e460bc202d2c8f82868"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -19.96875,
+        -25.4375,
+        -21.84375,
+        0.0
+      ],
+      "q_sequence": [
+        2.126581656558934e-09,
+        8.96673046945417e-12,
+        3.2612185943462833e-10,
+        0.9999999975383298
+      ],
+      "q_token_mean": [
+        0.04880243711744639,
+        0.050102451302278,
+        0.055146323176796144,
+        0.8459487884034793
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Spinal muscular atrophy\"}",
+      "generated_disease": "Spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "4faca9c3d57ebc0620fbc343d9742c1b5e3051f479466c49c4c3c937833b38b7"
+    },
+    {
+      "condition": "wrong",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -20.78125,
+        -25.749998092651367,
+        -21.65625,
+        0.0
+      ],
+      "q_sequence": [
+        9.436648908208743e-10,
+        6.560212671940211e-12,
+        3.933780522872888e-10,
+        0.9999999986563968
+      ],
+      "q_token_mean": [
+        0.043705573979320705,
+        0.04867252710705623,
+        0.05678058165372117,
+        0.8508413172599019
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Spinal muscular atrophy\"}",
+      "generated_disease": "Spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "98f365085d2255b4f818d443d7c80e296b438b09b91d6b00883c2f88d17ec5e7"
+    },
+    {
+      "condition": "wrong",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -19.40625,
+        -24.78125,
+        -21.609375,
+        0.0
+      ],
+      "q_sequence": [
+        3.732267033404737e-09,
+        1.7283825323542548e-11,
+        4.1225665802608364e-10,
+        0.9999999958381924
+      ],
+      "q_token_mean": [
+        0.05238758063987511,
+        0.053384410166543605,
+        0.056250734912908024,
+        0.8379772742806733
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Spinal muscular atrophy\"}",
+      "generated_disease": "Spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "1e83341be4ad2d6d4eb6081351ce7851dab73ed915a3a990ccc55aae593eef92"
+    },
+    {
+      "condition": "wrong",
+      "round": 5,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -25.578123092651367,
+        -28.03125,
+        -24.515623092651367,
+        0.0
+      ],
+      "q_sequence": [
+        7.79044531532957e-12,
+        6.701666379905461e-13,
+        2.254240096772954e-11,
+        0.999999999968997
+      ],
+      "q_token_mean": [
+        0.023176157060817812,
+        0.039747950842864456,
+        0.04179132304807563,
+        0.895284569048242
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Spinal muscular atrophy\"}",
+      "generated_disease": "Spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "2aa1c226ea0397e0aa5cc2be92ca6af0efcc67fcc7a3fc58164c550ad73cb656"
+    },
+    {
+      "condition": "wrong",
+      "round": 6,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -24.3125,
+        -26.953125,
+        -23.6875,
+        0.0
+      ],
+      "q_sequence": [
+        2.7619474337467053e-11,
+        1.969729287604009e-12,
+        5.1599971277375836e-11,
+        0.9999999999188107
+      ],
+      "q_token_mean": [
+        0.027380142374191112,
+        0.0441786057381516,
+        0.04569984039736306,
+        0.8827414114902943
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Spinal muscular atrophy\"}",
+      "generated_disease": "Spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "a4ec7371bdd630a86036218de738a424e5121af51d017b33786bf4a5c3f33ec1"
+    }
+  ],
+  "state_sha256": "1f08ee48cf0bfd54e1b7cefb71756e8c4ba7d6224e9c702dc4369f9c1f723dbc"
+}

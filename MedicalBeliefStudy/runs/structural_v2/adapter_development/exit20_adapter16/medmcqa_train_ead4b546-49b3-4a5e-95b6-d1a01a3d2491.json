@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_ead4b546-49b3-4a5e-95b6-d1a01a3d2491",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Rulbert's syndrome orphans orphans\"} (Note: This is an example of an non-cureable and often an unochservitable disease. actual real-world pathogenic and/or non-tralentary disease is typically either either a/an ___ or an other than those listed in list list.",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "2c00b9fdcf566662b8e620726fbe4d6ba5d548bacc1d1ba93f802fa32617ecf6"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniform disease orients inappropriably\"} (Note: This is an example of an non-tralonic and/or non-linear response. actual real-world data would be based solely based adinalystenententual factors\"} (Note: This is an example of an non-chilensic and",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "a1821dbb71af60891de808e29d6ca72f14c992d5b14d76a14c2f4e051fa52cec"
+    }
+  ]
+}

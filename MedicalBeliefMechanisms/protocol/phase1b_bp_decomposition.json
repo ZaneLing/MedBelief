@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-18",
+  "role": "Post-hoc diagnostic follow-up; BP domain chosen after its errors were observed",
+  "families": 6,
+  "original_decision_trials": 54,
+  "branch_trials": 108,
+  "original_decision_seeds": [
+    20261118,
+    20261119
+  ],
+  "branch_seed": 20261118,
+  "model": "Qwen/Qwen3-4B-MLX-8bit",
+  "thinking": true,
+  "max_tokens": 2048,
+  "branch_outputs_seen": false,
+  "data": {
+    "decomposition_sha256": "6d44a2ed8df689635e3a9a471555eebe1cb4e0d79fb71adfc5743b6a154155d8",
+    "repeat_sha256": "07b6cb4f0df65d387b934bcb0423df08d0a4d0992c381800aeee86ef810e57ca"
+  },
+  "source_sha256": "c798784a30857162bb44c70c8d977899253c02fed501808d073329499fe06ce7",
+  "primary_report": "On all 12 present-but-unusable cases: numeric-content correctness, source-status correctness, decision correctness, and their paired cross-tabulation",
+  "interpretation_limit": "Different questions can redirect attention. Correct isolated answers do not prove those facts were represented or used in the original decision computation.",
+  "stage_status": "Diagnostic follow-up within phase 1B; does not override failed calibration gates or establish an internal causal mechanism",
+  "api_cost_usd": 0
+}

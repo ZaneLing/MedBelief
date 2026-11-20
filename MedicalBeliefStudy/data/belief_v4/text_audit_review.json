@@ -1,0 +1,429 @@
+[
+  {
+    "case_id": "medmcqa_validation_4d1e7661-fffc-42d0-8bed-1e4ecc040fe8",
+    "dataset": "MedMCQA",
+    "cohort": "confirmation",
+    "mechanism_capture": false,
+    "task_only_rounds": [],
+    "missing_material_rounds": [
+      3
+    ],
+    "procedure_without_report_rounds": [],
+    "mixed_task_tail_rounds": [],
+    "strict_keep": false,
+    "sentences": [
+      "A 35 years old female patient present with hearing loss with improvement in hearing in noisy environment.",
+      "On examination Rinne's is negative and weber's is centralized.",
+      "Following is the audiometry repo."
+    ],
+    "diagnostic_question": "What is the most likely diagnosis:"
+  },
+  {
+    "case_id": "medmcqa_train_bca9f2a2-c4cd-4869-81b6-2b96a266bf42",
+    "dataset": "MedMCQA",
+    "cohort": "confirmation",
+    "mechanism_capture": false,
+    "task_only_rounds": [],
+    "missing_material_rounds": [
+      3
+    ],
+    "procedure_without_report_rounds": [],
+    "mixed_task_tail_rounds": [],
+    "strict_keep": false,
+    "sentences": [
+      "A patient presented with pain in his ankle.",
+      "X-ray was done which shows osteolytic lesion with sclerotic rim.",
+      "HPE findings are attached."
+    ],
+    "diagnostic_question": "What is your diagnosis?"
+  },
+  {
+    "case_id": "medmcqa_train_5686faec-d6ca-4667-b30d-19fd67a67d5e",
+    "dataset": "MedMCQA",
+    "cohort": "confirmation",
+    "mechanism_capture": false,
+    "task_only_rounds": [],
+    "missing_material_rounds": [
+      2
+    ],
+    "procedure_without_report_rounds": [],
+    "mixed_task_tail_rounds": [],
+    "strict_keep": false,
+    "sentences": [
+      "A 68-year-old male admitted to ICU for acute exacerbation of COPD develops a sudden onset of palpations.",
+      "The following ECG changes are seen."
+    ],
+    "diagnostic_question": "What is the most likely diagnosis?"
+  },
+  {
+    "case_id": "medmcqa_train_84e40f05-2fd5-419c-85c9-d290ae41b5a9",
+    "dataset": "MedMCQA",
+    "cohort": "confirmation",
+    "mechanism_capture": false,
+    "task_only_rounds": [],
+    "missing_material_rounds": [],
+    "procedure_without_report_rounds": [
+      4
+    ],
+    "mixed_task_tail_rounds": [],
+    "strict_keep": false,
+    "sentences": [
+      "A 55-year-old male presented with complaints of apathy, disinhibition, and compulsive behaviour, loss of empathy, overeating, easy forgetfulness and amnesia.",
+      "There is also a family history of dementia.",
+      "MRI of the brain was ordered.",
+      "A brain biopsy was also taken and HPE examination was done."
+    ],
+    "diagnostic_question": "What is the most likely Diagnosis?"
+  },
+  {
+    "case_id": "medmcqa_train_69db6aba-5604-4d55-8a95-910de4a23ab6",
+    "dataset": "MedMCQA",
+    "cohort": "confirmation",
+    "mechanism_capture": false,
+    "task_only_rounds": [],
+    "missing_material_rounds": [
+      3
+    ],
+    "procedure_without_report_rounds": [],
+    "mixed_task_tail_rounds": [],
+    "strict_keep": false,
+    "sentences": [
+      "A 32 yr old man present to ER with history of high-grade fever, dyspnea and fatigue.",
+      "On physical examination reveals a new holosystolic murmur that is best heard over cardiac apex.",
+      "Skin examination shows following skin lesion."
+    ],
+    "diagnostic_question": "What is most likely diagnosis?"
+  },
+  {
+    "case_id": "medmcqa_train_07dedc7c-dcf0-419d-8879-d3ec067223b0",
+    "dataset": "MedMCQA",
+    "cohort": "confirmation",
+    "mechanism_capture": false,
+    "task_only_rounds": [
+      4
+    ],
+    "missing_material_rounds": [],
+    "procedure_without_report_rounds": [],
+    "mixed_task_tail_rounds": [],
+    "strict_keep": false,
+    "sentences": [
+      "A child 10 yrs of age presents with a mass on his left thigh.",
+      "The mass seems to be arising from diaphysis of femur, and involving the soft tissue of thigh.",
+      "The child is having fever also.",
+      "Give your"
+    ],
+    "diagnostic_question": "most probable diagnosis:"
+  },
+  {
+    "case_id": "medmcqa_train_02c824af-7957-45e6-b6c7-e8f4f66f8d97",
+    "dataset": "MedMCQA",
+    "cohort": "confirmation",
+    "mechanism_capture": false,
+    "task_only_rounds": [],
+    "missing_material_rounds": [],
+    "procedure_without_report_rounds": [
+      3
+    ],
+    "mixed_task_tail_rounds": [],
+    "strict_keep": false,
+    "sentences": [
+      "A 12 year old boy presents with seizures to the casualty.",
+      "On history taking,mother reveals several previous episodes of hospitalization for seizures which were difficult to control with medication.",
+      "CT scan was taken."
+    ],
+    "diagnostic_question": "What is the diagnosis?"
+  },
+  {
+    "case_id": "medmcqa_train_90029c41-78ba-4777-bb83-1cf7f7e045ae",
+    "dataset": "MedMCQA",
+    "cohort": "confirmation",
+    "mechanism_capture": false,
+    "task_only_rounds": [],
+    "missing_material_rounds": [
+      2
+    ],
+    "procedure_without_report_rounds": [],
+    "mixed_task_tail_rounds": [],
+    "strict_keep": false,
+    "sentences": [
+      "A 45-year-old female underwent hysterectomy for dysfunctional uterine bleeding.",
+      "Following are the gross and histological findings."
+    ],
+    "diagnostic_question": "Which of the following is the most likely diagnosis?"
+  },
+  {
+    "case_id": "medqa_train_01811",
+    "dataset": "MedQA",
+    "cohort": "confirmation",
+    "mechanism_capture": false,
+    "task_only_rounds": [],
+    "missing_material_rounds": [],
+    "procedure_without_report_rounds": [],
+    "mixed_task_tail_rounds": [
+      13
+    ],
+    "strict_keep": false,
+    "sentences": [
+      "A 47-year-old presents to the clinic with a 3-day history of severe mid-epigastric abdominal pain radiating to the back.",
+      "The patient has hypertension, diabetes mellitus, and hypertriglyceridemia.",
+      "Prescription medications include enalapril, metformin, sitagliptin, glargine, lispro, and fenofibrate.",
+      "The patient has not had a cigarette in more than 35 years, and reports only having 1 or 2 drinks during special occasions such as weddings and family reunions.",
+      "The blood pressure is 146/90 mm Hg, the heart rate is 88/min, the respiratory rate is 10/min, and the temperature is 37.8°C (100.0°F).",
+      "On physical examination, the patient appears uncomfortable but alert.",
+      "The visualization of the sclera is negative for jaundice.",
+      "The neck is supple and non-tender without nodules.",
+      "There are no heart murmurs.",
+      "The lungs are clear to auscultation bilaterally.",
+      "The palpation of the abdomen elicits pain in the epigastric region.",
+      "The liver is palpable along the costal margin, and the Murphy’s sign is negative.",
+      "The laboratory results are as follows:\nNa+ 138 mEq/L\nK+ 4.2 mEq/L\nCl- 108 mmol/L\nHCO-3 20 mmol/L\nBUN 178 mg/dL\nCr 1.0 mg/dL\nGlucose  154 mg/dL\nLDL 117 mg/dL\nHDL 48 mg/dL\nTG 942 mg/dL\nAST 45 IU/L\nALT 48 IU/L\nGGT 27 IU/L\nAmylase  110 U/L\nLipase 250 U/L\nAccording to the clinical vignette,"
+    ],
+    "diagnostic_question": "which of the following is the most likely diagnosis of the patient?"
+  },
+  {
+    "case_id": "medqa_dev_00997",
+    "dataset": "MedQA",
+    "cohort": "confirmation",
+    "mechanism_capture": true,
+    "task_only_rounds": [
+      9
+    ],
+    "missing_material_rounds": [],
+    "procedure_without_report_rounds": [],
+    "mixed_task_tail_rounds": [],
+    "strict_keep": false,
+    "sentences": [
+      "A 30-year-old woman seeks evaluation at a local walk-in clinic with a week-long history of lightheadedness and palpitations.",
+      "She also complains of fatigability and shortness of breath of the same duration.",
+      "The past medical history is significant for menarche at 9 years of age, heavy menstrual bleeding for the past several years and abdominal pain that worsens during menses.",
+      "She stopped trying to conceive a child after 2 spontaneous abortions in the past 4 years and has been on iron oral supplementation for the last 2 years.",
+      "She adds that she feels a dull pressure-like discomfort in her pelvis and constipation.",
+      "The physical examination is significant for pale mucous membranes and a grade 2/6 ejection systolic murmur in the area of the pulmonic valve.",
+      "Pelvic examination reveals an enlarged, mobile uterus with an irregular contour.",
+      "The hemoglobin level is 10 g/dL and the hematocrit is 27%.",
+      "Based on these findings,"
+    ],
+    "diagnostic_question": "which of the following is the most likely diagnosis?"
+  },
+  {
+    "case_id": "medqa_train_09142",
+    "dataset": "MedQA",
+    "cohort": "confirmation",
+    "mechanism_capture": false,
+    "task_only_rounds": [
+      7
+    ],
+    "missing_material_rounds": [],
+    "procedure_without_report_rounds": [],
+    "mixed_task_tail_rounds": [],
+    "strict_keep": false,
+    "sentences": [
+      "A 63-year-old African American man presents to the emergency department with edema over his face and difficulty breathing.",
+      "Past medical history is significant for hypertension and dyslipidemia.",
+      "He recently began lisinopril and atorvastatin several weeks ago.",
+      "His father died at 80 years from complications of a stroke and his mother lives in a nursing home.",
+      "His blood pressure is 135/92 mm Hg, the heart rate is 101/min, the respiratory rate is 21/min, the temperature is 32.0°C (98.6°F).",
+      "Clinical pathology results suggest a normal C1 esterase inhibitor level.",
+      "Of the following options,"
+    ],
+    "diagnostic_question": "which is the most likely diagnosis?"
+  },
+  {
+    "case_id": "medqa_train_01739",
+    "dataset": "MedQA",
+    "cohort": "confirmation",
+    "mechanism_capture": false,
+    "task_only_rounds": [
+      9
+    ],
+    "missing_material_rounds": [],
+    "procedure_without_report_rounds": [],
+    "mixed_task_tail_rounds": [],
+    "strict_keep": false,
+    "sentences": [
+      "A 51-year-old woman is brought to the emergency department because of an aggressive cough with copious amounts of thick, foamy, yellow-green sputum.",
+      "She says she has had this cough for about 11 years with exacerbations similar to her presentation today.",
+      "She also reports that her cough is worse in the morning.",
+      "She was evaluated multiple times in the past because of recurrent bouts of bronchitis that have required treatment with antibiotics.",
+      "She is a non-smoker.",
+      "On physical examination, the blood pressure is 125/78 mm Hg, pulse rate is 80/min, respiratory rate is 16/min, and temperature is 36.7°C (98.0°F).",
+      "Chest auscultation reveals crackles and wheezing over the right middle lobe and the rest of her physical examinations are normal.",
+      "The chest X-ray shows irregular opacities in the right middle lobe and diffuse airway thickening.",
+      "Based on this history and physical examination,"
+    ],
+    "diagnostic_question": "which of the following is the most likely diagnosis?"
+  },
+  {
+    "case_id": "medqa_dev_01170",
+    "dataset": "MedQA",
+    "cohort": "confirmation",
+    "mechanism_capture": false,
+    "task_only_rounds": [],
+    "missing_material_rounds": [
+      5
+    ],
+    "procedure_without_report_rounds": [],
+    "mixed_task_tail_rounds": [],
+    "strict_keep": false,
+    "sentences": [
+      "A 32-year-old male presents to his primary care physician with complaints of chronic headaches that have developed and increased in frequency and severity over the last several months.",
+      "Additionally, the patient has noted he has been less coordinated over the last few weeks, stumbling and tripping often when he is walking.",
+      "Physical examination is significant for notably reduced hand grip strength bilaterally as well as decreased pain and temperature sensation along the upper back and down both arms to the hands.",
+      "A referral to the appropriate specialist is made, and an MRI of the brain and neck is obtained.",
+      "Results of the MRI are show in Figures A and B."
+    ],
+    "diagnostic_question": "Which of the following is the most likely diagnosis in this patient?"
+  },
+  {
+    "case_id": "medqa_train_06023",
+    "dataset": "MedQA",
+    "cohort": "confirmation",
+    "mechanism_capture": false,
+    "task_only_rounds": [
+      8
+    ],
+    "missing_material_rounds": [],
+    "procedure_without_report_rounds": [],
+    "mixed_task_tail_rounds": [],
+    "strict_keep": false,
+    "sentences": [
+      "A 64-year-old woman presents to an urgent care clinic with edema of her lips and difficulty breathing.",
+      "She reports that she had multiple root canals performed earlier today, and she started to notice swelling of her lips 2 hours ago.",
+      "The symptoms have now progressed to where she is having trouble breathing.",
+      "She notes similar episodes in the past after minor procedures such as this.",
+      "The blood pressure is 118/76 mm Hg, the heart rate is 84/min, and the respiratory rate is 16/min.",
+      "Physical examination is remarkable for edema of her lips and mild inspiratory stridor.",
+      "The laboratory results are remarkable for a low level of C1 esterase inhibitor.",
+      "Of the following options,"
+    ],
+    "diagnostic_question": "which is the most likely diagnosis?"
+  },
+  {
+    "case_id": "medmcqa_train_75daa2bf-49d4-42ce-a351-8be842a580c2",
+    "dataset": "MedMCQA",
+    "cohort": "development",
+    "mechanism_capture": false,
+    "task_only_rounds": [],
+    "missing_material_rounds": [],
+    "procedure_without_report_rounds": [
+      2
+    ],
+    "mixed_task_tail_rounds": [],
+    "strict_keep": false,
+    "sentences": [
+      "A newborn baby was brought with the history multiple episodes of bilious projectile vomiting.",
+      "X-ray abdomen was done."
+    ],
+    "diagnostic_question": "What is the diagnosis?"
+  },
+  {
+    "case_id": "medmcqa_train_d8dd3153-290e-4c1a-a786-d0a1d78e9fca",
+    "dataset": "MedMCQA",
+    "cohort": "development",
+    "mechanism_capture": false,
+    "task_only_rounds": [],
+    "missing_material_rounds": [],
+    "procedure_without_report_rounds": [
+      4
+    ],
+    "mixed_task_tail_rounds": [],
+    "strict_keep": false,
+    "sentences": [
+      "A 20 year old male came to the emergency depament with the complaint of acute onset of pain in the right scrotum.",
+      "On examination, the testes were swollen.",
+      "The transillumination test was negative.",
+      "Ultrasound of scrotum was performed."
+    ],
+    "diagnostic_question": "what could be the probable diagnosis?"
+  },
+  {
+    "case_id": "medmcqa_train_493fcd5d-a3d7-42a1-a531-98cd155e1412",
+    "dataset": "MedMCQA",
+    "cohort": "development",
+    "mechanism_capture": false,
+    "task_only_rounds": [],
+    "missing_material_rounds": [
+      4
+    ],
+    "procedure_without_report_rounds": [],
+    "mixed_task_tail_rounds": [],
+    "strict_keep": false,
+    "sentences": [
+      "A 72-year-old woman presents with bone pain and tenderness in her lower extremities and left clavicle.",
+      "Physical examination reveals tenderness to palpation on her lower legs and left midclavicle.",
+      "Laboratory studies reveal elevated calcium, decreased phosphate, and elevated parathyroid hormone (PTH).",
+      "X-ray reveals the following."
+    ],
+    "diagnostic_question": "Which of the following is the diagnosis?"
+  },
+  {
+    "case_id": "medqa_train_00385",
+    "dataset": "MedQA",
+    "cohort": "development",
+    "mechanism_capture": false,
+    "task_only_rounds": [
+      8
+    ],
+    "missing_material_rounds": [],
+    "procedure_without_report_rounds": [],
+    "mixed_task_tail_rounds": [],
+    "strict_keep": false,
+    "sentences": [
+      "A 71-year-old man presents to the primary care clinic with non-specific complaints of fatigue and malaise.",
+      "His past medical history is significant for diabetes mellitus type II, hypertension, non-seminomatous testicular cancer, and hypercholesterolemia.",
+      "He currently smokes 1 pack of cigarettes per day, drinks a glass of wine per day, and he currently denies any illicit drug use.",
+      "His vital signs include: temperature, 36.7°C (98.0°F); blood pressure, 126/74 mm Hg; heart rate, 87/min; and respiratory rate, 17/min.",
+      "On examination, his physician notices cervical and inguinal lymphadenopathy bilaterally, as well as splenomegaly.",
+      "The patient comments that he has lost 18.1 kg (40 lb) over the past 6 months without a change in diet or exercise, which he was initially not concerned about.",
+      "The physician orders a complete blood count and adds on flow cytometry.",
+      "Based on his age and overall epidemiology,"
+    ],
+    "diagnostic_question": "which of the following is the most likely diagnosis?"
+  },
+  {
+    "case_id": "medqa_train_08593",
+    "dataset": "MedQA",
+    "cohort": "development",
+    "mechanism_capture": true,
+    "task_only_rounds": [
+      7
+    ],
+    "missing_material_rounds": [],
+    "procedure_without_report_rounds": [],
+    "mixed_task_tail_rounds": [],
+    "strict_keep": false,
+    "sentences": [
+      "A 52-year-old woman presents to the urgent care center with several hours of worsening abdominal discomfort that radiates to the back.",
+      "The patient also complains of malaise, chills, nausea, and vomiting.",
+      "Social history is notable for alcoholism.",
+      "On physical exam, she is febrile to 39.5°C (103.1℉), and she is diffusely tender on abdominal palpation.",
+      "Other vital signs include a blood pressure of 126/74 mm Hg, heart rate of 74/min, and respiratory rate of 14/min.",
+      "Complete blood count is notable for 13,500 white blood cells (WBCs), and her complete metabolic panel shows bilirubin of 2.1 and amylase of 3210.",
+      "Given the following options,"
+    ],
+    "diagnostic_question": "what is the most likely diagnosis?"
+  },
+  {
+    "case_id": "medqa_train_00556",
+    "dataset": "MedQA",
+    "cohort": "development",
+    "mechanism_capture": false,
+    "task_only_rounds": [],
+    "missing_material_rounds": [
+      7
+    ],
+    "procedure_without_report_rounds": [],
+    "mixed_task_tail_rounds": [],
+    "strict_keep": false,
+    "sentences": [
+      "A 6-year-old boy is brought in by his mother to his pediatrician for headache and nausea.",
+      "His headaches began approximately 3 weeks ago and occur in the morning.",
+      "Throughout the 3 weeks, his nausea has progressively worsened, and he had 2 episodes of emesis 1 day ago.",
+      "On physical exam, cranial nerves are grossly intact, and his visual field is intact.",
+      "The patient has a broad-based gait and difficulty with heel-to-toe walking, as well as head titubation.",
+      "Fundoscopy demonstrates papilledema.",
+      "A T1 and T2 MRI of the brain is demonstrated in Figures A and B, respectively."
+    ],
+    "diagnostic_question": "Which of the following is most likely the diagnosis?"
+  }
+]

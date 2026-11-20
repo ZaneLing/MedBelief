@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_27f22bd6-be02-4c94-bbd5-deb82ef5a018",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "C\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "6b94c1c2542818d3542049eefb30cb01a99dfa67fbfd17ccded02c345b6e9836"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocal\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "b406cfc497bf067f1e2b490d7248bf7b30245a57c49dfb02cade74431aa5caaf"
+    }
+  ]
+}

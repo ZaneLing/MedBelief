@@ -1,0 +1,12 @@
+{
+  "date_local": "2026-11-19",
+  "stage": "Exploratory mechanism audit followed by frozen official-validation replication",
+  "motivation": "Conventional classifiers on DDXPlus are not novel. Identify which features of the published generator support explain disease-label identifiability.",
+  "initial_observation": "Official test, all 134529: true disease compatible with all observed evidence IDs in release_conditions.json in 100%; unique compatible disease in 124397 (92.4685%). This observation preceded this protocol.",
+  "rule": "Candidate set C(E) = intersection over recorded evidence e of {d: e in symptoms(d) union antecedents(d)}. No patient training labels, answer values, likelihoods, age, sex, or differential scores used in this rule.",
+  "frozen_replication": "Apply the exact rule to all official validate.csv rows, including separately excluding previously analyzed validation IDs and exact fact sets occurring in test or sampled training. No threshold tuning.",
+  "audits": ["minimum certificates of size at most 3, counted exactly", "selective accuracy and coverage, not tie-breaking accuracy", "metadata-consistency audit in all official train/validate/test rows", "reference differential probability mass outside the hard generator-compatible set", "exact support-compatible vs incompatible candidates in source differential", "all-binary versus symptoms-only versus antecedents-only rules", "background-feature addition as explicitly artificial out-of-support stress, not a clinical counterfactual"],
+  "interpretation": "The metadata is diagnostic knowledge and part of the generator; no patient training does not mean no prior knowledge. A disease-evidence edge absent from the catalog is treated as impossible ONLY for the simulator audit, not as clinical impossibility. Reference differentials are rule-based outputs, not guaranteed generator posteriors. Their disagreement does not establish that their clinical judgment is wrong.",
+  "success_criterion": "Reproducible support-based identifiability on official validation, short certificates, explicit limits, and novelty comparison. No promise of major discovery.",
+  "compute": "Local CPU only."
+}

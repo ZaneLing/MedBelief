@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_01164",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "contrast21_full",
+    "contrast_layer": 21,
+    "contrast_strength": 1.0,
+    "plausibility": 0.1
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Visual hallucination\"}",
+      "generated_disease": "Visual hallucination",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "cf8e594d17a82a8b3bdd1100221c0e59b6e998cf11e1c23a0cf13f4ee9681877"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Visual hallucination\"}",
+      "generated_disease": "Visual hallucination",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "533c69e70eeb627795a373a1e010b2c412f6f9d6bd7ed8a3eef0a9fca4d4c46c"
+    }
+  ]
+}

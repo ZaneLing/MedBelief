@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_train_07049",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Neurogenic shock\"}",
+      "generated_disease": "Neurogenic shock",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "e82d4be5b61d60fa86026bc0ab00c70cd11c6fdf6f697ebdab6c16c985f450ee"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Hypovolemic shock\"}",
+      "generated_disease": "Hypovolemic shock",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "c643f98b254e84a2c2371522f27a329a7f21af0fcfbb2b8fafa4a42a3022bd43"
+    }
+  ]
+}

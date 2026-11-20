@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_919c809f-b24a-47e5-b777-054fe3a89c4a",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Pseudotumor\"}",
+      "generated_disease": "Pseudotumor",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "437d618bbc8211a1365a625152c3e695f536353bf86af48a5e4a681018975a66"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Pseudotumor\"}",
+      "generated_disease": "Pseudotumor",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "7a5678d642c118672f83f427869be41a02c67236daca9559ec8c48ce74dbf433"
+    }
+  ]
+}

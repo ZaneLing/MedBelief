@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_6f459b4f-60cf-4519-8f10-a25ade2b100c",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Complete Androgen Insensitivity Syndrome\"}",
+      "generated_disease": "Complete Androgen Insensitivity Syndrome",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "578806383c626b3a5c73b0d9e21b04dea53a4ea466f6c9c1c03ff0948a11eaaf"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Turner's Syndrome\"}",
+      "generated_disease": "Turner's Syndrome",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "a9c495b4b759166518ef017911fcdcc33c49acc4c20e93b1d296012b52eb6adf"
+    }
+  ]
+}

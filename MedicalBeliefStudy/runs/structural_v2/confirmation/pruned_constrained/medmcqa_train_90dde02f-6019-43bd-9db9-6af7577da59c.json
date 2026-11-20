@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_90dde02f-6019-43bd-9db9-6af7577da59c",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Pancreatic carcinoma\"}",
+      "generated_disease": "Pancreatic carcinoma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "2168e5b999e7dec0d1b5056441614afd30e92b8619b1e775630ef4bd3cf03fa9"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Pancreatic carcinoma\"}",
+      "generated_disease": "Pancreatic carcinoma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "16f24c76ab09cd29e43c7464ab02e1169300cd7c50c0586d15ca4be4c33a0124"
+    }
+  ]
+}

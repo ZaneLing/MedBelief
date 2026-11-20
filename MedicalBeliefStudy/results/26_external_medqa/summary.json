@@ -1,0 +1,151 @@
+{
+  "patients": 87,
+  "unique_answers": 84,
+  "prefixes": 693,
+  "updates": 606,
+  "native4_accuracy": {
+    "mean": 0.5172413793103449,
+    "low": 0.41379310344827586,
+    "high": 0.6206896551724138,
+    "cases": 87
+  },
+  "switch_events": 107,
+  "big_events": 101,
+  "patterns": {
+    "stable_other": 15,
+    "stable_gold": 16,
+    "acquired_gold": 21,
+    "switching_other": 15,
+    "lost_gold": 12,
+    "recovered_gold": 8
+  },
+  "any_switch": {
+    "mean": 0.6436781609195402,
+    "low": 0.5402298850574713,
+    "high": 0.7471264367816092,
+    "cases": 87
+  },
+  "any_big": {
+    "mean": 0.6436781609195402,
+    "low": 0.5402298850574713,
+    "high": 0.7471264367816092,
+    "cases": 87
+  },
+  "regression": {
+    "mean": 0.22988505747126436,
+    "low": 0.13793103448275862,
+    "high": 0.3218390804597701,
+    "cases": 87
+  },
+  "max_step_share": {
+    "mean": 0.5880241244895865,
+    "low": 0.5343640122613801,
+    "high": 0.6417548134293666,
+    "cases": 87
+  },
+  "gold_decrease_rate": {
+    "mean": 0.22471781092470747,
+    "low": 0.18593624048365429,
+    "high": 0.2641444251789078,
+    "cases": 87
+  },
+  "controls": {
+    "reverse": {
+      "switched": {
+        "mean": 0.26436781609195403,
+        "low": 0.1724137931034483,
+        "high": 0.3563218390804598,
+        "cases": 87
+      },
+      "correct_after": {
+        "mean": 0.5287356321839081,
+        "low": 0.42528735632183906,
+        "high": 0.632183908045977,
+        "cases": 87
+      },
+      "paired_accuracy_change": {
+        "mean": 0.011494252873563218,
+        "low": -0.09195402298850575,
+        "high": 0.11494252873563218,
+        "cases": 87
+      }
+    },
+    "shuffle": {
+      "switched": {
+        "mean": 0.14942528735632185,
+        "low": 0.08045977011494253,
+        "high": 0.22988505747126436,
+        "cases": 87
+      },
+      "correct_after": {
+        "mean": 0.5172413793103449,
+        "low": 0.4135057471264368,
+        "high": 0.6206896551724138,
+        "cases": 87
+      },
+      "paired_accuracy_change": {
+        "mean": 0.0,
+        "low": -0.08045977011494253,
+        "high": 0.08045977011494253,
+        "cases": 87
+      }
+    },
+    "wrong_history": {
+      "switched": {
+        "mean": 0.40229885057471265,
+        "low": 0.2988505747126437,
+        "high": 0.5057471264367817,
+        "cases": 87
+      },
+      "correct_after": {
+        "mean": 0.3448275862068966,
+        "low": 0.25287356321839083,
+        "high": 0.4482758620689655,
+        "cases": 87
+      },
+      "paired_accuracy_change": {
+        "mean": -0.1724137931034483,
+        "low": -0.27586206896551724,
+        "high": -0.06896551724137931,
+        "cases": 87
+      }
+    }
+  },
+  "api_cost_usd": 0,
+  "wrong_history": {
+    "prior_endorsed_before": {
+      "mean": 0.16091954022988506,
+      "low": 0.09195402298850575,
+      "high": 0.2413793103448276,
+      "cases": 87
+    },
+    "prior_endorsed_after": {
+      "mean": 0.42528735632183906,
+      "low": 0.3218390804597701,
+      "high": 0.5287356321839081,
+      "cases": 87
+    },
+    "prior_vs_gold_margin_gain": {
+      "mean": 14.01533359776022,
+      "low": 11.651827473145147,
+      "high": 16.425947582241793,
+      "cases": 87
+    }
+  },
+  "checks": {
+    "greedy_exact_label": {
+      "mean": 0.5172413793103449,
+      "low": 0.41379310344827586,
+      "high": 0.6206896551724138,
+      "cases": 87
+    },
+    "greedy_listed": 86,
+    "canonical_mass_median": 0.9997751019214605,
+    "sequence_tokenmean_agreement": {
+      "mean": 0.9885057471264368,
+      "low": 0.9540229885057471,
+      "high": 1.0,
+      "cases": 87
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_04857",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniform polyiform stress disorder\"}",
+      "generated_disease": "Chronic veniform polyiform stress disorder",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "c208c6f46173e7196a574a911a319a37f9ccfa51dcb7ee30ba1ce9e0fa52127d"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chilisburgianismualserventodenture\"}\"}\"}\"}า\"}า\"}า\"}า\"}า冲Giemotarisheemenserviceraenemensigensesparacovemememememememmeakingenemensigensesparw",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "edfb2d717f132744b8b597f6e994897ad0bdf16124bd0334feb24218bb1e3dfc"
+    }
+  ]
+}

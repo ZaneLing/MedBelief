@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_0464a995-a550-4eda-80ae-03865bac3062",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Potter syndrome\"}",
+      "generated_disease": "Potter syndrome",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "e3ceee56059636a51c2d68e6a6e07280946f1461aa8a4522b9cefb545240ecd4"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_66f993dd-24e9-4c00-849e-0231b57d182f",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Tymothy'slipseydularia\"} (Note: correct correct is \"Pelaraparuccetetararum or \"Schellsberg's disease or \"Tr colensricus or \"Tr pneauturacovemoris or \"Tr pemetabovemem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "d047f291b38dfbefc3ff0a226a92a9112826004daa43d765c6146f639adb27a6"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Hemototososystic肠wystanegonemotemphilenseserventotemensesparacovememememememppertentotemensesparlinezemaosarapememememememhemilensesparlinee",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "79eb11db8c7799cefceaa6480efd44ef0af4ce8299755376ff55fb41f1897f95"
+    }
+  ]
+}

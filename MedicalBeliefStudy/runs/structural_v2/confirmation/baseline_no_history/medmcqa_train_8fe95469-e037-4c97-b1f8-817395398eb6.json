@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_8fe95469-e037-4c97-b1f8-817395398eb6",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": false,
+      "text": "carpal tunnel syndrome\"}",
+      "generated_disease": "carpal tunnel syndrome",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "99d951936cde99ecb4a1d17e62691e5f02c1d9dabaca27164e240e894ee9ad23"
+    }
+  ]
+}

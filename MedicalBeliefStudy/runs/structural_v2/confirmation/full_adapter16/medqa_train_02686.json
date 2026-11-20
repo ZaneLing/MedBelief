@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_02686",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Leukocytoclastic vasculitis\"}",
+      "generated_disease": "Leukocytoclastic vasculitis",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "063a7095abb680bf98590eea2cde1145eb025b92820178f860c93c8519021ea2"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Familial Mediterranean fever\"}",
+      "generated_disease": "Familial Mediterranean fever",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "3cfbd153c6ffbcf0dec600aee5266323918b122641f266c35f9bfc13cefb878a"
+    }
+  ]
+}

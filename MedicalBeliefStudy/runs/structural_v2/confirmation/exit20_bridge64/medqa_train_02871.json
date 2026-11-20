@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_02871",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pustus\"}",
+      "generated_disease": "Pustus",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "118e22f003c29f43f87edee9ee210a00a63643604898368a2e744a10975075fa"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pervonic\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "f0b389ff64410c7c4f3aea69a5fd6c211a9535ce617962dfe882c73496bc3f37"
+    }
+  ]
+}

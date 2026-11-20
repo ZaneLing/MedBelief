@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_03964",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Dhemming Syndrome aka Traditional意义上的的uroalfective disorder orphans orphans etceteresbutchers etceteresbutchers etceteresbutchers etceteresbutleringalegegegebirdongateawaybodemontoschellservsincodomainentrickingservs",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "0b48661f708e7f7458c239c40c16ce96798439c56807ca148cbd8a30d6ccf0d3"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "none",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 1,
+      "prompt_sha256": "af8c51e741b8527654d9933226114d5b9fd48507ae7dc6ed60631c342776d4c2"
+    }
+  ]
+}

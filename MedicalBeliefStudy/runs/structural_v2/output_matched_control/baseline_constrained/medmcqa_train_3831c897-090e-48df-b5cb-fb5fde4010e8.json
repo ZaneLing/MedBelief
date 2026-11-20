@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_3831c897-090e-48df-b5cb-fb5fde4010e8",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Cervical tear\"}",
+      "generated_disease": "Cervical tear",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "d0e526aa2cc9d7f281309ec813f30bd864956ebc686f668bff2bce435dfaecd9"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Uterine inversion\"}",
+      "generated_disease": "Uterine inversion",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "3b0c88c7f276b1e280ee2e0f6eb76e5fecdec2632794591a5bf418d0e27023d5"
+    }
+  ]
+}

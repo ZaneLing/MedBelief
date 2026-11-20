@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_8e68b9dc-53d8-4c22-b6e0-b8a6a5d9adae",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": false,
+      "text": "functional pituitary tumor\"}",
+      "generated_disease": "functional pituitary tumor",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "01f73e189b5722fa69313fa0477db04636c9a2992c15355a9ee00264be20b381"
+    }
+  ]
+}

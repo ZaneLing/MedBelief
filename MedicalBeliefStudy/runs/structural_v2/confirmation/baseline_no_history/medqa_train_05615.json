@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_05615",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Anal fissure\"}",
+      "generated_disease": "Anal fissure",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "1a9028a4f00e87e1df0a81f26d54d03d81c19583a74097a265b7bf0ec66452e5"
+    }
+  ]
+}

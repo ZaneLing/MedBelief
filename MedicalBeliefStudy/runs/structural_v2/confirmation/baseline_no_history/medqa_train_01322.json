@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_01322",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Bipolar II disorder\"}",
+      "generated_disease": "Bipolar II disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ca22ab19c7190345e509a19dd006388707bacabb1e8bc7e1156cfcced97dfdf7"
+    }
+  ]
+}

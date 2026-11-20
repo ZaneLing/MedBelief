@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_dev_00944",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Acute myomomosis\"}",
+      "generated_disease": "Acute myomomosis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "68df3f55f41d8a6b29918b8d53da2bd913a7a91563d175544739b825b11c2d0f"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocic\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "cb3ec92933604d5a20613a87f66abc2efe659fbd3dc29f595d1393deb9c499a2"
+    }
+  ]
+}

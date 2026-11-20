@@ -1,0 +1,897 @@
+[
+  {
+    "job_id": "ddx_validate_0000158_base_t02_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0000158_base_t02_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0000158_base_t02_m16",
+    "layer": 26,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0000493_base_t04_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0000493_base_t04_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0003461_base_t04_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0006948_base_t05_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0009762_base_t02_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0009762_base_t02_m16",
+    "layer": 26,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0012096_base_t02_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0012096_base_t02_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0012096_base_t02_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.015625
+  },
+  {
+    "job_id": "ddx_validate_0015515_base_t05_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0015515_base_t05_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0019040_base_t03_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0020236_base_t04_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0020236_base_t04_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0020236_base_t04_m16",
+    "layer": 26,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0021109_base_t03_m16",
+    "layer": 26,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0021192_base_t04_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0021192_base_t04_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0021192_base_t04_m16",
+    "layer": 26,
+    "sham_max_candidate_logit_error": 0.0078125
+  },
+  {
+    "job_id": "ddx_validate_0023085_base_t04_m0",
+    "layer": 26,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0023085_base_t04_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0023832_base_t03_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0025047_base_t03_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0025441_base_t06_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0026553_base_t04_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0026553_base_t04_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0027808_base_t05_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0028753_base_t04_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0028753_base_t04_m16",
+    "layer": 27,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0028906_base_t05_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0028906_base_t05_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0029473_base_t02_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0029473_base_t02_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0029894_base_t03_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0030486_base_t05_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0030486_base_t05_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0030584_base_t02_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0030923_base_t03_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0033029_base_t02_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.0625
+  },
+  {
+    "job_id": "ddx_validate_0033029_base_t02_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0033029_base_t02_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0033029_base_t02_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0033053_base_t03_m0",
+    "layer": 26,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0033053_base_t03_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0033053_base_t03_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0033201_base_t03_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0034056_base_t09_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0034056_base_t09_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0034056_base_t09_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.0078125
+  },
+  {
+    "job_id": "ddx_validate_0034056_base_t09_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0034056_base_t09_m16",
+    "layer": 26,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0034224_base_t03_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0034224_base_t03_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0034224_base_t03_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0034224_base_t03_m16",
+    "layer": 26,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0036829_base_t02_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0036829_base_t02_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0038557_base_t03_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0038557_base_t03_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0040845_base_t03_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0041143_base_t08_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0041143_base_t08_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0041143_base_t08_m16",
+    "layer": 26,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0045404_base_t05_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0045863_base_t02_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0047981_base_t03_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0047981_base_t03_m16",
+    "layer": 26,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0049553_base_t04_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0049553_base_t04_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0050137_base_t02_m0",
+    "layer": 26,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0050715_base_t04_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0050715_base_t04_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0050715_base_t04_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0053764_base_t02_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0057343_base_t04_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0057343_base_t04_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0059593_base_t04_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0063373_base_t03_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0065214_base_t03_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0065214_base_t03_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0065214_base_t03_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0065298_base_t03_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0065298_base_t03_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0065298_base_t03_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0067166_base_t03_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.015625
+  },
+  {
+    "job_id": "ddx_validate_0067205_base_t06_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0067205_base_t06_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0067205_base_t06_m0",
+    "layer": 26,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0067205_base_t06_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0068506_base_t05_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0068506_base_t05_m0",
+    "layer": 26,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0068506_base_t05_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0070577_base_t05_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0070577_base_t05_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0070577_base_t05_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0071951_base_t05_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0071951_base_t05_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0071951_base_t05_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.015625
+  },
+  {
+    "job_id": "ddx_validate_0075316_base_t04_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0077267_base_t02_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0077267_base_t02_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0077267_base_t02_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0077267_base_t02_m16",
+    "layer": 26,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0078024_base_t03_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0081090_base_t05_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0081090_base_t05_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0081564_base_t02_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0081564_base_t02_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0081564_base_t02_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0081564_base_t02_m16",
+    "layer": 26,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0081578_base_t04_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0082663_base_t05_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0082663_base_t05_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0082663_base_t05_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0083075_base_t03_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0083075_base_t03_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0083075_base_t03_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0083075_base_t03_m16",
+    "layer": 26,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0083659_base_t05_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0083659_base_t05_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0084369_base_t06_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0084369_base_t06_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0084369_base_t06_m0",
+    "layer": 27,
+    "sham_max_candidate_logit_error": 0.0078125
+  },
+  {
+    "job_id": "ddx_validate_0085022_base_t07_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0086034_base_t03_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0086034_base_t03_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0086034_base_t03_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0087478_base_t05_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0087478_base_t05_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0087478_base_t05_m16",
+    "layer": 26,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0088111_base_t06_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0088111_base_t06_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0088111_base_t06_m0",
+    "layer": 26,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0090190_base_t03_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0090190_base_t03_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0090634_base_t03_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0093737_base_t04_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0093737_base_t04_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0093786_base_t04_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0097758_base_t07_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0097758_base_t07_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0097758_base_t07_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0100269_base_t03_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.015625
+  },
+  {
+    "job_id": "ddx_validate_0100269_base_t03_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0101020_base_t05_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0102920_base_t05_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0102920_base_t05_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0103610_base_t04_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0103610_base_t04_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0103610_base_t04_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0107936_base_t04_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0108204_base_t02_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0109023_base_t05_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0109180_base_t04_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0109180_base_t04_m0",
+    "layer": 26,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0109180_base_t04_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0109614_base_t04_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0109614_base_t04_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0114238_base_t02_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0114238_base_t02_m16",
+    "layer": 26,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0118339_base_t04_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0121215_base_t02_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0121215_base_t02_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0124659_base_t03_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0124659_base_t03_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0124659_base_t03_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0130132_base_t03_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0130132_base_t03_m0",
+    "layer": 26,
+    "sham_max_candidate_logit_error": 0.015625
+  },
+  {
+    "job_id": "ddx_validate_0130308_base_t03_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0130308_base_t03_m16",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0130916_base_t06_m16",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0130916_base_t06_m16",
+    "layer": 26,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0131355_base_t04_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0131506_base_t04_m0",
+    "layer": 24,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0131506_base_t04_m0",
+    "layer": 25,
+    "sham_max_candidate_logit_error": 0.03125
+  },
+  {
+    "job_id": "ddx_validate_0132222_base_t04_m0",
+    "layer": 26,
+    "sham_max_candidate_logit_error": 0.03125
+  }
+]

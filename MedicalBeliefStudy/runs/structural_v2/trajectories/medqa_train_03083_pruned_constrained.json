@@ -1,0 +1,646 @@
+{
+  "case_id": "medqa_train_03083",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -6.024791717529297,
+        -14.931041717529297,
+        -0.7435416579246521,
+        -0.6497915983200073
+      ],
+      "q_sequence": [
+        0.002418054920748257,
+        3.2774111827577654e-07,
+        0.4754270842660355,
+        0.5221545330720979
+      ],
+      "q_token_mean": [
+        0.17898858838825094,
+        0.0501491027647571,
+        0.3806142313395593,
+        0.3902480775074327
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Juvenile dermatomyositis\"}",
+      "generated_disease": "Juvenile dermatomyositis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "6f11f6f1610fe31470decd6ead42d753d53913ebf8573b75f0db13d1ba68cb4c"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -11.035344123840332,
+        -22.81659507751465,
+        -5.50409460067749,
+        -0.0040945676155388355
+      ],
+      "q_sequence": [
+        1.6121703967085536e-05,
+        1.2327603660238883e-10,
+        0.0040700719638221885,
+        0.9959138062089347
+      ],
+      "q_token_mean": [
+        0.12158041785543311,
+        0.022590739567733595,
+        0.26793768169969495,
+        0.5878911608771384
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Juvenile dermatomyositis\"}",
+      "generated_disease": "Juvenile dermatomyositis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "fb6ea58a6fa6345e096b76a9fe40c2e7a74f945bb9566709e1e9dc27599da199"
+    },
+    {
+      "condition": "neutral",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -7.991626739501953,
+        -20.819751739501953,
+        -3.804126739501953,
+        -0.02287660911679268
+      ],
+      "q_sequence": [
+        0.00033828333514470093,
+        9.080226942482106e-10,
+        0.02227864363374957,
+        0.977383072123083
+      ],
+      "q_token_mean": [
+        0.16388366278700034,
+        0.02622118094393272,
+        0.29808273689696546,
+        0.5118124193721014
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Juvenile dermatomyositis\"}",
+      "generated_disease": "Juvenile dermatomyositis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "730f9ac523ff5a5afaa1bc25cf3a9ae799e26d99f707958424bdac6e70bac22d"
+    },
+    {
+      "condition": "neutral",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -1.2367461919784546,
+        -18.924245834350586,
+        -2.892996311187744,
+        -0.4242461919784546
+      ],
+      "q_sequence": [
+        0.29032732771905484,
+        6.043721220362647e-09,
+        0.05540993354368431,
+        0.6542627326935396
+      ],
+      "q_token_mean": [
+        0.3332407583621198,
+        0.02663109621471106,
+        0.26302736256594056,
+        0.37710078285722853
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Juvenile dermatomyositis\"}",
+      "generated_disease": "Juvenile dermatomyositis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "ac65c233d100047dca9d0c1932865bb75a8b5b5804a53cf85fb0405b9a80b18f"
+    },
+    {
+      "condition": "neutral",
+      "round": 5,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -5.582459926605225,
+        -19.473085403442383,
+        -1.4574602842330933,
+        -0.2699602246284485
+      ],
+      "q_sequence": [
+        0.0037632966996681105,
+        3.4909727985271715e-09,
+        0.23282683910222454,
+        0.7634098607071345
+      ],
+      "q_token_mean": [
+        0.19659980987602815,
+        0.027025886677982728,
+        0.3544105205619047,
+        0.4219637828840845
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Juvenile dermatomyositis\"}",
+      "generated_disease": "Juvenile dermatomyositis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "2918f18633b64193620475911256f38e9455781ff7d01e2d9f1cff825b687454"
+    },
+    {
+      "condition": "neutral",
+      "round": 6,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -3.839975118637085,
+        -18.027475357055664,
+        -0.02747516892850399,
+        -5.183725357055664
+      ],
+      "q_sequence": [
+        0.021494134628235847,
+        1.481722580161095e-08,
+        0.9728987718632981,
+        0.005607078691240127
+      ],
+      "q_token_mean": [
+        0.2658773036533339,
+        0.035031553697291606,
+        0.4583704902870273,
+        0.24072065236234735
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Myotonic dystrophy\"}",
+      "generated_disease": "Myotonic dystrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ca47ee22a77d9895ec27fdaf28778c86357efc0c79423ad7dc99849ba12f5a12"
+    },
+    {
+      "condition": "neutral",
+      "round": 7,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.35800638794898987,
+        -17.498632431030273,
+        -1.201756477355957,
+        -8.233006477355957
+      ],
+      "q_sequence": [
+        0.6990686050632553,
+        2.5144354539166558e-08,
+        0.30066563359582676,
+        0.00026573619656328646
+      ],
+      "q_token_mean": [
+        0.425726867755629,
+        0.03678672777524791,
+        0.3773836306849138,
+        0.1601027737842093
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Spinal muscular atrophy\"}",
+      "generated_disease": "Spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "3f038d4afc8b3cfaab8a24735c9e1bddc8a30ad3b679cbd29f986c68cf0efeda"
+    },
+    {
+      "condition": "neutral",
+      "round": 8,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.08894643187522888,
+        -18.151447296142578,
+        -2.4639463424682617,
+        -11.870195388793945
+      ],
+      "q_sequence": [
+        0.9148945355592956,
+        1.3089606137298383e-08,
+        0.08509845551506956,
+        6.995836028663504e-06
+      ],
+      "q_token_mean": [
+        0.4956123532080498,
+        0.03754111787243607,
+        0.3530142321033758,
+        0.11383229681613827
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Spinal muscular atrophy\"}",
+      "generated_disease": "Spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "cc6369e4b28368330d75342388ec0a5cb5350f4649505f31478607b852b2a6e8"
+    },
+    {
+      "condition": "neutral",
+      "round": 9,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.010719326324760914,
+        -18.370094299316406,
+        -4.541969299316406,
+        -11.541970252990723
+      ],
+      "q_sequence": [
+        0.9893378682153551,
+        1.0518877334446271e-08,
+        0.010652407536708841,
+        9.713729058723465e-06
+      ],
+      "q_token_mean": [
+        0.5456467017290555,
+        0.039614842022629354,
+        0.28561657804694884,
+        0.12912187820136628
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Spinal muscular atrophy\"}",
+      "generated_disease": "Spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "7cc72137861157dd5446a83b13ef6205b680e0cee81e3d9737d80077f6e05c1f"
+    },
+    {
+      "condition": "neutral",
+      "round": 10,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.027135755866765976,
+        -18.527135848999023,
+        -3.6208858489990234,
+        -11.339635848999023
+      ],
+      "q_sequence": [
+        0.9732291366096049,
+        8.990154321720923e-09,
+        0.026758962295232204,
+        1.1892105008599629e-05
+      ],
+      "q_token_mean": [
+        0.5227690461876286,
+        0.03719902741146338,
+        0.3128572142021063,
+        0.1271747121988016
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Spinal muscular atrophy\"}",
+      "generated_disease": "Spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "256242bc1dc6d66c1c91257fb0dd89411d8545e681f333161ce81cef47ea4d8d"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.05489620938897133,
+        -22.008020401000977,
+        -2.929896116256714,
+        -11.179896354675293
+      ],
+      "q_sequence": [
+        0.9465834584270488,
+        2.7671851216407037e-10,
+        0.05340258941609189,
+        1.3951880140633632e-05
+      ],
+      "q_token_mean": [
+        0.5113024690744207,
+        0.022215733015963957,
+        0.3390837268275871,
+        0.12739807108202833
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Spinal muscular atrophy\"}",
+      "generated_disease": "Spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "51a9690a0bb1647858e686fa36e16e86b05f63d6a7816ff50729079532afacea"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.0011254323180764914,
+        -25.797998428344727,
+        -6.969875335693359,
+        -8.59487533569336
+      ],
+      "q_sequence": [
+        0.998875178269037,
+        6.25275811674689e-12,
+        0.0009397700331715681,
+        0.00018505169153851448
+      ],
+      "q_token_mean": [
+        0.5759747354470579,
+        0.014451471261812837,
+        0.21283731556231697,
+        0.1967364777288122
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Spinal muscular atrophy\"}",
+      "generated_disease": "Spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "2f60662fc219f8d6d70b38e9615d65d73c5264bd8d6664724f1f51cd8dfe7b4b"
+    },
+    {
+      "condition": "wrong",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.039952293038368225,
+        -24.180578231811523,
+        -3.258702039718628,
+        -7.227452278137207
+      ],
+      "q_sequence": [
+        0.9608353700796701,
+        3.1514349488320045e-11,
+        0.03843826072395761,
+        0.0007263691648580856
+      ],
+      "q_token_mean": [
+        0.4829329970541326,
+        0.015351559626104898,
+        0.30492215947290185,
+        0.1967932838468605
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Spinal muscular atrophy\"}",
+      "generated_disease": "Spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "4ab14a5d8d50027fb1fd5ecdd95966e7043cc9e1ac9fa42289d8308d8f5fb4d7"
+    },
+    {
+      "condition": "wrong",
+      "round": 4,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -1.5264317989349365,
+        -22.917057037353516,
+        -0.24518164992332458,
+        -8.9639310836792
+      ],
+      "q_sequence": [
+        0.21730968901415648,
+        1.1149325245700766e-10,
+        0.7825623685631347,
+        0.00012794231121557466
+      ],
+      "q_token_mean": [
+        0.3768571702526027,
+        0.017744270080287495,
+        0.45255169173299387,
+        0.15284686793411598
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Myotonic dystrophy\"}",
+      "generated_disease": "Myotonic dystrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "59f42c20c9882902b600dfc051db56cfaecca804e8f02c10a0f9c4702c427fea"
+    },
+    {
+      "condition": "wrong",
+      "round": 5,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -2.550481081008911,
+        -22.86298179626465,
+        -0.08173087239265442,
+        -7.737980365753174
+      ],
+      "q_sequence": [
+        0.07804411185975062,
+        1.1768826718033574e-10,
+        0.921519936871712,
+        0.00043595115084914835
+      ],
+      "q_token_mean": [
+        0.3305757839606366,
+        0.018156890262919965,
+        0.47036760870926164,
+        0.18089971706718186
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Myotonic dystrophy\"}",
+      "generated_disease": "Myotonic dystrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "5c0574ed9b710523bc7babe56c171f6031393d43a2cadac56c7279fc4a155114"
+    },
+    {
+      "condition": "wrong",
+      "round": 6,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -14.156250953674316,
+        -24.984376907348633,
+        -9.536747711536009e-07,
+        -15.437500953674316
+      ],
+      "q_sequence": [
+        7.112435580551637e-07,
+        1.410662088509857e-11,
+        0.9999990912371323,
+        1.9750520297740861e-07
+      ],
+      "q_token_mean": [
+        0.10136007708756054,
+        0.0215808028011996,
+        0.7658610260262321,
+        0.1111980940850077
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Myotonic dystrophy\"}",
+      "generated_disease": "Myotonic dystrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "7ae555defbe04d4461cd66493655b7cd00fd929c6928133bceb4522774811ca9"
+    },
+    {
+      "condition": "wrong",
+      "round": 7,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -14.843750953674316,
+        -24.65625,
+        -3.576279254957626e-07,
+        -17.921875
+      ],
+      "q_sequence": [
+        3.576356986574041e-07,
+        1.9585139686902916e-11,
+        0.999999625877182,
+        1.64675342346299e-08
+      ],
+      "q_token_mean": [
+        0.09552058688435601,
+        0.023513064801743925,
+        0.7962216430751832,
+        0.08474470523871687
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Myotonic dystrophy\"}",
+      "generated_disease": "Myotonic dystrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "0226b7cd076d3ba6aa0b333e31060a959ed67b99aa4c3aafe5292758dd4fd0c4"
+    },
+    {
+      "condition": "wrong",
+      "round": 8,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -2.6367835998535156,
+        -19.105533599853516,
+        -0.07428344339132309,
+        -15.0742826461792
+      ],
+      "q_sequence": [
+        0.07159116835213494,
+        5.041644291986119e-09,
+        0.9284085426036668,
+        2.840025539663688e-07
+      ],
+      "q_token_mean": [
+        0.36250105107052555,
+        0.03447894343076903,
+        0.5227476405260746,
+        0.08027236497263081
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Myotonic dystrophy\"}",
+      "generated_disease": "Myotonic dystrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "cfcb5343562acbbba5b664b0c371c926e08d412fbd5f64bf90de0a310aa741cc"
+    },
+    {
+      "condition": "wrong",
+      "round": 9,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -3.560098648071289,
+        -19.12259864807129,
+        -0.028848692774772644,
+        -14.466348648071289
+      ],
+      "q_sequence": [
+        0.028436019306480844,
+        4.956338115847057e-09,
+        0.9715634541287445,
+        5.216084366164207e-07
+      ],
+      "q_token_mean": [
+        0.3292755594303423,
+        0.035647559280818884,
+        0.5453126207087275,
+        0.08976426058011125
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Myotonic dystrophy\"}",
+      "generated_disease": "Myotonic dystrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "5cf8757f6a876cfb33dc33b8d040fe71047f42ef209ad66ca85171680a85ed8b"
+    },
+    {
+      "condition": "wrong",
+      "round": 10,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -8.219019889831543,
+        -21.45339584350586,
+        -0.00026962815900333226,
+        -16.515893936157227
+      ],
+      "q_sequence": [
+        0.00026947906682918545,
+        4.818463645622981e-10,
+        0.9997304532715688,
+        6.71797555795421e-08
+      ],
+      "q_token_mean": [
+        0.2084746496507676,
+        0.03147496012965083,
+        0.6744682682391323,
+        0.08558212198044933
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Myotonic dystrophy\"}",
+      "generated_disease": "Myotonic dystrophy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "7941ed457db5adf9bdfa25ceece46914976bd664b730503894cf113f8aa5e378"
+    }
+  ],
+  "state_sha256": "7bea5f881ba68183777f39915b75336531abe64f816fdfb75b9f1aa4e01229f0"
+}

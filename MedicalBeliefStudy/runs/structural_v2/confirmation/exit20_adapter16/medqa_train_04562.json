@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_04562",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Bemphiliasenysturinovemplentia\"} (Note: This is an error error. actual correct answer is \"Subiectiveyysturinemplenserventetemphinalenemphotaxenemphodememphenservemphinalenem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "d1bd7e859161b3486749092ae3917bf9e5d0893aaf6bd8383a11ba996383a5dd"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Bemphiliasenystkosogemphilissemerventososentotemphinalenemphilenserventetemphinalenemphymusentuemenservememensigenservemensigensigroupingschellschellschells",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "807d3c38f6175f030e18c98a9652ccd24d4bfa9f3d63c9bd9bd8b94fe96120a8"
+    }
+  ]
+}

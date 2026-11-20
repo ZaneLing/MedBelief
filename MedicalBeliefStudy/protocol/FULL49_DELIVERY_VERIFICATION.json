@@ -1,0 +1,37 @@
+{
+  "full49_v1": {
+    "observations_checked": 5040,
+    "deep_states": 202,
+    "state_bytes": 2597961237,
+    "max_final_batched_projection_support_difference": 0.007628381252288818,
+    "final_batched_projection_argmax_differences": 0
+  },
+  "structured_names_v1": {
+    "observations_checked": 538,
+    "deep_states": 202,
+    "state_bytes": 469532914,
+    "max_final_batched_projection_support_difference": 0.0,
+    "final_batched_projection_argmax_differences": 0
+  },
+  "heldout_probe_checks": {
+    "stratified_folds": 5,
+    "independent_prefix_reconstructions": 24
+  },
+  "png_figures": 156,
+  "pdf_figures": 156,
+  "broken_links": [],
+  "passed": true,
+  "api_cost_usd": 0,
+  "final_document_link_check": {
+    "documents": 165,
+    "broken_links": []
+  },
+  "visual_checks": [
+    "results/12_current_synthesis/figures/main_findings.png",
+    "results/12_current_synthesis/figures/clinical_intervention_example.png",
+    "results/11_disease_information/figures/heldout_disease_information.png",
+    "results/11_disease_information/figures/heldout_readout_examples.png",
+    "results/09_disease_name_trajectories/cases/ddx_validate_0000493.png",
+    "results/07_attention_and_layers/figures/layers_and_evidence.png"
+  ]
+}

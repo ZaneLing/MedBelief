@@ -1,0 +1,1995 @@
+{
+  "date": "2026-11-18",
+  "no_model_inference": true,
+  "tokenizer_path": "MedicalBeliefMechanisms/.models/Qwen3-4B-8bit",
+  "template_version": "diagnostic_trajectory_v1",
+  "answer_stub": "Diagnosis code:",
+  "candidate_suffix_token_ids": {
+    "A": 362,
+    "B": 425,
+    "C": 356,
+    "D": 422,
+    "E": 468,
+    "F": 434
+  },
+  "candidate_tokens_include_leading_space": true,
+  "actual_public_prefixes": 131,
+  "mapping_rotations_checked": 6,
+  "actual_direct_serializations_checked": 786,
+  "direct_token_length_min": 204,
+  "direct_token_length_max": 792,
+  "post_thinking_boundary": "Format-only placeholder checked; every actual generated rationale must be rechecked at runtime.",
+  "primary_frames": [
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 0,
+      "prompt_sha256": "d742130b5f94652588414ddba66842ea00460e296d12a0a81405113f6b6294e7",
+      "anchor_token_index": 210,
+      "tokens": 211,
+      "code_to_disease": {
+        "A": "Pneumonia",
+        "B": "Bronchitis",
+        "C": "Bronchospasm / acute asthma exacerbation",
+        "D": "Pulmonary embolism",
+        "E": "Spontaneous pneumothorax",
+        "F": "Acute pulmonary edema"
+      }
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 1,
+      "prompt_sha256": "e6153795f349dfece6a269e7004551d64753158b3d147608188b7508465230d4",
+      "anchor_token_index": 227,
+      "tokens": 228,
+      "code_to_disease": {
+        "A": "Pneumonia",
+        "B": "Bronchitis",
+        "C": "Bronchospasm / acute asthma exacerbation",
+        "D": "Pulmonary embolism",
+        "E": "Spontaneous pneumothorax",
+        "F": "Acute pulmonary edema"
+      }
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 2,
+      "prompt_sha256": "7b511487cc251cfb203208f60873980c5f0e0003abea5dd41d2dfd83db79e02e",
+      "anchor_token_index": 251,
+      "tokens": 252,
+      "code_to_disease": {
+        "A": "Pneumonia",
+        "B": "Bronchitis",
+        "C": "Bronchospasm / acute asthma exacerbation",
+        "D": "Pulmonary embolism",
+        "E": "Spontaneous pneumothorax",
+        "F": "Acute pulmonary edema"
+      }
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 3,
+      "prompt_sha256": "2b7202f30de22847670c615e7285a6159acbeb8ad1cd3faf6428370b3e31c8f9",
+      "anchor_token_index": 278,
+      "tokens": 279,
+      "code_to_disease": {
+        "A": "Pneumonia",
+        "B": "Bronchitis",
+        "C": "Bronchospasm / acute asthma exacerbation",
+        "D": "Pulmonary embolism",
+        "E": "Spontaneous pneumothorax",
+        "F": "Acute pulmonary edema"
+      }
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 4,
+      "prompt_sha256": "342ff5f23c68b468dccffddee45be7ff0ff352068ef1566cca057e8b3244918d",
+      "anchor_token_index": 295,
+      "tokens": 296,
+      "code_to_disease": {
+        "A": "Pneumonia",
+        "B": "Bronchitis",
+        "C": "Bronchospasm / acute asthma exacerbation",
+        "D": "Pulmonary embolism",
+        "E": "Spontaneous pneumothorax",
+        "F": "Acute pulmonary edema"
+      }
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 5,
+      "prompt_sha256": "ecb694dd19f3e89eca769ce27faeafd532ecf2bdb35acc39ce8bec9b83f03da1",
+      "anchor_token_index": 314,
+      "tokens": 315,
+      "code_to_disease": {
+        "A": "Pneumonia",
+        "B": "Bronchitis",
+        "C": "Bronchospasm / acute asthma exacerbation",
+        "D": "Pulmonary embolism",
+        "E": "Spontaneous pneumothorax",
+        "F": "Acute pulmonary edema"
+      }
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 6,
+      "prompt_sha256": "1c12b398e967bf1dc1d98ea5378c998c9f82a38f4e67788df36520dfb5d82784",
+      "anchor_token_index": 330,
+      "tokens": 331,
+      "code_to_disease": {
+        "A": "Pneumonia",
+        "B": "Bronchitis",
+        "C": "Bronchospasm / acute asthma exacerbation",
+        "D": "Pulmonary embolism",
+        "E": "Spontaneous pneumothorax",
+        "F": "Acute pulmonary edema"
+      }
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 7,
+      "prompt_sha256": "2cb7f9b151acf932d199750b2731b654185f718f83dcffde0c5d374678a7d166",
+      "anchor_token_index": 355,
+      "tokens": 356,
+      "code_to_disease": {
+        "A": "Pneumonia",
+        "B": "Bronchitis",
+        "C": "Bronchospasm / acute asthma exacerbation",
+        "D": "Pulmonary embolism",
+        "E": "Spontaneous pneumothorax",
+        "F": "Acute pulmonary edema"
+      }
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 8,
+      "prompt_sha256": "a6e0255a9c7b816caf7a6c412936a160bb6b221b3d087840d9f4ca718266e5cf",
+      "anchor_token_index": 372,
+      "tokens": 373,
+      "code_to_disease": {
+        "A": "Pneumonia",
+        "B": "Bronchitis",
+        "C": "Bronchospasm / acute asthma exacerbation",
+        "D": "Pulmonary embolism",
+        "E": "Spontaneous pneumothorax",
+        "F": "Acute pulmonary edema"
+      }
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 9,
+      "prompt_sha256": "9a2fb6c5854285983b46c1b59821c2c5cc633a003bd8eb99318aec05d74271ec",
+      "anchor_token_index": 390,
+      "tokens": 391,
+      "code_to_disease": {
+        "A": "Pneumonia",
+        "B": "Bronchitis",
+        "C": "Bronchospasm / acute asthma exacerbation",
+        "D": "Pulmonary embolism",
+        "E": "Spontaneous pneumothorax",
+        "F": "Acute pulmonary edema"
+      }
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 10,
+      "prompt_sha256": "73ba514d22c6adfb26cfc3fd521b942a1d02b28ea639a5900c8e785e1b9abd5e",
+      "anchor_token_index": 509,
+      "tokens": 510,
+      "code_to_disease": {
+        "A": "Pneumonia",
+        "B": "Bronchitis",
+        "C": "Bronchospasm / acute asthma exacerbation",
+        "D": "Pulmonary embolism",
+        "E": "Spontaneous pneumothorax",
+        "F": "Acute pulmonary edema"
+      }
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 11,
+      "prompt_sha256": "b45411ea49e282914c032bda3aac5765c34ccb8b5f7208034ca45e2aa6eda990",
+      "anchor_token_index": 528,
+      "tokens": 529,
+      "code_to_disease": {
+        "A": "Pneumonia",
+        "B": "Bronchitis",
+        "C": "Bronchospasm / acute asthma exacerbation",
+        "D": "Pulmonary embolism",
+        "E": "Spontaneous pneumothorax",
+        "F": "Acute pulmonary edema"
+      }
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 12,
+      "prompt_sha256": "c5caf134ef52093c9d74fb97874c32ba83a5ce7919dac1e54542aea3909e258c",
+      "anchor_token_index": 553,
+      "tokens": 554,
+      "code_to_disease": {
+        "A": "Pneumonia",
+        "B": "Bronchitis",
+        "C": "Bronchospasm / acute asthma exacerbation",
+        "D": "Pulmonary embolism",
+        "E": "Spontaneous pneumothorax",
+        "F": "Acute pulmonary edema"
+      }
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 13,
+      "prompt_sha256": "7fa47ec39ccd6419f80c1e678bab599deb7472751df47f8d159ec46dd7bab10d",
+      "anchor_token_index": 570,
+      "tokens": 571,
+      "code_to_disease": {
+        "A": "Pneumonia",
+        "B": "Bronchitis",
+        "C": "Bronchospasm / acute asthma exacerbation",
+        "D": "Pulmonary embolism",
+        "E": "Spontaneous pneumothorax",
+        "F": "Acute pulmonary edema"
+      }
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 14,
+      "prompt_sha256": "09570bec97b35b52b367745f8e15bb215345c2d963df800434bc11a63236c4b4",
+      "anchor_token_index": 595,
+      "tokens": 596,
+      "code_to_disease": {
+        "A": "Pneumonia",
+        "B": "Bronchitis",
+        "C": "Bronchospasm / acute asthma exacerbation",
+        "D": "Pulmonary embolism",
+        "E": "Spontaneous pneumothorax",
+        "F": "Acute pulmonary edema"
+      }
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 15,
+      "prompt_sha256": "b82a8df3c2c2e28195c114c7fb89759434cd7c93efe12bcbed0dd31559415c69",
+      "anchor_token_index": 626,
+      "tokens": 627,
+      "code_to_disease": {
+        "A": "Pneumonia",
+        "B": "Bronchitis",
+        "C": "Bronchospasm / acute asthma exacerbation",
+        "D": "Pulmonary embolism",
+        "E": "Spontaneous pneumothorax",
+        "F": "Acute pulmonary edema"
+      }
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 16,
+      "prompt_sha256": "c19abe8295d6290a977606cd98170db7b13a6c192f6cabdae350611ab633b93e",
+      "anchor_token_index": 768,
+      "tokens": 769,
+      "code_to_disease": {
+        "A": "Pneumonia",
+        "B": "Bronchitis",
+        "C": "Bronchospasm / acute asthma exacerbation",
+        "D": "Pulmonary embolism",
+        "E": "Spontaneous pneumothorax",
+        "F": "Acute pulmonary edema"
+      }
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 17,
+      "prompt_sha256": "c4883588b59c1535978cf1e0cdb0d7fb8a5573e3e5b6908e4e466490b849f5b6",
+      "anchor_token_index": 791,
+      "tokens": 792,
+      "code_to_disease": {
+        "A": "Pneumonia",
+        "B": "Bronchitis",
+        "C": "Bronchospasm / acute asthma exacerbation",
+        "D": "Pulmonary embolism",
+        "E": "Spontaneous pneumothorax",
+        "F": "Acute pulmonary edema"
+      }
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 0,
+      "prompt_sha256": "d56e1c19d88361a2e5fa5e4ec71c1f008cac0f67208e7c8b45641a8802aa61da",
+      "anchor_token_index": 214,
+      "tokens": 215,
+      "code_to_disease": {
+        "A": "Bronchitis",
+        "B": "Bronchospasm / acute asthma exacerbation",
+        "C": "Pulmonary embolism",
+        "D": "Spontaneous pneumothorax",
+        "E": "Acute pulmonary edema",
+        "F": "Pneumonia"
+      }
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 1,
+      "prompt_sha256": "97ea791f72b6db404b9f0c362d560645515b218ae038c104718706d3914acc15",
+      "anchor_token_index": 230,
+      "tokens": 231,
+      "code_to_disease": {
+        "A": "Bronchitis",
+        "B": "Bronchospasm / acute asthma exacerbation",
+        "C": "Pulmonary embolism",
+        "D": "Spontaneous pneumothorax",
+        "E": "Acute pulmonary edema",
+        "F": "Pneumonia"
+      }
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 2,
+      "prompt_sha256": "ca546546a81056a4cadc963940af1808a8484a322efc4a3bd21e467a6b77c744",
+      "anchor_token_index": 258,
+      "tokens": 259,
+      "code_to_disease": {
+        "A": "Bronchitis",
+        "B": "Bronchospasm / acute asthma exacerbation",
+        "C": "Pulmonary embolism",
+        "D": "Spontaneous pneumothorax",
+        "E": "Acute pulmonary edema",
+        "F": "Pneumonia"
+      }
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 3,
+      "prompt_sha256": "c3903eab09bebf0b59c761e9eb186c7d687e5e5b1e0ac6faecdba5038431be33",
+      "anchor_token_index": 274,
+      "tokens": 275,
+      "code_to_disease": {
+        "A": "Bronchitis",
+        "B": "Bronchospasm / acute asthma exacerbation",
+        "C": "Pulmonary embolism",
+        "D": "Spontaneous pneumothorax",
+        "E": "Acute pulmonary edema",
+        "F": "Pneumonia"
+      }
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 4,
+      "prompt_sha256": "df125b23ee333e1a0b972145d687e58bc4ad0dd871a7b9266848552f3f7202c6",
+      "anchor_token_index": 298,
+      "tokens": 299,
+      "code_to_disease": {
+        "A": "Bronchitis",
+        "B": "Bronchospasm / acute asthma exacerbation",
+        "C": "Pulmonary embolism",
+        "D": "Spontaneous pneumothorax",
+        "E": "Acute pulmonary edema",
+        "F": "Pneumonia"
+      }
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 5,
+      "prompt_sha256": "d85511dcbe8af89d3a4d6bc14f9165937f75f96c05fa99d4acbc5eec418543ab",
+      "anchor_token_index": 313,
+      "tokens": 314,
+      "code_to_disease": {
+        "A": "Bronchitis",
+        "B": "Bronchospasm / acute asthma exacerbation",
+        "C": "Pulmonary embolism",
+        "D": "Spontaneous pneumothorax",
+        "E": "Acute pulmonary edema",
+        "F": "Pneumonia"
+      }
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 6,
+      "prompt_sha256": "24e8c8a9b1a4e22a1c15d56e862f56f1ea9366bddd6cd6847865973fba8318da",
+      "anchor_token_index": 332,
+      "tokens": 333,
+      "code_to_disease": {
+        "A": "Bronchitis",
+        "B": "Bronchospasm / acute asthma exacerbation",
+        "C": "Pulmonary embolism",
+        "D": "Spontaneous pneumothorax",
+        "E": "Acute pulmonary edema",
+        "F": "Pneumonia"
+      }
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 7,
+      "prompt_sha256": "c0aac631003677c19c2c572b27cf8aba4cee0ea2b97b161e10b39bb29efc3822",
+      "anchor_token_index": 354,
+      "tokens": 355,
+      "code_to_disease": {
+        "A": "Bronchitis",
+        "B": "Bronchospasm / acute asthma exacerbation",
+        "C": "Pulmonary embolism",
+        "D": "Spontaneous pneumothorax",
+        "E": "Acute pulmonary edema",
+        "F": "Pneumonia"
+      }
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 8,
+      "prompt_sha256": "3dd3ce65253fe644e75043169201197a80484d76796a6b8e129cd16f2afe242e",
+      "anchor_token_index": 378,
+      "tokens": 379,
+      "code_to_disease": {
+        "A": "Bronchitis",
+        "B": "Bronchospasm / acute asthma exacerbation",
+        "C": "Pulmonary embolism",
+        "D": "Spontaneous pneumothorax",
+        "E": "Acute pulmonary edema",
+        "F": "Pneumonia"
+      }
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 9,
+      "prompt_sha256": "154bcaf7e28b1b1a0313b7da0cf89acacc766224f12c0a8adb3e03e35aea76fe",
+      "anchor_token_index": 488,
+      "tokens": 489,
+      "code_to_disease": {
+        "A": "Bronchitis",
+        "B": "Bronchospasm / acute asthma exacerbation",
+        "C": "Pulmonary embolism",
+        "D": "Spontaneous pneumothorax",
+        "E": "Acute pulmonary edema",
+        "F": "Pneumonia"
+      }
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 10,
+      "prompt_sha256": "035dd50c265d889f0a026427a1cee3684cf1f413150c5316718284ee896888ed",
+      "anchor_token_index": 514,
+      "tokens": 515,
+      "code_to_disease": {
+        "A": "Bronchitis",
+        "B": "Bronchospasm / acute asthma exacerbation",
+        "C": "Pulmonary embolism",
+        "D": "Spontaneous pneumothorax",
+        "E": "Acute pulmonary edema",
+        "F": "Pneumonia"
+      }
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 11,
+      "prompt_sha256": "a4c164c5a51531e6cd31ef0c67e0fb7101361db57a00cc0b7c44f1de5d4d7e99",
+      "anchor_token_index": 532,
+      "tokens": 533,
+      "code_to_disease": {
+        "A": "Bronchitis",
+        "B": "Bronchospasm / acute asthma exacerbation",
+        "C": "Pulmonary embolism",
+        "D": "Spontaneous pneumothorax",
+        "E": "Acute pulmonary edema",
+        "F": "Pneumonia"
+      }
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 12,
+      "prompt_sha256": "29532edc06ddb5c5d52b262009b9c69bc7ddad13573e015753661c4b7db49f32",
+      "anchor_token_index": 552,
+      "tokens": 553,
+      "code_to_disease": {
+        "A": "Bronchitis",
+        "B": "Bronchospasm / acute asthma exacerbation",
+        "C": "Pulmonary embolism",
+        "D": "Spontaneous pneumothorax",
+        "E": "Acute pulmonary edema",
+        "F": "Pneumonia"
+      }
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 13,
+      "prompt_sha256": "98266d0664ec35a0de92d748d56f6ec77a9090da55ee390de7d2738ec061b8aa",
+      "anchor_token_index": 570,
+      "tokens": 571,
+      "code_to_disease": {
+        "A": "Bronchitis",
+        "B": "Bronchospasm / acute asthma exacerbation",
+        "C": "Pulmonary embolism",
+        "D": "Spontaneous pneumothorax",
+        "E": "Acute pulmonary edema",
+        "F": "Pneumonia"
+      }
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 14,
+      "prompt_sha256": "1f0f17e67b00917971c9d14f434358376a6c6f784d79fe9de696fe575d5b5b1d",
+      "anchor_token_index": 601,
+      "tokens": 602,
+      "code_to_disease": {
+        "A": "Bronchitis",
+        "B": "Bronchospasm / acute asthma exacerbation",
+        "C": "Pulmonary embolism",
+        "D": "Spontaneous pneumothorax",
+        "E": "Acute pulmonary edema",
+        "F": "Pneumonia"
+      }
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 15,
+      "prompt_sha256": "dd470d4ab222663242865ba2c63974ec1987d10c6de9636847994e7aa981a9bf",
+      "anchor_token_index": 749,
+      "tokens": 750,
+      "code_to_disease": {
+        "A": "Bronchitis",
+        "B": "Bronchospasm / acute asthma exacerbation",
+        "C": "Pulmonary embolism",
+        "D": "Spontaneous pneumothorax",
+        "E": "Acute pulmonary edema",
+        "F": "Pneumonia"
+      }
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 16,
+      "prompt_sha256": "cf37dc20e611e042511c27cd428088d4992a6b8ac8ceb775f5767b91bbec1964",
+      "anchor_token_index": 766,
+      "tokens": 767,
+      "code_to_disease": {
+        "A": "Bronchitis",
+        "B": "Bronchospasm / acute asthma exacerbation",
+        "C": "Pulmonary embolism",
+        "D": "Spontaneous pneumothorax",
+        "E": "Acute pulmonary edema",
+        "F": "Pneumonia"
+      }
+    },
+    {
+      "case_id": "ddx_train_0925484",
+      "round": 0,
+      "prompt_sha256": "901bf58008ecf4f8cec92cc4cc226bc14d773bd45275ab9dcab25e3f932fc127",
+      "anchor_token_index": 214,
+      "tokens": 215,
+      "code_to_disease": {
+        "A": "Bronchospasm / acute asthma exacerbation",
+        "B": "Pulmonary embolism",
+        "C": "Spontaneous pneumothorax",
+        "D": "Acute pulmonary edema",
+        "E": "Pneumonia",
+        "F": "Bronchitis"
+      }
+    },
+    {
+      "case_id": "ddx_train_0925484",
+      "round": 1,
+      "prompt_sha256": "3006a28687a364442fbdf0b4e002be12707cc0eb1e2293ed94366c6d4ba100c5",
+      "anchor_token_index": 230,
+      "tokens": 231,
+      "code_to_disease": {
+        "A": "Bronchospasm / acute asthma exacerbation",
+        "B": "Pulmonary embolism",
+        "C": "Spontaneous pneumothorax",
+        "D": "Acute pulmonary edema",
+        "E": "Pneumonia",
+        "F": "Bronchitis"
+      }
+    },
+    {
+      "case_id": "ddx_train_0925484",
+      "round": 2,
+      "prompt_sha256": "6a407cf70684a7aa811f699a84f8fed34ab505c2b9fc3f328fb19a75143e0333",
+      "anchor_token_index": 254,
+      "tokens": 255,
+      "code_to_disease": {
+        "A": "Bronchospasm / acute asthma exacerbation",
+        "B": "Pulmonary embolism",
+        "C": "Spontaneous pneumothorax",
+        "D": "Acute pulmonary edema",
+        "E": "Pneumonia",
+        "F": "Bronchitis"
+      }
+    },
+    {
+      "case_id": "ddx_train_0925484",
+      "round": 3,
+      "prompt_sha256": "e527e12cbcb48768dc27725fc7fc2bd40b59164534f11bd3163eac41d40108ce",
+      "anchor_token_index": 277,
+      "tokens": 278,
+      "code_to_disease": {
+        "A": "Bronchospasm / acute asthma exacerbation",
+        "B": "Pulmonary embolism",
+        "C": "Spontaneous pneumothorax",
+        "D": "Acute pulmonary edema",
+        "E": "Pneumonia",
+        "F": "Bronchitis"
+      }
+    },
+    {
+      "case_id": "ddx_train_0925484",
+      "round": 4,
+      "prompt_sha256": "d9a70a9bff05d7ed2a85493a8f4112cecb2e373bcfe4385ce82d86e4f6c30db5",
+      "anchor_token_index": 302,
+      "tokens": 303,
+      "code_to_disease": {
+        "A": "Bronchospasm / acute asthma exacerbation",
+        "B": "Pulmonary embolism",
+        "C": "Spontaneous pneumothorax",
+        "D": "Acute pulmonary edema",
+        "E": "Pneumonia",
+        "F": "Bronchitis"
+      }
+    },
+    {
+      "case_id": "ddx_train_0925484",
+      "round": 5,
+      "prompt_sha256": "1dc92ec96d648dc966f973f5635456cda830460a0c6f27ca756473592c110258",
+      "anchor_token_index": 319,
+      "tokens": 320,
+      "code_to_disease": {
+        "A": "Bronchospasm / acute asthma exacerbation",
+        "B": "Pulmonary embolism",
+        "C": "Spontaneous pneumothorax",
+        "D": "Acute pulmonary edema",
+        "E": "Pneumonia",
+        "F": "Bronchitis"
+      }
+    },
+    {
+      "case_id": "ddx_train_0925484",
+      "round": 6,
+      "prompt_sha256": "1c43656b07caf46035f8f52368bbc88506ba00306726145726ae2fb32dbddd9f",
+      "anchor_token_index": 343,
+      "tokens": 344,
+      "code_to_disease": {
+        "A": "Bronchospasm / acute asthma exacerbation",
+        "B": "Pulmonary embolism",
+        "C": "Spontaneous pneumothorax",
+        "D": "Acute pulmonary edema",
+        "E": "Pneumonia",
+        "F": "Bronchitis"
+      }
+    },
+    {
+      "case_id": "ddx_train_0925484",
+      "round": 7,
+      "prompt_sha256": "05f8bed15270ffccdd52609c3bddd51af6b810da7c1534f846034b4f0f7f66b9",
+      "anchor_token_index": 446,
+      "tokens": 447,
+      "code_to_disease": {
+        "A": "Bronchospasm / acute asthma exacerbation",
+        "B": "Pulmonary embolism",
+        "C": "Spontaneous pneumothorax",
+        "D": "Acute pulmonary edema",
+        "E": "Pneumonia",
+        "F": "Bronchitis"
+      }
+    },
+    {
+      "case_id": "ddx_train_0925484",
+      "round": 8,
+      "prompt_sha256": "1a716d460c3e3da82b9859e1f65867028ccf3772a493aa5ef6728e7e565f6946",
+      "anchor_token_index": 470,
+      "tokens": 471,
+      "code_to_disease": {
+        "A": "Bronchospasm / acute asthma exacerbation",
+        "B": "Pulmonary embolism",
+        "C": "Spontaneous pneumothorax",
+        "D": "Acute pulmonary edema",
+        "E": "Pneumonia",
+        "F": "Bronchitis"
+      }
+    },
+    {
+      "case_id": "ddx_train_0915712",
+      "round": 0,
+      "prompt_sha256": "b91565caa5b3108030505b6349ea6f0aa513fb4fdae69dc927c9a3d70684a0c4",
+      "anchor_token_index": 210,
+      "tokens": 211,
+      "code_to_disease": {
+        "A": "Pulmonary embolism",
+        "B": "Spontaneous pneumothorax",
+        "C": "Acute pulmonary edema",
+        "D": "Pneumonia",
+        "E": "Bronchitis",
+        "F": "Bronchospasm / acute asthma exacerbation"
+      }
+    },
+    {
+      "case_id": "ddx_train_0915712",
+      "round": 1,
+      "prompt_sha256": "4c69351cefeeea6b5cc459bc87b95f4c46db77ef4dd6fe8efdc1b2d7d09ee926",
+      "anchor_token_index": 234,
+      "tokens": 235,
+      "code_to_disease": {
+        "A": "Pulmonary embolism",
+        "B": "Spontaneous pneumothorax",
+        "C": "Acute pulmonary edema",
+        "D": "Pneumonia",
+        "E": "Bronchitis",
+        "F": "Bronchospasm / acute asthma exacerbation"
+      }
+    },
+    {
+      "case_id": "ddx_train_0915712",
+      "round": 2,
+      "prompt_sha256": "8154ac7877804be9d7fe7b9bc2b36df01d776497409b9eda58ced254ddecfe98",
+      "anchor_token_index": 250,
+      "tokens": 251,
+      "code_to_disease": {
+        "A": "Pulmonary embolism",
+        "B": "Spontaneous pneumothorax",
+        "C": "Acute pulmonary edema",
+        "D": "Pneumonia",
+        "E": "Bronchitis",
+        "F": "Bronchospasm / acute asthma exacerbation"
+      }
+    },
+    {
+      "case_id": "ddx_train_0915712",
+      "round": 3,
+      "prompt_sha256": "f49ca829514c0c29c5ab10a02eb30312e42243e57a31d9a51b32861f27fd8fec",
+      "anchor_token_index": 267,
+      "tokens": 268,
+      "code_to_disease": {
+        "A": "Pulmonary embolism",
+        "B": "Spontaneous pneumothorax",
+        "C": "Acute pulmonary edema",
+        "D": "Pneumonia",
+        "E": "Bronchitis",
+        "F": "Bronchospasm / acute asthma exacerbation"
+      }
+    },
+    {
+      "case_id": "ddx_train_0915712",
+      "round": 4,
+      "prompt_sha256": "013f6cabb388885f99a2e2182adb6be80931422f8fac9b00764fb8984062cc99",
+      "anchor_token_index": 291,
+      "tokens": 292,
+      "code_to_disease": {
+        "A": "Pulmonary embolism",
+        "B": "Spontaneous pneumothorax",
+        "C": "Acute pulmonary edema",
+        "D": "Pneumonia",
+        "E": "Bronchitis",
+        "F": "Bronchospasm / acute asthma exacerbation"
+      }
+    },
+    {
+      "case_id": "ddx_train_0915712",
+      "round": 5,
+      "prompt_sha256": "a4068e826ce431f2068dbd95d1dd901bc319ea1314a2bc639918a26bed3d07cb",
+      "anchor_token_index": 309,
+      "tokens": 310,
+      "code_to_disease": {
+        "A": "Pulmonary embolism",
+        "B": "Spontaneous pneumothorax",
+        "C": "Acute pulmonary edema",
+        "D": "Pneumonia",
+        "E": "Bronchitis",
+        "F": "Bronchospasm / acute asthma exacerbation"
+      }
+    },
+    {
+      "case_id": "ddx_train_0915712",
+      "round": 6,
+      "prompt_sha256": "e6c206cf60e010b10ff6f6d6f1636ff80bd6b68d4444ad1d676196132dcb6e51",
+      "anchor_token_index": 333,
+      "tokens": 334,
+      "code_to_disease": {
+        "A": "Pulmonary embolism",
+        "B": "Spontaneous pneumothorax",
+        "C": "Acute pulmonary edema",
+        "D": "Pneumonia",
+        "E": "Bronchitis",
+        "F": "Bronchospasm / acute asthma exacerbation"
+      }
+    },
+    {
+      "case_id": "ddx_train_0915712",
+      "round": 7,
+      "prompt_sha256": "70c6dff43b3fa8ae60ebbbc146326a88aa186be122b8ba589825144525e3a939",
+      "anchor_token_index": 350,
+      "tokens": 351,
+      "code_to_disease": {
+        "A": "Pulmonary embolism",
+        "B": "Spontaneous pneumothorax",
+        "C": "Acute pulmonary edema",
+        "D": "Pneumonia",
+        "E": "Bronchitis",
+        "F": "Bronchospasm / acute asthma exacerbation"
+      }
+    },
+    {
+      "case_id": "ddx_train_0915712",
+      "round": 8,
+      "prompt_sha256": "12f74aa9a89b79ead21e1d6f4bbdd343dd41d3d5a7fd0a33d1a1afcd91dcd2cf",
+      "anchor_token_index": 469,
+      "tokens": 470,
+      "code_to_disease": {
+        "A": "Pulmonary embolism",
+        "B": "Spontaneous pneumothorax",
+        "C": "Acute pulmonary edema",
+        "D": "Pneumonia",
+        "E": "Bronchitis",
+        "F": "Bronchospasm / acute asthma exacerbation"
+      }
+    },
+    {
+      "case_id": "ddx_train_0875644",
+      "round": 0,
+      "prompt_sha256": "a3dba9be9c98054a4f666d3cbf67da1ceb130794d27c8d8123801fd36539cf32",
+      "anchor_token_index": 210,
+      "tokens": 211,
+      "code_to_disease": {
+        "A": "Spontaneous pneumothorax",
+        "B": "Acute pulmonary edema",
+        "C": "Pneumonia",
+        "D": "Bronchitis",
+        "E": "Bronchospasm / acute asthma exacerbation",
+        "F": "Pulmonary embolism"
+      }
+    },
+    {
+      "case_id": "ddx_train_0875644",
+      "round": 1,
+      "prompt_sha256": "24d3f3dce54e4409084ced57e4a9e87ff33046b9a0cda48a99b9bed25c94b3d9",
+      "anchor_token_index": 233,
+      "tokens": 234,
+      "code_to_disease": {
+        "A": "Spontaneous pneumothorax",
+        "B": "Acute pulmonary edema",
+        "C": "Pneumonia",
+        "D": "Bronchitis",
+        "E": "Bronchospasm / acute asthma exacerbation",
+        "F": "Pulmonary embolism"
+      }
+    },
+    {
+      "case_id": "ddx_train_0875644",
+      "round": 2,
+      "prompt_sha256": "bb3a56d9117f03e8531a6c167f314b93e02e5565e4c201ae56c5504dd8b89d75",
+      "anchor_token_index": 256,
+      "tokens": 257,
+      "code_to_disease": {
+        "A": "Spontaneous pneumothorax",
+        "B": "Acute pulmonary edema",
+        "C": "Pneumonia",
+        "D": "Bronchitis",
+        "E": "Bronchospasm / acute asthma exacerbation",
+        "F": "Pulmonary embolism"
+      }
+    },
+    {
+      "case_id": "ddx_train_0875644",
+      "round": 3,
+      "prompt_sha256": "86b627129c6e87aee660b6f3a86388e4a2980f842312bf423a2d0fb8eccfd2d9",
+      "anchor_token_index": 286,
+      "tokens": 287,
+      "code_to_disease": {
+        "A": "Spontaneous pneumothorax",
+        "B": "Acute pulmonary edema",
+        "C": "Pneumonia",
+        "D": "Bronchitis",
+        "E": "Bronchospasm / acute asthma exacerbation",
+        "F": "Pulmonary embolism"
+      }
+    },
+    {
+      "case_id": "ddx_train_0875644",
+      "round": 4,
+      "prompt_sha256": "2874b72b5ffea63f48abbe8f2c337ebdc0b0e22874c3282e7ce7cc2b2d4369a5",
+      "anchor_token_index": 310,
+      "tokens": 311,
+      "code_to_disease": {
+        "A": "Spontaneous pneumothorax",
+        "B": "Acute pulmonary edema",
+        "C": "Pneumonia",
+        "D": "Bronchitis",
+        "E": "Bronchospasm / acute asthma exacerbation",
+        "F": "Pulmonary embolism"
+      }
+    },
+    {
+      "case_id": "ddx_train_0875644",
+      "round": 5,
+      "prompt_sha256": "ce3781576e0a1969b184c4949bb64dcdc81217196c978cecb636170aa6c6c16a",
+      "anchor_token_index": 334,
+      "tokens": 335,
+      "code_to_disease": {
+        "A": "Spontaneous pneumothorax",
+        "B": "Acute pulmonary edema",
+        "C": "Pneumonia",
+        "D": "Bronchitis",
+        "E": "Bronchospasm / acute asthma exacerbation",
+        "F": "Pulmonary embolism"
+      }
+    },
+    {
+      "case_id": "ddx_train_0875644",
+      "round": 6,
+      "prompt_sha256": "a75c3ef9df2da891787deab6e8f6dbbc66108d3f52f54e72e7b8bdf5f2de03b4",
+      "anchor_token_index": 353,
+      "tokens": 354,
+      "code_to_disease": {
+        "A": "Spontaneous pneumothorax",
+        "B": "Acute pulmonary edema",
+        "C": "Pneumonia",
+        "D": "Bronchitis",
+        "E": "Bronchospasm / acute asthma exacerbation",
+        "F": "Pulmonary embolism"
+      }
+    },
+    {
+      "case_id": "ddx_train_0875644",
+      "round": 7,
+      "prompt_sha256": "add95b0afe986af839bb4b9af26fc10e4660e2e1b3a0d5d38fcf9bf608df1066",
+      "anchor_token_index": 378,
+      "tokens": 379,
+      "code_to_disease": {
+        "A": "Spontaneous pneumothorax",
+        "B": "Acute pulmonary edema",
+        "C": "Pneumonia",
+        "D": "Bronchitis",
+        "E": "Bronchospasm / acute asthma exacerbation",
+        "F": "Pulmonary embolism"
+      }
+    },
+    {
+      "case_id": "ddx_train_0875644",
+      "round": 8,
+      "prompt_sha256": "d240b22dba06fb01722e48b8dcf0e573a90271a6b3144287761f311a773c8a43",
+      "anchor_token_index": 398,
+      "tokens": 399,
+      "code_to_disease": {
+        "A": "Spontaneous pneumothorax",
+        "B": "Acute pulmonary edema",
+        "C": "Pneumonia",
+        "D": "Bronchitis",
+        "E": "Bronchospasm / acute asthma exacerbation",
+        "F": "Pulmonary embolism"
+      }
+    },
+    {
+      "case_id": "ddx_train_0875644",
+      "round": 9,
+      "prompt_sha256": "d6a3a96ac86f27505542cd3cf73b83b311544829217925c9412cd0e04e2e558c",
+      "anchor_token_index": 420,
+      "tokens": 421,
+      "code_to_disease": {
+        "A": "Spontaneous pneumothorax",
+        "B": "Acute pulmonary edema",
+        "C": "Pneumonia",
+        "D": "Bronchitis",
+        "E": "Bronchospasm / acute asthma exacerbation",
+        "F": "Pulmonary embolism"
+      }
+    },
+    {
+      "case_id": "ddx_train_0858284",
+      "round": 0,
+      "prompt_sha256": "6577458a71978f2d542c719b762ea52c8e0d84ecd0e5ce551862ccd7cb09f6e4",
+      "anchor_token_index": 203,
+      "tokens": 204,
+      "code_to_disease": {
+        "A": "Acute pulmonary edema",
+        "B": "Pneumonia",
+        "C": "Bronchitis",
+        "D": "Bronchospasm / acute asthma exacerbation",
+        "E": "Pulmonary embolism",
+        "F": "Spontaneous pneumothorax"
+      }
+    },
+    {
+      "case_id": "ddx_train_0858284",
+      "round": 1,
+      "prompt_sha256": "2ef8660ebf842c18ce39f3bdc5227801d5eb803be7c810d2171d65726a67d637",
+      "anchor_token_index": 226,
+      "tokens": 227,
+      "code_to_disease": {
+        "A": "Acute pulmonary edema",
+        "B": "Pneumonia",
+        "C": "Bronchitis",
+        "D": "Bronchospasm / acute asthma exacerbation",
+        "E": "Pulmonary embolism",
+        "F": "Spontaneous pneumothorax"
+      }
+    },
+    {
+      "case_id": "ddx_train_0858284",
+      "round": 2,
+      "prompt_sha256": "4b599975498f40bc0974608196f40de6a336233865b81108f3b335806e385240",
+      "anchor_token_index": 256,
+      "tokens": 257,
+      "code_to_disease": {
+        "A": "Acute pulmonary edema",
+        "B": "Pneumonia",
+        "C": "Bronchitis",
+        "D": "Bronchospasm / acute asthma exacerbation",
+        "E": "Pulmonary embolism",
+        "F": "Spontaneous pneumothorax"
+      }
+    },
+    {
+      "case_id": "ddx_train_0858284",
+      "round": 3,
+      "prompt_sha256": "4a8ab0ca845f36329fc4f741282f47432c7bc225a4891b752ba6b10ec712a655",
+      "anchor_token_index": 279,
+      "tokens": 280,
+      "code_to_disease": {
+        "A": "Acute pulmonary edema",
+        "B": "Pneumonia",
+        "C": "Bronchitis",
+        "D": "Bronchospasm / acute asthma exacerbation",
+        "E": "Pulmonary embolism",
+        "F": "Spontaneous pneumothorax"
+      }
+    },
+    {
+      "case_id": "ddx_train_0858284",
+      "round": 4,
+      "prompt_sha256": "40247bd6e2baf81710733dae934e732353cd21e20d0c60f00bf5f28d25c980cb",
+      "anchor_token_index": 298,
+      "tokens": 299,
+      "code_to_disease": {
+        "A": "Acute pulmonary edema",
+        "B": "Pneumonia",
+        "C": "Bronchitis",
+        "D": "Bronchospasm / acute asthma exacerbation",
+        "E": "Pulmonary embolism",
+        "F": "Spontaneous pneumothorax"
+      }
+    },
+    {
+      "case_id": "ddx_train_0858284",
+      "round": 5,
+      "prompt_sha256": "5bfad5cbce1533c70f071109d2d1a8debf8ae0f8a481dbf9c6a6c9df4eb010ee",
+      "anchor_token_index": 322,
+      "tokens": 323,
+      "code_to_disease": {
+        "A": "Acute pulmonary edema",
+        "B": "Pneumonia",
+        "C": "Bronchitis",
+        "D": "Bronchospasm / acute asthma exacerbation",
+        "E": "Pulmonary embolism",
+        "F": "Spontaneous pneumothorax"
+      }
+    },
+    {
+      "case_id": "ddx_train_0858284",
+      "round": 6,
+      "prompt_sha256": "f546c22b41b1e191eb59232a231dc533bbc87f1eb95912cd70078a97007af91e",
+      "anchor_token_index": 347,
+      "tokens": 348,
+      "code_to_disease": {
+        "A": "Acute pulmonary edema",
+        "B": "Pneumonia",
+        "C": "Bronchitis",
+        "D": "Bronchospasm / acute asthma exacerbation",
+        "E": "Pulmonary embolism",
+        "F": "Spontaneous pneumothorax"
+      }
+    },
+    {
+      "case_id": "ddx_train_0858284",
+      "round": 7,
+      "prompt_sha256": "d6b3b470a906391fd53c6a8e7fab7bf52d40ba81d8c00cc6e253c908bd8121aa",
+      "anchor_token_index": 366,
+      "tokens": 367,
+      "code_to_disease": {
+        "A": "Acute pulmonary edema",
+        "B": "Pneumonia",
+        "C": "Bronchitis",
+        "D": "Bronchospasm / acute asthma exacerbation",
+        "E": "Pulmonary embolism",
+        "F": "Spontaneous pneumothorax"
+      }
+    },
+    {
+      "case_id": "ddx_train_0858284",
+      "round": 8,
+      "prompt_sha256": "50c2cf90221ae231f485b6c6e1c63dc4225195b617fb4d2b18ece6f2a81f9d94",
+      "anchor_token_index": 390,
+      "tokens": 391,
+      "code_to_disease": {
+        "A": "Acute pulmonary edema",
+        "B": "Pneumonia",
+        "C": "Bronchitis",
+        "D": "Bronchospasm / acute asthma exacerbation",
+        "E": "Pulmonary embolism",
+        "F": "Spontaneous pneumothorax"
+      }
+    },
+    {
+      "case_id": "ddx_train_0940128",
+      "round": 0,
+      "prompt_sha256": "a3a7141dee74158cddc81a8044d0549c1eb8ca85afc5470a969ea88bd83a1242",
+      "anchor_token_index": 210,
+      "tokens": 211,
+      "code_to_disease": {
+        "A": "Pneumonia",
+        "B": "Bronchitis",
+        "C": "Bronchospasm / acute asthma exacerbation",
+        "D": "Pulmonary embolism",
+        "E": "Spontaneous pneumothorax",
+        "F": "Acute pulmonary edema"
+      }
+    },
+    {
+      "case_id": "ddx_train_0940128",
+      "round": 1,
+      "prompt_sha256": "6aa7eb5ab87d9beb1fe03de67573a8b2a8641c5ce26d497cc4b21f8eb84585a2",
+      "anchor_token_index": 233,
+      "tokens": 234,
+      "code_to_disease": {
+        "A": "Pneumonia",
+        "B": "Bronchitis",
+        "C": "Bronchospasm / acute asthma exacerbation",
+        "D": "Pulmonary embolism",
+        "E": "Spontaneous pneumothorax",
+        "F": "Acute pulmonary edema"
+      }
+    },
+    {
+      "case_id": "ddx_train_0940128",
+      "round": 2,
+      "prompt_sha256": "5a6a03b6c6135750b0cdacbd865ee9c1ca97b5a7b66101cfa088b846ea898ff2",
+      "anchor_token_index": 389,
+      "tokens": 390,
+      "code_to_disease": {
+        "A": "Pneumonia",
+        "B": "Bronchitis",
+        "C": "Bronchospasm / acute asthma exacerbation",
+        "D": "Pulmonary embolism",
+        "E": "Spontaneous pneumothorax",
+        "F": "Acute pulmonary edema"
+      }
+    },
+    {
+      "case_id": "ddx_train_0940128",
+      "round": 3,
+      "prompt_sha256": "48ae94e5761f8ed47663714a9d39b7c67cc861be7fd2f433aa1b31594d27e52e",
+      "anchor_token_index": 405,
+      "tokens": 406,
+      "code_to_disease": {
+        "A": "Pneumonia",
+        "B": "Bronchitis",
+        "C": "Bronchospasm / acute asthma exacerbation",
+        "D": "Pulmonary embolism",
+        "E": "Spontaneous pneumothorax",
+        "F": "Acute pulmonary edema"
+      }
+    },
+    {
+      "case_id": "ddx_train_0940128",
+      "round": 4,
+      "prompt_sha256": "83e99ca1ef91e5bf563fc0f3a25723a5be1ad160487b2977c9f62e53b90e575c",
+      "anchor_token_index": 422,
+      "tokens": 423,
+      "code_to_disease": {
+        "A": "Pneumonia",
+        "B": "Bronchitis",
+        "C": "Bronchospasm / acute asthma exacerbation",
+        "D": "Pulmonary embolism",
+        "E": "Spontaneous pneumothorax",
+        "F": "Acute pulmonary edema"
+      }
+    },
+    {
+      "case_id": "ddx_train_0940128",
+      "round": 5,
+      "prompt_sha256": "815629b036c7df471b194bcfac82909750822a3666a5ffbf21815ef87a10f632",
+      "anchor_token_index": 438,
+      "tokens": 439,
+      "code_to_disease": {
+        "A": "Pneumonia",
+        "B": "Bronchitis",
+        "C": "Bronchospasm / acute asthma exacerbation",
+        "D": "Pulmonary embolism",
+        "E": "Spontaneous pneumothorax",
+        "F": "Acute pulmonary edema"
+      }
+    },
+    {
+      "case_id": "ddx_train_0940128",
+      "round": 6,
+      "prompt_sha256": "f6747738782a1de30cc230f50a64da3102e62684a8030fd65b9d4baf23af6269",
+      "anchor_token_index": 456,
+      "tokens": 457,
+      "code_to_disease": {
+        "A": "Pneumonia",
+        "B": "Bronchitis",
+        "C": "Bronchospasm / acute asthma exacerbation",
+        "D": "Pulmonary embolism",
+        "E": "Spontaneous pneumothorax",
+        "F": "Acute pulmonary edema"
+      }
+    },
+    {
+      "case_id": "ddx_train_0940128",
+      "round": 7,
+      "prompt_sha256": "f72c229e4b36b229c09d865fc26143e65fef3cdfdbce33c1186606338d309051",
+      "anchor_token_index": 475,
+      "tokens": 476,
+      "code_to_disease": {
+        "A": "Pneumonia",
+        "B": "Bronchitis",
+        "C": "Bronchospasm / acute asthma exacerbation",
+        "D": "Pulmonary embolism",
+        "E": "Spontaneous pneumothorax",
+        "F": "Acute pulmonary edema"
+      }
+    },
+    {
+      "case_id": "ddx_train_0940128",
+      "round": 8,
+      "prompt_sha256": "fe8fc837496aa4a07f12eaebb0370164cd69309161cba1b7efbb6b3d88d6a263",
+      "anchor_token_index": 499,
+      "tokens": 500,
+      "code_to_disease": {
+        "A": "Pneumonia",
+        "B": "Bronchitis",
+        "C": "Bronchospasm / acute asthma exacerbation",
+        "D": "Pulmonary embolism",
+        "E": "Spontaneous pneumothorax",
+        "F": "Acute pulmonary edema"
+      }
+    },
+    {
+      "case_id": "ddx_train_0851760",
+      "round": 0,
+      "prompt_sha256": "278625e96debe61b4f322843269bbbfc673d9a5f302b030e694c57555acf8230",
+      "anchor_token_index": 210,
+      "tokens": 211,
+      "code_to_disease": {
+        "A": "Bronchitis",
+        "B": "Bronchospasm / acute asthma exacerbation",
+        "C": "Pulmonary embolism",
+        "D": "Spontaneous pneumothorax",
+        "E": "Acute pulmonary edema",
+        "F": "Pneumonia"
+      }
+    },
+    {
+      "case_id": "ddx_train_0851760",
+      "round": 1,
+      "prompt_sha256": "0a1308d8017a6fe40c1bf4cbe4ada10e49cf17e266b2f9ab274da488e2038499",
+      "anchor_token_index": 235,
+      "tokens": 236,
+      "code_to_disease": {
+        "A": "Bronchitis",
+        "B": "Bronchospasm / acute asthma exacerbation",
+        "C": "Pulmonary embolism",
+        "D": "Spontaneous pneumothorax",
+        "E": "Acute pulmonary edema",
+        "F": "Pneumonia"
+      }
+    },
+    {
+      "case_id": "ddx_train_0851760",
+      "round": 2,
+      "prompt_sha256": "5fb4dd357249fc83b5d25a7e814649554ff05bb56439bb7be5dfb89d03c49f64",
+      "anchor_token_index": 252,
+      "tokens": 253,
+      "code_to_disease": {
+        "A": "Bronchitis",
+        "B": "Bronchospasm / acute asthma exacerbation",
+        "C": "Pulmonary embolism",
+        "D": "Spontaneous pneumothorax",
+        "E": "Acute pulmonary edema",
+        "F": "Pneumonia"
+      }
+    },
+    {
+      "case_id": "ddx_train_0851760",
+      "round": 3,
+      "prompt_sha256": "b911538530f6210b6e9f0827c4dc9a7964506c9042c7c2c13b86c396c5ac6db6",
+      "anchor_token_index": 275,
+      "tokens": 276,
+      "code_to_disease": {
+        "A": "Bronchitis",
+        "B": "Bronchospasm / acute asthma exacerbation",
+        "C": "Pulmonary embolism",
+        "D": "Spontaneous pneumothorax",
+        "E": "Acute pulmonary edema",
+        "F": "Pneumonia"
+      }
+    },
+    {
+      "case_id": "ddx_train_0851760",
+      "round": 4,
+      "prompt_sha256": "2c810eff0ee3d4dec00e0b3ae245841fb0feef990df04e8c808f8d1da753a1d2",
+      "anchor_token_index": 308,
+      "tokens": 309,
+      "code_to_disease": {
+        "A": "Bronchitis",
+        "B": "Bronchospasm / acute asthma exacerbation",
+        "C": "Pulmonary embolism",
+        "D": "Spontaneous pneumothorax",
+        "E": "Acute pulmonary edema",
+        "F": "Pneumonia"
+      }
+    },
+    {
+      "case_id": "ddx_train_0851760",
+      "round": 5,
+      "prompt_sha256": "aaca097bcd4988731c3e287ea427002a7d9b41dfd7b93be842b238ed65646a02",
+      "anchor_token_index": 327,
+      "tokens": 328,
+      "code_to_disease": {
+        "A": "Bronchitis",
+        "B": "Bronchospasm / acute asthma exacerbation",
+        "C": "Pulmonary embolism",
+        "D": "Spontaneous pneumothorax",
+        "E": "Acute pulmonary edema",
+        "F": "Pneumonia"
+      }
+    },
+    {
+      "case_id": "ddx_train_0851760",
+      "round": 6,
+      "prompt_sha256": "e033a22ec42db36c795f04482dbd530f02bd000e2ffa412e2ec6c6eb07931e3a",
+      "anchor_token_index": 342,
+      "tokens": 343,
+      "code_to_disease": {
+        "A": "Bronchitis",
+        "B": "Bronchospasm / acute asthma exacerbation",
+        "C": "Pulmonary embolism",
+        "D": "Spontaneous pneumothorax",
+        "E": "Acute pulmonary edema",
+        "F": "Pneumonia"
+      }
+    },
+    {
+      "case_id": "ddx_train_0851760",
+      "round": 7,
+      "prompt_sha256": "f94e6e9ba9e4cc3dba6bb5e1ba2e9aab5133fe1f2e5194f3ed9eb6b756b1b45a",
+      "anchor_token_index": 376,
+      "tokens": 377,
+      "code_to_disease": {
+        "A": "Bronchitis",
+        "B": "Bronchospasm / acute asthma exacerbation",
+        "C": "Pulmonary embolism",
+        "D": "Spontaneous pneumothorax",
+        "E": "Acute pulmonary edema",
+        "F": "Pneumonia"
+      }
+    },
+    {
+      "case_id": "ddx_train_0851760",
+      "round": 8,
+      "prompt_sha256": "ae7db521d8256144af3be6da8af658f58b53fd1a4b5cc2074e900f1425c03ff4",
+      "anchor_token_index": 520,
+      "tokens": 521,
+      "code_to_disease": {
+        "A": "Bronchitis",
+        "B": "Bronchospasm / acute asthma exacerbation",
+        "C": "Pulmonary embolism",
+        "D": "Spontaneous pneumothorax",
+        "E": "Acute pulmonary edema",
+        "F": "Pneumonia"
+      }
+    },
+    {
+      "case_id": "ddx_train_0868644",
+      "round": 0,
+      "prompt_sha256": "9324d0962e9ec844cd9c64284bb20613c796d1c636b658ddedb7c1ab03716268",
+      "anchor_token_index": 212,
+      "tokens": 213,
+      "code_to_disease": {
+        "A": "Bronchospasm / acute asthma exacerbation",
+        "B": "Pulmonary embolism",
+        "C": "Spontaneous pneumothorax",
+        "D": "Acute pulmonary edema",
+        "E": "Pneumonia",
+        "F": "Bronchitis"
+      }
+    },
+    {
+      "case_id": "ddx_train_0868644",
+      "round": 1,
+      "prompt_sha256": "af397440a90e454cd0ee1f2129b0eede5dbf1f9432a7e5c288fa559454b343ec",
+      "anchor_token_index": 227,
+      "tokens": 228,
+      "code_to_disease": {
+        "A": "Bronchospasm / acute asthma exacerbation",
+        "B": "Pulmonary embolism",
+        "C": "Spontaneous pneumothorax",
+        "D": "Acute pulmonary edema",
+        "E": "Pneumonia",
+        "F": "Bronchitis"
+      }
+    },
+    {
+      "case_id": "ddx_train_0868644",
+      "round": 2,
+      "prompt_sha256": "4d54717196474be4780e38122a35f94cb93e8f4b3b1a366d57c63ea41a12ac2a",
+      "anchor_token_index": 254,
+      "tokens": 255,
+      "code_to_disease": {
+        "A": "Bronchospasm / acute asthma exacerbation",
+        "B": "Pulmonary embolism",
+        "C": "Spontaneous pneumothorax",
+        "D": "Acute pulmonary edema",
+        "E": "Pneumonia",
+        "F": "Bronchitis"
+      }
+    },
+    {
+      "case_id": "ddx_train_0868644",
+      "round": 3,
+      "prompt_sha256": "1b255fd2b8403dadb42e79046b553ae19043ad9ef1b9a7d8cbe8ed982dbf89bc",
+      "anchor_token_index": 368,
+      "tokens": 369,
+      "code_to_disease": {
+        "A": "Bronchospasm / acute asthma exacerbation",
+        "B": "Pulmonary embolism",
+        "C": "Spontaneous pneumothorax",
+        "D": "Acute pulmonary edema",
+        "E": "Pneumonia",
+        "F": "Bronchitis"
+      }
+    },
+    {
+      "case_id": "ddx_train_0868644",
+      "round": 4,
+      "prompt_sha256": "e3b1fd184e8b62370db28efe6b0e43227f12404c777a5ffbb6d3a7d527d14e55",
+      "anchor_token_index": 392,
+      "tokens": 393,
+      "code_to_disease": {
+        "A": "Bronchospasm / acute asthma exacerbation",
+        "B": "Pulmonary embolism",
+        "C": "Spontaneous pneumothorax",
+        "D": "Acute pulmonary edema",
+        "E": "Pneumonia",
+        "F": "Bronchitis"
+      }
+    },
+    {
+      "case_id": "ddx_train_0868644",
+      "round": 5,
+      "prompt_sha256": "486a85c433d615999404e357ff275778a4937fc6ffad2236b06d8240b9bc70cb",
+      "anchor_token_index": 413,
+      "tokens": 414,
+      "code_to_disease": {
+        "A": "Bronchospasm / acute asthma exacerbation",
+        "B": "Pulmonary embolism",
+        "C": "Spontaneous pneumothorax",
+        "D": "Acute pulmonary edema",
+        "E": "Pneumonia",
+        "F": "Bronchitis"
+      }
+    },
+    {
+      "case_id": "ddx_train_0868644",
+      "round": 6,
+      "prompt_sha256": "0fbc59537c2b0153443df4c5ca123eb04d8cbd9355516e0232d7d41e3b675a9f",
+      "anchor_token_index": 436,
+      "tokens": 437,
+      "code_to_disease": {
+        "A": "Bronchospasm / acute asthma exacerbation",
+        "B": "Pulmonary embolism",
+        "C": "Spontaneous pneumothorax",
+        "D": "Acute pulmonary edema",
+        "E": "Pneumonia",
+        "F": "Bronchitis"
+      }
+    },
+    {
+      "case_id": "ddx_train_0868644",
+      "round": 7,
+      "prompt_sha256": "a063ad13923b209d81130f6ccf9f5185d7d205166c5bf770fd21e66c4a9c66ba",
+      "anchor_token_index": 455,
+      "tokens": 456,
+      "code_to_disease": {
+        "A": "Bronchospasm / acute asthma exacerbation",
+        "B": "Pulmonary embolism",
+        "C": "Spontaneous pneumothorax",
+        "D": "Acute pulmonary edema",
+        "E": "Pneumonia",
+        "F": "Bronchitis"
+      }
+    },
+    {
+      "case_id": "ddx_train_0868644",
+      "round": 8,
+      "prompt_sha256": "0f699a91fdf410a29674b47b68f7beefd36a3801e3caf964b142784edf4e64a9",
+      "anchor_token_index": 479,
+      "tokens": 480,
+      "code_to_disease": {
+        "A": "Bronchospasm / acute asthma exacerbation",
+        "B": "Pulmonary embolism",
+        "C": "Spontaneous pneumothorax",
+        "D": "Acute pulmonary edema",
+        "E": "Pneumonia",
+        "F": "Bronchitis"
+      }
+    },
+    {
+      "case_id": "ddx_train_0937832",
+      "round": 0,
+      "prompt_sha256": "7cfe2cb7fd59fb9868f1b3af477188e3fd256cc476266d9492497351199884c8",
+      "anchor_token_index": 300,
+      "tokens": 301,
+      "code_to_disease": {
+        "A": "Pulmonary embolism",
+        "B": "Spontaneous pneumothorax",
+        "C": "Acute pulmonary edema",
+        "D": "Pneumonia",
+        "E": "Bronchitis",
+        "F": "Bronchospasm / acute asthma exacerbation"
+      }
+    },
+    {
+      "case_id": "ddx_train_0937832",
+      "round": 1,
+      "prompt_sha256": "182dac13de17a38cd63399ae702f3d550b307d4873d285326ac2b3ce9e0b2617",
+      "anchor_token_index": 325,
+      "tokens": 326,
+      "code_to_disease": {
+        "A": "Pulmonary embolism",
+        "B": "Spontaneous pneumothorax",
+        "C": "Acute pulmonary edema",
+        "D": "Pneumonia",
+        "E": "Bronchitis",
+        "F": "Bronchospasm / acute asthma exacerbation"
+      }
+    },
+    {
+      "case_id": "ddx_train_0937832",
+      "round": 2,
+      "prompt_sha256": "ab8845456684d1f8f17998125814f5cf9bf892a6a90409972b20b8ae5ae400e5",
+      "anchor_token_index": 346,
+      "tokens": 347,
+      "code_to_disease": {
+        "A": "Pulmonary embolism",
+        "B": "Spontaneous pneumothorax",
+        "C": "Acute pulmonary edema",
+        "D": "Pneumonia",
+        "E": "Bronchitis",
+        "F": "Bronchospasm / acute asthma exacerbation"
+      }
+    },
+    {
+      "case_id": "ddx_train_0937832",
+      "round": 3,
+      "prompt_sha256": "965a8d602adcc8c4c9006a9e64c72b31459814ef2eddfc94b5706aa0dbe57bd9",
+      "anchor_token_index": 365,
+      "tokens": 366,
+      "code_to_disease": {
+        "A": "Pulmonary embolism",
+        "B": "Spontaneous pneumothorax",
+        "C": "Acute pulmonary edema",
+        "D": "Pneumonia",
+        "E": "Bronchitis",
+        "F": "Bronchospasm / acute asthma exacerbation"
+      }
+    },
+    {
+      "case_id": "ddx_train_0937832",
+      "round": 4,
+      "prompt_sha256": "699d15e8a301d99bdecae1338fd14342783196ff4860973a136d96865d9089a2",
+      "anchor_token_index": 389,
+      "tokens": 390,
+      "code_to_disease": {
+        "A": "Pulmonary embolism",
+        "B": "Spontaneous pneumothorax",
+        "C": "Acute pulmonary edema",
+        "D": "Pneumonia",
+        "E": "Bronchitis",
+        "F": "Bronchospasm / acute asthma exacerbation"
+      }
+    },
+    {
+      "case_id": "ddx_train_0937832",
+      "round": 5,
+      "prompt_sha256": "6ec10ea3faef9fbe1ae77ddd7a86fe4b479c440cc0a203be5e7c5081b2a51f21",
+      "anchor_token_index": 404,
+      "tokens": 405,
+      "code_to_disease": {
+        "A": "Pulmonary embolism",
+        "B": "Spontaneous pneumothorax",
+        "C": "Acute pulmonary edema",
+        "D": "Pneumonia",
+        "E": "Bronchitis",
+        "F": "Bronchospasm / acute asthma exacerbation"
+      }
+    },
+    {
+      "case_id": "ddx_train_0937832",
+      "round": 6,
+      "prompt_sha256": "b17c66d9b18a3a04ffcf5bd1ba5ca671810df637cc670ddc7ef37fb7484c3115",
+      "anchor_token_index": 427,
+      "tokens": 428,
+      "code_to_disease": {
+        "A": "Pulmonary embolism",
+        "B": "Spontaneous pneumothorax",
+        "C": "Acute pulmonary edema",
+        "D": "Pneumonia",
+        "E": "Bronchitis",
+        "F": "Bronchospasm / acute asthma exacerbation"
+      }
+    },
+    {
+      "case_id": "ddx_train_0937832",
+      "round": 7,
+      "prompt_sha256": "14adeab1aa2a71b72a3e2a042818bf0b3b1c00cc1705aaa4a69fb7d4a866c21b",
+      "anchor_token_index": 451,
+      "tokens": 452,
+      "code_to_disease": {
+        "A": "Pulmonary embolism",
+        "B": "Spontaneous pneumothorax",
+        "C": "Acute pulmonary edema",
+        "D": "Pneumonia",
+        "E": "Bronchitis",
+        "F": "Bronchospasm / acute asthma exacerbation"
+      }
+    },
+    {
+      "case_id": "ddx_train_0937832",
+      "round": 8,
+      "prompt_sha256": "a1154c5a574b8328fc0d46b83975e5232b63b85a0564b952e33a3b264b652f07",
+      "anchor_token_index": 478,
+      "tokens": 479,
+      "code_to_disease": {
+        "A": "Pulmonary embolism",
+        "B": "Spontaneous pneumothorax",
+        "C": "Acute pulmonary edema",
+        "D": "Pneumonia",
+        "E": "Bronchitis",
+        "F": "Bronchospasm / acute asthma exacerbation"
+      }
+    },
+    {
+      "case_id": "ddx_train_0874944",
+      "round": 0,
+      "prompt_sha256": "bf3c24d3badad506ddc7fe96eabc11a0502f719f9bd98d152cdb5e97e73f873c",
+      "anchor_token_index": 232,
+      "tokens": 233,
+      "code_to_disease": {
+        "A": "Spontaneous pneumothorax",
+        "B": "Acute pulmonary edema",
+        "C": "Pneumonia",
+        "D": "Bronchitis",
+        "E": "Bronchospasm / acute asthma exacerbation",
+        "F": "Pulmonary embolism"
+      }
+    },
+    {
+      "case_id": "ddx_train_0874944",
+      "round": 1,
+      "prompt_sha256": "c407319270a71282f5f5e29d5f3737a886ec36e44e5583262c3ba324931e71d5",
+      "anchor_token_index": 257,
+      "tokens": 258,
+      "code_to_disease": {
+        "A": "Spontaneous pneumothorax",
+        "B": "Acute pulmonary edema",
+        "C": "Pneumonia",
+        "D": "Bronchitis",
+        "E": "Bronchospasm / acute asthma exacerbation",
+        "F": "Pulmonary embolism"
+      }
+    },
+    {
+      "case_id": "ddx_train_0874944",
+      "round": 2,
+      "prompt_sha256": "ff508a667a8be264dc829d98456d306078f1e5008899b75536ef2266bbf80dd3",
+      "anchor_token_index": 274,
+      "tokens": 275,
+      "code_to_disease": {
+        "A": "Spontaneous pneumothorax",
+        "B": "Acute pulmonary edema",
+        "C": "Pneumonia",
+        "D": "Bronchitis",
+        "E": "Bronchospasm / acute asthma exacerbation",
+        "F": "Pulmonary embolism"
+      }
+    },
+    {
+      "case_id": "ddx_train_0874944",
+      "round": 3,
+      "prompt_sha256": "2381c3214fd93ba0180765af7c4146a047e37e939c81b219b16fb159d4dc81da",
+      "anchor_token_index": 406,
+      "tokens": 407,
+      "code_to_disease": {
+        "A": "Spontaneous pneumothorax",
+        "B": "Acute pulmonary edema",
+        "C": "Pneumonia",
+        "D": "Bronchitis",
+        "E": "Bronchospasm / acute asthma exacerbation",
+        "F": "Pulmonary embolism"
+      }
+    },
+    {
+      "case_id": "ddx_train_0874944",
+      "round": 4,
+      "prompt_sha256": "bca2556bfaac99e2a7d1b07a411f9ad08b72246943c38860463e321f17067b49",
+      "anchor_token_index": 422,
+      "tokens": 423,
+      "code_to_disease": {
+        "A": "Spontaneous pneumothorax",
+        "B": "Acute pulmonary edema",
+        "C": "Pneumonia",
+        "D": "Bronchitis",
+        "E": "Bronchospasm / acute asthma exacerbation",
+        "F": "Pulmonary embolism"
+      }
+    },
+    {
+      "case_id": "ddx_train_0874944",
+      "round": 5,
+      "prompt_sha256": "78d21e43188090e8bd9a14938019485365f31ba41aac4f601ed2473b3df4bc96",
+      "anchor_token_index": 449,
+      "tokens": 450,
+      "code_to_disease": {
+        "A": "Spontaneous pneumothorax",
+        "B": "Acute pulmonary edema",
+        "C": "Pneumonia",
+        "D": "Bronchitis",
+        "E": "Bronchospasm / acute asthma exacerbation",
+        "F": "Pulmonary embolism"
+      }
+    },
+    {
+      "case_id": "ddx_train_0874944",
+      "round": 6,
+      "prompt_sha256": "4ba85f02fb370065959a05ed53cc7313391b891dc3a9840abf5b7fc66db2f9d1",
+      "anchor_token_index": 476,
+      "tokens": 477,
+      "code_to_disease": {
+        "A": "Spontaneous pneumothorax",
+        "B": "Acute pulmonary edema",
+        "C": "Pneumonia",
+        "D": "Bronchitis",
+        "E": "Bronchospasm / acute asthma exacerbation",
+        "F": "Pulmonary embolism"
+      }
+    },
+    {
+      "case_id": "ddx_train_0874944",
+      "round": 7,
+      "prompt_sha256": "6711a6b221a9629b237522ef30c6536ecd4b9fc4a135034ea70e02aaaf9409db",
+      "anchor_token_index": 524,
+      "tokens": 525,
+      "code_to_disease": {
+        "A": "Spontaneous pneumothorax",
+        "B": "Acute pulmonary edema",
+        "C": "Pneumonia",
+        "D": "Bronchitis",
+        "E": "Bronchospasm / acute asthma exacerbation",
+        "F": "Pulmonary embolism"
+      }
+    },
+    {
+      "case_id": "ddx_train_0874944",
+      "round": 8,
+      "prompt_sha256": "d5291c4a7594a78dffe2b24f23bcff3dc551ecb9bc80e44c8d6e88262593c00c",
+      "anchor_token_index": 548,
+      "tokens": 549,
+      "code_to_disease": {
+        "A": "Spontaneous pneumothorax",
+        "B": "Acute pulmonary edema",
+        "C": "Pneumonia",
+        "D": "Bronchitis",
+        "E": "Bronchospasm / acute asthma exacerbation",
+        "F": "Pulmonary embolism"
+      }
+    },
+    {
+      "case_id": "ddx_train_0874944",
+      "round": 9,
+      "prompt_sha256": "38091ec77fe3ec701071e8b951b1c2531b02db3c50081aa89e3d910303cb5b27",
+      "anchor_token_index": 565,
+      "tokens": 566,
+      "code_to_disease": {
+        "A": "Spontaneous pneumothorax",
+        "B": "Acute pulmonary edema",
+        "C": "Pneumonia",
+        "D": "Bronchitis",
+        "E": "Bronchospasm / acute asthma exacerbation",
+        "F": "Pulmonary embolism"
+      }
+    },
+    {
+      "case_id": "ddx_train_0874944",
+      "round": 10,
+      "prompt_sha256": "13ff1ec1d15b30b19d68fe9a0e0395bf63d9532a271e3f71a7e9cced6aa873a8",
+      "anchor_token_index": 585,
+      "tokens": 586,
+      "code_to_disease": {
+        "A": "Spontaneous pneumothorax",
+        "B": "Acute pulmonary edema",
+        "C": "Pneumonia",
+        "D": "Bronchitis",
+        "E": "Bronchospasm / acute asthma exacerbation",
+        "F": "Pulmonary embolism"
+      }
+    },
+    {
+      "case_id": "ddx_train_0857920",
+      "round": 0,
+      "prompt_sha256": "ff9640d7d6a78baf3450bfe8e060903225b4d80422dc4e6adec4fb74de7da4be",
+      "anchor_token_index": 214,
+      "tokens": 215,
+      "code_to_disease": {
+        "A": "Acute pulmonary edema",
+        "B": "Pneumonia",
+        "C": "Bronchitis",
+        "D": "Bronchospasm / acute asthma exacerbation",
+        "E": "Pulmonary embolism",
+        "F": "Spontaneous pneumothorax"
+      }
+    },
+    {
+      "case_id": "ddx_train_0857920",
+      "round": 1,
+      "prompt_sha256": "e6db4638a6880a34ae3849e8a9b32b46128bb6cdce546ddb46fb6c7d3be0edaf",
+      "anchor_token_index": 238,
+      "tokens": 239,
+      "code_to_disease": {
+        "A": "Acute pulmonary edema",
+        "B": "Pneumonia",
+        "C": "Bronchitis",
+        "D": "Bronchospasm / acute asthma exacerbation",
+        "E": "Pulmonary embolism",
+        "F": "Spontaneous pneumothorax"
+      }
+    },
+    {
+      "case_id": "ddx_train_0857920",
+      "round": 2,
+      "prompt_sha256": "310a754567e983dbf56078b5ab5014bfd8a2b0c8947a9e721858bd452b50a005",
+      "anchor_token_index": 285,
+      "tokens": 286,
+      "code_to_disease": {
+        "A": "Acute pulmonary edema",
+        "B": "Pneumonia",
+        "C": "Bronchitis",
+        "D": "Bronchospasm / acute asthma exacerbation",
+        "E": "Pulmonary embolism",
+        "F": "Spontaneous pneumothorax"
+      }
+    },
+    {
+      "case_id": "ddx_train_0857920",
+      "round": 3,
+      "prompt_sha256": "3b41da1bc88db6d0e5ffe44dee02bae655f2b17af45450df42a82db2d285c785",
+      "anchor_token_index": 304,
+      "tokens": 305,
+      "code_to_disease": {
+        "A": "Acute pulmonary edema",
+        "B": "Pneumonia",
+        "C": "Bronchitis",
+        "D": "Bronchospasm / acute asthma exacerbation",
+        "E": "Pulmonary embolism",
+        "F": "Spontaneous pneumothorax"
+      }
+    },
+    {
+      "case_id": "ddx_train_0857920",
+      "round": 4,
+      "prompt_sha256": "5b7e5ca1d05a4672d2d4b83873fbfe5eab1d6c464922ba4986097cff26ac421b",
+      "anchor_token_index": 329,
+      "tokens": 330,
+      "code_to_disease": {
+        "A": "Acute pulmonary edema",
+        "B": "Pneumonia",
+        "C": "Bronchitis",
+        "D": "Bronchospasm / acute asthma exacerbation",
+        "E": "Pulmonary embolism",
+        "F": "Spontaneous pneumothorax"
+      }
+    },
+    {
+      "case_id": "ddx_train_0857920",
+      "round": 5,
+      "prompt_sha256": "8b25eddc0e467e994d6f4a1cda607e92eee21dbd8d7a4cc6cd882cc52d41e3fc",
+      "anchor_token_index": 356,
+      "tokens": 357,
+      "code_to_disease": {
+        "A": "Acute pulmonary edema",
+        "B": "Pneumonia",
+        "C": "Bronchitis",
+        "D": "Bronchospasm / acute asthma exacerbation",
+        "E": "Pulmonary embolism",
+        "F": "Spontaneous pneumothorax"
+      }
+    },
+    {
+      "case_id": "ddx_train_0857920",
+      "round": 6,
+      "prompt_sha256": "403519d2ed4e2a3aaecbd6327a20698e0f0324180677673b2dd28a3ab8f03743",
+      "anchor_token_index": 373,
+      "tokens": 374,
+      "code_to_disease": {
+        "A": "Acute pulmonary edema",
+        "B": "Pneumonia",
+        "C": "Bronchitis",
+        "D": "Bronchospasm / acute asthma exacerbation",
+        "E": "Pulmonary embolism",
+        "F": "Spontaneous pneumothorax"
+      }
+    },
+    {
+      "case_id": "ddx_train_0857920",
+      "round": 7,
+      "prompt_sha256": "33b8063607d3fb93a666b320b35df2a243c81341a3a92d564470b58c2a724db3",
+      "anchor_token_index": 400,
+      "tokens": 401,
+      "code_to_disease": {
+        "A": "Acute pulmonary edema",
+        "B": "Pneumonia",
+        "C": "Bronchitis",
+        "D": "Bronchospasm / acute asthma exacerbation",
+        "E": "Pulmonary embolism",
+        "F": "Spontaneous pneumothorax"
+      }
+    },
+    {
+      "case_id": "ddx_train_0857920",
+      "round": 8,
+      "prompt_sha256": "0bf2f17211dba75c4dd170a9f0d6291b71d3cb6244b29a06e05a870b2486a423",
+      "anchor_token_index": 428,
+      "tokens": 429,
+      "code_to_disease": {
+        "A": "Acute pulmonary edema",
+        "B": "Pneumonia",
+        "C": "Bronchitis",
+        "D": "Bronchospasm / acute asthma exacerbation",
+        "E": "Pulmonary embolism",
+        "F": "Spontaneous pneumothorax"
+      }
+    },
+    {
+      "case_id": "ddx_train_0857920",
+      "round": 9,
+      "prompt_sha256": "d74b9997915c052c6aa1525cfb5c52c0c26fca93680ab450d1f6b6c823a998a6",
+      "anchor_token_index": 445,
+      "tokens": 446,
+      "code_to_disease": {
+        "A": "Acute pulmonary edema",
+        "B": "Pneumonia",
+        "C": "Bronchitis",
+        "D": "Bronchospasm / acute asthma exacerbation",
+        "E": "Pulmonary embolism",
+        "F": "Spontaneous pneumothorax"
+      }
+    },
+    {
+      "case_id": "ddx_train_0857920",
+      "round": 10,
+      "prompt_sha256": "ad34e7334188b7c76b522232cfa7eb56743a133b01218589be2637b213bad276",
+      "anchor_token_index": 462,
+      "tokens": 463,
+      "code_to_disease": {
+        "A": "Acute pulmonary edema",
+        "B": "Pneumonia",
+        "C": "Bronchitis",
+        "D": "Bronchospasm / acute asthma exacerbation",
+        "E": "Pulmonary embolism",
+        "F": "Spontaneous pneumothorax"
+      }
+    },
+    {
+      "case_id": "ddx_train_0857920",
+      "round": 11,
+      "prompt_sha256": "d1ea2aceed2093ab69c4b9a3dec9b352f624fdeeeeda89389f3845944f21db51",
+      "anchor_token_index": 600,
+      "tokens": 601,
+      "code_to_disease": {
+        "A": "Acute pulmonary edema",
+        "B": "Pneumonia",
+        "C": "Bronchitis",
+        "D": "Bronchospasm / acute asthma exacerbation",
+        "E": "Pulmonary embolism",
+        "F": "Spontaneous pneumothorax"
+      }
+    }
+  ],
+  "source_sha256": "5d20fd929970abe7ece8aa92e449436b66639561f6954dbb61dac3c3577a995e",
+  "tokenizer_files_sha256": {
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "f45a828b27bfe1ae2080246d6de51c29370a0978f15b3299123830d5ba9e08a1"
+  },
+  "api_cost_usd": 0
+}

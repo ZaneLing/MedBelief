@@ -1,0 +1,2377 @@
+{
+  "diseases": [
+    "Acute COPD exacerbation / infection",
+    "Acute dystonic reactions",
+    "Acute laryngitis",
+    "Acute otitis media",
+    "Acute pulmonary edema",
+    "Acute rhinosinusitis",
+    "Allergic sinusitis",
+    "Anaphylaxis",
+    "Anemia",
+    "Atrial fibrillation",
+    "Boerhaave",
+    "Bronchiectasis",
+    "Bronchiolitis",
+    "Bronchitis",
+    "Bronchospasm / acute asthma exacerbation",
+    "Chagas",
+    "Chronic rhinosinusitis",
+    "Cluster headache",
+    "Croup",
+    "Ebola",
+    "Epiglottitis",
+    "GERD",
+    "Guillain-Barré syndrome",
+    "HIV (initial infection)",
+    "Influenza",
+    "Inguinal hernia",
+    "Larygospasm",
+    "Localized edema",
+    "Myasthenia gravis",
+    "Myocarditis",
+    "PSVT",
+    "Pancreatic neoplasm",
+    "Panic attack",
+    "Pericarditis",
+    "Pneumonia",
+    "Possible NSTEMI / STEMI",
+    "Pulmonary embolism",
+    "Pulmonary neoplasm",
+    "SLE",
+    "Sarcoidosis",
+    "Scombroid food poisoning",
+    "Spontaneous pneumothorax",
+    "Spontaneous rib fracture",
+    "Stable angina",
+    "Tuberculosis",
+    "URTI",
+    "Unstable angina",
+    "Viral pharyngitis",
+    "Whooping cough"
+  ],
+  "allowed_evidence": {
+    "Spontaneous pneumothorax": [
+      "E_123",
+      "E_14",
+      "E_151",
+      "E_165",
+      "E_204",
+      "E_21",
+      "E_218",
+      "E_220",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66",
+      "E_79"
+    ],
+    "Cluster headache": [
+      "E_127",
+      "E_176",
+      "E_181",
+      "E_184",
+      "E_204",
+      "E_25",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_78"
+    ],
+    "Boerhaave": [
+      "E_148",
+      "E_204",
+      "E_210",
+      "E_211",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66",
+      "E_78"
+    ],
+    "Spontaneous rib fracture": [
+      "E_151",
+      "E_153",
+      "E_201",
+      "E_203",
+      "E_204",
+      "E_216",
+      "E_220",
+      "E_37",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66",
+      "E_78"
+    ],
+    "GERD": [
+      "E_124",
+      "E_140",
+      "E_167",
+      "E_173",
+      "E_201",
+      "E_204",
+      "E_210",
+      "E_215",
+      "E_217",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_70",
+      "E_78",
+      "E_79",
+      "E_98"
+    ],
+    "HIV (initial infection)": [
+      "E_115",
+      "E_129",
+      "E_130",
+      "E_131",
+      "E_132",
+      "E_133",
+      "E_134",
+      "E_135",
+      "E_136",
+      "E_144",
+      "E_148",
+      "E_162",
+      "E_189",
+      "E_204",
+      "E_27",
+      "E_50",
+      "E_51",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_61",
+      "E_88",
+      "E_9",
+      "E_91",
+      "E_97"
+    ],
+    "Anemia": [
+      "E_113",
+      "E_140",
+      "E_145",
+      "E_146",
+      "E_154",
+      "E_167",
+      "E_179",
+      "E_204",
+      "E_208",
+      "E_24",
+      "E_26",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66",
+      "E_7",
+      "E_76",
+      "E_82",
+      "E_88",
+      "E_89"
+    ],
+    "Viral pharyngitis": [
+      "E_181",
+      "E_201",
+      "E_204",
+      "E_227",
+      "E_41",
+      "E_45",
+      "E_48",
+      "E_49",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_79",
+      "E_91"
+    ],
+    "Inguinal hernia": [
+      "E_129",
+      "E_130",
+      "E_131",
+      "E_132",
+      "E_133",
+      "E_134",
+      "E_135",
+      "E_136",
+      "E_150",
+      "E_160",
+      "E_203",
+      "E_204",
+      "E_221",
+      "E_30",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_70"
+    ],
+    "Myasthenia gravis": [
+      "E_172",
+      "E_176",
+      "E_204",
+      "E_28",
+      "E_38",
+      "E_52",
+      "E_63",
+      "E_65",
+      "E_66",
+      "E_84",
+      "E_90"
+    ],
+    "Whooping cough": [
+      "E_112",
+      "E_124",
+      "E_166",
+      "E_203",
+      "E_204",
+      "E_209",
+      "E_40",
+      "E_70"
+    ],
+    "Anaphylaxis": [
+      "E_12",
+      "E_129",
+      "E_130",
+      "E_131",
+      "E_132",
+      "E_133",
+      "E_134",
+      "E_135",
+      "E_136",
+      "E_148",
+      "E_151",
+      "E_152",
+      "E_159",
+      "E_194",
+      "E_204",
+      "E_214",
+      "E_226",
+      "E_42",
+      "E_51",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66",
+      "E_82"
+    ],
+    "Epiglottitis": [
+      "E_104",
+      "E_190",
+      "E_194",
+      "E_204",
+      "E_209",
+      "E_212",
+      "E_33",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_62",
+      "E_65",
+      "E_66",
+      "E_69",
+      "E_78",
+      "E_91"
+    ],
+    "Guillain-Barré syndrome": [
+      "E_0",
+      "E_156",
+      "E_157",
+      "E_176",
+      "E_177",
+      "E_204",
+      "E_66",
+      "E_83",
+      "E_84",
+      "E_93"
+    ],
+    "Acute laryngitis": [
+      "E_116",
+      "E_201",
+      "E_204",
+      "E_212",
+      "E_48",
+      "E_49",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_79",
+      "E_91"
+    ],
+    "Croup": [
+      "E_181",
+      "E_190",
+      "E_194",
+      "E_202",
+      "E_204",
+      "E_209",
+      "E_219",
+      "E_4",
+      "E_66",
+      "E_91"
+    ],
+    "PSVT": [
+      "E_155",
+      "E_16",
+      "E_204",
+      "E_213",
+      "E_35",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_60",
+      "E_62",
+      "E_66",
+      "E_76",
+      "E_82"
+    ],
+    "Atrial fibrillation": [
+      "E_104",
+      "E_105",
+      "E_139",
+      "E_155",
+      "E_164",
+      "E_19",
+      "E_204",
+      "E_218",
+      "E_22",
+      "E_31",
+      "E_66",
+      "E_69",
+      "E_70",
+      "E_76"
+    ],
+    "Bronchiectasis": [
+      "E_118",
+      "E_123",
+      "E_124",
+      "E_17",
+      "E_18",
+      "E_20",
+      "E_201",
+      "E_204",
+      "E_227",
+      "E_45",
+      "E_47",
+      "E_66",
+      "E_77"
+    ],
+    "Allergic sinusitis": [
+      "E_124",
+      "E_169",
+      "E_170",
+      "E_181",
+      "E_201",
+      "E_204",
+      "E_207",
+      "E_226",
+      "E_86",
+      "E_87"
+    ],
+    "Chagas": [
+      "E_148",
+      "E_151",
+      "E_152",
+      "E_174",
+      "E_175",
+      "E_204",
+      "E_51",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66",
+      "E_9",
+      "E_91"
+    ],
+    "Scombroid food poisoning": [
+      "E_129",
+      "E_130",
+      "E_131",
+      "E_132",
+      "E_133",
+      "E_134",
+      "E_135",
+      "E_136",
+      "E_148",
+      "E_155",
+      "E_187",
+      "E_204",
+      "E_214",
+      "E_51",
+      "E_66",
+      "E_82",
+      "E_92"
+    ],
+    "Myocarditis": [
+      "E_0",
+      "E_114",
+      "E_155",
+      "E_175",
+      "E_204",
+      "E_217",
+      "E_218",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_64",
+      "E_66"
+    ],
+    "Larygospasm": [
+      "E_116",
+      "E_124",
+      "E_125",
+      "E_194",
+      "E_204",
+      "E_222",
+      "E_79"
+    ],
+    "Acute dystonic reactions": [
+      "E_128",
+      "E_147",
+      "E_15",
+      "E_168",
+      "E_172",
+      "E_180",
+      "E_192",
+      "E_193",
+      "E_204",
+      "E_205",
+      "E_62",
+      "E_66"
+    ],
+    "Localized edema": [
+      "E_10",
+      "E_106",
+      "E_109",
+      "E_126",
+      "E_137",
+      "E_149",
+      "E_151",
+      "E_152",
+      "E_158",
+      "E_186",
+      "E_197",
+      "E_204",
+      "E_217",
+      "E_22",
+      "E_44",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66",
+      "E_67",
+      "E_96"
+    ],
+    "SLE": [
+      "E_102",
+      "E_11",
+      "E_129",
+      "E_130",
+      "E_131",
+      "E_132",
+      "E_133",
+      "E_135",
+      "E_136",
+      "E_141",
+      "E_151",
+      "E_204",
+      "E_206",
+      "E_3",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66",
+      "E_79",
+      "E_89"
+    ],
+    "Tuberculosis": [
+      "E_162",
+      "E_2",
+      "E_201",
+      "E_204",
+      "E_208",
+      "E_44",
+      "E_45",
+      "E_61",
+      "E_66",
+      "E_69",
+      "E_78",
+      "E_91"
+    ],
+    "Unstable angina": [
+      "E_104",
+      "E_105",
+      "E_13",
+      "E_14",
+      "E_143",
+      "E_148",
+      "E_204",
+      "E_218",
+      "E_225",
+      "E_50",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66",
+      "E_69",
+      "E_70",
+      "E_71",
+      "E_78",
+      "E_79",
+      "E_89"
+    ],
+    "Stable angina": [
+      "E_104",
+      "E_105",
+      "E_143",
+      "E_204",
+      "E_218",
+      "E_225",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66",
+      "E_69",
+      "E_70",
+      "E_71",
+      "E_78",
+      "E_79",
+      "E_89"
+    ],
+    "Ebola": [
+      "E_144",
+      "E_148",
+      "E_178",
+      "E_201",
+      "E_204",
+      "E_39",
+      "E_41",
+      "E_51",
+      "E_66",
+      "E_73",
+      "E_89",
+      "E_91",
+      "E_97"
+    ],
+    "Acute otitis media": [
+      "E_1",
+      "E_114",
+      "E_181",
+      "E_201",
+      "E_204",
+      "E_209",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_91"
+    ],
+    "Panic attack": [
+      "E_111",
+      "E_124",
+      "E_138",
+      "E_148",
+      "E_155",
+      "E_157",
+      "E_16",
+      "E_171",
+      "E_177",
+      "E_185",
+      "E_204",
+      "E_29",
+      "E_50",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66",
+      "E_75",
+      "E_78",
+      "E_80",
+      "E_81",
+      "E_82",
+      "E_99"
+    ],
+    "Bronchospasm / acute asthma exacerbation": [
+      "E_101",
+      "E_116",
+      "E_119",
+      "E_124",
+      "E_201",
+      "E_204",
+      "E_207",
+      "E_214",
+      "E_222",
+      "E_226",
+      "E_46",
+      "E_66",
+      "E_87"
+    ],
+    "Bronchitis": [
+      "E_123",
+      "E_181",
+      "E_201",
+      "E_204",
+      "E_209",
+      "E_214",
+      "E_219",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66",
+      "E_77",
+      "E_79",
+      "E_91",
+      "E_97"
+    ],
+    "Acute COPD exacerbation / infection": [
+      "E_123",
+      "E_125",
+      "E_198",
+      "E_199",
+      "E_200",
+      "E_201",
+      "E_204",
+      "E_214",
+      "E_31",
+      "E_66",
+      "E_72",
+      "E_77",
+      "E_79"
+    ],
+    "Pulmonary embolism": [
+      "E_100",
+      "E_109",
+      "E_110",
+      "E_151",
+      "E_152",
+      "E_159",
+      "E_196",
+      "E_204",
+      "E_220",
+      "E_34",
+      "E_45",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66"
+    ],
+    "URTI": [
+      "E_144",
+      "E_181",
+      "E_201",
+      "E_204",
+      "E_222",
+      "E_41",
+      "E_48",
+      "E_49",
+      "E_50",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_77",
+      "E_79",
+      "E_91",
+      "E_97"
+    ],
+    "Influenza": [
+      "E_129",
+      "E_130",
+      "E_131",
+      "E_132",
+      "E_133",
+      "E_134",
+      "E_135",
+      "E_136",
+      "E_144",
+      "E_161",
+      "E_181",
+      "E_201",
+      "E_204",
+      "E_227",
+      "E_50",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_79",
+      "E_88",
+      "E_91",
+      "E_94",
+      "E_97"
+    ],
+    "Pneumonia": [
+      "E_106",
+      "E_107",
+      "E_118",
+      "E_123",
+      "E_124",
+      "E_129",
+      "E_130",
+      "E_131",
+      "E_132",
+      "E_133",
+      "E_134",
+      "E_135",
+      "E_136",
+      "E_144",
+      "E_161",
+      "E_175",
+      "E_181",
+      "E_196",
+      "E_201",
+      "E_204",
+      "E_208",
+      "E_209",
+      "E_219",
+      "E_220",
+      "E_45",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66",
+      "E_77",
+      "E_78",
+      "E_79",
+      "E_91",
+      "E_94",
+      "E_95"
+    ],
+    "Acute rhinosinusitis": [
+      "E_103",
+      "E_116",
+      "E_118",
+      "E_120",
+      "E_121",
+      "E_124",
+      "E_125",
+      "E_181",
+      "E_182",
+      "E_201",
+      "E_204",
+      "E_209",
+      "E_226",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_79",
+      "E_91"
+    ],
+    "Chronic rhinosinusitis": [
+      "E_103",
+      "E_116",
+      "E_118",
+      "E_120",
+      "E_121",
+      "E_124",
+      "E_125",
+      "E_181",
+      "E_182",
+      "E_201",
+      "E_204",
+      "E_226",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_79"
+    ],
+    "Bronchiolitis": [
+      "E_142",
+      "E_181",
+      "E_183",
+      "E_195",
+      "E_201",
+      "E_204",
+      "E_209",
+      "E_214",
+      "E_23",
+      "E_32",
+      "E_48",
+      "E_66",
+      "E_91"
+    ],
+    "Pulmonary neoplasm": [
+      "E_161",
+      "E_162",
+      "E_191",
+      "E_201",
+      "E_204",
+      "E_222",
+      "E_224",
+      "E_45",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66",
+      "E_79",
+      "E_89"
+    ],
+    "Possible NSTEMI / STEMI": [
+      "E_104",
+      "E_105",
+      "E_108",
+      "E_148",
+      "E_161",
+      "E_191",
+      "E_2",
+      "E_204",
+      "E_225",
+      "E_50",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66",
+      "E_69",
+      "E_70",
+      "E_71",
+      "E_79",
+      "E_89"
+    ],
+    "Sarcoidosis": [
+      "E_129",
+      "E_130",
+      "E_131",
+      "E_132",
+      "E_133",
+      "E_134",
+      "E_135",
+      "E_136",
+      "E_163",
+      "E_198",
+      "E_204",
+      "E_43",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66",
+      "E_70",
+      "E_74",
+      "E_9"
+    ],
+    "Pancreatic neoplasm": [
+      "E_129",
+      "E_130",
+      "E_131",
+      "E_132",
+      "E_133",
+      "E_134",
+      "E_135",
+      "E_136",
+      "E_148",
+      "E_162",
+      "E_188",
+      "E_201",
+      "E_204",
+      "E_223",
+      "E_51",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_6",
+      "E_69",
+      "E_70",
+      "E_79",
+      "E_89"
+    ],
+    "Acute pulmonary edema": [
+      "E_104",
+      "E_105",
+      "E_106",
+      "E_151",
+      "E_152",
+      "E_175",
+      "E_204",
+      "E_217",
+      "E_218",
+      "E_5",
+      "E_50",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66",
+      "E_67",
+      "E_8"
+    ],
+    "Pericarditis": [
+      "E_0",
+      "E_155",
+      "E_204",
+      "E_217",
+      "E_220",
+      "E_3",
+      "E_53",
+      "E_54",
+      "E_55",
+      "E_56",
+      "E_57",
+      "E_58",
+      "E_59",
+      "E_66"
+    ]
+  },
+  "support_by_evidence": {
+    "E_91": [
+      "Acute laryngitis",
+      "Acute otitis media",
+      "Acute rhinosinusitis",
+      "Bronchiolitis",
+      "Bronchitis",
+      "Chagas",
+      "Croup",
+      "Ebola",
+      "Epiglottitis",
+      "HIV (initial infection)",
+      "Influenza",
+      "Pneumonia",
+      "Tuberculosis",
+      "URTI",
+      "Viral pharyngitis"
+    ],
+    "E_55": [
+      "Acute laryngitis",
+      "Acute otitis media",
+      "Acute pulmonary edema",
+      "Acute rhinosinusitis",
+      "Anaphylaxis",
+      "Anemia",
+      "Boerhaave",
+      "Bronchitis",
+      "Chagas",
+      "Chronic rhinosinusitis",
+      "Cluster headache",
+      "Epiglottitis",
+      "GERD",
+      "HIV (initial infection)",
+      "Influenza",
+      "Inguinal hernia",
+      "Localized edema",
+      "Myocarditis",
+      "PSVT",
+      "Pancreatic neoplasm",
+      "Panic attack",
+      "Pericarditis",
+      "Pneumonia",
+      "Possible NSTEMI / STEMI",
+      "Pulmonary embolism",
+      "Pulmonary neoplasm",
+      "SLE",
+      "Sarcoidosis",
+      "Spontaneous pneumothorax",
+      "Spontaneous rib fracture",
+      "Stable angina",
+      "URTI",
+      "Unstable angina",
+      "Viral pharyngitis"
+    ],
+    "E_53": [
+      "Acute laryngitis",
+      "Acute otitis media",
+      "Acute pulmonary edema",
+      "Acute rhinosinusitis",
+      "Anaphylaxis",
+      "Anemia",
+      "Boerhaave",
+      "Bronchitis",
+      "Chagas",
+      "Chronic rhinosinusitis",
+      "Cluster headache",
+      "Epiglottitis",
+      "GERD",
+      "HIV (initial infection)",
+      "Influenza",
+      "Inguinal hernia",
+      "Localized edema",
+      "Myocarditis",
+      "PSVT",
+      "Pancreatic neoplasm",
+      "Panic attack",
+      "Pericarditis",
+      "Pneumonia",
+      "Possible NSTEMI / STEMI",
+      "Pulmonary embolism",
+      "Pulmonary neoplasm",
+      "SLE",
+      "Sarcoidosis",
+      "Spontaneous pneumothorax",
+      "Spontaneous rib fracture",
+      "Stable angina",
+      "URTI",
+      "Unstable angina",
+      "Viral pharyngitis"
+    ],
+    "E_57": [
+      "Acute laryngitis",
+      "Acute otitis media",
+      "Acute pulmonary edema",
+      "Acute rhinosinusitis",
+      "Anaphylaxis",
+      "Anemia",
+      "Boerhaave",
+      "Bronchitis",
+      "Chagas",
+      "Chronic rhinosinusitis",
+      "Cluster headache",
+      "Epiglottitis",
+      "GERD",
+      "HIV (initial infection)",
+      "Influenza",
+      "Inguinal hernia",
+      "Localized edema",
+      "Myocarditis",
+      "PSVT",
+      "Pancreatic neoplasm",
+      "Panic attack",
+      "Pericarditis",
+      "Pneumonia",
+      "Possible NSTEMI / STEMI",
+      "Pulmonary embolism",
+      "Pulmonary neoplasm",
+      "SLE",
+      "Sarcoidosis",
+      "Spontaneous pneumothorax",
+      "Spontaneous rib fracture",
+      "Stable angina",
+      "URTI",
+      "Unstable angina",
+      "Viral pharyngitis"
+    ],
+    "E_54": [
+      "Acute laryngitis",
+      "Acute otitis media",
+      "Acute pulmonary edema",
+      "Acute rhinosinusitis",
+      "Anaphylaxis",
+      "Anemia",
+      "Boerhaave",
+      "Bronchitis",
+      "Chagas",
+      "Chronic rhinosinusitis",
+      "Cluster headache",
+      "Epiglottitis",
+      "GERD",
+      "HIV (initial infection)",
+      "Influenza",
+      "Inguinal hernia",
+      "Localized edema",
+      "Myocarditis",
+      "PSVT",
+      "Pancreatic neoplasm",
+      "Panic attack",
+      "Pericarditis",
+      "Pneumonia",
+      "Possible NSTEMI / STEMI",
+      "Pulmonary embolism",
+      "Pulmonary neoplasm",
+      "SLE",
+      "Sarcoidosis",
+      "Spontaneous pneumothorax",
+      "Spontaneous rib fracture",
+      "Stable angina",
+      "URTI",
+      "Unstable angina",
+      "Viral pharyngitis"
+    ],
+    "E_59": [
+      "Acute laryngitis",
+      "Acute otitis media",
+      "Acute pulmonary edema",
+      "Acute rhinosinusitis",
+      "Anaphylaxis",
+      "Anemia",
+      "Boerhaave",
+      "Bronchitis",
+      "Chagas",
+      "Chronic rhinosinusitis",
+      "Cluster headache",
+      "Epiglottitis",
+      "GERD",
+      "HIV (initial infection)",
+      "Influenza",
+      "Inguinal hernia",
+      "Localized edema",
+      "Myocarditis",
+      "PSVT",
+      "Pancreatic neoplasm",
+      "Panic attack",
+      "Pericarditis",
+      "Pneumonia",
+      "Possible NSTEMI / STEMI",
+      "Pulmonary embolism",
+      "Pulmonary neoplasm",
+      "SLE",
+      "Sarcoidosis",
+      "Spontaneous pneumothorax",
+      "Spontaneous rib fracture",
+      "Stable angina",
+      "URTI",
+      "Unstable angina",
+      "Viral pharyngitis"
+    ],
+    "E_56": [
+      "Acute laryngitis",
+      "Acute otitis media",
+      "Acute pulmonary edema",
+      "Acute rhinosinusitis",
+      "Anaphylaxis",
+      "Anemia",
+      "Boerhaave",
+      "Bronchitis",
+      "Chagas",
+      "Chronic rhinosinusitis",
+      "Cluster headache",
+      "Epiglottitis",
+      "GERD",
+      "HIV (initial infection)",
+      "Influenza",
+      "Inguinal hernia",
+      "Localized edema",
+      "Myocarditis",
+      "PSVT",
+      "Pancreatic neoplasm",
+      "Panic attack",
+      "Pericarditis",
+      "Pneumonia",
+      "Possible NSTEMI / STEMI",
+      "Pulmonary embolism",
+      "Pulmonary neoplasm",
+      "SLE",
+      "Sarcoidosis",
+      "Spontaneous pneumothorax",
+      "Spontaneous rib fracture",
+      "Stable angina",
+      "URTI",
+      "Unstable angina",
+      "Viral pharyngitis"
+    ],
+    "E_58": [
+      "Acute laryngitis",
+      "Acute otitis media",
+      "Acute pulmonary edema",
+      "Acute rhinosinusitis",
+      "Anaphylaxis",
+      "Anemia",
+      "Boerhaave",
+      "Bronchitis",
+      "Chagas",
+      "Chronic rhinosinusitis",
+      "Cluster headache",
+      "Epiglottitis",
+      "GERD",
+      "HIV (initial infection)",
+      "Influenza",
+      "Inguinal hernia",
+      "Localized edema",
+      "Myocarditis",
+      "PSVT",
+      "Pancreatic neoplasm",
+      "Panic attack",
+      "Pericarditis",
+      "Pneumonia",
+      "Possible NSTEMI / STEMI",
+      "Pulmonary embolism",
+      "Pulmonary neoplasm",
+      "SLE",
+      "Sarcoidosis",
+      "Spontaneous pneumothorax",
+      "Spontaneous rib fracture",
+      "Stable angina",
+      "URTI",
+      "Unstable angina",
+      "Viral pharyngitis"
+    ],
+    "E_159": [
+      "Anaphylaxis",
+      "Pulmonary embolism"
+    ],
+    "E_133": [
+      "Anaphylaxis",
+      "HIV (initial infection)",
+      "Influenza",
+      "Inguinal hernia",
+      "Pancreatic neoplasm",
+      "Pneumonia",
+      "SLE",
+      "Sarcoidosis",
+      "Scombroid food poisoning"
+    ],
+    "E_129": [
+      "Anaphylaxis",
+      "HIV (initial infection)",
+      "Influenza",
+      "Inguinal hernia",
+      "Pancreatic neoplasm",
+      "Pneumonia",
+      "SLE",
+      "Sarcoidosis",
+      "Scombroid food poisoning"
+    ],
+    "E_130": [
+      "Anaphylaxis",
+      "HIV (initial infection)",
+      "Influenza",
+      "Inguinal hernia",
+      "Pancreatic neoplasm",
+      "Pneumonia",
+      "SLE",
+      "Sarcoidosis",
+      "Scombroid food poisoning"
+    ],
+    "E_134": [
+      "Anaphylaxis",
+      "HIV (initial infection)",
+      "Influenza",
+      "Inguinal hernia",
+      "Pancreatic neoplasm",
+      "Pneumonia",
+      "Sarcoidosis",
+      "Scombroid food poisoning"
+    ],
+    "E_132": [
+      "Anaphylaxis",
+      "HIV (initial infection)",
+      "Influenza",
+      "Inguinal hernia",
+      "Pancreatic neoplasm",
+      "Pneumonia",
+      "SLE",
+      "Sarcoidosis",
+      "Scombroid food poisoning"
+    ],
+    "E_136": [
+      "Anaphylaxis",
+      "HIV (initial infection)",
+      "Influenza",
+      "Inguinal hernia",
+      "Pancreatic neoplasm",
+      "Pneumonia",
+      "SLE",
+      "Sarcoidosis",
+      "Scombroid food poisoning"
+    ],
+    "E_135": [
+      "Anaphylaxis",
+      "HIV (initial infection)",
+      "Influenza",
+      "Inguinal hernia",
+      "Pancreatic neoplasm",
+      "Pneumonia",
+      "SLE",
+      "Sarcoidosis",
+      "Scombroid food poisoning"
+    ],
+    "E_131": [
+      "Anaphylaxis",
+      "HIV (initial infection)",
+      "Influenza",
+      "Inguinal hernia",
+      "Pancreatic neoplasm",
+      "Pneumonia",
+      "SLE",
+      "Sarcoidosis",
+      "Scombroid food poisoning"
+    ],
+    "E_154": [
+      "Anemia"
+    ],
+    "E_155": [
+      "Atrial fibrillation",
+      "Myocarditis",
+      "PSVT",
+      "Panic attack",
+      "Pericarditis",
+      "Scombroid food poisoning"
+    ],
+    "E_210": [
+      "Boerhaave",
+      "GERD"
+    ],
+    "E_140": [
+      "Anemia",
+      "GERD"
+    ],
+    "E_51": [
+      "Anaphylaxis",
+      "Chagas",
+      "Ebola",
+      "HIV (initial infection)",
+      "Pancreatic neoplasm",
+      "Scombroid food poisoning"
+    ],
+    "E_75": [
+      "Panic attack"
+    ],
+    "E_89": [
+      "Anemia",
+      "Ebola",
+      "Pancreatic neoplasm",
+      "Possible NSTEMI / STEMI",
+      "Pulmonary neoplasm",
+      "SLE",
+      "Stable angina",
+      "Unstable angina"
+    ],
+    "E_114": [
+      "Acute otitis media",
+      "Myocarditis"
+    ],
+    "E_82": [
+      "Anaphylaxis",
+      "Anemia",
+      "PSVT",
+      "Panic attack",
+      "Scombroid food poisoning"
+    ],
+    "E_148": [
+      "Anaphylaxis",
+      "Boerhaave",
+      "Chagas",
+      "Ebola",
+      "HIV (initial infection)",
+      "Pancreatic neoplasm",
+      "Panic attack",
+      "Possible NSTEMI / STEMI",
+      "Scombroid food poisoning",
+      "Unstable angina"
+    ],
+    "E_94": [
+      "Influenza",
+      "Pneumonia"
+    ],
+    "E_220": [
+      "Pericarditis",
+      "Pneumonia",
+      "Pulmonary embolism",
+      "Spontaneous pneumothorax",
+      "Spontaneous rib fracture"
+    ],
+    "E_161": [
+      "Influenza",
+      "Pneumonia",
+      "Possible NSTEMI / STEMI",
+      "Pulmonary neoplasm"
+    ],
+    "E_179": [
+      "Anemia"
+    ],
+    "E_162": [
+      "HIV (initial infection)",
+      "Pancreatic neoplasm",
+      "Pulmonary neoplasm",
+      "Tuberculosis"
+    ],
+    "E_173": [
+      "GERD"
+    ],
+    "E_33": [
+      "Epiglottitis"
+    ],
+    "E_218": [
+      "Acute pulmonary edema",
+      "Atrial fibrillation",
+      "Myocarditis",
+      "Spontaneous pneumothorax",
+      "Stable angina",
+      "Unstable angina"
+    ],
+    "E_93": [
+      "Guillain-Barré syndrome"
+    ],
+    "E_66": [
+      "Acute COPD exacerbation / infection",
+      "Acute dystonic reactions",
+      "Acute pulmonary edema",
+      "Anaphylaxis",
+      "Anemia",
+      "Atrial fibrillation",
+      "Boerhaave",
+      "Bronchiectasis",
+      "Bronchiolitis",
+      "Bronchitis",
+      "Bronchospasm / acute asthma exacerbation",
+      "Chagas",
+      "Croup",
+      "Ebola",
+      "Epiglottitis",
+      "Guillain-Barré syndrome",
+      "Localized edema",
+      "Myasthenia gravis",
+      "Myocarditis",
+      "PSVT",
+      "Panic attack",
+      "Pericarditis",
+      "Pneumonia",
+      "Possible NSTEMI / STEMI",
+      "Pulmonary embolism",
+      "Pulmonary neoplasm",
+      "SLE",
+      "Sarcoidosis",
+      "Scombroid food poisoning",
+      "Spontaneous pneumothorax",
+      "Spontaneous rib fracture",
+      "Stable angina",
+      "Tuberculosis",
+      "Unstable angina"
+    ],
+    "E_163": [
+      "Sarcoidosis"
+    ],
+    "E_30": [
+      "Inguinal hernia"
+    ],
+    "E_127": [
+      "Cluster headache"
+    ],
+    "E_181": [
+      "Acute otitis media",
+      "Acute rhinosinusitis",
+      "Allergic sinusitis",
+      "Bronchiolitis",
+      "Bronchitis",
+      "Chronic rhinosinusitis",
+      "Cluster headache",
+      "Croup",
+      "Influenza",
+      "Pneumonia",
+      "URTI",
+      "Viral pharyngitis"
+    ],
+    "E_88": [
+      "Anemia",
+      "HIV (initial infection)",
+      "Influenza"
+    ],
+    "E_43": [
+      "Sarcoidosis"
+    ],
+    "E_156": [
+      "Guillain-Barré syndrome"
+    ],
+    "E_144": [
+      "Ebola",
+      "HIV (initial infection)",
+      "Influenza",
+      "Pneumonia",
+      "URTI"
+    ],
+    "E_216": [
+      "Spontaneous rib fracture"
+    ],
+    "E_201": [
+      "Acute COPD exacerbation / infection",
+      "Acute laryngitis",
+      "Acute otitis media",
+      "Acute rhinosinusitis",
+      "Allergic sinusitis",
+      "Bronchiectasis",
+      "Bronchiolitis",
+      "Bronchitis",
+      "Bronchospasm / acute asthma exacerbation",
+      "Chronic rhinosinusitis",
+      "Ebola",
+      "GERD",
+      "Influenza",
+      "Pancreatic neoplasm",
+      "Pneumonia",
+      "Pulmonary neoplasm",
+      "Spontaneous rib fracture",
+      "Tuberculosis",
+      "URTI",
+      "Viral pharyngitis"
+    ],
+    "E_217": [
+      "Acute pulmonary edema",
+      "GERD",
+      "Localized edema",
+      "Myocarditis",
+      "Pericarditis"
+    ],
+    "E_215": [
+      "GERD"
+    ],
+    "E_64": [
+      "Myocarditis"
+    ],
+    "E_96": [
+      "Localized edema"
+    ],
+    "E_16": [
+      "PSVT",
+      "Panic attack"
+    ],
+    "E_50": [
+      "Acute pulmonary edema",
+      "HIV (initial infection)",
+      "Influenza",
+      "Panic attack",
+      "Possible NSTEMI / STEMI",
+      "URTI",
+      "Unstable angina"
+    ],
+    "E_97": [
+      "Bronchitis",
+      "Ebola",
+      "HIV (initial infection)",
+      "Influenza",
+      "URTI"
+    ],
+    "E_9": [
+      "Chagas",
+      "HIV (initial infection)",
+      "Sarcoidosis"
+    ],
+    "E_76": [
+      "Anemia",
+      "Atrial fibrillation",
+      "PSVT"
+    ],
+    "E_102": [
+      "SLE"
+    ],
+    "E_65": [
+      "Epiglottitis",
+      "Myasthenia gravis"
+    ],
+    "E_74": [
+      "Sarcoidosis"
+    ],
+    "E_205": [
+      "Acute dystonic reactions"
+    ],
+    "E_63": [
+      "Myasthenia gravis"
+    ],
+    "E_128": [
+      "Acute dystonic reactions"
+    ],
+    "E_190": [
+      "Croup",
+      "Epiglottitis"
+    ],
+    "E_39": [
+      "Ebola"
+    ],
+    "E_212": [
+      "Acute laryngitis",
+      "Epiglottitis"
+    ],
+    "E_206": [
+      "SLE"
+    ],
+    "E_52": [
+      "Myasthenia gravis"
+    ],
+    "E_203": [
+      "Inguinal hernia",
+      "Spontaneous rib fracture",
+      "Whooping cough"
+    ],
+    "E_38": [
+      "Myasthenia gravis"
+    ],
+    "E_172": [
+      "Acute dystonic reactions",
+      "Myasthenia gravis"
+    ],
+    "E_84": [
+      "Guillain-Barré syndrome",
+      "Myasthenia gravis"
+    ],
+    "E_90": [
+      "Myasthenia gravis"
+    ],
+    "E_211": [
+      "Boerhaave"
+    ],
+    "E_166": [
+      "Whooping cough"
+    ],
+    "E_112": [
+      "Whooping cough"
+    ],
+    "E_178": [
+      "Ebola"
+    ],
+    "E_152": [
+      "Acute pulmonary edema",
+      "Anaphylaxis",
+      "Chagas",
+      "Localized edema",
+      "Pulmonary embolism"
+    ],
+    "E_151": [
+      "Acute pulmonary edema",
+      "Anaphylaxis",
+      "Chagas",
+      "Localized edema",
+      "Pulmonary embolism",
+      "SLE",
+      "Spontaneous pneumothorax",
+      "Spontaneous rib fracture"
+    ],
+    "E_45": [
+      "Bronchiectasis",
+      "Pneumonia",
+      "Pulmonary embolism",
+      "Pulmonary neoplasm",
+      "Tuberculosis",
+      "Viral pharyngitis"
+    ],
+    "E_194": [
+      "Anaphylaxis",
+      "Croup",
+      "Epiglottitis",
+      "Larygospasm"
+    ],
+    "E_83": [
+      "Guillain-Barré syndrome"
+    ],
+    "E_157": [
+      "Guillain-Barré syndrome",
+      "Panic attack"
+    ],
+    "E_176": [
+      "Cluster headache",
+      "Guillain-Barré syndrome",
+      "Myasthenia gravis"
+    ],
+    "E_42": [
+      "Anaphylaxis"
+    ],
+    "E_214": [
+      "Acute COPD exacerbation / infection",
+      "Anaphylaxis",
+      "Bronchiolitis",
+      "Bronchitis",
+      "Bronchospasm / acute asthma exacerbation",
+      "Scombroid food poisoning"
+    ],
+    "E_150": [
+      "Inguinal hernia"
+    ],
+    "E_32": [
+      "Bronchiolitis"
+    ],
+    "E_221": [
+      "Inguinal hernia"
+    ],
+    "E_202": [
+      "Croup"
+    ],
+    "E_219": [
+      "Bronchitis",
+      "Croup",
+      "Pneumonia"
+    ],
+    "E_196": [
+      "Pneumonia",
+      "Pulmonary embolism"
+    ],
+    "E_170": [
+      "Allergic sinusitis"
+    ],
+    "E_77": [
+      "Acute COPD exacerbation / infection",
+      "Bronchiectasis",
+      "Bronchitis",
+      "Pneumonia",
+      "URTI"
+    ],
+    "E_13": [
+      "Unstable angina"
+    ],
+    "E_14": [
+      "Spontaneous pneumothorax",
+      "Unstable angina"
+    ],
+    "E_169": [
+      "Allergic sinusitis"
+    ],
+    "E_177": [
+      "Guillain-Barré syndrome",
+      "Panic attack"
+    ],
+    "E_175": [
+      "Acute pulmonary edema",
+      "Chagas",
+      "Myocarditis",
+      "Pneumonia"
+    ],
+    "E_174": [
+      "Chagas"
+    ],
+    "E_145": [
+      "Anemia"
+    ],
+    "E_92": [
+      "Scombroid food poisoning"
+    ],
+    "E_192": [
+      "Acute dystonic reactions"
+    ],
+    "E_188": [
+      "Pancreatic neoplasm"
+    ],
+    "E_164": [
+      "Atrial fibrillation"
+    ],
+    "E_193": [
+      "Acute dystonic reactions"
+    ],
+    "E_168": [
+      "Acute dystonic reactions"
+    ],
+    "E_180": [
+      "Acute dystonic reactions"
+    ],
+    "E_67": [
+      "Acute pulmonary edema",
+      "Localized edema"
+    ],
+    "E_78": [
+      "Boerhaave",
+      "Cluster headache",
+      "Epiglottitis",
+      "GERD",
+      "Panic attack",
+      "Pneumonia",
+      "Spontaneous rib fracture",
+      "Stable angina",
+      "Tuberculosis",
+      "Unstable angina"
+    ],
+    "E_146": [
+      "Anemia"
+    ],
+    "E_171": [
+      "Panic attack"
+    ],
+    "E_111": [
+      "Panic attack"
+    ],
+    "E_182": [
+      "Acute rhinosinusitis",
+      "Chronic rhinosinusitis"
+    ],
+    "E_103": [
+      "Acute rhinosinusitis",
+      "Chronic rhinosinusitis"
+    ],
+    "E_23": [
+      "Bronchiolitis"
+    ],
+    "E_105": [
+      "Acute pulmonary edema",
+      "Atrial fibrillation",
+      "Possible NSTEMI / STEMI",
+      "Stable angina",
+      "Unstable angina"
+    ],
+    "E_108": [
+      "Possible NSTEMI / STEMI"
+    ],
+    "E_104": [
+      "Acute pulmonary edema",
+      "Atrial fibrillation",
+      "Epiglottitis",
+      "Possible NSTEMI / STEMI",
+      "Stable angina",
+      "Unstable angina"
+    ],
+    "E_79": [
+      "Acute COPD exacerbation / infection",
+      "Acute laryngitis",
+      "Acute rhinosinusitis",
+      "Bronchitis",
+      "Chronic rhinosinusitis",
+      "GERD",
+      "Influenza",
+      "Larygospasm",
+      "Pancreatic neoplasm",
+      "Pneumonia",
+      "Possible NSTEMI / STEMI",
+      "Pulmonary neoplasm",
+      "SLE",
+      "Spontaneous pneumothorax",
+      "Stable angina",
+      "URTI",
+      "Unstable angina",
+      "Viral pharyngitis"
+    ],
+    "E_71": [
+      "Possible NSTEMI / STEMI",
+      "Stable angina",
+      "Unstable angina"
+    ],
+    "E_41": [
+      "Ebola",
+      "URTI",
+      "Viral pharyngitis"
+    ],
+    "E_100": [
+      "Pulmonary embolism"
+    ],
+    "E_69": [
+      "Atrial fibrillation",
+      "Epiglottitis",
+      "Pancreatic neoplasm",
+      "Possible NSTEMI / STEMI",
+      "Stable angina",
+      "Tuberculosis",
+      "Unstable angina"
+    ],
+    "E_167": [
+      "Anemia",
+      "GERD"
+    ],
+    "E_115": [
+      "HIV (initial infection)"
+    ],
+    "E_70": [
+      "Atrial fibrillation",
+      "GERD",
+      "Inguinal hernia",
+      "Pancreatic neoplasm",
+      "Possible NSTEMI / STEMI",
+      "Sarcoidosis",
+      "Stable angina",
+      "Unstable angina",
+      "Whooping cough"
+    ],
+    "E_10": [
+      "Localized edema"
+    ],
+    "E_165": [
+      "Spontaneous pneumothorax"
+    ],
+    "E_8": [
+      "Acute pulmonary edema"
+    ],
+    "E_25": [
+      "Cluster headache"
+    ],
+    "E_184": [
+      "Cluster headache"
+    ],
+    "E_185": [
+      "Panic attack"
+    ],
+    "E_99": [
+      "Panic attack"
+    ],
+    "E_107": [
+      "Pneumonia"
+    ],
+    "E_226": [
+      "Acute rhinosinusitis",
+      "Allergic sinusitis",
+      "Anaphylaxis",
+      "Bronchospasm / acute asthma exacerbation",
+      "Chronic rhinosinusitis"
+    ],
+    "E_62": [
+      "Acute dystonic reactions",
+      "Epiglottitis",
+      "PSVT"
+    ],
+    "E_49": [
+      "Acute laryngitis",
+      "URTI",
+      "Viral pharyngitis"
+    ],
+    "E_95": [
+      "Pneumonia"
+    ],
+    "E_204": [
+      "Acute COPD exacerbation / infection",
+      "Acute dystonic reactions",
+      "Acute laryngitis",
+      "Acute otitis media",
+      "Acute pulmonary edema",
+      "Acute rhinosinusitis",
+      "Allergic sinusitis",
+      "Anaphylaxis",
+      "Anemia",
+      "Atrial fibrillation",
+      "Boerhaave",
+      "Bronchiectasis",
+      "Bronchiolitis",
+      "Bronchitis",
+      "Bronchospasm / acute asthma exacerbation",
+      "Chagas",
+      "Chronic rhinosinusitis",
+      "Cluster headache",
+      "Croup",
+      "Ebola",
+      "Epiglottitis",
+      "GERD",
+      "Guillain-Barré syndrome",
+      "HIV (initial infection)",
+      "Influenza",
+      "Inguinal hernia",
+      "Larygospasm",
+      "Localized edema",
+      "Myasthenia gravis",
+      "Myocarditis",
+      "PSVT",
+      "Pancreatic neoplasm",
+      "Panic attack",
+      "Pericarditis",
+      "Pneumonia",
+      "Possible NSTEMI / STEMI",
+      "Pulmonary embolism",
+      "Pulmonary neoplasm",
+      "SLE",
+      "Sarcoidosis",
+      "Scombroid food poisoning",
+      "Spontaneous pneumothorax",
+      "Spontaneous rib fracture",
+      "Stable angina",
+      "Tuberculosis",
+      "URTI",
+      "Unstable angina",
+      "Viral pharyngitis",
+      "Whooping cough"
+    ],
+    "E_37": [
+      "Spontaneous rib fracture"
+    ],
+    "E_153": [
+      "Spontaneous rib fracture"
+    ],
+    "E_124": [
+      "Acute rhinosinusitis",
+      "Allergic sinusitis",
+      "Bronchiectasis",
+      "Bronchospasm / acute asthma exacerbation",
+      "Chronic rhinosinusitis",
+      "GERD",
+      "Larygospasm",
+      "Panic attack",
+      "Pneumonia",
+      "Whooping cough"
+    ],
+    "E_98": [
+      "GERD"
+    ],
+    "E_116": [
+      "Acute laryngitis",
+      "Acute rhinosinusitis",
+      "Bronchospasm / acute asthma exacerbation",
+      "Chronic rhinosinusitis",
+      "Larygospasm"
+    ],
+    "E_48": [
+      "Acute laryngitis",
+      "Bronchiolitis",
+      "URTI",
+      "Viral pharyngitis"
+    ],
+    "E_2": [
+      "Possible NSTEMI / STEMI",
+      "Tuberculosis"
+    ],
+    "E_227": [
+      "Bronchiectasis",
+      "Influenza",
+      "Viral pharyngitis"
+    ],
+    "E_61": [
+      "HIV (initial infection)",
+      "Tuberculosis"
+    ],
+    "E_47": [
+      "Bronchiectasis"
+    ],
+    "E_27": [
+      "HIV (initial infection)"
+    ],
+    "E_143": [
+      "Stable angina",
+      "Unstable angina"
+    ],
+    "E_191": [
+      "Possible NSTEMI / STEMI",
+      "Pulmonary neoplasm"
+    ],
+    "E_208": [
+      "Anemia",
+      "Pneumonia",
+      "Tuberculosis"
+    ],
+    "E_126": [
+      "Localized edema"
+    ],
+    "E_189": [
+      "HIV (initial infection)"
+    ],
+    "E_7": [
+      "Anemia"
+    ],
+    "E_24": [
+      "Anemia"
+    ],
+    "E_26": [
+      "Anemia"
+    ],
+    "E_113": [
+      "Anemia"
+    ],
+    "E_160": [
+      "Inguinal hernia"
+    ],
+    "E_28": [
+      "Myasthenia gravis"
+    ],
+    "E_20": [
+      "Bronchiectasis"
+    ],
+    "E_80": [
+      "Panic attack"
+    ],
+    "E_40": [
+      "Whooping cough"
+    ],
+    "E_0": [
+      "Guillain-Barré syndrome",
+      "Myocarditis",
+      "Pericarditis"
+    ],
+    "E_1": [
+      "Acute otitis media"
+    ],
+    "E_34": [
+      "Pulmonary embolism"
+    ],
+    "E_209": [
+      "Acute otitis media",
+      "Acute rhinosinusitis",
+      "Bronchiolitis",
+      "Bronchitis",
+      "Croup",
+      "Epiglottitis",
+      "Pneumonia",
+      "Whooping cough"
+    ],
+    "E_139": [
+      "Atrial fibrillation"
+    ],
+    "E_19": [
+      "Atrial fibrillation"
+    ],
+    "E_31": [
+      "Acute COPD exacerbation / infection",
+      "Atrial fibrillation"
+    ],
+    "E_22": [
+      "Atrial fibrillation",
+      "Localized edema"
+    ],
+    "E_60": [
+      "PSVT"
+    ],
+    "E_35": [
+      "PSVT"
+    ],
+    "E_213": [
+      "PSVT"
+    ],
+    "E_12": [
+      "Anaphylaxis"
+    ],
+    "E_44": [
+      "Localized edema",
+      "Tuberculosis"
+    ],
+    "E_4": [
+      "Croup"
+    ],
+    "E_81": [
+      "Panic attack"
+    ],
+    "E_109": [
+      "Localized edema",
+      "Pulmonary embolism"
+    ],
+    "E_110": [
+      "Pulmonary embolism"
+    ],
+    "E_17": [
+      "Bronchiectasis"
+    ],
+    "E_18": [
+      "Bronchiectasis"
+    ],
+    "E_118": [
+      "Acute rhinosinusitis",
+      "Bronchiectasis",
+      "Chronic rhinosinusitis",
+      "Pneumonia"
+    ],
+    "E_123": [
+      "Acute COPD exacerbation / infection",
+      "Bronchiectasis",
+      "Bronchitis",
+      "Pneumonia",
+      "Spontaneous pneumothorax"
+    ],
+    "E_207": [
+      "Allergic sinusitis",
+      "Bronchospasm / acute asthma exacerbation"
+    ],
+    "E_86": [
+      "Allergic sinusitis"
+    ],
+    "E_87": [
+      "Allergic sinusitis",
+      "Bronchospasm / acute asthma exacerbation"
+    ],
+    "E_141": [
+      "SLE"
+    ],
+    "E_11": [
+      "SLE"
+    ],
+    "E_186": [
+      "Localized edema"
+    ],
+    "E_106": [
+      "Acute pulmonary edema",
+      "Localized edema",
+      "Pneumonia"
+    ],
+    "E_158": [
+      "Localized edema"
+    ],
+    "E_187": [
+      "Scombroid food poisoning"
+    ],
+    "E_6": [
+      "Pancreatic neoplasm"
+    ],
+    "E_125": [
+      "Acute COPD exacerbation / infection",
+      "Acute rhinosinusitis",
+      "Chronic rhinosinusitis",
+      "Larygospasm"
+    ],
+    "E_21": [
+      "Spontaneous pneumothorax"
+    ],
+    "E_222": [
+      "Bronchospasm / acute asthma exacerbation",
+      "Larygospasm",
+      "Pulmonary neoplasm",
+      "URTI"
+    ],
+    "E_15": [
+      "Acute dystonic reactions"
+    ],
+    "E_147": [
+      "Acute dystonic reactions"
+    ],
+    "E_137": [
+      "Localized edema"
+    ],
+    "E_149": [
+      "Localized edema"
+    ],
+    "E_197": [
+      "Localized edema"
+    ],
+    "E_3": [
+      "Pericarditis",
+      "SLE"
+    ],
+    "E_29": [
+      "Panic attack"
+    ],
+    "E_225": [
+      "Possible NSTEMI / STEMI",
+      "Stable angina",
+      "Unstable angina"
+    ],
+    "E_73": [
+      "Ebola"
+    ],
+    "E_138": [
+      "Panic attack"
+    ],
+    "E_101": [
+      "Bronchospasm / acute asthma exacerbation"
+    ],
+    "E_46": [
+      "Bronchospasm / acute asthma exacerbation"
+    ],
+    "E_119": [
+      "Bronchospasm / acute asthma exacerbation"
+    ],
+    "E_72": [
+      "Acute COPD exacerbation / infection"
+    ],
+    "E_198": [
+      "Acute COPD exacerbation / infection",
+      "Sarcoidosis"
+    ],
+    "E_200": [
+      "Acute COPD exacerbation / infection"
+    ],
+    "E_199": [
+      "Acute COPD exacerbation / infection"
+    ],
+    "E_121": [
+      "Acute rhinosinusitis",
+      "Chronic rhinosinusitis"
+    ],
+    "E_120": [
+      "Acute rhinosinusitis",
+      "Chronic rhinosinusitis"
+    ],
+    "E_142": [
+      "Bronchiolitis"
+    ],
+    "E_195": [
+      "Bronchiolitis"
+    ],
+    "E_183": [
+      "Bronchiolitis"
+    ],
+    "E_224": [
+      "Pulmonary neoplasm"
+    ],
+    "E_223": [
+      "Pancreatic neoplasm"
+    ],
+    "E_5": [
+      "Acute pulmonary edema"
+    ]
+  }
+}

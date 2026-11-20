@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_0593c2e0-741a-4350-a5ab-1a610056af6a",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxanemia\"}",
+      "generated_disease": "Pemphoxanemia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "bbc7fbbc3e84cc441f43018644f5413d8f474dd3085b2837ec6d303df4219c4f"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxanemia or hypercephension or other advanced disease or other advanced disease or other xtrpabentoid system disorder or other alipostic disorder or other alipostaxoptionmual disorder or other aliparcicity disorder or other aliparcicumoid disorder or",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "1dc37ae7ee44ed2a5b70ac5dec844c957fe78417e4df2959280626b9397f9913"
+    }
+  ]
+}

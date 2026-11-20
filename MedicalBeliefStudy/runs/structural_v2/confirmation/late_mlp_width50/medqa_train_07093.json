@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_train_07093",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Primary hyperaldosteronism (Conn’s syndrome\")\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 12,
+      "prompt_sha256": "4a17dbac69ed39603ccc812048857a89e621bdd29e828ba3f265c387dee5e8cd"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Cushing\\u2019s syndrome\"}",
+      "generated_disease": "Cushing’s syndrome",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "867be1c94e785ecaba01dced7702f50f334c748c9989fe831f0e0d26808800e3"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_train_02136",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Somatostatinoma\"}",
+      "generated_disease": "Somatostatinoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "14c2c2df13b76835c9164240732cb8b85b2304aab6f5e5469bc985d68de7c816"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Glucagonoma\"}",
+      "generated_disease": "Glucagonoma",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "fe9534c26ebab68b541634e202376f228e0279b7eb9c4100ee8273e5039b952d"
+    }
+  ]
+}

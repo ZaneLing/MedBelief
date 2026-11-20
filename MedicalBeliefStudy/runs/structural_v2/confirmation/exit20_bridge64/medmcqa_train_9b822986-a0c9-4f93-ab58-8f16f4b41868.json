@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_9b822986-a0c9-4f93-ab58-8f16f4b41868",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cystoma\"}",
+      "generated_disease": "Cystoma",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "deaeaf68a72fbd6c85eb94f973da18adb2b0051f59dac20aa10cf709f26f2321"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystoma\"}",
+      "generated_disease": "Cystoma",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "91e9c9e7b89b46978546728b5938f3f2c1cbf9b2e06679ec120c4d4d62cb3bbc"
+    }
+  ]
+}

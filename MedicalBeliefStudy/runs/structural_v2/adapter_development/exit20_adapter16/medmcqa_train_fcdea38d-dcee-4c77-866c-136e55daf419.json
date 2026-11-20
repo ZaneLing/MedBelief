@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_fcdea38d-dcee-4c77-866c-136e55daf419",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Vneystechy's orphans orphans inductees inkserventososentecemphilenturseminalenemphilenturseminalenemphiricovemphinalenememphinalenememememppabemphinalenememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "5f9f9eba61c02287daee785b2105bab82174f082d325eaf3847ab2ad94642ab1"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Vneysturovoscheutzung des alenseurdsynamussemartrisarum\"} (Note: This is an conversion of \"tymusovanschaftenetarivanschaftenetemarigarum in terms of an original form. actual actual real actual real",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "e8098f2ea695ec18babc98d2cba0f8cc181dcabc44d7d324c65236de9429384e"
+    }
+  ]
+}

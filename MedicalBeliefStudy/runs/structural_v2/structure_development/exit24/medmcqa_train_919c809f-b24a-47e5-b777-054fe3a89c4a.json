@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_919c809f-b24a-47e5-b777-054fe3a89c4a",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit24",
+    "exit_layer": 24
+  },
+  "parameter_stats": {
+    "parameters": 1519230976,
+    "weight_bytes": 3038461952,
+    "layers": 24
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "pseudotumor\"}",
+      "generated_disease": "pseudotumor",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "437d618bbc8211a1365a625152c3e695f536353bf86af48a5e4a681018975a66"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "pseudotumor\"}",
+      "generated_disease": "pseudotumor",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "7a5678d642c118672f83f427869be41a02c67236daca9559ec8c48ce74dbf433"
+    }
+  ]
+}

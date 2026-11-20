@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_1e2ce55f-6400-41a4-8e23-1d60697972a7",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Schizophrenium\"}",
+      "generated_disease": "Schizophrenium",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "d9b84d8c54ebf8faf737076eebe2789a7b1956c4d3c8fdb3f274432839fbb661"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Schizophrenium\"}",
+      "generated_disease": "Schizophrenium",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "6a3c9779ab3ad6c9c718473f450a3fdb8883c7326a8ae9530af88a558524f53d"
+    }
+  ]
+}

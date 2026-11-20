@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_44bc8ad2-4cb2-433e-9831-4a3064c9296d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "ILD\"}",
+      "generated_disease": "ILD",
+      "stop": "eos",
+      "tokens": 2,
+      "prompt_sha256": "a9ff34efee9b26b8c89872ed958394396b68f66399c4f25d49c3b7bf1f09035a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Tuberculosis\"}",
+      "generated_disease": "Tuberculosis",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "d91b3c8fe25f9dcb351db033cf8d2efe49b4ebf3534bd59b3d8d27e2b32cb417"
+    }
+  ]
+}

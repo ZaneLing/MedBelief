@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_e334bea4-d412-459f-8c01-d8b391102dc9",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "PCOD\"}",
+      "generated_disease": "PCOD",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "963b1a9282fc4302f86e70de3e54202c6f3ff8b902d50cabaf6e11cd3a3f31b3"
+    }
+  ]
+}

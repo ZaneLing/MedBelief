@@ -1,0 +1,40 @@
+{
+  "case_id": "medqa_train_08326",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "drop_mlp4",
+    "drop_mlps": [
+      24,
+      25,
+      26,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1569571840,
+    "weight_bytes": 3139143680,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Abs absence seizure\"}",
+      "generated_disease": "Abs absence seizure",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "4f182684ce4d91f0b764f77ebfce004020cd3b4f7994a38f665e67470292bf44"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Abs absence seizure\"}",
+      "generated_disease": "Abs absence seizure",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "272f61cd1482dac7e26f0b32baac0973b6aa49e4e5829f4038e7d05290ac749b"
+    }
+  ]
+}

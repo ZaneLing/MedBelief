@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_e8ebfd55-f36f-4884-a042-0ff75185455e",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxia\"}",
+      "generated_disease": "Pemphoxia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "b4bb80712f5188c51242e107c89edb28d4c57f457faafd031b76d960eb24d76c"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Primary longening of course of disease in accordance with standard deviation of linear stress stress disorder (PPabOCCpSPPabSCHpEchSCHpEch\"} (Note: This is an example of an non-linear and non-linear adictive disorder. actual real-life phisocotax",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "7eefddfbad1d3f43ddf7bd93718f5e637a77f74bcc62542825f9a93f70bfbcd7"
+    }
+  ]
+}

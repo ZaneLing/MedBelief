@@ -1,0 +1,692 @@
+{
+  "case_id": "medqa_train_09305",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -4.394134521484375,
+        -6.9566497802734375,
+        -5.237895965576172,
+        -0.019134521484375
+      ],
+      "q_sequence": [
+        0.012353756262056308,
+        0.0009526048577290426,
+        0.005313223554717998,
+        0.9813804153254968
+      ],
+      "q_token_mean": [
+        0.24371513097599964,
+        0.20093687260533236,
+        0.17895647988788166,
+        0.37639151653078634
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "SLE\"}",
+      "generated_disease": "SLE",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "7a6c0ffd2613a3c39011983fdeeb82801f8735e7830516eee53fe4b0c3f8c890"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -2.732097625732422,
+        -10.794670104980469,
+        -7.685260772705078,
+        -0.10713005065917969
+      ],
+      "q_sequence": [
+        0.06751509403990959,
+        2.127502794602876e-05,
+        0.0004767266759655065,
+        0.9319869042561789
+      ],
+      "q_token_mean": [
+        0.31148894930923626,
+        0.1534293159452625,
+        0.13654841335532916,
+        0.398533321390172
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "SLE\"}",
+      "generated_disease": "SLE",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "f8192309f890682a88c99b74351315ca9a83ecd6b8ae9bcf81fc695ab4c4ef51"
+    },
+    {
+      "condition": "neutral",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.07680892944335938,
+        -13.561294555664062,
+        -16.967670440673828,
+        -2.826831817626953
+      ],
+      "q_sequence": [
+        0.9399133715655704,
+        1.3087302153401202e-06,
+        4.3399015644293817e-08,
+        0.06008527630519848
+      ],
+      "q_token_mean": [
+        0.5319058603206449,
+        0.15622580876677233,
+        0.0474745839094937,
+        0.26439374700308904
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Limited cutaneous systemic scleroderma\"}",
+      "generated_disease": "Limited cutaneous systemic scleroderma",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "4d3832d931689e09b242c7b5e7ae83afea8890d541e4b95bb1ba2d72e38f66e5"
+    },
+    {
+      "condition": "neutral",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -9.918212890625e-05,
+        -10.843914031982422,
+        -18.593917846679688,
+        -9.718870162963867
+      ],
+      "q_sequence": [
+        0.9999203290643912,
+        1.952344466678027e-05,
+        8.40954607662418e-09,
+        6.013908139614539e-05
+      ],
+      "q_token_mean": [
+        0.6529916984418274,
+        0.2436576016629153,
+        0.04584656860694275,
+        0.05750413128831461
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Limited cutaneous systemic scleroderma\"}",
+      "generated_disease": "Limited cutaneous systemic scleroderma",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "09f4f9088484a6638e1d17fca672ac0b476b8f2391f6b99c83c5ee0d38961af2"
+    },
+    {
+      "condition": "neutral",
+      "round": 5,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.000392913818359375,
+        -11.859905242919922,
+        -19.8756103515625,
+        -8.187917709350586
+      ],
+      "q_sequence": [
+        0.9997149066015519,
+        7.068958064190948e-06,
+        2.3344195305372042e-09,
+        0.00027802210596438256
+      ],
+      "q_token_mean": [
+        0.6545257107371719,
+        0.2226891727709284,
+        0.03826659229155738,
+        0.08451852420034235
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Limited cutaneous systemic scleroderma\"}",
+      "generated_disease": "Limited cutaneous systemic scleroderma",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "d4dc864fe7b635be6a933a032e078676840f70a4aed43d570350fc5bde285d77"
+    },
+    {
+      "condition": "neutral",
+      "round": 6,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.024749755859375,
+        -11.790458679199219,
+        -17.290668487548828,
+        -3.806018829345703
+      ],
+      "q_sequence": [
+        0.9777067757227628,
+        7.593223162813927e-06,
+        3.1025257506691464e-08,
+        0.022285600028816847
+      ],
+      "q_token_mean": [
+        0.5509270400123105,
+        0.18908893922325617,
+        0.046711101876922116,
+        0.21327291888751118
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Limited cutaneous systemic scleroderma\"}",
+      "generated_disease": "Limited cutaneous systemic scleroderma",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "f58145244e88f87ea9c632efe1c9104c9ea382aee3b1b666a6ec7f82d87e1267"
+    },
+    {
+      "condition": "neutral",
+      "round": 7,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -4.57763671875e-05,
+        -12.843990325927734,
+        -21.000213623046875,
+        -10.312568664550781
+      ],
+      "q_sequence": [
+        0.9999641439108992,
+        2.6419840042487167e-06,
+        7.581015991792619e-10,
+        3.321334699473955e-05
+      ],
+      "q_token_mean": [
+        0.6959890878100002,
+        0.21652436363871624,
+        0.034650357458183685,
+        0.05283619109309984
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Limited cutaneous systemic scleroderma\"}",
+      "generated_disease": "Limited cutaneous systemic scleroderma",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "c951d7bdb014ea7184a7c17e1a791a6b0dea067e2839e8dca1b3e7248e35d7ea"
+    },
+    {
+      "condition": "neutral",
+      "round": 8,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -4.9591064453125e-05,
+        -12.687725067138672,
+        -19.81267547607422,
+        -10.500099182128906
+      ],
+      "q_sequence": [
+        0.9999693744063147,
+        3.08886730525133e-06,
+        2.485836756664599e-09,
+        2.7534240543482703e-05
+      ],
+      "q_token_mean": [
+        0.6910930332350145,
+        0.2180773590577082,
+        0.0407679893450953,
+        0.050061618362181926
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Limited cutaneous systemic scleroderma\"}",
+      "generated_disease": "Limited cutaneous systemic scleroderma",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "67f926e53e46851f2ef61b68191be6ca0c716ec95526cf4612e5d266500b48a3"
+    },
+    {
+      "condition": "neutral",
+      "round": 9,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.001453399658203125,
+        -10.532821655273438,
+        -17.345359802246094,
+        -6.563987731933594
+      ],
+      "q_sequence": [
+        0.9985630504288635,
+        2.6647739343447278e-05,
+        2.9309785939958523e-08,
+        0.0014102725220070788
+      ],
+      "q_token_mean": [
+        0.6018145109683746,
+        0.23103411303430577,
+        0.05051074436239169,
+        0.11664063163492788
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Limited cutaneous systemic scleroderma\"}",
+      "generated_disease": "Limited cutaneous systemic scleroderma",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "aca1cbb6f3da84ffd3593090642632a28ed36202a67887f41f5b1c48f6e21b2c"
+    },
+    {
+      "condition": "neutral",
+      "round": 10,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -8.392333984375e-05,
+        -9.62518310546875,
+        -20.42203140258789,
+        -15.515754699707031
+      ],
+      "q_sequence": [
+        0.9999337704240223,
+        6.604558226785426e-05,
+        1.3515500593987737e-09,
+        1.8264216002088378e-07
+      ],
+      "q_token_mean": [
+        0.6704191050918387,
+        0.2794699555319457,
+        0.036251413789576456,
+        0.013859525586639214
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Limited cutaneous systemic scleroderma\"}",
+      "generated_disease": "Limited cutaneous systemic scleroderma",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "d96a911f60c4da6ba610671899779a755c8f7e234055ca11beacab045972fa11"
+    },
+    {
+      "condition": "neutral",
+      "round": 11,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.00202178955078125,
+        -11.627151489257812,
+        -22.923980712890625,
+        -6.220817565917969
+      ],
+      "q_sequence": [
+        0.9980034134488242,
+        8.92077009040179e-06,
+        1.1072654577522978e-10,
+        0.001987665670358881
+      ],
+      "q_token_mean": [
+        0.6263383461913671,
+        0.21769154321065798,
+        0.023694394605027987,
+        0.13227571599294688
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Limited cutaneous systemic scleroderma\"}",
+      "generated_disease": "Limited cutaneous systemic scleroderma",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "19d9600815c6fe7dc87ab335e9344e04a58eee7b016012738d33386a500596c8"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -16.468902587890625,
+        -19.359539031982422,
+        -0.000152587890625,
+        -12.781702041625977
+      ],
+      "q_sequence": [
+        7.042250958158582e-08,
+        3.911326232337655e-09,
+        0.9999971134911292,
+        2.8121750349214776e-06
+      ],
+      "q_token_mean": [
+        0.13705485441235143,
+        0.12240233024342627,
+        0.7114105600043884,
+        0.029132255339833803
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Polymyositis\"}",
+      "generated_disease": "Polymyositis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "685cc0c8107da0c41f595f4629d1317d4697585d491c7745fb88e0e5eb76a41b"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -22.187572479248047,
+        -25.328210830688477,
+        -6.4849853515625e-05,
+        -19.5477294921875
+      ],
+      "q_sequence": [
+        2.3125326218816571e-10,
+        1.000290080683462e-11,
+        0.9999999965186537,
+        3.2400902719565116e-09
+      ],
+      "q_token_mean": [
+        0.08940707282511032,
+        0.08221949343660255,
+        0.8221704857048688,
+        0.0062029480334182515
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Polymyositis\"}",
+      "generated_disease": "Polymyositis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "a64bdd9417c9527bbba1823bff7622dad683550fe950a9aa77a450ef5c4879eb"
+    },
+    {
+      "condition": "wrong",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -1.8934059143066406,
+        -13.221542358398438,
+        -0.17493438720703125,
+        -5.28410530090332
+      ],
+      "q_sequence": [
+        0.1512928811079487,
+        1.8199998216187515e-06,
+        0.8436089815884721,
+        0.005096317303757534
+      ],
+      "q_token_mean": [
+        0.34911536575238766,
+        0.12682201206789698,
+        0.4114766986673471,
+        0.11258592351236844
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Polymyositis\"}",
+      "generated_disease": "Polymyositis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "38d21f44c0cda1ecfcd7910849f74e1da6cc3b66dd4abb413dee77640c637c49"
+    },
+    {
+      "condition": "wrong",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.0001068115234375,
+        -9.6876220703125,
+        -10.187675476074219,
+        -16.812639236450195
+      ],
+      "q_sequence": [
+        0.9999002713321401,
+        6.204721115614557e-05,
+        3.7631526121882056e-05,
+        4.993058188092202e-08
+      ],
+      "q_token_mean": [
+        0.6014089368371728,
+        0.2492840217878786,
+        0.14031692311921248,
+        0.008990118255736215
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Limited cutaneous systemic scleroderma\"}",
+      "generated_disease": "Limited cutaneous systemic scleroderma",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "4b1e134db31b69caf499880706d121c4513daf956456dc07b7f12adaa5375d35"
+    },
+    {
+      "condition": "wrong",
+      "round": 5,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.000476837158203125,
+        -11.40676498413086,
+        -7.688076019287109,
+        -15.297475814819336
+      ],
+      "q_sequence": [
+        0.9995303904581243,
+        1.1120082314172128e-05,
+        0.00045826226718335234,
+        2.2719237815750208e-07
+      ],
+      "q_token_mean": [
+        0.5848538564798071,
+        0.2073547401044891,
+        0.1950221433135385,
+        0.012769260102165367
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Limited cutaneous systemic scleroderma\"}",
+      "generated_disease": "Limited cutaneous systemic scleroderma",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "b22b134f91c854664dc1f39c1c857cc50f0aed84e5a7a851387090bfb3d0b231"
+    },
+    {
+      "condition": "wrong",
+      "round": 6,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.037296295166015625,
+        -9.224803924560547,
+        -3.3186683654785156,
+        -8.709239959716797
+      ],
+      "q_sequence": [
+        0.9635300977833795,
+        9.857832155632711e-05,
+        0.03620624634897953,
+        0.0001650775460846846
+      ],
+      "q_token_mean": [
+        0.4603064223575325,
+        0.19973739807954516,
+        0.28758732464301495,
+        0.05236885491990726
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Limited cutaneous systemic scleroderma\"}",
+      "generated_disease": "Limited cutaneous systemic scleroderma",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "0f9eba373acf99a8804441a6005b39ef1875728b8f3c4a58200bb0fa626dd091"
+    },
+    {
+      "condition": "wrong",
+      "round": 7,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.00116729736328125,
+        -9.532432556152344,
+        -6.845325469970703,
+        -11.204338073730469
+      ],
+      "q_sequence": [
+        0.9988494835681914,
+        7.246430678260463e-05,
+        0.0010644369006940519,
+        1.3615224331947684e-05
+      ],
+      "q_token_mean": [
+        0.5384079392020547,
+        0.22636494008234834,
+        0.20251817088950314,
+        0.03270894982609376
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Limited cutaneous systemic scleroderma\"}",
+      "generated_disease": "Limited cutaneous systemic scleroderma",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "72c206a6034db5a25551ade73956bcdc04bf5ee470e2df8db6290dce4b21933b"
+    },
+    {
+      "condition": "wrong",
+      "round": 8,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -6.866455078125e-05,
+        -11.50008773803711,
+        -10.000118255615234,
+        -14.765810012817383
+      ],
+      "q_sequence": [
+        0.999944088895677,
+        1.012933401035443e-05,
+        4.5395140153133993e-05,
+        3.8663015954782365e-07
+      ],
+      "q_token_mean": [
+        0.6187674008542385,
+        0.21751629796537286,
+        0.1482867620219982,
+        0.015429539158390619
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Limited cutaneous systemic scleroderma\"}",
+      "generated_disease": "Limited cutaneous systemic scleroderma",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "fed61a80e92678aec9fbcf032ea39864cc9ecbf0b82ca7c6d5e6bf4b8291728e"
+    },
+    {
+      "condition": "wrong",
+      "round": 9,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.001926422119140625,
+        -9.376945495605469,
+        -6.314582824707031,
+        -11.080108642578125
+      ],
+      "q_sequence": [
+        0.9980901818828609,
+        8.465463316974463e-05,
+        0.0018097473180576015,
+        1.541616591171064e-05
+      ],
+      "q_token_mean": [
+        0.527725243852088,
+        0.2250491512788971,
+        0.21415181048569146,
+        0.03307379438332343
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Limited cutaneous systemic scleroderma\"}",
+      "generated_disease": "Limited cutaneous systemic scleroderma",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "e125b33595c348d0839263855ab4df63aa003f80a37ccdfde589bedf15e4e703"
+    },
+    {
+      "condition": "wrong",
+      "round": 10,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -8.7738037109375e-05,
+        -10.281352996826172,
+        -10.093982696533203,
+        -15.35963249206543
+      ],
+      "q_sequence": [
+        0.9999241919725778,
+        3.426654412658763e-05,
+        4.132798149389192e-05,
+        2.1350180180848977e-07
+      ],
+      "q_token_mean": [
+        0.6058137668613225,
+        0.237914875320927,
+        0.14324892757156857,
+        0.01302243024618187
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Limited cutaneous systemic scleroderma\"}",
+      "generated_disease": "Limited cutaneous systemic scleroderma",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "30478d5039ab743f4d6e8ae77c77324cfa967e6aa98e3c708ef1795273883435"
+    },
+    {
+      "condition": "wrong",
+      "round": 11,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.005290985107421875,
+        -5.661556243896484,
+        -6.380455017089844,
+        -11.604511260986328
+      ],
+      "q_sequence": [
+        0.9948189222460626,
+        0.003477436811964491,
+        0.0016945152316867002,
+        9.125710286062027e-06
+      ],
+      "q_token_mean": [
+        0.4865871107083881,
+        0.29098103952338017,
+        0.19567428509763002,
+        0.02675756467060171
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Limited cutaneous systemic scleroderma\"}",
+      "generated_disease": "Limited cutaneous systemic scleroderma",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "7c4e48e7407760c840eb72260b7d0103b339ecbe893d12392e7d848a00e7bfbd"
+    }
+  ],
+  "state_sha256": "335c15d348bdf631c67b7197092744c2df4a11004064dc4862bf8fc4261042c1"
+}

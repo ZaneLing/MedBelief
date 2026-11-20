@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_688034bf-3b4b-4145-8a34-f66b97ae7678",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20",
+    "exit_layer": 20
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Dryness of the skin caused by excessiveuse of certain medications orients the...",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 17,
+      "prompt_sha256": "edae35423b9a11b52263d79a152083f4d08d8e7646f674399ccceae4af453419"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Dhemmed综合征或phansystematicityofofcoursenotepadwardnessoftheorepleeringsystematicityoftheodocostarregeuringslipperinessserventodenticlesterventodemontationslotypeschoeraldservservservsutter",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "de399eb371064e2196af4c94f2f306f11f8161f0aa78ae4e964e1df3c348a2ca"
+    }
+  ]
+}

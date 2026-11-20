@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_train_03328",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Lead poisoning\"}",
+      "generated_disease": "Lead poisoning",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "ce4db7965048d31025ddb816e8119d1c20953f2bf0541b3756693ec97eed4440"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Cytochrome b5 reductase deficiency\"}",
+      "generated_disease": "Cytochrome b5 reductase deficiency",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "b2d96925ba8fdfce31c20a312bfb18389ffe6523199fb8f2cb5b4bfe56dd3da9"
+    }
+  ]
+}

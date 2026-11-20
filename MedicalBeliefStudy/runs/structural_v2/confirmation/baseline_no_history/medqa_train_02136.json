@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_02136",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Somatostatinoma\"}",
+      "generated_disease": "Somatostatinoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "41d34bdf7cf14d91aec7577d349fa525fea98b06ea27d1049b102f69eb24a783"
+    }
+  ]
+}

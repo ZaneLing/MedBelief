@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_06987",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit24",
+    "exit_layer": 24
+  },
+  "parameter_stats": {
+    "parameters": 1519230976,
+    "weight_bytes": 3038461952,
+    "layers": 24
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "急性肢体 ischemia\"}",
+      "generated_disease": "急性肢体 ischemia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "5370e6a2ead867ef3d2381f4ac7ed34e27ce09b622bcd419b74d25ec6a6f823a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "acute limb ischemia\"}",
+      "generated_disease": "acute limb ischemia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "ead38292ec0ce3930211eede5dfaad8ad35d655e3ca5936a587faf28720b99bf"
+    }
+  ]
+}

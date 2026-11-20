@@ -1,0 +1,124 @@
+{
+  "status": "passed",
+  "api_calls": 0,
+  "author_commit": "f7ef9e81cfdc89fb98e07cef8212d0778b015595",
+  "verified_public_data_hashes": {
+    "study.json": "b8e3e4b7d4f4f70815fcf75875875a601cbac90a9aaa66ab0cee73c0f65f9e62",
+    "outcomes.jsonl.gz": "4e4f775c0aafdb80f9189eb0d32022043e339ebec9a050ee055f48ea46f7a4c2"
+  },
+  "source_test_sha256": "c3b905ccfa66152dc25afbcb2c10e86c0bdb208824f0658fcdb2c040f60a2beb",
+  "alignment": "Exact upstream file SHA-256; preserved row order; all selected labels rescored with local gold.",
+  "limitation": "Author-released outputs reanalyzed. Private API logs and model training data not independently verified. Different inference pipelines; no matched runtime/cost experiment.",
+  "models": {
+    "G01": {
+      "model": {
+        "config_id": "G01",
+        "model_id": "openai/gpt-6.1-sol",
+        "base_model": "openai/gpt-6.1-sol",
+        "effort": "low",
+        "adapter": "openrouter",
+        "pair_id": null,
+        "display_name": "GPT-6.1 Sol"
+      },
+      "n": 1273,
+      "public_correct": 1233,
+      "public_accuracy": 0.9685781618224666,
+      "local_correct": 460,
+      "local_accuracy": 0.36135113904163396,
+      "difference_percentage_points": 60.72270227808327,
+      "both_correct": 448,
+      "public_only_correct": 785,
+      "local_only_correct": 12,
+      "both_wrong": 28,
+      "unanswered": 0
+    },
+    "G02": {
+      "model": {
+        "config_id": "G02",
+        "model_id": "openai/gpt-6-luna",
+        "base_model": "openai/gpt-6-luna",
+        "effort": "low",
+        "adapter": "openrouter",
+        "pair_id": "P03",
+        "display_name": "GPT-6 Luna"
+      },
+      "n": 1273,
+      "public_correct": 1199,
+      "public_accuracy": 0.9418695993715632,
+      "local_correct": 460,
+      "local_accuracy": 0.36135113904163396,
+      "difference_percentage_points": 58.05184603299293,
+      "both_correct": 430,
+      "public_only_correct": 769,
+      "local_only_correct": 30,
+      "both_wrong": 44,
+      "unanswered": 0
+    },
+    "G03": {
+      "model": {
+        "config_id": "G03",
+        "model_id": "openai/gpt-6-luna",
+        "base_model": "openai/gpt-6-luna",
+        "effort": "high",
+        "adapter": "openrouter",
+        "pair_id": "P03",
+        "display_name": "GPT-6 Luna"
+      },
+      "n": 1273,
+      "public_correct": 1212,
+      "public_accuracy": 0.9520816967792616,
+      "local_correct": 460,
+      "local_accuracy": 0.36135113904163396,
+      "difference_percentage_points": 59.07305577376277,
+      "both_correct": 437,
+      "public_only_correct": 775,
+      "local_only_correct": 23,
+      "both_wrong": 38,
+      "unanswered": 0
+    },
+    "D01": {
+      "model": {
+        "config_id": "D01",
+        "model_id": "typesafe/jev-1.13",
+        "base_model": "typesafe/jev-1.13",
+        "effort": "native",
+        "adapter": "jev_gateway",
+        "pair_id": null,
+        "display_name": "JEV 1.13"
+      },
+      "n": 1273,
+      "public_correct": 1124,
+      "public_accuracy": 0.8829536527886881,
+      "local_correct": 460,
+      "local_accuracy": 0.36135113904163396,
+      "difference_percentage_points": 52.16025137470542,
+      "both_correct": 416,
+      "public_only_correct": 708,
+      "local_only_correct": 44,
+      "both_wrong": 105,
+      "unanswered": 0
+    },
+    "D02": {
+      "model": {
+        "config_id": "D02",
+        "model_id": "openai/gpt-6-luna-decisions",
+        "base_model": "openai/gpt-6-luna-decisions",
+        "effort": "native",
+        "adapter": "openai_decisions_gateway",
+        "pair_id": null,
+        "display_name": "GPT-6 Luna Decisions"
+      },
+      "n": 1273,
+      "public_correct": 1134,
+      "public_accuracy": 0.8908091123330715,
+      "local_correct": 460,
+      "local_accuracy": 0.36135113904163396,
+      "difference_percentage_points": 52.94579732914376,
+      "both_correct": 411,
+      "public_only_correct": 723,
+      "local_only_correct": 49,
+      "both_wrong": 90,
+      "unanswered": 2
+    }
+  }
+}

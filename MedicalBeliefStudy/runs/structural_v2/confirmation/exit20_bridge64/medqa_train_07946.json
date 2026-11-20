@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_07946",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Dystomomocystoma\"}",
+      "generated_disease": "Dystomomocystoma",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "47e7e8b9b26c0f5eff59e84579e49718640089cb19bb9fd48d87c228a52a88fa"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Dystomomocystoma\"}",
+      "generated_disease": "Dystomomocystoma",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "54b6f36a0fccd7dddf3abc9f52c37de9f188ab56b87d9a07fe218a6fe70acf6c"
+    }
+  ]
+}

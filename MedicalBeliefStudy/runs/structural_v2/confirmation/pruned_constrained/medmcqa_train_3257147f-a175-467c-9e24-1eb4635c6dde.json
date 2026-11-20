@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_3257147f-a175-467c-9e24-1eb4635c6dde",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Indeterminate leprosy\"}",
+      "generated_disease": "Indeterminate leprosy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "0faf314b04a36252d624c50f0aa576ae5a65370bd283a1cb351a3c768f130c08"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Lepromatous leprosy\"}",
+      "generated_disease": "Lepromatous leprosy",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "beb9cf6cecd0f4303be71acaf679ad3341e2583119ed4c3a4837f7be49a7b471"
+    }
+  ]
+}

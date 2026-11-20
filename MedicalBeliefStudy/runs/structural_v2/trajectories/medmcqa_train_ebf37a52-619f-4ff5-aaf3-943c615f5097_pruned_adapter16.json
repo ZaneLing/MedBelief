@@ -1,0 +1,214 @@
+{
+  "case_id": "medmcqa_train_ebf37a52-619f-4ff5-aaf3-943c615f5097",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -11.360301971435547,
+        -2.8136138916015625,
+        -0.06404876708984375,
+        -8.641250610351562
+      ],
+      "q_sequence": [
+        1.1670624344043498e-05,
+        0.0600998740363087,
+        0.9397114594858252,
+        0.0001769958535218884
+      ],
+      "q_token_mean": [
+        0.08827678133711912,
+        0.2799026191847468,
+        0.4432915051368502,
+        0.18852909434128381
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "ventricular septal defect\"}",
+      "generated_disease": "ventricular septal defect",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "7daab16c428f850a16afbcac0087bf38f152e98a851a627e75eedd669a98074a"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -10.43243408203125,
+        -16.986589431762695,
+        -0.001522064208984375,
+        -17.016773223876953
+      ],
+      "q_sequence": [
+        2.9505271775666482e-05,
+        4.2020974264902925e-08,
+        0.9999704119356776,
+        4.077157260853581e-08
+      ],
+      "q_token_mean": [
+        0.15363744106490432,
+        0.04019911720543312,
+        0.6817928251148861,
+        0.12437061661477644
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "ventricular septal defect\"}",
+      "generated_disease": "ventricular septal defect",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "18d456e0f25cd572f6e08b285429beda58aa495527b0efc6804e70f046b9cf89"
+    },
+    {
+      "condition": "neutral",
+      "round": 3,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.044269561767578125,
+        -14.32075309753418,
+        -12.350788116455078,
+        -22.350746154785156
+      ],
+      "q_sequence": [
+        0.9999948469813561,
+        6.306664693967971e-07,
+        4.5221468606161364e-06,
+        2.0531376497529644e-10
+      ],
+      "q_token_mean": [
+        0.7285726662090956,
+        0.06739827395144363,
+        0.1255888265054483,
+        0.07844023333401251
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "cardiac tamponade\"}",
+      "generated_disease": "cardiac tamponade",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "04bcebc6b3da625114f728170bad643622d59c9bce09afa3858011c7bb63d4e7"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -25.89417266845703,
+        -26.360172271728516,
+        -0.000579833984375,
+        -27.43799591064453
+      ],
+      "q_sequence": [
+        5.682710283103392e-12,
+        3.5659435104892997e-12,
+        0.9999999999895377,
+        1.2136168572707664e-12
+      ],
+      "q_token_mean": [
+        0.02246716272459099,
+        0.011221822134778812,
+        0.9079047746561191,
+        0.05840624048451109
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "ventricular septal defect\"}",
+      "generated_disease": "ventricular septal defect",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "95b7293c44d7fab4302d1a673c137c5a180a900870a843871aaa7bdcd91479cb"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -18.19812774658203,
+        -24.81375503540039,
+        -0.00164794921875,
+        -25.735286712646484
+      ],
+      "q_sequence": [
+        1.2513224274555482e-08,
+        1.675864119042533e-11,
+        0.9999999874633486,
+        6.668415929975897e-12
+      ],
+      "q_token_mean": [
+        0.06369920715009911,
+        0.01371210215498061,
+        0.8571982566172931,
+        0.06539043407762712
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "ventricular septal defect\"}",
+      "generated_disease": "ventricular septal defect",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "7f0d2923963df581247f5539e47329826e8d7a60c71716dcf0772fc671bceb57"
+    },
+    {
+      "condition": "wrong",
+      "round": 3,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.09540557861328125,
+        -13.19948959350586,
+        -3.697162628173828,
+        -20.534542083740234
+      ],
+      "q_sequence": [
+        0.9734465264834975,
+        1.9828082704548847e-06,
+        0.0265514894149064,
+        1.2933256794547946e-09
+      ],
+      "q_token_mean": [
+        0.5434303604493566,
+        0.06104528726045689,
+        0.32485042490779836,
+        0.0706739273823882
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "cardiac tamponade\"}",
+      "generated_disease": "cardiac tamponade",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ce327ba23076f1dd3cb45251cb1ef7d4bbfecb324740c9b0834bf416d5254b9c"
+    }
+  ],
+  "state_sha256": "92b8d5e5efc536674d52943cef568de9a4893a5d655a3c038c3675333c5abf26"
+}

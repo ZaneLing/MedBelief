@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_01482",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Dry partializiformynephicaleniformes\"} (Note: This is an error correction and/or an error in the original systematics. actual correct answer is typically 'Neigensuracovemphitosis or other relevant philacotarum-based systematics butchers of emn",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "b3d8ebdc160a130528954cd0499d8045170dd1f15a20652910a85df454589c57"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformyphilis\"}",
+      "generated_disease": "Chronic veniformyphilis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "d5b73d778821159bbe47b671766d2a4368f8d98f97969f9490828d4c433fa91b"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "case_id": "medmcqa_train_8124d2c0-a390-45dc-a6e8-4451a7eb1841",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Hemophilia A\"}",
+      "generated_disease": "Hemophilia A",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "e321dafc10077ed60167e74df3de13fea9a159f10a058c829b26d3ef1cbebb3d"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Hemophilia A\"}",
+      "generated_disease": "Hemophilia A",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "034d60789db9ae21821448689db35959070fe00a8530571605cebfd2f0bb17fc"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "status": "Local source and configuration inspection only; no model inference",
+  "model": "Qwen/Qwen3-4B-MLX-8bit",
+  "revision": "315fb4813e1d13d630f4ee43ea06eb03c6150afb",
+  "config": {
+    "num_hidden_layers": 36,
+    "hidden_size": 2560,
+    "intermediate_size": 9728,
+    "num_attention_heads": 32,
+    "num_key_value_heads": 8,
+    "head_dim": 128,
+    "vocab_size": 151936,
+    "rms_norm_eps": 1e-06,
+    "tie_word_embeddings": true
+  },
+  "output_head": "model.model.embed_tokens.as_linear(model.model.norm(h)); tied weights, not model.lm_head",
+  "block_order": [
+    "residual_pre",
+    "attention(input_layernorm(residual_pre))",
+    "residual_mid = residual_pre + attention_delta",
+    "mlp(post_attention_layernorm(residual_mid))",
+    "residual_post = residual_mid + mlp_delta"
+  ],
+  "source_sha256": "7e29b7055d8e526a0ede6e2740a3038ad24d0cef6a1abb446c411d3fbd0efa2d",
+  "config_sha256": "f7816cc62c18b031d1aa3db3216a60912df7a63ba0dec6dc24d46848316403b1"
+}

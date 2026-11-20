@@ -1,0 +1,824 @@
+[
+  {
+    "question_count": 8,
+    "questions": [
+      "Do you have pain somewhere, related to your reason for consulting?",
+      "Characterize your pain:",
+      "Do you feel pain somewhere?",
+      "How intense is the pain?",
+      "Does the pain radiate to another location?",
+      "How precisely is the pain located?",
+      "How fast did the pain appear?",
+      "Have you traveled out of the country in the last 4 weeks?"
+    ],
+    "cases": [
+      {
+        "case_id": "ddx_test_0000325",
+        "source_row_zero_based": 325,
+        "gold": "Acute otitis media",
+        "tokens": [
+          "E_204_@_V_10",
+          "E_53",
+          "E_54_@_V_192",
+          "E_55_@_V_129",
+          "E_55_@_V_130",
+          "E_56_@_7",
+          "E_57_@_V_123",
+          "E_58_@_8",
+          "E_59_@_6"
+        ],
+        "keys": [
+          "E_53",
+          "E_54",
+          "E_55",
+          "E_56",
+          "E_57",
+          "E_58",
+          "E_59",
+          "E_204"
+        ],
+        "question_prediction": "Acute otitis media",
+        "value_prediction": "Acute otitis media"
+      },
+      {
+        "case_id": "ddx_test_0062812",
+        "source_row_zero_based": 62812,
+        "gold": "Cluster headache",
+        "tokens": [
+          "E_204_@_V_10",
+          "E_53",
+          "E_54_@_V_180",
+          "E_54_@_V_191",
+          "E_54_@_V_192",
+          "E_55_@_V_108",
+          "E_55_@_V_109",
+          "E_55_@_V_126",
+          "E_55_@_V_166",
+          "E_55_@_V_89",
+          "E_56_@_10",
+          "E_57_@_V_123",
+          "E_58_@_9",
+          "E_59_@_7"
+        ],
+        "keys": [
+          "E_53",
+          "E_54",
+          "E_55",
+          "E_56",
+          "E_57",
+          "E_58",
+          "E_59",
+          "E_204"
+        ],
+        "question_prediction": "Acute otitis media",
+        "value_prediction": "Cluster headache"
+      }
+    ]
+  },
+  {
+    "question_count": 9,
+    "questions": [
+      "Do you have pain somewhere, related to your reason for consulting?",
+      "Characterize your pain:",
+      "Do you feel pain somewhere?",
+      "How intense is the pain?",
+      "Does the pain radiate to another location?",
+      "How precisely is the pain located?",
+      "How fast did the pain appear?",
+      "Do you have nasal congestion or a clear runny nose?",
+      "Have you traveled out of the country in the last 4 weeks?"
+    ],
+    "cases": [
+      {
+        "case_id": "ddx_test_0010296",
+        "source_row_zero_based": 10296,
+        "gold": "Acute otitis media",
+        "tokens": [
+          "E_181",
+          "E_204_@_V_10",
+          "E_53",
+          "E_54_@_V_192",
+          "E_55_@_V_129",
+          "E_56_@_7",
+          "E_57_@_V_123",
+          "E_58_@_10",
+          "E_59_@_7"
+        ],
+        "keys": [
+          "E_53",
+          "E_54",
+          "E_55",
+          "E_56",
+          "E_57",
+          "E_58",
+          "E_59",
+          "E_181",
+          "E_204"
+        ],
+        "question_prediction": "Acute otitis media",
+        "value_prediction": "Acute otitis media"
+      },
+      {
+        "case_id": "ddx_test_0015665",
+        "source_row_zero_based": 15665,
+        "gold": "Cluster headache",
+        "tokens": [
+          "E_181",
+          "E_204_@_V_10",
+          "E_53",
+          "E_54_@_V_112",
+          "E_54_@_V_179",
+          "E_55_@_V_108",
+          "E_55_@_V_109",
+          "E_55_@_V_125",
+          "E_55_@_V_126",
+          "E_55_@_V_89",
+          "E_56_@_7",
+          "E_57_@_V_123",
+          "E_58_@_7",
+          "E_59_@_8"
+        ],
+        "keys": [
+          "E_53",
+          "E_54",
+          "E_55",
+          "E_56",
+          "E_57",
+          "E_58",
+          "E_59",
+          "E_181",
+          "E_204"
+        ],
+        "question_prediction": "Acute otitis media",
+        "value_prediction": "Cluster headache"
+      }
+    ]
+  },
+  {
+    "question_count": 9,
+    "questions": [
+      "Do you have pain somewhere, related to your reason for consulting?",
+      "Characterize your pain:",
+      "Do you feel pain somewhere?",
+      "How intense is the pain?",
+      "Does the pain radiate to another location?",
+      "How precisely is the pain located?",
+      "How fast did the pain appear?",
+      "Do you have a fever (either felt or measured with a thermometer)?",
+      "Have you traveled out of the country in the last 4 weeks?"
+    ],
+    "cases": [
+      {
+        "case_id": "ddx_test_0003607",
+        "source_row_zero_based": 3607,
+        "gold": "Acute otitis media",
+        "tokens": [
+          "E_204_@_V_10",
+          "E_53",
+          "E_54_@_V_161",
+          "E_54_@_V_192",
+          "E_55_@_V_129",
+          "E_55_@_V_130",
+          "E_56_@_3",
+          "E_57_@_V_123",
+          "E_58_@_9",
+          "E_59_@_7",
+          "E_91"
+        ],
+        "keys": [
+          "E_53",
+          "E_54",
+          "E_55",
+          "E_56",
+          "E_57",
+          "E_58",
+          "E_59",
+          "E_91",
+          "E_204"
+        ],
+        "question_prediction": "Acute otitis media",
+        "value_prediction": "Acute otitis media"
+      },
+      {
+        "case_id": "ddx_test_0012319",
+        "source_row_zero_based": 12319,
+        "gold": "Acute laryngitis",
+        "tokens": [
+          "E_204_@_V_10",
+          "E_53",
+          "E_54_@_V_181",
+          "E_55_@_V_137",
+          "E_55_@_V_163",
+          "E_55_@_V_174",
+          "E_55_@_V_20",
+          "E_55_@_V_21",
+          "E_56_@_7",
+          "E_57_@_V_123",
+          "E_58_@_6",
+          "E_59_@_3",
+          "E_91"
+        ],
+        "keys": [
+          "E_53",
+          "E_54",
+          "E_55",
+          "E_56",
+          "E_57",
+          "E_58",
+          "E_59",
+          "E_91",
+          "E_204"
+        ],
+        "question_prediction": "Acute otitis media",
+        "value_prediction": "Acute laryngitis"
+      }
+    ]
+  },
+  {
+    "question_count": 9,
+    "questions": [
+      "Do you have pain somewhere, related to your reason for consulting?",
+      "Characterize your pain:",
+      "Do you feel pain somewhere?",
+      "How intense is the pain?",
+      "Does the pain radiate to another location?",
+      "How precisely is the pain located?",
+      "How fast did the pain appear?",
+      "Do you have a cough?",
+      "Have you traveled out of the country in the last 4 weeks?"
+    ],
+    "cases": [
+      {
+        "case_id": "ddx_test_0010710",
+        "source_row_zero_based": 10710,
+        "gold": "Acute otitis media",
+        "tokens": [
+          "E_201",
+          "E_204_@_V_10",
+          "E_53",
+          "E_54_@_V_161",
+          "E_54_@_V_192",
+          "E_55_@_V_130",
+          "E_56_@_4",
+          "E_57_@_V_123",
+          "E_58_@_9",
+          "E_59_@_2"
+        ],
+        "keys": [
+          "E_53",
+          "E_54",
+          "E_55",
+          "E_56",
+          "E_57",
+          "E_58",
+          "E_59",
+          "E_201",
+          "E_204"
+        ],
+        "question_prediction": "Acute otitis media",
+        "value_prediction": "Acute otitis media"
+      },
+      {
+        "case_id": "ddx_test_0061540",
+        "source_row_zero_based": 61540,
+        "gold": "Viral pharyngitis",
+        "tokens": [
+          "E_201",
+          "E_204_@_V_10",
+          "E_53",
+          "E_54_@_V_161",
+          "E_54_@_V_181",
+          "E_55_@_V_137",
+          "E_55_@_V_148",
+          "E_55_@_V_20",
+          "E_55_@_V_21",
+          "E_55_@_V_33",
+          "E_56_@_4",
+          "E_57_@_V_123",
+          "E_58_@_9",
+          "E_59_@_2"
+        ],
+        "keys": [
+          "E_53",
+          "E_54",
+          "E_55",
+          "E_56",
+          "E_57",
+          "E_58",
+          "E_59",
+          "E_201",
+          "E_204"
+        ],
+        "question_prediction": "Acute otitis media",
+        "value_prediction": "Viral pharyngitis"
+      }
+    ]
+  },
+  {
+    "question_count": 9,
+    "questions": [
+      "Do you have pain somewhere, related to your reason for consulting?",
+      "Characterize your pain:",
+      "Do you feel pain somewhere?",
+      "How intense is the pain?",
+      "Does the pain radiate to another location?",
+      "How precisely is the pain located?",
+      "How fast did the pain appear?",
+      "Are you experiencing shortness of breath or difficulty breathing in a significant way?",
+      "Have you traveled out of the country in the last 4 weeks?"
+    ],
+    "cases": [
+      {
+        "case_id": "ddx_test_0013602",
+        "source_row_zero_based": 13602,
+        "gold": "Pericarditis",
+        "tokens": [
+          "E_204_@_V_10",
+          "E_53",
+          "E_54_@_V_192",
+          "E_55_@_V_101",
+          "E_55_@_V_159",
+          "E_55_@_V_160",
+          "E_55_@_V_197",
+          "E_56_@_8",
+          "E_57_@_V_170",
+          "E_57_@_V_39",
+          "E_58_@_3",
+          "E_59_@_4",
+          "E_66"
+        ],
+        "keys": [
+          "E_53",
+          "E_54",
+          "E_55",
+          "E_56",
+          "E_57",
+          "E_58",
+          "E_59",
+          "E_66",
+          "E_204"
+        ],
+        "question_prediction": "Acute otitis media",
+        "value_prediction": "Pericarditis"
+      },
+      {
+        "case_id": "ddx_test_0014049",
+        "source_row_zero_based": 14049,
+        "gold": "Myocarditis",
+        "tokens": [
+          "E_204_@_V_10",
+          "E_53",
+          "E_54_@_V_161",
+          "E_54_@_V_179",
+          "E_55_@_V_101",
+          "E_55_@_V_29",
+          "E_56_@_2",
+          "E_57_@_V_123",
+          "E_58_@_6",
+          "E_59_@_0",
+          "E_66"
+        ],
+        "keys": [
+          "E_53",
+          "E_54",
+          "E_55",
+          "E_56",
+          "E_57",
+          "E_58",
+          "E_59",
+          "E_66",
+          "E_204"
+        ],
+        "question_prediction": "Acute otitis media",
+        "value_prediction": "Myocarditis"
+      }
+    ]
+  },
+  {
+    "question_count": 10,
+    "questions": [
+      "Do you have pain somewhere, related to your reason for consulting?",
+      "Characterize your pain:",
+      "Do you feel pain somewhere?",
+      "How intense is the pain?",
+      "Does the pain radiate to another location?",
+      "How precisely is the pain located?",
+      "How fast did the pain appear?",
+      "Do you have nasal congestion or a clear runny nose?",
+      "Do you have a cough?",
+      "Have you traveled out of the country in the last 4 weeks?"
+    ],
+    "cases": [
+      {
+        "case_id": "ddx_test_0002148",
+        "source_row_zero_based": 2148,
+        "gold": "Acute otitis media",
+        "tokens": [
+          "E_181",
+          "E_201",
+          "E_204_@_V_10",
+          "E_53",
+          "E_54_@_V_161",
+          "E_54_@_V_192",
+          "E_55_@_V_129",
+          "E_55_@_V_130",
+          "E_56_@_5",
+          "E_57_@_V_123",
+          "E_58_@_6",
+          "E_59_@_1"
+        ],
+        "keys": [
+          "E_53",
+          "E_54",
+          "E_55",
+          "E_56",
+          "E_57",
+          "E_58",
+          "E_59",
+          "E_181",
+          "E_201",
+          "E_204"
+        ],
+        "question_prediction": "Acute otitis media",
+        "value_prediction": "Acute otitis media"
+      },
+      {
+        "case_id": "ddx_test_0092872",
+        "source_row_zero_based": 92872,
+        "gold": "Viral pharyngitis",
+        "tokens": [
+          "E_181",
+          "E_201",
+          "E_204_@_V_10",
+          "E_53",
+          "E_54_@_V_161",
+          "E_54_@_V_181",
+          "E_55_@_V_163",
+          "E_55_@_V_33",
+          "E_56_@_9",
+          "E_57_@_V_123",
+          "E_58_@_8",
+          "E_59_@_0"
+        ],
+        "keys": [
+          "E_53",
+          "E_54",
+          "E_55",
+          "E_56",
+          "E_57",
+          "E_58",
+          "E_59",
+          "E_181",
+          "E_201",
+          "E_204"
+        ],
+        "question_prediction": "Acute otitis media",
+        "value_prediction": "Viral pharyngitis"
+      }
+    ]
+  },
+  {
+    "question_count": 10,
+    "questions": [
+      "Have you recently had a viral infection?",
+      "Do you have pain somewhere, related to your reason for consulting?",
+      "Characterize your pain:",
+      "Do you feel pain somewhere?",
+      "How intense is the pain?",
+      "Does the pain radiate to another location?",
+      "How precisely is the pain located?",
+      "How fast did the pain appear?",
+      "Are you experiencing shortness of breath or difficulty breathing in a significant way?",
+      "Have you traveled out of the country in the last 4 weeks?"
+    ],
+    "cases": [
+      {
+        "case_id": "ddx_test_0002807",
+        "source_row_zero_based": 2807,
+        "gold": "Myocarditis",
+        "tokens": [
+          "E_0",
+          "E_204_@_V_10",
+          "E_53",
+          "E_54_@_V_179",
+          "E_55_@_V_159",
+          "E_55_@_V_160",
+          "E_55_@_V_29",
+          "E_55_@_V_55",
+          "E_56_@_6",
+          "E_57_@_V_123",
+          "E_58_@_1",
+          "E_59_@_0",
+          "E_66"
+        ],
+        "keys": [
+          "E_0",
+          "E_53",
+          "E_54",
+          "E_55",
+          "E_56",
+          "E_57",
+          "E_58",
+          "E_59",
+          "E_66",
+          "E_204"
+        ],
+        "question_prediction": "Myocarditis",
+        "value_prediction": "Myocarditis"
+      },
+      {
+        "case_id": "ddx_test_0019280",
+        "source_row_zero_based": 19280,
+        "gold": "Pericarditis",
+        "tokens": [
+          "E_0",
+          "E_204_@_V_10",
+          "E_53",
+          "E_54_@_V_179",
+          "E_54_@_V_192",
+          "E_55_@_V_101",
+          "E_55_@_V_159",
+          "E_55_@_V_160",
+          "E_55_@_V_197",
+          "E_56_@_6",
+          "E_57_@_V_170",
+          "E_57_@_V_171",
+          "E_57_@_V_39",
+          "E_58_@_8",
+          "E_59_@_9",
+          "E_66"
+        ],
+        "keys": [
+          "E_0",
+          "E_53",
+          "E_54",
+          "E_55",
+          "E_56",
+          "E_57",
+          "E_58",
+          "E_59",
+          "E_66",
+          "E_204"
+        ],
+        "question_prediction": "Myocarditis",
+        "value_prediction": "Pericarditis"
+      }
+    ]
+  },
+  {
+    "question_count": 10,
+    "questions": [
+      "Do you live with 4 or more people?",
+      "Do you have pain somewhere, related to your reason for consulting?",
+      "Characterize your pain:",
+      "Do you feel pain somewhere?",
+      "How intense is the pain?",
+      "Does the pain radiate to another location?",
+      "How precisely is the pain located?",
+      "How fast did the pain appear?",
+      "Do you have a fever (either felt or measured with a thermometer)?",
+      "Have you traveled out of the country in the last 4 weeks?"
+    ],
+    "cases": [
+      {
+        "case_id": "ddx_test_0004498",
+        "source_row_zero_based": 4498,
+        "gold": "Viral pharyngitis",
+        "tokens": [
+          "E_204_@_V_10",
+          "E_48",
+          "E_53",
+          "E_54_@_V_161",
+          "E_54_@_V_181",
+          "E_55_@_V_137",
+          "E_55_@_V_148",
+          "E_55_@_V_163",
+          "E_55_@_V_21",
+          "E_56_@_9",
+          "E_57_@_V_123",
+          "E_58_@_5",
+          "E_59_@_2",
+          "E_91"
+        ],
+        "keys": [
+          "E_48",
+          "E_53",
+          "E_54",
+          "E_55",
+          "E_56",
+          "E_57",
+          "E_58",
+          "E_59",
+          "E_91",
+          "E_204"
+        ],
+        "question_prediction": "Acute laryngitis",
+        "value_prediction": "Viral pharyngitis"
+      },
+      {
+        "case_id": "ddx_test_0028464",
+        "source_row_zero_based": 28464,
+        "gold": "Acute laryngitis",
+        "tokens": [
+          "E_204_@_V_10",
+          "E_48",
+          "E_53",
+          "E_54_@_V_181",
+          "E_55_@_V_148",
+          "E_55_@_V_174",
+          "E_55_@_V_20",
+          "E_55_@_V_21",
+          "E_56_@_6",
+          "E_57_@_V_123",
+          "E_58_@_4",
+          "E_59_@_2",
+          "E_91"
+        ],
+        "keys": [
+          "E_48",
+          "E_53",
+          "E_54",
+          "E_55",
+          "E_56",
+          "E_57",
+          "E_58",
+          "E_59",
+          "E_91",
+          "E_204"
+        ],
+        "question_prediction": "Acute laryngitis",
+        "value_prediction": "Acute laryngitis"
+      }
+    ]
+  },
+  {
+    "question_count": 10,
+    "questions": [
+      "Do you have pain somewhere, related to your reason for consulting?",
+      "Characterize your pain:",
+      "Do you feel pain somewhere?",
+      "How intense is the pain?",
+      "Does the pain radiate to another location?",
+      "How precisely is the pain located?",
+      "How fast did the pain appear?",
+      "Do you have a fever (either felt or measured with a thermometer)?",
+      "Do you have a cough?",
+      "Have you traveled out of the country in the last 4 weeks?"
+    ],
+    "cases": [
+      {
+        "case_id": "ddx_test_0004727",
+        "source_row_zero_based": 4727,
+        "gold": "Acute otitis media",
+        "tokens": [
+          "E_201",
+          "E_204_@_V_10",
+          "E_53",
+          "E_54_@_V_192",
+          "E_55_@_V_129",
+          "E_55_@_V_130",
+          "E_56_@_8",
+          "E_57_@_V_123",
+          "E_58_@_8",
+          "E_59_@_2",
+          "E_91"
+        ],
+        "keys": [
+          "E_53",
+          "E_54",
+          "E_55",
+          "E_56",
+          "E_57",
+          "E_58",
+          "E_59",
+          "E_91",
+          "E_201",
+          "E_204"
+        ],
+        "question_prediction": "Acute otitis media",
+        "value_prediction": "Acute otitis media"
+      },
+      {
+        "case_id": "ddx_test_0017694",
+        "source_row_zero_based": 17694,
+        "gold": "Acute laryngitis",
+        "tokens": [
+          "E_201",
+          "E_204_@_V_10",
+          "E_53",
+          "E_54_@_V_161",
+          "E_54_@_V_181",
+          "E_55_@_V_148",
+          "E_55_@_V_163",
+          "E_55_@_V_174",
+          "E_55_@_V_20",
+          "E_55_@_V_21",
+          "E_56_@_4",
+          "E_57_@_V_123",
+          "E_58_@_6",
+          "E_59_@_1",
+          "E_91"
+        ],
+        "keys": [
+          "E_53",
+          "E_54",
+          "E_55",
+          "E_56",
+          "E_57",
+          "E_58",
+          "E_59",
+          "E_91",
+          "E_201",
+          "E_204"
+        ],
+        "question_prediction": "Acute otitis media",
+        "value_prediction": "Acute laryngitis"
+      }
+    ]
+  },
+  {
+    "question_count": 10,
+    "questions": [
+      "Do you have pain somewhere, related to your reason for consulting?",
+      "Characterize your pain:",
+      "Do you feel pain somewhere?",
+      "How intense is the pain?",
+      "Does the pain radiate to another location?",
+      "How precisely is the pain located?",
+      "How fast did the pain appear?",
+      "Do you have a cough?",
+      "Have you traveled out of the country in the last 4 weeks?",
+      "Are your vaccinations up to date?"
+    ],
+    "cases": [
+      {
+        "case_id": "ddx_test_0007033",
+        "source_row_zero_based": 7033,
+        "gold": "Acute otitis media",
+        "tokens": [
+          "E_201",
+          "E_204_@_V_10",
+          "E_209",
+          "E_53",
+          "E_54_@_V_161",
+          "E_54_@_V_192",
+          "E_55_@_V_129",
+          "E_55_@_V_130",
+          "E_56_@_9",
+          "E_57_@_V_123",
+          "E_58_@_10",
+          "E_59_@_7"
+        ],
+        "keys": [
+          "E_53",
+          "E_54",
+          "E_55",
+          "E_56",
+          "E_57",
+          "E_58",
+          "E_59",
+          "E_201",
+          "E_204",
+          "E_209"
+        ],
+        "question_prediction": "Acute otitis media",
+        "value_prediction": "Acute otitis media"
+      },
+      {
+        "case_id": "ddx_test_0123464",
+        "source_row_zero_based": 123464,
+        "gold": "Bronchitis",
+        "tokens": [
+          "E_201",
+          "E_204_@_V_10",
+          "E_209",
+          "E_53",
+          "E_54_@_V_181",
+          "E_55_@_V_101",
+          "E_55_@_V_160",
+          "E_55_@_V_171",
+          "E_55_@_V_29",
+          "E_55_@_V_56",
+          "E_56_@_3",
+          "E_57_@_V_123",
+          "E_58_@_7",
+          "E_59_@_1"
+        ],
+        "keys": [
+          "E_53",
+          "E_54",
+          "E_55",
+          "E_56",
+          "E_57",
+          "E_58",
+          "E_59",
+          "E_201",
+          "E_204",
+          "E_209"
+        ],
+        "question_prediction": "Acute otitis media",
+        "value_prediction": "Bronchitis"
+      }
+    ]
+  }
+]

@@ -1,0 +1,196 @@
+{
+  "case_id": "medmcqa_train_49fe11d4-b070-4ee9-ba0e-909dad1d38ff",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": false,
+      "listed": false,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -12.771034240722656,
+        -0.9904632568359375,
+        -3.433256149291992,
+        -2.6096668243408203
+      ],
+      "q_sequence": [
+        5.954784591976338e-06,
+        0.7782211469969473,
+        0.06764123903675226,
+        0.15413165918170837
+      ],
+      "q_token_mean": [
+        0.08593035867153755,
+        0.3798836389057813,
+        0.259680310954681,
+        0.27450569146800013
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Septic arthritis of hip\"}",
+      "generated_disease": "Septic arthritis of hip",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "2da94963b9ef77c46684fe65f9773e302701e239069234cc32feb08b025d6c35"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -24.234006881713867,
+        -3.164052963256836,
+        -0.2268695831298828,
+        -1.8881149291992188
+      ],
+      "q_sequence": [
+        3.015716789875242e-11,
+        0.04265355902409645,
+        0.8045588363421582,
+        0.1527876046035883
+      ],
+      "q_token_mean": [
+        0.01973489757982984,
+        0.2871710235581631,
+        0.3951357746365428,
+        0.2979583042254643
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Cong dislocation of hip\"}",
+      "generated_disease": "Cong dislocation of hip",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "892c6f9bf8750b0be4922a3849e78bb978111f97897fd8be9983b967f3f4682c"
+    },
+    {
+      "condition": "neutral",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -28.543886184692383,
+        -9.856002807617188,
+        -0.0038433074951171875,
+        -8.866250991821289
+      ],
+      "q_sequence": [
+        4.0283993099188107e-13,
+        5.2623186447561906e-05,
+        0.9998057906235538,
+        0.0001415861895958748
+      ],
+      "q_token_mean": [
+        0.01774015103257352,
+        0.21033570310165198,
+        0.62845675543819,
+        0.14346739042758444
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Cong dislocation of hip\"}",
+      "generated_disease": "Cong dislocation of hip",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "d5c741e91f8d81b988266c77d15a60b49513edbb4dbbcd747bc9ec67426787f1"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -13.839040756225586,
+        -0.015232086181640625,
+        -4.325849533081055,
+        -12.591682434082031
+      ],
+      "q_sequence": [
+        9.785939967022914e-07,
+        0.9867482650929886,
+        0.01324734969543321,
+        3.406617581424894e-06
+      ],
+      "q_token_mean": [
+        0.09650475355600369,
+        0.5433642510503803,
+        0.2933873813934632,
+        0.06674361400015273
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Tuberculosis ahritis of hip\"}",
+      "generated_disease": "Tuberculosis ahritis of hip",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "49f5de96367721328acfd9f8b123cc4b45cfb4cdd5972b535e8dbd08327aaf81"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -25.581951141357422,
+        -0.00272369384765625,
+        -15.343759536743164,
+        -18.54736328125
+      ],
+      "q_sequence": [
+        7.781844886891045e-12,
+        0.9999997736513334,
+        2.1750672458918238e-07,
+        8.834159985374536e-09
+      ],
+      "q_token_mean": [
+        0.03411075293110564,
+        0.834684600735087,
+        0.09325996483988103,
+        0.03794468149392638
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Tuberculosis ahritis of hip\"}",
+      "generated_disease": "Tuberculosis ahritis of hip",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "d87edea01999e726d097fe6ecac4701a746ed099d5357a1d5013a4ac7fcbe19d"
+    },
+    {
+      "condition": "wrong",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -23.68581771850586,
+        -0.002452850341796875,
+        -17.421878814697266,
+        -18.828655242919922
+      ],
+      "q_sequence": [
+        5.1813783978047796e-11,
+        0.9999999660649495,
+        2.7216947214995786e-08,
+        6.666289514317719e-09
+      ],
+      "q_token_mean": [
+        0.043961406780855694,
+        0.8487518056506554,
+        0.07047087575100025,
+        0.03681591181748845
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Tuberculosis ahritis of hip\"}",
+      "generated_disease": "Tuberculosis ahritis of hip",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "9e047fa776eb8bd40b664eed8f5871480f5a139dc4afeb9d183b4cfd71956d09"
+    }
+  ],
+  "state_sha256": "643af1179a2c294a9f2fb11d27108cd4884429c6d938000a1d6b9f48f2552b32"
+}

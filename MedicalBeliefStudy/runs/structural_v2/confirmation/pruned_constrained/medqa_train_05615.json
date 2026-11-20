@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_05615",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Anal fissure\"}",
+      "generated_disease": "Anal fissure",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "b0fd2552e06430a323323da04ead8b6fc38adfacaeb4108924334450c842f561"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Ulcerative colitis\"}",
+      "generated_disease": "Ulcerative colitis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "6a933c4810305b22a4405b9482b09184eeeca7ac98bebda18552d9a5162d2167"
+    }
+  ]
+}

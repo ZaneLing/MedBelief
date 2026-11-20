@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_89264b22-452f-47dd-839a-c1340fb61b16",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Tulsemarisngossemarinalenyserventetemphilenservemememememppervememememhemememppemememhemememhemememhemememhemememhemememhemememh",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "c823e0d521fcef1340969f972e663aa34e97bec7f1e23f72fecc5dfcf24c1c19"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Bulsemunganystechetexeserventechserventechservemplenservemplabemphemphemphemphemphemphemphemphemphemphemphesparlinezemphesparwemmservemmservem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "f435f2b66a08e227ceee539d67a594117180b43ed97ee4d4def4baca9da05a74"
+    }
+  ]
+}

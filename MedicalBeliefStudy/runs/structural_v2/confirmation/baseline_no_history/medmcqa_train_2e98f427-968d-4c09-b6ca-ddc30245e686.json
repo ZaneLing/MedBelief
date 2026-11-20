@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_2e98f427-968d-4c09-b6ca-ddc30245e686",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Scabies\"}",
+      "generated_disease": "Scabies",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "dd9573b4b41914c9b892185806c4012851da4dc7d4ef265703983ed55bd4f707"
+    }
+  ]
+}

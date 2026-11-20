@@ -1,0 +1,49 @@
+case_id,condition,gold,prompt24_prediction,rerank49_to24_prediction,prompt24_correct,rerank49_to24_correct
+ddx_test_0042118,public_24,Bronchitis,Pneumonia,Acute pulmonary edema,False,False
+ddx_test_0042118,append_24,Bronchitis,Bronchospasm / acute asthma exacerbation,Acute pulmonary edema,False,False
+ddx_test_0032489,public_24,Acute dystonic reactions,Acute otitis media,Acute pulmonary edema,False,False
+ddx_test_0032489,append_24,Acute dystonic reactions,Acute dystonic reactions,Acute pulmonary edema,True,False
+ddx_test_0044249,public_24,Boerhaave,Acute dystonic reactions,Acute pulmonary edema,False,False
+ddx_test_0044249,append_24,Boerhaave,Boerhaave,Boerhaave,True,True
+ddx_test_0101113,public_24,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,True,True
+ddx_test_0101113,append_24,Spontaneous pneumothorax,Spontaneous pneumothorax,Spontaneous pneumothorax,True,True
+ddx_test_0079685,public_24,Guillain-Barré syndrome,Acute otitis media,Acute pulmonary edema,False,False
+ddx_test_0079685,append_24,Guillain-Barré syndrome,Viral pharyngitis,Guillain-Barré syndrome,False,True
+ddx_test_0067994,public_24,Bronchitis,Pneumonia,Acute pulmonary edema,False,False
+ddx_test_0067994,append_24,Bronchitis,Acute pulmonary edema,Acute pulmonary edema,False,False
+ddx_test_0037913,public_24,Pericarditis,Pericarditis,Acute pulmonary edema,True,False
+ddx_test_0037913,append_24,Pericarditis,Boerhaave,Boerhaave,False,False
+ddx_test_0017896,public_24,HIV (initial infection),Acute pulmonary edema,Acute pulmonary edema,False,False
+ddx_test_0017896,append_24,HIV (initial infection),Viral pharyngitis,Viral pharyngitis,False,False
+ddx_test_0005881,public_24,Anemia,Anemia,Anemia,True,True
+ddx_test_0005881,append_24,Anemia,Anemia,Anemia,True,True
+ddx_test_0006854,public_24,Anemia,Anemia,Anemia,True,True
+ddx_test_0006854,append_24,Anemia,Pulmonary embolism,Pulmonary embolism,False,False
+ddx_test_0108184,public_24,Guillain-Barré syndrome,Acute pulmonary edema,Acute pulmonary edema,False,False
+ddx_test_0108184,append_24,Guillain-Barré syndrome,Guillain-Barré syndrome,Guillain-Barré syndrome,True,True
+ddx_test_0110714,public_24,Pulmonary embolism,Acute pulmonary edema,Acute pulmonary edema,False,False
+ddx_test_0110714,append_24,Pulmonary embolism,Pulmonary embolism,Acute pulmonary edema,True,False
+ddx_test_0061730,public_24,Cluster headache,Acute otitis media,Acute pulmonary edema,False,False
+ddx_test_0061730,append_24,Cluster headache,Cluster headache,Cluster headache,True,True
+ddx_test_0077278,public_24,Pericarditis,Pericarditis,Acute pulmonary edema,True,False
+ddx_test_0077278,append_24,Pericarditis,Pericarditis,Boerhaave,True,False
+ddx_test_0048692,public_24,Pulmonary embolism,Acute pulmonary edema,Acute pulmonary edema,False,False
+ddx_test_0048692,append_24,Pulmonary embolism,Pulmonary embolism,Acute pulmonary edema,True,False
+ddx_test_0123136,public_24,GERD,Acute dystonic reactions,Acute pulmonary edema,False,False
+ddx_test_0123136,append_24,GERD,GERD,GERD,True,True
+ddx_test_0041136,public_24,Acute otitis media,Acute otitis media,Acute pulmonary edema,True,False
+ddx_test_0041136,append_24,Acute otitis media,Acute otitis media,Acute otitis media,True,True
+ddx_test_0027885,public_24,Pancreatic neoplasm,Pneumonia,Acute pulmonary edema,False,False
+ddx_test_0027885,append_24,Pancreatic neoplasm,GERD,Pancreatic neoplasm,False,True
+ddx_test_0134351,public_24,Viral pharyngitis,Acute otitis media,Acute pulmonary edema,False,False
+ddx_test_0134351,append_24,Viral pharyngitis,GERD,GERD,False,False
+ddx_test_0064225,public_24,Acute pulmonary edema,Pneumonia,Acute pulmonary edema,False,True
+ddx_test_0064225,append_24,Acute pulmonary edema,Acute pulmonary edema,Acute pulmonary edema,True,True
+ddx_test_0060159,public_24,Acute dystonic reactions,Acute otitis media,Acute pulmonary edema,False,False
+ddx_test_0060159,append_24,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,True,True
+ddx_test_0062355,public_24,Acute dystonic reactions,Acute otitis media,Acute pulmonary edema,False,False
+ddx_test_0062355,append_24,Acute dystonic reactions,Acute dystonic reactions,Acute dystonic reactions,True,True
+ddx_test_0084538,public_24,Inguinal hernia,Acute pulmonary edema,Acute pulmonary edema,False,False
+ddx_test_0084538,append_24,Inguinal hernia,Pneumonia,Pneumonia,False,False
+ddx_test_0045887,public_24,URTI,Acute otitis media,Acute pulmonary edema,False,False
+ddx_test_0045887,append_24,URTI,URTI,Viral pharyngitis,True,False

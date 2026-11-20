@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_9ebef7e2-a6e9-4bbe-a66d-d07d6fb38cf7",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Thyroid dysfunctions due to iodine deficiency\"],\"diagnosis\":\"Thyroid dysfunctions due to iodine deficiency\"],\"diagnosis\":\"Iodine deficiency disorder\"],\"patient_facts\":{\"age_at_exam_in_months\":85,\"allergy_status\":\"none\",\"allergies_present\":false,\"allergy_sus",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "704d2484d1b07c0339c7f679391e56fadf9112a76ebb33c06cbbe9bb9a2ebcbb"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Thyreoid Dysplasia\"}",
+      "generated_disease": "Thyreoid Dysplasia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "6ddbd3590b1a7e343b23cfe6fe57183e6ad5494148fa47b845cf3a2b91fe8c00"
+    }
+  ]
+}

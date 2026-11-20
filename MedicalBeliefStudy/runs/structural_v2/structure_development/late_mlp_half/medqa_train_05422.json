@@ -1,0 +1,41 @@
+{
+  "case_id": "medqa_train_05422",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_half",
+    "mlp_scale": 0.5,
+    "scale_layers": [
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Local anal trauma\"}",
+      "generated_disease": "Local anal trauma",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "9e201ca73862f99fe4ae69833bfbcb9b92233457b8dc4e23143d5864ee649f32"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Rectal prolapse and paradoxical contraction of the puborectalis muscle\"}",
+      "generated_disease": "Rectal prolapse and paradoxical contraction of the puborectalis muscle",
+      "stop": "eos",
+      "tokens": 16,
+      "prompt_sha256": "7cb7e54eedfb4b2bbe10a6c10d593059042dcfa712ac29ca531ab8639963cf4b"
+    }
+  ]
+}

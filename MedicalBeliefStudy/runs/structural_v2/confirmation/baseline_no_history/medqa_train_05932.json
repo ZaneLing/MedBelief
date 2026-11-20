@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_05932",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Pancreatic pseudocyst\"}",
+      "generated_disease": "Pancreatic pseudocyst",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "40c4a594444086ca73f5415411f16aff27553b8734ccc2a9f057eb45d5d902c6"
+    }
+  ]
+}

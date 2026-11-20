@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_09651",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Progressive multifocal leukoencephalopathy\"}",
+      "generated_disease": "Progressive multifocal leukoencephalopathy",
+      "stop": "eos",
+      "tokens": 11,
+      "prompt_sha256": "9778b35f31ad18abd25e9736ae6bca20d695cbddb4c46359eb5377f9f7ffb20e"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Progressive multifocal leukoencephalopathy\"}",
+      "generated_disease": "Progressive multifocal leukoencephalopathy",
+      "stop": "eos",
+      "tokens": 11,
+      "prompt_sha256": "2352804ad1ae61fb248f38fe60f1cd3271d4189e72f4d52fd3fdf85da60a0176"
+    }
+  ]
+}

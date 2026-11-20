@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_01997",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxanemia\"}",
+      "generated_disease": "Pemphoxanemia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "ca4faae94ebab3d25dc335db820ec50d4fcbb82a0de911a680b7ced7a6279f9f"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chilispecatiformesphilaxerthocotaruminateurphilisopturacostarobemphilisoptaxoemphilisheilensenservemenschellservemenschemaossemenschemaoschilenschellschells",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "825aba177a87fc550abc1a2bdd515c30da940235f0274e9fa7f4f18b84ed4d56"
+    }
+  ]
+}

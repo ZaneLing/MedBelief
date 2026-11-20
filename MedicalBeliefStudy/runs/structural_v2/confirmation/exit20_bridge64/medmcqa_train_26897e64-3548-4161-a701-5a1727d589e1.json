@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_26897e64-3548-4161-a701-5a1727d589e1",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Polar\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "f1af2b1a6b8e3c48afe2fe5c3e8514b25f3af20eb8f04275dcc43a4bed769967"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Polar\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "78dabc383432df55797476b7bfa0bdb6ee2973b61c5897a397683ab84a22d16e"
+    }
+  ]
+}

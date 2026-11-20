@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_03323",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_constrained",
+    "exit_layer": 20,
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1317886976,
+    "weight_bytes": 2635773952,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Ectopic implantation of a blastocyst\"}",
+      "generated_disease": "Ectopic implantation of a blastocyst",
+      "stop": "eos",
+      "tokens": 11,
+      "prompt_sha256": "1a82b389bb1506953f2fb8f29c7e681bd04b2ae6b2cfa3edaaf8a233e21b0be9"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Ectopic implantation of a blastocyst\"}",
+      "generated_disease": "Ectopic implantation of a blastocyst",
+      "stop": "eos",
+      "tokens": 11,
+      "prompt_sha256": "31ceb455a0e9d3272121316dfecbdcd2a4e941d1a82f1cccfa22891b8b614dfb"
+    }
+  ]
+}

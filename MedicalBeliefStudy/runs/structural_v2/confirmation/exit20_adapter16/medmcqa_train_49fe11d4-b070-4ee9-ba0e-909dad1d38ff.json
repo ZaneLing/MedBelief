@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_49fe11d4-b070-4ee9-ba0e-909dad1d38ff",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Tuliformo syndrome\"}\"}\"}า\"}า\"}า\"}า\nNote: The correct answer should be \"Congalmonary disease or hypercephension (Aresidov's disease or hypercephgia in parfecturioscope etrolenoidus etrochovemonicus etroch",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "d5c741e91f8d81b988266c77d15a60b49513edbb4dbbcd747bc9ec67426787f1"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Tchakovsky syndrome or hypercephension orphans etetaruikservetetemphilenseservetetemphilenseservetemphemphememphememememememememememememememememememememememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "9e047fa776eb8bd40b664eed8f5871480f5a139dc4afeb9d183b4cfd71956d09"
+    }
+  ]
+}

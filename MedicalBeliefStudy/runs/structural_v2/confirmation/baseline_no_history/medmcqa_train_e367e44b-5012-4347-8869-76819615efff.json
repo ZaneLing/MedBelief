@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_e367e44b-5012-4347-8869-76819615efff",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Neurogenic shock\"}",
+      "generated_disease": "Neurogenic shock",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "db149bff1771c9fa2a093010b65497f24af2e8e9c465803f78243e3d8d0a46a4"
+    }
+  ]
+}

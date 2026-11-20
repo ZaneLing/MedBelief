@@ -1,0 +1,21 @@
+{
+  "complete": true,
+  "cases": 480,
+  "teacher_prefix_checks": [
+    {
+      "condition": "neutral",
+      "teacher_prefix_logit_error": 0.0,
+      "same_first_token": true
+    },
+    {
+      "condition": "wrong",
+      "teacher_prefix_logit_error": 0.0,
+      "same_first_token": true
+    }
+  ],
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  }
+}

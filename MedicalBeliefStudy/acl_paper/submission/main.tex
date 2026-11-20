@@ -1,0 +1,228 @@
+\documentclass[11pt]{article}
+\usepackage[review]{acl}
+\usepackage{times,latexsym}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype,inconsolata}
+\usepackage{graphicx,booktabs,amsmath,amssymb,multirow,longtable,array}
+\title{Do Language Models Have Medical Beliefs?\\Tracing Evidence, Internal Disease Information, and Diagnostic Choice}
+\author{Anonymous ACL submission}
+\begin{document}
+\maketitle
+\begin{abstract}
+When clinical evidence changes, does a language model revise a disease representation that actually governs its diagnosis? We study this question by separating diagnostic output, internally decodable disease information, and the causal effect of that information. Using 120 held-out synthetic patients spanning 24 diseases, we follow all evidence prefixes for 24 patients and inspect every layer of two Qwen3 configurations. Presenting identical patient facts as a fixed questionnaire improves final-layer disease decoding in the 1.7B model from 100/120 to 112/120, while its own 24-disease ranking deteriorates from 56/120 to 14/120. Continuous internal and output updates remain positively associated, but their association weakens under the questionnaire. Directions learned from other patients causally increase target-disease scores in all eight primary contrasts, yet produce no additional correct diagnoses at the tested dose. Case-complete analyses reveal recovery, relapse, stable error, and counterexamples where the model outperforms its readout. A 4B configuration reproduces the decoding--diagnosis gap and presentation sensitivity. These findings characterize medical belief through the relationship between information, updating, and decision-making: disease information is available and causally consequential, but does not reliably determine the final diagnosis.
+\end{abstract}
+
+\section{Introduction}
+A patient has right-ear pain, recent oral antibiotic treatment for an ear infection, and fever. When these facts are revealed sequentially, a language model changes its answer to acute otitis media after the treatment history arrives and retains that diagnosis. Put the same facts into a questionnaire whose remaining entries explicitly say \emph{Unknown}, and the model instead selects acute exacerbation or infection of chronic obstructive pulmonary disease (COPD). A readout trained on other patients can nevertheless identify otitis media from its later layers.
+
+What, then, is the model's medical belief? Its answer suggests one disease; its internal representation supports a classifier predicting another. Neither observation alone resolves the question. The answer can depend on the output interface, and the readout can learn a classification rule that the original model does not use. A useful investigation must follow what evidence changes \emph{inside} the model and whether those changes affect its own diagnostic choice.
+
+Belief updating and medical representation analysis already have direct precedents. DeReLab measures defeasible belief revision and confirmation bias with turn-level ground truth \citep{derelab}. Clinical studies examine changes in judgments over patient trajectories \citep{zeng2026}, while diagnostic coherence tests examine stated distributions under evidence transformations \citep{arun2026}. Medical knowledge maps analyze intermediate activations and perform layer lesions and activation patching \citep{marinescu2025}. Our question connects these strands: \textbf{how tightly are evidence-responsive disease information and diagnostic choice coupled within the same patient trajectory?}
+
+We examine three levels. First, \emph{expressed support}: which disease name does the model favor after each evidence group? Second, \emph{represented information}: which disease can be decoded from each layer, and how do its scores change? Third, \emph{causal influence}: does intervening on a disease-related direction move the original model's scores, and does it change the diagnosis? We use ``medical belief'' as the object investigated through these relationships, not as an assumed hidden probability distribution.
+
+The opening example motivates a population-level result. On 120 held-out patients, a fixed questionnaire raises 1.7B final-layer readout accuracy but sharply reduces native diagnostic ranking. This is not universal: some patients improve under the questionnaire, some diagnoses are correct despite an incorrect readout, and some fail in both channels. We therefore provide all 24 deeply measured trajectories, rather than defining the phenomenon through selected successes.
+
+Our contributions are three empirical connections. (1) We join sequential diagnostic behavior to layerwise disease decoding on disjoint patients. (2) We link natural score updates to controlled disease-direction interventions, distinguishing a score effect from a corrected decision. (3) We separate semantic answers, evidence presentation, candidate ordering, and intervention position, and replicate the central discrepancy in a second model configuration. Together these experiments support a conditional account: disease information can be preserved and affect generation without reliably controlling diagnosis.
+
+\begin{figure*}[t]
+\centering\includegraphics[width=.92\textwidth]{figures/opening_case.pdf}
+\caption{One patient, identical facts, different diagnostic trajectories. The source label is acute otitis media. Round 1 reveals recent oral antibiotic treatment for an ear infection; subsequent groups add fever, cough, vaccination status, and travel history. Top: native disease-name support. Bottom: the source label's rank in independent-patient layer readouts (yellow is rank 1). Readout ranks are not native disease probabilities. This post-hoc illustrative case motivates the all-patient analyses.}\label{fig:opening}
+\end{figure*}
+
+\section{What Would Count as a Medical Belief?}
+\label{sec:belief}
+We evaluate a candidate disease state along three axes rather than assigning belief to a single activation or attention map.
+
+\paragraph{Content.} A state should distinguish competing diseases for a patient. We measure decodability using linear readouts trained only on other patients. This tests informational availability; it does not establish that the model has already inferred the decoded diagnosis. Probing accuracy need not imply task relevance \citep{probing}, and probes can learn from retained contextual features \citep{contextprobe}.
+
+\paragraph{Updating.} The state should respond to new patient evidence. We compare disease-pair score changes in the readout and the original model, holding the pair fixed within each update. A stable top disease can conceal substantial changes in relative support. Conversely, a small score crossing can change the top disease. We therefore report continuous updates and discrete switches separately.
+
+\paragraph{Influence on choice.} Disease-related state variation should affect the model's own output. We intervene along readout-derived directions, compare target, opposite, random, and zero directions, and measure the original model's complete disease-name scores. Causal influence on a score is weaker than sufficient influence to change the selected diagnosis. We measure both.
+
+These axes yield three research questions: \textbf{RQ1}, what patterns of diagnostic revision occur as evidence accumulates? \textbf{RQ2}, how do those revisions relate to internal disease information across layers? \textbf{RQ3}, when does disease-related internal information influence the model's diagnostic decision? Presentation and model configuration serve as controlled conditions under which these relationships may change. The study does not test subjective experience or a human-like commitment to an earlier answer.
+
+\section{Experimental Design}
+\label{sec:design}
+\paragraph{Patients and reference diagnoses.}
+We use DDxPlus, a synthetic clinical corpus with symptoms, antecedents, pathology labels, and reference differentials \citep{ddxplus}. Readouts are trained on an existing 120-patient validation cohort. Evaluation uses 120 patients from the official test split, five for each of 24 diseases across six disease groups. Selection uses fixed hashes, ages 18--90, at least five evidence groups, and exclusion of exact fact-set duplicates with previous cohorts, ignoring age and sex. Both splits still share the same simulator.
+
+An independently hashed subset of 24 test patients, covering 17 diseases and all six groups, receives complete prefix measurement: 208 prefixes and 184 evidence additions per presentation. This subset was selected before observing its model outputs. The final pathology label is the endpoint reference. It is also the top reference-differential diagnosis for 79/120 patients. No unique ground-truth posterior is available for intermediate prefixes; leaving the final label early is not automatically an unreasonable clinical update.
+
+\paragraph{Evidence presentation.}
+The initial prefix contains one source evidence group. Each subsequent round adds a source group, potentially containing related fields such as pain location and severity. The order is fixed by hash. Every prefix is a fresh forward pass over cumulative evidence, with no previous model answer. Rounds indicate information acquisition, not physiological disease progression.
+
+In \emph{append} input, only revealed question--answer pairs are shown. In the \emph{fixed panel}, all 223 question fields are visible; unrevealed answers are marked Unknown, explicitly distinguished from No. Facts are matched, but length, positions, and unknown-field context differ. Follow-ups relocate known facts, remove Unknown rows, alter one Yes/No answer, and reorder candidates. The mask of which answers are known remains potentially informative even when every question is visible.
+
+\paragraph{Models and captures.}
+We use Qwen3-1.7B in FP16 and an existing Qwen3-4B 8-bit configuration \citep{qwen3}. Explicit thinking is disabled. All weights remain frozen. We record all 28/36 layers at the diagnostic anchor, including incoming residual, attention increment, post-attention residual, MLP increment, and outgoing residual. We also reconstruct anchor attention by head and input group. This captures anchor-to-input attention, not every token-to-token attention matrix. Size and precision differ together; the second configuration is a replication, not an isolated scaling experiment.
+
+\paragraph{Native support.}
+For a fixed JSON prefix, let $y(d)$ contain the canonical disease name, closing syntax, and EOS. We compute
+\begin{align}
+ L_t(d)&=\sum_j\log P_\theta(y_j(d)\mid E_t,y_{<j}(d)),\\
+ q_t(d)&=\frac{\exp L_t(d)}{\sum_{k\in D}\exp L_t(k)}.
+\end{align}
+The main candidate universe $D$ contains 49 names. $q$ is relative support among these strings, not a calibrated clinical posterior. We retain per-token scores, canonical-string mass, mean-token scores, and greedy continuations. For comparison with 24-class readouts, we also rerank the 24 sampled diseases within the same 49-name prompt. An actual 24-candidate prompt is tested separately.
+
+\paragraph{Layer readouts.}
+For each layer $\ell$, normalize its outgoing anchor state $u=h/\lVert h\rVert_2$ and fit centered ridge regression to one-hot training labels:
+\begin{equation}
+ s_\ell(u)=(u-\mu_\ell)W_\ell+b.
+\end{equation}
+There are 24 output classes; ridge strength is 0.1, with 0.01 and 1 sensitivity checks. Heads are fitted independently by layer, presentation, and model, using only old-patient endpoints. Test prefixes never train the heads. Readout scores are not probabilities, and their supervision differs from that of the unadapted native model.
+
+\paragraph{Inference and provenance.}
+Patients, not tokens or rounds, are statistical units. Trajectory statistics are first aggregated within patient. We use 2,000 patient-bootstrap replicates for descriptive 95\% intervals, exact binomial boundary intervals for all-zero/all-one binary outcomes, and 20,000 paired sign permutations with Holm correction for eight prespecified intervention contrasts. Fixed-head intervals do not include readout-training uncertainty. Presentation and candidate follow-ups reuse the 24 patients and are exploratory. Appendix~\ref{app:repro} gives implementation checks and the analysis chronology.
+
+\section{RQ1: How Does Diagnostic Support Change?}
+\label{sec:behavior}
+\paragraph{Abrupt revision and persistent error coexist.}
+Across 184 updates, the 1.7B append model changes its top-49 disease 77 times; 69 updates change at least one disease's support by 0.5 or more. The fixed panel has 23 switches and 21 large updates. The 4B append configuration has 55 and 53 respectively. These counts distinguish argmax changes from large shifts; their overlap is not assumed.
+
+To make the range visible, we classify all trajectories by their relationship to the source label (Table~\ref{tab:patterns}). The taxonomy is a post-hoc descriptive analysis of frozen records. ``Recover'' means an earlier label hit was followed by a departure and then a correct endpoint; ``lose'' means the label was hit but not selected at the endpoint. Cases that never hit it are split by whether their top disease changes. The categories are mutually exclusive and exhaustive.
+
+\begin{table}[t]
+\centering\small
+\begin{tabular}{lrrr}\toprule
+Trajectory type & 1.7B A & 1.7B P & 4B A\\\midrule
+Always hits source label & 0 & 0 & 2\\
+Acquires and retains & 5 & 3 & 8\\
+Departs, then recovers & 6 & 0 & 6\\
+Hits label, ultimately loses & 5 & 5 & 3\\
+Never hits, fixed answer & 1 & 10 & 0\\
+Never hits, changes & 7 & 6 & 5\\\bottomrule
+\end{tabular}
+\caption{All 24 trajectories per condition; A: append, P: fixed panel. These describe source-label agreement, not per-round clinical validity.}\label{tab:patterns}
+\end{table}
+
+The panel's lower switch count is therefore not evidence of better belief stability. Ten patients retain one incorrect disease throughout, compared with one under append input. Conversely, genuine endpoint recovery is common under append input: six patients in each model return to the source label after departing from it.
+
+\paragraph{Contrasting cases.}
+Otitis media illustrates acquisition followed by retention. Pancreatic neoplasm illustrates repeated entry and exit: the 1.7B append model selects pancreatic neoplasm twice, but ends at bronchiolitis while the final-layer readout identifies pancreatic neoplasm. Acute dystonic reactions provide a stable-error case: one trajectory remains at acute laryngitis despite a final readout selecting the source label. These are distinct forms of failure, not interchangeable examples of one monotonic drift.
+
+Counterexamples are equally important. For Boerhaave syndrome, the native endpoint is correct while the final-layer readout predicts GERD. A pulmonary-embolism patient ends with an incorrect native diagnosis and an incorrect readout. An anemia patient is misclassified under append input but correctly classified under the panel. A pneumothorax patient is correctly classified under both. Ten contrasting examples are plotted in Appendix~\ref{app:examples}, and every evidence group and output is listed for all 24 patients in Appendix~\ref{app:cases}.
+
+\paragraph{Order affects endpoints.}
+With complete facts retained, reversing their append order changes the 1.7B top diagnosis for 9/24 patients; a fixed shuffle changes it for 6/24. This establishes order sensitivity under the tested prompts, without establishing which intermediate ordering is clinically preferable. The presentation comparisons below keep the patient facts matched and examine how the resulting diagnostic behavior relates to internal information.
+
+\section{RQ2: Does Internal Information Track Diagnosis?}
+\label{sec:representation}
+\paragraph{Availability and choice separate.}
+Table~\ref{tab:main} compares native ranking and readouts over the same 24 diseases. In 1.7B append input, the final-layer readout identifies 100/120 labels, against 56/120 for native ranking. With the panel, readout accuracy rises to 112/120 while native ranking falls to 14/120. The paired readout-minus-native differences are 36.7 percentage points (95\% CI [27.5,46.7]) and 81.7 [74.2,88.3]. The comparison quantifies different outputs under different supervision, rather than an unsupervised diagnostic improvement.
+
+\begin{table}[t]
+\centering\small
+\begin{tabular}{lrrr}\toprule
+Configuration & Native 49 & Native 24 & Last readout\\\midrule
+1.7B append & 44/120 & 56/120 & 100/120\\
+1.7B panel & 10/120 & 14/120 & 112/120\\
+4B append & 75/120 & 82/120 & 110/120\\\bottomrule
+\end{tabular}
+\caption{Endpoint source-label matches. Native 24 reranks the sampled classes within the 49-name prompt. Readouts are trained on 120 separate patients.}\label{tab:main}
+\end{table}
+
+\begin{figure*}[t]
+\centering\includegraphics[width=.94\textwidth]{figures/depth_alignment.pdf}
+\caption{Two different questions across depth. Left: independent-patient disease decoding versus native 24-class ranking (120 endpoints). Right: within-patient association between readout-margin and native-margin updates (24 trajectories); shaded bands are patient-bootstrap 95\% intervals. High endpoint decodability does not imply an equally strong relationship to output updating.}\label{fig:depth}
+\end{figure*}
+
+The discrepancy is not an aggregate illusion in which the two methods succeed on disjoint patients. Under append input, both are correct on 52 patients, only the readout on 48, only native ranking on four, and neither on 16. Under the panel, the corresponding counts are 13, 99, one, and seven. These four cells rule out both ``the internal readout is always right'' and ``the model ignores all disease information.'' They describe complementary observations, not access to a privileged internal ground truth.
+
+\paragraph{Evidence-related internal changes remain connected to output.}
+For each update, fix the pair consisting of the source disease $g$ and the strongest non-$g$ native competitor among the 24 classes at the previous round. We compare
+\begin{align}
+\Delta M_t &= \Delta[L_t(g)-L_t(c)],\\
+\Delta S_{t,\ell} &= \Delta[s_{t,\ell}(g)-s_{t,\ell}(c)].
+\end{align}
+The competitor can change between events, but is fixed across the two prefixes of an event. We calculate Spearman correlation within each patient and average over patients.
+
+At layer 28, mean correlation is 0.575 for append and 0.319 for the panel. The paired difference is $-0.256$ (95\% CI [$-0.446,-0.059$]). Nonzero changes point in the same direction on a patient-averaged 73.9\% and 62.6\% of updates. Thus internal and output changes are related, but presentation weakens their association. Figure~\ref{fig:depth} also separates endpoint decodability from the depth at which natural updates become more closely associated with output. These curves do not identify a unique causal layer.
+
+Using only top-class changes would obscure this relationship. Among native 24-class switches, the layer-28 readout top remains unchanged at case-weighted rates of 58.2\% under append and 54.5\% under the panel. A readout can retain its top class while its margin moves with native output. We therefore interpret discrete disagreement together with continuous alignment, not as proof of independent internal and external beliefs.
+
+\paragraph{Representation quality is source-dependent.}
+A simple classifier trained on old patients reaches 120/120 on new full text; question-only text reaches 119/120 and recorded-field presence reaches 120/120. These controls show that the simulator's recording structure is highly predictive. A layer readout may exploit this structure rather than a disease concept abstracted from clinical reasoning. Keeping this baseline in the main argument prevents the decoding result from being misrepresented as discovering a superior clinical diagnostic method.
+
+\section{RQ3: Can Internal Disease Information Change the Answer?}
+\label{sec:causal}
+\paragraph{Directional interventions.}
+At the predetermined middle prefix for each of 24 patients and each presentation, take the source label $g$ and the strongest competing class $c$. Use the corresponding independently trained readout weights to define
+\begin{align}
+ v_\ell &= \frac{W_{\ell,:,g}-W_{\ell,:,c}}{\lVert W_{\ell,:,g}-W_{\ell,:,c}\rVert_2},\\
+ h' &= h+\alpha\lVert h\rVert_2 v_\ell.
+\end{align}
+The primary dose is $\alpha=0.05$; 0.02 is an anchor sensitivity condition. We intervene at layers 21 and 28, either at the final prompt anchor or at all scored continuation positions. Controls use the opposite direction, a fixed orthogonal random direction of equal norm, and zero displacement. The source label is used as an offline intervention target, not as information available to a diagnostic system.
+
+The independent outcome is the original model's target-versus-competitor log-score ratio. Increasing the external readout's own score would be a built-in consequence of the intervention and is not evidence of native use. There are 672 active conditions and 48 zero controls; every zero control reproduces its baseline.
+
+\begin{figure*}[t]
+\centering\includegraphics[width=.94\textwidth]{figures/causal.pdf}
+\caption{Disease-direction effects on the original model's complete-name score ratio. All eight primary target-minus-random contrasts are positive after Holm correction ($p\leq0.00065$). Error bars are patient-bootstrap 95\% intervals. None of the eight target-direction conditions produces a newly correct top-49 diagnosis at dose 0.05.}\label{fig:causal}
+\end{figure*}
+
+\paragraph{Information has local causal influence.}
+All eight primary target-minus-random comparisons are positive after Holm correction. Effects range from 0.539 to 2.017 log-score-ratio units (Figure~\ref{fig:causal}); opposite-direction mean effects are negative and the smaller anchor dose produces smaller mean effects. This establishes that these directions can influence the model's native scoring. It does not estimate how much of a natural evidence update is mediated by those directions, because an artificial displacement is not the same as removing the natural update.
+
+\paragraph{Influence does not imply a corrected decision.}
+No wrong-to-right or right-to-wrong top-49 transitions occur in the eight primary target conditions. For the layer-21 all-continuation intervention, append accuracy remains 10/24 and panel accuracy remains 5/24 at these middle prefixes. Among initially wrong cases, the median deficit of the source disease behind the strongest competing name is 10.681 log-score units for append and 22.119 for the panel. Median margin gains are only 1.166 and 1.516. The tested intervention therefore moves the score in the intended direction but usually leaves a much larger diagnostic deficit. This explains the observed local effect without presenting it as a successful correction method.
+
+\paragraph{Where a state is changed determines what it can affect.}
+For a causal decoder, changing the final-layer post-MLP state at the final prompt position alters the next-token logits but does not rewrite that layer's already computed key/value cache. Under fixed teacher-forced candidate continuations, only the first output-token score changes. Consequently, if two disease names share their first token,
+\begin{equation}
+ \Delta\{L(d_1)-L(d_2)\}=0.
+\end{equation}
+This is an architectural property of the intervention site, not a new theorem or a claim about all natural evidence updates.
+
+The actual tokenizer groups medically different names: Panic attack, Pneumonia, Pulmonary embolism, and Pulmonary neoplasm share first token \texttt{P}; six Acute names share \texttt{Ac}. The layer-28 anchor intervention has exactly zero within-first-token selectivity. The layer-21 anchor has positive selectivity under append input (target-minus-random 0.134, CI [0.044,0.242], 13 applicable patients), while continuation interventions can influence later name tokens. Format-token effects are negligible in the measured decomposition. Disease-score movement must therefore be localized to its generation pathway before it is interpreted as changing a coherent disease belief.
+
+\section{When Do the Three Levels Come Apart?}
+\label{sec:conditions}
+\paragraph{Patient answers matter, but do not uniquely determine choice.}
+For each of 24 patients, we change one source-recorded binary Yes answer near the middle prefix to No, leaving its question and input length unchanged. Five cases change their top-49 disease; layer-21 and layer-28 readout tops change for seven and four. This establishes sensitivity to answer values in some cases. The counterfactual has no adjudicated new diagnosis, so we do not score its correctness. It also does not establish that unchanged answers imply semantic insensitivity. Negation sensitivity is a pre-existing evaluation problem \citep{negation}; here it is a control on the patient-specific interpretation.
+
+\paragraph{Attention and diagnostic use can diverge.}
+Placing known rows first or last in the panel preserves each patient's exact token count. Moving them last increases late-layer anchor attention to known facts from 2.05\% to 3.99\%, while source-label matches fall from 7/24 to 2/24. The paired accuracy permutation test yields $p=0.0634$, not a significant result at 0.05; the exploratory support difference is $-0.2185$ ($p=0.0070$, uncorrected). The observations show that greater attention mass does not establish improved evidence use. Attention mass is also affected by token grouping and is not a causal importance score.
+
+Removing Unknown rows while retaining all known facts raises native accuracy from 3/24 to 12/24 relative to the original fixed panel. This implicates the presentation context, but the shortened condition changes both length and content and does not isolate a unique mechanism. Readouts trained on the original panel also degrade under these transformations; their cross-layout transfer cannot be assumed.
+
+\paragraph{Default output preference explains only part of the failure.}
+In age/sex-only prompts without symptoms, the 1.7B model selects COPD in all 24 cases both with and without the questionnaire. Mean support is 0.9990 and 0.9950 respectively. The questionnaire did not create the entire preference. With complete facts, reversing the candidate list reduces COPD selections from 17/24 to 2/24; rotating it reduces them to 8/24. The model never selects the new first candidate in these controls, ruling out a simple first-item copying rule.
+
+Following the idea of content-free calibration \citep{calibrate}, we subtract each matched empty-input log score from its full-input score with fixed coefficient one. COPD selections disappear, but panel accuracy changes only from 3/24 to 5/24; append accuracy changes from 11/24 to 14/24. The paired gain intervals include zero. Removing a common answer preference does not automatically make the retained information determine the correct diagnosis. This is a diagnostic control, not a new calibration algorithm.
+
+\paragraph{A second configuration improves accuracy, not invariance.}
+The 4B configuration identifies 75/120 source labels natively among 49 diseases, compared with 44/120 for 1.7B. In the matched 24-class comparison, its last-layer readout still outperforms native ranking, 110/120 versus 82/120 (paired difference 23.3 points, CI [14.2,32.5]). Its final-layer natural-update correlation is 0.677, with 81.4\% same-direction updates. These results reinforce the distinction between increasing diagnostic competence and eliminating the information--decision discrepancy.
+
+On the same 24 deep patients, 4B append input gives 16 correct endpoints, while the panel gives four (paired difference $-0.50$, CI [$-0.708,-0.292$]). Its most frequent panel answer is pulmonary embolism (10/24), rather than the 1.7B configuration's COPD concentration. Thus the presentation failure replicates, but the specific preferred disease does not. We did not repeat causal interventions in 4B or train 4B panel readouts.
+
+\section{Related Work}
+\paragraph{Belief revision and clinical updating.}
+\citet{derelab} generate formally verified multi-turn defeasible reasoning tasks and study confirmation bias. Their turn-level truth permits normative revision judgments that our incomplete patient prefixes do not. \citet{zeng2026} study longitudinal clinical judgments and the influence of previous assessments. We exclude previous answers to isolate the mapping from cumulative facts to current computation. \citet{arun2026} evaluate stated diagnostic distributions on DDxPlus, including order, redundancy, and anchoring. Our primary distribution is calculated from model likelihoods of disease-name strings, and our focus is its relationship to layer states and interventions, not the first demonstration of clinical inconsistency.
+
+\paragraph{Medical representations and causal intervention.}
+\citet{marinescu2025} combine medical representation visualization, gradients, lesions, and patching, including nonmonotonic representations of disease progression. We study acquisition of evidence about a fixed patient rather than disease progression. Activation-direction steering is also established \citep{iti}. Our intervention contribution is the comparison between independent-patient directions, full-name output changes, and diagnostic boundary crossing, with explicit intervention-position controls.
+
+\paragraph{Measurement of representations and answers.}
+\citet{probing,contextprobe} motivate our separation of decodability from task use and the strong text baselines. Surface-form competition \citep{surface} motivates treating canonical-name support as a measurement interface rather than a disease posterior. Contextual calibration \citep{calibrate} motivates the empty-input score control. These methods inform the analysis; the contribution is the connected evidence about when medical information is preserved, updated, and expressed in a diagnostic choice.
+
+\section{Conclusion}
+Medical belief cannot be inferred from a confident diagnosis or a successful probe alone. In our experiments, patient evidence produces disease-related internal changes that correlate with native updates and admit directional causal influence. Yet the same information can coexist with incorrect, presentation-sensitive diagnosis, and a positive score intervention need not cross the diagnostic boundary. Exhaustive trajectories and counterexamples show that this relationship is conditional rather than a universal hidden-correct-answer phenomenon. The resulting account connects three measurable levels---disease information, evidence-driven updating, and diagnostic choice---and identifies the points where they cease to move together.
+
+\section*{Limitations}
+The study uses one synthetic generator, 120 held-out endpoints, and 24 deep trajectories spanning 17 diseases. Questions and recorded-field masks can predict labels, so readouts may exploit simulation structure. There are no ground-truth intermediate posteriors or adjudicated counterfactual diagnoses. The 49 canonical names constrain output, and string scores are not clinical probabilities. Both models are Qwen3 with explicit thinking disabled; size and quantization are confounded. Fixed heads receive supervision unavailable to native ranking. Causal interventions use known target labels and can move states off their natural distribution; they demonstrate local controllability, not natural causal mediation or a deployable diagnostic repair. Attention and residual decomposition are descriptive. Presentation follow-ups reuse observed patients, and the new trajectory taxonomy is post-hoc. Cross-family replication, matched-precision scaling, alternative case sources, and natural-update ablation remain substantive empirical extensions.
+
+\section*{Ethics Statement}
+We analyze language-model behavior on pre-existing synthetic cases, not new patient records or clinical interventions. Source diagnoses provide evaluation labels; this work adds no clinical adjudication. Results should not be interpreted as validation for patient care. Counterfactual answers are used to inspect computation and are not assigned invented disease labels. We retain source identifiers and distinguish acquired information from disease progression. The manuscript and analysis code were developed with an AI coding assistant; the research team remains responsible for their verification and final submission.
+
+\bibliography{references}
+\bibliographystyle{acl_natbib}
+\clearpage
+\appendix
+\input{sections/appendix}
+\clearpage\onecolumn
+\section{Complete Patient Evidence and Trajectories}\label{app:cases}
+All 24 preselected patients are included. Native supports are normalized over 49 names. Readout tops are predictions of separate 24-class heads trained on old-patient endpoints; their labels are not model-native probabilities. The figures show source-label support and maximal native support above, and the source label's rank in every layer readout below (yellow is rank 1). Tables give each newly available evidence group and the full top-disease trajectory in three conditions. The companion repository contains every candidate score and all-layer heatmaps.
+\input{sections/all_cases}
+\end{document}

@@ -1,0 +1,2071 @@
+{
+  "patients": 94,
+  "rounds": 537,
+  "projection_conditions": 2148,
+  "layer_candidate_rows": 240576,
+  "model_comparison": [
+    {
+      "dataset": "MedQA",
+      "cohort": "all",
+      "n": 32,
+      "1.7B_none_correct": {
+        "n": 32,
+        "mean": 0.53125,
+        "median": 1.0,
+        "low": 0.37421875000000027,
+        "high": 0.71875
+      },
+      "1.7B_neutral_correct": {
+        "n": 32,
+        "mean": 0.46875,
+        "median": 0.0,
+        "low": 0.3125,
+        "high": 0.625
+      },
+      "1.7B_wrong_correct": {
+        "n": 32,
+        "mean": 0.28125,
+        "median": 0.0,
+        "low": 0.125,
+        "high": 0.4375
+      },
+      "1.7B_mention_correct": {
+        "n": 32,
+        "mean": 0.3125,
+        "median": 0.0,
+        "low": 0.15625,
+        "high": 0.46875
+      },
+      "1.7B_gold_correct": {
+        "n": 32,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.65625,
+        "high": 0.9375
+      },
+      "1.7B_history_accuracy_change": {
+        "n": 32,
+        "mean": -0.1875,
+        "median": 0.0,
+        "low": -0.34375,
+        "high": -0.03125
+      },
+      "1.7B_history_margin_change": {
+        "n": 32,
+        "mean": -12.45564331331081,
+        "median": -9.668892026855126,
+        "low": -16.730839432504062,
+        "high": -8.522534296955548
+      },
+      "1.7B_update_interaction": {
+        "n": 32,
+        "mean": -0.6514419654164385,
+        "median": -0.27602396556594044,
+        "low": -2.2136108232310523,
+        "high": 0.8156591310674525
+      },
+      "4B8bit_none_correct": {
+        "n": 32,
+        "mean": 0.71875,
+        "median": 1.0,
+        "low": 0.5625,
+        "high": 0.875
+      },
+      "4B8bit_neutral_correct": {
+        "n": 32,
+        "mean": 0.78125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 0.90625
+      },
+      "4B8bit_wrong_correct": {
+        "n": 32,
+        "mean": 0.5625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.71875
+      },
+      "4B8bit_mention_correct": {
+        "n": 32,
+        "mean": 0.65625,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.8125
+      },
+      "4B8bit_gold_correct": {
+        "n": 32,
+        "mean": 0.96875,
+        "median": 1.0,
+        "low": 0.90625,
+        "high": 1.0
+      },
+      "4B8bit_history_accuracy_change": {
+        "n": 32,
+        "mean": -0.21875,
+        "median": 0.0,
+        "low": -0.375,
+        "high": -0.0625
+      },
+      "4B8bit_history_margin_change": {
+        "n": 32,
+        "mean": -16.77403127346676,
+        "median": -10.7734598001467,
+        "low": -22.399291750567496,
+        "high": -11.804331246790305
+      },
+      "4B8bit_update_interaction": {
+        "n": 32,
+        "mean": 0.4626918048652542,
+        "median": 1.532808784018851,
+        "low": -2.4020128221989174,
+        "high": 3.070306545411312
+      },
+      "paired_accuracy_gain_none": {
+        "n": 32,
+        "mean": 0.1875,
+        "median": 0.0,
+        "low": 0.03125,
+        "high": 0.34375
+      }
+    },
+    {
+      "dataset": "MedQA",
+      "cohort": "development",
+      "n": 16,
+      "1.7B_none_correct": {
+        "n": 16,
+        "mean": 0.4375,
+        "median": 0.0,
+        "low": 0.1875,
+        "high": 0.6875
+      },
+      "1.7B_neutral_correct": {
+        "n": 16,
+        "mean": 0.375,
+        "median": 0.0,
+        "low": 0.125,
+        "high": 0.625
+      },
+      "1.7B_wrong_correct": {
+        "n": 16,
+        "mean": 0.0625,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.1875
+      },
+      "1.7B_mention_correct": {
+        "n": 16,
+        "mean": 0.1875,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.375
+      },
+      "1.7B_gold_correct": {
+        "n": 16,
+        "mean": 0.875,
+        "median": 1.0,
+        "low": 0.6875,
+        "high": 1.0
+      },
+      "1.7B_history_accuracy_change": {
+        "n": 16,
+        "mean": -0.3125,
+        "median": 0.0,
+        "low": -0.5625,
+        "high": -0.125
+      },
+      "1.7B_history_margin_change": {
+        "n": 16,
+        "mean": -14.914084169821797,
+        "median": -14.604420837205346,
+        "low": -21.421584461694604,
+        "high": -8.619981510845882
+      },
+      "1.7B_update_interaction": {
+        "n": 16,
+        "mean": -1.8056935248447759,
+        "median": -0.10942064050449574,
+        "low": -4.350916267487299,
+        "high": 0.5226424843289456
+      },
+      "4B8bit_none_correct": {
+        "n": 16,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.4375,
+        "high": 0.875
+      },
+      "4B8bit_neutral_correct": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9375
+      },
+      "4B8bit_wrong_correct": {
+        "n": 16,
+        "mean": 0.375,
+        "median": 0.0,
+        "low": 0.125,
+        "high": 0.625
+      },
+      "4B8bit_mention_correct": {
+        "n": 16,
+        "mean": 0.5,
+        "median": 0.5,
+        "low": 0.25,
+        "high": 0.75
+      },
+      "4B8bit_gold_correct": {
+        "n": 16,
+        "mean": 0.9375,
+        "median": 1.0,
+        "low": 0.8125,
+        "high": 1.0
+      },
+      "4B8bit_history_accuracy_change": {
+        "n": 16,
+        "mean": -0.375,
+        "median": 0.0,
+        "low": -0.625,
+        "high": -0.125
+      },
+      "4B8bit_history_margin_change": {
+        "n": 16,
+        "mean": -23.31206924496665,
+        "median": -21.656287962032874,
+        "low": -32.798600175464465,
+        "high": -14.811319532376547
+      },
+      "4B8bit_update_interaction": {
+        "n": 16,
+        "mean": -3.091065001265505,
+        "median": -0.8125600015787029,
+        "low": -7.2602518890212915,
+        "high": 1.0554249863262053
+      },
+      "paired_accuracy_gain_none": {
+        "n": 16,
+        "mean": 0.25,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.5
+      }
+    },
+    {
+      "dataset": "MedQA",
+      "cohort": "confirmation",
+      "n": 16,
+      "1.7B_none_correct": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.875
+      },
+      "1.7B_neutral_correct": {
+        "n": 16,
+        "mean": 0.5625,
+        "median": 1.0,
+        "low": 0.3125,
+        "high": 0.8125
+      },
+      "1.7B_wrong_correct": {
+        "n": 16,
+        "mean": 0.5,
+        "median": 0.5,
+        "low": 0.25,
+        "high": 0.75
+      },
+      "1.7B_mention_correct": {
+        "n": 16,
+        "mean": 0.4375,
+        "median": 0.0,
+        "low": 0.1875,
+        "high": 0.6875
+      },
+      "1.7B_gold_correct": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9375
+      },
+      "1.7B_history_accuracy_change": {
+        "n": 16,
+        "mean": -0.0625,
+        "median": 0.0,
+        "low": -0.25,
+        "high": 0.125
+      },
+      "1.7B_history_margin_change": {
+        "n": 16,
+        "mean": -9.997202456799824,
+        "median": -8.012643987687678,
+        "low": -16.036911486887462,
+        "high": -4.848561665333845
+      },
+      "1.7B_update_interaction": {
+        "n": 16,
+        "mean": 0.5028095940118988,
+        "median": -0.27602396556594044,
+        "low": -0.7973888414764424,
+        "high": 1.8553847402906152
+      },
+      "4B8bit_none_correct": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9375
+      },
+      "4B8bit_neutral_correct": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 1.0
+      },
+      "4B8bit_wrong_correct": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9375
+      },
+      "4B8bit_mention_correct": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 1.0
+      },
+      "4B8bit_gold_correct": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "4B8bit_history_accuracy_change": {
+        "n": 16,
+        "mean": -0.0625,
+        "median": 0.0,
+        "low": -0.25,
+        "high": 0.125
+      },
+      "4B8bit_history_margin_change": {
+        "n": 16,
+        "mean": -10.235993301966872,
+        "median": -7.621106027467722,
+        "low": -14.605991075997016,
+        "high": -6.300550931389058
+      },
+      "4B8bit_update_interaction": {
+        "n": 16,
+        "mean": 4.016448610996013,
+        "median": 3.5299955938110585,
+        "low": 2.24985591308562,
+        "high": 5.926948078966724
+      },
+      "paired_accuracy_gain_none": {
+        "n": 16,
+        "mean": 0.125,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.3125
+      }
+    },
+    {
+      "dataset": "MedMCQA",
+      "cohort": "all",
+      "n": 32,
+      "1.7B_none_correct": {
+        "n": 32,
+        "mean": 0.59375,
+        "median": 1.0,
+        "low": 0.40625,
+        "high": 0.75
+      },
+      "1.7B_neutral_correct": {
+        "n": 32,
+        "mean": 0.59375,
+        "median": 1.0,
+        "low": 0.40625,
+        "high": 0.75
+      },
+      "1.7B_wrong_correct": {
+        "n": 32,
+        "mean": 0.59375,
+        "median": 1.0,
+        "low": 0.40625,
+        "high": 0.75
+      },
+      "1.7B_mention_correct": {
+        "n": 32,
+        "mean": 0.65625,
+        "median": 1.0,
+        "low": 0.46875,
+        "high": 0.8125
+      },
+      "1.7B_gold_correct": {
+        "n": 32,
+        "mean": 0.875,
+        "median": 1.0,
+        "low": 0.75,
+        "high": 0.96875
+      },
+      "1.7B_history_accuracy_change": {
+        "n": 32,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": -0.125,
+        "high": 0.125
+      },
+      "1.7B_history_margin_change": {
+        "n": 32,
+        "mean": -7.056840571370729,
+        "median": -5.695614698937465,
+        "low": -10.269232522389334,
+        "high": -4.22141616585966
+      },
+      "1.7B_update_interaction": {
+        "n": 32,
+        "mean": 1.777418449798135,
+        "median": 0.4687102549891513,
+        "low": 0.02379576263998194,
+        "high": 3.686848019328161
+      },
+      "4B8bit_none_correct": {
+        "n": 32,
+        "mean": 0.78125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 0.90625
+      },
+      "4B8bit_neutral_correct": {
+        "n": 32,
+        "mean": 0.78125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 0.90625
+      },
+      "4B8bit_wrong_correct": {
+        "n": 32,
+        "mean": 0.65625,
+        "median": 1.0,
+        "low": 0.49921875000000027,
+        "high": 0.8125
+      },
+      "4B8bit_mention_correct": {
+        "n": 32,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.53125,
+        "high": 0.84375
+      },
+      "4B8bit_gold_correct": {
+        "n": 32,
+        "mean": 0.96875,
+        "median": 1.0,
+        "low": 0.90625,
+        "high": 1.0
+      },
+      "4B8bit_history_accuracy_change": {
+        "n": 32,
+        "mean": -0.125,
+        "median": 0.0,
+        "low": -0.28125,
+        "high": 0.0
+      },
+      "4B8bit_history_margin_change": {
+        "n": 32,
+        "mean": -12.27492632502728,
+        "median": -8.461680139700167,
+        "low": -16.566561714947653,
+        "high": -8.387522613329056
+      },
+      "4B8bit_update_interaction": {
+        "n": 32,
+        "mean": 1.701912962197912,
+        "median": 0.7111799762059334,
+        "low": -1.1821794613536953,
+        "high": 4.566942173245214
+      },
+      "paired_accuracy_gain_none": {
+        "n": 32,
+        "mean": 0.1875,
+        "median": 0.0,
+        "low": 0.03125,
+        "high": 0.34375
+      }
+    },
+    {
+      "dataset": "MedMCQA",
+      "cohort": "development",
+      "n": 16,
+      "1.7B_none_correct": {
+        "n": 16,
+        "mean": 0.5625,
+        "median": 1.0,
+        "low": 0.3125,
+        "high": 0.8125
+      },
+      "1.7B_neutral_correct": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.875
+      },
+      "1.7B_wrong_correct": {
+        "n": 16,
+        "mean": 0.5625,
+        "median": 1.0,
+        "low": 0.3125,
+        "high": 0.8125
+      },
+      "1.7B_mention_correct": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.875
+      },
+      "1.7B_gold_correct": {
+        "n": 16,
+        "mean": 0.875,
+        "median": 1.0,
+        "low": 0.6875,
+        "high": 1.0
+      },
+      "1.7B_history_accuracy_change": {
+        "n": 16,
+        "mean": -0.0625,
+        "median": 0.0,
+        "low": -0.1875,
+        "high": 0.0
+      },
+      "1.7B_history_margin_change": {
+        "n": 16,
+        "mean": -7.736103103713848,
+        "median": -5.899687108950626,
+        "low": -12.89866026248318,
+        "high": -3.627277439036025
+      },
+      "1.7B_update_interaction": {
+        "n": 16,
+        "mean": 2.0152677727697657,
+        "median": 0.8360868975352034,
+        "low": -0.992254316447519,
+        "high": 5.151550121086687
+      },
+      "4B8bit_none_correct": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 1.0
+      },
+      "4B8bit_neutral_correct": {
+        "n": 16,
+        "mean": 0.8125,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 1.0
+      },
+      "4B8bit_wrong_correct": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.8140625000000057
+      },
+      "4B8bit_mention_correct": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.8140625000000057
+      },
+      "4B8bit_gold_correct": {
+        "n": 16,
+        "mean": 0.9375,
+        "median": 1.0,
+        "low": 0.8125,
+        "high": 1.0
+      },
+      "4B8bit_history_accuracy_change": {
+        "n": 16,
+        "mean": -0.1875,
+        "median": 0.0,
+        "low": -0.375,
+        "high": 0.0
+      },
+      "4B8bit_history_margin_change": {
+        "n": 16,
+        "mean": -12.96307794672345,
+        "median": -8.129568761990843,
+        "low": -18.836693252052328,
+        "high": -7.997748044197236
+      },
+      "4B8bit_update_interaction": {
+        "n": 16,
+        "mean": 0.22573236828607124,
+        "median": -0.2735728842886509,
+        "low": -4.091443450426969,
+        "high": 4.283960007954114
+      },
+      "paired_accuracy_gain_none": {
+        "n": 16,
+        "mean": 0.25,
+        "median": 0.0,
+        "low": 0.0625,
+        "high": 0.4375
+      }
+    },
+    {
+      "dataset": "MedMCQA",
+      "cohort": "confirmation",
+      "n": 16,
+      "1.7B_none_correct": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.875
+      },
+      "1.7B_neutral_correct": {
+        "n": 16,
+        "mean": 0.5625,
+        "median": 1.0,
+        "low": 0.3125,
+        "high": 0.8125
+      },
+      "1.7B_wrong_correct": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.875
+      },
+      "1.7B_mention_correct": {
+        "n": 16,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.4375,
+        "high": 0.875
+      },
+      "1.7B_gold_correct": {
+        "n": 16,
+        "mean": 0.875,
+        "median": 1.0,
+        "low": 0.6875,
+        "high": 1.0
+      },
+      "1.7B_history_accuracy_change": {
+        "n": 16,
+        "mean": 0.0625,
+        "median": 0.0,
+        "low": -0.125,
+        "high": 0.25
+      },
+      "1.7B_history_margin_change": {
+        "n": 16,
+        "mean": -6.377578039027609,
+        "median": -5.633564798529058,
+        "low": -9.904426029912852,
+        "high": -2.988200555076733
+      },
+      "1.7B_update_interaction": {
+        "n": 16,
+        "mean": 1.5395691268265042,
+        "median": 0.4687102549891513,
+        "low": -0.4688646961666058,
+        "high": 3.966120509803215
+      },
+      "4B8bit_none_correct": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.5625,
+        "high": 0.9375
+      },
+      "4B8bit_neutral_correct": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.5625,
+        "high": 0.9375
+      },
+      "4B8bit_wrong_correct": {
+        "n": 16,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.4375,
+        "high": 0.875
+      },
+      "4B8bit_mention_correct": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.5625,
+        "high": 0.9375
+      },
+      "4B8bit_gold_correct": {
+        "n": 16,
+        "mean": 1.0,
+        "median": 1.0,
+        "low": 0.7940927857921769,
+        "high": 1.0,
+        "interval": "exact_binomial_boundary"
+      },
+      "4B8bit_history_accuracy_change": {
+        "n": 16,
+        "mean": -0.0625,
+        "median": 0.0,
+        "low": -0.25,
+        "high": 0.125
+      },
+      "4B8bit_history_margin_change": {
+        "n": 16,
+        "mean": -11.586774703331113,
+        "median": -8.711680437725136,
+        "low": -17.701360532153128,
+        "high": -5.938435315156619
+      },
+      "4B8bit_update_interaction": {
+        "n": 16,
+        "mean": 3.178093556109753,
+        "median": 1.6249833040155117,
+        "low": -0.0510100191428459,
+        "high": 7.061532021519651
+      },
+      "paired_accuracy_gain_none": {
+        "n": 16,
+        "mean": 0.125,
+        "median": 0.0,
+        "low": -0.125,
+        "high": 0.375
+      }
+    },
+    {
+      "dataset": "MMLU",
+      "cohort": "all",
+      "n": 30,
+      "1.7B_none_correct": {
+        "n": 30,
+        "mean": 0.5333333333333333,
+        "median": 1.0,
+        "low": 0.36666666666666664,
+        "high": 0.7
+      },
+      "1.7B_neutral_correct": {
+        "n": 30,
+        "mean": 0.4666666666666667,
+        "median": 0.0,
+        "low": 0.3,
+        "high": 0.6333333333333333
+      },
+      "1.7B_wrong_correct": {
+        "n": 30,
+        "mean": 0.36666666666666664,
+        "median": 0.0,
+        "low": 0.2,
+        "high": 0.5333333333333333
+      },
+      "1.7B_mention_correct": {
+        "n": 30,
+        "mean": 0.36666666666666664,
+        "median": 0.0,
+        "low": 0.2,
+        "high": 0.5333333333333333
+      },
+      "1.7B_gold_correct": {
+        "n": 30,
+        "mean": 0.6333333333333333,
+        "median": 1.0,
+        "low": 0.4666666666666667,
+        "high": 0.8
+      },
+      "1.7B_history_accuracy_change": {
+        "n": 30,
+        "mean": -0.1,
+        "median": 0.0,
+        "low": -0.23333333333333334,
+        "high": 0.03333333333333333
+      },
+      "1.7B_history_margin_change": {
+        "n": 30,
+        "mean": -8.84386725114822,
+        "median": -8.578087206748833,
+        "low": -12.15375242433166,
+        "high": -5.669320827940303
+      },
+      "1.7B_update_interaction": {
+        "n": 30,
+        "mean": 0.38875715868822003,
+        "median": 0.04687019310635421,
+        "low": -1.6606540561815508,
+        "high": 2.44841713803646
+      },
+      "4B8bit_none_correct": {
+        "n": 30,
+        "mean": 0.7666666666666667,
+        "median": 1.0,
+        "low": 0.6,
+        "high": 0.9
+      },
+      "4B8bit_neutral_correct": {
+        "n": 30,
+        "mean": 0.7,
+        "median": 1.0,
+        "low": 0.5333333333333333,
+        "high": 0.8666666666666667
+      },
+      "4B8bit_wrong_correct": {
+        "n": 30,
+        "mean": 0.5666666666666667,
+        "median": 1.0,
+        "low": 0.4,
+        "high": 0.7333333333333333
+      },
+      "4B8bit_mention_correct": {
+        "n": 30,
+        "mean": 0.7,
+        "median": 1.0,
+        "low": 0.5333333333333333,
+        "high": 0.8666666666666667
+      },
+      "4B8bit_gold_correct": {
+        "n": 30,
+        "mean": 0.9,
+        "median": 1.0,
+        "low": 0.7666666666666667,
+        "high": 1.0
+      },
+      "4B8bit_history_accuracy_change": {
+        "n": 30,
+        "mean": -0.13333333333333333,
+        "median": 0.0,
+        "low": -0.26666666666666666,
+        "high": -0.03333333333333333
+      },
+      "4B8bit_history_margin_change": {
+        "n": 30,
+        "mean": -12.844049408832921,
+        "median": -11.156570374588224,
+        "low": -16.714742231631718,
+        "high": -9.03586628104618
+      },
+      "4B8bit_update_interaction": {
+        "n": 30,
+        "mean": -1.6570488573872886,
+        "median": -0.9610592474985111,
+        "low": -3.0308692346336703,
+        "high": -0.3207851784908774
+      },
+      "paired_accuracy_gain_none": {
+        "n": 30,
+        "mean": 0.23333333333333334,
+        "median": 0.0,
+        "low": 0.03333333333333333,
+        "high": 0.43333333333333335
+      }
+    },
+    {
+      "dataset": "MMLU",
+      "cohort": "development",
+      "n": 14,
+      "1.7B_none_correct": {
+        "n": 14,
+        "mean": 0.7142857142857143,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9285714285714286
+      },
+      "1.7B_neutral_correct": {
+        "n": 14,
+        "mean": 0.42857142857142855,
+        "median": 0.0,
+        "low": 0.14285714285714285,
+        "high": 0.7142857142857143
+      },
+      "1.7B_wrong_correct": {
+        "n": 14,
+        "mean": 0.42857142857142855,
+        "median": 0.0,
+        "low": 0.21428571428571427,
+        "high": 0.7142857142857143
+      },
+      "1.7B_mention_correct": {
+        "n": 14,
+        "mean": 0.42857142857142855,
+        "median": 0.0,
+        "low": 0.21428571428571427,
+        "high": 0.7142857142857143
+      },
+      "1.7B_gold_correct": {
+        "n": 14,
+        "mean": 0.7142857142857143,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9285714285714286
+      },
+      "1.7B_history_accuracy_change": {
+        "n": 14,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": -0.21428571428571427,
+        "high": 0.21428571428571427
+      },
+      "1.7B_history_margin_change": {
+        "n": 14,
+        "mean": -11.143455275918955,
+        "median": -11.67437698488801,
+        "low": -15.77504700818287,
+        "high": -6.658774400919847
+      },
+      "1.7B_update_interaction": {
+        "n": 14,
+        "mean": 0.34663235667098796,
+        "median": -0.11717621598772965,
+        "low": -3.5357642826099895,
+        "high": 4.170096728717417
+      },
+      "4B8bit_none_correct": {
+        "n": 14,
+        "mean": 0.7857142857142857,
+        "median": 1.0,
+        "low": 0.5714285714285714,
+        "high": 1.0
+      },
+      "4B8bit_neutral_correct": {
+        "n": 14,
+        "mean": 0.7857142857142857,
+        "median": 1.0,
+        "low": 0.5714285714285714,
+        "high": 1.0
+      },
+      "4B8bit_wrong_correct": {
+        "n": 14,
+        "mean": 0.6428571428571429,
+        "median": 1.0,
+        "low": 0.35714285714285715,
+        "high": 0.8571428571428571
+      },
+      "4B8bit_mention_correct": {
+        "n": 14,
+        "mean": 0.7142857142857143,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9285714285714286
+      },
+      "4B8bit_gold_correct": {
+        "n": 14,
+        "mean": 0.8571428571428571,
+        "median": 1.0,
+        "low": 0.6428571428571429,
+        "high": 1.0
+      },
+      "4B8bit_history_accuracy_change": {
+        "n": 14,
+        "mean": -0.14285714285714285,
+        "median": 0.0,
+        "low": -0.35714285714285715,
+        "high": 0.0
+      },
+      "4B8bit_history_margin_change": {
+        "n": 14,
+        "mean": -11.430440670689608,
+        "median": -10.538147883793172,
+        "low": -17.454478643717266,
+        "high": -6.237251491393869
+      },
+      "4B8bit_update_interaction": {
+        "n": 14,
+        "mean": -2.431309639418342,
+        "median": -2.935582773621828,
+        "low": -4.696754377734819,
+        "high": -0.1982419471550127
+      },
+      "paired_accuracy_gain_none": {
+        "n": 14,
+        "mean": 0.07142857142857142,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.21428571428571427
+      }
+    },
+    {
+      "dataset": "MMLU",
+      "cohort": "confirmation",
+      "n": 16,
+      "1.7B_none_correct": {
+        "n": 16,
+        "mean": 0.375,
+        "median": 0.0,
+        "low": 0.125,
+        "high": 0.625
+      },
+      "1.7B_neutral_correct": {
+        "n": 16,
+        "mean": 0.5,
+        "median": 0.5,
+        "low": 0.25,
+        "high": 0.75
+      },
+      "1.7B_wrong_correct": {
+        "n": 16,
+        "mean": 0.3125,
+        "median": 0.0,
+        "low": 0.125,
+        "high": 0.5625
+      },
+      "1.7B_mention_correct": {
+        "n": 16,
+        "mean": 0.3125,
+        "median": 0.0,
+        "low": 0.125,
+        "high": 0.5625
+      },
+      "1.7B_gold_correct": {
+        "n": 16,
+        "mean": 0.5625,
+        "median": 1.0,
+        "low": 0.3125,
+        "high": 0.8125
+      },
+      "1.7B_history_accuracy_change": {
+        "n": 16,
+        "mean": -0.1875,
+        "median": 0.0,
+        "low": -0.375,
+        "high": 0.0
+      },
+      "1.7B_history_margin_change": {
+        "n": 16,
+        "mean": -6.831727729473823,
+        "median": -3.2444147554188234,
+        "low": -11.396278515155421,
+        "high": -2.8148206510568303
+      },
+      "1.7B_update_interaction": {
+        "n": 16,
+        "mean": 0.4256163604532981,
+        "median": 0.19191870552069545,
+        "low": -1.3073322730400594,
+        "high": 2.5933726323285002
+      },
+      "4B8bit_none_correct": {
+        "n": 16,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.9375
+      },
+      "4B8bit_neutral_correct": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 1.0,
+        "low": 0.375,
+        "high": 0.875
+      },
+      "4B8bit_wrong_correct": {
+        "n": 16,
+        "mean": 0.5,
+        "median": 0.5,
+        "low": 0.25,
+        "high": 0.75
+      },
+      "4B8bit_mention_correct": {
+        "n": 16,
+        "mean": 0.6875,
+        "median": 1.0,
+        "low": 0.4375,
+        "high": 0.875
+      },
+      "4B8bit_gold_correct": {
+        "n": 16,
+        "mean": 0.9375,
+        "median": 1.0,
+        "low": 0.8125,
+        "high": 1.0
+      },
+      "4B8bit_history_accuracy_change": {
+        "n": 16,
+        "mean": -0.125,
+        "median": 0.0,
+        "low": -0.3125,
+        "high": 0.0
+      },
+      "4B8bit_history_margin_change": {
+        "n": 16,
+        "mean": -14.08095705470832,
+        "median": -12.031573296554004,
+        "low": -19.631846948888867,
+        "high": -8.722143411795566
+      },
+      "4B8bit_update_interaction": {
+        "n": 16,
+        "mean": -0.9795706731101168,
+        "median": 0.0782691257195296,
+        "low": -2.6441776002884962,
+        "high": 0.520685005703385
+      },
+      "paired_accuracy_gain_none": {
+        "n": 16,
+        "mean": 0.375,
+        "median": 0.5,
+        "low": 0.0625,
+        "high": 0.6875
+      }
+    },
+    {
+      "dataset": "all",
+      "cohort": "all",
+      "n": 94,
+      "1.7B_none_correct": {
+        "n": 94,
+        "mean": 0.5531914893617021,
+        "median": 1.0,
+        "low": 0.44680851063829785,
+        "high": 0.648936170212766
+      },
+      "1.7B_neutral_correct": {
+        "n": 94,
+        "mean": 0.5106382978723404,
+        "median": 1.0,
+        "low": 0.4148936170212766,
+        "high": 0.6063829787234043
+      },
+      "1.7B_wrong_correct": {
+        "n": 94,
+        "mean": 0.4148936170212766,
+        "median": 0.0,
+        "low": 0.3191489361702128,
+        "high": 0.5106382978723404
+      },
+      "1.7B_mention_correct": {
+        "n": 94,
+        "mean": 0.44680851063829785,
+        "median": 0.0,
+        "low": 0.35106382978723405,
+        "high": 0.5425531914893617
+      },
+      "1.7B_gold_correct": {
+        "n": 94,
+        "mean": 0.776595744680851,
+        "median": 1.0,
+        "low": 0.6914893617021277,
+        "high": 0.8617021276595744
+      },
+      "1.7B_history_accuracy_change": {
+        "n": 94,
+        "mean": -0.09574468085106383,
+        "median": 0.0,
+        "low": -0.18085106382978725,
+        "high": -0.010638297872340425
+      },
+      "1.7B_history_margin_change": {
+        "n": 94,
+        "mean": -9.46505853025804,
+        "median": -7.060682558904819,
+        "low": -11.620903271410086,
+        "high": -7.36728056966065
+      },
+      "1.7B_update_interaction": {
+        "n": 94,
+        "mean": 0.5073825772432009,
+        "median": 0.16416111961026303,
+        "low": -0.5143642458255627,
+        "high": 1.5747327432866558
+      },
+      "4B8bit_none_correct": {
+        "n": 94,
+        "mean": 0.7553191489361702,
+        "median": 1.0,
+        "low": 0.6595744680851063,
+        "high": 0.8404255319148937
+      },
+      "4B8bit_neutral_correct": {
+        "n": 94,
+        "mean": 0.7553191489361702,
+        "median": 1.0,
+        "low": 0.6702127659574468,
+        "high": 0.8404255319148937
+      },
+      "4B8bit_wrong_correct": {
+        "n": 94,
+        "mean": 0.5957446808510638,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.6914893617021277
+      },
+      "4B8bit_mention_correct": {
+        "n": 94,
+        "mean": 0.6808510638297872,
+        "median": 1.0,
+        "low": 0.5851063829787234,
+        "high": 0.776595744680851
+      },
+      "4B8bit_gold_correct": {
+        "n": 94,
+        "mean": 0.9468085106382979,
+        "median": 1.0,
+        "low": 0.8936170212765957,
+        "high": 0.9893617021276596
+      },
+      "4B8bit_history_accuracy_change": {
+        "n": 94,
+        "mean": -0.1595744680851064,
+        "median": 0.0,
+        "low": -0.24468085106382978,
+        "high": -0.07446808510638298
+      },
+      "4B8bit_history_margin_change": {
+        "n": 94,
+        "mean": -13.988171546987205,
+        "median": -10.256344016320607,
+        "low": -16.759287617702018,
+        "high": -11.445690802687857
+      },
+      "4B8bit_update_interaction": {
+        "n": 94,
+        "mean": 0.208041349195773,
+        "median": 0.39808321382013645,
+        "low": -1.2146517892713669,
+        "high": 1.6244310984023496
+      },
+      "paired_accuracy_gain_none": {
+        "n": 94,
+        "mean": 0.20212765957446807,
+        "median": 0.0,
+        "low": 0.09574468085106383,
+        "high": 0.30851063829787234
+      }
+    },
+    {
+      "dataset": "all",
+      "cohort": "development",
+      "n": 46,
+      "1.7B_none_correct": {
+        "n": 46,
+        "mean": 0.5652173913043478,
+        "median": 1.0,
+        "low": 0.43478260869565216,
+        "high": 0.6956521739130435
+      },
+      "1.7B_neutral_correct": {
+        "n": 46,
+        "mean": 0.4782608695652174,
+        "median": 0.0,
+        "low": 0.32608695652173914,
+        "high": 0.6304347826086957
+      },
+      "1.7B_wrong_correct": {
+        "n": 46,
+        "mean": 0.34782608695652173,
+        "median": 0.0,
+        "low": 0.21739130434782608,
+        "high": 0.4782608695652174
+      },
+      "1.7B_mention_correct": {
+        "n": 46,
+        "mean": 0.41304347826086957,
+        "median": 0.0,
+        "low": 0.2826086956521739,
+        "high": 0.5652173913043478
+      },
+      "1.7B_gold_correct": {
+        "n": 46,
+        "mean": 0.8260869565217391,
+        "median": 1.0,
+        "low": 0.717391304347826,
+        "high": 0.9130434782608695
+      },
+      "1.7B_history_accuracy_change": {
+        "n": 46,
+        "mean": -0.13043478260869565,
+        "median": 0.0,
+        "low": -0.2608695652173913,
+        "high": -0.021739130434782608
+      },
+      "1.7B_history_margin_change": {
+        "n": 46,
+        "mean": -11.26981239650947,
+        "median": -9.895974433291528,
+        "low": -14.651532965955191,
+        "high": -8.175722727684034
+      },
+      "1.7B_update_interaction": {
+        "n": 46,
+        "mean": 0.17839219478681886,
+        "median": 0.10730547982462113,
+        "low": -1.6703684397101635,
+        "high": 2.039643775921908
+      },
+      "4B8bit_none_correct": {
+        "n": 46,
+        "mean": 0.7608695652173914,
+        "median": 1.0,
+        "low": 0.6304347826086957,
+        "high": 0.8695652173913043
+      },
+      "4B8bit_neutral_correct": {
+        "n": 46,
+        "mean": 0.782608695652174,
+        "median": 1.0,
+        "low": 0.6521739130434783,
+        "high": 0.8913043478260869
+      },
+      "4B8bit_wrong_correct": {
+        "n": 46,
+        "mean": 0.5434782608695652,
+        "median": 1.0,
+        "low": 0.391304347826087,
+        "high": 0.6739130434782609
+      },
+      "4B8bit_mention_correct": {
+        "n": 46,
+        "mean": 0.6086956521739131,
+        "median": 1.0,
+        "low": 0.45652173913043476,
+        "high": 0.7391304347826086
+      },
+      "4B8bit_gold_correct": {
+        "n": 46,
+        "mean": 0.9130434782608695,
+        "median": 1.0,
+        "low": 0.8260869565217391,
+        "high": 0.9782608695652174
+      },
+      "4B8bit_history_accuracy_change": {
+        "n": 46,
+        "mean": -0.2391304347826087,
+        "median": 0.0,
+        "low": -0.3695652173913043,
+        "high": -0.13043478260869565
+      },
+      "4B8bit_history_margin_change": {
+        "n": 46,
+        "mean": -16.09627227079774,
+        "median": -11.876855628495417,
+        "low": -20.539191454867467,
+        "high": -12.051713944857239
+      },
+      "4B8bit_update_interaction": {
+        "n": 46,
+        "mean": -1.7366012408592983,
+        "median": -1.0075987642318545,
+        "low": -4.044867781122751,
+        "high": 0.4398246654900695
+      },
+      "paired_accuracy_gain_none": {
+        "n": 46,
+        "mean": 0.1956521739130435,
+        "median": 0.0,
+        "low": 0.06521739130434782,
+        "high": 0.32608695652173914
+      }
+    },
+    {
+      "dataset": "all",
+      "cohort": "confirmation",
+      "n": 48,
+      "1.7B_none_correct": {
+        "n": 48,
+        "mean": 0.5416666666666666,
+        "median": 1.0,
+        "low": 0.3958333333333333,
+        "high": 0.6875
+      },
+      "1.7B_neutral_correct": {
+        "n": 48,
+        "mean": 0.5416666666666666,
+        "median": 1.0,
+        "low": 0.3958333333333333,
+        "high": 0.6875
+      },
+      "1.7B_wrong_correct": {
+        "n": 48,
+        "mean": 0.4791666666666667,
+        "median": 0.0,
+        "low": 0.3333333333333333,
+        "high": 0.625
+      },
+      "1.7B_mention_correct": {
+        "n": 48,
+        "mean": 0.4791666666666667,
+        "median": 0.0,
+        "low": 0.3333333333333333,
+        "high": 0.625
+      },
+      "1.7B_gold_correct": {
+        "n": 48,
+        "mean": 0.7291666666666666,
+        "median": 1.0,
+        "low": 0.6041666666666666,
+        "high": 0.8541666666666666
+      },
+      "1.7B_history_accuracy_change": {
+        "n": 48,
+        "mean": -0.0625,
+        "median": 0.0,
+        "low": -0.1875,
+        "high": 0.0625
+      },
+      "1.7B_history_margin_change": {
+        "n": 48,
+        "mean": -7.735502741767085,
+        "median": -5.633564798529058,
+        "low": -10.45933647484247,
+        "high": -5.141579936737268
+      },
+      "1.7B_update_interaction": {
+        "n": 48,
+        "mean": 0.8226650270972337,
+        "median": 0.19191870552069545,
+        "low": -0.17988666586044988,
+        "high": 1.9669918589962936
+      },
+      "4B8bit_none_correct": {
+        "n": 48,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 0.875
+      },
+      "4B8bit_neutral_correct": {
+        "n": 48,
+        "mean": 0.7291666666666666,
+        "median": 1.0,
+        "low": 0.6041666666666666,
+        "high": 0.8541666666666666
+      },
+      "4B8bit_wrong_correct": {
+        "n": 48,
+        "mean": 0.6458333333333334,
+        "median": 1.0,
+        "low": 0.5208333333333334,
+        "high": 0.7708333333333334
+      },
+      "4B8bit_mention_correct": {
+        "n": 48,
+        "mean": 0.75,
+        "median": 1.0,
+        "low": 0.625,
+        "high": 0.875
+      },
+      "4B8bit_gold_correct": {
+        "n": 48,
+        "mean": 0.9791666666666666,
+        "median": 1.0,
+        "low": 0.9375,
+        "high": 1.0
+      },
+      "4B8bit_history_accuracy_change": {
+        "n": 48,
+        "mean": -0.08333333333333333,
+        "median": 0.0,
+        "low": -0.20833333333333334,
+        "high": 0.020833333333333332
+      },
+      "4B8bit_history_margin_change": {
+        "n": 48,
+        "mean": -11.967908353335437,
+        "median": -8.843750178801919,
+        "low": -15.083153705573046,
+        "high": -9.142677811371138
+      },
+      "4B8bit_update_interaction": {
+        "n": 48,
+        "mean": 2.0716571646652167,
+        "median": 1.4101096424977442,
+        "low": 0.5310582562194947,
+        "high": 3.710347084325782
+      },
+      "paired_accuracy_gain_none": {
+        "n": 48,
+        "mean": 0.20833333333333334,
+        "median": 0.0,
+        "low": 0.041666666666666664,
+        "high": 0.375
+      }
+    }
+  ],
+  "mention_code_followup": [
+    {
+      "dataset": "MedQA",
+      "cohort": "all",
+      "n": 32,
+      "neutral_accuracy": {
+        "n": 32,
+        "mean": 0.515625,
+        "median": 0.5,
+        "low": 0.359375,
+        "high": 0.65625
+      },
+      "wrong_accuracy": {
+        "n": 32,
+        "mean": 0.28125,
+        "median": 0.0,
+        "low": 0.140625,
+        "high": 0.4375
+      },
+      "mention_accuracy": {
+        "n": 32,
+        "mean": 0.3125,
+        "median": 0.0,
+        "low": 0.171875,
+        "high": 0.46875
+      },
+      "mention_minus_neutral": {
+        "n": 32,
+        "mean": -0.203125,
+        "median": 0.0,
+        "low": -0.359375,
+        "high": -0.0625
+      },
+      "wrong_minus_neutral": {
+        "n": 32,
+        "mean": -0.234375,
+        "median": 0.0,
+        "low": -0.375,
+        "high": -0.09375
+      },
+      "mention_minus_wrong": {
+        "n": 32,
+        "mean": 0.03125,
+        "median": 0.0,
+        "low": -0.0625,
+        "high": 0.109375
+      }
+    },
+    {
+      "dataset": "MedQA",
+      "cohort": "development",
+      "n": 16,
+      "neutral_accuracy": {
+        "n": 16,
+        "mean": 0.375,
+        "median": 0.0,
+        "low": 0.15625,
+        "high": 0.59375
+      },
+      "wrong_accuracy": {
+        "n": 16,
+        "mean": 0.15625,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.34375
+      },
+      "mention_accuracy": {
+        "n": 16,
+        "mean": 0.25,
+        "median": 0.0,
+        "low": 0.0625,
+        "high": 0.46875
+      },
+      "mention_minus_neutral": {
+        "n": 16,
+        "mean": -0.125,
+        "median": 0.0,
+        "low": -0.375,
+        "high": 0.09375
+      },
+      "wrong_minus_neutral": {
+        "n": 16,
+        "mean": -0.21875,
+        "median": 0.0,
+        "low": -0.4375,
+        "high": -0.03125
+      },
+      "mention_minus_wrong": {
+        "n": 16,
+        "mean": 0.09375,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.1875
+      }
+    },
+    {
+      "dataset": "MedQA",
+      "cohort": "confirmation",
+      "n": 16,
+      "neutral_accuracy": {
+        "n": 16,
+        "mean": 0.65625,
+        "median": 0.75,
+        "low": 0.46875,
+        "high": 0.84375
+      },
+      "wrong_accuracy": {
+        "n": 16,
+        "mean": 0.40625,
+        "median": 0.0,
+        "low": 0.1875,
+        "high": 0.625
+      },
+      "mention_accuracy": {
+        "n": 16,
+        "mean": 0.375,
+        "median": 0.0,
+        "low": 0.15625,
+        "high": 0.59375
+      },
+      "mention_minus_neutral": {
+        "n": 16,
+        "mean": -0.28125,
+        "median": 0.0,
+        "low": -0.46875,
+        "high": -0.125
+      },
+      "wrong_minus_neutral": {
+        "n": 16,
+        "mean": -0.25,
+        "median": 0.0,
+        "low": -0.4375,
+        "high": -0.0625
+      },
+      "mention_minus_wrong": {
+        "n": 16,
+        "mean": -0.03125,
+        "median": 0.0,
+        "low": -0.1875,
+        "high": 0.09375
+      }
+    },
+    {
+      "dataset": "MedMCQA",
+      "cohort": "all",
+      "n": 32,
+      "neutral_accuracy": {
+        "n": 32,
+        "mean": 0.65625,
+        "median": 1.0,
+        "low": 0.5,
+        "high": 0.796875
+      },
+      "wrong_accuracy": {
+        "n": 32,
+        "mean": 0.546875,
+        "median": 0.5,
+        "low": 0.390625,
+        "high": 0.6875
+      },
+      "mention_accuracy": {
+        "n": 32,
+        "mean": 0.546875,
+        "median": 0.5,
+        "low": 0.390625,
+        "high": 0.703125
+      },
+      "mention_minus_neutral": {
+        "n": 32,
+        "mean": -0.109375,
+        "median": 0.0,
+        "low": -0.25,
+        "high": 0.03125
+      },
+      "wrong_minus_neutral": {
+        "n": 32,
+        "mean": -0.109375,
+        "median": 0.0,
+        "low": -0.21875,
+        "high": 0.0
+      },
+      "mention_minus_wrong": {
+        "n": 32,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": -0.078125,
+        "high": 0.078125
+      }
+    },
+    {
+      "dataset": "MedMCQA",
+      "cohort": "development",
+      "n": 16,
+      "neutral_accuracy": {
+        "n": 16,
+        "mean": 0.53125,
+        "median": 0.75,
+        "low": 0.3125,
+        "high": 0.78125
+      },
+      "wrong_accuracy": {
+        "n": 16,
+        "mean": 0.46875,
+        "median": 0.5,
+        "low": 0.28125,
+        "high": 0.6875
+      },
+      "mention_accuracy": {
+        "n": 16,
+        "mean": 0.5,
+        "median": 0.5,
+        "low": 0.28125,
+        "high": 0.75
+      },
+      "mention_minus_neutral": {
+        "n": 16,
+        "mean": -0.03125,
+        "median": 0.0,
+        "low": -0.21875,
+        "high": 0.15625
+      },
+      "wrong_minus_neutral": {
+        "n": 16,
+        "mean": -0.0625,
+        "median": 0.0,
+        "low": -0.21875,
+        "high": 0.09375
+      },
+      "mention_minus_wrong": {
+        "n": 16,
+        "mean": 0.03125,
+        "median": 0.0,
+        "low": -0.09375,
+        "high": 0.15625
+      }
+    },
+    {
+      "dataset": "MedMCQA",
+      "cohort": "confirmation",
+      "n": 16,
+      "neutral_accuracy": {
+        "n": 16,
+        "mean": 0.78125,
+        "median": 1.0,
+        "low": 0.59375,
+        "high": 0.9375
+      },
+      "wrong_accuracy": {
+        "n": 16,
+        "mean": 0.625,
+        "median": 0.75,
+        "low": 0.40625,
+        "high": 0.8125
+      },
+      "mention_accuracy": {
+        "n": 16,
+        "mean": 0.59375,
+        "median": 0.5,
+        "low": 0.375,
+        "high": 0.78125
+      },
+      "mention_minus_neutral": {
+        "n": 16,
+        "mean": -0.1875,
+        "median": 0.0,
+        "low": -0.34375,
+        "high": -0.03125
+      },
+      "wrong_minus_neutral": {
+        "n": 16,
+        "mean": -0.15625,
+        "median": 0.0,
+        "low": -0.3125,
+        "high": 0.0
+      },
+      "mention_minus_wrong": {
+        "n": 16,
+        "mean": -0.03125,
+        "median": 0.0,
+        "low": -0.09375,
+        "high": 0.0
+      }
+    },
+    {
+      "dataset": "MMLU",
+      "cohort": "all",
+      "n": 30,
+      "neutral_accuracy": {
+        "n": 30,
+        "mean": 0.4,
+        "median": 0.25,
+        "low": 0.25,
+        "high": 0.55
+      },
+      "wrong_accuracy": {
+        "n": 30,
+        "mean": 0.26666666666666666,
+        "median": 0.0,
+        "low": 0.13333333333333333,
+        "high": 0.4
+      },
+      "mention_accuracy": {
+        "n": 30,
+        "mean": 0.3,
+        "median": 0.0,
+        "low": 0.15,
+        "high": 0.45
+      },
+      "mention_minus_neutral": {
+        "n": 30,
+        "mean": -0.1,
+        "median": 0.0,
+        "low": -0.23333333333333334,
+        "high": 0.016666666666666666
+      },
+      "wrong_minus_neutral": {
+        "n": 30,
+        "mean": -0.13333333333333333,
+        "median": 0.0,
+        "low": -0.26666666666666666,
+        "high": 0.0
+      },
+      "mention_minus_wrong": {
+        "n": 30,
+        "mean": 0.03333333333333333,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.08333333333333333
+      }
+    },
+    {
+      "dataset": "MMLU",
+      "cohort": "development",
+      "n": 14,
+      "neutral_accuracy": {
+        "n": 14,
+        "mean": 0.5357142857142857,
+        "median": 0.5,
+        "low": 0.32142857142857145,
+        "high": 0.75
+      },
+      "wrong_accuracy": {
+        "n": 14,
+        "mean": 0.2857142857142857,
+        "median": 0.0,
+        "low": 0.10714285714285714,
+        "high": 0.5
+      },
+      "mention_accuracy": {
+        "n": 14,
+        "mean": 0.35714285714285715,
+        "median": 0.0,
+        "low": 0.14285714285714285,
+        "high": 0.6071428571428571
+      },
+      "mention_minus_neutral": {
+        "n": 14,
+        "mean": -0.17857142857142858,
+        "median": 0.0,
+        "low": -0.39285714285714285,
+        "high": 0.03571428571428571
+      },
+      "wrong_minus_neutral": {
+        "n": 14,
+        "mean": -0.25,
+        "median": 0.0,
+        "low": -0.4642857142857143,
+        "high": -0.03571428571428571
+      },
+      "mention_minus_wrong": {
+        "n": 14,
+        "mean": 0.07142857142857142,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.17857142857142858
+      }
+    },
+    {
+      "dataset": "MMLU",
+      "cohort": "confirmation",
+      "n": 16,
+      "neutral_accuracy": {
+        "n": 16,
+        "mean": 0.28125,
+        "median": 0.0,
+        "low": 0.09375,
+        "high": 0.5
+      },
+      "wrong_accuracy": {
+        "n": 16,
+        "mean": 0.25,
+        "median": 0.0,
+        "low": 0.0625,
+        "high": 0.46875
+      },
+      "mention_accuracy": {
+        "n": 16,
+        "mean": 0.25,
+        "median": 0.0,
+        "low": 0.0625,
+        "high": 0.46875
+      },
+      "mention_minus_neutral": {
+        "n": 16,
+        "mean": -0.03125,
+        "median": 0.0,
+        "low": -0.1875,
+        "high": 0.125
+      },
+      "wrong_minus_neutral": {
+        "n": 16,
+        "mean": -0.03125,
+        "median": 0.0,
+        "low": -0.1875,
+        "high": 0.125
+      },
+      "mention_minus_wrong": {
+        "n": 16,
+        "mean": 0.0,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      }
+    },
+    {
+      "dataset": "all",
+      "cohort": "all",
+      "n": 94,
+      "neutral_accuracy": {
+        "n": 94,
+        "mean": 0.526595744680851,
+        "median": 0.5,
+        "low": 0.4413563829787234,
+        "high": 0.6170212765957447
+      },
+      "wrong_accuracy": {
+        "n": 94,
+        "mean": 0.3670212765957447,
+        "median": 0.0,
+        "low": 0.28191489361702127,
+        "high": 0.4574468085106383
+      },
+      "mention_accuracy": {
+        "n": 94,
+        "mean": 0.3882978723404255,
+        "median": 0.0,
+        "low": 0.30319148936170215,
+        "high": 0.4787234042553192
+      },
+      "mention_minus_neutral": {
+        "n": 94,
+        "mean": -0.13829787234042554,
+        "median": 0.0,
+        "low": -0.21808510638297873,
+        "high": -0.05851063829787234
+      },
+      "wrong_minus_neutral": {
+        "n": 94,
+        "mean": -0.1595744680851064,
+        "median": 0.0,
+        "low": -0.23404255319148937,
+        "high": -0.0851063829787234
+      },
+      "mention_minus_wrong": {
+        "n": 94,
+        "mean": 0.02127659574468085,
+        "median": 0.0,
+        "low": -0.02127659574468085,
+        "high": 0.06382978723404255
+      }
+    },
+    {
+      "dataset": "all",
+      "cohort": "development",
+      "n": 46,
+      "neutral_accuracy": {
+        "n": 46,
+        "mean": 0.4782608695652174,
+        "median": 0.5,
+        "low": 0.34782608695652173,
+        "high": 0.6195652173913043
+      },
+      "wrong_accuracy": {
+        "n": 46,
+        "mean": 0.30434782608695654,
+        "median": 0.0,
+        "low": 0.1956521739130435,
+        "high": 0.42391304347826086
+      },
+      "mention_accuracy": {
+        "n": 46,
+        "mean": 0.3695652173913043,
+        "median": 0.0,
+        "low": 0.24972826086956532,
+        "high": 0.5
+      },
+      "mention_minus_neutral": {
+        "n": 46,
+        "mean": -0.10869565217391304,
+        "median": 0.0,
+        "low": -0.2391304347826087,
+        "high": 0.010869565217391304
+      },
+      "wrong_minus_neutral": {
+        "n": 46,
+        "mean": -0.17391304347826086,
+        "median": 0.0,
+        "low": -0.29347826086956524,
+        "high": -0.06521739130434782
+      },
+      "mention_minus_wrong": {
+        "n": 46,
+        "mean": 0.06521739130434782,
+        "median": 0.0,
+        "low": 0.0,
+        "high": 0.13043478260869565
+      }
+    },
+    {
+      "dataset": "all",
+      "cohort": "confirmation",
+      "n": 48,
+      "neutral_accuracy": {
+        "n": 48,
+        "mean": 0.5729166666666666,
+        "median": 0.5,
+        "low": 0.4479166666666667,
+        "high": 0.6979166666666666
+      },
+      "wrong_accuracy": {
+        "n": 48,
+        "mean": 0.4270833333333333,
+        "median": 0.25,
+        "low": 0.3020833333333333,
+        "high": 0.5625
+      },
+      "mention_accuracy": {
+        "n": 48,
+        "mean": 0.40625,
+        "median": 0.25,
+        "low": 0.28125,
+        "high": 0.5416666666666666
+      },
+      "mention_minus_neutral": {
+        "n": 48,
+        "mean": -0.16666666666666666,
+        "median": 0.0,
+        "low": -0.2708333333333333,
+        "high": -0.07291666666666667
+      },
+      "wrong_minus_neutral": {
+        "n": 48,
+        "mean": -0.14583333333333334,
+        "median": 0.0,
+        "low": -0.25,
+        "high": -0.052083333333333336
+      },
+      "mention_minus_wrong": {
+        "n": 48,
+        "mean": -0.020833333333333332,
+        "median": 0.0,
+        "low": -0.07291666666666667,
+        "high": 0.020833333333333332
+      }
+    }
+  ],
+  "patterns": {
+    "both_wrong": 42,
+    "history_harms": 13,
+    "both_correct": 35,
+    "history_helps": 4
+  },
+  "api_cost_usd": 0
+}

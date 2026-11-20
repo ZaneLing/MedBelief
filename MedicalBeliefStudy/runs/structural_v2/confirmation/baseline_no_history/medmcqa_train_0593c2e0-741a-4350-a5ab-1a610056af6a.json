@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_0593c2e0-741a-4350-a5ab-1a610056af6a",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Glanzmann thrombasthenia\"}",
+      "generated_disease": "Glanzmann thrombasthenia",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "425515cb45c6a14a944c029a6e09d09a4cec9fc7a3742c87b0256c5bc73222bf"
+    }
+  ]
+}

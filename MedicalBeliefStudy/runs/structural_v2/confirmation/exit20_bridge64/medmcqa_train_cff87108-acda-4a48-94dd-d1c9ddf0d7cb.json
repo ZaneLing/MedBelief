@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_cff87108-acda-4a48-94dd-d1c9ddf0d7cb",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "C---Hypth",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "94ae76797a41e923ae7fb1a05f2c1665db31a1b818cad5f3ab3327a960f783e4"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "C---Hypth",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "a89919b001de85f9f056b5b2c9746f4a8d39d804af4053140aee7d1cb1590e0d"
+    }
+  ]
+}

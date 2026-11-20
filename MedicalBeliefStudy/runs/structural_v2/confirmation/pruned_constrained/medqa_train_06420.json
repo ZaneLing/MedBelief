@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_06420",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Granulomatosis with polyangiitis\"}",
+      "generated_disease": "Granulomatosis with polyangiitis",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "8c6ed9e99097098ee4f0651ea9eb04cfaf79f2c62b8f3c4664f4857f396ea798"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Granulomatosis with polyangiitis\"}",
+      "generated_disease": "Granulomatosis with polyangiitis",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "90ba993695e62c0b9dee671bdbaf08cccdb29efe7b15bc77f7d8bda532c85bb8"
+    }
+  ]
+}

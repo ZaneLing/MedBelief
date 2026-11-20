@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_00180",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocalumous\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "a567ce7f5a766e5cc2b0c0974bbb9c3a7580dd22a6e6dfe67827bc8b918f6af6"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocalumous\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "4fd549078dfc9aa2576c64589767546df33cb5d1f9bac93b83edf2faa034c081"
+    }
+  ]
+}

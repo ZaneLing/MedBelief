@@ -1,0 +1,5 @@
+/Users/lingziyang/Desktop/Seq/MedicalBeliefStudy/src/phase41_multisource_analyze.py:92: RuntimeWarning: invalid value encountered in scalar divide
+  cos=float(np.dot(an,aw)/(np.linalg.norm(an)*np.linalg.norm(aw)+1e-12));rel=float(np.linalg.norm(aw-an)/(np.linalg.norm(an)+1e-12))
+/Users/lingziyang/Desktop/Seq/MedicalBeliefStudy/src/phase41_multisource_analyze.py:92: RuntimeWarning: invalid value encountered in subtract
+  cos=float(np.dot(an,aw)/(np.linalg.norm(an)*np.linalg.norm(aw)+1e-12));rel=float(np.linalg.norm(aw-an)/(np.linalg.norm(an)+1e-12))
+{"patients": 540, "tables": 12, "output": "/Users/lingziyang/Desktop/Seq/MedicalBeliefStudy/results/32_multisource_belief"}

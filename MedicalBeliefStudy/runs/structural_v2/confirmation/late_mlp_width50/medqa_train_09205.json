@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_train_09205",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Greater trochanteric pain syndrome\"}",
+      "generated_disease": "Greater trochanteric pain syndrome",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "274b1b0fe6b9821c896506be4e546c1ff6e094098a9e033ad2aeb3a68eb984fe"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Greater trochanteric pain syndrome\"}",
+      "generated_disease": "Greater trochanteric pain syndrome",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "e536306d2fd518d2ab2e288e877be6b262fb87b11e5171a80f2ed0247a1f427b"
+    }
+  ]
+}

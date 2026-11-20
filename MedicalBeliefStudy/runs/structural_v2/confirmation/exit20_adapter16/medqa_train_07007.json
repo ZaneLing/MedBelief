@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_07007",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Hervososogroupungerventotemphenserventepoemphilis\"} (Note: This is an error error. actual correct answer is either \"Corticus orphans orphans orphans orophyosogariparipemphotaxoysenemph",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "a88fd94935ad5168ad243f480295f7bd66a92a62c508739af8ea16fff7dfa40c"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Bryonic disorder\"}",
+      "generated_disease": "Bryonic disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "3350421f22ec27d4a01752e413fe0d9041b99c28a3b95e1354b874bffdee3034"
+    }
+  ]
+}

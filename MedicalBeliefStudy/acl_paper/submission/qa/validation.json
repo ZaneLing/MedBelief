@@ -1,0 +1,23 @@
+{
+  "complete": true,
+  "new_patients": 0,
+  "new_model_calls": 0,
+  "deep_cases": 24,
+  "deep_diseases": 17,
+  "case_condition_summaries": 72,
+  "round_records_verified_against_raw": 624,
+  "endpoint_patients": 120,
+  "cited_primary_works": 12,
+  "undefined_citations": false,
+  "overfull_boxes": [],
+  "main_content_conclusion_page": 8,
+  "paper_with_references_pages": 9,
+  "supplement_pages": 50,
+  "combined_pages": 59,
+  "all_pages_rendered": true,
+  "page_boundary_violations": [],
+  "broken_new_markdown_links": [],
+  "api_cost_usd": 0,
+  "pdf_sha256": "a3e9845e58498530594da686d80ca13c068cf3e91e1e25ed80bc8e18b506dee2",
+  "visual_review": "All page layouts inspected via contact sheets; main figures and a complete case page also inspected at page resolution. Final tick-label correction checked in rendered case page."
+}

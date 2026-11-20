@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_1d89a4c5-d0d1-4c75-b833-a3ab164317de",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Achalasia cardia\"}",
+      "generated_disease": "Achalasia cardia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ec3f2eb9947c43148e2d1ba525a1de23bb33e23412f11db843ab963e28fdbc7d"
+    }
+  ]
+}

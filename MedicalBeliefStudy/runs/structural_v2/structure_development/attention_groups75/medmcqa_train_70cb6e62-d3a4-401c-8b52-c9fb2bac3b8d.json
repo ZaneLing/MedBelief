@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_70cb6e62-d3a4-401c-8b52-c9fb2bac3b8d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Polyostotic fibromatosis of the mandible\",\"severity\":\"moderate\",\"phase\":\"1\",\"clinical_signs\":\"absent\",\"etiology\":\"idiopathic\",\"treatment\":\"observation only\"]",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 40,
+      "prompt_sha256": "4f63f95fc542cc978cfc63f13d6d1b96e71572a2b9becf19d803019b07709fb0"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Polyostotic fibrous dysplasia of the mandible\",\"reason\":\"Chronic progressive bone loss and resorption of the mandibular alveolar process with possible involvement of the posterior teeth and symphyseal centers is a feature of untreated rickets. The presence of bilateral involvement of the first permanent molars",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "fc56edb8d944422144346d13e5ccddcc8a6b6e287124da697a18e563266435e9"
+    }
+  ]
+}

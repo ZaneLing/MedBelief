@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_d69f4de3-e358-4335-af72-b0d95fb9d515",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Amyotrophic lateral sclerosis\"}",
+      "generated_disease": "Amyotrophic lateral sclerosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "63d9e70369d14c31e26f55cf80a446a0d7991ec4117318fa9638254024d4f566"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Progressive spinal muscular atrophy\"}",
+      "generated_disease": "Progressive spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "1ee4569c84110781f82848feb6c16a92b98a8c3b4756fa08c2ca2baeeed0c49b"
+    }
+  ]
+}

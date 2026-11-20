@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_0fa159ee-30e9-4c6f-8d3c-8f56e4e706f7",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Agoraphobia\"}",
+      "generated_disease": "Agoraphobia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "aef9d4a05d74c5fd7db5c56cf2b8ca978065418c4626edd22a705ff68b702dd5"
+    }
+  ]
+}

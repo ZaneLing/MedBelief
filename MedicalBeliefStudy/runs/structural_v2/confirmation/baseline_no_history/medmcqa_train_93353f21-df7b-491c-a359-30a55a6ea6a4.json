@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_93353f21-df7b-491c-a359-30a55a6ea6a4",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": false,
+      "text": "thyroglossal duct cyst\"}",
+      "generated_disease": "thyroglossal duct cyst",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "aa017de5c0af8d83e5678b83f2b1b77b5ccb42cb000da5b45ec70a5074e81c63"
+    }
+  ]
+}

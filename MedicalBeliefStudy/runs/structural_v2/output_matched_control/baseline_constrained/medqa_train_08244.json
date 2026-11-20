@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_08244",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Herniated nucleus pulposus\"}",
+      "generated_disease": "Herniated nucleus pulposus",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "7c8dd3550254986fcfb3fed3a43642047f98a4749000bbb6a94992a01e2d49e1"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Piriformis muscle inflammation\"}",
+      "generated_disease": "Piriformis muscle inflammation",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "48bc1da5a2b06c9cb67e01c6eac7e83cb9b0a263662aa61a4048e85154165ebc"
+    }
+  ]
+}

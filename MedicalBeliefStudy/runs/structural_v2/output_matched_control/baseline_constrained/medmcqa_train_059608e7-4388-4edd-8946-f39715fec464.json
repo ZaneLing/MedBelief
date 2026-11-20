@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_059608e7-4388-4edd-8946-f39715fec464",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Trigeminal neuralgia\"}",
+      "generated_disease": "Trigeminal neuralgia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "f853eca178abb3b30fd94e2a072593df299e07f9c4bcfce73266748bf6472244"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Trigeminal neuralgia\"}",
+      "generated_disease": "Trigeminal neuralgia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "12538057ce0afa2c26f26ac09efae57be2cbd608a0293437d9599f8fd5b0ffbf"
+    }
+  ]
+}

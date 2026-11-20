@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_ebf37a52-619f-4ff5-aaf3-943c615f5097",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Cryinemaungilkserventocobularis\"}",
+      "generated_disease": "Cryinemaungilkserventocobularis",
+      "stop": "eos",
+      "tokens": 14,
+      "prompt_sha256": "04bcebc6b3da625114f728170bad643622d59c9bce09afa3858011c7bb63d4e7"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cryinystarphauschephilisdemotemenserventechserventepoemphilentrivanservemplabarovemphodememphilenservemplabemphilenservemplabservemphilensigroupings",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "ce327ba23076f1dd3cb45251cb1ef7d4bbfecb324740c9b0834bf416d5254b9c"
+    }
+  ]
+}

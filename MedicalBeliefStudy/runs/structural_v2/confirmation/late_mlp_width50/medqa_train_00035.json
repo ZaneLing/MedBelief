@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_train_00035",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Myasthenia gravis\"}",
+      "generated_disease": "Myasthenia gravis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "16a07e9d30f736bfd37b9d1df618b18893f737be54ca8cfebbf07a27e7500765"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Myasthenia gravis\"}",
+      "generated_disease": "Myasthenia gravis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "cca7162ab9c2a6f56036dec9c0ba2ba86a7a84725c5219b90920392a4d415f6d"
+    }
+  ]
+}

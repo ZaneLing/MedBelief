@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_01470",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Akathisia\"}",
+      "generated_disease": "Akathisia",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "0251b66799d436f398cbf8411ab2508ed63c727d89f03153d092458aa9c6c3b8"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Akathisia\"}",
+      "generated_disease": "Akathisia",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "33ea171a5730afbbd04f1f5f0c15bd9c1b0b4cc3f77e18f3041530424c3f7df6"
+    }
+  ]
+}

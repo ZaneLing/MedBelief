@@ -1,0 +1,50 @@
+{
+  "case_id": "medqa_train_04175",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Amytrophic lateral sclerosis\"}",
+      "generated_disease": "Amytrophic lateral sclerosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "9f017017e76581ee18e2680f4ae36bd32c0cc867ab6fe611041955a7aad743b2"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Amytrophic lateral sclerosis\"}",
+      "generated_disease": "Amytrophic lateral sclerosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "092cc6bf5d44bb4944e9019b4029765b4eaddc04c37038e0cf20b974599fefb2"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_02981",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Spinal muscular atrophy type I disease\"}",
+      "generated_disease": "Spinal muscular atrophy type I disease",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "ef3a1422a878561d121a358c71da13694c0d2db795e0c517b2338bc271512584"
+    }
+  ]
+}

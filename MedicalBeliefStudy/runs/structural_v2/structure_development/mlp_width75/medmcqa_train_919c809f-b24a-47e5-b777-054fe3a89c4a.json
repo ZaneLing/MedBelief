@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_919c809f-b24a-47e5-b777-054fe3a89c4a",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "mlp_width75",
+    "mlp_keep": 0.75
+  },
+  "parameter_stats": {
+    "parameters": 1456333824,
+    "weight_bytes": 2912667648,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Cysticercosis cellulosae\"}",
+      "generated_disease": "Cysticercosis cellulosae",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "437d618bbc8211a1365a625152c3e695f536353bf86af48a5e4a681018975a66"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Pseudotumor\"}",
+      "generated_disease": "Pseudotumor",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "7a5678d642c118672f83f427869be41a02c67236daca9559ec8c48ce74dbf433"
+    }
+  ]
+}

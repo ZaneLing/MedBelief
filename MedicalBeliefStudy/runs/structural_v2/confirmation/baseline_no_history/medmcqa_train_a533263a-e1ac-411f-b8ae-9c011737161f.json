@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_a533263a-e1ac-411f-b8ae-9c011737161f",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Orbital encephalocele\"}",
+      "generated_disease": "Orbital encephalocele",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "e60fde3a91d38791dc03cc2db8ef8ab9f7e45cc5e4e2ba8f3bcb4f5dd24bd510"
+    }
+  ]
+}

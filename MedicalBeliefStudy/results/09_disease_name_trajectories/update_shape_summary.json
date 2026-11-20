@@ -1,0 +1,23 @@
+{
+  "analysis": "Post-hoc descriptive analysis of existing full-name base-order trajectories; no new inference",
+  "cases": 24,
+  "updates": 178,
+  "switch_events": 59,
+  "switch_cases": 23,
+  "threshold_definition": "At least one of 49 disease scores changes by at least threshold in absolute value between consecutive rounds. Thresholds selected for this descriptive analysis, not preregistered.",
+  "thresholds": {
+    "0.1": {
+      "events": 92,
+      "cases": 24
+    },
+    "0.25": {
+      "events": 70,
+      "cases": 23
+    },
+    "0.5": {
+      "events": 49,
+      "cases": 23
+    }
+  },
+  "scope": "Normalized complete-disease-name sequence scores, not calibrated disease probabilities or layerwise internal probabilities. 24 complete trajectories, not all 120 cases."
+}

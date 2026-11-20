@@ -1,0 +1,1172 @@
+{
+  "challenge": {
+    "test": {
+      "n": 685,
+      "groups": 340,
+      "classes": 15,
+      "conditional_question_only_upper_bound": 0.49635036496350365,
+      "models": {
+        "all49_n500_questions_only": {
+          "n": 685,
+          "correct": 336,
+          "accuracy": 0.4905109489051095,
+          "wilson95": [
+            0.45323191699930065,
+            0.5278958159013059
+          ],
+          "balanced_accuracy": 0.37125097125097123,
+          "macro_f1": 0.2970900190215086,
+          "recall_per_disease": {
+            "Acute laryngitis": 0.15,
+            "Acute otitis media": 1.0,
+            "Acute rhinosinusitis": 0.26956521739130435,
+            "Bronchitis": 0.6666666666666666,
+            "Chronic rhinosinusitis": 0.7304347826086957,
+            "Cluster headache": 0.0,
+            "GERD": 0.0,
+            "Myocarditis": 0.6,
+            "Pericarditis": 0.36363636363636365,
+            "Possible NSTEMI / STEMI": 0.0,
+            "Spontaneous pneumothorax": 0.0,
+            "Stable angina": 1.0,
+            "URTI": 0.0,
+            "Unstable angina": 0.0,
+            "Viral pharyngitis": 0.7884615384615384
+          }
+        },
+        "all49_n500_evidence_presence": {
+          "n": 685,
+          "correct": 333,
+          "accuracy": 0.48613138686131385,
+          "wilson95": [
+            0.44888437718217544,
+            0.523533078595634
+          ],
+          "balanced_accuracy": 0.3601467901467902,
+          "macro_f1": 0.29518570536196215,
+          "recall_per_disease": {
+            "Acute laryngitis": 0.3,
+            "Acute otitis media": 0.4,
+            "Acute rhinosinusitis": 0.3347826086956522,
+            "Bronchitis": 1.0,
+            "Chronic rhinosinusitis": 0.6652173913043479,
+            "Cluster headache": 0.0,
+            "GERD": 0.0,
+            "Myocarditis": 0.6,
+            "Pericarditis": 0.36363636363636365,
+            "Possible NSTEMI / STEMI": 0.0,
+            "Spontaneous pneumothorax": 0.0,
+            "Stable angina": 1.0,
+            "URTI": 0.02702702702702703,
+            "Unstable angina": 0.0,
+            "Viral pharyngitis": 0.7115384615384616
+          }
+        },
+        "all49_n500_evidence_values": {
+          "n": 685,
+          "correct": 465,
+          "accuracy": 0.6788321167883211,
+          "wilson95": [
+            0.6429518702465197,
+            0.7127177789343574
+          ],
+          "balanced_accuracy": 0.7889855072463768,
+          "macro_f1": 0.7717533043154197,
+          "recall_per_disease": {
+            "Acute laryngitis": 0.6,
+            "Acute otitis media": 1.0,
+            "Acute rhinosinusitis": 0.5478260869565217,
+            "Bronchitis": 1.0,
+            "Chronic rhinosinusitis": 0.6869565217391305,
+            "Cluster headache": 1.0,
+            "GERD": 1.0,
+            "Myocarditis": 1.0,
+            "Pericarditis": 1.0,
+            "Possible NSTEMI / STEMI": 0.0,
+            "Spontaneous pneumothorax": 1.0,
+            "Stable angina": 1.0,
+            "URTI": 1.0,
+            "Unstable angina": 0.0,
+            "Viral pharyngitis": 1.0
+          }
+        },
+        "logistic_evidence_presence": {
+          "n": 685,
+          "correct": 339,
+          "accuracy": 0.4948905109489051,
+          "wilson95": [
+            0.4575823071308565,
+            0.5322557028925471
+          ],
+          "balanced_accuracy": 0.40298802298802294,
+          "macro_f1": 0.30917805270560655,
+          "recall_per_disease": {
+            "Acute laryngitis": 0.85,
+            "Acute otitis media": 1.0,
+            "Acute rhinosinusitis": 0.004347826086956522,
+            "Bronchitis": 0.5555555555555556,
+            "Chronic rhinosinusitis": 0.9956521739130435,
+            "Cluster headache": 0.0,
+            "GERD": 0.0,
+            "Myocarditis": 0.6,
+            "Pericarditis": 0.45454545454545453,
+            "Possible NSTEMI / STEMI": 0.0,
+            "Spontaneous pneumothorax": 0.0,
+            "Stable angina": 1.0,
+            "URTI": 0.02702702702702703,
+            "Unstable angina": 0.0,
+            "Viral pharyngitis": 0.5576923076923077
+          }
+        },
+        "logistic_evidence_values": {
+          "n": 685,
+          "correct": 533,
+          "accuracy": 0.7781021897810219,
+          "wilson95": [
+            0.7454824584683575,
+            0.8076201388292517
+          ],
+          "balanced_accuracy": 0.8894314381270902,
+          "macro_f1": 0.8616672103692304,
+          "recall_per_disease": {
+            "Acute laryngitis": 0.95,
+            "Acute otitis media": 1.0,
+            "Acute rhinosinusitis": 0.5695652173913044,
+            "Bronchitis": 1.0,
+            "Chronic rhinosinusitis": 0.9565217391304348,
+            "Cluster headache": 1.0,
+            "GERD": 1.0,
+            "Myocarditis": 1.0,
+            "Pericarditis": 1.0,
+            "Possible NSTEMI / STEMI": 1.0,
+            "Spontaneous pneumothorax": 1.0,
+            "Stable angina": 1.0,
+            "URTI": 1.0,
+            "Unstable angina": 0.0,
+            "Viral pharyngitis": 0.8653846153846154
+          }
+        }
+      },
+      "group_size_counts": {
+        "2": 336,
+        "3": 3,
+        "4": 1
+      }
+    },
+    "validate": {
+      "n": 688,
+      "groups": 340,
+      "classes": 14,
+      "conditional_question_only_upper_bound": 0.4941860465116279,
+      "models": {
+        "all49_n500_questions_only": {
+          "n": 688,
+          "correct": 338,
+          "accuracy": 0.49127906976744184,
+          "wilson95": [
+            0.45407553523106936,
+            0.5285794504639841
+          ],
+          "balanced_accuracy": 0.42252310337416726,
+          "macro_f1": 0.3482853311896349,
+          "recall_per_disease": {
+            "Acute laryngitis": 0.2222222222222222,
+            "Acute otitis media": 1.0,
+            "Acute rhinosinusitis": 0.2564102564102564,
+            "Bronchitis": 0.6363636363636364,
+            "Chronic rhinosinusitis": 0.7435897435897436,
+            "Cluster headache": 0.0,
+            "GERD": 0.0,
+            "Myocarditis": 0.7142857142857143,
+            "Pericarditis": 0.2857142857142857,
+            "Possible NSTEMI / STEMI": 0.3333333333333333,
+            "Stable angina": 1.0,
+            "URTI": 0.0,
+            "Unstable angina": 0.0,
+            "Viral pharyngitis": 0.723404255319149
+          }
+        },
+        "all49_n500_evidence_presence": {
+          "n": 688,
+          "correct": 336,
+          "accuracy": 0.4883720930232558,
+          "wilson95": [
+            0.45118908380152295,
+            0.5256842304585484
+          ],
+          "balanced_accuracy": 0.393500449019066,
+          "macro_f1": 0.3246870590084944,
+          "recall_per_disease": {
+            "Acute laryngitis": 0.3333333333333333,
+            "Acute otitis media": 0.6666666666666666,
+            "Acute rhinosinusitis": 0.3247863247863248,
+            "Bronchitis": 0.8181818181818182,
+            "Chronic rhinosinusitis": 0.6752136752136753,
+            "Cluster headache": 0.0,
+            "GERD": 0.0,
+            "Myocarditis": 0.7142857142857143,
+            "Pericarditis": 0.2857142857142857,
+            "Possible NSTEMI / STEMI": 0.0,
+            "Stable angina": 1.0,
+            "URTI": 0.03125,
+            "Unstable angina": 0.0,
+            "Viral pharyngitis": 0.6595744680851063
+          }
+        },
+        "all49_n500_evidence_values": {
+          "n": 688,
+          "correct": 448,
+          "accuracy": 0.6511627906976745,
+          "wilson95": [
+            0.6147994260204712,
+            0.6858474885986017
+          ],
+          "balanced_accuracy": 0.837308081988933,
+          "macro_f1": 0.8170582746127034,
+          "recall_per_disease": {
+            "Acute laryngitis": 0.5555555555555556,
+            "Acute otitis media": 1.0,
+            "Acute rhinosinusitis": 0.5341880341880342,
+            "Bronchitis": 1.0,
+            "Chronic rhinosinusitis": 0.6538461538461539,
+            "Cluster headache": 1.0,
+            "GERD": 1.0,
+            "Myocarditis": 1.0,
+            "Pericarditis": 1.0,
+            "Possible NSTEMI / STEMI": 1.0,
+            "Stable angina": 1.0,
+            "URTI": 1.0,
+            "Unstable angina": 0.0,
+            "Viral pharyngitis": 0.9787234042553191
+          }
+        },
+        "logistic_evidence_presence": {
+          "n": 688,
+          "correct": 337,
+          "accuracy": 0.4898255813953488,
+          "wilson95": [
+            0.4526321528704095,
+            0.5271319971071529
+          ],
+          "balanced_accuracy": 0.4148214716293336,
+          "macro_f1": 0.3165093337985868,
+          "recall_per_disease": {
+            "Acute laryngitis": 0.8888888888888888,
+            "Acute otitis media": 1.0,
+            "Acute rhinosinusitis": 0.0,
+            "Bronchitis": 0.36363636363636365,
+            "Chronic rhinosinusitis": 1.0,
+            "Cluster headache": 0.0,
+            "GERD": 0.0,
+            "Myocarditis": 0.7142857142857143,
+            "Pericarditis": 0.2857142857142857,
+            "Possible NSTEMI / STEMI": 0.0,
+            "Stable angina": 1.0,
+            "URTI": 0.0625,
+            "Unstable angina": 0.024390243902439025,
+            "Viral pharyngitis": 0.46808510638297873
+          }
+        },
+        "logistic_evidence_values": {
+          "n": 688,
+          "correct": 520,
+          "accuracy": 0.7558139534883721,
+          "wilson95": [
+            0.7223500559018197,
+            0.7864370303766113
+          ],
+          "balanced_accuracy": 0.8778819779079249,
+          "macro_f1": 0.8457548788428787,
+          "recall_per_disease": {
+            "Acute laryngitis": 1.0,
+            "Acute otitis media": 1.0,
+            "Acute rhinosinusitis": 0.5641025641025641,
+            "Bronchitis": 1.0,
+            "Chronic rhinosinusitis": 0.9358974358974359,
+            "Cluster headache": 1.0,
+            "GERD": 1.0,
+            "Myocarditis": 1.0,
+            "Pericarditis": 1.0,
+            "Possible NSTEMI / STEMI": 1.0,
+            "Stable angina": 1.0,
+            "URTI": 1.0,
+            "Unstable angina": 0.024390243902439025,
+            "Viral pharyngitis": 0.7659574468085106
+          }
+        }
+      },
+      "group_size_counts": {
+        "2": 333,
+        "3": 6,
+        "4": 1
+      }
+    }
+  },
+  "exclusive_feature_ablation": {
+    "test": {
+      "model": {
+        "n": 134529,
+        "correct": 132637,
+        "accuracy": 0.985936117863063,
+        "wilson95": [
+          0.9852928572577927,
+          0.9865516275702474
+        ],
+        "balanced_accuracy": 0.9852008709409706,
+        "macro_f1": 0.9841156607495103,
+        "recall_per_disease": {
+          "Acute COPD exacerbation / infection": 0.9995355318160706,
+          "Acute dystonic reactions": 1.0,
+          "Acute laryngitis": 0.9956481193658688,
+          "Acute otitis media": 0.9550625711035268,
+          "Acute pulmonary edema": 1.0,
+          "Acute rhinosinusitis": 0.6730453799890651,
+          "Allergic sinusitis": 1.0,
+          "Anaphylaxis": 1.0,
+          "Anemia": 0.9963460976322712,
+          "Atrial fibrillation": 0.9996467679265277,
+          "Boerhaave": 1.0,
+          "Bronchiectasis": 1.0,
+          "Bronchiolitis": 1.0,
+          "Bronchitis": 0.9902615470228158,
+          "Bronchospasm / acute asthma exacerbation": 0.9990999099909991,
+          "Chagas": 1.0,
+          "Chronic rhinosinusitis": 0.9970877320713506,
+          "Cluster headache": 1.0,
+          "Croup": 0.9883720930232558,
+          "Ebola": 1.0,
+          "Epiglottitis": 0.9991539763113367,
+          "GERD": 0.9839119390347163,
+          "Guillain-Barré syndrome": 0.9615532487504805,
+          "HIV (initial infection)": 0.9979586629242153,
+          "Influenza": 0.9997186268992684,
+          "Inguinal hernia": 0.9978189749182116,
+          "Larygospasm": 1.0,
+          "Localized edema": 1.0,
+          "Myasthenia gravis": 0.9607223476297968,
+          "Myocarditis": 0.983085250338295,
+          "PSVT": 0.9995906672124437,
+          "Pancreatic neoplasm": 0.995357833655706,
+          "Panic attack": 0.9861234130498967,
+          "Pericarditis": 0.9554119547657512,
+          "Pneumonia": 0.9997176736307171,
+          "Possible NSTEMI / STEMI": 0.9883201648917898,
+          "Pulmonary embolism": 0.9978254960587116,
+          "Pulmonary neoplasm": 1.0,
+          "SLE": 1.0,
+          "Sarcoidosis": 0.9934527911784976,
+          "Scombroid food poisoning": 1.0,
+          "Spontaneous pneumothorax": 0.9955323901712584,
+          "Spontaneous rib fracture": 1.0,
+          "Stable angina": 0.9995808885163453,
+          "Tuberculosis": 0.9995192307692308,
+          "URTI": 0.9873041290174998,
+          "Unstable angina": 0.9260416666666667,
+          "Viral pharyngitis": 0.9803215742740581,
+          "Whooping cough": 0.9927140255009107
+        }
+      },
+      "counts": {
+        "any_singleton": 85433,
+        "any_singleton_history": 67923,
+        "any_singleton_symptom": 50790
+      },
+      "cue_counts": {
+        "E_98": {
+          "GERD": 2400
+        },
+        "E_173": {
+          "GERD": 2684
+        },
+        "E_15": {
+          "Acute dystonic reactions": 2329
+        },
+        "E_128": {
+          "Acute dystonic reactions": 1914
+        },
+        "E_147": {
+          "Acute dystonic reactions": 2343
+        },
+        "E_168": {
+          "Acute dystonic reactions": 2193
+        },
+        "E_193": {
+          "Acute dystonic reactions": 2158
+        },
+        "E_160": {
+          "Inguinal hernia": 1566
+        },
+        "E_221": {
+          "Inguinal hernia": 1679
+        },
+        "E_21": {
+          "Spontaneous pneumothorax": 1143
+        },
+        "E_165": {
+          "Spontaneous pneumothorax": 877
+        },
+        "E_215": {
+          "GERD": 2640
+        },
+        "E_7": {
+          "Anemia": 5119
+        },
+        "E_24": {
+          "Anemia": 5384
+        },
+        "E_26": {
+          "Anemia": 4923
+        },
+        "E_113": {
+          "Anemia": 5098
+        },
+        "E_146": {
+          "Anemia": 5495
+        },
+        "E_154": {
+          "Anemia": 4023
+        },
+        "E_75": {
+          "Panic attack": 1890
+        },
+        "E_80": {
+          "Panic attack": 2456
+        },
+        "E_99": {
+          "Panic attack": 1797
+        },
+        "E_111": {
+          "Panic attack": 2623
+        },
+        "E_138": {
+          "Panic attack": 2266
+        },
+        "E_171": {
+          "Panic attack": 2462
+        },
+        "E_110": {
+          "Pulmonary embolism": 2233
+        },
+        "E_29": {
+          "Panic attack": 1887
+        },
+        "E_81": {
+          "Panic attack": 2522
+        },
+        "E_205": {
+          "Acute dystonic reactions": 2164
+        },
+        "E_1": {
+          "Acute otitis media": 1924
+        },
+        "E_34": {
+          "Pulmonary embolism": 2497
+        },
+        "E_100": {
+          "Pulmonary embolism": 1051
+        },
+        "E_37": {
+          "Spontaneous rib fracture": 527
+        },
+        "E_153": {
+          "Spontaneous rib fracture": 597
+        },
+        "E_216": {
+          "Spontaneous rib fracture": 776
+        },
+        "E_139": {
+          "Atrial fibrillation": 1839
+        },
+        "E_164": {
+          "Atrial fibrillation": 2131
+        },
+        "E_95": {
+          "Pneumonia": 2296
+        },
+        "E_179": {
+          "Anemia": 4007
+        },
+        "E_96": {
+          "Localized edema": 2282
+        },
+        "E_126": {
+          "Localized edema": 2512
+        },
+        "E_137": {
+          "Localized edema": 2789
+        },
+        "E_186": {
+          "Localized edema": 2308
+        },
+        "E_197": {
+          "Localized edema": 2500
+        },
+        "E_10": {
+          "Localized edema": 2085
+        },
+        "E_19": {
+          "Atrial fibrillation": 1969
+        },
+        "E_30": {
+          "Inguinal hernia": 1734
+        },
+        "E_27": {
+          "HIV (initial infection)": 2798
+        },
+        "E_115": {
+          "HIV (initial infection)": 2837
+        },
+        "E_189": {
+          "HIV (initial infection)": 2777
+        },
+        "E_188": {
+          "Pancreatic neoplasm": 1883
+        },
+        "E_223": {
+          "Pancreatic neoplasm": 1894
+        },
+        "E_145": {
+          "Anemia": 1478
+        },
+        "E_25": {
+          "Cluster headache": 2357
+        },
+        "E_127": {
+          "Cluster headache": 1672
+        },
+        "E_184": {
+          "Cluster headache": 2117
+        },
+        "E_43": {
+          "Sarcoidosis": 1622
+        },
+        "E_33": {
+          "Epiglottitis": 1449
+        },
+        "E_192": {
+          "Acute dystonic reactions": 2124
+        },
+        "E_150": {
+          "Inguinal hernia": 1407
+        },
+        "E_169": {
+          "Allergic sinusitis": 1941
+        },
+        "E_170": {
+          "Allergic sinusitis": 1728
+        },
+        "E_35": {
+          "PSVT": 1367
+        },
+        "E_213": {
+          "PSVT": 1439
+        },
+        "E_108": {
+          "Possible NSTEMI / STEMI": 2162
+        },
+        "E_185": {
+          "Panic attack": 2406
+        },
+        "E_20": {
+          "Bronchiectasis": 1620
+        },
+        "E_47": {
+          "Bronchiectasis": 1601
+        },
+        "E_72": {
+          "Acute COPD exacerbation / infection": 1576
+        },
+        "E_200": {
+          "Acute COPD exacerbation / infection": 1330
+        },
+        "E_5": {
+          "Acute pulmonary edema": 2160
+        },
+        "E_8": {
+          "Acute pulmonary edema": 1911
+        },
+        "E_92": {
+          "Scombroid food poisoning": 2453
+        },
+        "E_187": {
+          "Scombroid food poisoning": 2477
+        },
+        "E_149": {
+          "Localized edema": 2223
+        },
+        "E_46": {
+          "Bronchospasm / acute asthma exacerbation": 1651
+        },
+        "E_38": {
+          "Myasthenia gravis": 1429
+        },
+        "E_52": {
+          "Myasthenia gravis": 1615
+        },
+        "E_63": {
+          "Myasthenia gravis": 1611
+        },
+        "E_102": {
+          "SLE": 919
+        },
+        "E_141": {
+          "SLE": 554
+        },
+        "E_206": {
+          "SLE": 1024
+        },
+        "E_74": {
+          "Sarcoidosis": 1604
+        },
+        "E_163": {
+          "Sarcoidosis": 1259
+        },
+        "E_224": {
+          "Pulmonary neoplasm": 1277
+        },
+        "E_12": {
+          "Anaphylaxis": 3069
+        },
+        "E_42": {
+          "Anaphylaxis": 2952
+        },
+        "E_211": {
+          "Boerhaave": 1687
+        },
+        "E_86": {
+          "Allergic sinusitis": 1535
+        },
+        "E_199": {
+          "Acute COPD exacerbation / infection": 1187
+        },
+        "E_93": {
+          "Guillain-Barré syndrome": 1579
+        },
+        "E_156": {
+          "Guillain-Barré syndrome": 1446
+        },
+        "E_119": {
+          "Bronchospasm / acute asthma exacerbation": 1624
+        },
+        "E_101": {
+          "Bronchospasm / acute asthma exacerbation": 1595
+        },
+        "E_107": {
+          "Pneumonia": 2071
+        },
+        "E_6": {
+          "Pancreatic neoplasm": 1692
+        },
+        "E_60": {
+          "PSVT": 1484
+        },
+        "E_83": {
+          "Guillain-Barré syndrome": 1686
+        },
+        "E_158": {
+          "Localized edema": 2108
+        },
+        "E_18": {
+          "Bronchiectasis": 1975
+        },
+        "E_13": {
+          "Unstable angina": 2073
+        },
+        "E_64": {
+          "Myocarditis": 895
+        },
+        "E_4": {
+          "Croup": 252
+        },
+        "E_202": {
+          "Croup": 231
+        },
+        "E_39": {
+          "Ebola": 65
+        },
+        "E_73": {
+          "Ebola": 91
+        },
+        "E_178": {
+          "Ebola": 97
+        },
+        "E_180": {
+          "Acute dystonic reactions": 1947
+        },
+        "E_28": {
+          "Myasthenia gravis": 1423
+        },
+        "E_90": {
+          "Myasthenia gravis": 1060
+        },
+        "E_11": {
+          "SLE": 155
+        },
+        "E_174": {
+          "Chagas": 580
+        },
+        "E_166": {
+          "Whooping cough": 542
+        },
+        "E_17": {
+          "Bronchiectasis": 292
+        },
+        "E_40": {
+          "Whooping cough": 335
+        },
+        "E_112": {
+          "Whooping cough": 308
+        },
+        "E_32": {
+          "Bronchiolitis": 22
+        },
+        "E_183": {
+          "Bronchiolitis": 16
+        },
+        "E_195": {
+          "Bronchiolitis": 18
+        },
+        "E_142": {
+          "Bronchiolitis": 18
+        },
+        "E_23": {
+          "Bronchiolitis": 20
+        }
+      }
+    },
+    "validate": {
+      "model": {
+        "n": 132448,
+        "correct": 130445,
+        "accuracy": 0.9848770838366755,
+        "wilson95": [
+          0.9842056247806306,
+          0.9855204174196406
+        ],
+        "balanced_accuracy": 0.9843113046835896,
+        "macro_f1": 0.9829831628452586,
+        "recall_per_disease": {
+          "Acute COPD exacerbation / infection": 0.9995183044315993,
+          "Acute dystonic reactions": 1.0,
+          "Acute laryngitis": 0.9970648664514236,
+          "Acute otitis media": 0.9545192861255037,
+          "Acute pulmonary edema": 1.0,
+          "Acute rhinosinusitis": 0.6666666666666666,
+          "Allergic sinusitis": 1.0,
+          "Anaphylaxis": 1.0,
+          "Anemia": 0.9953643343473852,
+          "Atrial fibrillation": 0.9988501341510158,
+          "Boerhaave": 1.0,
+          "Bronchiectasis": 1.0,
+          "Bronchiolitis": 1.0,
+          "Bronchitis": 0.9884278859723398,
+          "Bronchospasm / acute asthma exacerbation": 0.9995473064735174,
+          "Chagas": 1.0,
+          "Chronic rhinosinusitis": 0.9981597350018403,
+          "Cluster headache": 1.0,
+          "Croup": 0.9812734082397003,
+          "Ebola": 1.0,
+          "Epiglottitis": 0.9986654804270463,
+          "GERD": 0.981903093987157,
+          "Guillain-Barré syndrome": 0.9569808369182636,
+          "HIV (initial infection)": 0.9989615784008308,
+          "Influenza": 0.9988857938718663,
+          "Inguinal hernia": 0.9950607902735562,
+          "Larygospasm": 1.0,
+          "Localized edema": 1.0,
+          "Myasthenia gravis": 0.9578508568781844,
+          "Myocarditis": 0.9831932773109243,
+          "PSVT": 1.0,
+          "Pancreatic neoplasm": 0.9918667699457785,
+          "Panic attack": 0.9873339511893728,
+          "Pericarditis": 0.9558047493403694,
+          "Pneumonia": 0.9994259471871412,
+          "Possible NSTEMI / STEMI": 0.9874277947672443,
+          "Pulmonary embolism": 0.9975838926174496,
+          "Pulmonary neoplasm": 1.0,
+          "SLE": 1.0,
+          "Sarcoidosis": 0.9917437252311757,
+          "Scombroid food poisoning": 1.0,
+          "Spontaneous pneumothorax": 0.997864768683274,
+          "Spontaneous rib fracture": 1.0,
+          "Stable angina": 0.9991452991452991,
+          "Tuberculosis": 1.0,
+          "URTI": 0.9846349353049908,
+          "Unstable angina": 0.9101164483260553,
+          "Viral pharyngitis": 0.9810817365995634,
+          "Whooping cough": 0.9963302752293578
+        }
+      },
+      "counts": {
+        "any_singleton": 83549,
+        "any_singleton_history": 66417,
+        "any_singleton_symptom": 49527
+      },
+      "cue_counts": {
+        "E_7": {
+          "Anemia": 5201
+        },
+        "E_24": {
+          "Anemia": 5387
+        },
+        "E_26": {
+          "Anemia": 4927
+        },
+        "E_113": {
+          "Anemia": 5178
+        },
+        "E_146": {
+          "Anemia": 5492
+        },
+        "E_154": {
+          "Anemia": 4157
+        },
+        "E_29": {
+          "Panic attack": 1786
+        },
+        "E_75": {
+          "Panic attack": 1773
+        },
+        "E_80": {
+          "Panic attack": 2368
+        },
+        "E_81": {
+          "Panic attack": 2444
+        },
+        "E_111": {
+          "Panic attack": 2437
+        },
+        "E_171": {
+          "Panic attack": 2351
+        },
+        "E_185": {
+          "Panic attack": 2323
+        },
+        "E_179": {
+          "Anemia": 4153
+        },
+        "E_101": {
+          "Bronchospasm / acute asthma exacerbation": 1538
+        },
+        "E_119": {
+          "Bronchospasm / acute asthma exacerbation": 1615
+        },
+        "E_169": {
+          "Allergic sinusitis": 1685
+        },
+        "E_170": {
+          "Allergic sinusitis": 1489
+        },
+        "E_34": {
+          "Pulmonary embolism": 2491
+        },
+        "E_110": {
+          "Pulmonary embolism": 2296
+        },
+        "E_28": {
+          "Myasthenia gravis": 1377
+        },
+        "E_52": {
+          "Myasthenia gravis": 1555
+        },
+        "E_63": {
+          "Myasthenia gravis": 1547
+        },
+        "E_20": {
+          "Bronchiectasis": 1531
+        },
+        "E_95": {
+          "Pneumonia": 2242
+        },
+        "E_150": {
+          "Inguinal hernia": 1367
+        },
+        "E_160": {
+          "Inguinal hernia": 1555
+        },
+        "E_221": {
+          "Inguinal hernia": 1551
+        },
+        "E_128": {
+          "Acute dystonic reactions": 1962
+        },
+        "E_168": {
+          "Acute dystonic reactions": 2190
+        },
+        "E_180": {
+          "Acute dystonic reactions": 1922
+        },
+        "E_193": {
+          "Acute dystonic reactions": 2136
+        },
+        "E_211": {
+          "Boerhaave": 1661
+        },
+        "E_19": {
+          "Atrial fibrillation": 1800
+        },
+        "E_139": {
+          "Atrial fibrillation": 1714
+        },
+        "E_164": {
+          "Atrial fibrillation": 1995
+        },
+        "E_12": {
+          "Anaphylaxis": 3004
+        },
+        "E_42": {
+          "Anaphylaxis": 2918
+        },
+        "E_27": {
+          "HIV (initial infection)": 2756
+        },
+        "E_115": {
+          "HIV (initial infection)": 2770
+        },
+        "E_145": {
+          "Anemia": 1500
+        },
+        "E_25": {
+          "Cluster headache": 2375
+        },
+        "E_184": {
+          "Cluster headache": 2143
+        },
+        "E_21": {
+          "Spontaneous pneumothorax": 1177
+        },
+        "E_165": {
+          "Spontaneous pneumothorax": 952
+        },
+        "E_30": {
+          "Inguinal hernia": 1627
+        },
+        "E_224": {
+          "Pulmonary neoplasm": 1297
+        },
+        "E_90": {
+          "Myasthenia gravis": 1063
+        },
+        "E_15": {
+          "Acute dystonic reactions": 2271
+        },
+        "E_205": {
+          "Acute dystonic reactions": 2126
+        },
+        "E_147": {
+          "Acute dystonic reactions": 2294
+        },
+        "E_5": {
+          "Acute pulmonary edema": 2031
+        },
+        "E_8": {
+          "Acute pulmonary edema": 1907
+        },
+        "E_99": {
+          "Panic attack": 1792
+        },
+        "E_138": {
+          "Panic attack": 2196
+        },
+        "E_192": {
+          "Acute dystonic reactions": 2082
+        },
+        "E_107": {
+          "Pneumonia": 2063
+        },
+        "E_13": {
+          "Unstable angina": 1890
+        },
+        "E_38": {
+          "Myasthenia gravis": 1418
+        },
+        "E_92": {
+          "Scombroid food poisoning": 2223
+        },
+        "E_187": {
+          "Scombroid food poisoning": 2239
+        },
+        "E_213": {
+          "PSVT": 1391
+        },
+        "E_200": {
+          "Acute COPD exacerbation / infection": 1255
+        },
+        "E_127": {
+          "Cluster headache": 1695
+        },
+        "E_189": {
+          "HIV (initial infection)": 2779
+        },
+        "E_10": {
+          "Localized edema": 2090
+        },
+        "E_96": {
+          "Localized edema": 2236
+        },
+        "E_126": {
+          "Localized edema": 2517
+        },
+        "E_186": {
+          "Localized edema": 2178
+        },
+        "E_197": {
+          "Localized edema": 2461
+        },
+        "E_137": {
+          "Localized edema": 2748
+        },
+        "E_149": {
+          "Localized edema": 2247
+        },
+        "E_72": {
+          "Acute COPD exacerbation / infection": 1490
+        },
+        "E_199": {
+          "Acute COPD exacerbation / infection": 1130
+        },
+        "E_18": {
+          "Bronchiectasis": 1810
+        },
+        "E_47": {
+          "Bronchiectasis": 1522
+        },
+        "E_83": {
+          "Guillain-Barré syndrome": 1591
+        },
+        "E_93": {
+          "Guillain-Barré syndrome": 1513
+        },
+        "E_108": {
+          "Possible NSTEMI / STEMI": 2181
+        },
+        "E_156": {
+          "Guillain-Barré syndrome": 1420
+        },
+        "E_188": {
+          "Pancreatic neoplasm": 1855
+        },
+        "E_6": {
+          "Pancreatic neoplasm": 1623
+        },
+        "E_223": {
+          "Pancreatic neoplasm": 1960
+        },
+        "E_43": {
+          "Sarcoidosis": 1716
+        },
+        "E_163": {
+          "Sarcoidosis": 1308
+        },
+        "E_102": {
+          "SLE": 914
+        },
+        "E_141": {
+          "SLE": 522
+        },
+        "E_206": {
+          "SLE": 1069
+        },
+        "E_1": {
+          "Acute otitis media": 1848
+        },
+        "E_86": {
+          "Allergic sinusitis": 1362
+        },
+        "E_64": {
+          "Myocarditis": 939
+        },
+        "E_46": {
+          "Bronchospasm / acute asthma exacerbation": 1664
+        },
+        "E_37": {
+          "Spontaneous rib fracture": 536
+        },
+        "E_153": {
+          "Spontaneous rib fracture": 593
+        },
+        "E_216": {
+          "Spontaneous rib fracture": 781
+        },
+        "E_74": {
+          "Sarcoidosis": 1609
+        },
+        "E_173": {
+          "GERD": 2532
+        },
+        "E_174": {
+          "Chagas": 615
+        },
+        "E_215": {
+          "GERD": 2580
+        },
+        "E_158": {
+          "Localized edema": 2040
+        },
+        "E_100": {
+          "Pulmonary embolism": 1121
+        },
+        "E_35": {
+          "PSVT": 1327
+        },
+        "E_60": {
+          "PSVT": 1397
+        },
+        "E_98": {
+          "GERD": 2365
+        },
+        "E_40": {
+          "Whooping cough": 330
+        },
+        "E_166": {
+          "Whooping cough": 541
+        },
+        "E_17": {
+          "Bronchiectasis": 253
+        },
+        "E_33": {
+          "Epiglottitis": 1386
+        },
+        "E_4": {
+          "Croup": 192
+        },
+        "E_202": {
+          "Croup": 177
+        },
+        "E_32": {
+          "Bronchiolitis": 10
+        },
+        "E_112": {
+          "Whooping cough": 300
+        },
+        "E_11": {
+          "SLE": 140
+        },
+        "E_39": {
+          "Ebola": 67
+        },
+        "E_73": {
+          "Ebola": 80
+        },
+        "E_178": {
+          "Ebola": 80
+        },
+        "E_142": {
+          "Bronchiolitis": 19
+        },
+        "E_183": {
+          "Bronchiolitis": 16
+        },
+        "E_195": {
+          "Bronchiolitis": 12
+        },
+        "E_23": {
+          "Bronchiolitis": 12
+        }
+      }
+    }
+  },
+  "exclusive_features": 120,
+  "source_code_sha256": "425cf7af4ed77275860692c1bdd84042af01e5fc18361b32b3bef23f8685b91e",
+  "interpretation": "Native labels and values retained. Labels used only to construct balanced groups and evaluate; the selected cohort is conditional and not representative of prevalence. Models frozen from stage 22, except a separately reported retraining after removal of degree-one metadata features."
+}

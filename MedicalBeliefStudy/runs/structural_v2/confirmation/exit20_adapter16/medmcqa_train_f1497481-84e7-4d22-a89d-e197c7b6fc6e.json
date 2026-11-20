@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_f1497481-84e7-4d22-a89d-e197c7b6fc6e",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Bryonic orphans\"} (Note: This is an error correction and/or an error in the original list of options. actual correct answer is \"Essonic orphans orphans\"} (Note: This is an error in the original list of \"Is an valid and/or correct answer? Yes. However, in actual",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "afac4a617eb0e0c9df0baefffafc7c61b85063873555035b1b92dedba7936fd9"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Bryonic hydrophilous philabosturic subdivservicular subdivsuliformes\"}",
+      "generated_disease": "Bryonic hydrophilous philabosturic subdivservicular subdivsuliformes",
+      "stop": "eos",
+      "tokens": 25,
+      "prompt_sha256": "832dd95b840ad83205e2e9e7e1021fbd1770e79b237a7055acaf2874fd1d5013"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_74e6c4f2-ccb8-44bc-a548-e7668d09d489",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Infantile seborrheic dermatitis\"}",
+      "generated_disease": "Infantile seborrheic dermatitis",
+      "stop": "eos",
+      "tokens": 11,
+      "prompt_sha256": "6c312237ef5bd8f4550a13c09f5018fb8f6bdc42f5bab8ddf7293b3225438339"
+    }
+  ]
+}

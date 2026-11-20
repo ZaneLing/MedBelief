@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_b980ef1f-f337-435c-8922-82b0b58535a4",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Celiac disease\"}",
+      "generated_disease": "Celiac disease",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "3dfd0adf5371d38d4086005cedc140990dde1e3c3d081fadf6993bdebcdd08a8"
+    }
+  ]
+}

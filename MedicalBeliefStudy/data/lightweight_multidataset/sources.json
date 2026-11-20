@@ -1,0 +1,78 @@
+{
+  "repository": "lemuria-wchen/DxFormer",
+  "commit": "0e56c10518fe62aed38c96c2e67b9564d8269e70",
+  "files": [
+    {
+      "path": "MedicalBeliefStudy/data/lightweight_multidataset/dxformer/data/dxy/train_set.json",
+      "url": "https://raw.githubusercontent.com/lemuria-wchen/DxFormer/0e56c10518fe62aed38c96c2e67b9564d8269e70/data/dxy/train_set.json",
+      "sha256": "e68fc9d41b5c57d8531e124c5bf32aa6172c740f3658433a8ebee7c1034c9356",
+      "bytes": 90563
+    },
+    {
+      "path": "MedicalBeliefStudy/data/lightweight_multidataset/dxformer/data/dxy/test_set.json",
+      "url": "https://raw.githubusercontent.com/lemuria-wchen/DxFormer/0e56c10518fe62aed38c96c2e67b9564d8269e70/data/dxy/test_set.json",
+      "sha256": "fd0601aa05448fb3787ab124500ab69dee94a92fd77e45a5ff2ad60bd715b3e9",
+      "bytes": 22221
+    },
+    {
+      "path": "MedicalBeliefStudy/data/lightweight_multidataset/dxformer/data/mz4/train_set.json",
+      "url": "https://raw.githubusercontent.com/lemuria-wchen/DxFormer/0e56c10518fe62aed38c96c2e67b9564d8269e70/data/mz4/train_set.json",
+      "sha256": "a4e1e8ba879e870e9ab887c45221099225c37b1f3eb6a531b6e32c8458c85218",
+      "bytes": 391577
+    },
+    {
+      "path": "MedicalBeliefStudy/data/lightweight_multidataset/dxformer/data/mz4/test_set.json",
+      "url": "https://raw.githubusercontent.com/lemuria-wchen/DxFormer/0e56c10518fe62aed38c96c2e67b9564d8269e70/data/mz4/test_set.json",
+      "sha256": "42a17863cd498105ef2ffc1450bb714758e0e9afb85fa2b629c2699196c61a0c",
+      "bytes": 95934
+    },
+    {
+      "path": "MedicalBeliefStudy/data/lightweight_multidataset/dxformer/data/mz10/train_set.json",
+      "url": "https://raw.githubusercontent.com/lemuria-wchen/DxFormer/0e56c10518fe62aed38c96c2e67b9564d8269e70/data/mz10/train_set.json",
+      "sha256": "ddc43001cedb11e3b7fcf2becb2f22ac9ebc4704807e0256e69893226c983403",
+      "bytes": 978744
+    },
+    {
+      "path": "MedicalBeliefStudy/data/lightweight_multidataset/dxformer/data/mz10/test_set.json",
+      "url": "https://raw.githubusercontent.com/lemuria-wchen/DxFormer/0e56c10518fe62aed38c96c2e67b9564d8269e70/data/mz10/test_set.json",
+      "sha256": "58f1bb9010920fabbb30998645b77955e09eabd8e5cbabe34dcb4af1aa6f1bc4",
+      "bytes": 239970
+    },
+    {
+      "path": "MedicalBeliefStudy/data/lightweight_multidataset/dxformer/README.md",
+      "url": "https://raw.githubusercontent.com/lemuria-wchen/DxFormer/0e56c10518fe62aed38c96c2e67b9564d8269e70/README.md",
+      "sha256": "6156ed238261c5b7320280c76a67ab30503a4ccef1ae0367c9325fdbcc7aadc1",
+      "bytes": 1873
+    },
+    {
+      "path": "MedicalBeliefStudy/data/lightweight_multidataset/dxformer/preprocess.py",
+      "url": "https://raw.githubusercontent.com/lemuria-wchen/DxFormer/0e56c10518fe62aed38c96c2e67b9564d8269e70/preprocess.py",
+      "sha256": "bf97171cdaa7267350d937816094625bd676c8ef7f77362d4c1dacc0f5fde874",
+      "bytes": 1715
+    },
+    {
+      "path": "MedicalBeliefStudy/data/lightweight_multidataset/dxformer/bound.py",
+      "url": "https://raw.githubusercontent.com/lemuria-wchen/DxFormer/0e56c10518fe62aed38c96c2e67b9564d8269e70/bound.py",
+      "sha256": "a343d066729c108669c85f3e542955444c06d7969df34a6703937b42f6db934e",
+      "bytes": 1811
+    },
+    {
+      "path": "MedicalBeliefStudy/data/lightweight_multidataset/dxformer/bound_utils.py",
+      "url": "https://raw.githubusercontent.com/lemuria-wchen/DxFormer/0e56c10518fe62aed38c96c2e67b9564d8269e70/bound_utils.py",
+      "sha256": "90646f6c05415c711ecf6b93fb7f5a975aee16f6e2ae0f6cd74af0927d19df4b",
+      "bytes": 7688
+    },
+    {
+      "path": "MedicalBeliefStudy/data/lightweight_multidataset/dxformer/utils.py",
+      "url": "https://raw.githubusercontent.com/lemuria-wchen/DxFormer/0e56c10518fe62aed38c96c2e67b9564d8269e70/utils.py",
+      "sha256": "d73f82b83e37b36400d8ed4a292011cadb3dce4c5e7c2a110a7e6747fec74752",
+      "bytes": 3532
+    },
+    {
+      "path": "MedicalBeliefStudy/data/lightweight_multidataset/dxformer/data_utils.py",
+      "url": "https://raw.githubusercontent.com/lemuria-wchen/DxFormer/0e56c10518fe62aed38c96c2e67b9564d8269e70/data_utils.py",
+      "sha256": "2fe80ef5de4f4c0587198d60fda0a3afb3fea6ee6d115f238748af3dac12360b",
+      "bytes": 31628
+    }
+  ]
+}

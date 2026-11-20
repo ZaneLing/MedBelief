@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_09394",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniform disease\"}",
+      "generated_disease": "Chronic veniform disease",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "d067489a49a351515e85ffce52d1134c9d2b51ac8b6933c1599cc5079dbd93f6"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Hempherson's syndrome\"}",
+      "generated_disease": "Hempherson's syndrome",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "64bb51ca940b19927feaacfca338c34511a64246f9b1eafd056276384237cb65"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_02620",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Ovarian thecoma\"}",
+      "generated_disease": "Ovarian thecoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "df103936d2ab2fe07beee986529ab8892ee73a4ece5781ef66c53d994ae06492"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Ovarian thecoma\"}",
+      "generated_disease": "Ovarian thecoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "287c43518bc3f94adfce908ed988a1419244d9e684b9301b8c5e2294320eb6bb"
+    }
+  ]
+}

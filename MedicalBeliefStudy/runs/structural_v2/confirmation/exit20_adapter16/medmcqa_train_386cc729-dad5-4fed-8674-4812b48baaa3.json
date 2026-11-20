@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_386cc729-dad5-4fed-8674-4812b48baaa3",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronicity\"}",
+      "generated_disease": "Chronicity",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "33bde8a9ffecf75f833694a4af34b5b051010ac015857a8ed189ea3406533e44"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chaueniaosautzellensparagocotranarphilis\"} (Note: This is an error correction and/or an error in the original system's response. actual correct answer is \"tepaloidycogroupedphilaxuricenteringsemerventurianhydrophilousentech",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "efd27828e964fdd0a01c2295072211f97f79ca57caf9fb6492beb88f848ca1d1"
+    }
+  ]
+}

@@ -1,0 +1,602 @@
+{
+  "training_cases": 120,
+  "test_cases": 120,
+  "classes": [
+    "Acute dystonic reactions",
+    "Acute otitis media",
+    "Acute pulmonary edema",
+    "Anemia",
+    "Atrial fibrillation",
+    "Boerhaave",
+    "Bronchitis",
+    "Bronchospasm / acute asthma exacerbation",
+    "Cluster headache",
+    "GERD",
+    "Guillain-Barré syndrome",
+    "HIV (initial infection)",
+    "Inguinal hernia",
+    "Myasthenia gravis",
+    "Pancreatic neoplasm",
+    "Pericarditis",
+    "Pneumonia",
+    "Possible NSTEMI / STEMI",
+    "Pulmonary embolism",
+    "SLE",
+    "Spontaneous pneumothorax",
+    "Stable angina",
+    "URTI",
+    "Viral pharyngitis"
+  ],
+  "source": "DDxPlus official test split; same synthetic generator as training source",
+  "endpoints": {
+    "append": {
+      "native49": {
+        "mean": 0.36666666666666664,
+        "low": 0.2833333333333333,
+        "high": 0.4583333333333333,
+        "cases": 120
+      },
+      "native24": {
+        "mean": 0.4666666666666667,
+        "low": 0.375,
+        "high": 0.55,
+        "cases": 120
+      },
+      "layer_accuracy": [
+        0.175,
+        0.30833333333333335,
+        0.35,
+        0.375,
+        0.4083333333333333,
+        0.48333333333333334,
+        0.5666666666666667,
+        0.55,
+        0.625,
+        0.6416666666666667,
+        0.5833333333333334,
+        0.575,
+        0.6166666666666667,
+        0.6416666666666667,
+        0.75,
+        0.7666666666666667,
+        0.8583333333333333,
+        0.8083333333333333,
+        0.825,
+        0.8083333333333333,
+        0.825,
+        0.7833333333333333,
+        0.7916666666666666,
+        0.7666666666666667,
+        0.7583333333333333,
+        0.75,
+        0.75,
+        0.8333333333333334
+      ],
+      "layers": {
+        "7": {
+          "mean": 0.5666666666666667,
+          "low": 0.48333333333333334,
+          "high": 0.6583333333333333,
+          "cases": 120
+        },
+        "14": {
+          "mean": 0.6416666666666667,
+          "low": 0.55,
+          "high": 0.725,
+          "cases": 120
+        },
+        "21": {
+          "mean": 0.825,
+          "low": 0.75,
+          "high": 0.8916666666666667,
+          "cases": 120
+        },
+        "28": {
+          "mean": 0.8333333333333334,
+          "low": 0.7666666666666667,
+          "high": 0.9,
+          "cases": 120
+        }
+      },
+      "alpha_sensitivity_layer28": {
+        "0.01": 0.8666666666666667,
+        "0.1": 0.8333333333333334,
+        "1.0": 0.7166666666666667
+      },
+      "probe28_minus_native24": {
+        "mean": 0.36666666666666664,
+        "low": 0.275,
+        "high": 0.4666666666666667,
+        "cases": 120
+      },
+      "reference_js": {
+        "mean": 0.5123768928344743,
+        "low": 0.47946823132260286,
+        "high": 0.5425363466403316,
+        "cases": 120
+      },
+      "greedy_correct": {
+        "mean": 0.31666666666666665,
+        "low": 0.24145833333333336,
+        "high": 0.4,
+        "cases": 120
+      },
+      "mean_input_tokens": 870.6833333333333,
+      "canonical_mass_median": 0.9927906879424134,
+      "canonical_mass_below_point1": 14,
+      "generated_in_candidates": 90,
+      "sequence_vs_tokenmean_agreement": 0.9,
+      "reference_top_accuracy": {
+        "mean": 0.30833333333333335,
+        "low": 0.225,
+        "high": 0.39166666666666666,
+        "cases": 120
+      }
+    },
+    "panel": {
+      "native49": {
+        "mean": 0.08333333333333333,
+        "low": 0.041666666666666664,
+        "high": 0.13333333333333333,
+        "cases": 120
+      },
+      "native24": {
+        "mean": 0.11666666666666667,
+        "low": 0.06666666666666667,
+        "high": 0.175,
+        "cases": 120
+      },
+      "layer_accuracy": [
+        0.5166666666666667,
+        0.43333333333333335,
+        0.5,
+        0.48333333333333334,
+        0.5083333333333333,
+        0.4666666666666667,
+        0.5416666666666666,
+        0.5,
+        0.575,
+        0.55,
+        0.5333333333333333,
+        0.7083333333333334,
+        0.8666666666666667,
+        0.9333333333333333,
+        0.8,
+        0.8166666666666667,
+        0.875,
+        0.9416666666666667,
+        0.925,
+        0.9166666666666666,
+        0.9166666666666666,
+        0.9166666666666666,
+        0.925,
+        0.925,
+        0.925,
+        0.9166666666666666,
+        0.9,
+        0.9333333333333333
+      ],
+      "layers": {
+        "7": {
+          "mean": 0.5416666666666666,
+          "low": 0.45,
+          "high": 0.6333333333333333,
+          "cases": 120
+        },
+        "14": {
+          "mean": 0.9333333333333333,
+          "low": 0.8833333333333333,
+          "high": 0.975,
+          "cases": 120
+        },
+        "21": {
+          "mean": 0.9166666666666666,
+          "low": 0.8666666666666667,
+          "high": 0.9666666666666667,
+          "cases": 120
+        },
+        "28": {
+          "mean": 0.9333333333333333,
+          "low": 0.8833333333333333,
+          "high": 0.975,
+          "cases": 120
+        }
+      },
+      "alpha_sensitivity_layer28": {
+        "0.01": 0.9416666666666667,
+        "0.1": 0.9333333333333333,
+        "1.0": 0.8666666666666667
+      },
+      "probe28_minus_native24": {
+        "mean": 0.8166666666666667,
+        "low": 0.7416666666666667,
+        "high": 0.8833333333333333,
+        "cases": 120
+      },
+      "reference_js": {
+        "mean": 0.6319051803928695,
+        "low": 0.6136664003979445,
+        "high": 0.6481013109141762,
+        "cases": 120
+      },
+      "greedy_correct": {
+        "mean": 0.08333333333333333,
+        "low": 0.041666666666666664,
+        "high": 0.13333333333333333,
+        "cases": 120
+      },
+      "mean_input_tokens": 4255.75,
+      "canonical_mass_median": 0.9887492526099144,
+      "canonical_mass_below_point1": 1,
+      "generated_in_candidates": 117,
+      "sequence_vs_tokenmean_agreement": 0.95,
+      "reference_top_accuracy": {
+        "mean": 0.075,
+        "low": 0.03333333333333333,
+        "high": 0.125,
+        "cases": 120
+      }
+    }
+  },
+  "text_baselines": {
+    "full": {
+      "mean": 1.0,
+      "low": 0.9697270274225799,
+      "high": 1.0,
+      "cases": 120,
+      "method": "exact_binomial_boundary"
+    },
+    "questions": {
+      "mean": 0.9916666666666667,
+      "low": 0.975,
+      "high": 1.0,
+      "cases": 120
+    },
+    "structured_values": {
+      "mean": 1.0,
+      "low": 0.9697270274225799,
+      "high": 1.0,
+      "cases": 120,
+      "method": "exact_binomial_boundary"
+    },
+    "presence": {
+      "mean": 1.0,
+      "low": 0.9697270274225799,
+      "high": 1.0,
+      "cases": 120,
+      "method": "exact_binomial_boundary"
+    }
+  },
+  "deep": {
+    "append": {
+      "cases": 24,
+      "updates": 184,
+      "switch_events": 77,
+      "big_events": 69,
+      "switch_rate": {
+        "mean": 0.4586008898508898,
+        "low": 0.3468386994949495,
+        "high": 0.5705651004088503,
+        "cases": 24
+      },
+      "big_rate": {
+        "mean": 0.41447059884559884,
+        "low": 0.30869299392736893,
+        "high": 0.5229221530784031,
+        "cases": 24
+      },
+      "any_switch": {
+        "mean": 0.9583333333333334,
+        "low": 0.875,
+        "high": 1.0,
+        "cases": 24
+      },
+      "any_big": {
+        "mean": 0.9583333333333334,
+        "low": 0.875,
+        "high": 1.0,
+        "cases": 24
+      },
+      "label_regression": {
+        "mean": 0.4583333333333333,
+        "low": 0.25,
+        "high": 0.6666666666666666,
+        "cases": 24
+      },
+      "native24_prefix_accuracy": {
+        "mean": 0.45465379527879524,
+        "low": 0.3260999503968254,
+        "high": 0.5840480006105006,
+        "cases": 24
+      },
+      "probe21_prefix_accuracy": {
+        "mean": 0.7435445919820921,
+        "low": 0.6261214769027269,
+        "high": 0.8559460056725681,
+        "cases": 24
+      },
+      "probe28_prefix_accuracy": {
+        "mean": 0.700751042938543,
+        "low": 0.568860160383598,
+        "high": 0.8293638074888073,
+        "cases": 24
+      },
+      "late_state_output_rho": {
+        "mean": 0.5900347048784549,
+        "low": 0.4532687364718615,
+        "high": 0.7034451486013986,
+        "cases": 24
+      }
+    },
+    "panel": {
+      "cases": 24,
+      "updates": 184,
+      "switch_events": 23,
+      "big_events": 21,
+      "switch_rate": {
+        "mean": 0.1308201058201058,
+        "low": 0.07302951388888888,
+        "high": 0.19280877976190477,
+        "cases": 24
+      },
+      "big_rate": {
+        "mean": 0.12213955026455026,
+        "low": 0.06241071428571429,
+        "high": 0.18479001322751323,
+        "cases": 24
+      },
+      "any_switch": {
+        "mean": 0.5833333333333334,
+        "low": 0.375,
+        "high": 0.7916666666666666,
+        "cases": 24
+      },
+      "any_big": {
+        "mean": 0.5416666666666666,
+        "low": 0.3333333333333333,
+        "high": 0.75,
+        "cases": 24
+      },
+      "label_regression": {
+        "mean": 0.20833333333333334,
+        "low": 0.041666666666666664,
+        "high": 0.375,
+        "cases": 24
+      },
+      "native24_prefix_accuracy": {
+        "mean": 0.19679232804232805,
+        "low": 0.07546296296296297,
+        "high": 0.33665509259259213,
+        "cases": 24
+      },
+      "probe21_prefix_accuracy": {
+        "mean": 0.6004512848262848,
+        "low": 0.4844751544751544,
+        "high": 0.710373263888889,
+        "cases": 24
+      },
+      "probe28_prefix_accuracy": {
+        "mean": 0.6509081196581196,
+        "low": 0.5325462644993895,
+        "high": 0.777734343203093,
+        "cases": 24
+      },
+      "late_state_output_rho": {
+        "mean": 0.663473549020424,
+        "low": 0.5435387117223056,
+        "high": 0.7683326309107558,
+        "cases": 24
+      }
+    }
+  },
+  "api_cost_usd": 0,
+  "stratified": [
+    {
+      "view": "append",
+      "grouping": "family",
+      "group": "cardiovascular",
+      "cases": 20,
+      "native49_accuracy": 0.15,
+      "native24_accuracy": 0.2,
+      "probe21_accuracy": 0.65,
+      "probe28_accuracy": 0.65
+    },
+    {
+      "view": "append",
+      "grouping": "family",
+      "group": "digestive",
+      "cases": 20,
+      "native49_accuracy": 0.4,
+      "native24_accuracy": 0.5,
+      "probe21_accuracy": 0.8,
+      "probe28_accuracy": 0.75
+    },
+    {
+      "view": "append",
+      "grouping": "family",
+      "group": "ent",
+      "cases": 15,
+      "native49_accuracy": 0.26666666666666666,
+      "native24_accuracy": 0.6,
+      "probe21_accuracy": 0.9333333333333333,
+      "probe28_accuracy": 0.8666666666666667
+    },
+    {
+      "view": "append",
+      "grouping": "family",
+      "group": "neurologic",
+      "cases": 20,
+      "native49_accuracy": 0.8,
+      "native24_accuracy": 0.85,
+      "probe21_accuracy": 1.0,
+      "probe28_accuracy": 1.0
+    },
+    {
+      "view": "append",
+      "grouping": "family",
+      "group": "respiratory",
+      "cases": 30,
+      "native49_accuracy": 0.3333333333333333,
+      "native24_accuracy": 0.4,
+      "probe21_accuracy": 0.7333333333333333,
+      "probe28_accuracy": 0.8333333333333334
+    },
+    {
+      "view": "append",
+      "grouping": "family",
+      "group": "systemic",
+      "cases": 15,
+      "native49_accuracy": 0.2,
+      "native24_accuracy": 0.26666666666666666,
+      "probe21_accuracy": 0.9333333333333333,
+      "probe28_accuracy": 0.9333333333333333
+    },
+    {
+      "view": "append",
+      "grouping": "label_matches_reference_top",
+      "group": "False",
+      "cases": 41,
+      "native49_accuracy": 0.21951219512195122,
+      "native24_accuracy": 0.34146341463414637,
+      "probe21_accuracy": 0.7317073170731707,
+      "probe28_accuracy": 0.8048780487804879
+    },
+    {
+      "view": "append",
+      "grouping": "label_matches_reference_top",
+      "group": "True",
+      "cases": 79,
+      "native49_accuracy": 0.4430379746835443,
+      "native24_accuracy": 0.5316455696202531,
+      "probe21_accuracy": 0.8734177215189873,
+      "probe28_accuracy": 0.8481012658227848
+    },
+    {
+      "view": "panel",
+      "grouping": "family",
+      "group": "cardiovascular",
+      "cases": 20,
+      "native49_accuracy": 0.05,
+      "native24_accuracy": 0.05,
+      "probe21_accuracy": 0.95,
+      "probe28_accuracy": 0.95
+    },
+    {
+      "view": "panel",
+      "grouping": "family",
+      "group": "digestive",
+      "cases": 20,
+      "native49_accuracy": 0.0,
+      "native24_accuracy": 0.0,
+      "probe21_accuracy": 1.0,
+      "probe28_accuracy": 1.0
+    },
+    {
+      "view": "panel",
+      "grouping": "family",
+      "group": "ent",
+      "cases": 15,
+      "native49_accuracy": 0.0,
+      "native24_accuracy": 0.0,
+      "probe21_accuracy": 1.0,
+      "probe28_accuracy": 1.0
+    },
+    {
+      "view": "panel",
+      "grouping": "family",
+      "group": "neurologic",
+      "cases": 20,
+      "native49_accuracy": 0.0,
+      "native24_accuracy": 0.0,
+      "probe21_accuracy": 0.95,
+      "probe28_accuracy": 0.95
+    },
+    {
+      "view": "panel",
+      "grouping": "family",
+      "group": "respiratory",
+      "cases": 30,
+      "native49_accuracy": 0.16666666666666666,
+      "native24_accuracy": 0.3,
+      "probe21_accuracy": 0.8666666666666667,
+      "probe28_accuracy": 0.9333333333333333
+    },
+    {
+      "view": "panel",
+      "grouping": "family",
+      "group": "systemic",
+      "cases": 15,
+      "native49_accuracy": 0.26666666666666666,
+      "native24_accuracy": 0.26666666666666666,
+      "probe21_accuracy": 0.7333333333333333,
+      "probe28_accuracy": 0.7333333333333333
+    },
+    {
+      "view": "panel",
+      "grouping": "label_matches_reference_top",
+      "group": "False",
+      "cases": 41,
+      "native49_accuracy": 0.0975609756097561,
+      "native24_accuracy": 0.0975609756097561,
+      "probe21_accuracy": 0.8536585365853658,
+      "probe28_accuracy": 0.8536585365853658
+    },
+    {
+      "view": "panel",
+      "grouping": "label_matches_reference_top",
+      "group": "True",
+      "cases": 79,
+      "native49_accuracy": 0.0759493670886076,
+      "native24_accuracy": 0.12658227848101267,
+      "probe21_accuracy": 0.9493670886075949,
+      "probe28_accuracy": 0.9746835443037974
+    }
+  ],
+  "panel_minus_append_accuracy49": {
+    "mean": -0.2833333333333333,
+    "low": -0.375,
+    "high": -0.19166666666666668,
+    "cases": 120
+  },
+  "presentation_switch": {
+    "mean": 0.875,
+    "low": 0.8166666666666667,
+    "high": 0.9333333333333333,
+    "cases": 120
+  },
+  "order": {
+    "reverse": {
+      "mean": 0.375,
+      "low": 0.20833333333333334,
+      "high": 0.5416666666666666,
+      "cases": 24
+    },
+    "shuffle": {
+      "mean": 0.25,
+      "low": 0.08333333333333333,
+      "high": 0.4166666666666667,
+      "cases": 24
+    }
+  },
+  "presence_control": {
+    "correct": {
+      "mean": 0.0,
+      "low": 0.0,
+      "high": 0.14247359772252566,
+      "cases": 24,
+      "method": "exact_binomial_boundary"
+    },
+    "switched": {
+      "mean": 0.2916666666666667,
+      "low": 0.125,
+      "high": 0.5,
+      "cases": 24
+    },
+    "js": {
+      "mean": 0.18730783383742203,
+      "low": 0.09472133107542778,
+      "high": 0.2913100727056007,
+      "cases": 24
+    }
+  }
+}

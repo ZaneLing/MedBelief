@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_557dc3d0-1c4c-4e71-a49c-d88f65be56b4",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Retinoblastoma\"}",
+      "generated_disease": "Retinoblastoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "c80f211889d62aec3508607c15bf58833d27c31687b95b8bb77a025fa1221964"
+    }
+  ]
+}

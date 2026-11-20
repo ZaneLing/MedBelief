@@ -1,0 +1,336 @@
+{
+  "case_id": "medqa_train_01997",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.14501197636127472,
+        -2.9575119018554688,
+        -10.504386901855469,
+        -2.4887619018554688
+      ],
+      "q_sequence": [
+        0.8650119001853166,
+        0.05194800626154639,
+        2.741591317894454e-05,
+        0.08301267763995814
+      ],
+      "q_token_mean": [
+        0.37343346894416424,
+        0.2906156601587932,
+        0.08479526100172288,
+        0.25115560989531965
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Umbilical hernia\"}",
+      "generated_disease": "Umbilical hernia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "a5a8c6d0c64ba7adb2e8a0593d978cdcb8eb4ad1bf23e0931b06065c3a035339"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -7.501303195953369,
+        -7.657553195953369,
+        -0.0013033893192186952,
+        -8.188802719116211
+      ],
+      "q_sequence": [
+        0.000552364044595014,
+        0.0004724620045169739,
+        0.9986974277342904,
+        0.0002777462165978071
+      ],
+      "q_token_mean": [
+        0.18251209762788087,
+        0.23237168008626377,
+        0.46605010985282164,
+        0.11906611243303376
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Gastroschisis\"}",
+      "generated_disease": "Gastroschisis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "7fada9af26d07dcd21049d08254eb80c4c7129545745c378bf9bc83070e7dcd0"
+    },
+    {
+      "condition": "neutral",
+      "round": 3,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -14.23439884185791,
+        -10.68752384185791,
+        -2.360371763643343e-05,
+        -15.62502384185791
+      ],
+      "q_sequence": [
+        6.577776452357016e-07,
+        2.2827973003290674e-05,
+        0.9999763505155498,
+        1.6373380175496536e-07
+      ],
+      "q_token_mean": [
+        0.10409362007970942,
+        0.2334568972811626,
+        0.6168261209895624,
+        0.0456233616495657
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Gastroschisis\"}",
+      "generated_disease": "Gastroschisis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "d4685c2043c6626272983d5e1afc356ee4527ae99e59339997774bc033dca2a3"
+    },
+    {
+      "condition": "neutral",
+      "round": 4,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -11.250418663024902,
+        -7.812919616699219,
+        -0.00041952586616389453,
+        -13.109794616699219
+      ],
+      "q_sequence": [
+        1.300185227830719e-05,
+        0.00040447538291374987,
+        0.99958049746878,
+        2.0252960280876077e-06
+      ],
+      "q_token_mean": [
+        0.13253107399957711,
+        0.26582921450885866,
+        0.5408054159038024,
+        0.060834295587761905
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Gastroschisis\"}",
+      "generated_disease": "Gastroschisis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "2f372e8995127135282988aa9fce0e98ad4e4b9b8a953b8d8ad9a98ca4c36ab5"
+    },
+    {
+      "condition": "neutral",
+      "round": 5,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -24.078126907348633,
+        -14.71875,
+        -3.576279254957626e-07,
+        -20.4375
+      ],
+      "q_sequence": [
+        3.491421872588895e-11,
+        4.052547120061434e-07,
+        0.999999593379593,
+        1.3307807338706045e-09
+      ],
+      "q_token_mean": [
+        0.03666156262429743,
+        0.19508328069534844,
+        0.7435936219924238,
+        0.02466153468793038
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Gastroschisis\"}",
+      "generated_disease": "Gastroschisis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ca4faae94ebab3d25dc335db820ec50d4fcbb82a0de911a680b7ced7a6279f9f"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -4.670007705688477,
+        -0.0137575538828969,
+        -15.26375675201416,
+        -5.451257705688477
+      ],
+      "q_sequence": [
+        0.00937219744191694,
+        0.9863366629140197,
+        2.3498204319181114e-07,
+        0.0042909046620201565
+      ],
+      "q_token_mean": [
+        0.26912584631265424,
+        0.48187241356159183,
+        0.0545105022377047,
+        0.1944912378880492
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Vesicourachal diverticulum\"}",
+      "generated_disease": "Vesicourachal diverticulum",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "1b70f502b1588d62e5ad113f38ca6257d4eae5a7b82d60df196550eef1547095"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -4.010045528411865,
+        -0.10379528999328613,
+        -5.041295528411865,
+        -2.603795289993286
+      ],
+      "q_sequence": [
+        0.01813257029948871,
+        0.901409837390777,
+        0.006465367047943653,
+        0.07399222526179078
+      ],
+      "q_token_mean": [
+        0.2218144187295072,
+        0.36273075460404824,
+        0.17820092327945736,
+        0.23725390338698718
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Vesicourachal diverticulum\"}",
+      "generated_disease": "Vesicourachal diverticulum",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "8017e9529c30c385fa11a8619f114d980f168eefcdfb0b9e719f90d0e2f4b32e"
+    },
+    {
+      "condition": "wrong",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -11.46664810180664,
+        -0.09164777398109436,
+        -2.4353978633880615,
+        -15.35727310180664
+      ],
+      "q_sequence": [
+        1.0473648051311745e-05,
+        0.9124264158203558,
+        0.08756289652802828,
+        2.1400356465445058e-07
+      ],
+      "q_token_mean": [
+        0.11844428630074895,
+        0.49247420771853573,
+        0.3506749494512026,
+        0.03840655652951275
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Vesicourachal diverticulum\"}",
+      "generated_disease": "Vesicourachal diverticulum",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "a8ecfca33346d88b028d3aa021b75e89557192ba9f8b790207847a687981b45f"
+    },
+    {
+      "condition": "wrong",
+      "round": 4,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -10.459981918334961,
+        -0.11623210459947586,
+        -2.20998215675354,
+        -15.491231918334961
+      ],
+      "q_sequence": [
+        2.866075088663063e-05,
+        0.8902685480756233,
+        0.109702604000382,
+        1.8717310818220756e-07
+      ],
+      "q_token_mean": [
+        0.13099799311050836,
+        0.47919767173757294,
+        0.3531765262955935,
+        0.036627808856325314
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Vesicourachal diverticulum\"}",
+      "generated_disease": "Vesicourachal diverticulum",
+      "stop": "eos",
+      "tokens": 10,
+      "prompt_sha256": "7d4b9214672ef20737af8c640ff0cc59a8e34b20b2630d53492f89d22209a2e4"
+    },
+    {
+      "condition": "wrong",
+      "round": 5,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -24.09375,
+        -16.1875,
+        -1.1920930376163597e-07,
+        -19.65625
+      ],
+      "q_sequence": [
+        3.437299197135898e-11,
+        9.329493880507677e-08,
+        0.9999999037639956,
+        2.906692567120597e-09
+      ],
+      "q_token_mean": [
+        0.03737589695037489,
+        0.17436553490787696,
+        0.7595641356696297,
+        0.0286944324721184
+      ],
+      "support_definition": "Candidate-trie normalized sequence probabilities",
+      "text": "Gastroschisis\"}",
+      "generated_disease": "Gastroschisis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "825aba177a87fc550abc1a2bdd515c30da940235f0274e9fa7f4f18b84ed4d56"
+    }
+  ],
+  "state_sha256": "6aba4becfe45ce68611bc45f53e6ddc949f9f58f8f35aafa23219ece65ac11a0"
+}

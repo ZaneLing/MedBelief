@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_03557",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Nodular melanoma\"}",
+      "generated_disease": "Nodular melanoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "f1f5890a8de7d579a35419ac6a51b11f4ae621e1d825aead46bacdbf6477dd1e"
+    }
+  ]
+}

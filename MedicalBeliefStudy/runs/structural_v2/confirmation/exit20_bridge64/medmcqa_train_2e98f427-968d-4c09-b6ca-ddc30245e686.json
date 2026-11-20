@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_2e98f427-968d-4c09-b6ca-ddc30245e686",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pustus\"}",
+      "generated_disease": "Pustus",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "d23fc508a7a5fc54f97e78c8364f773d5330c8af6bea06a11607d7782eaeb8bb"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystoid\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "c8fdbd78e6af983eff2fabf6388ec60398bc13a5aa99c023e810c74b54bf2893"
+    }
+  ]
+}

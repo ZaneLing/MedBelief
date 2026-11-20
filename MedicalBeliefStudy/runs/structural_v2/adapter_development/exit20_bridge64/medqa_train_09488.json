@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_09488",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pustomococosis\"}",
+      "generated_disease": "Pustomococosis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "bfb43d741a3d4833e6c0c80dc2549b881cb35d3b11cd1d558f2ae17b49cc4d11"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystocococosis\"}",
+      "generated_disease": "Cystocococosis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "c849f8322f2a23ba08f02bc567f7181333449bcec39d4466494b48ef864a564e"
+    }
+  ]
+}

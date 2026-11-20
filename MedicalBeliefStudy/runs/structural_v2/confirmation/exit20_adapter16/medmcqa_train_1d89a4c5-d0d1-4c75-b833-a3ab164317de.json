@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_1d89a4c5-d0d1-4c75-b833-a3ab164317de",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic longening of the pathycodesignualentosentotemphenservententigroupingserventetemphinalenyservinalenemphinalenemphinalenemplentigroupingservinalenemphinalenemplabemegroupingserv",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "8b5643d14e2b58b9771714dc5c24a550e6744e64291e5309f42dbb196122b3b0"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Schorst's disease or hypercephical disease or non-linear pathycodesignualentosaurus etroctalgia\"} (Note: This is an error correction and/or an error in the original systematics. actual real-world actual real-world actual philentosycdigroupentoidentationenentual",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "b662b59db731ddb6f72976faf54b72b9211b91289d89445edd3be316f4c06348"
+    }
+  ]
+}

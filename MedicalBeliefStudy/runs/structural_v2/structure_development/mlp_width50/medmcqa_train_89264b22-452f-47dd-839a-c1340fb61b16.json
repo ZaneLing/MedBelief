@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_89264b22-452f-47dd-839a-c1340fb61b16",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "mlp_width50",
+    "mlp_keep": 0.5
+  },
+  "parameter_stats": {
+    "parameters": 1192092672,
+    "weight_bytes": 2384185344,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Tuberculosis\"}\n</think>\n\n{\"diagnosis\":\"Tuberculosis\"}\n",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 14,
+      "prompt_sha256": "c823e0d521fcef1340969f972e663aa34e97bec7f1e23f72fecc5dfcf24c1c19"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Bronchopneumonia\"}\n</think>\n\n{\"diagnosis\":\"Bronchopneumonia\"}\n",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 20,
+      "prompt_sha256": "f435f2b66a08e227ceee539d67a594117180b43ed97ee4d4def4baca9da05a74"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_04853",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Charcusian-type chagenia orients in favor of an unochsymic chagenoid or an unperventicular philacostic or a nontrilaxophilous baxoothabid or an unpervicularic philaxid or",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "4fb9312772a3b4491374756b5846ac6600acbc631dd24f3359afe7ee1c30cf47"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chilaxoosaricentericidalpathycosignatoryphilaxenemphiliasenarcicotovemphiricovemphinaltracovemphinaltracovemphinaltruminalarcinalarcinalarcinalarcinalarcinalarcinalarcinal",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "b0e1210d354d599809d0c0923a1acec08139656dcc32618bdead277d45ec249f"
+    }
+  ]
+}

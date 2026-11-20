@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_01470",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Akathisia\"}",
+      "generated_disease": "Akathisia",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "2f94f0822db43aa83ce3e439665117cfc6f56f918c126fb7c1188f8e50a9142a"
+    }
+  ]
+}

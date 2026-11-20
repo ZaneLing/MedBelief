@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_03557",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Hemilaxiform orientsurinovosenturisphilentoidusphilarcovemphilenservetenservemphilenservemphilensigroupingservemphilsemplabarovemphilsememphilensigroupingschil",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "fc1542c3657162a231ae71c4487b121e3e9ac18b8f56138f2ddb032bdfbc37f6"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Hemilaxiform orientsurentaloid complex orphansomephilaxoornigotaxoyserventetrephocostarataenetepoemphiliasenataenolaxidemphilenservicovemphilenservetemphilens",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "f056ea6b13e637db74eb381154652fd278c7aa3a0728581d4561877ef6b6e065"
+    }
+  ]
+}

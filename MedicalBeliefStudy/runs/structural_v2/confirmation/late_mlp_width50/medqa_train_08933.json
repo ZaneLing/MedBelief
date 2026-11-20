@@ -1,0 +1,49 @@
+{
+  "case_id": "medqa_train_08933",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "late_mlp_width50",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Scaphoid fracture\"}",
+      "generated_disease": "Scaphoid fracture",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "2df40c1609418bf373e5fb05946e010c834eaf5f3254aa9489b5ecca8c43badf"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "De Quervain's tenosynovitis\"}",
+      "generated_disease": "De Quervain's tenosynovitis",
+      "stop": "eos",
+      "tokens": 11,
+      "prompt_sha256": "eb6bca501e3de57b024f7939e3c94a457f67988b839c9dfeca430d55517ccc54"
+    }
+  ]
+}

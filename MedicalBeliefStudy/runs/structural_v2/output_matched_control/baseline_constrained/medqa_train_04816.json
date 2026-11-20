@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_04816",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Progressive multifocal leukoencephalopathy\"}",
+      "generated_disease": "Progressive multifocal leukoencephalopathy",
+      "stop": "eos",
+      "tokens": 11,
+      "prompt_sha256": "aea9f6e3489e7f1555ae77142a85f1e4491ba06d05bc041ca6b73ad5ef39913e"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "AIDS dementia\"}",
+      "generated_disease": "AIDS dementia",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "9b222d8c88a1b7ba63a2545a01cbc52a6f3ed8688a9295113c8983e2045934cc"
+    }
+  ]
+}

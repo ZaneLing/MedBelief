@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_03285",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Benign familial neonatal epilepsy with febrile convulsions\",\"severity\":\"mild\",\"probability_of_evolutionary_outcome\":\"favorable\",\"clinical_course\":\"early-onset, progressive\",\"etiology\":\"idiopathic\",\"epileptic_foci_present\":\"yes\",\"epileptic_tendencies\":[\"none\",\"none\"],\"",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "0306b6fb15249a282676c5581f8e6ccd5fce33717c16ba2bc2228ec880e7e7b4"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Juvenile myoclonic epilepsy\",\"probability_of_diagnosis\":0.92}",
+      "generated_disease": "Juvenile myoclonic epilepsy",
+      "stop": "eos",
+      "tokens": 18,
+      "prompt_sha256": "183f457743be8b9fa5ac6d8a47c36e90dd63020ad5936fe8e8f7d8eba245412a"
+    }
+  ]
+}

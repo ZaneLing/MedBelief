@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_734346a9-37b8-4e9d-b3b7-2dc4ba9b7c9d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Organophosphorus poisoning\"}",
+      "generated_disease": "Organophosphorus poisoning",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "cbe861daf23d2a5a194f6299bfb5bcab6960660f85f17e90c9f339a282385f07"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Organophosphorus poisoning\"}",
+      "generated_disease": "Organophosphorus poisoning",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "843dfc28420c9025577b349c2f4e17aba828c93513666233bc7430c4ee4137be"
+    }
+  ]
+}

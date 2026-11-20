@@ -1,0 +1,37 @@
+{
+  "case_id": "medmcqa_train_cff87108-acda-4a48-94dd-d1c9ddf0d7cb",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Insulinoma\"}",
+      "generated_disease": "Insulinoma",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "94ae76797a41e923ae7fb1a05f2c1665db31a1b818cad5f3ab3327a960f783e4"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Insulinoma\"}",
+      "generated_disease": "Insulinoma",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "a89919b001de85f9f056b5b2c9746f4a8d39d804af4053140aee7d1cb1590e0d"
+    }
+  ]
+}

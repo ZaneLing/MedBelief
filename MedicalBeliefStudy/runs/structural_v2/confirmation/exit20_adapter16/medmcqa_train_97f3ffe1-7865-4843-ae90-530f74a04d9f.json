@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_97f3ffe1-7865-4843-ae90-530f74a04d9f",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Congan's disease (Hyper stress disorder of course not yet fully anecident but still an important inductive androgenic stressful pathycogroupings\"} Note: This is an example of an non-standard and non-standardized anolentary system. actual real-world pathycoderystic system would",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "ffa506ddaa367a2acc33707cb653c2ed2fb43cb850bc5c9b97429b996d22869b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Congan's syndrome\"}",
+      "generated_disease": "Congan's syndrome",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "a32a79c57cc809f1f4002857909bc719d9ca3ba68b4c5e0e901685dd603ee066"
+    }
+  ]
+}

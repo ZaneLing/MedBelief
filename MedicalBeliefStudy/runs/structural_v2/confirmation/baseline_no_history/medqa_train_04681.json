@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_04681",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Anxiety\"}",
+      "generated_disease": "Anxiety",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "103ce640d0d66219f658b7c58192a356cad27a906bac4362924a443c6adb6ced"
+    }
+  ]
+}

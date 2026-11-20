@@ -1,0 +1,52 @@
+{
+  "case_id": "medmcqa_train_fff7b566-212c-48d5-9e20-9e5b4cf634bb",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Anxiety disorder\"}",
+      "generated_disease": "Anxiety disorder",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "107b689fa1a9139e50a1f95aa5d588903932648bd6b44e352a176e4c3d490f74"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Panic attack\"}",
+      "generated_disease": "Panic attack",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "1bdfbe3ec34fee06d3bcf33ef6567142545d3f11f204c087fb458e9aaec51ab4"
+    }
+  ]
+}

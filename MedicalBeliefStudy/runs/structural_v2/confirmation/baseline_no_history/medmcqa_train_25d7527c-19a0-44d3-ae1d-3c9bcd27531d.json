@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_25d7527c-19a0-44d3-ae1d-3c9bcd27531d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Hashimoto's thyroiditis\"}",
+      "generated_disease": "Hashimoto's thyroiditis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "054566898dac7f99b988ec78ba3c87c58885c1b3fdf81b56fec07ab95c3b5e8c"
+    }
+  ]
+}

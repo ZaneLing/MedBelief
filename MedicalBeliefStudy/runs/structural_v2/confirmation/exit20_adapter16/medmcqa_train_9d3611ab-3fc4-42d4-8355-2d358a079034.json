@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_9d3611ab-3fc4-42d4-8355-2d358a079034",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Eplystechsystnystgualenysolvententualserventetemphsysolvemphesparicotaracovemphesphilacintemphsellservtualservenemphsellservdenturezmeckupem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "14f1a03a6fee8fa8361471373166a84c4f6b5f05637561c1b31f91d7b436b6e2"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Oemphilaxia\"}",
+      "generated_disease": "Oemphilaxia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "ec14b380842a49fc8ca3c2a7492cbf83afd44dd8fb1c669e995549d2e19f3408"
+    }
+  ]
+}

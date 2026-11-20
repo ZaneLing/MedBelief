@@ -1,0 +1,57 @@
+{
+  "new_model_calls": 0,
+  "api_cost_usd": 0,
+  "exploratory": true,
+  "patients": 24,
+  "candidate_matched_24_joint": {
+    "middle": {
+      "both_changed": 15,
+      "native_only_changed": 5,
+      "probe_only_changed": 1,
+      "neither_changed": 3
+    },
+    "final": {
+      "both_changed": 12,
+      "neither_changed": 5,
+      "native_only_changed": 6,
+      "probe_only_changed": 1
+    }
+  },
+  "history_by_block_interaction": {
+    "mean": 0.26692617120503864,
+    "low": -5.243773085276375,
+    "high": 6.198208215605317,
+    "cases": 24
+  },
+  "wrong_correct_block_sign_flip": 7,
+  "wrong_correct_block_sign_eligible": 24,
+  "block_sign_sensitivity": [
+    {
+      "threshold": 0.001,
+      "patients": 24,
+      "opposite": 7
+    },
+    {
+      "threshold": 0.01,
+      "patients": 24,
+      "opposite": 7
+    },
+    {
+      "threshold": 0.1,
+      "patients": 23,
+      "opposite": 7
+    },
+    {
+      "threshold": 1.0,
+      "patients": 17,
+      "opposite": 6
+    }
+  ],
+  "first_token_share": {
+    "mean": 0.9270946486761259,
+    "low": 0.8906868847925233,
+    "high": 0.9595817647304196,
+    "cases": 24
+  },
+  "interpretation": "Two history conditions at middle and final endpoints; measures effects of the remaining evidence block, not individual evidence meaning or persistent state after history removal."
+}

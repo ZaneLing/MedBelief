@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_26897e64-3548-4161-a701-5a1727d589e1",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic venigular disease\"}",
+      "generated_disease": "Chronic venigular disease",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "f1af2b1a6b8e3c48afe2fe5c3e8514b25f3af20eb8f04275dcc43a4bed769967"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformy subiective disorder\"} (Note: This is an error correction and/or an example of an non-existent or non-existent philentosentiaental philogroupentoidentation of an actual real-world scenario. actual real-life scenario would be either 'Normalcy orphans or",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "78dabc383432df55797476b7bfa0bdb6ee2973b61c5897a397683ab84a22d16e"
+    }
+  ]
+}

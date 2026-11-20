@@ -1,0 +1,196 @@
+{
+  "case_id": "medmcqa_train_ebf37a52-619f-4ff5-aaf3-943c615f5097",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -8.944007873535156,
+        -0.160614013671875,
+        -1.91064453125,
+        -10.894947052001953
+      ],
+      "q_sequence": [
+        0.00013054891045827363,
+        0.8518296199189096,
+        0.14802127488145392,
+        1.855628917845419e-05
+      ],
+      "q_token_mean": [
+        0.1185955959612971,
+        0.41433124415006345,
+        0.32391642794590964,
+        0.14315673194272985
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "pulmonary hypertension\"}",
+      "generated_disease": "pulmonary hypertension",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "7daab16c428f850a16afbcac0087bf38f152e98a851a627e75eedd669a98074a"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -3.9569244384765625,
+        -11.082145690917969,
+        -0.019397735595703125,
+        -12.878711700439453
+      ],
+      "q_sequence": [
+        0.019123192825337507,
+        1.5385660034069937e-05,
+        0.9808588695336817,
+        2.5519809468181152e-06
+      ],
+      "q_token_mean": [
+        0.28424410583794835,
+        0.07889233182035123,
+        0.49886584468295114,
+        0.13799771765874927
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "ventricular septal defect\"}",
+      "generated_disease": "ventricular septal defect",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "18d456e0f25cd572f6e08b285429beda58aa495527b0efc6804e70f046b9cf89"
+    },
+    {
+      "condition": "neutral",
+      "round": 3,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -2.288818359375e-05,
+        -14.640838623046875,
+        -13.517047882080078,
+        -21.84375762939453
+      ],
+      "q_sequence": [
+        0.99999821375971,
+        4.38100491119747e-07,
+        1.3478136725513965e-06,
+        3.261262539591776e-10
+      ],
+      "q_token_mean": [
+        0.7436603533860219,
+        0.06480922248724093,
+        0.10783268854618348,
+        0.08369773558055381
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "cardiac tamponade\"}",
+      "generated_disease": "cardiac tamponade",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "04bcebc6b3da625114f728170bad643622d59c9bce09afa3858011c7bb63d4e7"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -20.614978790283203,
+        -21.172027587890625,
+        -3.0517578125e-05,
+        -23.81252670288086
+      ],
+      "q_sequence": [
+        1.1144015812895864e-09,
+        6.384376652313052e-10,
+        0.9999999982016239,
+        4.5536988457037074e-11
+      ],
+      "q_token_mean": [
+        0.044791616007258506,
+        0.02498677499265693,
+        0.8515119972904761,
+        0.07870961170960832
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "ventricular septal defect\"}",
+      "generated_disease": "ventricular septal defect",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "95b7293c44d7fab4302d1a673c137c5a180a900870a843871aaa7bdcd91479cb"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -12.844867706298828,
+        -19.375234603881836,
+        -1.52587890625e-05,
+        -20.875011444091797
+      ],
+      "q_sequence": [
+        2.639674109237472e-06,
+        3.849887193446523e-09,
+        0.9999973556167857,
+        8.592176674683278e-10
+      ],
+      "q_token_mean": [
+        0.12062918264998128,
+        0.029919084891538363,
+        0.7557420807562176,
+        0.09370965170226278
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "ventricular septal defect\"}",
+      "generated_disease": "ventricular septal defect",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "7f0d2923963df581247f5539e47329826e8d7a60c71716dcf0772fc671bceb57"
+    },
+    {
+      "condition": "wrong",
+      "round": 3,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.08423995971679688,
+        -12.271448135375977,
+        -2.5212974548339844,
+        -18.474411010742188
+      ],
+      "q_sequence": [
+        0.919605506295784,
+        4.685590198241501e-06,
+        0.08038979863307018,
+        9.480947774829232e-09
+      ],
+      "q_token_mean": [
+        0.5008876261975049,
+        0.06557370000357456,
+        0.35362276388284414,
+        0.0799159099160764
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "cardiac tamponade\"}",
+      "generated_disease": "cardiac tamponade",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "ce327ba23076f1dd3cb45251cb1ef7d4bbfecb324740c9b0834bf416d5254b9c"
+    }
+  ],
+  "state_sha256": "90fc5c5f9305e972473709131b3fd2d8ff8e18786febb4fed91948e098141805"
+}

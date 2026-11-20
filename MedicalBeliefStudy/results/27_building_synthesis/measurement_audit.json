@@ -1,0 +1,192 @@
+{
+  "1.7b": {
+    "append": {
+      "strata": {
+        "all": {
+          "patients": 240,
+          "native24_correct": 105,
+          "probe_last_correct": 194,
+          "paired_probe_minus_native24": {
+            "mean": 0.37083333333333335,
+            "low": 0.3,
+            "high": 0.44166666666666665,
+            "cases": 240
+          }
+        },
+        "canonical_mass_ge_0.1": {
+          "patients": 202,
+          "native24_correct": 96,
+          "probe_last_correct": 162,
+          "paired_probe_minus_native24": {
+            "mean": 0.32673267326732675,
+            "low": 0.24752475247524752,
+            "high": 0.41089108910891087,
+            "cases": 202
+          }
+        },
+        "canonical_mass_ge_0.5": {
+          "patients": 173,
+          "native24_correct": 88,
+          "probe_last_correct": 143,
+          "paired_probe_minus_native24": {
+            "mean": 0.3179190751445087,
+            "low": 0.2254335260115607,
+            "high": 0.41040462427745666,
+            "cases": 173
+          }
+        },
+        "greedy_is_listed": {
+          "patients": 171,
+          "native24_correct": 88,
+          "probe_last_correct": 141,
+          "paired_probe_minus_native24": {
+            "mean": 0.30994152046783624,
+            "low": 0.2222222222222222,
+            "high": 0.39766081871345027,
+            "cases": 171
+          }
+        },
+        "pathology_is_reference_top1": {
+          "patients": 171,
+          "native24_correct": 72,
+          "probe_last_correct": 145,
+          "paired_probe_minus_native24": {
+            "mean": 0.4269005847953216,
+            "low": 0.34502923976608185,
+            "high": 0.5087719298245614,
+            "cases": 171
+          }
+        }
+      },
+      "canonical_mass_min": 0.001896777585846205,
+      "canonical_mass_max": 0.9999976297999105,
+      "source_label_reference_top1": 171
+    },
+    "panel": {
+      "strata": {
+        "all": {
+          "patients": 240,
+          "native24_correct": 31,
+          "probe_last_correct": 224,
+          "paired_probe_minus_native24": {
+            "mean": 0.8041666666666667,
+            "low": 0.7541666666666667,
+            "high": 0.8541666666666666,
+            "cases": 240
+          }
+        },
+        "canonical_mass_ge_0.1": {
+          "patients": 239,
+          "native24_correct": 31,
+          "probe_last_correct": 223,
+          "paired_probe_minus_native24": {
+            "mean": 0.803347280334728,
+            "low": 0.7489539748953975,
+            "high": 0.8535564853556485,
+            "cases": 239
+          }
+        },
+        "canonical_mass_ge_0.5": {
+          "patients": 232,
+          "native24_correct": 31,
+          "probe_last_correct": 217,
+          "paired_probe_minus_native24": {
+            "mean": 0.8017241379310345,
+            "low": 0.7498922413793103,
+            "high": 0.853448275862069,
+            "cases": 232
+          }
+        },
+        "greedy_is_listed": {
+          "patients": 229,
+          "native24_correct": 31,
+          "probe_last_correct": 214,
+          "paired_probe_minus_native24": {
+            "mean": 0.7991266375545851,
+            "low": 0.7467248908296943,
+            "high": 0.851528384279476,
+            "cases": 229
+          }
+        },
+        "pathology_is_reference_top1": {
+          "patients": 171,
+          "native24_correct": 18,
+          "probe_last_correct": 162,
+          "paired_probe_minus_native24": {
+            "mean": 0.8421052631578947,
+            "low": 0.783625730994152,
+            "high": 0.8947368421052632,
+            "cases": 171
+          }
+        }
+      },
+      "canonical_mass_min": 0.08013332109858327,
+      "canonical_mass_max": 0.9999984622140712,
+      "source_label_reference_top1": 171
+    }
+  },
+  "4b": {
+    "append": {
+      "strata": {
+        "all": {
+          "patients": 240,
+          "native24_correct": 159,
+          "probe_last_correct": 226,
+          "paired_probe_minus_native24": {
+            "mean": 0.2791666666666667,
+            "low": 0.22083333333333333,
+            "high": 0.3375,
+            "cases": 240
+          }
+        },
+        "canonical_mass_ge_0.1": {
+          "patients": 240,
+          "native24_correct": 159,
+          "probe_last_correct": 226,
+          "paired_probe_minus_native24": {
+            "mean": 0.2791666666666667,
+            "low": 0.22083333333333333,
+            "high": 0.3375,
+            "cases": 240
+          }
+        },
+        "canonical_mass_ge_0.5": {
+          "patients": 237,
+          "native24_correct": 158,
+          "probe_last_correct": 224,
+          "paired_probe_minus_native24": {
+            "mean": 0.27848101265822783,
+            "low": 0.22362869198312235,
+            "high": 0.3333333333333333,
+            "cases": 237
+          }
+        },
+        "greedy_is_listed": {
+          "patients": 236,
+          "native24_correct": 158,
+          "probe_last_correct": 223,
+          "paired_probe_minus_native24": {
+            "mean": 0.2754237288135593,
+            "low": 0.22033898305084745,
+            "high": 0.3347457627118644,
+            "cases": 236
+          }
+        },
+        "pathology_is_reference_top1": {
+          "patients": 171,
+          "native24_correct": 123,
+          "probe_last_correct": 162,
+          "paired_probe_minus_native24": {
+            "mean": 0.22807017543859648,
+            "low": 0.16374269005847952,
+            "high": 0.29239766081871343,
+            "cases": 171
+          }
+        }
+      },
+      "canonical_mass_min": 0.1896356571029097,
+      "canonical_mass_max": 1.0028703182512422,
+      "source_label_reference_top1": 171
+    }
+  }
+}

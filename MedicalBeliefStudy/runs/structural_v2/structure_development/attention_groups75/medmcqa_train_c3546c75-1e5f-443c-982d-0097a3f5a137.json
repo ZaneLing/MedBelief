@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_c3546c75-1e5f-443c-982d-0097a3f5a137",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Type 2 Diabetes Mellitus with Impaired Fasting Glucose Tolerance\"}",
+      "generated_disease": "Type 2 Diabetes Mellitus with Impaired Fasting Glucose Tolerance",
+      "stop": "eos",
+      "tokens": 16,
+      "prompt_sha256": "b8281e2f899d071fb4f5e858060abd85978047d5ab27548704238b9cba125a13"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "SLC34-associated diabetes with MODY phenotype\",\"type\":\"endocrine\"}",
+      "generated_disease": "SLC34-associated diabetes with MODY phenotype",
+      "stop": "eos",
+      "tokens": 16,
+      "prompt_sha256": "677f5a9136d4006889823dacd233093c0b31bed8e7307ac1422308d30258462e"
+    }
+  ]
+}

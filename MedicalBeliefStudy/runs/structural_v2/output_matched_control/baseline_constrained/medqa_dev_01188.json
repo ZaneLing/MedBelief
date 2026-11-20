@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_dev_01188",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Pulmonary embolism\"}",
+      "generated_disease": "Pulmonary embolism",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "21f193d0d67a847f572c666724d73d4e5a735b70dfdb06e0f24661b80b01f6d7"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Acute pericarditis\"}",
+      "generated_disease": "Acute pericarditis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "f3408d20f845f50dd43bb7bca2a57ffa90db38831cab5c65213adcdcaee3e848"
+    }
+  ]
+}

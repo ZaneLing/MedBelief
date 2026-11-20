@@ -1,0 +1,12 @@
+{
+  "independent_new_cases": 120,
+  "new_code_observations": 5040,
+  "new_structured_name_observations": 538,
+  "model": "Qwen3-1.7B",
+  "api_cost_usd": 0,
+  "primary_sources": [
+    "../09_disease_name_trajectories/summary.json",
+    "../10_name_causal_mechanism/summary.json",
+    "../11_disease_information/summary.json"
+  ]
+}

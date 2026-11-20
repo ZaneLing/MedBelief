@@ -1,0 +1,159 @@
+{
+  "cases": 24,
+  "analysis": "post-hoc decomposition of frozen phase10 previous-MLP interventions; no additional forward passes",
+  "layers": {
+    "26": {
+      "mean_abs_first": {
+        "mean": 0.2694351182563756,
+        "low": 0.1727767048159575,
+        "high": 0.3894916745843881,
+        "cases": 24
+      },
+      "mean_abs_tail": {
+        "mean": 0.00806945317158107,
+        "low": 0.005888801760597399,
+        "high": 0.010629402082916099,
+        "cases": 24
+      },
+      "max_abs_tail": {
+        "mean": 0.05078733852121401,
+        "low": 0.03885835806516423,
+        "high": 0.06492071896007938,
+        "cases": 24
+      },
+      "max_same_first_token_logodds_change": {
+        "mean": 0.06594558609218233,
+        "low": 0.048131080965810945,
+        "high": 0.08732185634541008,
+        "cases": 24
+      }
+    },
+    "27": {
+      "mean_abs_first": {
+        "mean": 0.29024323228669485,
+        "low": 0.1842810958284382,
+        "high": 0.424204404921706,
+        "cases": 24
+      },
+      "mean_abs_tail": {
+        "mean": 0.00896695841768999,
+        "low": 0.00632023004133665,
+        "high": 0.012354729520910178,
+        "cases": 24
+      },
+      "max_abs_tail": {
+        "mean": 0.06379369896603748,
+        "low": 0.04299806970763408,
+        "high": 0.08902380952689175,
+        "cases": 24
+      },
+      "max_same_first_token_logodds_change": {
+        "mean": 0.06365680534374481,
+        "low": 0.04382500580606603,
+        "high": 0.09212086525569321,
+        "cases": 24
+      }
+    },
+    "28": {
+      "mean_abs_first": {
+        "mean": 0.438010848752772,
+        "low": 0.29800382855448665,
+        "high": 0.6105987487291935,
+        "cases": 24
+      },
+      "mean_abs_tail": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "cases": 24
+      },
+      "max_abs_tail": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "cases": 24
+      },
+      "max_same_first_token_logodds_change": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "cases": 24
+      }
+    }
+  },
+  "first_token_groups": [
+    {
+      "first_token_id": 47,
+      "diseases": [
+        "Panic attack",
+        "Pneumonia",
+        "Pulmonary embolism",
+        "Pulmonary neoplasm"
+      ]
+    },
+    {
+      "first_token_id": 50,
+      "diseases": [
+        "SLE",
+        "Sarcoidosis",
+        "Scombroid food poisoning"
+      ]
+    },
+    {
+      "first_token_id": 641,
+      "diseases": [
+        "Influenza",
+        "Inguinal hernia"
+      ]
+    },
+    {
+      "first_token_id": 1143,
+      "diseases": [
+        "Chagas",
+        "Chronic rhinosinusitis"
+      ]
+    },
+    {
+      "first_token_id": 2082,
+      "diseases": [
+        "Anaphylaxis",
+        "Anemia"
+      ]
+    },
+    {
+      "first_token_id": 5050,
+      "diseases": [
+        "Myasthenia gravis",
+        "Myocarditis"
+      ]
+    },
+    {
+      "first_token_id": 6406,
+      "diseases": [
+        "Spontaneous pneumothorax",
+        "Spontaneous rib fracture"
+      ]
+    },
+    {
+      "first_token_id": 11654,
+      "diseases": [
+        "Acute COPD exacerbation / infection",
+        "Acute dystonic reactions",
+        "Acute laryngitis",
+        "Acute otitis media",
+        "Acute pulmonary edema",
+        "Acute rhinosinusitis"
+      ]
+    },
+    {
+      "first_token_id": 40959,
+      "diseases": [
+        "Bronchiectasis",
+        "Bronchiolitis",
+        "Bronchitis",
+        "Bronchospasm / acute asthma exacerbation"
+      ]
+    }
+  ],
+  "source_sha256": "5627cccb48823577bd56ceeb5ab5d77bdf201ebaff0d175083a9efe7c007aa7b"
+}

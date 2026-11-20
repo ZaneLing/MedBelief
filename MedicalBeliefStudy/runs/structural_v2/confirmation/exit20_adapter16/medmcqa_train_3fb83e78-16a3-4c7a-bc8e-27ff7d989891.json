@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_3fb83e78-16a3-4c7a-bc8e-27ff7d989891",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Overtive disorder\"}",
+      "generated_disease": "Overtive disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "61fcd1768bf1ff349160257efd47aef61f7192109ddbaa480d0b88011ef1bfb4"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Oemphiliasenystkia\"} (Note: This is an error correction and/or an error in the original systematics. actual correct answer is 'Eplfects of stress or stress-like stress in an non-linear pathycogroupings\"} (Note: This is an error and should be an",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "2ee43105f0a3a08562f86e5fa05331be8bcde05620b5c48e8c5acb3cbd9f5df9"
+    }
+  ]
+}

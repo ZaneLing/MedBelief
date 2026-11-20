@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_33f3bd0f-ec95-4fe9-87bf-193dc4086c99",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Hymososophical disorder\"} (Note: This is an error correction and/or an error in the original system. actual correct answer is typically \"Accessorial disease or otherystic disorder or other stressful stressful disease or other stressful disease or other stressful disease or other stressy anotem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "1f08abb7ddcd1646a883c295283db58c509d8b2090454a6b182e3deb96a5a79a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxanemia\"}",
+      "generated_disease": "Pemphoxanemia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "120d2c91666b296de6cc71264042b252e37975fc2d26c451103367b73e9c1dc4"
+    }
+  ]
+}

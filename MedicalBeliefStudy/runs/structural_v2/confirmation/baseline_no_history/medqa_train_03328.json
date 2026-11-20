@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_03328",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Lead poisoning\"}",
+      "generated_disease": "Lead poisoning",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "f5e74fdb71dedc0e295450ebb5234f26c10c9e37e8908873213018faad9d16cf"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "medqa_train_03085",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Ebstein anomaly\"}",
+      "generated_disease": "Ebstein anomaly",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "234a6c96de1514cc2fa3fc164caf685c6409f043f9ea62cd37dcfa68858c177f"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Ebstein anomaly\"}",
+      "generated_disease": "Ebstein anomaly",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "a67f3aa921d0ac193659a24b69ac9dc543a5e5b9c87b03f6d0d75e5b7e30a37d"
+    }
+  ]
+}

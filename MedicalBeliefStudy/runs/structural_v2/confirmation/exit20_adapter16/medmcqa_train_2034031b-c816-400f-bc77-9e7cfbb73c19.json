@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_2034031b-c816-400f-bc77-9e7cfbb73c19",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Scholarstown's disease (Hypercephical disease or hypercephinal disorder or hypercephinal disorder of course orphans orphans orphans\"}Note: This is an example of an non-c valid and/or non-real phausigent (non-real, non-real, etc.\"}Note: This",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "54d9e26407cc58933b92580f2dcb59f22cc645145a49f13e12eef55c9d02fd64"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Schizophrenia\"}",
+      "generated_disease": "Schizophrenia",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "ebb9be0f59be36dbdc9d8b165152916a3cd501a5a7e9ef4717492a929f1634e5"
+    }
+  ]
+}

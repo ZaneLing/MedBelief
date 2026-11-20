@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_24fa9c33-6917-4590-88d9-dc8227d02d0f",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "mlp_width75",
+    "mlp_keep": 0.75
+  },
+  "parameter_stats": {
+    "parameters": 1456333824,
+    "weight_bytes": 2912667648,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Lichen planus\"}",
+      "generated_disease": "Lichen planus",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "8620c579e313f2345ad6640b07f44e34998359604b5ac5516fa64124792f5bd8"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Hypersensitivity vasculitis\"}",
+      "generated_disease": "Hypersensitivity vasculitis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "d22e7bc771ec5bb4bb2ae54773973446ce2117fefb227f4d405f382c48833ac0"
+    }
+  ]
+}

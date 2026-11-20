@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_00959",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_constrained",
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Laryngomalacia\"}",
+      "generated_disease": "Laryngomalacia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "a048b8df91a6565a7e40ffe1b2e08d113b21a61e127f0ce27fb1160e1605305d"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Laryngomalacia\"}",
+      "generated_disease": "Laryngomalacia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "06ae0d1227e6c41a8b4ea596084dbf6e057186c85566d678f44f92c1e6609e12"
+    }
+  ]
+}

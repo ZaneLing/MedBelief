@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_dev_00574",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Rett syndrome\"}",
+      "generated_disease": "Rett syndrome",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "1133fdbbbbe0a7c739cf3f3929f167c82efcd3fac92c53b40a00c7235da759e7"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Rett syndrome\"}",
+      "generated_disease": "Rett syndrome",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "220d7b66a438d972dbaa3e0459754db67d9509cbcdf3b7fcff30beb98892be94"
+    }
+  ]
+}

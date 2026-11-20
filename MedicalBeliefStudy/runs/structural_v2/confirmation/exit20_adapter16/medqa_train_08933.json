@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_08933",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Treatable, non-linear, non-linear, non-linear, and/or non-linear (non-linear in terms of being non-linear in terms of being a single single linearity or a multiple of aniline-based hydrooxedoxan etepoarsigroup hydrooxedphilaxenphilaxen",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "2df40c1609418bf373e5fb05946e010c834eaf5f3254aa9489b5ecca8c43badf"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniformy disease\"}",
+      "generated_disease": "Chronic veniformy disease",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "eb6bca501e3de57b024f7939e3c94a457f67988b839c9dfeca430d55517ccc54"
+    }
+  ]
+}

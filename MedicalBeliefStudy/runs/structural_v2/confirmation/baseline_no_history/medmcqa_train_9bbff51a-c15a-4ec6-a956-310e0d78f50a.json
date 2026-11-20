@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_9bbff51a-c15a-4ec6-a956-310e0d78f50a",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Ischemic colitis\"}",
+      "generated_disease": "Ischemic colitis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "e74700dd48ac0de53fd477a427851222bcf7a8887d2deeeae3feaebb5798bdb3"
+    }
+  ]
+}

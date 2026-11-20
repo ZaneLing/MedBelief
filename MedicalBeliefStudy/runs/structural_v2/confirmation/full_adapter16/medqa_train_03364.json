@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_03364",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Laryngeal carcinoma\"}",
+      "generated_disease": "Laryngeal carcinoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "34a8d8e0758b042ba3c57f7c87eac08af6c3793676a3e1d84ed9b947847a24b4"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Laryngeal carcinoma\"}",
+      "generated_disease": "Laryngeal carcinoma",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "8fc87fb1dd1230c1aaa9a7d4d854bfba4235abe3a3dcb71745f855060eea81b2"
+    }
+  ]
+}

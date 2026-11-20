@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_dev_00294",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronicity of symptoms and lack of major changes in disease progression\"} (Note: This is an internal internal philacogroupingsystemmeinerystenentechsentepemememememememememememememememmeakinglydentemenserventechs",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "673ec326c944905200d797611b5baf61d94a4e352ac0a45d673eb0e352c4db94"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Ac thyroid disease\"}",
+      "generated_disease": "Ac thyroid disease",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "f3c88e84c81264ca12fb6310205d579eb6fac383ee2d40223f225b759970cc91"
+    }
+  ]
+}

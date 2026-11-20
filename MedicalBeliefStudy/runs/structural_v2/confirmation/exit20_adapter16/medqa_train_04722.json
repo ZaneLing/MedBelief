@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_04722",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronicity of post traumatic stress disorder (PCHrystaars et etroarthelentosogaripoiemphilentiguydemememememememememememememememememememememememememememememem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "a47812854c223645b005628241fcc43fdbbc31cc3f3d89147da30aac8ebc2233"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Scholar's disease orphans orphans\"} (Note: This is an error correction and/or an error in the original systematics. actual correct answer is typically either \"Ac stress disorder or other than others orphans orphans orphans\"} However, based purely in terms of actual physical and/or mental disorder without any other",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "0c36134e01f3948051dcc98dadb3e52bfe2cbd451861b02bae18dd81f5f14c62"
+    }
+  ]
+}

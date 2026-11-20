@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_d664d735-dd14-4b0f-a84b-cb70e8234f0c",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniform disease (Sytaxocephalensis infection or other non-linear pathogenicity of an non-linear pathymossematic system such a non-linear pathycosomular system or other non-linear poly- or multi- or multi-...\"} --Note: This is an example of",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "5c5583dc8db6e4d05fe221475d710bb34754638a019acf08f698a5a4569e77c4"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic veniform disease orients inappropriably inappropriably\"} (Note: This error indicates an error in the original systematic process rather than an actual actual physical or physical body structure. actual actual physical orignal is still required for accurate analysis. Please input actual physical orignal for accurate analysis\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 61,
+      "prompt_sha256": "37852b86c5f2c0b8aa882167bea165411007fc861f6c941d94b832f719c07ff7"
+    }
+  ]
+}

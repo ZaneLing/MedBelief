@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_04689",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_adapter16",
+    "adapter_file": "runs/structural_v2/adapters/full_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1720642576,
+    "weight_bytes": 3441420352,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Chronic granulomatous disease\"}",
+      "generated_disease": "Chronic granulomatous disease",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "1eb4c6845b462cc2eb33a7b7a7dae533d6c02a0339579adfe9b3f5a3f4044152"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Chronic granulomatous disease\"}",
+      "generated_disease": "Chronic granulomatous disease",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "7df0bbb81472e5bc6f9f9b47a00342039e1b117108ccfc6be05bf8925612981f"
+    }
+  ]
+}

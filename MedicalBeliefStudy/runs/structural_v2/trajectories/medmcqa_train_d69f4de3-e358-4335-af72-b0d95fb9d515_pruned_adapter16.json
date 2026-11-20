@@ -1,0 +1,152 @@
+{
+  "case_id": "medmcqa_train_d69f4de3-e358-4335-af72-b0d95fb9d515",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -8.16268539428711,
+        -0.12903404235839844,
+        -11.067073822021484,
+        -5.163051605224609
+      ],
+      "q_sequence": [
+        0.0003221534125892331,
+        0.9931919432038222,
+        1.7648299638256204e-05,
+        0.006468255083950417
+      ],
+      "q_token_mean": [
+        0.10246058305996524,
+        0.5146987681604834,
+        0.10787840378570492,
+        0.27496224499384647
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Amyotrophic lateral sclerosis\"}",
+      "generated_disease": "Amyotrophic lateral sclerosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "03f3a0cfa6e884b4c32f7d5a73b0ccb17233b69ccf09827aeadd085aa055a05b"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -6.321254730224609,
+        -0.2541465759277344,
+        -14.058788299560547,
+        -5.164726257324219
+      ],
+      "q_sequence": [
+        0.002295628473077729,
+        0.990405846218524,
+        1.0012291148917938e-06,
+        0.0072975240792832125
+      ],
+      "q_token_mean": [
+        0.14824078210956443,
+        0.5061242286257398,
+        0.07043501244978516,
+        0.2751999768149106
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Amyotrophic lateral sclerosis\"}",
+      "generated_disease": "Amyotrophic lateral sclerosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "63d9e70369d14c31e26f55cf80a446a0d7991ec4117318fa9638254024d4f566"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": true,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -12.453544616699219,
+        -0.14690399169921875,
+        -13.027332305908203,
+        -8.469745635986328
+      ],
+      "q_sequence": [
+        4.520488171368054e-06,
+        0.999750088796079,
+        2.5467863292157352e-06,
+        0.00024284392942048878
+      ],
+      "q_token_mean": [
+        0.052957211910012764,
+        0.6259101959439654,
+        0.09939936408496519,
+        0.22173322806105672
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Amyotrophic lateral sclerosis\"}",
+      "generated_disease": "Amyotrophic lateral sclerosis",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "7cb949c37e82d87814e221fc2bff6da768c987a042efcd516ed3fe2c5c6c5d23"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -9.571704864501953,
+        -1.022836685180664,
+        -9.156723022460938,
+        -0.6191940307617188
+      ],
+      "q_sequence": [
+        7.757534443151653e-05,
+        0.40035936274501216,
+        0.00011747569866791172,
+        0.5994455862118884
+      ],
+      "q_token_mean": [
+        0.06679467986433538,
+        0.39144494551810727,
+        0.12246938968031969,
+        0.41929098493723777
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "Progressive spinal muscular atrophy\"}",
+      "generated_disease": "Progressive spinal muscular atrophy",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "1ee4569c84110781f82848feb6c16a92b98a8c3b4756fa08c2ca2baeeed0c49b"
+    }
+  ],
+  "state_sha256": "c275a90346da5366789e4c6dd7abb19ea93fbcfe9bed5f8809fc40dca64c2ce4"
+}

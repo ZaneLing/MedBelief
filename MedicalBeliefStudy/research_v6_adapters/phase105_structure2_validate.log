@@ -1,0 +1,42 @@
+{
+  "complete": true,
+  "cohort_cases": 880,
+  "splits": {
+    "confirmation": 400,
+    "development": 80,
+    "train": 400
+  },
+  "new_cases_disjoint_from_old540": true,
+  "source_and_data_hashes_verified": true,
+  "confirmation_selection_precedes_every_confirmation_output": true,
+  "all_core_and_decoder_hashes_match": true,
+  "actual_generations": {
+    "structure_development:neutral,wrong": 2080,
+    "adapter_development:neutral,wrong": 1440,
+    "confirmation:neutral,wrong": 5600,
+    "confirmation:none": 400
+  },
+  "development_and_confirmation_generations": 9520,
+  "trained_adapters": 5,
+  "bridge_parameters": 266240,
+  "timing_pairs": 144,
+  "trajectory_cases": 24,
+  "trajectory_prefixes": 147,
+  "trajectory_observations": 882,
+  "all_final_trajectories_match_confirmation": true,
+  "all_probabilities_finite_and_normalized": true,
+  "original_model_files_unchanged": {
+    "model-00001-of-00002.safetensors": "169ad53ec313c3a34b06c0809216e4fc072cce444a5d4ff2b59690d064130ed5",
+    "model-00002-of-00002.safetensors": "912becff8d60672aa8628ef08c05898d9adf17c2ad4ae3caf99b065622fdeff9",
+    "config.json": "1ddb5b89ebc90dcb417a45c213d818577e65976454d29385c8f6140771d95197",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+  },
+  "api_cost_usd": 0,
+  "matched_output_control_generations": 800,
+  "matched_output_timing_pairs": 24,
+  "post_primary_control_registered": true,
+  "normalized_scores_independently_recomputed": true,
+  "scoring_amendment_hash_verified": true,
+  "surface_normalization_preserves_all_strict_correct": true
+}

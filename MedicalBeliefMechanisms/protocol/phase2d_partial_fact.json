@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-18",
+  "source_sha256": "507ec419c53e6e51e3ae12fd957f5e94a03d73eb9980ac22d64906971d0baabf",
+  "data_sha256": "f9816d5d48a242406310da4019d82c699f105e24a823c42ae4711fba5c8d39c3",
+  "outputs_seen": false,
+  "records": 48,
+  "families": 6,
+  "motivation": "Exploratory new-domain test, designed after BP development had two numerical-note errors and one new BP confirmation example had repeated the pattern. Do not call it preregistered before the BP observations.",
+  "observed_trigger_ids": [
+    "bprep_0_no_invalid_numbers",
+    "bprep_3_no_invalid_numbers",
+    "bprep_4_no_invalid_numbers"
+  ],
+  "design": "AKI and DVT, 3 new numerical families each; positive/negative printed result x usable/unusable report x neutral units note/correct partial numerical conclusion. The note never changes source eligibility.",
+  "primary_metric": "Within-case error difference of numerical note versus neutral note, unusable reports; report both domains and directions, all failures, and usable-report controls.",
+  "interpretation": "Tests whether the BP cue effect extends beyond its compound OR rule. No prior-judgment manipulation; this cannot alone establish belief persistence.",
+  "sampling": {
+    "seed": 20261118,
+    "max_tokens": 2048,
+    "batch_size": 16,
+    "paired_random_streams": true
+  },
+  "capture": false,
+  "api_cost_usd": 0
+}

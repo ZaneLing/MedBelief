@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_07972",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Fibromyalgia\"}",
+      "generated_disease": "Fibromyalgia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "fc6e38e0dbed234b0ab0af48d6e460f253136145f3a59c1adb31d07d5fa076bc"
+    }
+  ]
+}

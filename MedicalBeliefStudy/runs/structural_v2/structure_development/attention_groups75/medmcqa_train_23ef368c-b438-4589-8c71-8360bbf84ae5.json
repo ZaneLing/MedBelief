@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_23ef368c-b438-4589-8c71-8360bbf84ae5",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Optic neuritis\"}",
+      "generated_disease": "Optic neuritis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "ddcb8d9198e5ac2e6ff848ef5ce2c56a7db61415e6bcf00bdbc6c874f56d8eda"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Optic neuritis\"}",
+      "generated_disease": "Optic neuritis",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "191fdc816d28fa811221f918886e7ffd33d2297a3606563c429b29c4870d611c"
+    }
+  ]
+}

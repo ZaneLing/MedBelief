@@ -1,0 +1,34 @@
+{
+  "case_id": "medmcqa_train_92d07de6-9c0c-44b4-a327-f77e7862010d",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Empty sella syndrome\"}",
+      "generated_disease": "Empty sella syndrome",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "ac7cb223c5dca491c96a3ac235ed12457213977f6f44e065e33765d69b87d605"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Empty sella syndrome\"}",
+      "generated_disease": "Empty sella syndrome",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "5237853b441c57ac62ec85af3b88c0d25372a5567e367229b574fdcb7f6a7c87"
+    }
+  ]
+}

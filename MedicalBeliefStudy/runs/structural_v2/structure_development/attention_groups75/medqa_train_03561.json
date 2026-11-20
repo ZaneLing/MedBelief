@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_03561",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Reiter's syndrome\"}",
+      "generated_disease": "Reiter's syndrome",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "0b38b4da26d96fa2469496dfebd9d922e573d92fa8747a3c59bfb27fc697a249"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "reactive arthritis\",\"reason\":\"increased exposure to environmental agents and repetitive microtrauma to the joints leading to early synovitis and deposition of urate crystals in the joint lining\",\"mechanism\":\"trauma and repetitive microtrauma from daily activities and/or overuse leading to synovitis and effusion formation",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "79a9f618b69fd7d4457d37799661b002533cfc804d5d69c784bd19b11702ff1d"
+    }
+  ]
+}

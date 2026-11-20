@@ -1,0 +1,12 @@
+{
+  "unique_jobs": 6600,
+  "prefix_no_future_checks": 6600,
+  "case_disjoint": true,
+  "cohort_cases": {
+    "replication": 60,
+    "pilot": 12,
+    "readout_train": 120,
+    "readout_dev": 60
+  },
+  "full_groups_revealed_at_final": true
+}

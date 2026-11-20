@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_03655",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Environmental allergen\"}",
+      "generated_disease": "Environmental allergen",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "bd6810cc72c9eabbabfa8d216ed308117f67bd429d66dc3e92b9da9d5a433ef8"
+    }
+  ]
+}

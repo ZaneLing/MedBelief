@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_b4499541-3fb7-497d-8ddb-1a01b7070556",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pudous\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "59b44999ec4122e0764617525aea0702fecf50eecb3f61ef1b1a403385e9b8e8"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystoid myopathy\"}",
+      "generated_disease": "Cystoid myopathy",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "48077f51f84fb2bdb42c90dbc4ba65ff86f067597624d752d94c7bf08277b1f3"
+    }
+  ]
+}

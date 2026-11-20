@@ -1,0 +1,35 @@
+{
+  "case_id": "medqa_train_05094",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Brown Sequard Syndrome\"}",
+      "generated_disease": "Brown Sequard Syndrome",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "ec125b1a6569edfc503c984bf4667994c0c4ea86c3984b1fa6eeee62252bdb8b"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Brown-Sequard syndrome\",\"diagnosis_supportive_findings\":\"Acute onset of unilateral sciatica-like distribution of pain and electric shock-like sensory disturbance with a history of recent trauma or repetitive strain injury to the lumbar spine, associated with radiculopathy or cauda equinopathy\",\"diagnosis\":\"Caud",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "b045e79863cbb541778d7d8f2af53b89ad4bd2d111f6bb03d24039d10f2a4be9"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_24fa9c33-6917-4590-88d9-dc8227d02d0f",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Lichen planarum\",\"probability_of_diagnosis\":0.92,\"lesions_description\":\"erythematous, annular, migratory, non-itchy papules and nodules of variable sizes and firmness, palpable beneath the skin, most commonly on the plantar surfaces of the feet and",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "8620c579e313f2345ad6640b07f44e34998359604b5ac5516fa64124792f5bd8"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS\")",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 15,
+      "prompt_sha256": "d22e7bc771ec5bb4bb2ae54773973446ce2117fefb227f4d405f382c48833ac0"
+    }
+  ]
+}

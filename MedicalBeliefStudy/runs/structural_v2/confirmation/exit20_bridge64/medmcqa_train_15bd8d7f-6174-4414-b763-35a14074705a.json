@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_15bd8d7f-6174-4414-b763-35a14074705a",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Hryhh\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "54767c73648fb777d1c3c7c12a2f6926d853ee45548327f03b93ba185d9afe51"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cleudomocosis\"}",
+      "generated_disease": "Cleudomocosis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "66c1cec9c9de4c1fb73e8ed01a4f67e0842ba2fba7b32fbcb67052d2a153c9d2"
+    }
+  ]
+}

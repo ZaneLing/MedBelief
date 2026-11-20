@@ -1,0 +1,52 @@
+{
+  "case_id": "medqa_dev_00131",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Chronic myeloid leukemia\"}",
+      "generated_disease": "Chronic myeloid leukemia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "50f14358c19389498e58b9b0a70135a16bd4e67f8deccf196c2da8817d5d817f"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Chronic myeloid leukemia\"}",
+      "generated_disease": "Chronic myeloid leukemia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "5fae2ffbd14bf445587da466b9d04324003d2498b1c163b11a7ede8590635c03"
+    }
+  ]
+}

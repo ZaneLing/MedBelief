@@ -1,0 +1,52 @@
+{
+  "case_id": "medmcqa_train_5c54792f-89f0-40ac-81c0-b34dd9f7c168",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Primary biliary cirrhosis\"}",
+      "generated_disease": "Primary biliary cirrhosis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "d1a7edb56ce092df99e499aafc8b8ffe1081db9f0de75e1076eda5b88e08c0ec"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Primary biliary cirrhosis\"}",
+      "generated_disease": "Primary biliary cirrhosis",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "0b3ee2e880528b23a63121417f45201e94225d2fd4326ad9fd9548a4a9a41b4d"
+    }
+  ]
+}

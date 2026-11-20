@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_00215",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Anterior hip dislocation\"}",
+      "generated_disease": "Anterior hip dislocation",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "a67b2a7a84548ed2bdbe13d9fe4606355061d6b44cae3912873a014c388cdc6f"
+    }
+  ]
+}

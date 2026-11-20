@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_05751",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxiaarysticentericseherysticenterwentosentemphilenturacovemphilentrivemanservenemphilenserveteminalentrbenturwemensigroupingservemtrbstezemaassem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "aab2c94a872f55823ff77d394b252ddf4f56b460dc173697b615f30578f308d9"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxiaarystosogaripohemototeminalenemphilenturacovemphilenservicovemphinaltracovemphinaltrbenturacaproteminalenemphilensigroupingservservemtrb",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "94ff91768ecd124c3751cf781ed7243e64719d9854924d3bdafcd77a4ed9dd2a"
+    }
+  ]
+}

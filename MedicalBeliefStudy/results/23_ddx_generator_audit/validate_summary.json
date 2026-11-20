@@ -1,0 +1,419 @@
+{
+  "counts": {
+    "cases": 132448,
+    "true_compatible": 132448,
+    "unique": 122408,
+    "unique_correct": 122408,
+    "fresh_fact_n": 111449,
+    "fresh_fact_unique": 101485,
+    "fresh_fact_unique_correct": 101485,
+    "prior_case_n": 120,
+    "new_case_n": 132328,
+    "new_case_unique": 122295,
+    "at_most_3": 122407,
+    "reference_top_correct": 97176,
+    "projected_top_correct": 128216,
+    "reference_top_incompatible": 31781,
+    "reference_has_incompatible_candidate": 123451,
+    "unique_reference_top_correct": 94006,
+    "one_added_binary_retains_true": 2642,
+    "one_added_binary_empty": 129398
+  },
+  "unique_coverage": 0.9241966658613192,
+  "coverage_wilson95": [
+    0.9227588814094169,
+    0.9256098446300415
+  ],
+  "selective_accuracy": 1.0,
+  "selective_accuracy_wilson95": [
+    0.9999686185684742,
+    1.0
+  ],
+  "at_most_three_coverage": 0.9241891157284369,
+  "fresh_fact_coverage": 0.910595877935199,
+  "certificate_count_histogram": {
+    "1": 83549,
+    "2": 38098,
+    "ambiguous": 10040,
+    "3": 760,
+    "None": 1
+  },
+  "candidate_count_histogram": {
+    "1": 122408,
+    "2": 8747,
+    "4": 370,
+    "7": 168,
+    "3": 344,
+    "11": 48,
+    "6": 19,
+    "13": 41,
+    "8": 110,
+    "5": 91,
+    "9": 66,
+    "34": 33,
+    "22": 3
+  },
+  "ablations": {
+    "all": {
+      "unique": 122408,
+      "unique_correct": 122408,
+      "true_compatible": 132448,
+      "coverage": 0.9241966658613192,
+      "selective_accuracy": 1.0
+    },
+    "binary_only": {
+      "unique": 122318,
+      "unique_correct": 122318,
+      "true_compatible": 132448,
+      "coverage": 0.9235171539019087,
+      "selective_accuracy": 1.0
+    },
+    "symptoms_only": {
+      "unique": 90199,
+      "unique_correct": 90199,
+      "true_compatible": 132448,
+      "coverage": 0.6810144358540711,
+      "selective_accuracy": 1.0
+    },
+    "history_only": {
+      "unique": 89634,
+      "unique_correct": 89634,
+      "true_compatible": 132448,
+      "coverage": 0.6767486107755496,
+      "selective_accuracy": 1.0
+    },
+    "without_literal_disease_names": {
+      "unique": 120066,
+      "unique_correct": 120066,
+      "true_compatible": 132448,
+      "coverage": 0.9065142546508819,
+      "selective_accuracy": 1.0
+    }
+  },
+  "reference_outside_support_mass": {
+    "n": 132448,
+    "mean": 0.7013912807243268,
+    "median": 0.8012000361337503,
+    "p05": 0.0,
+    "p95": 0.9218360855556472
+  },
+  "unique_reference_outside_support_mass": {
+    "n": 122408,
+    "mean": 0.7071184786499298,
+    "median": 0.8079647940206272,
+    "p05": 0.0,
+    "p95": 0.9222943455618581
+  },
+  "reference_true_probability": {
+    "n": 132448,
+    "mean": 0.28807596122511464,
+    "median": 0.19021157851634177,
+    "p05": 0.07694961216568266,
+    "p95": 1.0
+  },
+  "unique_reference_true_probability": {
+    "n": 122408,
+    "mean": 0.29288152135007023,
+    "median": 0.1920352059793728,
+    "p05": 0.07770565443814206,
+    "p95": 1.0
+  },
+  "reference_top_accuracy": 0.7336917129741484,
+  "reference_projected_top_accuracy": 0.9680478376419425,
+  "per_disease": {
+    "Anemia": {
+      "n": 6903,
+      "unique": 6903,
+      "unique_correct": 6903,
+      "coverage": 1.0
+    },
+    "Panic attack": {
+      "n": 3237,
+      "unique": 3237,
+      "unique_correct": 3237,
+      "coverage": 1.0
+    },
+    "Influenza": {
+      "n": 3590,
+      "unique": 3535,
+      "unique_correct": 3535,
+      "coverage": 0.9846796657381616
+    },
+    "Boerhaave": {
+      "n": 2075,
+      "unique": 2016,
+      "unique_correct": 2016,
+      "coverage": 0.971566265060241
+    },
+    "Bronchospasm / acute asthma exacerbation": {
+      "n": 2209,
+      "unique": 2209,
+      "unique_correct": 2209,
+      "coverage": 1.0
+    },
+    "Allergic sinusitis": {
+      "n": 2136,
+      "unique": 2133,
+      "unique_correct": 2133,
+      "coverage": 0.9985955056179775
+    },
+    "Acute otitis media": {
+      "n": 3474,
+      "unique": 2702,
+      "unique_correct": 2702,
+      "coverage": 0.7777777777777778
+    },
+    "Pulmonary embolism": {
+      "n": 3725,
+      "unique": 3725,
+      "unique_correct": 3725,
+      "coverage": 1.0
+    },
+    "Viral pharyngitis": {
+      "n": 8246,
+      "unique": 6660,
+      "unique_correct": 6660,
+      "coverage": 0.8076643220955615
+    },
+    "Myasthenia gravis": {
+      "n": 2159,
+      "unique": 2159,
+      "unique_correct": 2159,
+      "coverage": 1.0
+    },
+    "Bronchiectasis": {
+      "n": 2319,
+      "unique": 2304,
+      "unique_correct": 2304,
+      "coverage": 0.9935316946959897
+    },
+    "SLE": {
+      "n": 1579,
+      "unique": 1548,
+      "unique_correct": 1548,
+      "coverage": 0.980367321089297
+    },
+    "Bronchitis": {
+      "n": 3543,
+      "unique": 2692,
+      "unique_correct": 2692,
+      "coverage": 0.759808072255151
+    },
+    "Pneumonia": {
+      "n": 3484,
+      "unique": 3484,
+      "unique_correct": 3484,
+      "coverage": 1.0
+    },
+    "Inguinal hernia": {
+      "n": 2632,
+      "unique": 2611,
+      "unique_correct": 2611,
+      "coverage": 0.9920212765957447
+    },
+    "Acute dystonic reactions": {
+      "n": 3281,
+      "unique": 3281,
+      "unique_correct": 3281,
+      "coverage": 1.0
+    },
+    "Acute rhinosinusitis": {
+      "n": 1866,
+      "unique": 1244,
+      "unique_correct": 1244,
+      "coverage": 0.6666666666666666
+    },
+    "Pericarditis": {
+      "n": 3032,
+      "unique": 2865,
+      "unique_correct": 2865,
+      "coverage": 0.9449208443271768
+    },
+    "Atrial fibrillation": {
+      "n": 2609,
+      "unique": 2608,
+      "unique_correct": 2608,
+      "coverage": 0.9996167113836719
+    },
+    "Anaphylaxis": {
+      "n": 3754,
+      "unique": 3754,
+      "unique_correct": 3754,
+      "coverage": 1.0
+    },
+    "HIV (initial infection)": {
+      "n": 3852,
+      "unique": 3852,
+      "unique_correct": 3852,
+      "coverage": 1.0
+    },
+    "URTI": {
+      "n": 8656,
+      "unique": 8536,
+      "unique_correct": 8536,
+      "coverage": 0.9861367837338263
+    },
+    "Chronic rhinosinusitis": {
+      "n": 2717,
+      "unique": 0,
+      "unique_correct": 0,
+      "coverage": 0.0
+    },
+    "Cluster headache": {
+      "n": 2841,
+      "unique": 2800,
+      "unique_correct": 2800,
+      "coverage": 0.9855684618092221
+    },
+    "Stable angina": {
+      "n": 2340,
+      "unique": 0,
+      "unique_correct": 0,
+      "coverage": 0.0
+    },
+    "Spontaneous pneumothorax": {
+      "n": 1405,
+      "unique": 1387,
+      "unique_correct": 1387,
+      "coverage": 0.9871886120996441
+    },
+    "Acute laryngitis": {
+      "n": 3407,
+      "unique": 3167,
+      "unique_correct": 3167,
+      "coverage": 0.929556794834165
+    },
+    "Pulmonary neoplasm": {
+      "n": 1891,
+      "unique": 1888,
+      "unique_correct": 1888,
+      "coverage": 0.9984135378106822
+    },
+    "Myocarditis": {
+      "n": 1547,
+      "unique": 1400,
+      "unique_correct": 1400,
+      "coverage": 0.9049773755656109
+    },
+    "Acute pulmonary edema": {
+      "n": 2500,
+      "unique": 2500,
+      "unique_correct": 2500,
+      "coverage": 1.0
+    },
+    "Unstable angina": {
+      "n": 2748,
+      "unique": 2684,
+      "unique_correct": 2684,
+      "coverage": 0.9767103347889374
+    },
+    "Scombroid food poisoning": {
+      "n": 2250,
+      "unique": 2248,
+      "unique_correct": 2248,
+      "coverage": 0.9991111111111111
+    },
+    "PSVT": {
+      "n": 2376,
+      "unique": 2362,
+      "unique_correct": 2362,
+      "coverage": 0.9941077441077442
+    },
+    "Acute COPD exacerbation / infection": {
+      "n": 2076,
+      "unique": 2073,
+      "unique_correct": 2073,
+      "coverage": 0.9985549132947977
+    },
+    "Localized edema": {
+      "n": 3694,
+      "unique": 3694,
+      "unique_correct": 3694,
+      "coverage": 1.0
+    },
+    "Guillain-Barré syndrome": {
+      "n": 2557,
+      "unique": 2554,
+      "unique_correct": 2554,
+      "coverage": 0.9988267500977708
+    },
+    "Possible NSTEMI / STEMI": {
+      "n": 2943,
+      "unique": 2902,
+      "unique_correct": 2902,
+      "coverage": 0.9860686374447842
+    },
+    "Pancreatic neoplasm": {
+      "n": 2582,
+      "unique": 2581,
+      "unique_correct": 2581,
+      "coverage": 0.9996127033307514
+    },
+    "Larygospasm": {
+      "n": 668,
+      "unique": 645,
+      "unique_correct": 645,
+      "coverage": 0.9655688622754491
+    },
+    "Sarcoidosis": {
+      "n": 3028,
+      "unique": 3008,
+      "unique_correct": 3008,
+      "coverage": 0.9933949801849405
+    },
+    "Spontaneous rib fracture": {
+      "n": 782,
+      "unique": 782,
+      "unique_correct": 782,
+      "coverage": 1.0
+    },
+    "GERD": {
+      "n": 3426,
+      "unique": 3424,
+      "unique_correct": 3424,
+      "coverage": 0.9994162288382954
+    },
+    "Chagas": {
+      "n": 1124,
+      "unique": 1093,
+      "unique_correct": 1093,
+      "coverage": 0.9724199288256228
+    },
+    "Croup": {
+      "n": 267,
+      "unique": 263,
+      "unique_correct": 263,
+      "coverage": 0.9850187265917603
+    },
+    "Epiglottitis": {
+      "n": 2248,
+      "unique": 2248,
+      "unique_correct": 2248,
+      "coverage": 1.0
+    },
+    "Tuberculosis": {
+      "n": 2007,
+      "unique": 1985,
+      "unique_correct": 1985,
+      "coverage": 0.98903836571998
+    },
+    "Whooping cough": {
+      "n": 545,
+      "unique": 545,
+      "unique_correct": 545,
+      "coverage": 1.0
+    },
+    "Bronchiolitis": {
+      "n": 28,
+      "unique": 27,
+      "unique_correct": 27,
+      "coverage": 0.9642857142857143
+    },
+    "Ebola": {
+      "n": 90,
+      "unique": 90,
+      "unique_correct": 90,
+      "coverage": 1.0
+    }
+  }
+}

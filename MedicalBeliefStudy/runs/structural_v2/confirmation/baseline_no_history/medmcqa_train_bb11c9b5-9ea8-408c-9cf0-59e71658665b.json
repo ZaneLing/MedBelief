@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_bb11c9b5-9ea8-408c-9cf0-59e71658665b",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Autism\"}",
+      "generated_disease": "Autism",
+      "stop": "eos",
+      "tokens": 3,
+      "prompt_sha256": "adb5404e996279cd861245b69468a7816bd84d11238775daab9c1b39e97b77e1"
+    }
+  ]
+}

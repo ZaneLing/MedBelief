@@ -1,0 +1,50 @@
+{
+  "case_id": "medmcqa_train_0e98c3a6-c4dc-430f-8a5c-a9d0c7d8da76",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_constrained",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "constrained": true
+  },
+  "parameter_stats": {
+    "parameters": 1494082560,
+    "weight_bytes": 2988165120,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Splenic infarction\"}",
+      "generated_disease": "Splenic infarction",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "e67c2623b431ff61e376c5e5bbeee13c4fa34847cad2ef1d8c5754c4fd83bf3e"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Intussusception\"}",
+      "generated_disease": "Intussusception",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "8e34da2830aa739cb84a2c778bfdefb25819574a61fb6f04d1bb9198b804bcd7"
+    }
+  ]
+}

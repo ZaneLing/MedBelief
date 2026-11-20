@@ -1,0 +1,40 @@
+{
+  "case_id": "medqa_train_04738",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "drop_mlp4",
+    "drop_mlps": [
+      24,
+      25,
+      26,
+      28
+    ]
+  },
+  "parameter_stats": {
+    "parameters": 1569571840,
+    "weight_bytes": 3139143680,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "P pseudodementia\"}",
+      "generated_disease": "P pseudodementia",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "ef714ad2b818f5a511663fd72bb51d5381deae1d7919f6726d0c188d3f9179d6"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Creutzfeldt-Jakob disease\"}",
+      "generated_disease": "Creutzfeldt-Jakob disease",
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "7de2f1e14700187b16974ae5a76830f819e7e1bde567d022674d956bb187880b"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_04722",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Schizoid personality disorder\"}",
+      "generated_disease": "Schizoid personality disorder",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "592c260e07d80c9fb7a58e6f169e45b5caaa8c2c16d2a715a50e26b7186050d0"
+    }
+  ]
+}

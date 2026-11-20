@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_dev_00037",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Tachomphyriaiauteurlichemmeystenystenemosaragovemememememememppertemenservememememppabememememhemememppabemememhemememppabemememhemem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "d92a2e93fee2bb4920ad1d8a5e31f11dd75ed417aa1119e03d273ef249876b2c"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Treatable hydrocephension\"}",
+      "generated_disease": "Treatable hydrocephension",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "732d492199e1eb496a565e75dabce6b52c1fbfd8491ff2f1eb322d18d2b7aa6d"
+    }
+  ]
+}

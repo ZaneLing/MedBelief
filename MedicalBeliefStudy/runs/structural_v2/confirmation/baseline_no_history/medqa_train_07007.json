@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_07007",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Hemophilia A\"}",
+      "generated_disease": "Hemophilia A",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "7011c04367f748962c3ed964b14b5fe08393e7d23c9106daffb594de56acd4a4"
+    }
+  ]
+}

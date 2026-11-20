@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_38afd1d7-2d37-4a23-baf4-189170a6047e",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chilis-type orphans orphans inductees inkserventososentepemphilisentepemphilisheiligenservetemphilisheemtracovemppabapemphilisheemphilisheemphilisheem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "66620eb9d2bf2ad216c206c892bdee9bf3523099fac7abfd932b45b5849747a5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Scholar's disease or hypercephy or parfecto's syndrome or hypercephy in parfecta's syndrome orphans etetarososchietaetemphilis etetemphiliasenataenataenepalipostemetemphilenservemenservem",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "42aaba31350ab7d47d15ac5c692e2ef7c427fcdbec93b37afe0f586dfe1c515d"
+    }
+  ]
+}

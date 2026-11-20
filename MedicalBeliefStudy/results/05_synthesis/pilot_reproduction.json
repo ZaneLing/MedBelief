@@ -1,0 +1,793 @@
+{
+  "observations": 131,
+  "top_agreements": 131,
+  "max_support_difference": 0.0,
+  "rows": [
+    {
+      "case_id": "ddx_train_0868644",
+      "round": 1,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0937832",
+      "round": 6,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0874944",
+      "round": 7,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0925484",
+      "round": 0,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0851760",
+      "round": 8,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0875644",
+      "round": 1,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 10,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0858284",
+      "round": 4,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 0,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0915712",
+      "round": 2,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0940128",
+      "round": 7,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 2,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 12,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0857920",
+      "round": 6,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0868644",
+      "round": 8,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0875644",
+      "round": 8,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 9,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0851760",
+      "round": 1,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0940128",
+      "round": 6,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 13,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 3,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0857920",
+      "round": 7,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 8,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0875644",
+      "round": 9,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0851760",
+      "round": 0,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0925484",
+      "round": 8,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0868644",
+      "round": 0,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0937832",
+      "round": 7,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0874944",
+      "round": 6,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0925484",
+      "round": 1,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 1,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0858284",
+      "round": 5,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 11,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0915712",
+      "round": 3,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0875644",
+      "round": 0,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0857920",
+      "round": 5,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 1,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 11,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0940128",
+      "round": 4,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0851760",
+      "round": 2,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0915712",
+      "round": 8,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0874944",
+      "round": 4,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 8,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0937832",
+      "round": 5,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0868644",
+      "round": 2,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0915712",
+      "round": 1,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 13,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 3,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0858284",
+      "round": 7,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0875644",
+      "round": 2,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0925484",
+      "round": 3,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 9,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0874944",
+      "round": 5,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0937832",
+      "round": 4,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0868644",
+      "round": 3,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0875644",
+      "round": 3,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0915712",
+      "round": 0,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0858284",
+      "round": 6,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 2,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 12,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0925484",
+      "round": 2,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0857920",
+      "round": 4,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 10,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 0,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0940128",
+      "round": 5,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0851760",
+      "round": 3,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0851760",
+      "round": 6,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0857920",
+      "round": 1,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0857920",
+      "round": 11,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0937832",
+      "round": 8,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0940128",
+      "round": 0,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 5,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 15,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0874944",
+      "round": 9,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0875644",
+      "round": 6,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 17,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0858284",
+      "round": 3,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 7,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0915712",
+      "round": 5,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0925484",
+      "round": 7,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0874944",
+      "round": 0,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0874944",
+      "round": 10,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0857920",
+      "round": 8,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0868644",
+      "round": 6,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0937832",
+      "round": 1,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 6,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0858284",
+      "round": 2,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 16,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0915712",
+      "round": 4,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0875644",
+      "round": 7,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0925484",
+      "round": 6,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0874944",
+      "round": 1,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0940128",
+      "round": 8,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0868644",
+      "round": 7,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0937832",
+      "round": 0,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0857920",
+      "round": 9,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0851760",
+      "round": 7,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0857920",
+      "round": 10,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0857920",
+      "round": 0,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0874944",
+      "round": 8,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0940128",
+      "round": 1,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 14,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 4,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0925484",
+      "round": 4,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0915712",
+      "round": 6,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 14,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 4,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0858284",
+      "round": 0,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0875644",
+      "round": 5,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0937832",
+      "round": 2,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0868644",
+      "round": 5,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0874944",
+      "round": 3,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0851760",
+      "round": 5,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 6,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 16,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0940128",
+      "round": 3,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0857920",
+      "round": 2,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0858284",
+      "round": 8,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0851760",
+      "round": 4,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0902216",
+      "round": 7,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0940128",
+      "round": 2,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0857920",
+      "round": 3,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0925484",
+      "round": 5,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0875644",
+      "round": 4,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0915712",
+      "round": 7,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0858284",
+      "round": 1,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 5,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0857360",
+      "round": 15,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0937832",
+      "round": 3,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0868644",
+      "round": 4,
+      "top_same": true,
+      "max_support_difference": 0.0
+    },
+    {
+      "case_id": "ddx_train_0874944",
+      "round": 2,
+      "top_same": true,
+      "max_support_difference": 0.0
+    }
+  ]
+}

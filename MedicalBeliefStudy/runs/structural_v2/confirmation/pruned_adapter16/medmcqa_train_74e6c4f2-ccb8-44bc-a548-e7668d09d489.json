@@ -1,0 +1,52 @@
+{
+  "case_id": "medmcqa_train_74e6c4f2-ccb8-44bc-a548-e7668d09d489",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "pruned_adapter16",
+    "mlp_keep": 0.5,
+    "mlp_layers": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "adapter_file": "runs/structural_v2/adapters/pruned_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1494150160,
+    "weight_bytes": 2988435520,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": true,
+      "text": "Infantile seborrheic dermatitis\"}",
+      "generated_disease": "Infantile seborrheic dermatitis",
+      "stop": "eos",
+      "tokens": 11,
+      "prompt_sha256": "25188f9770d3e5756ab328cf2a951180bf6df78ae41ff6fda545e0625a71c52e"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Infantile seborrheic dermatitis\"}",
+      "generated_disease": "Infantile seborrheic dermatitis",
+      "stop": "eos",
+      "tokens": 11,
+      "prompt_sha256": "31a9ee0ca2f4a7c230541bb608f22060ac374b11dc78a4ff3e02172f66e6f485"
+    }
+  ]
+}

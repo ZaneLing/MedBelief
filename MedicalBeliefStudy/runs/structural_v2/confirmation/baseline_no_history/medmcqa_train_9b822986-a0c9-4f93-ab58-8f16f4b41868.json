@@ -1,0 +1,24 @@
+{
+  "case_id": "medmcqa_train_9b822986-a0c9-4f93-ab58-8f16f4b41868",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Right epididymal cyst\"}",
+      "generated_disease": "Right epididymal cyst",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "6c475e002416ec6a3ef44f9535f3aef8ad85837b796c560147c02ab447bc87e1"
+    }
+  ]
+}

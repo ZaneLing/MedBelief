@@ -1,0 +1,73 @@
+case_id,gold,family,view,updates,category,category_zh,switches,large_updates,final_top,final_correct,final_probe,final_probe_correct,first_label_hit,stable_label_from,first_probe_hit
+ddx_test_0005881,Anemia,systemic,append,15,recovered,偏离标签后恢复,3,3,Anemia,True,Anemia,True,3,13,1
+ddx_test_0005881,Anemia,systemic,panel,15,acquired,进入标签后保持,1,1,Anemia,True,Anemia,True,4,4,4
+ddx_test_0005881,Anemia,systemic,4b,15,acquired,进入标签后保持,2,2,Anemia,True,Anemia,True,2,2,1
+ddx_test_0006854,Anemia,systemic,append,9,lost,曾命中、最终偏离,2,2,Pulmonary embolism,False,Anemia,True,3,,0
+ddx_test_0006854,Anemia,systemic,panel,9,acquired,进入标签后保持,3,3,Anemia,True,Anemia,True,3,3,1
+ddx_test_0006854,Anemia,systemic,4b,9,recovered,偏离标签后恢复,3,3,Anemia,True,Anemia,True,1,3,0
+ddx_test_0017896,HIV (initial infection),systemic,append,11,changing_wrong,多次变化、从未命中,2,2,Acute rhinosinusitis,False,HIV (initial infection),True,,,9
+ddx_test_0017896,HIV (initial infection),systemic,panel,11,fixed_wrong,始终同一非标签病,0,0,Acute COPD exacerbation / infection,False,HIV (initial infection),True,,,6
+ddx_test_0017896,HIV (initial infection),systemic,4b,11,acquired,进入标签后保持,1,1,HIV (initial infection),True,HIV (initial infection),True,5,5,5
+ddx_test_0027885,Pancreatic neoplasm,digestive,append,9,lost,曾命中、最终偏离,5,3,Bronchiolitis,False,Pancreatic neoplasm,True,6,,6
+ddx_test_0027885,Pancreatic neoplasm,digestive,panel,9,fixed_wrong,始终同一非标签病,0,0,Acute COPD exacerbation / infection,False,Pancreatic neoplasm,True,,,0
+ddx_test_0027885,Pancreatic neoplasm,digestive,4b,9,recovered,偏离标签后恢复,5,6,Pancreatic neoplasm,True,Pancreatic neoplasm,True,6,8,9
+ddx_test_0032489,Acute dystonic reactions,neurologic,append,7,fixed_wrong,始终同一非标签病,0,0,Acute laryngitis,False,Acute dystonic reactions,True,,,0
+ddx_test_0032489,Acute dystonic reactions,neurologic,panel,7,fixed_wrong,始终同一非标签病,0,0,Acute COPD exacerbation / infection,False,Acute dystonic reactions,True,,,7
+ddx_test_0032489,Acute dystonic reactions,neurologic,4b,7,changing_wrong,多次变化、从未命中,2,2,Panic attack,False,Acute dystonic reactions,True,,,1
+ddx_test_0037913,Pericarditis,cardiovascular,append,4,lost,曾命中、最终偏离,3,3,Boerhaave,False,Pericarditis,True,2,,3
+ddx_test_0037913,Pericarditis,cardiovascular,panel,4,lost,曾命中、最终偏离,2,2,Acute COPD exacerbation / infection,False,Pericarditis,True,2,,0
+ddx_test_0037913,Pericarditis,cardiovascular,4b,4,lost,曾命中、最终偏离,3,2,Myocarditis,False,Pericarditis,True,2,,0
+ddx_test_0041136,Acute otitis media,ent,append,5,acquired,进入标签后保持,1,1,Acute otitis media,True,Acute otitis media,True,1,1,1
+ddx_test_0041136,Acute otitis media,ent,panel,5,fixed_wrong,始终同一非标签病,0,0,Acute COPD exacerbation / infection,False,Acute otitis media,True,,,0
+ddx_test_0041136,Acute otitis media,ent,4b,5,stable,始终命中标签,0,0,Acute otitis media,True,Acute otitis media,True,0,0,0
+ddx_test_0042118,Bronchitis,respiratory,append,8,changing_wrong,多次变化、从未命中,4,3,Acute COPD exacerbation / infection,False,Bronchitis,True,,,0
+ddx_test_0042118,Bronchitis,respiratory,panel,8,changing_wrong,多次变化、从未命中,2,2,Acute COPD exacerbation / infection,False,Bronchitis,True,,,6
+ddx_test_0042118,Bronchitis,respiratory,4b,8,lost,曾命中、最终偏离,2,2,Acute COPD exacerbation / infection,False,Bronchitis,True,2,,4
+ddx_test_0044249,Boerhaave,digestive,append,5,recovered,偏离标签后恢复,4,4,Boerhaave,True,GERD,False,1,4,1
+ddx_test_0044249,Boerhaave,digestive,panel,5,fixed_wrong,始终同一非标签病,0,0,Acute COPD exacerbation / infection,False,Boerhaave,True,,,4
+ddx_test_0044249,Boerhaave,digestive,4b,5,changing_wrong,多次变化、从未命中,2,2,Pulmonary embolism,False,Boerhaave,True,,,0
+ddx_test_0045887,URTI,ent,append,10,changing_wrong,多次变化、从未命中,2,2,Acute rhinosinusitis,False,URTI,True,,,0
+ddx_test_0045887,URTI,ent,panel,10,fixed_wrong,始终同一非标签病,0,0,Acute COPD exacerbation / infection,False,URTI,True,,,0
+ddx_test_0045887,URTI,ent,4b,10,changing_wrong,多次变化、从未命中,2,2,Viral pharyngitis,False,URTI,True,,,3
+ddx_test_0048692,Pulmonary embolism,respiratory,append,6,changing_wrong,多次变化、从未命中,6,6,Acute pulmonary edema,False,Spontaneous pneumothorax,False,,,
+ddx_test_0048692,Pulmonary embolism,respiratory,panel,6,lost,曾命中、最终偏离,1,1,Acute COPD exacerbation / infection,False,Pulmonary embolism,True,0,,4
+ddx_test_0048692,Pulmonary embolism,respiratory,4b,6,acquired,进入标签后保持,3,3,Pulmonary embolism,True,Pulmonary embolism,True,3,3,3
+ddx_test_0060159,Acute dystonic reactions,neurologic,append,8,recovered,偏离标签后恢复,3,4,Acute dystonic reactions,True,Acute dystonic reactions,True,1,3,0
+ddx_test_0060159,Acute dystonic reactions,neurologic,panel,8,changing_wrong,多次变化、从未命中,1,1,Acute pulmonary edema,False,Acute dystonic reactions,True,,,1
+ddx_test_0060159,Acute dystonic reactions,neurologic,4b,8,recovered,偏离标签后恢复,3,3,Acute dystonic reactions,True,Acute dystonic reactions,True,1,3,1
+ddx_test_0061730,Cluster headache,neurologic,append,4,recovered,偏离标签后恢复,2,2,Cluster headache,True,Cluster headache,True,0,3,0
+ddx_test_0061730,Cluster headache,neurologic,panel,4,fixed_wrong,始终同一非标签病,0,0,Acute COPD exacerbation / infection,False,Cluster headache,True,,,0
+ddx_test_0061730,Cluster headache,neurologic,4b,4,recovered,偏离标签后恢复,2,2,Cluster headache,True,Cluster headache,True,0,4,4
+ddx_test_0062355,Acute dystonic reactions,neurologic,append,8,recovered,偏离标签后恢复,4,3,Acute dystonic reactions,True,Acute dystonic reactions,True,2,8,0
+ddx_test_0062355,Acute dystonic reactions,neurologic,panel,8,changing_wrong,多次变化、从未命中,3,3,Acute pulmonary edema,False,Acute dystonic reactions,True,,,1
+ddx_test_0062355,Acute dystonic reactions,neurologic,4b,8,acquired,进入标签后保持,1,1,Acute dystonic reactions,True,Acute dystonic reactions,True,2,2,0
+ddx_test_0064225,Acute pulmonary edema,respiratory,append,12,recovered,偏离标签后恢复,4,3,Acute pulmonary edema,True,Acute pulmonary edema,True,1,6,1
+ddx_test_0064225,Acute pulmonary edema,respiratory,panel,12,lost,曾命中、最终偏离,2,1,Acute COPD exacerbation / infection,False,Acute pulmonary edema,True,8,,1
+ddx_test_0064225,Acute pulmonary edema,respiratory,4b,12,recovered,偏离标签后恢复,8,7,Acute pulmonary edema,True,Acute pulmonary edema,True,3,12,6
+ddx_test_0067994,Bronchitis,respiratory,append,9,changing_wrong,多次变化、从未命中,1,1,Acute COPD exacerbation / infection,False,Bronchitis,True,,,1
+ddx_test_0067994,Bronchitis,respiratory,panel,9,changing_wrong,多次变化、从未命中,1,1,Acute COPD exacerbation / infection,False,Bronchitis,True,,,9
+ddx_test_0067994,Bronchitis,respiratory,4b,9,lost,曾命中、最终偏离,4,4,Acute COPD exacerbation / infection,False,Bronchitis,True,2,,0
+ddx_test_0077278,Pericarditis,cardiovascular,append,7,lost,曾命中、最终偏离,4,4,Boerhaave,False,Pulmonary embolism,False,3,,6
+ddx_test_0077278,Pericarditis,cardiovascular,panel,7,lost,曾命中、最终偏离,3,3,Acute COPD exacerbation / infection,False,Pericarditis,True,3,,1
+ddx_test_0077278,Pericarditis,cardiovascular,4b,7,acquired,进入标签后保持,2,2,Pericarditis,True,Pericarditis,True,3,3,1
+ddx_test_0079685,Guillain-Barré syndrome,neurologic,append,7,acquired,进入标签后保持,5,2,Guillain-Barré syndrome,True,Guillain-Barré syndrome,True,7,7,1
+ddx_test_0079685,Guillain-Barré syndrome,neurologic,panel,7,fixed_wrong,始终同一非标签病,0,0,Acute COPD exacerbation / infection,False,Myasthenia gravis,False,,,
+ddx_test_0079685,Guillain-Barré syndrome,neurologic,4b,7,stable,始终命中标签,0,0,Guillain-Barré syndrome,True,Guillain-Barré syndrome,True,0,0,0
+ddx_test_0084538,Inguinal hernia,digestive,append,8,changing_wrong,多次变化、从未命中,5,5,Localized edema,False,Inguinal hernia,True,,,0
+ddx_test_0084538,Inguinal hernia,digestive,panel,8,changing_wrong,多次变化、从未命中,1,0,Acute pulmonary edema,False,Inguinal hernia,True,,,4
+ddx_test_0084538,Inguinal hernia,digestive,4b,8,changing_wrong,多次变化、从未命中,1,0,Pneumonia,False,Inguinal hernia,True,,,7
+ddx_test_0101113,Spontaneous pneumothorax,respiratory,append,5,acquired,进入标签后保持,1,1,Spontaneous pneumothorax,True,Spontaneous pneumothorax,True,1,1,1
+ddx_test_0101113,Spontaneous pneumothorax,respiratory,panel,5,acquired,进入标签后保持,1,1,Spontaneous pneumothorax,True,Spontaneous pneumothorax,True,1,1,1
+ddx_test_0101113,Spontaneous pneumothorax,respiratory,4b,5,acquired,进入标签后保持,1,1,Spontaneous pneumothorax,True,Spontaneous pneumothorax,True,1,1,1
+ddx_test_0108184,Guillain-Barré syndrome,neurologic,append,6,acquired,进入标签后保持,4,4,Guillain-Barré syndrome,True,Guillain-Barré syndrome,True,4,4,2
+ddx_test_0108184,Guillain-Barré syndrome,neurologic,panel,6,changing_wrong,多次变化、从未命中,1,1,Acute pulmonary edema,False,Guillain-Barré syndrome,True,,,3
+ddx_test_0108184,Guillain-Barré syndrome,neurologic,4b,6,recovered,偏离标签后恢复,4,4,Guillain-Barré syndrome,True,Guillain-Barré syndrome,True,0,4,2
+ddx_test_0110714,Pulmonary embolism,respiratory,append,8,lost,曾命中、最终偏离,7,7,Localized edema,False,Acute pulmonary edema,False,2,,4
+ddx_test_0110714,Pulmonary embolism,respiratory,panel,8,lost,曾命中、最终偏离,1,1,Acute COPD exacerbation / infection,False,Pulmonary embolism,True,0,,4
+ddx_test_0110714,Pulmonary embolism,respiratory,4b,8,acquired,进入标签后保持,2,2,Pulmonary embolism,True,Pulmonary embolism,True,2,2,2
+ddx_test_0123136,GERD,digestive,append,8,acquired,进入标签后保持,1,1,GERD,True,GERD,True,1,1,1
+ddx_test_0123136,GERD,digestive,panel,8,fixed_wrong,始终同一非标签病,0,0,Acute COPD exacerbation / infection,False,GERD,True,,,2
+ddx_test_0123136,GERD,digestive,4b,8,acquired,进入标签后保持,1,1,GERD,True,GERD,True,1,1,1
+ddx_test_0134351,Viral pharyngitis,ent,append,5,changing_wrong,多次变化、从未命中,4,3,Acute rhinosinusitis,False,Viral pharyngitis,True,,,0
+ddx_test_0134351,Viral pharyngitis,ent,panel,5,fixed_wrong,始终同一非标签病,0,0,Acute COPD exacerbation / infection,False,Viral pharyngitis,True,,,2
+ddx_test_0134351,Viral pharyngitis,ent,4b,5,changing_wrong,多次变化、从未命中,1,1,Pneumonia,False,Viral pharyngitis,True,,,0

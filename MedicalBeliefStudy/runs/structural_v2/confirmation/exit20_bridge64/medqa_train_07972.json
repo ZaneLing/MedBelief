@@ -1,0 +1,36 @@
+{
+  "case_id": "medqa_train_07972",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "P.\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "28f6b9e12d57941a38afaba4b5b731a7b8563993a66e5f94985aa8720109c9fa"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pulmonary disorder\"}",
+      "generated_disease": "Pulmonary disorder",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "2accb28f47de48708d3afbf8e391abf4730ac7dd0b74242680023b3a7f4c8a32"
+    }
+  ]
+}

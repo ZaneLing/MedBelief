@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_ad9f5fd9-e693-4ee9-a5d4-040833ac8bd7",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "mlp_width75",
+    "mlp_keep": 0.75
+  },
+  "parameter_stats": {
+    "parameters": 1456333824,
+    "weight_bytes": 2912667648,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Right testicular torsion\"}",
+      "generated_disease": "Right testicular torsion",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "71f981b38d5cd9ca19e39d72613cea550a3ddc5edb469a44bd0b184d1cc93195"
+    },
+    {
+      "condition": "wrong",
+      "correct": true,
+      "listed": true,
+      "text": "Right testicular torsion\"}",
+      "generated_disease": "Right testicular torsion",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "da1f7a69047666e8ad2c1e31011de23012843787701ed6449dbae395838771a0"
+    }
+  ]
+}

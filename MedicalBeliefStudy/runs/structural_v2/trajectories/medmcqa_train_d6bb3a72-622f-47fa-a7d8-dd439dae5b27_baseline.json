@@ -1,0 +1,196 @@
+{
+  "case_id": "medmcqa_train_d6bb3a72-622f-47fa-a7d8-dd439dae5b27",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "baseline"
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -2.4356002807617188,
+        -0.09166717529296875,
+        -18.685409545898438,
+        -11.138542175292969
+      ],
+      "q_sequence": [
+        0.08754793739742167,
+        0.9124375135263029,
+        7.674382177161162e-09,
+        1.4541401893133978e-05
+      ],
+      "q_token_mean": [
+        0.3638802798417774,
+        0.5377966042052159,
+        0.013009454767868106,
+        0.08531366118513856
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "radial nerve injury\"}",
+      "generated_disease": "radial nerve injury",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "2b026175c9f5c8d7e21c329329cefff5ddc65ba09b30b3642ad8081089764ef0"
+    },
+    {
+      "condition": "neutral",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -4.9446868896484375,
+        -11.210323333740234,
+        -0.007175445556640625,
+        -22.444690704345703
+      ],
+      "q_sequence": [
+        0.007121251446959468,
+        1.353396308040444e-05,
+        0.9928652144111464,
+        1.7881388158943211e-10
+      ],
+      "q_token_mean": [
+        0.2715433704989924,
+        0.09556906023300879,
+        0.618193344139799,
+        0.014694225128199798
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "median nerve injury\"}",
+      "generated_disease": "median nerve injury",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "554c943c41151cf4fe4e027d8d63b0a108a5426ce1d04b940d85487f21cfbe18"
+    },
+    {
+      "condition": "neutral",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -0.7576560974121094,
+        -11.648338317871094,
+        -0.6326522827148438,
+        -20.960792541503906
+      ],
+      "q_sequence": [
+        0.4687855819090416,
+        8.733957080671827e-06,
+        0.5312056833452653,
+        7.88612344752271e-10
+      ],
+      "q_token_mean": [
+        0.45515548395724337,
+        0.07410814017262109,
+        0.4550396887879956,
+        0.01569668708214001
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "median nerve injury\"}",
+      "generated_disease": "median nerve injury",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "c2b9f6f305726b113a0e100742cfb381b9dd1f7109ce7718aca258bffa666726"
+    },
+    {
+      "condition": "wrong",
+      "round": 1,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -22.17192840576172,
+        -7.62939453125e-06,
+        -23.828125,
+        -23.250022888183594
+      ],
+      "q_sequence": [
+        2.348860115429356e-10,
+        0.9999999996403643,
+        4.483117396944015e-11,
+        7.991837943379962e-11
+      ],
+      "q_token_mean": [
+        0.023564398874934347,
+        0.9486663727988038,
+        0.008080335967284464,
+        0.019688892358977344
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "radial nerve injury\"}",
+      "generated_disease": "radial nerve injury",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "76712053a19b8ea248fd3a4f3156793bf52d3ef365ac75fb12b90958ec0fc730"
+    },
+    {
+      "condition": "wrong",
+      "round": 2,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -5.540287017822266,
+        -5.290645599365234,
+        -0.00902557373046875,
+        -20.962173461914062
+      ],
+      "q_sequence": [
+        0.003925482681009861,
+        0.005038612457781728,
+        0.9910359040737042,
+        7.875042067430989e-10
+      ],
+      "q_token_mean": [
+        0.21587807534716033,
+        0.22504956917934898,
+        0.5425552031622588,
+        0.016517152311231856
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "median nerve injury\"}",
+      "generated_disease": "median nerve injury",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "f6a4bc3ef10af70750ef77f69f0d85716e50fb05ad61208218e418078e4c7085"
+    },
+    {
+      "condition": "wrong",
+      "round": 3,
+      "correct": false,
+      "listed": true,
+      "adapter_relative_change": 0.0,
+      "log_probability": [
+        -4.914070129394531,
+        -7.757968902587891,
+        -0.0078125,
+        -23.13283920288086
+      ],
+      "q_sequence": [
+        0.007342631881678459,
+        0.00042732884734790125,
+        0.992230039181119,
+        8.985471685106919e-11
+      ],
+      "q_token_mean": [
+        0.25411424896045026,
+        0.15819063179157397,
+        0.5754965038576959,
+        0.01219861539027995
+      ],
+      "support_definition": "Full-vocabulary name sequence probabilities, renormalized over four complete strings",
+      "text": "median nerve injury\"}",
+      "generated_disease": "median nerve injury",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "f878c47927746b8b8e05c79f4c8ae2fbe7e21d090e3a2b21e0e60cd2bc430b6b"
+    }
+  ],
+  "state_sha256": "9cdc285ce019283a5109b18274e6e99eb265b0a9bf1c26ac5449bec1993977c0"
+}

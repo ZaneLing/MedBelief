@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_03346",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Complex regional pain syndrome\"}",
+      "generated_disease": "Complex regional pain syndrome",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "c29c38b3f6195dc676df55506a6144a877da5c6e3bd224b2433199e4d142d324"
+    }
+  ]
+}

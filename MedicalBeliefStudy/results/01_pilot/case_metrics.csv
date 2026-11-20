@@ -1,0 +1,13 @@
+case_id,gold,rounds,first_correct,stable_correct,regressions,recoveries,initial_prediction,final_prediction,final_correct,initial_gold_support,final_gold_support,min_candidate_mass
+ddx_train_0857360,Pneumonia,18,,,0,0,Bronchospasm / acute asthma exacerbation,Acute pulmonary edema,False,1.5381114337742474e-07,1.997414801735431e-05,0.9999998807907104
+ddx_train_0902216,Pneumonia,17,2,,1,1,Acute pulmonary edema,Acute pulmonary edema,False,0.1899033486843109,7.112274147402786e-07,0.9999929666519165
+ddx_train_0925484,Bronchitis,9,1,,1,1,Pneumonia,Pneumonia,False,0.44642162322998047,0.007084299344569445,0.999994158744812
+ddx_train_0915712,Bronchitis,9,,,0,0,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,False,2.3090711920303875e-07,9.313887130701914e-05,0.9999998807907104
+ddx_train_0875644,Bronchospasm / acute asthma exacerbation,10,0,0,0,0,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True,0.9999990463256836,0.9999986886978149,0.9999998807907104
+ddx_train_0858284,Bronchospasm / acute asthma exacerbation,9,0,0,0,0,Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation,True,0.9951426982879639,0.9999983310699463,0.9999995827674866
+ddx_train_0940128,Pulmonary embolism,9,1,1,0,1,Bronchospasm / acute asthma exacerbation,Pulmonary embolism,True,6.961992312426446e-06,0.9999946355819702,0.9999999403953552
+ddx_train_0851760,Pulmonary embolism,9,3,3,0,1,Bronchospasm / acute asthma exacerbation,Pulmonary embolism,True,4.2621588363545015e-05,0.9999991655349731,0.9999997615814209
+ddx_train_0868644,Spontaneous pneumothorax,9,8,8,0,1,Acute pulmonary edema,Spontaneous pneumothorax,True,0.0002598786959424615,0.48285621404647827,0.9999991655349731
+ddx_train_0937832,Spontaneous pneumothorax,9,2,6,1,2,Bronchospasm / acute asthma exacerbation,Spontaneous pneumothorax,True,0.00027798020164482296,0.9995356798171997,0.9999992847442627
+ddx_train_0874944,Acute pulmonary edema,11,7,10,1,2,Bronchospasm / acute asthma exacerbation,Acute pulmonary edema,True,1.0124847904080525e-05,0.9829756617546082,0.9999992847442627
+ddx_train_0857920,Acute pulmonary edema,12,,,0,0,Bronchospasm / acute asthma exacerbation,Pulmonary embolism,False,1.1726114053089987e-06,0.0010002603521570563,0.9999991059303284

@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_01091",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": true,
+      "listed": true,
+      "text": "Seborrheic dermatitis\"}",
+      "generated_disease": "Seborrheic dermatitis",
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "70f4a42b43ff11a6c84b831dd67206d019c72224f9db815a7f2a202a8fe728a0"
+    }
+  ]
+}

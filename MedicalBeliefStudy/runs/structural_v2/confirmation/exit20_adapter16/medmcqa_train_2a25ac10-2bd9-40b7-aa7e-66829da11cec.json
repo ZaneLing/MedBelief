@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_2a25ac10-2bd9-40b7-aa7e-66829da11cec",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Schorst syndrome\"}",
+      "generated_disease": "Schorst syndrome",
+      "stop": "eos",
+      "tokens": 4,
+      "prompt_sha256": "8e069940b3a60b6590146f49cfcd589fb4069141cb7b445353e189a486d796bf"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Schorst syndrome or hypercephension or other similar phausiforme syndrome or other non-linear abolentiformes or other non-linear abrogent orphans or other non-linear abolentoids or other non-arcaliformes or other non-arcaliformes or other non-carciforms",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "0600d4717e633d1a8921184df6115dd2d13c7c5c3926459d503ae75bd9591f8c"
+    }
+  ]
+}

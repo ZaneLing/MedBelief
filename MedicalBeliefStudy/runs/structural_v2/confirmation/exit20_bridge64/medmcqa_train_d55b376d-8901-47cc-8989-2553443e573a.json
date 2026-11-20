@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_d55b376d-8901-47cc-8989-2553443e573a",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Pendular\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "036d0da40afbe44999f7914c79d14634531dc0fc795703a31ad0bb648613ba54"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "parr's disease\"}",
+      "generated_disease": "parr's disease",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "b18b40d44e1bb23b7db2d61be7d26181e19975da492542a884fa545af408e719"
+    }
+  ]
+}

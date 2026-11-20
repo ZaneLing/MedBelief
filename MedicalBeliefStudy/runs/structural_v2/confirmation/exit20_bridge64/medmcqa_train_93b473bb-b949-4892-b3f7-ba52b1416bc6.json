@@ -1,0 +1,36 @@
+{
+  "case_id": "medmcqa_train_93b473bb-b949-4892-b3f7-ba52b1416bc6",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_bridge64",
+    "exit_layer": 20,
+    "bridge_file": "runs/structural_v2/bridge/rank64.npz"
+  },
+  "parameter_stats": {
+    "parameters": 1318153216,
+    "weight_bytes": 2636838912,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Dystomocococococ",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 8,
+      "prompt_sha256": "b5ecfc14fd6fedb49f79f29edc7c4590d866ad224f39c56e514fc4461519941a"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Cystogenic Pystal\"\"}",
+      "generated_disease": null,
+      "stop": "eos",
+      "tokens": 9,
+      "prompt_sha256": "715b6d175b98a1bf971769e1c2e67a03f9d0d3c89ab706a5ded6790c9fdf85e1"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "medqa_train_03285",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Chronic longening of an existing or new anegotential orphans orphans orphans\"} -- Note: This is an error error and should be an actual valid postponnent orphans orphans orphans. Actual real-life scenario would be an actual valid phausent orphans orlando orlando or",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "0306b6fb15249a282676c5581f8e6ccd5fce33717c16ba2bc2228ec880e7e7b4"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Pemphoxanemia\"}",
+      "generated_disease": "Pemphoxanemia",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "183f457743be8b9fa5ac6d8a47c36e90dd63020ad5936fe8e8f7d8eba245412a"
+    }
+  ]
+}

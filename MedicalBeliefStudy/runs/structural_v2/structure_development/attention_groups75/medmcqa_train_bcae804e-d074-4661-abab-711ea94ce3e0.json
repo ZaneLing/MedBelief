@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_bcae804e-d074-4661-abab-711ea94ce3e0",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Nasolabial cyst of minor polarized lipogland plica of left lateral nasal wall\",\"type\":\"nasal\",\"location\":\"nasal cavity inferior meatus\",\"description\":\"A well-circumscribed, lobulated mass of mixed echolucent/cystic on T2-weighted MRI with peripheral enhancement",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "e8bd6ae02dfb0d4accfef9ca1ea0e0e913af4c6615aca05298348f0219e09d6f"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Radiculopathy with possible cervical spondylosis and myelopathy\"}",
+      "generated_disease": "Radiculopathy with possible cervical spondylosis and myelopathy",
+      "stop": "eos",
+      "tokens": 17,
+      "prompt_sha256": "a93484ff92c622bfa29b5cc81d9988623313bdc3f2c202b993845d4538c082aa"
+    }
+  ]
+}

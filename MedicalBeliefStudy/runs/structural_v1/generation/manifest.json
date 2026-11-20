@@ -1,0 +1,143 @@
+{
+  "cases": [
+    "medqa_train_02486",
+    "medqa_train_04153",
+    "medqa_train_06434",
+    "medqa_train_02704",
+    "medqa_train_02058",
+    "medqa_dev_01005",
+    "medqa_train_01945",
+    "medqa_train_02537",
+    "medqa_train_09637",
+    "medqa_train_01291",
+    "medqa_train_04879",
+    "medqa_train_09165",
+    "medqa_dev_00855",
+    "medqa_train_01390",
+    "medqa_dev_00654",
+    "medqa_dev_00350",
+    "medqa_train_09864",
+    "medqa_train_02521",
+    "medqa_dev_00427",
+    "medqa_train_07740",
+    "medmcqa_train_9dd8e20a-0f91-4796-a7d3-aad496ee33da",
+    "medmcqa_train_6367b6ac-2c75-4dd4-aab9-4e69b0a76f73",
+    "medmcqa_train_b2259878-c7b8-454e-b491-59ece2ea4ba4",
+    "medmcqa_train_a27573cc-b861-4320-a0a7-061125f69421",
+    "medmcqa_train_2d6e6d86-98d1-4e79-a5ff-ae3a3978a3c0",
+    "medmcqa_train_f0829ed3-23ff-4eef-ab1d-b1733ca0752a",
+    "medmcqa_train_cc2b04d9-2c88-4afc-bc57-3b8d89fa9c45",
+    "medmcqa_train_147b989f-a02a-4a4d-ac4d-5409e608bff0",
+    "medmcqa_train_9ed1ec09-f9da-4b2c-88fd-c2c32b3ee273",
+    "medmcqa_train_257a3832-995c-4d20-a92b-e85df53823ca",
+    "medmcqa_train_58ec7b80-a7b1-4cb1-b23a-4e197a7b7b84",
+    "medmcqa_train_6683f089-c480-4c20-a8be-cc5bb8105d32",
+    "medmcqa_train_f4134626-b155-4138-b723-8e30f79a0622",
+    "medmcqa_train_7568d84f-7b71-4f9b-9eaf-8b67f1a98ac2",
+    "medmcqa_train_dc91e15c-efbf-486e-8479-3f014b9e5197",
+    "medmcqa_train_649e1475-8944-417a-b984-9067c9f203a2",
+    "medmcqa_train_18881355-aacf-4a2a-bb5f-fb9ad1fd1791",
+    "medmcqa_train_120338f9-1d30-45b3-9ef0-d4e3963d5cd0",
+    "medmcqa_train_c4b3f43a-bcd1-4002-b997-58a6060733e3",
+    "medmcqa_train_80ec88a7-7516-41af-85c2-eeaf6d551b96",
+    "mmlu_professional_medicine_validation_0009",
+    "mmlu_professional_medicine_test_0111",
+    "mmlu_professional_medicine_test_0253",
+    "mmlu_professional_medicine_test_0007",
+    "mmlu_professional_medicine_test_0246",
+    "mmlu_professional_medicine_test_0029",
+    "mmlu_professional_medicine_test_0236",
+    "mmlu_professional_medicine_test_0069",
+    "mmlu_professional_medicine_test_0212",
+    "mmlu_professional_medicine_test_0039",
+    "mmlu_professional_medicine_test_0025",
+    "mmlu_professional_medicine_dev_0001",
+    "mmlu_professional_medicine_validation_0010",
+    "mmlu_professional_medicine_test_0223",
+    "mmlu_professional_medicine_test_0177",
+    "mmlu_professional_medicine_test_0001",
+    "mmlu_professional_medicine_test_0086",
+    "mmlu_professional_medicine_test_0100",
+    "mmlu_professional_medicine_test_0156",
+    "mmlu_professional_medicine_test_0251"
+  ],
+  "candidates": [
+    {
+      "name": "baseline"
+    },
+    {
+      "name": "early_exit",
+      "exit_layer": 27
+    },
+    {
+      "name": "drop_mlp_2",
+      "drop_mlps": [
+        25,
+        26
+      ]
+    },
+    {
+      "name": "linear_mlp_2_r16",
+      "replace_mlps": [
+        25,
+        26
+      ],
+      "rank": 16
+    },
+    {
+      "name": "drop_block_1",
+      "drop_blocks": [
+        27
+      ]
+    },
+    {
+      "name": "anchor_heads_8",
+      "anchor_drop_heads": {
+        "14": [
+          8,
+          12
+        ],
+        "22": [
+          2
+        ],
+        "17": [
+          9,
+          14,
+          2
+        ],
+        "15": [
+          6
+        ],
+        "12": [
+          13
+        ]
+      }
+    },
+    {
+      "name": "depth_matched_random_mlp_2",
+      "drop_mlps": [
+        28,
+        24
+      ]
+    },
+    {
+      "name": "block_influence_2",
+      "drop_blocks": [
+        26,
+        14
+      ]
+    },
+    {
+      "name": "linear_mlp_2_r64",
+      "replace_mlps": [
+        25,
+        26
+      ],
+      "rank": 64
+    }
+  ],
+  "source_sha256": "8687a0bdf6c962f3507195ff3c215675d169dc818127fd0ed3077180a3815182",
+  "selection_sha256": "44b2a576c9ada997d5e870bdd83949c4359a1317d33551275cae587e9e93cb42",
+  "limit": 64,
+  "api_cost_usd": 0
+}

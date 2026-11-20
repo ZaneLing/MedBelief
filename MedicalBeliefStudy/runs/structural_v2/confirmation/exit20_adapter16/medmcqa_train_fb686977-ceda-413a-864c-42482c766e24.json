@@ -1,0 +1,38 @@
+{
+  "case_id": "medmcqa_train_fb686977-ceda-413a-864c-42482c766e24",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "exit20_adapter16",
+    "exit_layer": 20,
+    "adapter_file": "runs/structural_v2/adapters/exit20_adapter16/best.safetensors",
+    "adapter_kind": "bottleneck",
+    "adapter_rank": 16
+  },
+  "parameter_stats": {
+    "parameters": 1317954576,
+    "weight_bytes": 2636044352,
+    "layers": 20
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Vneystechy's syndrome or hypercephension or hypercepheningocephritis or hypercephinaliacal disorder or hypercephinaliacal disorder with anemia or other stress factors or other stress factors including stress out or stress out plus other stress factors including stress out and/or other stress factors including stress out",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "a94eb6385547dd2c1484aaa4957e928b9e03971a7660507def7aac8a8f9bf258"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Chilisburg syndrome or hypercephension or hypercepheningocephritis or hypercephinal disorder or hypercephinal disorder with intercesses and/or hypercephinal disorder with intercesses and/or other forms of hypercephemia or other forms of hypercephemia involving an large central body or an large central",
+      "generated_disease": null,
+      "stop": "max_tokens",
+      "tokens": 64,
+      "prompt_sha256": "2917d0d2b41afef871529677de0893c8793ef3f76e40f24ccee06971df0f6c7d"
+    }
+  ]
+}

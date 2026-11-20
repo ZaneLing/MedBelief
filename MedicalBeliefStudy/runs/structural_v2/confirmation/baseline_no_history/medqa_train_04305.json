@@ -1,0 +1,24 @@
+{
+  "case_id": "medqa_train_04305",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "baseline_no_history"
+  },
+  "parameter_stats": {
+    "parameters": 1720574976,
+    "weight_bytes": 3441149952,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "none",
+      "correct": false,
+      "listed": true,
+      "text": "Primary hyperparathyroidism\"}",
+      "generated_disease": "Primary hyperparathyroidism",
+      "stop": "eos",
+      "tokens": 7,
+      "prompt_sha256": "0f1265faf32b0f4cf7f73db5e888867bdf07a480f41f2f530ecfc897b377e8f6"
+    }
+  ]
+}

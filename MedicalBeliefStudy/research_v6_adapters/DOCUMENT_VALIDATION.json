@@ -1,0 +1,200 @@
+{
+  "complete": true,
+  "table_issues": [],
+  "markdown_files": 40,
+  "local_links_checked": 188,
+  "missing": [],
+  "png_figures": [
+    {
+      "path": "results/47_structure_search/figures/development_matrix.png",
+      "width": 2560,
+      "height": 1600
+    },
+    {
+      "path": "results/48_adapter_training/figures/learning_curves.png",
+      "width": 1920,
+      "height": 720
+    },
+    {
+      "path": "results/49_structure_confirmation/figures/confirmation_overview.png",
+      "width": 2560,
+      "height": 960
+    },
+    {
+      "path": "results/49_structure_confirmation/figures/training_vs_structure.png",
+      "width": 1440,
+      "height": 720
+    },
+    {
+      "path": "results/49_structure_confirmation/figures/scoring_audit.png",
+      "width": 1760,
+      "height": 720
+    },
+    {
+      "path": "results/49_structure_confirmation/figures/matched_output_control.png",
+      "width": 1760,
+      "height": 720
+    },
+    {
+      "path": "results/50_structure_trajectories/figures/medmcqa_train_7efe9080-b0da-44c6-a327-ced795f29370.png",
+      "width": 2080,
+      "height": 1920
+    },
+    {
+      "path": "results/50_structure_trajectories/figures/vascular_case_explained.png",
+      "width": 1920,
+      "height": 1600
+    },
+    {
+      "path": "results/50_structure_trajectories/figures/medqa_train_06203.png",
+      "width": 2080,
+      "height": 1920
+    },
+    {
+      "path": "results/50_structure_trajectories/figures/medqa_train_06772.png",
+      "width": 2080,
+      "height": 1920
+    },
+    {
+      "path": "results/50_structure_trajectories/figures/medqa_train_01035.png",
+      "width": 2080,
+      "height": 1920
+    },
+    {
+      "path": "results/50_structure_trajectories/figures/medqa_train_06162.png",
+      "width": 2080,
+      "height": 1920
+    },
+    {
+      "path": "results/50_structure_trajectories/figures/medmcqa_train_8018614f-f4dc-4112-abce-c7630b165d24.png",
+      "width": 2080,
+      "height": 1920
+    },
+    {
+      "path": "results/50_structure_trajectories/figures/medqa_train_03083.png",
+      "width": 2080,
+      "height": 1920
+    },
+    {
+      "path": "results/50_structure_trajectories/figures/medmcqa_train_25d7527c-19a0-44d3-ae1d-3c9bcd27531d.png",
+      "width": 2080,
+      "height": 1920
+    },
+    {
+      "path": "results/50_structure_trajectories/figures/medmcqa_train_97f3ffe1-7865-4843-ae90-530f74a04d9f.png",
+      "width": 2080,
+      "height": 1920
+    },
+    {
+      "path": "results/50_structure_trajectories/figures/medqa_train_02377.png",
+      "width": 2080,
+      "height": 1920
+    },
+    {
+      "path": "results/50_structure_trajectories/figures/medmcqa_train_7ac0b225-cb65-4bb4-97e4-7836112d67dc.png",
+      "width": 2080,
+      "height": 1920
+    },
+    {
+      "path": "results/50_structure_trajectories/figures/medqa_train_02981.png",
+      "width": 2080,
+      "height": 1920
+    },
+    {
+      "path": "results/50_structure_trajectories/figures/trajectory_preservation.png",
+      "width": 1920,
+      "height": 800
+    },
+    {
+      "path": "results/50_structure_trajectories/figures/medmcqa_train_ebf37a52-619f-4ff5-aaf3-943c615f5097.png",
+      "width": 2080,
+      "height": 1920
+    },
+    {
+      "path": "results/50_structure_trajectories/figures/medqa_train_06443.png",
+      "width": 2080,
+      "height": 1920
+    },
+    {
+      "path": "results/50_structure_trajectories/figures/medmcqa_train_e0b1fcff-bcd8-45d8-83e7-8c06b0a6104d.png",
+      "width": 2080,
+      "height": 1920
+    },
+    {
+      "path": "results/50_structure_trajectories/figures/medmcqa_train_3c860ea8-ae63-4bad-9032-90a0c570bb2c.png",
+      "width": 2080,
+      "height": 1920
+    },
+    {
+      "path": "results/50_structure_trajectories/figures/medmcqa_train_d69f4de3-e358-4335-af72-b0d95fb9d515.png",
+      "width": 2080,
+      "height": 1920
+    },
+    {
+      "path": "results/50_structure_trajectories/figures/medmcqa_train_49fe11d4-b070-4ee9-ba0e-909dad1d38ff.png",
+      "width": 2080,
+      "height": 1920
+    },
+    {
+      "path": "results/50_structure_trajectories/figures/medqa_dev_00157.png",
+      "width": 2080,
+      "height": 1920
+    },
+    {
+      "path": "results/50_structure_trajectories/figures/medmcqa_train_d6bb3a72-622f-47fa-a7d8-dd439dae5b27.png",
+      "width": 2080,
+      "height": 1920
+    },
+    {
+      "path": "results/50_structure_trajectories/figures/medqa_train_01997.png",
+      "width": 2080,
+      "height": 1920
+    },
+    {
+      "path": "results/50_structure_trajectories/figures/medmcqa_train_202cb4ea-c9ef-4e19-868c-eaae7fca2262.png",
+      "width": 2080,
+      "height": 1920
+    },
+    {
+      "path": "results/50_structure_trajectories/figures/medqa_train_04812.png",
+      "width": 2080,
+      "height": 1920
+    },
+    {
+      "path": "results/50_structure_trajectories/figures/medqa_train_09305.png",
+      "width": 2080,
+      "height": 1920
+    }
+  ],
+  "source_files": 27,
+  "source_sha256": {
+    "src/phase100_structure2_timing.py": "30d0f235594cc78a700f9acde04d7453183c8fdc94f238ba906fefe9681bf59c",
+    "src/phase101_structure2_trajectories.py": "ea40c4b45b492831932fb5ec7c81a0c06df11ffc443ba72996bee94dd27e74df",
+    "src/phase102_structure2_development_report.py": "4634394259e0c543a76f6904fe964852245518fc8fde92803bbdb07f9cfc44d9",
+    "src/phase103_structure2_confirmation_report.py": "6599db2457e314f087ece63f0a076ca663d8942b6c4e01067546da4e11081738",
+    "src/phase104_structure2_trajectory_report.py": "e3177fb0bb5a6a1db853ef3d934f9e98590492e8c0815f7a26608b5a8076fd2e",
+    "src/phase105_structure2_validate.py": "e7f7a7f1e92b57bfa33bd13907ddc958a873668feb8a1a0066492de40a8846ac",
+    "src/phase106_structure2_synthesize.py": "c822b559bb59c64769eb91aced835f53ac4f4ff2323fe052f06465d5ab8638b6",
+    "src/phase107_structure2_matched_output.py": "9d9e089b5f706fe73136aab3aa6d70b14f0a9bb931631fbde34b7916965aa145",
+    "src/phase90_structure2_prepare.py": "56fd80bb4c0d60b160ecafbedae7eb0ba672825a0086df6286e34b14f8dcefbc",
+    "src/phase91_structure2_calibrate.py": "5f1900daaf25cb08b4d3d4ef33d7836d96101f711e61f37ec81606905af78731",
+    "src/phase92_structure2_search.py": "88455438a31667628ad23549898edf37aa49fc73d8aa05c13d0d58110eb391b8",
+    "src/phase93_structure2_select_pruning.py": "89761d24e0956d9dcf949f8fd2354777ab9d941e2425f3bce4c89dd5eaf5d52c",
+    "src/phase94_structure2_features.py": "9ce5e7351e65cae7f52bbb6b55fd11ad627acddbe4104abd2f931f0e8617a069",
+    "src/phase95_structure2_train.py": "e5349339970de473e0f9b330541599c4b209dee0c168a82f236d30d8f5e102ed",
+    "src/phase96_structure2_bridge.py": "dcabcc425cd5e49c2518dfc413da6da1dae8d032ae541aa4a8ab266bfdbb075e",
+    "src/phase97_structure2_adapter_eval.py": "2eb31a5358cfd2739c05d3de89681a4f00337394d09071b8c291f53bd1bde5ee",
+    "src/phase98_structure2_freeze.py": "20146e18b11fa8e1d932c5085029daed9f7a6e1c78fb689f3b521fc71726ed72",
+    "src/phase99_structure2_confirm.py": "d800315a90c76879dbae4dda2955d2043eacfe00eecf2abb6a9aabb3e362bd18",
+    "src/structure2_analysis.py": "69204f6a781ca2aaa5dbcc60469b91c904067208637d849d99ebae38ce1e256b",
+    "src/structure2_compat.py": "823d95b6bf6bbdca0aa25b4fee7a1b76a844fdfd308307d7a66e2a37a807e9a6",
+    "src/structure2_core.py": "22bb02183f121ea673f1dc57fea99bc225b1d814a9f46be63318f898f5673b48",
+    "src/structure2_decode.py": "365f92564a4f099b43ca688286b18bbed588ea0870b78cd8526944e74be0e6ec",
+    "src/structure2_demo.py": "bb3808cce8a105e97976f7e4fc1c789a97cc116dc68aba921a81cd9aa5966c8b",
+    "src/structure2_explain_case.py": "91ead9177484fb3c7851e0076b66a43791f01f895f0a86efe2813f1986c66b05",
+    "src/structure2_scoring.py": "d4417720da2cb5d2cc079faff44e5f5a82b3aae3be781282ae9689661c83d75d",
+    "src/structure2_source_audit.py": "a1a3b92e1f3d76b0e010cf172834e27fe8663e0338ee7393e107e7b8be4462a3",
+    "src/structure2_validate_documents.py": "ac0f7e85013947e021e31eff9bd2d7351436f8635be9083a9998353e49f27e58"
+  },
+  "api_cost_usd": 0
+}

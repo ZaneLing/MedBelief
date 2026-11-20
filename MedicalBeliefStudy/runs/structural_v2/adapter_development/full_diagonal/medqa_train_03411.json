@@ -1,0 +1,37 @@
+{
+  "case_id": "medqa_train_03411",
+  "dataset": "MedQA",
+  "configuration": {
+    "name": "full_diagonal",
+    "adapter_file": "runs/structural_v2/adapters/full_diagonal/best.safetensors",
+    "adapter_kind": "diagonal",
+    "adapter_rank": 0
+  },
+  "parameter_stats": {
+    "parameters": 1720579072,
+    "weight_bytes": 3441166336,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": true,
+      "listed": true,
+      "text": "Primary polydipsia\"}",
+      "generated_disease": "Primary polydipsia",
+      "stop": "eos",
+      "tokens": 6,
+      "prompt_sha256": "d9ba6d42531472c4848bdedb337ba1a8d7d8f74fc85b014ea451077166981ab5"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": true,
+      "text": "Beer potomania\"}",
+      "generated_disease": "Beer potomania",
+      "stop": "eos",
+      "tokens": 5,
+      "prompt_sha256": "219406eef36b37cc00233bfc0604c94e38e60cf078d5d4f421076bf9b0a9ff41"
+    }
+  ]
+}

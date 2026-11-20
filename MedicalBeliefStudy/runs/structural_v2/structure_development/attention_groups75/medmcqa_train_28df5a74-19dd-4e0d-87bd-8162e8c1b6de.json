@@ -1,0 +1,35 @@
+{
+  "case_id": "medmcqa_train_28df5a74-19dd-4e0d-87bd-8162e8c1b6de",
+  "dataset": "MedMCQA",
+  "configuration": {
+    "name": "attention_groups75",
+    "attention_keep_groups": 6
+  },
+  "parameter_stats": {
+    "parameters": 1632494592,
+    "weight_bytes": 3264989184,
+    "layers": 28
+  },
+  "conditions": [
+    {
+      "condition": "neutral",
+      "correct": false,
+      "listed": false,
+      "text": "Meningoceles and encephalocele of uncertain etiology with associated ventricular system abnormalities\"}",
+      "generated_disease": "Meningoceles and encephalocele of uncertain etiology with associated ventricular system abnormalities",
+      "stop": "eos",
+      "tokens": 20,
+      "prompt_sha256": "5368c0425f80ccb36ad6703fdf95ecabfa4ad98f3940669ea868ca17def52bb7"
+    },
+    {
+      "condition": "wrong",
+      "correct": false,
+      "listed": false,
+      "text": "Arterial hypoperfusion to the retinal fundus with evidence of papilledema and papilledema\"}",
+      "generated_disease": "Arterial hypoperfusion to the retinal fundus with evidence of papilledema and papilledema",
+      "stop": "eos",
+      "tokens": 23,
+      "prompt_sha256": "5791b34cb2fd92a6e14e169c836bcf1406c1622d31f87efee73e5348186ebb0e"
+    }
+  ]
+}
