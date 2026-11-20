@@ -13,5 +13,5 @@
 - 每阶段保留原始生成、参数、环境、病例清单、概率定义、统计、图和论文式结果Markdown。临床来源答案与中间轮次真值要区分。
 - 不需要医生审核才能研究LLM的判断行为；不把考试题结果称为真实临床诊断验证。
 - 默认本地推断，模型API费用0。不要将凭据写入项目或提交Git。
-- GitHub大数据包按artifacts/manifest.json从私有Release恢复；模型从固定revision下载。不要提交模型权重、虚拟环境或全部激活到普通Git。
+- 数据从用户拷贝来的MedBelief_ACL_data_20261120.zip恢复，先读HANDOFF.md，使用tools/restore_data.py并检查artifacts/manifest.json。用户明确要求数据不上GitHub；不要重新启动Release或Git大文件上传。公共模型从固定revision下载。
 - 计算应按依赖顺序进行；GPU任务和测速串行。用户未要求多代理协作时不启动子代理。

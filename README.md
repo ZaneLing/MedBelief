@@ -18,17 +18,18 @@
 
 局部缩窄减少13.16%参数；同输出规则下，在错误历史条件出现小幅改善，需新病例确认。大幅删层和本轮输出端适配器恢复失败。严格字符串评分会夸大部分收益，正文保留规范化检查，不能把格式修复写成医学能力提升。
 
-## 仓库和大文件
+## 代码与本地数据包
 
-论文、代码、报告、表图、固定病例和最新原始生成保存在Git；约9.46GB的ACL原始状态、训练特征及来源文件保存在同一私有仓库的 [Release](https://github.com/ZaneLing/MedBelief/releases/tag/acl-v0.10-snapshot-20261120)。只继续最新实验，默认恢复约209MB的 `current` 数据包即可。
+论文、代码、报告、表图、固定病例和最新原始生成已经推送到GitHub。**完整数据通过本地 `MedBelief_ACL_data_20261120.zip` 拷贝，不上传GitHub。** ZIP同时保留早期医学实验的原始运行、逐层状态和前身项目结果；准确大小与校验码见[数据包记录](artifacts/LOCAL_DATA_PACKAGE.json)。
 
 ```bash
 git clone https://github.com/ZaneLing/MedBelief.git
 cd MedBelief
 python3 tools/check_snapshot.py --profile git
-python3 tools/restore_artifacts.py --profile current
+python3 tools/restore_data.py /你的拷贝路径/MedBelief_ACL_data_20261120.zip --profile all
+python3 tools/check_snapshot.py --profile all
 ```
 
-恢复私有Release需要本机GitHub登录；支持 `gh auth login` 或Git凭据。模型权重与虚拟环境需要重新安装，不复制旧电脑的环境。[迁移步骤](HANDOFF.md) · [文件范围与未包含项](docs/SNAPSHOT_SCOPE.md)。
+克隆私有仓库需要有权限的GitHub账号；恢复本地ZIP不需要网络或GitHub登录。模型权重与虚拟环境按固定版本重新安装。[迁移步骤](HANDOFF.md) · [文件范围](docs/SNAPSHOT_SCOPE.md)。
 
 旧科学脚本、数据、选择清单和结果按字节保留。新的迁移工具集中在 `tools/`，新实验写到 `new_runs/`，不覆盖冻结记录。本次交接目标为Apple芯片Mac，沿用原来的MLX显卡后端。NVIDIA/CUDA并未在本次交接中移植。

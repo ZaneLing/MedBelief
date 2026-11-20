@@ -8,7 +8,7 @@ def digest(p):
   for b in iter(lambda:f.read(8*1024*1024),b''):h.update(b)
  return h.hexdigest()
 def main():
- ap=argparse.ArgumentParser();ap.add_argument('--profile',choices=['git','current','acl','all'],default='git');a=ap.parse_args();m=json.loads((ROOT/'artifacts/manifest.json').read_text());groups={'git':set(),'current':{'current-v010'},'acl':{'current-v010','acl-evidence-v008-v009'},'all':None}[a.profile];assets={z['name'] for z in m['assets'] if groups is None or z['group'] in groups};required=[r for r in m['files'] if r['storage']=='git' or r.get('asset') in assets];bad=[]
+ ap=argparse.ArgumentParser();ap.add_argument('--profile',choices=['git','current','acl','all'],default='git');a=ap.parse_args();m=json.loads((ROOT/'artifacts/manifest.json').read_text());groups={'git':set(),'current':{'current-v010'},'acl':{'current-v010','acl-evidence-v008-v009'},'all':None}[a.profile];required=[r for r in m['files'] if r['storage']=='git' or groups is None or r['group'] in groups];bad=[]
  for r in required:
   p=ROOT/r['path']
   if not p.exists() or digest(p)!=r['sha256']:bad.append(r['path'])

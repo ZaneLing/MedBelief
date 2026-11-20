@@ -1,35 +1,19 @@
-# 这个独立目录包含什么
+# 交接范围
 
-根目录保留原项目相对路径，避免冻结代码、病例和结果链接失效。
+**GitHub存代码和论文；完整研究数据用本地ZIP拷贝，不上传GitHub。**
 
-| 内容 | 存放位置 |
+| 内容 | 位置 |
 |---|---|
-| 当前ACL论文、方法和历史稿 | MedicalBeliefStudy/acl_paper |
-| 医学信念实验代码、结果、全部阶段报告 | MedicalBeliefStudy/src、results、research_*、protocol |
-| 固定来源病例、划分、原题答案、评分审计 | MedicalBeliefStudy/data |
-| 当前22配置与400例完整生成、通道排名、小适配器权重 | MedicalBeliefStudy/runs/structural_v2，随Git提供 |
-| 当前训练特征、逐层状态 | Release current-v010，默认恢复 |
-| v0.8—v0.9多来源机制和结构实验完整原始记录 | Release acl-evidence-v008-v009 |
-| 全量来源文件、早期分析数组 | Release source-data、historical-analysis-arrays |
-| 原模型下载记录与环境锁定 | MedicalBeliefMechanisms/protocol、requirements* |
-| 早期数据准备的源码依赖 | ClinicalBelief、MedicalBelief1_7B、MedicalBeliefTrajectories |
+| 当前ACL论文、相关工作、方法及历史稿 | MedicalBeliefStudy/acl_paper |
+| 源码、阶段报告、统计表图、固定病例和最新生成 | GitHub已有对应目录 |
+| 最新训练特征、每层状态、全部早期医学实验原始记录 | 本地ZIP，恢复后回到原相对路径 |
+| 前身项目的数据、原始运行和ClinicalBelief训练产物 | 本地ZIP中的MedicalBeliefMechanisms、MedicalBelief1_7B、MedicalBeliefTrajectories、ClinicalBelief |
+| 固定公共模型版本与环境配置 | MedicalBeliefMechanisms/protocol、requirements和根目录tools |
 
-本快照纳入 **35,667** 个原科学文件。随Git复制的源文件合计约 **468.2 MB**；15个数据包合计约 **9.46 GB**。每个文件和数据包均在[清单](../artifacts/manifest.json)记录字节数与SHA-256。
+本地ZIP覆盖上述五个医学研究项目的77,004个科学文件，包括早期原始运行和ClinicalBelief已有训练产物。ZIP为20,734,524,357字节（约20.73GB），解压内容约22.01GB。原电脑的研究文件不修改。
 
-为避免长连接上传超时，其中9个大包分成36个约192MiB的传输分片；其余6个包保持整包。因此Release包含42个数据文件，以及清单和校验码2个附属文件。恢复工具自动逐片验证、合并，再按原包SHA-256检查；合并成功后删除分片缓存，保留完整压缩包。病例和实验文件不因分片而改变。
+准确文件数、大小和ZIP校验码见 [LOCAL_DATA_PACKAGE.json](../artifacts/LOCAL_DATA_PACKAGE.json)。[manifest.json](../artifacts/manifest.json)逐文件记录路径、字节数、SHA-256和恢复分组；ZIP内部也包含同一份清单。打包后重新读取每个ZIP条目，核对解压后的SHA-256。
 
-## 有意不复制的部分
+不包含公共基础模型权重、虚拟环境、平台工具和缓存、`.env`及凭据、重复的旧交付压缩包，以及非医学项目。小适配器和ClinicalBelief已有训练产物属于实验结果，已经包含。公共基础模型按固定revision下载并校验。
 
-- 公共模型权重：按固定Hugging Face revision重新下载，并检查原散列。
-- 虚拟环境、平台工具、缓存、`.env`和凭据：新电脑重新安装。
-- 重复的旧交付ZIP：论文、图和源码已分目录保存。
-- v0.8之前的全部原始激活缓存、前身项目原始运行缓存，以及独立ClinicalBelief模型/训练输出：不是当前ACL续跑所需，仍保留在原电脑。相应历史报告、科学源码和固定病例保留。本快照不能冒称整个Seq目录的逐字全备份。
-- 非医学的摸球/随机性等早期项目：不属于本次ACL医学信念迁移。
-
-这些排除项不影响最新v0.10恢复、阶段102—106统计、结构原型重放或继续新病例实验。完整恢复v0.8/v0.9原始观测使用 `--profile acl`。
-
-## 为什么把大状态放Release
-
-GitHub普通Git不接受超过100MiB的单文件，并建议仓库保持较小；官方支持用Release分发大二进制文件。[GitHub说明](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github)。本项目以代码和科学结果为Git主内容，原始内部状态以数据包恢复；所有资产继承当前私有仓库的访问权限。
-
-原数据来源和模型遵循各自原有许可，本次整理不另行替第三方数据授予许可。原题及来源索引保留在病例字段、数据manifest和既有相关工作中。
+源码中的原数据来源和许可信息保持原样，本次整理不改变第三方数据许可。

@@ -23,14 +23,14 @@ cd MedBelief
 python3 tools/check_snapshot.py --profile git
 ```
 
-无需从旧电脑复制 `.env`、API密钥、虚拟环境或模型缓存。本项目本轮使用本地模型，模型API费用为0。
+从旧电脑拷贝 `MedBelief_ACL_data_20261120.zip`，可放到移动硬盘或新Mac任意位置。无需复制 `.env`、API密钥、虚拟环境或模型缓存。本项目本轮使用本地模型，模型API费用为0。
 
 ## 3. 建立两套环境
 
-使用原生Apple Silicon终端，`uname -m` 应输出 `arm64`。如尚未安装所需Python和GitHub CLI，可用Homebrew：
+使用原生Apple Silicon终端，`uname -m` 应输出 `arm64`。如尚未安装所需Python，可用Homebrew：
 
 ```bash
-brew install python@3.11 python@3.13 gh
+brew install python@3.11 python@3.13
 python3.11 tools/setup_env.py analysis
 python3.13 tools/setup_env.py mlx
 ```
@@ -46,23 +46,23 @@ python3.13 tools/setup_env.py mlx
 MedicalBeliefMechanisms/.runtime_mlx/bin/python -c 'import mlx.core as mx; print(mx.device_info())'
 ```
 
-## 4. 恢复当前实验所需数据
+## 4. 从本地ZIP恢复数据
 
-代码、病例、完整生成文本、通道排名和小模块权重已经随Git下载。训练特征与每层原始状态在Release数据包中。
+代码、固定病例、完整生成文本、通道排名和小模块权重已经随Git下载。用户要求大数据不上传GitHub，直接拷贝ZIP；以下操作完全离线。
 
 ```bash
-# 如gh未登录且Git凭据不可用，先运行：gh auth login
-python3 tools/restore_artifacts.py --profile current
-python3 tools/check_snapshot.py --profile current
+# 将示例路径替换为实际ZIP位置；路径包含空格时保留引号。
+python3 tools/restore_data.py "/你的拷贝路径/MedBelief_ACL_data_20261120.zip" --profile all
+python3 tools/check_snapshot.py --profile all
 ```
 
-`current`约209MB，足够继续v0.10和重跑阶段102—106的统计。需要复核v0.8/v0.9的内部通路时用 `--profile acl`；需要全部已打包来源文件和历史分析数组时用 `--profile all`。每个文件均按原快照SHA-256检查；恢复工具不会覆盖内容不同的已有实验文件。
+`all`恢复全部已打包的医学研究文件，包括早期原始实验。只想先重放最新阶段，可把两条命令的 `--profile all` 换成 `--profile current`；只提取最新阶段所需文件，但仍需完整拷贝同一个ZIP。工具先检查ZIP完整性，再逐文件核对SHA-256；已经相同的文件会跳过，内容被改过的实验文件不会被覆盖。
 
-部分历史大包在Release上分片存放，工具会自动下载、核验并合并；成功下载的分片可在重试时复用。继续最新阶段不需要先下载全部9.46GB历史包。
+[数据包大小与SHA-256](artifacts/LOCAL_DATA_PACKAGE.json) · [所有文件清单](artifacts/manifest.json) · [包含及未包含的内容](docs/SNAPSHOT_SCOPE.md)。
 
-[所有数据包](artifacts/manifest.json) · [包含及未包含的内容](docs/SNAPSHOT_SCOPE.md)。
+全量恢复建议预留约50GB空闲空间，用于ZIP、解压文件、模型和环境。
 
-如果浏览器能访问GitHub，但命令行下载很慢或超时，先检查终端是否沿用本机已有的网络代理。macOS的系统代理不一定自动传给`git`/`gh`；只在需要时为当前终端设置与系统相同的`HTTPS_PROXY`，不要把代理凭据写入仓库。
+不要上传这个ZIP到GitHub，也不要恢复虚拟环境或公共模型缓存。整个文件包是ZIP64格式，可由本工具或macOS归档工具读取；优先使用上述命令，避免解压到错误目录或覆盖后来修改的文件。
 
 ## 5. 下载固定版本模型
 

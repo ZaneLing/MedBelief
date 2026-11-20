@@ -40,5 +40,9 @@
     "elapsed_replay_seconds": 9.64,
     "lockfile": "MedicalBeliefMechanisms/requirements-mlx-lock.txt",
     "host": "same Apple Silicon Mac, newly created virtual environment"
-  }
+  },
+  "delivery": "GitHub code and papers plus local ZIP; no data release",
+  "local_zip_report": "artifacts/LOCAL_DATA_PACKAGE.json",
+  "all_zip_entries_sha256_verified": 77004,
+  "local_zip_restore_test": "docs/LOCAL_ZIP_RESTORE_VALIDATION.json"
 }
