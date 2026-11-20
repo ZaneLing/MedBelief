@@ -38,7 +38,7 @@ python3.13 tools/setup_env.py mlx
 - CPU统计环境：`MedicalBeliefMechanisms/.runtime/bin/python`。
 - Apple GPU推断环境：`MedicalBeliefMechanisms/.runtime_mlx/bin/python`。
 
-保留这些虚拟环境入口，不把它们改成指向旧电脑解释器的绝对路径。原CPU环境版本见 `requirements/analysis.txt`；原GPU主要版本见 `requirements/mlx.txt`，完整历史锁定记录仍在 `MedicalBeliefMechanisms/requirements-mlx-lock.txt`。
+保留这些虚拟环境入口，不把它们改成指向旧电脑解释器的绝对路径。CPU统计依赖版本见 `requirements/analysis.txt`；`requirements/mlx.txt`直接使用原GPU环境的完整锁定记录 `MedicalBeliefMechanisms/requirements-mlx-lock.txt`。
 
 检查Apple GPU：
 

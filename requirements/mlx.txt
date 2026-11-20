@@ -1,7 +1,3 @@
-# Original Apple GPU runtime; use native Apple Silicon Python 3.13.
-mlx==0.32.4
-mlx-lm==0.32.2
-numpy==2.5.5
-safetensors==0.8.0
-transformers==5.23.0
-huggingface_hub==2.4.0
+# Original Apple GPU runtime, including transitive dependencies.
+# Use native Apple Silicon Python 3.13.
+-r ../MedicalBeliefMechanisms/requirements-mlx-lock.txt

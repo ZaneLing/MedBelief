@@ -1,0 +1,37 @@
+{
+  "complete": true,
+  "target_environment": "Apple Silicon Mac, native arm64, MLX GPU",
+  "copied_scientific_git_files": 9489,
+  "restored_current_artifact_files": 1033,
+  "all_copied_and_current_restored_sha256_match": true,
+  "frozen_git_blob_check": {
+    "files": 9489,
+    "all_git_blobs_identical_to_source_bytes": true
+  },
+  "copied_directory_full_phase105_validation_passed": true,
+  "replay": {
+    "case_id": "medqa_train_04812",
+    "condition": "wrong",
+    "candidate": "pruned_constrained",
+    "matches_original_raw_text_prompt_hash_tokens_and_parameters": true
+  },
+  "temporary_model_link_removed": true,
+  "test_runtime": "Original validated local Mac interpreters; copied project path. Fresh-computer installation is documented, not claimed already run on a second computer.",
+  "model_weights_and_environments_excluded_from_git": true,
+  "source_workspace_unchanged": true,
+  "api_cost_usd": 0,
+  "dependency_resolution": {
+    "analysis": {
+      "successful": true,
+      "install_performed": false,
+      "target": "native Apple Silicon, Python 3.11"
+    },
+    "mlx": {
+      "successful": true,
+      "install_performed": false,
+      "target": "native Apple Silicon, Python 3.13"
+    }
+  },
+  "new_migration_tools_syntax_and_cli_help_checked": true,
+  "new_document_relative_links_exist": true
+}
